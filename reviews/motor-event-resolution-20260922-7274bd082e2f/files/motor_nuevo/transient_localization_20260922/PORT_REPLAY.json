@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "queries": 166,
+  "maximum_absolute_residual": 3.469446951953614e-18,
+  "tolerance": 1e-12,
+  "both_histories_replayed_in_same_CUDA_port": true,
+  "independent_reference": "SciPy expm of triangular2x2 dynamics between recorded post-clipping jumps",
+  "claim": "Same histories produce the specified filter response; does not validate source event-time accuracy or biological equivalence."
+}

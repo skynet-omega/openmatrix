@@ -1,0 +1,83 @@
+{
+  "snapshots": {
+    "1": {
+      "normalized_state_max_abs": 2.183440538261472e-06,
+      "gate_max_abs": 2.863026939858848e-06,
+      "voltage_max_abs_mV": 9.765766250779961e-06,
+      "changed_discrete_fields": []
+    },
+    "5": {
+      "normalized_state_max_abs": 1.7416722058280487e-05,
+      "gate_max_abs": 3.348297878624784e-06,
+      "voltage_max_abs_mV": 1.4632334895736676e-05,
+      "changed_discrete_fields": []
+    }
+  },
+  "refined_endpoint_available": false,
+  "old_reference_endpoint_screen": false,
+  "uncovered_fields": 67,
+  "performance": {
+    "fine1562_20": {
+      "ms": 14,
+      "wall_s": 98.90267108398257,
+      "advance_s": 77.97358547797194,
+      "observation_s": 0.014416116988286376,
+      "mean_advance_s_per_simulated_ms": 5.5695418198551385,
+      "membrane_native_wall_s": 42.37676691066008,
+      "CNS": {
+        "epochs": 235,
+        "accepted": 2674,
+        "rejected": 0,
+        "build_s": 0.09390387404710054,
+        "device_bytes": 49580544,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "PN": {
+        "calls": 235,
+        "accepted": 235,
+        "rejected": 0,
+        "build_s": 2.285297547990922,
+        "wall_s": 3.440511178865563,
+        "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+        "state_owner_preserved": true,
+        "graph_statistics": {
+          "accepted": 470,
+          "fallback": 0
+        },
+        "linear_fallbacks": 0
+      }
+    },
+    "guard20_02": {
+      "ms": 20,
+      "wall_s": 89.50398814701475,
+      "advance_s": 73.10815714695491,
+      "observation_s": 0.020792674855329096,
+      "mean_advance_s_per_simulated_ms": 3.6554078573477455,
+      "membrane_native_wall_s": 18.377623300999403,
+      "CNS": {
+        "epochs": 320,
+        "accepted": 3718,
+        "rejected": 0,
+        "build_s": 0.134132570005022,
+        "device_bytes": 49580544,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "PN": {
+        "calls": 320,
+        "accepted": 320,
+        "rejected": 0,
+        "build_s": 2.2305108180153184,
+        "wall_s": 4.723146646865644,
+        "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+        "state_owner_preserved": true,
+        "graph_statistics": {
+          "accepted": 640,
+          "fallback": 0
+        },
+        "linear_fallbacks": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETE",
+  "phase_at_stop": "ensayo",
+  "error": null,
+  "cleanup_errors": [],
+  "engine": "causal_cuda",
+  "smoke_only": true,
+  "odor": "sham",
+  "requested_trial_ms": 1,
+  "completed_trial_ms": 1,
+  "completed_preparation_ms": 0,
+  "wall_total_s": 46.2167575309868,
+  "step_wall_s": 3.412129411008209,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_causal_01/final_state"
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 16,
+      "accepted": 102604,
+      "rejected": 578,
+      "build_s": 0.003794763993937522,
+      "native_wall_s": 0.2639097541105002,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6055936,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        22.0
+      ]
+    },
+    "CNS": {
+      "epochs": 16,
+      "accepted": 191,
+      "rejected": 0,
+      "build_s": 0.11496178997913375,
+      "device_bytes": 49580544,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 16,
+      "accepted": 16,
+      "rejected": 0,
+      "build_s": 2.3628430850221775,
+      "wall_s": 0.37007404206087813,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 32,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 16,
+      "events": 84,
+      "max_q_reconstruction_difference": 6.106226635438361e-16,
+      "global_trials": 191,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 8,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 438
+    }
+  },
+  "stage3_pass": null,
+  "reason": "No biological admission. Smoke validates wiring only; snapshots have no automatic full-organism resume qualification."
+}

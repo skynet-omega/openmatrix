@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py", line 64, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py", line 25, in main
+    event_guard.attach(session)
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py", line 37, in attach
+    session.cell.core=EventGuardCell(b,session.events);session.cell.report=session.cell.core.report
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py", line 29, in __init__
+    try:super().__init__(*args,**kw)
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/device_cell.py", line 31, in __init__
+    p=b._motor_axonal_callback
+AttributeError: 'ProjectedKcBatch' object has no attribute '_motor_axonal_callback'

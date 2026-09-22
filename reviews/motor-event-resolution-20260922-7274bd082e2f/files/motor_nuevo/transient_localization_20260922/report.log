@@ -1,0 +1,18 @@
+{
+  "status": "PROMETEDOR_NO_CONFIRMADO",
+  "engine_ready": false,
+  "stage3_admission": false,
+  "one_ms_normalized_difference": 2.183440538261472e-06,
+  "five_ms_normalized_difference": 1.7416722058280487e-05,
+  "one_ms_error_reduction_factor": 102.77266074815755,
+  "refined_completed_ms": 14,
+  "refined_failure": "accepted event state outside domain",
+  "guard_completed_ms": 20,
+  "guard_advance_s": 73.10815714695491,
+  "measured_speed_gap_to_target": 60.92346428912909,
+  "reasons": [
+    "Refined20ms endpoint unavailable due to domain failure.",
+    "Whole-organism throughput remains far from approximate60s per simulated second.",
+    "Endpoint comparisons do not certify event histories, full-state bounds or stage3 behavior."
+  ]
+}

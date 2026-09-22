@@ -1,0 +1,63 @@
+{
+  "organism_loads": 6,
+  "aggregate_runner_wall_s": 267.84178876999067,
+  "limits": {
+    "organism_loads": 6,
+    "per_process_seconds": 240,
+    "aggregate_process_seconds": 1500,
+    "CPU_checks": 12,
+    "small_GPU_fixture_runs": 16,
+    "numerical_prototypes_maximum": 2,
+    "new_Jev_requests": 1,
+    "RAM_GiB": 18
+  },
+  "runs": {
+    "reference_01": {
+      "status": "COMPLETE",
+      "ms": null,
+      "wall_s": 23.217752691998612,
+      "error": null
+    },
+    "causal_01": {
+      "status": "COMPLETE",
+      "ms": null,
+      "wall_s": 21.276585409999825,
+      "error": null
+    },
+    "fine1562_01": {
+      "status": "COMPLETE",
+      "ms": 1,
+      "wall_s": 21.65076950599905,
+      "error": null
+    },
+    "guard20_01": {
+      "status": "INCOMPLETE",
+      "ms": 0,
+      "wall_s": 13.290021930995863,
+      "error": {
+        "type": "AttributeError",
+        "message": "'ProjectedKcBatch' object has no attribute '_motor_axonal_callback'",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py\", line 25, in main\n    event_guard.attach(session)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py\", line 37, in attach\n    session.cell.core=EventGuardCell(b,session.events);session.cell.report=session.cell.core.report\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py\", line 29, in __init__\n    try:super().__init__(*args,**kw)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/device_cell.py\", line 31, in __init__\n    p=b._motor_axonal_callback\nAttributeError: 'ProjectedKcBatch' object has no attribute '_motor_axonal_callback'\n"
+      }
+    },
+    "guard20_02": {
+      "status": "COMPLETE",
+      "ms": 20,
+      "wall_s": 89.50398814701475,
+      "error": null
+    },
+    "fine1562_20": {
+      "status": "INCOMPLETE",
+      "ms": 14,
+      "wall_s": 98.90267108398257,
+      "error": {
+        "type": "RuntimeError",
+        "message": "accepted event state outside domain",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py\", line 46, in main\n    used=obj.core.pending_sensors.copy();cp.cuda.get_current_stream().synchronize();t=time.perf_counter();obj.step();cp.cuda.get_current_stream().synchronize();advance=time.perf_counter()-t\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py\", line 135, in step\n    row=super().step();self._validate_adapter()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py\", line 69, in step\n    row=self.core.step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py\", line 100, in step\n    row=super().step();self.body.rh_pending=self.rh_command();self._validate_rh_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py\", line 64, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py\", line 83, in step\n    row=super().step();self.body.pending_serial=self.serial_command();self._validate_serial_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py\", line 44, in step\n    row=super().step();self.hybrid.set_cxhp8_sample(self.cxhp8_field.sample(self.body));self._validate_cxhp8_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py\", line 63, in step\n    row=super().step();self.body.pending_tarsal=self.tarsal_command();self._validate_tarsal_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py\", line 63, in step\n    self._validate_rf_pending();used=self.body.pending_rf.copy();row=super().step();self.body.pending_rf=self.right_front_command();self._validate_rf_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py\", line 61, in step\n    self._validate_tr_pending();used=self.body.pending_tr.copy();row=super().step();self.body.pending_tr=self.trochanter_command();self._validate_tr_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py\", line 91, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py\", line 102, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py\", line 56, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py\", line 118, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py\", line 100, in step\n    row = super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py\", line 158, in step\n    self.hybrid.advance(self.CONTROL_NS, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py\", line 54, in advance\n    return super().advance(dt_ns, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 124, in advance\n    pn(self,half,first,middle);cns(self,ns,drive,light,True)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 87, in cns\n    try:GpuProjectionParallelBrain.advance(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_brain.py\", line 69, in advance\n    super().advance(ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py\", line 71, in begin\n    result=old_spatial(self,dt_ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py\", line 92, in advance\n    try:GpuKcGammaOutputBrain.advance(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 75, in gpu\n    try:return old_gpu(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py\", line 89, in gpu\n    return engine.step(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py\", line 57, in step\n    nxt,counts,error=g.advance(ns,b.next_step_ns,p['minimum_step_ns'],p['maximum_step_ns'],boundaries=boundaries)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py\", line 58, in advance\n    raise RuntimeError(message)\nRuntimeError: accepted event state outside domain\n"
+      }
+    }
+  },
+  "numerical_candidates": 2,
+  "new_Jev_requests": 1,
+  "note": "Failed initialization counts as a load. No extra run after refined-domain failure. GPU/CPU fixture receipts in CLEAN_CHECK.log and local logs; no concurrent organism benchmarks."
+}

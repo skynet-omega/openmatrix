@@ -1,0 +1,70 @@
+{"step": 1, "advance_s": 6.18350887298584, "observation_s": 0.0009601939818821847}
+{"step": 2, "advance_s": 5.34175999899162, "observation_s": 0.0009923370089381933}
+{"step": 3, "advance_s": 5.800780762976501, "observation_s": 0.0011194880353286862}
+{"step": 4, "advance_s": 5.66189831297379, "observation_s": 0.000986450002528727}
+{"step": 5, "advance_s": 5.191613388014957, "observation_s": 0.0011141819995827973}
+{"step": 6, "advance_s": 6.023679837991949, "observation_s": 0.0009870100184343755}
+{"step": 7, "advance_s": 5.136829798982944, "observation_s": 0.001046782999765128}
+{"step": 8, "advance_s": 5.231695036985911, "observation_s": 0.0010768729844130576}
+{"step": 9, "advance_s": 5.160221902013291, "observation_s": 0.0009595330338925123}
+{"step": 10, "advance_s": 5.6376139190397225, "observation_s": 0.0010401569888927042}
+{"step": 11, "advance_s": 5.515646120009478, "observation_s": 0.000990956963505596}
+{"step": 12, "advance_s": 5.863372078048997, "observation_s": 0.0010354469995945692}
+{"step": 13, "advance_s": 5.7083449509809725, "observation_s": 0.0010602359543554485}
+{"step": 14, "advance_s": 5.516620497975964, "observation_s": 0.0010464700171723962}
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py", line 64, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py", line 46, in main
+    used=obj.core.pending_sensors.copy();cp.cuda.get_current_stream().synchronize();t=time.perf_counter();obj.step();cp.cuda.get_current_stream().synchronize();advance=time.perf_counter()-t
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py", line 135, in step
+    row=super().step();self._validate_adapter()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py", line 69, in step
+    row=self.core.step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py", line 100, in step
+    row=super().step();self.body.rh_pending=self.rh_command();self._validate_rh_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py", line 64, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py", line 83, in step
+    row=super().step();self.body.pending_serial=self.serial_command();self._validate_serial_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py", line 44, in step
+    row=super().step();self.hybrid.set_cxhp8_sample(self.cxhp8_field.sample(self.body));self._validate_cxhp8_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py", line 63, in step
+    row=super().step();self.body.pending_tarsal=self.tarsal_command();self._validate_tarsal_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py", line 63, in step
+    self._validate_rf_pending();used=self.body.pending_rf.copy();row=super().step();self.body.pending_rf=self.right_front_command();self._validate_rf_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py", line 61, in step
+    self._validate_tr_pending();used=self.body.pending_tr.copy();row=super().step();self.body.pending_tr=self.trochanter_command();self._validate_tr_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py", line 91, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py", line 102, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py", line 56, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py", line 118, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py", line 100, in step
+    row = super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py", line 158, in step
+    self.hybrid.advance(self.CONTROL_NS, drive, light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py", line 54, in advance
+    return super().advance(dt_ns, drive, light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py", line 124, in advance
+    pn(self,half,first,middle);cns(self,ns,drive,light,True)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py", line 87, in cns
+    try:GpuProjectionParallelBrain.advance(self,ns,drive,light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_brain.py", line 69, in advance
+    super().advance(ns,drive,light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py", line 71, in begin
+    result=old_spatial(self,dt_ns,drive,light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py", line 92, in advance
+    try:GpuKcGammaOutputBrain.advance(self,ns,drive,light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py", line 75, in gpu
+    try:return old_gpu(self,ns,drive,light)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py", line 89, in gpu
+    return engine.step(self,ns,drive,light)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py", line 57, in step
+    nxt,counts,error=g.advance(ns,b.next_step_ns,p['minimum_step_ns'],p['maximum_step_ns'],boundaries=boundaries)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py", line 58, in advance
+    raise RuntimeError(message)
+RuntimeError: accepted event state outside domain

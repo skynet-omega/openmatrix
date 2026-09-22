@@ -1,0 +1,72 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "AttributeError",
+    "message": "'ProjectedKcBatch' object has no attribute '_motor_axonal_callback'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/benchmark_candidate.py\", line 25, in main\n    event_guard.attach(session)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py\", line 37, in attach\n    session.cell.core=EventGuardCell(b,session.events);session.cell.report=session.cell.core.report\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py\", line 29, in __init__\n    try:super().__init__(*args,**kw)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/device_cell.py\", line 31, in __init__\n    p=b._motor_axonal_callback\nAttributeError: 'ProjectedKcBatch' object has no attribute '_motor_axonal_callback'\n"
+  },
+  "variant": "guard",
+  "ms": 0,
+  "requested_ms": 20,
+  "wall_s": 13.290021930995863,
+  "times": [],
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/device_cell.py",
+        "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "initialized": false
+    },
+    "CNS": {
+      "epochs": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "build_s": 0.0,
+      "device_bytes": 0,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "build_s": 2.2605219180113636,
+      "wall_s": 0.0,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true
+    },
+    "events": {
+      "blocks": 0,
+      "events": 0,
+      "max_q_reconstruction_difference": 0.0,
+      "global_trials": 0,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 0,
+      "step_ns": 125000,
+      "predictor_restore_exact": null,
+      "pn_rejections": 0,
+      "predictor_evaluations": 0
+    }
+  },
+  "stage3_admission": false
+}

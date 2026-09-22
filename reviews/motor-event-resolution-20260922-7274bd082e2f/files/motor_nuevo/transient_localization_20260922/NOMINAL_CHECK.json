@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "runs": {
+    "parent": {
+      "accepted": 10,
+      "rejected": 0,
+      "maximum_error_estimate": 0.012105677035259962,
+      "reference_max_difference": 2.842442237138698e-08,
+      "next_proposal_ns": 6250,
+      "events_preserved": true
+    },
+    "nominal": {
+      "accepted": 9,
+      "rejected": 0,
+      "maximum_error_estimate": 0.026494672824178864,
+      "reference_max_difference": 4.6267742165317927e-08,
+      "next_proposal_ns": 62500,
+      "events_preserved": true
+    }
+  },
+  "scope": "Small nonlinear receiver with exact two-state source; prospective method control, not whole-organism admission."
+}
