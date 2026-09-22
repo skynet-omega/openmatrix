@@ -1,0 +1,67 @@
+[
+  {
+    "args": [
+      "verify_package.py"
+    ],
+    "exit": 0,
+    "wall_s": 0.031638365995604545
+  },
+  {
+    "args": [
+      "verify.py",
+      "checked_results.json"
+    ],
+    "exit": 0,
+    "wall_s": 0.36424128903308883
+  },
+  {
+    "args": [
+      "build_dependency.py"
+    ],
+    "exit": 0,
+    "wall_s": 14.791289485001471
+  },
+  {
+    "args": [
+      "test_contracts.py",
+      "check_contracts"
+    ],
+    "exit": 0,
+    "wall_s": 0.8154570480110124
+  },
+  {
+    "args": [
+      "test_jvp.py",
+      "check_jvp"
+    ],
+    "exit": 0,
+    "wall_s": 0.8151427899720147
+  },
+  {
+    "args": [
+      "test_session.py",
+      "check_session"
+    ],
+    "exit": 0,
+    "wall_s": 1.5168796259677038
+  },
+  {
+    "args": [
+      "pilot.py",
+      "check_clamp",
+      "--case",
+      "clamp",
+      "--profile",
+      "precise"
+    ],
+    "exit": 0,
+    "wall_s": 1.2660096139879897
+  },
+  {
+    "args": [
+      "verify_package.py"
+    ],
+    "exit": 0,
+    "wall_s": 0.031767049978952855
+  }
+]

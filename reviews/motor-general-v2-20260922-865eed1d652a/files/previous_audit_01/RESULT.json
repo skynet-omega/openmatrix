@@ -1,0 +1,123 @@
+{
+  "scope": "previous extension only; exact cohort and eligible flag reconstructed; no numerical rerun",
+  "rows": [
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619407875900927e-08,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906553107466675e-05,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183040379363197e-06,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692090453680443,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619401183366792e-08,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.390655197914237e-05,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183039587942999e-06,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692089937786377,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619437049487237e-08,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906552381186868e-05,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.1830383001086605e-06,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692088723310961,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619407875900927e-08,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906553107466675e-05,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183040379363197e-06,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692090453680443,
+      "eligible": true
+    }
+  ],
+  "corruptions_detected": [
+    "duplicate",
+    "eligible",
+    "criterion",
+    "context"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "scope": "author-exposed engineering only; no stage3 or complete biological brain",
+  "small": [
+    {
+      "case": "clamp",
+      "profile": "fast",
+      "error": 2.220446049250313e-16,
+      "eligible": true,
+      "advance_scan_s": 0.47477192198857665,
+      "setup_s": 0.2818051570211537
+    },
+    {
+      "case": "clamp",
+      "profile": "precise",
+      "error": 2.1769078914218757e-16,
+      "eligible": true,
+      "advance_scan_s": 0.46677547198487446,
+      "setup_s": 0.29178724403027445
+    },
+    {
+      "case": "stiff",
+      "profile": "fast",
+      "error": 2.5403610585488518e-06,
+      "eligible": true,
+      "advance_scan_s": 0.9180028999689966,
+      "setup_s": 0.3921637000166811
+    },
+    {
+      "case": "stiff",
+      "profile": "precise",
+      "error": 1.3342592078578174e-08,
+      "eligible": true,
+      "advance_scan_s": 10.468656298995484,
+      "setup_s": 0.27172920998418704
+    },
+    {
+      "case": "hh",
+      "profile": "fast",
+      "error": 0.0026886617797283767,
+      "eligible": true,
+      "advance_scan_s": 7.696266521001235,
+      "setup_s": 0.2935421070433222
+    },
+    {
+      "case": "hh",
+      "profile": "precise",
+      "error": 2.0743145376210703e-06,
+      "eligible": true,
+      "advance_scan_s": 54.07572528900346,
+      "setup_s": 0.27362666197586805
+    },
+    {
+      "case": "mixed",
+      "profile": "fast",
+      "error": 9.344651623300187e-05,
+      "eligible": true,
+      "advance_scan_s": 2.579797634971328,
+      "setup_s": 0.2584855959867127
+    },
+    {
+      "case": "mixed",
+      "profile": "precise",
+      "error": 2.299837102785763e-08,
+      "eligible": true,
+      "advance_scan_s": 7.626340589020401,
+      "setup_s": 0.27584008302073926
+    }
+  ],
+  "large": [
+    {
+      "profile": "fast",
+      "error": 0.0002268806440211497,
+      "eligible": true,
+      "advance_scan_s": 6.578951163042802,
+      "setup_s": 1.7415127599961124,
+      "reference_refinement": 2.935627302348759e-11
+    },
+    {
+      "profile": "precise",
+      "error": 2.109510992538074e-08,
+      "eligible": true,
+      "advance_scan_s": 82.42215646599652,
+      "setup_s": 1.7668352529872209,
+      "reference_refinement": 2.935627302348759e-11
+    }
+  ],
+  "explicit_same_HH_comparison": [
+    {
+      "profile": "fast",
+      "model_identity": "260580a317bc5bfd4d8ffa9ff0ef945df24e05431642fdc3b422800fac1bd3bb",
+      "simulated_s": 0.05,
+      "setup_s": 0.77905508200638,
+      "advance_scan_s": 0.055631481984164566,
+      "error": 0.0018298574844733803,
+      "eligible": true
+    },
+    {
+      "profile": "precise",
+      "model_identity": "260580a317bc5bfd4d8ffa9ff0ef945df24e05431642fdc3b422800fac1bd3bb",
+      "simulated_s": 0.05,
+      "setup_s": 0.002959716017358005,
+      "advance_scan_s": 0.2732422660337761,
+      "error": 8.931562940650034e-07,
+      "eligible": true
+    }
+  ],
+  "prior_cohort_count": 16,
+  "corruptions_detected": [
+    "flag",
+    "time",
+    "state",
+    "identity",
+    "reference"
+  ]
+}

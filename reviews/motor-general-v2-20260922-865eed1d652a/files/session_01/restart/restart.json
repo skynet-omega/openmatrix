@@ -1,0 +1,96 @@
+{
+  "contract": {
+    "version": 1,
+    "mode": "physical_restart_new_adaptation",
+    "profile": "precise",
+    "rtol": 1e-07,
+    "atol_scale": 1e-09,
+    "sources": {
+      "model.py": "4e6f762df5aa34831e29d32a7207af3e0887e35eca1bbab6684ae9247f8512bc",
+      "runtime.py": "069318ff148dc335462dad72046052dfad8e4556d7d76efe8952d36859e1bc99",
+      "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+      "coupled.py": "0efb9638b014c25cb34cc5c31676ba46e27a692106c7b7ac955f7fc0fa0ce97f",
+      "implicit.py": "119cba9a71b9b9f4da0c0035dd89470866bf9cd95fdb4dd6c03d91370ecc2657",
+      "bridge.cpp": "5f7730bfa445447827bf3cb55d6c17ba6b20ac0bcf4a3a5f3369307c12134375",
+      "session.py": "c430c6f5eac1fa0c3f9e98c413a1ad37dd723bbc853cd4b279d1b58f5281223b",
+      "DEPENDENCY.json": "ea6dbdcdd555bfd5f97bd6aeb7356b117a3e6b36d7d452d0bd86a6b6e05b2ad6"
+    },
+    "numpy": "1.26.4",
+    "cupy": "13.6.0",
+    "CUDA_runtime": 12090,
+    "library_sha256": "7600f130a7652a27ece1276038325d6fe595efe63e864ebba1ba25ab989e6e6a"
+  },
+  "spec": {
+    "version": 1,
+    "description": "Synthetic recurrent rate population, dimensionless, not a biological reconstruction",
+    "populations": [
+      {
+        "id": "cells",
+        "count": 4,
+        "states": {
+          "v": {
+            "unit": "1",
+            "initial": 0.1,
+            "scale": 1,
+            "rhs": "(-v+w*syn+drive)/tau"
+          },
+          "syn": {
+            "unit": "1",
+            "initial": 0.05,
+            "scale": 1,
+            "rhs": "(tanh(v)-syn)/taus"
+          }
+        },
+        "parameters": {
+          "tau": {
+            "unit": "s",
+            "value": 0.02
+          },
+          "taus": {
+            "unit": "s",
+            "value": 0.01
+          },
+          "drive": {
+            "unit": "1",
+            "value": 0.1
+          }
+        },
+        "inputs": {
+          "w": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "release": {
+            "unit": "1",
+            "expr": "syn"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "ring",
+        "offsets": [
+          1,
+          2
+        ],
+        "weight": 0.1
+      }
+    ]
+  },
+  "identity": "cd4f4685a259de11c761cb6358967a4a30808e354478d70b68bb278155c2e5ea",
+  "time": 0.003,
+  "edits": [],
+  "state_sha256": "95c2934ff1962a37c09a1a91739426cde9dcc6588280f7f9a84635e1fa6113ef",
+  "unsupported": "No serialization of SUNDIALS adaptive/Newton/Krylov history. Restart is a declared new epoch."
+}

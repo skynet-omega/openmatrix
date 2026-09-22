@@ -1,0 +1,26 @@
+[
+  {
+    "case": "sign",
+    "states": 1,
+    "edges": 1,
+    "scaled_error": 2.352212344495133e-13
+  },
+  {
+    "case": "network",
+    "states": 192,
+    "edges": 9120,
+    "scaled_error": 3.8967927801899367e-10
+  },
+  {
+    "case": "hh",
+    "states": 12,
+    "edges": 0,
+    "scaled_error": 1.0690511122867379e-08
+  },
+  {
+    "case": "mixed",
+    "states": 252,
+    "edges": 192,
+    "scaled_error": 1.120939082253166e-09
+  }
+]

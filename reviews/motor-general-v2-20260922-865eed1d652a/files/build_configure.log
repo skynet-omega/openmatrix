@@ -1,0 +1,42 @@
+-- SUNDIALS_GIT_VERSION: v7.6.0
+-- Building SUNDIALS in 'Release' mode.
+-- Using int64_t for indices
+-- C standard set to 99
+-- C extensions set to ON
+-- Looking for POSIX timers... found
+-- CXX standard set to 14
+-- C++ extensions set to ON
+-- CUDA standard set to 14
+-- CUDA Toolkit Version:       12.0.140
+-- CUDA Architectures:         89
+-- CUDA Compiler:              /usr/bin/nvcc
+-- CUDA Host Compiler:         /usr/bin/g++-12
+-- CUDA Toolkit Includes:      /usr/include
+-- CUDA Library Directory:     /usr/lib/x86_64-linux-gnu
+-- CUDA Compile Flags:          --expt-extended-lambda --expt-relaxed-constexpr
+-- CUDA Link Flags:            
+-- CUDA Link Executable:       <CMAKE_CUDA_HOST_LINK_LAUNCHER> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES> -L"/usr/lib/x86_64-linux-gnu/stubs" -L"/usr/lib/x86_64-linux-gnu"
+-- CUDA Separable Compilation: 
+-- Appending C RELEASE flags
+-- Appending CXX RELEASE flags
+-- Appending CUDA RELEASE flags
+-- Added NVECTOR_SERIAL module
+-- Added NVECTOR_MANYVECTOR module
+-- Added NVECTOR_CUDA module
+-- Added SUNMATRIX_BAND module
+-- Added SUNMATRIX_DENSE module
+-- Added SUNMATRIX_SPARSE module
+-- Added SUNLINSOL_BAND module
+-- Added SUNLINSOL_DENSE module
+-- Added SUNLINSOL_PCG module
+-- Added SUNLINSOL_SPBCGS module
+-- Added SUNLINSOL_SPFGMR module
+-- Added SUNLINSOL_SPGMR module
+-- Added SUNLINSOL_SPTFQMR module
+-- Added SUNNONLINSOL_NEWTON module
+-- Added SUNNONLINSOL_FIXEDPOINT module
+-- Added SUNDOMEIGEST_POWER module
+-- Added ARKODE module
+-- Configuring done (4.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/build_gcc12

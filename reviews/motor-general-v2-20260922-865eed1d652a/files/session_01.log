@@ -1,0 +1,16 @@
+<validated-equation>:1: RuntimeWarning: divide by zero encountered in log
+{
+  "restart_semantics": "physical state exact at boundary; new adaptive history",
+  "post_restart_scaled_difference": 1.8979362141613352e-11,
+  "scanner_calls": 6,
+  "clamp_new_cell": 0.2,
+  "atomic_failed_replace": true,
+  "restart_corruption_detected": true,
+  "negative_fixture": "restart/state.npy intentionally corrupted at end",
+  "edit": {
+    "time": 0.005,
+    "before": "cd4f4685a259de11c761cb6358967a4a30808e354478d70b68bb278155c2e5ea",
+    "after": "93d5f580828d35e0ff3717b7131e1ad67e8371f4cc8346e73894cfc995325fb7",
+    "kind": "new integration epoch; adaptation restarted"
+  }
+}

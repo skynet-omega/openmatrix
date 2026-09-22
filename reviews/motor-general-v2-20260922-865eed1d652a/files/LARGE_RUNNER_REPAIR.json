@@ -1,0 +1,8 @@
+{
+  "before": "6af9386b9f791e1bbedc366f95b7bd7ef2e7fb641fe1701c2aaac23a9a481b2c",
+  "after": "1eedcb03cf6529cd7bc9a173fe14b128ac3ccf5a6bd159f6da7f8ac8f359b1d8",
+  "bug": "importlib-loaded dataclass module absent from sys.modules",
+  "failed_run": "large_fast_01: setup only, no integration started",
+  "repeat": "large_fast_02",
+  "numerical_sources_or_criteria_changed": false
+}

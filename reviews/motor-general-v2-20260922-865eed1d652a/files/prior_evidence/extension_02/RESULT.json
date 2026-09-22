@@ -1,0 +1,154 @@
+{
+  "core_matches_registered_repair": true,
+  "reserve_status": "author-exposed extension after hash freeze; generic dtype repair subsequently applied, all affected arms repeated; not blind",
+  "models": [
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "precise",
+      "global_scaled_error": 4.619407875900927e-08,
+      "limit": 1e-05,
+      "conservation_absolute": 6.661338147750939e-16,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "fast",
+      "global_scaled_error": 1.3906553107466675e-05,
+      "limit": 0.01,
+      "conservation_absolute": 5.551115123125783e-16,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "precise",
+      "global_scaled_error": 2.183040379363197e-06,
+      "limit": 1e-05,
+      "conservation_absolute": 1.3322676295501878e-15,
+      "eligible": true
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "fast",
+      "global_scaled_error": 0.0008692090453680443,
+      "limit": 0.01,
+      "conservation_absolute": 4.440892098500626e-16,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "precise",
+      "global_scaled_error": 4.619401183366792e-08,
+      "limit": 1e-05,
+      "conservation_absolute": 4.440892098500626e-16,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "fast",
+      "global_scaled_error": 1.390655197914237e-05,
+      "limit": 0.01,
+      "conservation_absolute": 4.440892098500626e-16,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "precise",
+      "global_scaled_error": 2.183039587942999e-06,
+      "limit": 1e-05,
+      "conservation_absolute": 1.9984014443252818e-15,
+      "eligible": true
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "fast",
+      "global_scaled_error": 0.0008692089937786377,
+      "limit": 0.01,
+      "conservation_absolute": 5.551115123125783e-16,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "precise",
+      "global_scaled_error": 4.619437049487237e-08,
+      "limit": 1e-05,
+      "conservation_absolute": 6.661338147750939e-16,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "fast",
+      "global_scaled_error": 1.3906552381186868e-05,
+      "limit": 0.01,
+      "conservation_absolute": 4.440892098500626e-16,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "precise",
+      "global_scaled_error": 2.1830383001086605e-06,
+      "limit": 1e-05,
+      "conservation_absolute": 1.6653345369377348e-15,
+      "eligible": true
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "fast",
+      "global_scaled_error": 0.0008692088723310961,
+      "limit": 0.01,
+      "conservation_absolute": 6.661338147750939e-16,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "precise",
+      "global_scaled_error": 4.619407875900927e-08,
+      "limit": 1e-05,
+      "conservation_absolute": 6.661338147750939e-16,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "fast",
+      "global_scaled_error": 1.3906553107466675e-05,
+      "limit": 0.01,
+      "conservation_absolute": 5.551115123125783e-16,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "precise",
+      "global_scaled_error": 2.183040379363197e-06,
+      "limit": 1e-05,
+      "conservation_absolute": 1.3322676295501878e-15,
+      "eligible": true
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "fast",
+      "global_scaled_error": 0.0008692090453680443,
+      "limit": 0.01,
+      "conservation_absolute": 4.440892098500626e-16,
+      "eligible": true
+    }
+  ],
+  "labels_bit_exact": true,
+  "population_order_error_below": 1e-09,
+  "C_checkpoint_bit_exact": true,
+  "total_wall_s": 2.5103817239869386
+}

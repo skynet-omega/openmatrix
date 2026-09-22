@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "execution_contract": {
+    "schema": 2,
+    "dtype": "float64",
+    "numeric_IR": "fp64-v2",
+    "ordered_layout": [
+      {
+        "id": "cells",
+        "count": 32,
+        "states": [
+          "v",
+          "syn"
+        ],
+        "params": [
+          "tau",
+          "taus",
+          "drive"
+        ],
+        "inputs": [
+          "w"
+        ],
+        "outputs": [
+          "release"
+        ],
+        "derived": []
+      }
+    ],
+    "source_hashes": {
+      "model.py": "0000000000000000000000000000000000000000000000000000000000000000",
+      "runtime.py": "069318ff148dc335462dad72046052dfad8e4556d7d76efe8952d36859e1bc99",
+      "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3"
+    },
+    "backend": "gpu",
+    "algorithm": "A",
+    "profile": "precise",
+    "effective_tolerances": [
+      1e-07,
+      1e-09
+    ],
+    "cpu_method": "DOP853",
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cupy": "13.6.0",
+    "cuda_runtime": 12090,
+    "cuda_driver": 13010,
+    "cuda_source": "aa58f39205d7f998dab433d1bd230b474e82825fb03997070138076593e4dd89",
+    "device": "NVIDIA GeForce RTX 4070 Ti SUPER"
+  },
+  "descriptor_sha256": "b084a59f0e139b95b188f16c19e281d8243b09ee69352ccd07328ae3bf8ed5b6",
+  "spec": {
+    "version": 1,
+    "description": "Synthetic recurrent rate population, dimensionless, not a biological reconstruction",
+    "populations": [
+      {
+        "id": "cells",
+        "count": 32,
+        "states": {
+          "v": {
+            "unit": "1",
+            "initial": 0.1,
+            "scale": 1,
+            "rhs": "(-v+w*syn+drive)/tau"
+          },
+          "syn": {
+            "unit": "1",
+            "initial": 0.05,
+            "scale": 1,
+            "rhs": "(tanh(v)-syn)/taus"
+          }
+        },
+        "parameters": {
+          "tau": {
+            "unit": "s",
+            "value": 0.02
+          },
+          "taus": {
+            "unit": "s",
+            "value": 0.01
+          },
+          "drive": {
+            "unit": "1",
+            "value": 0.1
+          }
+        },
+        "inputs": {
+          "w": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "release": {
+            "unit": "1",
+            "expr": "syn"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "ring",
+        "offsets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "weight": 0.025
+      }
+    ]
+  },
+  "model_sha256": "079e80206e669c2ead0016ff2f6931ed0a7b3e61affe350992ccbd41cfce4595",
+  "backend": "gpu",
+  "profile": "precise",
+  "algorithm": "A",
+  "time": 0.01,
+  "next_h": 0.0021779946690212116,
+  "edits": [],
+  "cpu_method": "DOP853",
+  "state_sha256": "65a73707f002c80f25b4b28fde631e420b310dee586b591f9dccb0c97eaab08d",
+  "rng": "absent: deterministic domain",
+  "event_queue": "absent: only external edits at explicit advance boundaries"
+}

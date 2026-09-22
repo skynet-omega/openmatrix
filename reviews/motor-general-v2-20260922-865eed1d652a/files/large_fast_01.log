@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/large_implicit.py", line 36, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/large_implicit.py", line 13, in main
+    m=Model(spec);loader=importlib.util.spec_from_file_location('legacy_model',refs/'model.py');old=importlib.util.module_from_spec(loader);loader.loader.exec_module(old);oldm=old.Model(spec)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/prior_evidence/model.py", line 77, in <module>
+    class Expression:
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/dataclasses.py", line 1184, in dataclass
+    return wrap(cls)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/dataclasses.py", line 1175, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/dataclasses.py", line 944, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/dataclasses.py", line 711, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?

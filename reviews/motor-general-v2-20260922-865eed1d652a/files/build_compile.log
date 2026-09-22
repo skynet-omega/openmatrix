@@ -1,0 +1,868 @@
+[  3%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_adaptcontroller.c.o
+[  4%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_adjointcheckpointscheme.c.o
+[  3%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_adjointstepper.c.o
+[  3%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundatanode/sundatanode_inmem.c.o
+[  5%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_band.c.o
+[  6%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_cli.c.o
+[  7%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_context.c.o
+[  8%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_dense.c.o
+[  9%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_datanode.c.o
+[ 10%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_direct.c.o
+[ 11%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_errors.c.o
+[ 12%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_domeigestimator.c.o
+[ 13%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_futils.c.o
+[ 14%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_hashmap.c.o
+[ 15%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_iterative.c.o
+[ 16%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_linearsolver.c.o
+[ 17%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_logger.c.o
+[ 18%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_math.c.o
+[ 19%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_matrix.c.o
+[ 20%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_memory.c.o
+[ 21%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_nonlinearsolver.c.o
+[ 22%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_nvector_senswrapper.c.o
+[ 23%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_nvector.c.o
+[ 24%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_stepper.c.o
+[ 25%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_profiler.c.o
+[ 26%] Building C object src/sundials/CMakeFiles/sundials_core_obj_shared.dir/sundials_version.c.o
+[ 26%] Built target sundials_core_obj_shared
+[ 27%] Linking C shared library libsundials_core.so
+[ 27%] Built target sundials_core_shared
+[ 27%] Built target fake_sundials_nvecmanyvector_obj_shared
+[ 27%] Built target fake_sundials_nvecserial_obj_shared
+[ 27%] Built target fake_sundials_nveccuda_obj_shared
+[ 27%] Built target fake_sundials_sunmemcuda_obj_shared
+[ 27%] Built target fake_sundials_sunmatrixdense_obj_shared
+[ 27%] Built target fake_sundials_sunmatrixsparse_obj_shared
+[ 27%] Built target fake_sundials_sunlinsolpcg_obj_shared
+[ 27%] Built target fake_sundials_sunmatrixband_obj_shared
+[ 27%] Built target fake_sundials_sunlinsolspgmr_obj_shared
+[ 27%] Built target fake_sundials_sunlinsolspfgmr_obj_shared
+[ 27%] Built target fake_sundials_sunlinsolspbcgs_obj_shared
+[ 27%] Built target fake_sundials_sunlinsolsptfqmr_obj_shared
+[ 27%] Built target fake_sundials_sunnonlinsolnewton_obj_shared
+[ 27%] Built target fake_sundials_sunmemsys_obj_shared
+[ 27%] Built target fake_sundials_sunnonlinsolfixedpoint_obj_shared
+[ 27%] Built target fake_sundials_sunadaptcontrollerimexgus_obj_shared
+[ 27%] Built target fake_sundials_sundomeigestpower_obj_shared
+[ 27%] Built target fake_sundials_sunadaptcontrollermrihtol_obj_shared
+[ 27%] Built target fake_sundials_sunadaptcontrollersoderlind_obj_shared
+[ 27%] Built target fake_sundials_adjointcheckpointscheme_fixed_obj_shared
+[ 27%] Built target fake_sundials_arkode_obj_shared
+[ 28%] Building C object src/nvector/serial/CMakeFiles/sundials_nvecserial_obj_shared.dir/nvector_serial.c.o
+[ 29%] Building C object src/nvector/manyvector/CMakeFiles/sundials_nvecmanyvector_obj_shared.dir/nvector_manyvector.c.o
+[ 30%] Building CUDA object src/sunmemory/cuda/CMakeFiles/sundials_sunmemcuda_obj_shared.dir/sundials_cuda_memory.cu.o
+[ 31%] Building C object src/sunmatrix/band/CMakeFiles/sundials_sunmatrixband_obj_shared.dir/sunmatrix_band.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/manyvector/nvector_manyvector.c: In function ‘N_VNew_ManyVector’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/manyvector/nvector_manyvector.c:332:3: warning: ‘N_VSpace_ManyVector’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  332 |   v->ops->nvspace       = N_VSpace_ManyVector;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/manyvector/nvector_manyvector.c:31:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_manyvector.h:110:6: note: declared here
+  110 | void N_VSpace_ManyVector(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/serial/nvector_serial.c: In function ‘N_VNewEmpty_Serial’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/serial/nvector_serial.c:100:3: warning: ‘N_VSpace_Serial’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  100 |   v->ops->nvspace           = N_VSpace_Serial;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/serial/nvector_serial.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_serial.h:122:6: note: declared here
+  122 | void N_VSpace_Serial(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/manyvector/nvector_manyvector.c: In function ‘N_VSpace_ManyVector’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/manyvector/nvector_manyvector.c:590:7: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  590 |       N_VSpace(MANYVECTOR_SUBVEC(v, i), &lrw1, &liw1);
+      |       ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:22,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_manyvector.h:44:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/band/sunmatrix_band.c: In function ‘SUNBandMatrixStorage’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/band/sunmatrix_band.c:92:3: warning: ‘SUNMatSpace_Band’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   92 |   A->ops->space                    = SUNMatSpace_Band;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/band/sunmatrix_band.c:32:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunmatrix/sunmatrix_band.h:132:12: note: declared here
+  132 | SUNErrCode SUNMatSpace_Band(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~~~~~~
+[ 31%] Built target sundials_sunmatrixband_obj_shared
+[ 32%] Building C object src/sunmatrix/dense/CMakeFiles/sundials_sunmatrixdense_obj_shared.dir/sunmatrix_dense.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/dense/sunmatrix_dense.c: In function ‘SUNDenseMatrix’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/dense/sunmatrix_dense.c:76:3: warning: ‘SUNMatSpace_Dense’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   76 |   A->ops->space                    = SUNMatSpace_Dense;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/dense/sunmatrix_dense.c:29:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunmatrix/sunmatrix_dense.h:110:12: note: declared here
+  110 | SUNErrCode SUNMatSpace_Dense(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~~~~~~~
+[ 32%] Built target sundials_nvecmanyvector_obj_shared
+[ 33%] Building C object src/sunmatrix/sparse/CMakeFiles/sundials_sunmatrixsparse_obj_shared.dir/sunmatrix_sparse.c.o
+[ 33%] Built target sundials_sunmatrixdense_obj_shared
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/sparse/sunmatrix_sparse.c: In function ‘SUNSparseMatrix’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/sparse/sunmatrix_sparse.c:96:3: warning: ‘SUNMatSpace_Sparse’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   96 |   A->ops->space                    = SUNMatSpace_Sparse;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmatrix/sparse/sunmatrix_sparse.c:35:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunmatrix/sunmatrix_sparse.h:192:12: note: declared here
+  192 | SUNErrCode SUNMatSpace_Sparse(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~~~~~~~~
+[ 34%] Building C object src/sunlinsol/pcg/CMakeFiles/sundials_sunlinsolpcg_obj_shared.dir/sunlinsol_pcg.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/pcg/sunlinsol_pcg.c: In function ‘SUNLinSol_PCG’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/pcg/sunlinsol_pcg.c:103:3: warning: ‘SUNLinSolSpace_PCG’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  103 |   S->ops->space             = SUNLinSolSpace_PCG;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/pcg/sunlinsol_pcg.c:28:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_pcg.h:129:12: note: declared here
+  129 | SUNErrCode SUNLinSolSpace_PCG(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/pcg/sunlinsol_pcg.c: In function ‘SUNLinSolSpace_PCG’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/pcg/sunlinsol_pcg.c:665:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  665 |   N_VSpace(PCG_CONTENT(S)->r, &lrw1, &liw1);
+      |   ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_iterative.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:62,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_pcg.h:31:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmemory/cuda/sundials_cuda_memory.cu(55): warning #550-D: variable "sunctx_local_scope_" was set but never used
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmemory/cuda/sundials_cuda_memory.cu(99): warning #550-D: variable "sunctx_local_scope_" was set but never used
+
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmemory/cuda/sundials_cuda_memory.cu(109): warning #550-D: variable "sunctx_local_scope_" was set but never used
+
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunmemory/cuda/sundials_cuda_memory.cu(200): warning #550-D: variable "sunctx_local_scope_" was set but never used
+
+[ 34%] Built target sundials_sunlinsolpcg_obj_shared
+[ 35%] Building C object src/sunlinsol/spbcgs/CMakeFiles/sundials_sunlinsolspbcgs_obj_shared.dir/sunlinsol_spbcgs.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spbcgs/sunlinsol_spbcgs.c: In function ‘SUNLinSol_SPBCGS’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spbcgs/sunlinsol_spbcgs.c:112:3: warning: ‘SUNLinSolSpace_SPBCGS’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  112 |   S->ops->space             = SUNLinSolSpace_SPBCGS;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spbcgs/sunlinsol_spbcgs.c:29:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spbcgs.h:111:12: note: declared here
+  111 | SUNErrCode SUNLinSolSpace_SPBCGS(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spbcgs/sunlinsol_spbcgs.c: In function ‘SUNLinSolSpace_SPBCGS’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spbcgs/sunlinsol_spbcgs.c:922:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  922 |     N_VSpace(SPBCGS_CONTENT(S)->vtemp, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_iterative.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:62,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spbcgs.h:34:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 35%] Built target sundials_sunmatrixsparse_obj_shared
+[ 35%] Built target sundials_nvecserial_obj_shared
+[ 36%] Building C object src/sunlinsol/spfgmr/CMakeFiles/sundials_sunlinsolspfgmr_obj_shared.dir/sunlinsol_spfgmr.c.o
+[ 37%] Building C object src/sunlinsol/spgmr/CMakeFiles/sundials_sunlinsolspgmr_obj_shared.dir/sunlinsol_spgmr.c.o
+[ 37%] Built target sundials_sunlinsolspbcgs_obj_shared
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spfgmr/sunlinsol_spfgmr.c: In function ‘SUNLinSol_SPFGMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spgmr/sunlinsol_spgmr.c: In function ‘SUNLinSol_SPGMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spfgmr/sunlinsol_spfgmr.c:113:3: warning: ‘SUNLinSolSpace_SPFGMR’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  113 |   S->ops->space             = SUNLinSolSpace_SPFGMR;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spfgmr/sunlinsol_spfgmr.c:29:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spfgmr.h:121:12: note: declared here
+  121 | SUNErrCode SUNLinSolSpace_SPFGMR(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spgmr/sunlinsol_spgmr.c:111:3: warning: ‘SUNLinSolSpace_SPGMR’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  111 |   S->ops->space             = SUNLinSolSpace_SPGMR;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spgmr/sunlinsol_spgmr.c:29:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spgmr.h:120:12: note: declared here
+  120 | SUNErrCode SUNLinSolSpace_SPGMR(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spfgmr/sunlinsol_spfgmr.c: In function ‘SUNLinSolSpace_SPFGMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spgmr/sunlinsol_spgmr.c: In function ‘SUNLinSolSpace_SPGMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spfgmr/sunlinsol_spfgmr.c:872:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  872 |     N_VSpace(SPFGMR_CONTENT(S)->vtemp, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_iterative.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:62,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spfgmr.h:34:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/spgmr/sunlinsol_spgmr.c:965:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  965 |     N_VSpace(SPGMR_CONTENT(S)->vtemp, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_iterative.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:62,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_spgmr.h:35:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 38%] Building C object src/sunlinsol/sptfqmr/CMakeFiles/sundials_sunlinsolsptfqmr_obj_shared.dir/sunlinsol_sptfqmr.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c: In function ‘SUNLinSol_SPTFQMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c:110:3: warning: ‘SUNLinSolSpace_SPTFQMR’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  110 |   S->ops->space             = SUNLinSolSpace_SPTFQMR;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c:28:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_sptfqmr.h:113:12: note: declared here
+  113 | SUNErrCode SUNLinSolSpace_SPTFQMR(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c: In function ‘SUNLinSolSpace_SPTFQMR’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c:1158:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1158 |     N_VSpace(SPTFQMR_CONTENT(S)->vtemp1, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_iterative.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:62,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_sptfqmr.h:33:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 38%] Built target sundials_sunmemcuda_obj_shared
+[ 39%] Building C object src/sunnonlinsol/newton/CMakeFiles/sundials_sunnonlinsolnewton_obj_shared.dir/sunnonlinsol_newton.c.o
+[ 39%] Built target sundials_sunlinsolspgmr_obj_shared
+[ 39%] Built target sundials_sunlinsolspfgmr_obj_shared
+[ 39%] Built target sundials_sunnonlinsolnewton_obj_shared
+[ 41%] Building C object src/sunnonlinsol/fixedpoint/CMakeFiles/sundials_sunnonlinsolfixedpoint_obj_shared.dir/sunnonlinsol_fixedpoint.c.o
+[ 41%] Building C object src/sunmemory/system/CMakeFiles/sundials_sunmemsys_obj_shared.dir/sundials_system_memory.c.o
+[ 42%] Building C object src/sunadaptcontroller/imexgus/CMakeFiles/sundials_sunadaptcontrollerimexgus_obj_shared.dir/sunadaptcontroller_imexgus.c.o
+[ 42%] Built target sundials_sunlinsolsptfqmr_obj_shared
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/imexgus/sunadaptcontroller_imexgus.c: In function ‘SUNAdaptController_ImExGus’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/imexgus/sunadaptcontroller_imexgus.c:100:3: warning: ‘SUNAdaptController_Space_ImExGus’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  100 |   C->ops->space        = SUNAdaptController_Space_ImExGus;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/imexgus/sunadaptcontroller_imexgus.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunadaptcontroller/sunadaptcontroller_imexgus.h:89:12: note: declared here
+   89 | SUNErrCode SUNAdaptController_Space_ImExGus(SUNAdaptController C,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 43%] Building C object src/sunadaptcontroller/soderlind/CMakeFiles/sundials_sunadaptcontrollersoderlind_obj_shared.dir/sunadaptcontroller_soderlind.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/soderlind/sunadaptcontroller_soderlind.c: In function ‘SUNAdaptController_Soderlind’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/soderlind/sunadaptcontroller_soderlind.c:113:3: warning: ‘SUNAdaptController_Space_Soderlind’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  113 |   C->ops->space        = SUNAdaptController_Space_Soderlind;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/soderlind/sunadaptcontroller_soderlind.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunadaptcontroller/sunadaptcontroller_soderlind.h:96:12: note: declared here
+   96 | SUNErrCode SUNAdaptController_Space_Soderlind(SUNAdaptController C,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 43%] Built target sundials_sunmemsys_obj_shared
+[ 44%] Building C object src/sunadaptcontroller/mrihtol/CMakeFiles/sundials_sunadaptcontrollermrihtol_obj_shared.dir/sunadaptcontroller_mrihtol.c.o
+[ 44%] Built target sundials_sunadaptcontrollerimexgus_obj_shared
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c: In function ‘SUNAdaptController_MRIHTol’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c:107:3: warning: ‘SUNAdaptController_Space_MRIHTol’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  107 |   C->ops->space           = SUNAdaptController_Space_MRIHTol;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunadaptcontroller/sunadaptcontroller_mrihtol.h:98:5: note: declared here
+   98 | int SUNAdaptController_Space_MRIHTol(SUNAdaptController C, long int* lenrw,
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 45%] Building C object src/sunadjointcheckpointscheme/fixed/CMakeFiles/sundials_adjointcheckpointscheme_fixed_obj_shared.dir/sunadjointcheckpointscheme_fixed.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c: In function ‘SUNAdaptController_Space_MRIHTol’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c:378:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  378 |   SUNCheckCall(SUNAdaptController_Space(MRIHTOL_CSLOW(C), lenrw, leniw));
+      |   ^~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunadaptcontroller/sunadaptcontroller_mrihtol.h:24:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunadaptcontroller/mrihtol/sunadaptcontroller_mrihtol.c:379:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  379 |   SUNCheckCall(SUNAdaptController_Space(MRIHTOL_CFAST(C), &lrw, &liw));
+      |   ^~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+[ 45%] Built target sundials_sunadaptcontrollersoderlind_obj_shared
+[ 45%] Built target sundials_sunadaptcontrollermrihtol_obj_shared
+[ 46%] Building C object src/sundomeigest/power/CMakeFiles/sundials_sundomeigestpower_obj_shared.dir/sundomeigest_power.c.o
+[ 46%] Built target sundials_sunnonlinsolfixedpoint_obj_shared
+[ 47%] Linking C shared library libsundials_nvecserial.so
+[ 47%] Built target sundials_adjointcheckpointscheme_fixed_obj_shared
+[ 48%] Linking C shared library libsundials_nvecmanyvector.so
+[ 49%] Building CUDA object src/nvector/cuda/CMakeFiles/sundials_nveccuda_obj_shared.dir/nvector_cuda.cu.o
+[ 49%] Built target sundials_sundomeigestpower_obj_shared
+[ 50%] Linking C shared library libsundials_sunmatrixband.so
+[ 50%] Built target sundials_nvecmanyvector_shared
+[ 50%] Built target sundials_nvecserial_shared
+[ 52%] Linking C shared library libsundials_sunmatrixsparse.so
+[ 52%] Linking C shared library libsundials_sunmatrixdense.so
+[ 52%] Built target sundials_sunmatrixband_shared
+[ 52%] Built target sundials_sunmatrixsparse_shared
+[ 52%] Built target sundials_sunmatrixdense_shared
+[ 53%] Linking C shared library libsundials_sunlinsolpcg.so
+[ 54%] Linking C shared library libsundials_sunlinsolspbcgs.so
+[ 55%] Linking C shared library libsundials_sunlinsolspfgmr.so
+[ 55%] Built target sundials_sunlinsolpcg_shared
+[ 55%] Built target sundials_sunlinsolspfgmr_shared
+[ 57%] Linking C shared library libsundials_sunlinsolsptfqmr.so
+[ 57%] Linking C shared library libsundials_sunlinsolspgmr.so
+[ 57%] Built target sundials_sunlinsolspbcgs_shared
+[ 58%] Linking C shared library libsundials_sunnonlinsolnewton.so
+[ 58%] Built target sundials_sunlinsolsptfqmr_shared
+[ 58%] Built target sundials_sunlinsolspgmr_shared
+[ 59%] Linking C shared library libsundials_sunnonlinsolfixedpoint.so
+[ 60%] Linking C shared library libsundials_sundomeigestpower.so
+[ 60%] Built target sundials_sunnonlinsolnewton_shared
+[ 60%] Built target fake_sundials_sunlinsolband_obj_shared
+[ 60%] Built target fake_sundials_sunlinsoldense_obj_shared
+[ 61%] Building C object src/sunlinsol/band/CMakeFiles/sundials_sunlinsolband_obj_shared.dir/sunlinsol_band.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/band/sunlinsol_band.c: In function ‘SUNLinSol_Band’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/band/sunlinsol_band.c:86:3: warning: ‘SUNLinSolSpace_Band’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   86 |   S->ops->space      = SUNLinSolSpace_Band;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/band/sunlinsol_band.c:27:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_band.h:81:12: note: declared here
+   81 | SUNErrCode SUNLinSolSpace_Band(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~
+[ 61%] Built target sundials_sundomeigestpower_shared
+[ 61%] Built target sundials_sunnonlinsolfixedpoint_shared
+[ 62%] Building C object src/sunlinsol/dense/CMakeFiles/sundials_sunlinsoldense_obj_shared.dir/sunlinsol_dense.c.o
+[ 62%] Built target sundials_sunlinsolband_obj_shared
+[ 63%] Linking C shared library libsundials_sunlinsolband.so
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/dense/sunlinsol_dense.c: In function ‘SUNLinSol_Dense’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/dense/sunlinsol_dense.c:82:3: warning: ‘SUNLinSolSpace_Dense’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   82 |   S->ops->space      = SUNLinSolSpace_Dense;
+      |   ^
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/sunlinsol/dense/sunlinsol_dense.c:27:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_dense.h:86:12: note: declared here
+   86 | SUNErrCode SUNLinSolSpace_Dense(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~~~~~~~
+[ 63%] Built target sundials_sunlinsoldense_obj_shared
+[ 64%] Linking C shared library libsundials_sunlinsoldense.so
+[ 65%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_adapt.c.o
+[ 66%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_arkstep_io.c.o
+[ 66%] Built target sundials_sunlinsolband_shared
+[ 67%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_arkstep_nls.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepSetTables’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:214:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  214 |   ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_arkstep.h:23,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_impl.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:31:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:220:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  220 |   ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:321:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  321 |   ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:325:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  325 |   ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepSetTableNum’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:364:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  364 |   ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:370:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  370 |   ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘arkStep_SetDefaults’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:772:5: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  772 |     ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:780:5: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  780 |     ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘arkStep_SetOrder’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:823:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  823 |   ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:829:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  829 |   ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepSetOptimalParams’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:1528:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1528 |   retval = SUNAdaptController_Space(hadapt_mem->hcontroller, &lenrw, &leniw);
+      |   ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:37:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:1775:5: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1775 |     retval = SUNAdaptController_Space(hadapt_mem->hcontroller, &lenrw, &leniw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepGetWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:2158:3: warning: ‘ARKodeGetWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 2158 |   return (ARKodeGetWorkSpace(arkode_mem, lenrw, leniw));
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:363:5: note: declared here
+  363 | int ARKodeGetWorkSpace(void* arkode_mem, long int* lenrw, long int* leniw);
+      |     ^~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepGetLinWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:2340:3: warning: ‘ARKodeGetLinWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 2340 |   return (ARKodeGetLinWorkSpace(arkode_mem, lenrwLS, leniwLS));
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:420:5: note: declared here
+  420 | int ARKodeGetLinWorkSpace(void* arkode_mem, long int* lenrwLS, long int* leniwLS);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c: In function ‘ARKStepGetMassWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep_io.c:2391:3: warning: ‘ARKodeGetMassWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 2391 |   return (ARKodeGetMassWorkSpace(arkode_mem, lenrwMLS, leniwMLS));
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:441:5: note: declared here
+  441 | int ARKodeGetMassWorkSpace(void* arkode_mem, long int* lenrwMLS,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+[ 67%] Built target sundials_sunlinsoldense_shared
+[ 68%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_arkstep.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c: In function ‘arkStep_Resize’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:376:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  376 |   if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |   ^~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:22,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_manyvector.h:44,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c: In function ‘arkStep_Free’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:512:7: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  512 |       ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:32:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:520:7: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  520 |       ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c: In function ‘arkStep_SetButcherTables’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:2588:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 2588 |   ARKodeButcherTable_Space(step_mem->Be, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_arkstep.c:2592:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 2592 |   ARKodeButcherTable_Space(step_mem->Bi, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+[ 69%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_bandpre.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c: In function ‘ARKBandPrecGetWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c:225:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  225 |     N_VSpace(ark_mem->tempv1, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_bandpre.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre_impl.h:23,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c:28:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c:231:5: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  231 |     retval = SUNMatSpace(pdata->savedJ, &lrw, &liw);
+      |     ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:63,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_band.h:31,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre_impl.h:24:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c:240:5: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  240 |     retval = SUNMatSpace(pdata->savedP, &lrw, &liw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bandpre.c:249:5: warning: ‘SUNLinSolSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  249 |     retval = SUNLinSolSpace(pdata->LS, &lrw, &liw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:221:12: note: declared here
+  221 | SUNErrCode SUNLinSolSpace(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~
+[ 70%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_bbdpre.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c: In function ‘ARKBBDPrecInit’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:249:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  249 |     N_VSpace(ark_mem->tempv1, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_serial.h:45,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:24:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:255:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  255 |     N_VSpace(pdata->rlocal, &lrw1, &liw1);
+      |     ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:261:5: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  261 |     retval = SUNMatSpace(pdata->savedJ, &lrw, &liw);
+      |     ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:63,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunlinsol/sunlinsol_band.h:31,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre_impl.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:29:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:267:5: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  267 |     retval = SUNMatSpace(pdata->savedP, &lrw, &liw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_bbdpre.c:273:5: warning: ‘SUNLinSolSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  273 |     retval = SUNLinSolSpace(pdata->LS, &lrw, &liw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:221:12: note: declared here
+  221 | SUNErrCode SUNLinSolSpace(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~
+[ 71%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_butcher_dirk.c.o
+[ 72%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_butcher_erk.c.o
+[ 73%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_butcher.c.o
+[ 74%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_cli.c.o
+[ 75%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_erkstep_io.c.o
+[ 76%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_erkstep.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c: In function ‘ERKStepSetTable’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:75:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   75 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_erkstep.h:23,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_impl.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:31:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:95:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   95 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c: In function ‘ERKStepSetTableNum’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:133:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  133 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:151:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  151 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c: In function ‘erkStep_SetDefaults’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:331:5: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  331 |     ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c: In function ‘erkStep_SetOrder’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:369:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  369 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c: In function ‘ERKStepGetWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep_io.c:696:3: warning: ‘ARKodeGetWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  696 |   return (ARKodeGetWorkSpace(arkode_mem, lenrw, leniw));
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:363:5: note: declared here
+  363 | int ARKodeGetWorkSpace(void* arkode_mem, long int* lenrw, long int* leniw);
+      |     ^~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c: In function ‘erkStep_Resize’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c:249:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  249 |   if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |   ^~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:22,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_manyvector.h:44,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c: In function ‘erkStep_Free’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c:290:7: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  290 |       ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:34,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c:31:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c: In function ‘erkStep_SetButcherTable’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_erkstep.c:1281:3: warning: ‘ARKodeButcherTable_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1281 |   ARKodeButcherTable_Space(step_mem->B, &Bliw, &Blrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_butcher.h:60:6: note: declared here
+   60 | void ARKodeButcherTable_Space(ARKodeButcherTable B, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+[ 77%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_forcingstep.c.o
+[ 78%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_interp.c.o
+[ 79%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_io.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c: In function ‘arkReplaceAdaptController’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3331:5: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3331 |     retval = SUNAdaptController_Space(ark_mem->hadapt_mem->hcontroller, &lenrw,
+      |     ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunadaptcontroller/sunadaptcontroller_imexgus.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3365:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3365 |   retval = SUNAdaptController_Space(C, &lenrw, &leniw);
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c: In function ‘arkSetAdaptivityMethod’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3467:5: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3467 |     retval = SUNAdaptController_Space(ark_mem->hadapt_mem->hcontroller, &lenrw,
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3628:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3628 |   retval = SUNAdaptController_Space(C, &lenrw, &leniw);
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c: In function ‘arkSetAdaptivityFn’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3670:5: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3670 |     retval = SUNAdaptController_Space(ark_mem->hadapt_mem->hcontroller, &lenrw,
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_io.c:3713:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3713 |   retval = SUNAdaptController_Space(C, &lenrw, &leniw);
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+[ 80%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_ls.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c: In function ‘ARKodeGetLinWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1200:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1200 |     N_VSpace(arkls_mem->x, &lrw1, &liw1);
+      |     ^~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:53,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sunmatrix/sunmatrix_band.h:38,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:24:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1210:7: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1210 |       retval = SUNMatSpace(arkls_mem->savedJ, &lrw, &liw);
+      |       ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1222:5: warning: ‘SUNLinSolSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1222 |     retval = SUNLinSolSpace(arkls_mem->LS, &lrw, &liw);
+      |     ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:29,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:37,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_impl.h:25,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:28:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:221:12: note: declared here
+  221 | SUNErrCode SUNLinSolSpace(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c: In function ‘ARKodeGetMassWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1876:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1876 |     N_VSpace(ark_mem->tempv1, &lrw1, &liw1);
+      |     ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1886:7: warning: ‘SUNMatSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1886 |       retval = SUNMatSpace(arkls_mem->M_lu, &lrw, &liw);
+      |       ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_matrix.h:163:12: note: declared here
+  163 | SUNErrCode SUNMatSpace(SUNMatrix A, long int* lenrw, long int* leniw);
+      |            ^~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_ls.c:1898:5: warning: ‘SUNLinSolSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1898 |     retval = SUNLinSolSpace(arkls_mem->LS, &lrw, &liw);
+      |     ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_linearsolver.h:221:12: note: declared here
+  221 | SUNErrCode SUNLinSolSpace(SUNLinearSolver S, long int* lenrwLS,
+      |            ^~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/cuda/nvector_cuda.cu: In function ‘_generic_N_Vector* N_VNewEmpty_Cuda(SUNContext)’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/nvector/cuda/nvector_cuda.cu:147:23: warning: ‘void N_VSpace_Cuda(N_Vector, sunindextype*, sunindextype*)’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  147 |   v->ops->nvspace                 = N_VSpace_Cuda;
+      |                       ^~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/nvector/nvector_cuda.h:123:1: note: declared here
+  123 | void N_VSpace_Cuda(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      | ^~~~~~~~~~~~~
+[ 81%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_lsrkstep_io.c.o
+[ 82%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_lsrkstep.c.o
+[ 83%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_mri_tables.c.o
+[ 84%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_mristep_controller.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_controller.c: In function ‘SUNAdaptController_Space_MRIStep’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_controller.c:140:3: warning: ‘SUNAdaptController_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  140 |   return SUNAdaptController_Space(MRICONTROL_C(C), lenrw, leniw);
+      |   ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_core.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:37,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_impl.h:25,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_controller.c:25:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adaptcontroller.h:199:12: note: declared here
+  199 | SUNErrCode SUNAdaptController_Space(SUNAdaptController C, long int* lenrw,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+[ 85%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_mristep_io.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c: In function ‘MRIStepSetCoupling’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:66:3: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   66 |   MRIStepCoupling_Space(step_mem->MRIC, &Tliw, &Tlrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_impl.h:25,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:28:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:85:3: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+   85 |   MRIStepCoupling_Space(step_mem->MRIC, &Tliw, &Tlrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c: In function ‘mriStep_SetDefaults’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:392:5: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  392 |     MRIStepCoupling_Space(step_mem->MRIC, &Cleniw, &Clenrw);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c: In function ‘mriStep_SetOrder’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:486:3: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  486 |   MRIStepCoupling_Space(step_mem->MRIC, &Tliw, &Tlrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c: In function ‘MRIStepGetWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:1206:3: warning: ‘ARKodeGetWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1206 |   return (ARKodeGetWorkSpace(arkode_mem, lenrw, leniw));
+      |   ^~~~~~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:24:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:363:5: note: declared here
+  363 | int ARKodeGetWorkSpace(void* arkode_mem, long int* lenrw, long int* leniw);
+      |     ^~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c: In function ‘MRIStepGetLinWorkSpace’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep_io.c:1346:3: warning: ‘ARKodeGetLinWorkSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1346 |   return (ARKodeGetLinWorkSpace(arkode_mem, lenrwLS, leniwLS));
+      |   ^~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:420:5: note: declared here
+  420 | int ARKodeGetLinWorkSpace(void* arkode_mem, long int* lenrwLS, long int* leniwLS);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+[ 86%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_mristep_nls.c.o
+[ 87%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_mristep.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c: In function ‘mriStep_Resize’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c:415:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  415 |   if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |   ^~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointstepper.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:36,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:24,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c:22:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c: In function ‘mriStep_Free’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c:593:7: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  593 |       MRIStepCoupling_Space(step_mem->MRIC, &Cliw, &Clrw);
+      |       ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c: In function ‘mriStep_SetCoupling’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c:3233:3: warning: ‘MRIStepCoupling_Space’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 3233 |   MRIStepCoupling_Space(step_mem->MRIC, &Cliw, &Clrw);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_mristep.h:183:6: note: declared here
+  183 | void MRIStepCoupling_Space(MRIStepCoupling MRIC, sunindextype* liw,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c: In function ‘mriStepInnerStepper_AllocVecs’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_mristep.c:4751:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 4751 |   if (tmpl->ops->nvspace) { N_VSpace(tmpl, &lrw1, &liw1); }
+      |   ^~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 88%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_relaxation.c.o
+[ 88%] Built target sundials_nveccuda_obj_shared
+[ 89%] Linking CUDA shared library libsundials_nveccuda.so
+[ 90%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_root.c.o
+[ 90%] Built target sundials_nveccuda_shared
+[ 91%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_splittingstep_coefficients.c.o
+[ 92%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_splittingstep.c.o
+[ 93%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_sprkstep_io.c.o
+[ 94%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_sprkstep.c.o
+[ 95%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_sprk.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_sprkstep.c: In function ‘sprkStep_Resize’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_sprkstep.c:259:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  259 |   if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |   ^~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointstepper.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:36,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode_sprkstep.h:23,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode_sprkstep.c:21:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 96%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_sunstepper.c.o
+[ 97%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode_user_controller.c.o
+[ 98%] Building C object src/arkode/CMakeFiles/sundials_arkode_obj_shared.dir/arkode.c.o
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode.c: In function ‘ARKodeResize’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode.c:145:3: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+  145 |   if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |   ^~
+In file included from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointcheckpointscheme.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_adjointstepper.h:21,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/arkode/arkode.h:36,
+                 from /home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode.c:23:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode.c: In function ‘arkInit’:
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/src/arkode/arkode.c:1770:5: warning: ‘N_VSpace’ is deprecated: Work space functions will be removed in version 8.0.0 [-Wdeprecated-declarations]
+ 1770 |     if (y0->ops->nvspace != NULL) { N_VSpace(y0, &lrw1, &liw1); }
+      |     ^~
+/home/daroch/AXIOMA_ASTRA/motor_nuevo/general_v2_20260922/vendor/sundials/include/sundials/sundials_nvector.h:230:6: note: declared here
+  230 | void N_VSpace(N_Vector v, sunindextype* lrw, sunindextype* liw);
+      |      ^~~~~~~~
+[ 98%] Built target sundials_arkode_obj_shared
+[100%] Linking C shared library libsundials_arkode.so
+[100%] Built target sundials_arkode_shared

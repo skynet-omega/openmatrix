@@ -1,0 +1,39 @@
+{
+  "objective": "Repair generic contracts, implement full coupled JVP and a first generic implicit GPU backend without anatomical dispatch. Preserve original scientific evidence.",
+  "alternatives": {
+    "A": "Fully coupled implicit integration with sparse constant mass, generated exact JVP and existing Newton/Krylov machinery. Prefer SUNDIALS CUDA when accessible.",
+    "B": "Multirate waveform correction; requires evidence of temporal separation and coupled convergence, not implemented by assigning anatomical clocks.",
+    "C": "Declared linear/nonlinear IMEX split with a global sparse stiff operator; distinct from failed diagonal exponential midpoint. No revival by retuning that candidate."
+  },
+  "budget": {
+    "max_complete_candidates": 2,
+    "max_compute_wall_s": 3600,
+    "max_individual_pilot_s": 180,
+    "max_pilot_runs": 16,
+    "max_large_JVP_screens": 2,
+    "RAM_GiB": 8,
+    "GPU_GiB": 12,
+    "jev_calls": 1
+  },
+  "error_contract": {
+    "local_precise_rtol": 1e-07,
+    "local_precise_atol_scale": 1e-09,
+    "local_fast_rtol": 0.001,
+    "local_fast_atol_scale": 1e-05,
+    "global_precise_scaled": 1e-05,
+    "global_fast_scaled": 0.01,
+    "reference_refinement": 1e-07,
+    "analytic_JVP_scaled": 1e-09,
+    "finite_difference_JVP_scaled": 1e-05
+  },
+  "falsifiers": [
+    "large-integer literal/subexpression semantics differ CPU/GPU",
+    "same executable identity maps same mass COO to different states",
+    "invalid migrated RHS committed",
+    "fractional identities or indices silently truncated",
+    "checkpoint silently uses different numeric profile/compiler",
+    "JVP misses output-CSR-input path (sign counterexample)",
+    "accepted implicit trajectory fails global criterion or mass/clamp invariant"
+  ],
+  "scope": "Engineering improvement; no complete fly speed or stage3 promotion. Repaired contracts are author tests, not independent confirmation. CPU/GPU references share IR; independent manufactured linear/stiff answers required."
+}

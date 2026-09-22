@@ -1,0 +1,96 @@
+{
+  "scientific_solves": 16,
+  "breakdown": {
+    "small_implicit": 8,
+    "small_reference": 4,
+    "explicit_HH": 2,
+    "large_implicit": 2
+  },
+  "new_complete_candidates": 1,
+  "maximum": {
+    "scientific_solves": 16,
+    "compute_wall_s": 3600,
+    "individual_pilot_s": 180
+  },
+  "measured_scientific_windows_s": 199.7100243611494,
+  "note": "Measured windows exclude imports unless explicit subprocess ledger. Small smoke/regression/corruption checks and builds listed separately, not scientific arms. No large historical reference rerun. Start of large fast overlapped small session diagnostic; single exploratory timing.",
+  "small_windows": [
+    {
+      "path": "pilots/clamp_fast/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 1.1002271020552143
+    },
+    {
+      "path": "pilots/clamp_precise/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 1.0792324169888161
+    },
+    {
+      "path": "pilots/hh_fast/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 8.331146053038538
+    },
+    {
+      "path": "pilots/hh_precise/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 54.67303054698277
+    },
+    {
+      "path": "pilots/hh_reference/RESULT.json",
+      "phase": "two reference solves",
+      "measured_wall_s": 9.000142335018609
+    },
+    {
+      "path": "pilots/mixed_fast/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 3.151976516004652
+    },
+    {
+      "path": "pilots/mixed_precise/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 8.229084018035792
+    },
+    {
+      "path": "pilots/mixed_reference/RESULT.json",
+      "phase": "two reference solves",
+      "measured_wall_s": 1.9060596839990467
+    },
+    {
+      "path": "pilots/stiff_fast/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 1.642983935016673
+    },
+    {
+      "path": "pilots/stiff_precise/RESULT.json",
+      "phase": "implicit candidate",
+      "measured_wall_s": 11.070435655012261
+    }
+  ],
+  "large_windows": [
+    {
+      "profile": "fast",
+      "measured_window_s": 11.446528006985318
+    },
+    {
+      "profile": "precise",
+      "measured_window_s": 86.96828954597004
+    }
+  ],
+  "setup_failures": [
+    "first compiler configuration: CUDA12 rejects hostgcc13; fixed using installedgcc12",
+    "large_fast_01: reference importlib dataclass registration, no integration started; fixed importer and repeated"
+  ],
+  "diagnostics": [
+    "contracts_01",
+    "jvp_01",
+    "previous_audit_01",
+    "session_01"
+  ],
+  "jev_calls": 1,
+  "jev_usage": {
+    "input": 1011,
+    "output": 213
+  },
+  "memory": "peak host RSS about2.05GiB; total VRAM not instrumented, do not certify measured total GPU peak",
+  "stop_reason": "Complete bounded architecture milestone; implicit not promoted as universal fastest; stage3 and full neuroscience feature set remain open"
+}

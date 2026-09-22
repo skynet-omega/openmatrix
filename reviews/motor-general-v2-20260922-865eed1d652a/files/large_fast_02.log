@@ -1,0 +1,63 @@
+{"simulated": 0.05, "wall_s": 1.874850343039725}
+{"simulated": 0.1, "wall_s": 2.319503695995081}
+{"simulated": 0.15000000000000002, "wall_s": 2.5698934519896284}
+{"simulated": 0.2, "wall_s": 2.8314611240057275}
+{"simulated": 0.25, "wall_s": 3.0736990970326588}
+{"simulated": 0.30000000000000004, "wall_s": 3.31151528400369}
+{"simulated": 0.35000000000000003, "wall_s": 3.5485498890047893}
+{"simulated": 0.4, "wall_s": 3.7906561589916237}
+{"simulated": 0.45, "wall_s": 4.018160008999985}
+{"simulated": 0.5, "wall_s": 4.262109105009586}
+{"simulated": 0.55, "wall_s": 4.46796101500513}
+{"simulated": 0.6000000000000001, "wall_s": 4.6834610819933005}
+{"simulated": 0.65, "wall_s": 4.8983876460115425}
+{"simulated": 0.7000000000000001, "wall_s": 5.124056533037219}
+{"simulated": 0.75, "wall_s": 5.351758487988263}
+{"simulated": 0.8, "wall_s": 5.581841789011378}
+{"simulated": 0.8500000000000001, "wall_s": 5.8410846830229275}
+{"simulated": 0.9, "wall_s": 6.090090490004513}
+{"simulated": 0.9500000000000001, "wall_s": 6.323813994007651}
+{"simulated": 1.0, "wall_s": 6.578169563028496}
+{
+  "profile": "fast",
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "reference_legacy_identity": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "reference_rhs_drift": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_refinement": 2.935627302348759e-11,
+  "reference_hashes": {
+    "model.py": "2c2bdbe17ec699234299515e6422b50bc976f6bdb4771040510daf8ba7380ae1",
+    "reference_fine/trajectory.npz": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+    "reference/trajectory.npz": "460882527563a37acfd8a94fb03eb242f8d4a6d74fbdeec1ced8c416166016fd"
+  },
+  "setup_s": 1.7415127599961124,
+  "advance_scan_s": 6.578951163042802,
+  "measured_window_s": 11.446528006985318,
+  "actual_simulated_s": 1.0,
+  "completed": true,
+  "error": 0.0002268806440211497,
+  "eligible": true,
+  "failure": null,
+  "stats": {
+    "steps": 29,
+    "rhs_evaluations": 373,
+    "nonlinear_iterations": 248,
+    "linear_iterations": 1206,
+    "error_test_failures": 2,
+    "callbacks": [
+      373,
+      1206,
+      1666,
+      1437,
+      119
+    ]
+  },
+  "peak_RSS_GiB": 2.0462684631347656,
+  "scope": "Synthetic continuously coupled ODE; 4096 probes x21 times and every final state; not a brain, not biological validation"
+}

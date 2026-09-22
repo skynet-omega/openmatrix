@@ -1,0 +1,224 @@
+--- parent/model.py
++++ model.py
+@@ -55,10 +55,38 @@
+     raise ValueError('unsupported expression syntax: '+ast.dump(node)[:100])
+ 
+ def unit(text):
+-    node=ast.parse(text,mode='eval').body
+-    # Names are independent base units; no implicit mV->V conversion.
+-    names={x.id:{x.id:1} for x in ast.walk(node) if isinstance(x,ast.Name)}
+-    return dimension(node,names)
++    # Only products/powers of named base units. Numeric scale factors are unsupported.
++    def visit(n):
++        if isinstance(n,ast.Name) and IDENT.fullmatch(n.id): return {n.id:1}
++        if isinstance(n,ast.Constant) and n.value==1 and type(n.value) in (int,float):return {}
++        if isinstance(n,ast.BinOp) and isinstance(n.op,(ast.Mult,ast.Div)):
++            return combine(visit(n.left),visit(n.right),-1 if isinstance(n.op,ast.Div) else 1)
++        if isinstance(n,ast.BinOp) and isinstance(n.op,ast.Pow):
++            power=n.right
++            sign=1
++            if isinstance(power,ast.UnaryOp) and isinstance(power.op,ast.USub):sign=-1;power=power.operand
++            require(isinstance(power,ast.Constant) and type(power.value) in (int,float) and math.isfinite(power.value),'unit power must be numeric')
++            return {k:v*sign*power.value for k,v in visit(n.left).items() if v*power.value!=0}
++        raise ValueError('unit scale factors/conversions are not implemented; use explicit parameters')
++    return visit(ast.parse(text,mode='eval').body)
++
++class FP64Literals(ast.NodeTransformer):
++    def visit_Constant(self,node):
++        require(type(node.value) in (int,float),'numeric literal required')
++        try:value=float(node.value)
++        except (OverflowError,ValueError) as e:raise ValueError('literal outside FP64 domain') from e
++        require(math.isfinite(value),'literal outside finite FP64 domain')
++        return ast.copy_location(ast.Constant(value=value),node)
++
++def integer_array(values,name):
++    # Validate original elements before any coercion can truncate or round them.
++    a=np.asarray(values,dtype=object);require(a.ndim==1,name+' must be a vector')
++    result=[]
++    for x in a:
++        require(not isinstance(x,(bool,np.bool_)) and isinstance(x,(int,float,np.integer,np.floating)),name+' must contain integers')
++        if isinstance(x,(float,np.floating)):require(np.isfinite(x) and x==math.floor(x),name+' fractional/nonfinite value')
++        v=int(x);require(-(2**63)<=v<2**63,name+' outside int64 range');result.append(v)
++    return np.asarray(result,dtype=np.int64)
+ 
+ def cuda_expr(node):
+     if isinstance(node,ast.Constant): return repr(float(node.value))
+@@ -79,7 +107,7 @@
+     env: dict
+     expected: dict
+     def __post_init__(self):
+-        self.node=ast.parse(self.text,mode='eval').body
++        self.node=ast.fix_missing_locations(FP64Literals().visit(ast.parse(self.text,mode='eval').body))
+         actual=dimension(self.node,self.env)
+         zero=isinstance(self.node,ast.Constant) and self.node.value==0
+         require(zero or actual==self.expected,f'equation units {actual} != {self.expected}: {self.text}')
+@@ -90,7 +118,7 @@
+ 
+ class Model:
+     """All numerical storage is SoA, compiled only from a validated descriptor."""
+-    def __init__(self, spec):
++    def __init__(self, spec, prepare_mass_solver=True):
+         self.spec=copy.deepcopy(spec)
+         require(set(spec)<= {'version','populations','connections','mass','clamps','capabilities','description'}, 'unknown top-level field')
+         require(spec.get('version')==1, 'unsupported IR version')
+@@ -104,7 +132,7 @@
+             name=specpop['id'];n=specpop['count']
+             require(isinstance(name,str) and name not in self.by_id,'duplicate population id')
+             require(type(n) is int and n>0, 'positive population count required')
+-            ids=np.array(specpop.get('cell_ids',list(range(n))),dtype=np.int64)
++            ids=integer_array(specpop['cell_ids'],'cell_ids') if 'cell_ids' in specpop else np.arange(n,dtype=np.int64)
+             require(ids.shape==(n,) and len(np.unique(ids))==n,'cell identities must be unique')
+             p={'id':name,'n':n,'ids':ids,'states':{},'params':{},'inputs':{},'outputs':{},'derived':{}}
+             env={'t':{'s':1}}
+@@ -151,10 +179,10 @@
+             require(sourceunit==targetunit,'port unit mismatch: explicit conversion required')
+             if conn.get('pattern')=='ring':
+                 require(a['n']==b['n'],'ring pattern requires equal sizes')
+-                rr=np.tile(np.arange(b['n']),len(conn['offsets']));cc=np.concatenate([(np.arange(b['n'])+o)%a['n'] for o in conn['offsets']])
++                offsets=integer_array(conn['offsets'],'offsets');require(len(offsets)>0,'empty ring offsets');rr=np.tile(np.arange(b['n']),len(offsets));cc=np.concatenate([(np.arange(b['n'])+(int(o)%a['n']))%a['n'] for o in offsets])
+                 ww=np.full(rr.size,conn['weight'])
+             elif conn.get('pattern')=='coo':
+-                rr=np.asarray(conn['row'],dtype=np.int64);cc=np.asarray(conn['col'],dtype=np.int64);ww=np.broadcast_to(conn['weights'],rr.shape)
++                rr=integer_array(conn['row'],'connection rows');cc=integer_array(conn['col'],'connection columns');ww=np.broadcast_to(conn['weights'],rr.shape)
+                 require(rr.ndim==1 and cc.shape==rr.shape,'COO shape mismatch')
+             else: raise Unsupported('connection pattern must be ring or coo')
+             require(((rr>=0)&(rr<b['n'])).all() and ((cc>=0)&(cc<a['n'])).all(),'connection index out of range')
+@@ -166,7 +194,9 @@
+         self.mass=sparse.eye(ns,format='csc')
+         if 'mass' in spec:
+             m=spec['mass'];require(set(m)=={'row','col','values'},'mass must be a constant COO matrix')
+-            self.mass=sparse.csc_matrix((m['values'],(m['row'],m['col'])),shape=(ns,ns),dtype=np.float64);self.mass.sum_duplicates()
++            mr=integer_array(m['row'],'mass rows');mc=integer_array(m['col'],'mass columns')
++            require(mr.shape==mc.shape and ((mr>=0)&(mr<ns)&(mc>=0)&(mc<ns)).all(),'mass index out of range')
++            self.mass=sparse.csc_matrix((m['values'],(mr,mc)),shape=(ns,ns),dtype=np.float64);self.mass.sum_duplicates()
+             require(np.isfinite(self.mass.data).all(),'nonfinite mass')
+             for r,c in zip(*self.mass.nonzero()): require(self.units[r]==self.units[c],'mass mixes state dimensions')
+         diag=self.mass.diagonal();self.diagonal_mass=(self.mass-sparse.diags(diag)).nnz==0
+@@ -177,7 +207,7 @@
+             require(set(clamp)=={'population','state','cells','value'},'invalid clamp')
+             pop=self.by_id[clamp['population']];sl=pop['states'][clamp['state']]
+             lookup={int(v):i for i,v in enumerate(pop['ids'])}
+-            idx=np.array([sl.start+lookup[c] for c in clamp['cells']],dtype=np.int64)
++            idx=np.array([sl.start+lookup[int(c)] for c in integer_array(clamp['cells'],'clamp cell ids')],dtype=np.int64)
+             require(np.isfinite(clamp['value']),'nonfinite clamp')
+             self.clamp_mask[idx]=True;self.clamp_values[idx]=clamp['value'];self.initial[idx]=clamp['value']
+         if not self.diagonal_mass and self.clamp_mask.any():
+@@ -185,13 +215,15 @@
+             for i in idx: m.rows[i]=[int(i)];m.data[i]=[1.]
+             self.mass=m.tocsc()
+         self.lu=None
+-        if not self.diagonal_mass:
+-            if ns>4096: raise Unsupported('general mass reference limited to 4096 states; accelerator not implemented')
++        if not self.diagonal_mass and prepare_mass_solver:
++            if ns>4096: raise Unsupported('CPU LU reference limited to 4096 states; choose the implicit GPU operator for larger problems')
+             try: self.lu=splu(self.mass)
+             except RuntimeError as e: raise Unsupported('singular mass/DAE not supported') from e
+-        self.identity=digest(self.spec)
+-
+-    def rhs(self,t,y):
++        self.layout=[{'id':p['id'],'count':p['n'],**{g:list(p[g]) for g in ('states','params','inputs','outputs','derived')}} for p in self.pops]
++        self.descriptor_hash=digest(self.spec)
++        self.identity=digest({'numeric_IR':'fp64-v2','descriptor':self.spec,'ordered_layout':self.layout})
++
++    def raw_rhs(self,t,y):
+         require(np.isfinite(y).all(),'nonfinite input state')
+         out=np.empty(self.nout);contexts=[]
+         for p in self.pops:
+@@ -209,7 +241,13 @@
+             for k,expr in p['rhs'].items(): f[p['states'][k]]=expr.evaluate(v)
+         require(np.isfinite(f).all(),'nonfinite derivative')
+         f[self.clamp_mask]=0
+-        return f/self.mass_diag if self.diagonal_mass else self.lu.solve(f)
++        return f
++
++    def rhs(self,t,y):
++        f=self.raw_rhs(t,y)
++        if self.diagonal_mass:return f/self.mass_diag
++        require(self.lu is not None,'mass solver not prepared')
++        return self.lu.solve(f)
+ 
+     def cuda_source(self):
+         from autodiff import derivative
+--- parent/runtime.py
++++ runtime.py
+@@ -1,6 +1,6 @@
+ """Global resident RK4 step doubling; CPU reference; transactional model edits."""
+ from __future__ import annotations
+-import copy,json,time
++import copy,json,time,hashlib,sys,platform
+ from pathlib import Path
+ import numpy as np
+ from scipy.integrate import solve_ivp
+@@ -153,7 +153,7 @@
+     def __init__(self,spec,backend='gpu',profile='precise',algorithm='A'):
+         require(backend in ('cpu','gpu') and profile in PROFILES and algorithm in ('A','C'),'invalid execution configuration')
+         start=time.perf_counter();self.model=Model(spec);self.backend=backend;self.profile=profile;self.algorithm=algorithm
+-        self.gpu=GPU(self.model,profile,algorithm) if backend=='gpu' else None
++        self.tolerances=tuple(PROFILES[profile]);self.gpu=GPU(self.model,profile,algorithm) if backend=='gpu' else None
+         self.y=self.model.initial.copy() if backend=='cpu' else None
+         self.t=0.;self.next_h=1e-4;self.edits=[];self.setup_s=time.perf_counter()-start
+         self.cpu_nfev=0;self.cpu_method='DOP853'
+@@ -176,7 +176,7 @@
+                 if err<=1:
+                     self.t=end if h==end-self.t else self.t+h
+         else:
+-            rtol,atol=PROFILES[self.profile]
++            rtol,atol=self.tolerances
+             def rhs(t,y):
+                 require(time.perf_counter()-start<wall_limit_s,'CPU advance budget exceeded')
+                 return self.model.rhs(t,y)
+@@ -209,6 +209,8 @@
+                     new[sl.start+ni]=old[oldsl.start+oi]
+         new[fresh.model.clamp_mask]=fresh.model.clamp_values[fresh.model.clamp_mask]
+         require(np.isfinite(new).all(),'nonfinite migrated state')
++        fresh.model.raw_rhs(self.t,new)  # Current time and migrated state, not descriptor initial state.
++        if fresh.gpu:fresh.gpu.rhs_read(self.t,new)
+         if fresh.gpu: fresh.gpu.write(new)
+         else: fresh.y=new
+         receipt={'time':self.t,'before':self.model.identity,'after':fresh.model.identity,'kind':'atomic descriptor replacement','setup_s':fresh.setup_s}
+@@ -216,10 +218,23 @@
+         self.next_h=1e-4;self.edits.append(receipt)
+         return receipt
+ 
++    def execution_contract(self):
++        import scipy
++        h=Path(__file__).resolve().parent
++        contract={'schema':2,'dtype':'float64','numeric_IR':'fp64-v2','ordered_layout':self.model.layout,
++                  'source_hashes':{n:hashlib.sha256((h/n).read_bytes()).hexdigest() for n in ('model.py','runtime.py','autodiff.py')},
++                  'backend':self.backend,'algorithm':self.algorithm,'profile':self.profile,'effective_tolerances':list(self.tolerances),
++                  'cpu_method':self.cpu_method,'python':sys.version,'numpy':np.__version__,'scipy':scipy.__version__}
++        if self.gpu:
++            cp=self.gpu.cp
++            contract.update(cupy=cp.__version__,cuda_runtime=cp.cuda.runtime.runtimeGetVersion(),cuda_driver=cp.cuda.runtime.driverGetVersion(),
++                            cuda_source=hashlib.sha256((self.model.cuda_source()+KERNELS).encode()).hexdigest(),device=cp.cuda.runtime.getDeviceProperties(0)['name'].decode())
++        return contract
++
+     def checkpoint(self,path):
+         path=Path(path);path.mkdir(parents=True,exist_ok=False)
+         state=self.read();np.save(path/'state.npy',state)
+-        meta={'version':1,'spec':self.model.spec,'model_sha256':self.model.identity,'backend':self.backend,'profile':self.profile,'algorithm':self.algorithm,'time':self.t,'next_h':self.next_h,'edits':self.edits,'cpu_method':self.cpu_method,'state_sha256':__import__('hashlib').sha256((path/'state.npy').read_bytes()).hexdigest(),'rng':'absent: deterministic domain','event_queue':'absent: only external edits at explicit advance boundaries'}
++        meta={'version':2,'execution_contract':self.execution_contract(),'descriptor_sha256':self.model.descriptor_hash,'spec':self.model.spec,'model_sha256':self.model.identity,'backend':self.backend,'profile':self.profile,'algorithm':self.algorithm,'time':self.t,'next_h':self.next_h,'edits':self.edits,'cpu_method':self.cpu_method,'state_sha256':__import__('hashlib').sha256((path/'state.npy').read_bytes()).hexdigest(),'rng':'absent: deterministic domain','event_queue':'absent: only external edits at explicit advance boundaries'}
+         raw=(json.dumps(meta,indent=2,allow_nan=False)+'\n').encode()
+         (path/'checkpoint.json').write_bytes(raw)
+         (path/'checkpoint.sha256').write_text(__import__('hashlib').sha256(raw).hexdigest()+'\n')
+@@ -229,11 +244,16 @@
+         path=Path(path);raw=(path/'checkpoint.json').read_bytes()
+         require(__import__('hashlib').sha256(raw).hexdigest()==(path/'checkpoint.sha256').read_text().strip(),'checkpoint metadata corruption')
+         meta=json.loads(raw)
+-        require(meta['version']==1,'checkpoint schema')
++        require(meta['version']==2,'checkpoint schema requires explicit migration')
+         require(__import__('hashlib').sha256((path/'state.npy').read_bytes()).hexdigest()==meta['state_sha256'],'checkpoint state corruption')
+-        require(digest(meta['spec'])==meta['model_sha256'],'checkpoint model corruption')
+-        e=cls(meta['spec'],meta['backend'],meta['profile'],meta['algorithm']);y=np.load(path/'state.npy',allow_pickle=False)
+-        require(y.shape==(e.model.n,) and np.isfinite(y).all(),'invalid checkpoint state')
++        require(digest(meta['spec'])==meta['descriptor_sha256'],'checkpoint descriptor corruption')
++        e=cls(meta['spec'],meta['backend'],meta['profile'],meta['algorithm'])
++        require(e.model.identity==meta['model_sha256'],'checkpoint executable layout/identity mismatch')
++        require(meta['cpu_method'] in ('DOP853','Radau','BDF'),'unsupported CPU method')
++        e.cpu_method=meta['cpu_method']
++        require(e.execution_contract()==meta['execution_contract'],'checkpoint execution contract changed; explicit migration required')
++        y=np.load(path/'state.npy',allow_pickle=False)
++        require(y.dtype==np.float64 and y.shape==(e.model.n,) and np.isfinite(y).all(),'invalid checkpoint state')
+         require(math_finite(meta['time']) and meta['time']>=0 and math_finite(meta['next_h']) and meta['next_h']>0,'invalid checkpoint controller')
+         require(np.array_equal(y[e.model.clamp_mask],e.model.clamp_values[e.model.clamp_mask]),'clamp state corruption')
+         if e.gpu:e.gpu.write(y)

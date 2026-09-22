@@ -1,5 +1,5 @@
 # Última evidencia
 
-[nucleo-generico-20260922](reviews/nucleo-generico-20260922-a36b245665bc/README.md)
+[motor-general-v2-20260922](reviews/motor-general-v2-20260922-865eed1d652a/README.md)
 
-Primer motor declarativo CPU/GPU: modelos por ecuaciones, perfiles fast/precise, intervenciones y escaner. Prueba sintetica1s con726900estados/23296700conexiones; A0.658s/3.243s de avance, no cerebro biologico completo. C fallaHH. Incluye reparacionFP64, fuentes originales/congeladas, pruebas, arrays, contrato y datos para reproduccion. PROMETEDOR_NO_CONFIRMADO; etapa3abierta.
+General model contracts repaired; generated global JVP; SUNDIALS CUDA implicit backend with constant sparse mass. Raw results, negatives, build sources, bounded reproduction and ChatGPT/Jev reviews. Synthetic engineering only; stage3 open.

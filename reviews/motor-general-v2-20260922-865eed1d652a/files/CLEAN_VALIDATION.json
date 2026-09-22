@@ -1,0 +1,89 @@
+{
+  "extraction": "intercambio/motor_general_v2_clean_03",
+  "draft_zip_sha256": "d23009eed289f1d4eac4bfeda5d879c6d8af6f93bbee78ac416388dc068163ec",
+  "file_hashes_checked_before_and_after": 160,
+  "checks": [
+    {
+      "args": [
+        "verify_package.py"
+      ],
+      "exit": 0,
+      "wall_s": 0.031638365995604545
+    },
+    {
+      "args": [
+        "verify.py",
+        "checked_results.json"
+      ],
+      "exit": 0,
+      "wall_s": 0.36424128903308883
+    },
+    {
+      "args": [
+        "build_dependency.py"
+      ],
+      "exit": 0,
+      "wall_s": 14.791289485001471
+    },
+    {
+      "args": [
+        "test_contracts.py",
+        "check_contracts"
+      ],
+      "exit": 0,
+      "wall_s": 0.8154570480110124
+    },
+    {
+      "args": [
+        "test_jvp.py",
+        "check_jvp"
+      ],
+      "exit": 0,
+      "wall_s": 0.8151427899720147
+    },
+    {
+      "args": [
+        "test_session.py",
+        "check_session"
+      ],
+      "exit": 0,
+      "wall_s": 1.5168796259677038
+    },
+    {
+      "args": [
+        "pilot.py",
+        "check_clamp",
+        "--case",
+        "clamp",
+        "--profile",
+        "precise"
+      ],
+      "exit": 0,
+      "wall_s": 1.2660096139879897
+    },
+    {
+      "args": [
+        "verify_package.py"
+      ],
+      "exit": 0,
+      "wall_s": 0.031767049978952855
+    }
+  ],
+  "scope": "offline local SUNDIALS build; reconstruction of saved results; repeated contracts/global JVP/session and clamp pilot. No full campaign repeat.",
+  "source_hashes": {
+    "model.py": "4e6f762df5aa34831e29d32a7207af3e0887e35eca1bbab6684ae9247f8512bc",
+    "runtime.py": "069318ff148dc335462dad72046052dfad8e4556d7d76efe8952d36859e1bc99",
+    "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+    "coupled.py": "0efb9638b014c25cb34cc5c31676ba46e27a692106c7b7ac955f7fc0fa0ce97f",
+    "implicit.py": "119cba9a71b9b9f4da0c0035dd89470866bf9cd95fdb4dd6c03d91370ecc2657",
+    "bridge.cpp": "5f7730bfa445447827bf3cb55d6c17ba6b20ac0bcf4a3a5f3369307c12134375",
+    "session.py": "fd8d62dcffc05e45934fb0029b02ca54faa73a87d07fdf6454101618b8afdf1e",
+    "build_dependency.py": "2356f161563d2f92b5774bce4a28808631b0b88becdcf446062afe84b3167f79",
+    "verify.py": "eeb55ee5d7ec178613980ae77da9d3ec8b6d228c56ca9ebd04fbe9ed49dcf4bb",
+    "test_contracts.py": "0b24ed83ae2acf3ef621feb2d868947f4ef244a33afe4b82f6fab30674af98ae",
+    "test_jvp.py": "fd3d395713a3ef8425dcb3deeba5ea106ff50e0b1aed3747b219a7a8ed0eed04",
+    "test_session.py": "c2abd409586019c1764ff56cefd72fea086e7c41ea7f81c252487194a85aac86",
+    "pilot.py": "d23f063e8d7c4706cfe28ae8730ddd52d158c27af76e61c3eecbdee839baa2c6"
+  },
+  "earlier_drafts": "first draft built successfully; hash check after build detected overwritten build log. Final build now writes unique build_runs logs; final package hashes preserved. Second draft prepared, not extracted."
+}

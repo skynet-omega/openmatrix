@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "populations": [
+    {
+      "id": "p",
+      "count": 2,
+      "states": {
+        "x": {
+          "unit": "1",
+          "initial": [
+            0,
+            0
+          ],
+          "scale": 1,
+          "rhs": "r"
+        }
+      },
+      "parameters": {
+        "r": {
+          "unit": "1/s",
+          "value": [
+            0,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "mass": {
+    "row": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "col": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "values": [
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  "clamps": [
+    {
+      "population": "p",
+      "state": "x",
+      "cells": [
+        0
+      ],
+      "value": 0
+    }
+  ]
+}
