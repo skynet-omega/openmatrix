@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "label": "motor-readiness-consultation-20260922",
+  "description": "Explicit ChatGPT documentary readiness verdict and one live Jev evidence-classification request. No new simulation: not ready for interpretive stage3; bounded diagnostics supported. Opinions are not independent numerical validation.",
+  "files": [
+    {
+      "path": "consultation/CHATGPT_ARCHITECTURE_REVIEW.md",
+      "bytes": 16113,
+      "sha256": "930d0da5c464a272ad43ff23c4f679c7d797e089db8ffdc294f1be940377ca56"
+    },
+    {
+      "path": "consultation/CHATGPT_READINESS.md",
+      "bytes": 1984,
+      "sha256": "c6e8960f463ef10c4ce36ad65465fb62bc08ea925aacee0e21b47daa568bbcf7"
+    },
+    {
+      "path": "consultation/DELIVERY.json",
+      "bytes": 308,
+      "sha256": "6c945e01f920536fdc1d2d611643077099cd024ee128d83c3bec6c20ce07c860"
+    },
+    {
+      "path": "consultation/MANIFEST.json",
+      "bytes": 1024,
+      "sha256": "e719d8ede55fefef01a96a4d552c28d566fbd0cb883640e05ff84ca3dd631b72"
+    },
+    {
+      "path": "consultation/PLAN.json",
+      "bytes": 190,
+      "sha256": "ec85aa5646ccc7cb75118b7801f8e99a8f5bdfa7cad58af5ff4b6a0ca36ce29f"
+    },
+    {
+      "path": "consultation/README.md",
+      "bytes": 4033,
+      "sha256": "92937301e38da8c79270abe6e404fdfbecebd654bee2f0594890deeac11271bc"
+    },
+    {
+      "path": "consultation/consult_jev.py",
+      "bytes": 6221,
+      "sha256": "dfc29cddf1f23d564316c2674a0b3c0a86a329e6e8044f40790a097df74f54c5"
+    },
+    {
+      "path": "consultation/receipt.json",
+      "bytes": 567,
+      "sha256": "8a9a32e3f159e2b02f61c61b70909ae2c17fd8293ab9ed0d18f0a6955df15996"
+    },
+    {
+      "path": "consultation/request.json",
+      "bytes": 4307,
+      "sha256": "cae66cd2d6e7f8b88cbe9ae7a8b8bcc5b2368ab09d74a48546e4cf71f97c2098"
+    },
+    {
+      "path": "consultation/response.json",
+      "bytes": 847,
+      "sha256": "08a38d2eeedbd32a5bde010c9fefe835e3cd33988667682ba7582deafb83a1d7"
+    }
+  ]
+}
