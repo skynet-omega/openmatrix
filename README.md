@@ -1,6 +1,6 @@
-# AXIOMA — intercambio para revisión externa
+# OpenMatrix — evidencia y revisión externa
 
-Esta rama contiene un paquete de evidencia MOTOR11B autorizado por su propietario para revisión externa. No modifica la rama principal de OpenSkyNet.
+Repositorio de intercambio de evidencia del motor MATRIX. Codex ejecuta localmente, ChatGPT revisa por enlaces y Jev clasifica tareas acotadas. Este paquete MOTOR11B fue autorizado por su propietario para revisión externa pública.
 
 ## Leer primero
 
