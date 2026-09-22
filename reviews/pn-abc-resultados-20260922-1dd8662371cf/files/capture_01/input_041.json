@@ -1,0 +1,41 @@
+{
+  "dt_ns": 15625,
+  "current": {
+    "__array__": "array_0"
+  },
+  "options": {
+    "synaptic_stages": [
+      {
+        "nodes": {
+          "__array__": "array_1"
+        },
+        "conductance_nS": {
+          "__array__": "array_2"
+        },
+        "reversal_mV": {
+          "__array__": "array_3"
+        }
+      },
+      {
+        "nodes": {
+          "__array__": "array_4"
+        },
+        "conductance_nS": {
+          "__array__": "array_5"
+        },
+        "reversal_mV": {
+          "__array__": "array_6"
+        }
+      }
+    ],
+    "stage_observation_nodes": {
+      "__array__": "array_7"
+    },
+    "rtol": 1e-09,
+    "atol": 5e-06,
+    "maxiter": 220,
+    "max_newton": 8,
+    "gate_atol": 1e-12,
+    "stage_predictor": "linear"
+  }
+}

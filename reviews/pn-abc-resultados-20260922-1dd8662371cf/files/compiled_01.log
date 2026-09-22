@@ -1,0 +1,25 @@
+{"case": 0, "median_wall_s": {"parent": 0.030808863986749202, "candidate": 0.03660676599247381}, "max_state_errors": {"/voltage": 2.6469779601696886e-23, "/gates": 2.7755575615628914e-17, "/charge": 0.0, "/calcium/gates": 0.0, "/calcium/outward_charge_pC": 0.0, "/calcium/chemistry/calcium_uM": 0.0, "/calcium/chemistry/available": 0.0, "/calcium/chemistry/fast": 0.0, "/calcium/chemistry/slow": 0.0, "/calcium/chemistry/released": 0.0, "/calcium/chemistry/calcium_charge_pC": 0.0}, "within_contract": true}
+{"case": 1, "median_wall_s": {"parent": 0.0327995449770242, "candidate": 0.032319399004336447}, "max_state_errors": {"/voltage": 2.6469779601696886e-23, "/gates": 4.163336342344337e-17, "/charge": 0.0, "/calcium/gates": 0.0, "/calcium/outward_charge_pC": 0.0, "/calcium/chemistry/calcium_uM": 0.0, "/calcium/chemistry/available": 0.0, "/calcium/chemistry/fast": 0.0, "/calcium/chemistry/slow": 0.0, "/calcium/chemistry/released": 0.0, "/calcium/chemistry/calcium_charge_pC": 0.0}, "within_contract": true}
+{
+  "steps": 64,
+  "simulated_ns": 1000000,
+  "wall_s": {
+    "parent": 2.126634316984564,
+    "candidate": 2.222039204032626
+  },
+  "speedup": 0.9570642647191291,
+  "max_state_errors": {
+    "/voltage": 8.881784197001252e-16,
+    "/gates": 2.220446049250313e-16,
+    "/charge": 0.0,
+    "/calcium/gates": 0.0,
+    "/calcium/outward_charge_pC": 0.0,
+    "/calcium/chemistry/calcium_uM": 0.0,
+    "/calcium/chemistry/available": 0.0,
+    "/calcium/chemistry/fast": 0.0,
+    "/calcium/chemistry/slow": 0.0,
+    "/calcium/chemistry/released": 0.0,
+    "/calcium/chemistry/calcium_charge_pC": 0.0
+  },
+  "within_contract": true
+}

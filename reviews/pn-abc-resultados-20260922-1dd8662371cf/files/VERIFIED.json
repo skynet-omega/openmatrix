@@ -1,0 +1,44 @@
+{
+  "scope": "PN prescribed1ms; state arrays and two independent linear systems. No complete organism.",
+  "rows": [
+    {
+      "route": "A",
+      "PN_full_step_speedup": 0.8509908748999079,
+      "voltage_max_abs_mV": 7.105427357601002e-15,
+      "all_state_limits_passed": true,
+      "classification": "DESCARTADO_PARA_PROMOCION_PN"
+    },
+    {
+      "route": "C",
+      "PN_full_step_speedup": 0.9570642647191291,
+      "voltage_max_abs_mV": 8.881784197001252e-16,
+      "all_state_limits_passed": true,
+      "classification": "DESCARTADO_PARA_PROMOCION_PN"
+    },
+    {
+      "route": "B",
+      "PN_full_step_speedup": 1.290120846944799,
+      "voltage_max_abs_mV": 7.105427357601002e-15,
+      "all_state_limits_passed": true,
+      "classification": "DESCARTADO_PARA_PROMOCION_PN"
+    }
+  ],
+  "linear_reconstructed": [
+    {
+      "case": 0,
+      "full_residual_l2": 2.383004548093255e-15,
+      "max_error_vs_LU": 9.352937803581984e-18
+    },
+    {
+      "case": 1,
+      "full_residual_l2": 2.3671143031472662e-17,
+      "max_error_vs_LU": 8.539150899507415e-20
+    }
+  ],
+  "base_one_second_reference": "Separate result and data, not part of this PN verifier.",
+  "corruptions_rejected": [
+    "criterion",
+    "state",
+    "acceptance_flag"
+  ]
+}

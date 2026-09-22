@@ -1,0 +1,1 @@
+Revisión local encontró una carrera potencial en inicialización del núcleoGPU: zero-fill y escritura diagonal podían cruzarse entrewarps. Se añade barrera antes de la diagonal, sin cambiar algoritmo. Se conserva fuente anterior y medición como PRECORRECCION_NO_PROMOVIBLE. Repetir sondeo afectado y validar repetición contraLU independiente; no ajustar tolerancias.

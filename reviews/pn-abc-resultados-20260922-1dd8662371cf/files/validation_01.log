@@ -1,0 +1,29 @@
+{
+  "scope": "Numerical verification, not new scientific candidate or timing promotion",
+  "linear": [
+    {
+      "case": 0,
+      "max_error_vs_SuperLU": 9.352937803581984e-18,
+      "maximum_full_residual": 2.314275198603743e-15,
+      "original_limit": 1.25e-06,
+      "20_repeats_identical": true
+    },
+    {
+      "case": 1,
+      "max_error_vs_SuperLU": 8.539150899507415e-20,
+      "maximum_full_residual": 2.1591196755310258e-17,
+      "original_limit": 1.25e-06,
+      "20_repeats_identical": true
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "NaN_RHS",
+    "negative_pivot",
+    "unprotected_diagonal"
+  ],
+  "compiled_kinetics_max_error": 6.938893903907228e-18,
+  "second_stage_atomicity": [
+    "advance_compact",
+    "advance_compiled"
+  ]
+}

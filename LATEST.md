@@ -1,5 +1,5 @@
 # Última evidencia
 
-[pn-abc-diseno-20260922](reviews/pn-abc-diseno-20260922-21ba9374259b/README.md)
+[pn-abc-resultados-20260922](reviews/pn-abc-resultados-20260922-1dd8662371cf/README.md)
 
-Diseño de tres alternativas PN. Cápsula de un paso reproduce exactamente el original. Condensación y compilación aún sin resultado completo; revisión solicitada de ecuaciones y controles. Referencia del bloque base durante1s añadida, sin afirmar motor completo.
+Tres rutasPN comparadas sobre captura real1ms. Ningún pasoPN alcanza2x; solver eléctrico GPU por20rondas gana3.84–4.77x. CápsulaPN reproducible, sin organismo completo ni datosbase1s.

@@ -1,0 +1,93 @@
+--- vendor/pn_mass_coupled_step.py
++++ compact_step.py
+@@ -1,3 +1,4 @@
++from compact_stage import compact_stage
+ """Candidate full-mass SDIRK step, derived from the frozen fine step.
+ 
+ Only mass action changes. C retains physical membrane capacitance for support
+@@ -10,7 +11,7 @@
+ from pn_coupled_ionic import GAMMA, METHOD, stage_channels
+ from pn_fine_ionic import channel_conductance
+ 
+-def advance_full_mass(self,dt_ns,current_pA,*,rtol=1e-9,atol=2e-12,maxiter=220,
++def advance_compact(self,dt_ns,current_pA,*,rtol=1e-9,atol=2e-12,maxiter=220,
+             max_newton=8,gate_atol=1e-12,progress=None,synaptic_stages=None,_local_channel=None,stage_predictor='previous',
+             stage_observation_nodes=None):
+     self._assert_model();cp=self.cp
+@@ -78,73 +79,9 @@
+                 cp.asarray(np.searchsorted(union,ca.nodes)),
+                 None if syn is None else cp.asarray(np.searchsorted(union,cp.asnumpy(syn[0]))))
+     def stage(vbase,xbase,guess,synapse,ca_base,ca_update,threshold_guess=None):
+-        v=guess;history=[];total=0;threshold=None
+-        def evaluate(w):
+-            x,ionic,jac,gate_error=stage_channels(cp.asnumpy(w[nodes])+self.leak_reversal_mV,
+-                xbase,q,self.gbar_nS,self.reversal_mV)
+-            residual=self.backend.mass_action((w-vbase)*shift)+self.backend.action(w)-current
+-            residual[nodes]+=cp.asarray(ionic.sum(axis=1))
+-            if synapse is not None:
+-                sn,sg,se,_,_,_=synapse
+-                residual[sn]+=sg*(w[sn]+self.leak_reversal_mV-se)
+-            cdata=None
+-            if ca is not None:
+-                cdata=ca.stage(cp.asnumpy(w[cn])+self.leak_reversal_mV,ca_base,q)
+-                residual[cn]+=cp.asarray(cdata['current']);gate_error=max(gate_error,cdata['gate_error'])
+-            return residual,float(cp.linalg.norm(residual)),x,ionic,jac,gate_error,cdata
+-        try:residual,norm,x,ionic,jac,gate_error,cdata=evaluate(v)
+-        except FloatingPointError:return None,dict(accepted=False,reason='invalid_stage_kinetics',history=history)
+-        # Relative acceptance is anchored to the legacy initial iterate,
+-        # so changing the predictor never changes the residual threshold.
+-        try:reference_norm=norm if threshold_guess is None else evaluate(threshold_guess)[1]
+-        except FloatingPointError:return None,dict(accepted=False,reason='invalid_reference_kinetics',history=history)
+-        threshold=max(atol,rtol*reference_norm)
+-        for iteration in range(max_newton+1):
+-            row=dict(iteration=iteration,residual_l2_pA=norm,gate_residual=gate_error);history.append(row)
+-            if progress:progress(dict(stage_iteration=iteration,residual_l2_pA=norm))
+-            if np.isfinite(norm) and norm<=threshold and gate_error<=gate_atol:
+-                return (v,x,ionic,cdata),dict(accepted=True,history=history,threshold_pA=threshold,total_iterations=total)
+-            if not np.isfinite(norm) or iteration==max_newton:break
+-            diagonal=cp.asarray(jac);correction_nodes=nodes
+-            if synapse is not None:
+-                sn,sg,se,correction_nodes,ap,sp=synapse
+-                combined=cp.zeros(len(correction_nodes),dtype=cp.float64)
+-                combined[ap]+=diagonal;combined[sp]+=sg;diagonal=combined
+-            if ca is not None:
+-                correction_nodes,nap,ncp,nsp=ca_update
+-                diagonal=cp.zeros(len(correction_nodes),dtype=cp.float64)
+-                diagonal[nap]+=cp.asarray(jac);diagonal[ncp]+=cp.asarray(cdata['jacobian'])
+-                if synapse is not None:diagonal[nsp]+=synapse[1]
+-            # If exact Newton cannot use CG safely, a positive frozen-gate
+-            # slope is a quasi-Newton correction. The full nonlinear
+-            # residual remains the sole electrical acceptance criterion.
+-            signed=bool(cp.all(C[correction_nodes]*shift+diagonal>=0))
+-            if not signed:
+-                diagonal=cp.asarray(channel_conductance(x,self.gbar_nS).sum(axis=1))
+-                if synapse is not None and ca is None:
+-                    combined=cp.zeros(len(correction_nodes),dtype=cp.float64)
+-                    combined[ap]+=diagonal;combined[sp]+=sg;diagonal=combined
+-                if ca is not None:
+-                    diagonal=cp.zeros(len(correction_nodes),dtype=cp.float64)
+-                    diagonal[nap]+=cp.asarray(channel_conductance(x,self.gbar_nS).sum(axis=1))
+-                    diagonal[ncp]+=cp.asarray(cdata['frozen_conductance'])
+-                    if synapse is not None:diagonal[nsp]+=synapse[1]
+-            correction,report=self.backend.solve(-residual,shift=shift,
+-                rtol=min(.1,.25*threshold/max(norm,1e-300)),atol=.25*threshold,
+-                maxiter=maxiter,diagonal_update=(correction_nodes,diagonal),
+-                diagonal_is_jacobian=signed)
+-            total+=report['iterations'];row['linear']=report;row['exact_local_jacobian']=signed
+-            if report['info']!=0 or not report['fine_residual_passed']:
+-                return None,dict(accepted=False,reason='linear_solve_failed',history=history,total_iterations=total)
+-            for backtrack in range(9):
+-                trial=v+(2.**(-backtrack))*correction
+-                try:trial_result=evaluate(trial)
+-                except FloatingPointError:continue
+-                if np.isfinite(trial_result[1]) and (trial_result[1]<norm or trial_result[1]<=threshold):
+-                    v=trial;residual,norm,x,ionic,jac,gate_error,cdata=trial_result
+-                    row['step_scale']=2.**(-backtrack);break
+-            else:return None,dict(accepted=False,reason='no_nonlinear_decrease',history=history,total_iterations=total)
+-        return None,dict(accepted=False,reason='stage_residual_failed',history=history,threshold_pA=threshold,total_iterations=total)
++        return compact_stage(self,vbase,xbase,guess,synapse,ca_base,ca_update,threshold_guess,
++            shift=shift,q=q,current=current,ca=ca,rtol=rtol,atol=atol,max_newton=max_newton,
++            gate_atol=gate_atol,progress=progress)
+     first,r1=stage(self.voltage,self.gates,self.voltage,synapses[0],None if ca is None else ca.gates,ca_updates[0])
+     if first is None:return dict(accepted=False,time_ns=self.time_ns,method=METHOD,stages=[r1])
+     v1,x1,i1,c1=first;ratio=(1-GAMMA)/GAMMA

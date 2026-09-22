@@ -1,0 +1,33 @@
+{
+  "scope": "Real PN Newton linear systems, not complete PN or body",
+  "setup_s": 2.436413054994773,
+  "levels": 20,
+  "maximum_parallel_steps": 84755,
+  "host_transfers_in_end_to_end": true,
+  "rows": [
+    {
+      "case": 0,
+      "median_wall_s": {
+        "CPU_original": 0.004746402031742036,
+        "GPU_parallel": 0.0009043609607033432
+      },
+      "speedup": 5.24834909730142,
+      "max_voltage_error": 4.811147140404426e-18,
+      "full_linear_residual_l2": 2.383004548093255e-15,
+      "original_limit": 1.25e-06
+    },
+    {
+      "case": 1,
+      "median_wall_s": {
+        "CPU_original": 0.0038957479991950095,
+        "GPU_parallel": 0.000904652988538146
+      },
+      "speedup": 4.306345138471556,
+      "max_voltage_error": 5.082197683525802e-20,
+      "full_linear_residual_l2": 2.3671143031472662e-17,
+      "original_limit": 1.25e-06
+    }
+  ],
+  "GPU_resident_graph_s": 0.00041423678398132323,
+  "device_pool_bytes": 61931520
+}

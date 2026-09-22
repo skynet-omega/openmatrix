@@ -1,0 +1,75 @@
+{
+  "route": "C",
+  "scope": "Prescribed real PN inputs; not body feedback",
+  "contract_sha256": "09c118a5b3757f4ebd121377991d5c8858472e736f09a83a213034bddd751d85",
+  "cases": [
+    {
+      "case": 0,
+      "median_wall_s": {
+        "parent": 0.030808863986749202,
+        "candidate": 0.03660676599247381
+      },
+      "max_state_errors": {
+        "/voltage": 2.6469779601696886e-23,
+        "/gates": 2.7755575615628914e-17,
+        "/charge": 0.0,
+        "/calcium/gates": 0.0,
+        "/calcium/outward_charge_pC": 0.0,
+        "/calcium/chemistry/calcium_uM": 0.0,
+        "/calcium/chemistry/available": 0.0,
+        "/calcium/chemistry/fast": 0.0,
+        "/calcium/chemistry/slow": 0.0,
+        "/calcium/chemistry/released": 0.0,
+        "/calcium/chemistry/calcium_charge_pC": 0.0
+      },
+      "within_contract": true
+    },
+    {
+      "case": 1,
+      "median_wall_s": {
+        "parent": 0.0327995449770242,
+        "candidate": 0.032319399004336447
+      },
+      "max_state_errors": {
+        "/voltage": 2.6469779601696886e-23,
+        "/gates": 4.163336342344337e-17,
+        "/charge": 0.0,
+        "/calcium/gates": 0.0,
+        "/calcium/outward_charge_pC": 0.0,
+        "/calcium/chemistry/calcium_uM": 0.0,
+        "/calcium/chemistry/available": 0.0,
+        "/calcium/chemistry/fast": 0.0,
+        "/calcium/chemistry/slow": 0.0,
+        "/calcium/chemistry/released": 0.0,
+        "/calcium/chemistry/calcium_charge_pC": 0.0
+      },
+      "within_contract": true
+    }
+  ],
+  "replay": {
+    "steps": 64,
+    "simulated_ns": 1000000,
+    "wall_s": {
+      "parent": 2.126634316984564,
+      "candidate": 2.222039204032626
+    },
+    "speedup": 0.9570642647191291,
+    "max_state_errors": {
+      "/voltage": 8.881784197001252e-16,
+      "/gates": 2.220446049250313e-16,
+      "/charge": 0.0,
+      "/calcium/gates": 0.0,
+      "/calcium/outward_charge_pC": 0.0,
+      "/calcium/chemistry/calcium_uM": 0.0,
+      "/calcium/chemistry/available": 0.0,
+      "/calcium/chemistry/fast": 0.0,
+      "/calcium/chemistry/slow": 0.0,
+      "/calcium/chemistry/released": 0.0,
+      "/calcium/chemistry/calcium_charge_pC": 0.0
+    },
+    "within_contract": true
+  },
+  "peak_RSS_KiB": 1165276,
+  "material_speedup": false,
+  "all_state_checks": true
+}

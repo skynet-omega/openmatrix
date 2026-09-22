@@ -1,0 +1,29 @@
+{
+  "protected_nodes": 18793,
+  "condensed_core": 23490,
+  "original_core": 42,
+  "small_core": 42,
+  "passive_eliminated": 155348,
+  "condensation_setup_s": 0.9496117219678126,
+  "K_nnz": 71844,
+  "fixed_order_GPU_dependency_levels": 451,
+  "dependency_scope": "Conservative conflict-free schedule of existing order, not a lower bound for a new cyclic-reduction ordering",
+  "linear_cases": [
+    {
+      "case": 0,
+      "max_voltage_error": 8.106105305223654e-18,
+      "median_wall_s": {
+        "original": 0.0037882249453105032,
+        "condensed": 0.002845301991328597
+      }
+    },
+    {
+      "case": 1,
+      "max_voltage_error": 5.749236129488564e-20,
+      "median_wall_s": {
+        "original": 0.004029119969345629,
+        "condensed": 0.003019516996573657
+      }
+    }
+  ]
+}

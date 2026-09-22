@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/linear_screen.py", line 13, in <module>
+    shift=1/((1-1/np.sqrt(2))*fields['dt_ns']*1e-9);start=time.perf_counter();a=Condensation(p.backend,protected,shift);setup=time.perf_counter()-start
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/condensation.py", line 23, in __init__
+    n=len(backend.C);plan=EliminationPlan.__new__(EliminationPlan);symbolic(plan,backend.G,backend.M,protected);self.plan=plan;self.core=plan.core
+  File "<bounded Schur symbolic>", line 25, in symbolic
+ValueError: Unbounded retained junction system:23490

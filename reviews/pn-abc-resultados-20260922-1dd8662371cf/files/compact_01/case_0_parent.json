@@ -1,0 +1,47 @@
+{
+  "voltage": {
+    "__array__": "a0"
+  },
+  "gates": {
+    "__array__": "a1"
+  },
+  "charge": {
+    "__array__": "a2"
+  },
+  "time_ns": 824115625,
+  "calcium": {
+    "identity": "782e61253a3aaa155cb8da48d5897740d772a755b340dca284805e0ff4a6642f",
+    "time_ns": 824115625,
+    "enabled": true,
+    "release_enabled": true,
+    "gates": {
+      "__array__": "a3"
+    },
+    "outward_charge_pC": {
+      "__array__": "a4"
+    },
+    "chemistry": {
+      "schema": "PN_site_calcium_resource_candidate_v1",
+      "identity": "2817dee0fff18a2c80390942bf484b5f6a81b043a1e14c3b89cca46175caaee6",
+      "time_ns": 824115625,
+      "calcium_uM": {
+        "__array__": "a5"
+      },
+      "available": {
+        "__array__": "a6"
+      },
+      "fast": {
+        "__array__": "a7"
+      },
+      "slow": {
+        "__array__": "a8"
+      },
+      "released": {
+        "__array__": "a9"
+      },
+      "calcium_charge_pC": {
+        "__array__": "a10"
+      }
+    }
+  }
+}

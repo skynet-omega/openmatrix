@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_PN_CANDIDATE",
+  "cases": [
+    "case_00",
+    "case_01",
+    "prescribed_64_steps_1ms"
+  ],
+  "voltage_abs_mV": 1e-07,
+  "probability_abs": 1e-08,
+  "charge_abs_pC": 1e-10,
+  "other_numeric_abs": 1e-08,
+  "same_integer_clock": true,
+  "same_state_layout": true,
+  "all_finite": true,
+  "original_full_residual_tolerance": true,
+  "minimum_material_speedup": 2.0,
+  "maximum_complete_prototypes": 2,
+  "not_claimed": [
+    "biological equivalence",
+    "closed-loop replay",
+    "full-organism throughput"
+  ]
+}

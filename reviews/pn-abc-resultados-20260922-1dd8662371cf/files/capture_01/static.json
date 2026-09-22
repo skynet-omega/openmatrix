@@ -1,0 +1,79 @@
+{
+  "C": {
+    "__array__": "array_0"
+  },
+  "active": {
+    "__array__": "array_1"
+  },
+  "gbar": {
+    "__array__": "array_2"
+  },
+  "reversal": {
+    "__array__": "array_3"
+  },
+  "leak": -65.0,
+  "ca_nodes": {
+    "__array__": "array_4"
+  },
+  "ca_gbar": {
+    "__array__": "array_5"
+  },
+  "ca_reversal": 145.83975186652796,
+  "ca_half": {
+    "__array__": "array_6"
+  },
+  "ca_slope": {
+    "__array__": "array_7"
+  },
+  "ca_tau": {
+    "__array__": "array_8"
+  },
+  "ca_power": {
+    "__array__": "array_9"
+  },
+  "ca_sites": {
+    "__array__": "array_10"
+  },
+  "ca_fractions": {
+    "__array__": "array_11"
+  },
+  "chem_ids": {
+    "__array__": "array_12"
+  },
+  "chem_parameters": {
+    "rest_uM": {
+      "__array__": "array_13"
+    },
+    "volume_um3": {
+      "__array__": "array_14"
+    },
+    "buffer_capacity": {
+      "__array__": "array_15"
+    },
+    "clearance_s": {
+      "__array__": "array_16"
+    },
+    "Kd_uM": {
+      "__array__": "array_17"
+    },
+    "cooperativity": {
+      "__array__": "array_18"
+    },
+    "maximum_hazard_per_s": {
+      "__array__": "array_19"
+    },
+    "recovery_s": {
+      "__array__": "array_20"
+    },
+    "rise_s": {
+      "__array__": "array_21"
+    },
+    "decay_s": {
+      "__array__": "array_22"
+    }
+  },
+  "ca_provenance": "{\"chemistry\": \"Rest20nM from larval preparation. Other buffer/release/clearance parameters are prior SYNTHETIC fixture values reused unchanged, not adult PN measurements.\", \"fixed_reversal_mV\": 145.83975186652796, \"gbar_nS_per_um2\": 0.0008, \"half_mV\": -40.0, \"placement\": \"All6267 presynaptic sites on5702 unchanged exterior membrane nodes. Density times node membrane area once; equal current shares across coincident sites. Placement is a hypothesis, not observed channel map.\", \"power\": 1, \"reference\": \"Francis2025 doi10.1371/journal.pbio.3003094 equations1-6, larval nonspiking neurons; transferred engineering control only\", \"reversal_approximation\": \"Nernst at initial20nM/2mM,294K then FROZEN. Dynamic concentration feedback NOT implemented.\", \"slope_mV\": 7.5, \"tau_s\": 0.05, \"volume\": \"Node area times node radius /2, cylinder-equivalent lumped volume; shared equally across sites. Not measured nanodomain.\"}",
+  "chem_provenance": "{\"chemistry\": \"Rest20nM from larval preparation. Other buffer/release/clearance parameters are prior SYNTHETIC fixture values reused unchanged, not adult PN measurements.\", \"fixed_reversal_mV\": 145.83975186652796, \"gbar_nS_per_um2\": 0.0008, \"half_mV\": -40.0, \"placement\": \"All6267 presynaptic sites on5702 unchanged exterior membrane nodes. Density times node membrane area once; equal current shares across coincident sites. Placement is a hypothesis, not observed channel map.\", \"power\": 1, \"reference\": \"Francis2025 doi10.1371/journal.pbio.3003094 equations1-6, larval nonspiking neurons; transferred engineering control only\", \"reversal_approximation\": \"Nernst at initial20nM/2mM,294K then FROZEN. Dynamic concentration feedback NOT implemented.\", \"slope_mV\": 7.5, \"tau_s\": 0.05, \"volume\": \"Node area times node radius /2, cylinder-equivalent lumped volume; shared equally across sites. Not measured nanodomain.\"}",
+  "ca_enabled": true,
+  "release_enabled": true
+}

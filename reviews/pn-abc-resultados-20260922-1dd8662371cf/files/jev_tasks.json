@@ -1,0 +1,5 @@
+[
+ {"id":"pn_schur_stages","description":"Derive exact stage-local Schur condensation of a178838-coordinate full-mass PN system, retaining nonlinear channels and reconstructing passive variables without removing dynamic modes; same SDIRK stages and full residual tolerance."},
+ {"id":"pn_compilation","description":"Implement and compare a CPU compiled coupled PN step and a GPU elimination feasibility screen against actual captured linear and full-step inputs; preserve state, calcium chemistry and clocks."},
+ {"id":"external_pn_review","description":"Independently examine commit-pinned PN condensation and comparison code, looking for changes of equations, acceptance thresholds, resource limits or unsupported whole-organism speed claims."}
+]
