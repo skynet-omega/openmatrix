@@ -1,0 +1,89 @@
+{
+  "smokes": {
+    "smoke_causal_01": {
+      "status": "COMPLETE",
+      "engine": "causal_cuda",
+      "snapshot_hashes_checked": 9,
+      "operator_identity": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+      "full_body_resume_tested": false,
+      "wall_s": 46.2167575309868
+    },
+    "smoke_reference_01": {
+      "status": "COMPLETE",
+      "engine": "reference_cuda",
+      "snapshot_hashes_checked": 9,
+      "operator_identity": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+      "full_body_resume_tested": false,
+      "wall_s": 46.30817597400164
+    }
+  },
+  "historical_partial_comparison": {
+    "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_reference_01",
+    "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_causal_01",
+    "verifier_revision": 2,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 3.185185448728589e-11,
+      "normalized_state_max_abs": 0.0001785882326256448,
+      "gates_max_abs": 1.7758223881503277e-05,
+      "yaw_trace_max_abs_deg": 0.0,
+      "root_position_max_abs_m": 0.0,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    },
+    "limits": {
+      "PN_voltage_max_abs_mV": 0.005,
+      "normalized_state_max_abs": 0.0001,
+      "gates_max_abs": 0.0001,
+      "yaw_trace_max_abs_deg": 0.0001,
+      "root_position_max_abs_m": 1e-06
+    },
+    "exact_all_leaves": false,
+    "histories": {
+      "/pn_online_state/base/apl_receptor": {
+        "max_abs": 3.405904003273008e-09,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/GABA": {
+        "max_abs": 2.1907925640274328e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/Glu": {
+        "max_abs": 6.625158754935967e-12,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      }
+    },
+    "history_normalized_limit": 0.0001,
+    "unexpected_layouts": [],
+    "changed_flags": [],
+    "changed_exact_fields": [],
+    "screen_pass": false,
+    "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+  },
+  "biological_admission": false
+}

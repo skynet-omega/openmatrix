@@ -1,0 +1,442 @@
+{
+  "one_ms": {
+    "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_reference_01",
+    "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_causal_01",
+    "verifier_revision": 2,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 3.185185448728589e-11,
+      "normalized_state_max_abs": 0.0001785882326256448,
+      "gates_max_abs": 1.7758223881503277e-05,
+      "yaw_trace_max_abs_deg": 0.0,
+      "root_position_max_abs_m": 0.0,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    },
+    "limits": {
+      "PN_voltage_max_abs_mV": 0.005,
+      "normalized_state_max_abs": 0.0001,
+      "gates_max_abs": 0.0001,
+      "yaw_trace_max_abs_deg": 0.0001,
+      "root_position_max_abs_m": 1e-06
+    },
+    "exact_all_leaves": false,
+    "histories": {
+      "/pn_online_state/base/apl_receptor": {
+        "max_abs": 3.405904003273008e-09,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/GABA": {
+        "max_abs": 2.1907925640274328e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/Glu": {
+        "max_abs": 6.625158754935967e-12,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44447000000,
+          44447125000
+        ],
+        "knots": 3
+      }
+    },
+    "history_normalized_limit": 0.0001,
+    "unexpected_layouts": [],
+    "changed_flags": [],
+    "changed_exact_fields": [],
+    "screen_pass": false,
+    "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+  },
+  "twenty_ms": {
+    "historical_partial_screen": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/reference20_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/device20_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 6.887101999808465e-08,
+        "normalized_state_max_abs": 4.2925102578292296e-05,
+        "gates_max_abs": 5.875589302262174e-05,
+        "yaw_trace_max_abs_deg": 4.0449776861350983e-10,
+        "root_position_max_abs_m": 2.0851376181241221e-13,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 1.0255316678642323e-06,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44466000000,
+            44466125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 1.5769634958417988e-06,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44466000000,
+            44466125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 4.340623194210025e-09,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44466000000,
+            44466125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "uncovered_changed_numeric_fields": {
+      "/body_final/pending_excitation": {
+        "max_abs": 5.599552072022007e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/body_final/qacc": {
+        "max_abs": 4.978414835932199e-08,
+        "criterion": "UNDECLARED"
+      },
+      "/body_final/qacc_warmstart": {
+        "max_abs": 4.978419426704406e-08,
+        "criterion": "UNDECLARED"
+      },
+      "/body_final/qpos": {
+        "max_abs": 3.4508784718667584e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/body_final/qvel": {
+        "max_abs": 1.0551827814286874e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/cxhp8_pending/angles_deg/0": {
+        "max_abs": 9.947598300641403e-14,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/cxhp8_pending/angles_deg/2": {
+        "max_abs": 4.973799150320701e-14,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/cxhp8_pending/applied_index": {
+        "max_abs": 1.6445178552260131e-15,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/cxhp8_pending/index": {
+        "max_abs": 1.6445178552260131e-15,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/held_boundary_light": {
+        "max_abs": 4.334310688136611e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_apl_dynamic_state/apl_q": {
+        "max_abs": 1.0255316678642323e-06,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_apl_dynamic_state/apl_transmission": {
+        "max_abs": 7.438028834516608e-07,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_apl_dynamic_state/apl_voltage_mV": {
+        "max_abs": 0.00010348121478642724,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_apl_dynamic_state/refractory_left_s": {
+        "max_abs": 4.702363272639926e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_apl_dynamic_state/voltage_mV": {
+        "max_abs": 5.2315418940906966e-05,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_axonal_state/last_voltage": {
+        "max_abs": 0.0029300741174296263,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_axonal_state/previous_slope": {
+        "max_abs": 0.06176295392349829,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_axonal_state/q": {
+        "max_abs": 4.3785357450421e-05,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_axonal_state/s": {
+        "max_abs": 6.378173377714555e-05,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_axonal_state/trough": {
+        "max_abs": 0.06524803602137297,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_electrical_scales_state/filters": {
+        "max_abs": 8.883968448392121e-08,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_spatial_state/delta": {
+        "max_abs": 0.0029300741174296263,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_spatial_state/last_siz": {
+        "max_abs": 0.001087113041492671,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_spatial_state/previous_slope": {
+        "max_abs": 0.02264959642452169,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_spatial_state/q": {
+        "max_abs": 2.8729242174369007e-05,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/kc_spatial_state/trough": {
+        "max_abs": 0.001087113041492671,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/apl_charge_pC": {
+        "max_abs": 2.5187905094981033e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/apl_receptor/last_driver": {
+        "max_abs": 1.0255316678642323e-06,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/apl_receptor/occupancy": {
+        "max_abs": 4.0270717605039863e-07,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/ach/fast": {
+        "max_abs": 1.0348910346302115e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/ach/slow": {
+        "max_abs": 5.850740090324047e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/ach_charge_pC": {
+        "max_abs": 1.3795187214782345e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/available": {
+        "max_abs": 7.881806318721374e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC": {
+        "max_abs": 8.04131067289049e-15,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_uM": {
+        "max_abs": 3.590492347882446e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/fast": {
+        "max_abs": 1.1766195656681688e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/released": {
+        "max_abs": 8.119727112898545e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/slow": {
+        "max_abs": 5.236290567811608e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/calcium/outward_charge_pC": {
+        "max_abs": 8.04131067289049e-15,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/base/pn/pn/ionic_charge_pC": {
+        "max_abs": 1.1076028982870412e-11,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/base/base/base/base/orn_charge_pC": {
+        "max_abs": 4.065725534019293e-11,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/charges_pC/GABA": {
+        "max_abs": 7.158718062783009e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/charges_pC/Glu": {
+        "max_abs": 1.9671375639518374e-11,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/receptors/GABA/last_driver": {
+        "max_abs": 1.563160684614484e-06,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/receptors/GABA/occupancy": {
+        "max_abs": 9.683374296853842e-07,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/receptors/Glu/last_driver": {
+        "max_abs": 4.340623194210025e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/brain/pn_online_state/receptors/Glu/occupancy": {
+        "max_abs": 1.4591761132720649e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/DN_q_actual": {
+        "max_abs": 1.4319867513989948e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/DN_q_usada": {
+        "max_abs": 1.3508183460686496e-10,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/ORN_filters": {
+        "max_abs": 3.691030120434036e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/ORN_q_L": {
+        "max_abs": 1.6262713398162987e-11,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/ORN_q_R": {
+        "max_abs": 5.480060849549773e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/PN_additional_nS": {
+        "max_abs": 4.311715914862013e-13,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/PN_gamma_nS": {
+        "max_abs": 6.565841620398416e-13,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/PN_general_transmission": {
+        "max_abs": 2.7077021180765826e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/PN_q_legacy": {
+        "max_abs": 3.1194958838298703e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/antenas_mm": {
+        "max_abs": 8.761324998829423e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/command_yaw_rate_rad_s": {
+        "max_abs": 1.129600420146648e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/contact_force_N": {
+        "max_abs": 4.2511923235296484e-18,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/energy_motor_J": {
+        "max_abs": 2.390242231932424e-24,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/generalized_force_native": {
+        "max_abs": 3.414704754172533e-13,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/normal_force_N": {
+        "max_abs": 3.499940138054769e-18,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/position_mm": {
+        "max_abs": 2.085137618124122e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/qpos": {
+        "max_abs": 3.4508784718667584e-12,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/qvel": {
+        "max_abs": 1.0551827814286874e-09,
+        "criterion": "UNDECLARED"
+      },
+      "/traces/upright": {
+        "max_abs": 6.106226635438361e-15,
+        "criterion": "UNDECLARED"
+      }
+    },
+    "full_state_qualified": false,
+    "status": "NOT_QUALIFIED",
+    "scope": "No full-state scientific admission while changed fields lack declared bounds. Historical short-screen limits and result are preserved; no biological equivalence or long-time guarantee."
+  },
+  "trace_equivalence_exact_all_exported_leaves": true,
+  "CNS_causes_from_trials": {
+    "discarded_predictor": {
+      "epochs": 8,
+      "trials": 73,
+      "accepted": 73,
+      "rejected": 0,
+      "reason_event": 28,
+      "reason_end": 8,
+      "reason_proposed_step": 37,
+      "reason_maximum": 0,
+      "ties_count_as_multiple_reasons": true,
+      "max_error": 0.252224787492819,
+      "proposal_limited_with_error_below_point1": 36
+    },
+    "accepted_exchange": {
+      "epochs": 8,
+      "trials": 118,
+      "accepted": 118,
+      "rejected": 0,
+      "reason_event": 56,
+      "reason_end": 8,
+      "reason_proposed_step": 54,
+      "reason_maximum": 0,
+      "ties_count_as_multiple_reasons": true,
+      "max_error": 0.2522247875240718,
+      "proposal_limited_with_error_below_point1": 52
+    }
+  },
+  "transient_index": 234831,
+  "status": "PROMETEDOR_NO_CONFIRMADO",
+  "stage3_admission": false,
+  "scope": "Reconstructed engineering evidence; no new tolerance, trajectory convergence or biological equivalence."
+}

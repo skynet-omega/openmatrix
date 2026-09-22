@@ -1,0 +1,11 @@
+{
+  "scope": "Pipeline review and concrete implementation defects; decision about stage3 versus macro engine work. No new physiological tuning or new numerical method.",
+  "budget": {"organism_loads":4,"short_process_timeout_s":240,"aggregate_process_wall_s":1800,"cpu_checks":16,"new_jev_requests":1,"RAM_GiB":18,"new_numerical_prototypes":0},
+  "decision_alternatives": {
+    "A":"Small stage3 diagnostic with unchanged mechanisms; only if engine selection and interpretation are explicit. No long campaign at present speed.",
+    "B":"Continue engine architecture on measured global nonlinear/event dependency cost; establish one falsifier before coding another numerical method.",
+    "C":"Alternative general execution architecture; require actual operator and coupling coverage, cost model and common control rather than synthetic-only speed."
+  },
+  "checks":"Legacy runner engine selection, interruption/outcome receipts, snapshot validity/operator completeness, numerical verifier coverage, publication freezing. Preserve original sources and historical contract. Reproduce failures before correction; real smoke only, not stage3 admission.",
+  "stop":"Deliver repaired concrete pipeline, bounded evidence and external recommendation; no restart of cancelled pilot or automatic publication of unrelated files."
+}

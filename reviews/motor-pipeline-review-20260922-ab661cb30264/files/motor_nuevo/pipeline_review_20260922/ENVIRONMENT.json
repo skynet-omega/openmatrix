@@ -1,0 +1,15 @@
+{
+  "python": "3.10.18",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cupy-cuda12x": "13.6.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER;16GiB",
+  "cpu_thread_policy": {
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1,
+    "NUMBA_NUM_THREADS": 14
+  }
+}

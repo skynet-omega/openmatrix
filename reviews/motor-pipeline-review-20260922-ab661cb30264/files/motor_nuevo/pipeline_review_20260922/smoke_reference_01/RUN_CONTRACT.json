@@ -1,0 +1,16 @@
+{
+  "condition": "sham",
+  "smoke_only": true,
+  "engine": "reference_cuda",
+  "event_boundaries": true,
+  "geometry_compression": false,
+  "preparation_ms": 0,
+  "trial_ms": 1,
+  "initial_clock_ns": 44446000000,
+  "checkpoint": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms",
+  "checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "interventions": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_reference_01/preparation_inputs/INTERVENCIONES.json",
+  "decoder_gain": 250.0,
+  "budget_s": 240,
+  "stage3_admission": false
+}

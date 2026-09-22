@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "swapped_routes_rejected",
+    "readonly_no_partial_write",
+    "transfer_failure_rollback_exact",
+    "failed_rollback_invalidates_owner",
+    "existing_run_untouched",
+    "interrupted_snapshot_unpublished",
+    "snapshot_corruption_rejected"
+  ]
+}

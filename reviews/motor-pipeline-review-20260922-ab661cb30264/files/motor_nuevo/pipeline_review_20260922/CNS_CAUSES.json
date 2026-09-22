@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "discarded_predictor": {
+      "epochs": 8,
+      "trials": 73,
+      "accepted": 73,
+      "rejected": 0,
+      "reason_event": 28,
+      "reason_end": 8,
+      "reason_proposed_step": 37,
+      "reason_maximum": 0,
+      "ties_count_as_multiple_reasons": true,
+      "max_error": 0.252224787492819,
+      "proposal_limited_with_error_below_point1": 36
+    },
+    "accepted_exchange": {
+      "epochs": 8,
+      "trials": 118,
+      "accepted": 118,
+      "rejected": 0,
+      "reason_event": 56,
+      "reason_end": 8,
+      "reason_proposed_step": 54,
+      "reason_maximum": 0,
+      "ties_count_as_multiple_reasons": true,
+      "max_error": 0.2522247875240718,
+      "proposal_limited_with_error_below_point1": 52
+    }
+  },
+  "chosen": {
+    "record_index": 1,
+    "source_neuron_rows": [
+      35387,
+      36540,
+      51040,
+      57513,
+      60830,
+      62314,
+      108384
+    ],
+    "source_node_ids": [
+      49774,
+      51113,
+      68428,
+      76431,
+      80637,
+      82460,
+      155190
+    ],
+    "direct_CSR_receivers": 1264,
+    "CSR_reachable_neurons": 166311,
+    "neurons": 166700,
+    "nonzero_CSR_edges": 24559135,
+    "complete_operator_dependency_map": false,
+    "scope": "Effective nonzero CSR only; specialized replaced routes, masks, filters and cycles beyond CSR not mapped. Reachability is descriptive; not measured need for recomputation and not an exact causal partition proof."
+  }
+}

@@ -1,0 +1,3127 @@
+{
+  "format_version": 2,
+  "label": "motor-pipeline-review-20260922",
+  "description": "Repaired runner, authenticated operator routes and failure handling; actual1ms transient fails unchanged tolerance. Exact instrumentation exposes CNS event/controller cuts. Review bundle with raw arrays and portable checks; no full static organism assets or complete session snapshots.",
+  "files": [
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 450,
+      "sha256": "b02384c33cca38b4dae9d022bf81a4a1df2b96dde7d82b2f777bce1a574373ff"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/INTEGRATED_ADAPTIVE_CONTRACT.json",
+      "bytes": 3695,
+      "sha256": "c9d284d89c33d620972f5ec282c72cb3626ecf105345d00034125adac53e821d"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/compare.py",
+      "bytes": 4908,
+      "sha256": "768c6bf4cdb206f6f8f9980402397570e2656ccf285e52527620fc971400dae6"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "instrumentos/openmatrix/publish.py",
+      "bytes": 8331,
+      "sha256": "7c8fa2193ab7bc06c15ce52ead214956be59c8ee532a7bcd370d3adbd4562c1f"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/affine_ports.cu",
+      "bytes": 1726,
+      "sha256": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/affine_ports.py",
+      "bytes": 1651,
+      "sha256": "629e8751d0d97d0eeff5f8987d716b9e4fbc75eba3e197f88074799926765c04"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/benchmark_real.py",
+      "bytes": 5093,
+      "sha256": "dcaff2f1650c1003c3c479ae4f17588f82512c688f36db53205c6f228dc156a1"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/check_affine.py",
+      "bytes": 2591,
+      "sha256": "7fa3017cb300064d96276faac480b35a8b82c524e1f79d86e88b4404ae6c4e6a"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/check_device.py",
+      "bytes": 4175,
+      "sha256": "2b5aeb46d3cc289253087f248e454ec77b31df40b34e199574c644d8e66174f0"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/check_operator_recovery.py",
+      "bytes": 6210,
+      "sha256": "6e9a2b6867d3ac6f2c978be8d9a906ef6d551bd9df12368944e318dcb8ab0e46"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/check_operator_state.py",
+      "bytes": 1286,
+      "sha256": "0941d3bdd86fc4fec379ddbf33596a784605f133c192bd5afc45d58d471353ef"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/check_scheduler.py",
+      "bytes": 1788,
+      "sha256": "5552fc950da09b105382afb51272d1a8ff19f1a25cbedce1e8e524bc648abc63"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/FROZEN.json",
+      "bytes": 5626,
+      "sha256": "4ad3e3177306d4e6b8507a9fb19802997423c2c5c71ab8bf01a4c280bc0f2278"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/RESULT.json",
+      "bytes": 8187,
+      "sha256": "280b4df8c9545c4c1abfd5208c57cd1bbcd365b180d5624723fbcdba9dfc529f"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/TIMES.jsonl",
+      "bytes": 5141,
+      "sha256": "1126a8a06b3be36143d4613d98bb9a27b8c78b6b1bed973a3663a6b11fdca4c6"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/body_final.npz",
+      "bytes": 5056,
+      "sha256": "31f0d212eb86ca287abc9c1ceeefc761b0665ab93b4426dc5956eee758ea87b9"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "ac2060065e23425f1dc3bdbd90778d2425c19a6cf5ea1b9a671f9cde728b0e37"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/brain_final.npz",
+      "bytes": 9959954,
+      "sha256": "df2e97a4b809e4232fd14efca4957b0be1e66dbe95af54b4fd8937531d457a13"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device20_01/traces.npz",
+      "bytes": 265384,
+      "sha256": "dbfdcf18ce37a47f77b1d61506655000246c0a927037f443ca4b1d834ceacb26"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device_cell.cu",
+      "bytes": 3313,
+      "sha256": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/device_cell.py",
+      "bytes": 7421,
+      "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/FROZEN.json",
+      "bytes": 5287,
+      "sha256": "03086911ed2c730431e25e9126a90bf19348c9e4d842cd08712f8779a7e8c751"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/RESULT.json",
+      "bytes": 7648,
+      "sha256": "58c24aea9cc851e10d26cbd6f53771f632b398ddc025681e1c65b774aac57086"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/TIMES.jsonl",
+      "bytes": 5119,
+      "sha256": "a45b467bf757e9ebfd902df46f53b94f9235e2e3d2cf252ecd20e49b91b8595b"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/body_final.npz",
+      "bytes": 5062,
+      "sha256": "3ba10a2b73958dbfe693c2596614f334d36fa263684af9bc9ab4835d9ba6e801"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "ab7cf26115a91732a0f72b29695b70c121b6adcf891e8a1bcaefef5ceba3aebd"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/brain_final.npz",
+      "bytes": 9955425,
+      "sha256": "74ec77f8f7095c2a22545eb8a8c62b06847b065319a27dce230c65fceccb721c"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/reference20_01/traces.npz",
+      "bytes": 265365,
+      "sha256": "af7ddad3b0ae4e6b77774d56c6e430b645ba2cee3408501a293eeea6d579f6d6"
+    },
+    {
+      "path": "motor_nuevo/causal_runtime_20260922/report.py",
+      "bytes": 7673,
+      "sha256": "1a3073cdec4625828c3c66790f1ca72091117495a27e549e407e793a01544bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PETSC_LICENSE.txt",
+      "bytes": 1536,
+      "sha256": "efc206ebe66fda24a32ebe69e81caa2c5595e093626170e57fbeff522507cc54"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/FROZEN.json",
+      "bytes": 2100,
+      "sha256": "3df39b08da06294752340a976614514a575a2f47906bd5fe00b8f2cd42e890e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/RESULT.json",
+      "bytes": 2663,
+      "sha256": "5bf4497ff3095694d4c4bd1929994d5eecc70b3f0edae5333ad4da6ff18fe6c8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/TIMES.jsonl",
+      "bytes": 1280,
+      "sha256": "56e237e3a843e416cf4ed0bd39145fc703608b80d806c57b4fd71d9f26389686"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/body_final.npz",
+      "bytes": 5102,
+      "sha256": "8914f07dc213deb5b8be752887f4b4fca23e5ab5dbf99e91dde3e7d6ff2b830b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.npz",
+      "bytes": 9954548,
+      "sha256": "44b488d1200733a07bd5e2b23e998cc75839f78228742bb5788dcb94bd824835"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/traces.npz",
+      "bytes": 71880,
+      "sha256": "fee57358b308810aeb8388b4f52e4f31754435a33a7a1cf7472acb6308bdae57"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/clean_package.py",
+      "bytes": 3095,
+      "sha256": "9f36fe75270647ff2a02332e93f48a08cc12e395850361840dff420bc5616567"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_morphometry.py",
+      "bytes": 7377,
+      "sha256": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_plasticity.py",
+      "bytes": 16803,
+      "sha256": "cfd67eb9322705366f2640b4af58b0136c5c3af9b3279b31646c41f3d8b069ea"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_preparation.py",
+      "bytes": 20466,
+      "sha256": "0f18ab24b100824a92bab76fa4a0f0957ae579b58a460909de714e3b3125e039"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_proprioception.py",
+      "bytes": 11330,
+      "sha256": "d2e6cf3c1c1067979ee136bad924c93123fb5c69540078e586d22aff05a5d088"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_rate_brain.py",
+      "bytes": 16929,
+      "sha256": "44ea26594d1b9b00d78ad0fc759a7fa3b2f02af7bd367ae6ab5c6799469a4ba3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/apl_region_routes.py",
+      "bytes": 4338,
+      "sha256": "249735630dc61da1369391cbd48d770872802eaf513d54519a9c96e49df66417"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/bounded_cervical_session.py",
+      "bytes": 17218,
+      "sha256": "43a2bd3585b417c3ba8074e1477210a8d357595c621aaf05522bbffff6569ec6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/canonical_pathway_probe.py",
+      "bytes": 5797,
+      "sha256": "c7264471bf1395aa20612e57c16d24b153cedf330ce3eec756a8b86b228a6afc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cardinal_grating_world.py",
+      "bytes": 5560,
+      "sha256": "f8a7c9ffd4bec9a66f796a6049692e2f1b938b80ac087f9c028237c17e6607a9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cardinal_visual_session.py",
+      "bytes": 8738,
+      "sha256": "387c155c47b70a91fc2db476fb0aba78821671b4b8be6e812ce9996e84377d3d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/coefficient_buffer_brain.py",
+      "bytes": 4118,
+      "sha256": "25717e5fbe5f4337ba4e7bec84a26bfef4ef9a42e7cef01e259aaff91b08d12e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/compensated_csr.py",
+      "bytes": 1866,
+      "sha256": "ebd27c96a24a223ee6aef768e6fec3023122b71467ed2e9a703733fdda9463fe"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/contact_complete_native_body.py",
+      "bytes": 9568,
+      "sha256": "1623e0350b0985f67506e58a77dc867ce2f3406089a1423c5db294b475c7ea40"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/contractile_tibia.py",
+      "bytes": 4415,
+      "sha256": "e2c71319d27f0c7163b106015b40ed653fd979896945a92923ab989bf1da70e6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cvn7_conductance_brain.py",
+      "bytes": 21466,
+      "sha256": "481730f42151962d8b8f6a8305cca31be1a11b480e244b2bda4ce1bd9bd99ad6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cvn7_conductance_session.py",
+      "bytes": 10493,
+      "sha256": "ec0e90ad0b430aae45b37bad7da29a0ceecd9990a1a50cf638955d72eb711a71"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_geometry.py",
+      "bytes": 1937,
+      "sha256": "6e29093771177e1e14a989bcbd65c3acb58b741f04debe186bea20d64c9f0cec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_position_brain.py",
+      "bytes": 5217,
+      "sha256": "169f72fbb8ca221d5311c676f0d0cea11be5e3cf5f2816ea1d6aaaaed31b73b2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_position_field.py",
+      "bytes": 2245,
+      "sha256": "ecc2b6c29ae03315ab9d126ce891a031d68306b79784362aec8c3ee28966c230"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bidirectional_rotor.py",
+      "bytes": 5678,
+      "sha256": "ef3d75c354326a27549f921142bed4286b208fd5433b7138a37ecb59aaac3544"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bidirectional_session.py",
+      "bytes": 12110,
+      "sha256": "e7889a195595ac929be2f2157d01976eca7f5c2e7bdfc2d25e6a2c0d71197387"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bounded_servo.py",
+      "bytes": 15434,
+      "sha256": "13bfb5c367d0d33700454ff697d26fec71a7092f3f11d95b7756915923b54761"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_centered_servo.py",
+      "bytes": 10977,
+      "sha256": "543929c3ebd0b94465ae7774c7a5f2bf034055c9a9a6e449c6b0d9ce5583147f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_looming_session.py",
+      "bytes": 11704,
+      "sha256": "d4c6f701b6c80e3cb2dfe8ce4b162a2fa221e28947ed0ee4ddca9cb8dd9b5fb3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_looming_world.py",
+      "bytes": 9739,
+      "sha256": "f800f4204fc680136dae96bc072f3695893c4b3089e60423b77510c60a0e20b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_phase_world.py",
+      "bytes": 1801,
+      "sha256": "319e65a5de1b4059f239afaec55ca3358af96879af6afc717aed0bd71a3823a5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_retinal_port.py",
+      "bytes": 12332,
+      "sha256": "eb2bd8731305d1664da04b0e6e13d4cc3c312af729f5af59793da378157b4328"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_retinal_session.py",
+      "bytes": 9752,
+      "sha256": "ed0926b8b1ae5d2ce8a6e3aa2fe504948ec5dabf6e3e98ddcfc684e89d0f381e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_rotor.py",
+      "bytes": 8550,
+      "sha256": "ed00069b94394c58d26ff72b8d08d6d04ae2264a04df749d8e6c5d6210f54faf"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_visual_session.py",
+      "bytes": 19279,
+      "sha256": "b7c9bdab33e00015ff6382b597952bc7b17cc2d7b4d408333687f78df6dc2a6e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_visual_world.py",
+      "bytes": 4044,
+      "sha256": "ceda41791952f55414ad091e5007bd912484766be54ba9228e3bf2d75491ce74"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_kc_event_receiver.py",
+      "bytes": 5224,
+      "sha256": "ac6cf7b9004d92ab8b037f8591a92519cb1becf50940b5e02367f251f960d8ad"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_kc_replacement_receiver.py",
+      "bytes": 4612,
+      "sha256": "fcca28fb4184c936d620c3bda68ac619c0b773995eea04aac4b70d6a77c8bd48"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_native_passive.py",
+      "bytes": 10931,
+      "sha256": "08cb2d5a51e2a376a7d350bbe9c45776f70ce11a8f3678f0d925559aaafb3112"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_pn_membrane.py",
+      "bytes": 7837,
+      "sha256": "29edf2ee937c39d43152ecdf4ddbfe61ef36265acff9ec9d8dc8ebcc85640b1d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrical_parameter_contract.py",
+      "bytes": 3119,
+      "sha256": "38236e4e2b3014fca9178fa1b539fcd9b9e42f031542f6ace630642ccd099ac5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrophysiology_edge_world.py",
+      "bytes": 8121,
+      "sha256": "3a722ea23aa4532104572abf7c67fef91a1b3d48a91e9a977ae139830482052d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrophysiology_visual_session.py",
+      "bytes": 10557,
+      "sha256": "8dde1366e001a174988308f935764438957bc2b33141cbb35ccaed6475691074"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/embodied_navigation.py",
+      "bytes": 5540,
+      "sha256": "d60159eb9351034f879489216896994239f795764cbd055f66ecf6aa5a5628fd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/execution_parent_snapshot.py",
+      "bytes": 3731,
+      "sha256": "130195807a92b3e2de9490e1953096b3b7ada08d0ef5ba44070f5d39ac2579e6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_buffers.py",
+      "bytes": 2318,
+      "sha256": "114c60273a52c23f812c5f2252ed0b150439f5236c17bf88fad2a40cf23d5315"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_graded_descending_brain.py",
+      "bytes": 622,
+      "sha256": "987bf61abe3f146ec69d89896cb67a473d6dc8c802bd7b0e8042e45e64f8dd53"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_measured_t4_visual_brain.py",
+      "bytes": 2599,
+      "sha256": "e852f313c80e28ca86e546f8cc9d148ff7093088f63e2e8ca6c4f24fafa47cf5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_r8_mi4_visual_brain.py",
+      "bytes": 728,
+      "sha256": "e894d621a4864cf4e6bd013502dd7059b7e1b71d3e500e126085f5b4b922cb45"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_receptor_visual_brain.py",
+      "bytes": 331,
+      "sha256": "5cec7891ca847eab1c6e79332964028cf8eb8a84fbfbd99396f75517feff3e5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_synaptic_visual_brain.py",
+      "bytes": 1637,
+      "sha256": "9736b37ab1e7abd42445ba314140a8002b681951ca43ebf191be7b8ca42b1e23"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/graded_descending_brain.py",
+      "bytes": 19846,
+      "sha256": "fef05b544f60eb3e153f6c773b614b30d393de103ac53647008fdd9c53441c95"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/hybrid_visual_brain.py",
+      "bytes": 9381,
+      "sha256": "1961a9eed77390edbb57d4d3376733c956c8ed2026764ea5777e998ca9f4e5a4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamic_brain.py",
+      "bytes": 16023,
+      "sha256": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamic_session.py",
+      "bytes": 10235,
+      "sha256": "f0770f7889e6531fa1ba16ba085fb2b02e5ed73cd6a59a4029b5bc42f265a04d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamics.py",
+      "bytes": 5185,
+      "sha256": "67ef32fde061cf7c73fee09a5adb456c798a36d7c78e670f71f5d72a5d55c257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_audited_session.py",
+      "bytes": 4409,
+      "sha256": "8100cce2c5e6f6e99086571438f9203ac165be54ea38518893030f9e3642c9b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_brain.py",
+      "bytes": 6480,
+      "sha256": "7482a86a9846c6ba8d4911790daf60bf8f3db2a75fe695c1a74ae5626c584245"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_release.py",
+      "bytes": 4952,
+      "sha256": "c6e337d8f174c1494e3d3722bec8fa632df5ce6d74a5251a457a2ac7efbf33da"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_session.py",
+      "bytes": 3081,
+      "sha256": "503028c437cf7bc91233fd359a92e017760434de92c8fb0bb7cb0fb45dc10741"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales.py",
+      "bytes": 3037,
+      "sha256": "eddab745afa62f0bc9219328e1508d7ab81a8f395d1d6879ddbf7a64a86bb16f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales_brain.py",
+      "bytes": 9458,
+      "sha256": "395fda4d68cc3ea37b0c33a8ba1566b4ac9a3215160b803fc5ddc52e7bc6b965"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales_session.py",
+      "bytes": 9657,
+      "sha256": "69d49e13a2340d499904c6d854601b98f01f87c8e9df7b5db37bc75023f824e3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_four_port_active.py",
+      "bytes": 3410,
+      "sha256": "c9a3e31748f1a011d2e8181940d67129dd16037829ac1881e9bfc0098a08b8f2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_projected_batch.py",
+      "bytes": 6738,
+      "sha256": "f5ae0f471afe98c40a96b9d81d559bfcb613e73cbdb0508510c13af33993b8d0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_projection_parallel.py",
+      "bytes": 2944,
+      "sha256": "c87f87b52d5d160dc99fa5ae78460f427a05ae5f6deb772aef204bc6988dad3c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_session_storage.py",
+      "bytes": 4730,
+      "sha256": "fe7d7d9bc994aebd9e491418af19ff4c330987d466ac2c02bb94d92a07490d04"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_brain.py",
+      "bytes": 10579,
+      "sha256": "ef40a030fd67883de6839fa56f10593bf269a5334d67b7afca289a92667579fe"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_inputs.py",
+      "bytes": 3606,
+      "sha256": "9898d0b538c68db4907218c46480607627adcc1b8368389fff8061b9f3d95bfc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_session.py",
+      "bytes": 9677,
+      "sha256": "cea3687b22f011054dd9dbbb8e899873212e94431bfb3bebdd276dce752c3a10"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_brain.py",
+      "bytes": 4800,
+      "sha256": "acc57a997cdbbb0d5285cb03d9f2800ce1bbb0561c506b29fb6c124ad33d2a10"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_ports.py",
+      "bytes": 1952,
+      "sha256": "7c0ebf3334afbe0197d05045e230b2b377635198f4a1807664ade80aba7d173f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_session.py",
+      "bytes": 2878,
+      "sha256": "5d01a3b420ebc3f1c9ce3826237c246d41e379db89d07aea4fe23fcd3bee6c13"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_axon_candidate.py",
+      "bytes": 12456,
+      "sha256": "a738f3ec1a338e34f21ab7798e5b514f3d7b033ea1db7241584a46073da9e3e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_live_session.py",
+      "bytes": 14286,
+      "sha256": "da0dc9496a4892ea45a76e876c9772c9d19ac39dc31110a97a599e3a1bec0a2f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_output_brain.py",
+      "bytes": 10745,
+      "sha256": "c6b222a5d7d36450538de288aef10d45722cd707592a4c3d8ca61b40e79999ab"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_output_session.py",
+      "bytes": 9927,
+      "sha256": "26fcdb45ecf610bdf24576e303b3435ea655192a5bf9a9c043dbeee4634da57b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_regional_brain.py",
+      "bytes": 25655,
+      "sha256": "3eb7fae8d7254c5cfe70cfad3748a71174dc9e4c4fd4995d84e7de1084303ed4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_sensory_probe.py",
+      "bytes": 17566,
+      "sha256": "2be8f8ca000ab8a653fa8b0aa6b2485e375cf8d61f1aa7ce65f77f788fe1a5e3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/lamina_boundary_brain.py",
+      "bytes": 20063,
+      "sha256": "4594ceeab95732e910d3ebfc5274300301d7c5c6b37217ba61b265899291203b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/lamina_boundary_session.py",
+      "bytes": 15307,
+      "sha256": "f93e04b8fee0da81394f9a3150fb579a2f5b5288ea43175b16b05d35d42bbb1e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/matrix_olfactory_diagnostic.py",
+      "bytes": 114166,
+      "sha256": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_luminance_world.py",
+      "bytes": 5694,
+      "sha256": "e1d700a5a2caa6e3aa1214b2ff50d07bc108de821e5195915e0648581373ea9c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_t4_visual_brain.py",
+      "bytes": 17323,
+      "sha256": "7175e0f19d54bbfc839840692013be1e018a7ba15adb1bf98dad00a69bbefabf"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_visual_session.py",
+      "bytes": 9667,
+      "sha256": "256c7e6004f5249b1f11ab59501e6d06164e5368bb2db8d7d621c59cddf12a3b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/native_motor_body.py",
+      "bytes": 12792,
+      "sha256": "e03b6da6e07f8421d1bf044e20384930ca6bd6f0affad3aafb0aa93d5f04fd12"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/native_organism_session.py",
+      "bytes": 15167,
+      "sha256": "9ad3c5bbb8b6e245b4eca0fe7c432ab30a05f0d7c6b6406d2be06d7b177631ed"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_connected_domain.py",
+      "bytes": 1435,
+      "sha256": "3677d9b7d0a5c15e9d7aae5d77391a715c4833ed1dca48537fde7236807d3a0a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_distributed_conductor.py",
+      "bytes": 7989,
+      "sha256": "c5dd9d66a17bc7a00d5816d806662d499b84197ed9cce4199c5f90bbde65dd0f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_dynamic_handoff.py",
+      "bytes": 8998,
+      "sha256": "3cca0d2c250aca9aef48688a3ca453e9e761106760d620a7d5f4d692e5de55ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_gpu_multigrid.py",
+      "bytes": 13365,
+      "sha256": "0c7975ef6a6cfac30d0a312cd708638e8ddcde3d18bb9509a2afa5e18ff19025"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_gpu_transient.py",
+      "bytes": 2245,
+      "sha256": "423c1ebd33df5f06063a97405fa0a0ac0dc78cb7692f04036ab57e26d361a12a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_csr.py",
+      "bytes": 5463,
+      "sha256": "ca649398ce396ac70b2a7514330e5fdf93d0203aa85da5e465e18d32abd9cade"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_multigrid.py",
+      "bytes": 14284,
+      "sha256": "2801d7bc6cfa0292cc33e9bf7f2fe2b03612dc6f7562a24e1eb1760575105eda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_transient.py",
+      "bytes": 4103,
+      "sha256": "4825e5ab7d30dfea644a9c0251473b00dce3d94fc5ab6a476ac425280b2f8f39"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_multiport.py",
+      "bytes": 9777,
+      "sha256": "863ec9d29265354cdc5a1856e420f1df4161072dea321addecb3e5d63c8fdb2c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_selected_conductor.py",
+      "bytes": 2904,
+      "sha256": "930e9dae12fad6bb1e2967fac89c50f0bec01fd856e66e654a6dced55332df5e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_surface_ports.py",
+      "bytes": 15111,
+      "sha256": "855f33198f82d73a92efa95663a2f6f39e3caaccb753bc61ced88f9f73ebd70e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_endogenous_brain.py",
+      "bytes": 6797,
+      "sha256": "481ce2e06964114b4925e15d46f407e2e86488fe3d7eb880b65ceb7f9fdf62e2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_endogenous_session.py",
+      "bytes": 4868,
+      "sha256": "c40d40998583d840959a43d550e552a506eef08f157f6eaae58ba51ace503b64"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_synapse_candidate.py",
+      "bytes": 5975,
+      "sha256": "1f98240943ab05c78fedc51b12d5d354654f596934b6b52864b42c7845b11b3d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/organism_session.py",
+      "bytes": 15641,
+      "sha256": "079e42d96469b7bcfcda1f0874d3343950ef4bdad424576a2917457a90b4132c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/orn_peripheral_terminal.py",
+      "bytes": 2066,
+      "sha256": "7c65535a50193acc249b173d29d80934563d47a80cd493423afd94c2a0399043"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/orn_peripheral_terminal_brain.py",
+      "bytes": 6147,
+      "sha256": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/passive_body.py",
+      "bytes": 16657,
+      "sha256": "d11e4bb573a18ed42c34aba7fb8356add5134c3cd54e98623de32bf70d2863a8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/periodic_light_world.py",
+      "bytes": 2407,
+      "sha256": "7cc691e636bca9e3fbbb3f995ba54c8497dff30d83208faffd6c86c493a7abdd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_brain.py",
+      "bytes": 5248,
+      "sha256": "f70b94d6061898467a6adc396388b4f0166483fb095aeb78f0b31e0c12721719"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_receptor.py",
+      "bytes": 5757,
+      "sha256": "4419a9373ed3aa877bf5f6ff735774d4349407f33a59971bdf72480088c43347"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_source.py",
+      "bytes": 7950,
+      "sha256": "32ce604c2d7a2c031173f6ac6b0a9f6efa629870f8cff3af0319b5f5188236e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_coupled.py",
+      "bytes": 4027,
+      "sha256": "a5b5215c29e8dc8f3f82722bc47fb60c571c845b6c4cced4347c9f0073aa579c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_port.py",
+      "bytes": 11693,
+      "sha256": "bb15c522b92d145989704f13300ce2d3b24a9103473a26e89c68d2331d698d72"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_release.py",
+      "bytes": 10162,
+      "sha256": "0eec7e5e8216cd9df5da371c34f670fa3b915eaf91b7aa1a8ccdcedd0d756cfb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_cns_brain.py",
+      "bytes": 4421,
+      "sha256": "1ac9b032bd73f4f5c261d68864f8718bfa71295172139c45e5c6a15c8b07e21c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_cns_session.py",
+      "bytes": 3628,
+      "sha256": "922ee0ead4e805b88ca762bd655074a4e8cccf81a08ce682eaed23b30ba79dbb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_online_source.py",
+      "bytes": 6633,
+      "sha256": "ed9762b43cf58d27ceafe1997b5349eeba3664feef595dc04c2caa91adf4933f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_rate_prior.py",
+      "bytes": 4550,
+      "sha256": "63557ce17ea2057ca17d17e3618f2298ff1d608adeb4410001c37fdb08a6ede8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cns_orn_stages.py",
+      "bytes": 1740,
+      "sha256": "bb8bad26c5073a6122c3d10277b3078e2090970914460e2dfe64b227bda5ff85"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cns_ports.py",
+      "bytes": 3298,
+      "sha256": "da4385d0fffb533504ad8b83695d81bdd397b8532beacad4fa694be0fcd14f4a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_coupled_ionic.py",
+      "bytes": 17625,
+      "sha256": "0bc417c652dacdfbef604c8d69b8245d542e5c4d28ea8c520a2232d77ea7271e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_delayed_cascade_receptor.py",
+      "bytes": 3926,
+      "sha256": "dcdf24f95136521c0c9682e216cee896dd61e7433c2c1a32ceba51dc4471363b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_brain.py",
+      "bytes": 6290,
+      "sha256": "5ece061a2d3e5cd99421fbbdf6c598eafd165490f3ea209be8883b85557f9431"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_port.py",
+      "bytes": 4245,
+      "sha256": "cdb8b8fb453ba6dca63a82b8297c1db50e80a32d1ca80cc7efb7c980d8a8b8c0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_session.py",
+      "bytes": 3673,
+      "sha256": "8a991e846baf22d6b86a40281257df3e5318ffeddc07ce7a01a21495b771d09d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_source.py",
+      "bytes": 2910,
+      "sha256": "727332b2a23c223fb84d0b62ade96db954f3661b283d341c4de97f854b31a4ce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_refined_session.py",
+      "bytes": 5129,
+      "sha256": "b440c145b1329c10119133c8780aab9394aff7559a10c1f795a40714e39d7959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_fine_ionic.py",
+      "bytes": 9577,
+      "sha256": "4bdeed668d9dbced0127b62cc2f08702020499876defaa0656569e70262cd573"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_brain.py",
+      "bytes": 7255,
+      "sha256": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_port.py",
+      "bytes": 5991,
+      "sha256": "64a9f729bced999e5188decf31095732aca7acab7fe6acc56f3e209b12bbe0a5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_source.py",
+      "bytes": 3211,
+      "sha256": "a5dcd528ede65e83f7312e6b3d84dce2d5f87261e48c401f70fc2f37c42dbb9a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_graph_elimination_backend.py",
+      "bytes": 8184,
+      "sha256": "b1fbee47e7a0a3a078c2763372ec2d9b5ebd16c27cb44684abf665ddffe0d336"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_graph_solver_brain.py",
+      "bytes": 3922,
+      "sha256": "eb8e9887693e1f7acb6e37026c466135315568bfb8fce14f0016dbafad5b05f8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_inhibitory_closure_brain.py",
+      "bytes": 4748,
+      "sha256": "ada1806e37949ad64f7e386f7f868d61fd0dd54af937f41548c3f306d4782f2e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_inhibitory_closure_source.py",
+      "bytes": 9039,
+      "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_local_conductance.py",
+      "bytes": 6665,
+      "sha256": "851e770e86ec45485227f99f2c0d0677243b65c3a379f0af72e14bdb31092a16"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_backend.py",
+      "bytes": 5867,
+      "sha256": "f4249d7a81c5b9587c9a8bbf71437aa681a6aa58af4271bd3c4e37e9231d406e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_calcium.py",
+      "bytes": 1693,
+      "sha256": "30bcf19e191a7841abca25ad1b25479ba8ec6bab2a51806b0ef51b356acb59d1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_cns_brain.py",
+      "bytes": 3785,
+      "sha256": "d462d00cbbe019ca50fa235a13a8b7a274f17f6c1a284f70b77fa0cf516e18c7"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_coupled_step.py",
+      "bytes": 14296,
+      "sha256": "3b5c1edd5abd6bc587a987367b9f63f8f268ff8c9cf15442d3bb2b0389bd80be"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_krylov_backend.py",
+      "bytes": 3561,
+      "sha256": "774bb08f51b531722cfe566d4b16b1c62e73620d283144f1eb46ab0adcda23dc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_krylov_brain.py",
+      "bytes": 2890,
+      "sha256": "722549e7b667a3bba8649c666ce24b547afbaabf684b976077ce355102cd923e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_runtime.py",
+      "bytes": 5512,
+      "sha256": "f6ddf6dcbe03a66a949382724fa4b93ab67e36a3d109825e4c059741e40e7938"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_source_bridge.py",
+      "bytes": 635,
+      "sha256": "516f2ca9a003f2b862395875406029e2cd7ece83b3fc9af7baa4e729c423661d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_cns_brain.py",
+      "bytes": 8204,
+      "sha256": "45683cd60b68a2518219e55ffe5f51ab146b2fba4a67a94b02cd13e6b27d1d8e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_cns_session.py",
+      "bytes": 4396,
+      "sha256": "27537d196d187a94c54dcf2d206a33d52022b4dba68a540e40d446e205b86c68"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_orn_source.py",
+      "bytes": 4507,
+      "sha256": "164501a15740ac79bb3888a9a03c1ba28d7b7a2ac1325f58ba0a80d58b008f8f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_port_session.py",
+      "bytes": 3627,
+      "sha256": "fa582f680c696e9b197485b2a84ae7493254fb43b41b992d1fe02ff5b129af23"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_prepared_kc_boundary.py",
+      "bytes": 5761,
+      "sha256": "25c9ae8011f10b6b612a8cbb2e6bb2270a3bb1117b68bbf5e2a2590dc12d3b7d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_reference_runtime.py",
+      "bytes": 13363,
+      "sha256": "76975779930e09f65b828471fa75aa4cd8f9f92c28a212f49553c9e17d0a407c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_site_kc_boundary.py",
+      "bytes": 6236,
+      "sha256": "28ecef1535fa67f923ffe285d4706d7d32b1de6db938889b034b4d7e81d3a619"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_spatial_orn.py",
+      "bytes": 8804,
+      "sha256": "2c861b122cd10c4d378886ba6107dd52601843298a3daf85e408fa315ae1dc0a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pnkc_receptor_brain.py",
+      "bytes": 14397,
+      "sha256": "7e204d94fcd0a0297042a45f824b470534e6efe2efbaf7d259e93f654af5825d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pnkc_receptor_session.py",
+      "bytes": 12226,
+      "sha256": "cadbc2867f51d18def4a31f8fd5cbe28f76268d4d7ae491d05577665f2a9c558"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/precision_visuomotor_session.py",
+      "bytes": 9450,
+      "sha256": "0eda3e803a6a6f971c9d66d83d814581039dafd9f262ef947db225f16e0aac31"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/projection_parallel_brain.py",
+      "bytes": 3213,
+      "sha256": "796eab6a25c705608f03b28d77fb25804caa8f9a7dd41232599150445fbbb51a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/projection_parallel_session.py",
+      "bytes": 3523,
+      "sha256": "1aa93a6a84ba041ded44faea4a54c16dddc6651682376e01c47a55f60dd975fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/prosthetic_olfactory_session.py",
+      "bytes": 12752,
+      "sha256": "58d037ebc92817456b9913ba291d55beb1b233b4a3418cb88572a6b99684cd2f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_adaptation_brain.py",
+      "bytes": 18439,
+      "sha256": "a90c83240b39fdf135423ae8990d0423f99d4cbc1e2aacc4821e6fa16e1cf7a7"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_adaptation_session.py",
+      "bytes": 10008,
+      "sha256": "0c8494b3ee2714ac65d371f51c943fb98be002e164892fba61aac18f8bac9cb4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_servo_session.py",
+      "bytes": 8860,
+      "sha256": "c88e91dad29886987dfa11a617538a89d8c551b6769306197f13d0dc694ad509"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/r8_mi4_pulse_session.py",
+      "bytes": 10636,
+      "sha256": "55f935958433a9688d0507d39425cf21bd310cfde32f92e09d8966d7cedce8f6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/r8_mi4_visual_brain.py",
+      "bytes": 10412,
+      "sha256": "791430f40e1251b1672a94bafe1dd70e9c37cd2395b5c7af82741c6034525b1b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/receptor_visual_brain.py",
+      "bytes": 8404,
+      "sha256": "2be6d50d848b990f540bc63480fa438ae5df7c7bac9f831f9e84bf8c1f06ec39"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/refined_contact_body.py",
+      "bytes": 4423,
+      "sha256": "120394fbb927310145934628438571a8b23186574195542cf4270cd96f389941"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_live_session.py",
+      "bytes": 11309,
+      "sha256": "20ff7808d0fb9aa619c17b31ab66325245609273a5826114eafa62359886f189"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_motion_session.py",
+      "bytes": 14398,
+      "sha256": "f5c52ff04f42c337d6eb41d338a8c33579f5fd0f9269c732e0deea37f184c4d8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_phototransduction.py",
+      "bytes": 2994,
+      "sha256": "2e8489c5dcfbb8ec49b055e5863e6da1e014de968bc551ebe9ec3d44bf977ccb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_pulse_world.py",
+      "bytes": 5482,
+      "sha256": "fa1a3051e905e7cc3eb9469f88ea2f3059370abdff07a024aaceebf1edfe0a1c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_transduction_brain.py",
+      "bytes": 15240,
+      "sha256": "8400c52cb3e8618d92b6aebd04160fbf660f32be83c39b0f5de37e60065c4476"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_world.py",
+      "bytes": 6947,
+      "sha256": "cd83dfcafaf30c417aaf673807465c9d590538e8e9fc352029ccb02794775d63"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/sensorimotor_contact_session.py",
+      "bytes": 16817,
+      "sha256": "cb677d6e75617f378286df74d933cdcf23c5893ab33114f917b51fa829376e4f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/session_io.py",
+      "bytes": 2043,
+      "sha256": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/snapshot_execution_brain.py",
+      "bytes": 5940,
+      "sha256": "4b725905fa3317d9c8604ea2134510df01b6cb9d7e6fee446be91201c91e10e9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/synaptic_event_filter.py",
+      "bytes": 3421,
+      "sha256": "7a5d935dd5a222bf556c51a2bdcad38661296a75450681c140656f5954cf4064"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/synaptic_visual_brain.py",
+      "bytes": 7954,
+      "sha256": "c637b1828a173a0a2b175d0e92bba2538d4fc62d4e079c065b6f5afda13184cb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/t4_gaba_brain.py",
+      "bytes": 10738,
+      "sha256": "08496a69ae70467a591530a8330eab21fb8664a3582e0eaab1f95d5fc6b51bb2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/t4_gaba_live_session.py",
+      "bytes": 11825,
+      "sha256": "9574c9ff89ec5c430968fe98e3014566430d6a857acdf6c0109e4e88942085a0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_challenge_world.py",
+      "bytes": 4346,
+      "sha256": "b57f11c30e7b3fd59115f8dc6b32b7e062c9491151b60e08d59af26d9a17b88c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_descending_session.py",
+      "bytes": 11421,
+      "sha256": "28f24341ba0421a32d214cbbbb625e1908508db9c02d19c22da0b319c39abba3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_receptor_session.py",
+      "bytes": 8662,
+      "sha256": "b9ef955e61b0e01178c1b93e8593fa433eea59ab840900ab267cfd8a65a3f72c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_sparse_kernel.py",
+      "bytes": 1591,
+      "sha256": "0b673cfa092fbfc8002e494060679ee673d1a7fd71e19abe2c660df943be63ca"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_transfer_world.py",
+      "bytes": 11927,
+      "sha256": "622198a60b9c404fa34f5bfb98256b14bfb9dbb617442957fe37fb9c12526d22"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_transmission_session.py",
+      "bytes": 9354,
+      "sha256": "f1a8746020904cdcd8ab3429768d8783db7d87ad13fa231b4fa04d4ad2a4d137"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visuomotor_session.py",
+      "bytes": 17884,
+      "sha256": "6e7cbcb9287a9bf6837b292e170ba929280e8c4ca48117bd831f78dedd8800e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/walking_body_checkpoint.py",
+      "bytes": 7947,
+      "sha256": "7f88575736c24c0ea2f8bffea6aa9b2f6c2d46ee9403297af91a5c1c40d87422"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_adaptive.py",
+      "bytes": 4852,
+      "sha256": "5e0a51523ec28629f368c4e75dc1dfd3235ef5057b4e3f7a364066543e702d68"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_step.py",
+      "bytes": 4060,
+      "sha256": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_warp.py",
+      "bytes": 4416,
+      "sha256": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/session_io.py",
+      "bytes": 2043,
+      "sha256": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CHANGES.txt",
+      "bytes": 19311,
+      "sha256": "88ef94ba89a11ac8973633f8207d82fb86803c868d0e34fe50444577515e7aa3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CHATGPT_DECISION.md",
+      "bytes": 5037,
+      "sha256": "2c35e0d029c9075b780a3b36aa59f275b7ded97fae7966433ef78bb9024f0dc3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CHATGPT_REVIEW.md",
+      "bytes": 8709,
+      "sha256": "aaf93cc0de689a379405e730866fc0b7fb390d487eb54c1c50dcca912e9b1b16"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CHATGPT_TRANSIENT.md",
+      "bytes": 1737,
+      "sha256": "b8d9caa7850b449ca809a7222c89ee4b4bc2c16f56b28499f889789ef87b862c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CNS_CAUSES.json",
+      "bytes": 1447,
+      "sha256": "f0f748a752ffded505e1fbd64b025badf317054b8e1ffd808e42c39cd561e8e8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/CNS_TRACES.json",
+      "bytes": 65208,
+      "sha256": "b33d66393565d50da1c60bde790192ae718e93f803ef116ece53faaa8b93af16"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/COVERAGE_AFTER.json",
+      "bytes": 289,
+      "sha256": "8c8ecb9725a6072be68234ca0c6b3eb335eac25d4d4edccedde2a4f0a8b31be2"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/COVERAGE_BEFORE.json",
+      "bytes": 887,
+      "sha256": "a01f8ab665a6203f681a2373869ffa471b2a70ead7772bfa1c3cd3795fe88e25"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/ENVIRONMENT.json",
+      "bytes": 369,
+      "sha256": "56c0c9a0daf9846d0cb7e808084d44dd10539548c08b760f7c02f5d2b8ecbee7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/OPERATOR_BEFORE.json",
+      "bytes": 170,
+      "sha256": "03dc48192a9e11d4f82a38ce2ff618aefb3247fe729f29b06e92f49568f7f163"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/PLAN.json",
+      "bytes": 1322,
+      "sha256": "bac5aca110f7ffdb5ff1d11ea5153ab161267abcf69993922a507eb69a910832"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/PUBLICATION_FAILURE_CHECK.json",
+      "bytes": 252,
+      "sha256": "cc0d5ae44c4dafd01646d33db458f740c180b9f7ad825e17ecf2a5ce4e5bdb97"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/QUALIFICATION20.json",
+      "bytes": 10604,
+      "sha256": "f742da5fddfe23132eec5854ce09b321fd13dfe0c1f8e83c49778b631d2de777"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/README.md",
+      "bytes": 7813,
+      "sha256": "61a06777628ac13679e88b46dde139e213bbb59f1a21401f888df31cc1d09e55"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/RECONSTRUCTED.json",
+      "bytes": 14382,
+      "sha256": "cc05b02b59f1dbfbddbbcf876faf2074c0b63a0693feac5bcdb892c5930ada96"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/REPAIR_CHECK.json",
+      "bytes": 291,
+      "sha256": "78d74946536582fc21c60e7fdf9436ba8605d4416b32da58c3375e406aa2071c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/RUNNER_FAILURE_CHECK.json",
+      "bytes": 117,
+      "sha256": "3d3caafb69ff2c4cd5e05c3f19f845238917c984d94053093db1c978ffbb406d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/SMOKE_CHECK.json",
+      "bytes": 2669,
+      "sha256": "74eeab91c5b1f090941a3959996b274e72d9aa5d6f507939c18cdd7d9c7c1d7e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/STATE_BEFORE.md",
+      "bytes": 4706,
+      "sha256": "bf35f0379655ccd1dff6b91564c71517d4c4378c04480dec6865635798a108ca"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/TRACE_EQUIVALENCE.json",
+      "bytes": 169,
+      "sha256": "7e8c5f8d81e35c0481cda99ea3b30d8d7fff4ee175337dac035d8fa33b8bef45"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/TRACE_REPORT_FAILURE.json",
+      "bytes": 393,
+      "sha256": "7009f4c30b677ee0c2f43be26bec511d195cf1304de946ff2f07d556ffebcf35"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/TRACE_SOURCE.json",
+      "bytes": 456,
+      "sha256": "721d3b243b3e8e604de22d93f6654c34ac5fae56d761412d74a6c6215b1d42ab"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/TRANSIENT_DIAGNOSTIC.json",
+      "bytes": 841,
+      "sha256": "a9d127e8eb08608d8ae8e1cb3221603a31d445058acf7997d6a77e7a11a773b7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/build_trace.py",
+      "bytes": 1823,
+      "sha256": "20d49398e2afd0291f751768bfbc84b63aad9c02a3249c219a73e4ed7ce17444"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/bundle_review.py",
+      "bytes": 4779,
+      "sha256": "cc7941e7e772057d4774a7dc1bbdaaa1f6f628ccf69359bb8a81a16a9296a7ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/check_coverage_after.py",
+      "bytes": 1521,
+      "sha256": "63a159f3464209515576e1d1a730545d39155bd893b4e24a1a7245e96ecf8d74"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/check_coverage_before.py",
+      "bytes": 1261,
+      "sha256": "4aadb1f8eb04d5e4a32dbd841b0f7e6819d2fbf807dab2687ea3235741e79d11"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/check_operator_before.py",
+      "bytes": 1019,
+      "sha256": "3f58707f4f72d7f8182173f5173a10706ca7ac4416261f9ba705b58b79b32ab8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/check_publication_failure.py",
+      "bytes": 1417,
+      "sha256": "c98f1fd653d94c3041bbf4dcad843eb233ca3ff7bc5f1a0dac76b5fb6b514b51"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/check_smokes.py",
+      "bytes": 1649,
+      "sha256": "7101abe5c27e4720218d03bdfcae2d3abba0fc554d4b86f2e71db544a6024913"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/device_cell_before.py",
+      "bytes": 7103,
+      "sha256": "f6ec655af0c8ebefdd3c5d4115c71b98a88bec197bb643373ad7c7735f6df0aa"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/graph_control_trace.cpp",
+      "bytes": 6420,
+      "sha256": "b2ba0b39de81d38a33d9cdb197a8abf4a4da9f5ba359022d54ecfead631f9d9d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/jev_01/receipt.json",
+      "bytes": 708,
+      "sha256": "82d82b808e7f6e7a9612f124fea2e81899e35629c693450a18ebdfc14cf53abf"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/jev_01/request.json",
+      "bytes": 3615,
+      "sha256": "bd576edc13679dde6637acda913e6eebc22c778278863c748b171af875ca1f55"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/jev_01/response.json",
+      "bytes": 770,
+      "sha256": "bdf6ebdf66941c852d500aa285c44cbaff64165ebf00cf4c8d652b99e21a99e2"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/jev_01/routing.json",
+      "bytes": 544,
+      "sha256": "6934a2d87d41b456ff6be54be8bd4a3d888a0c600e7fc8f032986fb0b2aedf13"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/jev_tasks.json",
+      "bytes": 1134,
+      "sha256": "7305100a313bea0a24596997fe0fdcc30ead4b1fc95d26d62e3be5eefd5ba40f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/operator_state_before.py",
+      "bytes": 3857,
+      "sha256": "7d53874aa5058ab9d743e6300a760c9128381deb793cffe3582e808c9c06e5de"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/qualify_transport.py",
+      "bytes": 2250,
+      "sha256": "9e0d67e50595d555c821c1cd62f7e53f0db1ae2e7e6b43d425853276aefd0e81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/reconstruct.py",
+      "bytes": 3037,
+      "sha256": "c5deabe50e34bea04892b4cf942ecc622b5e3b63b269cf0707bee6e5f844b4b0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/run_pilot_before.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/run_pipeline.py",
+      "bytes": 7660,
+      "sha256": "5c53b904ac9529f04189b9ede1b8b13ac92652480bfc845ed4676bcefa020276"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/run_storage.py",
+      "bytes": 2335,
+      "sha256": "c503173532c930baaf1a2461d293b7d0269e2d1780d8cea2f1fa8a64590dc47c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/CENTRAL_ROWS.json",
+      "bytes": 2169,
+      "sha256": "658a6274ad05791a67f717a46366ed7c272d9631f3c6f0d840469863a9880f31"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/FROZEN.json",
+      "bytes": 7075,
+      "sha256": "001b025ff0dab7388d0b6d882d32b8390fdbaf9de255365790b91d3a41673b95"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/RESULT.json",
+      "bytes": 2624,
+      "sha256": "8966d2f5fcd09dd871312d3530d0c1ffd17d47bd2e1cdf1eecdbdd05dfe05b42"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/RUN_CONTRACT.json",
+      "bytes": 634,
+      "sha256": "a02142be86a8c5f4c102dc5e7e4754ed8b651219bfd5933b2026d84e05505fc7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/TIMES.jsonl",
+      "bytes": 85,
+      "sha256": "40c3fad8bbd1069680f55d3015fbd54501162016c1749f5739bca4135976780d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/body_final.npz",
+      "bytes": 5124,
+      "sha256": "b9dbb21c9a6fea86a9b5482ff28bff08c0daa26f834acaaf8f92361a08f24f2e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/brain_final.json",
+      "bytes": 167406,
+      "sha256": "1a71ee1db41abc62a8e4c12ded03500368e7bc9af90c638e805155b45757f400"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/brain_final.npz",
+      "bytes": 9961951,
+      "sha256": "7d8c3ef274e5540e1d172b949a2ade0b933f8b09eccad90390e0740a7c1329fd"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/affine_ports.cu",
+      "bytes": 1726,
+      "sha256": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/affine_ports.py",
+      "bytes": 1651,
+      "sha256": "629e8751d0d97d0eeff5f8987d716b9e4fbc75eba3e197f88074799926765c04"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/benchmark_real.py",
+      "bytes": 5093,
+      "sha256": "dcaff2f1650c1003c3c479ae4f17588f82512c688f36db53205c6f228dc156a1"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/check_affine.py",
+      "bytes": 2591,
+      "sha256": "7fa3017cb300064d96276faac480b35a8b82c524e1f79d86e88b4404ae6c4e6a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/check_device.py",
+      "bytes": 4175,
+      "sha256": "2b5aeb46d3cc289253087f248e454ec77b31df40b34e199574c644d8e66174f0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/check_operator_recovery.py",
+      "bytes": 6210,
+      "sha256": "6e9a2b6867d3ac6f2c978be8d9a906ef6d551bd9df12368944e318dcb8ab0e46"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/check_operator_state.py",
+      "bytes": 1286,
+      "sha256": "0941d3bdd86fc4fec379ddbf33596a784605f133c192bd5afc45d58d471353ef"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/check_scheduler.py",
+      "bytes": 1788,
+      "sha256": "5552fc950da09b105382afb51272d1a8ff19f1a25cbedce1e8e524bc648abc63"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/device_cell.cu",
+      "bytes": 3313,
+      "sha256": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/device_cell.py",
+      "bytes": 7421,
+      "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/package.py",
+      "bytes": 4539,
+      "sha256": "5ed6260bb7dc05c68e3d768c2fd0ba97bffe69dbc0c6aee89a4bcd84cc09ec73"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/causal_runtime_20260922/report.py",
+      "bytes": 7673,
+      "sha256": "1a3073cdec4625828c3c66790f1ca72091117495a27e549e407e793a01544bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 450,
+      "sha256": "b02384c33cca38b4dae9d022bf81a4a1df2b96dde7d82b2f777bce1a574373ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/clean_package.py",
+      "bytes": 3095,
+      "sha256": "9f36fe75270647ff2a02332e93f48a08cc12e395850361840dff420bc5616567"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/check_coverage_before.py",
+      "bytes": 1261,
+      "sha256": "4aadb1f8eb04d5e4a32dbd841b0f7e6819d2fbf807dab2687ea3235741e79d11"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/check_operator_before.py",
+      "bytes": 1019,
+      "sha256": "3f58707f4f72d7f8182173f5173a10706ca7ac4416261f9ba705b58b79b32ab8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/check_publication_failure.py",
+      "bytes": 1417,
+      "sha256": "c98f1fd653d94c3041bbf4dcad843eb233ca3ff7bc5f1a0dac76b5fb6b514b51"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/device_cell_before.py",
+      "bytes": 7103,
+      "sha256": "f6ec655af0c8ebefdd3c5d4115c71b98a88bec197bb643373ad7c7735f6df0aa"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/operator_state_before.py",
+      "bytes": 3857,
+      "sha256": "7d53874aa5058ab9d743e6300a760c9128381deb793cffe3582e808c9c06e5de"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/qualify_transport.py",
+      "bytes": 2250,
+      "sha256": "9e0d67e50595d555c821c1cd62f7e53f0db1ae2e7e6b43d425853276aefd0e81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/run_pilot_before.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/run_pipeline.py",
+      "bytes": 7660,
+      "sha256": "5c53b904ac9529f04189b9ede1b8b13ac92652480bfc845ed4676bcefa020276"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/run_storage.py",
+      "bytes": 2335,
+      "sha256": "c503173532c930baaf1a2461d293b7d0269e2d1780d8cea2f1fa8a64590dc47c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/runtime_session.py",
+      "bytes": 2721,
+      "sha256": "a16a00b1865a676c07f3f5c41f4eed8a8c7420870a799efae9330bc868aa237d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/test_repairs.py",
+      "bytes": 3305,
+      "sha256": "2de3ce36e861b318aa670917bf3218d5c759912346745ce14195a311e036c5e7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/executed_sources/pipeline_review_20260922/verify_transport_before.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/final_state/MANIFEST.json",
+      "bytes": 1357,
+      "sha256": "9f09064bbb00d2cfbfc59bf74fe8e5600942eaa5787e60696305bfd76cab032b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/final_state/boundary.json",
+      "bytes": 327,
+      "sha256": "5d28b8f2aa34390373e9d8581bd66d2dbfa41b76fe2ae6276accd502662e7a9c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/final_state/effective_operator.json",
+      "bytes": 2350,
+      "sha256": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_causal_01/traces.npz",
+      "bytes": 21186,
+      "sha256": "1936fab80e965e4342f3d9ec11987b4650b96bdf7e350662c44cc8933fc40416"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/CENTRAL_ROWS.json",
+      "bytes": 2169,
+      "sha256": "658a6274ad05791a67f717a46366ed7c272d9631f3c6f0d840469863a9880f31"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/FROZEN.json",
+      "bytes": 7197,
+      "sha256": "05b0a2be3016c156272293bca121d04142064acf1f19bd945506ce2b40a3ede4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/RESULT.json",
+      "bytes": 2858,
+      "sha256": "6d9cc57d66d01abbaad52f5106b4b6ea5e76d611d7307a0aae72d2ed3324eb3f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/RUN_CONTRACT.json",
+      "bytes": 640,
+      "sha256": "854e38a57bcd9dc3fb465a2d56f189b7c0eaea673bfbfbe2e28c3b83fdc7871c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/TIMES.jsonl",
+      "bytes": 85,
+      "sha256": "6af877a066a15825bdbe7c354985d6c95b6b1941fd4cb59512df145845b82e0a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/body_final.npz",
+      "bytes": 5124,
+      "sha256": "dc2c85ec423f224cb8d4070d7c32e258fb297568e5c1cbc6cd633125ea445493"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/brain_final.json",
+      "bytes": 167407,
+      "sha256": "4122f0b5596606cc175f39d4dabcc61582ef3590da2ec320007770a44fd7d3b9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/brain_final.npz",
+      "bytes": 9954825,
+      "sha256": "a9818d19ed85c30a9cec47e889650c2331300a557be74a2a81a88c2348025e16"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/affine_ports.cu",
+      "bytes": 1726,
+      "sha256": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/affine_ports.py",
+      "bytes": 1651,
+      "sha256": "629e8751d0d97d0eeff5f8987d716b9e4fbc75eba3e197f88074799926765c04"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/benchmark_real.py",
+      "bytes": 5093,
+      "sha256": "dcaff2f1650c1003c3c479ae4f17588f82512c688f36db53205c6f228dc156a1"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/check_affine.py",
+      "bytes": 2591,
+      "sha256": "7fa3017cb300064d96276faac480b35a8b82c524e1f79d86e88b4404ae6c4e6a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/check_device.py",
+      "bytes": 4175,
+      "sha256": "2b5aeb46d3cc289253087f248e454ec77b31df40b34e199574c644d8e66174f0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/check_operator_recovery.py",
+      "bytes": 6210,
+      "sha256": "6e9a2b6867d3ac6f2c978be8d9a906ef6d551bd9df12368944e318dcb8ab0e46"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/check_operator_state.py",
+      "bytes": 1286,
+      "sha256": "0941d3bdd86fc4fec379ddbf33596a784605f133c192bd5afc45d58d471353ef"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/check_scheduler.py",
+      "bytes": 1788,
+      "sha256": "5552fc950da09b105382afb51272d1a8ff19f1a25cbedce1e8e524bc648abc63"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/device_cell.cu",
+      "bytes": 3313,
+      "sha256": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/device_cell.py",
+      "bytes": 7421,
+      "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/package.py",
+      "bytes": 4539,
+      "sha256": "5ed6260bb7dc05c68e3d768c2fd0ba97bffe69dbc0c6aee89a4bcd84cc09ec73"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/causal_runtime_20260922/report.py",
+      "bytes": 7673,
+      "sha256": "1a3073cdec4625828c3c66790f1ca72091117495a27e549e407e793a01544bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 450,
+      "sha256": "b02384c33cca38b4dae9d022bf81a4a1df2b96dde7d82b2f777bce1a574373ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/clean_package.py",
+      "bytes": 3095,
+      "sha256": "9f36fe75270647ff2a02332e93f48a08cc12e395850361840dff420bc5616567"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/check_coverage_before.py",
+      "bytes": 1261,
+      "sha256": "4aadb1f8eb04d5e4a32dbd841b0f7e6819d2fbf807dab2687ea3235741e79d11"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/check_operator_before.py",
+      "bytes": 1019,
+      "sha256": "3f58707f4f72d7f8182173f5173a10706ca7ac4416261f9ba705b58b79b32ab8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/check_publication_failure.py",
+      "bytes": 1417,
+      "sha256": "c98f1fd653d94c3041bbf4dcad843eb233ca3ff7bc5f1a0dac76b5fb6b514b51"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/device_cell_before.py",
+      "bytes": 7103,
+      "sha256": "f6ec655af0c8ebefdd3c5d4115c71b98a88bec197bb643373ad7c7735f6df0aa"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/operator_state_before.py",
+      "bytes": 3857,
+      "sha256": "7d53874aa5058ab9d743e6300a760c9128381deb793cffe3582e808c9c06e5de"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/qualify_transport.py",
+      "bytes": 2250,
+      "sha256": "9e0d67e50595d555c821c1cd62f7e53f0db1ae2e7e6b43d425853276aefd0e81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/run_pilot_before.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/run_pipeline.py",
+      "bytes": 7660,
+      "sha256": "5c53b904ac9529f04189b9ede1b8b13ac92652480bfc845ed4676bcefa020276"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/run_storage.py",
+      "bytes": 2335,
+      "sha256": "c503173532c930baaf1a2461d293b7d0269e2d1780d8cea2f1fa8a64590dc47c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/test_repairs.py",
+      "bytes": 3305,
+      "sha256": "2de3ce36e861b318aa670917bf3218d5c759912346745ce14195a311e036c5e7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/test_runner_failures.py",
+      "bytes": 1319,
+      "sha256": "510e865c02efed7c660d3accf0563262c79ac4f27432a1f4fd05be6c78ffefe9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/executed_sources/pipeline_review_20260922/verify_transport_before.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/final_state/MANIFEST.json",
+      "bytes": 1357,
+      "sha256": "0a1dbc8ea4959c22f0f8328198eebafa543359c609c9f5b364715ac36f82dd46"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/final_state/boundary.json",
+      "bytes": 327,
+      "sha256": "5d28b8f2aa34390373e9d8581bd66d2dbfa41b76fe2ae6276accd502662e7a9c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/final_state/effective_operator.json",
+      "bytes": 2350,
+      "sha256": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/smoke_reference_01/traces.npz",
+      "bytes": 21185,
+      "sha256": "70ca43fb35c66bbebff3f2cbcaf9e4f33e5b20645910c9c3c14ccee279e206ee"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/test_repairs.py",
+      "bytes": 3305,
+      "sha256": "2de3ce36e861b318aa670917bf3218d5c759912346745ce14195a311e036c5e7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/test_runner_failures.py",
+      "bytes": 1319,
+      "sha256": "510e865c02efed7c660d3accf0563262c79ac4f27432a1f4fd05be6c78ffefe9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_pipeline.log",
+      "bytes": 1476,
+      "sha256": "51f1a35b22786f1b694494e3ad5b78440552dc731d9de80e55f0f6fe5884bfae"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_pipeline.py",
+      "bytes": 4087,
+      "sha256": "17c6dbd3d7d9f262f08ba05201a19954ef209d9c40bf471c0d48d970343de21e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_pipeline_02.log",
+      "bytes": 580,
+      "sha256": "c536cca4f0d69ea9f548511d3b7729870f510001a7e6981561c733bba3c23201"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/CENTRAL_ROWS.json",
+      "bytes": 2169,
+      "sha256": "658a6274ad05791a67f717a46366ed7c272d9631f3c6f0d840469863a9880f31"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/FROZEN.json",
+      "bytes": 7670,
+      "sha256": "0178487e28af59a17196ecb6d430336ee74831ac5c28d5dabf23e8537948c623"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/RESULT.json",
+      "bytes": 3403,
+      "sha256": "52d5ed57dd61c76296c1279f0319013932973138ffc85ac019f9abd82ae5195e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/RUN_CONTRACT.json",
+      "bytes": 633,
+      "sha256": "c3d2650cd787b6ae48c7d1ff98617b0e2eabad639efe1c84b2b0a1bbd6062a8e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/TIMES.jsonl",
+      "bytes": 86,
+      "sha256": "575f9740c96dca16cc9d8ed7043f13791b4034cccd93e619c3c7e997df50db06"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/body_final.npz",
+      "bytes": 5124,
+      "sha256": "b9dbb21c9a6fea86a9b5482ff28bff08c0daa26f834acaaf8f92361a08f24f2e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/brain_final.json",
+      "bytes": 167406,
+      "sha256": "1a71ee1db41abc62a8e4c12ded03500368e7bc9af90c638e805155b45757f400"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/brain_final.npz",
+      "bytes": 9961951,
+      "sha256": "7d8c3ef274e5540e1d172b949a2ade0b933f8b09eccad90390e0740a7c1329fd"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/affine_ports.cu",
+      "bytes": 1726,
+      "sha256": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/affine_ports.py",
+      "bytes": 1651,
+      "sha256": "629e8751d0d97d0eeff5f8987d716b9e4fbc75eba3e197f88074799926765c04"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/benchmark_real.py",
+      "bytes": 5093,
+      "sha256": "dcaff2f1650c1003c3c479ae4f17588f82512c688f36db53205c6f228dc156a1"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/check_affine.py",
+      "bytes": 2591,
+      "sha256": "7fa3017cb300064d96276faac480b35a8b82c524e1f79d86e88b4404ae6c4e6a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/check_device.py",
+      "bytes": 4175,
+      "sha256": "2b5aeb46d3cc289253087f248e454ec77b31df40b34e199574c644d8e66174f0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/check_operator_recovery.py",
+      "bytes": 6210,
+      "sha256": "6e9a2b6867d3ac6f2c978be8d9a906ef6d551bd9df12368944e318dcb8ab0e46"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/check_operator_state.py",
+      "bytes": 1286,
+      "sha256": "0941d3bdd86fc4fec379ddbf33596a784605f133c192bd5afc45d58d471353ef"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/check_scheduler.py",
+      "bytes": 1788,
+      "sha256": "5552fc950da09b105382afb51272d1a8ff19f1a25cbedce1e8e524bc648abc63"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/device_cell.cu",
+      "bytes": 3313,
+      "sha256": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/device_cell.py",
+      "bytes": 7421,
+      "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/package.py",
+      "bytes": 4539,
+      "sha256": "5ed6260bb7dc05c68e3d768c2fd0ba97bffe69dbc0c6aee89a4bcd84cc09ec73"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/causal_runtime_20260922/report.py",
+      "bytes": 7673,
+      "sha256": "1a3073cdec4625828c3c66790f1ca72091117495a27e549e407e793a01544bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 450,
+      "sha256": "b02384c33cca38b4dae9d022bf81a4a1df2b96dde7d82b2f777bce1a574373ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/clean_package.py",
+      "bytes": 3095,
+      "sha256": "9f36fe75270647ff2a02332e93f48a08cc12e395850361840dff420bc5616567"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/build_trace.py",
+      "bytes": 1823,
+      "sha256": "20d49398e2afd0291f751768bfbc84b63aad9c02a3249c219a73e4ed7ce17444"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/check_coverage_after.py",
+      "bytes": 1521,
+      "sha256": "63a159f3464209515576e1d1a730545d39155bd893b4e24a1a7245e96ecf8d74"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/check_coverage_before.py",
+      "bytes": 1261,
+      "sha256": "4aadb1f8eb04d5e4a32dbd841b0f7e6819d2fbf807dab2687ea3235741e79d11"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/check_operator_before.py",
+      "bytes": 1019,
+      "sha256": "3f58707f4f72d7f8182173f5173a10706ca7ac4416261f9ba705b58b79b32ab8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/check_publication_failure.py",
+      "bytes": 1417,
+      "sha256": "c98f1fd653d94c3041bbf4dcad843eb233ca3ff7bc5f1a0dac76b5fb6b514b51"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/device_cell_before.py",
+      "bytes": 7103,
+      "sha256": "f6ec655af0c8ebefdd3c5d4115c71b98a88bec197bb643373ad7c7735f6df0aa"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/graph_control_trace.cpp",
+      "bytes": 6420,
+      "sha256": "b2ba0b39de81d38a33d9cdb197a8abf4a4da9f5ba359022d54ecfead631f9d9d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/operator_state_before.py",
+      "bytes": 3857,
+      "sha256": "7d53874aa5058ab9d743e6300a760c9128381deb793cffe3582e808c9c06e5de"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/qualify_transport.py",
+      "bytes": 2250,
+      "sha256": "9e0d67e50595d555c821c1cd62f7e53f0db1ae2e7e6b43d425853276aefd0e81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/run_pilot_before.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/run_pipeline.py",
+      "bytes": 7660,
+      "sha256": "5c53b904ac9529f04189b9ede1b8b13ac92652480bfc845ed4676bcefa020276"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/run_storage.py",
+      "bytes": 2335,
+      "sha256": "c503173532c930baaf1a2461d293b7d0269e2d1780d8cea2f1fa8a64590dc47c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/test_repairs.py",
+      "bytes": 3305,
+      "sha256": "2de3ce36e861b318aa670917bf3218d5c759912346745ce14195a311e036c5e7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/test_runner_failures.py",
+      "bytes": 1319,
+      "sha256": "510e865c02efed7c660d3accf0563262c79ac4f27432a1f4fd05be6c78ffefe9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/trace_pipeline.py",
+      "bytes": 3970,
+      "sha256": "d769ec22e0a4724cdc092f9064a45c18d7ccd7c00e098da7cb1aa6a02eb9034d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/executed_sources/pipeline_review_20260922/verify_transport_before.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/final_state/MANIFEST.json",
+      "bytes": 1357,
+      "sha256": "57777098e3901ae05a08d19f1e8ab5b86617f4c617e9d3672573b58680f2e8b2"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/final_state/boundary.json",
+      "bytes": 327,
+      "sha256": "5d28b8f2aa34390373e9d8581bd66d2dbfa41b76fe2ae6276accd502662e7a9c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/final_state/effective_operator.json",
+      "bytes": 2350,
+      "sha256": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_01/traces.npz",
+      "bytes": 21186,
+      "sha256": "1936fab80e965e4342f3d9ec11987b4650b96bdf7e350662c44cc8933fc40416"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/CENTRAL_ROWS.json",
+      "bytes": 2169,
+      "sha256": "658a6274ad05791a67f717a46366ed7c272d9631f3c6f0d840469863a9880f31"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/FROZEN.json",
+      "bytes": 7784,
+      "sha256": "2f626c0e2dc338864db7fade9826ef717b510818188c4452bce2b6b7c025f88b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/RESULT.json",
+      "bytes": 3401,
+      "sha256": "c43dbd8af6d6e914345f40ce1a9a6b7c374a97d42de9e17e492145418b7b90a5"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/RUN_CONTRACT.json",
+      "bytes": 633,
+      "sha256": "ad0820bff2ee2b00313103539cc14e289454d95da1b713dacc9aefc098dd1672"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/TIMES.jsonl",
+      "bytes": 85,
+      "sha256": "5f58a7e38f3b870ff4a052f6b6d9a401d4b40a14bf7e7e64968acbf515f7f551"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/body_final.npz",
+      "bytes": 5124,
+      "sha256": "b9dbb21c9a6fea86a9b5482ff28bff08c0daa26f834acaaf8f92361a08f24f2e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/brain_final.json",
+      "bytes": 167406,
+      "sha256": "1a71ee1db41abc62a8e4c12ded03500368e7bc9af90c638e805155b45757f400"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/brain_final.npz",
+      "bytes": 9961951,
+      "sha256": "7d8c3ef274e5540e1d172b949a2ade0b933f8b09eccad90390e0740a7c1329fd"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/affine_ports.cu",
+      "bytes": 1726,
+      "sha256": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/affine_ports.py",
+      "bytes": 1651,
+      "sha256": "629e8751d0d97d0eeff5f8987d716b9e4fbc75eba3e197f88074799926765c04"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/benchmark_real.py",
+      "bytes": 5093,
+      "sha256": "dcaff2f1650c1003c3c479ae4f17588f82512c688f36db53205c6f228dc156a1"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/check_affine.py",
+      "bytes": 2591,
+      "sha256": "7fa3017cb300064d96276faac480b35a8b82c524e1f79d86e88b4404ae6c4e6a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/check_device.py",
+      "bytes": 4175,
+      "sha256": "2b5aeb46d3cc289253087f248e454ec77b31df40b34e199574c644d8e66174f0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/check_operator_recovery.py",
+      "bytes": 6210,
+      "sha256": "6e9a2b6867d3ac6f2c978be8d9a906ef6d551bd9df12368944e318dcb8ab0e46"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/check_operator_state.py",
+      "bytes": 1286,
+      "sha256": "0941d3bdd86fc4fec379ddbf33596a784605f133c192bd5afc45d58d471353ef"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/check_scheduler.py",
+      "bytes": 1788,
+      "sha256": "5552fc950da09b105382afb51272d1a8ff19f1a25cbedce1e8e524bc648abc63"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/device_cell.cu",
+      "bytes": 3313,
+      "sha256": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/device_cell.py",
+      "bytes": 7421,
+      "sha256": "fe6a1944ab9b37fba5c59f3d4f4643414a9d3b0ec9e50d6c0b0684553aa0b304"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/package.py",
+      "bytes": 4539,
+      "sha256": "5ed6260bb7dc05c68e3d768c2fd0ba97bffe69dbc0c6aee89a4bcd84cc09ec73"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/causal_runtime_20260922/report.py",
+      "bytes": 7673,
+      "sha256": "1a3073cdec4625828c3c66790f1ca72091117495a27e549e407e793a01544bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 450,
+      "sha256": "b02384c33cca38b4dae9d022bf81a4a1df2b96dde7d82b2f777bce1a574373ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/clean_package.py",
+      "bytes": 3095,
+      "sha256": "9f36fe75270647ff2a02332e93f48a08cc12e395850361840dff420bc5616567"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/build_trace.py",
+      "bytes": 1823,
+      "sha256": "20d49398e2afd0291f751768bfbc84b63aad9c02a3249c219a73e4ed7ce17444"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/check_coverage_after.py",
+      "bytes": 1521,
+      "sha256": "63a159f3464209515576e1d1a730545d39155bd893b4e24a1a7245e96ecf8d74"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/check_coverage_before.py",
+      "bytes": 1261,
+      "sha256": "4aadb1f8eb04d5e4a32dbd841b0f7e6819d2fbf807dab2687ea3235741e79d11"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/check_operator_before.py",
+      "bytes": 1019,
+      "sha256": "3f58707f4f72d7f8182173f5173a10706ca7ac4416261f9ba705b58b79b32ab8"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/check_publication_failure.py",
+      "bytes": 1417,
+      "sha256": "c98f1fd653d94c3041bbf4dcad843eb233ca3ff7bc5f1a0dac76b5fb6b514b51"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/check_smokes.py",
+      "bytes": 1649,
+      "sha256": "7101abe5c27e4720218d03bdfcae2d3abba0fc554d4b86f2e71db544a6024913"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/device_cell_before.py",
+      "bytes": 7103,
+      "sha256": "f6ec655af0c8ebefdd3c5d4115c71b98a88bec197bb643373ad7c7735f6df0aa"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/graph_control_trace.cpp",
+      "bytes": 6420,
+      "sha256": "b2ba0b39de81d38a33d9cdb197a8abf4a4da9f5ba359022d54ecfead631f9d9d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/operator_state_before.py",
+      "bytes": 3857,
+      "sha256": "7d53874aa5058ab9d743e6300a760c9128381deb793cffe3582e808c9c06e5de"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/qualify_transport.py",
+      "bytes": 2250,
+      "sha256": "9e0d67e50595d555c821c1cd62f7e53f0db1ae2e7e6b43d425853276aefd0e81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/run_pilot_before.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/run_pipeline.py",
+      "bytes": 7660,
+      "sha256": "5c53b904ac9529f04189b9ede1b8b13ac92652480bfc845ed4676bcefa020276"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/run_storage.py",
+      "bytes": 2335,
+      "sha256": "c503173532c930baaf1a2461d293b7d0269e2d1780d8cea2f1fa8a64590dc47c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/test_repairs.py",
+      "bytes": 3305,
+      "sha256": "2de3ce36e861b318aa670917bf3218d5c759912346745ce14195a311e036c5e7"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/test_runner_failures.py",
+      "bytes": 1319,
+      "sha256": "510e865c02efed7c660d3accf0563262c79ac4f27432a1f4fd05be6c78ffefe9"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/trace_pipeline.py",
+      "bytes": 4087,
+      "sha256": "17c6dbd3d7d9f262f08ba05201a19954ef209d9c40bf471c0d48d970343de21e"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/executed_sources/pipeline_review_20260922/verify_transport_before.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/final_state/MANIFEST.json",
+      "bytes": 1357,
+      "sha256": "c122fcd03329ff5f2b3de26c0240a642bfdf9b844d6582d99f4512e2e5e74255"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/final_state/boundary.json",
+      "bytes": 327,
+      "sha256": "5d28b8f2aa34390373e9d8581bd66d2dbfa41b76fe2ae6276accd502662e7a9c"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/final_state/effective_operator.json",
+      "bytes": 2350,
+      "sha256": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/trace_smoke_02/traces.npz",
+      "bytes": 21186,
+      "sha256": "1936fab80e965e4342f3d9ec11987b4650b96bdf7e350662c44cc8933fc40416"
+    },
+    {
+      "path": "motor_nuevo/pipeline_review_20260922/verify_transport_before.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/compare.py",
+      "bytes": 1815,
+      "sha256": "cb2afbe0312398d3d771efa0518a6ec0bb80c1639ef6712dc91fdcba0d9348a5"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/compare_graph.py",
+      "bytes": 2054,
+      "sha256": "d07749512bca5963d8be938e57461275817a4161bc02513e26a8ea7ead7a4230"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/gpu_kernels.cu",
+      "bytes": 5454,
+      "sha256": "6af10d81ea127dd2cb3a705b56ff85e64024bb2f3a7057f18192beeb6ddef568"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_stage.py",
+      "bytes": 7934,
+      "sha256": "9ea3998e32d33c82b6f67e8ca391b555c6b314239197722cfc57fc5a54999811"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_stage_before_capture_fix.py",
+      "bytes": 7451,
+      "sha256": "b737ba9e48cb363134ba3e9e719584fef63a8f96f4d8297900d268402d5d101e"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_step.py",
+      "bytes": 14900,
+      "sha256": "f149f1b4d753eccdc978b1c79eac5e67aa0d295615ce584ff8efe1b7f52779fb"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident.py",
+      "bytes": 5758,
+      "sha256": "73b6dc0480ca19c3779117ad0b27ee5a2b488b21a7ea3169621a42915f8d4e2c"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident_cyclic.py",
+      "bytes": 2776,
+      "sha256": "1a82bf050a571a17f3f62f75501048d0562b5a30548ee28a4cba4d2ff61e513d"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident_step.py",
+      "bytes": 14303,
+      "sha256": "7411ed8abd3bb34f3b117b02dc20730efd44c2038376a5b210d9cd35b2656e95"
+    }
+  ]
+}

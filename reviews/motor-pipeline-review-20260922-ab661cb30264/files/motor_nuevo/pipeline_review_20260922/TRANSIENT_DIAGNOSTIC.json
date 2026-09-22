@@ -1,0 +1,22 @@
+{
+  "largest_state_index": 234831,
+  "absolute_difference": 0.0001785882326256448,
+  "reference": 0.023326186953604493,
+  "candidate": 0.023147598720978848,
+  "in_spatial_neuron_release_rows": false,
+  "spatial_node_id": null,
+  "q_difference_max": 5.0884195864464576e-05,
+  "source_counts_equal": true,
+  "interpretation": "A1ms observation fails the existing1e-4 normalized-state threshold while5/20ms endpoints passed. Timing/filter hypothesis, no fine1ms reference to assign accuracy.",
+  "transmission_start": 177758,
+  "coordinate": "synaptic filtered release",
+  "neuron_row": 57073,
+  "neuron": {
+    "bodyId": 75907,
+    "type": "KCg-m",
+    "somaSide": "L"
+  },
+  "layout_source": "native_hybrid_20260922/legacy_sources/synaptic_visual_brain.py:72",
+  "cause_identified": false,
+  "reference_more_accurate_not_established": true
+}

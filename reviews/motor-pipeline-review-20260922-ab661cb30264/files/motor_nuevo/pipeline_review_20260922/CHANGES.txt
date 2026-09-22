@@ -1,0 +1,294 @@
+--- motor_nuevo/pipeline_review_20260922/operator_state_before.py
++++ motor_nuevo/causal_runtime_20260922/operator_state.py
+@@ -1,81 +1,87 @@
+-"""Explicit portable effective-operator state, separate from physical state.
++"""Portable effective operator with adapter-bound identity and guarded restore.
+ 
+-Bindings are provided by adapters; the registry knows neither neurons nor anatomy.
+-Restore values exactly, never re-run preparation or apply an intervention twice.
+-Call only at a quiescent epoch boundary, before capturing an execution graph.
++Use at a quiescent boundary before graph capture. Values are not interventions:
++restore them verbatim. A failed rollback invalidates the owner explicitly.
+ """
+-import hashlib
++import hashlib,json
+ import numpy as np
++SCHEMA='effective_operator_v2'
+ 
+-def resolve(owner, path):
+-    for name in path:
+-        owner = owner[name] if isinstance(owner, dict) else getattr(owner, name)
++def resolve(owner,path):
++    for name in path:owner=owner[name] if isinstance(owner,dict) else getattr(owner,name)
+     return owner
+ 
+-def host(value):
+-    return value.get() if hasattr(value, 'get') else np.asarray(value)
++def host(value):return value.get() if hasattr(value,'get') else np.asarray(value)
++def fingerprint(value):
++    a=np.ascontiguousarray(host(value))
++    return {'shape':list(a.shape),'dtype':a.dtype.str,'sha256':hashlib.sha256(a.tobytes()).hexdigest()}
++def bindings_checked(bindings):
++    if not isinstance(bindings,dict) or not bindings:raise ValueError('Empty operator bindings')
++    out={}
++    for k,p in bindings.items():
++        if not isinstance(k,str) or not isinstance(p,(list,tuple)) or not p or not all(isinstance(x,str) and x and not x.startswith('_') for x in p):raise ValueError('Invalid operator binding')
++        out[k]=tuple(p)
++    if len(set(out.values()))!=len(out):raise ValueError('Aliased operator bindings')
++    return out
+ 
+-def fingerprint(value):
+-    a = np.ascontiguousarray(host(value))
+-    return {'shape': list(a.shape), 'dtype': a.dtype.str,
+-            'sha256': hashlib.sha256(a.tobytes()).hexdigest()}
++def identity(bindings,manifest):
++    data={'schema':SCHEMA,'bindings':bindings,'manifest':manifest}
++    return hashlib.sha256(json.dumps(data,sort_keys=True,separators=(',',':')).encode()).hexdigest()
++
++def _copy(dst,src):
++    if hasattr(dst,'set'):dst.set(src)
++    else:np.copyto(dst,src)
++def _invalidate(owner):
++    if isinstance(owner,dict):owner['_operator_restore_invalid']=True
++    else:setattr(owner,'_operator_restore_invalid',True)
+ 
+ class OperatorState:
+     @classmethod
+-    def from_state(cls, state):
+-        if set(state) != {'bindings','values','manifest'}:
+-            raise ValueError('Incomplete operator snapshot')
+-        obj = cls.__new__(cls)
+-        obj.bindings = {str(k):tuple(v) for k,v in state['bindings'].items()}
+-        if set(obj.bindings) != set(state['values']) or set(obj.bindings) != set(state['manifest']):
+-            raise ValueError('Operator identity/layout mismatch')
+-        obj.values = {k:np.array(v,copy=True) for k,v in state['values'].items()}
+-        obj.manifest = {k:dict(v) for k,v in state['manifest'].items()}
++    def from_state(cls,state,*,expected_bindings):
++        if set(state)!={'schema','bindings','values','manifest','identity_sha256'} or state['schema']!=SCHEMA:raise ValueError('Incomplete/obsolete operator snapshot')
++        expected=bindings_checked(expected_bindings);bindings=bindings_checked(state['bindings'])
++        if bindings!=expected:raise ValueError('Operator routes differ from destination adapter')
++        if set(bindings)!=set(state['values']) or set(bindings)!=set(state['manifest']):raise ValueError('Operator identity/layout mismatch')
++        obj=cls.__new__(cls);obj.bindings=bindings;obj.values={k:np.array(v,copy=True) for k,v in state['values'].items()};obj.manifest={k:dict(v) for k,v in state['manifest'].items()}
++        if identity(bindings,obj.manifest)!=state['identity_sha256']:raise ValueError('Operator schema/routes/values identity changed')
+         for k,v in obj.values.items():
+-            if v.dtype.kind not in 'biuf' or not np.isfinite(v).all() or fingerprint(v)!=obj.manifest[k]:
+-                raise ValueError('Corrupt operator snapshot: '+k)
++            if v.dtype.kind not in 'biuf' or not np.isfinite(v).all() or fingerprint(v)!=obj.manifest[k]:raise ValueError('Corrupt operator snapshot: '+k)
+             v.flags.writeable=False
+         return obj
++    def state_dict(self):
++        return {'schema':SCHEMA,'bindings':{k:list(v) for k,v in self.bindings.items()},'values':{k:v.copy() for k,v in self.values.items()},'manifest':{k:dict(v) for k,v in self.manifest.items()},'identity_sha256':identity(self.bindings,self.manifest)}
++    def __init__(self,owner,bindings):
++        self.bindings=bindings_checked(bindings);self.values={k:np.array(host(resolve(owner,p)),copy=True) for k,p in self.bindings.items()}
++        for k,v in self.values.items():
++            if v.dtype.kind not in 'biuf' or not np.isfinite(v).all():raise ValueError('Unsupported/nonfinite operator field: '+k)
++            v.flags.writeable=False
++        self.manifest={k:fingerprint(v) for k,v in self.values.items()}
++    def differences(self,owner):
++        changed={}
++        for k,p in self.bindings.items():
++            value=fingerprint(resolve(owner,p))
++            if value!=self.manifest[k]:changed[k]={'saved':self.manifest[k],'current':value}
++        return changed
++    def restore(self,owner):
++        destinations={k:resolve(owner,p) for k,p in self.bindings.items()}
++        for k,dst in destinations.items():
++            src=self.values[k]
++            if dst.shape!=src.shape or dst.dtype!=src.dtype:raise ValueError('Operator layout changed: '+k)
++            if isinstance(dst,np.ndarray) and not dst.flags.writeable:raise ValueError('Read-only operator destination: '+k)
++            if fingerprint(src)!=self.manifest[k]:raise ValueError('Operator snapshot corrupted: '+k)
++        # Cold reconstruction only: this backup is never in the numerical loop.
++        previous={k:np.array(host(v),copy=True) for k,v in destinations.items()}
++        try:
++            for k,dst in destinations.items():_copy(dst,self.values[k])
++            if self.differences(owner):raise RuntimeError('Operator transfer verification failed')
++        except BaseException:
++            restored=True
++            for k,dst in destinations.items():
++                try:
++                    _copy(dst,previous[k])
++                    if fingerprint(dst)!=fingerprint(previous[k]):restored=False
++                except BaseException:restored=False
++            if not restored:_invalidate(owner)
++            raise
+ 
+-    def state_dict(self):
+-        return {'bindings': {k:list(v) for k,v in self.bindings.items()},
+-                'values': {k:v.copy() for k,v in self.values.items()},
+-                'manifest': {k:dict(v) for k,v in self.manifest.items()}}
+-
+-    def __init__(self, owner, bindings):
+-        self.bindings = {str(k): tuple(v) for k,v in bindings.items()}
+-        self.values = {k: np.array(host(resolve(owner,p)), copy=True)
+-                       for k,p in self.bindings.items()}
+-        for k,v in self.values.items():
+-            if v.dtype.kind not in 'biuf' or not np.isfinite(v).all():
+-                raise ValueError('Unsupported/nonfinite operator field: '+k)
+-            v.flags.writeable = False
+-        self.manifest = {k: fingerprint(v) for k,v in self.values.items()}
+-
+-    def differences(self, owner):
+-        return {k: {'saved': self.manifest[k], 'current': fingerprint(resolve(owner,p))}
+-                for k,p in self.bindings.items()
+-                if fingerprint(resolve(owner,p)) != self.manifest[k]}
+-
+-    def restore(self, owner):
+-        # Validate every destination before writing any field.
+-        for k,p in self.bindings.items():
+-            dst = resolve(owner,p); src = self.values[k]
+-            if dst.shape != src.shape or dst.dtype != src.dtype:
+-                raise ValueError('Operator layout changed: '+k)
+-            if fingerprint(src) != self.manifest[k]:
+-                raise ValueError('Operator snapshot corrupted: '+k)
+-        for k,p in self.bindings.items():
+-            dst = resolve(owner,p); src = self.values[k]
+-            if hasattr(dst,'set'): dst.set(src)
+-            else: np.copyto(dst,src)
+-        changed = self.differences(owner)
+-        if changed: raise RuntimeError('Operator restore mismatch: '+str(changed))
+-
+-# Declared legacy adapter. Host and CUDA weights may intentionally differ;
+-# preserve both, rather than guessing which one contains an intervention.
+-LEGACY_BINDINGS = {
+-    'tau': ('tau',), 'theta': ('rate_theta',), 'gain': ('rate_gain',),
+-    'weights': ('weights64',), 'cuda_tau': ('cuda','tau'),
+-    'cuda_theta': ('cuda','theta'), 'cuda_gain': ('cuda','gain'),
+-    'cuda_weights': ('cuda','weights')}
++LEGACY_BINDINGS={'tau':('tau',),'theta':('rate_theta',),'gain':('rate_gain',),'weights':('weights64',),'cuda_tau':('cuda','tau'),'cuda_theta':('cuda','theta'),'cuda_gain':('cuda','gain'),'cuda_weights':('cuda','weights')}
+--- motor_nuevo/pipeline_review_20260922/device_cell_before.py
++++ motor_nuevo/causal_runtime_20260922/device_cell.py
+@@ -49,6 +49,7 @@
+   self.report.update(build_s=time.perf_counter()-start,device_bytes=self.pool.total_bytes(),kernel=self.kernel.attributes)
+ 
+  def advance(self,b,ns,ge,gi,*,current_pA=None,inner_step_ns=25000):
++  if getattr(self,'publication_failed',False):raise RuntimeError('Native publication owner invalidated; rebuild session')
+   if type(ns)is not int or ns<=0 or type(inner_step_ns)is not int or not 0<inner_step_ns<=25000:raise ValueError('Invalid physical epoch')
+   for x in (ge,gi):
+    if x.shape!=(b.n,4) or not np.isfinite(x).all() or np.any(x<0):raise ValueError('Invalid held conductance')
+@@ -69,16 +70,21 @@
+   self.stream.synchronize();self.report['native_wall_s']+=time.perf_counter()-start
+   if np.any(status):raise RuntimeError('Device epoch rejected: '+str(np.unique(status,return_counts=True)))
+   if not np.isfinite(maximum_error).all():raise RuntimeError('Invalid device estimator')
+-  # Whole epoch commit. A failed block never exposes other completed blocks.
+-  with self.stream:
+-   for k,v in s.items():setattr(b,k,v.copy())
+-   for k,v in a.items():cp.copyto(p.fields[k],v)
+-   count=self.ec.get();et=self.et.get();ej=self.ej.get()
+-  self.stream.synchronize();rr,cc=np.where(np.arange(self.width)[None,:]<count[:,None])
+-  if len(rr):
+-   order=np.argsort(et[rr,cc],kind='stable');rr,cc=rr[order],cc[order]
+-   self.events.active.add(et[rr,cc]+(origin-self.events.start_elapsed)*1e-9,self.events.gamma[rr],ej[rr,cc])
+-  b.elapsed_ns+=ns;p.elapsed=ns
++  # Publication failures invalidate this owner; they are not retryable epochs.
++  try:
++   # Whole epoch commit. A failed block never exposes other completed blocks.
++   with self.stream:
++    for k,v in s.items():setattr(b,k,v.copy())
++    for k,v in a.items():cp.copyto(p.fields[k],v)
++    count=self.ec.get();et=self.et.get();ej=self.ej.get()
++   self.stream.synchronize();rr,cc=np.where(np.arange(self.width)[None,:]<count[:,None])
++   if len(rr):
++    order=np.argsort(et[rr,cc],kind='stable');rr,cc=rr[order],cc[order]
++    self.events.active.add(et[rr,cc]+(origin-self.events.start_elapsed)*1e-9,self.events.gamma[rr],ej[rr,cc])
++   b.elapsed_ns+=ns;p.elapsed=ns
++  except BaseException:
++   self.publication_failed=True;b._native_publication_invalid=True
++   raise
+   stats=getattr(b,'_motor_adaptive_stats',None)
+   if stats is None:stats=b._motor_adaptive_stats={'accepted':0,'rejected':0,'min_step_ns':25000,'max_estimated_error':0.}
+   accepted=int(counts[:,0].sum());rejected=int(counts[:,1].sum());minimum=int(counts[:,2].min());error=float(maximum_error.max())
+--- motor_nuevo/pipeline_review_20260922/run_pilot_before.py
++++ campanas/etapa3_motor_nuevo_20260922/run_pilot.py
+@@ -1,85 +1,10 @@
+-"""Bounded stage3 whole-organism trajectory with full physical owners.
++"""Current stage3 entrypoint; engine choice is mandatory and recorded.
+ 
+-One fixed preparation and stimulus per process. No tuning, early success exit,
+-or retrospective admission criterion. Incomplete runs retain prefix evidence.
++The interrupted historical runner and every executed source copy are preserved.
++This entrypoint does not restart the cancelled queue or infer stage3 admission.
+ """
+ from pathlib import Path
+-import sys,argparse,json,time,hashlib,shutil,resource,traceback
+-import numpy as np
+-HERE=Path(__file__).resolve().parent
+-ROOT=Path('/home/daroch/AXIOMA_FLYWIRE/matrix')
+-sys.path[:0]=[str(ROOT/'work/motor14_20260922'),str(ROOT/'work/motor13_20260922')]
+-from motor_runtime import load,dump
+-
+-def main():
+- if not __debug__:raise RuntimeError('Legacy organism loaders require normal Python')
+- p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--odor',choices=['sham','uniform','odor_left','odor_right'],required=True);p.add_argument('--ms',type=int,default=1000);a=p.parse_args()
+- if a.ms not in (100,1000):raise ValueError('Only original horizon or prospectively narrowed historical window allowed')
+- if a.ms==100 and not (HERE/'AMENDMENT_01.json').is_file():raise ValueError('Missing prospective scope amendment')
+- import cupy as cp,pandas as pd
+- from session_io import write_state
+- import kc_adaptive,event_coupling,block_midpoint,pn_execution,organism_adapter
+- start=time.perf_counter();rows=[];times=[];obj=None;restores=[];status='STARTING';error=None;initial=None;prepared=None;events=adapter=split=pn=None
+- out=a.out
+- def traces():
+-  if rows:np.savez_compressed(out/'traces.npz',**{k:np.asarray([r[k] for r in rows]) for k in rows[0]})
+- def snapshot(name):
+-  folder=out/name;folder.mkdir()
+-  # State codec includes CNS, all membrane chemistry/delays, body, world,
+-  # plasticity, eyes, muscle states, pending inputs and RNG. Static anatomy
+-  # comes from the separately identified parent checkpoint + intervention NPZ.
+-  write_state(folder/'session',obj.core.state_dict())
+-  write_state(folder/'prosthesis',obj.state())
+-  write_state(folder/'published',{'rates':obj.core.brain.rates,'time_ns':obj.core.brain.time_ns,'rng':obj.core.brain.rng.bit_generator.state})
+-  dump(folder/'boundary.json',obj.core.world.boundary.metadata())
+- def budget():
+-  if time.perf_counter()-start>1150:raise TimeoutError('Frozen 1200 s process budget: preserving final state before deadline')
+-  if resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024**2>18:raise MemoryError('Frozen 18 GiB RAM budget')
+- try:
+-  obj,d,plan,Field,field,ports=load(out);h=obj.core.hybrid;initial=h.time_ns
+-  frozen=out/'executed_sources';frozen.mkdir()
+-  for file in HERE.glob('*'):
+-   if file.suffix in ('.py','.cpp') or file.name in ('PLAN.json','AMENDMENT_01.json'):shutil.copy2(file,frozen/file.name)
+-  dump(out/'FROZEN.json',{file.name:hashlib.sha256(file.read_bytes()).hexdigest() for file in frozen.iterdir()})
+-  restores.append(kc_adaptive.install(h));events,undo=event_coupling.install(h);restores.append(undo)
+-  adapter,undo=organism_adapter.install(h,events);restores.append(undo)
+-  pn,undo=pn_execution.install(h);restores.append(undo)
+-  split,undo=block_midpoint.install(h,125000);restores.append(undo)
+-  table=pd.read_parquet(ROOT/'data/male_v10/nodes.parquet',columns=['bodyId','type','somaSide'])
+-  types=table['type'].fillna('').astype(str)
+-  mask=types.str.match(r'^(DNa02|DNb05|PFL3|hDeltaK|PFG)(?:$|_)').to_numpy();selected=np.flatnonzero(mask)
+-  dump(out/'CENTRAL_ROWS.json',{'rows':selected.tolist(),'ids':table.bodyId.to_numpy()[selected].tolist(),'types':types.to_numpy()[selected].tolist(),'somaSide':table.somaSide.fillna('unclear').to_numpy()[selected].tolist(),'scope':'Anatomical labels are not proof of homologous connectivity'})
+-  dump(out/'RUN_CONTRACT.json',{'condition':a.odor,'preparation_ms':40,'trial_ms':a.ms,'initial_clock_ns':initial,'checkpoint':str(ROOT/plan['checkpoint']),'checkpoint_manifest_sha256':hashlib.sha256((ROOT/plan['checkpoint']/'manifest.json').read_bytes()).hexdigest(),'static_field':'live geometry; uniform intensity 1 per antenna; no dose renormalization','engineering_interventions':str(out/'INTERVENCIONES.json'),'decoder_gain':plan['decoder_gain'],'no_orn_rescaling':True,'budget_s':1200,'central_records':len(selected)})
+-  yaw0=d.yaw_grados(obj.body.data.qpos)
+-  for phase,duration in [('preparacion',40),('ensayo',a.ms)]:
+-   if phase=='ensayo':
+-    prepared=h.time_ns;snapshot('prepared_state');d.instalar_campo(obj,Field,field,a.odor,0.);yaw0=d.yaw_grados(obj.body.data.qpos)
+-   status=phase
+-   for k in range(duration):
+-    budget();used=obj.core.pending_sensors.copy();t=time.perf_counter();obj.step();cp.cuda.runtime.deviceSynchronize()
+-    row=d.captura(obj,ports,phase,k+1,used,yaw0,cp)
+-    row['central_q']=h.release()[selected].copy();row['central_transmission']=h.state[h.transmission_start+selected].copy()
+-    rows.append(row);timing={'phase':phase,'step':k+1,'clock_ns':int(h.time_ns),'wall_s':time.perf_counter()-t,'elapsed_s':time.perf_counter()-start};times.append(timing)
+-    with (out/'TIMES.jsonl').open('a') as f:f.write(json.dumps(timing)+'\n')
+-    if k==0 or (k+1)%10==0:
+-     traces();print(json.dumps(dict(timing,yaw_deg=row['yaw_delta_deg'],command_yaw=row['command_yaw_rate_rad_s'])),flush=True)
+-    if phase=='ensayo' and k+1==100:snapshot('state_100ms')
+-   if phase=='preparacion' and not np.all([np.all(r['sensores_usados']==0) for r in rows]):raise ValueError('Preparation consumed odor')
+-  if h.time_ns!=initial+(40+a.ms)*1_000_000:raise ValueError('End clock mismatch')
+-  status='COMPLETE'
+- except Exception as exc:
+-  error={'type':type(exc).__name__,'message':str(exc),'traceback':traceback.format_exc()};status='INCOMPLETE'
+-  print(json.dumps(error),flush=True)
+- finally:
+-  out.mkdir(parents=True,exist_ok=True);traces()
+-  if obj:
+-   try:snapshot('final_state')
+-   except Exception as exc:
+-    dump(out/'CHECKPOINT_ERROR.json',{'type':type(exc).__name__,'message':str(exc),'traceback':traceback.format_exc()})
+-  trial=[r for r in rows if r['fase']=='ensayo']
+-  dump(out/'RESULT.json',{'status':status,'error':error,'odor':a.odor,'requested_trial_ms':a.ms,'completed_trial_ms':len(trial),'completed_preparation_ms':len(rows)-len(trial),'wall_total_s':time.perf_counter()-start,'step_wall_s':sum(t['wall_s'] for t in times),'rss_GiB':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024**2,'last_yaw_deg':None if not trial else trial[-1]['yaw_delta_deg'],'historical_100ms_yaw_deg':None if len(trial)<100 else trial[99]['yaw_delta_deg'],'stage3_pass':None,'reason':'Exploratory trajectory; no biological or historical admission inferred','events':None if events is None else events.report,'native':None if adapter is None else adapter.report,'PN_execution':pn,'partition':split})
+-  for f in reversed(restores):f()
+-  if obj:obj.close()
+- if status!='COMPLETE':raise SystemExit(2)
+-
+-if __name__=='__main__':main()
++import sys
++sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'motor_nuevo/pipeline_review_20260922'))
++from run_pipeline import main
++if __name__=='__main__':raise SystemExit(main())

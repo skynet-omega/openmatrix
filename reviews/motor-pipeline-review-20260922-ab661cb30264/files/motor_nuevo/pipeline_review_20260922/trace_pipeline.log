@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/trace_pipeline.py", line 46, in <module>
+    (H/'CNS_TRACES.json').write_text(json.dumps({'epochs':records,'chosen':chosen},indent=2)+'\n')
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

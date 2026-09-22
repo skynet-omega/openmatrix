@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETE",
+  "phase_at_stop": "ensayo",
+  "error": null,
+  "cleanup_errors": [],
+  "engine": "reference_cuda",
+  "smoke_only": true,
+  "odor": "sham",
+  "requested_trial_ms": 1,
+  "completed_trial_ms": 1,
+  "completed_preparation_ms": 0,
+  "wall_total_s": 46.30817597400164,
+  "step_wall_s": 4.516908103018068,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/smoke_reference_01/final_state"
+  },
+  "runtime": {
+    "profile": "reference_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "native_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/native_cell.py",
+        "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 16,
+      "accepted": 388,
+      "rejected": 44,
+      "build_s": 0.10765627399086952,
+      "native_wall_s": 1.3757643979624845,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "device_bytes": 8095232
+    },
+    "CNS": {
+      "epochs": 16,
+      "accepted": 188,
+      "rejected": 0,
+      "build_s": 0.14027712104143575,
+      "device_bytes": 49580544,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 16,
+      "accepted": 16,
+      "rejected": 0,
+      "build_s": 2.3761351729626767,
+      "wall_s": 0.2930135388742201,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 32,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 16,
+      "events": 83,
+      "max_q_reconstruction_difference": 8.881784197001252e-16,
+      "global_trials": 188,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 8,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 426
+    }
+  },
+  "stage3_pass": null,
+  "reason": "No biological admission. Smoke validates wiring only; snapshots have no automatic full-organism resume qualification."
+}

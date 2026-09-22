@@ -1,0 +1,6 @@
+{
+  "run": "trace_smoke_01",
+  "simulation_result": "COMPLETE",
+  "failure": "Reporter attempted json serialization of numpy.int64 waveform rows after run. Trace data not recoverable from finished process; rerun uses the fourth and last load authorized by this round.",
+  "correction": "Convert waveform scalar arrays to native lists before storing records; numerical controller unchanged."
+}

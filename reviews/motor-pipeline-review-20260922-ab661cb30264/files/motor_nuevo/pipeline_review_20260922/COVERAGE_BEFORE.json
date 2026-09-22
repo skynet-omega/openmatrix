@@ -1,0 +1,34 @@
+[
+  {
+    "field": "spatial_voltage",
+    "deliberate_change": 1000.0,
+    "historical_screen_pass": true,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 0.0,
+      "normalized_state_max_abs": 0.0,
+      "gates_max_abs": 0.0,
+      "yaw_trace_max_abs_deg": 0.0,
+      "root_position_max_abs_m": 0.0,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    }
+  },
+  {
+    "field": "body_velocity",
+    "deliberate_change": 1000.0,
+    "historical_screen_pass": true,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 0.0,
+      "normalized_state_max_abs": 0.0,
+      "gates_max_abs": 0.0,
+      "yaw_trace_max_abs_deg": 0.0,
+      "root_position_max_abs_m": 0.0,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    }
+  }
+]
