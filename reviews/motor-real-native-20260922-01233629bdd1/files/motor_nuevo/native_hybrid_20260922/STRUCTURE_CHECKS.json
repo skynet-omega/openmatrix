@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "case": "history_shape",
+      "detected": true
+    },
+    {
+      "case": "history_dtype",
+      "detected": true
+    },
+    {
+      "case": "nested_clock",
+      "detected": true
+    },
+    {
+      "case": "nested_identity",
+      "detected": true
+    },
+    {
+      "case": "trace_clock",
+      "detected": true
+    }
+  ],
+  "identical_pass": true,
+  "repartition_pass": true,
+  "python_optimized": true
+}

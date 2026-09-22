@@ -1,0 +1,90 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/check_organism_recovery.py", line 52, in <module>
+    obj.step();state=h.state_dict();body={'qpos':obj.body.data.qpos.copy(),'qvel':obj.body.data.qvel.copy(),'pending':obj.core.pending_sensors.copy()}
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py", line 135, in step
+    row=super().step();self._validate_adapter()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py", line 69, in step
+    row=self.core.step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py", line 100, in step
+    row=super().step();self.body.rh_pending=self.rh_command();self._validate_rh_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py", line 64, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py", line 83, in step
+    row=super().step();self.body.pending_serial=self.serial_command();self._validate_serial_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py", line 44, in step
+    row=super().step();self.hybrid.set_cxhp8_sample(self.cxhp8_field.sample(self.body));self._validate_cxhp8_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py", line 63, in step
+    row=super().step();self.body.pending_tarsal=self.tarsal_command();self._validate_tarsal_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py", line 63, in step
+    self._validate_rf_pending();used=self.body.pending_rf.copy();row=super().step();self.body.pending_rf=self.right_front_command();self._validate_rf_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py", line 61, in step
+    self._validate_tr_pending();used=self.body.pending_tr.copy();row=super().step();self.body.pending_tr=self.trochanter_command();self._validate_tr_pending()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py", line 91, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py", line 102, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py", line 56, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py", line 118, in step
+    row=super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py", line 100, in step
+    row = super().step()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py", line 146, in step
+    self._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py", line 75, in _validate
+    PnGraphSolverSession._validate(self)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/orn_peripheral_terminal_session.py", line 38, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_mass_krylov_session.py", line 39, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_session.py", line 32, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_apl_graded_session.py", line 39, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_general_output_session.py", line 48, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_electrical_refined_session.py", line 68, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_electrical_output_session.py", line 33, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_cholinergic_cns_session.py", line 34, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_online_cns_session.py", line 38, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_port_session.py", line 47, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/projection_parallel_session.py", line 39, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py", line 43, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_audited_session.py", line 63, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_visual_session.py", line 31, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_session.py", line 36, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_session.py", line 48, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_electrical_scales_session.py", line 49, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_apl_dynamic_session.py", line 52, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_output_session.py", line 51, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pnkc_receptor_session.py", line 59, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py", line 101, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/bounded_cervical_session.py", line 130, in _validate
+    ProstheticOlfactorySession._validate(self)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py", line 74, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py", line 136, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cyborg_looming_session.py", line 91, in _validate
+    super()._validate()
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cyborg_bidirectional_session.py", line 103, in _validate
+    MeasuredVisualSession._validate(self)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/visuomotor_session.py", line 122, in _validate
+    raise ValueError("Failed or unsupported visuomotor session")
+ValueError: Failed or unsupported visuomotor session

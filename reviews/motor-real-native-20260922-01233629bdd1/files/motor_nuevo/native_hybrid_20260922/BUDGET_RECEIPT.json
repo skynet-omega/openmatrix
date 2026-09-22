@@ -1,0 +1,12 @@
+{
+  "scientific_arrivals_conservative": 15,
+  "counting": "Seven whole-organism benchmark invocations plus four recovery checks with two load/run branches each, including failed branches. Maximum16. No third complete prototype.",
+  "benchmark_process_wall_s": 186.35714119992917,
+  "recovery_process_wall_upper_bound_s": 960,
+  "scientific_process_total_upper_bound_s": 1146.3571411999292,
+  "operator_check_invocations_including_debug_failures_upper_bound_before_clean": 13,
+  "clean_check_invocations_reserved": 3,
+  "aggregate_process_wall_upper_bound_with_checks_s": 4626.357141199929,
+  "aggregate_budget_s": 5400,
+  "stop_reason": "Two complete numerical prototypes compared; generic fast+faithful target not achieved; unsafe cold-recovery retry remains rejected. Preserved negative evidence and requested external review."
+}

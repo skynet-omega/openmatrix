@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/check_organism_recovery.py", line 27, in <module>
+    obj,*_=load(out/('fault' if fault else 'control'));h=obj.core.hybrid;events,adapter,undo=install(h)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/motor_runtime.py", line 22, in load
+    obj=AntennalContactRuntime.load(ROOT/plan['checkpoint'])
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py", line 180, in load
+    core=_load_carrier(path/'core_carrier')
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py", line 51, in _load_carrier
+    require_covered_dependencies(ROOT/'src',ENTRYPOINT,SOURCES)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_audited_session.py", line 33, in require_covered_dependencies
+    closure=source_closure(root,entry);missing=set(closure)-set(sources)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_audited_session.py", line 25, in source_closure
+    for node in ast.walk(ast.parse((root/name).read_text())):
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/pathlib.py", line 1135, in read_text
+    return f.read()
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 16: ordinal not in range(128)

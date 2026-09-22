@@ -1,0 +1,261 @@
+{
+  "rollback_changed_paths": [],
+  "stale_runtime_rejected": true,
+  "coupled_session_reuse_rejected": true,
+  "neural_retry_changed_paths": [
+    "/kc_apl_dynamic_state/apl_q",
+    "/kc_apl_dynamic_state/apl_transmission",
+    "/kc_apl_dynamic_state/apl_voltage_mV",
+    "/kc_apl_dynamic_state/refractory_left_s",
+    "/kc_apl_dynamic_state/voltage_mV",
+    "/kc_axonal_state/last_voltage",
+    "/kc_axonal_state/previous_slope",
+    "/kc_axonal_state/trough",
+    "/kc_electrical_scales_state/filters",
+    "/kc_spatial_state/delta",
+    "/kc_spatial_state/gates",
+    "/kc_spatial_state/last_siz",
+    "/kc_spatial_state/previous_slope",
+    "/kc_spatial_state/trough",
+    "/pn_online_state/base/apl_receptor/history/0/left",
+    "/pn_online_state/base/apl_receptor/history/0/right",
+    "/pn_online_state/base/apl_receptor/history/1/left",
+    "/pn_online_state/base/apl_receptor/history/1/right",
+    "/pn_online_state/base/apl_receptor/last_driver",
+    "/pn_online_state/base/base/base/base/ach/fast",
+    "/pn_online_state/base/base/base/base/ach/slow",
+    "/pn_online_state/base/base/base/base/ach_charge_pC",
+    "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC",
+    "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_uM",
+    "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/fast",
+    "/pn_online_state/base/base/base/base/base/pn/calcium/gates",
+    "/pn_online_state/base/base/base/base/base/pn/calcium/outward_charge_pC",
+    "/pn_online_state/base/base/base/base/base/pn/pn/gates",
+    "/pn_online_state/base/base/base/base/base/pn/pn/voltage_delta_mV",
+    "/pn_online_state/receptors/GABA/history/0/left",
+    "/pn_online_state/receptors/GABA/history/0/right",
+    "/pn_online_state/receptors/GABA/history/1/left",
+    "/pn_online_state/receptors/GABA/history/1/right",
+    "/pn_online_state/receptors/GABA/last_driver",
+    "/pn_online_state/receptors/GABA/occupancy",
+    "/pn_online_state/receptors/Glu/history/0/left",
+    "/pn_online_state/receptors/Glu/history/0/right",
+    "/pn_online_state/receptors/Glu/history/1/left",
+    "/pn_online_state/receptors/Glu/history/1/right",
+    "/pn_online_state/receptors/Glu/last_driver",
+    "/pn_online_state/receptors/Glu/occupancy",
+    "/state"
+  ],
+  "continuation_differences": [
+    {
+      "path": "/kc_apl_dynamic_state/apl_q",
+      "max_abs": 1.3694601008751306e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/kc_apl_dynamic_state/apl_transmission",
+      "max_abs": 5.574984918155224e-13,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/kc_apl_dynamic_state/apl_voltage_mV",
+      "max_abs": 5.635593680608508e-08,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_apl_dynamic_state/refractory_left_s",
+      "max_abs": 2.2251014399066182e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/kc_apl_dynamic_state/voltage_mV",
+      "max_abs": 1.4858965613484543e-07,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_axonal_state/last_voltage",
+      "max_abs": 2.2295935764304886e-08,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_axonal_state/previous_slope",
+      "max_abs": 1.6635226529615466e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_axonal_state/trough",
+      "max_abs": 2.2295935764304886e-08,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_electrical_scales_state/filters",
+      "max_abs": 8.962683983981812e-06,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_spatial_state/delta",
+      "max_abs": 1.965491271960218e-07,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_spatial_state/gates",
+      "max_abs": 2.2178763270375157e-09,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_spatial_state/last_siz",
+      "max_abs": 4.84766502495404e-08,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_spatial_state/previous_slope",
+      "max_abs": 3.292512928965152e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/kc_spatial_state/trough",
+      "max_abs": 4.84766502495404e-08,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/base/apl_receptor/history/0/left",
+      "max_abs": 3.774758283725532e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/apl_receptor/history/0/right",
+      "max_abs": 4.9960036108132044e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/apl_receptor/history/1/left",
+      "max_abs": 4.9960036108132044e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/apl_receptor/history/1/right",
+      "max_abs": 6.328271240363392e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/apl_receptor/last_driver",
+      "max_abs": 6.328271240363392e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/ach/fast",
+      "max_abs": 3.696110474973868e-12,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/ach/slow",
+      "max_abs": 7.145557756604859e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/ach_charge_pC",
+      "max_abs": null,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC",
+      "max_abs": 1.734723475976807e-18,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/calcium_uM",
+      "max_abs": 3.730349362740526e-14,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/calcium/chemistry/fast",
+      "max_abs": 1.734723475976807e-18,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/calcium/gates",
+      "max_abs": 4.718447854656915e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/calcium/outward_charge_pC",
+      "max_abs": 1.734723475976807e-18,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/pn/gates",
+      "max_abs": 2.976785484776201e-15,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/base/base/base/base/base/pn/pn/voltage_delta_mV",
+      "max_abs": 8.188294486899395e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/history/0/left",
+      "max_abs": 1.8315204908248006e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/history/0/right",
+      "max_abs": 2.2429791357581053e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/history/1/left",
+      "max_abs": 2.2429791357581053e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/history/1/right",
+      "max_abs": 2.710398572247641e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/last_driver",
+      "max_abs": 2.710398572247641e-10,
+      "within_predeclared_execution_bound": false
+    },
+    {
+      "path": "/pn_online_state/receptors/GABA/occupancy",
+      "max_abs": 2.6858515411731787e-12,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/history/0/left",
+      "max_abs": 4.3320347309361296e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/history/0/right",
+      "max_abs": 5.3056004034601756e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/history/1/left",
+      "max_abs": 5.3056004034601756e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/history/1/right",
+      "max_abs": 6.411471353828802e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/last_driver",
+      "max_abs": 6.411471353828802e-11,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/pn_online_state/receptors/Glu/occupancy",
+      "max_abs": 6.350475700855895e-13,
+      "within_predeclared_execution_bound": true
+    },
+    {
+      "path": "/state",
+      "max_abs": 1.5435898910176604e-05,
+      "within_predeclared_execution_bound": false
+    }
+  ]
+}

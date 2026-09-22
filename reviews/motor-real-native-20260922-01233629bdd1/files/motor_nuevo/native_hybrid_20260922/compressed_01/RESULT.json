@@ -1,0 +1,109 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "ms": 5,
+  "requested_ms": 5,
+  "wall_total_s": 25.562870244961232,
+  "native_cell": true,
+  "compressed": true,
+  "times": [
+    {
+      "step": 1,
+      "whole_step_s": 3.1447102669626474,
+      "observation_s": 0.0008235079585574567,
+      "spatial_membranes_and_events_s": 1.8329301860067062,
+      "global_CNS_s": 0.5091151918750256,
+      "PN_and_source_s": 0.40502787090372294,
+      "body_advance_s": 0.03913681162521243
+    },
+    {
+      "step": 2,
+      "whole_step_s": 1.9132751460419968,
+      "observation_s": 0.0009153690189123154,
+      "spatial_membranes_and_events_s": 0.9076760690077208,
+      "global_CNS_s": 0.3552871088613756,
+      "PN_and_source_s": 0.3338779378682375,
+      "body_advance_s": 0.031132286938373
+    },
+    {
+      "step": 3,
+      "whole_step_s": 2.0147202470107004,
+      "observation_s": 0.0009857279947027564,
+      "spatial_membranes_and_events_s": 1.1027681439300068,
+      "global_CNS_s": 0.27867161080939695,
+      "PN_and_source_s": 0.3183937126887031,
+      "body_advance_s": 0.03560322610428557
+    },
+    {
+      "step": 4,
+      "whole_step_s": 1.799254807003308,
+      "observation_s": 0.0009189600241370499,
+      "spatial_membranes_and_events_s": 0.8904302720329724,
+      "global_CNS_s": 0.27818990987725556,
+      "PN_and_source_s": 0.3332750290283002,
+      "body_advance_s": 0.03020031109917909
+    },
+    {
+      "step": 5,
+      "whole_step_s": 1.6527436939650215,
+      "observation_s": 0.0009897390264086425,
+      "spatial_membranes_and_events_s": 0.7973916811170056,
+      "global_CNS_s": 0.22481638612225652,
+      "PN_and_source_s": 0.32057505106786266,
+      "body_advance_s": 0.040934700111392885
+    }
+  ],
+  "rss_GiB": 4.014862060546875,
+  "PN_execution": {
+    "calls": 80,
+    "accepted": 80,
+    "rejected": 0,
+    "build_s": 2.5908625809825025,
+    "wall_s": 1.306165391113609,
+    "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+    "state_owner_preserved": true,
+    "graph_statistics": {
+      "accepted": 160,
+      "fallback": 0
+    },
+    "linear_fallbacks": 0
+  },
+  "native_CNS": {
+    "epochs": 80,
+    "accepted": 104,
+    "rejected": 11,
+    "build_s": 0.10319709597388282,
+    "device_bytes": 46705152,
+    "event_capacity_per_cell_per_epoch": 8
+  },
+  "events": {
+    "blocks": 80,
+    "events": 393,
+    "max_q_reconstruction_difference": 1.1657341758564144e-15,
+    "global_trials": 115,
+    "time_resolved": true
+  },
+  "cell": {
+    "calls": 80,
+    "accepted": 1954,
+    "rejected": 217,
+    "build_s": 0.8886029439745471,
+    "native_wall_s": 4.442968414921779,
+    "event_capacity_per_cell_per_epoch": 8,
+    "compressed": true,
+    "basis": {
+      "original_terms": 51,
+      "compiled_terms": 15,
+      "max_relative_basis_residual": 6.499496393114467e-16,
+      "admission_relative_bound": 7.105427357601002e-15
+    },
+    "device_bytes": 8132096
+  },
+  "partition": {
+    "steps": 40,
+    "step_ns": 125000,
+    "predictor_restore_exact": true,
+    "pn_rejections": 0,
+    "predictor_evaluations": 270
+  }
+}

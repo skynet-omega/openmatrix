@@ -1,0 +1,77 @@
+{
+  "utc": "2026-09-22T07:59:22.742125+00:00",
+  "round": 3,
+  "candidate": "AdaptiveKC FP64warp/graph + complete PN/KC/APL/rate midpoint exchange",
+  "hypothesis": "Higherorder localvoltage/gates and midpoint in all interblock ports reduce lag while longer macro intervals amortize globalCSR andPNcalls. Full hybridorder not assumed.",
+  "reference": "AdaptiveKC with original PN-CNS15625ns schedule; same model and localadaptiveV/Gtolerances. IndependentKCfixed-inputRadau validation required first.",
+  "planned_integrated_runs": [
+    {
+      "name": "adaptive_reference",
+      "ms": 5,
+      "options": [
+        "--kc-adaptive"
+      ]
+    },
+    {
+      "name": "block125",
+      "ms": 5,
+      "options": [
+        "--kc-adaptive",
+        "--block-midpoint",
+        "125000"
+      ]
+    },
+    {
+      "name": "block625",
+      "ms": 5,
+      "options": [
+        "--kc-adaptive",
+        "--block-midpoint",
+        "62500"
+      ]
+    },
+    {
+      "name": "block312",
+      "ms": 5,
+      "options": [
+        "--kc-adaptive",
+        "--block-midpoint",
+        "31250"
+      ]
+    }
+  ],
+  "predeclared_screen_bounds": {
+    "PN_voltage_mV": 0.005,
+    "gates": 0.0001,
+    "normalized_state": 0.0001,
+    "yaw_degrees": 0.0001,
+    "root_position_m": 1e-06,
+    "final_spike_clipped_counts": "exact"
+  },
+  "convergence": "125-to62.5 vs62.5-to31.25 errors must decrease. Report all rawdifferences inclhistories. Comparingcoarseandfinestate without referenceconvergence is not final certification.",
+  "conditional_followup": "Only if both local and integrated criteria survive: originalbalancedfine adaptive reference and500us screening; only then1secondfulltrial withcontinuous comparisons, within remainingprogram18runs. A failure never increasesstep to obtain headline speed.",
+  "budget_per_run_wall_s": 600,
+  "total_integrated_attempt_limit": 18,
+  "material_target_real_s_per_sim_s": 300,
+  "sources_sha256": {
+    "capture_kc_state.py": "7a801576dedec55d28c0fff3ec6e47c947cbfed94e6466e2077b974071d71c16",
+    "fine_schedule.py": "d876259b6cd20f79c90aa342cce47aa7f637703bba68258b7c7fec5e4e4f8247",
+    "run_engine.py": "d7675eadf77ec029a01510b9567f695e6017df7673cf353a1dff555ea9c35c1f",
+    "kc_fused_step.py": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76",
+    "motor_runtime.py": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3",
+    "bounded.py": "8e3b5309a45739d858d3984e315c17976a8f978517ab16379f093daff4df87db",
+    "waveform_coupling.py": "eb41a2c74eba9d7a49dff6940ff6c58b8634fd6072dfcf62d70c7001c00ace02",
+    "test_gpu_state.py": "486ef9dd9b2646b733f788926e32bca37a9befcee6a0d0c9aa7cd5b1c4522f82",
+    "validate_kc_midpoint.py": "f25747af33e0ba2f473285a2e0915caf4471a0dab2997edbda26a698c3987673",
+    "kc_fused_warp.py": "2a72ffe226afbc2667e60348a299b852203415850dbf3bea4c3e970425e3e12d",
+    "kc_adaptive.py": "97491325612d5f2fa98c628279addf5357086df9da3e2b1d61f03855badd564c",
+    "symmetric_coupling.py": "9a9b6e53d01d444014d4e10fb2ce3ba7954cae2909ec701b950de30526e8c62e",
+    "compare.py": "821238b49c5dad44e66b5fd605a9408ed85bd740351d387848da4e5c13338650",
+    "axon_gpu.py": "b761fce5eef35162b343b750233a46d0e700c1a82fe73ff736430763cc87c7d3",
+    "kc_trial_graph.py": "aa6fb0dc4d37b98e6326b78af3808f6be1e10c29eb481a7a209588c5fe5170ef",
+    "block_midpoint.py": "3eddb94c8fef52d8864bc2827be9c2ded1890d9d46d1930d5e7de13098b1f5b2",
+    "graph_midpoint.py": "7132937ba840e3b9908cc95872688fa5c65e8181d263c9bfc1ca6a925ffcd018",
+    "validate_kc_adaptive.py": "97a3aada70c95d5cf8bea44c7b1ca41b04ebb8d38e0d300a9a72d2d080155f8d",
+    "kc_midpoint.py": "28d60fed8c8ff44b818e935e8cd1ae5ad5588d23c8ded32ccb3a8467d9362585"
+  }
+}

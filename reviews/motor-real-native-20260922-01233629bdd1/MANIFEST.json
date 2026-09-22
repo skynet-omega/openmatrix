@@ -1,0 +1,2972 @@
+{
+  "format_version": 2,
+  "label": "motor-real-native-20260922",
+  "description": "Measured actual-organism bottlenecks; A provisional 1.51x, B rejected, late-event correction slower, cold recovery discrepancy preserved. Not an efficient or stable final motor. Sources, short numerical arrays and portable checks; full static organism assets not distributed.",
+  "files": [
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_reference_left_01/body_final.npz",
+      "bytes": 5101,
+      "sha256": "7ac0bf86ca0bc0b35ccb8bab220284f21e5e067e101972a68bedc9c94a2b59a7"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_reference_left_01/brain_final.json",
+      "bytes": 177867,
+      "sha256": "0515f085fd0dd545c37ad1be0cbee3d2b1dd7b41f315e2b0f166a841237a33f0"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_reference_left_01/brain_final.npz",
+      "bytes": 10008839,
+      "sha256": "3d0b25f720374e13a2916409f4c66e707072e6aaf95d1399949b627e2e4a79d4"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_reference_left_01/traces.npz",
+      "bytes": 71871,
+      "sha256": "bff27b5c9cf37d15f205bd4e3af6c8e07ff266da64d4b249edbbfcc466de93b3"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_resident_left_01/body_final.npz",
+      "bytes": 5110,
+      "sha256": "f262faacb5bd712c3ce257c683f66a3b215e21555f563e91e2c0921fe38eda2d"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_resident_left_01/brain_final.json",
+      "bytes": 167411,
+      "sha256": "a2e424eb4459b2f0e0422abba093ecb536bfb6b2e366eb5b44246905a195f62f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_resident_left_01/brain_final.npz",
+      "bytes": 9954689,
+      "sha256": "3013686baf3df1777913451c81e8b81389d43cdb92bde2a617583f7fcc910d7b"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/transport_resident_left_01/traces.npz",
+      "bytes": 71876,
+      "sha256": "2553ffce66cd9a0864869925c819a94d82bf0c915ba9c31227431682994baca0"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/INTEGRATED_ADAPTIVE_CONTRACT.json",
+      "bytes": 3695,
+      "sha256": "c9d284d89c33d620972f5ec282c72cb3626ecf105345d00034125adac53e821d"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/compare.py",
+      "bytes": 4908,
+      "sha256": "768c6bf4cdb206f6f8f9980402397570e2656ccf285e52527620fc971400dae6"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ALIGNED_01_VS_BASE.json",
+      "bytes": 1817,
+      "sha256": "4c27555eccafe3384bfd01eeb1469adf1a9ab5f7c386fc697512ee68f995d671"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ALIGNED_VS_FINE.json",
+      "bytes": 1854,
+      "sha256": "9daf0cab6b0a844371a7e3e10eb838a3a46d5ed6b0db0377945901b12fcd4f79"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/BASIS_CERTIFIED_CHECKS.json",
+      "bytes": 1885,
+      "sha256": "c89725e271d9499d4d344e3b90df589ade5a1432121e7e78f2e86730d5bd5e2d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/BASIS_CHECKS.json",
+      "bytes": 1881,
+      "sha256": "85b77514d97cbbaeca50fe9a69152d2bc431b56586111069d7c48c0af1abdac2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/BOTTLENECKS.json",
+      "bytes": 591,
+      "sha256": "ced345ed6196a45cfccd980665b37bee82f7d8f74218046d5c0b2e976bae91eb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/BUDGET_RECEIPT.json",
+      "bytes": 832,
+      "sha256": "176ccf47852410b608a822bca3d5905c5764e6b4cffd78b4397cc63b8c2dffd1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/CERTIFIED_02_VS_BASE.json",
+      "bytes": 1690,
+      "sha256": "8428be8508f5637ce98e7082cf31d9713be6b576b5f9c2420eb614aad892a8c1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/CHATGPT_ARCHITECTURE.md",
+      "bytes": 13710,
+      "sha256": "c41bd2bfbeb255d3f04c7b2e457a7ce20f48a1f7975dbceceae08f81f42958ef"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/CHATGPT_REVIEW_TRANSPORT.md",
+      "bytes": 8053,
+      "sha256": "afd095f9cf66fe51911c0a2f3142f5282a0ea7cc4df9d3e1f5d4b6b8fe30e321"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/COMPRESSED_VS_BASE.json",
+      "bytes": 1691,
+      "sha256": "6ccea48942373666a9ad52d88a6fe14b1f3cc366c6c5d5cea2953de430b42ef5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ENVIRONMENT.json",
+      "bytes": 359,
+      "sha256": "d8e64779812539e4dd77ceff4c4740a9bea7a12b687a0f6d70d059749331751d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/EVENT_BOUNDARY_CHECK.json",
+      "bytes": 1056,
+      "sha256": "1b2b9f4585b45f2349ad18e19e05420aa070c9bbffd68905fc28f99b67b351ea"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/LOW_RANK_FEASIBILITY.json",
+      "bytes": 620,
+      "sha256": "abc97380a1544ae5999ffb40df81cbc849a47f25c5a37ecf6a36d57a227f5ef5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/NATIVE_VS_BASE.json",
+      "bytes": 1573,
+      "sha256": "0e8474843a2d4b7369cdde69630b458de8434c782b7bb1db8b9738a3e7598758"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/NEWTON_BUDGET_CHECK.json",
+      "bytes": 216,
+      "sha256": "d4e86fd5ac11d2e3f533b16d6b2cde86b706833cc450b380c739081e9c105d89"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PARENT.json",
+      "bytes": 673,
+      "sha256": "ff9c67c098c42d593dce6c8363d151b07977e036d433ce387969e2906b32ba91"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PETSC_CONTRIBUTING.txt",
+      "bytes": 1828,
+      "sha256": "cf19c1963dfe6b8dcf6bf9b854beb9b9fc493d6005e70ce5aa3687e8eba50141"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PETSC_LICENSE.txt",
+      "bytes": 1536,
+      "sha256": "efc206ebe66fda24a32ebe69e81caa2c5595e093626170e57fbeff522507cc54"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/PLAN_B.json",
+      "bytes": 1907,
+      "sha256": "e3032aa5cbc2f04647b7816f4b8a30e10ca68009f1daef31ef292e168db1d1ca"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/README.md",
+      "bytes": 4048,
+      "sha256": "d047b100e901dcad6d42a88c7b1dbc4e5dff0c705cef442e7f5831033914d95d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/RECHECK_LEFT.json",
+      "bytes": 1858,
+      "sha256": "4ae0d40b8bbd9982990c511916fd0b13a13756a9455f03eae464aaf53f2b96fe"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/RECHECK_NATIVE.json",
+      "bytes": 1668,
+      "sha256": "b96a128ac6ad621aa5ba6de33e51e29182a6379313ae6637505e5866a45ba5e4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/RESULTADOS.md",
+      "bytes": 5997,
+      "sha256": "55712e649df175a977613fb4a244f0c3329ffb399a45ba16a725628fadfb4c97"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/REVIEW_REQUEST.md",
+      "bytes": 2372,
+      "sha256": "94cf9fb786ce0480818f8dc07e2b1567b5898876b6514e77a1f29e443d9b0c92"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ROS_OPERATOR_CHECK.json",
+      "bytes": 1463,
+      "sha256": "862b4814e984cd52e2649bcbd3fa6cb150bf3095446dfe1e0a45654eb97cd694"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ROS_VS_BASE.json",
+      "bytes": 1815,
+      "sha256": "d3bf37cee38322d50c991a209adcdee7cd99667a3a8a673a869f2fe7f7c7b74e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/SOURCES.json",
+      "bytes": 39817,
+      "sha256": "8ec580b1eb8f6c42bea5ae7f07b0a6cebefdca5a345f97730ef8e745dac4a60e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/STRUCTURE_CHECKS.json",
+      "bytes": 437,
+      "sha256": "5608dc97c2f34dc7394f92bca54ae6a58193b51dafc7e8e5e18fd85d36e706f8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/TRANSACTION_CHECK.json",
+      "bytes": 271,
+      "sha256": "eb2717f05fea493cafbffca25fb18e696753434401f6510554b5d80663249dfb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/VERIFIED.json",
+      "bytes": 14630,
+      "sha256": "963eda82c08d85067ae4c43c33fed029311e53762ad2ce4a46c332f2575843dd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01.log",
+      "bytes": 1275,
+      "sha256": "b42295cdb11d9b9f941ac85ef5dfd48a59e0d861fe6dc0f5b85e5863c05d0b17"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/FROZEN.json",
+      "bytes": 3806,
+      "sha256": "ef45eb15f692fe189c1b542808985f8b5d957a729d68348264c1040e576a80b6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/RESULT.json",
+      "bytes": 3215,
+      "sha256": "757b1e2d26dc23ee9962bd7f9e3f30e3b384bf1c1c739815666280abcdb0b8e5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/TIMES.jsonl",
+      "bytes": 1275,
+      "sha256": "b42295cdb11d9b9f941ac85ef5dfd48a59e0d861fe6dc0f5b85e5863c05d0b17"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/body_final.npz",
+      "bytes": 5103,
+      "sha256": "f9d26a1b2ee9d3f75522cc98defe0f5eca3a679d3b309178aaeab3592e219af9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/brain_final.json",
+      "bytes": 167406,
+      "sha256": "e3d9adda09fb02352af5916fdebe2a7c9af677a36a93ed1278c2ebe54a2874a6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/brain_final.npz",
+      "bytes": 9954258,
+      "sha256": "0991432b41d9c24dfb27d9e242ba7031eeb583a60eb2b9dff85c8ed665ffff9d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4135,
+      "sha256": "1be27e1f09f1e743928508e9e010c82f1fe6ae6569936ec4752bd6ae4047f6bd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3145,
+      "sha256": "eb8c6e0af07aadf9573627a68948d05bbe75e919b173c984082d49ec3f388766"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 3534,
+      "sha256": "ca69d0d983e25d8178e05ce34729b2eb27b6eabdf8f85207c2ff1db84972d6dc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4355,
+      "sha256": "ced112bacb60bbd73d8569bf6bb5a36df50e24ea155ae1ced28264cff226feb1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2695,
+      "sha256": "37a516cea394beb2eac152ca2bc47fe99386e73713a18883013e561c09878959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/aligned_01/traces.npz",
+      "bytes": 71857,
+      "sha256": "959bda0505185dae5fe90e5fd36b532a6e60bc58b7bbabc001aec2649299427b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01.log",
+      "bytes": 1280,
+      "sha256": "56e237e3a843e416cf4ed0bd39145fc703608b80d806c57b4fd71d9f26389686"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/FROZEN.json",
+      "bytes": 2100,
+      "sha256": "3df39b08da06294752340a976614514a575a2f47906bd5fe00b8f2cd42e890e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/RESULT.json",
+      "bytes": 2663,
+      "sha256": "5bf4497ff3095694d4c4bd1929994d5eecc70b3f0edae5333ad4da6ff18fe6c8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/TIMES.jsonl",
+      "bytes": 1280,
+      "sha256": "56e237e3a843e416cf4ed0bd39145fc703608b80d806c57b4fd71d9f26389686"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/body_final.npz",
+      "bytes": 5102,
+      "sha256": "8914f07dc213deb5b8be752887f4b4fca23e5ab5dbf99e91dde3e7d6ff2b830b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.npz",
+      "bytes": 9954548,
+      "sha256": "44b488d1200733a07bd5e2b23e998cc75839f78228742bb5788dcb94bd824835"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 4551,
+      "sha256": "3ff0bbbbcb3a9a0aa0bdf6e1316cac60a7eb96fada16db20f927790676e05e06"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 3662,
+      "sha256": "8261833d0260b2ab59168d7d5baf510cf99fcaa19c94b38e9ad63b00476d8056"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 4217,
+      "sha256": "20c83c77ec17bf8e6380326df6bbb6bc259842b42b5517571575ecd39ea7b355"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4491,
+      "sha256": "1f902c6ea41dfdf548b26af3c637e58fa6350bc3f96d04330a628be647336988"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/baseline_01/traces.npz",
+      "bytes": 71880,
+      "sha256": "fee57358b308810aeb8388b4f52e4f31754435a33a7a1cf7472acb6308bdae57"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01.log",
+      "bytes": 4530,
+      "sha256": "657dcc1c2a7a8cabd3f1afe87929e88dcbcc120d4cb3b43d7f4b9fb938230aa3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/FROZEN.json",
+      "bytes": 3452,
+      "sha256": "1af8610852f155891163ca993d98f8b2a1e9b61239971160a3a7947f60266fda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/RESULT.json",
+      "bytes": 6083,
+      "sha256": "cd187ab5832d4824889bd92b65a124b47a553d186a48c6ed9e571d253bf34593"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5160,
+      "sha256": "5222557c2f8018a42dd7a65a753b9764434fb0f0282654db1222ff6d3edda7b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4135,
+      "sha256": "1be27e1f09f1e743928508e9e010c82f1fe6ae6569936ec4752bd6ae4047f6bd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4278,
+      "sha256": "043723ee5d35d4b624b28e07244c3639854e00b8d69b9cdf42e4e86e86efa9b2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4725,
+      "sha256": "1e80398b863d74e63b5e10a97784f0bb6b1f349aefcf133be442fdb73d732bff"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 2940,
+      "sha256": "31fda76f7d90fed3c75dc92b1f52cefd4a08f204bb25119a4a9a3b8a0845beb5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4355,
+      "sha256": "ced112bacb60bbd73d8569bf6bb5a36df50e24ea155ae1ced28264cff226feb1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_01/sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2695,
+      "sha256": "37a516cea394beb2eac152ca2bc47fe99386e73713a18883013e561c09878959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02.log",
+      "bytes": 1280,
+      "sha256": "b4c2dfa23e9b5bb10884d2df91ebb6e53b4ac23942fff4b281d9663c333f64b9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/FROZEN.json",
+      "bytes": 3806,
+      "sha256": "ef45eb15f692fe189c1b542808985f8b5d957a729d68348264c1040e576a80b6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/RESULT.json",
+      "bytes": 3220,
+      "sha256": "8edb27508ccbfc8a89b4d89f196861ddbc92842d18530a1da1afdabeed438aba"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/TIMES.jsonl",
+      "bytes": 1280,
+      "sha256": "b4c2dfa23e9b5bb10884d2df91ebb6e53b4ac23942fff4b281d9663c333f64b9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/body_final.npz",
+      "bytes": 5102,
+      "sha256": "8914f07dc213deb5b8be752887f4b4fca23e5ab5dbf99e91dde3e7d6ff2b830b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/brain_final.json",
+      "bytes": 167409,
+      "sha256": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/brain_final.npz",
+      "bytes": 9954559,
+      "sha256": "341a8a31893c5af7289512a0cbdb84324e290db69d806371913107e2ee0d02d2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5345,
+      "sha256": "ab2db2538fcb1959d0cdf95b0ecf7f6bd7b1d7f9454dafd897168e9b33d4245a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4135,
+      "sha256": "1be27e1f09f1e743928508e9e010c82f1fe6ae6569936ec4752bd6ae4047f6bd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4799,
+      "sha256": "d1a179a31f4f897c6e2341d6dd54d0e56c1a787709c364d69728724d1b4cafa0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 3145,
+      "sha256": "eb8c6e0af07aadf9573627a68948d05bbe75e919b173c984082d49ec3f388766"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 3534,
+      "sha256": "ca69d0d983e25d8178e05ce34729b2eb27b6eabdf8f85207c2ff1db84972d6dc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4355,
+      "sha256": "ced112bacb60bbd73d8569bf6bb5a36df50e24ea155ae1ced28264cff226feb1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2695,
+      "sha256": "37a516cea394beb2eac152ca2bc47fe99386e73713a18883013e561c09878959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/certified_02/traces.npz",
+      "bytes": 71880,
+      "sha256": "fee57358b308810aeb8388b4f52e4f31754435a33a7a1cf7472acb6308bdae57"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_basis.log",
+      "bytes": 10517,
+      "sha256": "b9b3954eec9d0d781168ca50b32dbd207ac8aebc2bcd0b024303335a7bcd3218"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_basis.py",
+      "bytes": 3197,
+      "sha256": "9c0658a7379153302f31f37f296df7619b0b7fed87f36a6e85e2c78b2279bf19"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_basis_certificate.log",
+      "bytes": 1591,
+      "sha256": "1c028375608138e34baf2335f1f90d07e9f92be1dde82c08b258b6cf7b56a6df"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_basis_fixed.log",
+      "bytes": 1587,
+      "sha256": "26f8606a2cd5bfc6fbcf52c197643e4b4f055cfcd4cb3769bdc1c57e100850b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_event_boundary.log",
+      "bytes": 1791,
+      "sha256": "7b1a2230745508e77cc9805ef1ce0531d4137d7548f98d59e5eff228de6da9ed"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_event_boundary_fixed.log",
+      "bytes": 822,
+      "sha256": "3641bb3edc67763b3a3160a18f10c4be0459635bedc805122d93c58cc4b4ea04"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_newton_budget.log",
+      "bytes": 192,
+      "sha256": "23735ec1abe24ee6d9ea6e9171bdcbfd3482bdd995d94fee76292cd3befacced"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_newton_budget.py",
+      "bytes": 1242,
+      "sha256": "683cd5971b099ebb77e0cc83b01326efcce850323f72e364f82a21d871e9d8ce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery.log",
+      "bytes": 1501,
+      "sha256": "08d86edf803c8a2d37ec7cd61c9771a7063c81f0d694df06bea91b59991d164a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery.py",
+      "bytes": 5073,
+      "sha256": "40d5f6323a44664ac75fa80bb8ae7c3a9e25c6666b50b9f8e59308b9749cfdf4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery_02.log",
+      "bytes": 6272,
+      "sha256": "240d9c9e4f4d292e509481b655e074bbd4a22c69db96fded8aba93529b076083"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery_03.log",
+      "bytes": 309,
+      "sha256": "da451cd9869a24ba0445f69fa57631ae9ec1c9b876c366717b36ab8c658ec13f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_organism_recovery_04.log",
+      "bytes": 991,
+      "sha256": "991157975cb7f212e8e582215d1bed45adb2ca7463d4ae09879ed8724c280ea6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_ros.log",
+      "bytes": 912,
+      "sha256": "a2ff570dcded50680e4ee8e865aa8370ae58a8edb1f7ee2f18d15261425ba8b9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_ros.py",
+      "bytes": 4407,
+      "sha256": "d965efa002c0863b648cdb5668dbd8969ed2b35dbf04ab5585808e1f39f3e7a9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/check_transaction.py",
+      "bytes": 1754,
+      "sha256": "a7f2c6f5ec0e775310a1aa01b0c46b8a84dbdf39f0409d01581bf1836b29f797"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01.log",
+      "bytes": 1283,
+      "sha256": "1d22c19a51c9eb347c1c77711b69fac48e67c2bf02c2650bd15807367f96a145"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/FROZEN.json",
+      "bytes": 2777,
+      "sha256": "3c67996f229d7c3ecb7549cface96632b818fdd553dc2d15684343fd53e1cdb6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/RESULT.json",
+      "bytes": 3091,
+      "sha256": "a38c18869fae99cc629117182e8b824fbf71caec472ab70fc74550562ec472ce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/TIMES.jsonl",
+      "bytes": 1283,
+      "sha256": "1d22c19a51c9eb347c1c77711b69fac48e67c2bf02c2650bd15807367f96a145"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/body_final.npz",
+      "bytes": 5102,
+      "sha256": "8914f07dc213deb5b8be752887f4b4fca23e5ab5dbf99e91dde3e7d6ff2b830b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/brain_final.npz",
+      "bytes": 9954559,
+      "sha256": "341a8a31893c5af7289512a0cbdb84324e290db69d806371913107e2ee0d02d2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 4551,
+      "sha256": "3ff0bbbbcb3a9a0aa0bdf6e1316cac60a7eb96fada16db20f927790676e05e06"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 3662,
+      "sha256": "8261833d0260b2ab59168d7d5baf510cf99fcaa19c94b38e9ad63b00476d8056"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 2481,
+      "sha256": "859c2e5f98adb2a571cb856d8108ad35f5e005e12749510e5b2c72968440a66d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4491,
+      "sha256": "1f902c6ea41dfdf548b26af3c637e58fa6350bc3f96d04330a628be647336988"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 2940,
+      "sha256": "31fda76f7d90fed3c75dc92b1f52cefd4a08f204bb25119a4a9a3b8a0845beb5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 8583,
+      "sha256": "448f9474a863b9a6164b4f354f77c0a5571acbf179eb5804b7ca20c7944ef558"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2695,
+      "sha256": "37a516cea394beb2eac152ca2bc47fe99386e73713a18883013e561c09878959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/compressed_01/traces.npz",
+      "bytes": 71880,
+      "sha256": "fee57358b308810aeb8388b4f52e4f31754435a33a7a1cf7472acb6308bdae57"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_morphometry.py",
+      "bytes": 7377,
+      "sha256": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_plasticity.py",
+      "bytes": 16803,
+      "sha256": "cfd67eb9322705366f2640b4af58b0136c5c3af9b3279b31646c41f3d8b069ea"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_preparation.py",
+      "bytes": 20466,
+      "sha256": "0f18ab24b100824a92bab76fa4a0f0957ae579b58a460909de714e3b3125e039"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_proprioception.py",
+      "bytes": 11330,
+      "sha256": "d2e6cf3c1c1067979ee136bad924c93123fb5c69540078e586d22aff05a5d088"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/anatomical_rate_brain.py",
+      "bytes": 16929,
+      "sha256": "44ea26594d1b9b00d78ad0fc759a7fa3b2f02af7bd367ae6ab5c6799469a4ba3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/apl_region_routes.py",
+      "bytes": 4338,
+      "sha256": "249735630dc61da1369391cbd48d770872802eaf513d54519a9c96e49df66417"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/bounded_cervical_session.py",
+      "bytes": 17218,
+      "sha256": "43a2bd3585b417c3ba8074e1477210a8d357595c621aaf05522bbffff6569ec6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/canonical_pathway_probe.py",
+      "bytes": 5797,
+      "sha256": "c7264471bf1395aa20612e57c16d24b153cedf330ce3eec756a8b86b228a6afc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cardinal_grating_world.py",
+      "bytes": 5560,
+      "sha256": "f8a7c9ffd4bec9a66f796a6049692e2f1b938b80ac087f9c028237c17e6607a9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cardinal_visual_session.py",
+      "bytes": 8738,
+      "sha256": "387c155c47b70a91fc2db476fb0aba78821671b4b8be6e812ce9996e84377d3d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/coefficient_buffer_brain.py",
+      "bytes": 4118,
+      "sha256": "25717e5fbe5f4337ba4e7bec84a26bfef4ef9a42e7cef01e259aaff91b08d12e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/compensated_csr.py",
+      "bytes": 1866,
+      "sha256": "ebd27c96a24a223ee6aef768e6fec3023122b71467ed2e9a703733fdda9463fe"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/contact_complete_native_body.py",
+      "bytes": 9568,
+      "sha256": "1623e0350b0985f67506e58a77dc867ce2f3406089a1423c5db294b475c7ea40"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/contractile_tibia.py",
+      "bytes": 4415,
+      "sha256": "e2c71319d27f0c7163b106015b40ed653fd979896945a92923ab989bf1da70e6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cvn7_conductance_brain.py",
+      "bytes": 21466,
+      "sha256": "481730f42151962d8b8f6a8305cca31be1a11b480e244b2bda4ce1bd9bd99ad6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cvn7_conductance_session.py",
+      "bytes": 10493,
+      "sha256": "ec0e90ad0b430aae45b37bad7da29a0ceecd9990a1a50cf638955d72eb711a71"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_geometry.py",
+      "bytes": 1937,
+      "sha256": "6e29093771177e1e14a989bcbd65c3acb58b741f04debe186bea20d64c9f0cec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_position_brain.py",
+      "bytes": 5217,
+      "sha256": "169f72fbb8ca221d5311c676f0d0cea11be5e3cf5f2816ea1d6aaaaed31b73b2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cxhp8_position_field.py",
+      "bytes": 2245,
+      "sha256": "ecc2b6c29ae03315ab9d126ce891a031d68306b79784362aec8c3ee28966c230"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bidirectional_rotor.py",
+      "bytes": 5678,
+      "sha256": "ef3d75c354326a27549f921142bed4286b208fd5433b7138a37ecb59aaac3544"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bidirectional_session.py",
+      "bytes": 12110,
+      "sha256": "e7889a195595ac929be2f2157d01976eca7f5c2e7bdfc2d25e6a2c0d71197387"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_bounded_servo.py",
+      "bytes": 15434,
+      "sha256": "13bfb5c367d0d33700454ff697d26fec71a7092f3f11d95b7756915923b54761"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_centered_servo.py",
+      "bytes": 10977,
+      "sha256": "543929c3ebd0b94465ae7774c7a5f2bf034055c9a9a6e449c6b0d9ce5583147f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_looming_session.py",
+      "bytes": 11704,
+      "sha256": "d4c6f701b6c80e3cb2dfe8ce4b162a2fa221e28947ed0ee4ddca9cb8dd9b5fb3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_looming_world.py",
+      "bytes": 9739,
+      "sha256": "f800f4204fc680136dae96bc072f3695893c4b3089e60423b77510c60a0e20b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_phase_world.py",
+      "bytes": 1801,
+      "sha256": "319e65a5de1b4059f239afaec55ca3358af96879af6afc717aed0bd71a3823a5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_retinal_port.py",
+      "bytes": 12332,
+      "sha256": "eb2bd8731305d1664da04b0e6e13d4cc3c312af729f5af59793da378157b4328"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_retinal_session.py",
+      "bytes": 9752,
+      "sha256": "ed0926b8b1ae5d2ce8a6e3aa2fe504948ec5dabf6e3e98ddcfc684e89d0f381e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_rotor.py",
+      "bytes": 8550,
+      "sha256": "ed00069b94394c58d26ff72b8d08d6d04ae2264a04df749d8e6c5d6210f54faf"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_visual_session.py",
+      "bytes": 19279,
+      "sha256": "b7c9bdab33e00015ff6382b597952bc7b17cc2d7b4d408333687f78df6dc2a6e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/cyborg_visual_world.py",
+      "bytes": 4044,
+      "sha256": "ceda41791952f55414ad091e5007bd912484766be54ba9228e3bf2d75491ce74"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_kc_event_receiver.py",
+      "bytes": 5224,
+      "sha256": "ac6cf7b9004d92ab8b037f8591a92519cb1becf50940b5e02367f251f960d8ad"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_kc_replacement_receiver.py",
+      "bytes": 4612,
+      "sha256": "fcca28fb4184c936d620c3bda68ac619c0b773995eea04aac4b70d6a77c8bd48"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_native_passive.py",
+      "bytes": 10931,
+      "sha256": "08cb2d5a51e2a376a7d350bbe9c45776f70ce11a8f3678f0d925559aaafb3112"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/dm1_pn_membrane.py",
+      "bytes": 7837,
+      "sha256": "29edf2ee937c39d43152ecdf4ddbfe61ef36265acff9ec9d8dc8ebcc85640b1d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrical_parameter_contract.py",
+      "bytes": 3119,
+      "sha256": "38236e4e2b3014fca9178fa1b539fcd9b9e42f031542f6ace630642ccd099ac5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrophysiology_edge_world.py",
+      "bytes": 8121,
+      "sha256": "3a722ea23aa4532104572abf7c67fef91a1b3d48a91e9a977ae139830482052d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/electrophysiology_visual_session.py",
+      "bytes": 10557,
+      "sha256": "8dde1366e001a174988308f935764438957bc2b33141cbb35ccaed6475691074"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/embodied_navigation.py",
+      "bytes": 5540,
+      "sha256": "d60159eb9351034f879489216896994239f795764cbd055f66ecf6aa5a5628fd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/execution_parent_snapshot.py",
+      "bytes": 3731,
+      "sha256": "130195807a92b3e2de9490e1953096b3b7ada08d0ef5ba44070f5d39ac2579e6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_buffers.py",
+      "bytes": 2318,
+      "sha256": "114c60273a52c23f812c5f2252ed0b150439f5236c17bf88fad2a40cf23d5315"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_graded_descending_brain.py",
+      "bytes": 622,
+      "sha256": "987bf61abe3f146ec69d89896cb67a473d6dc8c802bd7b0e8042e45e64f8dd53"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_measured_t4_visual_brain.py",
+      "bytes": 2599,
+      "sha256": "e852f313c80e28ca86e546f8cc9d148ff7093088f63e2e8ca6c4f24fafa47cf5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_r8_mi4_visual_brain.py",
+      "bytes": 728,
+      "sha256": "e894d621a4864cf4e6bd013502dd7059b7e1b71d3e500e126085f5b4b922cb45"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_receptor_visual_brain.py",
+      "bytes": 331,
+      "sha256": "5cec7891ca847eab1c6e79332964028cf8eb8a84fbfbd99396f75517feff3e5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_synaptic_visual_brain.py",
+      "bytes": 1637,
+      "sha256": "9736b37ab1e7abd42445ba314140a8002b681951ca43ebf191be7b8ca42b1e23"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/graded_descending_brain.py",
+      "bytes": 19846,
+      "sha256": "fef05b544f60eb3e153f6c773b614b30d393de103ac53647008fdd9c53441c95"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/hybrid_visual_brain.py",
+      "bytes": 9381,
+      "sha256": "1961a9eed77390edbb57d4d3376733c956c8ed2026764ea5777e998ca9f4e5a4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamic_brain.py",
+      "bytes": 16023,
+      "sha256": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamic_session.py",
+      "bytes": 10235,
+      "sha256": "f0770f7889e6531fa1ba16ba085fb2b02e5ed73cd6a59a4029b5bc42f265a04d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_apl_dynamics.py",
+      "bytes": 5185,
+      "sha256": "67ef32fde061cf7c73fee09a5adb456c798a36d7c78e670f71f5d72a5d55c257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_audited_session.py",
+      "bytes": 4409,
+      "sha256": "8100cce2c5e6f6e99086571438f9203ac165be54ea38518893030f9e3642c9b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_brain.py",
+      "bytes": 6480,
+      "sha256": "7482a86a9846c6ba8d4911790daf60bf8f3db2a75fe695c1a74ae5626c584245"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_release.py",
+      "bytes": 4952,
+      "sha256": "c6e337d8f174c1494e3d3722bec8fa632df5ce6d74a5251a457a2ac7efbf33da"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_axonal_session.py",
+      "bytes": 3081,
+      "sha256": "503028c437cf7bc91233fd359a92e017760434de92c8fb0bb7cb0fb45dc10741"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales.py",
+      "bytes": 3037,
+      "sha256": "eddab745afa62f0bc9219328e1508d7ab81a8f395d1d6879ddbf7a64a86bb16f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales_brain.py",
+      "bytes": 9458,
+      "sha256": "395fda4d68cc3ea37b0c33a8ba1566b4ac9a3215160b803fc5ddc52e7bc6b965"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_electrical_scales_session.py",
+      "bytes": 9657,
+      "sha256": "69d49e13a2340d499904c6d854601b98f01f87c8e9df7b5db37bc75023f824e3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_four_port_active.py",
+      "bytes": 3410,
+      "sha256": "c9a3e31748f1a011d2e8181940d67129dd16037829ac1881e9bfc0098a08b8f2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_projected_batch.py",
+      "bytes": 6738,
+      "sha256": "f5ae0f471afe98c40a96b9d81d559bfcb613e73cbdb0508510c13af33993b8d0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_projection_parallel.py",
+      "bytes": 2944,
+      "sha256": "c87f87b52d5d160dc99fa5ae78460f427a05ae5f6deb772aef204bc6988dad3c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_session_storage.py",
+      "bytes": 4730,
+      "sha256": "fe7d7d9bc994aebd9e491418af19ff4c330987d466ac2c02bb94d92a07490d04"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_brain.py",
+      "bytes": 10579,
+      "sha256": "ef40a030fd67883de6839fa56f10593bf269a5334d67b7afca289a92667579fe"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_inputs.py",
+      "bytes": 3606,
+      "sha256": "9898d0b538c68db4907218c46480607627adcc1b8368389fff8061b9f3d95bfc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_spatial_session.py",
+      "bytes": 9677,
+      "sha256": "cea3687b22f011054dd9dbbb8e899873212e94431bfb3bebdd276dce752c3a10"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_brain.py",
+      "bytes": 4800,
+      "sha256": "acc57a997cdbbb0d5285cb03d9f2800ce1bbb0561c506b29fb6c124ad33d2a10"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_ports.py",
+      "bytes": 1952,
+      "sha256": "7c0ebf3334afbe0197d05045e230b2b377635198f4a1807664ade80aba7d173f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kc_visual_session.py",
+      "bytes": 2878,
+      "sha256": "5d01a3b420ebc3f1c9ce3826237c246d41e379db89d07aea4fe23fcd3bee6c13"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_axon_candidate.py",
+      "bytes": 12456,
+      "sha256": "a738f3ec1a338e34f21ab7798e5b514f3d7b033ea1db7241584a46073da9e3e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_live_session.py",
+      "bytes": 14286,
+      "sha256": "da0dc9496a4892ea45a76e876c9772c9d19ac39dc31110a97a599e3a1bec0a2f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_output_brain.py",
+      "bytes": 10745,
+      "sha256": "c6b222a5d7d36450538de288aef10d45722cd707592a4c3d8ca61b40e79999ab"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_output_session.py",
+      "bytes": 9927,
+      "sha256": "26fcdb45ecf610bdf24576e303b3435ea655192a5bf9a9c043dbeee4634da57b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_regional_brain.py",
+      "bytes": 25655,
+      "sha256": "3eb7fae8d7254c5cfe70cfad3748a71174dc9e4c4fd4995d84e7de1084303ed4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/kcgamma_sensory_probe.py",
+      "bytes": 17566,
+      "sha256": "2be8f8ca000ab8a653fa8b0aa6b2485e375cf8d61f1aa7ce65f77f788fe1a5e3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/lamina_boundary_brain.py",
+      "bytes": 20063,
+      "sha256": "4594ceeab95732e910d3ebfc5274300301d7c5c6b37217ba61b265899291203b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/lamina_boundary_session.py",
+      "bytes": 15307,
+      "sha256": "f93e04b8fee0da81394f9a3150fb579a2f5b5288ea43175b16b05d35d42bbb1e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/matrix_olfactory_diagnostic.py",
+      "bytes": 114166,
+      "sha256": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_luminance_world.py",
+      "bytes": 5694,
+      "sha256": "e1d700a5a2caa6e3aa1214b2ff50d07bc108de821e5195915e0648581373ea9c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_t4_visual_brain.py",
+      "bytes": 17323,
+      "sha256": "7175e0f19d54bbfc839840692013be1e018a7ba15adb1bf98dad00a69bbefabf"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/measured_visual_session.py",
+      "bytes": 9667,
+      "sha256": "256c7e6004f5249b1f11ab59501e6d06164e5368bb2db8d7d621c59cddf12a3b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/native_motor_body.py",
+      "bytes": 12792,
+      "sha256": "e03b6da6e07f8421d1bf044e20384930ca6bd6f0affad3aafb0aa93d5f04fd12"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/native_organism_session.py",
+      "bytes": 15167,
+      "sha256": "9ad3c5bbb8b6e245b4eca0fe7c432ab30a05f0d7c6b6406d2be06d7b177631ed"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_connected_domain.py",
+      "bytes": 1435,
+      "sha256": "3677d9b7d0a5c15e9d7aae5d77391a715c4833ed1dca48537fde7236807d3a0a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_distributed_conductor.py",
+      "bytes": 7989,
+      "sha256": "c5dd9d66a17bc7a00d5816d806662d499b84197ed9cce4199c5f90bbde65dd0f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_dynamic_handoff.py",
+      "bytes": 8998,
+      "sha256": "3cca0d2c250aca9aef48688a3ca453e9e761106760d620a7d5f4d692e5de55ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_gpu_multigrid.py",
+      "bytes": 13365,
+      "sha256": "0c7975ef6a6cfac30d0a312cd708638e8ddcde3d18bb9509a2afa5e18ff19025"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_gpu_transient.py",
+      "bytes": 2245,
+      "sha256": "423c1ebd33df5f06063a97405fa0a0ac0dc78cb7692f04036ab57e26d361a12a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_csr.py",
+      "bytes": 5463,
+      "sha256": "ca649398ce396ac70b2a7514330e5fdf93d0203aa85da5e465e18d32abd9cade"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_multigrid.py",
+      "bytes": 14284,
+      "sha256": "2801d7bc6cfa0292cc33e9bf7f2fe2b03612dc6f7562a24e1eb1760575105eda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_joint_transient.py",
+      "bytes": 4103,
+      "sha256": "4825e5ab7d30dfea644a9c0251473b00dce3d94fc5ab6a476ac425280b2f8f39"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_multiport.py",
+      "bytes": 9777,
+      "sha256": "863ec9d29265354cdc5a1856e420f1df4161072dea321addecb3e5d63c8fdb2c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_selected_conductor.py",
+      "bytes": 2904,
+      "sha256": "930e9dae12fad6bb1e2967fac89c50f0bec01fd856e66e654a6dced55332df5e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/neck_surface_ports.py",
+      "bytes": 15111,
+      "sha256": "855f33198f82d73a92efa95663a2f6f39e3caaccb753bc61ced88f9f73ebd70e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_endogenous_brain.py",
+      "bytes": 6797,
+      "sha256": "481ce2e06964114b4925e15d46f407e2e86488fe3d7eb880b65ceb7f9fdf62e2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_endogenous_session.py",
+      "bytes": 4868,
+      "sha256": "c40d40998583d840959a43d550e552a506eef08f157f6eaae58ba51ace503b64"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/olfactory_synapse_candidate.py",
+      "bytes": 5975,
+      "sha256": "1f98240943ab05c78fedc51b12d5d354654f596934b6b52864b42c7845b11b3d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/organism_session.py",
+      "bytes": 15641,
+      "sha256": "079e42d96469b7bcfcda1f0874d3343950ef4bdad424576a2917457a90b4132c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/orn_peripheral_terminal.py",
+      "bytes": 2066,
+      "sha256": "7c65535a50193acc249b173d29d80934563d47a80cd493423afd94c2a0399043"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/orn_peripheral_terminal_brain.py",
+      "bytes": 6147,
+      "sha256": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/passive_body.py",
+      "bytes": 16657,
+      "sha256": "d11e4bb573a18ed42c34aba7fb8356add5134c3cd54e98623de32bf70d2863a8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/periodic_light_world.py",
+      "bytes": 2407,
+      "sha256": "7cc691e636bca9e3fbbb3f995ba54c8497dff30d83208faffd6c86c493a7abdd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_brain.py",
+      "bytes": 5248,
+      "sha256": "f70b94d6061898467a6adc396388b4f0166483fb095aeb78f0b31e0c12721719"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_receptor.py",
+      "bytes": 5757,
+      "sha256": "4419a9373ed3aa877bf5f6ff735774d4349407f33a59971bdf72480088c43347"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_apl_graded_source.py",
+      "bytes": 7950,
+      "sha256": "32ce604c2d7a2c031173f6ac6b0a9f6efa629870f8cff3af0319b5f5188236e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_coupled.py",
+      "bytes": 4027,
+      "sha256": "a5b5215c29e8dc8f3f82722bc47fb60c571c845b6c4cced4347c9f0073aa579c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_port.py",
+      "bytes": 11693,
+      "sha256": "bb15c522b92d145989704f13300ce2d3b24a9103473a26e89c68d2331d698d72"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_calcium_release.py",
+      "bytes": 10162,
+      "sha256": "0eec7e5e8216cd9df5da371c34f670fa3b915eaf91b7aa1a8ccdcedd0d756cfb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_cns_brain.py",
+      "bytes": 4421,
+      "sha256": "1ac9b032bd73f4f5c261d68864f8718bfa71295172139c45e5c6a15c8b07e21c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_cns_session.py",
+      "bytes": 3628,
+      "sha256": "922ee0ead4e805b88ca762bd655074a4e8cccf81a08ce682eaed23b30ba79dbb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_online_source.py",
+      "bytes": 6633,
+      "sha256": "ed9762b43cf58d27ceafe1997b5349eeba3664feef595dc04c2caa91adf4933f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cholinergic_rate_prior.py",
+      "bytes": 4550,
+      "sha256": "63557ce17ea2057ca17d17e3618f2298ff1d608adeb4410001c37fdb08a6ede8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cns_orn_stages.py",
+      "bytes": 1740,
+      "sha256": "bb8bad26c5073a6122c3d10277b3078e2090970914460e2dfe64b227bda5ff85"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_cns_ports.py",
+      "bytes": 3298,
+      "sha256": "da4385d0fffb533504ad8b83695d81bdd397b8532beacad4fa694be0fcd14f4a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_coupled_ionic.py",
+      "bytes": 17625,
+      "sha256": "0bc417c652dacdfbef604c8d69b8245d542e5c4d28ea8c520a2232d77ea7271e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_delayed_cascade_receptor.py",
+      "bytes": 3926,
+      "sha256": "dcdf24f95136521c0c9682e216cee896dd61e7433c2c1a32ceba51dc4471363b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_brain.py",
+      "bytes": 6290,
+      "sha256": "5ece061a2d3e5cd99421fbbdf6c598eafd165490f3ea209be8883b85557f9431"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_port.py",
+      "bytes": 4245,
+      "sha256": "cdb8b8fb453ba6dca63a82b8297c1db50e80a32d1ca80cc7efb7c980d8a8b8c0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_session.py",
+      "bytes": 3673,
+      "sha256": "8a991e846baf22d6b86a40281257df3e5318ffeddc07ce7a01a21495b771d09d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_output_source.py",
+      "bytes": 2910,
+      "sha256": "727332b2a23c223fb84d0b62ade96db954f3661b283d341c4de97f854b31a4ce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_electrical_refined_session.py",
+      "bytes": 5129,
+      "sha256": "b440c145b1329c10119133c8780aab9394aff7559a10c1f795a40714e39d7959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_fine_ionic.py",
+      "bytes": 9577,
+      "sha256": "4bdeed668d9dbced0127b62cc2f08702020499876defaa0656569e70262cd573"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_brain.py",
+      "bytes": 7255,
+      "sha256": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_port.py",
+      "bytes": 5991,
+      "sha256": "64a9f729bced999e5188decf31095732aca7acab7fe6acc56f3e209b12bbe0a5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_general_output_source.py",
+      "bytes": 3211,
+      "sha256": "a5dcd528ede65e83f7312e6b3d84dce2d5f87261e48c401f70fc2f37c42dbb9a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_graph_elimination_backend.py",
+      "bytes": 8184,
+      "sha256": "b1fbee47e7a0a3a078c2763372ec2d9b5ebd16c27cb44684abf665ddffe0d336"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_graph_solver_brain.py",
+      "bytes": 3922,
+      "sha256": "eb8e9887693e1f7acb6e37026c466135315568bfb8fce14f0016dbafad5b05f8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_inhibitory_closure_brain.py",
+      "bytes": 4748,
+      "sha256": "ada1806e37949ad64f7e386f7f868d61fd0dd54af937f41548c3f306d4782f2e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_inhibitory_closure_source.py",
+      "bytes": 9039,
+      "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_local_conductance.py",
+      "bytes": 6665,
+      "sha256": "851e770e86ec45485227f99f2c0d0677243b65c3a379f0af72e14bdb31092a16"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_backend.py",
+      "bytes": 5867,
+      "sha256": "f4249d7a81c5b9587c9a8bbf71437aa681a6aa58af4271bd3c4e37e9231d406e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_calcium.py",
+      "bytes": 1693,
+      "sha256": "30bcf19e191a7841abca25ad1b25479ba8ec6bab2a51806b0ef51b356acb59d1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_cns_brain.py",
+      "bytes": 3785,
+      "sha256": "d462d00cbbe019ca50fa235a13a8b7a274f17f6c1a284f70b77fa0cf516e18c7"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_coupled_step.py",
+      "bytes": 14296,
+      "sha256": "3b5c1edd5abd6bc587a987367b9f63f8f268ff8c9cf15442d3bb2b0389bd80be"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_krylov_backend.py",
+      "bytes": 3561,
+      "sha256": "774bb08f51b531722cfe566d4b16b1c62e73620d283144f1eb46ab0adcda23dc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_krylov_brain.py",
+      "bytes": 2890,
+      "sha256": "722549e7b667a3bba8649c666ce24b547afbaabf684b976077ce355102cd923e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_runtime.py",
+      "bytes": 5512,
+      "sha256": "f6ddf6dcbe03a66a949382724fa4b93ab67e36a3d109825e4c059741e40e7938"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_mass_source_bridge.py",
+      "bytes": 635,
+      "sha256": "516f2ca9a003f2b862395875406029e2cd7ece83b3fc9af7baa4e729c423661d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_cns_brain.py",
+      "bytes": 8204,
+      "sha256": "45683cd60b68a2518219e55ffe5f51ab146b2fba4a67a94b02cd13e6b27d1d8e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_cns_session.py",
+      "bytes": 4396,
+      "sha256": "27537d196d187a94c54dcf2d206a33d52022b4dba68a540e40d446e205b86c68"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_online_orn_source.py",
+      "bytes": 4507,
+      "sha256": "164501a15740ac79bb3888a9a03c1ba28d7b7a2ac1325f58ba0a80d58b008f8f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_port_session.py",
+      "bytes": 3627,
+      "sha256": "fa582f680c696e9b197485b2a84ae7493254fb43b41b992d1fe02ff5b129af23"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_prepared_kc_boundary.py",
+      "bytes": 5761,
+      "sha256": "25c9ae8011f10b6b612a8cbb2e6bb2270a3bb1117b68bbf5e2a2590dc12d3b7d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_reference_runtime.py",
+      "bytes": 13363,
+      "sha256": "76975779930e09f65b828471fa75aa4cd8f9f92c28a212f49553c9e17d0a407c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_site_kc_boundary.py",
+      "bytes": 6236,
+      "sha256": "28ecef1535fa67f923ffe285d4706d7d32b1de6db938889b034b4d7e81d3a619"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pn_spatial_orn.py",
+      "bytes": 8804,
+      "sha256": "2c861b122cd10c4d378886ba6107dd52601843298a3daf85e408fa315ae1dc0a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pnkc_receptor_brain.py",
+      "bytes": 14397,
+      "sha256": "7e204d94fcd0a0297042a45f824b470534e6efe2efbaf7d259e93f654af5825d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pnkc_receptor_session.py",
+      "bytes": 12226,
+      "sha256": "cadbc2867f51d18def4a31f8fd5cbe28f76268d4d7ae491d05577665f2a9c558"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/precision_visuomotor_session.py",
+      "bytes": 9450,
+      "sha256": "0eda3e803a6a6f971c9d66d83d814581039dafd9f262ef947db225f16e0aac31"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/projection_parallel_brain.py",
+      "bytes": 3213,
+      "sha256": "796eab6a25c705608f03b28d77fb25804caa8f9a7dd41232599150445fbbb51a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/projection_parallel_session.py",
+      "bytes": 3523,
+      "sha256": "1aa93a6a84ba041ded44faea4a54c16dddc6651682376e01c47a55f60dd975fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/prosthetic_olfactory_session.py",
+      "bytes": 12752,
+      "sha256": "58d037ebc92817456b9913ba291d55beb1b233b4a3418cb88572a6b99684cd2f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_adaptation_brain.py",
+      "bytes": 18439,
+      "sha256": "a90c83240b39fdf135423ae8990d0423f99d4cbc1e2aacc4821e6fa16e1cf7a7"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_adaptation_session.py",
+      "bytes": 10008,
+      "sha256": "0c8494b3ee2714ac65d371f51c943fb98be002e164892fba61aac18f8bac9cb4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/pvlp_servo_session.py",
+      "bytes": 8860,
+      "sha256": "c88e91dad29886987dfa11a617538a89d8c551b6769306197f13d0dc694ad509"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/r8_mi4_pulse_session.py",
+      "bytes": 10636,
+      "sha256": "55f935958433a9688d0507d39425cf21bd310cfde32f92e09d8966d7cedce8f6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/r8_mi4_visual_brain.py",
+      "bytes": 10412,
+      "sha256": "791430f40e1251b1672a94bafe1dd70e9c37cd2395b5c7af82741c6034525b1b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/receptor_visual_brain.py",
+      "bytes": 8404,
+      "sha256": "2be6d50d848b990f540bc63480fa438ae5df7c7bac9f831f9e84bf8c1f06ec39"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/refined_contact_body.py",
+      "bytes": 4423,
+      "sha256": "120394fbb927310145934628438571a8b23186574195542cf4270cd96f389941"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_live_session.py",
+      "bytes": 11309,
+      "sha256": "20ff7808d0fb9aa619c17b31ab66325245609273a5826114eafa62359886f189"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_motion_session.py",
+      "bytes": 14398,
+      "sha256": "f5c52ff04f42c337d6eb41d338a8c33579f5fd0f9269c732e0deea37f184c4d8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_phototransduction.py",
+      "bytes": 2994,
+      "sha256": "2e8489c5dcfbb8ec49b055e5863e6da1e014de968bc551ebe9ec3d44bf977ccb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_pulse_world.py",
+      "bytes": 5482,
+      "sha256": "fa1a3051e905e7cc3eb9469f88ea2f3059370abdff07a024aaceebf1edfe0a1c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_transduction_brain.py",
+      "bytes": 15240,
+      "sha256": "8400c52cb3e8618d92b6aebd04160fbf660f32be83c39b0f5de37e60065c4476"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/retinal_world.py",
+      "bytes": 6947,
+      "sha256": "cd83dfcafaf30c417aaf673807465c9d590538e8e9fc352029ccb02794775d63"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/sensorimotor_contact_session.py",
+      "bytes": 16817,
+      "sha256": "cb677d6e75617f378286df74d933cdcf23c5893ab33114f917b51fa829376e4f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/session_io.py",
+      "bytes": 2043,
+      "sha256": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/snapshot_execution_brain.py",
+      "bytes": 5940,
+      "sha256": "4b725905fa3317d9c8604ea2134510df01b6cb9d7e6fee446be91201c91e10e9"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/synaptic_event_filter.py",
+      "bytes": 3421,
+      "sha256": "7a5d935dd5a222bf556c51a2bdcad38661296a75450681c140656f5954cf4064"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/synaptic_visual_brain.py",
+      "bytes": 7954,
+      "sha256": "c637b1828a173a0a2b175d0e92bba2538d4fc62d4e079c065b6f5afda13184cb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/t4_gaba_brain.py",
+      "bytes": 10738,
+      "sha256": "08496a69ae70467a591530a8330eab21fb8664a3582e0eaab1f95d5fc6b51bb2"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/t4_gaba_live_session.py",
+      "bytes": 11825,
+      "sha256": "9574c9ff89ec5c430968fe98e3014566430d6a857acdf6c0109e4e88942085a0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_challenge_world.py",
+      "bytes": 4346,
+      "sha256": "b57f11c30e7b3fd59115f8dc6b32b7e062c9491151b60e08d59af26d9a17b88c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_descending_session.py",
+      "bytes": 11421,
+      "sha256": "28f24341ba0421a32d214cbbbb625e1908508db9c02d19c22da0b319c39abba3"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_receptor_session.py",
+      "bytes": 8662,
+      "sha256": "b9ef955e61b0e01178c1b93e8593fa433eea59ab840900ab267cfd8a65a3f72c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_sparse_kernel.py",
+      "bytes": 1591,
+      "sha256": "0b673cfa092fbfc8002e494060679ee673d1a7fd71e19abe2c660df943be63ca"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_transfer_world.py",
+      "bytes": 11927,
+      "sha256": "622198a60b9c404fa34f5bfb98256b14bfb9dbb617442957fe37fb9c12526d22"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visual_transmission_session.py",
+      "bytes": 9354,
+      "sha256": "f1a8746020904cdcd8ab3429768d8783db7d87ad13fa231b4fa04d4ad2a4d137"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/visuomotor_session.py",
+      "bytes": 17884,
+      "sha256": "6e7cbcb9287a9bf6837b292e170ba929280e8c4ca48117bd831f78dedd8800e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/walking_body_checkpoint.py",
+      "bytes": 7947,
+      "sha256": "7f88575736c24c0ea2f8bffea6aa9b2f6c2d46ee9403297af91a5c1c40d87422"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01.log",
+      "bytes": 1281,
+      "sha256": "9e3f575dfc77bd90448426128d64788d6b293d558196e46e15e3b7677bd94839"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/FROZEN.json",
+      "bytes": 2439,
+      "sha256": "65022d1a3083ba6bee4762a5f02b7b1d037051838b8a36594ee38d5f5f3ba238"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/RESULT.json",
+      "bytes": 2897,
+      "sha256": "d12dd71f81ee45e047e67fe101b2c9d5c0212fbd2e1a7ea1aa348149f6f7a79c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/TIMES.jsonl",
+      "bytes": 1281,
+      "sha256": "9e3f575dfc77bd90448426128d64788d6b293d558196e46e15e3b7677bd94839"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/body_final.npz",
+      "bytes": 5102,
+      "sha256": "8914f07dc213deb5b8be752887f4b4fca23e5ab5dbf99e91dde3e7d6ff2b830b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/brain_final.npz",
+      "bytes": 9954537,
+      "sha256": "05464f7cabd89da83fe430b9d7d614371776470c886948c0b66b06101678b032"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 4551,
+      "sha256": "3ff0bbbbcb3a9a0aa0bdf6e1316cac60a7eb96fada16db20f927790676e05e06"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 3662,
+      "sha256": "8261833d0260b2ab59168d7d5baf510cf99fcaa19c94b38e9ad63b00476d8056"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 4217,
+      "sha256": "20c83c77ec17bf8e6380326df6bbb6bc259842b42b5517571575ecd39ea7b355"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4491,
+      "sha256": "1f902c6ea41dfdf548b26af3c637e58fa6350bc3f96d04330a628be647336988"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 8192,
+      "sha256": "f28feab7fd49ff12eb61dc32c75b02392d60c7643c84fce8854f3a36bd4ebcd1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_01/traces.npz",
+      "bytes": 71880,
+      "sha256": "fee57358b308810aeb8388b4f52e4f31754435a33a7a1cf7472acb6308bdae57"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/native_cell.py",
+      "bytes": 9131,
+      "sha256": "08b6f3a223e80eded3af5d0a309abdbb8584382012eea0f234208d823e2ea324"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/prepare_review.py",
+      "bytes": 5224,
+      "sha256": "8e32d08db9ee8afa8d6000aea3cc969ab3a318038c7a37bbc806434b7f88867e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_01/control/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_01/control/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_02/control/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_02/control/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_02/fault/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_02/fault/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_03/control/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_03/control/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_03/fault/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_03/fault/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/DIAGNOSTIC.json",
+      "bytes": 9191,
+      "sha256": "463bed060444cf20662d536df95f7b4985f5cbe105cbe9c7e452309864f85f0a"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/control/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/control/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/control_neural.json",
+      "bytes": 167412,
+      "sha256": "ac4355f28dc31a3664308e762da0f96ffe08956934e0166ab8bf6a57a37ca81b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/control_neural.npz",
+      "bytes": 9955017,
+      "sha256": "faaad01caed53f98d4c5b69d4752c72fc942943d1359b9c05eeea238540933e0"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/fault/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/fault/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/retry_neural.json",
+      "bytes": 167412,
+      "sha256": "17e0482fdf74932d89519ab4ebc66b67c15273383cfb1ef7bff3a8e7f4d56a38"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/recovery_04/retry_neural.npz",
+      "bytes": 9955024,
+      "sha256": "6e8bcfb52cf95b8e7bf857995102d6b0db5b154b814d7e219c1a02484d63b33f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/report.py",
+      "bytes": 8022,
+      "sha256": "adef8088d6aa4b90f3d4076b0256a0382ecff9491bceb76f857210453d12d17d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/rollback_guard.py",
+      "bytes": 934,
+      "sha256": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01.log",
+      "bytes": 1282,
+      "sha256": "c6962aca92de961556015a4055f172fd513221a2480a03409c4ba6b307319ad5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/FROZEN.json",
+      "bytes": 3452,
+      "sha256": "cde833bfdf4c519977781367bf5dd6f5a22a3118284cd6543e2fe7fddb7c392d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/RESULT.json",
+      "bytes": 3030,
+      "sha256": "2c0f0f48b4feb7c4f71bc45ba0b599f6eecff198cf0c7de5248476598e478263"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/TIMES.jsonl",
+      "bytes": 1282,
+      "sha256": "c6962aca92de961556015a4055f172fd513221a2480a03409c4ba6b307319ad5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/body_final.npz",
+      "bytes": 5099,
+      "sha256": "e3bcc62169866f4acc5d2e83bdc24e5f03e7d55a5e7e72d9ddf3c4e73a11e866"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/brain_final.json",
+      "bytes": 167409,
+      "sha256": "0d74004b116586530f560d52894824e73d53e89dd11a67018775eae99f43b84e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/brain_final.npz",
+      "bytes": 9954636,
+      "sha256": "fc74bc3fc1bb4ed3e1d68804b7fa5d614d04650ad72e5b3d90160aa3ae243a67"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/intervenciones_W.npz",
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/PLAN.json",
+      "bytes": 4377,
+      "sha256": "1e4a67d64c8a51a0fb18e2654f3e73b11641b599dc45e054e388dfc2935752fa"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/analyze_pilot.py",
+      "bytes": 4936,
+      "sha256": "161ffb000ee147c3249094d4c868fabfa8355fb278080f6cb9570a65f2f57efb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/check_core.py",
+      "bytes": 1904,
+      "sha256": "b061e18256f581a06a548b9d109851b2741bd1d2658cfc4a3166b5ae2bbbf9fb"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/graph_control.cpp",
+      "bytes": 3081,
+      "sha256": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 5160,
+      "sha256": "5222557c2f8018a42dd7a65a753b9764434fb0f0282654db1222ff6d3edda7b5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/inspect_organism.py",
+      "bytes": 1478,
+      "sha256": "ec15835292b7db625fa8976f51326add9b5131ce9c05115eb52caa033f66606e"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/membrane_batch.py",
+      "bytes": 2017,
+      "sha256": "c8b5c1455f378e0a30bc1ce37261a557f425a6ebac6ef66307d15a61c351fc61"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/native_dense.py",
+      "bytes": 2092,
+      "sha256": "6f6207b4bfa97c9450033a6dad14e35514a4867851c8d2bcb21f94132a4e399f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4135,
+      "sha256": "1be27e1f09f1e743928508e9e010c82f1fe6ae6569936ec4752bd6ae4047f6bd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/run_pilot.py",
+      "bytes": 6773,
+      "sha256": "fd3b782c2a7c71aed488505f1284ddb996486631800b2b6a18c9544aaded352b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/run_remaining.py",
+      "bytes": 1813,
+      "sha256": "6edb8182428fff460a87b110c242c24bcb96c375f819b02bb03d5039e5fdc51b"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/run_transport.py",
+      "bytes": 2463,
+      "sha256": "bc6d4d8b5bf1bd83eab594bf25cfe3282d1c1d08cb33fd4fca14f007d2185539"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/test_verifier.py",
+      "bytes": 1477,
+      "sha256": "47087284ff889b366f3b1e0cfbd7516e14f633ef3fb836bc9a0d9ea37f150bce"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/etapa3_motor_nuevo_20260922/verify_transport.py",
+      "bytes": 5933,
+      "sha256": "e8363ffcc52ceab24a14a77a3ddf738a670b13ac06506c5526cbc841bc845f5d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/PLAN.json",
+      "bytes": 3197,
+      "sha256": "a3ee479ac24c13364dd6685d401fa39064bdc2906aafafa073e5a8aa8b4c72ec"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/basis_compile.py",
+      "bytes": 2481,
+      "sha256": "859c2e5f98adb2a571cb856d8108ad35f5e005e12749510e5b2c72968440a66d"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/benchmark_real.py",
+      "bytes": 4725,
+      "sha256": "1e80398b863d74e63b5e10a97784f0bb6b1f349aefcf133be442fdb73d732bff"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/check_basis.py",
+      "bytes": 2940,
+      "sha256": "31fda76f7d90fed3c75dc92b1f52cefd4a08f204bb25119a4a9a3b8a0845beb5"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/check_event_boundary.py",
+      "bytes": 1508,
+      "sha256": "364758df0c470cd9a592f5cc4ce140f216ec12f2f8273444b4b0c68fa7e4f865"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/check_ros.py",
+      "bytes": 4355,
+      "sha256": "ced112bacb60bbd73d8569bf6bb5a36df50e24ea155ae1ced28264cff226feb1"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/native_cell.py",
+      "bytes": 8860,
+      "sha256": "6a6337b41f93b58cdbbeebe99f2af5378b1d3259859870b11cc3535d64caae56"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/physical_events.cu",
+      "bytes": 2494,
+      "sha256": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/sources/native_hybrid_20260922/test_structure.py",
+      "bytes": 2695,
+      "sha256": "37a516cea394beb2eac152ca2bc47fe99386e73713a18883013e561c09878959"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_01/traces.npz",
+      "bytes": 71885,
+      "sha256": "8bdb17d01f7a92d3a5c1759e0eec781e48226f9edebe17715b34428e56eb2a6c"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_native.py",
+      "bytes": 933,
+      "sha256": "589c3cc4992390f39c141ea815122a44b98889bdce649217ecb9536beea569e8"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_step.cu",
+      "bytes": 5042,
+      "sha256": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/ros_tableau.py",
+      "bytes": 1252,
+      "sha256": "062a0c306d30b190ca0c74113e415524281334788d1e06429fd1f544954a95af"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/test_structure.py",
+      "bytes": 2747,
+      "sha256": "8a3f2220ead42089191a48003191dfd0b2bf6554a6e9f83d002028a0209f4281"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_adaptive.py",
+      "bytes": 4852,
+      "sha256": "5e0a51523ec28629f368c4e75dc1dfd3235ef5057b4e3f7a364066543e702d68"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_step.py",
+      "bytes": 4060,
+      "sha256": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_warp.py",
+      "bytes": 4416,
+      "sha256": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/vendor/session_io.py",
+      "bytes": 2043,
+      "sha256": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/backend_integration.py",
+      "bytes": 2177,
+      "sha256": "862d03ca971c0fbbed9a06c1cbd713fce74ca3dc095788b484f5aa049f8cb9e1"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/base_refinement.py",
+      "bytes": 2131,
+      "sha256": "9fbfec93cea8922ea9c2f589203ead3f4bc4d737417ef612e04136222fdc1f91"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/capture.py",
+      "bytes": 2944,
+      "sha256": "2523eb3e8a5a9237bf3891bcdcc1f85e8fd06869509be2837b6c40c70d56c85c"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compact_stage.py",
+      "bytes": 5665,
+      "sha256": "ccf05cd2e72c0dc271de6c4f77fa00b0d3ccb13e6f156d72c432246585778ade"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compact_step.py",
+      "bytes": 9788,
+      "sha256": "929fae4f95f655bc01177d6cf41a1125484212291f3b01277a74297abd119f38"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compare_backend.py",
+      "bytes": 4360,
+      "sha256": "b0ccd957166604e9ec927994a68c286489518476c13ff3450e40016138a6e1cc"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compare_pn.py",
+      "bytes": 4018,
+      "sha256": "389529b50bd0797f2ffeff8fdce6eeb95e21256beea7c6ef2ba49d741466fed6"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compiled_stage.py",
+      "bytes": 9449,
+      "sha256": "775899a4a80fd4fd4ba1aed6db037160007c23e973df7714e6a3b2d2741d102c"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/compiled_step.py",
+      "bytes": 9792,
+      "sha256": "7b0c1dc98375f6754cafab7e9a3e6e49ef9813e58fd1502c8d52c500c7bbb2cc"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/condensation.py",
+      "bytes": 2732,
+      "sha256": "c35f78823c9eccbd4279e328ee5548eab67e05edea058d907353f9aa2ee825c7"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_parallel_screen.py",
+      "bytes": 2251,
+      "sha256": "3e47d9b663daaac6d16f9e15713a2e43982232c3b979b191d7d739c590de85f9"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_plan.py",
+      "bytes": 3017,
+      "sha256": "f56a117a9f9f8ec9747a78d9a3ecd76457e6095ca3fdd621aaf33d5d481fb72b"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_screen.py",
+      "bytes": 2244,
+      "sha256": "a1b397082eec985f05fb4bb95247e73f8d88a56be1373e78c879a0500829f61e"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_tree.py",
+      "bytes": 2729,
+      "sha256": "149820a921644e6878a08c4383ea0bbdb254d559df27b2f1a2ffaff49b96115e"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_tree_serial_core.py",
+      "bytes": 2618,
+      "sha256": "bcb916d80c008b21f5131f496903c13fc22ef6c998cb5feb4aabaa85217ed031"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/cyclic_verified_screen.py",
+      "bytes": 2251,
+      "sha256": "593becc381c1e5193fa93174aaea596db1e1b607bb7c5c9083dcc0140fc9cf16"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/extract_verify_delivery.py",
+      "bytes": 2376,
+      "sha256": "75ee8da3f4b4d1b07c1d63be35aefb33cb2c3ffea4794062d13a45bd22ec89a0"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/failed_symbolic_01.py",
+      "bytes": 2250,
+      "sha256": "1f25c5b8af6749f8503a418016d3f9c0045ef0707a92c87e1ef66a2f016eaccc"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/gpu_screen.py",
+      "bytes": 2054,
+      "sha256": "dfcba35f40f54f6c91de4942ee81d8bd6e5731568cc303156f8af75768c9fdb4"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/linear_screen.py",
+      "bytes": 2622,
+      "sha256": "af86a7954fb71cf229c6f20c409829e1eeabe9415b0f9566254b8f48d489ae79"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/parallel_tree.py",
+      "bytes": 2827,
+      "sha256": "add0b55220996b7cc42b22d68afca7be2a446873a5f85b04141af137c75c6a0e"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/portable.py",
+      "bytes": 3273,
+      "sha256": "0b2abfabcaab1d92104f5b40ba2dd0ff3a6b1538a5f4bdde6c2dd6aadc86fb7f"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/validate.py",
+      "bytes": 4458,
+      "sha256": "4224556532846c6e044598a109233869e3aceb6faa3b85ca97c835209c26c40b"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/compensated_csr.py",
+      "bytes": 1866,
+      "sha256": "ebd27c96a24a223ee6aef768e6fec3023122b71467ed2e9a703733fdda9463fe"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/kc_four_port_active.py",
+      "bytes": 3410,
+      "sha256": "c9a3e31748f1a011d2e8181940d67129dd16037829ac1881e9bfc0098a08b8f2"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/neck_gpu_transient.py",
+      "bytes": 2245,
+      "sha256": "423c1ebd33df5f06063a97405fa0a0ac0dc78cb7692f04036ab57e26d361a12a"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/neck_joint_transient.py",
+      "bytes": 4103,
+      "sha256": "4825e5ab7d30dfea644a9c0251473b00dce3d94fc5ab6a476ac425280b2f8f39"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_calcium_port.py",
+      "bytes": 11693,
+      "sha256": "bb15c522b92d145989704f13300ce2d3b24a9103473a26e89c68d2331d698d72"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_calcium_release.py",
+      "bytes": 10162,
+      "sha256": "0eec7e5e8216cd9df5da371c34f670fa3b915eaf91b7aa1a8ccdcedd0d756cfb"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_coupled_ionic.py",
+      "bytes": 17625,
+      "sha256": "0bc417c652dacdfbef604c8d69b8245d542e5c4d28ea8c520a2232d77ea7271e"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_fine_ionic.py",
+      "bytes": 9577,
+      "sha256": "4bdeed668d9dbced0127b62cc2f08702020499876defaa0656569e70262cd573"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_graph_elimination_backend.py",
+      "bytes": 8184,
+      "sha256": "b1fbee47e7a0a3a078c2763372ec2d9b5ebd16c27cb44684abf665ddffe0d336"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_mass_backend.py",
+      "bytes": 5867,
+      "sha256": "f4249d7a81c5b9587c9a8bbf71437aa681a6aa58af4271bd3c4e37e9231d406e"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_mass_coupled_step.py",
+      "bytes": 14296,
+      "sha256": "3b5c1edd5abd6bc587a987367b9f63f8f268ff8c9cf15442d3bb2b0389bd80be"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/vendor/pn_mass_krylov_backend.py",
+      "bytes": 3561,
+      "sha256": "774bb08f51b531722cfe566d4b16b1c62e73620d283144f1eb46ab0adcda23dc"
+    },
+    {
+      "path": "motor_nuevo/pn_abc_20260922/verify.py",
+      "bytes": 3502,
+      "sha256": "e67ff2badd3e4fcaead6897f0e5b77d28ad17d4401e22e930ed726aa01fa042a"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/compare.py",
+      "bytes": 1815,
+      "sha256": "cb2afbe0312398d3d771efa0518a6ec0bb80c1639ef6712dc91fdcba0d9348a5"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/compare_graph.py",
+      "bytes": 2054,
+      "sha256": "d07749512bca5963d8be938e57461275817a4161bc02513e26a8ea7ead7a4230"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_stage.py",
+      "bytes": 7934,
+      "sha256": "9ea3998e32d33c82b6f67e8ca391b555c6b314239197722cfc57fc5a54999811"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_stage_before_capture_fix.py",
+      "bytes": 7451,
+      "sha256": "b737ba9e48cb363134ba3e9e719584fef63a8f96f4d8297900d268402d5d101e"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/graph_step.py",
+      "bytes": 14900,
+      "sha256": "f149f1b4d753eccdc978b1c79eac5e67aa0d295615ce584ff8efe1b7f52779fb"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident.py",
+      "bytes": 5758,
+      "sha256": "73b6dc0480ca19c3779117ad0b27ee5a2b488b21a7ea3169621a42915f8d4e2c"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident_cyclic.py",
+      "bytes": 2776,
+      "sha256": "1a82bf050a571a17f3f62f75501048d0562b5a30548ee28a4cba4d2ff61e513d"
+    },
+    {
+      "path": "motor_nuevo/resident_pn_20260922/resident_step.py",
+      "bytes": 14303,
+      "sha256": "7411ed8abd3bb34f3b117b02dc20730efd44c2038376a5b210d9cd35b2656e95"
+    },
+    {
+      "path": "references/sham_fine/body_final.npz",
+      "bytes": 5105,
+      "sha256": "dee9fc0d76ab427793db7b71971a08aa4025f8eab5edbbe259da8f6bdb5f9027"
+    },
+    {
+      "path": "references/sham_fine/brain_final.json",
+      "bytes": 177867,
+      "sha256": "678a3a9dd5b3706fe00939d5647befab1cecc40670753e28b4e8811921bbc1e0"
+    },
+    {
+      "path": "references/sham_fine/brain_final.npz",
+      "bytes": 10008618,
+      "sha256": "3da4adeb2ca7d552d94dd752ca2a18e1f68b704384111aa961faf491f43157e2"
+    },
+    {
+      "path": "references/sham_fine/traces.npz",
+      "bytes": 71870,
+      "sha256": "8d5f7297c5482597bc0324601a3c509278395aae4d858566cad928a7e1fac1f0"
+    }
+  ]
+}

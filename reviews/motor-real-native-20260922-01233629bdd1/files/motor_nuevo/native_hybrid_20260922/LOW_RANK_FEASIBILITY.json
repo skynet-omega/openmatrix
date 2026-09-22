@@ -1,0 +1,21 @@
+{
+  "method": "C low-rank passive update feasibility only; no third numerical prototype",
+  "tests": [
+    {
+      "rank_at_1e-11_relative": 16,
+      "dimension": 17,
+      "smallest_largest_ratio": 1.0743294352116454e-18
+    },
+    {
+      "rank_at_1e-11_relative": 16,
+      "dimension": 17,
+      "smallest_largest_ratio": 4.231947060222537e-19
+    },
+    {
+      "rank_at_1e-11_relative": 16,
+      "dimension": 17,
+      "smallest_largest_ratio": 8.512039430967166e-19
+    }
+  ],
+  "decision": "No low-rank shortcut demonstrated for these 17-dimensional updates; basis span dimension is not matrix update rank."
+}

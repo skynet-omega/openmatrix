@@ -1,0 +1,68 @@
+{
+  "reference": "motor_nuevo/native_hybrid_20260922/baseline_01",
+  "candidate": "motor_nuevo/native_hybrid_20260922/aligned_01",
+  "verifier_revision": 2,
+  "metrics": {
+    "PN_voltage_max_abs_mV": 9.58040565990359e-07,
+    "normalized_state_max_abs": 1.8973803497662756e-06,
+    "gates_max_abs": 1.3180562752346248e-09,
+    "yaw_trace_max_abs_deg": 1.2522605175036006e-10,
+    "root_position_max_abs_m": 6.066848412533687e-14,
+    "final_event_counts_exact": true,
+    "finite": true,
+    "endpoint_clock_exact": true,
+    "model_metadata_exact": true
+  },
+  "limits": {
+    "PN_voltage_max_abs_mV": 0.005,
+    "normalized_state_max_abs": 0.0001,
+    "gates_max_abs": 0.0001,
+    "yaw_trace_max_abs_deg": 0.0001,
+    "root_position_max_abs_m": 1e-06
+  },
+  "exact_all_leaves": false,
+  "histories": {
+    "/pn_online_state/base/apl_receptor": {
+      "max_abs": 2.6028007527045816e-10,
+      "segments": [
+        2,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 3
+    },
+    "/pn_online_state/receptors/GABA": {
+      "max_abs": 2.118606395873357e-08,
+      "segments": [
+        2,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 3
+    },
+    "/pn_online_state/receptors/Glu": {
+      "max_abs": 1.0812583716574009e-07,
+      "segments": [
+        2,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 3
+    }
+  },
+  "history_normalized_limit": 0.0001,
+  "unexpected_layouts": [],
+  "changed_flags": [],
+  "changed_exact_fields": [],
+  "screen_pass": true,
+  "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+}

@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "ns": 25000,
+      "voltage": 0.0005703255380922201,
+      "gates": 6.950149663564886e-07,
+      "mid_voltage": 0.0003467304507580593,
+      "mid_gates": 2.379562442866856e-06,
+      "cpu_gpu_max": 3.552713678800501e-14,
+      "embedded_max": 44.98441986307702
+    },
+    {
+      "ns": 12500,
+      "voltage": 0.00013948595693946686,
+      "gates": 7.301867877007595e-08,
+      "mid_voltage": 6.832821267366285e-05,
+      "mid_gates": 4.0868174944197477e-07,
+      "cpu_gpu_max": 1.7763568394002505e-14,
+      "embedded_max": 12.360631034550607
+    },
+    {
+      "ns": 6250,
+      "voltage": 2.657589041632491e-05,
+      "gates": 6.05675898324165e-09,
+      "mid_voltage": 9.14591662848352e-06,
+      "mid_gates": 6.272226193981822e-08,
+      "cpu_gpu_max": 1.0658141036401503e-14,
+      "embedded_max": 2.880078750378505
+    },
+    {
+      "ns": 3125,
+      "voltage": 3.3293429879677205e-06,
+      "gates": 4.3637149449438084e-10,
+      "mid_voltage": 9.008756940431795e-07,
+      "mid_gates": 8.840035370383248e-09,
+      "cpu_gpu_max": 3.552713678800501e-15,
+      "embedded_max": 0.5852110430263056
+    }
+  ],
+  "kernel": {
+    "max_threads_per_block": 256,
+    "shared_size_bytes": 0,
+    "const_size_bytes": 416,
+    "local_size_bytes": 0,
+    "num_regs": 186,
+    "ptx_version": 89,
+    "binary_version": 89,
+    "cache_mode_ca": 0,
+    "max_dynamic_shared_size_bytes": 49152,
+    "preferred_shared_memory_carveout": -1
+  }
+}

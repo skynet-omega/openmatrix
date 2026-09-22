@@ -1,0 +1,15 @@
+{
+  "warmup_excluded": 1,
+  "steady_ms_measured": 4,
+  "means_s_per_ms": {
+    "whole_step_s": 2.8198302595119458,
+    "observation_s": 0.00078218276030384,
+    "spatial_membranes_and_events_s": 1.8968561427755048,
+    "global_CNS_s": 0.2879157567367656,
+    "PN_and_source_s": 0.3303103560319869,
+    "body_advance_s": 0.03589261202432681
+  },
+  "body_plus_observation_fraction": 0.013002422535967366,
+  "ideal_speedup_if_both_cost_zero": 1.013173712715056,
+  "interpretation": "These costs do not explain 2.5 seconds per step. Event-bearing spatial membranes dominate the actual model."
+}

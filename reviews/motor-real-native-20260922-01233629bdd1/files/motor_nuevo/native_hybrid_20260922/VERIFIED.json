@@ -1,0 +1,485 @@
+{
+  "runs": [
+    {
+      "run": "baseline_01",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 28.659502660972066,
+      "step_sum_s": 14.561350593052339,
+      "steady_mean_s_per_ms": 2.8198302595119458,
+      "short_screen_pass": true
+    },
+    {
+      "run": "native_01",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 28.228526787017472,
+      "step_sum_s": 13.43481973093003,
+      "steady_mean_s_per_ms": 2.431214404234197,
+      "short_screen_pass": true
+    },
+    {
+      "run": "compressed_01",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 25.562870244961232,
+      "step_sum_s": 10.524704160983674,
+      "steady_mean_s_per_ms": 1.8449984735052567,
+      "short_screen_pass": true
+    },
+    {
+      "run": "ros_01",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 28.96023648197297,
+      "step_sum_s": 14.085369909007568,
+      "steady_mean_s_per_ms": 2.7326812692481326,
+      "short_screen_pass": false
+    },
+    {
+      "run": "certified_01",
+      "status": "INCOMPLETE",
+      "completed_ms": 0,
+      "process_wall_s": 16.84543487202609,
+      "step_sum_s": 0,
+      "steady_mean_s_per_ms": null,
+      "short_screen_pass": false
+    },
+    {
+      "run": "certified_02",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 25.146738505980466,
+      "step_sum_s": 10.839676043076906,
+      "steady_mean_s_per_ms": 1.864750691514928,
+      "short_screen_pass": true
+    },
+    {
+      "run": "aligned_01",
+      "status": "COMPLETE",
+      "completed_ms": 5,
+      "process_wall_s": 32.95383164699888,
+      "step_sum_s": 18.697414694994222,
+      "steady_mean_s_per_ms": 3.630537635006476,
+      "short_screen_pass": true
+    }
+  ],
+  "comparisons": {
+    "baseline_01": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 0.0,
+        "normalized_state_max_abs": 0.0,
+        "gates_max_abs": 0.0,
+        "yaw_trace_max_abs_deg": 0.0,
+        "root_position_max_abs_m": 0.0,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": true,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "native_01": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/native_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 0.0,
+        "normalized_state_max_abs": 0.0,
+        "gates_max_abs": 0.0,
+        "yaw_trace_max_abs_deg": 0.0,
+        "root_position_max_abs_m": 0.0,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "compressed_01": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/compressed_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 0.0,
+        "normalized_state_max_abs": 0.0,
+        "gates_max_abs": 2.0194956817931597e-13,
+        "yaw_trace_max_abs_deg": 0.0,
+        "root_position_max_abs_m": 0.0,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "ros_01": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/ros_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 8.821139374504128e-10,
+        "normalized_state_max_abs": 0.00010912618734815194,
+        "gates_max_abs": 9.553141351870131e-06,
+        "yaw_trace_max_abs_deg": 2.8421709430404007e-13,
+        "root_position_max_abs_m": 1.3010426069826053e-16,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 4.1472661638231045e-08,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 3.2036471120377996e-07,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 7.133776208645415e-11,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": false,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "certified_02": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/certified_02",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 0.0,
+        "normalized_state_max_abs": 0.0,
+        "gates_max_abs": 2.0194956817931597e-13,
+        "yaw_trace_max_abs_deg": 0.0,
+        "root_position_max_abs_m": 0.0,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 0.0,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    },
+    "aligned_01": {
+      "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/baseline_01",
+      "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/aligned_01",
+      "verifier_revision": 2,
+      "metrics": {
+        "PN_voltage_max_abs_mV": 9.58040565990359e-07,
+        "normalized_state_max_abs": 1.8973803497662756e-06,
+        "gates_max_abs": 1.3180562752346248e-09,
+        "yaw_trace_max_abs_deg": 1.2522605175036006e-10,
+        "root_position_max_abs_m": 6.066848412533687e-14,
+        "final_event_counts_exact": true,
+        "finite": true,
+        "endpoint_clock_exact": true,
+        "model_metadata_exact": true
+      },
+      "limits": {
+        "PN_voltage_max_abs_mV": 0.005,
+        "normalized_state_max_abs": 0.0001,
+        "gates_max_abs": 0.0001,
+        "yaw_trace_max_abs_deg": 0.0001,
+        "root_position_max_abs_m": 1e-06
+      },
+      "exact_all_leaves": false,
+      "histories": {
+        "/pn_online_state/base/apl_receptor": {
+          "max_abs": 2.6028007527045816e-10,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/GABA": {
+          "max_abs": 2.118606395873357e-08,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        },
+        "/pn_online_state/receptors/Glu": {
+          "max_abs": 1.0812583716574009e-07,
+          "segments": [
+            2,
+            2
+          ],
+          "future_interval_ns": [
+            44451000000,
+            44451125000
+          ],
+          "knots": 3
+        }
+      },
+      "history_normalized_limit": 0.0001,
+      "unexpected_layouts": [],
+      "changed_flags": [],
+      "changed_exact_fields": [],
+      "screen_pass": true,
+      "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+    }
+  },
+  "fast_same_method_speedup": 1.5121754732913433,
+  "event_aligned_speedup": 0.7766977078883568,
+  "desired_seconds_per_simulated_second": 60,
+  "measured_full_second": false,
+  "full_goal_met": false,
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "ros_classification": "DESCARTADO",
+  "scope": "Short actual organism engineering comparison, 5ms. No stage3 admission, full-second timing, or universal solver claim."
+}

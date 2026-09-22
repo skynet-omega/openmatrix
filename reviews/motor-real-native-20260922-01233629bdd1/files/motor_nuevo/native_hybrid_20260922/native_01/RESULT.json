@@ -1,0 +1,103 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "ms": 5,
+  "requested_ms": 5,
+  "wall_total_s": 28.228526787017472,
+  "native_cell": true,
+  "compressed": false,
+  "times": [
+    {
+      "step": 1,
+      "whole_step_s": 3.7099621139932424,
+      "observation_s": 0.0008001240203157067,
+      "spatial_membranes_and_events_s": 2.4261779721127823,
+      "global_CNS_s": 0.5130039810319431,
+      "PN_and_source_s": 0.3831177889951505,
+      "body_advance_s": 0.03348186402581632
+    },
+    {
+      "step": 2,
+      "whole_step_s": 2.42656931001693,
+      "observation_s": 0.0008459300152026117,
+      "spatial_membranes_and_events_s": 1.4246999109745957,
+      "global_CNS_s": 0.349303932976909,
+      "PN_and_source_s": 0.341466961952392,
+      "body_advance_s": 0.03237904503475875
+    },
+    {
+      "step": 3,
+      "whole_step_s": 2.7760990189854056,
+      "observation_s": 0.0008451539906673133,
+      "spatial_membranes_and_events_s": 1.8031478600460105,
+      "global_CNS_s": 0.29441277898149565,
+      "PN_and_source_s": 0.3536159640061669,
+      "body_advance_s": 0.03387486998690292
+    },
+    {
+      "step": 4,
+      "whole_step_s": 2.365508399961982,
+      "observation_s": 0.0009594669681973755,
+      "spatial_membranes_and_events_s": 1.4572602059924975,
+      "global_CNS_s": 0.28967057314002886,
+      "PN_and_source_s": 0.30972037703031674,
+      "body_advance_s": 0.033164929191116244
+    },
+    {
+      "step": 5,
+      "whole_step_s": 2.1566808879724704,
+      "observation_s": 0.0008072020136751235,
+      "spatial_membranes_and_events_s": 1.2746192779159173,
+      "global_CNS_s": 0.22998785588424653,
+      "PN_and_source_s": 0.3451916048070416,
+      "body_advance_s": 0.031457118107937276
+    }
+  ],
+  "rss_GiB": 4.0054168701171875,
+  "PN_execution": {
+    "calls": 80,
+    "accepted": 80,
+    "rejected": 0,
+    "build_s": 2.630388170015067,
+    "wall_s": 1.321897436864674,
+    "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+    "state_owner_preserved": true,
+    "graph_statistics": {
+      "accepted": 160,
+      "fallback": 0
+    },
+    "linear_fallbacks": 0
+  },
+  "native_CNS": {
+    "epochs": 80,
+    "accepted": 104,
+    "rejected": 11,
+    "build_s": 0.10279561899369583,
+    "device_bytes": 46705152,
+    "event_capacity_per_cell_per_epoch": 8
+  },
+  "events": {
+    "blocks": 80,
+    "events": 393,
+    "max_q_reconstruction_difference": 1.1657341758564144e-15,
+    "global_trials": 115,
+    "time_resolved": true
+  },
+  "cell": {
+    "calls": 80,
+    "accepted": 1954,
+    "rejected": 217,
+    "build_s": 0.9506191600230522,
+    "native_wall_s": 7.232244687969796,
+    "event_capacity_per_cell_per_epoch": 8,
+    "compressed": false,
+    "device_bytes": 8095232
+  },
+  "partition": {
+    "steps": 40,
+    "step_ns": 125000,
+    "predictor_restore_exact": true,
+    "pn_rejections": 0,
+    "predictor_evaluations": 270
+  }
+}

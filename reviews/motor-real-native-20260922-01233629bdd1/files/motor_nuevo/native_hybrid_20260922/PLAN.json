@@ -1,0 +1,43 @@
+{
+  "objective": "Reduce actual whole-organism bottlenecks using C++/CUDA without changing biological equations, events, input latency or error criteria. Do not promise a target before measurement.",
+  "budget": {
+    "scientific_attempts": 16,
+    "aggregate_process_wall_s": 5400,
+    "short_attempt_s": 240,
+    "long_attempt_s": 900,
+    "operator_checks": 16,
+    "maximum_complete_numerical_prototypes": 2,
+    "RAM_GiB": 18,
+    "GPU_GiB": 14,
+    "jev_calls": 0
+  },
+  "routes": {
+    "A": "Native device-resident adaptive membrane and physical-event transactions; one CPU exchange per declared coupling boundary, same midpoint and error control. Include generic algebraic contraction of redundant channel basis only at roundoff and with full operator checks.",
+    "B": "Alternative compiled high-order stiff cell solver or mixed-precision linear algebra with FP64 residual/refinement, selected only if measured A remains dominated by arithmetic; retain the same full-state and event criteria.",
+    "C": "Native/GPU body and asynchronous telemetry: first measure each actual component and Amdahl bound. Promote only if its measured cost materially limits the target; never assume MuJoCo owns 2.5 seconds."
+  },
+  "baseline": {
+    "actual_ms_wall_s": 2.65,
+    "profile_total_s": 2.534,
+    "KC_s": 1.593,
+    "PN_s": 0.36,
+    "global_CNS_s": 0.219,
+    "body_advance_s": 0.043,
+    "telemetry_not_in_that_profile": true
+  },
+  "preimplementation": {
+    "limitation": "The synthetic smooth ODE runtime omits spatial membrane work and physical event ownership. Real profile is dominated by hundreds of 17-coordinate midpoint trials and per-event CPU/GPU synchronization.",
+    "new_operation": "Native controlled trial/accept graphs own temporary candidate state and complete event commits; model descriptors supply kinetics, mass/conductance bases and event observables. Export only at exact existing exchange boundaries.",
+    "legal_information": "Current state, actual model matrices, declared kinetics/events, current sensor input and physical clock; no desired yaw.",
+    "falsifier": "At identical inputs native state, event counts, timestamps, histories and outer trajectories disagree beyond roundoff for execution-only changes, or fail fixed integration criteria for a new numerical solver.",
+    "control": "Same original/full corrected equations and exact initial checkpoint, complete physical states and common observation workload; compare measured full organism, not synthetic speedup."
+  },
+  "criteria": {
+    "execution_operator_rtol": 1e-11,
+    "execution_operator_atol": 1e-10,
+    "whole_short_reference": "Existing frozen 5ms PN0.005mV/gates1e-4/global1e-4/yaw1e-4deg/position1e-6m; exact counts/clocks/flags; histories reconstructed.",
+    "long_target": "1 simulated second in approximately60wallseconds is desired, not presumed. Report complete horizon, process time and unresolved fidelity.",
+    "no_relaxation_to_rescue": true
+  },
+  "scope": "No Codex subagents. ChatGPT reviews actual published files, Jev prior routing remains advisory. Original tree read-only. End paused stage3 queue; no further odor runs until integration throughput is addressed."
+}

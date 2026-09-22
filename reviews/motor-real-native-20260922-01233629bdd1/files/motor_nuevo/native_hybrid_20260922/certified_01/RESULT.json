@@ -1,0 +1,66 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "RuntimeError",
+    "message": "nonfinite membrane estimator",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/benchmark_real.py\", line 43, in main\n    phase.clear();used=obj.core.pending_sensors.copy();cp.cuda.runtime.deviceSynchronize();t=time.perf_counter();obj.step();cp.cuda.runtime.deviceSynchronize();step=time.perf_counter()-t\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py\", line 135, in step\n    row=super().step();self._validate_adapter()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py\", line 69, in step\n    row=self.core.step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py\", line 100, in step\n    row=super().step();self.body.rh_pending=self.rh_command();self._validate_rh_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py\", line 64, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py\", line 83, in step\n    row=super().step();self.body.pending_serial=self.serial_command();self._validate_serial_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py\", line 44, in step\n    row=super().step();self.hybrid.set_cxhp8_sample(self.cxhp8_field.sample(self.body));self._validate_cxhp8_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py\", line 63, in step\n    row=super().step();self.body.pending_tarsal=self.tarsal_command();self._validate_tarsal_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py\", line 63, in step\n    self._validate_rf_pending();used=self.body.pending_rf.copy();row=super().step();self.body.pending_rf=self.right_front_command();self._validate_rf_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py\", line 61, in step\n    self._validate_tr_pending();used=self.body.pending_tr.copy();row=super().step();self.body.pending_tr=self.trochanter_command();self._validate_tr_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py\", line 91, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py\", line 102, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py\", line 56, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py\", line 118, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py\", line 100, in step\n    row = super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py\", line 158, in step\n    self.hybrid.advance(self.CONTROL_NS, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py\", line 54, in advance\n    return super().advance(dt_ns, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 108, in advance\n    cns(self,half,drive,light,False);middle=copy.deepcopy(self._online_ports.observe())\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 87, in cns\n    try:GpuProjectionParallelBrain.advance(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_brain.py\", line 69, in advance\n    super().advance(ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py\", line 71, in begin\n    result=old_spatial(self,dt_ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py\", line 78, in advance\n    qgamma=self._spatial_batch.advance(ns,eg,ig,inner_step_ns=m['inner_step_ns'])\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/benchmark_real.py\", line 22, in wrap\n    try:return old(*args,**kw)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_adaptive.py\", line 83, in sample\n    result=batch.advance(dt_ns,ge,gi,inner_step_ns=inner_step_ns,**kwargs)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/native_cell.py\", line 129, in advance\n    return holder.core.advance(self,*args,**kw)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/native_cell.py\", line 99, in advance\n    if status:raise RuntimeError(self.lib.cell_error().decode())\nRuntimeError: nonfinite membrane estimator\n"
+  },
+  "ms": 0,
+  "requested_ms": 5,
+  "wall_total_s": 16.84543487202609,
+  "native_cell": true,
+  "compressed": true,
+  "ros": false,
+  "event_boundaries": false,
+  "times": [],
+  "rss_GiB": 4.563373565673828,
+  "PN_execution": {
+    "calls": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "build_s": 2.583885164989624,
+    "wall_s": 0.0,
+    "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+    "state_owner_preserved": true
+  },
+  "native_CNS": {
+    "epochs": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "build_s": 0.0,
+    "device_bytes": 0,
+    "event_capacity_per_cell_per_epoch": 8,
+    "mandatory_event_boundaries": false
+  },
+  "events": {
+    "blocks": 0,
+    "events": 0,
+    "max_q_reconstruction_difference": 0.0,
+    "global_trials": 0,
+    "time_resolved": true
+  },
+  "cell": {
+    "calls": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "build_s": 0.892619467980694,
+    "native_wall_s": 0.002476592955645174,
+    "event_capacity_per_cell_per_epoch": 8,
+    "compressed": true,
+    "basis": {
+      "original_terms": 51,
+      "compiled_terms": 15,
+      "max_relative_basis_residual": 6.499496393114467e-16,
+      "admission_relative_bound": 7.105427357601002e-15
+    },
+    "original_operator_residual_bound": true,
+    "device_bytes": 8132096
+  },
+  "partition": {
+    "steps": 0,
+    "step_ns": 125000,
+    "predictor_restore_exact": null,
+    "pn_rejections": 0,
+    "predictor_evaluations": 0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "ms": 5,
+  "requested_ms": 5,
+  "wall_total_s": 28.96023648197297,
+  "native_cell": false,
+  "compressed": false,
+  "ros": true,
+  "event_boundaries": false,
+  "times": [
+    {
+      "step": 1,
+      "whole_step_s": 3.1546448320150375,
+      "observation_s": 0.0008044560090638697,
+      "spatial_membranes_and_events_s": 1.7900466039427556,
+      "global_CNS_s": 0.5115072489134036,
+      "PN_and_source_s": 0.47137800697237253,
+      "body_advance_s": 0.03584213997237384
+    },
+    {
+      "step": 2,
+      "whole_step_s": 2.6516798679949716,
+      "observation_s": 0.0009161779889836907,
+      "spatial_membranes_and_events_s": 1.739444526087027,
+      "global_CNS_s": 0.3281704229884781,
+      "PN_and_source_s": 0.30231165705481544,
+      "body_advance_s": 0.030678376846481115
+    },
+    {
+      "step": 3,
+      "whole_step_s": 3.3340741459978744,
+      "observation_s": 0.00075781304622069,
+      "spatial_membranes_and_events_s": 2.4650292941369116,
+      "global_CNS_s": 0.2754692640155554,
+      "PN_and_source_s": 0.29540996201103553,
+      "body_advance_s": 0.032671085034962744
+    },
+    {
+      "step": 4,
+      "whole_step_s": 2.6005603760131635,
+      "observation_s": 0.0007546290289610624,
+      "spatial_membranes_and_events_s": 1.7168005848652683,
+      "global_CNS_s": 0.27647724910639226,
+      "PN_and_source_s": 0.3192988659720868,
+      "body_advance_s": 0.030664392979815602
+    },
+    {
+      "step": 5,
+      "whole_step_s": 2.344410686986521,
+      "observation_s": 0.0008073360077105463,
+      "spatial_membranes_and_events_s": 1.527735604904592,
+      "global_CNS_s": 0.22124974912730977,
+      "PN_and_source_s": 0.3080747351050377,
+      "body_advance_s": 0.0318782979156822
+    }
+  ],
+  "rss_GiB": 3.9750213623046875,
+  "PN_execution": {
+    "calls": 80,
+    "accepted": 80,
+    "rejected": 0,
+    "build_s": 2.589837934996467,
+    "wall_s": 1.3101506667444482,
+    "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+    "state_owner_preserved": true,
+    "graph_statistics": {
+      "accepted": 160,
+      "fallback": 0
+    },
+    "linear_fallbacks": 0
+  },
+  "native_CNS": {
+    "epochs": 80,
+    "accepted": 104,
+    "rejected": 11,
+    "build_s": 0.11953681299928576,
+    "device_bytes": 46705152,
+    "event_capacity_per_cell_per_epoch": 8,
+    "mandatory_event_boundaries": false
+  },
+  "events": {
+    "blocks": 80,
+    "events": 393,
+    "max_q_reconstruction_difference": 2.6645352591003757e-15,
+    "global_trials": 115,
+    "time_resolved": true
+  },
+  "cell": {
+    "calls": 80,
+    "accepted": 3524,
+    "rejected": 285,
+    "build_s": 0.01982219098135829,
+    "native_wall_s": 9.03338545106817,
+    "event_capacity_per_cell_per_epoch": 8,
+    "compressed": false,
+    "method": "RA34PW2_block_diagonal_W_v1",
+    "device_bytes": 12472320
+  },
+  "partition": {
+    "steps": 40,
+    "step_ns": 125000,
+    "predictor_restore_exact": true,
+    "pn_rejections": 0,
+    "predictor_evaluations": 270
+  }
+}

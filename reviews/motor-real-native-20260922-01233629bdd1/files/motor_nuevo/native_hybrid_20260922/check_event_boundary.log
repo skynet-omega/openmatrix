@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/check_event_boundary.py", line 15, in <module>
+    core=NativeGraph(np.zeros(3),coefficients,rtol=1e-5,atol=1e-7,norm_size=3,project=port.project,native_library=HERE/'libgraph_control_v2.so')
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py", line 26, in __init__
+    try:self.trial()
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py", line 41, in trial
+    self.full=self.midpoint(self.x,1.,0.);self.fine=self.midpoint(self.midpoint(self.x,.5,0.),.5,.5)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py", line 36, in midpoint
+    z,a,b=self.coeff(y,start);middle=z+(-cp.expm1(-.5*frac*self.clock[1]*b))*(a-z)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py", line 33, in coeff
+    a,b=self.coefficient(z);self.check(self.grid,(256,),(z,a,b,np.int32(self.n),self.flag))
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/check_event_boundary.py", line 14, in coefficients
+    def coefficients(z):return cp.stack((z[0],z[1],z[1])),cp.asarray([0.,0.,1/tau])
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/_creation/from_data.py", line 88, in asarray
+    return _core.array(a, dtype, False, order, blocking=blocking)
+  File "cupy/_core/core.pyx", line 2502, in cupy._core.core.array
+  File "cupy/_core/core.pyx", line 2529, in cupy._core.core.array
+  File "cupy/_core/core.pyx", line 2762, in cupy._core.core._array_default
+  File "cupy/cuda/memory.pyx", line 587, in cupy.cuda.memory.MemoryPointer.copy_from_host_async
+RuntimeError: the current stream is capturing, so H2D transfers are disallowed

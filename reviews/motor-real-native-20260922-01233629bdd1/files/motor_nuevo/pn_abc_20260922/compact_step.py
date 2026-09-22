@@ -1,0 +1,144 @@
+from compact_stage import compact_stage
+"""Candidate full-mass SDIRK step, derived from the frozen fine step.
+
+Only mass action changes. C retains physical membrane capacitance for support
+and lower-bound checks. Backend must certify M-diag(C) positive semidefinite;
+otherwise the inherited Jacobian lower-bound check is not justified. Gates,
+Ca chemistry, charges, presampled inputs and commit rules are unchanged.
+See work/pn_mass_runtime_20260913/derivation.json and step.diff.
+"""
+import numpy as np
+from pn_coupled_ionic import GAMMA, METHOD, stage_channels
+from pn_fine_ionic import channel_conductance
+
+def advance_compact(self,dt_ns,current_pA,*,rtol=1e-9,atol=2e-12,maxiter=220,
+            max_newton=8,gate_atol=1e-12,progress=None,synaptic_stages=None,_local_channel=None,stage_predictor='previous',
+            stage_observation_nodes=None):
+    self._assert_model();cp=self.cp
+    if not isinstance(stage_predictor,str) or stage_predictor not in ('previous','linear'):
+        raise ValueError('Unknown SDIRK stage predictor')
+    if cp.iscomplexobj(current_pA):raise ValueError('Real current required')
+    current=cp.asarray(current_pA,dtype=cp.float64)
+    if (type(dt_ns) is not int or dt_ns<=0 or current.shape!=self.voltage.shape
+            or not bool(cp.isfinite(current).all()) or not bool(cp.isfinite(self.voltage).all())
+            or self.gates.shape!=(len(self.active_nodes),4) or not np.isfinite(self.gates).all()
+            or np.any(self.gates<0) or np.any(self.gates>1)
+            or self.ionic_charge_pC.shape!=(3,) or not np.isfinite(self.ionic_charge_pC).all()):
+        raise ValueError('Finite full state, probabilities and positive integer timestep required')
+    for value,zero_allowed in [(rtol,False),(atol,True),(gate_atol,False)]:
+        if (not np.isscalar(value) or np.iscomplexobj(value) or not np.isfinite(value)
+                or (value<0 if zero_allowed else value<=0)):
+            raise ValueError('Finite numerical tolerances required')
+    if type(maxiter) is not int or maxiter<1 or type(max_newton) is not int or max_newton<1:
+        raise ValueError('Positive integer iteration budgets required')
+    dt=dt_ns*1e-9;q=GAMMA*dt;shift=1/q;C=self.backend.levels[0]['C'];nodes=self._nodes_gpu
+    observation_nodes=None
+    if stage_observation_nodes is not None:
+        raw=np.asarray(stage_observation_nodes)
+        if (raw.ndim!=1 or raw.dtype.kind not in 'iu' or not len(raw)
+                or len(np.unique(raw))!=len(raw) or np.any(raw<0) or np.any(raw>=len(C))):
+            raise ValueError('Unique valid stage observation nodes required')
+        observation_nodes=cp.asarray(raw,dtype=cp.int64)
+    # Inputs are sampled by the caller BEFORE Newton, at t+gamma*dt and
+    # t+dt. They are read-only stage coefficients, never callbacks which
+    # could advance upstream history during rejected Newton iterations.
+    synapses=[None,None]
+    if synaptic_stages is not None:
+        if not isinstance(synaptic_stages,(list,tuple)) or len(synaptic_stages)!=2:
+            raise ValueError('Two presampled synaptic stages required')
+        previous_nodes=None
+        for i,spec in enumerate(synaptic_stages):
+            if set(spec)!={'nodes','conductance_nS','reversal_mV'}:
+                raise ValueError('Explicit anatomical nodes, conductance and reversal required')
+            raw=np.asarray(spec['nodes']);g=np.asarray(spec['conductance_nS']);E=np.asarray(spec['reversal_mV'])
+            if (raw.ndim!=1 or raw.dtype.kind not in 'iu' or not len(raw)
+                    or len(np.unique(raw))!=len(raw) or np.any(raw<0) or np.any(raw>=len(C))
+                    or g.shape!=raw.shape or g.dtype.kind not in 'fiu' or not np.isfinite(g).all() or np.any(g<0)
+                    or E.dtype.kind not in 'fiu' or E.shape not in [(),raw.shape] or not np.isfinite(E).all()):
+                raise ValueError('Finite nonnegative synaptic conductance on unique physical nodes required')
+            if previous_nodes is not None and not np.array_equal(previous_nodes,raw):
+                raise ValueError('Synaptic anatomical support must match across stages')
+            previous_nodes=raw.copy();sn=cp.asarray(raw,dtype=cp.int64)
+            if not bool(cp.all(C[sn]>0)):raise ValueError('Synapses require physical membrane capacitance')
+            union=np.union1d(self.active_nodes,raw);jn=cp.asarray(union,dtype=cp.int64)
+            ap=cp.asarray(np.searchsorted(union,self.active_nodes));sp=cp.asarray(np.searchsorted(union,raw))
+            sg=cp.asarray(g,dtype=cp.float64);se=cp.asarray(E,dtype=cp.float64)
+            synapses[i]=(sn,sg,se,jn,ap,sp)
+    ca=_local_channel;ca_updates=[None,None]
+    if ca is not None:
+        if getattr(self,'calcium_port',None) is not ca or ca.time_ns!=self.time_ns:
+            raise ValueError('Local channel must belong to this session at the same clock')
+        ca.assert_state()
+        cn=cp.asarray(ca.nodes,dtype=cp.int64)
+        if np.any(ca.nodes>=len(C)) or not bool(cp.all(C[cn]>0)):
+            raise ValueError('Calcium requires actual membrane nodes')
+        for i,syn in enumerate(synapses):
+            union=np.union1d(self.active_nodes,ca.nodes)
+            if syn is not None:union=np.union1d(union,cp.asnumpy(syn[0]))
+            ca_updates[i]=(cp.asarray(union),cp.asarray(np.searchsorted(union,self.active_nodes)),
+                cp.asarray(np.searchsorted(union,ca.nodes)),
+                None if syn is None else cp.asarray(np.searchsorted(union,cp.asnumpy(syn[0]))))
+    def stage(vbase,xbase,guess,synapse,ca_base,ca_update,threshold_guess=None):
+        return compact_stage(self,vbase,xbase,guess,synapse,ca_base,ca_update,threshold_guess,
+            shift=shift,q=q,current=current,ca=ca,rtol=rtol,atol=atol,max_newton=max_newton,
+            gate_atol=gate_atol,progress=progress)
+    first,r1=stage(self.voltage,self.gates,self.voltage,synapses[0],None if ca is None else ca.gates,ca_updates[0])
+    if first is None:return dict(accepted=False,time_ns=self.time_ns,method=METHOD,stages=[r1])
+    v1,x1,i1,c1=first;ratio=(1-GAMMA)/GAMMA
+    vbase=self.voltage+ratio*(v1-self.voltage)
+    xbase=self.gates+ratio*(x1-self.gates)
+    cbase=None if ca is None else ca.gates+ratio*(c1['gates']-ca.gates)
+    # Predictor changes only the starting iterate; the same full residual
+    # and physical stages still decide acceptance. No extra history state.
+    guess=v1 if stage_predictor=='previous' else self.voltage+(v1-self.voltage)/GAMMA
+    second,r2=stage(vbase,xbase,guess,synapses[1],cbase,ca_updates[1],
+                    threshold_guess=None if stage_predictor=='previous' else v1)
+    if second is None:return dict(accepted=False,time_ns=self.time_ns,method=METHOD,stages=[r1,r2])
+    v2,x2,i2,c2=second;dq=dt*((1-GAMMA)*i1.sum(axis=0)+GAMMA*i2.sum(axis=0))
+    charge=self.ionic_charge_pC+dq
+    if not np.isfinite(charge).all() or not bool(cp.isfinite(v2).all()):
+        return dict(accepted=False,time_ns=self.time_ns,method=METHOD,reason='nonfinite_final_state',stages=[r1,r2])
+    synaptic_charge=None
+    if synaptic_stages is not None:
+        currents=[]
+        for v,syn in zip((v1,v2),synapses):
+            sn,sg,se,_,_,_=syn
+            currents.append(float(cp.sum(sg*(v[sn]+self.leak_reversal_mV-se))))
+        synaptic_charge=dt*((1-GAMMA)*currents[0]+GAMMA*currents[1])
+        if not np.isfinite(synaptic_charge):
+            return dict(accepted=False,time_ns=self.time_ns,method=METHOD,reason='nonfinite_synaptic_charge',stages=[r1,r2])
+    # Read accepted stage voltages before any state commits. This optional
+    # observation lets callers integrate receptor/axial currents with the
+    # same quadrature, instead of inferring them from endpoint voltages.
+    # Observation cannot change Newton, physical state or its identity.
+    observations=None
+    if observation_nodes is not None:
+        observations=dict(nodes=cp.asnumpy(observation_nodes).tolist(),
+            start_ns=self.time_ns,dt_ns=dt_ns,fractions=[GAMMA,1.],
+            voltage_mV=[(cp.asnumpy(v[observation_nodes])+self.leak_reversal_mV).tolist() for v in (v1,v2)])
+    ca_proposal=None
+    if ca is not None:
+        try:ca_proposal=ca.final_proposal(dt_ns,c1,c2)
+        except (ValueError,FloatingPointError) as exc:
+            return dict(accepted=False,time_ns=self.time_ns,method=METHOD,reason='calcium_chemistry_rejected',
+                        detail=str(exc),stages=[r1,r2])
+        ca.commit(ca_proposal)
+    # Same RK quadrature as the two accepted membrane/gate equations.
+    # This is accumulated ionic charge, not a concentration model.
+    self.voltage=v2;self.gates=x2;self.ionic_charge_pC=charge;self.time_ns+=dt_ns
+    result=dict(accepted=True,time_ns=self.time_ns,method=METHOD,stage_predictor=stage_predictor,stages=[r1,r2],
+                total_iterations=r1['total_iterations']+r2['total_iterations'],
+                ionic_current_outward_pA=i2.sum(axis=0).tolist(),ionic_charge_increment_pC=dq.tolist())
+    if synaptic_charge is not None:
+        result['synaptic_outward_charge_increment_pC']=synaptic_charge
+    if observations is not None:result['stage_observations']=observations
+    if ca_proposal is not None:
+        chem=ca_proposal['chemistry']
+        result['calcium']=dict(outward_charge_increment_pC=ca_proposal['dq'].tolist(),
+            site_charge_increment_pC=chem['calcium_charge_increment_pC'].tolist(),
+            release_increment=chem['release_increment'].tolist(),
+            allocation_error_pC=ca_proposal['allocation_error_pC'],
+            chemical_balance_max_pC=float(abs(chem['calcium_balance_pC']).max()),
+            pool_balance_max=float(abs(chem['pool_balance']).max()),
+            activation_stages=chem['output_activation_stages'].tolist())
+    return result

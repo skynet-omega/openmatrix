@@ -1,0 +1,54 @@
+{
+  "objective": "Integrate new generic numerical runtime with the exact conserved organism/body, then run seconds-long stage3 odor conditions. Motor remains transversal and may improve when actual integration requires it.",
+  "budget": {
+    "scientific_attempts": 14,
+    "aggregate_process_wall_s": 7200,
+    "short_attempt_s": 300,
+    "long_attempt_s": 1200,
+    "maximum_complete_numerical_prototypes": 2,
+    "RAM_GiB": 18,
+    "GPU_GiB": 14,
+    "operator_checks": 12,
+    "jev_calls": 1
+  },
+  "numerical_routes": {
+    "A": "Device-native generic target/rate graph stepping with explicit epoch input updates and physical-event waveform ports; maintain original equations, body1ms and validated partition boundaries. Reuse native engine ownership/stream/finite-check infrastructure.",
+    "B": "Existing native high-order explicit backend via a captured full-operator adapter if its cost/precision is better; no omitted mass/event/history. Not presumed suitable.",
+    "C": "Full monolithic descriptor export with sparse mass and event scheduling; deferred unless partitioned transport demonstrably cannot conserve model. Do not silently replace specialized modules with rate proxies."
+  },
+  "biological_hypotheses": {
+    "A": "Lateral sensory contrast attenuated or distorted before descending readout; compare ORN and both PN routes with actual downstream inputs.",
+    "B": "Common/basal state or initial history dominates response; compare paired sham/uniform and side differences without recalibrating after seeing outcome.",
+    "C": "Descending readout or body mapping loses/reverses an available neural contrast; compare actual DN signals, consumed commands and body response, then selective withdrawal if indicated."
+  },
+  "initial_conditions": "Start from conserved settled700ms checkpoint; reproduce no-ORN-rescaling engineering branch with inherited reader/tau modifications explicitly labelled. No new physiological fit. Clean40ms preparation, then each condition1s if transport gates pass.",
+  "conditions": [
+    "sham",
+    "uniform",
+    "odor_left",
+    "odor_right"
+  ],
+  "transport_screen": {
+    "duration_ms": 5,
+    "reference": "Corrected event-aware original equations and finer partition; initial same state; include checkpoints and incoming/outgoing ports, not just final yaw.",
+    "limits": {
+      "PN_voltage_mV": 0.005,
+      "gates": 0.0001,
+      "normalized_state": 0.0001,
+      "yaw_deg": 0.0001,
+      "root_position_m": 1e-06
+    },
+    "counts_clocks_flags": "exact in paired short transport; long timing and relevant event identity recorded",
+    "do_not_promote_short_screen_as_long_validation": true
+  },
+  "behavior": "Record historical100ms criterion only at that window, and continuous1s yaw/sensory/motor trajectories; do not relabel an expanded-window angle as historical PASS. No new stage3 admission absent motor reader independent grounding/withdrawal/restart controls.",
+  "preimplementation": {
+    "observed_limitation": "Generic smooth-ODE benchmark has no direct adapter for actual heterogenous checkpoint; original runtime couples specialized physical states and events.",
+    "operation": "Generic device graph integrator receives target/rate operator with explicit mutable boundary buffers and time-resolved owned-state ports; callbacks/graphs execute on one stream with persistent finite flag.",
+    "legal_information": "Current physical state and declared equations/topology, held legal sensor inputs and timestamped physical events; no desired direction or answers.",
+    "difference": "Imports actual physical operator via adapter rather than synthetic replacement; retains existing model-specific equations outside generic execution.",
+    "falsifier": "Changing boundary input or alternating physical events changes the appropriate stage while no stale captured allocation persists; original corrected reference trajectory matches frozen limits."
+  },
+  "stop_rules": "Preserve failed attempts; repair implementation bugs and repeat affected checks, never tune physiology/error criteria to obtain PASS. Run actual seconds only if short transport passes. If unsupported semantics block faithful integration, report exact missing capability and actual partial progress.",
+  "scope": "No Codex subagents; ChatGPT review actual evidence, Jev advisory routing only. Historical source tree read-only."
+}

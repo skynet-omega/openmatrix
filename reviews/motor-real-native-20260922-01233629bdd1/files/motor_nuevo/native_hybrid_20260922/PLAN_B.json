@@ -1,0 +1,15 @@
+{
+  "parent": "uncompressed A native controller and unchanged original 51 membrane operator bases",
+  "limitation": "Six dense factorizations per accepted midpoint trial and a shared minimum step across 1557 cells dominate membrane arithmetic.",
+  "method": "RA34PW2 Rosenbrock-W 3(2), four stages, one frozen block-diagonal approximate Jacobian per trial. Full voltage/gate coupling remains in every RHS. The approximate W matrix omits cross voltage/gate Jacobian blocks explicitly; no gates are removed or equilibrated.",
+  "source": "PETSc v3.24.5 rosw.c RA34PW2 tableau; Rang and Angermann 2005. Method coefficients, transformed stages and cubic dense output are preserved.",
+  "operation": "Factor C/(gamma*h)+K(g0) once, solve four stage RHS; solve gate diagonal blocks; embedded error against same V_ATOL=2e-5 mV and G_ATOL=2e-7; dense output at integer half-step and endpoint feeds existing physical event commits.",
+  "legal_information": "Current physical voltage/gates, model matrices, prescribed instantaneous conductance/current, physical timestep only.",
+  "novelty": "Known numerical method, new engineering adapter; no novel biological mechanism claimed.",
+  "numerical_change": true,
+  "event_change_risk": "Accepted timesteps and dense midpoint voltage can differ; exact event counts and timestamped event function comparisons required before any promotion.",
+  "falsifier": "Method order/reference error fails, dense midpoint gates invalid, event counts or whole-state fixed short screen fails, or complete wall time does not improve.",
+  "control": "Original midpoint scheme and independent CPU Radau reference, same initial physical state and inputs. No compression or low precision in this prototype.",
+  "maximum_step_ns": 25000,
+  "budget": "Second and last complete numerical prototype of existing PLAN.json; consumes existing 16 runs/16 operator checks/5400 s; no added budget."
+}

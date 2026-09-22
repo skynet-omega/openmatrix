@@ -1,0 +1,68 @@
+{
+  "reference": "campanas/etapa3_motor_nuevo_20260922/transport_reference_left_01",
+  "candidate": "campanas/etapa3_motor_nuevo_20260922/transport_resident_left_01",
+  "verifier_revision": 2,
+  "metrics": {
+    "PN_voltage_max_abs_mV": 0.0003340892789851502,
+    "normalized_state_max_abs": 5.4580146619714887e-05,
+    "gates_max_abs": 6.397130569613108e-05,
+    "yaw_trace_max_abs_deg": 1.4864554032101296e-10,
+    "root_position_max_abs_m": 7.182275607586774e-14,
+    "final_event_counts_exact": true,
+    "finite": true,
+    "endpoint_clock_exact": true,
+    "model_metadata_exact": true
+  },
+  "limits": {
+    "PN_voltage_max_abs_mV": 0.005,
+    "normalized_state_max_abs": 0.0001,
+    "gates_max_abs": 0.0001,
+    "yaw_trace_max_abs_deg": 0.0001,
+    "root_position_max_abs_m": 1e-06
+  },
+  "exact_all_leaves": false,
+  "histories": {
+    "/pn_online_state/base/apl_receptor": {
+      "max_abs": 2.344884963445537e-05,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    },
+    "/pn_online_state/receptors/GABA": {
+      "max_abs": 2.1875888828182255e-07,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    },
+    "/pn_online_state/receptors/Glu": {
+      "max_abs": 1.112865925037565e-07,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    }
+  },
+  "history_normalized_limit": 0.0001,
+  "unexpected_layouts": [],
+  "changed_flags": [],
+  "changed_exact_fields": [],
+  "screen_pass": true,
+  "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+}
