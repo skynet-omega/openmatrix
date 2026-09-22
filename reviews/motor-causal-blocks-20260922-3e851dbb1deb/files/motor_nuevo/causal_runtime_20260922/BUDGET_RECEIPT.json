@@ -1,0 +1,18 @@
+{
+  "organism_loads_executed": 6,
+  "organism_load_budget": 12,
+  "breakdown": "3 loads continuous/cold/fault recovery +3 whole-organism benchmark loads. No concurrent GPU benchmarks.",
+  "complete_prototypes": 2,
+  "prototype_A": "local-clock CUDA adaptive epochs, real organism",
+  "prototype_B": "generic affine receiver/event response, separate operator fixtures only",
+  "C": "full coupled Schur reasoning only",
+  "benchmark_process_wall_s": 199.23872436099919,
+  "recovery_process_wall_s": 61.942398563958704,
+  "operator_check_invocations_before_clean": 6,
+  "portable_checks_reserved": 4,
+  "analysis_reconstruction_checks": 6,
+  "upper_bound_process_wall_s": 2181.181122924958,
+  "budget_wall_s": 5400,
+  "new_jev_requests": 1,
+  "stop_reason": "Completed bounded engineering milestone: two implementations, actual20ms comparison and exact neural recovery repair. Next nonlinear event scheduling requires a distinct contract; do not claim efficient whole-brain completion."
+}

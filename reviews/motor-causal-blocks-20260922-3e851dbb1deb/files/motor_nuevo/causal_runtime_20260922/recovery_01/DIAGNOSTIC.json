@@ -1,0 +1,143 @@
+{
+  "cold_lost_operator_fields": {
+    "tau": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "f3a7bbb369e085b5e521d8c14ff1aed65fb4ea0f34c926e580f26dfc10409051"
+      }
+    },
+    "theta": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "5602c04d9635154dc6c3a7cda1c43c4b55f931361dad4d94a20121cf2d17a2b5"
+      }
+    },
+    "cuda_tau": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "f3a7bbb369e085b5e521d8c14ff1aed65fb4ea0f34c926e580f26dfc10409051"
+      }
+    },
+    "cuda_theta": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "5602c04d9635154dc6c3a7cda1c43c4b55f931361dad4d94a20121cf2d17a2b5"
+      }
+    }
+  },
+  "cold_operator_restored_exact": true,
+  "cold_neural_retry_changed_paths": [],
+  "cold_continuation_differences": [],
+  "fault_lost_operator_fields": {
+    "tau": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "f3a7bbb369e085b5e521d8c14ff1aed65fb4ea0f34c926e580f26dfc10409051"
+      }
+    },
+    "theta": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "5602c04d9635154dc6c3a7cda1c43c4b55f931361dad4d94a20121cf2d17a2b5"
+      }
+    },
+    "cuda_tau": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "f3a7bbb369e085b5e521d8c14ff1aed65fb4ea0f34c926e580f26dfc10409051"
+      }
+    },
+    "cuda_theta": {
+      "saved": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+      },
+      "current": {
+        "shape": [
+          166700
+        ],
+        "dtype": "<f8",
+        "sha256": "5602c04d9635154dc6c3a7cda1c43c4b55f931361dad4d94a20121cf2d17a2b5"
+      }
+    }
+  },
+  "rollback_changed_paths": [],
+  "stale_runtime_rejected": true,
+  "fault_operator_restored_exact": true,
+  "coupled_session_reuse_rejected": true,
+  "fault_neural_retry_changed_paths": [],
+  "fault_continuation_differences": []
+}

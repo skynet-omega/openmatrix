@@ -1,0 +1,68 @@
+{
+  "reference": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/motor14_20260922/event_reference_fine",
+  "candidate": "motor_nuevo/causal_runtime_20260922/device_aligned_01",
+  "verifier_revision": 2,
+  "metrics": {
+    "PN_voltage_max_abs_mV": 0.0003279669514051342,
+    "normalized_state_max_abs": 5.458014661986754e-05,
+    "gates_max_abs": 6.39691095253303e-05,
+    "yaw_trace_max_abs_deg": 5.5138116294983774e-12,
+    "root_position_max_abs_m": 2.680147770384167e-15,
+    "final_event_counts_exact": true,
+    "finite": true,
+    "endpoint_clock_exact": true,
+    "model_metadata_exact": true
+  },
+  "limits": {
+    "PN_voltage_max_abs_mV": 0.005,
+    "normalized_state_max_abs": 0.0001,
+    "gates_max_abs": 0.0001,
+    "yaw_trace_max_abs_deg": 0.0001,
+    "root_position_max_abs_m": 1e-06
+  },
+  "exact_all_leaves": false,
+  "histories": {
+    "/pn_online_state/base/apl_receptor": {
+      "max_abs": 2.34482329797836e-05,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    },
+    "/pn_online_state/receptors/GABA": {
+      "max_abs": 9.876155319665791e-07,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    },
+    "/pn_online_state/receptors/Glu": {
+      "max_abs": 8.951254233668937e-08,
+      "segments": [
+        16,
+        2
+      ],
+      "future_interval_ns": [
+        44451000000,
+        44451125000
+      ],
+      "knots": 17
+    }
+  },
+  "history_normalized_limit": 0.0001,
+  "unexpected_layouts": [],
+  "changed_flags": [],
+  "changed_exact_fields": [],
+  "screen_pass": true,
+  "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_BEFORE_NEW_EXECUTIONS",
+  "purpose": "Generic resident numerical runtime tested with the complete existing organism; no anatomical or tolerance fitting.",
+  "parent": "native_hybrid_20260922/aligned_01",
+  "budget": {
+    "organism_loads": 12,
+    "operator_checks": 20,
+    "complete_numerical_prototypes": 2,
+    "aggregate_process_wall_s": 5400,
+    "short_timeout_s": 240,
+    "long_timeout_s": 900,
+    "host_GiB": 18,
+    "device_GiB": 14,
+    "new_jev_requests_max": 1
+  },
+  "prerequisite": "Preserve exact effective operator across cold reconstruction. Test continuous, cold-rebuilt, and failure-rebuilt paths; failed body sessions remain failed.",
+  "hypotheses": {
+    "A": {
+      "operation": "Independent adaptive clocks on declared independent state blocks inside a coupling epoch; device-owned trial/accept/reject and physical event commits. One slow cell no longer constrains all cells and no host synchronization per internal trial.",
+      "information": "Same initial states, geometry and held inputs; same declared coupling boundaries, error budgets and event rule.",
+      "difference": "Parent has a global maximum estimator and host C++ iteration. This introduces block-local accepted schedules, without altering equations.",
+      "falsifier": "No materially useful end-to-end speedup, hidden interblock coupling, changed event counts/flags, or whole-organism differences beyond frozen transport criteria.",
+      "prototype": true
+    },
+    "B": {
+      "operation": "Analytical weighted response of declared affine filter/receiver chains to timestamped events; retain event order and prefix queries. Nonlinear or recurrent receivers must retain a correct fallback until a separate error bound exists.",
+      "information": "Physical event timestamps/amplitudes and declared linear operator, not behavioral outputs.",
+      "difference": "Avoid sampling an unobserved late impulse with the same zero estimator; no claim that a generic nonlinear CNS can simply average it.",
+      "falsifier": "Failure on late-event, equal-time-constant, prefix or noncommuting receptor controls; inability to apply to real dominant operators.",
+      "prototype": true
+    },
+    "C": {
+      "operation": "Full voltage-gate Jacobian with Schur elimination of linear stage corrections, retaining all states.",
+      "difference": "Cross derivatives absent from the discarded block-diagonal W are restored.",
+      "falsifier": "Setup/stage work exceeds possible saved factorizations, or poor applicability across operators.",
+      "prototype": false
+    }
+  },
+  "controls": {
+    "execution_rtol": 1e-11,
+    "execution_atol": 1e-10,
+    "membrane_voltage_atol_mV": 2e-05,
+    "membrane_gate_atol": 2e-07,
+    "linear_residual_limit": 1e-12,
+    "whole_organism_criteria": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/INTEGRATED_ADAPTIVE_CONTRACT.json",
+    "exact": "physical clocks, event counts, identities, flags",
+    "promotion": "Short full-organism screen first; only passing variants may consume longer trajectory budget. No full second speed claim without executing it."
+  },
+  "selection": "A first because measured native trial/commit still synchronizes twice per accepted substep; B independently tested against analytic/matrix exponential reference; C remains rival with published mathematical basis. Do not combine B into nonlinear real CNS without validation.",
+  "classification": "Engineering, not a new biological mechanism. No stage3 admission inferred. No Codex subagents. ChatGPT documentary review is not independent GPU reproduction."
+}
