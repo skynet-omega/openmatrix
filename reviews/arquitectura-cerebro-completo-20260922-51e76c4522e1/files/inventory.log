@@ -1,0 +1,38 @@
+{
+  "scope": "Solver topology compatibility counterexample, not physiology or speed benchmark",
+  "rows": [
+    {
+      "topology": "path128",
+      "coordinates": 128,
+      "G_nnz": 382,
+      "retained_core": 0,
+      "contraction_rounds": 8,
+      "current_GPU_constructor": "accepts"
+    },
+    {
+      "topology": "grid16x16",
+      "coordinates": 256,
+      "G_nnz": 1216,
+      "retained_core": 252,
+      "contraction_rounds": 1,
+      "current_GPU_constructor": "rejects",
+      "reason": "Parallel core implementation bound64"
+    },
+    {
+      "topology": "clique96",
+      "coordinates": 96,
+      "G_nnz": 9216,
+      "retained_core": 96,
+      "contraction_rounds": 0,
+      "current_GPU_constructor": "rejects",
+      "reason": "max() arg is an empty sequence"
+    }
+  ],
+  "fixed_kernel_limitations": [
+    "NaT/NaP/K equations and3conductances hardcoded",
+    "Ca kernel atmost4gates",
+    "Small dense electrical core atmost64",
+    "PN specialized outer SDIRK and release chemistry adapter"
+  ],
+  "conclusion": "Current PN prototypes are reusable experiments, not a generic whole-brain engine."
+}
