@@ -1,0 +1,127 @@
+{
+  "format_version": 2,
+  "label": "pn-abc-diseno-20260922",
+  "description": "Diseño de tres alternativas PN. Cápsula de un paso reproduce exactamente el original. Condensación y compilación aún sin resultado completo; revisión solicitada de ecuaciones y controles. Referencia del bloque base durante1s añadida, sin afirmar motor completo.",
+  "files": [
+    {
+      "path": "PLAN.md",
+      "bytes": 2766,
+      "sha256": "36c5ce308b112b58b3fe2dbefc0ecd738102cfec0ad1b8570e0136dda94c9681"
+    },
+    {
+      "path": "STRUCTURE.json",
+      "bytes": 341,
+      "sha256": "ddf17ef103b373267bb5d2c424610ef5e201487e1323f26f665316d921ac45fb"
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 541,
+      "sha256": "09c118a5b3757f4ebd121377991d5c8858472e736f09a83a213034bddd751d85"
+    },
+    {
+      "path": "portable.py",
+      "bytes": 3273,
+      "sha256": "0b2abfabcaab1d92104f5b40ba2dd0ff3a6b1538a5f4bdde6c2dd6aadc86fb7f"
+    },
+    {
+      "path": "condensation.py",
+      "bytes": 2251,
+      "sha256": "6d1a8fc68667017170d906ed22ca0096021266e884f7bb32f23f7a1455ee737b"
+    },
+    {
+      "path": "linear_screen.py",
+      "bytes": 2622,
+      "sha256": "af86a7954fb71cf229c6f20c409829e1eeabe9415b0f9566254b8f48d489ae79"
+    },
+    {
+      "path": "VENDOR.json",
+      "bytes": 1110,
+      "sha256": "181c456669ba855d9b7273e6b0d5f8b2dc5616a1d108c5b58d435bf0fdfbe37c"
+    },
+    {
+      "path": "BUG_01.md",
+      "bytes": 413,
+      "sha256": "fc0b757be48929c49d5e15399559b30ef508c4902e267e6135a9d1c10663764f"
+    },
+    {
+      "path": "PORTABLE_REPLAY.json",
+      "bytes": 477,
+      "sha256": "7f5aed075107183cd5c8b1c222f7c4f47b58893ba151af85221271910821f406"
+    },
+    {
+      "path": "base_refinement/RESULT.json",
+      "bytes": 611,
+      "sha256": "d3a2338f7ca503255121ee5ca0e1f86863232008965e7dee86c3df305cb60f41"
+    },
+    {
+      "path": "jev_live/receipt.json",
+      "bytes": 708,
+      "sha256": "c10ae53503f43a38137a4af1844dd280c2bb83e925f6913fb4bc0b6198588c0a"
+    },
+    {
+      "path": "jev_live/routing.json",
+      "bytes": 536,
+      "sha256": "56ad31d2fd16886fc625908d385315b800b68d4fa56b731ca23f4bd3388d84cb"
+    },
+    {
+      "path": "vendor/pn_mass_krylov_backend.py",
+      "bytes": 3561,
+      "sha256": "774bb08f51b531722cfe566d4b16b1c62e73620d283144f1eb46ab0adcda23dc"
+    },
+    {
+      "path": "vendor/pn_graph_elimination_backend.py",
+      "bytes": 8184,
+      "sha256": "b1fbee47e7a0a3a078c2763372ec2d9b5ebd16c27cb44684abf665ddffe0d336"
+    },
+    {
+      "path": "vendor/pn_calcium_release.py",
+      "bytes": 10162,
+      "sha256": "0eec7e5e8216cd9df5da371c34f670fa3b915eaf91b7aa1a8ccdcedd0d756cfb"
+    },
+    {
+      "path": "vendor/pn_calcium_port.py",
+      "bytes": 11693,
+      "sha256": "bb15c522b92d145989704f13300ce2d3b24a9103473a26e89c68d2331d698d72"
+    },
+    {
+      "path": "vendor/pn_mass_coupled_step.py",
+      "bytes": 14296,
+      "sha256": "3b5c1edd5abd6bc587a987367b9f63f8f268ff8c9cf15442d3bb2b0389bd80be"
+    },
+    {
+      "path": "vendor/neck_joint_transient.py",
+      "bytes": 4103,
+      "sha256": "4825e5ab7d30dfea644a9c0251473b00dce3d94fc5ab6a476ac425280b2f8f39"
+    },
+    {
+      "path": "vendor/compensated_csr.py",
+      "bytes": 1866,
+      "sha256": "ebd27c96a24a223ee6aef768e6fec3023122b71467ed2e9a703733fdda9463fe"
+    },
+    {
+      "path": "vendor/neck_gpu_transient.py",
+      "bytes": 2245,
+      "sha256": "423c1ebd33df5f06063a97405fa0a0ac0dc78cb7692f04036ab57e26d361a12a"
+    },
+    {
+      "path": "vendor/pn_coupled_ionic.py",
+      "bytes": 17625,
+      "sha256": "0bc417c652dacdfbef604c8d69b8245d542e5c4d28ea8c520a2232d77ea7271e"
+    },
+    {
+      "path": "vendor/pn_mass_backend.py",
+      "bytes": 5867,
+      "sha256": "f4249d7a81c5b9587c9a8bbf71437aa681a6aa58af4271bd3c4e37e9231d406e"
+    },
+    {
+      "path": "vendor/pn_fine_ionic.py",
+      "bytes": 9577,
+      "sha256": "4bdeed668d9dbced0127b62cc2f08702020499876defaa0656569e70262cd573"
+    },
+    {
+      "path": "vendor/kc_four_port_active.py",
+      "bytes": 3410,
+      "sha256": "c9a3e31748f1a011d2e8181940d67129dd16037829ac1881e9bfc0098a08b8f2"
+    }
+  ]
+}

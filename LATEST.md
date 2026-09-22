@@ -1,5 +1,5 @@
 # Última evidencia
 
-[abc-resultados-20260922](reviews/abc-resultados-20260922-74e88e155fd1/README.md)
+[pn-abc-diseno-20260922](reviews/pn-abc-diseno-20260922-21ba9374259b/README.md)
 
-Tres hipótesis ejecutadas sobre la red recurrente base real. Dieciséis prefijos5ms y un segundo continuo base. Fuentes, estados y verificación incluidos. Faltan subsistemas especializados y cuerpo; no prueba fidelidad de1s ni cierra etapa3.
+Diseño de tres alternativas PN. Cápsula de un paso reproduce exactamente el original. Condensación y compilación aún sin resultado completo; revisión solicitada de ecuaciones y controles. Referencia del bloque base durante1s añadida, sin afirmar motor completo.
