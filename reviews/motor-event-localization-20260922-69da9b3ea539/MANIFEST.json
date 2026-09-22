@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "label": "motor-event-localization-20260922",
+  "description": "Paired real1ms instrumentation preserves endpoints exactly. First difference is sampled event timing; independent2x2-exponential/CUDA replay of port75907 matches both supplied histories. No stage3 admission. Prospective local event-resolution candidate described separately.",
+  "files": [
+    {
+      "path": "PLAN.json",
+      "bytes": 2287,
+      "sha256": "ab7835ceb0a1723655f0ac875822926796cb0e773f0892f0a07e558bb97c2ffa"
+    },
+    {
+      "path": "LOCALIZATION.json",
+      "bytes": 15935,
+      "sha256": "40f90aacab5a16ff0e85c69e2e150f1b789851cba633408b0d99793360b80881"
+    },
+    {
+      "path": "PORT_75907.json",
+      "bytes": 17849,
+      "sha256": "7e3ef28d3bd8c8f1dc89f2689e641ceb53f824243dedfdedb13962f205f15b49"
+    },
+    {
+      "path": "PORT_REPLAY.json",
+      "bytes": 414,
+      "sha256": "3b9f60dee14f55a0735df8043487a65aec471f7c8ede3be2ad6581fdbce39c5f"
+    },
+    {
+      "path": "analyze_boundaries.py",
+      "bytes": 4937,
+      "sha256": "74c61a747d17639dcceb380545abde6197ae358e8f05ab5b714473fbb1994648"
+    },
+    {
+      "path": "check_port_replay.py",
+      "bytes": 3254,
+      "sha256": "576323307c9c81d5bc9af7ab70839d3d3287288449b65a5aa8e3955de6e01366"
+    },
+    {
+      "path": "trace_boundaries.py",
+      "bytes": 5749,
+      "sha256": "6cad96794b81b4c2a932031ab8d668b1b4ea645fe650b51acba2157d624299f3"
+    },
+    {
+      "path": "EVENT_CANDIDATE.md",
+      "bytes": 2351,
+      "sha256": "0a7b57a804d1e8bd628089fde0cd15c0a5dd5c883564c28f73afecd37d1e1e37"
+    }
+  ]
+}

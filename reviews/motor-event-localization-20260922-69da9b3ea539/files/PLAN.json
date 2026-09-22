@@ -1,0 +1,13 @@
+{
+  "objective": "Locate the first 1ms discrepancy before numerical promotion; distinguish event timing from interface delivery and operator/initial-state mismatch. User authorizes proceeding to stage3 only when evidence and external review support readiness.",
+  "hypotheses": {
+    "A": "Identical event counts with different sampled peak times alter analytical synaptic filters; endpoint membrane tolerances alone miss this error.",
+    "B": "Waveform initial values, accepted-versus-predictor history or publication order differs; replaying identical events would still produce a discrepancy.",
+    "C": "Starting effective operator, external inputs or physical state differs; the discrepancy precedes the first differing event."
+  },
+  "budget": {"organism_loads": 6, "per_process_seconds": 240, "aggregate_process_seconds": 1500, "CPU_checks": 12, "small_GPU_fixture_runs": 16, "numerical_prototypes_maximum": 2, "new_Jev_requests": 1, "RAM_GiB": 18},
+  "first_pair": "Reference_cuda and causal_cuda, same unmodified1ms sham history; record boundaries, event marks, full CNS state and membrane inputs. Instrumentation must preserve prior exported endpoints exactly.",
+  "prospective_followups": "If A is isolated, use fixed predeclared cell step ceilings6250ns and1562ns as convergence diagnostics on replayed identical inputs, not select-until-PASS. If B or C, minimal implementation repair plus affected paired rerun within remaining loads. At most two numerical candidates; no physiological retuning.",
+  "criteria": {"historical_state_normalized_limit": 0.0001, "historical_gate_limit": 0.0001, "event_counts_clocks_identities_exact": true, "no_nonfinite": true, "causality": "Reconstruct q/s from recorded incoming state, exact event marks and declared time constants. Compare residual separately from differences in input histories.", "performance": "Measure actual organism with observation/load/serialization separated; never promote from synthetic or membrane-only speed."},
+  "stop": "A located and reproduced cause, repaired implementation with bounded verification, or exhausted budget. No automatic stage3 admission from agreement of reviewers alone. Preserve failures; subsequent architectural rounds require a distinct justified hypothesis and a new finite plan."
+}
