@@ -1,0 +1,12 @@
+{
+  "spec": {
+    "id": "B250",
+    "method": "rk4",
+    "h_s": 0.00025
+  },
+  "script_sha256": "bbabe3525ede31d9fc0c182ecb8b9624b625fad706f29daa554d9c85fc128388",
+  "contract_sha256": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be",
+  "duration_s": 1,
+  "condition": "photo_pulse",
+  "recording": "Every 1ms through5ms, then every10ms. Prefix compared exactly to existing5ms run. No one-second refined reference."
+}

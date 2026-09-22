@@ -1,5 +1,5 @@
 # Última evidencia
 
-[abc-diseno-20260922](reviews/abc-diseno-20260922-e4912604b8d7/README.md)
+[abc-resultados-20260922](reviews/abc-resultados-20260922-74e88e155fd1/README.md)
 
-Tres hipótesis del motor y fuentes ejecutables del discriminador recurrente base. Contrato prospectivo; resultados aún en evaluación. No incluye subsistemas especializados ni cuerpo. Antecedente MOTOR14 con fallos integrados conservados.
+Tres hipótesis ejecutadas sobre la red recurrente base real. Dieciséis prefijos5ms y un segundo continuo base. Fuentes, estados y verificación incluidos. Faltan subsistemas especializados y cuerpo; no prueba fidelidad de1s ni cierra etapa3.

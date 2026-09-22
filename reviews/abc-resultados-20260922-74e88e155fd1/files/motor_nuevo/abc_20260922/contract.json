@@ -1,0 +1,20 @@
+{
+ "schema":1,"scope":"base recurrent q/s equations only; no specialized PN/KC/APL/retinal replacements or body",
+ "neurons":166700,"stored_edges":25582938,"synaptic_tau_s":0.005,
+ "fixture_sha256":"d94d1fe3b07db0faedf1131490a6898cc510cb074592e53ee4dbf4a68286e6f4",
+ "duration_s":0.005,"sample_s":0.0005,
+ "conditions":["tonic","photo_pulse"],"photo_pulse":{"start_s":0.001,"stop_s":0.003,"amplitude":0.2},
+ "reference_steps_s":[0.00000625,0.000003125],
+ "candidates":[
+  {"id":"A125","method":"trapezoid","h_s":0.000125,"iterations":8},
+  {"id":"A250","method":"trapezoid","h_s":0.00025,"iterations":8},
+  {"id":"B125","method":"rk4","h_s":0.000125},
+  {"id":"B250","method":"rk4","h_s":0.00025},
+  {"id":"C125q7","method":"incremental_rk4","h_s":0.000125,"quantum":0.0000001},
+  {"id":"C125q5","method":"incremental_rk4","h_s":0.000125,"quantum":0.00001}
+ ],
+ "bounds":{"reference_max_qs":0.000001,"candidate_max_qs":0.0001,"implicit_fixed_point_residual":0.000000001,"finite_required":true,"domain_slack":0.0000001},
+ "selection":"all exposed conditions pass; prefer lowest sum of wall times; no complete-engine promotion",
+ "budget":{"gpu_wall_seconds":1800,"host_memory_GiB":8,"gpu_memory_GiB":12,"runs":16,"long_base_runs":1,"long_base_duration_s":1,"long_base_wall_limit_s":300,"long_base_no_reference_claim":true},
+ "stop":"six candidates on two conditions and two references; no added parameter search; candidate failures retained"
+}

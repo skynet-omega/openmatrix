@@ -1,0 +1,153 @@
+{
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "scope": "base recurrent q/s equations only; no specialized PN/KC/APL/retinal replacements or body",
+  "reference_refinement": [
+    {
+      "condition": "tonic",
+      "max_qs_refinement": 1.8602560981804462e-08
+    },
+    {
+      "condition": "photo_pulse",
+      "max_qs_refinement": 2.0588625514192187e-08
+    }
+  ],
+  "rows": [
+    {
+      "condition": "tonic",
+      "id": "A125",
+      "max_qs_error": 4.5565092109317e-05,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.5303791370242834,
+      "implicit_residual": 2.736298108413262e-16,
+      "updated_edges": 0
+    },
+    {
+      "condition": "tonic",
+      "id": "A250",
+      "max_qs_error": 0.0001249096417849263,
+      "pass": false,
+      "domain_pass": true,
+      "wall_s": 0.26583176804706454,
+      "implicit_residual": 2.709593818121975e-16,
+      "updated_edges": 0
+    },
+    {
+      "condition": "tonic",
+      "id": "B125",
+      "max_qs_error": 7.769590839422905e-06,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.21157723700162023,
+      "implicit_residual": 0.0,
+      "updated_edges": 0
+    },
+    {
+      "condition": "tonic",
+      "id": "B250",
+      "max_qs_error": 2.473470763077197e-05,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.10883398103760555,
+      "implicit_residual": 0.0,
+      "updated_edges": 0
+    },
+    {
+      "condition": "tonic",
+      "id": "C125q7",
+      "max_qs_error": 7.76959976647197e-06,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.5678486649994738,
+      "implicit_residual": 0.0,
+      "updated_edges": 709162890
+    },
+    {
+      "condition": "tonic",
+      "id": "C125q5",
+      "max_qs_error": 1.4900448518151421e-05,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.2549494070117362,
+      "implicit_residual": 0.0,
+      "updated_edges": 195219667
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "A125",
+      "max_qs_error": 4.556130955717254e-05,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.5298998299986124,
+      "implicit_residual": 2.7067145418420063e-16,
+      "updated_edges": 0
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "A250",
+      "max_qs_error": 0.00012490994043046883,
+      "pass": false,
+      "domain_pass": true,
+      "wall_s": 0.268585266021546,
+      "implicit_residual": 2.725697022634341e-16,
+      "updated_edges": 0
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "B125",
+      "max_qs_error": 7.769681795034458e-06,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.21136297803604975,
+      "implicit_residual": 0.0,
+      "updated_edges": 0
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "B250",
+      "max_qs_error": 2.5686546169878188e-05,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.10757864901097491,
+      "implicit_residual": 0.0,
+      "updated_edges": 0
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "C125q7",
+      "max_qs_error": 7.769687944781372e-06,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.8433721010223962,
+      "implicit_residual": 0.0,
+      "updated_edges": 1844273671
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "C125q5",
+      "max_qs_error": 7.911645807975876e-06,
+      "pass": true,
+      "domain_pass": true,
+      "wall_s": 0.49219687399454415,
+      "implicit_residual": 0.0,
+      "updated_edges": 1064669577
+    }
+  ],
+  "eligible": [
+    "A125",
+    "B125",
+    "B250",
+    "C125q7",
+    "C125q5"
+  ],
+  "selected_base_only": "B250",
+  "bounds": {
+    "reference_max_qs": 1e-06,
+    "candidate_max_qs": 0.0001,
+    "implicit_fixed_point_residual": 1e-09,
+    "finite_required": true,
+    "domain_slack": 1e-07
+  },
+  "contract_sha256": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be",
+  "no_whole_organism_promotion": true
+}

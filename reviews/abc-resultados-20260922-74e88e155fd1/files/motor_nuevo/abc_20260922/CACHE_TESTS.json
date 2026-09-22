@@ -1,0 +1,46 @@
+{
+  "capture_vs_uncaptured": {
+    "y": 0.0,
+    "previous": 0.0,
+    "aa": 0.0,
+    "bb": 0.0
+  },
+  "nonmonotone_updates": [
+    {
+      "shift": 0,
+      "sum_drift": 5.551115123125783e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": 1,
+      "sum_drift": 4.163336342344337e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": 0.5,
+      "sum_drift": 6.938893903907228e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": -1,
+      "sum_drift": 4.163336342344337e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": 0.25,
+      "sum_drift": 5.551115123125783e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": 0,
+      "sum_drift": 6.938893903907228e-17,
+      "source_quantization_error": 0.0
+    },
+    {
+      "shift": 1,
+      "sum_drift": 5.551115123125783e-17,
+      "source_quantization_error": 0.0
+    }
+  ],
+  "domain": "nonnegative source transmissions, positive scale; crossings into negative release are explicitly outside supported C domain and rejected by Guarded"
+}

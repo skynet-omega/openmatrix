@@ -1,0 +1,12 @@
+{"run": "tonic_R0", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 4.140484275994822}
+{"run": "tonic_R1", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 8.533578994043637}
+{"run": "tonic_A125", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 0.577699437038973}
+{"run": "tonic_A250", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 0.28933704004157335}
+{"run": "tonic_B125", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 0.22887679905397817}
+{"run": "tonic_B250", "persistent_flags": 0, "max_trajectory_change": 0.0, "wall_s": 0.11697830201592296}
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/abc_20260922/guarded_checks.py", line 72, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/abc_20260922/guarded_checks.py", line 48, in main
+    if flag:raise ValueError(f'Invalid intermediate state {name}, flags={flag}')
+ValueError: Invalid intermediate state tonic_C125q7, flags=2

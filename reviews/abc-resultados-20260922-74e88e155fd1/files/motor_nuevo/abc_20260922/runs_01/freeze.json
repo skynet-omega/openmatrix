@@ -1,0 +1,17 @@
+{
+  "contract_sha256": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be",
+  "files": {
+    "abc_20260922/recurrence.py": "e182abaa09f28f3b89bb3a0c532480b455857b6e062de9f7d3c6fbf14debcf46",
+    "abc_20260922/recurrence.cu": "8bca724e8cd3682f915b23d4ec8b1aa303f0170f604d7b0212a33dd66e97b730",
+    "abc_20260922/contract.json": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be",
+    "abc_20260922/initial.npz": "3551795be65fb4eaafb1c47d42809957c4fe61c703c2a313485533f15703f426",
+    "abc_20260922/initial_provenance.json": "960bfb71371ac2d9d9180010ebf398ff149958eb991b195a7c80b8da663f46f0",
+    "connections.cu": "3db5f273c69b4175e86b24bdbbcceae92748e46b2dbe3a238692ac95492a17a1"
+  },
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "cupy": "13.6.0",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "scope": "base recurrent q/s equations only; no specialized PN/KC/APL/retinal replacements or body"
+}

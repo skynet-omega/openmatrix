@@ -1,0 +1,6 @@
+[
+ {"id":"implicit_coupling","description":"Compare the mathematical validity and finite-cost falsifier of joint implicit trapezoid q/s iteration against GPU-resident explicit RK4 for a 166700-neuron recurrent base model. No PN/KC/body integration claim."},
+ {"id":"incremental_scatter","description":"Implement and test a CUDA CSC incremental synaptic-sum operator with explicit invalidation, finite quantization error and comparison against the same dense-row recurrent model."},
+ {"id":"external_code_review","description":"Read commit-pinned public source files and independently critique graph-capture semantics, frozen numerical comparisons and limits of the claim. Do not assume files were executed."},
+ {"id":"automated_evidence","description":"Implement an idempotent allowlisted publication pipeline for the already user-authorized OpenMatrix evidence repository, including deterministic archive hashes and public readback."}
+]

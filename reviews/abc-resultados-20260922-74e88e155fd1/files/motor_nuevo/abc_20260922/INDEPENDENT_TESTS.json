@@ -1,0 +1,68 @@
+{
+  "independent_rhs_max_error": 2.220446049250313e-15,
+  "rows": [
+    {
+      "condition": "tonic",
+      "id": "A125",
+      "max_error_vs_Radau": 1.1241807161610495e-05
+    },
+    {
+      "condition": "tonic",
+      "id": "A250",
+      "max_error_vs_Radau": 4.4976581106470626e-05
+    },
+    {
+      "condition": "tonic",
+      "id": "B125",
+      "max_error_vs_Radau": 1.2966497564548263e-06
+    },
+    {
+      "condition": "tonic",
+      "id": "B250",
+      "max_error_vs_Radau": 5.5217658433415195e-06
+    },
+    {
+      "condition": "tonic",
+      "id": "C125q7",
+      "max_error_vs_Radau": 1.2966497564548263e-06
+    },
+    {
+      "condition": "tonic",
+      "id": "C125q5",
+      "max_error_vs_Radau": 1.2966484377319176e-06
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "A125",
+      "max_error_vs_Radau": 1.1110705159467216e-05
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "A250",
+      "max_error_vs_Radau": 4.445213235448886e-05
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "B125",
+      "max_error_vs_Radau": 8.36583382457512e-07
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "B250",
+      "max_error_vs_Radau": 1.4147853203416716e-06
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "C125q7",
+      "max_error_vs_Radau": 8.36583382457512e-07
+    },
+    {
+      "condition": "photo_pulse",
+      "id": "C125q5",
+      "max_error_vs_Radau": 8.36584688856945e-07
+    }
+  ],
+  "A_B_A_exact": true,
+  "incremental_zero_threshold_error": 2.7755575615628914e-17,
+  "limitations": "16 synthetic coupled cells, no biological or full-organism validation"
+}
