@@ -1,0 +1,46 @@
+{
+  "label": "abc-diseno-20260922",
+  "description": "Tres hipótesis del motor y fuentes ejecutables del discriminador recurrente base. Contrato prospectivo; resultados aún en evaluación. No incluye subsistemas especializados ni cuerpo. Antecedente MOTOR14 con fallos integrados conservados.",
+  "files": [
+    {
+      "path": "PLAN_ABC.md",
+      "bytes": 2926,
+      "sha256": "b37325e42e7d3ed4b25fd4b11225235f17e461532c67f69db48033d3f9d82296"
+    },
+    {
+      "path": "connections.cu",
+      "bytes": 1047,
+      "sha256": "3db5f273c69b4175e86b24bdbbcceae92748e46b2dbe3a238692ac95492a17a1"
+    },
+    {
+      "path": "abc/contract.json",
+      "bytes": 1443,
+      "sha256": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be"
+    },
+    {
+      "path": "abc/recurrence.py",
+      "bytes": 8268,
+      "sha256": "e182abaa09f28f3b89bb3a0c532480b455857b6e062de9f7d3c6fbf14debcf46"
+    },
+    {
+      "path": "abc/recurrence.cu",
+      "bytes": 3203,
+      "sha256": "8bca724e8cd3682f915b23d4ec8b1aa303f0170f604d7b0212a33dd66e97b730"
+    },
+    {
+      "path": "abc/initial_provenance.json",
+      "bytes": 486,
+      "sha256": "960bfb71371ac2d9d9180010ebf398ff149958eb991b195a7c80b8da663f46f0"
+    },
+    {
+      "path": "motor14/README.md",
+      "bytes": 6272,
+      "sha256": "72ecf2a88db2c233df055a3efa01948e75c9550f713239568b64fe2181d23836"
+    },
+    {
+      "path": "motor14/RESULTADOS.json",
+      "bytes": 63271,
+      "sha256": "3e8fc923d5fd1fb152808008cc4e242b23a150de12890a219a9795b60a42fe1e"
+    }
+  ]
+}
