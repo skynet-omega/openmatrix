@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "spec": {
+    "version": 1,
+    "description": "Synthetic mixed ODE: recurrent network + seven-state transducer + conserved twelve-species chemistry. No species-specific fit, no complete brain, no spiking/delay/body.",
+    "populations": [
+      {
+        "id": "cells",
+        "count": 12,
+        "states": {
+          "v": {
+            "unit": "1",
+            "initial": [
+              0.1,
+              0.10507547047200988,
+              0.11000461276422444,
+              0.11464531740648723,
+              0.11886379072055406,
+              0.12253841215420878,
+              0.1255632406584809,
+              0.127851069017475,
+              0.1293359380730595,
+              0.12997503835814428,
+              0.12974994431357406,
+              0.12866714550558833
+            ],
+            "scale": 1,
+            "rhs": "(-v+w*syn+drive)/tau"
+          },
+          "syn": {
+            "unit": "1",
+            "initial": 0.05,
+            "scale": 1,
+            "rhs": "(tanh(v)-syn)/taus"
+          }
+        },
+        "parameters": {
+          "tau": {
+            "unit": "s",
+            "value": 0.02
+          },
+          "taus": {
+            "unit": "s",
+            "value": 0.01
+          },
+          "drive": {
+            "unit": "1",
+            "value": 0.1
+          }
+        },
+        "inputs": {
+          "w": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "release": {
+            "unit": "1",
+            "expr": "syn"
+          }
+        }
+      },
+      {
+        "id": "transducer",
+        "count": 12,
+        "states": {
+          "p0": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(light+0.1*sin(omega*t)-p0)/tau"
+          },
+          "p1": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p0-p1)/tau"
+          },
+          "p2": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p1-p2)/tau"
+          },
+          "p3": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p2-p3)/tau"
+          },
+          "p4": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p3-p4)/tau"
+          },
+          "p5": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p4-p5)/tau"
+          },
+          "p6": {
+            "unit": "1",
+            "initial": 0.04,
+            "scale": 1,
+            "rhs": "(p5-p6)/tau"
+          }
+        },
+        "parameters": {
+          "omega": {
+            "unit": "1/s",
+            "value": 25
+          },
+          "tau": {
+            "unit": "s",
+            "value": 0.006
+          }
+        },
+        "inputs": {
+          "light": {
+            "unit": "1",
+            "value": 0.4
+          }
+        },
+        "outputs": {
+          "signal": {
+            "unit": "1",
+            "expr": "p6"
+          }
+        }
+      },
+      {
+        "id": "chemistry",
+        "count": 12,
+        "states": {
+          "c0": {
+            "unit": "mM",
+            "initial": 0.5,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c11-c0)"
+          },
+          "c1": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c0-c1)"
+          },
+          "c2": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c1-c2)"
+          },
+          "c3": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c2-c3)"
+          },
+          "c4": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c3-c4)"
+          },
+          "c5": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c4-c5)"
+          },
+          "c6": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c5-c6)"
+          },
+          "c7": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c6-c7)"
+          },
+          "c8": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c7-c8)"
+          },
+          "c9": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c8-c9)"
+          },
+          "c10": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c9-c10)"
+          },
+          "c11": {
+            "unit": "mM",
+            "initial": 0.045454545454545456,
+            "scale": 1,
+            "rhs": "k*(1+modulator)*(c10-c11)"
+          }
+        },
+        "parameters": {
+          "k": {
+            "unit": "1/s",
+            "value": 12
+          },
+          "cref": {
+            "unit": "mM",
+            "value": 1
+          }
+        },
+        "inputs": {
+          "modulator": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "signal": {
+            "unit": "1",
+            "expr": "c0/cref"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "ring",
+        "offsets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "weight": 0.016666666666666666
+      },
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "transducer",
+          "light"
+        ],
+        "pattern": "coo",
+        "row": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "col": [
+          0,
+          7,
+          2,
+          9,
+          4,
+          11,
+          6,
+          1,
+          8,
+          3,
+          10,
+          5
+        ],
+        "weights": 0.25
+      },
+      {
+        "source": [
+          "transducer",
+          "signal"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "coo",
+        "row": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "col": [
+          0,
+          7,
+          2,
+          9,
+          4,
+          11,
+          6,
+          1,
+          8,
+          3,
+          10,
+          5
+        ],
+        "weights": 0.15
+      },
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "chemistry",
+          "modulator"
+        ],
+        "pattern": "coo",
+        "row": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "col": [
+          0,
+          7,
+          2,
+          9,
+          4,
+          11,
+          6,
+          1,
+          8,
+          3,
+          10,
+          5
+        ],
+        "weights": 0.1
+      },
+      {
+        "source": [
+          "chemistry",
+          "signal"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "coo",
+        "row": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "col": [
+          0,
+          7,
+          2,
+          9,
+          4,
+          11,
+          6,
+          1,
+          8,
+          3,
+          10,
+          5
+        ],
+        "weights": 0.05
+      }
+    ]
+  },
+  "model_sha256": "b563264ee532ed8f2013087bd9f75d911b9e2de41a34870b166c258c86e96805",
+  "backend": "gpu",
+  "profile": "precise",
+  "algorithm": "C",
+  "time": 0.02,
+  "next_h": 6.447192449378034e-05,
+  "edits": [],
+  "cpu_method": "DOP853",
+  "state_sha256": "ec2850031ed89bd64be8e323db3d0f8546d12e25734068db9b3c3ba663a920e7",
+  "rng": "absent: deterministic domain",
+  "event_queue": "absent: only external edits at explicit advance boundaries"
+}

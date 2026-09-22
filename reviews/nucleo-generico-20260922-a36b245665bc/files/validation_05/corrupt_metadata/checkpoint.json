@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "spec": {
+    "version": 1,
+    "description": "Synthetic recurrent rate population, dimensionless, not a biological reconstruction",
+    "populations": [
+      {
+        "id": "cells",
+        "count": 12,
+        "states": {
+          "v": {
+            "unit": "1",
+            "initial": 0.1,
+            "scale": 1,
+            "rhs": "(-v+w*syn+drive)/tau"
+          },
+          "syn": {
+            "unit": "1",
+            "initial": 0.05,
+            "scale": 1,
+            "rhs": "(tanh(v)-syn)/taus"
+          }
+        },
+        "parameters": {
+          "tau": {
+            "unit": "s",
+            "value": 0.02
+          },
+          "taus": {
+            "unit": "s",
+            "value": 0.01
+          },
+          "drive": {
+            "unit": "1",
+            "value": 0.1
+          }
+        },
+        "inputs": {
+          "w": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "release": {
+            "unit": "1",
+            "expr": "syn"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "ring",
+        "offsets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "weight": 0.025
+      }
+    ]
+  },
+  "model_sha256": "c75cfaf32467380dccd87a08ba6ce7331cd522b6585698c89aefc003d65a3a62",
+  "backend": "gpu",
+  "profile": "precise",
+  "algorithm": "A",
+  "time": 0.018000000000000002,
+  "next_h": 0.0001,
+  "edits": [
+    {
+      "time": 0.004,
+      "before": "c75cfaf32467380dccd87a08ba6ce7331cd522b6585698c89aefc003d65a3a62",
+      "after": "f757f63bf0e622cdca8deadc97721ee23ba8154173c601633f55617ae222e3a6",
+      "kind": "atomic descriptor replacement",
+      "setup_s": 0.007107392011675984
+    },
+    {
+      "time": 0.008,
+      "before": "f757f63bf0e622cdca8deadc97721ee23ba8154173c601633f55617ae222e3a6",
+      "after": "8d4419de643610178d04815acdbc764d7d79ad42e09d201dc14ff5332a87fbe7",
+      "kind": "atomic descriptor replacement",
+      "setup_s": 0.003535096999257803
+    },
+    {
+      "time": 0.008,
+      "before": "8d4419de643610178d04815acdbc764d7d79ad42e09d201dc14ff5332a87fbe7",
+      "after": "c75cfaf32467380dccd87a08ba6ce7331cd522b6585698c89aefc003d65a3a62",
+      "kind": "atomic descriptor replacement",
+      "setup_s": 0.00326446199323982
+    }
+  ],
+  "cpu_method": "DOP853",
+  "state_sha256": "882f2d837f3e99579e3b32f5711a07fdadf2f190f733127cacfc468ecf09e9b5",
+  "rng": "absent: deterministic domain",
+  "event_queue": "absent: only external edits at explicit advance boundaries"
+}

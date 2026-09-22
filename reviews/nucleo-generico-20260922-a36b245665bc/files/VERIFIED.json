@@ -1,0 +1,289 @@
+{
+  "core_matches_registered_repair": true,
+  "small": [
+    {
+      "name": "recurrent",
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 1.1048140917794393e-08,
+      "reference_refinement": 8.365890266309202e-13,
+      "eligible": true
+    },
+    {
+      "name": "recurrent",
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 2.6514783263083534e-07,
+      "reference_refinement": 8.365890266309202e-13,
+      "eligible": true
+    },
+    {
+      "name": "hh",
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 7.477044703467198e-07,
+      "reference_refinement": 2.46350612821743e-12,
+      "eligible": true
+    },
+    {
+      "name": "hh",
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 0.0018910498361602388,
+      "reference_refinement": 2.46350612821743e-12,
+      "eligible": true
+    },
+    {
+      "name": "recurrent",
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 7.654627525105321e-08,
+      "reference_refinement": 8.365890266309202e-13,
+      "eligible": true
+    },
+    {
+      "name": "recurrent",
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 2.6537930348243094e-06,
+      "reference_refinement": 8.365890266309202e-13,
+      "eligible": true
+    },
+    {
+      "name": "hh",
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 0.0001373367106020974,
+      "reference_refinement": 2.46350612821743e-12,
+      "eligible": false
+    },
+    {
+      "name": "hh",
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0662006639588604,
+      "reference_refinement": 2.46350612821743e-12,
+      "eligible": false
+    }
+  ],
+  "extensions": [
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619407875900927e-08,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 6.661338147750939e-16
+    },
+    {
+      "seed": 0,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906553107466675e-05,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 5.551115123125783e-16
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183040379363197e-06,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 1.3322676295501878e-15
+    },
+    {
+      "seed": 0,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692090453680443,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 4.440892098500626e-16
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619401183366792e-08,
+      "reference_refinement": 2.7966840115838974e-11,
+      "eligible": true,
+      "conservation_absolute": 4.440892098500626e-16
+    },
+    {
+      "seed": 1,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.390655197914237e-05,
+      "reference_refinement": 2.7966840115838974e-11,
+      "eligible": true,
+      "conservation_absolute": 4.440892098500626e-16
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183039587942999e-06,
+      "reference_refinement": 2.7966840115838974e-11,
+      "eligible": true,
+      "conservation_absolute": 1.9984014443252818e-15
+    },
+    {
+      "seed": 1,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692089937786377,
+      "reference_refinement": 2.7966840115838974e-11,
+      "eligible": true,
+      "conservation_absolute": 5.551115123125783e-16
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619437049487237e-08,
+      "reference_refinement": 2.7966840686494877e-11,
+      "eligible": true,
+      "conservation_absolute": 6.661338147750939e-16
+    },
+    {
+      "seed": 2,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906552381186868e-05,
+      "reference_refinement": 2.7966840686494877e-11,
+      "eligible": true,
+      "conservation_absolute": 4.440892098500626e-16
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.1830383001086605e-06,
+      "reference_refinement": 2.7966840686494877e-11,
+      "eligible": true,
+      "conservation_absolute": 1.6653345369377348e-15
+    },
+    {
+      "seed": 2,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692088723310961,
+      "reference_refinement": 2.7966840686494877e-11,
+      "eligible": true,
+      "conservation_absolute": 6.661338147750939e-16
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "precise",
+      "error": 4.619407875900927e-08,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 6.661338147750939e-16
+    },
+    {
+      "seed": 3,
+      "algorithm": "A",
+      "mode": "fast",
+      "error": 1.3906553107466675e-05,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 5.551115123125783e-16
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "precise",
+      "error": 2.183040379363197e-06,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 1.3322676295501878e-15
+    },
+    {
+      "seed": 3,
+      "algorithm": "C",
+      "mode": "fast",
+      "error": 0.0008692090453680443,
+      "reference_refinement": 2.796680343866287e-11,
+      "eligible": true,
+      "conservation_absolute": 4.440892098500626e-16
+    }
+  ],
+  "large": {
+    "scope": "one synthetic continuously coupled ODE system; not complete fly or biological validation",
+    "states": 726900,
+    "connections": 23296700,
+    "reference_refinement": 2.935627302348759e-11,
+    "accuracy_coverage": "4096 probes at 21 sample times plus all 726900 states at final time; no continuous global bound",
+    "rows": [
+      {
+        "algorithm": "A",
+        "mode": "fast",
+        "error": 9.445531132349882e-05,
+        "limit": 0.01,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 0.6579962499672547,
+        "setup_s": 1.9919410899747163,
+        "whole_worker_s": 2.8838551890221424,
+        "steps": 84,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6261100769042969,
+        "conservation_absolute": 6.661338147750939e-16
+      },
+      {
+        "algorithm": "A",
+        "mode": "precise",
+        "error": 5.645627407928496e-08,
+        "limit": 1e-05,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 3.2428884760010988,
+        "setup_s": 1.7876866629812866,
+        "whole_worker_s": 5.262587460980285,
+        "steps": 423,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6260528564453125,
+        "conservation_absolute": 1.9984014443252818e-15
+      },
+      {
+        "algorithm": "C",
+        "mode": "fast",
+        "error": 0.0020697929858369884,
+        "limit": 0.01,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 0.9245293620042503,
+        "setup_s": 1.916570839995984,
+        "whole_worker_s": 3.0752187269972637,
+        "steps": 205,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6261138916015625,
+        "conservation_absolute": 1.3322676295501878e-15
+      },
+      {
+        "algorithm": "C",
+        "mode": "precise",
+        "error": 3.869684549150385e-06,
+        "limit": 1e-05,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 22.106636638985947,
+        "setup_s": 1.8401987070101313,
+        "whole_worker_s": 24.17750062601408,
+        "steps": 4948,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.626190185546875,
+        "conservation_absolute": 5.10702591327572e-15
+      }
+    ]
+  },
+  "corruption_tests_detected": [
+    "criterion",
+    "flag",
+    "state",
+    "time"
+  ],
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "C_HH": "DESCARTADO en ambos perfiles seg\u00fan l\u00edmites prospectivos; no se descarta toda familia exponencial",
+  "complete_brain_speed_or_stage3_pass": false
+}

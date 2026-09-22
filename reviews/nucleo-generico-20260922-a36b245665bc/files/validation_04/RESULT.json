@@ -1,0 +1,147 @@
+{
+  "models": [
+    {
+      "name": "recurrent",
+      "mode": "precise",
+      "algorithm": "A",
+      "global_scaled_error": 1.232950131783114e-08,
+      "limit": 1e-05,
+      "reference_refinement": 8.365890266309202e-13,
+      "rhs_scaled_error": 0.0,
+      "wall_s": 0.00720005901530385,
+      "steps": 47,
+      "rejected": 0,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "recurrent",
+      "mode": "fast",
+      "algorithm": "A",
+      "global_scaled_error": 2.6514783263083534e-07,
+      "limit": 0.01,
+      "reference_refinement": 8.365890266309202e-13,
+      "rhs_scaled_error": 0.0,
+      "wall_s": 0.004246066033374518,
+      "steps": 25,
+      "rejected": 0,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "hh",
+      "mode": "precise",
+      "algorithm": "A",
+      "global_scaled_error": 7.66382526084646e-07,
+      "limit": 1e-05,
+      "reference_refinement": 2.46350612821743e-12,
+      "rhs_scaled_error": 6.829345975544634e-15,
+      "wall_s": 0.13413858803687617,
+      "steps": 468,
+      "rejected": 31,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "hh",
+      "mode": "fast",
+      "algorithm": "A",
+      "global_scaled_error": 0.001808627803266131,
+      "limit": 0.01,
+      "reference_refinement": 2.46350612821743e-12,
+      "rhs_scaled_error": 6.829345975544634e-15,
+      "wall_s": 0.027501939970534295,
+      "steps": 85,
+      "rejected": 11,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "recurrent",
+      "mode": "precise",
+      "algorithm": "C",
+      "global_scaled_error": 6.916636529104078e-08,
+      "limit": 1e-05,
+      "reference_refinement": 8.365890266309202e-13,
+      "rhs_scaled_error": 0.0,
+      "wall_s": 0.012146775028668344,
+      "steps": 100,
+      "rejected": 0,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "recurrent",
+      "mode": "fast",
+      "algorithm": "C",
+      "global_scaled_error": 2.6537930348243094e-06,
+      "limit": 0.01,
+      "reference_refinement": 8.365890266309202e-13,
+      "rhs_scaled_error": 0.0,
+      "wall_s": 0.003757457947358489,
+      "steps": 25,
+      "rejected": 0,
+      "eligible_trajectory": true
+    },
+    {
+      "name": "hh",
+      "mode": "precise",
+      "algorithm": "C",
+      "global_scaled_error": 0.0001320547567701842,
+      "limit": 1e-05,
+      "reference_refinement": 2.46350612821743e-12,
+      "rhs_scaled_error": 6.829345975544634e-15,
+      "wall_s": 1.2201050510047935,
+      "steps": 6389,
+      "rejected": 31,
+      "eligible_trajectory": false
+    },
+    {
+      "name": "hh",
+      "mode": "fast",
+      "algorithm": "C",
+      "global_scaled_error": 0.06229639950557591,
+      "limit": 0.01,
+      "reference_refinement": 2.46350612821743e-12,
+      "rhs_scaled_error": 6.829345975544634e-15,
+      "wall_s": 0.05758735298877582,
+      "steps": 274,
+      "rejected": 42,
+      "eligible_trajectory": false
+    }
+  ],
+  "interventions": {
+    "failed_edit_rollback": true,
+    "parameter_add_delete_clamp": true,
+    "ABA_recompiled_RHS": true,
+    "checkpoint_bit_exact": true,
+    "metadata_and_state_corruption_detected": true,
+    "transactions": [
+      {
+        "time": 0.004,
+        "before": "c75cfaf32467380dccd87a08ba6ce7331cd522b6585698c89aefc003d65a3a62",
+        "after": "f757f63bf0e622cdca8deadc97721ee23ba8154173c601633f55617ae222e3a6",
+        "kind": "atomic descriptor replacement",
+        "setup_s": 0.13149549899389967
+      },
+      {
+        "time": 0.008,
+        "before": "f757f63bf0e622cdca8deadc97721ee23ba8154173c601633f55617ae222e3a6",
+        "after": "8d4419de643610178d04815acdbc764d7d79ad42e09d201dc14ff5332a87fbe7",
+        "kind": "atomic descriptor replacement",
+        "setup_s": 0.001465692010242492
+      },
+      {
+        "time": 0.008,
+        "before": "8d4419de643610178d04815acdbc764d7d79ad42e09d201dc14ff5332a87fbe7",
+        "after": "c75cfaf32467380dccd87a08ba6ce7331cd522b6585698c89aefc003d65a3a62",
+        "kind": "atomic descriptor replacement",
+        "setup_s": 0.0013436360168270767
+      }
+    ]
+  },
+  "domains": {
+    "unsupported_noise_delay_units_code_rejected": true,
+    "singular_mass_rejected": true,
+    "CPU_general_mass_error": 1.9244328353096307e-11,
+    "GPU_general_mass_rejected": true,
+    "clique96_RHS_error": 0.0,
+    "nonfinite_trial_rollback": true
+  },
+  "total_wall_s": 12.567692362994421
+}

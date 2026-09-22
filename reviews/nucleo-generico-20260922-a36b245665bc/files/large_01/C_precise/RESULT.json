@@ -1,0 +1,34 @@
+{
+  "scope": "Synthetic mixed ODE: recurrent network + seven-state transducer + conserved twelve-species chemistry. No species-specific fit, no complete brain, no spiking/delay/body.",
+  "role": "C_precise",
+  "counts": [
+    90000,
+    74700,
+    2000
+  ],
+  "simulated_target_s": 1.0,
+  "trajectory_probes": 4096,
+  "sample_count": 21,
+  "cpu_threads": 1,
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "steps": 5007,
+  "rejected": 1,
+  "advance_including_scans_s": 22.733355108008254,
+  "simulated_actual_s": 1.0,
+  "device_pool_GiB": 0.3342156410217285,
+  "explicit_copy_payloads": {
+    "control_H2D_bytes": 80128,
+    "control_D2H_bytes": 80128,
+    "scan_D2H_bytes": 6503328
+  },
+  "hardware": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "status": "COMPLETE",
+  "model_sha256": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "states": 726900,
+  "connections": 23296700,
+  "setup_s": 1.67548330797581,
+  "chemical_conservation_absolute": 4.884981308350689e-15,
+  "total_worker_s": 24.63315024098847,
+  "peak_RSS_GiB": 1.6261634826660156
+}

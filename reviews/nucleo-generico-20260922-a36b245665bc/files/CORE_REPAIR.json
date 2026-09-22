@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-09-22T15:53:50.229909+00:00",
+  "reason": "GPU double* received int64 state scales; absolute tolerance effectively underflowed at zero. Integer COO masses also require explicit float64. Restores the frozen intended numerical tolerance, no threshold change.",
+  "before": {
+    "model.py": "2527698ccedf73ae1e4f41849b113a22f588e4fbaa1262cabfc9c548feb016ac",
+    "runtime.py": "4c642eab989f70b68704371536ac5903c328c1fdd0710f1bc0774903a3f8f648",
+    "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+    "PLAN.json": "f5ed0d4ced11f5371d23a040f986016db80f04e110536ef54e0b153ee0f94a95"
+  },
+  "after": {
+    "model.py": "2c2bdbe17ec699234299515e6422b50bc976f6bdb4771040510daf8ba7380ae1",
+    "runtime.py": "4c642eab989f70b68704371536ac5903c328c1fdd0710f1bc0774903a3f8f648",
+    "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+    "PLAN.json": "f5ed0d4ced11f5371d23a040f986016db80f04e110536ef54e0b153ee0f94a95"
+  },
+  "extension_status": "Originally introduced without core edits; subsequent generic dtype bug repair after extension exposure. Not blind/independent reserve.",
+  "affected": "All GPU error controls; repeat both algorithms/modes for development/extension/large. CPU references unaffected and reused with hashes."
+}

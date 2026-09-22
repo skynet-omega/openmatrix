@@ -1,0 +1,74 @@
+{
+  "large": {
+    "scope": "one synthetic continuously coupled ODE system; not complete fly or biological validation",
+    "states": 726900,
+    "connections": 23296700,
+    "reference_refinement": 2.935627302348759e-11,
+    "accuracy_coverage": "4096 probes at 21 sample times plus all 726900 states at final time; no continuous global bound",
+    "rows": [
+      {
+        "algorithm": "A",
+        "mode": "fast",
+        "error": 9.404222309080026e-05,
+        "limit": 0.01,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 0.7009640539763495,
+        "setup_s": 2.0942300989991054,
+        "whole_worker_s": 3.027316806023009,
+        "steps": 84,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6261405944824219,
+        "conservation_absolute": 7.771561172376096e-16
+      },
+      {
+        "algorithm": "A",
+        "mode": "precise",
+        "error": 5.6007377485795535e-08,
+        "limit": 1e-05,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 3.2550825469661504,
+        "setup_s": 1.8339351909817196,
+        "whole_worker_s": 5.325890967971645,
+        "steps": 423,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6255340576171875,
+        "conservation_absolute": 1.3322676295501878e-15
+      },
+      {
+        "algorithm": "C",
+        "mode": "fast",
+        "error": 0.0020542564846119855,
+        "limit": 0.01,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 0.9295966649660841,
+        "setup_s": 1.7361620620358735,
+        "whole_worker_s": 2.889375650032889,
+        "steps": 215,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6256904602050781,
+        "conservation_absolute": 9.992007221626409e-16
+      },
+      {
+        "algorithm": "C",
+        "mode": "precise",
+        "error": 3.811509006363132e-06,
+        "limit": 1e-05,
+        "eligible_for_this_workload": true,
+        "advance_including_scans_s": 22.733355108008254,
+        "setup_s": 1.67548330797581,
+        "whole_worker_s": 24.63315024098847,
+        "steps": 5007,
+        "device_pool_GiB": 0.3342156410217285,
+        "peak_RSS_GiB": 1.6261634826660156,
+        "conservation_absolute": 4.884981308350689e-15
+      }
+    ]
+  },
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "corruptions": [
+    "criterion",
+    "flag",
+    "state",
+    "time"
+  ]
+}

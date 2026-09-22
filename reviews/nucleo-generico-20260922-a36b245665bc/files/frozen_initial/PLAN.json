@@ -1,0 +1,52 @@
+{
+  "scope": "Generic deterministic smooth ODE compiler/runtime, controlled prospective numerical profiles; NOT complete neuroscience/brain/organism",
+  "hypotheses": {
+    "A": "Globally coupled generated operator; implicit CPU reference and resident explicit GPU first execution backend. General stiff implicit accelerator remains unimplemented.",
+    "B": "Multirate waveform relaxation with coupled-window error; no complete prototype in this round.",
+    "C": "Exponential/rational action exploiting linear stiffness; no complete prototype in this round."
+  },
+  "budget": {
+    "compute_wall_total_s": 3600,
+    "individual_run_timeout_s": 300,
+    "max_complete_prototypes": 2,
+    "max_large_1s_runs": 6,
+    "max_small_validation_rounds": 4,
+    "host_memory_GiB": 8,
+    "device_memory_GiB": 12,
+    "jev_calls": 1
+  },
+  "modes": {
+    "precise": {
+      "rtol": 1e-07,
+      "atol_scale": 1e-09,
+      "global_scaled_error": 1e-05
+    },
+    "fast": {
+      "rtol": 0.001,
+      "atol_scale": 1e-05,
+      "global_scaled_error": 0.01
+    }
+  },
+  "error_definition": "max(abs(candidate-reference)/(declared_scale+abs(reference))) at declared sample times. Different from local RK error. 1% applies ONLY to scaled trajectory metric; not spike/conductance/behavior relative guarantee. Existing stage3 tolerances unchanged.",
+  "reference": {
+    "method": "Radau or DOP853 selected prospectively by equation stiffness",
+    "rtol": 1e-11,
+    "atol_scale": 1e-13,
+    "refinement_error_limit": 1e-07
+  },
+  "invariants": {
+    "finite": "all fields at every candidate stage",
+    "event_and_topology_identity": "exact",
+    "chemical_total_absolute": 1e-07
+  },
+  "extension": "Freeze core source SHA before adding 7-state and 12-species mixed fixture. No anatomical dispatch. Author-exposed extension, not independent blind holdout. Changes to core after exposure invalidate frozen-extension claim until new independent reserve.",
+  "scope_falsifiers": [
+    "model equations require a core edit",
+    "fast/precise changes equations or connectivity",
+    "new topology leaves stale buffers",
+    "reject/failed intervention changes live state",
+    "CPU/GPU RHS differs more than 1e-11 scaled",
+    "unsupported delay/noise/DAE silently accepted"
+  ],
+  "speed_policy": "Record complete simulated trajectory including scans/error checks. Initialization/JIT separately. No real-time claim without actual one-second run at declared scope. 20% improvement minimum material criterion; never extrapolate to complete fly."
+}

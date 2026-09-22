@@ -1,0 +1,41 @@
+Traceback (most recent call last):
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 731, in compile
+    nvrtc.compileProgram(self.ptr, options)
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 125, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 138, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 53, in cupy_backends.cuda.libs.nvrtc.check_status
+cupy_backends.cuda.libs.nvrtc.NVRTCError: NVRTC_ERROR_COMPILATION (6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/smoke.py", line 9, in <module>
+    start=time.perf_counter();e=Engine(spec);ref=Model(spec)
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 137, in __init__
+    self.gpu=GPU(self.model,profile) if backend=='gpu' else None
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 64, in __init__
+    self.outkernels=[mod.get_function(f'output_{i}') for i in range(len(model.pops))]
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 64, in <listcomp>
+    self.outkernels=[mod.get_function(f'output_{i}') for i in range(len(model.pops))]
+  File "cupy/_core/raw.pyx", line 487, in cupy._core.raw.RawModule.get_function
+  File "cupy/_core/raw.pyx", line 100, in cupy._core.raw.RawKernel.kernel.__get__
+  File "cupy/_core/raw.pyx", line 117, in cupy._core.raw.RawKernel._kernel
+  File "cupy/_util.pyx", line 67, in cupy._util.memoize.decorator.ret
+  File "cupy/_core/raw.pyx", line 538, in cupy._core.raw._get_raw_module
+  File "cupy/_core/core.pyx", line 2359, in cupy._core.core.compile_with_cache
+  File "cupy/_core/core.pyx", line 2377, in cupy._core.core.compile_with_cache
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 536, in _compile_module_with_cache
+    return _compile_with_cache_cuda(
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 616, in _compile_with_cache_cuda
+    ptx, mapping = compile_using_nvrtc(
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 370, in compile_using_nvrtc
+    return _compile(source, options, cu_path,
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 354, in _compile
+    compiled_obj, mapping = prog.compile(options, log_stream)
+  File "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 750, in compile
+    raise CompileException(log, self.src, self.name, options,
+cupy.cuda.compiler.CompileException: /usr/include/math.h(27): catastrophic error: cannot open source file "bits/libc-header-start.h"
+
+1 catastrophic error detected in the compilation of "/tmp/tmpgnrzcvgf/3ab51d4a462684f24ea1c9924191ed1d1cb5bdc9.cubin.cu".
+Compilation terminated.
+

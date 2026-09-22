@@ -1,0 +1,76 @@
+{
+  "budget_source": "PLAN.json",
+  "original_large_runs": [
+    {
+      "role": "reference",
+      "returncode": 0,
+      "wall_s": 185.40408616297645
+    },
+    {
+      "role": "A_fast",
+      "returncode": 0,
+      "wall_s": 3.271326962974854
+    },
+    {
+      "role": "A_precise",
+      "returncode": 0,
+      "wall_s": 5.575369580008555
+    },
+    {
+      "role": "reference_fine",
+      "returncode": 0,
+      "wall_s": 245.03360596502898
+    },
+    {
+      "role": "C_fast",
+      "returncode": 0,
+      "wall_s": 3.12586068600649
+    },
+    {
+      "role": "C_precise",
+      "returncode": 0,
+      "wall_s": 24.892446773999836
+    }
+  ],
+  "mandatory_GPU_bug_repeats": [
+    {
+      "role": "A_fast",
+      "returncode": 0,
+      "wall_s": 3.1208078450290486,
+      "reason": "mandatory affected-arm repetition after generic dtype bug repair"
+    },
+    {
+      "role": "A_precise",
+      "returncode": 0,
+      "wall_s": 5.474921301996801,
+      "reason": "mandatory affected-arm repetition after generic dtype bug repair"
+    },
+    {
+      "role": "C_fast",
+      "returncode": 0,
+      "wall_s": 3.320598879014142,
+      "reason": "mandatory affected-arm repetition after generic dtype bug repair"
+    },
+    {
+      "role": "C_precise",
+      "returncode": 0,
+      "wall_s": 24.411545742012095,
+      "reason": "mandatory affected-arm repetition after generic dtype bug repair"
+    }
+  ],
+  "completed_large_worker_wall_s": 503.63056989904726,
+  "new_scientific_candidates": 2,
+  "original_development_validation_invocations": 4,
+  "mandatory_development_repeat_after_dtype_fix": 1,
+  "extension_invocations": 2,
+  "external_falsifier_invocations": 2,
+  "known_implementation_failures": [
+    "NVRTC system math header unavailable, corrected before freeze",
+    "Integer clock argument dtype rejected, corrected before freeze",
+    "C global HH criterion failure preserved, not rescued",
+    "int64 scale treated as double GPU; repaired and all affected GPU arms repeated"
+  ],
+  "scope_of_time_accounting": "Measured subprocess wall for large runs, initialization/JIT included. Failed development invocations and editorial time not reconstructed as precise runtime. No compute process approached the aggregate3600s allowance. Mandatory repeats separately identified, not additional algorithm selection variants.",
+  "bug_repetition_authority": "Project mandate requires repairing demonstrated implementation bugs and repeating affected arms; prospective numerical thresholds unchanged",
+  "classification": "PROMETEDOR_NO_CONFIRMADO"
+}

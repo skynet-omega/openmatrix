@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "algorithm": "A",
+      "profile": "fast",
+      "norm_error": 0.0,
+      "zero_clamp": true
+    },
+    {
+      "algorithm": "A",
+      "profile": "precise",
+      "norm_error": 0.0,
+      "zero_clamp": true
+    },
+    {
+      "algorithm": "C",
+      "profile": "fast",
+      "norm_error": 0.0,
+      "zero_clamp": true
+    },
+    {
+      "algorithm": "C",
+      "profile": "precise",
+      "norm_error": 0.0,
+      "zero_clamp": true
+    }
+  ],
+  "integer_mass": true
+}

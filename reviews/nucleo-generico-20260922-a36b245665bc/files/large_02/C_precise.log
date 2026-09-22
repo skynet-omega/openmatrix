@@ -1,0 +1,54 @@
+{"role": "C_precise", "simulated_s": 0.05, "wall_s": 3.0879400559933856}
+{"role": "C_precise", "simulated_s": 0.1, "wall_s": 4.088955386017915}
+{"role": "C_precise", "simulated_s": 0.15000000000000002, "wall_s": 5.118140978040174}
+{"role": "C_precise", "simulated_s": 0.2, "wall_s": 6.126866710023023}
+{"role": "C_precise", "simulated_s": 0.25, "wall_s": 7.1393541659927}
+{"role": "C_precise", "simulated_s": 0.30000000000000004, "wall_s": 8.208699242037255}
+{"role": "C_precise", "simulated_s": 0.35000000000000003, "wall_s": 9.073353584040888}
+{"role": "C_precise", "simulated_s": 0.4, "wall_s": 10.098753564001527}
+{"role": "C_precise", "simulated_s": 0.45, "wall_s": 11.116563975985628}
+{"role": "C_precise", "simulated_s": 0.5, "wall_s": 12.123439811985008}
+{"role": "C_precise", "simulated_s": 0.55, "wall_s": 13.196445118985139}
+{"role": "C_precise", "simulated_s": 0.6000000000000001, "wall_s": 14.06347672600532}
+{"role": "C_precise", "simulated_s": 0.65, "wall_s": 15.085782569018193}
+{"role": "C_precise", "simulated_s": 0.7000000000000001, "wall_s": 16.0994242830202}
+{"role": "C_precise", "simulated_s": 0.75, "wall_s": 17.1100285089924}
+{"role": "C_precise", "simulated_s": 0.8, "wall_s": 18.189821389038116}
+{"role": "C_precise", "simulated_s": 0.8500000000000001, "wall_s": 19.058912250038702}
+{"role": "C_precise", "simulated_s": 0.9, "wall_s": 20.08475358103169}
+{"role": "C_precise", "simulated_s": 0.9500000000000001, "wall_s": 21.106766334036365}
+{"role": "C_precise", "simulated_s": 1.0, "wall_s": 22.104590114031453}
+{
+  "scope": "Synthetic mixed ODE: recurrent network + seven-state transducer + conserved twelve-species chemistry. No species-specific fit, no complete brain, no spiking/delay/body.",
+  "role": "C_precise",
+  "counts": [
+    90000,
+    74700,
+    2000
+  ],
+  "simulated_target_s": 1.0,
+  "trajectory_probes": 4096,
+  "sample_count": 21,
+  "cpu_threads": 1,
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "steps": 4948,
+  "rejected": 1,
+  "advance_including_scans_s": 22.106636638985947,
+  "simulated_actual_s": 1.0,
+  "device_pool_GiB": 0.3342156410217285,
+  "explicit_copy_payloads": {
+    "control_H2D_bytes": 79184,
+    "control_D2H_bytes": 79184,
+    "scan_D2H_bytes": 6503328
+  },
+  "hardware": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "status": "COMPLETE",
+  "model_sha256": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "states": 726900,
+  "connections": 23296700,
+  "setup_s": 1.8401987070101313,
+  "chemical_conservation_absolute": 5.10702591327572e-15,
+  "total_worker_s": 24.17750062601408,
+  "peak_RSS_GiB": 1.626190185546875
+}

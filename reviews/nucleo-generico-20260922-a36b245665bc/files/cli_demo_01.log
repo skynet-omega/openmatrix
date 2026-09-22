@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/cli.py", line 35, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/cli.py", line 29, in main
+    e.advance(a.until);e.checkpoint(a.out/'final_checkpoint')
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 173, in advance
+    err=self.gpu.attempt(self.t,h);attempts+=1
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 128, in attempt
+    require(np.isfinite(status).all() and status[1]==0,'nonfinite intermediate: step not committed')
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/model.py", line 13, in require
+    if not ok: raise ValueError(message)
+ValueError: nonfinite intermediate: step not committed

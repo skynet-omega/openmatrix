@@ -1,5 +1,5 @@
 # Última evidencia
 
-[arquitectura-cerebro-completo-20260922](reviews/arquitectura-cerebro-completo-20260922-51e76c4522e1/README.md)
+[nucleo-generico-20260922](reviews/nucleo-generico-20260922-a36b245665bc/README.md)
 
-Corrección del usuario: motor genérico para cerebro completo, no solverPN. Contraprueba topológica ejecutada, contrato matemático inicial, tres arquitecturas rivales y antecedentes primarios. Diseño aún no implementado ni aprobado.
+Primer motor declarativo CPU/GPU: modelos por ecuaciones, perfiles fast/precise, intervenciones y escaner. Prueba sintetica1s con726900estados/23296700conexiones; A0.658s/3.243s de avance, no cerebro biologico completo. C fallaHH. Incluye reparacionFP64, fuentes originales/congeladas, pruebas, arrays, contrato y datos para reproduccion. PROMETEDOR_NO_CONFIRMADO; etapa3abierta.

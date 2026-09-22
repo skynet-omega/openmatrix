@@ -1,0 +1,13 @@
+{
+  "reason": "float64 GPU buffer bug does not affect CPU references; no CPU rerun",
+  "files": {
+    "reference": {
+      "RESULT.json": "fbeb18701bf629308cde46bcb23f9e4bbafd03d54a4f37c6c5816ec18c422f1c",
+      "trajectory.npz": "460882527563a37acfd8a94fb03eb242f8d4a6d74fbdeec1ced8c416166016fd"
+    },
+    "reference_fine": {
+      "RESULT.json": "c6a5c1bef7433bd5db739d1f8ed3dac7b3b6387257dbcc7352138b6488a46dd4",
+      "trajectory.npz": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/validate.py", line 106, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/validate.py", line 104, in main
+    result={'models':check_models(out),'interventions':interventions(out),'domains':domains(out)}
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/validate.py", line 98, in domains
+    e=Engine(bad);before=e.read();rejects(lambda:e.gpu.attempt(0,1))
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/validate.py", line 16, in rejects
+    try:fn()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/validate.py", line 98, in <lambda>
+    e=Engine(bad);before=e.read();rejects(lambda:e.gpu.attempt(0,1))
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/generic_20260922/runtime.py", line 106, in attempt
+    self.clock.set(np.asarray([t,h]));self.graph.launch(self.stream)
+  File "cupy/_core/core.pyx", line 1985, in cupy._core.core._ndarray_base.set
+  File "cupy/_core/core.pyx", line 1997, in cupy._core.core._ndarray_base.set
+TypeError: int64 array cannot be set to float64 array

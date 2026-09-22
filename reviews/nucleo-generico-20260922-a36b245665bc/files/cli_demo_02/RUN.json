@@ -1,0 +1,54 @@
+{
+  "model_sha256": "50457ff7c76658db34b35cf6704789b9a625bc9760ed758332b9d2d5986c7021",
+  "time": 0.1,
+  "mode": "fast",
+  "algorithm": "A",
+  "backend": "gpu",
+  "scans": [
+    {
+      "time": 0.1,
+      "population": "cells",
+      "state": "v",
+      "cell_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unit": "1",
+      "values": [
+        0.0,
+        0.0,
+        0.11083061381206867,
+        0.11089227442207555,
+        0.1109483397911803,
+        0.11099718857660998,
+        0.1110374072271398,
+        0.11106783131015636,
+        0.11108757961093436,
+        0.11109607996927162,
+        0.11109308606842826,
+        0.11107868466598693
+      ],
+      "model_sha256": "50457ff7c76658db34b35cf6704789b9a625bc9760ed758332b9d2d5986c7021"
+    }
+  ],
+  "edits": [
+    {
+      "time": 0.02,
+      "before": "b563264ee532ed8f2013087bd9f75d911b9e2de41a34870b166c258c86e96805",
+      "after": "50457ff7c76658db34b35cf6704789b9a625bc9760ed758332b9d2d5986c7021",
+      "kind": "atomic descriptor replacement",
+      "setup_s": 0.0034969219705089927
+    }
+  ],
+  "coverage": "deterministic smooth ODE; no automatic spikes/delays/noise; C failed HH validation"
+}
