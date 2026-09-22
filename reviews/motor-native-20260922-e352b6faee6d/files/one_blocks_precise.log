@@ -1,0 +1,61 @@
+{"time": 0.05, "wall_s": 7.125619181024376}
+{"time": 0.1, "wall_s": 9.129816920030862}
+{"time": 0.15000000000000002, "wall_s": 10.433011827000882}
+{"time": 0.2, "wall_s": 11.714678550022654}
+{"time": 0.25, "wall_s": 12.778698637033813}
+{"time": 0.30000000000000004, "wall_s": 14.108552417019382}
+{"time": 0.35000000000000003, "wall_s": 15.276731867983472}
+{"time": 0.4, "wall_s": 16.53572805901058}
+{"time": 0.45, "wall_s": 17.82039603102021}
+{"time": 0.5, "wall_s": 18.857015213987324}
+{"time": 0.55, "wall_s": 20.183722708025016}
+{"time": 0.6000000000000001, "wall_s": 21.285760594008025}
+{"time": 0.65, "wall_s": 22.4407637490076}
+{"time": 0.7000000000000001, "wall_s": 23.812840945029166}
+{"time": 0.75, "wall_s": 24.91982673498569}
+{"time": 0.8, "wall_s": 26.296857599983923}
+{"time": 0.8500000000000001, "wall_s": 27.505787434987724}
+{"time": 0.9, "wall_s": 28.70832157600671}
+{"time": 0.9500000000000001, "wall_s": 29.931920453032944}
+{"time": 1.0, "wall_s": 31.092291287030093}
+{
+  "implementation": "python",
+  "profile": "precise",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 1.0,
+  "target_s": 1,
+  "completed": true,
+  "failure": null,
+  "setup_s": 3.655097634997219,
+  "advance_scan_s": 31.09289503702894,
+  "measured_window_s": 35.02654473797884,
+  "error": 2.547526895446654e-08,
+  "reference_sha256": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+  "eligible": true,
+  "stats": {
+    "steps": 459,
+    "rhs_evaluations": 4350,
+    "nonlinear_iterations": 2501,
+    "linear_iterations": 5724,
+    "error_test_failures": 3,
+    "callbacks": [
+      4350,
+      5724,
+      11448,
+      8192,
+      1837,
+      65
+    ],
+    "implementation": "blocks",
+    "block_setups": 65,
+    "block_factorizations": 462,
+    "block_solves": 8192
+  },
+  "host_peak_GiB": 1.9961013793945312,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

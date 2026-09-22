@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-general-v2-20260922](reviews/motor-general-v2-20260922-865eed1d652a/README.md)
+[motor-native-20260922](reviews/motor-native-20260922-e352b6faee6d/README.md)
 
-General model contracts repaired; generated global JVP; SUNDIALS CUDA implicit backend with constant sparse mass. Raw results, negatives, build sources, bounded reproduction and ChatGPT/Jev reviews. Synthetic engineering only; stage3 open.
+Native CUDA graph callbacks, independent prepared block preconditioner,20 bounded scientific attempts and ten-second synthetic trajectories; raw failures, pinned offline build, numerical verification and external advisory review. Stage3 and complete brain/body pending.

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ten_native_precise",
+    "scientific": true,
+    "args": [
+      "bench.py",
+      "runs/ten_native_precise",
+      "--implementation",
+      "native",
+      "--seconds",
+      "10",
+      "--profile",
+      "precise",
+      "--reference-dir",
+      "runs/ten_reference_erk"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 235.7726785550476,
+    "device_wide_peak_MiB": 2263.0,
+    "monitor": "device-wide sampled every0.5s, includes other processes"
+  },
+  {
+    "name": "blocks_validation",
+    "scientific": false,
+    "args": [
+      "test_blocks.py",
+      "blocks_validation"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 1.4660632609738968,
+    "device_wide_peak_MiB": 1351.0,
+    "monitor": "device-wide sampled every0.5s, includes other processes"
+  },
+  {
+    "name": "one_blocks_precise",
+    "scientific": true,
+    "args": [
+      "-c",
+      "import sys,implicit_blocks;sys.modules[\"implicit\"]=implicit_blocks;sys.argv=['bench.py', 'runs/one_blocks_precise', '--implementation', 'python', '--profile', 'precise', '--reference-dir', 'references/large_fine'];import bench;bench.main()"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 35.63211082096677,
+    "device_wide_peak_MiB": 2367.0,
+    "monitor": "device-wide sampled every0.5s, includes other processes"
+  }
+]

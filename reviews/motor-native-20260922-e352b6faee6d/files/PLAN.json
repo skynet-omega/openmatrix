@@ -1,0 +1,46 @@
+{
+  "objective": "Make seconds-long generic neuronal simulation practically fast before stage3; same equations and external error criteria, no anatomical dispatch",
+  "alternatives": {
+    "A": "Compiled C++ callbacks and per-operation CUDA graphs; dynamic device parameter block. Remove Python callback hot path, redundant derivatives and duplicate finite checks. Same integrator and diagonal preconditioner as repaired reference.",
+    "B": "Generated block preconditioning with separate setup/apply; graph dependencies, not anatomical labels; hold native callback change out when comparing.",
+    "C": "Declared global linear/nonlinear IMEX split when stiffness decomposition is justified; differs from failed local diagonal exponential."
+  },
+  "limits": {
+    "complete_candidates": 2,
+    "compute_s": 3600,
+    "pilot_s": 240,
+    "science_runs": 20,
+    "micro_operator_runs": 12,
+    "RAM_GiB": 8,
+    "VRAM_GiB": 12,
+    "jev_calls": 1
+  },
+  "precision": {
+    "fast": [
+      0.001,
+      1e-05
+    ],
+    "precise": [
+      1e-07,
+      1e-09
+    ],
+    "external_global_limits": {
+      "fast": 0.01,
+      "precise": 1e-05
+    },
+    "reference_refinement": 1e-07
+  },
+  "performance_targets": {
+    "primary": "one simulated second within60 wall seconds on a measured large supported load",
+    "sustained": "at least10 continuous simulated seconds in bounded minutes, with long-horizon error checks; preserve explicit baseline where it wins",
+    "promotion": "material >=2x speedup vs same-equation repaired parent at matched precision; no claim for whole biological brain from a synthetic load"
+  },
+  "preimplementation": {
+    "observed_limitation": "61502 Python callbacks and38223 coupled evaluations in previous large precise solve; many evaluate unused derivatives, preparatory work repeated by preconditioner",
+    "new_operation": "device parameter block contains current x/v/destination pointers and time/gamma; copy into same stream before graph, inspect aggregate finite flag before callback returns",
+    "legal_information": "model equations, live state, Jacobian products, constant sparse mass and immutable parameters; no target trajectories used by solver",
+    "closest_prior": "SUNDIALS matrix-free ARKStep and CUDA stream capture/runtime code generation; engineering reuse, no novelty claim",
+    "falsifier": "alternate pointer addresses and reuse addresses with changed values; invalid then valid calls must neither hide errors nor reuse stale flags; trajectories meet existing criteria"
+  },
+  "scope": "Two v2 defects fixed in common control before timing; sources/results preserved. Author-exposed development, no stage3 admission."
+}

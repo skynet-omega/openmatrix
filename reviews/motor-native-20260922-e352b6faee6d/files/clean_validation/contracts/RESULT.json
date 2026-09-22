@@ -1,0 +1,40 @@
+{
+  "FP64_literals": [
+    {
+      "expression": "(9007199254740993-9007199254740992)/tau",
+      "cpu": [
+        0.0
+      ],
+      "gpu": [
+        0.0
+      ]
+    },
+    {
+      "expression": "((3**34+1)-(3**34))/tau",
+      "cpu": [
+        2.0
+      ],
+      "gpu": [
+        2.0
+      ]
+    },
+    {
+      "expression": "(1/10)/tau",
+      "cpu": [
+        0.1
+      ],
+      "gpu": [
+        0.1
+      ]
+    }
+  ],
+  "ordered_identity": {
+    "same_source_digest": true,
+    "different_execution_identity": true,
+    "before": "37bbad0b789366a5542bcfb5d22ed67707830a559da16352bf35cb32e373d312",
+    "after": "49bb1b061e8ddbae8349781867b7072a2c942e37e8b1c49d34928a82157e059d"
+  },
+  "transaction_boundary_rejects_CPU_GPU": true,
+  "fractional_indices_scaled_units_rejected": true,
+  "snapshot_profile_and_compiler_changes_rejected": true
+}

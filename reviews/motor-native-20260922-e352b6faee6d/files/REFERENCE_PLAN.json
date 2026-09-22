@@ -1,0 +1,11 @@
+{
+  "reason": "RK4 step doubling at rtol1e-12 progresses about.036 simulated second per wall second, so the10s high-accuracy reference risks the frozen240s pilot cap. Preserve the attempted run; do not expand its time or loosen accuracy.",
+  "new_reference": "existing SUNDIALS FEHLBERG_13_7_8, same native RHS and same rtol1e-12/atolscale1e-14; compare complete10s trajectory with the completed independent RK4 rtol1e-10 reference",
+  "remaining_budget_reallocation": "Keep total20 science runs. One spare run may replace the B HH trajectory with the high-order reference. Operator/HH block checks remain. If original pipeline fails after reference timeout, use surviving completed raw arrays with explicit failure provenance; never invent missing solver statistics.",
+  "external_reference_refinement_limit": 1e-07,
+  "no_candidate_equation_or_threshold_change": true,
+  "sources": {
+    "reference_erk.py": "78f701f4216c701809688427b89d110ab063a4ac8d254fa5306764d6e2ea25a7",
+    "reference_erk.cpp": "72f82bf5e18098e18775e4683e4351edf965f2743c8ed0e9f4461c503e924cb4"
+  }
+}

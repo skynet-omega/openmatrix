@@ -1,0 +1,69 @@
+{"time": 0.25, "wall_s": 3.377967887034174}
+{"time": 0.5, "wall_s": 6.130593424022663}
+{"time": 0.75, "wall_s": 8.908241060038563}
+{"time": 1.0, "wall_s": 11.673016312997788}
+{"time": 1.25, "wall_s": 14.436409845016897}
+{"time": 1.5, "wall_s": 17.17749452101998}
+{"time": 1.75, "wall_s": 19.91734088299563}
+{"time": 2.0, "wall_s": 22.658171391987707}
+{"time": 2.25, "wall_s": 25.403101511998102}
+{"time": 2.5, "wall_s": 28.153418030007742}
+{"time": 2.75, "wall_s": 30.896512977022212}
+{"time": 3.0, "wall_s": 33.63914297003066}
+{"time": 3.25, "wall_s": 36.38711911800783}
+{"time": 3.5, "wall_s": 39.13694654899882}
+{"time": 3.75, "wall_s": 41.898189475992694}
+{"time": 4.0, "wall_s": 44.65526513900841}
+{"time": 4.25, "wall_s": 47.404956135025714}
+{"time": 4.5, "wall_s": 50.14581795001868}
+{"time": 4.75, "wall_s": 52.887616023013834}
+{"time": 5.0, "wall_s": 55.62993382604327}
+{"time": 5.25, "wall_s": 58.376276253024116}
+{"time": 5.5, "wall_s": 61.12251492502401}
+{"time": 5.75, "wall_s": 63.87289979401976}
+{"time": 6.0, "wall_s": 66.61909510701662}
+{"time": 6.25, "wall_s": 69.36263601202518}
+{"time": 6.5, "wall_s": 72.11750982503872}
+{"time": 6.75, "wall_s": 74.87617176602362}
+{"time": 7.0, "wall_s": 77.632080262003}
+{"time": 7.25, "wall_s": 80.3800883750082}
+{"time": 7.5, "wall_s": 83.12070276204031}
+{"time": 7.75, "wall_s": 85.86441689601634}
+{"time": 8.0, "wall_s": 88.61042861000169}
+{"time": 8.25, "wall_s": 91.35527687403373}
+{"time": 8.5, "wall_s": 94.10186699504266}
+{"time": 8.75, "wall_s": 96.85211854398949}
+{"time": 9.0, "wall_s": 99.60266720299842}
+{"time": 9.25, "wall_s": 102.35294946504291}
+{"time": 9.5, "wall_s": 105.11311061802553}
+{"time": 9.75, "wall_s": 107.8710092100082}
+{"time": 10.0, "wall_s": 110.62880258302903}
+{
+  "implementation": "reference",
+  "profile": "precise",
+  "reference_tolerances": [
+    1e-10,
+    1e-12
+  ],
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 10.0,
+  "target_s": 10.0,
+  "completed": true,
+  "failure": null,
+  "setup_s": 2.9244898589677177,
+  "advance_scan_s": 110.62941237102496,
+  "measured_window_s": 113.62462485994911,
+  "error": null,
+  "reference_sha256": null,
+  "eligible": true,
+  "stats": {
+    "accepted": 15292,
+    "rejected": 0
+  },
+  "host_peak_GiB": 1.9984664916992188,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

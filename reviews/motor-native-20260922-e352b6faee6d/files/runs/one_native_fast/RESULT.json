@@ -1,0 +1,46 @@
+{
+  "implementation": "native",
+  "profile": "fast",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 1.0,
+  "target_s": 1,
+  "completed": true,
+  "failure": null,
+  "setup_s": 3.820227673975751,
+  "advance_scan_s": 5.320753115986008,
+  "measured_window_s": 9.441491956997197,
+  "error": 0.0002268806440213694,
+  "reference_sha256": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+  "eligible": true,
+  "stats": {
+    "steps": 29,
+    "rhs_evaluations": 373,
+    "nonlinear_iterations": 248,
+    "linear_iterations": 1206,
+    "error_test_failures": 2,
+    "callbacks": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "implementation": "native",
+    "native_callbacks": [
+      374,
+      1206,
+      1666,
+      1437,
+      119
+    ],
+    "diagonal_fallback_callbacks": 0,
+    "Python_callbacks_during_integration": 0
+  },
+  "host_peak_GiB": 1.9981193542480469,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

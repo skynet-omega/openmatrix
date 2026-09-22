@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "description": "Classical HH axon engineering fixture, not measured other-species connectome",
+  "populations": [
+    {
+      "id": "axon",
+      "count": 3,
+      "states": {
+        "v": {
+          "unit": "mV",
+          "initial": -65,
+          "scale": 100,
+          "rhs": "(current-gna*m**3*h*(v-ena)-gk*q**4*(v-ek)-gl*(v-el))/cm"
+        },
+        "m": {
+          "unit": "1",
+          "initial": 0.0529,
+          "scale": 1,
+          "rhs": "am*(1-m)-bm*m"
+        },
+        "h": {
+          "unit": "1",
+          "initial": 0.5961,
+          "scale": 1,
+          "rhs": "ah*(1-h)-bh*h"
+        },
+        "q": {
+          "unit": "1",
+          "initial": 0.3177,
+          "scale": 1,
+          "rhs": "aq*(1-q)-bq*q"
+        }
+      },
+      "parameters": {
+        "cm": {
+          "unit": "s",
+          "value": 0.001
+        },
+        "gna": {
+          "unit": "1",
+          "value": 120
+        },
+        "gk": {
+          "unit": "1",
+          "value": 36
+        },
+        "gl": {
+          "unit": "1",
+          "value": 0.3
+        },
+        "ena": {
+          "unit": "mV",
+          "value": 50
+        },
+        "ek": {
+          "unit": "mV",
+          "value": -77
+        },
+        "el": {
+          "unit": "mV",
+          "value": -54.387
+        },
+        "v40": {
+          "unit": "mV",
+          "value": 40
+        },
+        "v65": {
+          "unit": "mV",
+          "value": 65
+        },
+        "v35": {
+          "unit": "mV",
+          "value": 35
+        },
+        "v55": {
+          "unit": "mV",
+          "value": 55
+        },
+        "v10": {
+          "unit": "mV",
+          "value": 10
+        },
+        "v18": {
+          "unit": "mV",
+          "value": 18
+        },
+        "v20": {
+          "unit": "mV",
+          "value": 20
+        },
+        "v80": {
+          "unit": "mV",
+          "value": 80
+        },
+        "r1": {
+          "unit": "1/s",
+          "value": 1000
+        },
+        "r4": {
+          "unit": "1/s",
+          "value": 4000
+        },
+        "r07": {
+          "unit": "1/s",
+          "value": 70
+        },
+        "r01": {
+          "unit": "1/s",
+          "value": 100
+        },
+        "r0125": {
+          "unit": "1/s",
+          "value": 125
+        }
+      },
+      "inputs": {
+        "current": {
+          "unit": "mV",
+          "value": 10
+        }
+      },
+      "derived": {
+        "am": {
+          "unit": "1/s",
+          "expr": "r1/exprel(-(v+v40)/v10)"
+        },
+        "bm": {
+          "unit": "1/s",
+          "expr": "r4*exp(-(v+v65)/v18)"
+        },
+        "ah": {
+          "unit": "1/s",
+          "expr": "r07*exp(-(v+v65)/v20)"
+        },
+        "bh": {
+          "unit": "1/s",
+          "expr": "r1/(1+exp(-(v+v35)/v10))"
+        },
+        "aq": {
+          "unit": "1/s",
+          "expr": "r01/exprel(-(v+v55)/v10)"
+        },
+        "bq": {
+          "unit": "1/s",
+          "expr": "r0125*exp(-(v+v65)/v80)"
+        }
+      },
+      "outputs": {
+        "voltage": {
+          "unit": "mV",
+          "expr": "v"
+        }
+      }
+    }
+  ],
+  "connections": []
+}

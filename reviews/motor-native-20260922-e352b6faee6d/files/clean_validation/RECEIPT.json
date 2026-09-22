@@ -1,0 +1,69 @@
+[
+  {
+    "args": [
+      "verify_package.py"
+    ],
+    "exit": 0,
+    "wall_s": 0.03175345802446827
+  },
+  {
+    "args": [
+      "verify_results.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/VERIFIED.json"
+    ],
+    "exit": 0,
+    "wall_s": 1.817205108993221
+  },
+  {
+    "args": [
+      "test_contracts.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/contracts"
+    ],
+    "exit": 0,
+    "wall_s": 0.915362327999901
+  },
+  {
+    "args": [
+      "test_native.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/native"
+    ],
+    "exit": 0,
+    "wall_s": 1.466154915979132
+  },
+  {
+    "args": [
+      "test_blocks.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/blocks"
+    ],
+    "exit": 0,
+    "wall_s": 0.8152334770420566
+  },
+  {
+    "args": [
+      "test_edge_contracts.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/edges"
+    ],
+    "exit": 0,
+    "wall_s": 0.9151235760073178
+  },
+  {
+    "args": [
+      "test_session.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/session"
+    ],
+    "exit": 0,
+    "wall_s": 2.117029151006136
+  },
+  {
+    "args": [
+      "pilot.py",
+      "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/clamp",
+      "--case",
+      "clamp",
+      "--profile",
+      "precise"
+    ],
+    "exit": 0,
+    "wall_s": 1.0655814000056125
+  }
+]

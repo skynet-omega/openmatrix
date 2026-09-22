@@ -1,0 +1,100 @@
+{
+  "contract": {
+    "version": 2,
+    "implementation": "native",
+    "mode": "physical_restart_new_adaptation",
+    "profile": "precise",
+    "rtol": 1e-07,
+    "atol_scale": 1e-09,
+    "sources": {
+      "model.py": "4e6f762df5aa34831e29d32a7207af3e0887e35eca1bbab6684ae9247f8512bc",
+      "runtime.py": "069318ff148dc335462dad72046052dfad8e4556d7d76efe8952d36859e1bc99",
+      "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+      "coupled.py": "0efb9638b014c25cb34cc5c31676ba46e27a692106c7b7ac955f7fc0fa0ce97f",
+      "implicit.py": "d0d7c211ca8d98fc50a953051c10a665ef12eb9f0236b63259d1de42ad5bbdaa",
+      "bridge.cpp": "c62a369dca56fc850ea9426157e9f55e646d4a329b425a398aad86c265fa6b87",
+      "native_support.cpp": "d7ab9287b10bbec362c484640befc4de90bbdd2acd6d25c695e8f794d8f91405",
+      "native_ops.py": "740c2d5d5620285fd9af634314775c1bc7b2b2e842d9748d5ed291658a4108a8",
+      "native_codegen.py": "19dec0e75d503912ffa87a4e094cbcbdd6aa10e115bf9276fb3575f69e897666",
+      "session.py": "159da18a84de2d4199632129b96c208814b2029de81f5753dfe1cf381e87a95a",
+      "DEPENDENCY.json": "44f7a705279e70a1492414f9b4d7492804ab4a055221e6b444ccca7eebb78d0c"
+    },
+    "numpy": "1.26.4",
+    "cupy": "13.6.0",
+    "CUDA_runtime": 12090,
+    "library_sha256": "c0ec9f840db5b8d0a38274ef2ab0af7497571257a4de6517ee3067a8c80fc0aa"
+  },
+  "spec": {
+    "version": 1,
+    "description": "Synthetic recurrent rate population, dimensionless, not a biological reconstruction",
+    "populations": [
+      {
+        "id": "cells",
+        "count": 4,
+        "states": {
+          "v": {
+            "unit": "1",
+            "initial": 0.1,
+            "scale": 1,
+            "rhs": "(-v+w*syn+drive)/tau"
+          },
+          "syn": {
+            "unit": "1",
+            "initial": 0.05,
+            "scale": 1,
+            "rhs": "(tanh(v)-syn)/taus"
+          }
+        },
+        "parameters": {
+          "tau": {
+            "unit": "s",
+            "value": 0.02
+          },
+          "taus": {
+            "unit": "s",
+            "value": 0.01
+          },
+          "drive": {
+            "unit": "1",
+            "value": 0.1
+          }
+        },
+        "inputs": {
+          "w": {
+            "unit": "1",
+            "value": 0
+          }
+        },
+        "outputs": {
+          "release": {
+            "unit": "1",
+            "expr": "syn"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": [
+          "cells",
+          "release"
+        ],
+        "target": [
+          "cells",
+          "w"
+        ],
+        "pattern": "ring",
+        "offsets": [
+          1,
+          2
+        ],
+        "weight": 0.1
+      }
+    ]
+  },
+  "identity": "cd4f4685a259de11c761cb6358967a4a30808e354478d70b68bb278155c2e5ea",
+  "time": 0.003,
+  "edits": [],
+  "state_sha256": "95c2934ff1962a37c09a1a91739426cde9dcc6588280f7f9a84635e1fa6113ef",
+  "unsupported": "No serialization of SUNDIALS adaptive/Newton/Krylov history. Restart is a declared new epoch."
+}

@@ -1,0 +1,37 @@
+{
+  "implementation": "python",
+  "profile": "precise",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 1.0,
+  "target_s": 1,
+  "completed": true,
+  "failure": null,
+  "setup_s": 3.053315675992053,
+  "advance_scan_s": 83.60782554501202,
+  "measured_window_s": 86.93182057596277,
+  "error": 2.109510992538074e-08,
+  "reference_sha256": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+  "eligible": true,
+  "stats": {
+    "steps": 459,
+    "rhs_evaluations": 5554,
+    "nonlinear_iterations": 3705,
+    "linear_iterations": 14514,
+    "error_test_failures": 3,
+    "callbacks": [
+      5554,
+      14514,
+      21442,
+      18155,
+      1837
+    ],
+    "implementation": "python"
+  },
+  "host_peak_GiB": 1.9983139038085938,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

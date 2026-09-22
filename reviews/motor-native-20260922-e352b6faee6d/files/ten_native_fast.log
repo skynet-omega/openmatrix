@@ -1,0 +1,48 @@
+{"time": 0.25, "wall_s": 2.1337327919900417}
+{"time": 0.5, "wall_s": 3.3281161470222287}
+{"time": 0.75, "wall_s": 4.325668758014217}
+{"time": 1.0, "wall_s": 5.319441994011868}
+{"time": 1.25, "wall_s": 6.282188558019698}
+{"time": 1.5, "wall_s": 7.445315833028872}
+{"time": 1.75, "wall_s": 8.376491604023613}
+{"time": 2.0, "wall_s": 9.305890808987897}
+{"time": 2.25, "wall_s": 10.264343608985655}
+{"time": 2.5, "wall_s": 11.365500045998488}
+{"time": 2.75, "wall_s": 12.327329316991381}
+{"time": 3.0, "wall_s": 13.200197859026957}
+{"time": 3.25, "wall_s": 14.09899717499502}
+{"time": 3.5, "wall_s": 14.966873524012044}
+{"time": 3.75, "wall_s": 15.848460827022791}
+{"time": 4.0, "wall_s": 16.92408730403986}
+{"time": 4.25, "wall_s": 17.805693494039588}
+{"time": 4.5, "wall_s": 18.656483708997257}
+{"time": 4.75, "wall_s": 19.52441277698381}
+{"time": 5.0, "wall_s": 20.345961945015006}
+{"time": 5.25, "wall_s": 21.20806822902523}
+{"time": 5.5, "wall_s": 22.21116610302124}
+{"time": 5.75, "wall_s": 23.01447570498567}
+{"time": 6.0, "wall_s": 24.223161561007146}
+{"time": 6.25, "wall_s": 25.063513681001496}
+{"time": 6.5, "wall_s": 26.129649193026125}
+{"time": 6.75, "wall_s": 27.191243860987015}
+{"time": 7.0, "wall_s": 28.246888952038717}
+{"time": 7.25, "wall_s": 28.99638862500433}
+{"time": 7.5, "wall_s": 29.517477563989814}
+{"time": 7.75, "wall_s": 30.052157028985675}
+{"time": 8.0, "wall_s": 30.57396260398673}
+{"time": 8.25, "wall_s": 31.10521016299026}
+{"time": 8.5, "wall_s": 31.635661578038707}
+{"time": 8.75, "wall_s": 32.17252325901063}
+{"time": 9.0, "wall_s": 32.742892325040884}
+{"time": 9.25, "wall_s": 33.320368787040934}
+{"time": 9.5, "wall_s": 33.87578896404011}
+{"time": 9.75, "wall_s": 34.42398196499562}
+{"time": 10.0, "wall_s": 34.96881448599743}
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_20260922/bench.py", line 38, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_20260922/bench.py", line 34, in main
+    require(np.array_equal(f['probes'],probes) and np.array_equal(f['times'],times),'reference sampling context')
+  File "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_20260922/model.py", line 13, in require
+    if not ok: raise ValueError(message)
+ValueError: reference sampling context

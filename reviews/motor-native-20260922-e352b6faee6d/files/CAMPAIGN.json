@@ -1,0 +1,302 @@
+[
+  {
+    "name": "clamp_fast",
+    "args": [
+      "pilot.py",
+      "runs/clamp_fast",
+      "--case",
+      "clamp",
+      "--profile",
+      "fast"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 1.5678035729797557,
+    "device_wide_peak_MiB": 1347.0,
+    "device_wide_mean_gpu_percent": 1.5,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "clamp_precise",
+    "args": [
+      "pilot.py",
+      "runs/clamp_precise",
+      "--case",
+      "clamp",
+      "--profile",
+      "precise"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 1.188037568994332,
+    "device_wide_peak_MiB": 1136.0,
+    "device_wide_mean_gpu_percent": 5.5,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "stiff_fast",
+    "args": [
+      "pilot.py",
+      "runs/stiff_fast",
+      "--case",
+      "stiff",
+      "--profile",
+      "fast"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 1.9171483059762977,
+    "device_wide_peak_MiB": 1349.0,
+    "device_wide_mean_gpu_percent": 5.0,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "stiff_precise",
+    "args": [
+      "pilot.py",
+      "runs/stiff_precise",
+      "--case",
+      "stiff",
+      "--profile",
+      "precise"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 10.451671593997162,
+    "device_wide_peak_MiB": 1349.0,
+    "device_wide_mean_gpu_percent": 12.947368421052632,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "hh_fast",
+    "args": [
+      "pilot.py",
+      "runs/hh_fast",
+      "--case",
+      "hh",
+      "--profile",
+      "fast",
+      "--reference-dir",
+      "references/hh_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 6.1261167990160175,
+    "device_wide_peak_MiB": 1349.0,
+    "device_wide_mean_gpu_percent": 13.4,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "hh_precise",
+    "args": [
+      "pilot.py",
+      "runs/hh_precise",
+      "--case",
+      "hh",
+      "--profile",
+      "precise",
+      "--reference-dir",
+      "references/hh_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 76.69906555500347,
+    "device_wide_peak_MiB": 1349.0,
+    "device_wide_mean_gpu_percent": 34.108695652173914,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "mixed_fast",
+    "args": [
+      "pilot.py",
+      "runs/mixed_fast",
+      "--case",
+      "mixed",
+      "--profile",
+      "fast",
+      "--reference-dir",
+      "references/mixed_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 2.4191332060145214,
+    "device_wide_peak_MiB": 1348.0,
+    "device_wide_mean_gpu_percent": 8.5,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "mixed_precise",
+    "args": [
+      "pilot.py",
+      "runs/mixed_precise",
+      "--case",
+      "mixed",
+      "--profile",
+      "precise",
+      "--reference-dir",
+      "references/mixed_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 7.286669352033641,
+    "device_wide_peak_MiB": 1348.0,
+    "device_wide_mean_gpu_percent": 13.538461538461538,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "hh_python_fast",
+    "args": [
+      "pilot.py",
+      "runs/hh_python_fast",
+      "--case",
+      "hh",
+      "--profile",
+      "fast",
+      "--implementation",
+      "python",
+      "--reference-dir",
+      "references/hh_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 10.880263607017696,
+    "device_wide_peak_MiB": 1348.0,
+    "device_wide_mean_gpu_percent": 15.0,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "hh_python_precise",
+    "args": [
+      "pilot.py",
+      "runs/hh_python_precise",
+      "--case",
+      "hh",
+      "--profile",
+      "precise",
+      "--implementation",
+      "python",
+      "--reference-dir",
+      "references/hh_reference"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 99.6726119699888,
+    "device_wide_peak_MiB": 1348.0,
+    "device_wide_mean_gpu_percent": 32.80898876404494,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "one_python_fast",
+    "args": [
+      "bench.py",
+      "runs/one_python_fast",
+      "--implementation",
+      "python",
+      "--profile",
+      "fast",
+      "--reference-dir",
+      "references/large_fine"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 10.38126352900872,
+    "device_wide_peak_MiB": 2254.0,
+    "device_wide_mean_gpu_percent": 49.05555555555556,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "one_native_fast",
+    "args": [
+      "bench.py",
+      "runs/one_native_fast",
+      "--implementation",
+      "native",
+      "--profile",
+      "fast",
+      "--reference-dir",
+      "references/large_fine"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 10.137226737977471,
+    "device_wide_peak_MiB": 2230.0,
+    "device_wide_mean_gpu_percent": 41.0,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "one_python_precise",
+    "args": [
+      "bench.py",
+      "runs/one_python_precise",
+      "--implementation",
+      "python",
+      "--profile",
+      "precise",
+      "--reference-dir",
+      "references/large_fine"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 87.52389151300304,
+    "device_wide_peak_MiB": 2254.0,
+    "device_wide_mean_gpu_percent": 69.40506329113924,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "one_native_precise",
+    "args": [
+      "bench.py",
+      "runs/one_native_precise",
+      "--implementation",
+      "native",
+      "--profile",
+      "precise",
+      "--reference-dir",
+      "references/large_fine"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 64.12094186496688,
+    "device_wide_peak_MiB": 2230.0,
+    "device_wide_mean_gpu_percent": 66.55652173913043,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "ten_reference",
+    "args": [
+      "bench.py",
+      "runs/ten_reference",
+      "--implementation",
+      "reference",
+      "--seconds",
+      "10"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 114.20337739697425,
+    "device_wide_peak_MiB": 1698.0,
+    "device_wide_mean_gpu_percent": 95.3701923076923,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "ten_reference_fine",
+    "args": [
+      "bench.py",
+      "runs/ten_reference_fine",
+      "--implementation",
+      "reference_fine",
+      "--seconds",
+      "10"
+    ],
+    "exit": 0,
+    "subprocess_wall_s": 235.6428460419993,
+    "device_wide_peak_MiB": 1698.0,
+    "device_wide_mean_gpu_percent": 96.83488372093024,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  },
+  {
+    "name": "ten_native_fast",
+    "args": [
+      "bench.py",
+      "runs/ten_native_fast",
+      "--implementation",
+      "native",
+      "--seconds",
+      "10",
+      "--profile",
+      "fast",
+      "--reference-dir",
+      "runs/ten_reference_fine"
+    ],
+    "exit": 1,
+    "subprocess_wall_s": 38.774764136003796,
+    "device_wide_peak_MiB": 2230.0,
+    "device_wide_mean_gpu_percent": 64.1304347826087,
+    "monitor": "device-wide including other GPU work, 0.5s sampling; not precise per-process allocation peak"
+  }
+]

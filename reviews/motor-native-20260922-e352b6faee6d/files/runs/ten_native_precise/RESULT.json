@@ -1,0 +1,46 @@
+{
+  "implementation": "native",
+  "profile": "precise",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 4.59410715440651,
+  "target_s": 10.0,
+  "completed": false,
+  "failure": "ValueError('implicit failure: native pilot wall budget exhausted')",
+  "setup_s": 3.048685993999243,
+  "advance_scan_s": 231.95284876599908,
+  "measured_window_s": 235.22602333099348,
+  "error": null,
+  "reference_sha256": "dc46b3fa94e85b96219d23fd1bebe0281ed30845a00bff1b5a7892c3dc81f1ae",
+  "eligible": false,
+  "stats": {
+    "steps": 1704,
+    "rhs_evaluations": 20642,
+    "nonlinear_iterations": 13764,
+    "linear_iterations": 57493,
+    "error_test_failures": 15,
+    "callbacks": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "implementation": "native",
+    "native_callbacks": [
+      20643,
+      57493,
+      83249,
+      71027,
+      6834
+    ],
+    "diagonal_fallback_callbacks": 0,
+    "Python_callbacks_during_integration": 0
+  },
+  "host_peak_GiB": 1.988922119140625,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

@@ -1,0 +1,22 @@
+{
+  "role": "independent existing ERK8 reference",
+  "rtol": 1e-12,
+  "atol_scale": 1e-14,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "states": 726900,
+  "connections": 23296700,
+  "simulated_s": 10.0,
+  "target_s": 10,
+  "completed": true,
+  "failure": null,
+  "setup_s": 1.8224333120160736,
+  "advance_scan_s": 74.8955395379453,
+  "measured_window_s": 76.79538422898622,
+  "steps_rhs_failures": [
+    6379,
+    92779,
+    821
+  ],
+  "scope": "shared descriptor/native RHS, different established integrator; check against independent RK4 reference, not biological validation"
+}

@@ -1,0 +1,61 @@
+{
+  "operators": [
+    {
+      "case": "network",
+      "rhs_error": 1.4860918131056414e-16,
+      "JVP_error": 3.0726212242354636e-10,
+      "pointer_alternation_and_reuse": true,
+      "invalid_then_valid_detected": true
+    },
+    {
+      "case": "hh",
+      "rhs_error": 2.467395720616795e-15,
+      "JVP_error": 1.53124888796686e-09,
+      "pointer_alternation_and_reuse": true,
+      "invalid_then_valid_detected": true
+    },
+    {
+      "case": "mixed",
+      "rhs_error": 3.0265624908553657e-16,
+      "JVP_error": 7.738643268793932e-10,
+      "pointer_alternation_and_reuse": true,
+      "invalid_then_valid_detected": true
+    },
+    {
+      "case": "stiff_mass",
+      "rhs_error": 1.9093321623770126e-14,
+      "JVP_error": 1.9550794162553233e-09,
+      "pointer_alternation_and_reuse": true,
+      "invalid_then_valid_detected": true
+    }
+  ],
+  "singular_preconditioner": [
+    {
+      "implementation": "python",
+      "values": [
+        1.0,
+        0.25
+      ],
+      "finite": true
+    },
+    {
+      "implementation": "native",
+      "values": [
+        1.0,
+        0.25
+      ],
+      "finite": true
+    }
+  ],
+  "cleanup_failure_committed_receipt": {
+    "time": 0.0,
+    "before": "72edf9bea2de46682008f6311b1d30a5aa8c30e726853f7aea308088e0824080",
+    "after": "7298b319b5cc67aa1d266dee7798cf485dd2e7805a0fc103fe1c7db39a8c3107",
+    "kind": "new integration epoch; adaptation restarted",
+    "committed": true,
+    "cleanup": "failed",
+    "cleanup_error": "RuntimeError('injected cleanup')"
+  },
+  "cleanup_retry_success": true,
+  "wall_s": 0.9534870109637268
+}

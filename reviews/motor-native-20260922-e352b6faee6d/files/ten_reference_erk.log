@@ -1,0 +1,62 @@
+{"time": 0.25, "wall_s": 1.9093736700015143}
+{"time": 0.5, "wall_s": 3.736638960952405}
+{"time": 0.75, "wall_s": 5.573312786000315}
+{"time": 1.0, "wall_s": 7.478577221976593}
+{"time": 1.25, "wall_s": 9.421422944986261}
+{"time": 1.5, "wall_s": 11.304103058995679}
+{"time": 1.75, "wall_s": 13.243514046946075}
+{"time": 2.0, "wall_s": 15.251151760981884}
+{"time": 2.25, "wall_s": 17.186637893959414}
+{"time": 2.5, "wall_s": 19.05550597695401}
+{"time": 2.75, "wall_s": 20.917241517978255}
+{"time": 3.0, "wall_s": 22.764349918987136}
+{"time": 3.25, "wall_s": 24.585531275952235}
+{"time": 3.5, "wall_s": 26.418865328945685}
+{"time": 3.75, "wall_s": 28.244384535995778}
+{"time": 4.0, "wall_s": 30.089579910971224}
+{"time": 4.25, "wall_s": 31.898523062991444}
+{"time": 4.5, "wall_s": 33.7026912769652}
+{"time": 4.75, "wall_s": 35.514405878959224}
+{"time": 5.0, "wall_s": 37.35299463599222}
+{"time": 5.25, "wall_s": 39.22539696696913}
+{"time": 5.5, "wall_s": 41.10703377396567}
+{"time": 5.75, "wall_s": 42.96120584500022}
+{"time": 6.0, "wall_s": 44.8592964229756}
+{"time": 6.25, "wall_s": 46.946417325991206}
+{"time": 6.5, "wall_s": 49.01693520398112}
+{"time": 6.75, "wall_s": 50.95135054195998}
+{"time": 7.0, "wall_s": 52.82075386994984}
+{"time": 7.25, "wall_s": 54.65676316694589}
+{"time": 7.5, "wall_s": 56.48172539495863}
+{"time": 7.75, "wall_s": 58.32102958095493}
+{"time": 8.0, "wall_s": 60.103162208979484}
+{"time": 8.25, "wall_s": 61.89599578996422}
+{"time": 8.5, "wall_s": 63.73991667595692}
+{"time": 8.75, "wall_s": 65.58264534495538}
+{"time": 9.0, "wall_s": 67.39975997596048}
+{"time": 9.25, "wall_s": 69.31833820597967}
+{"time": 9.5, "wall_s": 71.17687763198046}
+{"time": 9.75, "wall_s": 73.04002656799275}
+{"time": 10.0, "wall_s": 74.8949279319495}
+{
+  "role": "independent existing ERK8 reference",
+  "rtol": 1e-12,
+  "atol_scale": 1e-14,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "states": 726900,
+  "connections": 23296700,
+  "simulated_s": 10.0,
+  "target_s": 10,
+  "completed": true,
+  "failure": null,
+  "setup_s": 1.8224333120160736,
+  "advance_scan_s": 74.8955395379453,
+  "measured_window_s": 76.79538422898622,
+  "steps_rhs_failures": [
+    6379,
+    92779,
+    821
+  ],
+  "scope": "shared descriptor/native RHS, different established integrator; check against independent RK4 reference, not biological validation"
+}

@@ -1,0 +1,193 @@
+--- parent/bridge.cpp
++++ bridge.cpp
+@@ -10,11 +10,12 @@
+ #include <stdexcept>
+ #include <string>
+ #include <cstdio>
++#include "native_support.cpp"
+ using Callback=int(*)(int,double,double*,double*,double*,double);
+ static thread_local std::string last_error;
+ struct Bridge {
+  SUNContext ctx=nullptr;N_Vector y=nullptr,atol=nullptr,ratol=nullptr;SUNLinearSolver ls=nullptr,mls=nullptr;void* mem=nullptr;
+- std::vector<double> host,host_atol,host_ratol;Callback cb;cudaStream_t stream;double time=0;
++ std::vector<double> host,host_atol,host_ratol;Callback cb;Native* native=nullptr;cudaStream_t stream;double time=0;
+  sundials::cuda::ThreadDirectExecPolicy exec;
+  sundials::cuda::BlockReduceExecPolicy reduce;
+  Bridge(long n,Callback callback,cudaStream_t st):host(n),host_atol(n),host_ratol(n),cb(callback),stream(st),exec(256,st),reduce(256,0,st){}
+@@ -22,17 +23,18 @@
+ };
+ static void ck(int status,const char* where){if(status<0)throw std::runtime_error(std::string(where)+": "+std::to_string(status));}
+ static double* ptr(N_Vector v){return v?N_VGetDeviceArrayPointer_Cuda(v):nullptr;}
+-static int rhs(double t,N_Vector y,N_Vector f,void* d){return static_cast<Bridge*>(d)->cb(0,t,ptr(y),nullptr,ptr(f),0);}
+-static int jvp(N_Vector v,N_Vector j,double t,N_Vector y,N_Vector,void* d,N_Vector){return static_cast<Bridge*>(d)->cb(1,t,ptr(y),ptr(v),ptr(j),0);}
+-static int mass(N_Vector v,N_Vector m,double t,void* d){return static_cast<Bridge*>(d)->cb(2,t,nullptr,ptr(v),ptr(m),0);}
+-static int prec(double t,N_Vector y,N_Vector,N_Vector r,N_Vector z,double gamma,double,int,void* d){return static_cast<Bridge*>(d)->cb(3,t,ptr(y),ptr(r),ptr(z),gamma);}
+-static int mprec(double t,N_Vector r,N_Vector z,double,int,void* d){return static_cast<Bridge*>(d)->cb(4,t,nullptr,ptr(r),ptr(z),0);}
++static int dispatch(void* d,int k,double t,double* y,double* v,double* out,double gamma){auto* b=static_cast<Bridge*>(d);return b->native?b->native->call(k,t,y,v,out,gamma):b->cb(k,t,y,v,out,gamma);}
++static int rhs(double t,N_Vector y,N_Vector f,void* d){return dispatch(d,0,t,ptr(y),nullptr,ptr(f),0);}
++static int jvp(N_Vector v,N_Vector j,double t,N_Vector y,N_Vector,void* d,N_Vector){return dispatch(d,1,t,ptr(y),ptr(v),ptr(j),0);}
++static int mass(N_Vector v,N_Vector m,double t,void* d){return dispatch(d,2,t,nullptr,ptr(v),ptr(m),0);}
++static int prec(double t,N_Vector y,N_Vector,N_Vector r,N_Vector z,double gamma,double,int,void* d){return dispatch(d,3,t,ptr(y),ptr(r),ptr(z),gamma);}
++static int mprec(double t,N_Vector r,N_Vector z,double,int,void* d){return dispatch(d,4,t,nullptr,ptr(r),ptr(z),0);}
+ extern "C" {
+ const char* om_error(){return last_error.c_str();}
+-void* om_create(long n,double* state,double* atol,double* ratol,double rtol,double t0,void* stream,Callback cb){
++void* om_create_internal(long n,double* state,double* atol,double* ratol,double rtol,double t0,void* stream,Callback cb,Native* native){
+  Bridge* b=nullptr;
+  try{
+-  b=new Bridge(n,cb,reinterpret_cast<cudaStream_t>(stream));b->time=t0;
++  b=new Bridge(n,cb,reinterpret_cast<cudaStream_t>(stream));b->time=t0;b->native=native;
+   ck(SUNContext_Create(SUN_COMM_NULL,&b->ctx),"SUNContext_Create");
+   b->y=N_VMake_Cuda(n,b->host.data(),state,b->ctx);b->atol=N_VMake_Cuda(n,b->host_atol.data(),atol,b->ctx);
+   b->ratol=N_VMake_Cuda(n,b->host_ratol.data(),ratol,b->ctx);
+@@ -60,6 +62,8 @@
+   return b;
+  }catch(const std::exception& e){last_error=e.what();delete b;return nullptr;}
+ }
++void* om_create(long n,double* state,double* atol,double* ratol,double rtol,double t0,void* stream,Callback cb){return om_create_internal(n,state,atol,ratol,rtol,t0,stream,cb,nullptr);}
++void* om_create_native(long n,double* state,double* atol,double* ratol,double rtol,double t0,void* stream,void* native){return om_create_internal(n,state,atol,ratol,rtol,t0,stream,nullptr,static_cast<Native*>(native));}
+ int om_advance(void* handle,double end,double* actual){
+  auto* b=static_cast<Bridge*>(handle);
+  try{ck(ARKodeSetStopTime(b->mem,end),"stop time");ck(ARKodeEvolve(b->mem,end,b->y,&b->time,ARK_NORMAL),"ARKodeEvolve");*actual=b->time;return 0;}
+--- parent/implicit.py
++++ implicit.py
+@@ -7,6 +7,7 @@
+ import cupy as cp
+ from model import Model,require
+ from coupled import Coupled
++from native_ops import NativeOps
+ from runtime import PROFILES
+ H=Path(__file__).resolve().parent
+ CB=ct.CFUNCTYPE(ct.c_int,ct.c_int,ct.c_double,ct.c_void_p,ct.c_void_p,ct.c_void_p,ct.c_double)
+@@ -19,8 +20,9 @@
+     return lib
+ 
+ class Implicit:
+-    def __init__(self,spec,profile='precise',time0=0.,state=None):
++    def __init__(self,spec,profile='precise',time0=0.,state=None,implementation='native'):
+         started=time.perf_counter();require(profile in PROFILES,'profile')
++        require(implementation in ('native','python'),'implementation');self.implementation=implementation
+         self.model=Model(spec,prepare_mass_solver=False);self.profile=profile;require(np.isfinite(time0),"initial time");self.t=time0;self.handle=None
+         # Sufficient nonsingularity admission: strict row diagonal dominance with positive diagonal.
+         # This accepts arbitrary sparse topology; it is not a claim to support every invertible M.
+@@ -29,17 +31,25 @@
+         initial=np.asarray(self.model.initial if state is None else state,dtype=np.float64)
+         require(initial.shape==(self.model.n,) and np.isfinite(initial).all(),"initial state shape/finiteness")
+         require(np.array_equal(initial[self.model.clamp_mask],self.model.clamp_values[self.model.clamp_mask]),"initial clamp state")
+-        self.stream=cp.cuda.Stream(non_blocking=True);self.operator=Coupled(self.model,self.stream)
++        self.stream=cp.cuda.Stream(non_blocking=True);self.operator=NativeOps(self.model,self.stream) if implementation=='native' else Coupled(self.model,self.stream)
+         self.exception=None;self.calls=[0]*5;self.deadline=float('inf');self.unowned=[]
+         with self.stream:
+             self.x=cp.asarray(initial,dtype=cp.float64)
+             self.mdiag=cp.asarray(diag);self.atol=cp.asarray(PROFILES[profile][1]*self.model.scale)
+             self.ratol=cp.asarray(abs(mass)@(PROFILES[profile][1]*self.model.scale))
+-            self.precondition=cp.ElementwiseKernel('float64 r,float64 md,float64 jd,float64 gamma','float64 z','z=r/(md-gamma*jd);','om_precondition')
+-            self.callback=CB(self._call)
+-            self.operator.evaluate(time0,self.x)
+-            require(int(self.operator.flag.get(stream=self.stream)[0])==0,'invalid initial implicit state')
+-            self.lib=library();self.handle=self.lib.om_create(self.model.n,self.x.data.ptr,self.atol.data.ptr,self.ratol.data.ptr,PROFILES[profile][0],time0,self.stream.ptr,self.callback)
++            self.precondition=cp.ElementwiseKernel('float64 r,float64 md,float64 jd,float64 gamma','float64 z','double d=md-gamma*jd; double inv=1.0/d; z=(d==0.0 || !isfinite(inv))?r/md:r/d;','om_precondition_repaired')
++            self.lib=library()
++            if self.implementation=='native':
++                require(self.operator.call(0,time0,self.x,None,self.operator.scratch)==0,'invalid initial native state: '+self.operator.error())
++                self.lib=self.operator.lib
++                # Register the common SUNDIALS C ABI on this library handle as well.
++                self.lib.om_advance.argtypes=[ct.c_void_p,ct.c_double,ct.POINTER(ct.c_double)];self.lib.om_advance.restype=ct.c_int
++                self.lib.om_stats.argtypes=[ct.c_void_p,ct.POINTER(ct.c_long)];self.lib.om_destroy.argtypes=[ct.c_void_p];self.lib.om_error.restype=ct.c_char_p
++                self.handle=self.lib.om_create_native(self.model.n,self.x.data.ptr,self.atol.data.ptr,self.ratol.data.ptr,PROFILES[profile][0],time0,self.stream.ptr,self.operator.handle)
++            else:
++                self.callback=CB(self._call);self.operator.evaluate(time0,self.x)
++                require(int(self.operator.flag.get(stream=self.stream)[0])==0,'invalid initial implicit state')
++                self.handle=self.lib.om_create(self.model.n,self.x.data.ptr,self.atol.data.ptr,self.ratol.data.ptr,PROFILES[profile][0],time0,self.stream.ptr,self.callback)
+             require(self.handle is not None,'SUNDIALS initialization: '+self.lib.om_error().decode())
+         self.setup_s=time.perf_counter()-started
+     def view(self,ptr):
+@@ -57,7 +67,9 @@
+                     f,j=self.operator.evaluate(t,x,v if kind==1 else None);cp.copyto(out,f if kind==0 else j)
+                 elif kind==2:self.operator.mass(v,out)
+                 elif kind==3:
+-                    self.operator.evaluate(t,x);self.precondition(v,self.mdiag,self.operator.diag,gamma,out)
++                    self.operator.evaluate(t,x)
++                    require(bool(cp.isfinite(self.operator.diag).all()) and bool(cp.isfinite(self.mdiag-gamma*self.operator.diag).all()),'nonfinite preconditioner operator')
++                    self.precondition(v,self.mdiag,self.operator.diag,gamma,out)
+                 elif kind==4:cp.divide(v,self.mdiag,out=out)
+                 else:raise ValueError('callback kind')
+                 flag=int(self.operator.flag.get(stream=self.stream)[0])
+@@ -68,7 +80,9 @@
+         require(np.isfinite(end) and end>=self.t,'time order')
+         if end==self.t:return
+         self.deadline=time.perf_counter()+wall_limit_s;actual=ct.c_double(self.t)
++        if self.implementation=='native':self.operator.limit(wall_limit_s)
+         code=self.lib.om_advance(self.handle,end,ct.byref(actual));self.t=actual.value
++        if self.implementation=='native' and self.operator.error():self.exception=self.operator.error()
+         require(code==0,'implicit failure: '+str(self.exception or self.lib.om_error().decode()))
+         require(abs(self.t-end)<1e-13,'implicit integration did not reach boundary')
+         self.deadline=float('inf')
+@@ -76,8 +90,9 @@
+         with self.stream:return self.x.get(stream=self.stream)
+     def stats(self):
+         out=(ct.c_long*5)();self.lib.om_stats(self.handle,out)
+-        return dict(zip(['steps','rhs_evaluations','nonlinear_iterations','linear_iterations','error_test_failures'],list(out)))|{'callbacks':self.calls.copy()}
++        return dict(zip(['steps','rhs_evaluations','nonlinear_iterations','linear_iterations','error_test_failures'],list(out)))|{'callbacks':self.calls.copy(),'implementation':self.implementation}|(self.operator.stats() if self.implementation=='native' else {})
+     def close(self):
+         if self.handle is not None:self.stream.synchronize();self.lib.om_destroy(self.handle);self.handle=None
++        if self.implementation=='native':self.operator.close()
+     def __del__(self):
+         if getattr(self,'handle',None) is not None:self.close()
+--- parent/session.py
++++ session.py
+@@ -8,8 +8,8 @@
+ from implicit import Implicit
+ from runtime import PROFILES
+ class Session:
+-    def __init__(self,spec,profile='precise'):
+-        self.effective_tolerances=tuple(PROFILES[profile]);self.solver=Implicit(spec,profile);self.edits=[]
++    def __init__(self,spec,profile='precise',implementation='native'):
++        self.effective_tolerances=tuple(PROFILES[profile]);self.solver=Implicit(spec,profile,implementation=implementation);self.edits=[];self.retired=[]
+     @property
+     def t(self):return self.solver.t
+     @property
+@@ -34,14 +34,19 @@
+                     new[sl.start+ni]=old[osl.start+oi]
+         new[m.clamp_mask]=m.clamp_values[m.clamp_mask];m.raw_rhs(self.t,new)
+         require(tuple(PROFILES[self.solver.profile])==self.effective_tolerances,"profile changed during live session; explicit migration required")
+-        fresh=Implicit(spec,self.solver.profile,self.t,new)
++        fresh=Implicit(spec,self.solver.profile,self.t,new,implementation=self.solver.implementation)
+         receipt={'time':self.t,'before':self.model.identity,'after':fresh.model.identity,'kind':'new integration epoch; adaptation restarted'}
+-        previous=self.solver;self.solver=fresh;previous.close();self.edits.append(receipt);return receipt
++        receipt.update(committed=True,cleanup='pending')
++        previous=self.solver;self.solver=fresh;self.edits.append(receipt)
++        try:previous.close();receipt['cleanup']='complete'
++        except Exception as exc:
++            self.retired.append(previous);receipt['cleanup']='failed';receipt['cleanup_error']=repr(exc)
++        return receipt
+     def contract(self):
+         import cupy as cp
+         h=Path(__file__).resolve().parent
+-        return {'version':1,'mode':'physical_restart_new_adaptation','profile':self.solver.profile,'rtol':self.effective_tolerances[0],'atol_scale':self.effective_tolerances[1],
+-                'sources':{f:hashlib.sha256((h/f).read_bytes()).hexdigest() for f in ['model.py','runtime.py','autodiff.py','coupled.py','implicit.py','bridge.cpp','session.py','DEPENDENCY.json']},
++        return {'version':2,'implementation':self.solver.implementation,'mode':'physical_restart_new_adaptation','profile':self.solver.profile,'rtol':self.effective_tolerances[0],'atol_scale':self.effective_tolerances[1],
++                'sources':{f:hashlib.sha256((h/f).read_bytes()).hexdigest() for f in ['model.py','runtime.py','autodiff.py','coupled.py','implicit.py','bridge.cpp','native_support.cpp','native_ops.py','native_codegen.py','session.py','DEPENDENCY.json']},
+                 'numpy':np.__version__,'cupy':cp.__version__,'CUDA_runtime':cp.cuda.runtime.runtimeGetVersion(),'library_sha256':hashlib.sha256((h/'libopenmatrix_ark.so').read_bytes()).hexdigest()}
+     def save_restart(self,path):
+         p=Path(path);p.mkdir(parents=True,exist_ok=False);np.save(p/'state.npy',self.read())
+@@ -53,8 +58,17 @@
+         require(meta['contract']['mode']=='physical_restart_new_adaptation','restart semantics mismatch')
+         require(hashlib.sha256((p/'state.npy').read_bytes()).hexdigest()==meta['state_sha256'],'restart state corruption')
+         state=np.load(p/'state.npy',allow_pickle=False);require(state.dtype==np.float64,'restart dtype')
+-        obj=cls.__new__(cls);obj.effective_tolerances=tuple(PROFILES[meta['contract']['profile']]);obj.solver=Implicit(meta['spec'],meta['contract']['profile'],meta['time'],state);obj.edits=meta['edits']
++        obj=cls.__new__(cls);obj.effective_tolerances=tuple(PROFILES[meta['contract']['profile']]);obj.solver=Implicit(meta['spec'],meta['contract']['profile'],meta['time'],state,implementation=meta['contract']['implementation']);obj.edits=meta['edits'];obj.retired=[]
+         try:require(obj.contract()==meta['contract'] and obj.model.identity==meta['identity'],'restart executable contract changed; explicit migration required')
+         except Exception:obj.close();raise
+         return obj
+-    def close(self):self.solver.close()
++    def retry_cleanup(self):
++        pending=[]
++        for solver in self.retired:
++            try:solver.close()
++            except Exception:pending.append(solver)
++        self.retired=pending
++        return len(pending)
++    def close(self):
++        self.solver.close()
++        require(self.retry_cleanup()==0,'retired solver cleanup remains pending')

@@ -1,0 +1,27 @@
+{
+  "candidate": "B independent of native callback optimization",
+  "new_operation": "local cell-variable Jacobian blocks including self-connections and constant within-block mass; LU partial pivot; SUNDIALS psetup prepares Jacobian and psolve applies factors. Gamma changes trigger refactorization of retained Jacobian, not stale factor reuse.",
+  "outside_block": "all links remain in full residual and JVP; preconditioner approximates only solve assistance",
+  "admission": "up to16 states per cell in this prototype; no anatomical labels",
+  "reference": "same repaired Python callbacks/SUNDIALS and tolerances as A control",
+  "falsifiers": [
+    "invertible Newton block despite zero diagonal",
+    "self-connection derivative",
+    "gamma changes",
+    "LU pivot permutation",
+    "nonfinite setup propagation"
+  ],
+  "remaining_science_runs": 2,
+  "budget_per_run_s": 240,
+  "chosen_runs": [
+    "HH precise .05s: known difficult falsifier, not a duration demonstration",
+    "large precise 1s: same726900state load"
+  ],
+  "source_hashes": {
+    "implicit_blocks.py": "147e39fa8eed1271e158b4d782606089e07ed13de7ca0ea7e9841dc622eb43d5",
+    "block_preconditioner.py": "923d79541f2993ec85695b33de383d68aa956d15305da6c48290cece22a56e1c",
+    "bridge_blocks.cpp": "3660815571f16b896b9a4104d722d78471a4f3cded88721b465a368470f2a2c2",
+    "test_blocks.py": "41b38dd45374253a832ac612edeeda770b9bfd3ea82ca475843d4990e0aa645f",
+    "run_blocks.py": "8a884fa73b8e9c01d3658cdb7b53311fec02b7393eb08d7cd6630fb15061e018"
+  }
+}

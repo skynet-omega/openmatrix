@@ -1,0 +1,41 @@
+{
+  "implementation": "python",
+  "profile": "precise",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 1.0,
+  "target_s": 1,
+  "completed": true,
+  "failure": null,
+  "setup_s": 3.655097634997219,
+  "advance_scan_s": 31.09289503702894,
+  "measured_window_s": 35.02654473797884,
+  "error": 2.547526895446654e-08,
+  "reference_sha256": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+  "eligible": true,
+  "stats": {
+    "steps": 459,
+    "rhs_evaluations": 4350,
+    "nonlinear_iterations": 2501,
+    "linear_iterations": 5724,
+    "error_test_failures": 3,
+    "callbacks": [
+      4350,
+      5724,
+      11448,
+      8192,
+      1837,
+      65
+    ],
+    "implementation": "blocks",
+    "block_setups": 65,
+    "block_factorizations": 462,
+    "block_solves": 8192
+  },
+  "host_peak_GiB": 1.9961013793945312,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}

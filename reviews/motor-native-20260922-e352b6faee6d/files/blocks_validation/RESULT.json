@@ -1,0 +1,47 @@
+[
+  {
+    "case": "invertible",
+    "gamma": 1.0,
+    "error": 2.39630537635668e-12
+  },
+  {
+    "case": "invertible",
+    "gamma": 0.0003,
+    "error": 4.740742175215439e-15
+  },
+  {
+    "case": "invertible",
+    "gamma": 0.07,
+    "error": 7.712018511428332e-13
+  },
+  {
+    "case": "self_connection",
+    "gamma": 1.0,
+    "error": 8.102051124479038e-13
+  },
+  {
+    "case": "self_connection",
+    "gamma": 0.0003,
+    "error": 1.1189544953549105e-13
+  },
+  {
+    "case": "self_connection",
+    "gamma": 0.07,
+    "error": 3.4083773146743494e-12
+  },
+  {
+    "case": "hh",
+    "gamma": 1.0,
+    "error": 1.5732490231017049e-09
+  },
+  {
+    "case": "hh",
+    "gamma": 0.0003,
+    "error": 3.34168385235678e-10
+  },
+  {
+    "case": "hh",
+    "gamma": 0.07,
+    "error": 2.963460873117983e-09
+  }
+]

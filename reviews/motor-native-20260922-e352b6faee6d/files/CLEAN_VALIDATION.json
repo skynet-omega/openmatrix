@@ -1,0 +1,149 @@
+{
+  "extraction": "intercambio/native_clean_01",
+  "draft_zip_sha256": "967938ee409a89aa95bce7dce29a8c0c27eb577bbd166f58a711b8a1f0ec6c27",
+  "files_verified_before_after": 161,
+  "outer": [
+    {
+      "args": [
+        "verify_package.py"
+      ],
+      "exit": 0,
+      "wall_s": 0.03180185495875776
+    },
+    {
+      "args": [
+        "build_dependency.py"
+      ],
+      "exit": 0,
+      "wall_s": 14.739690334012266
+    },
+    {
+      "args": [
+        "build_extras.py"
+      ],
+      "exit": 0,
+      "wall_s": 1.3159975470043719
+    },
+    {
+      "args": [
+        "reproduce.py"
+      ],
+      "exit": 0,
+      "wall_s": 9.179631972045172
+    },
+    {
+      "args": [
+        "verify_package.py"
+      ],
+      "exit": 0,
+      "wall_s": 0.03167005901923403
+    }
+  ],
+  "short_checks": [
+    {
+      "args": [
+        "verify_package.py"
+      ],
+      "exit": 0,
+      "wall_s": 0.03175345802446827
+    },
+    {
+      "args": [
+        "verify_results.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/VERIFIED.json"
+      ],
+      "exit": 0,
+      "wall_s": 1.817205108993221
+    },
+    {
+      "args": [
+        "test_contracts.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/contracts"
+      ],
+      "exit": 0,
+      "wall_s": 0.915362327999901
+    },
+    {
+      "args": [
+        "test_native.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/native"
+      ],
+      "exit": 0,
+      "wall_s": 1.466154915979132
+    },
+    {
+      "args": [
+        "test_blocks.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/blocks"
+      ],
+      "exit": 0,
+      "wall_s": 0.8152334770420566
+    },
+    {
+      "args": [
+        "test_edge_contracts.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/edges"
+      ],
+      "exit": 0,
+      "wall_s": 0.9151235760073178
+    },
+    {
+      "args": [
+        "test_session.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/session"
+      ],
+      "exit": 0,
+      "wall_s": 2.117029151006136
+    },
+    {
+      "args": [
+        "pilot.py",
+        "/home/daroch/AXIOMA_ASTRA/intercambio/native_clean_01/reproductions/bffd7acee6bf/clamp",
+        "--case",
+        "clamp",
+        "--profile",
+        "precise"
+      ],
+      "exit": 0,
+      "wall_s": 1.0655814000056125
+    }
+  ],
+  "source_hashes": {
+    "autodiff.py": "e536a7e659283f713758a7f79c6136a2f294ba4b3f0f5c0fec15fdb66d36aab3",
+    "bench.py": "913363408da4e50314d333be48d8ef6789f5114b50063c78516f1e3da3c0881b",
+    "block_preconditioner.py": "923d79541f2993ec85695b33de383d68aa956d15305da6c48290cece22a56e1c",
+    "bridge.cpp": "c62a369dca56fc850ea9426157e9f55e646d4a329b425a398aad86c265fa6b87",
+    "bridge_blocks.cpp": "3660815571f16b896b9a4104d722d78471a4f3cded88721b465a368470f2a2c2",
+    "build_dependency.py": "41a8b1dd02ca5a29d1b45d330c00406088dc9a009c3b2e53491c4dd26e2610ce",
+    "build_extras.py": "8b8313506cb9072ae643a1779b4b5582d19e1b94770b0490b09fe172733e89d5",
+    "campaign.py": "76e05b2f4d395f0db33b68688ba7d88f9804ab915e9d5fee6b5d6262ef0dbd4b",
+    "coupled.py": "0efb9638b014c25cb34cc5c31676ba46e27a692106c7b7ac955f7fc0fa0ce97f",
+    "development.py": "6420806bdcaa08b7dc886070be98350e6e8a2c17e1ba9fbe2bfc74390b7e2d48",
+    "extensions.py": "c8876accf6edf9f1e8003c0b830039fda3287ef8f59d700f1e5658fa4cffa029",
+    "finish_campaign.py": "6198a90b8eab6629f988c34a3d0810888bfd830b1cb60a6f11d6c2dc01b3d55b",
+    "implicit.py": "d0d7c211ca8d98fc50a953051c10a665ef12eb9f0236b63259d1de42ad5bbdaa",
+    "implicit_blocks.py": "147e39fa8eed1271e158b4d782606089e07ed13de7ca0ea7e9841dc622eb43d5",
+    "model.py": "4e6f762df5aa34831e29d32a7207af3e0887e35eca1bbab6684ae9247f8512bc",
+    "native_codegen.py": "19dec0e75d503912ffa87a4e094cbcbdd6aa10e115bf9276fb3575f69e897666",
+    "native_ops.py": "740c2d5d5620285fd9af634314775c1bc7b2b2e842d9748d5ed291658a4108a8",
+    "native_support.cpp": "d7ab9287b10bbec362c484640befc4de90bbdd2acd6d25c695e8f794d8f91405",
+    "pilot.py": "a82d903776c5029ce84e0e9c73845fcb55750a6e96530b3424566c1851cc6b33",
+    "reference_erk.cpp": "72f82bf5e18098e18775e4683e4351edf965f2743c8ed0e9f4461c503e924cb4",
+    "reference_erk.py": "78f701f4216c701809688427b89d110ab063a4ac8d254fa5306764d6e2ea25a7",
+    "report.py": "d7a8776b4443b73232ba4f391913d216f31ec7d1c5a663ac9aecf9ecc98f637a",
+    "reproduce.py": "1e80203ed4a209abab49a4760b08f97cd00caa6e937fe3d75f6a927c61b0fbfb",
+    "run_blocks.py": "8a884fa73b8e9c01d3658cdb7b53311fec02b7393eb08d7cd6630fb15061e018",
+    "runtime.py": "069318ff148dc335462dad72046052dfad8e4556d7d76efe8952d36859e1bc99",
+    "session.py": "159da18a84de2d4199632129b96c208814b2029de81f5753dfe1cf381e87a95a",
+    "test_blocks.py": "41b38dd45374253a832ac612edeeda770b9bfd3ea82ca475843d4990e0aa645f",
+    "test_contracts.py": "0b24ed83ae2acf3ef621feb2d868947f4ef244a33afe4b82f6fab30674af98ae",
+    "test_edge_contracts.py": "4e2b9c9d99c2a3ecf4d0e651e042ba291d970a1f162af51000aa20654a740e23",
+    "test_jvp.py": "fd3d395713a3ef8425dcb3deeba5ea106ff50e0b1aed3747b219a7a8ed0eed04",
+    "test_native.py": "85417dddf4e41838975443d012063de628d1df2db162b248b08ef0539d482fc7",
+    "test_session.py": "c2abd409586019c1764ff56cefd72fea086e7c41ea7f81c252487194a85aac86",
+    "verify_package.py": "1e52665313fafa3f420f975f971d5ecb9a738c0dc006fc0f6f531758bf6a6728",
+    "verify_results.py": "b4d27e239b1baf667edf8620fb2af422e63a713d75f86289f7be2eb593ae9401"
+  },
+  "scope": "offline SUNDIALS build and both extra libraries from included sources; raw-data decision reconstruction, contracts, native operators, blocks, edges, session/restart and clamp; no full science campaign repeat",
+  "negative_fixtures": "clean_validation/contracts/snapshot and clean_validation/session/restart intentionally corrupted by tests"
+}

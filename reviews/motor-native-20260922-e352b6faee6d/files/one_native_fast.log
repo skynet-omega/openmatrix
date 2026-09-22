@@ -1,0 +1,66 @@
+{"time": 0.05, "wall_s": 1.487694791983813}
+{"time": 0.1, "wall_s": 1.862958243000321}
+{"time": 0.15000000000000002, "wall_s": 2.0654638579580933}
+{"time": 0.2, "wall_s": 2.269146331003867}
+{"time": 0.25, "wall_s": 2.4662077429820783}
+{"time": 0.30000000000000004, "wall_s": 2.6602205929812044}
+{"time": 0.35000000000000003, "wall_s": 2.8649496139842086}
+{"time": 0.4, "wall_s": 3.053379650984425}
+{"time": 0.45, "wall_s": 3.250016648962628}
+{"time": 0.5, "wall_s": 3.4430654059979133}
+{"time": 0.55, "wall_s": 3.618625863979105}
+{"time": 0.6000000000000001, "wall_s": 3.8064146820106544}
+{"time": 0.65, "wall_s": 3.9878516219905578}
+{"time": 0.7000000000000001, "wall_s": 4.191473873972427}
+{"time": 0.75, "wall_s": 4.386953759996686}
+{"time": 0.8, "wall_s": 4.560993716004305}
+{"time": 0.8500000000000001, "wall_s": 4.746374976995867}
+{"time": 0.9, "wall_s": 4.925262390985154}
+{"time": 0.9500000000000001, "wall_s": 5.126420807966497}
+{"time": 1.0, "wall_s": 5.320113816997036}
+{
+  "implementation": "native",
+  "profile": "fast",
+  "reference_tolerances": null,
+  "states": 726900,
+  "connections": 23296700,
+  "model_identity": "6fce4a8743684975450df251cac3fb17777d875518f926b1b0c053b9114fbaeb",
+  "descriptor_hash": "6e78068716c5a46195ddb6f0a2eb79383fa952b86394f5686edddad78c969bb4",
+  "simulated_s": 1.0,
+  "target_s": 1,
+  "completed": true,
+  "failure": null,
+  "setup_s": 3.820227673975751,
+  "advance_scan_s": 5.320753115986008,
+  "measured_window_s": 9.441491956997197,
+  "error": 0.0002268806440213694,
+  "reference_sha256": "52708353885fd7e9dfd380a5c86fad2d4b74b93db62791b72c504806a95022ab",
+  "eligible": true,
+  "stats": {
+    "steps": 29,
+    "rhs_evaluations": 373,
+    "nonlinear_iterations": 248,
+    "linear_iterations": 1206,
+    "error_test_failures": 2,
+    "callbacks": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "implementation": "native",
+    "native_callbacks": [
+      374,
+      1206,
+      1666,
+      1437,
+      119
+    ],
+    "diagonal_fallback_callbacks": 0,
+    "Python_callbacks_during_integration": 0
+  },
+  "host_peak_GiB": 1.9981193542480469,
+  "accuracy_scope": "4096 probes at each sample and every final state, not a continuous global bound",
+  "reference_scope": "1s DOP853 CPU historical refined reference; 10s generated explicit GPU RK4 with two tighter tolerances (independent integration, shared descriptor/IR)"
+}
