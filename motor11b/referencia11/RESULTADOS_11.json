@@ -1,0 +1,12 @@
+{
+  "estado": "BLOQUEADO_MOTOR11",
+  "modelo_promovido": false,
+  "cambios_fisiologicos": false,
+  "comparacion": null,
+  "error": {
+    "tipo": "RuntimeError",
+    "mensaje": "Valores distintos: PN_q_legacy",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/runs/chatgpt_motor_11/motor11.py\", line 669, in coordinador\n    comparar_ramas(salida / \"A1\", salida / \"B1\")\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/runs/chatgpt_motor_11/motor11.py\", line 138, in comparar_ramas\n    resultado = comparar_arrays(a, b)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/runs/chatgpt_motor_11/motor11.py\", line 128, in comparar_arrays\n    exigir(bool(np.array_equal(a, b)), f\"Valores distintos: {clave}\")\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/runs/chatgpt_motor_11/motor11.py\", line 55, in exigir\n    raise RuntimeError(mensaje)\nRuntimeError: Valores distintos: PN_q_legacy\n"
+  },
+  "fuentes_inmutadas": true
+}

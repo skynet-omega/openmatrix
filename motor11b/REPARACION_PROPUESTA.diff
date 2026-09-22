@@ -1,0 +1,58 @@
+--- a/sonda_numerica.py
++++ b/sonda_numerica.py
+@@ -12,7 +12,7 @@
+ 
+ CAMPOS_PLAN = ("steps","core","pairs","base","mass","dg","dm","core_edges")
+ LLAMADAS = (1,64,640)
+-LIMITE_CAPSULA = 20_000_000
++LIMITE_CAPSULA = 32_000_000
+ LIMITE_TOTAL = 64_000_000
+ 
+ 
+@@ -131,7 +131,7 @@
+ def evaluar_capsulas(carpeta, ruta_primitivas):
+     from threadpoolctl import threadpool_limits,threadpool_info
+     carpeta=Path(carpeta)
+-    indice=json.loads((carpeta/"INDICE.json").read_text())
++    indice=json.loads((carpeta/"INDICE.json").read_text(encoding="utf-8"))
+     mod=cargar_primitivas(ruta_primitivas)
+     resultados=[]
+     for item in indice["capsulas"]:
+--- a/motor11.py
++++ b/motor11.py
+@@ -35,7 +35,7 @@
+ 
+ 
+ def verificar_paquete():
+-    mapa=json.loads((PAQUETE/"MANIFIESTO.json").read_text())
++    mapa=json.loads((PAQUETE/"MANIFIESTO.json").read_text(encoding="utf-8"))
+     v=verificar_hashes(PAQUETE,mapa)
+     exigir(v["coinciden"],"Entrega incompleta/alterada: "+str(v["errores"]))
+     return v
+@@ -96,7 +96,7 @@
+     try:
+         # Misma implementación del trabajador que produjo A1/B1; sin cProfile.
+         base.trabajador(raiz,salida,politica,10,bajo_nsys)
+-        r=json.loads((salida/"RAMA.json").read_text())
++        r=json.loads((salida/"RAMA.json").read_text(encoding="utf-8"))
+         politica_correcta(r,politica)
+         if nombre=="SONDA":
+             from sonda_numerica import evaluar_capsulas
+@@ -195,7 +195,7 @@
+             with (salida/"NSYS_VERSION.txt").open("x") as f:
+                 r=subprocess.run([nsys,"--version"],stdout=f,stderr=subprocess.STDOUT,timeout=20)
+             exigir(r.returncode==0,"nsys detectado pero su consulta de versión falló")
+-        refs={k:json.loads((origen/k/"RAMA.json").read_text()) for k in ("A1","B1")}
++        refs={k:json.loads((origen/k/"RAMA.json").read_text(encoding="utf-8")) for k in ("A1","B1")}
+         nuevas={}
+         for nombre in plan["orden_nuevo"]:
+             cmd=[sys.executable,"-I","-B",str(PAQUETE/"motor11.py"),
+@@ -208,7 +208,7 @@
+             guardar_json(salida/f"{nombre}_ORDEN.json",{"argv":cmd})
+             print(f"Ejecutando {nombre}; sin edición, reajuste o reintento",flush=True)
+             ejec(cmd,raiz,salida/f"{nombre}.log",limite_s=plan["limite_s_por_proceso"])
+-            r=json.loads((salida/nombre/"RAMA.json").read_text())
++            r=json.loads((salida/nombre/"RAMA.json").read_text(encoding="utf-8"))
+             politica_correcta(r,plan["politicas"][nombre])
+             metadata_estable(refs["B1" if nombre=="B2" else "A1"],r)
+             nuevas[nombre]=r

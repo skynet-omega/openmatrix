@@ -1,0 +1,325 @@
+{
+  "pn_mass_coupled_step.advance_full_mass": {
+    "estado": "INSTRUMENTADO",
+    "llamadas": 640,
+    "host_acumulado_s": 33.867183791153366,
+    "nota": "Tiempo inclusivo; no sumar con regiones anidadas.",
+    "argumentos": [
+      {
+        "tipo": "pn_mass_source_bridge.MassPnSourceBridge"
+      },
+      {
+        "tipo": "int",
+        "valor": 15625
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          178838
+        ],
+        "dtype": "float64",
+        "bytes": 1430704
+      }
+    ],
+    "kwargs": {
+      "_local_channel": {
+        "tipo": "pn_calcium_port.CalciumPort"
+      },
+      "synaptic_stages": {
+        "tipo": "builtins.list"
+      },
+      "stage_observation_nodes": {
+        "tipo": "ndarray",
+        "shape": [
+          11256
+        ],
+        "dtype": "int64",
+        "bytes": 90048
+      },
+      "rtol": {
+        "tipo": "float",
+        "valor": 1e-09
+      },
+      "atol": {
+        "tipo": "float",
+        "valor": 5e-06
+      },
+      "maxiter": {
+        "tipo": "int",
+        "valor": 220
+      },
+      "max_newton": {
+        "tipo": "int",
+        "valor": 8
+      },
+      "gate_atol": {
+        "tipo": "float",
+        "valor": 1e-12
+      },
+      "stage_predictor": {
+        "tipo": "str",
+        "valor": "linear"
+      }
+    }
+  },
+  "pn_mass_backend._difference_action": {
+    "estado": "INSTRUMENTADO",
+    "llamadas": 3200,
+    "host_acumulado_s": 4.746057763026329,
+    "nota": "Tiempo inclusivo; no sumar con regiones anidadas.",
+    "argumentos": [
+      {
+        "tipo": "ndarray",
+        "shape": [
+          178839
+        ],
+        "dtype": "int32",
+        "bytes": 715356
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          537608
+        ],
+        "dtype": "int32",
+        "bytes": 2150432
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          537608
+        ],
+        "dtype": "float64",
+        "bytes": 4300864
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          178838
+        ],
+        "dtype": "float64",
+        "bytes": 1430704
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          178838
+        ],
+        "dtype": "float64",
+        "bytes": 1430704
+      }
+    ],
+    "kwargs": {}
+  },
+  "kc_projection_parallel.projection_conductances_parallel": {
+    "estado": "INSTRUMENTADO",
+    "llamadas": 640,
+    "host_acumulado_s": 15.694340745307272,
+    "nota": "Tiempo inclusivo; no sumar con regiones anidadas.",
+    "argumentos": [
+      {
+        "tipo": "ndarray",
+        "shape": [
+          4064
+        ],
+        "dtype": "int64",
+        "bytes": 32512
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          4065
+        ],
+        "dtype": "int64",
+        "bytes": 32520
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "int8",
+        "bytes": 836605
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "float64",
+        "bytes": 6692840
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "int32",
+        "bytes": 3346420
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "int32",
+        "bytes": 3346420
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "int32",
+        "bytes": 3346420
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          166701
+        ],
+        "dtype": "int32",
+        "bytes": 666804
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          25582938
+        ],
+        "dtype": "int32",
+        "bytes": 102331752
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          25582938
+        ],
+        "dtype": "float64",
+        "bytes": 204663504
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          1557
+        ],
+        "dtype": "float64",
+        "bytes": 12456
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          166700
+        ],
+        "dtype": "bool",
+        "bytes": 166700
+      },
+      {
+        "tipo": "bool",
+        "valor": true
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          299
+        ],
+        "dtype": "float64",
+        "bytes": 2392
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          5845
+        ],
+        "dtype": "float64",
+        "bytes": 46760
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          4,
+          2
+        ],
+        "dtype": "float64",
+        "bytes": 64
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          4064
+        ],
+        "dtype": "int64",
+        "bytes": 32512
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "int32",
+        "bytes": 3346420
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          12027,
+          15
+        ],
+        "dtype": "float64",
+        "bytes": 1443240
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          12027
+        ],
+        "dtype": "int64",
+        "bytes": 96216
+      },
+      {
+        "tipo": "int",
+        "valor": 15
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "float64",
+        "bytes": 6692840
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          299
+        ],
+        "dtype": "float64",
+        "bytes": 2392
+      },
+      {
+        "tipo": "ndarray",
+        "shape": [
+          836605
+        ],
+        "dtype": "float64",
+        "bytes": 6692840
+      }
+    ],
+    "kwargs": {}
+  }
+}

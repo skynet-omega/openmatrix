@@ -1,0 +1,5 @@
+{
+  "tipo": "UnicodeDecodeError",
+  "mensaje": "'ascii' codec can't decode byte 0xc3 in position 196: ordinal not in range(128)",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor11b_external_20260922/MATRIX_MOTOR_11B/motor11.py\", line 296, in main\n    ejecutar_worker(raiz,salida,args.worker,args.nsys)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor11b_external_20260922/MATRIX_MOTOR_11B/motor11.py\", line 103, in ejecutar_worker\n    evaluar_capsulas(salida/\"capsulas\",PAQUETE/\"vendor/graph_primitives.py\")\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor11b_external_20260922/MATRIX_MOTOR_11B/sonda_numerica.py\", line 134, in evaluar_capsulas\n    indice=json.loads((carpeta/\"INDICE.json\").read_text())\n  File \"/home/daroch/miniconda3/envs/GPU/lib/python3.10/pathlib.py\", line 1135, in read_text\n    return f.read()\n  File \"/home/daroch/miniconda3/envs/GPU/lib/python3.10/encodings/ascii.py\", line 26, in decode\n    return codecs.ascii_decode(input, self.errors)[0]\nUnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 196: ordinal not in range(128)\n"
+}

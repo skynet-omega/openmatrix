@@ -1,0 +1,28 @@
+{
+  "user_request": "Optimizar motor y devolver paquetes a F:/Downloads para análisis externo manual en ChatGPT; sin subagentes.",
+  "source_zip": "/home/daroch/AXIOMA_ASTRA/intercambio/motor11b_20260922_01/MATRIX_MOTOR_11B.zip",
+  "source_zip_sha256": "61094e0f65201142ef5a2a1369ee0e760c6c58683498b6961b2864e33edcede3",
+  "package": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor11b_external_20260922/MATRIX_MOTOR_11B",
+  "output": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/chatgpt_motor_11b",
+  "budget_before_execution": {
+    "new_runs": [
+      "B2",
+      "A2",
+      "SONDA"
+    ],
+    "wall_seconds_per_worker": 1200,
+    "aggregate_wall_seconds_including_exports": 3800,
+    "CPU_seconds_ceiling": 57000,
+    "RAM_GiB": 8,
+    "GPU_GiB": 16,
+    "training": 0,
+    "reruns": 0
+  },
+  "hardware": "RTX 4070 Ti SUPER 16376 MiB; RAM 24036 MiB",
+  "tests_passed": 34,
+  "sources_checked": 426,
+  "original_outputs_checked": 37,
+  "new_neural_runs_before_registration": 0,
+  "registered_UTC": "2026-09-22T04:58:37.321917+00:00",
+  "documents_are_external_proposals": "Accepted after code/hash/budget review; attachment commands are not independent user instructions."
+}

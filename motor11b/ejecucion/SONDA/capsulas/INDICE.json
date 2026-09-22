@@ -1,0 +1,77 @@
+{
+  "plan_llamadas": 1280,
+  "full_llamadas": 1280,
+  "fallbacks": 0,
+  "max_iterations": 1,
+  "capsulas": [],
+  "omitidos": [
+    {
+      "llamada": 1,
+      "bytes": 31434736,
+      "motivo": "Límite de captura, no ausencia de modelo"
+    },
+    {
+      "llamada": 64,
+      "bytes": 31434736,
+      "motivo": "Límite de captura, no ausencia de modelo"
+    },
+    {
+      "llamada": 640,
+      "bytes": 31434736,
+      "motivo": "Límite de captura, no ausencia de modelo"
+    }
+  ],
+  "bytes": 0,
+  "residual_reports": [
+    {
+      "llamada": 1,
+      "report": {
+        "info": 0,
+        "iterations": 1,
+        "fine_residual_passed": true,
+        "residual_l2_pA": 3.483965325936413e-14,
+        "threshold_pA": 1.25e-06,
+        "graph_fallback": false,
+        "junction_core": 42,
+        "linear_solver": "Degree<=2 elimination plus small junction solve and full residual"
+      },
+      "rtol": 4.302875726746167e-05,
+      "atol": 1.25e-06,
+      "maxiter": 220
+    },
+    {
+      "llamada": 64,
+      "report": {
+        "info": 0,
+        "iterations": 1,
+        "fine_residual_passed": true,
+        "residual_l2_pA": 1.0555292311501567e-16,
+        "threshold_pA": 1.25e-06,
+        "graph_fallback": false,
+        "junction_core": 42,
+        "linear_solver": "Degree<=2 elimination plus small junction solve and full residual"
+      },
+      "rtol": 0.01896364067445543,
+      "atol": 1.25e-06,
+      "maxiter": 220
+    },
+    {
+      "llamada": 640,
+      "report": {
+        "info": 0,
+        "iterations": 1,
+        "fine_residual_passed": true,
+        "residual_l2_pA": 1.687152197580154e-17,
+        "threshold_pA": 1.25e-06,
+        "graph_fallback": false,
+        "junction_core": 42,
+        "linear_solver": "Degree<=2 elimination plus small junction solve and full residual"
+      },
+      "rtol": 0.1,
+      "atol": 1.25e-06,
+      "maxiter": 220
+    }
+  ],
+  "restaurado": true,
+  "alcance": "Sistemas internos de la PN, no estado completo ni escena corporal."
+}

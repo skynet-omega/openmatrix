@@ -1,0 +1,438 @@
+{
+  "scope": "Read-only postprocessing of completed SONDA; zero additional neural runs",
+  "original_state_preserved": "BLOQUEADO_MOTOR_11B",
+  "sonda_vs_A1": {
+    "traza": {
+      "n_arrays": 31,
+      "arrays_iguales": 31,
+      "igualdad_exacta": true,
+      "igualdad_bytes": true,
+      "detalle": {
+        "fase": {
+          "shape": [
+            50
+          ],
+          "dtype": "<U11",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "paso": {
+          "shape": [
+            50
+          ],
+          "dtype": "<i8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "CNS_time_ns": {
+          "shape": [
+            50
+          ],
+          "dtype": "<i8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "PN_time_ns": {
+          "shape": [
+            50
+          ],
+          "dtype": "<i8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "body_time_ns": {
+          "shape": [
+            50
+          ],
+          "dtype": "<i8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "sensores_usados": {
+          "shape": [
+            50,
+            3
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 150,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "sensores_pendientes": {
+          "shape": [
+            50,
+            3
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 150,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "antenas_mm": {
+          "shape": [
+            50,
+            2,
+            3
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 300,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "concentracion_campo": {
+          "shape": [
+            50,
+            2
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 100,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "ORN_q_L": {
+          "shape": [
+            50,
+            35
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 1750,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "ORN_q_R": {
+          "shape": [
+            50,
+            39
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 1950,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "ORN_filters": {
+          "shape": [
+            50,
+            4,
+            74
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 14800,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "PN_q_legacy": {
+          "shape": [
+            50,
+            2
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 100,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "PN_general_transmission": {
+          "shape": [
+            50,
+            629
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 31450,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            50,
+            100
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 5000,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "PN_additional_nS": {
+          "shape": [
+            50,
+            366
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 18300,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "DN_q_actual": {
+          "shape": [
+            50,
+            4
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 200,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "DN_q_usada": {
+          "shape": [
+            50,
+            4
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 200,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "DN_baseline": {
+          "shape": [
+            50,
+            4
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 200,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "qpos": {
+          "shape": [
+            50,
+            109
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 5450,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "qvel": {
+          "shape": [
+            50,
+            108
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 5400,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "position_mm": {
+          "shape": [
+            50,
+            3
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 150,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "upright": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "contact_active": {
+          "shape": [
+            50,
+            6
+          ],
+          "dtype": "|b1",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 300,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "normal_force_N": {
+          "shape": [
+            50,
+            6
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 300,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "contact_force_N": {
+          "shape": [
+            50,
+            6,
+            3
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 900,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "generalized_force_native": {
+          "shape": [
+            50,
+            108
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 5400,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "energy_motor_J": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 50,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        }
+      },
+      "adecuacion_numerica_o_biologica_aprobada": false
+    },
+    "final": {
+      "n_arrays": 3,
+      "arrays_iguales": 3,
+      "igualdad_exacta": true,
+      "igualdad_bytes": true,
+      "detalle": {
+        "q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 166700,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "qpos": {
+          "shape": [
+            109
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 109,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        },
+        "qvel": {
+          "shape": [
+            108
+          ],
+          "dtype": "<f8",
+          "valores_iguales": true,
+          "bytes_iguales": true,
+          "n_elementos": 108,
+          "n_distintos": 0,
+          "max_abs": 0.0
+        }
+      },
+      "adecuacion_numerica_o_biologica_aprobada": false
+    },
+    "igualdad_exacta": true
+  },
+  "complete_solver_capsules": 0,
+  "capture_failure": "Each 31434736-byte capsule exceeds 20000000-byte cap",
+  "postprocessing_failure": "UnicodeDecodeError: read_text without encoding under Nsight ASCII locale",
+  "nsight_failure": "2022.4.2 importer missing; installed Windows2024.6.2 is a different version; raw qdstrm retained",
+  "profile_seconds": {
+    "test_wall": 87.50680040201405,
+    "PN_inclusive": 33.867183791153366,
+    "KC_inclusive": 15.694340745307272
+  },
+  "theoretical_speedup_if_PN_and_KC_cost_zero": 2.3061316173340147,
+  "amdahl_limit_scope": "Upper-bound illustration for measured instrumented A only; not B; other interactions may change costs",
+  "CNS_CPU_seconds_new": 11332.153574,
+  "CNS_wall_seconds_new": 1096.67632481904,
+  "max_RSS_KiB": 4998360,
+  "resource_scope": "Measured progress blocks; excludes initialization/export/packaging CPU and wall time"
+}
