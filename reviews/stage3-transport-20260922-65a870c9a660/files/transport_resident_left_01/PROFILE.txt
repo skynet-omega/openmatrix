@@ -1,0 +1,78 @@
+         433079 function calls (409125 primitive calls) in 2.534 seconds
+
+   Ordered by: cumulative time
+   List reduced from 788 to 70 due to restriction <70>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.534    2.534 /home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py:133(step)
+        1    0.000    0.000    2.532    2.532 /home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py:67(step)
+        1    0.000    0.000    2.532    2.532 /home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py:98(step)
+        1    0.000    0.000    2.530    2.530 /home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py:62(step)
+        1    0.000    0.000    2.530    2.530 /home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py:81(step)
+        1    0.000    0.000    2.529    2.529 /home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py:42(step)
+        1    0.000    0.000    2.520    2.520 /home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py:61(step)
+        1    0.000    0.000    2.519    2.519 /home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py:62(step)
+        1    0.000    0.000    2.518    2.518 /home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py:60(step)
+        1    0.000    0.000    2.517    2.517 /home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py:88(step)
+        1    0.000    0.000    2.516    2.516 /home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py:101(step)
+        1    0.000    0.000    2.516    2.516 /home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py:55(step)
+        1    0.000    0.000    2.516    2.516 /home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py:115(step)
+        1    0.000    0.000    2.495    2.495 /home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py:97(step)
+        1    0.001    0.001    2.495    2.495 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py:143(step)
+        1    0.000    0.000    2.416    2.416 /home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py:52(advance)
+        1    0.013    0.013    2.416    2.416 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py:94(advance)
+       16    0.000    0.000    1.938    0.121 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py:85(cns)
+       16    0.000    0.000    1.937    0.121 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_brain.py:63(advance)
+       16    0.002    0.000    1.933    0.121 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py:65(begin)
+       16    0.008    0.001    1.927    0.120 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py:64(advance)
+       16    0.000    0.000    1.614    0.101 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_adaptive.py:78(sample)
+       16    0.010    0.001    1.593    0.100 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_adaptive.py:29(advance)
+      375    0.001    0.000    1.179    0.003 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_trial_graph.py:36(propose)
+      375    1.122    0.003    1.178    0.003 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_trial_graph.py:26(run)
+      670    0.042    0.000    0.400    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py:82(recorded_commit)
+       16    0.001    0.000    0.361    0.023 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py:89(pn)
+       16    0.001    0.000    0.360    0.022 /home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py:89(advance)
+      670    0.196    0.000    0.290    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_adaptive.py:19(commit)
+       16    0.001    0.000    0.266    0.017 /home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/pn_execution.py:22(advance)
+       16    0.035    0.002    0.252    0.016 /home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py:15(advance_graph_resident)
+       16    0.002    0.000    0.224    0.014 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py:67(gpu)
+       16    0.000    0.000    0.219    0.014 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/event_coupling.py:87(gpu)
+       16    0.001    0.000    0.219    0.014 /home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py:40(step)
+       16    0.180    0.011    0.180    0.011 /home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py:43(advance)
+     1518    0.146    0.000    0.149    0.000 {method 'get' of 'cupy._core.core._ndarray_base' objects}
+     1470    0.001    0.000    0.103    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/__init__.py:782(asnumpy)
+     1086    0.001    0.000    0.080    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py:59(host)
+       32    0.000    0.000    0.062    0.002 /home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py:150(stage)
+       32    0.000    0.000    0.062    0.002 /home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_stage.py:71(graph_stage)
+       32    0.001    0.000    0.059    0.002 /home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_stage.py:61(run)
+      188    0.056    0.000    0.056    0.000 {method 'tolist' of 'numpy.ndarray' objects}
+       40    0.001    0.000    0.043    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/gemini_work/test_self_calibrating_embodied.py:41(macro_body_advance)
+     2466    0.043    0.000    0.043    0.000 {method 'copy' of 'cupy._core.core._ndarray_base' objects}
+      689    0.001    0.000    0.040    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/_creation/from_data.py:56(asarray)
+      670    0.038    0.000    0.040    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py:57(observe)
+      689    0.038    0.000    0.039    0.000 {built-in method cupy._core.core.array}
+      233    0.001    0.000    0.038    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_regional_brain.py:41(_record_hash)
+     2131    0.010    0.000    0.037    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/_manipulation/basic.py:12(copyto)
+13034/233    0.004    0.000    0.031    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_regional_brain.py:42(encode)
+       26    0.004    0.000    0.031    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py:48(validate_spatial)
+ 1250/233    0.003    0.000    0.030    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_regional_brain.py:44(<dictcomp>)
+      476    0.001    0.000    0.029    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy/lib/arraysetops.py:138(unique)
+     1733    0.001    0.000    0.029    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy/core/fromnumeric.py:53(_wrapfunc)
+        8    0.001    0.000    0.029    0.004 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/waveform_coupling.py:18(restore_parent)
+     2010    0.028    0.000    0.029    0.000 {method 'astype' of 'cupy._core.core._ndarray_base' objects}
+      476    0.005    0.000    0.029    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy/lib/arraysetops.py:323(_unique1d)
+       32    0.013    0.000    0.028    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/src/hybrid_visual_brain.py:80(publish_rates)
+       24    0.000    0.000    0.027    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py:55(components)
+       43    0.000    0.000    0.026    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py:95(state_dict)
+       43    0.000    0.000    0.026    0.001 /home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py:96(<dictcomp>)
+      512    0.025    0.000    0.025    0.000 {method 'sort' of 'numpy.ndarray' objects}
+       16    0.002    0.000    0.025    0.002 /home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py:186(<listcomp>)
+       61    0.015    0.000    0.024    0.000 /home/daroch/AXIOMA_FLYWIRE/matrix/src/hybrid_visual_brain.py:73(release)
+       16    0.000    0.000    0.024    0.002 /home/daroch/AXIOMA_FLYWIRE/matrix/src/projection_parallel_brain.py:38(conductance_components)
+    14105    0.024    0.000    0.024    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      595    0.000    0.000    0.023    0.000 /home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy/core/fromnumeric.py:1332(searchsorted)
+       13    0.000    0.000    0.023    0.002 /home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_graph_solver_brain.py:40(validate_online)
+       13    0.000    0.000    0.023    0.002 /home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_brain.py:42(validate_online)
+      595    0.022    0.000    0.022    0.000 {method 'searchsorted' of 'numpy.ndarray' objects}
+
+

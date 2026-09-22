@@ -1,0 +1,31 @@
+{
+  "events": {
+    "blocks": 80,
+    "events": 393,
+    "max_q_reconstruction_difference": 1.1657341758564144e-15,
+    "global_trials": 115,
+    "time_resolved": true
+  },
+  "adapter": {
+    "epochs": 80,
+    "accepted": 104,
+    "rejected": 11,
+    "build_s": 0.13153686799341813,
+    "device_bytes": 46705152,
+    "event_capacity_per_cell_per_epoch": 8
+  },
+  "pn": {
+    "calls": 80,
+    "accepted": 80,
+    "rejected": 0,
+    "build_s": 2.51125756802503,
+    "wall_s": 1.1962156249210238,
+    "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+    "state_owner_preserved": true,
+    "graph_statistics": {
+      "accepted": 160,
+      "fallback": 0
+    },
+    "linear_fallbacks": 0
+  }
+}

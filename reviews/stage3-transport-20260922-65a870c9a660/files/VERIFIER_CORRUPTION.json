@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "case": "delay_driver",
+      "detected": true
+    },
+    {
+      "case": "clock",
+      "detected": true
+    },
+    {
+      "case": "biological_flag",
+      "detected": true
+    },
+    {
+      "case": "nonfinite",
+      "detected": true
+    }
+  ],
+  "python_optimized": true
+}

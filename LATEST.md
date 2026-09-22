@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-native-20260922](reviews/motor-native-20260922-e352b6faee6d/README.md)
+[stage3-transport-20260922](reviews/stage3-transport-20260922-65a870c9a660/README.md)
 
-Native CUDA graph callbacks, independent prepared block preconditioner,20 bounded scientific attempts and ten-second synthetic trajectories; raw failures, pinned offline build, numerical verification and external advisory review. Stage3 and complete brain/body pending.
+Actual full-organism short transport, event/delay preservation and measured performance limit. No stage3 admission or long-time certification. Includes numerical arrays and rejected slower matrix execution.

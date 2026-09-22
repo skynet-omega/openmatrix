@@ -1,0 +1,42 @@
+{
+  "ms": 5,
+  "graph": false,
+  "wall_total_s": 32.06937922403449,
+  "step_wall_s": 17.698997400992084,
+  "steady_step_wall_s": 13.613262109982315,
+  "steady_ms": 4,
+  "cpu_process_s": 36.6058388,
+  "rss_max_gib": 4.044399261474609,
+  "statistics_before": {
+    "accepted": 252271,
+    "rejected": 14867,
+    "evaluations": 1602839,
+    "minimum_accepted_ns": 4480,
+    "maximum_accepted_error": 0.9999253644778332
+  },
+  "statistics_after": {
+    "accepted": 252331,
+    "rejected": 14877,
+    "evaluations": 1603259,
+    "minimum_accepted_ns": 4480,
+    "maximum_accepted_error": 0.9999253644778332
+  },
+  "graph_trials": [],
+  "graph_build_s": 0.0,
+  "graph_device_bytes": 0,
+  "gpu_pool_bytes": 473598464,
+  "coupling_ns": 15625,
+  "symmetric_policy": {
+    "steps": 40,
+    "step_ns": 125000,
+    "predictor_restore_exact": true,
+    "pn_rejections": 0,
+    "predictor_evaluations": 270
+  },
+  "KC_adaptive_work": {
+    "accepted": 1954,
+    "rejected": 217,
+    "min_step_ns": 1562,
+    "max_estimated_error": 0.9933692759034328
+  }
+}
