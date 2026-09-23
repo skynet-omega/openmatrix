@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-time-spatial-chatgpt-20260922](reviews/stage3-time-spatial-chatgpt-20260922-22746a43db8a/README.md)
+[stage3-signed-input-spatial-20260922](reviews/stage3-signed-input-spatial-20260922-f608771bbb13/README.md)
 
-Full-organism 100/200/300-ms control readback, one-ms spatial activity proxy, and locally reproduced ChatGPT CPU mathematics; no new organism run or motor promotion.
+External ChatGPT code SHA-verified, original real-data failure preserved, minimal input-shape repair, and full four-arm signed DNa02 and spatial-hold analysis on actual NPZ arrays.

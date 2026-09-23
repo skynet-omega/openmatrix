@@ -1,0 +1,9 @@
+{
+  "main_snapshot_commit": "dfbcff01abf8928ebf0339b63f1d211066e25a8c",
+  "main_snapshot": "reviews/stage3-real-data-preliminary-20260922-d1efd85e9aaa",
+  "required_directory_inside_main_zip": "campaign/traces",
+  "required_main_files": ["side_metadata.json", "outdegree.npy", "traces/protocol.json", "traces/odor_left_trace.npz", "traces/odor_right_trace.npz", "traces/uniform_trace.npz", "traces/sham_trace.npz", "traces/odor_left_native_transmission.npz", "traces/odor_right_native_transmission.npz", "traces/uniform_native_transmission.npz", "traces/sham_native_transmission.npz", "traces/odor_left_network_trace.npz"],
+  "included_addendum_file": "afferent_metadata.json",
+  "run": "python -B chatgpt_spatial_real_fixed.py --principal PATH_TO_MAIN/campaign --aferentes PATH_TO_THIS/campaign --out NEW_EMPTY_OUTPUT_DIR",
+  "scope": "Read-only offline analysis of a saved four-arm organism, no simulator, no living-fly raw file rehosted."
+}

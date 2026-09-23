@@ -1,0 +1,102 @@
+{
+  "format_version": 2,
+  "label": "stage3-signed-input-spatial-20260922",
+  "description": "External ChatGPT code SHA-verified, original real-data failure preserved, minimal input-shape repair, and full four-arm signed DNa02 and spatial-hold analysis on actual NPZ arrays.",
+  "files": [
+    {
+      "path": "campaign/CHATGPT_SPATIAL_REVIEW.md",
+      "bytes": 4643,
+      "sha256": "28bd19a75689da352cf4950dd180043a6891833a0169323f5f0f4499bcbd997b"
+    },
+    {
+      "path": "campaign/AMENDMENT_CHATGPT_RETRIEVAL.json",
+      "bytes": 682,
+      "sha256": "9d84ae3580162397e6546deb9d09d8c669d3d84b30336931b35597247920bb74"
+    },
+    {
+      "path": "campaign/chatgpt_spatial_original.py",
+      "bytes": 15905,
+      "sha256": "f6340e021c81ce24923127d023e3636cc7be4bb4f9fffdb0ebd5a2aff2eaf337"
+    },
+    {
+      "path": "campaign/chatgpt_spatial_real_fixed.py",
+      "bytes": 15943,
+      "sha256": "8a16fb7e847075d68993247703774f2bc8cfb335c9a66bfa4dd5589af85d954c"
+    },
+    {
+      "path": "campaign/CHATGPT_SPATIAL_BUGFIX.json",
+      "bytes": 915,
+      "sha256": "e6d1cdced8a5afd68f4b31fdcd022dca0b3eb53d04b83fc6fd0711f25f623757"
+    },
+    {
+      "path": "campaign/chatgpt_spatial_selftest.json",
+      "bytes": 209,
+      "sha256": "c8fb82a46103e2a427b37b10b307d2907b51a761e0e920aeda068518ce63ec2e"
+    },
+    {
+      "path": "campaign/chatgpt_spatial_fixed_selftest.json",
+      "bytes": 209,
+      "sha256": "c8fb82a46103e2a427b37b10b307d2907b51a761e0e920aeda068518ce63ec2e"
+    },
+    {
+      "path": "campaign/original_real_failure/FALLO.json",
+      "bytes": 2775,
+      "sha256": "4cea3e0e6ff80dbf2b6d984e8d71314d29149eff2d3d166bf4785f734a27afc3"
+    },
+    {
+      "path": "campaign/afferent_metadata.json",
+      "bytes": 209170,
+      "sha256": "c6dca30225da15c3c96c2abbcfb8cc9f66d86cd607dfb113fed76f068694ea2e"
+    },
+    {
+      "path": "campaign/real_result/PLAN.json",
+      "bytes": 372,
+      "sha256": "da954ba6a2f6e4f2d718571bcf34dbbd93825093fc65b67f74d3873bf9e099cd"
+    },
+    {
+      "path": "campaign/real_result/RESULTADO.json",
+      "bytes": 9132,
+      "sha256": "6b05b71bf321fda2f9a65bf28a5e47753ffe3f73c28b64ddb3c538def22c8567"
+    },
+    {
+      "path": "campaign/real_result/ENTRADAS_SHA256.json",
+      "bytes": 2608,
+      "sha256": "341593c52eb038ed97baf1b8abd5c5e8c092f537e123a0efac7d01a27d8b2c44"
+    },
+    {
+      "path": "campaign/real_result/GRUPOS.csv",
+      "bytes": 251734,
+      "sha256": "bef0609ee9241d13e66c518b67386ac4f03bc5f0c4ec03046e03ec513f150650"
+    },
+    {
+      "path": "campaign/real_result/INTERFACES.csv",
+      "bytes": 1730,
+      "sha256": "b957017a92344cfcc48de7a116bd9d30cc1c40966004883254fca80c245938bf"
+    },
+    {
+      "path": "campaign/real_result/MONITORIZADOS.csv",
+      "bytes": 2318,
+      "sha256": "bc1600e0866e4745e00972a988969a4ff08eba5988720c1aa05840d46b6e28ef"
+    },
+    {
+      "path": "campaign/real_result/HOLD_DIAGNOSTICO.csv",
+      "bytes": 4414,
+      "sha256": "98ec6ce3b71fe358225adecbaddaf0cf5943368553e09a2075d2ee35763bce2d"
+    },
+    {
+      "path": "campaign/real_result/CONTRASTES.npz",
+      "bytes": 14918407,
+      "sha256": "883578e29ead4dcc90b22b7275d5c95fd04a0445229e85f9edb43c54b9bb9e17"
+    },
+    {
+      "path": "campaign/CHATGPT_SPATIAL_SOURCE_DEPENDENCY.json",
+      "bytes": 944,
+      "sha256": "448357c6569d1d0c3f9fdbeb465482dc43c4e1b9cb9c56222f3a0ad15670a041"
+    },
+    {
+      "path": "campaign/CHATGPT_SPATIAL_PORTABLE_VERIFICATION.json",
+      "bytes": 318,
+      "sha256": "a11555dee7b9723868906fe4ea537f487ce0781e09a2ae4306b7ed2800ee30f9"
+    }
+  ]
+}

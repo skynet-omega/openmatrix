@@ -1,0 +1,11 @@
+{
+  "source": "Segunda respuesta ChatGPT, núcleo recibido hasta antes de selftest(), con CLI mínimo añadido por Codex.",
+  "original_file": "chatgpt_spatial_original.py",
+  "original_sha256": "f6340e021c81ce24923127d023e3636cc7be4bb4f9fffdb0ebd5a2aff2eaf337",
+  "failed_run": "chatgpt_spatial_original_real_01/FALLO.json",
+  "cause": "La fuente externa no pudo descargar NPZ y fijó sensors_used a (335,2); el archivo real tiene (335,3).",
+  "correction_file": "chatgpt_spatial_real_fixed.py",
+  "change": "La exigencia de forma pasa a (335,3) y el fixture sintético añade un tercer canal cero para ejercer el contrato. La comparación completa con sham ya opera sobre todos los canales; las métricas, umbrales y ecuaciones no cambian.",
+  "not_a_model_change": true,
+  "required_repetition": "Ejecutar en salida nueva y conservar ambos resultados; no modificar umbrales ni seleccionar grupos por el giro."
+}
