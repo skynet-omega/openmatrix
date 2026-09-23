@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "mode": "baseline",
+      "continuous": false,
+      "cuts_retained": true
+    },
+    {
+      "mode": "baseline",
+      "continuous": true,
+      "cuts_retained": true
+    },
+    {
+      "mode": "scoped",
+      "continuous": false,
+      "cuts_retained": true
+    },
+    {
+      "mode": "scoped",
+      "continuous": true,
+      "cuts_retained": true
+    }
+  ],
+  "scope": "Actual advance method, CPU spy parent. Numerical CUDA counterexample has a separate receipt."
+}

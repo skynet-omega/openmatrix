@@ -1,0 +1,147 @@
+{
+  "format_version": 2,
+  "label": "motor-temporal-guard-20260922",
+  "description": "External review found a late-event false negative; reproduced with actual C++/CUDA. C0-only crossing is not promoted; current wrapper retains event cuts. Earlier2.08x whole-body measurement remains experimental. Complete small GPU reproducer, verified errors and corrected runner included; no extra organism campaign.",
+  "files": [
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/README.md",
+      "bytes": 8543,
+      "sha256": "b813f9fd33a5949cc434c5aac23786a80bb248919e40af86e85432f42c033f38"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/CHATGPT_FINAL_REVIEW.md",
+      "bytes": 8001,
+      "sha256": "68d699bf0c2d0090c3aefc2465dceacd0bc9cd2c1aeb49c3c228871f8a9fee9d"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/CHATGPT_RECEIPT.json",
+      "bytes": 529,
+      "sha256": "32e5a15eccae7c49d54629186e4541f8fd559203fe63249b4d880999260eba95"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/CHATGPT_ARCHITECTURE.md",
+      "bytes": 1933,
+      "sha256": "5ec54bdd79b407b8cbd9c884144bb06b09607809b5cb9d8299f106476a0d8cde"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/TEMPORAL_GUARD_PLAN.md",
+      "bytes": 1054,
+      "sha256": "efba533e2488498debbe6a9d212119ee05e0e20fdf34495903b000554ed1305a"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/scoped_graph.py",
+      "bytes": 2218,
+      "sha256": "79fdfb123dd9a115eec7dee4bb0bb0c68fd8b8274041e508585308b3e750948d"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/scoped_graph_before_temporal_guard.py",
+      "bytes": 1822,
+      "sha256": "f7a7b6938ce4e01a3c80b4aac2629a5d0d542f232af03aa4237fa9feb7720251"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/dependency_ir.py",
+      "bytes": 2282,
+      "sha256": "fc0ee95dad4f0532294c14a80ea0f3dcd86385b392795cc1904029bcb5028978"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/model_event_contract.py",
+      "bytes": 2934,
+      "sha256": "d3b08404ebc1683b0a337148ebd7931d15dabc92fbb36becd038bf8d7c54b988"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/check_temporal_fallback.py",
+      "bytes": 1714,
+      "sha256": "1656cf3b2dd53c49fd736b890b93fbcea885e58ad27e340a8e9d1b7948125a5a"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/TEMPORAL_FALLBACK_CHECK.json",
+      "bytes": 517,
+      "sha256": "8e832008e294d7fdaf1ae7672aefbf2a3cf1b62ef790e0120939f68ba4be5665"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/check_late_event_cuda.py",
+      "bytes": 3008,
+      "sha256": "0c96b49229ffe8dc4dc6a1653a7b74ed4de6fcf50b82a798d6dc0bee365d14e7"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/verify_temporal.py",
+      "bytes": 2001,
+      "sha256": "b18771d5e748d4b85e39b1be9109d0b6c7fff6f6c3dc5cf8ba599d7186716594"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/bundle_temporal.py",
+      "bytes": 3017,
+      "sha256": "15a7f537fecd62eb5c24fd5d1e7920155ff7302cb69ff326f19931252d80141b"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/run_scoped.py",
+      "bytes": 5181,
+      "sha256": "2cecd455515719bd67bb29cbffa4cc149ba1c8f10151f60935f33e656af33979"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/RUNNER_CLI_REPAIR.md",
+      "bytes": 1954,
+      "sha256": "38ca9730bb544cf37613dd861ed3dd82e43fb4e08c7b8ad0a6b0b60e66bb9591"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/RUNNER_CLI_CHECK.json",
+      "bytes": 298,
+      "sha256": "f6cdd90fd03b0f5b3b11db9e2ae356ccb0ca33b8107cedda54105827fdd46129"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/BUDGET_USED.json",
+      "bytes": 601,
+      "sha256": "dd46c91b0e843d97e6e116e5da9cd883508ad057fb0f59dca63226cab0c43ba9"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/ENVIRONMENT.json",
+      "bytes": 292,
+      "sha256": "de2d42590ff76de0dbc9fcaa65727986badc209233b414e0fbcc47403cf084f5"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/late_event_cuda_01/RESULT.json",
+      "bytes": 1213,
+      "sha256": "df01adc3e42e824c72323e24388ca98e1018e3fa8bb7ef888e55889736d6f271"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/late_event_cuda_01/states.npz",
+      "bytes": 659,
+      "sha256": "f2d08d035f2075731ef9148f87afd177e0d51bb9d3247dd79a1408bf9bc11bf4"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/late_event_cuda_01.log",
+      "bytes": 1213,
+      "sha256": "df01adc3e42e824c72323e24388ca98e1018e3fa8bb7ef888e55889736d6f271"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/DELIVERY.json",
+      "bytes": 806,
+      "sha256": "876f23a0d05c11b836093843bb3d474ab324a4836b9515943b32bc5a127fbbe4"
+    },
+    {
+      "path": "motor_nuevo/hybrid_ir_20260922/REMOTE_CHECK.json",
+      "bytes": 1031,
+      "sha256": "730d02ee11cb5037b228b62e2124696e21efa1aeb7bee669d53f3bebe26bce86"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/reset_ports.py",
+      "bytes": 2694,
+      "sha256": "a9d392abf569017f7b3685cc9617f5b2b15c74193a946a3b12c86573f98f13db"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    }
+  ]
+}

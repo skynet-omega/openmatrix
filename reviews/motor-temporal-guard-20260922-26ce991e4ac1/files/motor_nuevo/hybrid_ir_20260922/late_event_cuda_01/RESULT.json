@@ -1,0 +1,48 @@
+{
+  "status": "COUNTEREXAMPLE_REPRODUCED",
+  "continuity": {
+    "continuous_free_rhs": true,
+    "affected_rows": [],
+    "reasons": [],
+    "zero_rows": 2,
+    "meaning": "Direct jump dependence only; controller must still estimate temporal error."
+  },
+  "runs": {
+    "uncertified": {
+      "state": [
+        0.4524187090179798,
+        0.04524187090179795,
+        0.0
+      ],
+      "accepted": 1,
+      "rejected": 0,
+      "maximum_estimator": 0.0,
+      "max_abs_error": 0.0022620935450898974
+    },
+    "event_cut": {
+      "state": [
+        0.4524187090179798,
+        0.04524187090179795,
+        0.0022621524165432364
+      ],
+      "accepted": 4,
+      "rejected": 1,
+      "maximum_estimator": 0.3601135720569198,
+      "max_abs_error": 5.887145333900723e-08
+    }
+  },
+  "reference_expm": [
+    0.4524187090179798,
+    0.04524187090179796,
+    0.0022620935450898974
+  ],
+  "criterion": 0.0001,
+  "uniform_probe_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "differential_probe": 0.16999999999999998,
+  "wall_s": 0.5177783579565585,
+  "scope": "Actual native CUDA controller and projector, synthetic3states. Does not assert that published fly trajectories violated their measured criteria."
+}

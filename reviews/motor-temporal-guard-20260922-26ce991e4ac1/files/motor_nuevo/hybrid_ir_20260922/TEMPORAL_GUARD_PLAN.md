@@ -1,0 +1,5 @@
+# Falsador solicitado por la revisión externa
+
+Dentro del presupuesto de fixturesGPU de esta ronda, sin nueva carga de organismo ni tercer prototipo. Dos integraciones de3estados con el ejecutor C++/CUDA existente; <=20s de ejecución, RAM2GiB útil y VRAM<1GiB. h=tau=125us, ADD0.5 a0.9h, q/s proyectados exactamente, z'=(s-z)/tau. Referencia independiente expm3x3. Comparar sin cortes y con corte real de evento; límite anterior1e-4, no ajustar después.
+
+Predicción de ChatGPT: ambos cálculos del estimador danz=0 sin cortes, pese a zreal≈0.002262. Si se reproduce, conservar el resultado fallido y bloquear promoción general de la condición de continuidad sola. La ruta segura mantendrá el corte mientras no exista cobertura temporal verificada. Esto no borra las mediciones20/50ms ni añade un algoritmo temporal nuevo; la reducción de barreras queda experimental/no promovida. Una perturbación diferencial CPU adicional verifica el límite de las tres sondas uniformes. No ejecutar otra campaña de organismo para rescatar el resultado.
