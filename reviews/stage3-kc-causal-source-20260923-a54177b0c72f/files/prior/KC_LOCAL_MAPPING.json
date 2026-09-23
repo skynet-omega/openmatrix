@@ -1,0 +1,90 @@
+{
+  "schema": "kc_local_to_anatomical_identity_v1",
+  "source_session_json_sha256": "bd2b37475352b214d9e14dd28bd3e5e6cd4abecd8073fa2216ce5ae4dbae6776",
+  "source_session_npz_sha256": "7acd434a26c281c52419765047e87de157bf80c6526cf87fbe37ae81005ad615",
+  "node_ids_sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+  "local_count": 1557,
+  "selected_local_to_global": {
+    "0": {
+      "bodyId": 14292,
+      "global_row": 3986,
+      "type": "KCg-m"
+    },
+    "38": {
+      "bodyId": 38549,
+      "global_row": 25552,
+      "type": "KCg-m"
+    },
+    "97": {
+      "bodyId": 45199,
+      "global_row": 31411,
+      "type": "KCg-m"
+    },
+    "108": {
+      "bodyId": 45620,
+      "global_row": 31781,
+      "type": "KCg-m"
+    },
+    "173": {
+      "bodyId": 49569,
+      "global_row": 35209,
+      "type": "KCg-m"
+    },
+    "403": {
+      "bodyId": 64525,
+      "global_row": 47843,
+      "type": "KCg-m"
+    },
+    "595": {
+      "bodyId": 75907,
+      "global_row": 57073,
+      "type": "KCg-m"
+    },
+    "603": {
+      "bodyId": 76431,
+      "global_row": 57513,
+      "type": "KCg-m"
+    },
+    "683": {
+      "bodyId": 81004,
+      "global_row": 61131,
+      "type": "KCg-m"
+    },
+    "684": {
+      "bodyId": 81005,
+      "global_row": 61132,
+      "type": "KCg-m"
+    },
+    "699": {
+      "bodyId": 81563,
+      "global_row": 61595,
+      "type": "KCg-m"
+    },
+    "737": {
+      "bodyId": 83360,
+      "global_row": 63029,
+      "type": "KCg-m"
+    },
+    "911": {
+      "bodyId": 97999,
+      "global_row": 74079,
+      "type": "KCg-m"
+    },
+    "1042": {
+      "bodyId": 117135,
+      "global_row": 87788,
+      "type": "KCg-m"
+    },
+    "1529": {
+      "bodyId": 544736,
+      "global_row": 139742,
+      "type": "KCg-m"
+    }
+  },
+  "event_local_indices": {
+    "76431": 603,
+    "81004": 683,
+    "38549": 38
+  },
+  "scope": "Indices for selected KC state maxima and first event producers; anatomy identity only, no causal attribution."
+}

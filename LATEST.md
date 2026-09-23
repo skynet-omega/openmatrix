@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-kc-boundary-review-20260923](reviews/stage3-kc-boundary-review-20260923-bb5c8a29a80e/README.md)
+[stage3-kc-causal-source-20260923](reviews/stage3-kc-causal-source-20260923-a54177b0c72f/README.md)
 
-Corrected KC event clock, 2-ms CUDA organism readbacks, native observer-neutral control, anatomical KC-to-DNb05 paths, ChatGPT C++ CPU fixture and code run on real 20-ms arrays; numerical and stage-3 gates remain open.
+Fuentes completas para revisión externa de muestreo KC, integración y rollback; plan prospectivo, etapa3 abierta.

@@ -1,0 +1,43 @@
+{
+  "schema": "stage3_native_first_epoch_and_rollback_v1",
+  "created_utc": "2026-09-23T14:13:53.990843+00:00",
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "parent": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_kc_boundary_20260923_13",
+  "question": "Distinguish sampling-dependent event memory, local integration error, and predictor leakage on actual first-epoch states before choosing a repair or a functional error contract.",
+  "rivals": {
+    "A": "Adaptive sample cadence changes detector memory and event quantization; same states and identical steps match.",
+    "B": "Independent block arithmetic or local step control changes physical states beyond the inherited tolerance; matched-step replay refutes A alone.",
+    "C": "Predictor rollback is incomplete after the first epoch; full evolving-state and publisher comparison detects a leak."
+  },
+  "prototype_limit": 2,
+  "operations": "Add sideband buffers for selected KC cells at each accepted half-step in native CUDA; capture first two physical epochs and their pre-epoch inputs for replay. Check rollback at each of the first 16 coupling boundaries. Diagnostic buffers are never read by model decisions. Compare on/off complete scientific state separately for both engines.",
+  "selection_ids": [
+    76431,
+    81004,
+    544736,
+    45199
+  ],
+  "budget": {
+    "organism_loads_max": 6,
+    "first_round_ms_per_load": 1,
+    "conditional_repair_ms_per_load_max": 20,
+    "aggregate_trial_ms_max": 44,
+    "wall_per_load_s_max": 600,
+    "aggregate_wall_s_max": 2400,
+    "portable_replay_cases_max": 24,
+    "portable_replay_wall_s_max": 600,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_messages_max": 2,
+    "Jev_calls_max": 1
+  },
+  "criteria": {
+    "observer_neutrality": "bitwise complete scientific state within each engine",
+    "state_abs_limit": 0.0001,
+    "nonfinite": "fail",
+    "event_discrete": "exact accepted IDs/counts; report all time differences without widening tolerance",
+    "repair_gate": "only a concrete implementation bug or a prospectively defined algorithmic candidate; preserve failed historical gate",
+    "stage3_admission": false
+  },
+  "stop": "At budget, diagnostic corruption, or a causal finding. No post-hoc widening of the state tolerance; no biological weight or decoder adjustment."
+}
