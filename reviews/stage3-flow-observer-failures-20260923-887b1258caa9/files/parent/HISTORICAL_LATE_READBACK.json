@@ -1,0 +1,128 @@
+{
+  "schema": "historical_pfg_late_fixed_grid_v1",
+  "onset_sample_ms": 11,
+  "elapsed_grid_ms": [
+    250,
+    275,
+    300,
+    320
+  ],
+  "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_upstream_pfg_test_20260919/live",
+  "source_sha256": {
+    "odor_left": "51bcc68022ff90a07dcc656cc1fa5196f695535c9c6042665bdbfc5a04b12423",
+    "odor_right": "57e8b3757f8dc5dafb21ffdae2f4ac95ac6ea0269d2431098c629b1d2e3e9e79",
+    "uniform": "2bb8f259a90c28331f3bce668aad111db68495268403e4c61d7f1952949cfbff",
+    "sham": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b"
+  },
+  "arms": {
+    "odor_left": {
+      "250": {
+        "sample_ms": 261,
+        "yaw_delta_from_onset_deg": -0.08597591099376345,
+        "DNa02_q_L_minus_R_at_end": 0.3585614114023198,
+        "yaw_minus_sham_deg": -0.0034732702088220435,
+        "left_minus_right_yaw_deg": -0.02271493303915406
+      },
+      "275": {
+        "sample_ms": 286,
+        "yaw_delta_from_onset_deg": 0.038347677726545015,
+        "DNa02_q_L_minus_R_at_end": 0.44039980259078326,
+        "yaw_minus_sham_deg": -0.0034498756127661068,
+        "left_minus_right_yaw_deg": -0.022709283297349003
+      },
+      "300": {
+        "sample_ms": 311,
+        "yaw_delta_from_onset_deg": 0.16251763296694222,
+        "DNa02_q_L_minus_R_at_end": 0.3032712740609043,
+        "yaw_minus_sham_deg": -0.0034341381443212526,
+        "left_minus_right_yaw_deg": -0.022752697991762716
+      },
+      "320": {
+        "sample_ms": 331,
+        "yaw_delta_from_onset_deg": 0.25797079578039117,
+        "DNa02_q_L_minus_R_at_end": 0.12969223784358364,
+        "yaw_minus_sham_deg": -0.004035907034708686,
+        "left_minus_right_yaw_deg": -0.025003080367341113
+      }
+    },
+    "odor_right": {
+      "250": {
+        "sample_ms": 261,
+        "yaw_delta_from_onset_deg": -0.06326097795460939,
+        "DNa02_q_L_minus_R_at_end": 0.38577251822606357,
+        "yaw_minus_sham_deg": 0.019241662830332018
+      },
+      "275": {
+        "sample_ms": 286,
+        "yaw_delta_from_onset_deg": 0.06105696102389402,
+        "DNa02_q_L_minus_R_at_end": 0.457498052847952,
+        "yaw_minus_sham_deg": 0.019259407684582897
+      },
+      "300": {
+        "sample_ms": 311,
+        "yaw_delta_from_onset_deg": 0.18527033095870493,
+        "DNa02_q_L_minus_R_at_end": 0.34691335558850334,
+        "yaw_minus_sham_deg": 0.019318559847441463
+      },
+      "320": {
+        "sample_ms": 331,
+        "yaw_delta_from_onset_deg": 0.2829738761477323,
+        "DNa02_q_L_minus_R_at_end": 0.16331988505396047,
+        "yaw_minus_sham_deg": 0.020967173332632427
+      }
+    },
+    "uniform": {
+      "250": {
+        "sample_ms": 261,
+        "yaw_delta_from_onset_deg": -0.07395696293384901,
+        "DNa02_q_L_minus_R_at_end": 0.37805801950755746,
+        "yaw_minus_sham_deg": 0.008545677851092393
+      },
+      "275": {
+        "sample_ms": 286,
+        "yaw_delta_from_onset_deg": 0.050371755944869534,
+        "DNa02_q_L_minus_R_at_end": 0.4567540281471701,
+        "yaw_minus_sham_deg": 0.008574202605558412
+      },
+      "300": {
+        "sample_ms": 311,
+        "yaw_delta_from_onset_deg": 0.17458756625902083,
+        "DNa02_q_L_minus_R_at_end": 0.34694954532212124,
+        "yaw_minus_sham_deg": 0.008635795147757364
+      },
+      "320": {
+        "sample_ms": 331,
+        "yaw_delta_from_onset_deg": 0.27235297598315,
+        "DNa02_q_L_minus_R_at_end": 0.16500792521338925,
+        "yaw_minus_sham_deg": 0.010346273168050146
+      }
+    },
+    "sham": {
+      "250": {
+        "sample_ms": 261,
+        "yaw_delta_from_onset_deg": -0.0825026407849414,
+        "DNa02_q_L_minus_R_at_end": 0.3513249782631566,
+        "yaw_minus_sham_deg": 0.0
+      },
+      "275": {
+        "sample_ms": 286,
+        "yaw_delta_from_onset_deg": 0.04179755333931112,
+        "DNa02_q_L_minus_R_at_end": 0.4280948718318473,
+        "yaw_minus_sham_deg": 0.0
+      },
+      "300": {
+        "sample_ms": 311,
+        "yaw_delta_from_onset_deg": 0.16595177111126347,
+        "DNa02_q_L_minus_R_at_end": 0.30541745812864224,
+        "yaw_minus_sham_deg": 0.0
+      },
+      "320": {
+        "sample_ms": 331,
+        "yaw_delta_from_onset_deg": 0.26200670281509986,
+        "DNa02_q_L_minus_R_at_end": 0.13635278162848014,
+        "yaw_minus_sham_deg": 0.0
+      }
+    }
+  },
+  "interpretation": "Descriptive readback of the same PFG 335 ms traces; not an independent replicate, response-onset estimate, or current protected organism."
+}

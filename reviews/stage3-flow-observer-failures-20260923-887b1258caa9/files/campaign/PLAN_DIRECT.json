@@ -1,0 +1,42 @@
+{
+  "schema": "stage3_direct_consumer_flow_prospective_v1",
+  "recorded_utc": "2026-09-23T04:45:00Z",
+  "parent_failed_campaign": {
+    "path": "campanas/etapa3_flujo_20260923_01",
+    "plan_sha256": "9ce5ac9343769693fc6fb1ec5037e652a048b9841499c40db517eab00efda819",
+    "outcome": "Observer replay mismatch before 1ms, 2/2 smoke loads spent, no four-arm run; stopped without changing its budget. This campaign changes the measurement interface, not biology."
+  },
+  "objective": "Capture the actual coefficients returned to the protected CNS integrator on its last accepted stage each millisecond; reconstruct focal signed inputs using that stage state, then compare A peripheral/ALLN, B posterior convergence, C basal/reader/body in matched four-arm runs if gates pass.",
+  "unchanged_biology": "No synapse edits, gains, onset history, or policy tuning. Parent sources and checkpoint fixed; observer is read-only.",
+  "rivals": {
+    "A": "ORN/ALLN and filtered PN release destroy or reverse peripheral lateral contrast before outgoing PN delivery.",
+    "B": "Posterior convergence changes/cancels preserved PN contrast before DNa02 effective input.",
+    "C": "Prepared basal state, descending readout, or body mapping dominates a correctly signed DNa02 response."
+  },
+  "precommitted_readout": {
+    "trial_ms": 400,
+    "preparation_ms": 40,
+    "onset": "trial 0 after field installation; verify first actually consumed nonzero sensory sample separately",
+    "historical_admission_window_post_onset_ms": [150, 300],
+    "exploratory_window_post_onset_ms": [250, 400],
+    "primary": "absolute yaw displacement at 400ms in all four arms and paired left/right, sham, uniform contrasts; opposite absolute turning signs needed for directional success",
+    "flow_samples": "last committed CNS coefficient call for every complete trial millisecond, with exact stage state and actual target/rate; omit predictor/rejected attempts",
+    "flow_units": "signed inherited rate-model input, never pA unless a true conductance V/E port is captured"
+  },
+  "instrument_gate": "One-ms sham on/off from same settled checkpoint; exact neural/body and event-owner comparison, no sample/equation perturbation. Direct captured targets must match reconstructed stage equation for invertible focal receivers at <=1e-9 absolute and rates <=1e-12. If zero/saturated target, report censored rather than infer raw consumed signed sum. If no access to actual final accepted stage, stop.",
+  "scientific_gate": "No A/B/C mechanism claim until four matched arms and unchanged 1e-4 numerical tolerance checked to interpreted horizon; current project full-state numerical reference may exceed this campaign budget, in which case leave mechanistic conclusion pending.",
+  "budgets": {
+    "organism_smoke_1ms_max": 2,
+    "organism_full_400ms_max": 4,
+    "reference_20ms_max": 2,
+    "cpu_fixture_runs_max": 3,
+    "full_prototypes_max": 1,
+    "wall_total_s_max": 9000,
+    "wall_single_full_s_max": 2050,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 1,
+    "Jev_paid_calls_max": 1
+  },
+  "stop": "Stop on first failed instrument gate, numeric gate, per-run/aggregate budget, or completed bounded readout. No post-hoc gain or threshold tuning; retain all failed evidence."
+}

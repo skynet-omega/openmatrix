@@ -1,0 +1,55 @@
+{
+  "schema": "stage3_flow_instrumentation_closure_v1",
+  "classification": "BLOQUEADO_POR_INSTRUMENTACION",
+  "stage3_pass": null,
+  "previous_budget": {
+    "zero_loads": 1,
+    "smokes": 2,
+    "full_400ms": 0
+  },
+  "current_budget": {
+    "smokes": 2,
+    "full_400ms": 0,
+    "graph_fixture": 1
+  },
+  "smokes": {
+    "previous": {
+      "smoke_off_01": {
+        "status": "COMPLETE",
+        "ms": 1,
+        "wall_s": 35.220219883020036,
+        "error": null
+      },
+      "smoke_on_01": {
+        "status": "INCOMPLETE",
+        "ms": 0,
+        "wall_s": 16.99701762100449,
+        "error": "Unreconstructed effective coefficient for 10176 at 44446125000: target 0.36154360045200495, rate 0.0"
+      }
+    },
+    "current": {
+      "smoke_on_01": {
+        "status": "INCOMPLETE",
+        "ms": 0,
+        "wall_s": 37.6840023889672,
+        "error": "No final accepted CNS coefficient stage in this millisecond"
+      },
+      "smoke_on_02": {
+        "status": "INCOMPLETE",
+        "ms": 0,
+        "wall_s": 36.99360367201734,
+        "error": "Unreconstructed effective coefficient for 10176 at 44447000000: target 0.005927469598917767, rate 0.0"
+      }
+    }
+  },
+  "sha256": {
+    "historical_readback": "df15718157359f7a8b4b277b2a683a89f1791b4c3820f0728033971944b09bbf",
+    "chatgpt_original_python": "db74b46d18770475df8eb4d77de7d05e731d37aea1abffd4208360fa93915884",
+    "first_plan": "9ce5ac9343769693fc6fb1ec5037e652a048b9841499c40db517eab00efda819",
+    "second_plan": "751b228d08106e93c9e3960093294c83d9f82fbd7a3fdf6d3f4884272d61446c",
+    "graph_fixture": "af8c4316ee497e6ba7d3b3c2dc9cf63e204fd6ebda71ef0644d7974b56885497",
+    "current_observer": "ac3e89824ff3c91883aaab5b583a9f5456f9db814c3bf56304fa42d1080987d8"
+  },
+  "external_analysis": "ChatGPT original code passed synthetic selftest locally, not real flow; its declared SHA is verified in this receipt.",
+  "scientific_scope": "No four-arm protected-organism readout or long-horizon numerical reference. No causal localization or stage-3 admission."
+}

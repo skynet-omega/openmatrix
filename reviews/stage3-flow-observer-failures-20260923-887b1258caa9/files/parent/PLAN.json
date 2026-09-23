@@ -1,0 +1,61 @@
+{
+  "schema": "stage3_effective_flow_prospective_v1",
+  "recorded_utc": "2026-09-23T04:25:42.249091+00:00",
+  "objective": "Separate A peripheral/ALLN, B posterior convergence, C basal/reader/body in current protected organism; test new 250–400 ms proposal as exploratory, never relabel old 150–300 ms admission.",
+  "source_hashes": {
+    "motor_nuevo/pipeline_review_20260922/run_pipeline.py": "a5c3bd57c936c986f7cf0b444cbf7bec7d4b75049ce205a18fab5d5cdc71f5bf",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "campanas/etapa3_datos_reales_motor_20260922_01/TIME_WINDOWS.json": "824c6091f6ab1aee52dfe2dbcce9449ed2b4ffa3a9afc34bacf23272aa28182d"
+  },
+  "review_inputs": {
+    "historical_PFG_not_current": "20260919 four-arm 335ms, onset 11ms; 300ms post-onset right minus sham +0.01931856 deg, left minus sham -0.00343414, uniform minus sham +0.00863580. Does not establish onset or 400ms response.",
+    "external": "One ChatGPT request sent with pinned public package and three falsifiable questions; Jev at most one bounded task-routing call."
+  },
+  "rivals": {
+    "A": "ORN and ALLN effective input to PN loses or reverses lateral contrast before downstream output. Falsifier: signed receptor-specific PN drive and actual fine/legacy outputs retain proper contrast across trial.",
+    "B": "Connected posterior streams into DNa02 transform/cancel correctly signed PN signal. Falsifier: DNa02 consumed input is correctly bilateral and mismatch emerges at reader/body.",
+    "C": "Initial/basal state or reader/body mapping dominates odor effect. Falsifier: same prepared baseline plus mirror command produces mirror body and DNa02 input already inverted upstream."
+  },
+  "scope": "No anatomy editing, gain tuning or new biological parameter. Do not describe unsigned edge counts as signed causal flow or every abstract weighted input as membrane pA. Dedicated observer only; no change to CNS equations.",
+  "precommitted_windows": {
+    "historical_unchanged_ms_post_onset": [
+      150,
+      300
+    ],
+    "new_exploratory_ms_post_onset": [
+      250,
+      400
+    ],
+    "observation_every_ms": true,
+    "minimum_full_trial_ms": 400,
+    "onset_anchor": "after fixed 40ms preparation and field installation; trial ms 0"
+  },
+  "primary_descriptive_metrics": [
+    "yaw_delta_from_onset_deg by arm and paired contrasts to sham",
+    "left-right DNa02 release and signed native input by exact afferent ID/type",
+    "per-type signed source contribution with units of inherited rate-model weighted input, not pA",
+    "PN input and route-specific output provenance",
+    "reader command and body yaw/support"
+  ],
+  "numerical_controls": {
+    "observer_on_off": "Two 1ms sham smoke loads from identical checkpoint; compare exported neural/body state hashes or exact arrays and accepted/rejected/event counts. Stop if difference.",
+    "reconstruction": "For selected nonvisual posts, sum effective signed edge terms plus drive-theta; compare to coefficient target/inverse only where invertible and route is generic. If exact consumed operator inaccessible, label boundary reconstruction proxy and stop causal localization.",
+    "precision": "Before mechanism claim, reference/profile check at 20ms and refinement to interpreted endpoint with unchanged 1e-4 tolerance; do not infer from an unqualified numerical prefix."
+  },
+  "budget": {
+    "zero_step_loads_max": 1,
+    "smoke_1ms_max": 2,
+    "whole_organism_400ms_runs_max": 4,
+    "numerical_reference_20ms_runs_max": 2,
+    "full_prototypes_max": 1,
+    "wall_total_s_max": 9000,
+    "wall_full_run_s_max": 2050,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_messages_max": 2,
+    "Jev_paid_calls_max": 1
+  },
+  "staged_gate": "Run zero-load anatomy/operator audit; implement observer; two 1ms sham on/off. Full four arms only if observer exactness and reconstruction pass. If not, stop with concrete instrument gap rather than interpreting a proxy as current.",
+  "stop": "Stop after bounded four-arm readout and numeric gate or first failed gate/budget. No selection of window, route or parameters after viewing yaw; failed cohort becomes development, not blind confirmation."
+}

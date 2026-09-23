@@ -1,0 +1,13 @@
+{
+  "schema": "native_graph_capture_fixture_v1",
+  "callbacks": 18,
+  "accepted": 32,
+  "rejected": 2,
+  "target_before": 0.0,
+  "target_after": 0.30866293683731105,
+  "state_stage_after": 0.21732587367462214,
+  "final_state": 0.21803941924420686,
+  "next_step_ns": 31250,
+  "max_error": 0.6604783379966729,
+  "scope": "One-state synthetic CUDA graph; verifies pointer replay only, not fly equation coverage."
+}

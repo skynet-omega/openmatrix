@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-polarity-chatgpt-jev-close-20260923](reviews/stage3-polarity-chatgpt-jev-close-20260923-21a56b284f43/README.md)
+[stage3-flow-observer-failures-20260923](reviews/stage3-flow-observer-failures-20260923-887b1258caa9/README.md)
 
-Cierre reproducible: código original de ChatGPT y ejecución sobre 9483 neuronas reales, comparación cruzada, revisión con límites, topología cruda exploratoria y cliente Jev con errores HTTP seguros. Etapa 3 abierta.
+Revisión de ventana tardía, auditoría del pipeline vigente y dos campañas de instrumentación detenidas por discrepancia PN; código ejecutado, fallos, fixture CUDA y revisión externa. Sin PASS de etapa 3.

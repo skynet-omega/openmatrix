@@ -1,0 +1,187 @@
+{
+  "format_version": 2,
+  "label": "stage3-flow-observer-failures-20260923",
+  "description": "Revisión de ventana tardía, auditoría del pipeline vigente y dos campañas de instrumentación detenidas por discrepancia PN; código ejecutado, fallos, fixture CUDA y revisión externa. Sin PASS de etapa 3.",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "bytes": 7950,
+      "sha256": "3a355cc31dd920659a7823b36280c6ee38daf6f6b8c851591225e961086b0150"
+    },
+    {
+      "path": "campaign/PLAN_DIRECT.json",
+      "bytes": 3289,
+      "sha256": "751b228d08106e93c9e3960093294c83d9f82fbd7a3fdf6d3f4884272d61446c"
+    },
+    {
+      "path": "campaign/CLOSE.json",
+      "bytes": 2041,
+      "sha256": "27eb7586cea761b6e28ddf7a8b1e09dd75ff137d6b51e1c4289fb82267ef99c7"
+    },
+    {
+      "path": "campaign/close_campaign.py",
+      "bytes": 3446,
+      "sha256": "fd68f6fb86a2c24dd86c9294c2c87b1c125ceb32b0115bebcea9ebeef0c92821"
+    },
+    {
+      "path": "campaign/flow_observer_direct.py",
+      "bytes": 11638,
+      "sha256": "ac3e89824ff3c91883aaab5b583a9f5456f9db814c3bf56304fa42d1080987d8"
+    },
+    {
+      "path": "campaign/run_flow_direct.py",
+      "bytes": 8765,
+      "sha256": "e78c1d94dd79ccde063208d2db5b8e4260307f22482d4210b59014887ab000ac"
+    },
+    {
+      "path": "campaign/test_graph_capture.py",
+      "bytes": 2321,
+      "sha256": "6408e24b9c54ca1327ee1b062c2021e6084e2c113447d6e9c6568ea7a8ead57e"
+    },
+    {
+      "path": "campaign/GRAPH_CAPTURE_FIXTURE.json",
+      "bytes": 412,
+      "sha256": "af8c4316ee497e6ba7d3b3c2dc9cf63e204fd6ebda71ef0644d7974b56885497"
+    },
+    {
+      "path": "campaign/smoke_direct_01_RESULT.json",
+      "bytes": 3891,
+      "sha256": "94ec9b65d60501e7dbabd0c218e83a02a55eeafb716d87724891ee0234034104"
+    },
+    {
+      "path": "campaign/smoke_direct_01_FROZEN.json",
+      "bytes": 821,
+      "sha256": "b786fb3beeff725842fb6525d5b53308b934d0dec5f9a548d5395f015dd857ba"
+    },
+    {
+      "path": "campaign/smoke_direct_02_RESULT.json",
+      "bytes": 4044,
+      "sha256": "ae99ab7ce75c4fe48bed2ea46ef588d41be6d6cba8e10072bb46b9c7733ac8d2"
+    },
+    {
+      "path": "campaign/smoke_direct_02_FROZEN.json",
+      "bytes": 821,
+      "sha256": "a2f57751c55c18ed820e3c3d64e75c7d52cc9b00f1f69450cef7ac9d3798516a"
+    },
+    {
+      "path": "campaign/smoke_direct_02_FLOW_METADATA.json",
+      "bytes": 1006938,
+      "sha256": "31f25b3bd37d9a0f91409830e282e8b043a26e0473470d7b73de66b70af66b63"
+    },
+    {
+      "path": "parent/PLAN.json",
+      "bytes": 4407,
+      "sha256": "9ce5ac9343769693fc6fb1ec5037e652a048b9841499c40db517eab00efda819"
+    },
+    {
+      "path": "parent/audit_load.py",
+      "bytes": 4427,
+      "sha256": "7e5bd5e07064af8d7de522cf2f2e1725b37a3672823cf4a051f6694ccb5a983b"
+    },
+    {
+      "path": "parent/AUDIT.json",
+      "bytes": 47258,
+      "sha256": "eb653d39a48e3e45a5d27e0ecec2c1e566b1ce9559cb4d2e2418d8238313123f"
+    },
+    {
+      "path": "parent/flow_observer_corrected_unrun.py",
+      "bytes": 10487,
+      "sha256": "5a53bcef923f6e1b7a456fb5ddcc775729a6c44842bde12243dd237936adfafd"
+    },
+    {
+      "path": "parent/flow_observer_executed_failed.py",
+      "bytes": 8817,
+      "sha256": "01f89558a010180bb8c445117c4d7ec268d9777f21cae625923af62f7f7c8a65"
+    },
+    {
+      "path": "parent/run_flow.py",
+      "bytes": 8688,
+      "sha256": "e546020b12690d28de1c755f3e06a9a313a256b8681b674d7705b65cddc78ce7"
+    },
+    {
+      "path": "parent/smoke_off_RESULT.json",
+      "bytes": 3263,
+      "sha256": "b5ce4098f7c006a5b295edddb5c85c62347f33d41a917073759ed7cc4edee496"
+    },
+    {
+      "path": "parent/smoke_on_RESULT.json",
+      "bytes": 7896,
+      "sha256": "828d11b91f71371730acc72d17ce75051f4709884c7845e9eb5fb57bd3e2ffd6"
+    },
+    {
+      "path": "parent/historical_late_readback.py",
+      "bytes": 2846,
+      "sha256": "551ee1cad66da18e20b6292266e101c9eec05fbbf7a45c65eb832f61d93deba5"
+    },
+    {
+      "path": "parent/HISTORICAL_LATE_READBACK.json",
+      "bytes": 4472,
+      "sha256": "df15718157359f7a8b4b277b2a683a89f1791b4c3820f0728033971944b09bbf"
+    },
+    {
+      "path": "external/CHATGPT_REVIEW.md",
+      "bytes": 18081,
+      "sha256": "dbac4343ccc19001b6feafbc3272f0040aa5d3202eb67d41ab867f4734b1a299"
+    },
+    {
+      "path": "external/chatgpt_analizar_flujo.py",
+      "bytes": 9929,
+      "sha256": "db74b46d18770475df8eb4d77de7d05e731d37aea1abffd4208360fa93915884"
+    },
+    {
+      "path": "source/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "source/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "source/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "source/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "source/prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "source/orn_peripheral_terminal_brain.py",
+      "bytes": 6147,
+      "sha256": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35"
+    },
+    {
+      "path": "source/pn_online_cns_brain.py",
+      "bytes": 8204,
+      "sha256": "45683cd60b68a2518219e55ffe5f51ab146b2fba4a67a94b02cd13e6b27d1d8e"
+    },
+    {
+      "path": "source/pn_general_output_brain.py",
+      "bytes": 7255,
+      "sha256": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4"
+    },
+    {
+      "path": "source/pn_electrical_output_brain.py",
+      "bytes": 6290,
+      "sha256": "5ece061a2d3e5cd99421fbbdf6c598eafd165490f3ea209be8883b85557f9431"
+    },
+    {
+      "path": "source/block_midpoint.py",
+      "bytes": 10836,
+      "sha256": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b"
+    },
+    {
+      "path": "source/event_coupling.py",
+      "bytes": 5993,
+      "sha256": "cb5e69b003963b7fc74e77c33bd668cde84267c15a2b7c349f60404d6a5419ac"
+    }
+  ]
+}
