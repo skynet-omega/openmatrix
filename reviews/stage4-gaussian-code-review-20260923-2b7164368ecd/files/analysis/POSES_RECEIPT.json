@@ -1,0 +1,35 @@
+{
+  "schema": "stage4_chatgpt_portable_pose_subset_v1",
+  "rows": 1604,
+  "columns": [
+    "arm",
+    "phase",
+    "step",
+    "root_x_mm",
+    "root_y_mm",
+    "antenna_left_x_mm",
+    "antenna_left_y_mm",
+    "antenna_right_x_mm",
+    "antenna_right_y_mm",
+    "actual_binary_field_left",
+    "actual_binary_field_right",
+    "actually_used_sensor_left",
+    "actually_used_sensor_right",
+    "command_yaw_rad_s",
+    "yaw_delta_deg"
+  ],
+  "input_trace_sha256": {
+    "sham": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+    "odor_left": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+    "odor_right": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+    "uniform": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615"
+  },
+  "raw_geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+  "csv_sha256": "fa0c4c905fc2a172e3403510ac675534f9ff7d54393d8e0af7d0cc08dfc5c15b",
+  "export_code_sha256": "3e8e48873546cb720bced9955cad68e87ac55b7ed92726f0cb346fe0bfc61324",
+  "plan_sha256": "af7d8cf0871160a127a77eba982637664fa09f1ec918f9932bf485a2ca55b4ee",
+  "wall_s": 0.03608627299990985,
+  "cpu_s": 0.3641916,
+  "peak_ram_MiB": 44.51171875,
+  "scope": "Recorded trajectories from binary-field runs only; no Gaussian CNS or body outcome."
+}

@@ -1,0 +1,187 @@
+{
+  "status": "CPU_GEOMETRY_COMPLETE",
+  "plan": {
+    "scope": "Diseño propuesto; no prerregistro de ejecución del organismo",
+    "source_longitudinal_in_baselines": 0.5,
+    "source_lateral_in_baselines": 2.0,
+    "sigma_in_baselines": 2.0,
+    "arrival_radius_in_baselines": 0.5,
+    "material_distance_in_baselines": 0.05,
+    "proposed_distance_error_fraction": 0.1,
+    "pilot_horizon_s": 4.0,
+    "readouts_s": [
+      0.4,
+      4.0,
+      8.0
+    ],
+    "cost_basis_min_per_0_4s": {
+      "native": 23.0,
+      "reference": 32.0
+    },
+    "organism_runs_executed": 0
+  },
+  "inputs_sha256": {
+    "geometry": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "context": "486d939c2f3bc55489763d9f1c5062cd31ac8c2a52a1524e547d235fcb8ccb39"
+  },
+  "baseline_mm": 0.2311912200518743,
+  "forward_axis": [
+    0.9302223467227965,
+    -0.3669964382082385
+  ],
+  "left_axis": [
+    0.3669964382082385,
+    0.9302223467227965
+  ],
+  "antennal_midpoint_mm": [
+    0.6412056302628714,
+    -0.4821283721313049
+  ],
+  "prepared_body_mm": [
+    -0.2791675036053901,
+    -0.11658753415624147
+  ],
+  "sources": {
+    "donor": {
+      "source_mm": [
+        0.9184279585001618,
+        -0.09443307076661045
+      ],
+      "sigma_mm": 0.4623824401037486,
+      "initial_concentration_L_R": [
+        0.7316156289466418,
+        0.4437473100810798
+      ],
+      "initial_drive_80c_L_R": [
+        58.529250315731346,
+        35.49978480648639
+      ],
+      "body_initial_distance_mm": 1.1978003636265488,
+      "distance_to_forward_ray_mm": 0.46012184593177385,
+      "arrival_radius_mm": 0.11559561002593716,
+      "conditional_arrival_lower_bound_s": 5.411023768003058
+    },
+    "transfer": {
+      "source_mm": [
+        0.7033687192418008,
+        -0.009586716462555489
+      ],
+      "sigma_mm": 0.4623824401037486,
+      "initial_concentration_L_R": [
+        0.7316156289466418,
+        0.4437473100810799
+      ],
+      "initial_drive_80c_L_R": [
+        58.529250315731346,
+        35.499784806486396
+      ],
+      "body_initial_distance_mm": 0.9883453870960001,
+      "distance_to_forward_ray_mm": 0.46012184593177385,
+      "arrival_radius_mm": 0.11559561002593716,
+      "conditional_arrival_lower_bound_s": 4.363748885350314
+    }
+  },
+  "equal_initial_exposure_max_abs": 1.1102230246251565e-16,
+  "uniform_concentration": 0.5876814695138608,
+  "sham_concentration": 0.0,
+  "material_advantage_mm": 0.011559561002593716,
+  "proposed_pair_distance_error_mm": 0.0011559561002593716,
+  "proposed_advantage_with_two_error_reserves_mm": 0.01387147320311246,
+  "old_400ms_distance_contrast_upper_bounds_mm": {
+    "sham": 0.0,
+    "odor_left": 0.0004354477765987271,
+    "odor_right": 0.0005225428593304694,
+    "uniform": 1.1148933119511271e-05
+  },
+  "old_400ms_bound_scope": "Desigualdad triangular sobre endpoints de ensayos laterales antiguos; no predicción gaussiana.",
+  "geometric_straight_proxies": [
+    {
+      "source": "donor",
+      "seconds": 0.4,
+      "hypothetical_straight_distance_mm": 1.1243583942760844,
+      "hypothetical_straight_progress_mm": 0.07344196935046443,
+      "hypothetical_concentration_L_R": [
+        0.7526061757924627,
+        0.45647872030720454
+      ]
+    },
+    {
+      "source": "donor",
+      "seconds": 4.0,
+      "hypothetical_straight_distance_mm": 0.5525274543911012,
+      "hypothetical_straight_progress_mm": 0.6452729092354477,
+      "hypothetical_concentration_L_R": [
+        0.25240990906367194,
+        0.15309434866239474
+      ]
+    },
+    {
+      "source": "donor",
+      "seconds": 8.0,
+      "hypothetical_straight_distance_mm": 0.6751647684883508,
+      "hypothetical_straight_progress_mm": 0.522635595138198,
+      "hypothetical_concentration_L_R": [
+        0.0043639035433141165,
+        0.0026468412950486145
+      ]
+    },
+    {
+      "source": "transfer",
+      "seconds": 0.4,
+      "hypothetical_straight_distance_mm": 0.9182991272333019,
+      "hypothetical_straight_progress_mm": 0.07004625986269819,
+      "hypothetical_concentration_L_R": [
+        0.6902360279210135,
+        0.4186493133723599
+      ]
+    },
+    {
+      "source": "transfer",
+      "seconds": 4.0,
+      "hypothetical_straight_distance_mm": 0.4661474370078192,
+      "hypothetical_straight_progress_mm": 0.5221979500881808,
+      "hypothetical_concentration_L_R": [
+        0.10626857691495492,
+        0.06445515006295033
+      ]
+    },
+    {
+      "source": "transfer",
+      "seconds": 8.0,
+      "hypothetical_straight_distance_mm": 0.85892971881521,
+      "hypothetical_straight_progress_mm": 0.1294156682807901,
+      "hypothetical_concentration_L_R": [
+        0.0007735209339051154,
+        0.00046916416234300324
+      ]
+    }
+  ],
+  "transfer_exposure_gap_after_hypothetical_0_4s": [
+    0.06237014787144923,
+    0.037829406934844656
+  ],
+  "budget_projection_min_per_arm": {
+    "0.4": {
+      "native": 23.0,
+      "reference": 32.0
+    },
+    "4.0": {
+      "native": 230.0,
+      "reference": 320.0
+    },
+    "8.0": {
+      "native": 460.0,
+      "reference": 640.0
+    }
+  },
+  "five_arm_native_projection_hours": 19.166666666666668,
+  "primary_metric": "P=d_body(0)-d_body(T). Donor: ventaja sobre sham/uniform. Transfer: ventaja sobre sham/uniform/replay-donor.",
+  "reuse_controls": "Sólo si fuente no tiene salida distinta del olor; sham/uniform tienen misma señal en ambas geometrías.",
+  "future_replay": "Secuencia sensorial usada por el donante real, aplicada en geometría transfer; nunca estas curvas proxy.",
+  "stage3_admission": false,
+  "stage4_admission": false,
+  "limits": "Sin simulación; cota de llegada condicional a rapidez planar<=0.2mm/s, no una cota del cuerpo. Coste extrapolado, no medido. Sin viento, recompensa, reescalado neuronal ni calibración fisiológica.",
+  "cpu_s": 0.00681710000000002,
+  "wall_s": 0.0004723520000879944,
+  "code_sha256": "c0637508b61bb663b2a96ed79e0947246096007e29f3c6c4f97825038f13973c"
+}

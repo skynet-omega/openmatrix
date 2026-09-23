@@ -1,0 +1,162 @@
+{
+  "format_version": 2,
+  "label": "stage4-gaussian-code-review-20260923",
+  "description": "Fuentes reales, 1604 poses, geometría, revisión independiente, clasificación Jev y código original de ChatGPT para corregir el primer piloto gaussiano; etapa3/4 no admitidas.",
+  "files": [
+    {
+      "path": "design/FOLLOWUP_PLAN.json",
+      "bytes": 882,
+      "sha256": "d7fac73aed417818c8ef98d7f01444b122874b0a33eae2b860acc9921346c1d0"
+    },
+    {
+      "path": "design/FOLLOWUP_REQUEST.md",
+      "bytes": 4090,
+      "sha256": "694bc8bf3b06ace65cd878f95a7b86848248ba102b158aafc962ad69942c31f6"
+    },
+    {
+      "path": "design/GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "design/APPROACH_CONTEXT.json",
+      "bytes": 1597,
+      "sha256": "486d939c2f3bc55489763d9f1c5062cd31ac8c2a52a1524e547d235fcb8ccb39"
+    },
+    {
+      "path": "external/CHATGPT_RESPONSE_ORIGINAL.md",
+      "bytes": 19062,
+      "sha256": "05fead56deaa50bcc534477f1161db9f28cbc9d01150cf70f1c1ab564355aeaa"
+    },
+    {
+      "path": "external/diseno_fuente_cpu.py",
+      "bytes": 7718,
+      "sha256": "c0637508b61bb663b2a96ed79e0947246096007e29f3c6c4f97825038f13973c"
+    },
+    {
+      "path": "external/CPU_GEOMETRY_RESULT.json",
+      "bytes": 5937,
+      "sha256": "a851f2d6f56ebdba33c78da03d43484bf74b113c5b61334d6161026fe7f095a9"
+    },
+    {
+      "path": "external/INDEPENDENT_PRELIMINARY_CONTRACT.json",
+      "bytes": 13652,
+      "sha256": "f0b68a7519c7f9bbb860da1dc374324ace0e47358556312fa2a2c490016af55c"
+    },
+    {
+      "path": "external/CROSS_REVIEW.md",
+      "bytes": 8221,
+      "sha256": "b497fe77c4880dd1ce6c54efb9ec74f24c6ff67b70a2d14cea1904b68d769e41"
+    },
+    {
+      "path": "external/INDEPENDENT_PREFLIGHT.json",
+      "bytes": 2606,
+      "sha256": "7fd693627b0b367323f5f3952f8d2495c5d43376e94a056e68566f0ae350ac29"
+    },
+    {
+      "path": "analysis/pose_gaussian_sensitivity.py",
+      "bytes": 4743,
+      "sha256": "1ee74369cdead44ebbce7d4fbb8f47d16b0f0499ab66bbf09418a16d320ba622"
+    },
+    {
+      "path": "analysis/OBSERVABILITY_PLAN.json",
+      "bytes": 931,
+      "sha256": "0ac961fab0108950fbec48b9edc39a89fdbceaff45fe5d7c98b880bbae1936a2"
+    },
+    {
+      "path": "analysis/POSE_SENSITIVITY_RESULT.json",
+      "bytes": 8005,
+      "sha256": "a4181f81c0a9bd06ef2a68a91093cc4a292914ab39d01391fc776c85982a9724"
+    },
+    {
+      "path": "analysis/EXPORT_PLAN.json",
+      "bytes": 545,
+      "sha256": "af7d8cf0871160a127a77eba982637664fa09f1ec918f9932bf485a2ca55b4ee"
+    },
+    {
+      "path": "analysis/export_poses.py",
+      "bytes": 2786,
+      "sha256": "3e8e48873546cb720bced9955cad68e87ac55b7ed92726f0cb346fe0bfc61324"
+    },
+    {
+      "path": "analysis/POSES_PN629.csv",
+      "bytes": 318249,
+      "sha256": "fa0c4c905fc2a172e3403510ac675534f9ff7d54393d8e0af7d0cc08dfc5c15b"
+    },
+    {
+      "path": "analysis/POSES_RECEIPT.json",
+      "bytes": 1344,
+      "sha256": "764b135cb837f7eb81e15642cbbf4134f791a2c3d407d066f3bf42c78d8bab62"
+    },
+    {
+      "path": "external/JEV_PLAN.json",
+      "bytes": 503,
+      "sha256": "f80efc5c22391572f07c424dccd824e7cf5fa10c031fa496435ed26ce6df7549"
+    },
+    {
+      "path": "external/JEV_PREPARED_REQUEST.json",
+      "bytes": 2639,
+      "sha256": "ce76cd10139f884fe1a5f6c34752b0eaef96917d78f2421018b85173326c78e6"
+    },
+    {
+      "path": "external/JEV_RESPONSE.json",
+      "bytes": 578,
+      "sha256": "f92cb0c4cfec0879339d4ce00317023a962afa4d0b486c3251a20785349b46b8"
+    },
+    {
+      "path": "external/JEV_RECEIPT.json",
+      "bytes": 568,
+      "sha256": "268368c80204d06fc2a6bcff144ada434bd6f65ab4a76a802eb7b1f221a77e3a"
+    },
+    {
+      "path": "evidence/EVIDENCIA_VIVA.md",
+      "bytes": 9697,
+      "sha256": "099dd900320e653c561c46d665995ab98bf5f2670e626d2d2eb7f37410ff7197"
+    },
+    {
+      "path": "evidence/PROVENANCE_REVIEW.md",
+      "bytes": 10237,
+      "sha256": "9c08ecfb67329934ca679c2da661b890bd397bd2606f867e6db6325ab27d752b"
+    },
+    {
+      "path": "code/antennal_world.py",
+      "bytes": 5834,
+      "sha256": "d627bb7caa3f3ae24f4d6a632b25fc74e547763a9a476ffebd87da8490d40cb5"
+    },
+    {
+      "path": "code/antennal_runtime.py",
+      "bytes": 12097,
+      "sha256": "10dc2c80bc520f18fc59779ae50b5d8fe0f53faf15808a39fe1f13b83dfbe4e7"
+    },
+    {
+      "path": "code/antennal_boundary.py",
+      "bytes": 1260,
+      "sha256": "403a897d50fee3b15497b0a17d51ce6a60aeaecbd5491ae485d53e28badd78f7"
+    },
+    {
+      "path": "code/matrix_olfactory_diagnostic.py",
+      "bytes": 114166,
+      "sha256": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+    },
+    {
+      "path": "code/run_set.py",
+      "bytes": 12209,
+      "sha256": "bf6482c3bc3f0d5d8bc0ed275f8e9fb7cdeb74cd1736af225c29fe34b6a97336"
+    },
+    {
+      "path": "code/run_reference.py",
+      "bytes": 4161,
+      "sha256": "0a2b088b090d391c5f8915a53a744a62eaf0618b434e69a7a4d930de87937dad"
+    },
+    {
+      "path": "code/check_remaining.py",
+      "bytes": 8335,
+      "sha256": "c3bfd432861562dabaa25cb3d7dd03f2352ccd5ddd7086cf91935907e82ad9f2"
+    },
+    {
+      "path": "code/restore_checkpoint.py",
+      "bytes": 7392,
+      "sha256": "eec9fbf5dd6d1bd6def1f9f285ecf2c6d6e69c4e68cada7e2b8d826939d5b63c"
+    }
+  ]
+}

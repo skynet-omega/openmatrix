@@ -1,0 +1,10 @@
+{
+  "schema": "stage4_existing_pose_gaussian_sensitivity_v1",
+  "registered_before_execution": true,
+  "inputs": "Four frozen 400 ms PN629 native traces and the ChatGPT CPU geometry result, with hashes checked by the analyzer",
+  "question": "How much would the existing body trajectories change antennal samples under the proposed fixed Gaussian sources?",
+  "scope": "Descriptive replay of geometry only. Original trajectories were generated with a binary lateral field; this cannot predict closed-loop Gaussian behavior or Stage4 success.",
+  "budget": {"cpu_s_max": 60, "wall_s_max": 90, "ram_MiB_max": 1024, "gpu_calls": 0, "new_organism_runs": 0},
+  "falsifier": "If the field is invariant along all real saved trajectories at recorded precision, these 400 ms traces cannot discriminate spatial feedback from replay.",
+  "stop": "No input mutation, no threshold tuning, no new organism; retain every arm and both sources."
+}

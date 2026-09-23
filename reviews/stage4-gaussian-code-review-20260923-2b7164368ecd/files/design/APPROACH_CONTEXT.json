@@ -1,0 +1,50 @@
+{
+  "derived_from_existing_native_trials": {
+    "sham": {
+      "translation_mm": [
+        0.07382996157559475,
+        -0.0281275985582251,
+        7.878144665331155e-05
+      ],
+      "horizontal_displacement_mm": 0.07900648724570954,
+      "yaw_deg": 0.023686321328540316,
+      "mean_command_forward_mm_s": 0.2,
+      "max_abs_command_yaw_deg_s": 0.6300091980107123
+    },
+    "odor_left": {
+      "translation_mm": [
+        0.07395529897843464,
+        -0.027710579012407248,
+        7.896814033016633e-05
+      ],
+      "horizontal_displacement_mm": 0.07897634099015047,
+      "yaw_deg": 0.09288898203533336,
+      "mean_command_forward_mm_s": 0.2,
+      "max_abs_command_yaw_deg_s": 0.4499230451859204
+    },
+    "odor_right": {
+      "translation_mm": [
+        0.07367702102498552,
+        -0.028627258670518053,
+        7.889236014372615e-05
+      ],
+      "horizontal_displacement_mm": 0.0790431740639564,
+      "yaw_deg": -0.058872200464719526,
+      "mean_command_forward_mm_s": 0.2,
+      "max_abs_command_yaw_deg_s": 0.6300454450501299
+    },
+    "uniform": {
+      "translation_mm": [
+        0.07382577071256735,
+        -0.028137929839693963,
+        7.901365555865354e-05
+      ],
+      "horizontal_displacement_mm": 0.07900624986017313,
+      "yaw_deg": 0.021545550749380027,
+      "mean_command_forward_mm_s": 0.2,
+      "max_abs_command_yaw_deg_s": 0.38131334226695474
+    }
+  },
+  "new_organism_runs": 0,
+  "scope": "Finite400ms observations only; a small signed turn plus tonic forward motion does not establish approach to an odor source. No source in these trials."
+}

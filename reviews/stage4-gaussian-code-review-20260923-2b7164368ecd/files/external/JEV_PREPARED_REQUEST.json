@@ -1,0 +1,30 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "system": "A 166700-neuron fly model with a synthetic MuJoCo roller body and a fixed predeclared neural reader. Stage3 confirmation is still running. No Stage4 organism has been executed.",
+    "observations": "A binary lateral field produced about +0.093 degrees for left odor, -0.059 for right, and +0.024 for sham over 400ms. A proposed fixed Gaussian source gives pose-dependent antennal concentrations; offline replay on saved binary-field trajectories changes each sample by about 0.02-0.04 and makes two source locations differ by about 0.04-0.06 at 400ms. These are geometry calculations, not consumed neural inputs in a Gaussian run. The body advances tonically around 0.2mm/s. Full 2-4s organism comparisons are estimated to cost many hours.",
+    "task": "Triage narrowly defined experimental controls. Do not infer scientific acceptance or biological equivalence."
+  },
+  "questions": {
+    "feedback_control": {
+      "type": "choice",
+      "instructions": "Which single comparison can distinguish pose-contingent sensory feedback from an open-loop sensory sequence in a deterministic simulated organism? Classify the control design, not whether the organism passes.",
+      "criteria": {
+        "matched_perturbed_online_vs_replay": "Fork the same full state, impose the same predefined physical pose perturbation, then compare live pose-dependent odor samples against a fixed donor sensory replay.",
+        "unperturbed_self_replay": "Replay the exact input sequence from the same unperturbed deterministic trajectory and compare with itself.",
+        "left_right_sham_only": "Compare left and right odor with sham, without changing pose or replaying samples.",
+        "uncertain": "The supplied information does not identify a useful control."
+      }
+    },
+    "next_discriminator": {
+      "type": "choice",
+      "instructions": "After Stage3 is resolved, which first empirical step is most informative under a limited budget before a long Stage4 campaign? Classify priority only; scientific thresholds remain local.",
+      "criteria": {
+        "short_consumed_gradient_probe": "Run one bounded Gaussian organism probe to measure actual delivered antennal/ORN, PN, DN and command changes, checking whether a continuous gradient propagates.",
+        "immediate_long_feedback_cohort": "Run all multi-second online, replay, sham and uniform arms before any short probe.",
+        "geometry_only": "Stop after offline geometry because it proves functional neural feedback.",
+        "uncertain": "The supplied information does not justify a ranking."
+      }
+    }
+  }
+}

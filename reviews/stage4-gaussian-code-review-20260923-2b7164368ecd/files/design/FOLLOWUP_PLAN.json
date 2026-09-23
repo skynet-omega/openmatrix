@@ -1,0 +1,12 @@
+{
+  "schema": "stage4_external_code_revision_v1",
+  "registered_before_followup": true,
+  "scope": "One further ChatGPT code review of an empirical Stage4 design, after independent cross-review; no Stage4 organism execution or acceptance.",
+  "rivals": {
+    "A": "New position-dependent antennal samples yield a useful correction after motion.",
+    "B": "Initial odor steering plus tonic advance explains proximity without useful feedback.",
+    "C": "Continuous gradient intensity/history fails to propagate through the actual sensory-to-command chain at the tested horizon."
+  },
+  "budget": {"ChatGPT_messages_max": 1, "Jev_calls_new_max": 0, "organism_runs": 0, "GPU_runs": 0, "local_review_CPU_s_max": 60},
+  "stop": "One external code/design response; preserve originals and verify locally. A numerical or biological claim requires subsequent frozen organism experiment."
+}

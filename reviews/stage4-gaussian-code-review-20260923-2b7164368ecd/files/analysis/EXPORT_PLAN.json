@@ -1,0 +1,7 @@
+{
+  "schema": "stage4_chatgpt_portable_pose_subset_v1",
+  "scope": "Export four frozen PN629 preparations and 400ms trial poses/sensors as a small CSV for external code review; not a new organism or Gaussian trajectory.",
+  "budget": {"cpu_s_max": 30, "wall_s_max": 60, "ram_MiB_max": 512, "gpu_calls": 0},
+  "inputs": "Four native traces pinned by SHA256 in pose_gaussian_sensitivity.py plus prepared geometry scale",
+  "output": "1604 rows: one common prepared boundary and 400 trial intervals per arm. No omitted arms or selected windows."
+}

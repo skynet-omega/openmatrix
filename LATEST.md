@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-design-and-cold-continuation-20260923](reviews/stage4-design-and-cold-continuation-20260923-8caeea7ae535/README.md)
+[stage4-gaussian-code-review-20260923](reviews/stage4-gaussian-code-review-20260923-2b7164368ecd/README.md)
 
-Actual body geometry, retained source field/world API and cold-continuation code for external independent review. Stage3 confirmation remains running; no Stage4 run or biological navigation claim.
+Fuentes reales, 1604 poses, geometría, revisión independiente, clasificación Jev y código original de ChatGPT para corregir el primer piloto gaussiano; etapa3/4 no admitidas.

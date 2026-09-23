@@ -1,0 +1,243 @@
+{
+  "schema": "stage4_existing_pose_gaussian_sensitivity_v1",
+  "classification": "DESCRIPTIVE_ONLY",
+  "input_hashes": {
+    "geometry": "a851f2d6f56ebdba33c78da03d43484bf74b113c5b61334d6161026fe7f095a9",
+    "raw_geometry": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "sham": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+    "odor_left": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+    "odor_right": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+    "uniform": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615"
+  },
+  "arms": {
+    "sham": {
+      "trace_sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+      "source_samples": {
+        "donor": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810798
+          ],
+          "trial_last_L_R": [
+            0.752555356709372,
+            0.4597453783911998
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.02093972776273023,
+            0.01599806831011996
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.014081218636139018,
+            0.010617041263569726
+          ],
+          "body_distance_mm_prepared": 1.1978003636265488,
+          "body_distance_mm_trial_last": 1.1248898550236255,
+          "descriptive_progress_mm": 0.07291050860292336
+        },
+        "transfer": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810799
+          ],
+          "trial_last_L_R": [
+            0.6913454574085283,
+            0.4223105144606848
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.04027017153811352,
+            0.021436795620395133
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.021606874056935947,
+            0.011206244637541846
+          ],
+          "body_distance_mm_prepared": 0.9883453870960001,
+          "body_distance_mm_trial_last": 0.9186984043487569,
+          "descriptive_progress_mm": 0.06964698274724312
+        }
+      },
+      "same_pose_source_gap_max_L_R": [
+        0.06120989930084375,
+        0.03743486393051498
+      ],
+      "same_pose_source_gap_last_L_R": [
+        0.06120989930084375,
+        0.03743486393051498
+      ]
+    },
+    "odor_left": {
+      "trace_sha256": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+      "source_samples": {
+        "donor": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810798
+          ],
+          "trial_last_L_R": [
+            0.7545181327455133,
+            0.46177033262972705
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.022902503798871487,
+            0.01802302254864724
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.014946819823405167,
+            0.011517783434896805
+          ],
+          "body_distance_mm_prepared": 1.1978003636265488,
+          "body_distance_mm_trial_last": 1.1247460774086264,
+          "descriptive_progress_mm": 0.07305428621792243
+        },
+        "transfer": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810799
+          ],
+          "trial_last_L_R": [
+            0.6932782474505839,
+            0.4241234047144959
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.03833738149605792,
+            0.019623905366584038
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.020732768668365674,
+            0.010380379012534614
+          ],
+          "body_distance_mm_prepared": 0.9883453870960001,
+          "body_distance_mm_trial_last": 0.9185131766179019,
+          "descriptive_progress_mm": 0.06983221047809818
+        }
+      },
+      "same_pose_source_gap_max_L_R": [
+        0.06123988529492941,
+        0.037646927915231165
+      ],
+      "same_pose_source_gap_last_L_R": [
+        0.06123988529492941,
+        0.037646927915231165
+      ]
+    },
+    "odor_right": {
+      "trace_sha256": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+      "source_samples": {
+        "donor": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810798
+          ],
+          "trial_last_L_R": [
+            0.7502024054759929,
+            0.4573287112611528
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.018586776529351146,
+            0.013581401180073005
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.012898461330683904,
+            0.009386001178328615
+          ],
+          "body_distance_mm_prepared": 1.1978003636265488,
+          "body_distance_mm_trial_last": 1.125065085004581,
+          "descriptive_progress_mm": 0.07273527862196794
+        },
+        "transfer": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810799
+          ],
+          "trial_last_L_R": [
+            0.6890331543964959,
+            0.4201484161782569
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.042582474550145855,
+            0.023598893902823048
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.022846770300333472,
+            0.012375164306051288
+          ],
+          "body_distance_mm_prepared": 0.9883453870960001,
+          "body_distance_mm_trial_last": 0.9189232959475728,
+          "descriptive_progress_mm": 0.06942209114842723
+        }
+      },
+      "same_pose_source_gap_max_L_R": [
+        0.061169251079497,
+        0.03718029508289594
+      ],
+      "same_pose_source_gap_last_L_R": [
+        0.061169251079497,
+        0.03718029508289594
+      ]
+    },
+    "uniform": {
+      "trace_sha256": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615",
+      "source_samples": {
+        "donor": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810798
+          ],
+          "trial_last_L_R": [
+            0.752496518187598,
+            0.45968480966662884
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.020880889240956213,
+            0.01593749958554902
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.014028193348186689,
+            0.010558820821835978
+          ],
+          "body_distance_mm_prepared": 1.1978003636265488,
+          "body_distance_mm_trial_last": 1.1248945035469844,
+          "descriptive_progress_mm": 0.07290586007956446
+        },
+        "transfer": {
+          "prepared_L_R": [
+            0.7316156289466418,
+            0.4437473100810799
+          ],
+          "trial_last_L_R": [
+            0.6912882381453207,
+            0.4222569747640759
+          ],
+          "max_abs_change_from_prepared_L_R": [
+            0.040327390801321084,
+            0.021490335317004006
+          ],
+          "rms_change_from_prepared_L_R": [
+            0.021704579866703898,
+            0.01130078897863953
+          ],
+          "body_distance_mm_prepared": 0.9883453870960001,
+          "body_distance_mm_trial_last": 0.9187040692756305,
+          "descriptive_progress_mm": 0.06964131782036953
+        }
+      },
+      "same_pose_source_gap_max_L_R": [
+        0.0612082800422773,
+        0.037427834902552914
+      ],
+      "same_pose_source_gap_last_L_R": [
+        0.0612082800422773,
+        0.037427834902552914
+      ]
+    }
+  },
+  "stage3_admission": false,
+  "stage4_admission": false,
+  "limits": "Descriptive replay of geometry only. Original trajectories were generated with a binary lateral field; this cannot predict closed-loop Gaussian behavior or Stage4 success.",
+  "preparation_antennae_identical_all_arms": true,
+  "cpu_s": 0.07188020000000006,
+  "wall_s": 0.022862472999804595,
+  "peak_ram_MiB": 48.71875,
+  "code_sha256": "1ee74369cdead44ebbce7d4fbb8f47d16b0f0499ab66bbf09418a16d320ba622",
+  "plan_sha256": "0ac961fab0108950fbec48b9edc39a89fdbceaff45fe5d7c98b880bbae1936a2"
+}

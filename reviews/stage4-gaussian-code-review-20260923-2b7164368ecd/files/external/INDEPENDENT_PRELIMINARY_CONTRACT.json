@@ -1,0 +1,132 @@
+{
+  "schema": "matrix_stage4_spatial_feedback_proposal_v1",
+  "status": "PRELIMINAR_PARA_COMPARAR_CON_CHATGPT",
+  "created_utc": "2026-09-23T18:34:02Z",
+  "stage3_admission": "NOT_ASSERTED",
+  "organism_execution_enabled": false,
+  "scope": "Functional spatial feedback and local approach with the existing synthetic roller body; neither source acquisition nor biological equivalence.",
+  "exposure": "Read campaign17 PLAN/REQUEST/GEOMETRY, current local status and primary literature. No new ChatGPT/Jev proposal read for this deliverable. Existing discussion of replay and synthetic-body limitations was known.",
+  "hypotheses": {
+    "A": {
+      "mechanism": "Updated antennal samples after body motion causally correct heading and improve approach to a fixed source.",
+      "legal_information": "Current left/right concentrations and existing organism state; world position/source coordinates remain evaluator-only.",
+      "prediction": "After a matched physical yaw perturbation away from either mirrored source, online sampling improves both bearing error and source distance beyond replay, sham and uniform controls.",
+      "falsifier": "Resolvable online/replay sensory divergence occurs, but the prospective material correction and approach effects do not occur on both sides within 2 s.",
+      "limit": "Failure rejects useful feedback at this geometry/horizon/effect size, not every possible olfactory-navigation mechanism."
+    },
+    "B": {
+      "mechanism": "An odor-onset response launches an open-loop steering trajectory; tonic forward motion explains apparent approach.",
+      "legal_information": "The same prerecorded donor sensory sequence is supplied to the existing organism after the perturbation.",
+      "prediction": "Replay preserves apparent approach and online sampling contributes less than the material margin; sham/uniform may explain additional common motion.",
+      "falsifier": "Online sampling beats the replay and both tonic controls by both frozen material margins, on both mirrored sides.",
+      "limit": "Replay equivalence supports sufficiency of this open-loop explanation locally, not proof that the organism never uses feedback."
+    },
+    "C": {
+      "mechanism": "The continuous field supplies smaller, history-dependent signals than the binary lateral field; transduction/dynamics fail to transmit usable directional information within the horizon.",
+      "legal_information": "Only field concentrations enter the organism; the evaluator records delivered ORN input, consumed descending-neuron state and command.",
+      "prediction": "A contrast exists geometrically but becomes negligible, saturated or too delayed along the sensory-to-command chain; behavior cannot discriminate A from B reliably.",
+      "falsifier": "The continuous condition transmits a timely directional signal and command after perturbation, while loss of effect first appears in body movement, or full feedback succeeds.",
+      "limit": "Amplitude versus adaptation versus latency are not separately identified by this round. No gain, threshold or time-window adjustment is permitted after seeing results. A binary-condition comparison requires identical preparation, operator and clocks."
+    }
+  },
+  "geometry": {
+    "unit": "mm",
+    "native_units_per_mm": 0.1,
+    "prepared_root_native_xy": [-0.027916750360539012, -0.011658753415624147],
+    "prepared_antennae_mm": [[0.6836288074148988, -0.37459875250212443, -0.033330471912112365], [0.5987824531108439, -0.5896579917604854, -0.016170607014189767]],
+    "frame": "Origin = initial antennal XY midpoint; left = normalized L-R; forward = clockwise90(left), verified to point from root toward antennal midpoint.",
+    "source_forward_mm": 0.8,
+    "source_left_mm_abs": 0.4,
+    "sigma_mm": 0.45,
+    "source_region_radius_mm": 0.25,
+    "field": "c(p)=exp(-norm(p-source)^2/(2*sigma^2)); existing Gaussian, static source, no events.",
+    "third_sensor": 0.0,
+    "odor_drive_multiplier": 80.0,
+    "calibration": "Concentration and drive are model units, not calibrated physical odor or biological firing rates.",
+    "forward_command_mm_s": 0.2
+  },
+  "schedule": {
+    "horizon_ns": 2000000000,
+    "perturbation_ns": 400000000,
+    "outer_control_ns": 1000000,
+    "source_sides": ["left", "right"],
+    "donor": "One unperturbed online life per source side; store complete committed sensory sequence and checkpoint at 400 ms.",
+    "perturbation": "At 400 ms, rigidly rotate the body's world yaw by 5 degrees away from its source; preserve root XY/Z, roll/pitch, relative joint positions and joint velocities. Rotate world-frame root linear/angular velocities consistently; rebuild derived body/contact state. This is a mechanical environment intervention, not a steering command or neural-state edit.",
+    "perturbation_degrees_abs": 5.0,
+    "clock_rule": "Apply once at the boundary after the 400 ms committed interval; update physical pose before committing the next online sample. Replay uses the donor's next committed interval. Never insert stale input or reset neural state.",
+    "arms_per_side": ["donor_online_unperturbed", "online_perturbed", "replay_perturbed", "sham_perturbed", "uniform_perturbed"],
+    "online_and_replay_start": "Fork the same donor checkpoint at 400 ms, apply the same perturbation, change only whether future samples come from the actual pose or fixed donor sequence.",
+    "sham": "Start from the common pre-odor prepared state, use [0,0,0] throughout and the same physical perturbation at 400 ms.",
+    "uniform": "Start from the common pre-odor prepared state, deliver constant [c0,c0,0], c0 = initial donor antennal mean for that source, and the same perturbation at 400 ms.",
+    "same_life_note": "Mirrored conditions and forks are interventions on one prepared organism, not independent flies or random seeds."
+  },
+  "required_pins_before_future_execution": [
+    "A separately accepted campaign contract and explicit stage4 execution decision; this proposal never launches organisms.",
+    "Full common checkpoint hash including brain/body/world/pending/clock/RNG/operator/controller; no claim that stage3 is admitted.",
+    "Source hashes of current organism, protected engine, reference engine, body model, native reader and Gaussian boundary.",
+    "Verify no learning/reader/weight/release-law change across arms; record the actual enabled flags rather than assume them.",
+    "Demonstrate yaw perturbation preserves world/body clock and does not create penetration or stale contact/pending state.",
+    "Numeric refinement schedule over the full 2 s of every compared perturbed arm; cannot borrow 400 ms agreement as full-horizon evidence."
+  ],
+  "measurements": {
+    "each_committed_interval": ["world/body time_ns", "root XY and yaw", "source XY", "left/right antenna XYZ", "left/right field concentrations", "actually committed ORN input", "actual reader DN IDs and left/right consumed state", "requested and applied command", "contact/support observations"],
+    "checkpoints": ["common pre-odor prepared state", "donor 400 ms fork", "final full state for every arm"],
+    "pair_trace": "Absolute online-minus-replay input divergence from the first post-perturbation interval onward; use delivered values, not only ideal field samples.",
+    "bearing_error": "abs(wrap_to_180(atan2(source_y-root_y,source_x-root_x)-yaw_degrees))",
+    "distance": "Euclidean XY distance from root to fixed source",
+    "approach": "distance_at_400ms_after_perturbation - distance_at_2000ms",
+    "contrast": "For each side separately and each control: bearing_error_control(T)-bearing_error_online(T), and approach_online-approach_control. For online/replay, use their common fork/perturbation state.",
+    "control_baseline_note": "Sham/uniform states can differ by 400 ms; their own post-perturbation distances define their approach. Online/replay is the principal causal feedback comparison."
+  },
+  "prospective_margins": {
+    "geometry_min_initial_abs_L_minus_R_c": 0.01,
+    "geometry_min_online_replay_max_abs_c_after_perturbation": 0.001,
+    "material_bearing_advantage_degrees": 0.02,
+    "material_approach_advantage_mm": 0.001,
+    "full_trace_numeric_yaw_error_max_degrees": 0.002,
+    "full_trace_numeric_root_xy_error_max_mm": 0.00005,
+    "full_trace_numeric_input_error_max": 0.0001,
+    "margin_rule": "Subtract 2*yaw_error_max from bearing contrasts. Subtract 4*root_xy_error_max from approach contrasts because each approach uses start and end positions. Require the remaining effect to exceed the material margin in both mirror sides versus every control. Equality is insufficient.",
+    "motor_support": "Retain the applicable already-frozen body support/contact criteria verbatim; bind their contract hash before execution."
+  },
+  "budget": {
+    "current_CPU_preflight_wall_s_max": 30,
+    "current_organism_runs": 0,
+    "current_GPU_runs": 0,
+    "future_complete_prototypes_max": 1,
+    "future_native_complete_arms_max": 10,
+    "future_reference_complete_arms_max": 8,
+    "future_native_simulated_s_max": 20,
+    "future_reference_simulated_s_max": 16,
+    "future_technical_restart_attempts_max": 2,
+    "restarts_must_fit_same_simulated_time_and_wall_caps": true,
+    "measured_native_wall_s_per_simulated_s": 3500,
+    "measured_reference_wall_s_per_simulated_s": 4800,
+    "estimated_wall_s_without_restart": 146800,
+    "future_total_wall_s_max": 160000,
+    "future_CPU_core_s_max": 640000,
+    "future_GPU_allocated_wall_s_max": 160000,
+    "additional_host_RAM_bytes_max": 1073741824,
+    "additional_device_memory_bytes_max": 268435456,
+    "total_artifact_disk_bytes_max": 53687091200,
+    "memory_base": "Measure one existing prepared full-organism baseline before launch; additions above refer only to new field/replay/observer state. Abort if absolute free physical memory is insufficient.",
+    "training_or_parameter_search": 0,
+    "new_datasets_bytes": 0,
+    "policy": "Hard caps. No extension after failure. Native screen before reference expenditure. This costly prospective budget is disclosed for review, not authorization or a forecast of achieved engine speed."
+  },
+  "stopping_and_labels": {
+    "preflight_failure": "GEOMETRIA_NO_IDENTIFICABLE: do not run the organism; any redesign is a new proposal version before outcomes.",
+    "native_no_material_effect": "NO_PROMOVIDO_EN_CRIBADO_NATIVO: stop without paying for refinement. This is a resource-selection decision, not a validated biological negative; without full-horizon numeric comparison the cause remains unresolved.",
+    "native_effect_but_reference_or_integrity_failure": "NO_INTERPRETABLE: preserve all arms and stop; implementation bugs may use at most two bounded technical restarts, algorithm edits require a new campaign.",
+    "all_frozen_future_criteria_met": "PROMETEDOR_NO_CONFIRMADO: functional feedback in one synthetic life; no stage3 retroactive admission, source acquisition, biological equivalence or general-intelligence claim.",
+    "budget_exhausted": "INCOMPLETO_POR_PRESUPUESTO; no PASS inferred from partial arms.",
+    "no_publication_or_external_messages": "This subtask only writes inside its new subdirectory; parent handles any authorized later exchange."
+  },
+  "primary_evidence": [
+    {"study": "Gaudry et al. Nature 2013", "url": "https://doi.org/10.1038/nature11747", "location": "Fig.1 and initial Results", "measurement": "Spherical treadmill; natural peach odor n9, unilateral DM1-ORN activation n10; turn starts about70ms after ORN response. A common initial lateral bias coexists with later odor discrimination.", "design_consequence": "Separate common motion from differential odor response;70ms onset is not source-navigation completion."},
+    {"study": "Rayshubskiy et al. eLife 2025", "url": "https://elifesciences.org/articles/102230", "location": "Fig.5-6; Methods Behavior and Data inclusion", "measurement": "DNa02 on sphere; fictive odor n4 retained of6; neural activation precedes turn about150ms, potentially including sphere inertia; intact flies turn more consistently than electrode preparations.", "design_consequence": "Do not impose a universal biological delay or discard asymmetric simulated conditions after observing them."},
+    {"study": "Yang et al. Cell 2024", "url": "https://doi.org/10.1016/j.cell.2024.08.033", "location": "Fig.2 and4", "measurement": "DNb05 calcium/ipsiversive turning correlation n7; DNa02 unilateral activation n8 versus7 controls causes specific leg-gesture changes.", "design_consequence": "Keep actual reader identity explicit; this does not validate a DNb05-to-roller transfer law."},
+    {"study": "Alvarez-Salvado et al. eLife 2018", "url": "https://elifesciences.org/articles/37815", "location": "Fig.1-2 and Discussion", "measurement": "Free walking, vinegar and11.9cm/s wind; n75/1306trials; ON peak4.4+-2.5s; substantial between-animal variability; bilateral differences in a plume can be small.", "design_consequence": "2s is a local-feedback pilot, not reproduction of full search; do not invent a wind channel or extrapolate binary-field success."},
+    {"study": "Tao et al. Nature Communications 2023", "url": "https://doi.org/10.1038/s41467-023-42613-8", "location": "Fig.1-2, Results and Discussion", "measurement": "Free walking in an8cm arena with spatial ORN optogenetic stimulation,314retinal flies; motor changes depend on firing, its change, activated ORNs and exposure history; ORN replay measured in another preparation.", "design_consequence": "Movement-dependent sampling must be perturbed to distinguish online feedback from replay; accumulation alone is insufficient."}
+  ]
+}

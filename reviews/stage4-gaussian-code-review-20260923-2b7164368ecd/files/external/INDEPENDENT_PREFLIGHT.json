@@ -1,0 +1,84 @@
+{
+  "contract_sha256": "f0b68a7519c7f9bbb860da1dc374324ace0e47358556312fa2a2c490016af55c",
+  "scope": "Algebraic rigid-pose surrogate only: constant forward motion, no brain, no MuJoCo, no claimed trajectory prediction.",
+  "claims": {
+    "stage3_approved": false,
+    "stage4_run": false,
+    "feedback_demonstrated": false
+  },
+  "all_geometry_checks": true,
+  "initial_antenna_separation_mm": 0.2311912200518743,
+  "forward_unit_xy": [
+    0.9302223467227965,
+    -0.3669964382082385
+  ],
+  "left_unit_xy": [
+    0.3669964382082385,
+    0.9302223467227965
+  ],
+  "conditions": [
+    {
+      "source_side": "left",
+      "source_xy_mm": [
+        1.532182082924404,
+        -0.40363658400877706
+      ],
+      "initial_root_distance_mm": 1.8339532386740123,
+      "initial_concentrations": [
+        0.168644036366874,
+        0.1068169033385036
+      ],
+      "uniform_c0": 0.1377304698526888,
+      "predicted_unperturbed_concentrations_at_400ms": [
+        0.22770185357438713,
+        0.14422334407569334
+      ],
+      "predicted_perturbed_concentrations_at_400ms": [
+        0.20220113846346252,
+        0.10821652846429215
+      ],
+      "max_abs_predicted_sample_divergence": 0.03600681561140119,
+      "perturbation_yaw_degrees": -5.0,
+      "checks": {
+        "root_starts_outside_source_region": true,
+        "both_antennae_start_outside_source_region": true,
+        "initial_bilateral_contrast_resolvable": true,
+        "perturbation_changes_samples": true
+      },
+      "geometry_eligible": true
+    },
+    {
+      "source_side": "right",
+      "source_xy_mm": [
+        1.238584932357813,
+        -1.1478144613870143
+      ],
+      "initial_root_distance_mm": 1.8349390813642992,
+      "initial_concentrations": [
+        0.1068169033385036,
+        0.168644036366874
+      ],
+      "uniform_c0": 0.1377304698526888,
+      "predicted_unperturbed_concentrations_at_400ms": [
+        0.14422334407569345,
+        0.2277018535743872
+      ],
+      "predicted_perturbed_concentrations_at_400ms": [
+        0.10836563386288671,
+        0.20247576282054672
+      ],
+      "max_abs_predicted_sample_divergence": 0.035857710212806745,
+      "perturbation_yaw_degrees": 5.0,
+      "checks": {
+        "root_starts_outside_source_region": true,
+        "both_antennae_start_outside_source_region": true,
+        "initial_bilateral_contrast_resolvable": true,
+        "perturbation_changes_samples": true
+      },
+      "geometry_eligible": true
+    }
+  ],
+  "budget_estimated_wall_hours": 40.77777777777778,
+  "budget_max_wall_hours": 44.44444444444444,
+  "runtime_s": 0.00014768200003345555
+}

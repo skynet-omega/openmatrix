@@ -1,0 +1,8 @@
+{
+  "schema": "stage4_jev_control_triage_v1",
+  "scope": "One structured external classification of controls and next empirical question. Jev cannot execute code, certify numerical results or approve Stage3/4.",
+  "registered_before_call": true,
+  "budget": {"api_requests_max": 1, "automatic_retries": 0, "network_timeout_s": 30, "request_bytes_max": 20000},
+  "sensitive_data": "Only concise already-public scientific facts; key read without echo and never written.",
+  "admission_authority": false
+}
