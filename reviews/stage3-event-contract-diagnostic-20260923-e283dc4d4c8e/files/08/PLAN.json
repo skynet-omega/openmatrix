@@ -1,0 +1,31 @@
+{
+  "schema": "stage3_physical_event_contract_prospective_v1",
+  "recorded_utc": "2026-09-23T06:30:33Z",
+  "parent": "campanas/etapa3_event_set_20260923_07",
+  "limitation": "The first SET/ADD candidate survived the 79-ms real failure but its 20-ms two-engine comparison found 1564 versus 1563 exported events and 0.065248 maximum hidden-state difference. Somatic gamma CUDA publishers still export only positive ADD jumps and no physical post-event q; physical per-neuron integer counts were equal.",
+  "alternatives": {
+    "A": "Complete the typed SET/ADD event contract at every physical producer: somatic gamma CUDA and non-gamma LIF. Retain zero-jump physical events and post-event q. Prototype this round.",
+    "B": "Encode each producer's post-event q with an error-compensated or higher-precision ADD; requires proof that every consumer reconstructs the owner at event time and that zero-jump physical spikes remain represented.",
+    "C": "Move the q/s segment flow into each physical state owner and supply the CNS with timestamped owner states instead of jumps; broader architecture change with an independent memory/cost budget."
+  },
+  "new_operation": "A source-declared SET(post_q) for each physical spike, emitted inside the existing CUDA commit_event kernel with event time and auxiliary jump. The filter port already integrates ordered SET/ADD segments; no body, anatomy, weights, chemical law or domain tolerance changes.",
+  "legal_information": "Current and immediate post-event physical q in the state owner, event clock, pre-existing tau and q/s state. No odor label, target behavior, future state or external plan.",
+  "prediction": "The 20-ms causal/reference controls preserve physical event counts and now export the same number of events; all selected scientific arrays and traces differ at most 1e-4 with no nonfinite values. Sham 130 ms remains complete. If not, stop and localize first mismatch.",
+  "controls": "Existing campaign07 frozen 1/20/130-ms receipts; CPU/GPU physical-event fixture including q already at one and jump zero; zero-odor paired organism runs with identical checkpoint; immutable source fingerprints. Compare ALL saved physical state arrays at 20 ms, not only yaw.",
+  "budgets": {
+    "CPU_fixture_runs_max": 2,
+    "GPU_fixture_runs_max": 2,
+    "organism_smoke_1ms_max": 2,
+    "organism_reference_20ms_max": 2,
+    "organism_sham_130ms_max": 1,
+    "organism_full_400ms_max": 4,
+    "full_prototypes_max": 1,
+    "wall_single_400ms_s_max": 2050,
+    "wall_total_s_max": 9800,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 1,
+    "Jev_paid_calls_max": 0
+  },
+  "stop": "Stop at first CUDA, source-identity, 20-ms numerical or state-domain gate failure. Do not widen 1e-4 or adjust biology. Four 400-ms odor arms are conditional on the short paired gate; even then 20 ms does not certify numerical fidelity to 400 ms."
+}

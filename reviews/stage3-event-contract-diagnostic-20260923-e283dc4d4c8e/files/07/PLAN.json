@@ -1,0 +1,31 @@
+{
+  "schema": "stage3_event_set_representation_prospective_v1",
+  "recorded_utc": "2026-09-23T06:12:00Z",
+  "parent": "campanas/etapa3_evento_20260923_06",
+  "observed_limit": "At the real failed KC event, the LIF producer's before+jump is exactly 1.0 but the stored ADD history is 1+1.7733956629e-16 in high precision. Sham on/off both failed at the same time and row.",
+  "new_operation": "Record the producer's declared post-event q and an explicit SET operation for physically produced KC spikes, while retaining the original jump as evidence. Integrate q/s analytically between ordered events; s remains continuous across SET. Ordinary ADD remains available. Propagate the operation consistently through CPU Waveform and CUDA FilterPorts; preserve all brain weights, parameters, checkpoint and body.",
+  "legal_information": "Only pre-existing physical LIF or KC commit output at the event time, initial q/s and tau. No odor label, future state, answer or external policy.",
+  "alternatives": {
+    "A": "Explicit SET/ADD event representation from physical owner (one prototype this round)",
+    "B": "Compensated/high-precision ADD representation, falsified if source history already exceeds one in high precision unless it encodes post-state separately",
+    "C": "Local event-segment integration from owner state and post-values without an ADD history, requiring a broader runtime change"
+  },
+  "prediction": "The real sham passes 79 ms without changing the physical post-event q=1, event count or CNS/body equations; no silent state clamp. If any other domain failure appears, retain it and stop.",
+  "controls": "Original sham on/off failure receipts and exact 119-sample prefix; synthetic CPU/GPU event fixtures including SET at zero auxiliary jump and unchanged ADD; frozen scientific metadata and numeric limit 1e-4 for continuous state, exact discrete clocks/events.",
+  "budgets": {
+    "CPU_fixture_runs_max":2,
+    "GPU_fixture_runs_max":2,
+    "organism_smoke_1ms_max":2,
+    "organism_sham_130ms_max":1,
+    "organism_full_400ms_max":4,
+    "reference_20ms_max":2,
+    "full_prototypes_max":1,
+    "wall_single_full_s_max":2050,
+    "wall_total_s_max":9800,
+    "RAM_GiB_max":18,
+    "GPU_GiB_max":12,
+    "ChatGPT_new_messages_max":1,
+    "Jev_paid_calls_max":0
+  },
+  "stop": "Stop on first fixture, ownership, numeric or state-domain gate failure. No biology tuning or retroactive stage-3 PASS."
+}

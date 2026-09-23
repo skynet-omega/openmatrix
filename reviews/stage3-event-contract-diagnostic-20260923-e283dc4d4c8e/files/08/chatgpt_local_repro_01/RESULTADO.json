@@ -1,0 +1,50 @@
+{
+  "CUDA_ejecutado": false,
+  "organismo_ejecutado": false,
+  "criterio_referencia": 1e-12,
+  "fuente_sha256": "2549fb0ca90afa90020d1dcd533e59a32fc59f0eee12605919832730e33f3feb",
+  "positivos": {
+    "consultas_expm": 42,
+    "max_error_expm": 0.0,
+    "max_error_s_continua": 0.0,
+    "rechazo_sin_eventos_parciales": true
+  },
+  "evento_real": {
+    "ADD_fp64": 1.0000000000000002,
+    "ADD_fsum": 1.0000000000000002,
+    "ADD_exceso_100digitos": "1.77339566292691823446267902468178335860458119344188236056478184331129532175810617614E-16",
+    "SET_post_declarado": 1.0,
+    "error_expm_al_final": 0.0,
+    "alcance": "Replay de operandos publicados; no simulación de la célula real."
+  },
+  "prefix_original": {
+    "tiempo_s": 8e-05,
+    "SET_futuro_s": 0.0001,
+    "antes": [
+      0.7974676323973837,
+      0.20888706903475412
+    ],
+    "despues": [
+      0.7974676323973838,
+      0.20888706903475407
+    ],
+    "delta": [
+      1.1102230246251565e-16,
+      -5.551115123125783e-17
+    ],
+    "bits_iguales": false,
+    "hex_antes": [
+      "0x1.984dad7187d72p-1",
+      "0x1.abccfbd07e14ep-3"
+    ],
+    "hex_despues": [
+      "0x1.984dad7187d73p-1",
+      "0x1.abccfbd07e14cp-3"
+    ]
+  },
+  "estado": "FALLO_CONSERVADO",
+  "error": "RuntimeError: In 'NRT_adapt_ndarray_to_python', 'descr' is NULL\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_event_contract_20260923_08/chatgpt_revisar_set.py\", line 113, in main\n    if a.parent:r['comparacion_productor']=padre(m,cargar(a.parent.resolve(),'wf_parent_review',SHA_PARENT))\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_event_contract_20260923_08/chatgpt_revisar_set.py\", line 95, in padre\n    old=p.lif_record(*a,dt);new=m.lif_record(*b,dt)\nSystemError: CPUDispatcher(<function lif_record at 0x7f2e7d65dea0>) returned a result with an exception set\n",
+  "pared_s": 0.16968939697835594,
+  "cpu_s": 0.1665412,
+  "codigo_sha256": "dc208e146bbaad41c5a93ded0f4a3e4680fddda89500744afef1e27af0f60194"
+}

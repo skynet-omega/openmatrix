@@ -1,0 +1,242 @@
+{
+  "format_version": 2,
+  "label": "stage3-event-contract-diagnostic-20260923",
+  "description": "Reparación SET del evento real supera 130 ms sham; control de dos motores a 20 ms no cumple el criterio congelado. Auditoría posterior distingue 528/527 eventos predictores descartados de 1036/1036 aceptados, máximo desfase 3125 ns; etapa 3 abierta. Incluye código, trazas, eventos y revisión externa; no contiene checkpoint completo del organismo.",
+  "files": [
+    {
+      "path": "07/README.md",
+      "bytes": 3288,
+      "sha256": "f51812aefc94ab8c30fb829c66f93a6a935fdbe4fa6ab3a3baf5d2d252db164e"
+    },
+    {
+      "path": "07/PLAN.json",
+      "bytes": 2421,
+      "sha256": "fd1a94dee0c02bd2b85a2a0f82cdebd6b4cab8654a683d8c0122eae17158bc71"
+    },
+    {
+      "path": "07/CLOSE.json",
+      "bytes": 1095,
+      "sha256": "99ec12c73cc4594253423fe6dead577f66123bc7dfc368b4d6ccfd03a1c7b4ce"
+    },
+    {
+      "path": "07/GPU_MULTI_FIXTURE.json",
+      "bytes": 653,
+      "sha256": "7ebe806e2ef532fd3d43c75b789cfd4747a7c564a62c48aad3af3942d88aecef"
+    },
+    {
+      "path": "07/PREFIX_130_COMPARE.json",
+      "bytes": 1489,
+      "sha256": "5faa2fc0a8e1408fab44ead15c61f5213a71468e3fa9a731ac5e7ddec7879a85"
+    },
+    {
+      "path": "07/REFERENCE_PLAN.json",
+      "bytes": 1059,
+      "sha256": "810391ec30dac1c6cbd4c155b6619d233e0c01040edd4194371a8c7b519e47f3"
+    },
+    {
+      "path": "07/REFERENCE_20_COMPARE.json",
+      "bytes": 3890,
+      "sha256": "aef5ea8b4df9e85dc819ed9bd2d163b3e2e7ea5d48da2a2e9121e0621a7363ec"
+    },
+    {
+      "path": "07/sham_130_01/RESULT.json",
+      "bytes": 3295,
+      "sha256": "fb0e416fe2f38dea97b89004c211b90fee8d2f8f3c724e62f4881937ae9c6689"
+    },
+    {
+      "path": "07/sham_130_01/traces.npz",
+      "bytes": 2224235,
+      "sha256": "c229bdb82b234720f84132c4322533f9ad9a5350e6cd131fb40326c1aad1649f"
+    },
+    {
+      "path": "07/reference_causal_20_01/RESULT.json",
+      "bytes": 3291,
+      "sha256": "70842ea665c13bb9d7d1b953e408e9115e0c7dca78a4f0802b14bf38d2797633"
+    },
+    {
+      "path": "07/reference_native_20_01/RESULT.json",
+      "bytes": 2737,
+      "sha256": "fa2c4d9f718f41b6a24d761f913810ea3e911799dd1d7b03eafa0306b5de1f7c"
+    },
+    {
+      "path": "08/README.md",
+      "bytes": 2222,
+      "sha256": "6bcb222c31f96b9feefb6bb0799cfed0f22ab3a10a558b9800b6073af3bb0dc3"
+    },
+    {
+      "path": "08/PLAN.json",
+      "bytes": 2911,
+      "sha256": "5123b445cf49560e0f993bf6e2d4ee970c4b1482d1d8c446e2c90c6dc439b039"
+    },
+    {
+      "path": "08/CLOSE.json",
+      "bytes": 769,
+      "sha256": "e955ca80b814b2c22864439c398000d4e1d038727278d51ca289aa0a864654a6"
+    },
+    {
+      "path": "08/GPU_PHYSICAL_FIXTURE.json",
+      "bytes": 488,
+      "sha256": "284cf19da92e5408212827f9e151a935a5df0de88cb85be41682adb8a39643d2"
+    },
+    {
+      "path": "08/SMOKE_COMPARE.json",
+      "bytes": 1047,
+      "sha256": "e65c6b66feb8cc170bb2c39c60512618165a67e0a2d12217f2234f3e57342c41"
+    },
+    {
+      "path": "08/REFERENCE_20_COMPARE.json",
+      "bytes": 3890,
+      "sha256": "8dd9532324c1ab495336bef1baf99eafc9fb1ad82de3c2beea17b3e0e86486b8"
+    },
+    {
+      "path": "08/CHATGPT_REVIEW.md",
+      "bytes": 15579,
+      "sha256": "76e1e4631ce0ad1979075d8197ffb36511460e4d3075c240d53dd3c41619798a"
+    },
+    {
+      "path": "08/chatgpt_revisar_set.py",
+      "bytes": 7556,
+      "sha256": "dc208e146bbaad41c5a93ded0f4a3e4680fddda89500744afef1e27af0f60194"
+    },
+    {
+      "path": "08/chatgpt_local_repro_01/RESULTADO.json",
+      "bytes": 2087,
+      "sha256": "562a890e7472556024cb10f90c242930145b4e5aa9b29c38dad0638e7c8954cb"
+    },
+    {
+      "path": "08/chatgpt_local_repro_02/RESULTADO.json",
+      "bytes": 2120,
+      "sha256": "8a47907db319355359544bbf0dddcb389f0c2b7f135b0f98eb128d7f97ed7699"
+    },
+    {
+      "path": "08/physical_events.cu",
+      "bytes": 2537,
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "08/device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "08/device_cell.py",
+      "bytes": 7482,
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    {
+      "path": "08/native_cell.py",
+      "bytes": 9297,
+      "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+    },
+    {
+      "path": "08/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "09/README.md",
+      "bytes": 2701,
+      "sha256": "f3f77866837b0825e067dca20aff2c0794ed2d2f99cf5a478fcb5b14f96143d4"
+    },
+    {
+      "path": "09/PLAN.json",
+      "bytes": 2301,
+      "sha256": "9bf986fc372cbc4217ab3979ad891961c459df290b7c5f3f437f51de9fb9db4c"
+    },
+    {
+      "path": "09/CLOSE.json",
+      "bytes": 960,
+      "sha256": "395f758ebad10d611ac766fc3705212fd07a9338655f9d8c9a48d34968238f1c"
+    },
+    {
+      "path": "09/PREFIX_FIXTURE.json",
+      "bytes": 247,
+      "sha256": "e875a4955676910573a26f7bbf0be1a49fe515f98bd9a7f4938ff0b019308f63"
+    },
+    {
+      "path": "09/NEUTRALITY_CAUSAL.json",
+      "bytes": 186,
+      "sha256": "f14be4636cb1295c91b99746aed04555d6eefa6cc25769bdb528a781ca92ae92"
+    },
+    {
+      "path": "09/NEUTRALITY_REFERENCE.json",
+      "bytes": 189,
+      "sha256": "b6092f2330333deac50a9883cb16a544b6480d68e4cadc32cd64f7781ec5a322"
+    },
+    {
+      "path": "09/EVENT_COMPARE.json",
+      "bytes": 1989,
+      "sha256": "a96a4ee337576a70bdbc927ca9adcf9ddb45f3bd30940d0788d9accd0f206bca"
+    },
+    {
+      "path": "09/ACCEPTED_EVENT_COMPARE.json",
+      "bytes": 806,
+      "sha256": "40c9de2e85a8416641f8ffe3a721ae13511f314086060a72ede8330b26300605"
+    },
+    {
+      "path": "09/event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "09/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "09/event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "09/run_set.py",
+      "bytes": 10987,
+      "sha256": "21f39e3f9906d0c4956ad221b5cfabc3c5a1710af3991d09cd5aac7e49836ae8"
+    },
+    {
+      "path": "09/native_tap.py",
+      "bytes": 8784,
+      "sha256": "956d420429d94244d99d717ec8a33a87ada9333d27be81df51b6336798f23345"
+    },
+    {
+      "path": "09/compare_audits.py",
+      "bytes": 3883,
+      "sha256": "77c631e89d912ee4c8b560ba9b09bed07311dd657b0ab872640b06bf405c9251"
+    },
+    {
+      "path": "09/compare_accepted_events.py",
+      "bytes": 2962,
+      "sha256": "cf5ade6b982b28af6d91cd2c7a3fd72d5ebb7260463c3ad401593459f1f7dc64"
+    },
+    {
+      "path": "09/audit_causal_20_01/RESULT.json",
+      "bytes": 3293,
+      "sha256": "45960e61d28ebafe82247b607e749c9cc42ebb98d3ffa7404ae668c2589dcad5"
+    },
+    {
+      "path": "09/audit_native_20_01/RESULT.json",
+      "bytes": 2742,
+      "sha256": "e5550c428d7b07071c234fa2d856bd61aca786377c863ca01999627788095eb9"
+    },
+    {
+      "path": "09/audit_causal_20_01/EVENT_AUDIT.json",
+      "bytes": 405580,
+      "sha256": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547"
+    },
+    {
+      "path": "09/audit_native_20_01/EVENT_AUDIT.json",
+      "bytes": 405430,
+      "sha256": "ced9e3d45d8428a4b445661759760e1fb8e0e80a140469ad4f44ff4e877a726c"
+    },
+    {
+      "path": "09/audit_causal_20_01/traces.npz",
+      "bytes": 265391,
+      "sha256": "dd9c03737c966210a80d4eaba88bb0469f4e2b918d509f5de875f7e9651cdf87"
+    },
+    {
+      "path": "09/audit_native_20_01/traces.npz",
+      "bytes": 265355,
+      "sha256": "c1de067cb1f9551742b61e68f2ec5433c2b12dd0020a6aac017bbb5031bc6dce"
+    }
+  ]
+}

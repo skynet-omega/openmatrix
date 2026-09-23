@@ -1,0 +1,25 @@
+{
+  "schema": "stage3_first_divergent_event_prospective_v1",
+  "recorded_utc": "2026-09-23T06:41:07Z",
+  "parent": "campanas/etapa3_event_contract_20260923_08",
+  "limit": "At 20-ms sham, both engines finish and all saved physical per-cell integer counters agree, yet 1564 versus 1563 events reach the CNS. Completing gamma somatic physical SET did not change that difference. The maximum hidden physical-state difference is 0.065248; the main CNS state differs 4.29e-5.",
+  "alternatives": {
+    "A": "A physical event is generated but one producer/port omits it in one engine; locate the first missing row and block from explicit event logs.",
+    "B": "Both event streams have equal cardinality locally but accounting/replay aggregates differently; compare per-block lengths, source row and timestamps against the total report.",
+    "C": "Numerical cell integration shifts a physical event across a block boundary or modifies hidden slope while preserving final per-cell counts; compare chronological times and internal state on the first divergent row."
+  },
+  "operation": "Observe completed waveform events per 125-us block after physical commit, recording row, time, jump and declared post from the same owner. This is a sideband; no biology, kernel arithmetic, event capacity, threshold or body changes. Separately repair the CPU reference query so a future SET cannot alter an earlier query, as reproduced by ChatGPT and locally.",
+  "prediction": "The first per-block event disagreement localizes a row and time, allowing A/B/C to be distinguished without interpreting long odor behavior.",
+  "controls": "Paired 20-ms sham from the same zero-preparation checkpoint; on/off source fingerprints; compare prior campaign08 traces/states at 20 ms to ensure observer neutrality; `Waveform.at` prefixed SET fixture. No 400-ms biological claims from these runs.",
+  "budgets": {
+    "CPU_fixture_runs_max": 1,
+    "GPU_fixture_runs_max": 0,
+    "organism_20ms_max": 2,
+    "wall_total_s_max": 1000,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 0,
+    "Jev_paid_calls_max": 0
+  },
+  "stop": "Stop after locating the first discrepancy and checking observational neutrality, or on any new domain/source/budget failure. No parameter tuning or tolerance relaxation."
+}

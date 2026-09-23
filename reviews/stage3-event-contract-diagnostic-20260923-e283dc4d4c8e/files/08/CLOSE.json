@@ -1,0 +1,19 @@
+{
+  "schema": "stage3_all_physical_event_contract_close_v1",
+  "classification": "DESCARTADO_COMO_REPARACION_DE_LA_DISCREPANCIA_20MS",
+  "stage3_status": "ABIERTA",
+  "used_budget": {
+    "CPU_fixture_runs": 2,
+    "GPU_fixture_runs": 1,
+    "organism_smoke_1ms": 1,
+    "organism_reference_20ms": 2,
+    "organism_sham_130ms": 0,
+    "organism_full_400ms": 0,
+    "wall_s": 263.2983983280137
+  },
+  "smoke_pass": true,
+  "reference_20_pass": false,
+  "causal_exported_events": 1564,
+  "reference_exported_events": 1563,
+  "note": "The typed physical post and zero-jump export passed a direct CUDA fixture, but did not change this 20-ms mismatch. The SET contract remains a candidate correctness improvement; it does not solve the comparison or demonstrate stage 3."
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "physical_post_cuda_fixture_v1",
+  "zero_jump": {
+    "q": 1.0,
+    "physical_spikes": 1,
+    "exported_events": 1,
+    "jump": 0.0,
+    "post": 1.0,
+    "flag": 0
+  },
+  "ordinary_jump": {
+    "q": 1.0,
+    "physical_spikes": 1,
+    "exported_events": 1,
+    "jump": 0.0026007787661767034,
+    "post": 1.0,
+    "flag": 0
+  },
+  "scope": "Direct commit_event kernel fixture, not a whole organism or evidence that this exact zero-duration half occurred in the 20-ms runs."
+}

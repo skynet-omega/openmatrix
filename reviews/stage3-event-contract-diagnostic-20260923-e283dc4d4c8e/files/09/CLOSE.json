@@ -1,0 +1,21 @@
+{
+  "schema": "stage3_accepted_event_audit_close_v1",
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "stage3_status": "ABIERTA",
+  "used_budget": {
+    "CPU_fixture_runs": 1,
+    "GPU_fixture_runs": 0,
+    "organism_20ms": 2,
+    "wall_s": 226.4475083849975
+  },
+  "observational_neutrality": true,
+  "reported_events": {
+    "causal": 1564,
+    "reference": 1563
+  },
+  "committed_events": 1036,
+  "per_neuron_count_difference": false,
+  "maximum_committed_event_time_abs_ns": 3125,
+  "interpretation": "The 1564/1563 report totals include discarded midpoint predictors (528/527). The accepted full blocks each contain 1036 events; their times can differ by 3125 ns. Physical hidden-state fidelity beyond 20 ms remains unestablished.",
+  "stop_reason": "The first discrepant row/block and accounting source were located within the frozen budget; the next decision needs a longer numerical/behavioral diagnostic, not a tolerance change."
+}

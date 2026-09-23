@@ -1,0 +1,12 @@
+{
+  "schema": "stage3_set_reference_20ms_prospective_v1",
+  "parent_budget": "PLAN.json reference_20ms_max=2, wall_total_s_max=9800",
+  "purpose": "Compare causal_cuda and reference_cuda on the same zero-preparation sham organism and explicit SET/ADD event owner before interpreting long behavior.",
+  "runs": [
+    {"engine":"causal_cuda","odor":"sham","preparation_ms":0,"trial_ms":20,"observer":"off","max_wall_s":600},
+    {"engine":"reference_cuda","odor":"sham","preparation_ms":0,"trial_ms":20,"observer":"off","max_wall_s":600}
+  ],
+  "immutable_model": "Same checkpoint, body, W, event representation and biological parameters in both arms; only the cell engine differs.",
+  "comparison": "Scientific state components, body and pending sensors; exact clocks/event counts and all finite. Continuous absolute limit 1e-4; report field maxima even on failure.",
+  "limitation": "Twenty milliseconds do not certify a 400-ms odor response. A failed reference run or tolerance failure blocks biological admission and is not fixed by loosening tolerance."
+}

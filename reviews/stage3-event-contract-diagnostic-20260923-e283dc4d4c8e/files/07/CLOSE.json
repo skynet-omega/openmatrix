@@ -1,0 +1,24 @@
+{
+  "schema": "stage3_event_set_campaign_close_v1",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "stage3_status": "ABIERTA",
+  "used_budget": {
+    "cpu_fixture_runs": 1,
+    "gpu_fixture_runs": 2,
+    "organism_smoke_1ms": 1,
+    "organism_sham_130ms": 1,
+    "organism_full_400ms": 0,
+    "reference_20ms": 2,
+    "wall_s": 926.1055215949891,
+    "chatgpt_messages": 1,
+    "jev_paid_calls": 0
+  },
+  "smoke_pass": true,
+  "old_failure_prefix_pass": true,
+  "sham_130_complete": true,
+  "reference_20_pass": false,
+  "reference_20_event_counts_equal": false,
+  "full_four_arms_started": false,
+  "reason": "Explicit physical SET fixed the observed 79-ms domain failure and preserved its old prefix, but the independent 20-ms engine gate failed on event counts and physical hidden state. The frozen stop rule barred four 400-ms arms.",
+  "next_discriminator": "Audit all physical event producers, including gamma somatic CUDA publishers, for emitted physical post values and zero-jump events; then compare the first mismatching event between engines without relaxing numeric tolerance."
+}

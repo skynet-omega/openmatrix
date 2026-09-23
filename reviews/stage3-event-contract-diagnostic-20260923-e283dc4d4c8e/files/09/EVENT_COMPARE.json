@@ -1,0 +1,83 @@
+{
+  "schema": "stage3_first_event_discrepancy_v1",
+  "causal_events": 1564,
+  "reference_events": 1563,
+  "differing_blocks": 3,
+  "first_count_difference": {
+    "block": 7,
+    "start_elapsed_ns": 1482375000,
+    "duration_ns": 125000,
+    "differences": [
+      {
+        "producer": "gamma_cuda",
+        "row": 61131,
+        "neuron_id": 81004,
+        "causal_events": 0,
+        "reference_events": 1
+      }
+    ]
+  },
+  "all_count_differences": [
+    {
+      "block": 7,
+      "start_elapsed_ns": 1482375000,
+      "duration_ns": 125000,
+      "differences": [
+        {
+          "producer": "gamma_cuda",
+          "row": 61131,
+          "neuron_id": 81004,
+          "causal_events": 0,
+          "reference_events": 1
+        }
+      ]
+    },
+    {
+      "block": 8,
+      "start_elapsed_ns": 1482500000,
+      "duration_ns": 62500,
+      "differences": [
+        {
+          "producer": "gamma_cuda",
+          "row": 61131,
+          "neuron_id": 81004,
+          "causal_events": 1,
+          "reference_events": 0
+        }
+      ]
+    },
+    {
+      "block": 9,
+      "start_elapsed_ns": 1482500000,
+      "duration_ns": 125000,
+      "differences": [
+        {
+          "producer": "gamma_cuda",
+          "row": 61131,
+          "neuron_id": 81004,
+          "causal_events": 1,
+          "reference_events": 0
+        }
+      ]
+    }
+  ],
+  "per_neuron_total_differences": [
+    {
+      "producer": "gamma_cuda",
+      "row": 61131,
+      "neuron_id": 81004,
+      "causal_events": 2,
+      "reference_events": 1
+    }
+  ],
+  "first_time_difference_when_counts_equal": {
+    "block": 1,
+    "producer": "gamma_cuda",
+    "row": 57513,
+    "causal_time_s": 0.0001,
+    "reference_time_s": 9.8437e-05,
+    "abs_s": 1.5629999999999984e-06
+  },
+  "maximum_matched_event_time_abs_s": 3.1250000000000014e-06,
+  "scope": "Exact event identities/counts at block and row level; temporal pairing only when local counts match. No causal attribution from this report alone."
+}
