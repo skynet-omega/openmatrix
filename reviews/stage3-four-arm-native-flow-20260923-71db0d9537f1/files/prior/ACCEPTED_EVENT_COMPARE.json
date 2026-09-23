@@ -1,0 +1,22 @@
+{
+  "schema": "stage3_committed_event_comparison_v1",
+  "accepted_block_ns": 125000,
+  "predictor_events_causal": 528,
+  "predictor_events_reference": 527,
+  "committed_events_causal": 1036,
+  "committed_events_reference": 1036,
+  "per_neuron_count_differences": [],
+  "paired_events": 1036,
+  "maximum_event_time_abs_ns": 3125,
+  "event_time_p99_abs_ns": 1563.0,
+  "maximum_physical_post_q_abs": 2.4103540724462746e-06,
+  "worst_timing_event": {
+    "producer": "gamma_cuda",
+    "row": 25552,
+    "neuron_id": 38549,
+    "causal_time_ns": 1492250000,
+    "reference_time_ns": 1492246875,
+    "abs_ns": 3125
+  },
+  "scope": "Midpoint code confirms half-block predictor is restored; this filters by the frozen 125000-ns full-block clock. Event timing error is measured, not accepted by a new threshold."
+}

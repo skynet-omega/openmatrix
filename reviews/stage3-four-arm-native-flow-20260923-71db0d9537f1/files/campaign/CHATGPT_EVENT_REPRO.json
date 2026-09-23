@@ -1,0 +1,31 @@
+{
+  "A": {
+    "sha256": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547",
+    "eventos_predictores": 528,
+    "eventos_aceptados": 1036,
+    "redondeo_max_ns": 0.499686700318307
+  },
+  "B": {
+    "sha256": "ced9e3d45d8428a4b445661759760e1fb8e0e80a140469ad4f44ff4e877a726c",
+    "eventos_predictores": 527,
+    "eventos_aceptados": 1036,
+    "redondeo_max_ns": 0.49956029807799496
+  },
+  "diferencias_recuento": [],
+  "eventos_emparejados": 1036,
+  "max_desfase_ns": 3125,
+  "max_diferencia_post": 2.4103540724462746e-06,
+  "peor": {
+    "productor_fila_id": [
+      "gamma_cuda",
+      25552,
+      38549
+    ],
+    "orden": 0,
+    "t_A_ns": 1492250000,
+    "t_B_ns": 1492246875,
+    "desfase_ns": 3125
+  },
+  "alcance": "Desfase numérico de eventos; no latencia de circuito.",
+  "admisión_etapa3": false
+}

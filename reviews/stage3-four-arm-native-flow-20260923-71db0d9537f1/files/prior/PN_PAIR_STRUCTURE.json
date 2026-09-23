@@ -1,0 +1,32 @@
+{
+  "schema": "dm1_pn_pair_anatomical_counts_v1",
+  "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/node_connectivity.parquet",
+  "source_sha256": "a2b4e6411bbad96da9de5c0988470b63e8462cad45b9f7a4b2ee4dbfd0ffc0ec",
+  "rows": {
+    "10176": {
+      "node_index": 159,
+      "bodyId": 10176,
+      "internal_input_synapses": 12574,
+      "internal_output_synapses": 22325,
+      "input_from_annotated_without_superclass": 261,
+      "input_from_unannotated_ids": 1334,
+      "output_to_annotated_without_superclass": 342,
+      "output_to_unannotated_ids": 28262,
+      "unique_internal_presynaptic_partners": 478,
+      "unique_internal_postsynaptic_partners": 1103
+    },
+    "10208": {
+      "node_index": 189,
+      "bodyId": 10208,
+      "internal_input_synapses": 13177,
+      "internal_output_synapses": 25014,
+      "input_from_annotated_without_superclass": 161,
+      "input_from_unannotated_ids": 938,
+      "output_to_annotated_without_superclass": 62,
+      "output_to_unannotated_ids": 31569,
+      "unique_internal_presynaptic_partners": 493,
+      "unique_internal_postsynaptic_partners": 1095
+    }
+  },
+  "scope": "Partner and synapse counts in saved connectome metadata, not effective functional input/output or evidence that adapters should be identical."
+}

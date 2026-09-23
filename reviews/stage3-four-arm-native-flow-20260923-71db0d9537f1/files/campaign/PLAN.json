@@ -1,0 +1,30 @@
+{
+  "schema": "stage3_four_arm_long_diagnostic_prospective_v1",
+  "recorded_utc": "2026-09-23T06:54:02Z",
+  "parent": "campanas/etapa3_event_trace_20260923_09",
+  "purpose": "Measure four-odor protected-organism behavior and direct signed PN/DNa02 consumer input over the 250-400-ms odor window, after resolving the 79-ms event-domain failure. This is a diagnostic, not historical stage-3 admission.",
+  "biological_rivals": {
+    "A": "Peripheral ORN/ALLN/PN transformation destroys or reverses lateral contrast before PN output.",
+    "B": "Contrast survives PN but later circuit convergence/cancellation reverses the descending input.",
+    "C": "Descending contrast is usable but baseline command, state history or body readout dominates the absolute yaw."
+  },
+  "conditions": ["sham", "odor_left", "odor_right", "uniform"],
+  "common_preparation_ms": 40,
+  "odor_trial_ms": 400,
+  "readback_ms_from_odor_on": [250,275,300,320,350,400],
+  "same_start": "Every condition loads the same frozen checkpoint and runs the same zero-odor 40-ms preparation; no reuse of another arm's final state.",
+  "measures": "Absolute yaw change from odor onset, right-minus-sham and left-minus-sham yaw, bilateral antennal and ORN/PN/DNa02 rates, direct native FP64 signed net before tanh at PN10176/10208 and DNa02 10360/523769, body pose and domain/numeric receipts.",
+  "controls": "One-ms sham on/off observer equivalence with local sources before long arms; 130-ms sham and 20-ms event/numeric results from earlier campaigns are context, not a certificate to 400 ms. All flow target reconstructions must remain <=1e-9 and finite. Report absolute signs and sham/uniform, not only odor contrasts.",
+  "known_confounds": "PN10208 left has fine output adapter and PN10176 right uses legacy; no homologation or anatomical surgery in this campaign. DN baseline is not reset at odor onset. Female optogenetic live data cannot be used as a quantitative latency or magnitude reference for this male chemical model. The two motor integrators differed in hidden KC state at 20 ms; no long-horizon fidelity certification exists.",
+  "budgets": {
+    "organism_smoke_1ms_max": 2,
+    "organism_400ms_max": 4,
+    "wall_single_400ms_s_max": 2050,
+    "wall_total_s_max": 8500,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 1,
+    "Jev_paid_calls_max": 0
+  },
+  "stop": "Stop on first observer, domain, source-identity or 2050-s per-run gate failure; preserve completed prefixes. No biological tuning, numeric tolerance change or claim of stage-3 PASS. Do not run remaining odor arms if sham fails."
+}

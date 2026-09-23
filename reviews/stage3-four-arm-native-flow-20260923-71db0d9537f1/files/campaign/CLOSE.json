@@ -1,0 +1,54 @@
+{
+  "schema": "stage3_four_arm_long_close_v1",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "stage3_admission": false,
+  "reason": "Right absolute yaw is not negative at 400 ms; sham drifts; long-horizon two-engine fidelity and model PN symmetry are unverified.",
+  "right_absolute_yaw_negative_400ms": false,
+  "frozen_source_file_count": 18,
+  "all_source_manifests_exact": true,
+  "all_preodor_states_exact": true,
+  "observer_one_ms_exact": true,
+  "runs": {
+    "sham": {
+      "yaw_320_deg": 0.09513569705572422,
+      "yaw_400_deg": 0.07560656367002139,
+      "command_integral_400_deg": 0.07861434612711789,
+      "DNa02_nonzero_target_samples": 0,
+      "native_target_max_error": 1.1102230246251565e-16,
+      "wall_s": 1564.8194072750048
+    },
+    "odor_left": {
+      "yaw_320_deg": 0.13734716696043847,
+      "yaw_400_deg": 0.15582336662430407,
+      "command_integral_400_deg": 0.1597124288425969,
+      "DNa02_nonzero_target_samples": 0,
+      "native_target_max_error": 2.220446049250313e-16,
+      "wall_s": 1561.0402504859958
+    },
+    "odor_right": {
+      "yaw_320_deg": 0.02556450017567613,
+      "yaw_400_deg": 0.00021824008044291077,
+      "command_integral_400_deg": 0.0029663678094524336,
+      "DNa02_nonzero_target_samples": 0,
+      "native_target_max_error": 2.220446049250313e-16,
+      "wall_s": 1548.9727101639728
+    },
+    "uniform": {
+      "yaw_320_deg": 0.08555008011930454,
+      "yaw_400_deg": 0.09332284384200307,
+      "command_integral_400_deg": 0.09689508497443516,
+      "DNa02_nonzero_target_samples": 0,
+      "native_target_max_error": 1.1102230246251565e-16,
+      "wall_s": 1541.322918026999
+    }
+  },
+  "yaw_minus_sham_400_deg": {
+    "odor_left": 0.08021680295428268,
+    "odor_right": -0.07538832358957848,
+    "uniform": 0.01771628017198168
+  },
+  "wall_four_runs_s": 6216.1552859519725,
+  "wall_budget_s": 8500,
+  "numerical_scope": "Native target reconstruction and one-ms observer neutrality only; 20-ms hidden-KC reference gate remains failed.",
+  "biological_scope": "One male connectome and one body state; provisional PN adapters and DNb05 decoder; no equivalence claim."
+}

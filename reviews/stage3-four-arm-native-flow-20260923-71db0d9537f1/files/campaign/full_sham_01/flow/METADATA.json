@@ -1,0 +1,41 @@
+{
+  "schema": "native_fp64_raw_rate_input_v1",
+  "scope": "Last accepted fine-stage coefficient sampled after step; signed net in rate-model units, not membrane current pA.",
+  "rows": {
+    "10176": {
+      "row": 159,
+      "type": "DM1_lPN",
+      "side": "R",
+      "instance": "DM1_lPN_R",
+      "operator": "orn_pn_synaptic"
+    },
+    "10208": {
+      "row": 189,
+      "type": "DM1_lPN",
+      "side": "L",
+      "instance": "DM1_lPN_L",
+      "operator": "orn_pn_synaptic"
+    },
+    "10360": {
+      "row": 332,
+      "type": "DNa02",
+      "side": "R",
+      "instance": "DNa02_R",
+      "operator": "ordinary_rate"
+    },
+    "523769": {
+      "row": 131957,
+      "type": "DNa02",
+      "side": "L",
+      "instance": "DNa02_L",
+      "operator": "ordinary_rate"
+    }
+  },
+  "kernel_sha256": {
+    "general_original": "3db5f273c69b4175e86b24bdbbcceae92748e46b2dbe3a238692ac95492a17a1",
+    "general_tap": "ccad9e4de996c8453b9e70674de3b6abe4dc850ff7e794d195da841acdda2a7e",
+    "pn_original": "945ebc923b7a85f2d50b6db6af199d560bbaf38dc4c0f024f77f2ee7d0621393",
+    "pn_tap": "e25261fdb6ca0eb9ad59a865ea9c32252898b2005d08262861aa286cc5499788"
+  },
+  "source_note": "Both kernels have one additional FP64 store before tanh. No read of the sideband in biological equations."
+}
