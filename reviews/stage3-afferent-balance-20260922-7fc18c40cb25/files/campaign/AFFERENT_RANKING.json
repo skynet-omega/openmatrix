@@ -1,0 +1,1085 @@
+{
+  "schema": "native_DNa02_afferent_rank_v1",
+  "scope": "Descriptive weighted-input accounting at committed 1-ms endpoints; ranking is not causal attribution.",
+  "window_ms": [
+    161,
+    311
+  ],
+  "afferents": 2208,
+  "reconstruction_max_abs": {
+    "odor_left": 1.3642420526593924e-11,
+    "odor_right": 1.864464138634503e-11,
+    "uniform": 1.5916157281026244e-11,
+    "sham": 1.3415046851150692e-11
+  },
+  "arms_vs_sham": {
+    "odor_left": {
+      "DNa02_native_net_L_minus_R": -20.748542316165754,
+      "top_groups_by_abs_contribution": [
+        {
+          "group": "SAD085|R",
+          "contribution_L_minus_R": -32.88626571715166
+        },
+        {
+          "group": "LAL126|R",
+          "contribution_L_minus_R": 32.81227144980862
+        },
+        {
+          "group": "CB0677|R",
+          "contribution_L_minus_R": -15.829686619170314
+        },
+        {
+          "group": "PS013|L",
+          "contribution_L_minus_R": -15.701841898164705
+        },
+        {
+          "group": "SIP022|L",
+          "contribution_L_minus_R": 15.506159132456965
+        },
+        {
+          "group": "SAD085|L",
+          "contribution_L_minus_R": -15.231940073101406
+        },
+        {
+          "group": "PS018_a|L",
+          "contribution_L_minus_R": 14.146896810952514
+        },
+        {
+          "group": "IB068|R",
+          "contribution_L_minus_R": 13.692595680099092
+        },
+        {
+          "group": "PVLP141|L",
+          "contribution_L_minus_R": -13.482165308669753
+        },
+        {
+          "group": "LAL094|L",
+          "contribution_L_minus_R": -13.162302832711843
+        },
+        {
+          "group": "LAL051|L",
+          "contribution_L_minus_R": -11.562533749489798
+        },
+        {
+          "group": "AOTU001|L",
+          "contribution_L_minus_R": -11.293875341907379
+        },
+        {
+          "group": "PLP012|R",
+          "contribution_L_minus_R": -9.599234952427729
+        },
+        {
+          "group": "AOTU018|L",
+          "contribution_L_minus_R": -9.302529639335466
+        },
+        {
+          "group": "PS209|R",
+          "contribution_L_minus_R": -8.9813307291231
+        },
+        {
+          "group": "GNG562|L",
+          "contribution_L_minus_R": -8.936461388851274
+        },
+        {
+          "group": "PFL3|R",
+          "contribution_L_minus_R": 8.854914866610782
+        },
+        {
+          "group": "AOTU027|L",
+          "contribution_L_minus_R": 8.431389633267997
+        },
+        {
+          "group": "AOTU015|R",
+          "contribution_L_minus_R": 8.34152296694427
+        },
+        {
+          "group": "LAL300m|R",
+          "contribution_L_minus_R": 7.62091813411874
+        }
+      ],
+      "top_cells_by_abs_contribution": [
+        {
+          "id": 47107,
+          "type": "SAD085",
+          "side": "R",
+          "contribution_L_minus_R": -32.88626571715166,
+          "weight_L": 6.62999963760376,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -4.9602213446029
+        },
+        {
+          "id": 521525,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 16.571411754537106,
+          "weight_L": -5.579999923706055,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -2.9697870933895842
+        },
+        {
+          "id": 524483,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 16.240859695271517,
+          "weight_L": -3.9599997997283936,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -4.101227403189625
+        },
+        {
+          "id": 10215,
+          "type": "CB0677",
+          "side": "R",
+          "contribution_L_minus_R": -15.829686619170314,
+          "weight_L": -1.5299999713897705,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 10.346200598155221
+        },
+        {
+          "id": 11306,
+          "type": "PS013",
+          "side": "L",
+          "contribution_L_minus_R": -15.701841898164705,
+          "weight_L": 8.279999732971191,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -1.8963577783269159
+        },
+        {
+          "id": 173968,
+          "type": "SIP022",
+          "side": "L",
+          "contribution_L_minus_R": 15.506159132456965,
+          "weight_L": 0.8399999737739563,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 18.459713829264555
+        },
+        {
+          "id": 14766,
+          "type": "SAD085",
+          "side": "L",
+          "contribution_L_minus_R": -15.231940073101406,
+          "weight_L": 0.0,
+          "weight_R": 6.239999771118164,
+          "mean_transmission_Hz_change": 2.4410161268919324
+        },
+        {
+          "id": 51658,
+          "type": "PS018_a",
+          "side": "L",
+          "contribution_L_minus_R": 14.146896810952514,
+          "weight_L": 3.5399999618530273,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 3.996298577231414
+        },
+        {
+          "id": 20804,
+          "type": "IB068",
+          "side": "R",
+          "contribution_L_minus_R": 13.692595680099092,
+          "weight_L": 3.809999942779541,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 3.593857187858596
+        },
+        {
+          "id": 10373,
+          "type": "PVLP141",
+          "side": "L",
+          "contribution_L_minus_R": -13.482165308669753,
+          "weight_L": 0.0,
+          "weight_R": 2.429999828338623,
+          "mean_transmission_Hz_change": 5.548216568347428
+        },
+        {
+          "id": 14192,
+          "type": "LAL051",
+          "side": "L",
+          "contribution_L_minus_R": -11.562533749489798,
+          "weight_L": -3.75,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 3.0833423331972796
+        },
+        {
+          "id": 162777,
+          "type": "LAL094",
+          "side": "L",
+          "contribution_L_minus_R": -10.27280379086476,
+          "weight_L": 0.0,
+          "weight_R": -1.0499999523162842,
+          "mean_transmission_Hz_change": -9.783623102270727
+        },
+        {
+          "id": 13009,
+          "type": "PLP012",
+          "side": "R",
+          "contribution_L_minus_R": -9.599234952427729,
+          "weight_L": 0.0,
+          "weight_R": 2.2200000286102295,
+          "mean_transmission_Hz_change": 4.323979652575531
+        },
+        {
+          "id": 121558,
+          "type": "AOTU018",
+          "side": "L",
+          "contribution_L_minus_R": -9.017081527180315,
+          "weight_L": 0.9300000071525574,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -9.695786513796392
+        },
+        {
+          "id": 520117,
+          "type": "GNG562",
+          "side": "L",
+          "contribution_L_minus_R": -8.936461388851274,
+          "weight_L": -5.039999961853027,
+          "weight_R": -0.5999999642372131,
+          "mean_transmission_Hz_change": 2.0127165301013434
+        },
+        {
+          "id": 12391,
+          "type": "AOTU027",
+          "side": "L",
+          "contribution_L_minus_R": 8.431389633267997,
+          "weight_L": 1.8899999856948853,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 4.4610527497798245
+        },
+        {
+          "id": 18335,
+          "type": "AOTU015",
+          "side": "R",
+          "contribution_L_minus_R": 8.341522955601922,
+          "weight_L": 0.0,
+          "weight_R": 1.649999976158142,
+          "mean_transmission_Hz_change": -5.055468530990112
+        },
+        {
+          "id": 103686,
+          "type": "AOTU001",
+          "side": "L",
+          "contribution_L_minus_R": -8.176478723954055,
+          "weight_L": 0.0,
+          "weight_R": 2.5199999809265137,
+          "mean_transmission_Hz_change": 3.2446344388256136
+        },
+        {
+          "id": 18745,
+          "type": "LAL300m",
+          "side": "R",
+          "contribution_L_minus_R": 7.62091813411874,
+          "weight_L": 0.0,
+          "weight_R": 4.349999904632568,
+          "mean_transmission_Hz_change": -1.7519352416543228
+        },
+        {
+          "id": 138719,
+          "type": "PS209",
+          "side": "R",
+          "contribution_L_minus_R": -7.459150878640105,
+          "weight_L": 1.5299999713897705,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -4.875262103348021
+        }
+      ]
+    },
+    "odor_right": {
+      "DNa02_native_net_L_minus_R": 197.21593847004863,
+      "top_groups_by_abs_contribution": [
+        {
+          "group": "CB0431|L",
+          "contribution_L_minus_R": 65.58442497717046
+        },
+        {
+          "group": "IB068|R",
+          "contribution_L_minus_R": 32.45542803283642
+        },
+        {
+          "group": "PS018_a|L",
+          "contribution_L_minus_R": 30.220236477214694
+        },
+        {
+          "group": "LAL126|R",
+          "contribution_L_minus_R": 28.514809884184686
+        },
+        {
+          "group": "PLP228|L",
+          "contribution_L_minus_R": 22.811404633268605
+        },
+        {
+          "group": "GNG562|L",
+          "contribution_L_minus_R": -22.384566637664605
+        },
+        {
+          "group": "AOTU001|L",
+          "contribution_L_minus_R": -15.848062613041211
+        },
+        {
+          "group": "SIP022|L",
+          "contribution_L_minus_R": 14.504750973154984
+        },
+        {
+          "group": "LAL094|L",
+          "contribution_L_minus_R": -14.07117687771907
+        },
+        {
+          "group": "PLP228|R",
+          "contribution_L_minus_R": 12.696923508479987
+        },
+        {
+          "group": "AOTU001|R",
+          "contribution_L_minus_R": -12.649960616560524
+        },
+        {
+          "group": "PVLP141|L",
+          "contribution_L_minus_R": -8.638187236863548
+        },
+        {
+          "group": "AOTU018|L",
+          "contribution_L_minus_R": -8.460376537563798
+        },
+        {
+          "group": "CB0677|R",
+          "contribution_L_minus_R": -8.370407258881745
+        },
+        {
+          "group": "PFL3|R",
+          "contribution_L_minus_R": 8.358027114695815
+        },
+        {
+          "group": "AOTU027|L",
+          "contribution_L_minus_R": 8.24080810533097
+        },
+        {
+          "group": "PLP009|L",
+          "contribution_L_minus_R": 8.00564108293441
+        },
+        {
+          "group": "LAL051|L",
+          "contribution_L_minus_R": -7.943895215802659
+        },
+        {
+          "group": "PS029|L",
+          "contribution_L_minus_R": 7.726714091953927
+        },
+        {
+          "group": "PS049|R",
+          "contribution_L_minus_R": 7.651112686794857
+        }
+      ],
+      "top_cells_by_abs_contribution": [
+        {
+          "id": 57832,
+          "type": "CB0431",
+          "side": "L",
+          "contribution_L_minus_R": 65.58442497717046,
+          "weight_L": 7.019999980926514,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 9.342510705892408
+        },
+        {
+          "id": 20804,
+          "type": "IB068",
+          "side": "R",
+          "contribution_L_minus_R": 32.45542803283642,
+          "weight_L": 3.809999942779541,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 8.518485175923374
+        },
+        {
+          "id": 51658,
+          "type": "PS018_a",
+          "side": "L",
+          "contribution_L_minus_R": 30.220236477214694,
+          "weight_L": 3.5399999618530273,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 8.536790057307172
+        },
+        {
+          "id": 513388,
+          "type": "PLP228",
+          "side": "L",
+          "contribution_L_minus_R": 22.811404633268605,
+          "weight_L": 0.0,
+          "weight_R": 3.4800000190734863,
+          "mean_transmission_Hz_change": -6.555001295471804
+        },
+        {
+          "id": 520117,
+          "type": "GNG562",
+          "side": "L",
+          "contribution_L_minus_R": -22.384566637664605,
+          "weight_L": -5.039999961853027,
+          "weight_R": -0.5999999642372131,
+          "mean_transmission_Hz_change": 5.041569065244289
+        },
+        {
+          "id": 524483,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 15.06088521474549,
+          "weight_L": -3.9599997997283936,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -3.8032540344518395
+        },
+        {
+          "id": 173968,
+          "type": "SIP022",
+          "side": "L",
+          "contribution_L_minus_R": 14.504750973154984,
+          "weight_L": 0.8399999737739563,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 17.26756122144619
+        },
+        {
+          "id": 521525,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 13.453924669439198,
+          "weight_L": -5.579999923706055,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -2.4110976439769445
+        },
+        {
+          "id": 530153,
+          "type": "PLP228",
+          "side": "R",
+          "contribution_L_minus_R": 12.696923508479987,
+          "weight_L": 3.509999990463257,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 3.617357134751508
+        },
+        {
+          "id": 103686,
+          "type": "AOTU001",
+          "side": "L",
+          "contribution_L_minus_R": -11.377978124899006,
+          "weight_L": 0.0,
+          "weight_R": 2.5199999809265137,
+          "mean_transmission_Hz_change": 4.515070718657597
+        },
+        {
+          "id": 162777,
+          "type": "LAL094",
+          "side": "L",
+          "contribution_L_minus_R": -10.506133342405086,
+          "weight_L": 0.0,
+          "weight_R": -1.0499999523162842,
+          "mean_transmission_Hz_change": -10.005841732876952
+        },
+        {
+          "id": 71967,
+          "type": "AOTU001",
+          "side": "R",
+          "contribution_L_minus_R": -8.900199510278217,
+          "weight_L": 1.7699999809265137,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -5.028361359427457
+        },
+        {
+          "id": 10373,
+          "type": "PVLP141",
+          "side": "L",
+          "contribution_L_minus_R": -8.638187236863548,
+          "weight_L": 0.0,
+          "weight_R": 2.429999828338623,
+          "mean_transmission_Hz_change": 3.554809813616089
+        },
+        {
+          "id": 10215,
+          "type": "CB0677",
+          "side": "R",
+          "contribution_L_minus_R": -8.370407258881745,
+          "weight_L": -1.5299999713897705,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 5.470854519871992
+        },
+        {
+          "id": 12391,
+          "type": "AOTU027",
+          "side": "L",
+          "contribution_L_minus_R": 8.24080810533097,
+          "weight_L": 1.8899999856948853,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 4.360215961748338
+        },
+        {
+          "id": 121558,
+          "type": "AOTU018",
+          "side": "L",
+          "contribution_L_minus_R": -8.191757224304576,
+          "weight_L": 0.9300000071525574,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -8.808341033658508
+        },
+        {
+          "id": 14192,
+          "type": "LAL051",
+          "side": "L",
+          "contribution_L_minus_R": -7.943895215802659,
+          "weight_L": -3.75,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 2.1183720575473757
+        },
+        {
+          "id": 23316,
+          "type": "PS029",
+          "side": "L",
+          "contribution_L_minus_R": 7.726714091953927,
+          "weight_L": 0.5399999618530273,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 14.308730810719798
+        },
+        {
+          "id": 29860,
+          "type": "PS049",
+          "side": "R",
+          "contribution_L_minus_R": 7.651112686794857,
+          "weight_L": 0.0,
+          "weight_R": -15.839999198913574,
+          "mean_transmission_Hz_change": 0.4830248152613308
+        },
+        {
+          "id": 14766,
+          "type": "SAD085",
+          "side": "L",
+          "contribution_L_minus_R": -6.163091231651165,
+          "weight_L": 0.0,
+          "weight_R": 6.239999771118164,
+          "mean_transmission_Hz_change": 0.9876749130948737
+        }
+      ]
+    },
+    "uniform": {
+      "DNa02_native_net_L_minus_R": 158.59484043664554,
+      "top_groups_by_abs_contribution": [
+        {
+          "group": "CB0431|L",
+          "contribution_L_minus_R": 68.49871311656247
+        },
+        {
+          "group": "LAL126|R",
+          "contribution_L_minus_R": 46.02298181964444
+        },
+        {
+          "group": "SAD085|R",
+          "contribution_L_minus_R": -45.64970468791761
+        },
+        {
+          "group": "IB068|R",
+          "contribution_L_minus_R": 40.92283145572451
+        },
+        {
+          "group": "PS018_a|L",
+          "contribution_L_minus_R": 33.00166123246176
+        },
+        {
+          "group": "GNG562|L",
+          "contribution_L_minus_R": -24.094648283337765
+        },
+        {
+          "group": "PLP228|L",
+          "contribution_L_minus_R": 22.690324954675642
+        },
+        {
+          "group": "AOTU001|L",
+          "contribution_L_minus_R": -20.30861527789346
+        },
+        {
+          "group": "SIP022|L",
+          "contribution_L_minus_R": 18.867872527929098
+        },
+        {
+          "group": "PS049|R",
+          "contribution_L_minus_R": 18.197163385760373
+        },
+        {
+          "group": "LAL051|L",
+          "contribution_L_minus_R": -16.63205260394446
+        },
+        {
+          "group": "LAL094|L",
+          "contribution_L_minus_R": -16.069429744932116
+        },
+        {
+          "group": "AOTU027|L",
+          "contribution_L_minus_R": 15.264241645943606
+        },
+        {
+          "group": "CB0677|R",
+          "contribution_L_minus_R": -12.734339144286029
+        },
+        {
+          "group": "SAD085|L",
+          "contribution_L_minus_R": -11.59705830569119
+        },
+        {
+          "group": "PVLP141|L",
+          "contribution_L_minus_R": -11.573555769763688
+        },
+        {
+          "group": "AOTU001|R",
+          "contribution_L_minus_R": -10.247173569368911
+        },
+        {
+          "group": "LAL030_a|L",
+          "contribution_L_minus_R": -9.734278338804097
+        },
+        {
+          "group": "LAL060_a|L",
+          "contribution_L_minus_R": 8.967910258748713
+        },
+        {
+          "group": "PFL3|R",
+          "contribution_L_minus_R": 8.580547184416226
+        }
+      ],
+      "top_cells_by_abs_contribution": [
+        {
+          "id": 57832,
+          "type": "CB0431",
+          "side": "L",
+          "contribution_L_minus_R": 68.49871311656247,
+          "weight_L": 7.019999980926514,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 9.757651467617507
+        },
+        {
+          "id": 47107,
+          "type": "SAD085",
+          "side": "R",
+          "contribution_L_minus_R": -45.64970468791761,
+          "weight_L": 6.62999963760376,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -6.885325366988482
+        },
+        {
+          "id": 20804,
+          "type": "IB068",
+          "side": "R",
+          "contribution_L_minus_R": 40.92283145572451,
+          "weight_L": 3.809999942779541,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 10.740900805859262
+        },
+        {
+          "id": 51658,
+          "type": "PS018_a",
+          "side": "L",
+          "contribution_L_minus_R": 33.00166123246176,
+          "weight_L": 3.5399999618530273,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 9.322503273470915
+        },
+        {
+          "id": 521525,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 24.311356998774524,
+          "weight_L": -5.579999923706055,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -4.356874073687749
+        },
+        {
+          "id": 520117,
+          "type": "GNG562",
+          "side": "L",
+          "contribution_L_minus_R": -24.094648283337765,
+          "weight_L": -5.039999961853027,
+          "weight_R": -0.5999999642372131,
+          "mean_transmission_Hz_change": 5.426722589251369
+        },
+        {
+          "id": 513388,
+          "type": "PLP228",
+          "side": "L",
+          "contribution_L_minus_R": 22.690324954675642,
+          "weight_L": 0.0,
+          "weight_R": 3.4800000190734863,
+          "mean_transmission_Hz_change": -6.520208284572568
+        },
+        {
+          "id": 524483,
+          "type": "LAL126",
+          "side": "R",
+          "contribution_L_minus_R": 21.71162482086992,
+          "weight_L": -3.9599997997283936,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -5.482733817905512
+        },
+        {
+          "id": 173968,
+          "type": "SIP022",
+          "side": "L",
+          "contribution_L_minus_R": 18.867872527929098,
+          "weight_L": 0.8399999737739563,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 22.46175371072861
+        },
+        {
+          "id": 29860,
+          "type": "PS049",
+          "side": "R",
+          "contribution_L_minus_R": 18.197163385760373,
+          "weight_L": 0.0,
+          "weight_R": -15.839999198913574,
+          "mean_transmission_Hz_change": 1.1488108779076498
+        },
+        {
+          "id": 14192,
+          "type": "LAL051",
+          "side": "L",
+          "contribution_L_minus_R": -16.63205260394446,
+          "weight_L": -3.75,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 4.435214027718523
+        },
+        {
+          "id": 12391,
+          "type": "AOTU027",
+          "side": "L",
+          "contribution_L_minus_R": 15.264241645943606,
+          "weight_L": 1.8899999856948853,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 8.076318392315486
+        },
+        {
+          "id": 103686,
+          "type": "AOTU001",
+          "side": "L",
+          "contribution_L_minus_R": -15.057968428120589,
+          "weight_L": 0.0,
+          "weight_R": 2.5199999809265137,
+          "mean_transmission_Hz_change": 5.9753843421
+        },
+        {
+          "id": 10215,
+          "type": "CB0677",
+          "side": "R",
+          "contribution_L_minus_R": -12.734339144286029,
+          "weight_L": -1.5299999713897705,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": 8.323097635563244
+        },
+        {
+          "id": 162777,
+          "type": "LAL094",
+          "side": "L",
+          "contribution_L_minus_R": -12.36263066108287,
+          "weight_L": 0.0,
+          "weight_R": -1.0499999523162842,
+          "mean_transmission_Hz_change": -11.773934497626492
+        },
+        {
+          "id": 14766,
+          "type": "SAD085",
+          "side": "L",
+          "contribution_L_minus_R": -11.59705830569119,
+          "weight_L": 0.0,
+          "weight_R": 6.239999771118164,
+          "mean_transmission_Hz_change": 1.8585030017738413
+        },
+        {
+          "id": 10373,
+          "type": "PVLP141",
+          "side": "L",
+          "contribution_L_minus_R": -11.573555769763688,
+          "weight_L": 0.0,
+          "weight_R": 2.429999828338623,
+          "mean_transmission_Hz_change": 4.762780488621047
+        },
+        {
+          "id": 524732,
+          "type": "LAL030_a",
+          "side": "L",
+          "contribution_L_minus_R": -11.519034526069705,
+          "weight_L": 0.8399999737739563,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -13.713136768703606
+        },
+        {
+          "id": 18335,
+          "type": "AOTU015",
+          "side": "R",
+          "contribution_L_minus_R": 8.142759432311884,
+          "weight_L": 0.0,
+          "weight_R": 1.649999976158142,
+          "mean_transmission_Hz_change": -4.93500578786157
+        },
+        {
+          "id": 121558,
+          "type": "AOTU018",
+          "side": "L",
+          "contribution_L_minus_R": -8.112227765768473,
+          "weight_L": 0.9300000071525574,
+          "weight_R": 0.0,
+          "mean_transmission_Hz_change": -8.722825487503187
+        }
+      ]
+    }
+  },
+  "sham_baseline": {
+    "DNa02_native_net_L_minus_R": 2109.3557383452817,
+    "top_groups_by_abs_contribution": [
+      {
+        "group": "PS059|R",
+        "contribution_L_minus_R": 3112.4121505474413
+      },
+      {
+        "group": "PS049|L",
+        "contribution_L_minus_R": -3054.528595970012
+      },
+      {
+        "group": "PS059|L",
+        "contribution_L_minus_R": -2953.936400509283
+      },
+      {
+        "group": "PS049|R",
+        "contribution_L_minus_R": 2004.0429924915381
+      },
+      {
+        "group": "AOTU019|R",
+        "contribution_L_minus_R": -1842.4545596700425
+      },
+      {
+        "group": "AOTU019|L",
+        "contribution_L_minus_R": 1754.8888789688124
+      },
+      {
+        "group": "PS013|L",
+        "contribution_L_minus_R": 1719.712010920476
+      },
+      {
+        "group": "PS230|L",
+        "contribution_L_minus_R": 1625.523854352788
+      },
+      {
+        "group": "PS230|R",
+        "contribution_L_minus_R": -1577.9183079562056
+      },
+      {
+        "group": "PS013|R",
+        "contribution_L_minus_R": -1561.7617136084084
+      },
+      {
+        "group": "LAL126|R",
+        "contribution_L_minus_R": -1468.7739612796408
+      },
+      {
+        "group": "AOTU025|L",
+        "contribution_L_minus_R": 1316.2653322721335
+      },
+      {
+        "group": "LAL179|L",
+        "contribution_L_minus_R": -1230.3172280262274
+      },
+      {
+        "group": "AOTU025|R",
+        "contribution_L_minus_R": -1131.7092815780713
+      },
+      {
+        "group": "GNG515|L",
+        "contribution_L_minus_R": 1029.8981045163357
+      },
+      {
+        "group": "PS077|R",
+        "contribution_L_minus_R": 911.986411753413
+      },
+      {
+        "group": "LAL301m|L",
+        "contribution_L_minus_R": 897.4242888518145
+      },
+      {
+        "group": "CB0431|L",
+        "contribution_L_minus_R": 869.591777571672
+      },
+      {
+        "group": "AOTU001|R",
+        "contribution_L_minus_R": 859.8675052092392
+      },
+      {
+        "group": "VES074|L",
+        "contribution_L_minus_R": -779.4905250083987
+      }
+    ],
+    "top_cells_by_abs_contribution": [
+      {
+        "id": 31330,
+        "type": "PS049",
+        "side": "L",
+        "contribution_L_minus_R": -3054.528595970012,
+        "weight_L": -14.75999927520752,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 206.94639200292687
+      },
+      {
+        "id": 29860,
+        "type": "PS049",
+        "side": "R",
+        "contribution_L_minus_R": 2004.0429924915381,
+        "weight_L": 0.0,
+        "weight_R": -15.839999198913574,
+        "mean_transmission_Hz_change": 126.51787208606616
+      },
+      {
+        "id": 10005,
+        "type": "AOTU019",
+        "side": "R",
+        "contribution_L_minus_R": -1842.4545596700425,
+        "weight_L": -8.90999984741211,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 206.785027073281
+      },
+      {
+        "id": 10070,
+        "type": "AOTU019",
+        "side": "L",
+        "contribution_L_minus_R": 1754.8888789688124,
+        "weight_L": 0.0,
+        "weight_R": -8.670000076293945,
+        "mean_transmission_Hz_change": 202.40932681963164
+      },
+      {
+        "id": 11306,
+        "type": "PS013",
+        "side": "L",
+        "contribution_L_minus_R": 1719.712010920476,
+        "weight_L": 8.279999732971191,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 207.69469400736023
+      },
+      {
+        "id": 11495,
+        "type": "PS059",
+        "side": "R",
+        "contribution_L_minus_R": 1660.374374067577,
+        "weight_L": 0.0,
+        "weight_R": -7.889999866485596,
+        "mean_transmission_Hz_change": 210.44035515391582
+      },
+      {
+        "id": 11371,
+        "type": "PS013",
+        "side": "R",
+        "contribution_L_minus_R": -1561.7617136084084,
+        "weight_L": 0.0,
+        "weight_R": 7.980000019073486,
+        "mean_transmission_Hz_change": 195.70948745307595
+      },
+      {
+        "id": 514988,
+        "type": "PS059",
+        "side": "L",
+        "contribution_L_minus_R": -1560.666999858707,
+        "weight_L": -7.319999694824219,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 213.2058831863359
+      },
+      {
+        "id": 11142,
+        "type": "PS059",
+        "side": "R",
+        "contribution_L_minus_R": 1452.0377764798643,
+        "weight_L": 0.0,
+        "weight_R": -7.769999980926514,
+        "mean_transmission_Hz_change": 186.87744916914656
+      },
+      {
+        "id": 519399,
+        "type": "PS059",
+        "side": "L",
+        "contribution_L_minus_R": -1393.2694006505758,
+        "weight_L": -6.960000038146973,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 200.1823840537678
+      },
+      {
+        "id": 516361,
+        "type": "AOTU025",
+        "side": "L",
+        "contribution_L_minus_R": 1316.2653322721335,
+        "weight_L": 6.150000095367432,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 214.02687997738855
+      },
+      {
+        "id": 519926,
+        "type": "AOTU025",
+        "side": "R",
+        "contribution_L_minus_R": -1131.7092815780713,
+        "weight_L": 0.0,
+        "weight_R": 5.87999963760376,
+        "mean_transmission_Hz_change": 192.46757675639412
+      },
+      {
+        "id": 15602,
+        "type": "GNG515",
+        "side": "L",
+        "contribution_L_minus_R": 1029.8981045163357,
+        "weight_L": 0.0,
+        "weight_R": -5.21999979019165,
+        "mean_transmission_Hz_change": 197.29849538528876
+      },
+      {
+        "id": 516911,
+        "type": "PS230",
+        "side": "L",
+        "contribution_L_minus_R": 902.1713508040929,
+        "weight_L": 4.559999942779541,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 197.8445969572043
+      },
+      {
+        "id": 57832,
+        "type": "CB0431",
+        "side": "L",
+        "contribution_L_minus_R": 869.591777571672,
+        "weight_L": 7.019999980926514,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 123.87347292512408
+      },
+      {
+        "id": 521525,
+        "type": "LAL126",
+        "side": "R",
+        "contribution_L_minus_R": -835.9458394940287,
+        "weight_L": -5.579999923706055,
+        "weight_R": 0.0,
+        "mean_transmission_Hz_change": 149.81108439492965
+      },
+      {
+        "id": 13157,
+        "type": "PS230",
+        "side": "R",
+        "contribution_L_minus_R": -823.4876335416751,
+        "weight_L": 0.0,
+        "weight_R": 4.409999847412109,
+        "mean_transmission_Hz_change": 186.73189615299347
+      },
+      {
+        "id": 10116,
+        "type": "VES074",
+        "side": "L",
+        "contribution_L_minus_R": -779.4905250083987,
+        "weight_L": 0.0,
+        "weight_R": 4.259999752044678,
+        "mean_transmission_Hz_change": 182.97900713122473
+      },
+      {
+        "id": 11216,
+        "type": "PS230",
+        "side": "R",
+        "contribution_L_minus_R": -754.4306744145305,
+        "weight_L": 0.0,
+        "weight_R": 3.68999981880188,
+        "mean_transmission_Hz_change": 204.45276733360097
+      },
+      {
+        "id": 14200,
+        "type": "PS018_a",
+        "side": "R",
+        "contribution_L_minus_R": -744.1283347278195,
+        "weight_L": 0.0,
+        "weight_R": 4.079999923706055,
+        "mean_transmission_Hz_change": 182.38439917711884
+      }
+    ]
+  }
+}

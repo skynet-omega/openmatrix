@@ -1,0 +1,12 @@
+{
+  "main_snapshot_commit": "dfbcff01abf8928ebf0339b63f1d211066e25a8c",
+  "main_snapshot": "reviews/stage3-real-data-preliminary-20260922-d1efd85e9aaa",
+  "required_directory_inside_main_zip": "campaign/traces",
+  "required_files": [
+    "odor_left_native_transmission.npz",
+    "odor_right_native_transmission.npz",
+    "uniform_native_transmission.npz",
+    "sham_native_transmission.npz"
+  ],
+  "policy": "Extract the immutable main ZIP and copy this addendum's script and afferent_metadata.json into campaign; no hidden local source is needed to rerun the ranking."
+}
