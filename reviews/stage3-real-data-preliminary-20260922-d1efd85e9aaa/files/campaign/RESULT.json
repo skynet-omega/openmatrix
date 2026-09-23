@@ -1,0 +1,222 @@
+{
+  "schema": "stage3_preliminary_readback_v1",
+  "simulation": {
+    "model_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_upstream_pfg_test_20260919/live",
+    "model_species_preparation": "male MCNS reconstructed CNS + modeled sensory input + FlyBody MuJoCo",
+    "DNa02_ids": {
+      "left": 523769,
+      "right": 10360
+    },
+    "ORN_counts_by_side": {
+      "left": 35,
+      "right": 39
+    },
+    "anatomical_metadata_sha256": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "ON_window_ms": [
+      161,
+      311
+    ],
+    "arms": {
+      "odor_left": {
+        "yaw_change_deg_161_311": 0.3794330564208579,
+        "DNa02_L_minus_R_mean_q_161_311": 0.17659471703993068,
+        "DNa02_L_minus_R_change_from_sham": 0.0028650325021374896,
+        "DNa02_L_q_mean": 0.17731822508494377,
+        "DNa02_R_q_mean": 0.0007235080450130973,
+        "steering_mean_161_311": 0.5119231082732109,
+        "DNa02_native_net_mean_L_R": [
+          691.060172386208,
+          -1396.3766277664283
+        ],
+        "DNa02_native_target_mean_L_R": [
+          0.22404410767117336,
+          0.0007077570050116215
+        ],
+        "ORN_q_L2_from_sham_mean": 2.8766793341330983,
+        "ORN_left_mean_q": 0.5032435153908805,
+        "ORN_right_mean_q": 0.031480207806931684,
+        "input_left_right_mean": [
+          1.0,
+          0.0
+        ],
+        "trace_sha256": "51bcc68022ff90a07dcc656cc1fa5196f695535c9c6042665bdbfc5a04b12423",
+        "native_transmission_sha256": "7571918ba43458da2ec1e7e872c564cee20aded958fc6aa6201832181f3f80a9"
+      },
+      "odor_right": {
+        "yaw_change_deg_161_311": 0.4021857370588151,
+        "DNa02_L_minus_R_mean_q_161_311": 0.19375807512765483,
+        "DNa02_L_minus_R_change_from_sham": 0.020028390589861656,
+        "DNa02_L_q_mean": 0.19382306349977235,
+        "DNa02_R_q_mean": 6.498837211747298e-05,
+        "steering_mean_161_311": 0.5423934210813588,
+        "DNa02_native_net_mean_L_R": [
+          847.9444366421894,
+          -1456.9744867836691
+        ],
+        "DNa02_native_target_mean_L_R": [
+          0.2472260940835685,
+          0.0
+        ],
+        "ORN_q_L2_from_sham_mean": 3.454432376939723,
+        "ORN_left_mean_q": 0.032007910777777746,
+        "ORN_right_mean_q": 0.581801535330243,
+        "input_left_right_mean": [
+          0.0,
+          1.0
+        ],
+        "trace_sha256": "57e8b3757f8dc5dafb21ffdae2f4ac95ac6ea0269d2431098c629b1d2e3e9e79",
+        "native_transmission_sha256": "a53ea82d9a97a2b3f40e80aa63ddae2ffa984c24cc27df583df02e8050e43794"
+      },
+      "uniform": {
+        "yaw_change_deg_161_311": 0.391503824240651,
+        "DNa02_L_minus_R_mean_q_161_311": 0.18860085926011355,
+        "DNa02_L_minus_R_change_from_sham": 0.014871174722320335,
+        "DNa02_L_q_mean": 0.18866584810941547,
+        "DNa02_R_q_mean": 6.498884930193742e-05,
+        "steering_mean_161_311": 0.5280903239858875,
+        "DNa02_native_net_mean_L_R": [
+          820.0744703574761,
+          -1446.0856225407513
+        ],
+        "DNa02_native_target_mean_L_R": [
+          0.24207295475556806,
+          0.0
+        ],
+        "ORN_q_L2_from_sham_mean": 4.863556502862852,
+        "ORN_left_mean_q": 0.595961354503313,
+        "ORN_right_mean_q": 0.5960236699415553,
+        "input_left_right_mean": [
+          1.0,
+          1.0
+        ],
+        "trace_sha256": "2bb8f259a90c28331f3bce668aad111db68495268403e4c61d7f1952949cfbff",
+        "native_transmission_sha256": "0a9b082ff874e299ef2c68527c229288071f72be3945213536ff2d936d3fe99c"
+      },
+      "sham": {
+        "yaw_change_deg_161_311": 0.3828663860184456,
+        "DNa02_L_minus_R_mean_q_161_311": 0.1737296845377932,
+        "DNa02_L_minus_R_change_from_sham": 0.0,
+        "DNa02_L_q_mean": 0.17379467248653171,
+        "DNa02_R_q_mean": 6.498794873849297e-05,
+        "steering_mean_161_311": 0.5165202070858391,
+        "DNa02_native_net_mean_L_R": [
+          669.8335110520505,
+          -1437.7865243158242
+        ],
+        "DNa02_native_target_mean_L_R": [
+          0.2208080423908013,
+          0.0
+        ],
+        "ORN_q_L2_from_sham_mean": 0.0,
+        "ORN_left_mean_q": 0.031924931393694456,
+        "ORN_right_mean_q": 0.03146465564682808,
+        "input_left_right_mean": [
+          0.0,
+          0.0
+        ],
+        "trace_sha256": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b",
+        "native_transmission_sha256": "bf08160c8911e8299fc7aaa441423f579a8fc509e34746fe1014eedaf67f1c02"
+      }
+    },
+    "cross_arm": {
+      "ORN_q_L2_left_vs_right_mean": 4.494938640405162,
+      "DNa02_L_minus_R_left_minus_right": -0.01716335808772415
+    },
+    "stored_q_occupancy": [
+      {
+        "time_ms": 0,
+        "fraction_q_gt_0p01": 0.7350749850029994,
+        "fraction_q_gt_0p1": 0.6952729454109178
+      },
+      {
+        "time_ms": 1,
+        "fraction_q_gt_0p01": 0.7382843431313737,
+        "fraction_q_gt_0p1": 0.6993701259748051
+      },
+      {
+        "time_ms": 20,
+        "fraction_q_gt_0p01": 0.7558908218356328,
+        "fraction_q_gt_0p1": 0.7212117576484703
+      },
+      {
+        "time_ms": 40,
+        "fraction_q_gt_0p01": 0.755878824235153,
+        "fraction_q_gt_0p1": 0.7187702459508098
+      },
+      {
+        "time_ms": 60,
+        "fraction_q_gt_0p01": 0.7547750449910018,
+        "fraction_q_gt_0p1": 0.7128854229154169
+      },
+      {
+        "time_ms": 100,
+        "fraction_q_gt_0p01": 0.7503899220155968,
+        "fraction_q_gt_0p1": 0.7114637072585482
+      },
+      {
+        "time_ms": 160,
+        "fraction_q_gt_0p01": 0.7485422915416916,
+        "fraction_q_gt_0p1": 0.7142711457708458
+      },
+      {
+        "time_ms": 220,
+        "fraction_q_gt_0p01": 0.747252549490102,
+        "fraction_q_gt_0p1": 0.713869226154769
+      },
+      {
+        "time_ms": 320,
+        "fraction_q_gt_0p01": 0.7473905218956208,
+        "fraction_q_gt_0p1": 0.7156628674265147
+      },
+      {
+        "time_ms": 335,
+        "fraction_q_gt_0p01": 0.7473185362927415,
+        "fraction_q_gt_0p1": 0.7158848230353929
+      }
+    ],
+    "stored_outgoing_edge_occupancy": [
+      {
+        "time_ms": 0,
+        "fraction_edges_from_q_gt_0p01": 0.6743470589656277
+      },
+      {
+        "time_ms": 160,
+        "fraction_edges_from_q_gt_0p01": 0.6851971028503451
+      },
+      {
+        "time_ms": 335,
+        "fraction_edges_from_q_gt_0p01": 0.6826532198921015
+      }
+    ],
+    "network_snapshot_sha256": "0443b1725b1a042f2921a63d2b4743364f300cc62437ef0ea5e39d4c4cf04ac1",
+    "connectivity_sha256": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40",
+    "warning": "Occupancy of q or outgoing edges is not firing fraction or proof that any cell can skip fine integration."
+  },
+  "living_fly": {
+    "source_doi": "10.7910/DVN/0NCLP1",
+    "file_id": 11634643,
+    "file_sha256": "75a48fab5a9809189e3439719ab9c65163e37e226398a766f5720d91f6cedb67",
+    "file_size_bytes": 63045930,
+    "recording": "DNa02 single-cell ephys + ball yaw velocity, Orco-LexA/CsChrimson fictive odor",
+    "ephys_sample_rate_Hz": 4000.0,
+    "ball_sample_rate_Hz": 100.0,
+    "continuous_duration_s": 1899.99975,
+    "stimulus_on_count": 165,
+    "stimulus_duration_s_median": 0.50025,
+    "stimulus_onsets_s_first_five": [
+      2.99975,
+      14.49975,
+      25.99975,
+      37.49975,
+      48.99975
+    ],
+    "yaw_variable_min_max": [
+      -1286.9750710926398,
+      1619.5274608238717
+    ],
+    "directional_labels_present": false,
+    "directional_comparison_valid": false,
+    "reason": "Archive file contains a single 0/5 stimulus channel and yaw, but no per-trial left/right/both label. Original MATLAB grouped trial types by separate filenames; those labels are absent from this file."
+  },
+  "biological_validation": false
+}

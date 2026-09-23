@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-temporal-guard-20260922](reviews/motor-temporal-guard-20260922-26ce991e4ac1/README.md)
+[stage3-real-data-preliminary-20260922](reviews/stage3-real-data-preliminary-20260922-d1efd85e9aaa/README.md)
 
-External review found a late-event false negative; reproduced with actual C++/CUDA. C0-only crossing is not promoted; current wrapper retains event cuts. Earlier2.08x whole-body measurement remains experimental. Complete small GPU reproducer, verified errors and corrected runner included; no extra organism campaign.
+Read-only four-arm complete-organism stage-3 trace readback, one published living-fly dataset crosswalk, and empirical CNS occupancy census. No new organism run or biological admission.

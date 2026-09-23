@@ -1,0 +1,45 @@
+{
+  "schema": "stage3_real_data_preliminary_v1",
+  "recorded_before_analysis": "2026-09-23T01:40:00Z",
+  "objective": "Decidir qué evidencia falta para una etapa 3 interpretable y probar un cruce mínimo con mediciones de moscas vivas sin ajustar el organismo.",
+  "stage3_hypotheses": {
+    "A": "La lateralidad se pierde antes de DNa02: comparar actividad ORN y DNa02 izquierda-derecha en los cuatro brazos ya guardados.",
+    "B": "El estado basal/preparación domina la respuesta: comparar señal absoluta y diferencia frente a sham/uniform en la misma ventana; no reajustar preparación.",
+    "C": "La lectura descendente o cuerpo desacopla señal correcta: comparar signo DNa02, orden neural-motor y yaw; se requiere intervención motora emparejada futura para inferir causalidad."
+  },
+  "motor_hypotheses": {
+    "A": "Integración implícita acoplada con masa/JVP para puertos rápidos y rigidez; falsador: no converge o excede coste seguro.",
+    "B": "Multirritmo con cortes de evento y cobertura temporal explícita de la interfaz libre; falsador: late-event CUDA o coste de sincronización/corrección mayor que referencia.",
+    "C": "Programa compilado común de ecuaciones, eventos y puertos en CPU/GPU residente; falsador: modelo heterogéneo nuevo requiere modificar núcleo o el cuerpo acoplado no acelera."
+  },
+  "preliminary_analysis": {
+    "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_upstream_pfg_test_20260919/live",
+    "arms": ["odor_left", "odor_right", "uniform", "sham"],
+    "pre_on_window_ms": [0, 9],
+    "post_on_window_ms": [150, 300],
+    "observables": ["ORN_q", "DNa02 q left-right", "neural_steering_applied", "body yaw"],
+    "signed_prediction": "El brazo olor izquierdo debe tener DNa02_L-DNa02_R positivo y yaw izquierdo absoluto; el derecho, ambos negativos; sham y uniforme no deben dominar ambos brazos.",
+    "scope": "Readback descriptivo de una sola vida/preparación y mecanismo PFG ya descartado; no causalidad ni replicación biológica."
+  },
+  "living_fly_subset": {
+    "paper_doi": "10.7554/eLife.102230",
+    "repository_doi": "10.7910/DVN/0NCLP1",
+    "metadata_only_first": true,
+    "max_raw_files": 1,
+    "max_download_bytes": 70000000,
+    "candidate_file_id": 11634643,
+    "restriction": "Primero comprobar que el archivo contiene intervención unilateral Orco/CsChrimson y yaw. Si no, registrar NO_COMPARABLE; no buscar otro resultado favorable."
+  },
+  "budget": {
+    "new_full_organism_runs": 0,
+    "complete_motor_prototypes": 0,
+    "existing_simulation_arms_read": 4,
+    "new_real_raw_files_max": 1,
+    "Jev_requests_max": 1,
+    "ChatGPT_messages_max": 2,
+    "CPU_seconds_max": 300,
+    "GPU_seconds_max": 0,
+    "network_wall_seconds_max": 180
+  },
+  "stop": "Terminar tras readback, una descarga y una consulta Jev; ausencia de respuesta externa no transforma diagnóstico en validación."
+}

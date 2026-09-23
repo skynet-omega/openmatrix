@@ -1,0 +1,107 @@
+{
+  "format_version": 2,
+  "label": "stage3-real-data-preliminary-20260922",
+  "description": "Read-only four-arm complete-organism stage-3 trace readback, one published living-fly dataset crosswalk, and empirical CNS occupancy census. No new organism run or biological admission.",
+  "files": [
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2887,
+      "sha256": "b8ae9c2c4c6da2f03cf713a8163e808a87c52e1908d33b54af23079d38e69b3c"
+    },
+    {
+      "path": "campaign/README.md",
+      "bytes": 8651,
+      "sha256": "dbafc4e2f078ae7c1bdb32bf26cd3e88762d3ee85f7773cd2b7efffcae73c130"
+    },
+    {
+      "path": "campaign/analyze_preliminary.py",
+      "bytes": 9409,
+      "sha256": "5667df8c8d10e9d6577f04a413701551c20dd65756fdcea2a80305722bc29d73"
+    },
+    {
+      "path": "campaign/RESULT.json",
+      "bytes": 7794,
+      "sha256": "f2c329d4ff019f4298f17931f2ded7bd69ed709a32dfea0dff13dbd13f2ddcba"
+    },
+    {
+      "path": "campaign/side_metadata.json",
+      "bytes": 7847,
+      "sha256": "1326b3704be0341d821a6291748ef6bcae0e22d0caac492e2f2594147ddc065e"
+    },
+    {
+      "path": "campaign/outdegree.npy",
+      "bytes": 666928,
+      "sha256": "31bf7c915651378567836dc66912a0668e4d5dc7e8e0a01ec8a8bbd7a0417581"
+    },
+    {
+      "path": "campaign/DATAVERSE_CATALOG.json",
+      "bytes": 89070,
+      "sha256": "855a78715f345ca7a6908eb116d63bd276f5e52c979840f521280f8532b077ab"
+    },
+    {
+      "path": "campaign/JEV_TASKS.json",
+      "bytes": 1183,
+      "sha256": "dc5b14f38aafc381784524bf2dac08ccd78ef1b46b4b901c455b201740ac3f32"
+    },
+    {
+      "path": "campaign/JEV_OBSERVATION.json",
+      "bytes": 243,
+      "sha256": "cbb6ca1f2a23bb97e2266ca8baab65f051879ad2625891d7d6cb4c85861a5a94"
+    },
+    {
+      "path": "campaign/jev_receipt.json",
+      "bytes": 494,
+      "sha256": "9bd2590ac0c315ea492b344403b1c64a42e67fd419aa148305966d5c1683f355"
+    },
+    {
+      "path": "campaign/traces/protocol.json",
+      "bytes": 7776,
+      "sha256": "ff0ada0063c80ce9cd85ab1f2aa4062122d14d8dd6b1d51142857d8d9ecfc5c9"
+    },
+    {
+      "path": "campaign/traces/odor_left_trace.npz",
+      "bytes": 7407145,
+      "sha256": "51bcc68022ff90a07dcc656cc1fa5196f695535c9c6042665bdbfc5a04b12423"
+    },
+    {
+      "path": "campaign/traces/odor_left_native_transmission.npz",
+      "bytes": 3538761,
+      "sha256": "7571918ba43458da2ec1e7e872c564cee20aded958fc6aa6201832181f3f80a9"
+    },
+    {
+      "path": "campaign/traces/odor_right_trace.npz",
+      "bytes": 7404870,
+      "sha256": "57e8b3757f8dc5dafb21ffdae2f4ac95ac6ea0269d2431098c629b1d2e3e9e79"
+    },
+    {
+      "path": "campaign/traces/odor_right_native_transmission.npz",
+      "bytes": 3539647,
+      "sha256": "a53ea82d9a97a2b3f40e80aa63ddae2ffa984c24cc27df583df02e8050e43794"
+    },
+    {
+      "path": "campaign/traces/uniform_trace.npz",
+      "bytes": 7396332,
+      "sha256": "2bb8f259a90c28331f3bce668aad111db68495268403e4c61d7f1952949cfbff"
+    },
+    {
+      "path": "campaign/traces/uniform_native_transmission.npz",
+      "bytes": 3538630,
+      "sha256": "0a9b082ff874e299ef2c68527c229288071f72be3945213536ff2d936d3fe99c"
+    },
+    {
+      "path": "campaign/traces/sham_trace.npz",
+      "bytes": 7434952,
+      "sha256": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b"
+    },
+    {
+      "path": "campaign/traces/sham_native_transmission.npz",
+      "bytes": 3539305,
+      "sha256": "bf08160c8911e8299fc7aaa441423f579a8fc509e34746fe1014eedaf67f1c02"
+    },
+    {
+      "path": "campaign/traces/odor_left_network_trace.npz",
+      "bytes": 10602482,
+      "sha256": "0443b1725b1a042f2921a63d2b4743364f300cc62437ef0ea5e39d4c4cf04ac1"
+    }
+  ]
+}
