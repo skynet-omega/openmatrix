@@ -1,0 +1,45 @@
+{
+  "schema": "stage3_native_sideband_close_v1",
+  "classification": "BLOQUEADO_POR_DOMINIO_NUMERICO",
+  "stage3_pass": null,
+  "instrument_gate": "PASS_1MS_EXACT_SCIENTIFIC_STATE",
+  "native_coefficient_target_max_abs": 1.1102230246251565e-16,
+  "budget": {
+    "smoke_used": 2,
+    "smoke_max": 2,
+    "full_started": 1,
+    "full_max": 4,
+    "reference_used": 0,
+    "other_full_arms_started": 0
+  },
+  "full_sham_prefix": {
+    "preparation_ms": 40,
+    "trial_ms": 79,
+    "flow_samples": 119,
+    "wall_s": 445.72476331400685,
+    "failure": "accepted event state outside domain",
+    "attempted_state_index": 28296,
+    "attempted_value": 1.0000000000000002,
+    "node": {
+      "bodyId": 41645,
+      "type": "KCa'b'-ap2",
+      "somaSide": "R",
+      "instance": "KCa'b'-ap2_R"
+    },
+    "next_step_s": 4.486788730489399e-06
+  },
+  "interpretation": "A one-ulp event-filter domain excess halted the protected run before 320/400 ms. This does not identify a stiff biological circuit. No other odor arms were launched after the first failed gate. Native PN/DNa02 raw flow is observational and not path-decomposed.",
+  "cleanup_limitation": [
+    "checkpoint: RuntimeError('Failed owner cannot publish coherent state')",
+    "observer undo: AttributeError('coefficients_gpu')"
+  ],
+  "source_sha256": {
+    "PLAN.json": "161e68673243c2ae13aa503d22a9379fc0850af35317416a97a3137c8de989d5",
+    "native_tap.py": "956d420429d94244d99d717ec8a33a87ada9333d27be81df51b6336798f23345",
+    "run_kernel.py": "b590bdb1d4b532fd8afd4bd780fd5f038ff422a16811b7098a72328a077ac9db",
+    "compare_smoke.py": "8f47af0e08d1eb1add8c8faad7c585a1c3a26016519863645756ee03bce4a1a5",
+    "SMOKE_COMPARE.json": "6aeab246f84507519436f29ab007a2c860003f1db0a5d7c2b4f1ea5f7c17ebc5",
+    "full_sham_01/RESULT.json": "c99a7f08b089391a967aac7db4f8b07e520a1092c7972da718635ee61012c4b3",
+    "full_sham_01/flow/FLOW.npz": "bebf2f142b89998989248bfe48a144cd6fb0341a606d93845b477823a30cb18d"
+  }
+}

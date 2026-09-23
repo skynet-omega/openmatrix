@@ -1,0 +1,28 @@
+{
+  "schema": "stage3_event_domain_discriminator_v1",
+  "recorded_utc": "2026-09-23T05:38:00Z",
+  "parent": "campanas/etapa3_flujo_kernel_20260923_04",
+  "trigger": "Protected sham with native sideband stopped after 40 ms preparation plus 79 ms trial at KC row 28296, value 1.0000000000000002, strict domain error. Its one-ms on/off states were exact. No odor arms were run.",
+  "objective": "Run the exact same whole-organism sham protocol without sideband to determine whether the 119-ms absolute-time domain failure persists. No biology or tolerance change.",
+  "alternatives": {
+    "A": "Diagnostic store changes compiled kernel scheduling or numerical values after 1ms; off run passes 79ms and diverges. Falsifier: same indexed domain failure in off run.",
+    "B": "Inherited event superposition gives a one-ulp positive filter excess near a clipped event, independent of observer. Falsifier: off run remains in domain through 400ms. Further confirmation needs a focused waveform fixture and exact event owner trace.",
+    "C": "Genuine stiff/unstable recurrent mechanism drives an out-of-domain state. Falsifier: source event-filter projection alone reproduces excess without recurrent evolution; a one-ulp excess alone does not support C."
+  },
+  "precommitted": {
+    "preparation_ms":40,
+    "trial_ms":400,
+    "control":"sham, observer off; same checkpoint, data and engine as previous on run",
+    "primary":"status and first failed coordinate/value; if complete, compare exact traces through 79ms with observer-on prefix and mark any divergence, without a stage3 claim",
+    "stop":"No new odor trials until domain cause is discriminated. Do not enlarge state bounds, clip, or loosen numerical tolerance to produce a PASS."
+  },
+  "budgets": {
+    "organism_full_sham_off_max":1,
+    "wall_s_max":2050,
+    "RAM_GiB_max":18,
+    "GPU_GiB_max":12,
+    "CPU_or_GPU_fixture_max":2,
+    "ChatGPT_new_messages_max":1,
+    "Jev_paid_calls_max":0
+  }
+}

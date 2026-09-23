@@ -1,0 +1,35 @@
+{
+  "schema": "stage3_native_consumer_tap_prospective_v1",
+  "recorded_utc": "2026-09-23T05:18:00Z",
+  "parent": "campanas/etapa3_flujo_directo_20260923_02",
+  "objective": "Write FP64 raw signed net inside the exact general and PN CUDA consumer kernels, before tanh; retain stable graph buffers and read only after an accepted 1-ms step. Admit four-arm 400-ms measurement only after an exact observer on/off control.",
+  "biology": "Unchanged checkpoint, equations, signed weights, anatomy, body, onset and tolerances. Diagnostic stores only; no feedback to neuronal state.",
+  "alternatives": {
+    "I": "Native sideband inside both consumer kernels (this prototype)",
+    "II": "Full shadow evaluator with all temporary APL and PN buffers, only if I fails and independently budgeted",
+    "III": "Matched causal port perturbations, only after readout validation"
+  },
+  "rivals": {
+    "A": "Peripheral/ALLN or ORN-PN filtering loses or reverses lateral signal",
+    "B": "Posterior convergence loses or reverses a preserved PN contrast",
+    "C": "Basal state, DNa02 readout, effector or body masks correct signal"
+  },
+  "precommitted": {
+    "smoke": "One ms sham off/on from same checkpoint; exact body, CNS, pending sensor and event state comparison; selected kernel raw must reproduce actual accepted-stage target to 1e-9 absolute and rate to 1e-12. Capture only an accepted final coefficient stage. No inferred raw from clipped or saturated tanh.",
+    "full_if_smoke_passes": "Four arms sham, uniform, odor_left, odor_right to 400 ms from same preparation; evaluate absolute yaw and all contrasts at 320 and 400 ms, with the historical 150-300 ms criterion unchanged. 250-400 ms is descriptive, not PASS selected after results.",
+    "scientific": "No biological mechanism claim until numerical error to interpreted horizon is <=1e-4 and observer on/off unchanged. A single four-arm life cannot establish cross-fly generality."
+  },
+  "budgets": {
+    "organism_smoke_1ms_max": 2,
+    "organism_full_400ms_max": 4,
+    "reference_20ms_max": 2,
+    "full_prototypes_max": 1,
+    "wall_total_s_max": 9000,
+    "wall_single_full_s_max": 2050,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 0,
+    "Jev_paid_calls_max": 0
+  },
+  "stop": "Stop at first failed smoke or numerical gate, or budget. Preserve every receipt."
+}

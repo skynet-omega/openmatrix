@@ -1,0 +1,137 @@
+{
+  "format_version": 2,
+  "label": "stage3-native-tap-event-domain-20260923",
+  "description": "Organismo real protegido: tap FP64 PN/DNa02 validado 1 ms on/off exacto; sham largo detenido a 79 ms por filtro KC 1+1 ulp. Código de kernels, evento, recibos y prefijo de flujo; sin cuatro brazos ni admisión de etapa 3.",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "bytes": 3887,
+      "sha256": "6fdedb4ea843362ae1333b29edbf2d6dc5768e454a69a534ee9f43ab49993fbc"
+    },
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2172,
+      "sha256": "161e68673243c2ae13aa503d22a9379fc0850af35317416a97a3137c8de989d5"
+    },
+    {
+      "path": "campaign/native_tap.py",
+      "bytes": 8784,
+      "sha256": "956d420429d94244d99d717ec8a33a87ada9333d27be81df51b6336798f23345"
+    },
+    {
+      "path": "campaign/run_kernel.py",
+      "bytes": 9142,
+      "sha256": "b590bdb1d4b532fd8afd4bd780fd5f038ff422a16811b7098a72328a077ac9db"
+    },
+    {
+      "path": "campaign/compare_smoke.py",
+      "bytes": 2924,
+      "sha256": "8f47af0e08d1eb1add8c8faad7c585a1c3a26016519863645756ee03bce4a1a5"
+    },
+    {
+      "path": "campaign/SMOKE_COMPARE.json",
+      "bytes": 2002,
+      "sha256": "6aeab246f84507519436f29ab007a2c860003f1db0a5d7c2b4f1ea5f7c17ebc5"
+    },
+    {
+      "path": "campaign/close_campaign.py",
+      "bytes": 3688,
+      "sha256": "4f0e507dfb8c357ddbc60c605f6e682e1007eb36cbb4cfc4f01619ca1f7cf847"
+    },
+    {
+      "path": "campaign/CLOSE.json",
+      "bytes": 1967,
+      "sha256": "63b758a4040b1d6d95bf1d5ea7981f0ccd2d7e88897379bda2688afca25bec48"
+    },
+    {
+      "path": "runs/smoke_off_RESULT.json",
+      "bytes": 3268,
+      "sha256": "159c4cef23bb1cec9820624c1c11059845c10709a835f2ee2be796095e83fb7b"
+    },
+    {
+      "path": "runs/smoke_on_RESULT.json",
+      "bytes": 3268,
+      "sha256": "47484e8e79c6479393033176733aaa5bb1803734e24b3c506bff9403ed5646fe"
+    },
+    {
+      "path": "runs/smoke_on_FLOW.jsonl",
+      "bytes": 712,
+      "sha256": "374fd18af0b407039f95143e18b37df696c72c4b594f08a15ca0d148618233cf"
+    },
+    {
+      "path": "runs/full_sham_RESULT.json",
+      "bytes": 8162,
+      "sha256": "c99a7f08b089391a967aac7db4f8b07e520a1092c7972da718635ee61012c4b3"
+    },
+    {
+      "path": "runs/full_sham_PROGRESS.jsonl",
+      "bytes": 19601,
+      "sha256": "86d3a3d88cd5482d41b3595cd4c1ccebf050749bd6ff8206c36c067f405c6e0b"
+    },
+    {
+      "path": "runs/full_sham_FLOW_RESULT.json",
+      "bytes": 187,
+      "sha256": "dd9339516085c617bbc0100ded58f02132e5efa55fb24ee29b88f0ce6de0c806"
+    },
+    {
+      "path": "runs/full_sham_FLOW.npz",
+      "bytes": 6964,
+      "sha256": "bebf2f142b89998989248bfe48a144cd6fb0341a606d93845b477823a30cb18d"
+    },
+    {
+      "path": "prior/PLAN.json",
+      "bytes": 2360,
+      "sha256": "b5143ed8a68dda5f7c65d3d6c5630fc874d3b7c42448f7a2dad03118790d4a68"
+    },
+    {
+      "path": "prior/native_tap.py",
+      "bytes": 8180,
+      "sha256": "514168ee76b1736b332cdd0b12511c7f8ad36323090eef371d05934cb10b796a"
+    },
+    {
+      "path": "prior/smoke_on_RESULT.json",
+      "bytes": 3965,
+      "sha256": "f2da3c16bac04f92535442df5e353bce840794b19357f0bfa61d8b732178d360"
+    },
+    {
+      "path": "next/PLAN.json",
+      "bytes": 1961,
+      "sha256": "f5b88b4481f8f36146dc2c6ac7a0a5c18fcecb82bf62ad103cd515af5098ab78"
+    },
+    {
+      "path": "source/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "source/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "source/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "source/prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "source/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "source/kc_apl_dynamic_brain.py",
+      "bytes": 16023,
+      "sha256": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4"
+    },
+    {
+      "path": "source/event_waveform.py",
+      "bytes": 5483,
+      "sha256": "49986d70a5a72fe33267c7261b904d5ef68d0bde4e6344ff050e38dfeec75fae"
+    }
+  ]
+}

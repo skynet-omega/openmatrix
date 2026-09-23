@@ -1,0 +1,30 @@
+{
+  "schema": "stage3_native_four_row_prospective_v1",
+  "recorded_utc": "2026-09-23T05:25:00Z",
+  "parent": "campanas/etapa3_flujo_kernel_20260923_03",
+  "parent_failure": "Native sideband for ten rows was valid as a store but the MBON32 target was subsequently replaced by regional_current; 1-ms on run stopped at target error 0.041598653486745574. Its off/on exported CNS state, pending sensors, and body integration agreed exactly. No four arms were run.",
+  "operation_change": "Restrict the first validated consumer-sideband interface to the four structurally and statically ordinary final receivers PN10176/10208 and DNa02 10360/523769; no MBON32 or LAL attribution in this round. Native general and PN kernel source and biological equations unchanged from parent. A separate regional-kernel tap remains necessary to attribute MBON32.",
+  "rivals": {
+    "A": "Peripheral/ALLN and filtered PN output lose lateral signal",
+    "B": "Posterior convergence loses PN contrast by the DNa02 consumer",
+    "C": "Basal state/descending readout/body mapping masks a correctly signed DNa02 signal"
+  },
+  "precommitted": {
+    "smoke": "Sham 1 ms observer off/on from the same frozen checkpoint; raw signed net for four rows reproduces target <=1e-9 and rate <=1e-12 at accepted fine-stage, with exact CNS/body/event scientific state. If not, stop.",
+    "full_if_pass": "Four matched arms with 40-ms preparation and 400-ms trial; absolute yaw and four-arm contrasts at fixed 320/400 ms, historical 150-300 ms window unchanged. No stage-3 PASS on differential alone.",
+    "numeric": "Full-state reference error <=1e-4 through interpreted horizon; if not established, physiological conclusion provisional. Output is rate-model signed input, not pA."
+  },
+  "budgets": {
+    "organism_smoke_1ms_max": 2,
+    "organism_full_400ms_max": 4,
+    "reference_20ms_max": 2,
+    "wall_single_full_s_max": 2050,
+    "wall_total_s_max": 9000,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "full_prototypes_max": 1,
+    "ChatGPT_new_messages_max": 0,
+    "Jev_paid_calls_max": 0
+  },
+  "stop": "Stop at first failed gate or exhaustion; no tolerance relaxation or biology tuning."
+}

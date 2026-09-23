@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-flow-static-addendum-20260923](reviews/stage3-flow-static-addendum-20260923-9a4d5667aa3c/README.md)
+[stage3-native-tap-event-domain-20260923](reviews/stage3-native-tap-event-domain-20260923-56694921d707/README.md)
 
-Addendum estático: receptor APL omitido, anatomía PN bilateral, evaluación de tres consejos y kernel FP64 genérico faltante en paquete anterior. Sin nuevas corridas de organismo ni admisión de etapa 3.
+Organismo real protegido: tap FP64 PN/DNa02 validado 1 ms on/off exacto; sham largo detenido a 79 ms por filtro KC 1+1 ulp. Código de kernels, evento, recibos y prefijo de flujo; sin cuatro brazos ni admisión de etapa 3.
