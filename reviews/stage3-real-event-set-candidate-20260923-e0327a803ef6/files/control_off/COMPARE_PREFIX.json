@@ -1,0 +1,41 @@
+{
+  "schema": "stage3_sham_native_tap_off_prefix_comparison_v1",
+  "on_complete_trial_ms": 79,
+  "off_complete_trial_ms": 79,
+  "off_status": "INCOMPLETE",
+  "prefix_fields_total": 31,
+  "prefix_bitwise_equal": true,
+  "different_fields": [],
+  "same_failure_receipt": true,
+  "on_failure": {
+    "message": "accepted event state outside domain",
+    "scope": "attempted fine endpoint before rollback",
+    "out_of_domain_count": 1,
+    "sample_indices": [
+      28296
+    ],
+    "sample_values": [
+      1.0000000000000002
+    ],
+    "attempted_clock_s": [
+      0.0,
+      4.486788730489399e-06
+    ]
+  },
+  "off_failure": {
+    "message": "accepted event state outside domain",
+    "scope": "attempted fine endpoint before rollback",
+    "out_of_domain_count": 1,
+    "sample_indices": [
+      28296
+    ],
+    "sample_values": [
+      1.0000000000000002
+    ],
+    "attempted_clock_s": [
+      0.0,
+      4.486788730489399e-06
+    ]
+  },
+  "scope": "Prefix of 40 prep + 79 trial observations. Equality does not prove same unobserved step80 internals."
+}

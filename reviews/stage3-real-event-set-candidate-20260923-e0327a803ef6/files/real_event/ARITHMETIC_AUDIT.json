@@ -1,0 +1,15 @@
+{
+  "schema": "failed_event_arithmetic_audit_v1",
+  "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_evento_20260923_06/full_sham_capture_01/DOMAIN_CAPTURE.json",
+  "owner_port_inputs_exact": true,
+  "high_precision_encoded_q": "1.0000000000000001773395662926918234462679024681783358604581193441882360564781843",
+  "high_precision_minus_one": "1.773395662926918234462679024681783358604581193441882360564781843E-16",
+  "event_post_q_from_encoded_values": [
+    "1.0000000000000001773395662926918234462679024681783358604581193441882360564781843"
+  ],
+  "port_cpu_formula": 1.0000000000000002,
+  "owner_numpy_at_q": 1.0000000000000002,
+  "attempted_fine_q": 1.0000000000000002,
+  "classification": "ENCODED_EVENTS_ABOVE_DOMAIN_IN_HIGH_PRECISION",
+  "scope": "80-digit Decimal evaluation of stored binary64 inputs. Does not reveal the exact physiological continuous state or validate a correction."
+}

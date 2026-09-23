@@ -1,0 +1,45 @@
+{
+  "schema": "stage3_set_one_ms_parent_screen_v1",
+  "limit_continuous_abs": 0.0001,
+  "screen_pass": true,
+  "hybrid_state_max_abs": 1.1102230246251565e-16,
+  "exact_body_and_pending": {
+    "('body', 'integration')": true,
+    "('pending_sensors',)": true
+  },
+  "event_counts_exact": {
+    "blocks": true,
+    "events": true,
+    "global_trials": true
+  },
+  "trace_max_abs": {
+    "sensores_usados": 0.0,
+    "sensores_pendientes": 0.0,
+    "antenas_mm": 0.0,
+    "concentracion_campo": 0.0,
+    "ORN_q_L": 0.0,
+    "ORN_q_R": 0.0,
+    "ORN_filters": 0.0,
+    "PN_q_legacy": 0.0,
+    "PN_general_transmission": 0.0,
+    "PN_gamma_nS": 0.0,
+    "PN_additional_nS": 0.0,
+    "DN_q_actual": 0.0,
+    "DN_q_usada": 0.0,
+    "DN_baseline": 0.0,
+    "command_forward_mm_s": 0.0,
+    "command_yaw_rate_rad_s": 0.0,
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "position_mm": 0.0,
+    "yaw_delta_deg": 0.0,
+    "upright": 0.0,
+    "normal_force_N": 0.0,
+    "contact_force_N": 0.0,
+    "generalized_force_native": 0.0,
+    "energy_motor_J": 0.0
+  },
+  "changed_discrete_fields": [],
+  "clock_exact": true,
+  "scope": "One-ms matched-sham numerical screen only; mixed trace units reported separately, no 130/400-ms guarantee."
+}

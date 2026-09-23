@@ -1,0 +1,142 @@
+{
+  "format_version": 2,
+  "label": "stage3-real-event-set-candidate-20260923",
+  "description": "Evento real KC41645: post físico exacto 1, historia ADD codifica 1+1,77e-16 y bloquea CNS; control on/off igual. Candidato SET/ADD CPU+CUDA con fixtures y smoke1ms aprobados, sham130ms aún en ejecución; sin cuatro brazos ni PASS.",
+  "files": [
+    {
+      "path": "real_event/README.md",
+      "bytes": 3081,
+      "sha256": "ff189ef87167cf5ea4cf3e68d623b64b2097c3b415ad724507d8d689f7690768"
+    },
+    {
+      "path": "real_event/PLAN.json",
+      "bytes": 1702,
+      "sha256": "f5955ec19619af626b8d85e7838d35a43edf9bd21bdc51df6eb1914184ec89ea"
+    },
+    {
+      "path": "real_event/capture_event.py",
+      "bytes": 4015,
+      "sha256": "807b87a1a1fbd3e827b93a0f0fc07b4cff2fd4152871150f53287098c4b03bf4"
+    },
+    {
+      "path": "real_event/analyze_capture.py",
+      "bytes": 2504,
+      "sha256": "a826098d7fbe93f57f3211a15de4e2922ad1743780fba7d260209738a7faa548"
+    },
+    {
+      "path": "real_event/close_capture.py",
+      "bytes": 4339,
+      "sha256": "f661ed20be17b1d3abae7ebca10b4084791578befa80f1aa6adbdd487980622b"
+    },
+    {
+      "path": "real_event/CLOSE.json",
+      "bytes": 2203,
+      "sha256": "1072c4f3e20774d0ddb2585d93b6b5b652277a6e413136a401a672944443a498"
+    },
+    {
+      "path": "real_event/DOMAIN_CAPTURE.json",
+      "bytes": 1429,
+      "sha256": "8e1acf2b2fcae8182afc6aed77c1cb58bf43ae0651eae18744a21aef2c60e8c2"
+    },
+    {
+      "path": "real_event/RUN_RESULT.json",
+      "bytes": 8253,
+      "sha256": "50826b472525c618fb23bb8507109643321aa2762901c0268a08f6f3f8f9b1f7"
+    },
+    {
+      "path": "real_event/ARITHMETIC_AUDIT.json",
+      "bytes": 901,
+      "sha256": "cc49692b99ad9996285f708b5fde57bad7c7fd67400d9741713b93bb2256d12b"
+    },
+    {
+      "path": "real_event/REAL_EVENT_CASE.json",
+      "bytes": 391,
+      "sha256": "7c01ee16c525be64772fbba73adbca76ffd583d164df8a5da24b853550cfa327"
+    },
+    {
+      "path": "review/chatgpt_auditar_evento.py",
+      "bytes": 11013,
+      "sha256": "ec6d598960a21b9c8b2a2d5f2e2ae48874aca54f3a9fdf1de1d0563aeb9a16a0"
+    },
+    {
+      "path": "review/REAL_CASE_RESULT.json",
+      "bytes": 1056,
+      "sha256": "4d1f4eb62dd93bb5094cac7ef535360e066c675d66e87ca70c1abddeda4c1f5b"
+    },
+    {
+      "path": "review/CHATGPT_REVIEW.md",
+      "bytes": 18800,
+      "sha256": "b4a82aa73d6004fb98dcb4f4a6d231322364d097beef1832b5a98f402e11f3ac"
+    },
+    {
+      "path": "control_off/README.md",
+      "bytes": 1842,
+      "sha256": "827222aac70c89e34b2dc7a693af4d28fc0af8bd99ab870dad1d0193e19304b8"
+    },
+    {
+      "path": "control_off/COMPARE_PREFIX.json",
+      "bytes": 1058,
+      "sha256": "a141beac6e1982f8b56a5b6ab3bb2c4f114c0004c3a267d6cd18b4c7150c5462"
+    },
+    {
+      "path": "candidate/PLAN.json",
+      "bytes": 2421,
+      "sha256": "fd1a94dee0c02bd2b85a2a0f82cdebd6b4cab8654a683d8c0122eae17158bc71"
+    },
+    {
+      "path": "candidate/event_waveform.py",
+      "bytes": 7007,
+      "sha256": "2549fb0ca90afa90020d1dcd533e59a32fc59f0eee12605919832730e33f3feb"
+    },
+    {
+      "path": "candidate/event_coupling.py",
+      "bytes": 6040,
+      "sha256": "211312c0ec48e7c45d0c2e62cf9a9d28dd8e894e5746ef7b17188a9c0543edd8"
+    },
+    {
+      "path": "candidate/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "candidate/run_set.py",
+      "bytes": 10169,
+      "sha256": "e165b0eb5e742ebea42517ee2d2ef47bc33f7302bb8dc873f06a21b20d5643a7"
+    },
+    {
+      "path": "candidate/test_set_cpu.py",
+      "bytes": 3589,
+      "sha256": "29f03060a8b2ff752559799739dba54d9dd3c8d0c77e6fd390c310bec93ce034"
+    },
+    {
+      "path": "candidate/test_set_gpu.py",
+      "bytes": 2854,
+      "sha256": "322819398c9928d3e051c730bfd6cfc5683a78585ecdf7b36208a3ed78b3aa3b"
+    },
+    {
+      "path": "candidate/CPU_FIXTURE.json",
+      "bytes": 470,
+      "sha256": "e5fa540b3a56ce4ab0cdc3235cea66cd9e14ef45b562abc94584e8224827bdc0"
+    },
+    {
+      "path": "candidate/GPU_FIXTURE.json",
+      "bytes": 371,
+      "sha256": "a1c6fe8aab73a35576d6d3cc1e9eeab63cbeb45c7d41f61c088537cf6a48e857"
+    },
+    {
+      "path": "candidate/compare_smoke_parent.py",
+      "bytes": 3373,
+      "sha256": "00b10c9a08b843401482fe5c629f9f321ada0394e81c5e9cbe1d17ae5dcd0e8d"
+    },
+    {
+      "path": "candidate/SMOKE_PARENT_COMPARE.json",
+      "bytes": 1218,
+      "sha256": "688793025e0b91f661305f22e5097929536643cb178770003caaeb6f4b9e0675"
+    },
+    {
+      "path": "candidate/SMOKE_RESULT.json",
+      "bytes": 3269,
+      "sha256": "fb7b9afc826954af3315246642897cf4d55996b7527be34ec20e181bdc5feb3c"
+    }
+  ]
+}

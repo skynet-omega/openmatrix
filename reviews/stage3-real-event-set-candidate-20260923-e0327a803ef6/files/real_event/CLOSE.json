@@ -1,0 +1,46 @@
+{
+  "schema": "stage3_actual_failed_event_causal_receipt_v1",
+  "classification": "EVENT_POST_VALUE_LOST_IN_ADD_ENCODING",
+  "stage3_pass": null,
+  "organism_run": {
+    "preparation_ms": 40,
+    "trial_ms": 79,
+    "failure": "accepted event state outside domain",
+    "failed_row": 28296,
+    "bodyId": 41645,
+    "event_slot": 109,
+    "attempted_q": 1.0000000000000002
+  },
+  "owner_port_inputs_exact": true,
+  "event_producer": "recorded_lif non-gamma KC; row absent from 1557 spatial gamma rows",
+  "source_lif_formula": {
+    "q0": 0.8061807853958571,
+    "tau_s": 0.02426011860370636,
+    "duration_s": 0.000125,
+    "event_time_s": 4.486788730489399e-06,
+    "value_at_interval_end_before_event": 0.8020376305223601,
+    "before_event": 0.8060317000408272,
+    "effective_jump": 0.19396829995917275,
+    "post_event_from_source": 1.0
+  },
+  "encoded_history_minus_one_high_precision": "1.773395662926918234462679024681783358604581193441882360564781843E-16",
+  "independent_replays": {
+    "local": "ENCODED_EVENTS_ABOVE_DOMAIN_IN_HIGH_PRECISION",
+    "ChatGPT_code_actual_case": 1.0000000000000002,
+    "ChatGPT_code_sha256": "ec6d598960a21b9c8b2a2d5f2e2ae48874aca54f3a9fdf1de1d0563aeb9a16a0"
+  },
+  "budget": {
+    "organism_full_used": 1,
+    "arithmetic_replays_used": 2
+  },
+  "limits": "Proof concerns this source LIF event representation and failed KC port. A production SET/ADD change still needs independent state/event/numerical validation; the failure state is not resumable.",
+  "sha256": {
+    "PLAN.json": "f5955ec19619af626b8d85e7838d35a43edf9bd21bdc51df6eb1914184ec89ea",
+    "capture_event.py": "807b87a1a1fbd3e827b93a0f0fc07b4cff2fd4152871150f53287098c4b03bf4",
+    "run_capture.py": "b12df840aca2523d884654deb29ac9ab3405481e6340b1fda1da77149992ad64",
+    "full_sham_capture_01/DOMAIN_CAPTURE.json": "8e1acf2b2fcae8182afc6aed77c1cb58bf43ae0651eae18744a21aef2c60e8c2",
+    "ARITHMETIC_AUDIT.json": "cc49692b99ad9996285f708b5fde57bad7c7fd67400d9741713b93bb2256d12b",
+    "REAL_EVENT_CASE.json": "7c01ee16c525be64772fbba73adbca76ffd583d164df8a5da24b853550cfa327",
+    "chatgpt_real_case_01/RESULTADO.json": "4d1f4eb62dd93bb5094cac7ef535360e066c675d66e87ca70c1abddeda4c1f5b"
+  }
+}

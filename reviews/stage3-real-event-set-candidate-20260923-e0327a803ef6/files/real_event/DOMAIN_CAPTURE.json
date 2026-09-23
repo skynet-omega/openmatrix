@@ -1,0 +1,60 @@
+{
+  "schema": "failed_kc_event_port_pre_rollback_v1",
+  "scope": "Failure-only diagnostic. No accepted endpoint or resumable checkpoint.",
+  "error": "accepted event state outside domain",
+  "native_diagnostic": {
+    "message": "accepted event state outside domain",
+    "scope": "attempted fine endpoint before rollback",
+    "out_of_domain_count": 1,
+    "sample_indices": [
+      28296
+    ],
+    "sample_values": [
+      1.0000000000000002
+    ],
+    "attempted_clock_s": [
+      0.0,
+      4.486788730489399e-06
+    ]
+  },
+  "row": 28296,
+  "event_slot": 109,
+  "port_q_row": 28296,
+  "port_s_row": 206054,
+  "clock_s": [
+    0.0,
+    4.486788730489399e-06
+  ],
+  "query_time_s": 4.486788730489399e-06,
+  "port": {
+    "q0": 0.8061807853958571,
+    "s0": 0.8830133842861765,
+    "tau_q_s": 0.02426011860370636,
+    "tau_s_s": 0.005,
+    "count": 1,
+    "times_s": [
+      4.486788730489399e-06
+    ],
+    "jumps": [
+      0.19396829995917275
+    ],
+    "projected_q_cpu_formula": 1.0000000000000002
+  },
+  "owner": {
+    "q0": 0.8061807853958571,
+    "s0": 0.8830133842861765,
+    "tau_q_s": 0.02426011860370636,
+    "tau_s_s": 0.005,
+    "duration_s": 0.000125,
+    "times_s": [
+      4.486788730489399e-06
+    ],
+    "jumps": [
+      0.19396829995917275
+    ],
+    "at_q_cpu": 1.0000000000000002,
+    "at_s_cpu": 0.882944402010413
+  },
+  "attempted_fine_q": 1.0000000000000002,
+  "attempted_full_q": 1.0000000000000002
+}

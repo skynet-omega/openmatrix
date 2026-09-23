@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-native-tap-event-domain-20260923](reviews/stage3-native-tap-event-domain-20260923-56694921d707/README.md)
+[stage3-real-event-set-candidate-20260923](reviews/stage3-real-event-set-candidate-20260923-e0327a803ef6/README.md)
 
-Organismo real protegido: tap FP64 PN/DNa02 validado 1 ms on/off exacto; sham largo detenido a 79 ms por filtro KC 1+1 ulp. Código de kernels, evento, recibos y prefijo de flujo; sin cuatro brazos ni admisión de etapa 3.
+Evento real KC41645: post físico exacto 1, historia ADD codifica 1+1,77e-16 y bloquea CNS; control on/off igual. Candidato SET/ADD CPU+CUDA con fixtures y smoke1ms aprobados, sham130ms aún en ejecución; sin cuatro brazos ni PASS.

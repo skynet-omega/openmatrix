@@ -1,0 +1,23 @@
+{
+  "schema": "stage3_failed_event_capture_prospective_v1",
+  "recorded_utc": "2026-09-23T05:55:00Z",
+  "parent": "campanas/etapa3_evento_20260923_05",
+  "observed_control": "Observer-on and observer-off sham both stopped at trial 79ms after 40ms preparation, same KC index28296 and value1.0000000000000002; all 119 preceding trace samples bitwise identical.",
+  "objective": "Capture only on the first native domain failure, before the error leaves the event owner, the indexed KC q/s initial state, tau, ordered effective jumps/times, CUDA port inputs, attempted fine endpoint and clock. No biological calculation or acceptance change; failed state remains non-resumable.",
+  "rivals": {
+    "A": "Port's FP64 superposition of physically clipped jump overshoots one ulp; CPU/GPU evaluation of recorded actual event must reproduce it.",
+    "B": "Jump producer itself supplied inconsistent amplitude or timing; actual owner event vs port arrays disagree or both violate the mathematical clip by more than rounding.",
+    "C": "Another state operator or recurrent stiffness causes the violation; indexed coordinate not controlled by the port, or independent event replay stays inside bounds."
+  },
+  "control": "Same sham, checkpoint, engine, 40ms prep, 400ms requested trial as prior off run; failure hook runs only after native rejection and rethrows original exception.",
+  "budgets": {
+    "organism_full_sham_max":1,
+    "wall_s_max":700,
+    "RAM_GiB_max":18,
+    "GPU_GiB_max":12,
+    "fixture_after_capture_max":2,
+    "ChatGPT_new_messages_max":0,
+    "Jev_paid_calls_max":0
+  },
+  "stop": "One attempt. If failure differs, preserve it and do not patch biology, state bounds or tolerances."
+}
