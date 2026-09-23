@@ -1,0 +1,577 @@
+{
+  "format_version": 2,
+  "label": "stage3-pn629-four-arm-20260923",
+  "description": "Completed four-condition PN629 intervention and physical-state/command factorial. Exploratory, no Stage3 admission; portable behavioral analysis only.",
+  "files": [
+    {
+      "path": "campaign/ANALYSIS_LINEAGE.json",
+      "bytes": 352,
+      "sha256": "8c19505f9f84dce9ff506a9812b651722056726d04a475659b21ece845835cbf"
+    },
+    {
+      "path": "campaign/BODY_FACTORIAL_PLAN.json",
+      "bytes": 1262,
+      "sha256": "8ff938e8836561787dbb7dc900efa195fc8cb92ab830510fdff12f6e67023d4e"
+    },
+    {
+      "path": "campaign/CAPTURE_NEUTRALITY.json",
+      "bytes": 2422,
+      "sha256": "8a691e157d7427b0a318477ab4142ae05d73606a341099b980cfcbac6592e954"
+    },
+    {
+      "path": "campaign/CHATGPT_CODE_REPRO.json",
+      "bytes": 1871,
+      "sha256": "aa8de5ab98922ace7347a9fa10363e3513b104a733c991a75cce00f0ae786a1a"
+    },
+    {
+      "path": "campaign/CHATGPT_DELIVERY.json",
+      "bytes": 149,
+      "sha256": "0277755d5a70f2c3bbfa99637a8663490fdd2d1c27436f397640576dd51922fd"
+    },
+    {
+      "path": "campaign/CHATGPT_REQUEST.md",
+      "bytes": 3234,
+      "sha256": "15e606bea61c567414384ffe59cad6b5bf3d3de12da0869cc6da781a901b528a"
+    },
+    {
+      "path": "campaign/CHATGPT_RESPONSE.md",
+      "bytes": 16246,
+      "sha256": "96038a852e5006969ebbc8ff09a2d97a302939c0c168cc3a97d1738a994b410c"
+    },
+    {
+      "path": "campaign/CHATGPT_REVIEW.md",
+      "bytes": 2264,
+      "sha256": "2ea8e279c6de2edb24db250658c6ed364071ef81c385a14e210290fc78b8ed5b"
+    },
+    {
+      "path": "campaign/CLOSE.json",
+      "bytes": 39742,
+      "sha256": "8c31d9247b72fd20368abaad29f012690aaec69e1dff3b5fa3dc57ca5c41bc02"
+    },
+    {
+      "path": "campaign/LONG_DIAGNOSTIC.json",
+      "bytes": 45565,
+      "sha256": "1a310a878a3d319435f77ca2553ddeec1f8cc69eb32231022cd1cdf8fd157d0a"
+    },
+    {
+      "path": "campaign/ORIENTATION_SCOPE_ANTECEDENT.md",
+      "bytes": 2645,
+      "sha256": "e531b2f400156d81c4f58cc6765e4be5c1667c4b1a8bada2f79bd6885764a34a"
+    },
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2633,
+      "sha256": "a33ac1bd9ee04edebb607c1faf89bd0066c1a5fcafa73269f7b14b4ba844f7ac"
+    },
+    {
+      "path": "campaign/PREPARATION_COMPARE.json",
+      "bytes": 577,
+      "sha256": "c95299644b0c329558c2a7867396bce0b35312137fb8163fe5bb1dad643b9676"
+    },
+    {
+      "path": "campaign/README.md",
+      "bytes": 3680,
+      "sha256": "6a69200ab50e21118ea8b62969e78e5abe898a0d435f68fb21c78fc9e9cf9101"
+    },
+    {
+      "path": "campaign/RESULTS.md",
+      "bytes": 1723,
+      "sha256": "0fcf5d08b62adb5e63354a1b5a2e8a54d06c274845d3f8ff2d6530034cb8ffb4"
+    },
+    {
+      "path": "campaign/REVIEW_PLAN.json",
+      "bytes": 1136,
+      "sha256": "eb9f72e95ee9f4cc6386dc073d90086c48d44a12864cec25aa50b30f0880477e"
+    },
+    {
+      "path": "campaign/RIGHT_DECISION.json",
+      "bytes": 179,
+      "sha256": "fdd25844a39f240c0054bb462ef3a90904a08a9c71d54687a0effb2244bbc99b"
+    },
+    {
+      "path": "campaign/analyze_long.py",
+      "bytes": 10012,
+      "sha256": "31b8efe4a7fb82e086e990be51acdd43a25b2f831efdcef0cb06c0364c87db84"
+    },
+    {
+      "path": "campaign/body_factorial.py",
+      "bytes": 3904,
+      "sha256": "a09419722eb9ad262de42bcda91863afb5da5e920b57a40ee1f4c992b9eac590"
+    },
+    {
+      "path": "campaign/body_factorial_01/RESULT.json",
+      "bytes": 10058,
+      "sha256": "1b32971b68848062e29b6eb9880076386c85e23df5d99a94e8b18c36b649ef25"
+    },
+    {
+      "path": "campaign/body_factorial_01/child_state__child_command/RESULT.json",
+      "bytes": 1891,
+      "sha256": "8124f76287e038f502dfdee7d21a950dd994a9fc28c6151331011530e141008c"
+    },
+    {
+      "path": "campaign/body_factorial_01/child_state__child_command/trace.npz",
+      "bytes": 626180,
+      "sha256": "b94e268820e68c733b9d302c8a5a306551b11ac7fe0051c54737a1772cd327d7"
+    },
+    {
+      "path": "campaign/body_factorial_01/child_state__parent_command/RESULT.json",
+      "bytes": 1893,
+      "sha256": "d3a72983d38acf3706004451e5f429c737b6644b4df78aa34645fba8485425fc"
+    },
+    {
+      "path": "campaign/body_factorial_01/child_state__parent_command/trace.npz",
+      "bytes": 626325,
+      "sha256": "36656ae0a878bd59c93c1a6e34768970b92dece4b8b4bb1199d24aa7f3508b89"
+    },
+    {
+      "path": "campaign/body_factorial_01/parent_state__child_command/RESULT.json",
+      "bytes": 1895,
+      "sha256": "7ff7121fa0ad00df947b335993999118534f80979c65c0f35869a0d8663116e2"
+    },
+    {
+      "path": "campaign/body_factorial_01/parent_state__child_command/trace.npz",
+      "bytes": 626133,
+      "sha256": "4ecd26061f0cbc9aeb80204238af110a3a2fba34dc4aeedda44461f0e217849b"
+    },
+    {
+      "path": "campaign/body_factorial_01/parent_state__parent_command/RESULT.json",
+      "bytes": 1891,
+      "sha256": "b6bf18f10a16158a8478e1f482038e296b19f5c733c36c4118e3877bba6fc3ad"
+    },
+    {
+      "path": "campaign/body_factorial_01/parent_state__parent_command/trace.npz",
+      "bytes": 626238,
+      "sha256": "6d0ba1d5f317ee4c0932d073793722d5d70e11859ae99666b85867cf6441425d"
+    },
+    {
+      "path": "campaign/chatgpt_verificador_original.py",
+      "bytes": 10426,
+      "sha256": "51ae660168bdfd4ba9595cf7362c6492354a708b93e3835d4f6c7f93c6e3ff54"
+    },
+    {
+      "path": "campaign/close.py",
+      "bytes": 5490,
+      "sha256": "d373476f398ece1808e6b17a6b2103e48939940cd66fd3f849de7ac4ab442a6e"
+    },
+    {
+      "path": "campaign/compare_preparation.py",
+      "bytes": 1538,
+      "sha256": "42caf8f363c6ee6e05a0f6ed15af66ac6ad59a74d5c091f7b8c978421f17663a"
+    },
+    {
+      "path": "campaign/compare_smoke.py",
+      "bytes": 3080,
+      "sha256": "06141f04036501deb838b39f2d3c286f64bdcd7666702e5a6aa0ea1c5f4869d5"
+    },
+    {
+      "path": "campaign/full_odor_left_01/EVENT_AUDIT.json",
+      "bytes": 8908512,
+      "sha256": "3ef62bed3e65898adf01e0b20f533ac892461d872cacee8c98df17641ea109aa"
+    },
+    {
+      "path": "campaign/full_odor_left_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/full_odor_left_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/full_odor_left_01/PROGRESS.jsonl",
+      "bytes": 71896,
+      "sha256": "8636e5746a0d4a10553003b1601e04eb990f654c9a0df0461ec9e13a6f6a99c0"
+    },
+    {
+      "path": "campaign/full_odor_left_01/RESULT.json",
+      "bytes": 3357,
+      "sha256": "175c1cceeb05d25ee08eda15c7550c58eaff72103ccefefd3e8d57402a3a68b5"
+    },
+    {
+      "path": "campaign/full_odor_left_01/RUN_CONTRACT.json",
+      "bytes": 825,
+      "sha256": "57e6ad96b57b3ae80405bd07f6b85f12639f84809ee0ce13dbb7d6cd4734b460"
+    },
+    {
+      "path": "campaign/full_odor_left_01/flow/FLOW.jsonl",
+      "bytes": 440091,
+      "sha256": "26b576119df960b682fe9204df8fe450d1bce3b7924005b4576dcb2da3eff00d"
+    },
+    {
+      "path": "campaign/full_odor_left_01/flow/FLOW.npz",
+      "bytes": 32832,
+      "sha256": "9e506f7143af5cb2f8a99c16729446e75e533191e0d31d4d48113b867d9f8ad7"
+    },
+    {
+      "path": "campaign/full_odor_left_01/flow/METADATA.json",
+      "bytes": 1576,
+      "sha256": "f6898acf15df46ab425b63101ace814292399c781e3efc22101720584f5b9a2f"
+    },
+    {
+      "path": "campaign/full_odor_left_01/flow/RESULT.json",
+      "bytes": 187,
+      "sha256": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7"
+    },
+    {
+      "path": "campaign/full_odor_left_01/traces.npz",
+      "bytes": 5629459,
+      "sha256": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56"
+    },
+    {
+      "path": "campaign/full_odor_right_01/EVENT_AUDIT.json",
+      "bytes": 8909851,
+      "sha256": "5396fff35fe26807f889bdf96bf4234470d016e496f3738887d209b6876d16ab"
+    },
+    {
+      "path": "campaign/full_odor_right_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/full_odor_right_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/full_odor_right_01/PROGRESS.jsonl",
+      "bytes": 72414,
+      "sha256": "93909bf6fb4cc7a5ba343fd854121d65eaea1120d785d6fdcf8e7da27c99836f"
+    },
+    {
+      "path": "campaign/full_odor_right_01/RESULT.json",
+      "bytes": 3360,
+      "sha256": "5b14f10794c7075f30a2d996b40ed2284d05653abfe5aab22550229c1f7b4ab3"
+    },
+    {
+      "path": "campaign/full_odor_right_01/RUN_CONTRACT.json",
+      "bytes": 826,
+      "sha256": "19d618c0ff2cd8f3150af8b1b77da96651ee29508f62f7edee5012cf4deab1cc"
+    },
+    {
+      "path": "campaign/full_odor_right_01/flow/FLOW.jsonl",
+      "bytes": 439486,
+      "sha256": "1d86f15b0d7a7ba70716c358d4e0d5fdd5391c9abb1dcbd0d96cd1de40d4c0a8"
+    },
+    {
+      "path": "campaign/full_odor_right_01/flow/FLOW.npz",
+      "bytes": 32904,
+      "sha256": "cec8386baa273272d2de4d01ed842562620b21abefbd9dbd9cfd11462b98703f"
+    },
+    {
+      "path": "campaign/full_odor_right_01/flow/METADATA.json",
+      "bytes": 1576,
+      "sha256": "f6898acf15df46ab425b63101ace814292399c781e3efc22101720584f5b9a2f"
+    },
+    {
+      "path": "campaign/full_odor_right_01/flow/RESULT.json",
+      "bytes": 186,
+      "sha256": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a"
+    },
+    {
+      "path": "campaign/full_odor_right_01/traces.npz",
+      "bytes": 5633405,
+      "sha256": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3"
+    },
+    {
+      "path": "campaign/full_sham_01/EVENT_AUDIT.json",
+      "bytes": 8843633,
+      "sha256": "6192fc424cbdac91fbc5997e7531e14a5cd9fc31a03a82baff0c14eeb988bac6"
+    },
+    {
+      "path": "campaign/full_sham_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/full_sham_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/full_sham_01/PROGRESS.jsonl",
+      "bytes": 72058,
+      "sha256": "45cd57048e9700ebcd77a9b1cd8d36b649eaf9a4d9ef66c9836c4145f4841c41"
+    },
+    {
+      "path": "campaign/full_sham_01/RESULT.json",
+      "bytes": 3321,
+      "sha256": "9e15d74d2f1c8f3e163171743d85801c0e69b9f8d7bc470799f174ebb933cdab"
+    },
+    {
+      "path": "campaign/full_sham_01/RUN_CONTRACT.json",
+      "bytes": 820,
+      "sha256": "eeab043627fa56d14f8b834088755c45800770e54622440bb49c6bdac5305842"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_motor_nuevo_20260922__organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__PLAN.json",
+      "bytes": 2633,
+      "sha256": "a33ac1bd9ee04edebb607c1faf89bd0066c1a5fcafa73269f7b14b4ba844f7ac"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__device_cell.py",
+      "bytes": 7482,
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__native_cell.py",
+      "bytes": 9297,
+      "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__native_tap.py",
+      "bytes": 9053,
+      "sha256": "b22f879c5cf57e38f91528e4a32b96c6ce018ae21a2536d76e1780b496f6e631"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__physical_events.cu",
+      "bytes": 2537,
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/etapa3_pn629_intervention_20260923_15__run_set.py",
+      "bytes": 12209,
+      "sha256": "bf6482c3bc3f0d5d8bc0ed275f8e9fb7cdeb74cd1736af225c29fe34b6a97336"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/legacy_sources__gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/legacy_sources__gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/legacy_sources__prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/motor13_20260922__block_midpoint.py",
+      "bytes": 10836,
+      "sha256": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/motor14_20260922__event_coupling.py",
+      "bytes": 5993,
+      "sha256": "cb5e69b003963b7fc74e77c33bd668cde84267c15a2b7c349f60404d6a5419ac"
+    },
+    {
+      "path": "campaign/full_sham_01/executed_sources/pipeline_review_20260922__runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "campaign/full_sham_01/flow/FLOW.jsonl",
+      "bytes": 438350,
+      "sha256": "d7c8399c783917224f5f61f6fe52d4ae0e39b2efac351ccb473592627163e1b4"
+    },
+    {
+      "path": "campaign/full_sham_01/flow/FLOW.npz",
+      "bytes": 33349,
+      "sha256": "7d22ce7f7425dabc1328328ef2ee2052192f4b3b88673d0fdba7cc8fac74a837"
+    },
+    {
+      "path": "campaign/full_sham_01/flow/METADATA.json",
+      "bytes": 1576,
+      "sha256": "f6898acf15df46ab425b63101ace814292399c781e3efc22101720584f5b9a2f"
+    },
+    {
+      "path": "campaign/full_sham_01/flow/RESULT.json",
+      "bytes": 187,
+      "sha256": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7"
+    },
+    {
+      "path": "campaign/full_sham_01/traces.npz",
+      "bytes": 5666657,
+      "sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8"
+    },
+    {
+      "path": "campaign/full_uniform_01/EVENT_AUDIT.json",
+      "bytes": 8944442,
+      "sha256": "5a37f079636cdcb7db4839288f3e882b2220231b274a59566db92b5a7d84c59f"
+    },
+    {
+      "path": "campaign/full_uniform_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/full_uniform_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/full_uniform_01/PROGRESS.jsonl",
+      "bytes": 72036,
+      "sha256": "5c94da2bd713db6343465e3e5003d8002b9618a964b0c048eae50e4300108c4c"
+    },
+    {
+      "path": "campaign/full_uniform_01/RESULT.json",
+      "bytes": 3352,
+      "sha256": "0ef9aec35f2265011ce95d6bf08a62929bb37ccceb4561d5945a8de86c0930af"
+    },
+    {
+      "path": "campaign/full_uniform_01/RUN_CONTRACT.json",
+      "bytes": 823,
+      "sha256": "d3a726ff52378a9c2e4867a479f5bf9d5ed0aa10ec765b52b06eb72a95cfb797"
+    },
+    {
+      "path": "campaign/full_uniform_01/flow/FLOW.jsonl",
+      "bytes": 439394,
+      "sha256": "f4ca178c18f7125483d82e360b306e59f52aacb3f43a72c77cb4bc74fb1fa20f"
+    },
+    {
+      "path": "campaign/full_uniform_01/flow/FLOW.npz",
+      "bytes": 33469,
+      "sha256": "881032362066cc48c2f04e6b98ae796c97242d38490591f3028ade9db0838ee3"
+    },
+    {
+      "path": "campaign/full_uniform_01/flow/METADATA.json",
+      "bytes": 1576,
+      "sha256": "f6898acf15df46ab425b63101ace814292399c781e3efc22101720584f5b9a2f"
+    },
+    {
+      "path": "campaign/full_uniform_01/flow/RESULT.json",
+      "bytes": 186,
+      "sha256": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a"
+    },
+    {
+      "path": "campaign/full_uniform_01/traces.npz",
+      "bytes": 5629935,
+      "sha256": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615"
+    },
+    {
+      "path": "campaign/plot_results.py",
+      "bytes": 2012,
+      "sha256": "6b4aca6c016a4868ace96957834bc9126d49ddc7f9d6fe39c951543538a29423"
+    },
+    {
+      "path": "campaign/render_results.py",
+      "bytes": 2541,
+      "sha256": "949324f7e7160fb5ecc4193bfe58d1c0d0d9b2349f919838179070c65c3ba0dc"
+    },
+    {
+      "path": "campaign/run_remaining.py",
+      "bytes": 4344,
+      "sha256": "7a58448ead3a858b80bf5391527159f7c1c0b25c2c6b11d4f6e1f269d832c27a"
+    },
+    {
+      "path": "campaign/smoke_off_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/smoke_off_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/smoke_off_01/RESULT.json",
+      "bytes": 3289,
+      "sha256": "43cd69b8433eb3a36beff32a46b99a138517279856ee53da1749e59a26cab696"
+    },
+    {
+      "path": "campaign/smoke_off_01/RUN_CONTRACT.json",
+      "bytes": 758,
+      "sha256": "b47e4829b23607aa32fcf373be20abee8f7d247569e2f3420e53671f8967d657"
+    },
+    {
+      "path": "campaign/smoke_on_01/FROZEN.json",
+      "bytes": 2204,
+      "sha256": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93"
+    },
+    {
+      "path": "campaign/smoke_on_01/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campaign/smoke_on_01/RESULT.json",
+      "bytes": 3286,
+      "sha256": "0d7f972fe0ccc38e738ce6bfda0f3f5e3078f5a69200464a1ed79fcbbd39b7e9"
+    },
+    {
+      "path": "campaign/smoke_on_01/RUN_CONTRACT.json",
+      "bytes": 816,
+      "sha256": "e29dc34f2e411e3539957b6e09d5d537d997046209f7435aa56c5d3ae0ba1961"
+    },
+    {
+      "path": "campaign/test_readback_corruption.py",
+      "bytes": 1940,
+      "sha256": "15df9dac2294fb58bccc39d4c40ea5222e9409997d696617f064576e49b96f62"
+    },
+    {
+      "path": "campaign/verify_readback.py",
+      "bytes": 3767,
+      "sha256": "12c76cf7c660272715cdd06f8e3a65697e112e36534b8c83f5fa5ed57e19903f"
+    },
+    {
+      "path": "etapa3_largo_diagnostico_20260923_10/full_odor_left_01/traces.npz",
+      "bytes": 5632342,
+      "sha256": "62e9a7b3e7772fb31c1d19a60fa5e9a0817352f7dfcdb786271dad7866e0bd8e"
+    },
+    {
+      "path": "etapa3_largo_diagnostico_20260923_10/full_odor_right_01/traces.npz",
+      "bytes": 5632690,
+      "sha256": "bb8d4ddab243eb7e0b5d6765354b59c8131a05b6ebc5d79a2d46980d55b351e1"
+    },
+    {
+      "path": "etapa3_largo_diagnostico_20260923_10/full_sham_01/traces.npz",
+      "bytes": 5669986,
+      "sha256": "9205ca64ded343335b0ab432d270f92157f0bc5942b272805e6cf0f6429363f9"
+    },
+    {
+      "path": "etapa3_largo_diagnostico_20260923_10/full_uniform_01/traces.npz",
+      "bytes": 5628451,
+      "sha256": "04228ae8e085e646923548f38434585d06e34616b98f5cd9b27a331129fe8f1a"
+    },
+    {
+      "path": "previous_numeric_gate/GATE.json",
+      "bytes": 5162,
+      "sha256": "ebff3939f1d6b4fd10c0a123a0396c08c0c2c920d621e0d429443044e3823cd5"
+    },
+    {
+      "path": "previous_numeric_gate/PLAN.json",
+      "bytes": 2375,
+      "sha256": "f4ff8421acf6cc8643ad964b6151332f0a0a4c94ce87689646c2bdc8ea790cd2"
+    },
+    {
+      "path": "source/body_replay.py",
+      "bytes": 10295,
+      "sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d"
+    }
+  ]
+}

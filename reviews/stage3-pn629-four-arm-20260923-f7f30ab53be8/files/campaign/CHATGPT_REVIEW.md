@@ -1,0 +1,11 @@
+# Revisión externa recibida y código ejecutado
+
+Respuesta `ab087ede-ccda-4851-b78a-26220e3508b2`, conversación autorizada «Investiga el conectoma de mosca». PRO/máximo es el ajuste previamente confirmado por el usuario; la herramienta no muestra el selector. Texto completo en [CHATGPT_RESPONSE.md](CHATGPT_RESPONSE.md), fuente preservada en [chatgpt_verificador_original.py](chatgpt_verificador_original.py).
+
+ChatGPT leyó fuentes y recibos textuales del paquete parcial, pero declaró que no descargó el ZIP ni ejecutó los NPZ, CUDA o el organismo. Propuso A, calificación funcional prospectiva; B, perfil con membrana global; C, reparación de semántica de eventos. No declara etapa3 superada y conserva el FAIL anterior. Su límite0,002° contrasta discretizaciones; no demuestra error frente a la solución exacta ni equivalencia biológica.
+
+Su observación causal es pertinente: la mejora absoluta del derecho es−0,05909044°, mientras el contraste derecho−sham cambia−0,00717020°. El cambio principal puede ser una reducción de sesgo común. El factorial corporal identifica transmisión por comandos, sin demostrar que se reparó la selectividad PN ni sustituir la retirada en lazo cerrado.
+
+Codex ejecutó aquí su fuente **sin modificar** sobre la traza derecha real para comprobar el lector/formato y la identidad de una traza consigo misma. También rechazó un transitorio artificial0,0021° y comandos artificiales que se cancelan en el total pero discrepan en valor absoluto. [Recibo con hashes](CHATGPT_CODE_REPRO.json). Son controles del verificador sobre datos reales; no son una comparación de motores. Las ocho pruebas CPU declaradas por ChatGPT no se presentaron como reproducidas aquí.
+
+La nueva confirmación tiene contrato separado en `../etapa3_funcional_20260923_16/PLAN.json`, registrado antes de referencias largas. La campaña15 permanece exploratoria. Se conservan además las condiciones mecánicas anteriores de apoyo, que el verificador externo sólo comprueba de forma elemental, y queda pendiente la retirada angular acoplada y la continuación propia. No exigir identificación fisiológica única del lector para una afirmación funcional acotada; declarar expresamente su escala efectiva y sus límites.

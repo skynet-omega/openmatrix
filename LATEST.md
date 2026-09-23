@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-functional-preregistered-20260923](reviews/stage3-functional-preregistered-20260923-1ad133c15d61/README.md)
+[stage3-pn629-four-arm-20260923](reviews/stage3-pn629-four-arm-20260923-f7f30ab53be8/README.md)
 
-Prospective query-specific numerical and causal qualification contract; no long reference data observed.
+Completed four-condition PN629 intervention and physical-state/command factorial. Exploratory, no Stage3 admission; portable behavioral analysis only.
