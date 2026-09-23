@@ -1,0 +1,21 @@
+{
+  "historical_PFG_first_consumed_sensors": [
+    0.5908807212951595,
+    0.5823324878680773,
+    0.0
+  ],
+  "current_loaded_pending_sensors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "current_causal_smoke_first_consumed_sensors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "same_checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "historical_trace_sha256": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b",
+  "current_smoke_trace_sha256": "1936fab80e965e4342f3d9ec11987b4650b96bdf7e350662c44cc8933fc40416",
+  "comparison_limit": "Different pipelines and interventions: this establishes exposure mismatch, not causal effect of the pulse."
+}

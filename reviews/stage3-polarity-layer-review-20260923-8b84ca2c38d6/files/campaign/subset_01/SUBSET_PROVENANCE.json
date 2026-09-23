@@ -1,0 +1,22 @@
+{
+  "schema": "stage3_review_subset_v1",
+  "source_sha256": {
+    "nodes": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "node_ids": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "odor_left": "0443b1725b1a042f2921a63d2b4743364f300cc62437ef0ea5e39d4c4cf04ac1",
+    "odor_right": "0732e210898a19b2cb15acc7c105723bbd56f566026e91a0b3c502e1dd6e4c57",
+    "uniform": "0f5553499e79df9d5dec5b1e4a8c9191759f57e39f482f79cd1c944fabd5f6e2",
+    "sham": "4f07557d3a7ff7fc2df6c0d36693886162bed7719a9c2767aa473cfc905720ae"
+  },
+  "subset_cells": 9483,
+  "focus": [
+    "ORN_DM1",
+    "DM1_lPN",
+    "MBON32",
+    "LAL170",
+    "LAL171",
+    "DNa02"
+  ],
+  "scope": "Lossless subset of stored q samples; no edge transmission, current-pipeline state or causal simulation.",
+  "post_hoc_status": "Focus readback chosen after broad group analysis; do not use as confirmatory selection."
+}

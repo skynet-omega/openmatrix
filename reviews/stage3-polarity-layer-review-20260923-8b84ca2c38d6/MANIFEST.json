@@ -1,0 +1,92 @@
+{
+  "format_version": 2,
+  "label": "stage3-polarity-layer-review-20260923",
+  "description": "Cuatro trazas reales del modelo completo: contraste ORN-DM1/PN/MBON/LAL/DNa02, subconjunto q anatómico portátil, código de reconstrucción, controles de historia y recibo Jev. Etapa 3 abierta; ninguna causalidad inferida de promedios q.",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "bytes": 5517,
+      "sha256": "92f62e64767fe5942d9bf5b5d287739b260150031df30c3a0d2e656478766cc8"
+    },
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 3564,
+      "sha256": "0d870ea1803d534b91632dc92706fb17152de5522e8d82b4647d9cb7cfbc810b"
+    },
+    {
+      "path": "campaign/analyze_layers.py",
+      "bytes": 7918,
+      "sha256": "f24b49ad14c94afde2c5c90f7c24676fecd7da02fb1989c6435a211d9f3c13f3"
+    },
+    {
+      "path": "campaign/prepare_review_subset.py",
+      "bytes": 3953,
+      "sha256": "edd57fdf8fefdfe22206353015b1308eef609cfdef9c740bf3ceabe3b3bae6ba"
+    },
+    {
+      "path": "campaign/verify_portable.py",
+      "bytes": 2801,
+      "sha256": "c0ea952dfcecad5b54539504981f337e73b8fe88b7f6649252b4af830a0cb9a1"
+    },
+    {
+      "path": "campaign/subset_01/Q_SUBSET.npz",
+      "bytes": 1934352,
+      "sha256": "742346d31df84c0f94884df5e80f402f8e43cddcf95020d6a86220362977cdff"
+    },
+    {
+      "path": "campaign/subset_01/NODES_SUBSET.csv",
+      "bytes": 430054,
+      "sha256": "0bc6b1123c5ee021c92be7345f3afc334323798b1ca5be2b07582335ca4724e8"
+    },
+    {
+      "path": "campaign/subset_01/FOCUS.csv",
+      "bytes": 15834,
+      "sha256": "23d47c35499ca93ea69b1bc4fa77a8975d76f8a15647fb0aeb3b4519fc08e5b2"
+    },
+    {
+      "path": "campaign/subset_01/CONTRASTS.csv",
+      "bytes": 16375,
+      "sha256": "c11c6c7e50cc5d7b10fea86963b3ee36a1ee5baf73f5955f2038a150b25b3fb7"
+    },
+    {
+      "path": "campaign/subset_01/SUBSET_PROVENANCE.json",
+      "bytes": 922,
+      "sha256": "baf9f707cce181924608d6971b83bb8361789322258552d14216746ba5f98aca"
+    },
+    {
+      "path": "campaign/readback_01/RESULT.json",
+      "bytes": 2799,
+      "sha256": "67255e73ccf9ba5009064f9ae34164cafb11451fd761913f0ed56c1c33bb610c"
+    },
+    {
+      "path": "campaign/readback_01/CONTRASTS.csv",
+      "bytes": 16375,
+      "sha256": "c11c6c7e50cc5d7b10fea86963b3ee36a1ee5baf73f5955f2038a150b25b3fb7"
+    },
+    {
+      "path": "campaign/JEV_TASKS.json",
+      "bytes": 1290,
+      "sha256": "575f00c01ca43ba767f981f5b8176bfa3281bc0268fb95987d0a0cabeef27576"
+    },
+    {
+      "path": "campaign/jev_01/receipt.json",
+      "bytes": 706,
+      "sha256": "1b2781a54a7be054df8edc85d2a36ba5774e3f0db0e9190594391f643b32382e"
+    },
+    {
+      "path": "campaign/jev_01/routing.json",
+      "bytes": 729,
+      "sha256": "f168cab77a1c4fa83d9d1fd6541d04a2a0ecbc6c2c73ff495edeaf3b4b34c77b"
+    },
+    {
+      "path": "campaign/context/HISTORY_PORTS.json",
+      "bytes": 694,
+      "sha256": "0d403e1bb07fdce660765c8156a917c73d17c33698fc334099efea86e491e884"
+    },
+    {
+      "path": "campaign/context/HISTORY_LOAD_FINDING.md",
+      "bytes": 2204,
+      "sha256": "6d17f0005885c1c6508e4ab4eb5b117dfcc61dcf1e0da6b8f47aa56e3bbb54aa"
+    }
+  ]
+}

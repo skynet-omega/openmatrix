@@ -1,0 +1,88 @@
+{
+  "schema": "stage3_anatomical_snapshot_contrast_v1",
+  "precommitted_primary_snapshot_ms": 220,
+  "source_limit": "Archived failed PFG branch, one preparation, sparse q snapshots. No causal localization, direct signed synaptic flow, or live-fly match.",
+  "anatomical_limit": "LH/LAL type-prefix groups are candidate sets; CX overlaps some LAL. Soma side is a proxy beyond ORN and bilateral axons may cross.",
+  "group_metadata": {
+    "ORN": {
+      "total": 2635,
+      "left": 883,
+      "right": 1343,
+      "unknown": 409,
+      "side_semantics": "sensory root"
+    },
+    "ALPN": {
+      "total": 686,
+      "left": 343,
+      "right": 343,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    },
+    "ALLN": {
+      "total": 420,
+      "left": 210,
+      "right": 208,
+      "unknown": 2,
+      "side_semantics": "cell-body proxy"
+    },
+    "LH_type_prefix": {
+      "total": 2028,
+      "left": 1017,
+      "right": 1011,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    },
+    "MBON": {
+      "total": 97,
+      "left": 48,
+      "right": 49,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    },
+    "CX": {
+      "total": 2950,
+      "left": 1479,
+      "right": 1471,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    },
+    "LAL_type_prefix": {
+      "total": 665,
+      "left": 333,
+      "right": 332,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    },
+    "DNa02": {
+      "total": 2,
+      "left": 1,
+      "right": 1,
+      "unknown": 0,
+      "side_semantics": "cell-body proxy"
+    }
+  },
+  "side_provenance": {
+    "root_side_known": 17492,
+    "soma_fallback_known": 148266,
+    "soma_instance_conflicts": 0,
+    "root_instance_conflicts_excluded": 1
+  },
+  "snapshot_observer_max_abs_diff": {
+    "odor_left": 0.0,
+    "odor_right": 0.0,
+    "uniform": 0.0,
+    "sham": 0.0
+  },
+  "input_sha256": {
+    "nodes": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "node_ids": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "odor_left_network": "0443b1725b1a042f2921a63d2b4743364f300cc62437ef0ea5e39d4c4cf04ac1",
+    "odor_left_trace": "51bcc68022ff90a07dcc656cc1fa5196f695535c9c6042665bdbfc5a04b12423",
+    "odor_right_network": "0732e210898a19b2cb15acc7c105723bbd56f566026e91a0b3c502e1dd6e4c57",
+    "odor_right_trace": "57e8b3757f8dc5dafb21ffdae2f4ac95ac6ea0269d2431098c629b1d2e3e9e79",
+    "uniform_network": "0f5553499e79df9d5dec5b1e4a8c9191759f57e39f482f79cd1c944fabd5f6e2",
+    "uniform_trace": "2bb8f259a90c28331f3bce668aad111db68495268403e4c61d7f1952949cfbff",
+    "sham_network": "4f07557d3a7ff7fc2df6c0d36693886162bed7719a9c2767aa473cfc905720ae",
+    "sham_trace": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b"
+  }
+}
