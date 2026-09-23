@@ -1,0 +1,118 @@
+{
+  "schema": "stage3_saved_time_windows_v1",
+  "onset_ms": 11,
+  "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_upstream_pfg_test_20260919/live",
+  "source_hashes": {
+    "odor_left": {
+      "trace": "51bcc68022ff90a07dcc656cc1fa5196f695535c9c6042665bdbfc5a04b12423",
+      "native": "7571918ba43458da2ec1e7e872c564cee20aded958fc6aa6201832181f3f80a9"
+    },
+    "odor_right": {
+      "trace": "57e8b3757f8dc5dafb21ffdae2f4ac95ac6ea0269d2431098c629b1d2e3e9e79",
+      "native": "a53ea82d9a97a2b3f40e80aa63ddae2ffa984c24cc27df583df02e8050e43794"
+    },
+    "uniform": {
+      "trace": "2bb8f259a90c28331f3bce668aad111db68495268403e4c61d7f1952949cfbff",
+      "native": "0a9b082ff874e299ef2c68527c229288071f72be3945213536ff2d936d3fe99c"
+    },
+    "sham": {
+      "trace": "23ed33c65a3e730f44d067e118536bb459384e7f366cc745c4db585e4d96227b",
+      "native": "bf08160c8911e8299fc7aaa441423f579a8fc509e34746fe1014eedaf67f1c02"
+    }
+  },
+  "arms": {
+    "odor_left": {
+      "100": {
+        "end_ms": 111,
+        "yaw_delta_from_onset_deg": -0.21318532932353662,
+        "DNa02_L_minus_R_at_end": -0.0033586231567270903,
+        "native_net_L_minus_R_at_end": 1141.846807328693,
+        "yaw_delta_from_onset_minus_sham_deg": -7.78468528750409e-07
+      },
+      "200": {
+        "end_ms": 211,
+        "yaw_delta_from_onset_deg": -0.21763254153353984,
+        "DNa02_L_minus_R_at_end": -2.477086797664499e-05,
+        "native_net_L_minus_R_at_end": 1809.2292839528964,
+        "yaw_delta_from_onset_minus_sham_deg": -8.113109828400411e-07
+      },
+      "300": {
+        "end_ms": 311,
+        "yaw_delta_from_onset_deg": 0.16251763296694222,
+        "DNa02_L_minus_R_at_end": 0.3032712740609043,
+        "native_net_L_minus_R_at_end": 2894.705669617564,
+        "yaw_delta_from_onset_minus_sham_deg": -0.0034341381443212526
+      }
+    },
+    "odor_right": {
+      "100": {
+        "end_ms": 111,
+        "yaw_delta_from_onset_deg": -0.21318531168637023,
+        "DNa02_L_minus_R_at_end": -0.0033586232774431637,
+        "native_net_L_minus_R_at_end": 1128.3842651131345,
+        "yaw_delta_from_onset_minus_sham_deg": -7.608313623563845e-07
+      },
+      "200": {
+        "end_ms": 211,
+        "yaw_delta_from_onset_deg": -0.21763252426231006,
+        "DNa02_L_minus_R_at_end": -2.4770879944203824e-05,
+        "native_net_L_minus_R_at_end": 2037.605971464758,
+        "yaw_delta_from_onset_minus_sham_deg": -7.940397530603605e-07
+      },
+      "300": {
+        "end_ms": 311,
+        "yaw_delta_from_onset_deg": 0.18527033095870493,
+        "DNa02_L_minus_R_at_end": 0.34691335558850334,
+        "native_net_L_minus_R_at_end": 3373.9767276225757,
+        "yaw_delta_from_onset_minus_sham_deg": 0.019318559847441463
+      }
+    },
+    "uniform": {
+      "100": {
+        "end_ms": 111,
+        "yaw_delta_from_onset_deg": -0.21318613183778723,
+        "DNa02_L_minus_R_at_end": -0.003358654969592517,
+        "native_net_L_minus_R_at_end": 1153.8290901520322,
+        "yaw_delta_from_onset_minus_sham_deg": -1.5809827793589193e-06
+      },
+      "200": {
+        "end_ms": 211,
+        "yaw_delta_from_onset_deg": -0.2176333790683067,
+        "DNa02_L_minus_R_at_end": -2.4771154539552447e-05,
+        "native_net_L_minus_R_at_end": 2016.5850625459152,
+        "yaw_delta_from_onset_minus_sham_deg": -1.6488457497132458e-06
+      },
+      "300": {
+        "end_ms": 311,
+        "yaw_delta_from_onset_deg": 0.17458756625902083,
+        "DNa02_L_minus_R_at_end": 0.34694954532212124,
+        "native_net_L_minus_R_at_end": 3334.4327976457444,
+        "yaw_delta_from_onset_minus_sham_deg": 0.008635795147757364
+      }
+    },
+    "sham": {
+      "100": {
+        "end_ms": 111,
+        "yaw_delta_from_onset_deg": -0.21318455085500787,
+        "DNa02_L_minus_R_at_end": -0.003358593091181265,
+        "native_net_L_minus_R_at_end": 1108.474190419358,
+        "yaw_delta_from_onset_minus_sham_deg": 0.0
+      },
+      "200": {
+        "end_ms": 211,
+        "yaw_delta_from_onset_deg": -0.217631730222557,
+        "DNa02_L_minus_R_at_end": -2.477060904766511e-05,
+        "native_net_L_minus_R_at_end": 1785.0027382942717,
+        "yaw_delta_from_onset_minus_sham_deg": 0.0
+      },
+      "300": {
+        "end_ms": 311,
+        "yaw_delta_from_onset_deg": 0.16595177111126347,
+        "DNa02_L_minus_R_at_end": 0.30541745812864224,
+        "native_net_L_minus_R_at_end": 3146.3641146500595,
+        "yaw_delta_from_onset_minus_sham_deg": 0.0
+      }
+    }
+  },
+  "interpretation": "Exploratory readback of the same 335-ms PFG experiment, not an independent replicate or a new motor run."
+}

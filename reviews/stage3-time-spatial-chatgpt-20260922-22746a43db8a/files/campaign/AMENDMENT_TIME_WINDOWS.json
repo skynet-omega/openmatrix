@@ -1,0 +1,14 @@
+{
+  "time": "2026-09-23T02:08:00Z",
+  "trigger": "La propuesta externa dice que una corrida completa de 200–300 ms decide si el organismo vira hacia el olor; ya existe una corrida completa de 335 ms con los cuatro brazos emparejados.",
+  "question": "¿Qué signo de giro y diferencia DNa02 se observa exactamente a 100, 200 y 300 ms desde el inicio del olor de la corrida conservada?",
+  "preselected_readback": {
+    "onset_ms": 11,
+    "trial_end_ms": [111, 211, 311],
+    "arms": ["odor_left", "odor_right", "uniform", "sham"],
+    "metrics": ["yaw_delta_from_onset_deg", "yaw_delta_from_onset_minus_sham_deg", "DNa02_L_minus_R_at_end", "native_net_L_minus_R_at_end"]
+  },
+  "budget_increment": {"new_full_organism_runs": 0, "CPU_seconds_max": 30, "GPU_seconds": 0},
+  "interpretation_limit": "Readback exploratorio del mismo organismo ya inspeccionado, no prueba independiente, y no corrige el mecanismo PFG descartado.",
+  "stop": "Calcular todos los brazos y ventanas una vez, sin optimizar umbrales ni seleccionar sólo el momento favorable."
+}

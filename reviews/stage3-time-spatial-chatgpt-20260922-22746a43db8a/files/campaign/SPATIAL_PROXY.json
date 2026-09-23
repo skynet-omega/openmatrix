@@ -1,0 +1,72 @@
+{
+  "schema": "spatial_q_change_proxy_v1",
+  "times_ms": [
+    0,
+    1
+  ],
+  "neuron_count": 166700,
+  "outgoing_edge_count": 25582938,
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_upstream_pfg_test_20260919/live/odor_left_network_trace.npz": "0443b1725b1a042f2921a63d2b4743364f300cc62437ef0ea5e39d4c4cf04ac1",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/node_ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40"
+  },
+  "ids_exactly_equal_node_ids": true,
+  "thresholds": [
+    {
+      "threshold_abs_delta_q": 1e-06,
+      "neuron_fraction_above": 0.21045590881823636,
+      "outgoing_edge_fraction_from_above": 0.25476522673040913,
+      "outdegree_weighted_delta_q_fraction_above": 0.9999744487500849
+    },
+    {
+      "threshold_abs_delta_q": 0.0001,
+      "neuron_fraction_above": 0.12107378524295141,
+      "outgoing_edge_fraction_from_above": 0.1766978835659923,
+      "outdegree_weighted_delta_q_fraction_above": 0.9997126451699394
+    },
+    {
+      "threshold_abs_delta_q": 0.001,
+      "neuron_fraction_above": 0.10772645470905819,
+      "outgoing_edge_fraction_from_above": 0.16303975720067804,
+      "outdegree_weighted_delta_q_fraction_above": 0.9979168548607745
+    },
+    {
+      "threshold_abs_delta_q": 0.01,
+      "neuron_fraction_above": 0.0765626874625075,
+      "outgoing_edge_fraction_from_above": 0.11902022355680962,
+      "outdegree_weighted_delta_q_fraction_above": 0.9288309226744047
+    }
+  ],
+  "rank_by_abs_delta_q": [
+    {
+      "selected_neuron_fraction": 0.02,
+      "outgoing_edge_fraction": 0.030508771119251432,
+      "outdegree_weighted_delta_q_fraction": 0.3534245978608337,
+      "min_selected_abs_delta_q": 0.02996356573112391
+    },
+    {
+      "selected_neuron_fraction": 0.03,
+      "outgoing_edge_fraction": 0.04610920762892831,
+      "outdegree_weighted_delta_q_fraction": 0.49401079255735547,
+      "min_selected_abs_delta_q": 0.027326002000841856
+    },
+    {
+      "selected_neuron_fraction": 0.05,
+      "outgoing_edge_fraction": 0.07828991337898719,
+      "outdegree_weighted_delta_q_fraction": 0.7359800244778956,
+      "min_selected_abs_delta_q": 0.02006946579767563
+    },
+    {
+      "selected_neuron_fraction": 0.1,
+      "outgoing_edge_fraction": 0.15296304122693022,
+      "outdegree_weighted_delta_q_fraction": 0.9926881218258672,
+      "min_selected_abs_delta_q": 0.0024164967347412025
+    }
+  ],
+  "min_abs_delta_q": 0.0,
+  "median_abs_delta_q": 7.290988879304905e-08,
+  "max_abs_delta_q": 0.3429821724229004,
+  "total_outdegree_weighted_delta_q": 81294.38005433891,
+  "limitation": "q is a continuous modeled source coordinate, not a spike, received current, or an integration eligibility certificate. Degree ignores weights, delays, chemistry, and cancellation. This is one 1-ms interval of one organism."
+}

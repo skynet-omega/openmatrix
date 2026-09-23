@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "label": "stage3-time-spatial-chatgpt-20260922",
+  "description": "Full-organism 100/200/300-ms control readback, one-ms spatial activity proxy, and locally reproduced ChatGPT CPU mathematics; no new organism run or motor promotion.",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "bytes": 13522,
+      "sha256": "c7f639cb11964dbea3ff2bd352cdec46303307aa3babaac1183ca0a0e4788743"
+    },
+    {
+      "path": "campaign/AMENDMENT_TIME_WINDOWS.json",
+      "bytes": 1055,
+      "sha256": "c29e37e95f7cc2115264edfe498309d7433d1945f6ff126cf95344604de6fe3e"
+    },
+    {
+      "path": "campaign/read_time_windows.py",
+      "bytes": 3222,
+      "sha256": "50c452f52eae4fa6fe9829694b131cc8a2bf78456285f550854ccd7ecebe6609"
+    },
+    {
+      "path": "campaign/TIME_WINDOWS.json",
+      "bytes": 4604,
+      "sha256": "824c6091f6ab1aee52dfe2dbcce9449ed2b4ffa3a9afc34bacf23272aa28182d"
+    },
+    {
+      "path": "campaign/AMENDMENT_SPATIAL_PROXY.json",
+      "bytes": 1324,
+      "sha256": "469c574b6027debe5f560369a29cddafbc5a69ba3070916fcc5c5c09ea1ff5bf"
+    },
+    {
+      "path": "campaign/measure_spatial_proxy.py",
+      "bytes": 4487,
+      "sha256": "6814055ae8199dbca2c174a7a823b261e41476520c9c149690bc13c228547e06"
+    },
+    {
+      "path": "campaign/SPATIAL_PROXY.json",
+      "bytes": 2981,
+      "sha256": "ac9d8461ddbf2ccee803e97d28ab22f522c7088a86be4964a6b76a0be4f6c718"
+    },
+    {
+      "path": "campaign/node_ids.npy",
+      "bytes": 1333728,
+      "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f"
+    },
+    {
+      "path": "campaign/outdegree.npy",
+      "bytes": 666928,
+      "sha256": "31bf7c915651378567836dc66912a0668e4d5dc7e8e0a01ec8a8bbd7a0417581"
+    },
+    {
+      "path": "campaign/chatgpt_temporal_cpu.py",
+      "bytes": 12898,
+      "sha256": "c8c3e177424d7d7e16c15e8dd0e67bf34c3f68c55f68e4b9c59dc9795b60bd79"
+    },
+    {
+      "path": "campaign/chatgpt_cpu_run_01/RESULTADO.json",
+      "bytes": 3501,
+      "sha256": "1db769a7c33a227bc6e683fa2c0bec31fa7116e1f512fb45dbdedc0fdb0841ef"
+    },
+    {
+      "path": "campaign/TIME_SPATIAL_SOURCE_DEPENDENCY.json",
+      "bytes": 770,
+      "sha256": "7715731778ef5640014114a78f2253a57ddca48d343e1a1482a9301c3b014547"
+    },
+    {
+      "path": "campaign/TIME_SPATIAL_PORTABLE_VERIFICATION.json",
+      "bytes": 207,
+      "sha256": "7a332431cd046ac5d3a3db50b4b2e4f412cb9c6eab1e2efa820af48606a22fdf"
+    }
+  ]
+}

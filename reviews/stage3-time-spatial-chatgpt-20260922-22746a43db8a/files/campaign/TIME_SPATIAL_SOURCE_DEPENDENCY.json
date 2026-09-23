@@ -1,0 +1,17 @@
+{
+  "main_snapshot_commit": "dfbcff01abf8928ebf0339b63f1d211066e25a8c",
+  "main_snapshot": "reviews/stage3-real-data-preliminary-20260922-d1efd85e9aaa",
+  "required_directory_inside_main_zip": "campaign/traces",
+  "required_files": [
+    "odor_left_trace.npz",
+    "odor_right_trace.npz",
+    "uniform_trace.npz",
+    "sham_trace.npz",
+    "odor_left_native_transmission.npz",
+    "odor_right_native_transmission.npz",
+    "uniform_native_transmission.npz",
+    "sham_native_transmission.npz",
+    "odor_left_network_trace.npz"
+  ],
+  "policy": "Extract the immutable main ZIP, then copy this addendum's scripts, node_ids.npy and outdegree.npy into its campaign directory. Point --source to campaign/traces. Compare result fields independent of absolute source path."
+}

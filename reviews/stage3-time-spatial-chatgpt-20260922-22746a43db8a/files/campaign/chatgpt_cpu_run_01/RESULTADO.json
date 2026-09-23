@@ -1,0 +1,133 @@
+{
+  "estado": "COMPLETO",
+  "plan": {
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "error_externo": 0.0001,
+    "presupuesto_truncacion": 1e-07,
+    "norma_paso": 0.5,
+    "grado_max": 64,
+    "consultas": 51,
+    "cpu_max_s": 60,
+    "ram_max_bytes": 2147483648
+  },
+  "modelos": [
+    {
+      "modelo": "tardio",
+      "segundos": 0.000125,
+      "referencia": "expm",
+      "resultados": {
+        "A": {
+          "error_max": 1.9058000999810226e-11,
+          "cota_max": null,
+          "cota_cubre_muestras_observadas": null,
+          "trabajo": {
+            "rhs": 152,
+            "solve_masa": 152,
+            "solve_masa_matriz": 0,
+            "matvec": 0,
+            "expm": 0,
+            "pasos": 16,
+            "factorizaciones": 16
+          },
+          "pared_s": 0.002428679959848523,
+          "cpu_s": 0.0029544000000000237
+        },
+        "B": {
+          "error_max": 2.04910100172484e-10,
+          "cota_max": 2.136752136752128e-10,
+          "cota_cubre_muestras_observadas": true,
+          "trabajo": {
+            "rhs": 0,
+            "solve_masa": 0,
+            "solve_masa_matriz": 1,
+            "matvec": 11,
+            "expm": 0,
+            "pasos": 5,
+            "factorizaciones": 0
+          },
+          "pared_s": 0.00031431199749931693,
+          "cpu_s": 0.0
+        }
+      }
+    },
+    {
+      "modelo": "masa_recurrente",
+      "segundos": 1.0,
+      "referencia": "expm",
+      "resultados": {
+        "A": {
+          "error_max": 4.907502670903341e-10,
+          "cota_max": null,
+          "cota_cubre_muestras_observadas": null,
+          "trabajo": {
+            "rhs": 372,
+            "solve_masa": 372,
+            "solve_masa_matriz": 0,
+            "matvec": 0,
+            "expm": 0,
+            "pasos": 44,
+            "factorizaciones": 24
+          },
+          "pared_s": 0.005536756012588739,
+          "cpu_s": 0.0
+        },
+        "B": {
+          "error_max": 1.355762761316252e-09,
+          "cota_max": 1.4475417170056844e-08,
+          "cota_cubre_muestras_observadas": true,
+          "trabajo": {
+            "rhs": 0,
+            "solve_masa": 0,
+            "solve_masa_matriz": 1,
+            "matvec": 44,
+            "expm": 0,
+            "pasos": 6,
+            "factorizaciones": 0
+          },
+          "pared_s": 0.000649746973067522,
+          "cpu_s": 0.0
+        }
+      }
+    },
+    {
+      "modelo": "no_lineal",
+      "segundos": 1.0,
+      "referencia": "DOP853 refinado",
+      "resultados": {
+        "A": {
+          "error_max": 5.979579794275954e-10,
+          "cota_max": null,
+          "cota_cubre_muestras_observadas": null,
+          "trabajo": {
+            "rhs": 386,
+            "solve_masa": 386,
+            "solve_masa_matriz": 0,
+            "matvec": 0,
+            "expm": 0,
+            "pasos": 46,
+            "factorizaciones": 22
+          },
+          "pared_s": 0.006313702033367008,
+          "cpu_s": 0.0
+        }
+      }
+    }
+  ],
+  "sha256": "c8c3e177424d7d7e16c15e8dd0e67bf34c3f68c55f68e4b9c59dc9795b60bd79",
+  "pruebas": {
+    "orden_ADD_SET": true,
+    "rollback_dominio": true,
+    "B_rechaza_no_lineal": true
+  },
+  "control_sin_corte": {
+    "estimador": 0.0,
+    "z": 0.0,
+    "error_real": 0.002262093545089899
+  },
+  "pared_s": 0.03575518197612837,
+  "cpu_s": 0.02161099999999999,
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "alcance": "CPU; eventos prescritos; cota B de truncacion, NO del redondeo/solve de masa; A sin cota global rigurosa; no organismo"
+}

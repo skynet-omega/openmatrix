@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-23T02:03:00Z",
+  "trigger": "La propuesta externa afirma que sólo 2–3 % del conectoma necesita trabajo fino por milisegundo; las capturas existentes permiten contrastar una condición necesaria débil sin ejecutar otro organismo.",
+  "question": "En el intervalo guardado de 0 a 1 ms, ¿qué fracción de neuronas y aristas salientes concentra el cambio de q?",
+  "preselected_metrics": [
+    "Fracción de neuronas con |delta q| mayor que 1e-6, 1e-4, 1e-3, 1e-2 y fracción de aristas salientes de esas filas.",
+    "Para top 2 %, 3 %, 5 % y 10 % de neuronas por |delta q|, proporción de suma outdegree por |delta q| cubierta."
+  ],
+  "checks": "Confirmar identidad y orden de los 166700 ID frente a node_ids.npy, 25582938 aristas, tiempo 0 y 1 ms, finitud, y hashes de entradas.",
+  "interpretation_limit": "q no es espiga, corriente recibida ni estado químico. La suma outdegree por |delta q| es sólo un proxy de variación potencial presináptica, sin pesos ni retardos; no certifica seguridad del active set.",
+  "budget_increment": {"new_full_organism_runs": 0, "complete_motor_prototypes": 0, "CPU_seconds_max": 15, "GPU_seconds": 0},
+  "stop": "Una medición prospectiva del primer milisegundo; no elegir un umbral de poda a posteriori ni implementar skips en el motor por esta señal."
+}
