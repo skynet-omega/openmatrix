@@ -1,0 +1,67 @@
+{
+  "base_neurons": 166700,
+  "base_edges": 25582938,
+  "state_variables": 359373,
+  "row_sets": {
+    "_output_cache": {
+      "rows": 791,
+      "base_edges_in_rows": 400182
+    },
+    "_pnkc_cache": {
+      "rows": 1375,
+      "base_edges_in_rows": 367300
+    },
+    "_regional_cache": {
+      "rows": 1611,
+      "base_edges_in_rows": 436362
+    },
+    "_orn_terminal_cuda": {
+      "rows": 74,
+      "base_edges_in_rows": 6242
+    },
+    "_orn_pn_cuda": {
+      "rows": 74,
+      "base_edges_in_rows": 6242
+    },
+    "_retinal_cuda": {
+      "rows": 3021,
+      "base_edges_in_rows": 12102
+    },
+    "_gaba_cuda": {
+      "rows": 6860,
+      "base_edges_in_rows": 426153
+    },
+    "_boundary_cuda": {
+      "rows": 1771,
+      "base_edges_in_rows": 34914
+    },
+    "_dynamic_gpu_rows": {
+      "rows": 4064,
+      "base_edges_in_rows": 836605
+    },
+    "_pvlp_cuda_rows": {
+      "rows": 3,
+      "base_edges_in_rows": 1071
+    },
+    "_cvn7_rows": {
+      "rows": 2,
+      "base_edges_in_rows": 640
+    },
+    "_retinal_port_cuda_rows": {
+      "rows": 3021,
+      "base_edges_in_rows": 12102
+    },
+    "_mi9_rows": {
+      "rows": 6853,
+      "base_edges_in_rows": 425814
+    },
+    "physical_ports": {
+      "rows": 4062,
+      "base_edges_in_rows": 830420
+    }
+  },
+  "union_rows": 16516,
+  "union_base_edges": 1728951,
+  "nonvisual_union_edges": 1255748,
+  "scope": "Overlapping row inventories, not safe-removal proof. Intermediate reads and rate dependencies must be checked. No runtime gain inferred."
+}

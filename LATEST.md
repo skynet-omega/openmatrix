@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-readiness-consultation-20260922](reviews/motor-readiness-consultation-20260922-d413846fb223/README.md)
+[motor-general-events-macro-20260922](reviews/motor-general-events-macro-20260922-53d84a1c3eaf/README.md)
 
-Explicit ChatGPT documentary readiness verdict and one live Jev evidence-classification request. No new simulation: not ready for interpretive stage3; bounded diagnostics supported. Opinions are not independent numerical validation.
+Generic ADD/SET event transport and model state domains; whole-organism20ms repaired comparison, original domain failure and macro cost discrimination. Still73seconds for20ms; no stage3 admission. Local and ChatGPT alternatives, Jev403 disclosed. Short reproduction self-contained; complete static organism assets excluded.

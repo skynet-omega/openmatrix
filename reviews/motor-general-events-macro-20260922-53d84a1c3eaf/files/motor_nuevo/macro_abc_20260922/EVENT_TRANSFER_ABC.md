@@ -1,0 +1,11 @@
+# Discriminación de eventos antes de implementar una reparación
+
+Dato nuevo: fallo real en coordenada 28296, fuente de puerto q, valor 1.0000000000000002; todos los targets previos son válidos y su tasa es cero. La primera infracción observada está después de proyectar la historia del puerto. Los extremos instrumentados 1/5 ms son idénticos al mismo método anterior. Recalcular en 90 decimales desde los operandos FP64 guardados da 1+1.557077861e-16: no es exclusivamente error del exponencial de CUDA; el salto redondeado ya perdió la identidad con la saturación del productor.
+
+A. **Eventos con valor posterior absoluto**: el modelo emisor entrega SET(q_post) además de fecha, conservando su transición física exacta, y el puerto propaga desde ese valor. ADD(delta) permanece para eventos realmente aditivos. El ejecutor no adivina saturación ni recorta. Control: eventos aditivos/reset mezclados, orden, límites y receptor continuo; misma cronología y salidas del productor.
+
+B. **Mapa de transición declarado por el modelo**: entregar incremento físico y función de salto (p.ej. una saturación que ya exista en las ecuaciones) para evaluar desde la trayectoria del puerto. Más extensible a química, pero requiere demostrar equivalencia entre el estado del productor y el usado por el mapa; no convertir una corrección numérica en nueva fisiología. Falsador: productores iguales con historia previa distinta producen una transición equivocada en el consumidor.
+
+C. **Una única fuente de trayectoria densa**: eliminar la reconstrucción duplicada; el productor entrega un evaluador temporal con su estado e historial propios. Evita desacuerdo de representaciones, pero aumenta requisitos de compilación, propiedad y coste de consultas. Falsador: lecturas de un predictor descartado o transferencia entre CPU/GPU domina el coste.
+
+Selección provisional A por el dato del productor heredado: ya calcula un valor exacto posterior a la saturación y descarta ese dato al exportar solo una resta. Es reparación de transporte aplicable a modelos con saltos, no un solver celular nuevo. No toca detector, tolerancia ni aceptación de dominio. Esta ronda contará A como primer prototipo de interfaz numérica; B/C quedan rivales explícitos. La arquitectura de rendimiento es otra decisión, con cuatro rutas conservadas tras comparar ternas.

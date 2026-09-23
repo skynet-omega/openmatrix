@@ -1,0 +1,26 @@
+{
+  "boundary": {
+    "index": 235,
+    "phase": "accepted",
+    "ns": 125000,
+    "clock_start_ns": 44460625000,
+    "events": 10,
+    "success": false
+  },
+  "diagnostic": {
+    "message": "accepted event state outside domain",
+    "scope": "attempted fine endpoint before rollback",
+    "out_of_domain_count": 1,
+    "sample_indices": [
+      28296
+    ],
+    "sample_values": [
+      1.0000000000000002
+    ],
+    "attempted_clock_s": [
+      3.7095720545734904e-05,
+      5.697275458533299e-06
+    ]
+  },
+  "graph_class": "DiagnosticGraph"
+}

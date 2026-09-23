@@ -1,0 +1,74 @@
+{
+  "snapshots": {
+    "1": {
+      "normalized_state_max_abs": 2.183440538261472e-06,
+      "gate_max_abs": 2.863026939858848e-06,
+      "voltage_max_abs_mV": 9.765766250779961e-06,
+      "changed_discrete_fields": []
+    },
+    "5": {
+      "normalized_state_max_abs": 1.7416722058280487e-05,
+      "gate_max_abs": 3.348297878624784e-06,
+      "voltage_max_abs_mV": 1.4632334895736676e-05,
+      "changed_discrete_fields": []
+    },
+    "20": {
+      "normalized_state_max_abs": 3.959451676499581e-06,
+      "gate_max_abs": 1.4397389534237526e-05,
+      "voltage_max_abs_mV": 0.0007126667844445933,
+      "changed_discrete_fields": []
+    }
+  },
+  "partial_screen": true,
+  "uncovered_fields": 64,
+  "repair_errors": {
+    "1": 2.220446049250313e-16,
+    "5": 1.1102230246251565e-16
+  },
+  "performance": {
+    "fine_reset_01": {
+      "simulated_ms": 20,
+      "advance_s": 112.37290510715684,
+      "wall_s": 130.26128823601175,
+      "observation_s": 0.020853061985690147,
+      "mean_s_per_simulated_ms": 5.618645255357842,
+      "ratio_to_60_s_per_simulated_s_budget": 93.64408758929737,
+      "membrane_s": 56.91162370273378,
+      "PN_s": 4.777913485595491,
+      "remainder_s": 50.68336791882757,
+      "CNS": {
+        "epochs": 320,
+        "accepted": 3718,
+        "rejected": 0,
+        "build_s": 0.19730202696518973,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "zero_CNS_lower_bound_ratio": 51.40794765694106,
+      "scope": "Measured20ms only; lower bound assumes recorded sequential component timers. Not1second measurement."
+    },
+    "guard_reset_01": {
+      "simulated_ms": 20,
+      "advance_s": 73.02835445385426,
+      "wall_s": 89.81884119298775,
+      "observation_s": 0.02121405495563522,
+      "mean_s_per_simulated_ms": 3.651417722692713,
+      "ratio_to_60_s_per_simulated_s_budget": 60.85696204487856,
+      "membrane_s": 17.831907012150623,
+      "PN_s": 4.76263708807528,
+      "remainder_s": 50.43381035362836,
+      "CNS": {
+        "epochs": 320,
+        "accepted": 3718,
+        "rejected": 0,
+        "build_s": 0.24646691500674933,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "zero_CNS_lower_bound_ratio": 18.828786750188254,
+      "scope": "Measured20ms only; lower bound assumes recorded sequential component timers. Not1second measurement."
+    }
+  }
+}

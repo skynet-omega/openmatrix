@@ -1,0 +1,32 @@
+{
+  "organism_loads": 4,
+  "organism_wall_s": 342.505344069039,
+  "runs": {
+    "domain_01": {
+      "status": "FAILURE_CAPTURED",
+      "wall_s": 102.01528494199738,
+      "completed_ms": 14
+    },
+    "fine_reset_01": {
+      "status": "COMPLETE",
+      "wall_s": 130.26128823601175,
+      "completed_ms": 20
+    },
+    "guard_reset_01": {
+      "status": "COMPLETE",
+      "wall_s": 89.81884119298775,
+      "completed_ms": 20
+    },
+    "profile_01": {
+      "status": "COMPLETE",
+      "wall_s": 20.409929698042106,
+      "completed_ms": 1
+    }
+  },
+  "full_numerical_prototypes": 1,
+  "prototype": "ADD/SET transport; generic state-domain interface. No second solver prototype falsely counted as integrated.",
+  "Jev_requests": 1,
+  "Jev_result": "HTTP403; no ranking obtained",
+  "Codex_subagents": 0,
+  "stop_reason": "Four authorized organism loads consumed; event semantics repaired and architecture cost discriminator obtained. Stage3 not admitted."
+}

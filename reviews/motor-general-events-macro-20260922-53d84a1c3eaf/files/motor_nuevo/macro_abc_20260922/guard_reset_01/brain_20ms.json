@@ -1,0 +1,4216 @@
+{
+  "schema": "matrix_coefficient_buffer_brain_v1",
+  "visual_ids": {
+    "__array__": "array_0"
+  },
+  "photo_ids": {
+    "__array__": "array_1"
+  },
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "state": {
+    "__array__": "array_2"
+  },
+  "next_step_ns": 52183,
+  "statistics": {
+    "accepted": 254646,
+    "rejected": 14867,
+    "evaluations": 1617089,
+    "minimum_accepted_ns": 25,
+    "maximum_accepted_error": 0.9999253644778332
+  },
+  "time_ns": 44466000000,
+  "visual_output_connected": true,
+  "synaptic_migration": {
+    "source_schema": "matrix_hybrid_visual_brain_fp64_cuda_v1",
+    "time_ns": 13742000000,
+    "old_state_sha256": "85620b1ce0289f8933714a13d799ae9513b385bf412fc919e2ee21bf87a0a14d",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "initial_transmission_sha256": "77206f7a6a4d67d75f97556157deecb2d96d868c356b011ebb162c12ec834803",
+    "initialization": "s equals instantaneous normalized release; older synaptic history unavailable",
+    "parameter_status": "candidate common time constant; not measured per cell/receptor",
+    "parameter_source": "https://doi.org/10.1038/s41586-024-07763-9",
+    "adoption_tau_s": 0.005,
+    "preserved": "old state prefix, clock, IDs, topology, weights, gains, thresholds and RNG"
+  },
+  "receptor_manifest": {
+    "policy": "r8_main_retina_mi1_candidate_ach_v1",
+    "positions": {
+      "__array__": "array_3"
+    },
+    "pre_ids": {
+      "__array__": "array_4"
+    },
+    "post_ids": {
+      "__array__": "array_5"
+    },
+    "pre_types": {
+      "__array__": "array_6"
+    },
+    "post_types": {
+      "__array__": "array_7"
+    },
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "adoption_signed_weights_sha256": "f577d10f4cf8940b30e3259cc739cb7e08b711df74e9e8963fe7faf214c8e72d",
+    "sources": [
+      "https://doi.org/10.7554/eLife.50901",
+      "https://doi.org/10.1038/s41586-023-06681-6"
+    ],
+    "evidence": "R8-Rh5/Rh6 cholinergic markers and Mi1 nicotinic receptor RNA, no detected ort/HisCl1 (Davis 2020 Fig8); R8 histamine/ACh cotransmission demonstrated (Xiao 2023).",
+    "uncertainty": "Candidate net excitation of these existing R8p/R8y -> Mi1 pairs; not electrical measurement of their receptor, strength or time constant. RNA nondetection does not prove protein absence.",
+    "exclusions": "R8d, R8_unclear, R7R8_unclear and every destination other than Mi1 are unchanged.",
+    "efficacy": "effective weight = abs(stored signed weight) for these pairs only; no fitted magnitude"
+  },
+  "receptor_migration": {
+    "source_schema": "matrix_hybrid_visual_brain_synaptic_fp64_cuda_v1",
+    "time_ns": 13742000000,
+    "source_state_sha256": "5334d98a6bbc682e9170a86a2fd1632dfad62e473cb5969263f5512d18db6d98",
+    "changes": "Postsynaptic effective sign only; state and release are continuous, but derivatives may change at adoption.",
+    "preserved": "Full neural/retinal/transmission state, clock, anatomical IDs/topology/signed weights, gains, thresholds and RNG."
+  },
+  "measured_t4_manifest": {
+    "policy": "mi9_t4_glucl_somatic_iv_reversal_candidate_v1",
+    "positions": {
+      "__array__": "array_8"
+    },
+    "receptor_localization_source_doi": "10.1016/j.neuron.2023.12.014",
+    "receptor_localization_evidence": "Sanfilippo et al. Fig6: tagged GluClalpha localizes postsynaptically at Mi9 contacts onto distal T4 dendrites. This establishes a receptor-associated connection type, not its reversal in this male preparation.",
+    "pre_ids": {
+      "__array__": "array_9"
+    },
+    "post_ids": {
+      "__array__": "array_10"
+    },
+    "pre_types": {
+      "__array__": "array_11"
+    },
+    "post_types": {
+      "__array__": "array_12"
+    },
+    "canonical_node_types": {
+      "__array__": "array_13"
+    },
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "adoption_signed_weights_sha256": "06985ba168a9cfd4e86fdec4ad848150f3198809fb1efe0440c5e9b4b964c4dc",
+    "current_signed_weights_sha256": "06985ba168a9cfd4e86fdec4ad848150f3198809fb1efe0440c5e9b4b964c4dc",
+    "calibration": {
+      "schema": "matrix_t4_glucl_iv_calibration_v1",
+      "E_GluCl_mV": -69.24865736465242,
+      "train_E_GluCl_mV": -69.24865736465242,
+      "reference_E_GluCl_mV": -80.0,
+      "selection": "training_estimate",
+      "source_article_doi": "10.1038/s41586-022-04428-3",
+      "source_dataset_doi": "10.17617/3.8G",
+      "source_iv_url": "https://edmond.mpg.de/api/access/datafile/104804?format=original",
+      "split_seed": 20260908,
+      "training_fits": [
+        {
+          "cell_id": "20190206_T4-3",
+          "slope_nS": 0.07941461749999999,
+          "intercept_pA": 5.998957383333332
+        },
+        {
+          "cell_id": "20210310_T4-2",
+          "slope_nS": 0.07003512035714286,
+          "intercept_pA": 4.649875757857144
+        },
+        {
+          "cell_id": "20210310_T4-4",
+          "slope_nS": 0.04964745560714286,
+          "intercept_pA": 5.289662221071429
+        },
+        {
+          "cell_id": "20210311_T4-2",
+          "slope_nS": 0.06719172521428571,
+          "intercept_pA": 3.295361419285714
+        },
+        {
+          "cell_id": "20210311_T4-3",
+          "slope_nS": 0.05417591746428572,
+          "intercept_pA": 2.9579028539285717
+        }
+      ],
+      "heldout_cell_ids": [
+        "20190131_T4-1",
+        "20190201_T4-2",
+        "20190204_T4-1",
+        "20190215_T4-1",
+        "20190221_T4-1",
+        "20190226_T4-1",
+        "20210310_T4-3"
+      ],
+      "fit_voltage_range_mV": [
+        -100.0,
+        -40.0
+      ],
+      "estimator": "negative_mean_intercept_pA_over_mean_slope_nS",
+      "hashes": {
+        "target_manifest": "b98e6899541d417fed775ce5e7b0d99cc3336f8d9273b59ae1c1948bedeb8445",
+        "iv_cells": "abfbe6ab36141d18d1b6a03ec85467e5d2e860276f8708955142273bc1f510f2",
+        "cell_splits": "996ed0893830c7507b51aa6f478a5d7e100233eb5ced83b414432acb27714c09",
+        "electrical_targets": "73d6851813ebc3ebb0dbe1298d1eccf10bf58800200a5a6ce05424a66cfec551",
+        "extractor": "5643c6e5ea22a89d210ec911e7468e111727352837dc5b0580963ea682ece57a",
+        "source_iv": "f4bcd6355f310f86e99f27df28777a5abbafd2de87534658d361a349b22efa72"
+      },
+      "interpretation": "Somatic T4 glutamate I-V constraint applied as an uncertain Mi9-to-T4 GluCl reversal; not a measured synaptic constant, per-edge strength, or global visual calibration."
+    },
+    "calibration_sha256": "ea4ce4018a96f598312c1ae85d928bdc8e053c1f5190095d17d0c68c04e503be",
+    "equation": "Add ((E_GluCl_mV+80)/80)*g_Mi9 to the normalized voltage numerator; total conductance and rate unchanged.",
+    "scope": "Existing Mi9 -> graded T4a/b/c/d pairs only; no new edges, sign changes, gain fitting, input currents or direction decoder."
+  },
+  "measured_t4_migration": {
+    "source_schema": "matrix_hybrid_visual_brain_receptor_fp64_cuda_v1",
+    "time_ns": 15948000000,
+    "source_state_sha256": "da15acf8829c8a919cd4601d0ef150387f602cdaf5f4b5ce5988702338554914",
+    "preserved": "All neural, retinal, transmission states, release, clock, weights, graph, gains and numerical parameters.",
+    "changes": "Only the derivative of selected T4 cells may change at adoption; no state jump."
+  },
+  "r8_mi4_manifest": {
+    "policy": "r8_main_retina_mi4_candidate_ach_v1",
+    "enabled": true,
+    "positions": {
+      "__array__": "array_14"
+    },
+    "pre_ids": {
+      "__array__": "array_15"
+    },
+    "post_ids": {
+      "__array__": "array_16"
+    },
+    "pre_types": {
+      "__array__": "array_17"
+    },
+    "post_types": {
+      "__array__": "array_18"
+    },
+    "canonical_types_source": "measured_t4_manifest.canonical_node_types",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "adoption_signed_weights_sha256": "f7b38c6a08b9facfca9c79aaca0d90cbf9d0f7a04d3b566c37db83952fe68346",
+    "current_signed_weights_sha256": "f7b38c6a08b9facfca9c79aaca0d90cbf9d0f7a04d3b566c37db83952fe68346",
+    "sources": [
+      "https://doi.org/10.7554/eLife.50901",
+      "https://doi.org/10.1038/s41586-023-06681-6"
+    ],
+    "evidence": "Davis 2020 Fig7A/Fig8C-D: R8 postsynaptic partner Mi4 expresses nicotinic ACh receptor subunits with no detected ort or HisCl1 RNA. Xiao 2023 demonstrates R8 histamine/ACh cotransmission.",
+    "uncertainty": "RNA nondetection does not establish protein absence. Net excitation of these particular male R8p/R8y -> Mi4 pairs is a hypothesis; cotransmission does not identify their receptor conductance, magnitude, reversal or time constant.",
+    "exclusions": "R8d, R8_unclear, R7R8_unclear, all other destinations and all Mi4 outputs retain their prior interpretation.",
+    "efficacy": "If enabled, effective weight = abs(stored signed weight) only for selected pairs; otherwise their original signed value. No magnitude fitting or new edges.",
+    "preserved": "Prior R8-to-Mi1 interpretation and Mi9-to-T4 GluCl reversal/calibration, all graph weights, gains, state and clock."
+  },
+  "r8_mi4_migration": {
+    "source_schema": "matrix_hybrid_visual_brain_measured_t4_fp64_cuda_v1",
+    "enabled": true,
+    "time_ns": 23950000000,
+    "source_state_sha256": "de392af21b7089d162577f6076d24175b84dd8c96a10d715a7ee26c206e0dfa3",
+    "changes": "Enabled: selected postsynaptic effective sign only; derivatives may change. Disabled: unchanged measured T4 dynamics.",
+    "preserved": "Complete neural/retinal/transmission state and clock without jump; anatomical IDs, signed weights and magnitudes; all prior receptor policies and numerical parameters. This is a model revision, not learning."
+  },
+  "graded_descending_manifest": {
+    "policy": "dnp20_dnovs1_graded_candidate_v1",
+    "enabled": true,
+    "vs_input_cut": false,
+    "target_ids": {
+      "__array__": "array_19"
+    },
+    "target_rows": {
+      "__array__": "array_20"
+    },
+    "target_types": {
+      "__array__": "array_21"
+    },
+    "target_instances": [
+      "DNp20_R",
+      "DNp20_L"
+    ],
+    "target_soma_sides": [
+      "R",
+      "L"
+    ],
+    "canonical_alias": "Dorkenwald 2024: DNOVS1; canonical MaleCNS v10 nodes.parquet synonyms",
+    "canonical_types_source": "measured_t4_manifest.canonical_node_types",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "source_visual_ids": {
+      "__array__": "array_22"
+    },
+    "source_visual_ids_sha256": "58e5a5a3c81eea6387c0f8968aaa61427eb7bbe337cef4c7e4d31a9270c0c7e8",
+    "new_visual_ids_sha256": "602185c395c8d102f48f410f63da0533886ecc0baace9643b5d02feee1dcaa86",
+    "source_visual_mask_sha256": "912224b234d891732a96335ff61bece45ddc5d2a6b62d8ca5c06899f6720174c",
+    "new_visual_mask_sha256": "4ef940c228b6cabc4bcfbc9b640f5f91f4677af02f3b21e04443b2318651cf73",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "adoption_signed_weights_sha256": "85e2948380017de176a6666ba0b793b0c64660c73e70d0c660e134dafbad150f",
+    "vs_positions": {
+      "__array__": "array_23"
+    },
+    "vs_pre_ids": {
+      "__array__": "array_24"
+    },
+    "vs_post_ids": {
+      "__array__": "array_25"
+    },
+    "vs_pre_types": {
+      "__array__": "array_26"
+    },
+    "vs_post_types": {
+      "__array__": "array_27"
+    },
+    "current_vs_signed_weights_sha256": "c069f2d11ad85e8061e5d646bc8803f739b7e9d637f5f525e98ca34fee1776ff",
+    "source_url": "https://doi.org/10.1523/JNEUROSCI.2277-16.2016",
+    "source_html_sha256": "32ba15a124fdc4997cfbc6e07a0b14f5c2e9e1bf52d1daca78f9e97adbf73713",
+    "canonical_annotation_sha256": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "evidence": "Suver et al. 2016 Fig3C: whole-cell DNOVS1 responses are purely graded, unlike the small spikes in DNOVS2 and DNHS1. Canonical DNp20 aliases identify these two candidate homologues.",
+    "limitations": "The canonical crosswalk does not measure these male cells. Generic leak/reversals, conductance per weight, tau and release curve remain uncalibrated. Electrical coupling to VS is not represented or invented; chemical VS cuts cannot remove absent gap-junction paths.",
+    "coordinate": "For enabled targets only: y=(15+40*r)/80; Vm=-80+80*y is a new model coordinate, not a measured initial potential. Chemical transmission is unchanged.",
+    "cut_scope": "If vs_input_cut, zero the derived cache of existing canonical VS -> DNp20 pairs only; signed W remains intact. This diagnostic is not a candidate for active continuation.",
+    "global_cut_limit": "Inherited visual_output_cut uses the expanded graded mask; it is not a specific VS/DNp20 control. Use the explicit VS-pair diagnostic for that question.",
+    "preserved": "All other state coordinates, chemical history, graph, signed weights, gains, numerical settings, earlier receptor policies and clock."
+  },
+  "graded_descending_migration": {
+    "source_schema": "matrix_hybrid_visual_brain_r8_mi4_fp64_cuda_v1",
+    "time_ns": 26952000000,
+    "enabled": true,
+    "vs_input_cut": false,
+    "source_state_sha256": "12bc4b4a997940b9dc64e8dff92850be9fc75aaf8e96bfac79da8e6f07b6aad5",
+    "migrated_state_sha256": "0e0b2482e8d2585498a8e126070e9a7f0d72ffc8b5f4fbd1d05328e4a4c8aaaf",
+    "initial_transmission_sha256": "0d99954a350f90c39ed177efe509e6d1a4440bf4b5de6322dad27bb0a13d64a1",
+    "old_coordinates": {
+      "__array__": "array_28"
+    },
+    "new_coordinates": {
+      "__array__": "array_29"
+    },
+    "initial_release_before": {
+      "__array__": "array_30"
+    },
+    "initial_release_after": {
+      "__array__": "array_31"
+    },
+    "release_roundoff": {
+      "__array__": "array_32"
+    },
+    "initial_target_transmission": {
+      "__array__": "array_33"
+    },
+    "source_published_view": {
+      "__array__": "array_34"
+    },
+    "migrated_published_view": {
+      "__array__": "array_35"
+    },
+    "interpretation": "One-time coordinate/model revision, not learning, measured basal Vm, state reset or ongoing clamp. Affine release continuity is algebraic; actual FP64 roundoff is retained explicitly.",
+    "source_ownership": "Consumes/replaces the old model on its shared brain. Source state is retained, but its float32 published view may change at the two targets as recorded; load a separate checkpoint to continue the reference."
+  },
+  "cyborg_retinal_port_manifest": {
+    "policy": "cyborg_local_mapped_r1_r6_voltage_port_v1",
+    "enabled": true,
+    "engineering_device": true,
+    "biological_calibration": false,
+    "animal_ability": false,
+    "source_schema": "matrix_hybrid_visual_brain_graded_descending_fp64_cuda_v1",
+    "adoption_time_ns": 32554000000,
+    "source_state_sha256": "2bcebbd462b2f364f9f39ada7756aa084d8a32a12b0321810b4a2c7602d7978a",
+    "source_transmission_sha256": "46c1a03892942cfbdd6b3256909d83690aee5a1ecfc57e79cb9a391e9939615a",
+    "adoption_signed_weights_sha256": "55547c5b8adec5b9aee3be622d32730c036d30e3e2c4d19563faf56452ecb6c7",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "photo_ids_sha256": "292d4652b01588ecfe67a3014f5915092f994a7f144694496c6b634b0b48318a",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "mapped_ids": {
+      "__array__": "array_36"
+    },
+    "target_ids": {
+      "__array__": "array_37"
+    },
+    "target_rows": {
+      "__array__": "array_38"
+    },
+    "photo_positions": {
+      "__array__": "array_39"
+    },
+    "initial_target_voltage": {
+      "__array__": "array_40"
+    },
+    "initial_targets_outside_affine_release_range": 0,
+    "device_parameters": {
+      "tau_s": 0.005,
+      "luminance_low": 0.0,
+      "luminance_high": 1.0,
+      "voltage_numerator_offset": 15.0,
+      "voltage_numerator_scale": 40.0,
+      "voltage_denominator": 80.0
+    },
+    "selection": "Intersection of supplied real optical mapping, inherited photo_ids, and canonical R1-R6 type. No response selection.",
+    "voltage_equation": "target=(15+40*own_light)/80; dVnorm/dt=(target-Vnorm)/0.005",
+    "release_equation": "Inherited clip((80*Vnorm-15)/40,0,1). First-order luminance tracking is exact while Vnorm lies in [15/80,55/80].",
+    "interface_units": "Normalized light 0..1 to normalized release 0..1 via existing voltage coordinate; neither measured voltage nor measured firing rate.",
+    "parameter_provenance": "Fixed engineering choice before behavior, using the existing interface range; no behavioral gain fitting or physiological calibration.",
+    "replaced": "Only selected voltage-row coefficients: recurrent inputs and native phototransduction no longer drive those rows when enabled.",
+    "retained": "All state coordinates, old fast/adaptation variables and their evolution, canonical graph/weights/signs, gains, stored taus, existing chemical transmission and all other neural-row equations.",
+    "claim_scope": "Tests the candidate CNS behind a prosthetic retina. Does not reconstruct retinal physiology or attribute the device transfer function to the animal.",
+    "disabled_scope": "Disabled leaves all inherited coefficients bit-for-bit unchanged.",
+    "record_sha256": "988507de4a540894bdeda03a5871bef0065d57548d5100aab6d479c048fe8d79"
+  },
+  "pvlp_adaptation_manifest": {
+    "policy": "pvlp024_local_intrinsic_adaptation_v1",
+    "enabled": true,
+    "beta": 3.621448485899543,
+    "tau_s": 0.19999420270323753,
+    "target_ids": {
+      "__array__": "array_41"
+    },
+    "target_rows": {
+      "__array__": "array_42"
+    },
+    "target_type": "PVLP024",
+    "source_schema": "matrix_hybrid_visual_brain_cyborg_retinal_port_fp64_cuda_v1",
+    "adoption_time_ns": 34456000000,
+    "inherited_state_size": 344458,
+    "initial_inherited_state_sha256": "d93e3183c10c62712d4fb3bb7ed5f9970097e434965f522c47651d29a21a467b",
+    "initial_transmission_sha256": "5666ff7269b3800a35dcd3fb9eb6c5c693b1d3fe71dd4086eadd0e02f639df4e",
+    "adoption_signed_weights_sha256": "60fe967359925b28ef04674fe28f07bc29104ef9fd9a7dadc69b396c5542164b",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "initialization": "New memory a=0; inherited state unchanged; pre-adoption adaptation history unavailable.",
+    "equation": "q_target=max(0,tanh((gain/r_max)*(I+drive-theta)-beta*a)); tau_s*da/dt=q-a",
+    "parameter_provenance": "Explicit phenomenological hypothesis; beta and tau_s are not measured PVLP024 parameters.",
+    "scope": "Intrinsic local feedback on each selected cell and all its existing outputs; no direction or motor signal.",
+    "inactive_error_policy": "Memory evolves but is excluded from error norm when disabled or beta=0; inherited trajectory and solver decisions remain exact.",
+    "biological_validation": false,
+    "record_sha256": "7cd6529a72fc0f2f373a09d6e6db435dbd5de93624e35048d71f586663a646b0"
+  },
+  "orn_pn_synaptic_manifest": {
+    "policy": "prosthetic_olfactory_dm1_pn_rate_port_v1",
+    "enabled": true,
+    "source_schema": "matrix_hybrid_visual_brain_pvlp_adaptation_fp64_cuda_v1",
+    "adoption_time_ns": 36458000000,
+    "parent_state_size": 344461,
+    "initialization": "steady_baseline",
+    "baseline_hz": 7.0,
+    "initial_afferent_rate_hz": {
+      "__array__": "array_43"
+    },
+    "device_scope": "External rate input replaces only selected ORN-to-PN source terms; endogenous ORN outputs elsewhere and all other CNS equations remain active.",
+    "control_scope": "Rate-to-current sensory engineering with no stimulus identity, direction, reward or behavioral policy in the effector path.",
+    "rate_reference": "7 Hz baseline and 20/50 Hz 500 ms electrical nerve stimuli in VM2: Kazama and Wilson 2008, doi:10.1016/j.neuron.2008.02.030, Figure 8D-E. Engineering transfer to DM1; not measured DM1 odor transduction.",
+    "initialization_scope": "New synaptic-history assumption; neither rested nor stationary states reconstruct unknown pre-adoption history.",
+    "parameters": {
+      "fast": {
+        "r_per_spike": 0.23,
+        "tau_A_s": 1.006,
+        "tau_g_s": 0.0093,
+        "k_ns_per_spike": 20.0
+      },
+      "slow": {
+        "r_per_spike": 0.0073,
+        "tau_A_s": 33.247,
+        "tau_g_s": 0.08,
+        "k_ns_per_spike": 1.8
+      },
+      "source_doi": "10.1038/nn.3895",
+      "normalization_nS_per_Hz": 0.33,
+      "state_order": [
+        "A_fast",
+        "A_slow",
+        "z_fast",
+        "z_slow"
+      ]
+    },
+    "biological_validation": false,
+    "input": "Held external afferent rate in spike/s units, supplied locally by the device; not endogenous ORN q, old transmission or a concentration-response measurement.",
+    "equation": "dA_x/dt=(1-A_x)/tau_Ax-r_x*rate_external_Hz*A_x; dz_x/dt=((rate_external_Hz/r_max)*A_x-z_x)/tau_gx",
+    "output": "Replace selected W*(s_old*r_max) by W*r_max*(k_f*tau_gf*z_f+k_s*tau_gs*z_s)/sum(k*tau_g).",
+    "gain_scope": "Low-rate undepressed DC normalization, not a measured conductance/current transfer or gain preservation at finite depressed rates.",
+    "inactive_error_policy": "New states evolve but do not enter the error norm when disabled; parent state and solver decisions remain exact.",
+    "initial_parent_state_sha256": "29d691f0312bc831d134c500ef2eff52eddaa990a47c07997ce5e8db16ab352d",
+    "initial_new_state_sha256": "76adbac72acc1d0f88417ba37f9acd6c80f856a87a4bee3abde1ccc0b4116f46",
+    "initial_transmission_sha256": "1d24654df0ea01cee501a927b64da9cad39e8c834779df57c8bbe861c5399bb7",
+    "adoption_signed_weights_sha256": "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "pre_ids": {
+      "__array__": "array_44"
+    },
+    "post_ids": {
+      "__array__": "array_45"
+    },
+    "pre_indices": {
+      "__array__": "array_46"
+    },
+    "post_indices": {
+      "__array__": "array_47"
+    },
+    "w_csr_data_positions": {
+      "__array__": "array_48"
+    },
+    "anatomical_contact_counts": {
+      "__array__": "array_49"
+    },
+    "source_orn_ids": {
+      "__array__": "array_50"
+    },
+    "source_orn_indices": {
+      "__array__": "array_51"
+    },
+    "weights_post_pre_current": {
+      "__array__": "array_52"
+    },
+    "source_rmax_hz": {
+      "__array__": "array_53"
+    },
+    "record_sha256": "3c8e839bd157f1b9a87ffff5cc3e880a03e4c683c60673d96d2d6e8a6580b50d"
+  },
+  "held_afferent_rate_hz": {
+    "__array__": "array_54"
+  },
+  "regional_manifest": {
+    "policy": "kcgamma_regional_axonal_hypothesis_v1",
+    "source_schema": "matrix_hybrid_visual_brain_prosthetic_olfactory_fp64_cuda_v1",
+    "enabled": true,
+    "activity_dependent": true,
+    "parameters": {
+      "tau_b_s": 1.0,
+      "tau_x_s": 0.05,
+      "K_ach_contact_hz": 267.0,
+      "eta": 2.0,
+      "x50": 0.35,
+      "slope": 0.1
+    },
+    "eta": 2.0,
+    "config": {
+      "schema": "matrix_kcgamma_regional_candidate_plan_v1",
+      "status": "ANATOMICAL_MAPS_AND_EXPLORATORY_PARAMETERS_PREPARED_NOT_COUPLED",
+      "existing_component": "src/kcgamma_axon_candidate.py",
+      "input_routing": "work/kcgamma_axonal_routing_20260909/routing.npz",
+      "input_routing_receipt": "work/kcgamma_axonal_routing_20260909/receipt.json",
+      "output_routing_receipt": "work/kcgamma_feedback_roi_20260909/receipt.json",
+      "targets_with_regional_output_coverage": [
+        "PAM08",
+        "APL",
+        "MBON05"
+      ],
+      "parameter_receipt": "work/visual_history_20260909/research/axon_parameter_constraints_receipt.json",
+      "mechanism_receipt": "work/visual_history_20260909/research/kcgamma_local_intervention_receipt.json",
+      "parameters": {
+        "tau_b_s": 1.0,
+        "tau_x_s": 0.05,
+        "K_ach_contact_hz": 267.0,
+        "eta": 2.0,
+        "x50": 0.35,
+        "slope": 0.1
+      },
+      "parameter_status": "Explicit uncalibrated transfer hypothesis. Five values reuse the earlier tinybench; K is the anatomical median 267 gL contacts per KCgamma times a declared 1 model-Hz reference. This is neither a measured receptor affinity nor a fit to CNS memory or movement.",
+      "routing_hypothesis": "Separate identified KCgamma-to-KCgamma gL contact fractions from the old fast whole-cell sum and supply local axonal ACh modulation. Preserve calyx/other fractions and unresolved outputs. At mapped axonal outputs, use a separate axonal release and chemical-filter state. gL location does not establish exclusively muscarinic transmission; that assignment remains an explicit intervention hypothesis.",
+      "controls": {
+        "complete_bypass": "Recover inherited effective currents and transmission exactly.",
+        "eta_zero": "Same regional adapter, axonal filters and initial state as the active arm; set only eta to zero.",
+        "activity_independent_receptor": "Subsequent mechanistic control h=1, with regional routing and other parameters retained. Do not use global mean suppression as evidence of the voltage-dependent mechanism."
+      },
+      "remaining_implementation": "Add the regional adapter to the CNS with explicit persistent x, b and axonal chemical-transmission states; specify their common initialization before any candidate trial and verify exact released/disabled behavior. Regional maps alone do not change neuronal equations.",
+      "validation_targets": "Preserve useful upstream visual responses and stimulus-dependent axonal output; distinguish weak from strong response effects under receptor perturbation. Neither lower mean activity nor changing weights demonstrates learning. Use held-out optical conditions without retuning these parameters.",
+      "weight_updates_enabled": false,
+      "biological_calibration": false,
+      "biological_validation": false,
+      "learning_demonstrated": false
+    },
+    "config_source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/kcgamma_regional_candidate_v1.json",
+      "sha256": "099ce5788709479a7f6a49850a0e4e29038d95ff1fe5379b32c7ec7ffb59eb18"
+    },
+    "sources": {
+      "input_receipt": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/kcgamma_axonal_routing_20260909/receipt.json",
+        "sha256": "eb4db91f9172922656575a18f173f989709ed20bc1e20c4931fba762b549fc8a"
+      },
+      "input": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/kcgamma_axonal_routing_20260909/routing.npz",
+        "sha256": "16e64210cffa0fd17862c36e42c47ab1a5298c5ae0df29fc4af198d4bc8973ee"
+      },
+      "output_receipt": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/kcgamma_feedback_roi_20260909/receipt.json",
+        "sha256": "14ba70a31f0baa276377578e6e5ac429a3d740704a6ee7f40aac128a767d3664"
+      },
+      "PAM08": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/kcgamma_feedback_roi_20260909/KCgamma_PAM08_ROI_CSR_counts.npz",
+        "sha256": "b3e41d982dfa9cf43b961327261a4123a1dbed746e962af50e543e86c997aafa"
+      },
+      "APL": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/kcgamma_feedback_roi_20260909/KCgamma_APL_ROI_CSR_counts.npz",
+        "sha256": "0cc624e1727231257d9b1e703368fbd7b300d3d9f471aa02afd540c6601609f3"
+      },
+      "MBON05": {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/evidence/sensory_progression_20260909/kcgamma_mbon05_roi/KCgamma_MBON05_ROI_CSR_counts.npz",
+        "sha256": "0e31ba719f7e1f0e34de7697f8aab3dcf4fbe43d0381f4832c916aa9c38b19b8"
+      }
+    },
+    "target_rows": {
+      "__array__": "array_55"
+    },
+    "target_ids": {
+      "__array__": "array_56"
+    },
+    "input_selection": {
+      "pre_id": {
+        "__array__": "array_57"
+      },
+      "post_id": {
+        "__array__": "array_58"
+      },
+      "csr_position": {
+        "__array__": "array_59"
+      },
+      "total_contacts": {
+        "__array__": "array_60"
+      },
+      "gamma_contacts": {
+        "__array__": "array_61"
+      },
+      "calyx_contacts": {
+        "__array__": "array_62"
+      },
+      "other_contacts": {
+        "__array__": "array_63"
+      },
+      "pre_index": {
+        "__array__": "array_64"
+      },
+      "post_index": {
+        "__array__": "array_65"
+      },
+      "roi_known": {
+        "__array__": "array_66"
+      },
+      "gamma_fraction": {
+        "__array__": "array_67"
+      }
+    },
+    "output_selections": {
+      "PAM08": {
+        "pre_id": {
+          "__array__": "array_68"
+        },
+        "post_id": {
+          "__array__": "array_69"
+        },
+        "csr_position": {
+          "__array__": "array_70"
+        },
+        "total_contacts": {
+          "__array__": "array_71"
+        },
+        "gamma_contacts": {
+          "__array__": "array_72"
+        },
+        "calyx_contacts": {
+          "__array__": "array_73"
+        },
+        "other_contacts": {
+          "__array__": "array_74"
+        },
+        "pre_index": {
+          "__array__": "array_75"
+        },
+        "post_index": {
+          "__array__": "array_76"
+        },
+        "roi_known": {
+          "__array__": "array_77"
+        },
+        "gamma_fraction": {
+          "__array__": "array_78"
+        }
+      },
+      "APL": {
+        "pre_id": {
+          "__array__": "array_79"
+        },
+        "post_id": {
+          "__array__": "array_80"
+        },
+        "csr_position": {
+          "__array__": "array_81"
+        },
+        "total_contacts": {
+          "__array__": "array_82"
+        },
+        "gamma_contacts": {
+          "__array__": "array_83"
+        },
+        "calyx_contacts": {
+          "__array__": "array_84"
+        },
+        "other_contacts": {
+          "__array__": "array_85"
+        },
+        "pre_index": {
+          "__array__": "array_86"
+        },
+        "post_index": {
+          "__array__": "array_87"
+        },
+        "roi_known": {
+          "__array__": "array_88"
+        },
+        "gamma_fraction": {
+          "__array__": "array_89"
+        }
+      },
+      "MBON05": {
+        "pre_id": {
+          "__array__": "array_90"
+        },
+        "post_id": {
+          "__array__": "array_91"
+        },
+        "csr_position": {
+          "__array__": "array_92"
+        },
+        "total_contacts": {
+          "__array__": "array_93"
+        },
+        "gamma_contacts": {
+          "__array__": "array_94"
+        },
+        "calyx_contacts": {
+          "__array__": "array_95"
+        },
+        "other_contacts": {
+          "__array__": "array_96"
+        },
+        "pre_index": {
+          "__array__": "array_97"
+        },
+        "post_index": {
+          "__array__": "array_98"
+        },
+        "roi_known": {
+          "__array__": "array_99"
+        },
+        "gamma_fraction": {
+          "__array__": "array_100"
+        }
+      }
+    },
+    "adoption_time_ns": 37360000000,
+    "parent_state_size": 344757,
+    "initial_parent_state_sha256": "8a48c21f5326f5b5876313c9e80fbc6bf232900b4f50b97eb2a56bfe211f6dfc",
+    "initial_new_state_sha256": "fd0f4c15961f9236a8e210453ba787caf74807a6dbdea032813f760246d615ac",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "adoption_archived_weights_sha256": "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da",
+    "adoption_effective_weights_sha256": "cc06f676de6f4783245973900550db90977db8a5af412d919f82f2ade075b9ad",
+    "axonal_synaptic_tau_s": 0.005,
+    "initialization": "x=q_soma; b=0; s_ax=old_s, same initialization for every eta. Earlier axonal/receptor history is unknown.",
+    "equations": "u=sum(gL_contacts*s_ax_pre*rmax_pre); target_x=q_soma/(1+eta*b); target_b=u/(K+u)*h(x); target_s_ax=x",
+    "bypass": "All inherited currents and solver norm restored exactly; appended states frozen with rate zero.",
+    "region_scope": "Known KCg->KCg gL leaves fast current; known KCg->PAM08/APL/MBON05 gL uses s_ax; all other fractions unchanged.",
+    "parameter_status": "Explicit uncalibrated compartment/kinetic hypothesis; no observed behavioral fitting.",
+    "biological_validation": false,
+    "record_sha256": "fb51bf3611fda6c9b9fa1582bb45be86175c8621e75ae721b64c1e3d24168b9d"
+  },
+  "t4_gaba_manifest": {
+    "policy": "published_mi4_c3_t4_gaba_reversal_v1",
+    "enabled": true,
+    "E_GABA_mV": -68.0,
+    "source_schema": "matrix_kcgamma_regional_brain_fp64_cuda_v1",
+    "adoption_time_ns": 37662000000,
+    "source_state_sha256": "8e6426afa5e6f1456193310fea90a9e72827101c089f97dcda9acb561d89b7e2",
+    "constraints": {
+      "article_doi": "10.1038/s41586-022-04428-3",
+      "dataset_doi": "10.17617/3.8G",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891015/",
+      "origin": "Published conductance-model E_GABA=-68mV, measured/modelled in voltage-clamp experiments; no fit to MATRIX activity or behavior.",
+      "equation_scope": "Published numerator includes E_GABA*(g_Mi4+g_C3); denominator includes both conductances.",
+      "local_measurement_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/visual_physiology_targets/v0.1/fig2_iv_cells.csv",
+      "local_measurement_sha256": "abfbe6ab36141d18d1b6a03ec85467e5d2e860276f8708955142273bc1f510f2",
+      "observed_cells": [
+        {
+          "cell_id": "20200910_T4-1",
+          "historical_role": "calibration",
+          "slope_nS": 0.06251831253571428,
+          "intercept_pA": 4.227608954214286,
+          "somatic_reversal_mv": -67.62193000329651
+        },
+        {
+          "cell_id": "20200910_T4-3",
+          "historical_role": "calibration",
+          "slope_nS": 0.05829571967142857,
+          "intercept_pA": 2.879220084714285,
+          "somatic_reversal_mv": -49.38990548435454
+        },
+        {
+          "cell_id": "20200911_T4-3",
+          "historical_role": "calibration",
+          "slope_nS": 0.069154988375,
+          "intercept_pA": 4.1471184926785725,
+          "somatic_reversal_mv": -59.968464894974716
+        },
+        {
+          "cell_id": "20200911_T4-5",
+          "historical_role": "heldout",
+          "slope_nS": 0.05455944907142855,
+          "intercept_pA": 4.1312638364285705,
+          "somatic_reversal_mv": -75.72040969511939
+        },
+        {
+          "cell_id": "20210312_T4-2",
+          "historical_role": "heldout",
+          "slope_nS": 0.023306902535714286,
+          "intercept_pA": 2.025338408928572,
+          "somatic_reversal_mv": -86.89865184037427
+        }
+      ],
+      "limits": [
+        "Somatic currents after1mM GABA puff for100ms onto M10 dendrites; not an endogenous single-synapse conductance.",
+        "Young adult females, T4c/d-biased label, transferred to male T4a/b/c/d by type.",
+        "Cell estimates span about-49 to-87mV; the historical subsets disagree. No heldout validation is claimed.",
+        "Possible GABA_B/GIRK contribution; this is not an exclusive Rdl/chloride assignment.",
+        "Per-edge conductance and synaptic time constant remain inherited hypotheses."
+      ]
+    },
+    "positions": {
+      "__array__": "array_101"
+    },
+    "pre_ids": {
+      "__array__": "array_102"
+    },
+    "post_ids": {
+      "__array__": "array_103"
+    },
+    "target_rows": {
+      "__array__": "array_104"
+    },
+    "target_ids": {
+      "__array__": "array_105"
+    },
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "selected_weights_sha256": "fad7f3bd57510849c5f2d927a77301afedf42a81a55f27a64965af51b5f362b6",
+    "correction": "Add ((E_GABA+80)/80)*g_Mi4_C3/(rate*tau) to T4 normalized voltage target; unchanged rate and conductance.",
+    "other_inputs": "All unselected GABA and other afferents keep their inherited reversal and contribution.",
+    "biological_validation": false,
+    "parameter_fitting": false,
+    "record_sha256": "86b68b5f0a10d417944d1145d4d7284a81c69f453b6992587bff6bcf25cb24d3"
+  },
+  "retinal_transduction_manifest": {
+    "policy": "recurrent_retina_microvillus_population_v1",
+    "enabled": true,
+    "source_schema": "matrix_t4_gaba_brain_fp64_cuda_v1",
+    "adoption_time_ns": 37964000000,
+    "parent_state_size": 349428,
+    "target_rows": {
+      "__array__": "array_106"
+    },
+    "target_ids": {
+      "__array__": "array_107"
+    },
+    "photo_positions": {
+      "__array__": "array_108"
+    },
+    "state_order": [
+      "microvilli_available_fraction",
+      "filtered_successful_absorption_fraction"
+    ],
+    "parameters": {
+      "microvilli_per_cell": 30000,
+      "recovery_tau_s": 0.1,
+      "absorbed_photons_per_s_at_unit_light": 1000000.0,
+      "bump_filter_tau_s": 0.005,
+      "maximum_relative_photoconductance": 1.0,
+      "photo_reversal_mv": 20.0
+    },
+    "parameter_status": "Biologically constrained population approximation with uncalibrated optical/conductance gain and bump filter.",
+    "initial_light": {
+      "__array__": "array_109"
+    },
+    "initial_parent_state_sha256": "d1cc0fa64194593e4b0fcb12812db7d28ee3cf1b18b069ebc68a5dc1fdb9c2b3",
+    "initial_new_state_sha256": "c8ddb156cc3417a3e39df10274329ad2a29b94b90711cbd2e5be5fe03517b9a1",
+    "initialization": "New A,z at stationary values for current pending light. Earlier microvillus history unknown. Existing voltage/transmission/body are unchanged.",
+    "incoming_positions": {
+      "__array__": "array_110"
+    },
+    "incoming_pairs": 12102,
+    "lai_positions": {
+      "__array__": "array_111"
+    },
+    "incoming_weights_sha256": "6c5388b9c8d817d649a61af466354f29857ea4195e796427ffa9c3125bfa605b",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "inherited_retinal_manifest_sha256": "988507de4a540894bdeda03a5871bef0065d57548d5100aab6d479c048fe8d79",
+    "provenance": {
+      "structural_source": "Juusola2017 doi:10.7554/eLife.26117; local Gillespie_sim_b2p3_Skew_speed205.m: 30000 microvilli.",
+      "recovery_source": "Song2012 doi:10.1016/j.cub.2012.05.047: recovery order 100-200ms; Juusola2017 gives variable 50-300ms. A single exponential100ms is a reduction, not an individual measurement.",
+      "reversal_source": "Juusola2017 local Vol_FeedbackCluster.m uses TRPrev=20mV for voltage-dependent driving force.",
+      "optical_gain": "Unit image luminance is assigned1e6 absorbed photons/s per receptor by the virtual apparatus; no measured radiometry or spectrum.",
+      "conductance_gain": "g_photo/g_leak = inherited maximum1 * filtered(L*A). Absolute channel count/current and C/g_leak are uncalibrated.",
+      "kinetics": "The inherited5ms fast filter remains a device approximation; no measured bump waveform or latency is claimed.",
+      "equation": "dA/dt=(1-A)/tau_rec-(phi/N)*A; dz/dt=(L*A-z)/tau_filter; phi=phi_max*L; g_photo=z*g_max.",
+      "omissions": [
+        "Stochastic quantum bumps and refractoriness distribution",
+        "Rhodopsin/G-protein/PLC cascade and calcium-dependent bump adaptation",
+        "Photomechanical movements, channel pumps and measured intrinsic membrane conductances"
+      ],
+      "claim": "Partial biological constraint within a functional retinal prosthesis; not reconstructed biological retina."
+    },
+    "lai_receptor": {
+      "doi": "10.1371/journal.pbio.1002115",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002115",
+      "mechanism": "Amacrine glutamate excites photoreceptor EKAR; transfer AC identity to canonical Lai.",
+      "crosswalk_doi": "10.1371/journal.pone.0002110",
+      "scope": "Only existing Lai->mapped R1-R6 terminals; use magnitude of inherited weight as excitatory conductance. No stored weight changes.",
+      "limitation": "Polarity supported; generic0mV reversal, per-contact conductance and5ms chemical filter remain model assumptions. No Ih channel reconstruction."
+    },
+    "voltage_equation": "target=(0.25+g_exc+1.25*g_photo)/(1+g_exc+g_inh+g_photo); rate=(1+g_exc+g_inh+g_photo)/inherited_tau. All local canonical chemical inputs included.",
+    "supersedes": "Historical R1-R6 voltage clamp and its old fast/adaptation contribution on selected rows only; old states remain as inactive historical coordinates there.",
+    "bypass": "Parent coefficients and solver error norm exactly restored; new states frozen.",
+    "parameter_fitting": false,
+    "biological_validation": false,
+    "record_sha256": "ad0dc1bd0c112f77fdc69e1a452f18b4a5bb0cff95b8b9edee70a872249ad7ca"
+  },
+  "cvn7_manifest": {
+    "policy": "cvn7_quasistationary_conductance_lif_rate_prosthesis_v1",
+    "enabled": true,
+    "parameters": {
+      "rest_mV": -50.0,
+      "reset_mV": -50.0,
+      "input_resistance_MOhm": 175.0,
+      "membrane_tau_s": 0.02,
+      "threshold_mV": -45.0,
+      "refractory_s": 0.0022,
+      "excitatory_reversal_mV": 0.0,
+      "inhibitory_reversal_mV": -68.0
+    },
+    "parameter_status": "Quasi-stationary LIF conductance-to-rate prosthesis. CvN7 rest/Rin range midpoints; other electrical quantities remain transferred or inherited model priors.",
+    "source_schema": "matrix_retinal_transduction_brain_fp64_cuda_v1",
+    "adoption_time_ns": 38914000000,
+    "state_size": 355470,
+    "new_states": 0,
+    "initial_state_sha256": "106cab4160e7eaf295ab84bc7cfb7da9453e9a2ae6bb4ac350123a0a8eae9b91",
+    "initial_inherited_metadata_sha256": "e6f779b7cfb89225501ec05106d25a9b7b0b3265e8a54c6f36fe7ce552c99a74",
+    "target_rows": {
+      "__array__": "array_112"
+    },
+    "target_ids": {
+      "__array__": "array_113"
+    },
+    "incoming_positions": {
+      "__array__": "array_114"
+    },
+    "incoming_pairs": 640,
+    "selected_stored_weights_sha256": "8e74b6b0fbc56a152c98a046098eadb9197c51c0ecd1453a4c9bf74f9cd954e0",
+    "selected_effective_weights_sha256": "3bd3ded0f0b3bd4e7dedef97e354efda1b917f3979cc801badddb84222b332b4",
+    "inherited_output_tau_s": {
+      "__array__": "array_115"
+    },
+    "inherited_output_caps": {
+      "__array__": "array_116"
+    },
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "retinal_manifest_sha256": "ad0dc1bd0c112f77fdc69e1a452f18b4a5bb0cff95b8b9edee70a872249ad7ca",
+    "provenance": {
+      "cvn7": {
+        "doi": "10.1038/s41586-024-07222-5",
+        "article_url": "https://www.nature.com/articles/s41586-024-07222-5",
+        "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07222-5/MediaObjects/41586_2024_7222_MOESM1_ESM.pdf",
+        "supplement_sha256": "0d79fcef0205b2eb27cd0f1e205862ecebea7610fb5bbb43fa6421c370bdc7d2",
+        "local_text": "evidence/vision_empirical_20260908/cvn7/gorko_supplementary_information.txt",
+        "local_text_sha256": "86d37d3c35ac63c88e625ec3883f76a643b4e2c91be55e228f0ebe170abdc46d",
+        "local_relevant_lines": [
+          1063,
+          1089
+        ],
+        "local_physiology_receipt": "work/cvn7_conductance_20260910/physiology.json",
+        "local_voltage_reference": "evidence/circuit_integration_20260908/neck/cvn7_empirical_voltage_reference.npz",
+        "local_voltage_summary": "evidence/circuit_integration_20260908/neck/cvn7_ephys_summary.json",
+        "reported_rest_mV": [
+          -55.0,
+          -45.0
+        ],
+        "reported_Rin_MOhm": [
+          150.0,
+          200.0
+        ],
+        "scope": "Somatic current-clamp in female CvN7 at22C, no holding current; current injection elicits spikes. Transfer to two MaleCNS identities uses range midpoints.",
+        "limitation": "Rin includes morphology and active/resting synaptic contributions; its inverse is an effective input-conductance scale, not measured isolated leak."
+      },
+      "lif_priors": {
+        "doi": "10.1038/s41586-024-07763-9",
+        "url": "https://www.nature.com/articles/s41586-024-07763-9",
+        "code_url": "https://github.com/philshiu/Drosophila_brain_model/blob/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py#L19-L28",
+        "code_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+        "local_code": "data/model_assets_20260909/shiu_reference/source/model.py",
+        "scope": "Shiu2024 model priors: membrane tau20ms, threshold-45mV, refractory2.2ms; not measurements of CvN7. Reset-50mV equals the selected resting-range midpoint."
+      },
+      "inhibitory_reversal": {
+        "doi": "10.1038/s41586-022-04428-3",
+        "url": "https://www.nature.com/articles/s41586-022-04428-3",
+        "scope": "The T4/Groschner equivalent GABA reversal-68mV is transferred as an inhibitory prior to all negative CvN7 inputs, including glutamate. This does not identify their receptors or establish their true reversals."
+      },
+      "shared_hypotheses": [
+        "Existing weight signs are retained; positive weights use0mV and negative weights use-68mV. No transmitter label overrides a stored sign.",
+        "abs(weight)*inherited conductance_per_stored_weight*filtered normalized transmission is a conductance relative to effective resting input conductance; no presynaptic rate cap factor.",
+        "All incoming chemical pairs remain; per-contact conductance and common transmission kinetics are unmeasured CvN7 hypotheses.",
+        "Rin sets nS units and derived C_pF=tau_s*1e6/Rin_MOhm. Rin cancels from Vinf and firing-transfer predictions.",
+        "No Vm or spike-event state is added. Stationary LIF frequency is divided by the inherited target cap and clipped to[0,1].",
+        "The inherited target-neuron tau remains the output-rate low-pass time constant; it is distinct from the20ms membrane prior.",
+        "Nonzero direct current has no supported conversion into this conductance model and must fail.",
+        "No behavioral feedback, desired movement, parameter fitting or observed voltage trace is supplied to the neuron."
+      ]
+    },
+    "equation": "gE/gI=sum(abs(weight)*scale*s_pre) by inherited sign; Vinf=(Erest+gE*Eexc+gI*Einh)/(1+gE+gI); tau_eff=20ms/(1+gE+gI); f_inf=stationary_LIF(Vinf,tau_eff); qtarget=min(f_inf/cap_target,1); dq/dt=(qtarget-q)/inherited_tau_target.",
+    "state_contract": "Unchanged normalized rate coordinates and transmission states; no Vm state or spike events. All inherited CNS state and anatomy persist.",
+    "bypass": "When disabled return parent coefficients exactly; unchanged state, solver norm, visual gate and prior parameters.",
+    "direct_drive_policy": "Nonzero or nonfinite CvN7 direct drive is unsupported and rejected; no invented model-current to pA conversion.",
+    "parameter_fitting": false,
+    "biological_validation": false,
+    "record_sha256": "5b0fa19efe483dd47ba5304bd3e881ea75743284e3c970b626cfaf40b4aec476"
+  },
+  "boundary_manifest": {
+    "policy": "external_column_retina_to_uncovered_l1_l2_histamine_v1",
+    "enabled": true,
+    "source_schema": "matrix_cvn7_conductance_brain_fp64_cuda_v1",
+    "parent_state_size": 355470,
+    "adoption_time_ns": 40164000000,
+    "initial_parent_state_sha256": "10415e7ba8cdd888a3487f110200d625d4f27b835d4da5f90adb68a7420f3760",
+    "initial_parent_record_sha256": "e1883f8822636e0b6bd283d816ebbe6bca13e586102efa7958a55cb46cac7752",
+    "initial_light": {
+      "__array__": "array_117"
+    },
+    "initial_new_state_sha256": "204deb8b018bb6df4d401c13ce71fd11157b259f890204bfac750abc27b29775",
+    "parameters": {
+      "retinal": {
+        "microvilli_per_cell": 30000,
+        "recovery_tau_s": 0.1,
+        "absorbed_photons_per_s_at_unit_light": 1000000.0,
+        "bump_filter_tau_s": 0.005,
+        "maximum_relative_photoconductance": 1.0,
+        "photo_reversal_mv": 20.0
+      },
+      "sensor_membrane_tau_s": 0.02,
+      "sensor_transmission_tau_s": 0.005,
+      "histamine_reversal_mv": -80.0,
+      "leak_mv": -60.0,
+      "voltage_low_mv": -80.0,
+      "voltage_high_mv": 0.0,
+      "release_low_mv": -65.0,
+      "release_high_mv": -25.0
+    },
+    "state_order": [
+      "microvilli_available_fraction",
+      "filtered_successful_absorption_fraction",
+      "normalized_voltage",
+      "normalized_transmission"
+    ],
+    "source": {
+      "selection_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/retinal_boundary_20260910/selection.npz",
+      "selection_sha256": "ece91b08cd89113450c874f29e5badaa9d2b4da846eceec302531d6580a6da69",
+      "manifest_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/retinal_boundary_20260910/manifest.json",
+      "manifest_file_sha256": "92a3a10c4f73d9e8fd4c14c882f68b3763eb67d38ad60080d5e71580d8702af5",
+      "source_manifest": {
+        "schema": "matrix_lamina_boundary_selection_v1",
+        "canonical_neurons": 166700,
+        "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+        "targets": 1771,
+        "sensors": 901,
+        "targets_by_type": {
+          "L1": 888,
+          "L2": 883
+        },
+        "targets_by_side": {
+          "L": 1066,
+          "R": 705
+        },
+        "original_R_input_targets": 1623,
+        "original_missing_R_targets": 1932,
+        "remaining_without_port": 161,
+        "virtual_neurons_added_to_canonical_graph": 0,
+        "new_anatomical_edges": 0,
+        "engineering_prosthesis": true,
+        "biological_validation": false,
+        "selection_rule": "Only canonical L1/L2 with no canonical R1-R6 pair, unique native type/side/hex, an existing optical ray, and agreement between its column L1 anchor and v1.0 annotations. One shared input channel per column.",
+        "reference_rule": "Median total R1-R6 contact count separately by L1/L2 among canonical targets with exactly six distinct R1-R6 sources. It supplies an equivalent port conductance, never a claim of new anatomical contacts.",
+        "reference_median_contacts": {
+          "L1": 211.5,
+          "L2": 219.0
+        },
+        "reference_cell_counts": {
+          "L1": 242,
+          "L2": 241
+        },
+        "relative_g_per_contact": 0.001,
+        "conductance_scale_status": "Preserved engineering conversion: stored0.03*contacts multiplied by1/30; not measured nS. No fitted gain.",
+        "sensor_rule": "Standalone lumped optical transducer with the same existing microvillus/filter/passive-voltage/release assumptions; no unobserved recurrent connectivity supplied.",
+        "mechanical_tau_s": 0.02,
+        "synaptic_tau_s": 0.005,
+        "initial_state": "New external sensor history starts at equilibrium for its current physical image; every inherited CNS/body/retinal coordinate stays unchanged.",
+        "coordinate_conflicts": [
+          {
+            "column": "ME_L_col_15_02",
+            "source_L1_id": 95475
+          },
+          {
+            "column": "ME_L_col_34_22",
+            "source_L1_id": 549349
+          },
+          {
+            "column": "ME_L_col_04_16",
+            "source_L1_id": 534860
+          },
+          {
+            "column": "ME_L_col_05_16",
+            "source_L1_id": 548101
+          }
+        ],
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119369/",
+          "https://github.com/flyconnectome/2025malecns",
+          "https://github.com/reiserlab/visualpathways",
+          "https://doi.org/10.1038/s41586-025-09276-5"
+        ],
+        "optical_caveats": [
+          "Optical geometry from another, female individual; not measured MaleCNS rays",
+          "Centered isotropic RMS scaling of author axial coordinates, identity axis convention UNVALIDATED",
+          "Left eye is a reflection of measured right-eye ray field, not a second measured registration",
+          "R1-R6 sharing an L1 cartridge use its ray (neural superposition approximation)",
+          "No reconstruction of omitted receptors, chromatic channels, quantum bumps or gap junctions"
+        ],
+        "sources": {
+          "data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+          "data/anatomical_vision/v0.1/column_anchors.parquet": "d58f2a293255817f18f04b8e84904701b08d364bceaeb7f95975a20a90c1a684",
+          "data/anatomical_vision/optics_candidate_v1/column_rays.parquet": "72fb6ec02f3b7a515fede971e1288ddaf5285c506b117f2783710be20d79554a",
+          "work/lamina_relay_20260910/upstream_audit.json": "e910bbc16b69b0f703563bf2a7c958df32e85ec32e9000623c2a61167a8fd94a"
+        },
+        "files": {
+          "coverage.csv": "62d413e27957bf8c630223f320a4bc293a72107859c3084ca7669b13a7766c37",
+          "targets.csv": "112fab435515321ecb18476d34876e4b9c661032ab59b93de5080a0f47c176b0",
+          "reference_counts.csv": "0dc466b2021e4a695cb68a154785cc75765800566b5310791813c07d65bbc85e",
+          "selection.npz": "ece91b08cd89113450c874f29e5badaa9d2b4da846eceec302531d6580a6da69"
+        },
+        "array_hashes": {
+          "target_rows": "c65c0a29fb6f24645b6486d18792166b4c0af05032be2602b322609da9124ec5",
+          "target_ids": "3f60d0d79e5e8fc1cb0cfb3afe49888e443c799ba5b73d41cc58a6979abb5cce",
+          "target_sensor": "5622e1577a318cc6dc8354e9f8e259ba1aa75d26c1d8538459a4b6947a878958",
+          "target_relative_gmax": "f87aebb1b8a85cf2bc243b1c4cc9db365fc63fcc968c9c983f35cc2a4b355f49",
+          "sensor_rays": "691ea7448c8a627b2e337d34911ceb4adeb0e6989803626b4a0279ce29c7f318",
+          "sensor_sides": "e05513ce78098b670dda480874e11a8efcbf71f3fa101ccd570c3623d57ddc4d"
+        },
+        "builder_sha256": "7a1ef170233e2cb276a79475ea0658362d3b17e5059d9f134ba21f69226f41db"
+      },
+      "source_manifest_record_sha256": "39cfd9c40e5e5412cd24f3a0874228625bece9477fa7a9aef41e957446e44b73",
+      "selection_arrays_sha256": "79b7b778a0e57bd329898f57986e54bca97d920b067c400735861be19d2ffb09"
+    },
+    "target_rows": {
+      "__array__": "array_118"
+    },
+    "target_ids": {
+      "__array__": "array_119"
+    },
+    "target_sensor": {
+      "__array__": "array_120"
+    },
+    "target_relative_gmax": {
+      "__array__": "array_121"
+    },
+    "sensor_rays": {
+      "__array__": "array_122"
+    },
+    "sensor_sides": {
+      "__array__": "array_123"
+    },
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "canonical_types_sha256": "e19a819c0647c8f12218725a65caa06a325ac050b1adf568b938964c03cb3bdc",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "anatomical_weights_sha256": "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da",
+    "inherited_retinal_manifest_sha256": "ad0dc1bd0c112f77fdc69e1a452f18b4a5bb0cff95b8b9edee70a872249ad7ca",
+    "retinal_provenance": {
+      "structural_source": "Juusola2017 doi:10.7554/eLife.26117; local Gillespie_sim_b2p3_Skew_speed205.m: 30000 microvilli.",
+      "recovery_source": "Song2012 doi:10.1016/j.cub.2012.05.047: recovery order 100-200ms; Juusola2017 gives variable 50-300ms. A single exponential100ms is a reduction, not an individual measurement.",
+      "reversal_source": "Juusola2017 local Vol_FeedbackCluster.m uses TRPrev=20mV for voltage-dependent driving force.",
+      "optical_gain": "Unit image luminance is assigned1e6 absorbed photons/s per receptor by the virtual apparatus; no measured radiometry or spectrum.",
+      "conductance_gain": "g_photo/g_leak = inherited maximum1 * filtered(L*A). Absolute channel count/current and C/g_leak are uncalibrated.",
+      "kinetics": "The inherited5ms fast filter remains a device approximation; no measured bump waveform or latency is claimed.",
+      "equation": "dA/dt=(1-A)/tau_rec-(phi/N)*A; dz/dt=(L*A-z)/tau_filter; phi=phi_max*L; g_photo=z*g_max.",
+      "omissions": [
+        "Stochastic quantum bumps and refractoriness distribution",
+        "Rhodopsin/G-protein/PLC cascade and calcium-dependent bump adaptation",
+        "Photomechanical movements, channel pumps and measured intrinsic membrane conductances"
+      ],
+      "claim": "Partial biological constraint within a functional retinal prosthesis; not reconstructed biological retina."
+    },
+    "sensor_equation": "dA/dt=(1-A)/tau_rec-(phi/N)*A; dz/dt=(L*A-z)/5ms; du/dt=((.25+1.25*gphoto)/(1+gphoto)-u)*(1+gphoto)/20ms; ds/dt=(clip((80*u-15)/40,0,1)-s)/5ms.",
+    "histamine_equation": "gh=target_relative_gmax*s[target_sensor]; oldtotal=parent_rate*tau; target=parent_target*oldtotal/(oldtotal+gh); rate=(oldtotal+gh)/tau; EHis=-80mV.",
+    "conductance_status": "Median anatomical contacts for the target type with exactly six canonical R1-R6 inputs, multiplied by inherited .001 relative conductance/contact. Not measured nS or reconstructed missing contacts.",
+    "membrane_tau_status": "20ms mean of the inherited random membrane prior; no photoreceptor electrical calibration.",
+    "initialization": "New external sensor A,z,u,s at equilibrium of current pending optical image; all pre-existing neural and body history preserved. Earlier external sensor history is unknown.",
+    "scope": "External achromatic retinal apparatus at canonical L1/L2 without any canonical R1-R6 pair; shared sensor per column. No new brain neuron IDs or anatomical edges.",
+    "boundary_direction": "Feedforward apparatus; no invented feedback from L1/L2 to the missing receptor.",
+    "bypass": "When disabled, parent coefficients and error norm are unchanged; four added states per sensor are frozen.",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "biological_validation": false,
+    "parameter_fitting": false,
+    "record_sha256": "0aa2af8c662b4df79eec64869c8d57a44568aaae1dfae7b379b4ff4bf9be0af5"
+  },
+  "held_boundary_light": {
+    "__array__": "array_124"
+  },
+  "pnkc_receptor_manifest": {
+    "policy": "canonical_alpn_kcgamma_mean_receptor_v1",
+    "enabled": true,
+    "source_schema": "matrix_lamina_boundary_brain_fp64_cuda_v1",
+    "parent_state_size": 359074,
+    "adoption_time_ns": 40814000000,
+    "parameters": {
+      "alpha_per_s": 2500.0,
+      "beta_per_s": 400.0,
+      "transmitter_amplitude": 0.5,
+      "transmitter_duration_s": 0.0003,
+      "mean_activation_per_hz": 0.37499999999999994
+    },
+    "source_rows": {
+      "__array__": "array_125"
+    },
+    "source_ids": {
+      "__array__": "array_126"
+    },
+    "target_rows": {
+      "__array__": "array_127"
+    },
+    "target_ids": {
+      "__array__": "array_128"
+    },
+    "csr_positions": {
+      "__array__": "array_129"
+    },
+    "pre_rows": {
+      "__array__": "array_130"
+    },
+    "post_rows": {
+      "__array__": "array_131"
+    },
+    "contacts": {
+      "__array__": "array_132"
+    },
+    "source_ground_truth": {
+      "__array__": "array_133"
+    },
+    "source": {
+      "selection_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/pnkc_receptor_20260910/selection.npz",
+      "manifest": {
+        "selection_sha256": "df3c3d72de725567292f14d67a416fe5f7c0fe8789a7690dd460a9c92bf3b7a5",
+        "sources": {
+          "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+          "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40",
+          "/home/daroch/AXIOMA_FLYWIRE/matrix/data/kc_cholinergic_20260910/primary_parameter_targets.json": "4803596fabaffdce3041a8989f7e496c3d246be61beb40c28e4a0f60673e835d",
+          "/home/daroch/AXIOMA_FLYWIRE/matrix/recursos_cientificos/literatura/00_fuentes_adquiridas_20260910/turner2008.pdf": "b91b357db8110c073e7f3e6ee0e1132cac466c722f6b97997dfe89e755f7618d"
+        },
+        "parent_checkpoint": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/lamina_boundary_20260910/down/checkpoint",
+        "sources_count": 299,
+        "targets_count": 1375,
+        "gamma_targets_total": 1557,
+        "pairs": 9866,
+        "contacts": 181640,
+        "source_ground_truth_counts": {
+          "acetylcholine": 286,
+          "unknown": 13
+        },
+        "anatomical_scope": "MaleCNS v1.0 actual ALPN acetylcholine consensus -> canonical KCgamma pairs. No new IDs or edges. Pair weights and all other afferents retained. No within-pair compartment or claw reconstruction.",
+        "physiological_source": "Turner, Bazhenov & Laurent 2008, doi:10.1152/jn.01283.2007, p736; in-vivo Canton-S females, KC population. Alpha/beta estimated from voltage clamp; pulse shape is a published model assumption. Transfer to MaleCNS gamma cells is a cross-animal/type approximation.",
+        "equation": "mean-field db/dt = k*f_PN*(1-b)-beta*b; k=alpha*A*duration=0.375, beta=400/s; f_PN=canonical q*caps; effective_rate=(beta/k)*b",
+        "replaced": "The inherited generic 5ms transmission state only in the identified PN->KCgamma terms. The old PN transmission state and all its other projections continue.",
+        "remaining_prosthesis": "Rate-to-mean-transmitter closure, homogeneous receptors across targets, contact-weight-to-current scale and KC rate/excitability transfer. This is receptor kinetics, not a recovered voltage-dependent conductance or full Kenyon cell.",
+        "initialization": "Set b=k/beta*inherited PN filtered rate, preserving initial PN drive; older receptor history unknown.",
+        "new_downloads": 0,
+        "biological_validation": false
+      },
+      "selection_arrays_sha256": "2a0ef01ca21c1f838804007f25e0e0de525ad0e488570ff9e7fe698fe074e423"
+    },
+    "initial_parent_record_sha256": "55f1669537f99ad643951d451c2458102bd47d54f40db1d5fc4e5baaf7f74941",
+    "initial_new_state_sha256": "bff459c5a5972b1251d38d9c4dcb0b60570206ea056ff05036daf43f9c76b9ad",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "anatomical_weights_sha256": "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da",
+    "inherited_regional_manifest_sha256": "fb51bf3611fda6c9b9fa1582bb45be86175c8621e75ae721b64c1e3d24168b9d",
+    "state_order": [
+      "mean_open_receptor_fraction"
+    ],
+    "equation": "db/dt=k*f_PN*(1-b)-beta*b; f_PN=q_PN*caps_PN; effective_rate=(beta/k)*b; retain original pair weight.",
+    "initialization": "b=k/beta*previous PN filtered rate; match initial branch current, unknown earlier receptor history.",
+    "compression": "One state per PN for identical receptor kinetics and identical initialization at its selected KC terminals. Individual anatomical pair strengths remain stored and applied.",
+    "source_scope": "Turner2008 female population voltage-clamp kinetic estimates transferred to male gamma KC; mean transmitter rather than explicit PN spikes.",
+    "remaining_prostheses": [
+      "Rate-to-mean-transmitter closure; homogeneous kinetics across mapped terminals",
+      "Inherited anatomical-contact-to-current scale; low-rate strength normalization is an interface assumption",
+      "KC rate transfer and excitability; no KC membrane voltage or full voltage-dependent synaptic conductance",
+      "APL remains the inherited neural component, without a localized graded electrical replacement"
+    ],
+    "changed_term": "Only mapped ALPN->KCgamma release filter; all other afferents and PN projections retained.",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "biological_validation": false,
+    "parameter_fitting": false,
+    "external_neuron_model_integrated": false,
+    "learning_demonstrated": false,
+    "record_sha256": "419e524ac7119e55debadb6ad835ba89a8452b0ab752809b3be7e3c35411f521"
+  },
+  "kcgamma_output_manifest": {
+    "policy": "canonical_kcgamma_remaining_output_routes_v1",
+    "enabled": true,
+    "source_schema": "matrix_pnkc_receptor_brain_fp64_cuda_v1",
+    "parent_state_size": 359373,
+    "adoption_time_ns": 41214000000,
+    "initial_parent_record_sha256": "5d2304f2d4c50193abd665869cbeed4c40faaad34d0b94e6b415da6fa34a9bf6",
+    "csr_positions": {
+      "__array__": "array_134"
+    },
+    "pre_rows": {
+      "__array__": "array_135"
+    },
+    "post_rows": {
+      "__array__": "array_136"
+    },
+    "pre_ids": {
+      "__array__": "array_137"
+    },
+    "post_ids": {
+      "__array__": "array_138"
+    },
+    "total_contacts": {
+      "__array__": "array_139"
+    },
+    "gamma_contacts": {
+      "__array__": "array_140"
+    },
+    "calyx_contacts": {
+      "__array__": "array_141"
+    },
+    "other_contacts": {
+      "__array__": "array_142"
+    },
+    "target_rows": {
+      "__array__": "array_143"
+    },
+    "source_rows": {
+      "__array__": "array_144"
+    },
+    "source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_mbon_system_20260910/gamma_output_selection.npz",
+      "manifest": {
+        "policy": "canonical_kcgamma_remaining_output_routes_v1",
+        "selection_sha256": "7fb48d95b8d9c52dc98ee1ebdc2e40c62e66197dfa947892740d33f1167b421a",
+        "raw_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_mbon_system_20260910/kc_remaining_outputs_including_untyped_roi.json.gz",
+        "raw_sha256": "8d0d5de1e640fd6a0bec59b1ea80be9ab0c552f7457a16180d937ef2b2006b56",
+        "query_receipt": "kc_remaining_outputs_including_untyped_roi_receipt.json",
+        "queried_pairs": 93912,
+        "selected_pairs": 70238,
+        "selected_contacts": 306448,
+        "gamma_contacts": 277344,
+        "target_neurons": 791,
+        "source_neurons": 1557,
+        "excluded": {
+          "no_known_gamma_output": 20291,
+          "preserve_specialized_target": 286,
+          "outside_canonical": 3097
+        },
+        "target_types_pairs": {
+          "AOTU019": 11,
+          "MBON01": 1574,
+          "SMP108": 162,
+          "mALD1": 1,
+          "MBON06": 20,
+          "oviIN": 1,
+          "OA-VPM4": 389,
+          "OA-VUMa6": 10,
+          "OA-VPM3": 532,
+          "CRE023": 72,
+          "SIP136m": 1,
+          "CRE011": 41,
+          "SMP709m": 26,
+          "CRE004": 26,
+          "LAL198": 50,
+          "AL-MBDL1": 1,
+          "VES079": 1,
+          "aIPg_m4": 5,
+          "DNp62": 3,
+          "CRE075": 42,
+          "LoVC20": 35,
+          "MBON35": 1209,
+          "CRE062": 14,
+          "CRE021": 18,
+          "CRE074": 68,
+          "MBON11": 1571,
+          "MBON20": 1348,
+          "MBON31": 23,
+          "MBON21": 1507,
+          "LAL159": 35,
+          "DNa04": 2,
+          "LHCENT3": 3,
+          "AVLP562": 30,
+          "DNp52": 11,
+          "mALD4": 59,
+          "MBON26": 145,
+          "CRE040": 23,
+          "CRE005": 1,
+          "FB1C": 26,
+          "CRE107": 57,
+          "PPL101": 2947,
+          "SMP586": 9,
+          "CRE100": 23,
+          "MBON32": 1510,
+          "PPL102": 1134,
+          "CRE041": 4,
+          "LHCENT11": 1,
+          "mALD3": 63,
+          "SMP163": 2,
+          "DPM": 1557,
+          "mALB1": 21,
+          "PPL103": 2915,
+          "MBON33": 538,
+          "LHPV3c1": 47,
+          "MBON22": 81,
+          "CRE050": 8,
+          "DNp101": 5,
+          "SMP715m": 34,
+          "pC1x_c": 6,
+          "FB5D": 1,
+          "CRE080_c": 26,
+          "SMP146": 19,
+          "SMP577": 52,
+          "SMP370": 9,
+          "ExR6": 1,
+          "DNp44": 1,
+          "AVLP563": 22,
+          "GNG322": 46,
+          "CRE042": 23,
+          "CRE048": 603,
+          "CRE076": 1,
+          "PPL108": 5,
+          "SMP179": 8,
+          "SMP589": 1,
+          "LAL100": 15,
+          "SMP744": 9,
+          "SMP165": 48,
+          "CRE106": 6,
+          "CL326": 6,
+          "MBON12": 2681,
+          "CRE077": 6,
+          "SMP157": 7,
+          "LAL154": 49,
+          "CRE022": 91,
+          "LAL007": 20,
+          "CRE013": 2,
+          "LAL195": 1,
+          "LHPV8a1": 88,
+          "LHPV7c1": 59,
+          "LHPV9b1": 56,
+          "SMP148": 83,
+          "SMP152": 19,
+          "CRE080_b": 52,
+          "FB5I": 1,
+          "SLP247": 1,
+          "SMP385": 1,
+          "PLP162": 27,
+          "FB4C": 9,
+          "CL032": 1,
+          "MBON07": 2,
+          "MBON24": 157,
+          "aIPg_m2": 5,
+          "LAL012": 1,
+          "SMP151": 29,
+          "CRE067": 134,
+          "CRE012": 29,
+          "SMP273": 1,
+          "aIPg10": 3,
+          "CRE081": 73,
+          "FB4O": 14,
+          "LAL129": 21,
+          "LAL185": 34,
+          "CL123_a": 34,
+          "CL123_d": 17,
+          "": 84,
+          "FB2B_b": 1,
+          "GNG321": 9,
+          "ATL026": 1,
+          "CL123_c": 10,
+          "SMP053": 18,
+          "CL123_e": 20,
+          "AOTU020": 38,
+          "aIPg6": 1,
+          "MBON09": 3226,
+          "GNG485": 1,
+          "WEDPN10B": 1,
+          "MB-C1": 19,
+          "SMP714m": 33,
+          "FB4R": 95,
+          "LAL155": 8,
+          "CRE039": 779,
+          "aIPg5": 1,
+          "SMP377": 1,
+          "SMP712m": 25,
+          "CRE001": 5,
+          "ICL010m": 28,
+          "LAL008": 9,
+          "CRE080_a": 94,
+          "CL123_b": 23,
+          "LAL160": 1,
+          "FB4K": 17,
+          "ICL011m": 1,
+          "CRE007": 1,
+          "SLP473": 4,
+          "SMP115": 6,
+          "CRE044": 98,
+          "SMP556": 4,
+          "aIPg8": 3,
+          "CRE105": 42,
+          "aIPg_m1": 1,
+          "aIPg7": 4,
+          "CRE065": 20,
+          "CL261": 32,
+          "AVLP742m": 2,
+          "mAL_m2b": 1,
+          "CRE043_b": 54,
+          "KCa'b'-ap1": 310,
+          "CRE059": 23,
+          "CRE027": 129,
+          "SMP569": 31,
+          "FB4F_c": 1,
+          "CRE024": 121,
+          "CRE066": 7,
+          "AOTU022": 6,
+          "CRE070": 1,
+          "CRE028": 5,
+          "CRE072": 8,
+          "FB2B_a": 3,
+          "CRE080_d": 41,
+          "SMP030": 3,
+          "CRE037": 18,
+          "aIPg9": 7,
+          "SMP568_a": 63,
+          "SMP570": 32,
+          "CRE043_a1": 17,
+          "CRE060": 9,
+          "CL129": 15,
+          "LAL042": 12,
+          "IB017": 3,
+          "SMP713m": 11,
+          "CRE045": 20,
+          "FB4P_a": 5,
+          "CB0951": 44,
+          "SMP145": 14,
+          "SMP147": 3,
+          "CRE043_c1": 11,
+          "CRE025": 19,
+          "CRE046": 13,
+          "SMP122": 5,
+          "AVLP497": 10,
+          "SMP383": 1,
+          "SMP031": 19,
+          "SLP461": 13,
+          "SMP160": 1,
+          "MBON10": 26,
+          "PAM07": 6290,
+          "SMP573": 15,
+          "LAL043_c": 9,
+          "LAL043_e": 43,
+          "ATL007": 24,
+          "CRE043_a2": 70,
+          "CL199": 1,
+          "SMP376": 52,
+          "LH008m": 36,
+          "LAL043_a": 21,
+          "KCab-p": 5,
+          "AOTU102m": 11,
+          "PAM01": 16880,
+          "SIP054": 2,
+          "KCa'b'-ap2": 9,
+          "CRE008": 10,
+          "LAL043_d": 14,
+          "ATL033": 1,
+          "KCa'b'-m": 20,
+          "CRE043_a3": 42,
+          "PAM12": 7916,
+          "PAM10": 9,
+          "CB3135": 7,
+          "SMP128": 12,
+          "ATL005": 11,
+          "CRE068": 5,
+          "MBON25-like": 553,
+          "KCab-s": 3,
+          "CB1896": 2,
+          "CB1062": 6,
+          "FB5V_b": 1,
+          "MBON25": 641,
+          "CRE030_b": 5,
+          "MBON34": 65,
+          "CB3865": 3,
+          "CB1287": 10,
+          "CB3874": 1,
+          "LAL110": 1,
+          "CRE038": 12,
+          "FB5V_a": 12,
+          "PAM05": 177,
+          "CB2736": 1,
+          "AOTU021": 5,
+          "SMP453": 1,
+          "TuBu01": 2,
+          "PAM04": 13,
+          "SMP139": 4,
+          "CB2719": 1,
+          "CB1478": 3,
+          "CRE043_d": 25,
+          "CB1168": 1,
+          "SMP450": 1,
+          "CRE108": 4,
+          "LAL043_b": 7,
+          "CRE035": 3,
+          "PAM06": 8,
+          "SMP214": 3,
+          "CB3574": 5,
+          "PAM15": 844,
+          "FB4E_b": 2,
+          "PAM02": 411,
+          "PAM13": 30,
+          "SMP174": 1,
+          "LAL090": 1,
+          "PAM14": 3,
+          "PAM09": 4,
+          "LAL040": 5,
+          "TuBu03": 1,
+          "PAM11": 1,
+          "SMP056": 81,
+          "SMP114": 49,
+          "SMP164": 1,
+          "CRE049": 3,
+          "MBON30": 1562,
+          "SMP075": 195,
+          "AN00A006": 1,
+          "MBON27": 496,
+          "PPL104": 1,
+          "LAL199": 10,
+          "SMP555": 4,
+          "CRE069": 1,
+          "AVLP477": 10,
+          "AVLP749m": 3,
+          "MBON29": 1853,
+          "SMP142": 10,
+          "SIP106m": 7,
+          "SMP049": 8,
+          "SMP471": 1,
+          "LHPD5d1": 4,
+          "SMP048": 5,
+          "MBON03": 4,
+          "FB1H": 16,
+          "CRE043_c2": 18,
+          "MBON02": 28,
+          "SMP156": 2,
+          "SMP457": 7,
+          "SMP541": 2,
+          "PS019": 1,
+          "MBON04": 779,
+          "SMP076": 2,
+          "SMP254": 1,
+          "ANXXX116": 2,
+          "VES003": 3,
+          "SMP443": 1,
+          "CB4159": 1
+        },
+        "same_neurons": 166700,
+        "same_stored_pairs": 25582938,
+        "local_parent": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/pnkc_receptor_20260910/pulse/checkpoint",
+        "biological_validation": false,
+        "remaining_prosthesis": "Existing gamma-lobe x/b/sax kinetics are uncalibrated hypotheses. Post ROI fraction localizes the contact, not the receptor identity. Unknown/unmapped terms and non-gamma fractions remain on their original transmission.",
+        "new_parameters": 0,
+        "new_states": 0
+      },
+      "arrays_sha256": "99c39e3f0a622ef29e99a5df13dc9e7b0a508dad1f5179e26eb6b7e6e895d31d"
+    },
+    "inherited_regional_manifest_sha256": "fb51bf3611fda6c9b9fa1582bb45be86175c8621e75ae721b64c1e3d24168b9d",
+    "node_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+    "anatomical_indptr_sha256": "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+    "anatomical_indices_sha256": "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+    "anatomical_weights_sha256": "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da",
+    "equation": "release_eff=(1-f_gL)*old_filtered_soma + f_gL*persisted_filtered_axon; apply original signed pair weight and cap.",
+    "region_scope": "Only additional mapped non-KCgamma ordinary-rate targets. Existing specialized transfers remain authoritative; unassigned and non-gamma fractions remain inherited.",
+    "retained_prostheses": [
+      "Gamma axonal kinetics and contact-to-current scales are inherited hypotheses, without new fitting.",
+      "Anatomical ROI does not identify receptor subtype or prove functional strength.",
+      "APL/KC/MBON rate transfer, local APL release and complete neuromodulation remain incomplete."
+    ],
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "new_dynamic_states": 0,
+    "new_parameters": 0,
+    "parameter_fitting": false,
+    "biological_validation": false,
+    "learning_demonstrated": false,
+    "record_sha256": "f3479e109e865d191785b7ed0d7063e60f6d86c794a41cc3cdcb5b3a9380d9c8"
+  },
+  "kc_apl_dynamic_manifest": {
+    "source": {
+      "schema": "matrix_kc_apl_dynamic_source_v1",
+      "physiology": {
+        "policy": "canonical_kc_apl_conductance_threshold_v1",
+        "selection_path": "data/kc_apl_physiology_20260910/selection.npz",
+        "selection_sha256": "1de8ed351f42008a2b777fc8951114c08722076b0c51f7ec5e76d9c21054b2bb",
+        "groups": [
+          {
+            "name": "alpha_beta",
+            "prefix": "KCab",
+            "source_file": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_mbon_system_20260910/ab_final.xlsx",
+            "source_sha256": "279b5d67a24b856c1d81395ee19ed041c1de200d141b45dbe71b125b91748496",
+            "rest_mV": -67.17415,
+            "Rin_GOhm": 11.5338,
+            "threshold_mV": -32.4633,
+            "membrane_tau_s": 0.182059,
+            "reset_mV": -67.17415,
+            "selected_ids": [
+              "231208f01c02L",
+              "240119f02c01R",
+              "241119f01c01L",
+              "250113f02c01L",
+              "250117f01c01L",
+              "250519f03c01L",
+              "250616f01c01L",
+              "250616f03c02R",
+              "251105e63f03NS_A_Cell01L_IC_wo_hold_0000.abf",
+              "251107e25f12NS_M_Cell01L_IC_wo_hold_0000.abf",
+              "251128e35f01NS_A_Cell02R_IC_wo_hold_0000.abf",
+              "251230e25f14NS_A_Cell01R_IC_wo_hold_0000.abf"
+            ],
+            "property_n": {
+              "RMP": 12,
+              "Rin": 12,
+              "Vthres": 12,
+              "Time constant": 11,
+              "AHP": 11
+            },
+            "empirical_FI_comparator": {
+              "current_pA": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0,
+                12.0
+              ],
+              "Hz": [
+                0.0,
+                0.0,
+                0.0,
+                0.6666665,
+                5.333333,
+                11.333335,
+                17.33333,
+                26.0,
+                34.666664999999995,
+                38.666664999999995,
+                41.33333,
+                45.333335000000005,
+                45.33333
+              ],
+              "n": 12
+            },
+            "scope": "Female ex vivo somatic population proxy. NS, RMP<-50mV, positive Rin and a recorded spiking response. Each property excludes only its own missing values; selection is explicit, not an asserted reconstruction of published Figure3 n."
+          },
+          {
+            "name": "alpha_prime_beta_prime",
+            "prefix": "KCa'b'",
+            "source_file": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_mbon_system_20260910/abp_final.xlsx",
+            "source_sha256": "21b09a36027b4b86c99bd6d3a2a52079a5e49eec8e7c466e20d4739ddfd387ea",
+            "rest_mV": -53.9924,
+            "Rin_GOhm": 8.997845,
+            "threshold_mV": -44.57155,
+            "membrane_tau_s": 0.13821799999999998,
+            "reset_mV": -53.9924,
+            "selected_ids": [
+              "231121f02c01R",
+              "241114f02c01L",
+              "250616f02c01R",
+              "250620f01c01L",
+              "251208e04f07NS_A_Cell01R_IC_wo_hold_0000.abf",
+              "251208e04f18NS_A_Cell01R_IC_wo_hold_0000.abf"
+            ],
+            "property_n": {
+              "RMP": 6,
+              "Rin": 6,
+              "Vthres": 6,
+              "time constant": 5,
+              "AHP": 4
+            },
+            "empirical_FI_comparator": {
+              "current_pA": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0,
+                12.0
+              ],
+              "Hz": [
+                0.0,
+                4.0,
+                5.333333,
+                8.0,
+                10.66667,
+                12.0,
+                16.0,
+                16.0,
+                18.66667,
+                21.33333,
+                21.33333,
+                24.0,
+                22.66667
+              ],
+              "n": 5
+            },
+            "scope": "Female ex vivo somatic population proxy. NS, RMP<-50mV, positive Rin and a recorded spiking response. Each property excludes only its own missing values; selection is explicit, not an asserted reconstruction of published Figure3 n."
+          },
+          {
+            "name": "gamma",
+            "prefix": "KCg",
+            "source_file": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_mbon_system_20260910/g_final.xlsx",
+            "source_sha256": "f2051322d336544404b48ab4837ad496bd94f7bfb60bf505263143cdcffab331",
+            "rest_mV": -63.626949999999994,
+            "Rin_GOhm": 8.328205,
+            "threshold_mV": -22.38,
+            "membrane_tau_s": 0.126764,
+            "reset_mV": -63.626949999999994,
+            "selected_ids": [
+              "231123f02c01L",
+              "231124f02c01L",
+              "240111f01c01R",
+              "240119f01c01R",
+              "240123f01c01L",
+              "241101f01c01L",
+              "241104f01c02R",
+              "241105f01c01L",
+              "241114f01c02R",
+              "250116f02c01R",
+              "250120f01c01L",
+              "250120f02c01L",
+              "250121f01c01R",
+              "250121f02c01R",
+              "250121f02c02L",
+              "250123f03c01L",
+              "250124f02c02R",
+              "250130f01c01L",
+              "250602f01c01R",
+              "250616f03c01L",
+              "250620f02c01R",
+              "251105e25f03NS_M_Cell01R_IC_wo_hold_0000.abf",
+              "251204e62f01NS_A_Cell01R_IC_wo_hold_0000.abf",
+              "251225e63f02NS_A_Cell01R_IC_wo_hold_0000.abf"
+            ],
+            "property_n": {
+              "RMP": 24,
+              "Rin": 24,
+              "Vthres": 21,
+              "time constant": 23,
+              "AHP": 20
+            },
+            "empirical_FI_comparator": {
+              "current_pA": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0,
+                12.0
+              ],
+              "Hz": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.666666666666666,
+                12.0,
+                15.333333333333332
+              ],
+              "n": 24
+            },
+            "scope": "Female ex vivo somatic population proxy. NS, RMP<-50mV, positive Rin and a recorded spiking response. Each property excludes only its own missing values; selection is explicit, not an asserted reconstruction of published Figure3 n."
+          }
+        ],
+        "APL": {
+          "rest_mV": -63.6706,
+          "Rin_GOhm": 0.1264146,
+          "membrane_tau_s": 0.007541844178134577,
+          "baseline_n": 20,
+          "tau_source_sha256": "75b072d1ed6ec6b0b063d230983f0fe791c45807768b9fc2d327191dd5976349",
+          "scope": "Rest/Rin medians from deposited NS APL; RC tau from one verified NS hyperpolarizing record. Whole-cell, unlocalized, non-spiking passive closure."
+        },
+        "parameters": {
+          "E_exc_mV": 0.0,
+          "E_inh_mV": -68.0,
+          "voltage_min_mV": -80.0,
+          "voltage_span_mV": 80.0,
+          "miniature_current_pA": 4.0,
+          "miniature_holding_mV": -75.0,
+          "PN_KC_reference_contacts": 18.0,
+          "gate_peak": 0.29577961568461414,
+          "gmax_reference_nS": 0.18031443177680628,
+          "conductance_nS_per_weight_Hz": 0.00031304588850139976,
+          "rate_filter": "inherited normalized-output tau",
+          "APL_release": "clip((V-rest)/(0-rest),0,1); inherited output cap retained only as transmitter normalization, not Hz",
+          "refractory_s": 0.0022,
+          "KC_transfer": "Stationary conductance LIF frequency with subtype rest/Rin/tau/somatic threshold, reset=rest and fixed refractory; inherited output-rate filter. No KC voltage/spike events are integrated.",
+          "output_ceiling": "Existing canonical cap retained; raw f and cap exposure are reported separately."
+        },
+        "source_provenance": {
+          "previous_conductance_source": "data/kc_apl_physiology_20260910/manifest.json",
+          "previous_conductance_source_sha256": "54a3e6b7354a6865d038403c29c8ba1ae725a21d4dded463c05e6a0d15547eda",
+          "chen_article": "https://doi.org/10.1016/j.cub.2026.02.028",
+          "chen_data": "https://zenodo.org/records/18644411",
+          "shiu_code": "data/model_assets_20260909/shiu_reference/source/model.py",
+          "shiu_code_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+          "shiu_url": "https://github.com/philshiu/Drosophila_brain_model/blob/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+          "mathematical_reference": "https://neuronaldynamics.epfl.ch/online/Ch1.S3.html"
+        },
+        "limitations": [
+          "Stationary LIF with a rate filter is a replaceable reduced transfer, not a mechanistic KC spike generator or a fit to experimental f-I curves.",
+          "Reset=rest and refractory2.2ms are published-model priors, not KC measurements. Somatic thresholds are transferred to an effective whole-cell coordinate, not claimed as measured axonal initiation thresholds.",
+          "Measured Rin and tau define effective resting conductance and capacitance; extrapolation under large conductance and rapid synaptic fluctuations remains approximate.",
+          "Absolute contacts->nS, other-afferent synapse scaling, E_inh=-68mV and graded APL release retain the preceding declared interface priors.",
+          "APL is one passive nonspiking compartment per canonical cell; local GABA release, spatial propagation and SK adaptation remain unresolved.",
+          "Only two APL voltage states are added. KC states remain normalized rate coordinates. All other afferents, axonal routing and PN receptor occupancy are retained.",
+          "Raw current-injection curves are diagnostic comparators only; no passive voltage is converted back to an injected current to read them."
+        ],
+        "parameter_fitting_to_CNS": false,
+        "biological_validation": false
+      },
+      "physiology_manifest_sha256": "f30076b3d02fb06121a68532bbaa1c32eacfaabc10e7b58c290a61e636292fc8",
+      "routes_path": "data/apl_expanded_routes_20260910",
+      "routes_manifest_sha256": "a95617049a7a3e97e8f12d322de2444c98e81e12647d81dd02bcc46871e94f21",
+      "coupling_step_ns": 250000,
+      "coupling_ratio": 0.0771604938271605,
+      "coupling": "Symmetric mean-field exchange Gij=gLtotal*kappa*fi*fj, kappa=(50/180)^2. Equal hub reduction is an engineering prior motivated by Amin locality, NOT the published branched cable or recovered male distances.",
+      "coupling_reference": "https://elifesciences.org/articles/56954#fig5",
+      "area": "Per-APL fractions of incoming plus outgoing regional contact counts; unmeasured area/capacitance proxy including outside_selected_MB. Total gL and C preserved. Zero-contact regions have zero electrical area.",
+      "KC": "Exact held-conductance LIF events; Vreset=rest, refractory 2.2ms model priors, subtype somatic NS population properties. Existing gamma axonal and PN mean-occupancy history retained.",
+      "APL": "Two canonical nonspiking cells with 15 regional voltage/output/filter slots each; passive RC and conservative finite coupling. No fitted AHP or SK conductance.",
+      "conductance_scale_nS_per_weight_Hz": [
+        [
+          0.00031304588850139976,
+          0.00031304588850139976
+        ],
+        [
+          0.00031304588850139976,
+          0.00031304588850139976
+        ],
+        [
+          0.00031304588850139976,
+          0.00031304588850139976
+        ],
+        [
+          0.00031304588850139976,
+          0.00031304588850139976
+        ]
+      ],
+      "conductance_rows": [
+        "KC_ab",
+        "KC_apbp",
+        "KC_gamma",
+        "APL"
+      ],
+      "conductance_columns": [
+        "excitatory",
+        "inhibitory"
+      ],
+      "conductance_status": "Eight separate interface parameters initialized to the inherited reference prior. Only the cholinergic PN-KC reference has a miniature-current anchor. Other excitation, all inhibition, and APL release normalization are NOT electrically calibrated; equality is not a biological claim.",
+      "AHP_diagnostic_sha256": "e77e33ea789735486a0b90061ded7801ca3e56e898126de0d5f31ec0fcc08a62",
+      "inputs": "Existing DM1 afferent device: 7Hz baseline, 20Hz or 50Hz for 150ms. These are two intensity patterns on the same channel, not two reconstructed odors. Kazama/Wilson VM2 rates transferred as device settings.",
+      "initialization": "New KC/APL voltages at subtype rest, refractory/spike history starts at zero; all inherited states preserved, APL local release/history initialized uniformly from inherited scalar states.",
+      "output_ceiling": "Each spike adds 1/(cap_Hz*tau_s); any inherited q ceiling is counted separately. Raw event counts never clipped.",
+      "numerical_scope": "First-order operator splitting; held neural outputs lag by <=250us. Exact event crossings under frozen input, backward Euler conservative APL, adaptive exponential midpoint for remaining CNS. Local checks include time-step and coupling sensitivity.",
+      "parameter_fitting_to_CNS": false,
+      "biological_validation": false,
+      "learning_demonstrated": false
+    },
+    "source_manifest_sha256": "a05fd853035ffa58e60108fbd4495cb883b3f34b188048546a11c9b2e869fa6c",
+    "enabled": true,
+    "rows": {
+      "__array__": "array_145"
+    },
+    "ids": {
+      "__array__": "array_146"
+    },
+    "group": {
+      "__array__": "array_147"
+    },
+    "adoption_time_ns": 41614000000,
+    "parent_record_sha256": "f7276820634981b1c81c36631502a3efec82c9e2b6cbab833cd087dcf16810c8",
+    "graph_hashes": [
+      "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+      "f1dbd058646ca77a133ec84dd6df68b1375d89107a0fc70fea86d66fc7185210",
+      "146ae640fc6b9935060d8a5c5639cda0ad2bd4b7d28182a0a2ee07b800803381",
+      "419d66bb960477ee628d81f83bc20927c746e79b7662bd26d790af6c22aa29da"
+    ],
+    "parent_schema": "matrix_kcgamma_output_brain_fp64_cuda_v1",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "initial_dynamic_sha256": "a27a1b2473bc6c3179e6a8f5e3cd7cc1da2df7a943da3b9e105f5bb5bf3820dc",
+    "record_sha256": "11769a55296146b814953358bb942723e495992d797f98a5a1c57d1aaacc4b7a"
+  },
+  "kc_apl_dynamic_state": {
+    "voltage_mV": {
+      "__array__": "array_148"
+    },
+    "refractory_left_s": {
+      "__array__": "array_149"
+    },
+    "spike_count": {
+      "__array__": "array_150"
+    },
+    "apl_voltage_mV": {
+      "__array__": "array_151"
+    },
+    "apl_q": {
+      "__array__": "array_152"
+    },
+    "apl_transmission": {
+      "__array__": "array_153"
+    },
+    "clipped_spike_events": 1161,
+    "coupling_steps": 66296,
+    "time_ns": 44466000000
+  },
+  "kc_electrical_scales_manifest": {
+    "source": {
+      "schema": "matrix_kc_electrical_scales_source_v1",
+      "PN_KCgamma": {
+        "peak_current_pA": 3.8,
+        "peak_current_SEM_pA": 0.2,
+        "holding_mV": -75.0,
+        "assumed_Eexc_mV": 0.0,
+        "gpeak_somatic_equivalent_nS": 0.050666666666666665,
+        "reported_rise_interval_s": 0.00123,
+        "reported_decay_tau_s": 0.00485,
+        "cascade_fast_tau_s": 0.00047875821015140596,
+        "cascade_slow_tau_s": 0.00485,
+        "unit_peak_kernel_area_s": 0.006250034303992655,
+        "conductance_event_area_nS_s": 0.0003166684047356278,
+        "reference_contacts": 18.0,
+        "waveform": "Two unit-area first-order filters; assume the reported1.23ms rising interval is time to peak. The paper does not specify10-90%. Alternative convention assessed locally; no waveform parameter fitted to CNS output.",
+        "amplitude_scope": "Somatically observed quantal current in isolated adult female201Y+ population enriched for gamma; n=5. Includes event-detection censoring at3pA. Erev0mV retained as a model assumption, not measured in this preparation.",
+        "pair_mapping": "Inherited one-effective-quantal-event per PN event at18EM contacts; pair factor contacts/18. Not inferred release probability per active zone, and not a measured unitary PN-KC conductance.",
+        "rate_scope": "PN output remains a rate; linear mean of event kernels, not a reconstructed PN spike train or receptor occupancy saturation law."
+      },
+      "APL_KCgamma": {
+        "interface": "gI_pair_nS=gbar_pair_nS*regional_release; regional_release is dimensionless, not Hz",
+        "initialization": "gbar_pair=abs(inherited_weight)*inherited_APL_cap*inherited_gamma_inhibitory_scale, evaluated once at adoption; persist the resulting nS values.",
+        "physiological_scale_identified": false,
+        "chloride_reversal_mV": -68.0,
+        "reversal_status": "Inherited unvalidated KC prior; no transplantation of cultured-cell chloride reversal.",
+        "unresolved": [
+          "Absolute conductance per APL pair",
+          "Voltage/calcium->release mapping",
+          "In-situ KC chloride reversal",
+          "Electrical attenuation from each synapse to the modeled coordinate"
+        ]
+      },
+      "excluded_GABA_calibration": {
+        "reference": "https://doi.org/10.1523/JNEUROSCI.23-27-09246.2003",
+        "authors": "Su and O Dowd2003",
+        "preparation": "Late-pupal dissociated culture; presynaptic GABA neurons not identified as APL",
+        "KC_mIPSC_mean_pA": 24.6,
+        "KC_mIPSC_SEM_pA": 3.8,
+        "KC_mIPSC_decay_ms": 3.7,
+        "n": 12,
+        "cultured_mixed_neuron_GABA_reversal_mV": -37.0,
+        "reason": "Different electrotonic geometry and internal chloride; no identification of APL release. Cannot convert this miniature current to tonic conductance of adult canonical APL pairs."
+      },
+      "primary_source_path": "recursos_cientificos/literatura/00_fuentes_adquiridas_20260910/gu2006.html",
+      "primary_source_sha256": "a6d0ca3a24bfcabaa2252e4c299fb8a181ca3bb4ac08c8ab46011a6c154ce9d5",
+      "primary_table_row": "201Y, GFP\u00b1 5 0.26 \u00b1 0.07 3.8 \u00b1 0.2 1.23 \u00b1 0.15 4.85 \u00b1 0.38 1.06 \u00b1 0.16 14.8 \u00b1 1.3",
+      "references": [
+        "https://doi.org/10.1523/JNEUROSCI.4109-05.2006",
+        "https://doi.org/10.1152/jn.01283.2007",
+        "https://doi.org/10.1523/JNEUROSCI.23-27-09246.2003",
+        "https://doi.org/10.1113/JP290394"
+      ],
+      "coupling_step_ns": 125000,
+      "adoption_parent": "runs/kc_apl_dynamic_20260910/rate20/checkpoint",
+      "scale_fitting_to_CNS": false,
+      "biological_validation": false,
+      "scope": "Separate projection units and replace PN miniature amplitude/charge reference. APL absolute calibration remains unresolved; do not interpret a recovered firing pattern as parameter identification."
+    },
+    "source_manifest_sha256": "9497a50ef3416cbaa4013c4fd3eb89f8e1613d67707d11545b50770ae7931339",
+    "enabled": true,
+    "rows": {
+      "__array__": "array_154"
+    },
+    "group": {
+      "__array__": "array_155"
+    },
+    "source_rows": {
+      "__array__": "array_156"
+    },
+    "source_ids": {
+      "__array__": "array_157"
+    },
+    "pn_positions": {
+      "__array__": "array_158"
+    },
+    "pn_gain_nS": {
+      "__array__": "array_159"
+    },
+    "apl_positions": {
+      "__array__": "array_160"
+    },
+    "apl_gbar_nS": {
+      "__array__": "array_161"
+    },
+    "parent_schema": "matrix_kc_apl_dynamic_brain_fp64_cuda_v1",
+    "adoption_time_ns": 42214000000,
+    "parent_record_sha256": "254ebb0c014a9dc1c435430da6626a95ed75bbc8cda778932f1c6ac495f8edfe",
+    "initial_state_sha256": "3dc7ba8f0f8f0288e406da461fad65c6b806ec657877c33ccccae7e42a734a10",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "initialization": "PN slow filter matches previous conductance per pair; fast filter initialized from current PN rate. Older waveform history is unknown. All existing neural/body coordinates preserved.",
+    "APL_absolute_scale_identified": false,
+    "record_sha256": "34e74bc5a4bf0353ae366d5523c68831afa3f1ec905a915b714d07685e162e8d"
+  },
+  "kc_electrical_scales_state": {
+    "filters": {
+      "__array__": "array_162"
+    },
+    "time_ns": 44466000000
+  },
+  "kc_spatial_manifest": {
+    "enabled": true,
+    "pn_enabled": true,
+    "apl_enabled": true,
+    "inner_step_ns": 25000,
+    "coupling_step_ns": 125000,
+    "cell": {
+      "C_nF": {
+        "__array__": "array_163"
+      },
+      "G_nS": {
+        "__array__": "array_164"
+      },
+      "channel_G_nS": {
+        "__array__": "array_165"
+      },
+      "channel_b_nS": {
+        "__array__": "array_166"
+      },
+      "observation_basis": {
+        "__array__": "array_167"
+      },
+      "shunt_G": {
+        "__array__": "array_168"
+      },
+      "shunt_b": {
+        "__array__": "array_169"
+      },
+      "rest_mV": -71.25,
+      "port_names": [
+        "soma",
+        "dendrites",
+        "SIZ_0",
+        "SIZ_1",
+        "SIZ_2",
+        "axon_0",
+        "axon_1",
+        "axon_2",
+        "axon_3",
+        "axon_4",
+        "axon_5",
+        "axon_6",
+        "axon_7",
+        "axon_8",
+        "axon_9",
+        "axon_10",
+        "axon_11"
+      ],
+      "artifact_sha256": "a4606f24b19a8ba158c502d961751fd1915bca05625dee010c89bf0305837146",
+      "domain_names": [
+        "soma_proxy",
+        "dendrites",
+        "SIZ_proxy",
+        "axon"
+      ]
+    },
+    "inputs": {
+      "rows": {
+        "__array__": "array_170"
+      },
+      "ids": {
+        "__array__": "array_171"
+      },
+      "PN_pairs": 9866,
+      "APL_pairs": 1557,
+      "domains": [
+        "soma_proxy",
+        "dendrites",
+        "SIZ_proxy",
+        "axon"
+      ],
+      "regions": [
+        "CA(L)",
+        "PED(L)",
+        "aL(L)",
+        "bL(L)",
+        "a'L(L)",
+        "b'L(L)",
+        "gL(L)",
+        "CA(R)",
+        "PED(R)",
+        "aL(R)",
+        "bL(R)",
+        "a'L(R)",
+        "b'L(R)",
+        "gL(R)",
+        "outside_selected_MB"
+      ],
+      "region_to_domain": {
+        "__array__": "array_172"
+      },
+      "APL_contacts_by_region": {
+        "__array__": "array_173"
+      },
+      "PN_location": "Area-uniform dendritic conductance, original selected canonical pairs and filters; individual claws unresolved.",
+      "APL_location": "CA to dendrites; PED to SIZ proxy; named MB lobes to entire axon; outside_selected_MB to soma proxy. Region fractions and regional release are multiplied before summing, preserving their correlation.",
+      "other_inputs": "All non-PN/non-APL canonical inputs remain in the soma proxy with their inherited nS scale.",
+      "unresolved": "ROI is not an electrotonic coordinate. PED/SIZ and uniform intra-region distributions are explicit hypotheses, not measured local synapse placements.",
+      "E_exc_mV": 0.0,
+      "E_APL_mV": -68.0,
+      "absolute_pair_strength_identified": false,
+      "native_chloride_identified": false
+    },
+    "adoption_time_ns": 42964000000,
+    "parent_schema": "matrix_kc_electrical_scales_brain_fp64_cuda_v1",
+    "parent_record_sha256": "acefd5eb74435f77a7f8bc4e47c7dddae993e76c32bc5cfc250181d0423642fe",
+    "initial_state_sha256": "28f155881fb4b61c6b382728b9b124ddf85e28b2c9c12f373d65a4812d7c0915",
+    "initial_gamma_counts": {
+      "__array__": "array_174"
+    },
+    "initialization": "Every inherited coordinate preserved. New hidden voltage ports start at source WT9 leak rest; soma coordinate matches inherited midpoint voltage. Gates start at steady state of these declared initial voltages. No older spatial history is inferred.",
+    "legacy_gamma_voltage": "Inactive historical LIF voltage/refractory fields retained; authoritative gamma voltage and gates are kc_spatial_state. Cumulative event counts continue in both ledgers.",
+    "output": "Causal SIZ local maxima above-40mV with past-trough prominence20mV drive inherited q filter. No voltage reset or membrane clipping. Previous regional output/release filters remain downstream proxies.",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "biological_validation": false,
+    "record_sha256": "94ec2bfc9baf88a68da64177f45d3da945dcf5e71afa2eadb2dc109be7cda950"
+  },
+  "kc_spatial_state": {
+    "delta": {
+      "__array__": "array_175"
+    },
+    "gates": {
+      "__array__": "array_176"
+    },
+    "q": {
+      "__array__": "array_177"
+    },
+    "counts": {
+      "__array__": "array_178"
+    },
+    "last_siz": {
+      "__array__": "array_179"
+    },
+    "previous_slope": {
+      "__array__": "array_180"
+    },
+    "trough": {
+      "__array__": "array_181"
+    },
+    "clipped": {
+      "__array__": "array_182"
+    },
+    "elapsed_ns": 1502000000,
+    "artifact_sha256": "a4606f24b19a8ba158c502d961751fd1915bca05625dee010c89bf0305837146",
+    "time_ns": 44466000000
+  },
+  "kc_axonal_manifest": {
+    "enabled": true,
+    "adoption_time_ns": 43064000000,
+    "parent_schema": "matrix_kc_spatial_brain_fp64_cuda_v1",
+    "parent_record_sha256": "cbb4965902c3973f42b2f400d4fe432bd0e75b7a3c8032f53dae08093688201a",
+    "rows": {
+      "__array__": "array_183"
+    },
+    "ids": {
+      "__array__": "array_184"
+    },
+    "weights": {
+      "__array__": "array_185"
+    },
+    "source_artifact": "a4606f24b19a8ba158c502d961751fd1915bca05625dee010c89bf0305837146",
+    "event_criterion": "Past local maximum above -40mV with prominence >=20mV; same declared criterion as spatial SIZ ledger; no voltage reset.",
+    "release_equation": "Local event q decays with inherited neuronal tau; each event adds 1/(cap*tau). Exact synaptic cascade of q/(1+eta*b) uses inherited synaptic tau. Events enter at the right endpoint.",
+    "routing": "Area-weighted twelve-band axonal release replaces x/s_ax summaries only. Existing gamma-lobe contact fractions and other synapses are preserved. WT9 bands are not assigned to canonical gamma1-5.",
+    "initialization": "Local q/s begin at inherited regional x/s_ax in every band; peak detectors begin at saved axonal voltages with no invented preceding slope or spikes.",
+    "calcium_and_vesicles_identified": false,
+    "absolute_output_strength_identified": false,
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "parameter_fitting": false,
+    "biological_validation": false,
+    "record_sha256": "02e80070d66f8095ca63c8fe332c692e3ace00185c9f1dabb182efea4acd655d"
+  },
+  "kc_axonal_state": {
+    "q": {
+      "__array__": "array_186"
+    },
+    "s": {
+      "__array__": "array_187"
+    },
+    "last_voltage": {
+      "__array__": "array_188"
+    },
+    "previous_slope": {
+      "__array__": "array_189"
+    },
+    "trough": {
+      "__array__": "array_190"
+    },
+    "counts": {
+      "__array__": "array_191"
+    },
+    "clipped": {
+      "__array__": "array_192"
+    },
+    "elapsed_ns": 1402000000
+  },
+  "kc_visual_manifest": {
+    "enabled": true,
+    "adoption_time_ns": 43164000000,
+    "parent_record_sha256": "71078603949ae40c775287c6bfd69e52d92c8af7c67721d8ef1ae7a840b2cc21",
+    "groups": [
+      "VPN_to_KCgd",
+      "LVIN_to_KCgd"
+    ],
+    "rows": {
+      "__array__": "array_193"
+    },
+    "ids": {
+      "__array__": "array_194"
+    },
+    "pairs": 1349,
+    "source": "Ganguly et al.2024 doi:10.1038/s41467-024-49616-z, Figure1 and PDFpage3; canonical route identity from saved route manifest.",
+    "route_manifest": {
+      "schema": "matrix_canonical_pathways_v1",
+      "canonical_neurons": 166700,
+      "canonical_pairs": 25582938,
+      "new_neurons": 0,
+      "new_pairs": 0,
+      "groups": {
+        "VPN_to_KCgd": {
+          "pairs": 1088,
+          "sources": 200,
+          "targets": 203,
+          "contacts": 8041,
+          "source_types": {
+            "aMe12": 165,
+            "LoVP38": 81,
+            "LoVP42": 58,
+            "MeVP41": 56,
+            "MeVPMe3": 54,
+            "MeVP36": 46,
+            "LT43": 45,
+            "MeVPMe4": 40,
+            "MeVP43": 37,
+            "LoVP71": 32,
+            "MeVP20": 29,
+            "MeVP25": 28,
+            "aMe20": 27,
+            "MeVP21": 26,
+            "LoVP100": 22,
+            "LoVP70": 22,
+            "LoVP107": 18,
+            "MeVPLo2": 17,
+            "MeVP50": 17,
+            "aMe9": 16,
+            "MeVP52": 16,
+            "aMe5": 13,
+            "MeVP47": 12,
+            "MeVP5": 12,
+            "aMe26": 10,
+            "MeVP32": 10,
+            "MeVP29": 9,
+            "LoVP41": 8,
+            "LoVP66": 8,
+            "MeVP30": 7,
+            "LT67": 7,
+            "LC24": 7,
+            "aMe10": 7,
+            "MeVP33": 7,
+            "LoVP8": 6,
+            "MeVP1": 6,
+            "OCG02c": 5,
+            "MeVP22": 5,
+            "MeVP12": 5,
+            "5thsLNv_LNd6": 4,
+            "LoVP72": 4,
+            "MeVP46": 4,
+            "LT75": 4,
+            "MeVP16": 4,
+            "LC40": 4,
+            "MeVP3": 4,
+            "LoVP2": 3,
+            "MeVPaMe1": 3,
+            "LoVP35": 3,
+            "LoVP51": 3,
+            "LoVP74": 3,
+            "LoVP39": 3,
+            "LC30": 3,
+            "LoVP43": 3,
+            "LoVP57": 3,
+            "LoVP102": 2,
+            "aMe3": 2,
+            "vCal3": 2,
+            "LoVP3": 2,
+            "MeVP14": 2,
+            "LoVP1": 2,
+            "LT79": 2,
+            "MeVPMe11": 2,
+            "LoVP9": 2,
+            "LoVP46": 1,
+            "MeVP38": 1,
+            "LoVP10": 1,
+            "LoVP106": 1,
+            "LC44": 1,
+            "aMe8": 1,
+            "LoVP34": 1,
+            "LoVP73": 1,
+            "LPT101": 1,
+            "vCal2": 1,
+            "MeVP49": 1,
+            "MeVP42": 1,
+            "LoVP28": 1,
+            "MeVP11": 1,
+            "LoVP14": 1,
+            "LoVP44": 1,
+            "LT72": 1,
+            "MeVP63": 1,
+            "LC27": 1
+          }
+        },
+        "LVIN_to_KCgd": {
+          "pairs": 261,
+          "sources": 36,
+          "targets": 153,
+          "contacts": 2636,
+          "source_types": {
+            "CL063": 73,
+            "CL258": 43,
+            "AVLP043": 29,
+            "LoVP97": 23,
+            "PLP131": 20,
+            "CL200": 15,
+            "PLP069": 13,
+            "PLP231": 10,
+            "LHPV3c1": 9,
+            "MB-C1": 9,
+            "PLP177": 7,
+            "LHPV8c1": 4,
+            "PLP004": 2,
+            "CL250": 2,
+            "PLP005": 1,
+            "VES025": 1
+          }
+        },
+        "VPN_to_KCabp": {
+          "pairs": 347,
+          "sources": 33,
+          "targets": 108,
+          "contacts": 1695,
+          "source_types": {
+            "aMe26": 231,
+            "MeVP45": 62,
+            "LoVP65": 19,
+            "LoVP51": 8,
+            "MeVP35": 4,
+            "MeVP10": 4,
+            "aMe20": 3,
+            "LoVP5": 2,
+            "MeVP34": 2,
+            "MeVP41": 2,
+            "LoVP66": 2,
+            "MeVP38": 1,
+            "LoVP6": 1,
+            "LoVP64": 1,
+            "LoVP67": 1,
+            "LC28": 1,
+            "MeVP40": 1,
+            "LoVP10": 1,
+            "LoVP98": 1
+          }
+        },
+        "LVIN_to_KCabp": {
+          "pairs": 282,
+          "sources": 17,
+          "targets": 109,
+          "contacts": 3062,
+          "source_types": {
+            "LHPV3c1": 77,
+            "CL357": 55,
+            "SLP360_d": 48,
+            "SLP360_b": 37,
+            "SLP360_c": 35,
+            "SLP360_a": 27,
+            "LHPV6c1": 3
+          }
+        },
+        "LOPN_to_KCabp": {
+          "pairs": 19,
+          "sources": 2,
+          "targets": 19,
+          "contacts": 250,
+          "source_types": {
+            "LoVP65": 19
+          }
+        },
+        "PLPPN_to_KCabp": {
+          "pairs": 147,
+          "sources": 11,
+          "targets": 86,
+          "contacts": 1757,
+          "source_types": {
+            "SLP360_d": 48,
+            "SLP360_b": 37,
+            "SLP360_c": 35,
+            "SLP360_a": 27
+          }
+        },
+        "MBON_to_DN": {
+          "pairs": 409,
+          "sources": 49,
+          "targets": 170,
+          "contacts": 4347,
+          "source_types": {
+            "MBON33": 69,
+            "MBON32": 68,
+            "MBON35": 53,
+            "MBON20": 46,
+            "MBON31": 34,
+            "MBON26": 30,
+            "MBON27": 29,
+            "MBON30": 13,
+            "MBON21": 12,
+            "MBON25-like": 11,
+            "MBON09": 9,
+            "MBON01": 6,
+            "MBON29": 5,
+            "MBON34": 4,
+            "MBON25": 3,
+            "MBON15": 3,
+            "MBON11": 3,
+            "MBON12": 2,
+            "MBON02": 2,
+            "MBON17": 2,
+            "MBON10": 1,
+            "MBON06": 1,
+            "MBON04": 1,
+            "MBON28": 1,
+            "MBON07": 1
+          }
+        },
+        "DN_to_MN": {
+          "pairs": 17645,
+          "sources": 1090,
+          "targets": 700,
+          "contacts": 229565,
+          "source_types": {
+            "DNge172": 460,
+            "DNg93": 389,
+            "DNg74_b": 369,
+            "DNg74_a": 266,
+            "DNg108": 261,
+            "DNge136": 250,
+            "DNg100": 238,
+            "DNg105": 233,
+            "DNg50": 232,
+            "DNge079": 209,
+            "DNg02_a": 203,
+            "DNg26": 203,
+            "DNge035": 182,
+            "DNge150": 177,
+            "DNge049": 175,
+            "": 169,
+            "DNg79": 157,
+            "DNge038": 155,
+            "DNge149": 151,
+            "DNg110": 150,
+            "DNg76": 150,
+            "DNg82": 138,
+            "DNp48": 138,
+            "DNp10": 129,
+            "DNge151": 125,
+            "DNge050": 120,
+            "DNge048": 118,
+            "DNd03": 118,
+            "DNbe001": 117,
+            "DNge073": 116,
+            "DNpe036": 114,
+            "DNp31": 112,
+            "DNge037": 112,
+            "DNg02_g": 111,
+            "DNg69": 111,
+            "DNge148": 109,
+            "DNg14": 105,
+            "DNge063": 105,
+            "DNp58": 102,
+            "DNg16": 100,
+            "DNg03": 99,
+            "DNa02": 98,
+            "DNg02_c": 96,
+            "DNb05": 96,
+            "DNb06": 93,
+            "DNp07": 91,
+            "DNp18": 90,
+            "DNg66": 90,
+            "DNg75": 90,
+            "DNge003": 89,
+            "DNpe020": 89,
+            "DNp17": 89,
+            "DNpe053": 87,
+            "DNg109": 87,
+            "DNpe011": 87,
+            "DNg37": 86,
+            "DNge137": 84,
+            "DNg95": 83,
+            "DNg35": 82,
+            "DNp03": 81,
+            "DNa08": 80,
+            "DNg02_f": 80,
+            "DNg88": 79,
+            "DNg02_d": 79,
+            "pIP1": 76,
+            "DNg81": 76,
+            "aSP22": 75,
+            "DNa10": 75,
+            "DNg10": 73,
+            "DNg02_e": 72,
+            "DNp47": 72,
+            "DNpe045": 71,
+            "DNg17": 68,
+            "DNpe005": 66,
+            "DNa01": 66,
+            "DNg97": 66,
+            "DNg96": 66,
+            "DNge106": 65,
+            "DNpe009": 64,
+            "DNbe005": 64,
+            "DNp13": 63,
+            "DNp63": 62,
+            "DNge152": 62,
+            "DNge067": 61,
+            "DNg15": 61,
+            "DNg12_e": 61,
+            "DNpe017": 60,
+            "DNg07": 60,
+            "DNg70": 60,
+            "DNg27": 60,
+            "DNa07": 59,
+            "DNge059": 59,
+            "DNde005": 59,
+            "DNg02_b": 58,
+            "DNge071": 57,
+            "DNg72": 57,
+            "DNge015": 57,
+            "DNg04": 56,
+            "DNge030": 56,
+            "DNp11": 55,
+            "DNge108": 55,
+            "DNge019": 55,
+            "DNg31": 54,
+            "DNa06": 53,
+            "DNg80": 53,
+            "DNa14": 52,
+            "DNg06": 52,
+            "DNg32": 52,
+            "DNpe034": 52,
+            "DNp64": 51,
+            "DNge023": 51,
+            "DNp26": 51,
+            "DNp15": 50,
+            "DNge107": 50,
+            "DNg05_a": 49,
+            "DNge058": 49,
+            "DNg98": 49,
+            "DNge113": 49,
+            "DNg34": 48,
+            "DNge064": 48,
+            "DNg12_b": 48,
+            "DNge006": 48,
+            "DNge036": 48,
+            "DNg08": 48,
+            "DNg102": 48,
+            "DNp68": 48,
+            "DNg05_b": 46,
+            "DNge007": 46,
+            "DNge001": 45,
+            "DNd05": 45,
+            "DNbe004": 45,
+            "DNge002": 45,
+            "DNge043": 44,
+            "DNp33": 44,
+            "DNg01_b": 44,
+            "DNpe055": 44,
+            "DNpe018": 43,
+            "DNa04": 43,
+            "DNp51,DNpe019": 42,
+            "DNge026": 42,
+            "DNg38": 42,
+            "DNge175": 42,
+            "DNg33": 42,
+            "DNg78": 41,
+            "DNge128": 41,
+            "DNp65": 41,
+            "DNge143": 40,
+            "DNge139": 40,
+            "DNb01": 40,
+            "DNpe037": 39,
+            "DNp69": 39,
+            "DNge040": 39,
+            "DNg22": 39,
+            "DNge017": 38,
+            "DNp102": 38,
+            "DNg54": 37,
+            "DNpe003": 37,
+            "DNge095": 37,
+            "DNge062": 35,
+            "DNge061": 35,
+            "DNge012": 34,
+            "DNpe021": 34,
+            "DNa05": 34,
+            "DNge009": 34,
+            "DNg92_b": 33,
+            "DNbe007": 33,
+            "DNg91": 33,
+            "DNge179": 33,
+            "DNa13": 33,
+            "DNb02": 32,
+            "DNpe004": 32,
+            "DNge014": 32,
+            "DNge032": 32,
+            "DNae010": 31,
+            "DNae004": 31,
+            "DNg12_c": 31,
+            "DNge051": 31,
+            "DNg68": 30,
+            "DNg73": 30,
+            "DNg45": 30,
+            "DNge110": 30,
+            "DNpe013": 29,
+            "DNge085": 29,
+            "DNge183": 29,
+            "DNge093": 29,
+            "DNae002": 29,
+            "DNc02": 29,
+            "DNa15": 28,
+            "DNge053": 28,
+            "DNge024": 28,
+            "DNd02": 28,
+            "DNpe035": 28,
+            "DNge055": 28,
+            "DNp19": 27,
+            "DNge016": 27,
+            "DNde002": 27,
+            "DNge039": 27,
+            "DNg12_a": 27,
+            "DNp60": 27,
+            "DNg13": 27,
+            "DNae001": 26,
+            "DNbe002": 26,
+            "DNge028": 26,
+            "DNc01": 26,
+            "DNb03": 25,
+            "DNge033": 25,
+            "DNp73": 25,
+            "DNp34": 25,
+            "DNp22": 25,
+            "DNge022": 25,
+            "DNg89": 24,
+            "DNge154": 24,
+            "DNae009": 24,
+            "DNg05_c": 24,
+            "DNge087": 24,
+            "DNge125": 24,
+            "DNg49": 23,
+            "DNge117": 23,
+            "DNge178": 22,
+            "DNa16": 22,
+            "DNpe057": 22,
+            "DNge088": 21,
+            "DNge029": 21,
+            "DNg61": 21,
+            "DNge086": 21,
+            "DNpe015": 21,
+            "DNp49": 21,
+            "DNp57": 21,
+            "DNge018": 21,
+            "DNge091": 21,
+            "DNp16_a": 20,
+            "DNge144": 20,
+            "DNge068": 20,
+            "DNp05": 20,
+            "DNp09": 20,
+            "DNge184": 20,
+            "DNp16_b": 20,
+            "DNge114": 19,
+            "DNpe040": 19,
+            "DNge115": 19,
+            "DNge181": 19,
+            "DNge078": 19,
+            "DNpe043": 19,
+            "DNge176": 19,
+            "DNge020": 19,
+            "DNge004": 18,
+            "DNg53": 18,
+            "DNg39": 18,
+            "DNge011": 18,
+            "DNge070": 18,
+            "DNge084": 18,
+            "DNg51": 18,
+            "DNpe007": 18,
+            "DNge145": 18,
+            "DNge042": 18,
+            "DNge092": 17,
+            "DNg71": 17,
+            "DNge072": 16,
+            "DNge013": 16,
+            "DNg92_a": 16,
+            "DNa09": 16,
+            "DNg41": 16,
+            "DNp08": 16,
+            "DNp67": 16,
+            "DNa11": 15,
+            "DNp28": 15,
+            "DNg21": 15,
+            "DNp06": 15,
+            "DNpe002": 15,
+            "DNb07": 15,
+            "DNpe010": 14,
+            "DNge034": 14,
+            "DNge081": 14,
+            "DNg46": 14,
+            "DNge074": 14,
+            "DNp20": 13,
+            "pMP2": 13,
+            "DNp62": 13,
+            "DNge069": 13,
+            "DNg18_a": 13,
+            "DNg99": 13,
+            "DNpe031": 12,
+            "DNg62": 12,
+            "DNp46": 12,
+            "DNge047": 12,
+            "DNge025": 12,
+            "DNge116": 12,
+            "DNp02": 12,
+            "DNpe012_b": 12,
+            "DNae003": 12,
+            "DNge105": 12,
+            "DNge060": 12,
+            "DNge094": 12,
+            "DNge021": 12,
+            "DNp27": 12,
+            "DNae006": 12,
+            "DNp25": 11,
+            "MDN": 11,
+            "DNge080": 11,
+            "DNge146": 11,
+            "DNp14": 11,
+            "DNge138": 11,
+            "DNge052": 11,
+            "DNpe056": 11,
+            "DNg18_b": 11,
+            "DNp54": 11,
+            "DNg101": 10,
+            "DNge045": 10,
+            "DNg90": 10,
+            "DNge010": 10,
+            "DNg58": 10,
+            "DNg09_b": 9,
+            "DNg47": 9,
+            "DNp21": 9,
+            "DNa03": 9,
+            "DNg42": 9,
+            "DNpe012_a": 9,
+            "DNg94": 9,
+            "DNg52": 9,
+            "DNg63": 8,
+            "DNg12_h": 8,
+            "DNg44": 8,
+            "DNge046": 8,
+            "DNge027": 8,
+            "DNg12_f": 8,
+            "DNge044": 7,
+            "DNb09": 7,
+            "DNpe023": 7,
+            "DNge124": 7,
+            "DNpe030": 7,
+            "DNg12_d": 7,
+            "DNg01_a": 7,
+            "DNge103": 7,
+            "DNg11": 7,
+            "DNge135": 7,
+            "DNpe001": 7,
+            "DNg36_b": 6,
+            "DNp12": 6,
+            "DNp43": 6,
+            "DNge008": 6,
+            "DNg107": 6,
+            "DNge056": 6,
+            "DNge090": 6,
+            "DNp32": 6,
+            "DNge101": 5,
+            "DNb08": 5,
+            "DNg43": 5,
+            "DNpe050": 5,
+            "DNp55": 5,
+            "DNae005": 5,
+            "DNg48": 5,
+            "DNpe022": 5,
+            "DNge097": 5,
+            "DNp72": 5,
+            "DNge089": 4,
+            "DNg30": 4,
+            "DNge100": 4,
+            "DNpe008": 4,
+            "DNpe024": 4,
+            "DNpe025": 4,
+            "DNp53": 4,
+            "DNpe016": 4,
+            "DNge041": 4,
+            "DNg12_g": 4,
+            "DNae008": 4,
+            "DNp36": 4,
+            "DNge054": 4,
+            "DNge129": 4,
+            "DNp59": 3,
+            "DNge083": 3,
+            "DNge174": 3,
+            "pIP10": 3,
+            "CB0429": 3,
+            "DNge133": 3,
+            "DNg19": 3,
+            "DNd04": 3,
+            "DNg106": 3,
+            "DNp101": 3,
+            "DNge120": 3,
+            "DNp01": 3,
+            "DNge111": 3,
+            "DNge077": 3,
+            "DNp30": 3,
+            "DNpe026": 3,
+            "DNp38": 3,
+            "DNp24": 2,
+            "DNp41": 2,
+            "DNde003": 2,
+            "DNg09_a": 2,
+            "DNp44": 2,
+            "DNg40": 2,
+            "DNp71": 2,
+            "DNg103": 2,
+            "DNpe042": 2,
+            "DNge123": 2,
+            "DNp103": 2,
+            "DNge096": 2,
+            "DNge132": 2,
+            "DNbe003": 2,
+            "DNge076": 1,
+            "DNge180": 1,
+            "DNg36_a": 1,
+            "DNg01_d": 1,
+            "DNge134": 1,
+            "DNpe033": 1,
+            "DNge104": 1,
+            "DNge119": 1,
+            "DNp39": 1,
+            "DNge127": 1,
+            "DNge099": 1,
+            "DNge126": 1,
+            "DNpe054": 1,
+            "DNge065": 1,
+            "DNge173": 1,
+            "DNpe006": 1,
+            "DNg55": 1,
+            "DNge121": 1,
+            "DNde006": 1,
+            "DNge057": 1,
+            "DNp56": 1,
+            "DNb04": 1,
+            "DNge075": 1
+          }
+        },
+        "DN_to_VNC": {
+          "pairs": 246077,
+          "sources": 1305,
+          "targets": 12791,
+          "contacts": 1718761,
+          "source_types": {
+            "DNd02": 4277,
+            "DNd03": 4168,
+            "DNg34": 3705,
+            "DNg102": 3142,
+            "DNge136": 2968,
+            "DNge149": 2672,
+            "DNg98": 2371,
+            "DNbe002": 2117,
+            "DNg08": 1992,
+            "DNg74_a": 1978,
+            "DNpe031": 1847,
+            "DNg108": 1841,
+            "DNge047": 1758,
+            "DNge073": 1731,
+            "DNa13": 1691,
+            "DNg100": 1641,
+            "DNge049": 1567,
+            "DNg106": 1554,
+            "DNg74_b": 1542,
+            "DNge091": 1492,
+            "DNg79": 1471,
+            "DNge138": 1307,
+            "DNge079": 1260,
+            "DNg06": 1241,
+            "DNg43": 1236,
+            "DNd04": 1235,
+            "DNae009": 1212,
+            "DNge074": 1188,
+            "DNxl114": 1172,
+            "aSP22": 1169,
+            "DNp69": 1131,
+            "DNge032": 1126,
+            "DNg15": 1125,
+            "DNpe021": 1119,
+            "DNge035": 1104,
+            "DNp10": 1102,
+            "DNpe006": 1097,
+            "DNge048": 1094,
+            "DNpe045": 1090,
+            "DNp07": 1076,
+            "DNb05": 1066,
+            "DNp13": 1060,
+            "DNge050": 1053,
+            "DNge150": 1040,
+            "pIP1": 1040,
+            "DNg97": 1037,
+            "DNp49": 1036,
+            "DNb08": 1032,
+            "DNp11": 1015,
+            "MDN": 1015,
+            "DNge102": 1013,
+            "DNde001": 1013,
+            "DNp18": 1004,
+            "DNge182": 1003,
+            "": 995,
+            "DNp43": 976,
+            "DNa10": 975,
+            "DNg105": 972,
+            "DNg02_a": 967,
+            "DNge142": 966,
+            "DNp42": 963,
+            "DNpe056": 962,
+            "DNge129": 950,
+            "DNg68": 946,
+            "DNg70": 941,
+            "DNp12": 927,
+            "DNp36": 916,
+            "DNp17": 907,
+            "DNpe022": 902,
+            "DNg66": 897,
+            "DNpe008": 890,
+            "DNp34": 886,
+            "DNp06": 883,
+            "DNpe017": 870,
+            "DNbe004": 866,
+            "DNd05": 862,
+            "DNp102": 857,
+            "DNp14": 856,
+            "DNpe005": 849,
+            "DNge063": 848,
+            "DNge083": 847,
+            "DNp64": 814,
+            "DNg104": 799,
+            "DNge152": 793,
+            "DNp47": 790,
+            "DNge013": 788,
+            "DNge053": 788,
+            "DNge103": 784,
+            "DNg13": 774,
+            "DNa01": 766,
+            "DNge023": 759,
+            "DNge064": 751,
+            "DNg75": 751,
+            "DNg37": 741,
+            "DNpe053": 740,
+            "DNa04": 734,
+            "DNbe005": 733,
+            "DNg93": 730,
+            "DNp59": 728,
+            "DNge075": 717,
+            "DNp38": 715,
+            "DNg109": 715,
+            "DNp73": 712,
+            "DNpe015": 706,
+            "DNg88": 704,
+            "DNpe049": 703,
+            "DNp27": 702,
+            "DNge140": 701,
+            "DNp05": 701,
+            "DNp32": 700,
+            "DNpe029": 695,
+            "DNbe001": 691,
+            "DNp08": 690,
+            "DNp31": 686,
+            "DNg07": 686,
+            "DNge131": 680,
+            "DNg101": 679,
+            "DNge019": 678,
+            "DNg26": 658,
+            "DNg35": 656,
+            "DNg16": 656,
+            "DNge119": 655,
+            "DNg44": 654,
+            "DNp19": 650,
+            "DNp66": 650,
+            "DNa02": 647,
+            "DNb01": 646,
+            "DNge037": 646,
+            "DNge120": 633,
+            "DNg03": 632,
+            "DNa05": 627,
+            "DNpe025": 627,
+            "DNp55": 625,
+            "DNp103": 606,
+            "DNae005": 602,
+            "DNg38": 596,
+            "DNp41": 594,
+            "DNpe032": 593,
+            "DNg17": 587,
+            "DNp09": 586,
+            "DNp21": 585,
+            "DNge099": 578,
+            "DNp51,DNpe019": 572,
+            "DNg31": 569,
+            "DNpe050": 568,
+            "DNge153": 567,
+            "DNpe055": 567,
+            "DNg27": 567,
+            "DNge172": 558,
+            "DNp03": 558,
+            "DNpe030": 553,
+            "DNg39": 551,
+            "DNp63": 550,
+            "DNge139": 550,
+            "DNp02": 547,
+            "DNge107": 543,
+            "DNpe026": 540,
+            "DNg82": 540,
+            "DNg96": 536,
+            "DNg04": 535,
+            "DNb07": 534,
+            "DNg32": 534,
+            "DNpe020": 529,
+            "DNa14": 528,
+            "DNg87": 525,
+            "DNg30": 520,
+            "DNpe003": 520,
+            "DNg19": 516,
+            "DNa15": 514,
+            "DNpe002": 511,
+            "DNg12_e": 509,
+            "DNge141": 505,
+            "DNde002": 504,
+            "DNb04": 502,
+            "DNa09": 502,
+            "DNpe054": 500,
+            "DNa16": 499,
+            "DNpe004": 497,
+            "DNge082": 497,
+            "DNg72": 496,
+            "DNge132": 495,
+            "DNg45": 493,
+            "DNge121": 491,
+            "DNc02": 486,
+            "DNpe043": 485,
+            "DNp45": 477,
+            "DNge038": 476,
+            "DNae002": 475,
+            "DNg50": 475,
+            "DNg29": 472,
+            "DNg02_c": 470,
+            "DNp67": 467,
+            "DNp60": 466,
+            "DNp68": 466,
+            "DNp48": 466,
+            "DNp71": 463,
+            "DNg71": 455,
+            "DNde006": 455,
+            "DNge003": 452,
+            "DNde005": 450,
+            "DNg110": 450,
+            "DNae001": 449,
+            "DNbe003": 448,
+            "DNp54": 448,
+            "DNge040": 445,
+            "DNge084": 442,
+            "DNpe040": 442,
+            "DNge060": 439,
+            "DNge041": 435,
+            "DNp57": 432,
+            "DNg91": 430,
+            "DNae003": 426,
+            "DNb09": 425,
+            "pMP2": 423,
+            "DNbe006": 423,
+            "DNge181": 421,
+            "DNge009": 420,
+            "DNp22": 419,
+            "DNg56": 417,
+            "DNb02": 416,
+            "DNge151": 414,
+            "DNa08": 414,
+            "DNae004": 413,
+            "DNg80": 410,
+            "DNp62": 409,
+            "DNge124": 408,
+            "DNge016": 406,
+            "DNp33": 402,
+            "DNp26": 402,
+            "DNa07": 400,
+            "DNae010": 399,
+            "DNc01": 398,
+            "DNa11": 397,
+            "DNae008": 395,
+            "DNbe007": 388,
+            "DNge007": 387,
+            "DNp46": 386,
+            "DNge010": 384,
+            "DNge133": 381,
+            "DNg51": 378,
+            "DNg24": 378,
+            "pIP10": 377,
+            "DNg90": 376,
+            "DNge104": 376,
+            "DNge001": 376,
+            "DNge059": 372,
+            "DNge175": 371,
+            "DNp44": 367,
+            "DNp70": 363,
+            "DNge006": 361,
+            "DNg63": 358,
+            "DNg99": 357,
+            "DNpe007": 355,
+            "DNg111": 352,
+            "DNge061": 351,
+            "DNb06": 351,
+            "DNp04": 350,
+            "DNge098": 348,
+            "DNge058": 347,
+            "DNp53": 346,
+            "DNge106": 342,
+            "DNg02_g": 342,
+            "DNb03": 341,
+            "DNpe016": 341,
+            "DNp56": 340,
+            "DNg92_b": 338,
+            "DNge093": 338,
+            "DNg02_b": 337,
+            "DNge011": 336,
+            "DNge056": 333,
+            "DNg21": 332,
+            "DNg05_a": 330,
+            "DNg95": 329,
+            "DNge089": 328,
+            "DNge108": 327,
+            "DNpe052": 325,
+            "DNpe012_b": 325,
+            "DNpe034": 325,
+            "DNge055": 324,
+            "DNge012": 324,
+            "DNpe039": 322,
+            "DNg48": 321,
+            "DNge025": 321,
+            "DNge144": 319,
+            "DNge022": 319,
+            "DNge101": 318,
+            "DNge094": 317,
+            "DNge135": 316,
+            "DNge088": 314,
+            "DNg18_b": 313,
+            "DNpe014": 311,
+            "DNg01_b": 309,
+            "DNg65": 308,
+            "DNge067": 305,
+            "DNg36_b": 304,
+            "DNge127": 303,
+            "DNge148": 298,
+            "DNpe042": 297,
+            "DNg41": 292,
+            "DNge014": 292,
+            "DNg42": 291,
+            "DNpe028": 285,
+            "DNg94": 285,
+            "CB0429": 282,
+            "DNge128": 279,
+            "DNge017": 278,
+            "DNge054": 277,
+            "DNa06": 277,
+            "DNge081": 275,
+            "DNge122": 274,
+            "DNp28": 273,
+            "DNg14": 272,
+            "DNge069": 270,
+            "DNge068": 270,
+            "DNg85": 269,
+            "DNge076": 269,
+            "DNge110": 267,
+            "DNp35": 265,
+            "DNge115": 265,
+            "DNge065": 264,
+            "DNge030": 263,
+            "DNge080": 261,
+            "DNp15": 257,
+            "DNg01_a": 256,
+            "DNg12_a": 256,
+            "DNg52": 255,
+            "DNge137": 253,
+            "DNge039": 250,
+            "DNg22": 250,
+            "DNge043": 249,
+            "DNpe011": 246,
+            "DNge116": 246,
+            "DNg47": 245,
+            "DNpe012_a": 245,
+            "DNde007": 242,
+            "DNae006": 239,
+            "DNge095": 239,
+            "DNpe013": 239,
+            "DNpe024": 238,
+            "DNge020": 235,
+            "DNge146": 233,
+            "DNg33": 232,
+            "DNg02_d": 232,
+            "DNg12_c": 231,
+            "DNge024": 230,
+            "DNge092": 229,
+            "DNpe036": 227,
+            "DNp29": 226,
+            "DNge044": 226,
+            "DNg05_c": 225,
+            "DNp16_b": 225,
+            "DNge021": 223,
+            "DNge027": 222,
+            "DNge036": 220,
+            "DNge015": 220,
+            "DNg23": 217,
+            "DNge028": 214,
+            "DNg54": 212,
+            "DNge147": 212,
+            "DNg11": 211,
+            "DNp39": 210,
+            "DNge114": 209,
+            "DNg01_d": 207,
+            "DNg69": 206,
+            "DNg12_b": 206,
+            "DNg20": 206,
+            "DNg02_e": 205,
+            "DNp16_a": 203,
+            "DNg59": 202,
+            "DNg107": 201,
+            "DNg76": 198,
+            "DNde003": 195,
+            "DNge183": 194,
+            "DNp01": 194,
+            "DNg40": 193,
+            "DNg62": 192,
+            "DNge045": 191,
+            "DNg05_b": 190,
+            "DNge111": 189,
+            "DNg09_a": 189,
+            "DNg92_a": 189,
+            "DNg84": 189,
+            "DNge034": 186,
+            "DNge090": 185,
+            "DNg02_f": 183,
+            "DNge180": 183,
+            "DNge029": 181,
+            "DNpe037": 180,
+            "DNpe001": 177,
+            "DNg01_c": 175,
+            "DNp104": 174,
+            "DNge130": 173,
+            "DNg10": 170,
+            "DNge178": 167,
+            "DNge085": 164,
+            "DNge078": 163,
+            "DNge062": 161,
+            "DNpe057": 160,
+            "DNg36_a": 158,
+            "DNpe009": 155,
+            "DNpe041": 155,
+            "DNae007": 154,
+            "DNp30": 152,
+            "DNge097": 150,
+            "DNge052": 149,
+            "DNp72": 145,
+            "DNge176": 143,
+            "DNp23": 141,
+            "DNpe018": 140,
+            "DNge123": 139,
+            "DNge046": 138,
+            "DNa03": 137,
+            "DNg103": 137,
+            "DNge042": 136,
+            "DNg60": 135,
+            "DNge154": 134,
+            "DNge077": 132,
+            "DNg58": 129,
+            "DNpe010": 128,
+            "DNge145": 126,
+            "DNge057": 124,
+            "DNg67": 123,
+            "DNg55": 122,
+            "DNg57": 121,
+            "DNge105": 120,
+            "DNge173": 120,
+            "DNp58": 116,
+            "DNp101": 112,
+            "DNg18_a": 110,
+            "DNge004": 101,
+            "DNpe023": 97,
+            "DNge174": 95,
+            "DNpe027": 93,
+            "DNg89": 93,
+            "DNge096": 89,
+            "DNg01_unclear": 88,
+            "DNge008": 87,
+            "DNge100": 84,
+            "DNge071": 82,
+            "DNge113": 80,
+            "DNg64": 79,
+            "DNg12_d": 77,
+            "DNge117": 74,
+            "DNge087": 71,
+            "DNge134": 71,
+            "DNge033": 69,
+            "DNge126": 68,
+            "DNge018": 66,
+            "DNge051": 65,
+            "DNg12_h": 63,
+            "DNg46": 61,
+            "DNg12_f": 56,
+            "DNge125": 54,
+            "DNg78": 53,
+            "DNg53": 52,
+            "DNge026": 51,
+            "DNg12_g": 49,
+            "DNg83": 48,
+            "DNge184": 47,
+            "DNge143": 46,
+            "DNge086": 46,
+            "DNg81": 45,
+            "DNg61": 45,
+            "DNp65": 43,
+            "DNp24": 41,
+            "DNge070": 40,
+            "DNpe035": 40,
+            "DNg49": 38,
+            "DNge072": 37,
+            "DNg09_b": 35,
+            "DNp25": 33,
+            "DNge179": 31,
+            "DNg73": 23,
+            "DNge002": 21,
+            "DNp20": 15,
+            "DNg77": 10,
+            "DNpe033": 4
+          }
+        }
+      },
+      "DN_VNC_interneuron_MN_relays": 10655,
+      "historical_LOPN_PLPPN_exact_alias_resolved": true,
+      "historical_alias_status": "VFB/FlyBase anatomy ontology FBbt_20002842 maps LOPN to SLP448/LoVP65 using Li2020 bodyIDs. FBbt_00051252 maps PLPPN to hemibrain SLP360,SLP362,SLP371. Canonical matches use the MaleCNS author hemibrainType field; cross-specimen type correspondence, not measured male physiology.",
+      "aliases": {
+        "LOPN_ids": [
+          16609,
+          18418
+        ],
+        "PLPPN_ids": [
+          16558,
+          21563,
+          26408,
+          26645,
+          26754,
+          29083,
+          30933,
+          39412,
+          46724,
+          83383,
+          520533
+        ],
+        "PLPPN_homology_types_without_exact_canonical_annotation": [
+          "SLP362",
+          "SLP371"
+        ],
+        "overlap": "LOPN and PLPPN route groups are explicit subsets of the broad visual groups; never sum or disconnect overlapping aliases twice."
+      },
+      "selection": "All existing pairs, no contact threshold. Direct VPN defined by canonical superclass; LVIN family matches have explicit source and omissions.",
+      "existing_function": "Routes already belong to the CNS. This interface permits per-path conductance/readout and reversible causal disconnection without inserting or duplicating edges.",
+      "electrical_scope": "Visual-KC nS retain inherited subtype scale. No measured visual-specific or MBON/DN/MN absolute conductance inferred.",
+      "references": [
+        "https://doi.org/10.1038/s41467-024-49616-z",
+        "https://doi.org/10.7554/eLife.62576",
+        "https://doi.org/10.1016/j.celrep.2020.108138"
+      ],
+      "files": {
+        "data/canonical_pathways_20260910/routes.npz": "3d5b5033e941628876a40be0853379c75b004953ef0cb5c6c8c13377e9a7ca3f",
+        "data/canonical_pathways_20260910/pairs.csv": "4ea0176d7a97726a94de40c9c465cf2a6928d743479e355f735be734c1632e0f",
+        "data/canonical_pathways_20260910/homology_matches.json": "745c635a00a0e1735ea03aeae79b51340eebecd41a003e3859a94889e0c9ef8e",
+        "data/visual_kc_routes_20260910/ganguly2024_source.xlsx": "49155942c491f7f5b9aefa668bb6cfaae8eb50bc3e47d1c8d756b9755cc5d728",
+        "data/visual_kc_routes_20260910/LOPN_vfb.html": "ade37eea7b86ce21289216275762902356bee9bf815565b7a24fd4290a8bdb3d",
+        "data/visual_kc_routes_20260910/PLPPN_vfb.html": "a8ce884f1a69948aac92b109272c0c2a9d0f93d9338f44a76a1a66f2e6d8d739",
+        "data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+        "data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40"
+      },
+      "biological_validation": false
+    },
+    "routing": "Move the existing VPN/LVIN->KCgamma-d ge/gi from soma proxy to the area-uniform WT9 dendritic port. Preserve totals, signs, canonical pairs, and all PN/APL terms.",
+    "limits": "Calyx compartment supported anatomically; uniform distribution and shared WT9 template are hypotheses. No individual visual claw coordinates or paired electrical calibration. Alpha/beta-p remains its inherited LIF interface.",
+    "conductance_fitting": false,
+    "individual_synapse_locations_identified": false,
+    "biological_validation": false,
+    "record_sha256": "2790f0389eff0072b5da62e936d2e818800e962eb6fec013be90363d395ad019"
+  },
+  "olfactory_endogenous_manifest": {
+    "enabled": true,
+    "adoption_time_ns": 43516000000,
+    "parent_record_sha256": "1129dfc8e4790d1b2da4dffaa1fd8bd15856b0bc1474826c14c6e3aa1ad508bc",
+    "source_rows": {
+      "__array__": "array_195"
+    },
+    "source_ids": {
+      "__array__": "array_196"
+    },
+    "target_rows": {
+      "__array__": "array_197"
+    },
+    "target_ids": {
+      "__array__": "array_198"
+    },
+    "selected_pairs": 145,
+    "source_kinetics": "Nagel et al.2015 doi:10.1038/nn.3895; inherited fast/slow population approximation.",
+    "source_rate": "state[canonical_ORN_row]*inherited_rmax, recomputed at every adaptive ODE evaluation",
+    "migration": "All inherited resource/filter coordinates and downstream tails retained exactly. Only future source dependence changes; no added current or duplicate ORN->PN path.",
+    "legacy_held_afferent_rate_active": false,
+    "recurrent_ORN_inputs_retained": true,
+    "PN_LN_inputs_retained": true,
+    "APL_dynamic": true,
+    "native_PN_geometry_replaced": false,
+    "local_terminal_release_identified": false,
+    "native_odor_transduction_identified": false,
+    "absolute_conductance_identified": false,
+    "synthetic_part": "Bounded rate/rmax proxy, shared per-ORN terminal resources, published population kinetics and inherited signed-weight/current conversion. Native PN membrane and presynaptic LN receptor mechanisms remain unidentified.",
+    "new_canonical_neurons": 0,
+    "new_anatomical_pairs": 0,
+    "new_dynamic_coordinates": 0,
+    "parameter_fitting": false,
+    "biological_validation": false,
+    "record_sha256": "693be5e1537a662e47a03489d1fca49cdbaf88c5755536f53699238991c01bc6"
+  },
+  "pn_online_manifest": {
+    "preparation": {
+      "parent_PN_state": "evidence/pn_local_pulse_20260913/control_r2/final_joint",
+      "parent_PN_sha256": {
+        ".json": "a85bc3879f2352db8e7718cbd48f5c5f3fca6afd86315d23686ca4a3948204dd",
+        ".npz": "cd548478dfa9a6885b8ac7c5c6b87318440f2c82033716b97a0985feca016a92"
+      },
+      "cns_origin_ns": 43625000000,
+      "caps_hz": {
+        "__array__": "array_199"
+      },
+      "preparation": "Prepared PN/Ca3.1ms adopted at CNS43.625s. Its prior held-ORN drive is retired; actual canonical CNS filters are sole upstream history. Initial filter mismatch is a declared input intervention, not reconstructed feedback.",
+      "gain_provenance": "Inherited provisional PN10208->100KC gain, uniformly split over2167 native relations; not measured vesicle efficacy."
+    },
+    "coupling_ns": 15625,
+    "orn_connected": true,
+    "adoption_time_ns": 43629000000,
+    "parent_record_sha256": "98c95e8e382fc4b44837da8d0d98156261c13dc3c69cd6e888ca811ec118242b",
+    "scope": "450nonzero input routes when closureconnected,1095localoutputs.43zero-direct anatomical routes and native efficacy/receptor mechanisms unresolved. Provisional engineering closure, not identified PN.",
+    "full_PN_replacement": false,
+    "biological_validation": false,
+    "source_history": "Single owner canonical ORN filters; independent prepared PN source origin explicitly declared.",
+    "record_sha256": "ff60dab59bb8ae5e1e4456b93f4ce8d90d0ed2791f8a6477d4b213d39e569090",
+    "cholinergic": {
+      "spec": {
+        "mapping": {
+          "source_ids": {
+            "__array__": "array_200"
+          },
+          "contact_pre_ids": {
+            "__array__": "array_201"
+          },
+          "contact_nodes": {
+            "__array__": "array_202"
+          },
+          "contact_fractions": {
+            "__array__": "array_203"
+          },
+          "full_size": 38936706,
+          "provenance": "Native PN10208 contacts; equal fractions within each named non-ORN ACh pair. One published modeled pulse total per pair is an explicit transfer hypothesis, never g per EM contact."
+        },
+        "caps_hz": {
+          "__array__": "array_204"
+        },
+        "provenance": "Gouwens2009 doi:10.1523/JNEUROSCI.0764-09.2009 single-site MODEL pulse .1nS/10us/600us E=-10mV; applying once per217canonical ACh pair is provisional and unidentified. Rate proxies drive expected pulse convolution. Additional receptor histories start zero at explicit route activation, not inferred physiological rest."
+      },
+      "connected": true,
+      "adoption_time_ns": 43626000000,
+      "parent_state_sha256": "acfe44f980780809faa97d5d5f1dd0d041ccf679a65215f2b3e12f6a61b6c91b",
+      "new_pairs": 217,
+      "remaining_nonORN_pairs": 202,
+      "history": "Additional receptor filters zero at explicit route activation, not prior equilibrium.",
+      "amplitude": "One published modeled .1nS pulse per pair, not percontact or W-scaled; proxy rate convolution conserves pulse area."
+    },
+    "electrical_outputs": {
+      "spec": {
+        "mapping": {
+          "site_ids": {
+            "__array__": "array_205"
+          },
+          "relation_sites": {
+            "__array__": "array_206"
+          },
+          "target_ids": {
+            "__array__": "array_207"
+          },
+          "gain_nS": {
+            "__array__": "array_208"
+          }
+        },
+        "site_fast": {
+          "__array__": "array_209"
+        },
+        "site_slow": {
+          "__array__": "array_210"
+        },
+        "rise_s": {
+          "__array__": "array_211"
+        },
+        "decay_s": {
+          "__array__": "array_212"
+        },
+        "legacy_transmission": 0.7367988770953707,
+        "legacy_tau_s": 0.005,
+        "legacy_gain_nS": {
+          "__array__": "array_213"
+        },
+        "time_ns": 43627000000,
+        "provenance": "Explicit partial output transfer: one expected local Ca-site release event -> one inherited PN rate-proxy event; normalize each site pulse by its analytic area in seconds, average native relations per pair. Retain archived per-class nS/(weight*Hz) scales and anatomical W as the EXISTING provisional receiver interface, not an identified vesicle/pair efficacy or new W->nS calibration. Preserve old generic PN tail once; other629consumers unchanged."
+      },
+      "enabled": true,
+      "adoption_time_ns": 43627000000,
+      "new_output_pairs": 366,
+      "total_output_pairs": 466,
+      "remaining_output_pairs": 629,
+      "scope": "365additionalKCand1APL; local release normalized by its pulse area, inherited class conductance-per-weight-Hz scale retained as provisional. GenericPNtransmission retained for629others.",
+      "temporal_refinement": {
+        "previous_coupling_ns": 62500,
+        "coupling_ns": 15625,
+        "unchanged": "Geometry, receptor scales, membrane, gates, chemistry, sources, targets, all nonzero histories; only coupling interval changes."
+      }
+    },
+    "general_outputs": {
+      "spec": {
+        "site_ids": {
+          "__array__": "array_214"
+        },
+        "relation_sites": {
+          "__array__": "array_215"
+        },
+        "target_ids": {
+          "__array__": "array_216"
+        },
+        "fractions": {
+          "__array__": "array_217"
+        },
+        "site_fast": {
+          "__array__": "array_218"
+        },
+        "site_slow": {
+          "__array__": "array_219"
+        },
+        "rise_s": {
+          "__array__": "array_220"
+        },
+        "decay_s": {
+          "__array__": "array_221"
+        },
+        "source_cap_Hz": 204.51547241210938,
+        "legacy_transmission": 0.737132561604273,
+        "legacy_tau_s": 0.005,
+        "time_ns": 43628000000,
+        "provenance": "Provisional kernel-area transfer: one expected local Ca-site release -> one inherited rate-proxy event. Average anatomical relation fractions per pair; divide pulse area and inherited source cap. Dimensionless interface, not measured Ca-to-Hz or new nS calibration. Preserve legacy tail once, shared Ca resource once per site; anatomical W unchanged."
+      },
+      "enabled": true,
+      "adoption_time_ns": 43628000000,
+      "new_pairs": 629,
+      "total_pairs": 1095,
+      "previous_coupling_ns": 15625,
+      "scope": "Local Ca-site release normalized to inherited general rate interface; amplitude transfer provisional. PNq remains a legacy diagnostic.202inputs absent."
+    },
+    "mass": {
+      "schema": "PN_mass_CNS_recipe_v1",
+      "seed": "evidence/pn_mass_cns_20260913/seed",
+      "assets_sha256": {
+        "evidence/pn_mass_cns_20260913/seed.json": "13ce40edbfc41e0798f139ddcae6e60528a10ff44438d96386ee1a486a0132c0",
+        "evidence/pn_mass_cns_20260913/seed.npz": "cf62a0e7b7bcf9db45c60e70a8901507ad28947d43c37d858a59d998de0ffed3",
+        "work/pn_mass_runtime_20260913/membrane_audit.json": "f9a3d0fc8e7798898398bd71300b9bca5afd1fb0cdb1c1dbd5e14838c6a16567",
+        "work/pn_mass_runtime_20260913/physical_membrane_C_nF.npy": "bbe6cb59308562fa58bfe0d28879dcf0cc63c3dac5a1bcbf6af55bc4d7251e3f",
+        "evidence/pn_internal_charge_20260912/model_rtol1e10/model.json": "2bffec0d2333f67f237afeb6719beca165d9e95749b320dd2b71453dd9b23c62",
+        "evidence/pn_internal_charge_20260912/model_rtol1e10/G_nS.npz": "2c59abe21f5a24436fa18aa19cc07f6e1d90d0192e04fa1a745a0e25aa61744f",
+        "evidence/pn_internal_charge_20260912/model_rtol1e10/M_nF.npz": "3f6a632a5eba22eeac11968468b76f78c9035cf9817bea5655784c3ce2ad6131",
+        "evidence/pn_harmonic_ports_20260912/model/geometry.npz": "30190436f09d0a2797dd8d527022ccb29ea5949da968ddeb822cc136178f1ba3",
+        "work/pn_calcium_coupling_20260913/preparation.npz": "d3c15f612dffe383855388d12d729efbfaa74dc84956ad871079a94b55ad8582",
+        "work/pn_calcium_coupling_20260913/protocol.json": "c01602a543877d64a757ae7d6ba61f6dfe860cde7a1337753e7a8572321a28da",
+        "evidence/pn_fine_ionic_20260912/channel_patch.npz": "425c244542286f8a0bab0dbcfbfd1188e6c08992fa6259c3cea71da72f46ba82",
+        "evidence/pn_fine_ionic_20260912/model_card.json": "a4e1d8b42208a05d862a738784ef11249b6e6d8b4eedee1ea54bbba62c4dd37e",
+        "evidence/pn_terminal_tail_20260912/orn_input/mapping.npz": "118495797ba41ea230107c95d13c6d7d8149dbe88fbfdb54b1e50703e071ab61",
+        "work/pn_orn_response_20260913/site_KC_map.npz": "944768c590229251cb25bdb10459936f6cdd46e96701de343674723d9493c336",
+        "work/pn_mass_runtime_20260913/projection_result.json": "b6461b47d3aaed73e99afea7c737d13b5c5e79a4d0c7190b73b6f26c454ce56a",
+        "work/pn_mass_runtime_20260913/projected158.npz": "3ca4438e1f146e7def8d3bfbc2cd730a26d7c09a3ab0465164493422f0b728a8"
+      },
+      "exterior_coordinates": 178818,
+      "internal_coordinates": 20,
+      "omitted_volume_coordinates": 38757888,
+      "PN_origin_ns": 7100000,
+      "CNS_origin_ns": 43629000000,
+      "pn_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "parent_source_sha256": "d24bc595d7692ca61af5ce6742d744f5701c4d6a012955f3ccd1148397c75698",
+      "previous_CNS_origin_ns": 43625000000,
+      "previous_PN_origin_ns": 3100000,
+      "migration": "Conditioned nonzero mass projection; exterior/gates/calcium/charge/tails exact. Source coordinate-clock origins explicitly rebased to adoption without changing absolute clocks or previous history.",
+      "scope": "Finite active and localized APL unit qualification; earlier strict passive witness remains failed. No new biological parameter. Not yet a live CNS qualification."
+    },
+    "apl_feedback": {
+      "spec": {
+        "source_id": 10977,
+        "target_id": 10208,
+        "contact_nodes": {
+          "__array__": "array_222"
+        },
+        "contact_fractions": {
+          "__array__": "array_223"
+        },
+        "contact_region_slots": {
+          "__array__": "array_224"
+        },
+        "region_names": {
+          "__array__": "array_225"
+        },
+        "initial_driver": {
+          "__array__": "array_226"
+        },
+        "origin_ns": 43630000000,
+        "pair_full_scale_nS": 1.0,
+        "tau_s": 0.015,
+        "delay_ns": 125000,
+        "reversal_mV": -70.0,
+        "provenance": "Engineering full-scale1nS perAPL\u2192PN pair at all regionalq=1, never percontact or measured efficacy. GABA_A kinetics/reversal/delay transferred fromRangan2012; native242contacts. DriverAPL_q beforegeneric synapticfilter, noHz/events.82contacts share explicit unresolved outsideMB compartment. Receptor/queue zero before activation; prior release not reconstructed."
+      },
+      "connected": true,
+      "origin_ns": 43630000000,
+      "new_pairs": 1,
+      "missing_inputs": 201,
+      "scope": "Local graded APL\u2192PN GABA_A-model conductance, no spiking-rate conversion.1nS pair full-scale is engineering prior, not measured efficacy; kinetics transferred."
+    },
+    "inhibitory_closure": {
+      "spec": {
+        "origin_ns": 43632000000,
+        "families": {
+          "GABA": {
+            "mapping": {
+              "source_ids": {
+                "__array__": "array_227"
+              },
+              "contact_pre_ids": {
+                "__array__": "array_228"
+              },
+              "contact_nodes": {
+                "__array__": "array_229"
+              },
+              "contact_fractions": {
+                "__array__": "array_230"
+              },
+              "full_size": 178838,
+              "provenance": "Existing native PN incoming contacts; equal whole-pair allocation over each pair contacts. W not converted to nS."
+            },
+            "initial_driver": {
+              "__array__": "array_231"
+            },
+            "family_full_scale_nS": 1.0,
+            "delay_ns": 125000,
+            "fast_tau_s": 0.015,
+            "fast_reversal_mV": -70.0,
+            "slow_tau_input_s": 0.03,
+            "slow_tau_effector_s": 0.4,
+            "slow_reversal_mV": -95.0,
+            "contacts_by_region": {
+              "AL(L)": 999,
+              "CA(L)": 110,
+              "LH(L)": 606,
+              "other": 44
+            },
+            "provenance": "Engineering1nS maximum for this entire transmitterfamily, equal perpair then native contactfractions. q is inherited dimensionless source coordinate before transmission, not measured release or spike rate. GABAfast15ms E\u221270 and slowcascade30/400ms E\u221295 transferred fromRangan2012 model; GluCl15ms E\u221270 is a separate unmeasured computational closure, especially uncertain CA/LH. No fitted efficacy; receptor/delay startszero at activation."
+          },
+          "Glu": {
+            "mapping": {
+              "source_ids": {
+                "__array__": "array_232"
+              },
+              "contact_pre_ids": {
+                "__array__": "array_233"
+              },
+              "contact_nodes": {
+                "__array__": "array_234"
+              },
+              "contact_fractions": {
+                "__array__": "array_235"
+              },
+              "full_size": 178838,
+              "provenance": "Existing native PN incoming contacts; equal whole-pair allocation over each pair contacts. W not converted to nS."
+            },
+            "initial_driver": {
+              "__array__": "array_236"
+            },
+            "family_full_scale_nS": 1.0,
+            "delay_ns": 125000,
+            "fast_tau_s": 0.015,
+            "fast_reversal_mV": -70.0,
+            "slow_tau_input_s": 0.03,
+            "slow_tau_effector_s": 0.4,
+            "slow_reversal_mV": -95.0,
+            "contacts_by_region": {
+              "AL(L)": 8,
+              "CA(L)": 45,
+              "LH(L)": 661,
+              "other": 18
+            },
+            "provenance": "Engineering1nS maximum for this entire transmitterfamily, equal perpair then native contactfractions. q is inherited dimensionless source coordinate before transmission, not measured release or spike rate. GABAfast15ms E\u221270 and slowcascade30/400ms E\u221295 transferred fromRangan2012 model; GluCl15ms E\u221270 is a separate unmeasured computational closure, especially uncertain CA/LH. No fitted efficacy; receptor/delay startszero at activation."
+          }
+        }
+      },
+      "mode": "fast",
+      "connected": true,
+      "origin_ns": 43632000000,
+      "new_pairs": 158,
+      "remaining_zero_direct_pairs": 43,
+      "scale_measured": false,
+      "scope": "Engineering1nS maximum pertransmitterfamily, equalperpair thennativecontacts. GABA fast/slow alternatives; GluCl including CA/LH is unverified. Sourceq dimensionless proxy."
+    },
+    "mass_linear_solver": {
+      "policy": "PN_full_mass_passive_LU_GMRES12_true_residual_direct_fallback_v1",
+      "operator_identity": "140078c6f863fd4081fcd5f0e3efd015972befe2660edfb65fd5c7b31cf86592",
+      "adoption_time_ns": 43634000000,
+      "physical_state_preserved": true,
+      "cache_is_physical_state": false,
+      "scope": "Same signed Jacobian, full mass and tolerances; passive LU preconditioner, zero initial iterate, true residual and direct fallback."
+    },
+    "orn_peripheral_terminal": {
+      "policy": "Or42b_mean_input_bounded_terminal_modulation_v1",
+      "parameters": {
+        "basal_hz": 9.0,
+        "increment_hz": 83.667,
+        "world_drive_anchor": 80.0,
+        "modulation_bound": 0.3,
+        "recurrent_threshold_hz": 40.0
+      },
+      "adoption_time_ns": 43635000000,
+      "recurrent_connected": true,
+      "source_ids": {
+        "__array__": "array_237"
+      },
+      "input_pairs": 6242,
+      "recurrent_pairs": 3195,
+      "other_pairs": 3047,
+      "local_PN_feedback_pairs": 31,
+      "peripheral_input": "Algebraic9+83.667*clip(drive/80,0,1)Hz; amplitude means, not measured dynamics.",
+      "canonical_ORN_q": "Effective filtered terminal activity/rmax; not a reconstructed peripheral voltage or spike train.",
+      "anatomy_preserved": true,
+      "historical_states_preserved": true,
+      "new_dynamic_coordinates": 0,
+      "old_somatic_recurrent_target_replaced_once": true,
+      "parameter_fitting": false,
+      "native_biological_identification": false,
+      "scope": "Bounded engineering modulator using inherited signed inputs;0.3bound and40Hz gate are provisional, not per-cell receptor measurements. All6242pairs retained; no direct PN current."
+    },
+    "graph_linear_solver": {
+      "policy": "PN_full_mass_graph_elimination_true_residual_Krylov_fallback_v1",
+      "operator_identity": "140078c6f863fd4081fcd5f0e3efd015972befe2660edfb65fd5c7b31cf86592",
+      "adoption_time_ns": 43637000000,
+      "physical_state_preserved": true,
+      "eliminated_coordinates": 178796,
+      "retained_junctions": 42,
+      "all_coordinates_reconstructed": true,
+      "scope": "Same fullM/G and signed ionic diagonal. Exact algebraic elimination, original residual, Krylov/direct fallback. No new biological or dynamic reduction."
+    }
+  },
+  "pn_online_state": {
+    "schema": "PN_inhibitory_closure_source_v1",
+    "identity": "080243339d15481724cfd92e42ec23f35d117460aa7f8553ba78c855652d6150",
+    "base": {
+      "schema": "PN_APL_graded_source_v1",
+      "identity": "63826f233b96695a9207709064b5cd6a38c8d04f98aed24f967ceb9f8561cf3d",
+      "base": {
+        "schema": "PN_general_output_source_v1",
+        "identity": "6f30fe75feab9104cf4456d5d3a039bbb5e2af564e8374a7518f98bde6b89d89",
+        "base": {
+          "schema": "PN_additional_electrical_output_source_v1",
+          "identity": "8efa25ab44ee288c19af75e4f94e8307c423108d40015c3403ade9ab767098c6",
+          "base": {
+            "schema": "PN_cholinergic_online_source_v1",
+            "identity": "c50b77c4cc831d16d922084da9ae9c6f4af5e5d9d0899b697be744c622e03842",
+            "base": {
+              "schema": "PN_online_canonical_ORN_source_v1",
+              "identity": "6e302f6e67da9bbbe0901f7e087dc5f67d78689ee3837ac3e8e3af3ac15c2482",
+              "time_ns": 44466000000,
+              "pn": {
+                "schema": "pn_voltage_calcium_coupled_v1",
+                "identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+                "pn": {
+                  "schema": "pn_fine_ionic_v1",
+                  "identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+                  "time_ns": 844100000,
+                  "voltage_delta_mV": {
+                    "__array__": "array_238"
+                  },
+                  "gates": {
+                    "__array__": "array_239"
+                  },
+                  "ionic_charge_pC": {
+                    "__array__": "array_240"
+                  }
+                },
+                "calcium": {
+                  "identity": "782e61253a3aaa155cb8da48d5897740d772a755b340dca284805e0ff4a6642f",
+                  "time_ns": 844100000,
+                  "enabled": true,
+                  "release_enabled": true,
+                  "gates": {
+                    "__array__": "array_241"
+                  },
+                  "outward_charge_pC": {
+                    "__array__": "array_242"
+                  },
+                  "chemistry": {
+                    "schema": "PN_site_calcium_resource_candidate_v1",
+                    "identity": "2817dee0fff18a2c80390942bf484b5f6a81b043a1e14c3b89cca46175caaee6",
+                    "time_ns": 844100000,
+                    "calcium_uM": {
+                      "__array__": "array_243"
+                    },
+                    "available": {
+                      "__array__": "array_244"
+                    },
+                    "fast": {
+                      "__array__": "array_245"
+                    },
+                    "slow": {
+                      "__array__": "array_246"
+                    },
+                    "released": {
+                      "__array__": "array_247"
+                    },
+                    "calcium_charge_pC": {
+                      "__array__": "array_248"
+                    }
+                  }
+                }
+              },
+              "fast": {
+                "__array__": "array_249"
+              },
+              "slow": {
+                "__array__": "array_250"
+              }
+            },
+            "ach": {
+              "schema": "PN_cholinergic_pair_rate_prior_v1",
+              "identity": "d51712913177996e7f1519007329a1c71bbbec00a653c0ba31f4f14135a193f8",
+              "time_ns": 44466000000,
+              "fast": {
+                "__array__": "array_251"
+              },
+              "slow": {
+                "__array__": "array_252"
+              }
+            },
+            "ach_charge_pC": -35.12898300287365,
+            "orn_charge_pC": -93.33465183964854
+          },
+          "extra_output": {
+            "schema": "PN_additional_electrical_output_port_v1",
+            "identity": "ac45de34ebdcf68720ede39f63a8e0afc4bb1b9f6b0c7966715942dd061fe98a",
+            "time_ns": 44466000000,
+            "fast": {
+              "__array__": "array_253"
+            },
+            "slow": {
+              "__array__": "array_254"
+            },
+            "legacy": 9.834106153670616e-74
+          }
+        },
+        "general_output": {
+          "schema": "PN_general_output_port_v1",
+          "identity": "43f7f1f41957c5151fd8f09910ef5d887a1c334ae982850a4c8b9f94edeb0ef5",
+          "time_ns": 44466000000,
+          "fast": {
+            "__array__": "array_255"
+          },
+          "slow": {
+            "__array__": "array_256"
+          },
+          "legacy": 1.2016844154400546e-73
+        }
+      },
+      "apl_receptor": {
+        "schema": "APL_delayed_graded_receptor_v1",
+        "identity": "18b885d39d1ca67f1f469786154289a5b856998a2e1a5dc67822030116f934eb",
+        "time_ns": 44466000000,
+        "occupancy": {
+          "__array__": "array_257"
+        },
+        "last_driver": {
+          "__array__": "array_258"
+        },
+        "history": [
+          {
+            "start_ns": 44466000000,
+            "end_ns": 44466062500,
+            "left": {
+              "__array__": "array_259"
+            },
+            "right": {
+              "__array__": "array_260"
+            }
+          },
+          {
+            "start_ns": 44466062500,
+            "end_ns": 44466125000,
+            "left": {
+              "__array__": "array_261"
+            },
+            "right": {
+              "__array__": "array_262"
+            }
+          }
+        ]
+      },
+      "apl_charge_pC": 4.282058081988052
+    },
+    "receptors": {
+      "GABA": {
+        "schema": "APL_delayed_graded_receptor_v1",
+        "identity": "2cd90c9be2564f7a1693db76d5ce5fe4cc43b415ed618a12d20b90ff25cfca08",
+        "time_ns": 44466000000,
+        "occupancy": {
+          "__array__": "array_263"
+        },
+        "last_driver": {
+          "__array__": "array_264"
+        },
+        "history": [
+          {
+            "start_ns": 44466000000,
+            "end_ns": 44466062500,
+            "left": {
+              "__array__": "array_265"
+            },
+            "right": {
+              "__array__": "array_266"
+            }
+          },
+          {
+            "start_ns": 44466062500,
+            "end_ns": 44466125000,
+            "left": {
+              "__array__": "array_267"
+            },
+            "right": {
+              "__array__": "array_268"
+            }
+          }
+        ]
+      },
+      "Glu": {
+        "schema": "APL_delayed_graded_receptor_v1",
+        "identity": "d299cdbcfaabdc8d8c77e588f2e74cb62aa61884996e2a5528171d24e286a628",
+        "time_ns": 44466000000,
+        "occupancy": {
+          "__array__": "array_269"
+        },
+        "last_driver": {
+          "__array__": "array_270"
+        },
+        "history": [
+          {
+            "start_ns": 44466000000,
+            "end_ns": 44466062500,
+            "left": {
+              "__array__": "array_271"
+            },
+            "right": {
+              "__array__": "array_272"
+            }
+          },
+          {
+            "start_ns": 44466062500,
+            "end_ns": 44466125000,
+            "left": {
+              "__array__": "array_273"
+            },
+            "right": {
+              "__array__": "array_274"
+            }
+          }
+        ]
+      }
+    },
+    "charges_pC": {
+      "GABA": 9.277167547484323,
+      "Glu": 2.5019174326031646
+    }
+  },
+  "cxhp8_manifest": {
+    "policy": "median_animal_calcium_field_instant_current80_v1",
+    "prior_sha256": "614fcb33c9ac9258b6be86417fe448e12b4904dd1c97003d842a7b61f622e1a5",
+    "ids": [
+      804975,
+      813083,
+      816234,
+      860788,
+      904779,
+      908177,
+      1110706007
+    ],
+    "mode": "position",
+    "origin_ns": 43719000000,
+    "amplitude_model_units": 80.0,
+    "biological_electrical_calibration": false,
+    "new_canonical_neurons": 0,
+    "neural_parameters_changed": false,
+    "initial_sample": {
+      "angles_deg": [
+        110.76564731609749,
+        28.486865809986572,
+        13.051141469602388
+      ],
+      "index": 0.07729782336823186
+    },
+    "record_sha256": "d58c2e2772b77b119a484c44971eace2e7ca3b1113232341c9c8fa2b5399e3b9"
+  },
+  "cxhp8_pending": {
+    "sample_time_ns": 44466000000,
+    "angles_deg": [
+      124.2384781964256,
+      23.032176370283963,
+      12.742409237675288
+    ],
+    "index": 0.05895021617058851,
+    "applied_index": 0.05895021617058851
+  },
+  "execution_snapshot_manifest": {
+    "policy": "Private_parent_snapshot_once_per_advance_v1",
+    "origin_ns": 43724000000,
+    "reference_parent_schema": "matrix_cxhp8_position_brain_v1",
+    "parent_state_sha256": "386737e0d5bec94d78bc55505b50a2333a2b615b696f9d9d636c249b66f6e534",
+    "changes_equations": false,
+    "changes_precision": false,
+    "changes_timestep": false,
+    "changes_anatomy": false,
+    "recovery": "Unchanged strict parent loader and route rebinding",
+    "scope": "Execution allocation only; no new biological function",
+    "record_sha256": "5f51379718147ad90f4ceac66f0b9a20c082b41220f1731dd33c1da17b223a81"
+  },
+  "coefficient_buffer_manifest": {
+    "policy": "FP64_segment_assembly_private_frames_owned_outputs_v1",
+    "origin_ns": 43741000000,
+    "reference_parent_schema": "matrix_snapshot_execution_brain_v1",
+    "parent_state_sha256": "683eb8230808eab2c6b4ef3fce5f32b2f5dbc75066b61be97c7a66ff278e19ca",
+    "changes_equations": false,
+    "changes_precision": false,
+    "changes_timestep": false,
+    "changes_anatomy": false,
+    "public_outputs": "Independent owned target/rate arrays",
+    "scratch": "Private reusable frames; not scientific state; recreated after reload or rollback",
+    "record_sha256": "6cda0c5e3957e5f869e83609c41eaf873045f983f676d606c984ca0dbcd4e9c3"
+  }
+}
