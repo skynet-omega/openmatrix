@@ -1,0 +1,203 @@
+{
+  "data": {
+    "scope": "Arrays finales y eventos REALES; no reejecución del organismo",
+    "inputs": {
+      "compact": "8510d09d6f0dda120ca5637e263585438431e459383c4585a3310b3ceb7796cb",
+      "gate": "ebff3939f1d6b4fd10c0a123a0396c08c0c2c920d621e0d429443044e3823cd5",
+      "native_sham_20_01": "0ec9b100654ac6eb57969706d34610f6f57796aad70ebba154dcd2d483d8fce6",
+      "reference_sham_20_01": "c279ad2d0cee56a161f280eef2c92f410eea7048440923b60d9b259cbc3be7f4"
+    },
+    "kc": [
+      {
+        "path": "hybrid/kc_axonal_state/trough",
+        "shape": [
+          1557,
+          12
+        ],
+        "local_index": [
+          1529,
+          2
+        ],
+        "max_abs": 0.06524803602137297,
+        "values": [
+          -66.51967788444435,
+          -66.45442984842298
+        ],
+        "above_frozen_limit": 142,
+        "worst_value_ratio": 1.0009818462993392,
+        "neuron_id": null,
+        "first_time": null
+      },
+      {
+        "path": "hybrid/kc_axonal_state/previous_slope",
+        "shape": [
+          1557,
+          12
+        ],
+        "local_index": [
+          97,
+          5
+        ],
+        "max_abs": 0.06176295392349829,
+        "values": [
+          0.08250627931624877,
+          0.020743325392750478
+        ],
+        "above_frozen_limit": 3250,
+        "worst_value_ratio": 3.977485661247142,
+        "neuron_id": null,
+        "first_time": null
+      },
+      {
+        "path": "hybrid/kc_axonal_state/last_voltage",
+        "shape": [
+          1557,
+          12
+        ],
+        "local_index": [
+          108,
+          5
+        ],
+        "max_abs": 0.0029300741174296263,
+        "values": [
+          -21.423242271905004,
+          -21.426172346022433
+        ],
+        "above_frozen_limit": 176,
+        "worst_value_ratio": 0.9998632478974727,
+        "neuron_id": null,
+        "first_time": null
+      },
+      {
+        "path": "hybrid/kc_spatial_state/trough",
+        "shape": [
+          1557
+        ],
+        "local_index": [
+          1042
+        ],
+        "max_abs": 0.001087113041492671,
+        "values": [
+          -10.346837909424579,
+          -10.345750796383086
+        ],
+        "above_frozen_limit": 10,
+        "worst_value_ratio": 1.0001050782164473,
+        "neuron_id": null,
+        "first_time": null
+      },
+      {
+        "path": "hybrid/kc_spatial_state/previous_slope",
+        "shape": [
+          1557
+        ],
+        "local_index": [
+          97
+        ],
+        "max_abs": 0.02264959642452169,
+        "values": [
+          0.030242491081203582,
+          0.007592894656681892
+        ],
+        "above_frozen_limit": 259,
+        "worst_value_ratio": 3.982998902084018,
+        "neuron_id": null,
+        "first_time": null
+      }
+    ],
+    "focal": [
+      {
+        "id": 10176,
+        "max_abs": 2.478727174737294e-06,
+        "first_nonidentical_endpoint_ns": 44447000000
+      },
+      {
+        "id": 10208,
+        "max_abs": 2.2426114731910474e-06,
+        "first_nonidentical_endpoint_ns": 44447000000
+      },
+      {
+        "id": 10360,
+        "max_abs": 0.0,
+        "first_nonidentical_endpoint_ns": null
+      },
+      {
+        "id": 523769,
+        "max_abs": 0.0,
+        "first_nonidentical_endpoint_ns": null
+      },
+      {
+        "id": 10065,
+        "max_abs": 7.590256645428894e-09,
+        "first_nonidentical_endpoint_ns": 44447000000
+      },
+      {
+        "id": 10118,
+        "max_abs": 8.00544475154652e-09,
+        "first_nonidentical_endpoint_ns": 44447000000
+      }
+    ],
+    "events": {
+      "predictor": {
+        "paired": 527,
+        "count_mismatch": [
+          {
+            "key": [
+              "gamma_cuda",
+              61131,
+              81004
+            ],
+            "n_native": 1,
+            "n_reference": 0
+          }
+        ],
+        "first_recorded_difference": {
+          "producer": "nongamma_lif",
+          "row": 57198,
+          "id": 76056,
+          "ordinal": 0,
+          "native_elapsed_ns": 151608.84508546445,
+          "reference_elapsed_ns": 151608.84508546465,
+          "time_abs_ns": 2.0372681319713593e-10,
+          "rounded_abs_ns": 0,
+          "post_abs": 0.0,
+          "jump_abs": 0.0
+        },
+        "max_time_abs_ns": 3125.0,
+        "max_rounded_abs_ns": 3125,
+        "max_post_abs": 1.2017589449409005e-06,
+        "total_native": 528,
+        "total_reference": 527
+      },
+      "accepted": {
+        "paired": 1036,
+        "count_mismatch": [],
+        "first_recorded_difference": {
+          "producer": "gamma_cuda",
+          "row": 57513,
+          "id": 76431,
+          "ordinal": 0,
+          "native_elapsed_ns": 100000.0,
+          "reference_elapsed_ns": 98437.0,
+          "time_abs_ns": 1563.0,
+          "rounded_abs_ns": 1563,
+          "post_abs": 2.418919646807183e-07,
+          "jump_abs": 0.0
+        },
+        "max_time_abs_ns": 3125.0,
+        "max_rounded_abs_ns": 3125,
+        "max_post_abs": 2.4103540724462746e-06,
+        "total_native": 1036,
+        "total_reference": 1036
+      }
+    },
+    "event_clock_origin_ns": 1482000000,
+    "first_KC_state_divergence": "NO_IDENTIFICABLE: faltan historias KC y mapa fila-local/ID",
+    "frozen_gate": false,
+    "stage3_admission": false
+  },
+  "execution": "COMPLETO",
+  "wall_s": 0.03190357098355889,
+  "cpu_s": 0.18570219999999993,
+  "code_sha256": "33e4257374f6029b1a8a178e8abbb7a1ec464b758c8344652102bdb3a6cb3b9f"
+}

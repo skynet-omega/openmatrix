@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-dnb05-kc-numeric-gate-20260923](reviews/stage3-dnb05-kc-numeric-gate-20260923-65bd18c7c425/README.md)
+[stage3-kc-boundary-review-20260923](reviews/stage3-kc-boundary-review-20260923-bb5c8a29a80e/README.md)
 
-Native CUDA FP64 DNb05/PN/DNa02 tap, exact one-ms observer control, two 20-ms real-organism engines, KC hidden-state mismatch and accepted-event audit; selected portable data and code, no stage-3 admission.
+Corrected KC event clock, 2-ms CUDA organism readbacks, native observer-neutral control, anatomical KC-to-DNb05 paths, ChatGPT C++ CPU fixture and code run on real 20-ms arrays; numerical and stage-3 gates remain open.

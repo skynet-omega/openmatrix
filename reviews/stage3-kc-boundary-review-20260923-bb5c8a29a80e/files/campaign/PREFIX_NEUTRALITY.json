@@ -1,0 +1,112 @@
+{
+  "schema": "kc_failed_prefix_neutrality_v1",
+  "selected_fields": {
+    "somatic_delta": {
+      "shape": [
+        1557,
+        17
+      ],
+      "exact": true
+    },
+    "somatic_gates": {
+      "shape": [
+        1557,
+        17,
+        4
+      ],
+      "exact": true
+    },
+    "somatic_q": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "somatic_last_siz": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "somatic_previous_slope": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "somatic_trough": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "somatic_counts": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "somatic_clipped": {
+      "shape": [
+        1557
+      ],
+      "exact": true
+    },
+    "axonal_q": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_s": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_last_voltage": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_previous_slope": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_trough": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_counts": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    },
+    "axonal_clipped": {
+      "shape": [
+        1557,
+        12
+      ],
+      "exact": true
+    }
+  },
+  "all_exact": true,
+  "source_sha256": {
+    "failed_session_json": "02fc0d6d2cf04ad0953300539eae0ce216905389e60bac58fd3ea64fb9c365c9",
+    "failed_session_npz": "7ba191237cd45b5c7b2c24df7729fd568fc6e84a1eec6a6ac3706c150785e88c",
+    "capture_after_1ms": "1ecc486d2aed51d6eb2ee5965c616c8fb33c6b32f287042a4c4fba8cacb16ece"
+  },
+  "scope": "KC fields only. The failed observer advanced one full organism ms and stopped before reading KC; it is not a 2-ms final-state control."
+}

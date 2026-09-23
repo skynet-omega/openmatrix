@@ -1,0 +1,26 @@
+{
+  "schema": "stage3_kc_first_boundary_prospective_v1",
+  "recorded_utc": "2026-09-23T12:05:00Z",
+  "parent": "campanas/etapa3_dnb05_native_20260923_12",
+  "status": "FROZEN_BEFORE_RUN",
+  "question": "Does the KC hidden-state mismatch precede the first accepted-event boundary difference near 1.482 ms, or appear across it?",
+  "rivals": {
+    "A": "Different event crossing time within the 1-2-ms interval creates the later hidden-state mismatch; pre-event 1-ms state should meet the frozen 1e-4 state limit.",
+    "B": "Local independent-block versus global midpoint integration already changes hidden KC state before that event; pre-event 1-ms state fails the same limit.",
+    "C": "A discarded predictor leaks into the next accepted state in one engine; accepted-event count alone cannot rule it out. Boundary and observer-neutrality tests may weaken but not isolate this without internal trial/restore instrumentation."
+  },
+  "prototype": "Two engines from the same checkpoint run 2ms sham; post-step KC somatic and axonal states are copied after ms 1 and 2. An otherwise identical no-capture run for each engine tests exact final-state neutrality. No biological intervention or parameter change.",
+  "control": "For each engine, full final scientific state of capture-on/off must be bitwise equal before attributing any engine difference. Compare same array paths and IDs at 1ms and 2ms; count accepted events excluding the restored predictor and record first block disagreement. Apply the existing 1e-4 absolute state limit; do not alter it after observing data.",
+  "budgets": {
+    "organism_runs_max": 4,
+    "trial_ms_per_run": 2,
+    "aggregate_trial_ms_max": 8,
+    "wall_per_run_s_max": 240,
+    "wall_aggregate_s_max": 960,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 0,
+    "Jev_new_calls_max": 0
+  },
+  "stop": "Stop at first capture-on/off mismatch or domain/source failure; preserve prefixes. A KC difference at 1ms disfavors an event-only explanation but does not prove which integrator is biologically faithful. No stage-3 admission."
+}

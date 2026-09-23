@@ -1,0 +1,371 @@
+{
+  "schema": "kc_two_ms_boundary_readback_v1",
+  "classification": "EXPLORATORY_BOUNDARY_NOT_IDENTIFYING",
+  "stage3_admission": false,
+  "absolute_state_limit": 0.0001,
+  "trial_start_absolute_ns": 1482000000,
+  "kc81004_accepted_event": {
+    "native_capture_on_02": [
+      {
+        "producer": "gamma_cuda",
+        "id": 81004,
+        "row": 61131,
+        "relative_ns": 503125,
+        "post_q": 0.30295199430218567
+      }
+    ],
+    "reference_capture_on_02": [
+      {
+        "producer": "gamma_cuda",
+        "id": 81004,
+        "row": 61131,
+        "relative_ns": 500000,
+        "post_q": 0.30295346086768554
+      }
+    ]
+  },
+  "kc81004_event_time_gap_ns": 3125,
+  "first_recorded_accepted_event_difference": {
+    "producer": "gamma_cuda",
+    "row": 57513,
+    "id": 76431,
+    "native_relative_ns": 100000,
+    "reference_relative_ns": 98437,
+    "time_abs_ns": 1563,
+    "post_abs": 2.418919646807183e-07
+  },
+  "state_max_abs_by_ms": {
+    "1": {
+      "somatic_delta": {
+        "max_abs": 0.001042394889367415,
+        "index": [
+          173,
+          10
+        ],
+        "native_value": 55.99509573133412,
+        "reference_value": 55.99405333644475
+      },
+      "somatic_gates": {
+        "max_abs": 1.7758223881503277e-05,
+        "index": [
+          173,
+          10,
+          0
+        ],
+        "native_value": 0.6616037153692693,
+        "reference_value": 0.6615859571453878
+      },
+      "somatic_q": {
+        "max_abs": 5.0884195864464576e-05,
+        "index": [
+          595
+        ],
+        "native_value": 0.3055566610905971,
+        "reference_value": 0.30550577689473263
+      },
+      "somatic_last_siz": {
+        "max_abs": 0.00021976034530979405,
+        "index": [
+          911
+        ],
+        "native_value": -18.102672671997382,
+        "reference_value": -18.102892432342692
+      },
+      "somatic_previous_slope": {
+        "max_abs": 0.05900323234985905,
+        "index": [
+          911
+        ],
+        "native_value": 0.1180430940674313,
+        "reference_value": 0.05903986171757225
+      },
+      "somatic_trough": {
+        "max_abs": 3.725575433577433e-05,
+        "index": [
+          595
+        ],
+        "native_value": -10.554161677866759,
+        "reference_value": -10.554198933621095
+      },
+      "somatic_counts": {
+        "max_abs": 0.0,
+        "index": [
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "somatic_clipped": {
+        "max_abs": 0.0,
+        "index": [
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "axonal_q": {
+        "max_abs": 5.077077524218154e-05,
+        "index": [
+          595,
+          10
+        ],
+        "native_value": 0.3048802437950884,
+        "reference_value": 0.3048294730198462
+      },
+      "axonal_s": {
+        "max_abs": 8.939025955691238e-05,
+        "index": [
+          595,
+          10
+        ],
+        "native_value": 0.012867081134935957,
+        "reference_value": 0.01295647139449287
+      },
+      "axonal_last_voltage": {
+        "max_abs": 0.001042394889367415,
+        "index": [
+          173,
+          5
+        ],
+        "native_value": -15.254904268665882,
+        "reference_value": -15.25594666355525
+      },
+      "axonal_previous_slope": {
+        "max_abs": 0.10445526753954937,
+        "index": [
+          911,
+          11
+        ],
+        "native_value": 0.20817840704501123,
+        "reference_value": 0.10372313950546186
+      },
+      "axonal_trough": {
+        "max_abs": 0.009931547876654179,
+        "index": [
+          699,
+          4
+        ],
+        "native_value": -55.298842112741525,
+        "reference_value": -55.28891056486487
+      },
+      "axonal_counts": {
+        "max_abs": 0.0,
+        "index": [
+          0,
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "axonal_clipped": {
+        "max_abs": 0.0,
+        "index": [
+          0,
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      }
+    },
+    "2": {
+      "somatic_delta": {
+        "max_abs": 0.002749224294660735,
+        "index": [
+          684,
+          12
+        ],
+        "native_value": 65.68734995012882,
+        "reference_value": 65.68460072583416
+      },
+      "somatic_gates": {
+        "max_abs": 3.8261218616719717e-05,
+        "index": [
+          684,
+          14,
+          0
+        ],
+        "native_value": 0.6295339688582826,
+        "reference_value": 0.6294957076396659
+      },
+      "somatic_q": {
+        "max_abs": 4.8164564271591104e-05,
+        "index": [
+          595
+        ],
+        "native_value": 0.28922543025005665,
+        "reference_value": 0.28917726568578506
+      },
+      "somatic_last_siz": {
+        "max_abs": 0.0007031960463592668,
+        "index": [
+          684
+        ],
+        "native_value": -26.489952081135065,
+        "reference_value": -26.490655277181425
+      },
+      "somatic_previous_slope": {
+        "max_abs": 0.05544539580171204,
+        "index": [
+          403
+        ],
+        "native_value": -0.06332689952618153,
+        "reference_value": -0.007881503724469496
+      },
+      "somatic_trough": {
+        "max_abs": 6.57333545319716e-05,
+        "index": [
+          911
+        ],
+        "native_value": -12.657837290126643,
+        "reference_value": -12.657771556772111
+      },
+      "somatic_counts": {
+        "max_abs": 0.0,
+        "index": [
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "somatic_clipped": {
+        "max_abs": 0.0,
+        "index": [
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "axonal_q": {
+        "max_abs": 4.805720569400762e-05,
+        "index": [
+          595,
+          10
+        ],
+        "native_value": 0.2885851657484609,
+        "reference_value": 0.2885371085427669
+      },
+      "axonal_s": {
+        "max_abs": 7.279232623714355e-05,
+        "index": [
+          173,
+          1
+        ],
+        "native_value": 0.004694678497844913,
+        "reference_value": 0.004767470824082056
+      },
+      "axonal_last_voltage": {
+        "max_abs": 0.002749224294660735,
+        "index": [
+          684,
+          7
+        ],
+        "native_value": -5.562650049871181,
+        "reference_value": -5.565399274165841
+      },
+      "axonal_previous_slope": {
+        "max_abs": 0.16186109538254811,
+        "index": [
+          403,
+          11
+        ],
+        "native_value": -0.1848471098666309,
+        "reference_value": -0.022986014484082773
+      },
+      "axonal_trough": {
+        "max_abs": 0.050230193265264234,
+        "index": [
+          737,
+          1
+        ],
+        "native_value": -61.61991376073087,
+        "reference_value": -61.5696835674656
+      },
+      "axonal_counts": {
+        "max_abs": 0.0,
+        "index": [
+          0,
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      },
+      "axonal_clipped": {
+        "max_abs": 0.0,
+        "index": [
+          0,
+          0
+        ],
+        "native_value": 0.0,
+        "reference_value": 0.0
+      }
+    }
+  },
+  "scientific_time_ns_by_ms": {
+    "1": 44447000000,
+    "2": 44448000000
+  },
+  "native_capture_final_exact": true,
+  "reference_capture_final_exact_tested": false,
+  "reference_trace_prefix_exact": true,
+  "reference_trace_fields": 31,
+  "reference_event_audit_prefix_exact": true,
+  "events": {
+    "native_capture_on_02": {
+      "predictor": 50,
+      "accepted": 102
+    },
+    "reference_capture_on_02": {
+      "predictor": 49,
+      "accepted": 102
+    }
+  },
+  "runs": {
+    "native_capture_on_01": {
+      "status": "INCOMPLETE",
+      "completed_ms": 0,
+      "wall_s": 37.71138299803715
+    },
+    "native_capture_on_02": {
+      "status": "COMPLETE",
+      "completed_ms": 2,
+      "wall_s": 39.36350721103372
+    },
+    "reference_capture_on_02": {
+      "status": "COMPLETE",
+      "completed_ms": 2,
+      "wall_s": 40.11163080402184
+    },
+    "native_capture_off_01": {
+      "status": "COMPLETE",
+      "completed_ms": 2,
+      "wall_s": 37.94028958200943
+    }
+  },
+  "source_hashes": {
+    "etapa3_kc_boundary_20260923_13__PLAN.json": "ab04f795c39776ec5785a4b3ef2b0f0f3a0eda9cf14aa0d26a3668640b492edb",
+    "etapa3_kc_boundary_20260923_13__run_set.py": "26b3f3056b138dc5367760659a77885140b32762680b256b253d6aeb5aadea21",
+    "etapa3_kc_boundary_20260923_13__native_tap.py": "b22f879c5cf57e38f91528e4a32b96c6ce018ae21a2536d76e1780b496f6e631",
+    "etapa3_kc_boundary_20260923_13__event_waveform.py": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0",
+    "etapa3_kc_boundary_20260923_13__event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "etapa3_kc_boundary_20260923_13__event_coupling.py": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b",
+    "etapa3_kc_boundary_20260923_13__native_cell.py": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36",
+    "etapa3_kc_boundary_20260923_13__device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "etapa3_kc_boundary_20260923_13__physical_events.cu": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f",
+    "etapa3_kc_boundary_20260923_13__device_cell.cu": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e",
+    "etapa3_kc_boundary_20260923_13__block_runtime.hpp": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7",
+    "pipeline_review_20260922__runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "etapa3_motor_nuevo_20260922__organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "legacy_sources__gpu_visual_brain.py": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+    "legacy_sources__prosthetic_olfactory_brain.py": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6",
+    "legacy_sources__gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "motor13_20260922__block_midpoint.py": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b",
+    "motor14_20260922__event_coupling.py": "cb5e69b003963b7fc74e77c33bd668cde84267c15a2b7c349f60404d6a5419ac"
+  },
+  "source_files_sha256": {
+    "native_capture_on_01": "fdecf2dbb219c7ba4af6c859d9d08f8a06ceae4f0e6786e46ee1c9ae400c343f",
+    "native_capture_on_02": "84d7868c98c27f7442717166e16bcd6da5845dd413c2fd77fb206ffdd8bff7cb",
+    "reference_capture_on_02": "96baeec85cc1684569254a4be0c7b11592957ef3a439bde72d6c522cc2b4cd81",
+    "native_capture_off_01": "1235e6932d06d1cd81aff2ceddb9909809efa4ea15876cd7e672ab0e17b65aec"
+  },
+  "interpretation": "The first recorded accepted event difference is KC76431 at 0.098437 versus 0.100000 ms; KC81004 differs at 0.500000 versus 0.503125 ms. A 1-ms state readback is after both events, so it cannot distinguish event timing from pre-event local integrator error. Reference capture has trace/event-prefix, not full-state, neutrality evidence."
+}

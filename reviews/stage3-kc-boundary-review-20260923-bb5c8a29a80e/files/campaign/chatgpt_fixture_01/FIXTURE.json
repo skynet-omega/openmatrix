@@ -1,0 +1,34 @@
+{
+  "source_sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f",
+  "compiler": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "-shared",
+    "-fPIC",
+    "campanas/etapa3_kc_boundary_20260923_13/chatgpt_fixture_01/host_consumer.cpp",
+    "-o",
+    "campanas/etapa3_kc_boundary_20260923_13/chatgpt_fixture_01/host_consumer.so"
+  ],
+  "linear_raw_slopes": [
+    0.01999999999999602,
+    0.0049999999999954525
+  ],
+  "linear_normalized_derivative_diff": 7.104972610250115e-09,
+  "peak_final_voltage": [
+    -66.01,
+    -66.01
+  ],
+  "peak_trough": [
+    -67.0,
+    -66.01
+  ],
+  "peak_counts": [
+    0,
+    0
+  ],
+  "scope": "Fuente de commit_axon recompilada CPU escalar; voltajes sintéticos exactos, NO CUDA ni integrador",
+  "CUDA_executed": false,
+  "organism_executed": false
+}

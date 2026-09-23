@@ -1,0 +1,18 @@
+{
+  "schema": "stage3_flow_run_contract_v1",
+  "odor": "sham",
+  "engine": "causal_cuda",
+  "observer": "off",
+  "preparation_ms": 0,
+  "trial_ms": 2,
+  "checkpoint": "work/stage234_settling_extension_20260915/settled_700ms",
+  "checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "plan_sha256": "ab04f795c39776ec5785a4b3ef2b0f0f3a0eda9cf14aa0d26a3668640b492edb",
+  "wall_limit_s": 240,
+  "event_boundaries": true,
+  "biological_parameters_changed": false,
+  "stage3_admission": false,
+  "event_representation": "physical SET(post_q) from both LIF and gamma CUDA publishers; genuine ADD retained; no state clipping",
+  "native_sideband": "off",
+  "kc_post_commit_capture": "on"
+}

@@ -1,0 +1,7 @@
+{
+  "continuous_abs_limit": 0.0001,
+  "derivative_fixture_atol": 1e-07,
+  "event_matching": "ordinal por productor/fila/ID; no búsqueda de lag",
+  "event_time_gate": "ningún umbral nuevo; reportar diferencia cruda y redondeada",
+  "scope": "endpoint KC final y eventos somáticos; no historia axonal completa"
+}

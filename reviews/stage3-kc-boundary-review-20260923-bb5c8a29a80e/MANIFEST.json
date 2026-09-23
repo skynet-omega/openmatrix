@@ -1,0 +1,347 @@
+{
+  "format_version": 2,
+  "label": "stage3-kc-boundary-review-20260923",
+  "description": "Corrected KC event clock, 2-ms CUDA organism readbacks, native observer-neutral control, anatomical KC-to-DNb05 paths, ChatGPT C++ CPU fixture and code run on real 20-ms arrays; numerical and stage-3 gates remain open.",
+  "files": [
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2096,
+      "sha256": "ab04f795c39776ec5785a4b3ef2b0f0f3a0eda9cf14aa0d26a3668640b492edb"
+    },
+    {
+      "path": "campaign/README.md",
+      "bytes": 8007,
+      "sha256": "d3615dfd74d55d34c6a29e60b528aa31dccd74f0a26f5de659a75fb8eec29e49"
+    },
+    {
+      "path": "campaign/BUGFIX.md",
+      "bytes": 710,
+      "sha256": "40bf43a1096ef188b8785ef1bb9d73512fdbb6149eae54f88d5c03f07c37c970"
+    },
+    {
+      "path": "campaign/CLOCK_CORRECTION.md",
+      "bytes": 1017,
+      "sha256": "827205b9797ff13f371e378a6c0729ec1063d03316f3b4f71863949015352e90"
+    },
+    {
+      "path": "campaign/CHATGPT_REVIEW.md",
+      "bytes": 2591,
+      "sha256": "32e75722a0dae298c36e92015cdf739bffe7fe974ce6f1a33915a22822b83d54"
+    },
+    {
+      "path": "campaign/BOUNDARY.json",
+      "bytes": 11172,
+      "sha256": "4536a7fb1ce2295c52e75f3bb5e2ad8d320dd55cd557e0bf224a845c131502ae"
+    },
+    {
+      "path": "campaign/CAPTURE_NEUTRALITY.json",
+      "bytes": 2506,
+      "sha256": "e488afa97f8426db8a272f0fbc69841407d338e78aaf9e8ece05931710b76379"
+    },
+    {
+      "path": "campaign/PREFIX_NEUTRALITY.json",
+      "bytes": 2024,
+      "sha256": "5bae2822974dfa67da7adcaba10674e0d92bbb59980a63b48f04f0d8bf58d93b"
+    },
+    {
+      "path": "campaign/KC_LOCAL_MAPPING.json",
+      "bytes": 1988,
+      "sha256": "25bfdef2e43f7eeb436644238b22dfe74801b0eef6bea1e2643edeba4cd21e98"
+    },
+    {
+      "path": "campaign/KC_MOTOR_REACHABILITY.json",
+      "bytes": 10653,
+      "sha256": "600bbf96f605551e6c234a9174da003296e3c4654a70a4c748291ac8c3e5a737"
+    },
+    {
+      "path": "campaign/run_set.py",
+      "bytes": 12229,
+      "sha256": "26b3f3056b138dc5367760659a77885140b32762680b256b253d6aeb5aadea21"
+    },
+    {
+      "path": "campaign/native_tap.py",
+      "bytes": 9053,
+      "sha256": "b22f879c5cf57e38f91528e4a32b96c6ce018ae21a2536d76e1780b496f6e631"
+    },
+    {
+      "path": "campaign/compare_boundary.py",
+      "bytes": 7725,
+      "sha256": "06741ec7964abcb24d4120625cb67d45c5bdf8e655d027c44370dac45f2edbd1"
+    },
+    {
+      "path": "campaign/compare_capture.py",
+      "bytes": 3196,
+      "sha256": "0aa51dfa63e14af0c86b236c93612d0802feddbf8392128953f2e32547931c2e"
+    },
+    {
+      "path": "campaign/compare_failed_prefix.py",
+      "bytes": 2119,
+      "sha256": "0a6fac5d8417e5c22b1983cd1bac231cd9c6b612db037cc7d7a32e13dfe0e7ff"
+    },
+    {
+      "path": "campaign/verify_boundary_compact.py",
+      "bytes": 3203,
+      "sha256": "e40e7d029c044713b23f9ba0db2334446a15dea2ca62f6cd88489029b4d2ded5"
+    },
+    {
+      "path": "campaign/map_kc.py",
+      "bytes": 2594,
+      "sha256": "1761a506b716b4698b349540c8f91ad02d59baa82437a9a58bd8f8c55420ffff"
+    },
+    {
+      "path": "campaign/check_anatomical_paths.py",
+      "bytes": 3035,
+      "sha256": "c6ac75421eb36c79235f36994e268dc6385ae72304d555a8891e68b72ce058a5"
+    },
+    {
+      "path": "campaign/chatgpt_comparar_kc_original.py",
+      "bytes": 11547,
+      "sha256": "33e4257374f6029b1a8a178e8abbb7a1ec464b758c8344652102bdb3a6cb3b9f"
+    },
+    {
+      "path": "campaign/event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "campaign/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "campaign/event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "campaign/native_cell.py",
+      "bytes": 9297,
+      "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+    },
+    {
+      "path": "campaign/device_cell.py",
+      "bytes": 7482,
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    {
+      "path": "campaign/physical_events.cu",
+      "bytes": 2537,
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "campaign/device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "campaign/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "campaign/native_capture_on_01/RESULT.json",
+      "bytes": 3886,
+      "sha256": "fdecf2dbb219c7ba4af6c859d9d08f8a06ceae4f0e6786e46ee1c9ae400c343f"
+    },
+    {
+      "path": "campaign/native_capture_on_01/FROZEN.json",
+      "bytes": 2127,
+      "sha256": "90433ed4e83ac4a87c322f86d8e9be4ff15c6576dcb69c880830509549264b35"
+    },
+    {
+      "path": "campaign/native_capture_on_01/RUN_CONTRACT.json",
+      "bytes": 727,
+      "sha256": "06882d07019e245601705d67e3b07cf6fb0692b1fcbda1f396a04cdcea7c39ab"
+    },
+    {
+      "path": "campaign/native_capture_on_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "campaign/native_capture_on_02/RESULT.json",
+      "bytes": 3283,
+      "sha256": "84d7868c98c27f7442717166e16bcd6da5845dd413c2fd77fb206ffdd8bff7cb"
+    },
+    {
+      "path": "campaign/native_capture_on_02/FROZEN.json",
+      "bytes": 2127,
+      "sha256": "9660f0f5041e80a4397e8c6b02043fbe0c454a1465099a578f378e930dcf507d"
+    },
+    {
+      "path": "campaign/native_capture_on_02/RUN_CONTRACT.json",
+      "bytes": 727,
+      "sha256": "06882d07019e245601705d67e3b07cf6fb0692b1fcbda1f396a04cdcea7c39ab"
+    },
+    {
+      "path": "campaign/native_capture_on_02/EVENT_AUDIT.json",
+      "bytes": 39555,
+      "sha256": "75cd15e5435cb30196ba980dca42f19cde7cd6231e815382206d04639c73c9ce"
+    },
+    {
+      "path": "campaign/native_capture_on_02/traces.npz",
+      "bytes": 33085,
+      "sha256": "7ddc6ffec3c8afc6f8fb0d34176e94004326441ae12dab8fcec0582ffcf179ec"
+    },
+    {
+      "path": "campaign/native_capture_on_02/kc/after_001ms.npz",
+      "bytes": 1496256,
+      "sha256": "1ecc486d2aed51d6eb2ee5965c616c8fb33c6b32f287042a4c4fba8cacb16ece"
+    },
+    {
+      "path": "campaign/native_capture_on_02/kc/after_002ms.npz",
+      "bytes": 1496068,
+      "sha256": "07693ac359c7392afdcf8275f73073b38eb486e88faceb0c12cfc143f20137e8"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/RESULT.json",
+      "bytes": 2728,
+      "sha256": "96baeec85cc1684569254a4be0c7b11592957ef3a439bde72d6c522cc2b4cd81"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/FROZEN.json",
+      "bytes": 2127,
+      "sha256": "9660f0f5041e80a4397e8c6b02043fbe0c454a1465099a578f378e930dcf507d"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/RUN_CONTRACT.json",
+      "bytes": 730,
+      "sha256": "ee1317e3c65085a7ba874fdfed156d5c081340d967c34592d6f1a50c65f71fee"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/EVENT_AUDIT.json",
+      "bytes": 39347,
+      "sha256": "668fa3fc50b73658167d658d7a1d1c1aed312c40967bbac41c252ecceed51fc6"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/traces.npz",
+      "bytes": 33082,
+      "sha256": "35a857855a2833c4feecf1580507f63849a9c09b7265440e0f03100c379da3d5"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/kc/after_001ms.npz",
+      "bytes": 1489056,
+      "sha256": "9604f5c51789acb438b1834f6ab0747e88d7581d079e82d3ca60522670c4324c"
+    },
+    {
+      "path": "campaign/reference_capture_on_02/kc/after_002ms.npz",
+      "bytes": 1489056,
+      "sha256": "13ae85aabec3ea36fbb3cd58bd56072841805bb12acb80af1408321c503115ff"
+    },
+    {
+      "path": "campaign/native_capture_off_01/RESULT.json",
+      "bytes": 3286,
+      "sha256": "1235e6932d06d1cd81aff2ceddb9909809efa4ea15876cd7e672ab0e17b65aec"
+    },
+    {
+      "path": "campaign/native_capture_off_01/FROZEN.json",
+      "bytes": 2127,
+      "sha256": "9660f0f5041e80a4397e8c6b02043fbe0c454a1465099a578f378e930dcf507d"
+    },
+    {
+      "path": "campaign/native_capture_off_01/RUN_CONTRACT.json",
+      "bytes": 728,
+      "sha256": "88ed804294738cf9ed394f4fb10988a0a2071c059958eac3ab33e6d32282c1d5"
+    },
+    {
+      "path": "campaign/native_capture_off_01/EVENT_AUDIT.json",
+      "bytes": 39555,
+      "sha256": "75cd15e5435cb30196ba980dca42f19cde7cd6231e815382206d04639c73c9ce"
+    },
+    {
+      "path": "campaign/native_capture_off_01/traces.npz",
+      "bytes": 33085,
+      "sha256": "7ddc6ffec3c8afc6f8fb0d34176e94004326441ae12dab8fcec0582ffcf179ec"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/FIXTURE.json",
+      "bytes": 829,
+      "sha256": "40f3cc63739a27289e4f0f2088faacc0e640f41abf53c41cd7d3a00e08eb6c51"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/RESULTADO.json",
+      "bytes": 1086,
+      "sha256": "5f0dd89393aba8563da2a77a82b196c63c4ce51b787d2f78311dda958948dc62"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/host_consumer.cpp",
+      "bytes": 3260,
+      "sha256": "d82637e138f432eebb7d3a411a4b2583bae4e3152ae72308996ebdacca2128a0"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/COMPILACION.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/linear_coarse.npz",
+      "bytes": 1238,
+      "sha256": "362c9f76dd7d1fcbc05ea5ba7e7d4bfb18e8f8144c89b973b2f10901b5d6c5ba"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/linear_fine.npz",
+      "bytes": 2438,
+      "sha256": "34ba7925cf47fd96310898684200d78b64166a2cbeac50519445568061e811c7"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/peak_coarse.npz",
+      "bytes": 998,
+      "sha256": "fc0d64c9857bfa6e3ae7bd362d3a4fd70583893b1d0cddfcb3eb1711fedb465b"
+    },
+    {
+      "path": "campaign/chatgpt_fixture_01/peak_fine.npz",
+      "bytes": 1318,
+      "sha256": "dbf4eb916b9e6862b144dd34c33b78a4265f18e421dcd3eef99925af2d393e9f"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/COMPARACION.json",
+      "bytes": 4841,
+      "sha256": "b66edcb439d80ac4abe832634587ded19281eb4f748163b9c8fc81b1902bd5f4"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/RESULTADO.json",
+      "bytes": 5424,
+      "sha256": "72bb1816d29541dab5cd4245b9d6a8b2f790db71a80d8d56c7839c5947ea00fd"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/PLAN.json",
+      "bytes": 314,
+      "sha256": "b5127aa42289e49e4063ec596e30f7e4fe77a096ff5e2c2b01f5bd0bbab73fcc"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/accepted_pairs.json",
+      "bytes": 328933,
+      "sha256": "f82fc4624c4e95eec02c5bda57daa1c64e63e776bc370b269773d4540b36149b"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/predictor_pairs.json",
+      "bytes": 167778,
+      "sha256": "2e1988be5c5c9a8a0d6cf215e521f80c9505eb29782d72acdbea1a8a0121f4b1"
+    },
+    {
+      "path": "prior/campaign/GATE.json",
+      "bytes": 5162,
+      "sha256": "ebff3939f1d6b4fd10c0a123a0396c08c0c2c920d621e0d429443044e3823cd5"
+    },
+    {
+      "path": "prior/campaign/COMPACT_NUMERIC.npz",
+      "bytes": 801671,
+      "sha256": "8510d09d6f0dda120ca5637e263585438431e459383c4585a3310b3ceb7796cb"
+    },
+    {
+      "path": "prior/campaign/verify_compact.py",
+      "bytes": 3703,
+      "sha256": "79252252ac1df205ef88ddc457f182e5d3a09e717c1de85d383db3e11ff5f660"
+    },
+    {
+      "path": "prior/campaign/native_sham_20_01/EVENT_AUDIT.json",
+      "bytes": 405578,
+      "sha256": "0ec9b100654ac6eb57969706d34610f6f57796aad70ebba154dcd2d483d8fce6"
+    },
+    {
+      "path": "prior/campaign/reference_sham_20_01/EVENT_AUDIT.json",
+      "bytes": 405429,
+      "sha256": "c279ad2d0cee56a161f280eef2c92f410eea7048440923b60d9b259cbc3be7f4"
+    }
+  ]
+}
