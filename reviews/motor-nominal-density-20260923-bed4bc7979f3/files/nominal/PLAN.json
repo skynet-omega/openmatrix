@@ -1,0 +1,19 @@
+{
+  "schema": "isolated_nominal_cpu_review_v1",
+  "rivals": {
+    "A": "Recover the untested nominal proposal only after accepted easy forced cuts, keep all new error tests",
+    "B": "Embedded exponential methods with explicit variable-rate RHS and new error contract",
+    "C": "Spatial multirate integration with bounded recurrent influence"
+  },
+  "selected": "A, externally generated prototype; no operating-engine change",
+  "budget": {
+    "GPU_runs": 0,
+    "generator_selftests": 1,
+    "real_header_compilations": 2,
+    "wall_s": 180,
+    "ChatGPT_messages": 0,
+    "Jev_calls": 0
+  },
+  "stop": "First mismatch, failed compile or budget. No promotion or neuronal-speedup claim from CPU mocks.",
+  "source_response": "6f0a1d57-3dc7-46ad-a53b-5054ab50b58c"
+}

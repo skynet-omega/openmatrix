@@ -1,0 +1,182 @@
+{
+  "format_version": 2,
+  "label": "motor-nominal-density-20260923",
+  "description": "External C++ proposal generator:14 CPU mock controls and real CUDA-header builds; no GPU speedup claim. Portable actual166700-coordinate q/s pair contradicts inferring sparse computation from sparse spike counts alone. Jev task routing, finite budgets and limitations included. Stage3 confirmation uses unchanged engine.",
+  "files": [
+    {
+      "path": "nominal/BUILD.json",
+      "bytes": 1647,
+      "sha256": "9267d77bdd7a6819bb01b1d982edd2fece5cf75957f9e93e347be13c1f130c8a"
+    },
+    {
+      "path": "nominal/CLOSE.json",
+      "bytes": 377,
+      "sha256": "54702affd5109d30ce4a5dfc3d23e318d530c441c4e44af243d83da2ab4bb2a0"
+    },
+    {
+      "path": "nominal/EXTERNAL_SOURCE.json",
+      "bytes": 326,
+      "sha256": "1caef69f8804766c43baf723cbf0740bb671f7d79620f709c8e08f087d8de808"
+    },
+    {
+      "path": "nominal/PLAN.json",
+      "bytes": 769,
+      "sha256": "ca027ceff5c0f39e16315c8215a613b546d9f653d545e9e9d2fba914149f23b0"
+    },
+    {
+      "path": "nominal/README.md",
+      "bytes": 2066,
+      "sha256": "ef1d38908caa1c2f84aa32d092800da295a571a541c95a92dfb4a0408c969ba9"
+    },
+    {
+      "path": "nominal/generar_nominal_original.py",
+      "bytes": 8887,
+      "sha256": "4dd9afe293e92c0a3ce526738a25b5e69ab0d88dd36e645a6151617adebde44a"
+    },
+    {
+      "path": "nominal/generated_01/MANIFEST.json",
+      "bytes": 662,
+      "sha256": "d7622f1e5428410435ee3777a87b8d3ccbd97c5a55574fd07b7929b105f9da7c"
+    },
+    {
+      "path": "nominal/generated_01/PLAN.json",
+      "bytes": 384,
+      "sha256": "57745ef5eb7bc999434a0078456918fe018c25c49a517e1c402c2411aeb66d6f"
+    },
+    {
+      "path": "nominal/generated_01/RESULTADO.json",
+      "bytes": 1228,
+      "sha256": "bb97e31576ba3fb8a50a2c5f39b1e3e07ed52756d5e038362f2d10013307aa73"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/RESULTADO.json",
+      "bytes": 333,
+      "sha256": "954e56ab2d97b6821913dd5973aeae87823e91c32b50e0a0895545ac467c8e9c"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/candidate.json",
+      "bytes": 10446,
+      "sha256": "e278247ad7d38a3e74e57c740bb78cdff0ae6c0733db8bf818a60ea0648459ef"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/candidate_build.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/candidate_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/driver.cpp",
+      "bytes": 1798,
+      "sha256": "c00ece1fb73ef8899db42f888ae1357e51011b761b87412e281b42803e3156c9"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/parent.json",
+      "bytes": 11340,
+      "sha256": "3672bb95741d636563f8fb06058795048ce5757a92354f00f72d4d3b36cb7494"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/parent_build.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nominal/generated_01/cpu_test/parent_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nominal/generated_01/graph_control_nominal.cpp",
+      "bytes": 6016,
+      "sha256": "116bdae3bd7a4374cb3aca09af45629052c618d0cee88ba6baa034f73ce235e5"
+    },
+    {
+      "path": "nominal/generated_01/graph_control_parent.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "nominal/nominal_build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nominal/parent_build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "density/EXPORT.json",
+      "bytes": 395,
+      "sha256": "b2f8eec3bc5b8ac720f9a0910af4b4a430eaadcd52289545fd0c15dc64f2a838"
+    },
+    {
+      "path": "density/PLAN.json",
+      "bytes": 960,
+      "sha256": "dd3839fc236d2c6b006536505396d4f13480eda7fe74313c87f0e4944db3f1f1"
+    },
+    {
+      "path": "density/README.md",
+      "bytes": 1425,
+      "sha256": "79197a2ecd25b9c1aea41288af0126094a880684538b426d196f4fb0abeda981"
+    },
+    {
+      "path": "density/RESULT.json",
+      "bytes": 2555,
+      "sha256": "aee6d44e25ab434b992b9e407543b69aeb3f082714747696deb600ae3287fb65"
+    },
+    {
+      "path": "density/export_pair.py",
+      "bytes": 1247,
+      "sha256": "3ae92a67acb7266f8957563edc0bd382aed401668a8c89f3e81b89e572689c57"
+    },
+    {
+      "path": "density/jev_01/receipt.json",
+      "bytes": 707,
+      "sha256": "bde5e64863994f5c142dadd466f3d4646934a96d6583e6677f2a1d7257ecd0d2"
+    },
+    {
+      "path": "density/jev_01/request.json",
+      "bytes": 4659,
+      "sha256": "ddd1a9440a38b5eefcc3eca039146943f626235acc4e809c93fc31f5f233ce0b"
+    },
+    {
+      "path": "density/jev_01/response.json",
+      "bytes": 1003,
+      "sha256": "93375e18b39bdd9fcc68ee6391f6508ca5c231cfc61b8f3825779fcaa00a9f36"
+    },
+    {
+      "path": "density/jev_01/routing.json",
+      "bytes": 732,
+      "sha256": "5a3696ac284ba5d2fbc31e363b66c7e57b83bd270431d628ec78ea3f57c9ac1a"
+    },
+    {
+      "path": "density/jev_tasks.json",
+      "bytes": 1370,
+      "sha256": "646282a7f94d89e5c9265039e26f4ed9fc24d145e631f98a980acdfe82e48fc3"
+    },
+    {
+      "path": "density/scan.py",
+      "bytes": 2665,
+      "sha256": "b3001fbc54eb26cb45829636ce404dc17a5819bdc6bda55eac5623aa605a9e99"
+    },
+    {
+      "path": "density/state_pair.npz",
+      "bytes": 4036564,
+      "sha256": "f3399caa0b8cf527f34945cd074d8e4ab83db7b5a76c4a0fbaa17af40ac8e0ed"
+    },
+    {
+      "path": "density/verify_pair.py",
+      "bytes": 1489,
+      "sha256": "ea462e2c92d12b9f71031eedec240f62014312e5c9d5a405b5936109f1576a0a"
+    },
+    {
+      "path": "CHATGPT_RESPONSE.md",
+      "bytes": 17052,
+      "sha256": "9568be59e6d5ca9afdbc6ba6c798061002d5756f456ad3620dfafae87eff55c1"
+    }
+  ]
+}

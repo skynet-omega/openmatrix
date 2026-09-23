@@ -1,0 +1,67 @@
+{
+  "source_clocks_ns": [
+    44446000000,
+    44447000000
+  ],
+  "photoreceptor_coordinates": 5529,
+  "full_state_size": 359373,
+  "counts": {
+    "release_q": {
+      "coordinates": 166700,
+      "nonzero_initial": 142237,
+      "nonzero_final": 142238,
+      "changed_exactly": 128235,
+      "absolute_change_gt": {
+        "1e-10": 122427,
+        "1e-08": 103192,
+        "1e-06": 23710,
+        "0.0001": 3825,
+        "0.01": 918
+      },
+      "max_change": 0.34298692397711783,
+      "percentiles_abs_change": [
+        0.0,
+        1.0269934691099993e-52,
+        2.841398459574318e-08,
+        1.7800990217281543e-07,
+        4.31372334304403e-06,
+        0.0010630105952943634,
+        0.34298692397711783
+      ]
+    },
+    "transmission_s": {
+      "coordinates": 166700,
+      "nonzero_initial": 142237,
+      "nonzero_final": 142238,
+      "changed_exactly": 128261,
+      "absolute_change_gt": {
+        "1e-10": 122577,
+        "1e-08": 112226,
+        "1e-06": 28937,
+        "0.0001": 4388,
+        "0.01": 429
+      },
+      "max_change": 0.049257666896815024,
+      "percentiles_abs_change": [
+        0.0,
+        1.0025163496936921e-51,
+        5.799387729765737e-08,
+        3.396721345513831e-07,
+        6.3708598139602974e-06,
+        0.000801282428635873,
+        0.049257666896815024
+      ]
+    }
+  },
+  "sources": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/session.json": "fddca52c8244f119e91be67a478f35f35dc6a658af93229246060664691d608d",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/session.npz": "db393c7def323134f94165357c6b3b39d7a9cbcac4fe514c206427879ad9589c",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/smoke_on_01/final_state/session.json": "57bf232437069d577c7920e7d2b568d7d6c0321a6f6ec44504d584602cfe6931",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/smoke_on_01/final_state/session.npz": "415e4d50041215747f46fa0f3309e3ee20a8bd5bbd7269ae58b3cfde214df79d",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/real_state_density_20260923/scan.py": "b3001fbc54eb26cb45829636ce404dc17a5819bdc6bda55eac5623aa605a9e99"
+  },
+  "wall_s": 2.171887806034647,
+  "peak_RAM_GiB": 0.4817466735839844,
+  "GPU_executed": false,
+  "scope": "Single existing1ms sham after declared PN629/parameter preparation; q/s are graded model coordinates, not measured biological spikes. No recurrent influence bound or whole-life sparsity claim."
+}

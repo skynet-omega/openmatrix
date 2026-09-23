@@ -1,0 +1,35 @@
+{
+  "generation": {
+    "parent_sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "candidate_sha256": "116bdae3bd7a4374cb3aca09af45629052c618d0cee88ba6baa034f73ce235e5",
+    "plan": {
+      "variant": "A_nominal_easy_cut_v1",
+      "restore_if": "h<requested AND accepted AND e<0.1",
+      "rejection": "parent policy, no memory of pre-rejection proposal",
+      "event_boundaries": "all retained, including sub-minimum accepted tails",
+      "historical_gate": "UNCHANGED",
+      "organism_speedup": null,
+      "selftest_scope": "synchronous CPU CUDA double; fresh h-dependent test errors"
+    },
+    "source_lines_changed_only": "proposal and next after accepted cut"
+  },
+  "tests": {
+    "cases": 14,
+    "CPU_control_double_pass": true,
+    "easy_tail_trials": [
+      6,
+      3
+    ],
+    "new_rejection_trials": [
+      26,
+      20
+    ],
+    "candidate_new_rejections": 3,
+    "CUDA_executed": false,
+    "organism_executed": false,
+    "scope": "Synthetic h-dependent errors; not reuse of old organism errors; no speedup measurement"
+  },
+  "status": "COMPLETE",
+  "wall_s": 0.779626659990754,
+  "generator_sha256": "4dd9afe293e92c0a3ce526738a25b5e69ab0d88dd36e645a6151617adebde44a"
+}

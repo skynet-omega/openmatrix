@@ -1,0 +1,11 @@
+{
+  "scope": "Offline density audit of already recorded full-brain states; no neuronal simulation or source change",
+  "rivals": {
+    "A": "Many graded release/transmission coordinates remain active, so sparse spike counts alone do not justify skipping their coupling",
+    "B": "Graded changes are small enough to motivate bounded approximate spatial integration, which still needs an influence/error bound",
+    "C": "Changes are concentrated in a subset, supporting a measured structural partition before another global-integrator rewrite"
+  },
+  "budget": {"state_pairs": 1,"GPU_runs": 0,"wall_s": 30,"RAM_GiB": 6,"Jev_calls": 1,"Jev_maximum_wait_s": 30,"ChatGPT_messages": 0},
+  "decision": "Describe occupancy and changes at zero plus five explicit thresholds. No threshold promotes an engine or proves quiescent neurons have no influence.",
+  "Jev_role": "Route new bounded implementation/review tasks, never certify numerical or biological results"
+}

@@ -1,0 +1,9 @@
+{
+  "variant": "A_nominal_easy_cut_v1",
+  "restore_if": "h<requested AND accepted AND e<0.1",
+  "rejection": "parent policy, no memory of pre-rejection proposal",
+  "event_boundaries": "all retained, including sub-minimum accepted tails",
+  "historical_gate": "UNCHANGED",
+  "organism_speedup": null,
+  "selftest_scope": "synchronous CPU CUDA double; fresh h-dependent test errors"
+}

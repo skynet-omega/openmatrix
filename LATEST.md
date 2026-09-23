@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-native-control-real-probe-20260923](reviews/motor-native-control-real-probe-20260923-b9a6b47015ce/README.md)
+[motor-nominal-density-20260923](reviews/motor-nominal-density-20260923-bed4bc7979f3/README.md)
 
-Three actual organism controls; scientific neutrality exact but CUDA/host timing attribution inconsistent. Recorded adaptive decisions and complete C++ probe source.
+External C++ proposal generator:14 CPU mock controls and real CUDA-header builds; no GPU speedup claim. Portable actual166700-coordinate q/s pair contradicts inferring sparse computation from sparse spike counts alone. Jev task routing, finite budgets and limitations included. Stage3 confirmation uses unchanged engine.
