@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "label": "stage4-design-and-cold-continuation-20260923",
+  "description": "Actual body geometry, retained source field/world API and cold-continuation code for external independent review. Stage3 confirmation remains running; no Stage4 run or biological navigation claim.",
+  "files": [
+    {
+      "path": "design/PLAN.json",
+      "bytes": 939,
+      "sha256": "0052232e586e06c514be9718df7575b4fd3032027c18366989e14a652b300cb3"
+    },
+    {
+      "path": "design/GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "design/APPROACH_CONTEXT.json",
+      "bytes": 1597,
+      "sha256": "486d939c2f3bc55489763d9f1c5062cd31ac8c2a52a1524e547d235fcb8ccb39"
+    },
+    {
+      "path": "continuation/restore_checkpoint.py",
+      "bytes": 7392,
+      "sha256": "eec9fbf5dd6d1bd6def1f9f285ecf2c6d6e69c4e68cada7e2b8d826939d5b63c"
+    },
+    {
+      "path": "continuation/run_continuation.py",
+      "bytes": 7349,
+      "sha256": "8f167767cbad5dd5c0ae14a78eb0e71a9e321812f064302a99105361c5955332"
+    },
+    {
+      "path": "continuation/check_remaining.py",
+      "bytes": 8335,
+      "sha256": "c3bfd432861562dabaa25cb3d7dd03f2352ccd5ddd7086cf91935907e82ad9f2"
+    },
+    {
+      "path": "continuation/checkpoint_compare.py",
+      "bytes": 2042,
+      "sha256": "50bec77da3525abf30f68fe890f6fa759096a86400d8b7c147d21f6e91d8d0b2"
+    },
+    {
+      "path": "continuation/PLAN.json",
+      "bytes": 3795,
+      "sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41"
+    },
+    {
+      "path": "environment/static_field.py",
+      "bytes": 1692,
+      "sha256": "21939eed9b465368666dd95809290c2280154285db83f91754de798b3241d4e6"
+    },
+    {
+      "path": "environment/antennal_world.py",
+      "bytes": 5834,
+      "sha256": "d627bb7caa3f3ae24f4d6a632b25fc74e547763a9a476ffebd87da8490d40cb5"
+    },
+    {
+      "path": "environment/antennal_runtime.py",
+      "bytes": 12097,
+      "sha256": "10dc2c80bc520f18fc59779ae50b5d8fe0f53faf15808a39fe1f13b83dfbe4e7"
+    },
+    {
+      "path": "environment/antennal_boundary.py",
+      "bytes": 1260,
+      "sha256": "403a897d50fee3b15497b0a17d51ce6a60aeaecbd5491ae485d53e28badd78f7"
+    },
+    {
+      "path": "environment/matrix_olfactory_diagnostic.py",
+      "bytes": 114166,
+      "sha256": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+    }
+  ]
+}

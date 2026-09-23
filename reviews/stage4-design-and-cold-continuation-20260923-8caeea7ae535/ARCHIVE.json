@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "69ea3867c93299a767e691580df018ec7efa702aeb88bb1d6abea948b15069f8",
+  "archive_bytes": 54482,
+  "parts": [
+    {
+      "path": "evidence.zip.part000",
+      "bytes": 54482,
+      "sha256": "69ea3867c93299a767e691580df018ec7efa702aeb88bb1d6abea948b15069f8"
+    }
+  ],
+  "join": "Concatenate parts in listed order to evidence.zip; verify SHA256 before extraction."
+}

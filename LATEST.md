@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-embedded-pair-negative-20260923](reviews/motor-embedded-pair-negative-20260923-17fb2ed03f35/README.md)
+[stage4-design-and-cold-continuation-20260923](reviews/stage4-design-and-cold-continuation-20260923-8caeea7ae535/README.md)
 
-Second external generic integrator prototype, original CPU code reproduced:2716 coefficient calls versus240 at unchanged tolerances, with lower true error. Not promoted as efficiency improvement; no CUDA or organism test, all event cuts retained and Stage3 engine unchanged.
+Actual body geometry, retained source field/world API and cold-continuation code for external independent review. Stage3 confirmation remains running; no Stage4 run or biological navigation claim.
