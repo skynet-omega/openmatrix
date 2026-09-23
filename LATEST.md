@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-pn629-four-arm-20260923](reviews/stage3-pn629-four-arm-20260923-f7f30ab53be8/README.md)
+[motor-native-control-real-probe-20260923](reviews/motor-native-control-real-probe-20260923-b9a6b47015ce/README.md)
 
-Completed four-condition PN629 intervention and physical-state/command factorial. Exploratory, no Stage3 admission; portable behavioral analysis only.
+Three actual organism controls; scientific neutrality exact but CUDA/host timing attribution inconsistent. Recorded adaptive decisions and complete C++ probe source.

@@ -1,0 +1,29 @@
+{
+  "compiler_command_parent": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-fPIC",
+    "-shared",
+    "motor_nuevo/native_stream_cost_20260923/generated/graph_control_parent.cpp",
+    "-I",
+    "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/nvidia/cuda_runtime/include",
+    "-L",
+    "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/nvidia/cuda_runtime/lib",
+    "-l:libcudart.so.12",
+    "-Wl,-rpath,/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/nvidia/cuda_runtime/lib",
+    "-o",
+    "motor_nuevo/native_stream_cost_20260923/generated/libgraph_control_parent.so"
+  ],
+  "probe_flags_same": true,
+  "generator_unmodified": true,
+  "cuda_execution_tested": false,
+  "sha256": {
+    "generar_sonda_original.py": "7968ed987b5cadf61b95b45033db726c1fc408a346979430eb740d972cdbea62",
+    "generated/graph_control_parent.cpp": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "generated/graph_control_probe.cpp": "07188112892ad8b2b58fba2e5ad20fd30202934bc3ef2561ed634c22046d7985",
+    "generated/libgraph_control_parent.so": "d274fdd7e18bc5f21a1cca400ae3a48648e3f88b37ee2dada54a6146956be359",
+    "generated/libgraph_control_probe.so": "f3d235ea2b4dfc3c33d732fbd76c8b3f89c2bade899aca7f6b2359be85716a29"
+  }
+}

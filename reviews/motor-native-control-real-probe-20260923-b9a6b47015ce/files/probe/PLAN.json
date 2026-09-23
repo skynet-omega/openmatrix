@@ -1,0 +1,10 @@
+{
+  "question": "Separate stream graph interval from host-dependent coordination on the actual organism, without CUPTI",
+  "rivals": {"A": "Host coordination dominates and a GPU-resident controller is useful", "B": "Repeated whole-network work dominates and requires influence-bounded spatial integration", "C": "Accuracy/stiffness dominates and coupled implicit integration may reduce work"},
+  "source": "Unmodified ChatGPT generator from response a289c38c-e7f7-4705-b57e-d5153d42aa9f; exact parent C++ SHA checked by generator",
+  "operation": "Parent library, probe mode0 host/decisions, probe mode1 with CUDA stream event markers; 1ms sham each, no biology/parameters/tolerance changes",
+  "budget": {"organism_loads_max": 3, "trial_ms_total_max": 3, "wall_each_s_max": 240, "wall_total_s_max": 720, "probe_proposals_max": 512, "probe_native_calls_max": 64, "RAM_GiB_max": 18, "GPU_GiB_max": 12, "new_external_calls": 0},
+  "gates": "Full selected scientific checkpoint trees/auxiliary outputs exact across modes; decisions, times, counts, next proposal exact between modes0/1; no overflow, incomplete row or failed event query",
+  "limits": "CUDA stream event intervals include scheduling, copies/dependencies/interference inside the graph; not exclusive kernel time. Host and stream intervals overlap. Startup1ms cannot certify400ms performance. No performance candidate promoted.",
+  "stop": "After any source/control/measurement/budget failure, retain error and stop. Do not run concurrently with long organism campaign; compile/preparation on CPU may run meanwhile."
+}

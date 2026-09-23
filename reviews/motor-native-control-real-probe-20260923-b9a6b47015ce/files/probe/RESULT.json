@@ -1,0 +1,94 @@
+{
+  "scientific_neutrality": {
+    "parent_01": {
+      "science_exact": true,
+      "auxiliary_exact": {
+        "published.npz": true,
+        "prosthesis.npz": true,
+        "boundary.json": true
+      },
+      "events_exact": true
+    },
+    "mode0_01": {
+      "science_exact": true,
+      "auxiliary_exact": {
+        "published.npz": true,
+        "prosthesis.npz": true,
+        "boundary.json": true
+      },
+      "events_exact": true
+    },
+    "mode1_01": {
+      "science_exact": true,
+      "auxiliary_exact": {
+        "published.npz": true,
+        "prosthesis.npz": true,
+        "boundary.json": true
+      },
+      "events_exact": true
+    }
+  },
+  "native_decisions_exact": true,
+  "trials": 191,
+  "native_calls": 16,
+  "accepted": 191,
+  "stream_intervals_ms": {
+    "H2D": 5.5159039934,
+    "graph_interval": 2279.3127047,
+    "D2H": 5.349152000799999,
+    "decision_gap": 11.0451520087,
+    "commit_D2D": 7.9536320067999995,
+    "between_trials": 1.1505599965700002
+  },
+  "host_api_ms": {
+    "H2D_API": 1.388604,
+    "launch_API": 47.568357000000006,
+    "D2H_API": 1.297177,
+    "synchronize_API": 2120.480837,
+    "commit_API": 3.773193
+  },
+  "native_epoch_wall_ms": {
+    "0": 2152.855407,
+    "1": 2181.307699
+  },
+  "instrumentation_wall_ratio_mode1_mode0": 1.0132160719700392,
+  "graph_interval_fraction_native_mode1": 1.0449294731527008,
+  "runner_wall_s": 104.37224801501725,
+  "probe_setup": {
+    "parent_01": {
+      "mode": -1,
+      "setup": [],
+      "library_sha256": "d274fdd7e18bc5f21a1cca400ae3a48648e3f88b37ee2dada54a6146956be359",
+      "harness_sha256": "ffa878ed34d00ee08d97c1f7be4de00496b2ea346efa054042533d08c3246f9e"
+    },
+    "mode0_01": {
+      "mode": 0,
+      "setup": [
+        {
+          "pool_setup_s": 6.146298255771399e-05,
+          "export_clear_s": 0.00046255398774519563
+        }
+      ],
+      "library_sha256": "f3d235ea2b4dfc3c33d732fbd76c8b3f89c2bade899aca7f6b2359be85716a29",
+      "harness_sha256": "ffa878ed34d00ee08d97c1f7be4de00496b2ea346efa054042533d08c3246f9e"
+    },
+    "mode1_01": {
+      "mode": 1,
+      "setup": [
+        {
+          "pool_setup_s": 0.0009057949646376073,
+          "export_clear_s": 0.0012375280493870378
+        }
+      ],
+      "library_sha256": "f3d235ea2b4dfc3c33d732fbd76c8b3f89c2bade899aca7f6b2359be85716a29",
+      "harness_sha256": "ffa878ed34d00ee08d97c1f7be4de00496b2ea346efa054042533d08c3246f9e"
+    }
+  },
+  "stage3_admission": false,
+  "optimization_promoted": false,
+  "limitations": [
+    "One physical ms including discarded predictor work; not 400ms performance",
+    "Graph interval is not exclusive kernel time; host and stream clocks overlap",
+    "Instrumented timing may differ from the parent; no extrapolation to whole-engine speedup"
+  ]
+}

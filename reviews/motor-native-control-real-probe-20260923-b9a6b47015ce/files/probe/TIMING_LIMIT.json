@@ -1,0 +1,130 @@
+{
+  "status": "TIMING_INCONSISTENCY_UNRESOLVED",
+  "scope": "Temporal attribution only; three scientific states/events and instrumented decisions remain exact.",
+  "graph_interval_sum_ms": 2279.3127047,
+  "host_epoch_sum_ms": 2181.307699,
+  "reported_fraction_not_admissible_as_time_share": 1.0449294731527008,
+  "host_api_totals_ms": {
+    "H2D_API": 1.388604,
+    "launch_API": 47.568357000000006,
+    "D2H_API": 1.297177,
+    "synchronize_API": 2120.480837,
+    "commit_API": 3.773193
+  },
+  "epochs": [
+    {
+      "epoch": 0,
+      "graph_ms": 74.3317119,
+      "host_epoch_ms": 71.04745,
+      "excess_ms": 3.284261900000004,
+      "ratio": 1.0462263163561818
+    },
+    {
+      "epoch": 1,
+      "graph_ms": 118.77302449999999,
+      "host_epoch_ms": 113.622025,
+      "excess_ms": 5.1509994999999975,
+      "ratio": 1.0453345159092173
+    },
+    {
+      "epoch": 2,
+      "graph_ms": 106.6339198,
+      "host_epoch_ms": 102.352607,
+      "excess_ms": 4.281312799999995,
+      "ratio": 1.0418290547303792
+    },
+    {
+      "epoch": 3,
+      "graph_ms": 146.4107189,
+      "host_epoch_ms": 140.089181,
+      "excess_ms": 6.32153790000001,
+      "ratio": 1.045125097133661
+    },
+    {
+      "epoch": 4,
+      "graph_ms": 59.3284484,
+      "host_epoch_ms": 56.769268,
+      "excess_ms": 2.5591804000000025,
+      "ratio": 1.0450803839852225
+    },
+    {
+      "epoch": 5,
+      "graph_ms": 106.5237132,
+      "host_epoch_ms": 101.986845,
+      "excess_ms": 4.536868200000001,
+      "ratio": 1.044484837235626
+    },
+    {
+      "epoch": 6,
+      "graph_ms": 70.8952331,
+      "host_epoch_ms": 67.729984,
+      "excess_ms": 3.165249099999997,
+      "ratio": 1.0467333507712036
+    },
+    {
+      "epoch": 7,
+      "graph_ms": 142.9303672,
+      "host_epoch_ms": 137.400379,
+      "excess_ms": 5.52998820000002,
+      "ratio": 1.0402472557954154
+    },
+    {
+      "epoch": 8,
+      "graph_ms": 153.8004799,
+      "host_epoch_ms": 147.177304,
+      "excess_ms": 6.623175900000007,
+      "ratio": 1.0450013400163929
+    },
+    {
+      "epoch": 9,
+      "graph_ms": 298.6959362,
+      "host_epoch_ms": 285.429317,
+      "excess_ms": 13.26661919999998,
+      "ratio": 1.0464795254371153
+    },
+    {
+      "epoch": 10,
+      "graph_ms": 189.4896981,
+      "host_epoch_ms": 181.597944,
+      "excess_ms": 7.891754099999986,
+      "ratio": 1.0434572877102617
+    },
+    {
+      "epoch": 11,
+      "graph_ms": 241.5234881,
+      "host_epoch_ms": 230.865131,
+      "excess_ms": 10.658357100000018,
+      "ratio": 1.046167028575658
+    },
+    {
+      "epoch": 12,
+      "graph_ms": 177.331807,
+      "host_epoch_ms": 169.509038,
+      "excess_ms": 7.822768999999994,
+      "ratio": 1.0461495687327302
+    },
+    {
+      "epoch": 13,
+      "graph_ms": 248.775263,
+      "host_epoch_ms": 238.072946,
+      "excess_ms": 10.702316999999994,
+      "ratio": 1.044953940293577
+    },
+    {
+      "epoch": 14,
+      "graph_ms": 35.4208631,
+      "host_epoch_ms": 33.830997,
+      "excess_ms": 1.5898660999999947,
+      "ratio": 1.0469943614135875
+    },
+    {
+      "epoch": 15,
+      "graph_ms": 108.4480323,
+      "host_epoch_ms": 103.827283,
+      "excess_ms": 4.6207493,
+      "ratio": 1.044504191639109
+    }
+  ],
+  "additional_runs": 0,
+  "optimization_promoted": false
+}

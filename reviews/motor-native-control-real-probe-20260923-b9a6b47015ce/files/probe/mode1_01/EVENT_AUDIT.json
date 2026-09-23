@@ -1,0 +1,791 @@
+{
+  "schema": "stage3_event_owner_log_v1",
+  "profile": "causal_cuda",
+  "odor": "sham",
+  "blocks": [
+    {
+      "block": 0,
+      "start_elapsed_ns": 1482000000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 60830,
+          "neuron_id": 80637,
+          "producer": "nongamma_lif",
+          "time_s": 9.609095064668674e-06,
+          "jump": 0.26267499390888016,
+          "post_q": 0.5470485841796289
+        },
+        {
+          "row": 62314,
+          "neuron_id": 82460,
+          "producer": "nongamma_lif",
+          "time_s": 4.989717332848038e-06,
+          "jump": 0.24636308476972824,
+          "post_q": 0.4377341314313873
+        },
+        {
+          "row": 108384,
+          "neuron_id": 155190,
+          "producer": "nongamma_lif",
+          "time_s": 6.205091749938538e-05,
+          "jump": 0.2027449222426245,
+          "post_q": 0.20753248182368972
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "start_elapsed_ns": 1482000000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 57513,
+          "neuron_id": 76431,
+          "producer": "gamma_cuda",
+          "time_s": 0.0001,
+          "jump": 0.29643769428799194,
+          "post_q": 0.29913351627196383
+        },
+        {
+          "row": 36540,
+          "neuron_id": 51113,
+          "producer": "gamma_cuda",
+          "time_s": 0.00012187500000000001,
+          "jump": 0.2572792545678305,
+          "post_q": 0.25830655674175174
+        },
+        {
+          "row": 35387,
+          "neuron_id": 49774,
+          "producer": "nongamma_lif",
+          "time_s": 8.884754263470111e-05,
+          "jump": 0.27162844371953865,
+          "post_q": 0.4885249869910662
+        },
+        {
+          "row": 51040,
+          "neuron_id": 68428,
+          "producer": "nongamma_lif",
+          "time_s": 7.53089252956338e-05,
+          "jump": 0.2652436755305237,
+          "post_q": 0.4927579408723409
+        },
+        {
+          "row": 60830,
+          "neuron_id": 80637,
+          "producer": "nongamma_lif",
+          "time_s": 9.607863151525445e-06,
+          "jump": 0.26267499390888016,
+          "post_q": 0.5470486014562044
+        },
+        {
+          "row": 62314,
+          "neuron_id": 82460,
+          "producer": "nongamma_lif",
+          "time_s": 4.99020484170615e-06,
+          "jump": 0.24636308476972826,
+          "post_q": 0.4377341266184275
+        },
+        {
+          "row": 108384,
+          "neuron_id": 155190,
+          "producer": "nongamma_lif",
+          "time_s": 6.203957461801302e-05,
+          "jump": 0.2027449222426245,
+          "post_q": 0.2075324841020696
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "start_elapsed_ns": 1482125000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 44973,
+          "neuron_id": 61071,
+          "producer": "nongamma_lif",
+          "time_s": 4.264281900806512e-05,
+          "jump": 0.26357993896729554,
+          "post_q": 0.639711226989808
+        },
+        {
+          "row": 46887,
+          "neuron_id": 63380,
+          "producer": "nongamma_lif",
+          "time_s": 4.7911244265943216e-05,
+          "jump": 0.26212630505027085,
+          "post_q": 0.47515630919654717
+        },
+        {
+          "row": 57198,
+          "neuron_id": 76056,
+          "producer": "nongamma_lif",
+          "time_s": 2.6608845085464447e-05,
+          "jump": 0.2947189865094151,
+          "post_q": 0.48494926348166223
+        },
+        {
+          "row": 71714,
+          "neuron_id": 94802,
+          "producer": "nongamma_lif",
+          "time_s": 4.13480260198744e-05,
+          "jump": 0.2961133070691345,
+          "post_q": 0.46270166601039386
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "start_elapsed_ns": 1482125000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 44973,
+          "neuron_id": 61071,
+          "producer": "nongamma_lif",
+          "time_s": 4.264696199595859e-05,
+          "jump": 0.26357993896729565,
+          "post_q": 0.6397111504910811
+        },
+        {
+          "row": 46887,
+          "neuron_id": 63380,
+          "producer": "nongamma_lif",
+          "time_s": 4.791890897865457e-05,
+          "jump": 0.2621263050502708,
+          "post_q": 0.47515621692927557
+        },
+        {
+          "row": 57198,
+          "neuron_id": 76056,
+          "producer": "nongamma_lif",
+          "time_s": 2.6602211045779547e-05,
+          "jump": 0.2947189865094151,
+          "post_q": 0.4849493389005983
+        },
+        {
+          "row": 71714,
+          "neuron_id": 94802,
+          "producer": "nongamma_lif",
+          "time_s": 4.133771880615971e-05,
+          "jump": 0.2961133070691345,
+          "post_q": 0.46270175807403613
+        },
+        {
+          "row": 98239,
+          "neuron_id": 133549,
+          "producer": "nongamma_lif",
+          "time_s": 8.067849736397104e-05,
+          "jump": 0.2840538262287479,
+          "post_q": 0.3880434797535329
+        }
+      ]
+    },
+    {
+      "block": 4,
+      "start_elapsed_ns": 1482250000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 30267,
+          "neuron_id": 43889,
+          "producer": "nongamma_lif",
+          "time_s": 2.810827908051412e-05,
+          "jump": 0.2066230302188057,
+          "post_q": 0.423249327634311
+        },
+        {
+          "row": 76086,
+          "neuron_id": 100728,
+          "producer": "nongamma_lif",
+          "time_s": 6.0921298198275665e-05,
+          "jump": 0.23749180450444424,
+          "post_q": 0.49461853402514777
+        }
+      ]
+    },
+    {
+      "block": 5,
+      "start_elapsed_ns": 1482250000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 62413,
+          "neuron_id": 82582,
+          "producer": "gamma_cuda",
+          "time_s": 0.00012187500000000001,
+          "jump": 0.2370619538675817,
+          "post_q": 0.2501441847952313
+        },
+        {
+          "row": 30267,
+          "neuron_id": 43889,
+          "producer": "nongamma_lif",
+          "time_s": 2.810987239911505e-05,
+          "jump": 0.2066230302188057,
+          "post_q": 0.4232493130458308
+        },
+        {
+          "row": 35106,
+          "neuron_id": 49450,
+          "producer": "nongamma_lif",
+          "time_s": 0.00011038519059691577,
+          "jump": 0.2726678920532998,
+          "post_q": 0.7349318930108858
+        },
+        {
+          "row": 38337,
+          "neuron_id": 53221,
+          "producer": "nongamma_lif",
+          "time_s": 0.00011821894648569362,
+          "jump": 0.24532378590524395,
+          "post_q": 0.4285989013381687
+        },
+        {
+          "row": 72132,
+          "neuron_id": 95358,
+          "producer": "nongamma_lif",
+          "time_s": 9.431567527564922e-05,
+          "jump": 0.2701765294697803,
+          "post_q": 0.4496982096917085
+        },
+        {
+          "row": 76086,
+          "neuron_id": 100728,
+          "producer": "nongamma_lif",
+          "time_s": 6.0894685863953776e-05,
+          "jump": 0.23749180450444424,
+          "post_q": 0.4946188587360546
+        }
+      ]
+    },
+    {
+      "block": 6,
+      "start_elapsed_ns": 1482375000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 54841,
+          "neuron_id": 73146,
+          "producer": "nongamma_lif",
+          "time_s": 4.146103201206532e-05,
+          "jump": 0.2634000475255148,
+          "post_q": 0.4919220984255408
+        },
+        {
+          "row": 77149,
+          "neuron_id": 102210,
+          "producer": "nongamma_lif",
+          "time_s": 2.2731537291988756e-05,
+          "jump": 0.25607541458108235,
+          "post_q": 0.256396167256814
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "start_elapsed_ns": 1482375000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 25725,
+          "neuron_id": 38746,
+          "producer": "nongamma_lif",
+          "time_s": 6.443957536517091e-05,
+          "jump": 0.21065912397613834,
+          "post_q": 0.44015292464497546
+        },
+        {
+          "row": 43245,
+          "neuron_id": 58980,
+          "producer": "nongamma_lif",
+          "time_s": 8.100359179578449e-05,
+          "jump": 0.2142991487477623,
+          "post_q": 0.47977281622334966
+        },
+        {
+          "row": 54841,
+          "neuron_id": 73146,
+          "producer": "nongamma_lif",
+          "time_s": 4.1459454642827594e-05,
+          "jump": 0.2634000475255148,
+          "post_q": 0.49192211785553186
+        },
+        {
+          "row": 77149,
+          "neuron_id": 102210,
+          "producer": "nongamma_lif",
+          "time_s": 2.2732545811485996e-05,
+          "jump": 0.25607541458108235,
+          "post_q": 0.2563961672391613
+        }
+      ]
+    },
+    {
+      "block": 8,
+      "start_elapsed_ns": 1482500000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 61131,
+          "neuron_id": 81004,
+          "producer": "gamma_cuda",
+          "time_s": 3.125e-06,
+          "jump": 0.29400182282588,
+          "post_q": 0.30295199430218567
+        },
+        {
+          "row": 24224,
+          "neuron_id": 37043,
+          "producer": "nongamma_lif",
+          "time_s": 4.345851953952301e-05,
+          "jump": 0.2348447160565767,
+          "post_q": 0.5245183747577212
+        },
+        {
+          "row": 66817,
+          "neuron_id": 88283,
+          "producer": "nongamma_lif",
+          "time_s": 8.166855087466694e-06,
+          "jump": 0.3068414610580874,
+          "post_q": 0.48643699470566915
+        },
+        {
+          "row": 70652,
+          "neuron_id": 93380,
+          "producer": "nongamma_lif",
+          "time_s": 2.947385813099407e-07,
+          "jump": 0.28540327299944657,
+          "post_q": 0.6087076716195083
+        },
+        {
+          "row": 95398,
+          "neuron_id": 128858,
+          "producer": "nongamma_lif",
+          "time_s": 1.027063021375076e-05,
+          "jump": 0.29283043761879013,
+          "post_q": 0.4273115105051406
+        }
+      ]
+    },
+    {
+      "block": 9,
+      "start_elapsed_ns": 1482500000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 61131,
+          "neuron_id": 81004,
+          "producer": "gamma_cuda",
+          "time_s": 3.125e-06,
+          "jump": 0.29400182282588,
+          "post_q": 0.30295199430218567
+        },
+        {
+          "row": 36610,
+          "neuron_id": 51195,
+          "producer": "gamma_cuda",
+          "time_s": 7.500000000000001e-05,
+          "jump": 0.3031976254044126,
+          "post_q": 0.30882490050577394
+        },
+        {
+          "row": 24224,
+          "neuron_id": 37043,
+          "producer": "nongamma_lif",
+          "time_s": 4.3456688048609195e-05,
+          "jump": 0.2348447160565767,
+          "post_q": 0.5245183992344965
+        },
+        {
+          "row": 25176,
+          "neuron_id": 38121,
+          "producer": "nongamma_lif",
+          "time_s": 0.00011770446308669728,
+          "jump": 0.24324232178082847,
+          "post_q": 0.45037223881074384
+        },
+        {
+          "row": 58026,
+          "neuron_id": 77068,
+          "producer": "nongamma_lif",
+          "time_s": 9.980460336663546e-05,
+          "jump": 0.2558921624544938,
+          "post_q": 0.48075750757923885
+        },
+        {
+          "row": 58566,
+          "neuron_id": 77755,
+          "producer": "nongamma_lif",
+          "time_s": 0.00012438447445618303,
+          "jump": 0.26719993450137863,
+          "post_q": 0.5982370833727089
+        },
+        {
+          "row": 60218,
+          "neuron_id": 79860,
+          "producer": "nongamma_lif",
+          "time_s": 0.00010738306972898364,
+          "jump": 0.23130209547326303,
+          "post_q": 0.5023406466511955
+        },
+        {
+          "row": 66817,
+          "neuron_id": 88283,
+          "producer": "nongamma_lif",
+          "time_s": 8.167031683877811e-06,
+          "jump": 0.3068414610580874,
+          "post_q": 0.48643699258531026
+        },
+        {
+          "row": 70652,
+          "neuron_id": 93380,
+          "producer": "nongamma_lif",
+          "time_s": 2.9473497943479657e-07,
+          "jump": 0.2854032729994465,
+          "post_q": 0.6087076716817317
+        },
+        {
+          "row": 71176,
+          "neuron_id": 94078,
+          "producer": "nongamma_lif",
+          "time_s": 0.00011790771489402632,
+          "jump": 0.24136466852238986,
+          "post_q": 0.41503298353540363
+        },
+        {
+          "row": 95398,
+          "neuron_id": 128858,
+          "producer": "nongamma_lif",
+          "time_s": 1.0274462723030426e-05,
+          "jump": 0.29283043761879013,
+          "post_q": 0.4273114817276361
+        }
+      ]
+    },
+    {
+      "block": 10,
+      "start_elapsed_ns": 1482625000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 25535,
+          "neuron_id": 38528,
+          "producer": "nongamma_lif",
+          "time_s": 5.115489458082527e-05,
+          "jump": 0.21341749586749026,
+          "post_q": 0.45534329293581577
+        },
+        {
+          "row": 38089,
+          "neuron_id": 52933,
+          "producer": "nongamma_lif",
+          "time_s": 2.4697900218190032e-05,
+          "jump": 0.37163436306535513,
+          "post_q": 0.636551457425435
+        },
+        {
+          "row": 41840,
+          "neuron_id": 57341,
+          "producer": "nongamma_lif",
+          "time_s": 9.71450020829197e-06,
+          "jump": 0.25619008164254375,
+          "post_q": 0.47220345406865744
+        },
+        {
+          "row": 68217,
+          "neuron_id": 90153,
+          "producer": "nongamma_lif",
+          "time_s": 1.369264485817074e-05,
+          "jump": 0.22981776157462144,
+          "post_q": 0.4727461653904104
+        }
+      ]
+    },
+    {
+      "block": 11,
+      "start_elapsed_ns": 1482625000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 25535,
+          "neuron_id": 38528,
+          "producer": "nongamma_lif",
+          "time_s": 5.116631240851702e-05,
+          "jump": 0.21341749586749023,
+          "post_q": 0.4553431661448527
+        },
+        {
+          "row": 38089,
+          "neuron_id": 52933,
+          "producer": "nongamma_lif",
+          "time_s": 2.47013731440784e-05,
+          "jump": 0.3716343630653552,
+          "post_q": 0.6365513909362319
+        },
+        {
+          "row": 41840,
+          "neuron_id": 57341,
+          "producer": "nongamma_lif",
+          "time_s": 9.714590797504758e-06,
+          "jump": 0.25619008164254375,
+          "post_q": 0.4722034530864399
+        },
+        {
+          "row": 66016,
+          "neuron_id": 87232,
+          "producer": "nongamma_lif",
+          "time_s": 9.542789488693487e-05,
+          "jump": 0.2675697756929257,
+          "post_q": 0.4106482183949871
+        },
+        {
+          "row": 67665,
+          "neuron_id": 89419,
+          "producer": "nongamma_lif",
+          "time_s": 0.00012402538231514395,
+          "jump": 0.2962646923399097,
+          "post_q": 0.4140169359389356
+        },
+        {
+          "row": 68217,
+          "neuron_id": 90153,
+          "producer": "nongamma_lif",
+          "time_s": 1.3693284494016697e-05,
+          "jump": 0.22981776157462144,
+          "post_q": 0.47274615805815046
+        },
+        {
+          "row": 115261,
+          "neuron_id": 180332,
+          "producer": "nongamma_lif",
+          "time_s": 0.00011754082884066323,
+          "jump": 0.19537074792296816,
+          "post_q": 0.3774857030905132
+        }
+      ]
+    },
+    {
+      "block": 12,
+      "start_elapsed_ns": 1482750000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 39577,
+          "neuron_id": 54647,
+          "producer": "nongamma_lif",
+          "time_s": 5.129412163511773e-05,
+          "jump": 0.24275019435052037,
+          "post_q": 0.48806793219963474
+        },
+        {
+          "row": 50962,
+          "neuron_id": 68334,
+          "producer": "nongamma_lif",
+          "time_s": 3.335037346328486e-05,
+          "jump": 0.32719664972401374,
+          "post_q": 0.6360304505708807
+        },
+        {
+          "row": 55626,
+          "neuron_id": 74135,
+          "producer": "nongamma_lif",
+          "time_s": 3.0294559199313657e-05,
+          "jump": 0.2543495718667548,
+          "post_q": 0.25460918644739444
+        },
+        {
+          "row": 63727,
+          "neuron_id": 84244,
+          "producer": "nongamma_lif",
+          "time_s": 6.202431146887486e-05,
+          "jump": 0.20674963373400262,
+          "post_q": 0.48578273353697454
+        },
+        {
+          "row": 69816,
+          "neuron_id": 92294,
+          "producer": "nongamma_lif",
+          "time_s": 4.8929492469547454e-05,
+          "jump": 0.2465746319485041,
+          "post_q": 0.5386730897326983
+        },
+        {
+          "row": 92123,
+          "neuron_id": 123605,
+          "producer": "nongamma_lif",
+          "time_s": 4.652210710352517e-05,
+          "jump": 0.29155475911172485,
+          "post_q": 0.6163497796396873
+        },
+        {
+          "row": 94477,
+          "neuron_id": 127366,
+          "producer": "nongamma_lif",
+          "time_s": 3.2348657199816285e-05,
+          "jump": 0.2527578174631141,
+          "post_q": 0.5002277017301134
+        }
+      ]
+    },
+    {
+      "block": 13,
+      "start_elapsed_ns": 1482750000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 57073,
+          "neuron_id": 75907,
+          "producer": "gamma_cuda",
+          "time_s": 6.875e-05,
+          "jump": 0.29942891126207577,
+          "post_q": 0.3086139301062227
+        },
+        {
+          "row": 37444,
+          "neuron_id": 52189,
+          "producer": "nongamma_lif",
+          "time_s": 7.497592294105903e-05,
+          "jump": 0.23570290304078437,
+          "post_q": 0.4818005494060546
+        },
+        {
+          "row": 39577,
+          "neuron_id": 54647,
+          "producer": "nongamma_lif",
+          "time_s": 5.1310988030088404e-05,
+          "jump": 0.24275019435052034,
+          "post_q": 0.48806773769919354
+        },
+        {
+          "row": 50962,
+          "neuron_id": 68334,
+          "producer": "nongamma_lif",
+          "time_s": 3.334653758266692e-05,
+          "jump": 0.3271966497240137,
+          "post_q": 0.6360305226714368
+        },
+        {
+          "row": 55626,
+          "neuron_id": 74135,
+          "producer": "nongamma_lif",
+          "time_s": 3.0291467343311604e-05,
+          "jump": 0.2543495718667548,
+          "post_q": 0.2546091864908677
+        },
+        {
+          "row": 63224,
+          "neuron_id": 83611,
+          "producer": "nongamma_lif",
+          "time_s": 7.190684239144959e-05,
+          "jump": 0.25100603700749863,
+          "post_q": 0.419926884916866
+        },
+        {
+          "row": 63727,
+          "neuron_id": 84244,
+          "producer": "nongamma_lif",
+          "time_s": 6.204038958215062e-05,
+          "jump": 0.20674963373400262,
+          "post_q": 0.48578254450624536
+        },
+        {
+          "row": 69816,
+          "neuron_id": 92294,
+          "producer": "nongamma_lif",
+          "time_s": 4.89067266722604e-05,
+          "jump": 0.246574631948504,
+          "post_q": 0.5386734353620459
+        },
+        {
+          "row": 75854,
+          "neuron_id": 100423,
+          "producer": "nongamma_lif",
+          "time_s": 0.0001094533305504913,
+          "jump": 0.21300092064455195,
+          "post_q": 0.47586667227839524
+        },
+        {
+          "row": 92123,
+          "neuron_id": 123605,
+          "producer": "nongamma_lif",
+          "time_s": 4.6524526871632054e-05,
+          "jump": 0.29155475911172496,
+          "post_q": 0.6163497360595005
+        },
+        {
+          "row": 94477,
+          "neuron_id": 127366,
+          "producer": "nongamma_lif",
+          "time_s": 3.235021559419577e-05,
+          "jump": 0.2527578174631141,
+          "post_q": 0.5002276816096801
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "start_elapsed_ns": 1482875000,
+      "duration_ns": 62500,
+      "events": [
+        {
+          "row": 59834,
+          "neuron_id": 79364,
+          "producer": "nongamma_lif",
+          "time_s": 5.927023760189578e-05,
+          "jump": 0.20919345302142828,
+          "post_q": 0.46779291686120483
+        }
+      ]
+    },
+    {
+      "block": 15,
+      "start_elapsed_ns": 1482875000,
+      "duration_ns": 125000,
+      "events": [
+        {
+          "row": 38354,
+          "neuron_id": 53241,
+          "producer": "nongamma_lif",
+          "time_s": 9.683353275991253e-05,
+          "jump": 0.23655225031481042,
+          "post_q": 0.5362026447877342
+        },
+        {
+          "row": 39074,
+          "neuron_id": 54067,
+          "producer": "nongamma_lif",
+          "time_s": 0.00010785558118606102,
+          "jump": 0.23541087424218,
+          "post_q": 0.5882225001674449
+        },
+        {
+          "row": 50274,
+          "neuron_id": 67474,
+          "producer": "nongamma_lif",
+          "time_s": 0.00012332369767700764,
+          "jump": 0.2589117598291414,
+          "post_q": 0.5280012935161571
+        },
+        {
+          "row": 59834,
+          "neuron_id": 79364,
+          "producer": "nongamma_lif",
+          "time_s": 5.926458236557791e-05,
+          "jump": 0.20919345302142828,
+          "post_q": 0.46779297975710565
+        },
+        {
+          "row": 137956,
+          "neuron_id": 539367,
+          "producer": "nongamma_lif",
+          "time_s": 9.280710367185343e-05,
+          "jump": 0.22219314622381314,
+          "post_q": 0.48550374922517225
+        }
+      ]
+    }
+  ]
+}

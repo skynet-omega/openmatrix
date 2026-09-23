@@ -1,0 +1,227 @@
+{
+  "format_version": 2,
+  "label": "motor-native-control-real-probe-20260923",
+  "description": "Three actual organism controls; scientific neutrality exact but CUDA/host timing attribution inconsistent. Recorded adaptive decisions and complete C++ probe source.",
+  "files": [
+    {
+      "path": "probe/PLAN.json",
+      "bytes": 1579,
+      "sha256": "325efc9b7b9fed250ff9d3d9b593e16c5e5a4f8ce776a88baea3a8f2c0f59b53"
+    },
+    {
+      "path": "probe/README.md",
+      "bytes": 1859,
+      "sha256": "b74d2a064e1c200738b6f3d8a59d1e8e281bb458253735463e4c72b3500352cb"
+    },
+    {
+      "path": "probe/BUILD.json",
+      "bytes": 1302,
+      "sha256": "314d2ef76fe7f88d53dd2bb0e6058c8703951fb5f81bf40d83645742c6a43897"
+    },
+    {
+      "path": "probe/BUILD.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe/RESULT.json",
+      "bytes": 2768,
+      "sha256": "06686433490b6aaefb05875dd375148c4b35f080e3326e4042642da45f06aba1"
+    },
+    {
+      "path": "probe/TIMING_LIMIT.md",
+      "bytes": 1767,
+      "sha256": "4af525434e6b6490f8d29c38973dcd80e7d608d99b8d1f7611d343877400dd14"
+    },
+    {
+      "path": "probe/TIMING_LIMIT.json",
+      "bytes": 3266,
+      "sha256": "2445e396ce3e72bedc9ff408881cd936a41c610e4efe2e8324262ce54d970c2e"
+    },
+    {
+      "path": "probe/CONTROL_PARAMETERS.json",
+      "bytes": 210,
+      "sha256": "19081918621b80c8ef7371c1eac1f84f0f6284b2213f5f6d89ca5804660b2d8b"
+    },
+    {
+      "path": "probe/CONTROL_READBACK.json",
+      "bytes": 4885,
+      "sha256": "0f72f40633e05b7ce0d7ca39c9769d5136765a5928475c4122963f6b6120aca9"
+    },
+    {
+      "path": "probe/read_control.py",
+      "bytes": 2847,
+      "sha256": "69ce7980d165fe75dd21946099f5086d6f014f95844c4fe8ac3a4fd02110dc73"
+    },
+    {
+      "path": "probe/generar_sonda_original.py",
+      "bytes": 8939,
+      "sha256": "7968ed987b5cadf61b95b45033db726c1fc408a346979430eb740d972cdbea62"
+    },
+    {
+      "path": "probe/probe_runner.py",
+      "bytes": 2762,
+      "sha256": "ffa878ed34d00ee08d97c1f7be4de00496b2ea346efa054042533d08c3246f9e"
+    },
+    {
+      "path": "probe/run_set.py",
+      "bytes": 11010,
+      "sha256": "4e99f7eb944c7db4bd65c3d3d1835dc0ea79f5bab87483421f147af2aa5d1c4a"
+    },
+    {
+      "path": "probe/analyze.py",
+      "bytes": 4422,
+      "sha256": "54cc095b50ad99d876d6ca0da150712912ebb0945674246538997cf5dab926b4"
+    },
+    {
+      "path": "probe/compare_state.py",
+      "bytes": 2944,
+      "sha256": "0e9f6f1a4075d0646ca2f1fb97e99ee7c93256665bad86d33389a25dee2e1bbc"
+    },
+    {
+      "path": "probe/run_after_campaign.py",
+      "bytes": 2482,
+      "sha256": "8657966339cfdf02297f2789c01f9a66d3e1a42dca98bf326524a68f158a7ad2"
+    },
+    {
+      "path": "probe/generated/graph_control_parent.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "probe/generated/graph_control_probe.cpp",
+      "bytes": 12025,
+      "sha256": "07188112892ad8b2b58fba2e5ad20fd30202934bc3ef2561ed634c22046d7985"
+    },
+    {
+      "path": "probe/generated/MANIFEST.json",
+      "bytes": 387,
+      "sha256": "c74dc2e78f43d277b062159a0ef08c7ebf0e6706d4d6e0375c6dd8fdf05caa6f"
+    },
+    {
+      "path": "probe/parent_01/RESULT.json",
+      "bytes": 3296,
+      "sha256": "010918be0980c221b472ec9947a0e7e200ec27000bbe39da0edf75956d96a247"
+    },
+    {
+      "path": "probe/parent_01/RUN_CONTRACT.json",
+      "bytes": 693,
+      "sha256": "b3a7d9354218d7819dda6a4745cb62d82f0592182cfbe1b2c2bb2c175ebd0224"
+    },
+    {
+      "path": "probe/parent_01/FROZEN.json",
+      "bytes": 2212,
+      "sha256": "4897b06ce279aa25f3462789b3155201a22cd6072eee8d1bc2df1b2b0507c722"
+    },
+    {
+      "path": "probe/parent_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "probe/parent_01/PROBE_SETUP.json",
+      "bytes": 208,
+      "sha256": "aab990c5c53e650ef4f5087d907d48a2a84c1470a89c05093750280a01ff48f9"
+    },
+    {
+      "path": "probe/parent_01/traces.npz",
+      "bytes": 20030,
+      "sha256": "63d96620b2278bb3383b61211c75711ce32deaa4cd26314317bc4100ff994176"
+    },
+    {
+      "path": "probe/mode0_01/RESULT.json",
+      "bytes": 3294,
+      "sha256": "71abddf022bae3f90e3bb5786a5898fbda86e47c383f5f1bb2d7d99e6da13d30"
+    },
+    {
+      "path": "probe/mode0_01/RUN_CONTRACT.json",
+      "bytes": 693,
+      "sha256": "b3a7d9354218d7819dda6a4745cb62d82f0592182cfbe1b2c2bb2c175ebd0224"
+    },
+    {
+      "path": "probe/mode0_01/FROZEN.json",
+      "bytes": 2212,
+      "sha256": "4897b06ce279aa25f3462789b3155201a22cd6072eee8d1bc2df1b2b0507c722"
+    },
+    {
+      "path": "probe/mode0_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "probe/mode0_01/PROBE_SETUP.json",
+      "bytes": 314,
+      "sha256": "23a94a9b8b785afb6ea7ebe84fa37eef0bc08417b6c73168cb4dee474813904b"
+    },
+    {
+      "path": "probe/mode0_01/traces.npz",
+      "bytes": 20030,
+      "sha256": "63d96620b2278bb3383b61211c75711ce32deaa4cd26314317bc4100ff994176"
+    },
+    {
+      "path": "probe/mode0_01/SONDA.json",
+      "bytes": 60104,
+      "sha256": "a67701a6fb778530271552ae0282e10cf9dcbf7592370981e4c9cb2d38aef974"
+    },
+    {
+      "path": "probe/mode1_01/RESULT.json",
+      "bytes": 3294,
+      "sha256": "f2d09904d39449ab218b3af542c05d6ee00dd84aa562fc10a179b84d90611cf5"
+    },
+    {
+      "path": "probe/mode1_01/RUN_CONTRACT.json",
+      "bytes": 693,
+      "sha256": "b3a7d9354218d7819dda6a4745cb62d82f0592182cfbe1b2c2bb2c175ebd0224"
+    },
+    {
+      "path": "probe/mode1_01/FROZEN.json",
+      "bytes": 2212,
+      "sha256": "4897b06ce279aa25f3462789b3155201a22cd6072eee8d1bc2df1b2b0507c722"
+    },
+    {
+      "path": "probe/mode1_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "probe/mode1_01/PROBE_SETUP.json",
+      "bytes": 313,
+      "sha256": "bfd132530a14eb16eafbab024d0d9a52d8efadc90b9499ac27ddb46c6381b281"
+    },
+    {
+      "path": "probe/mode1_01/traces.npz",
+      "bytes": 20030,
+      "sha256": "63d96620b2278bb3383b61211c75711ce32deaa4cd26314317bc4100ff994176"
+    },
+    {
+      "path": "probe/mode1_01/SONDA.json",
+      "bytes": 70916,
+      "sha256": "1aa94ed7442da368f665cd5099cbf40c9811f8e46769b0a14c2776d53d414a2c"
+    },
+    {
+      "path": "source/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "source/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "source/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "source/prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "source/EVENT_CUT_POLICY.md",
+      "bytes": 1934,
+      "sha256": "225669dd2433f9bde3e493386d6616eb1e4c038de49e5ef79335de2c4df71621"
+    }
+  ]
+}

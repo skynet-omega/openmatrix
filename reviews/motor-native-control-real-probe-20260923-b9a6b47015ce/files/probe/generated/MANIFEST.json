@@ -1,0 +1,6 @@
+{
+  "parent_sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+  "probe_sha256": "07188112892ad8b2b58fba2e5ad20fd30202934bc3ef2561ed634c22046d7985",
+  "changes": "Solo llamadas de ejecuci\u00f3n envueltas; aritm\u00e9tica/control original conservados",
+  "requires": "CUDA Runtime + compilador C++17; misma thread OS y mismo owner para arm/advance/save/clear"
+}

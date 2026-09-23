@@ -1,0 +1,189 @@
+{
+  "same_recorded_controller_reconstructed_exactly": true,
+  "scope": "Actual recorded decisions and physical event times; segment count is not an admissible alternative simulation or speedup.",
+  "minimum_step_ns": 100,
+  "maximum_step_ns": 1000000,
+  "epochs": [
+    {
+      "epoch": 0,
+      "trials": 6,
+      "events": 3,
+      "minimum_segments": 4,
+      "event_or_epoch_tails": 4,
+      "steps_inside_segments": 2,
+      "errors_below_0_1": 6,
+      "max_error_ratio": 0.0017485135070117925,
+      "min_h_ns": 449.082500614625
+    },
+    {
+      "epoch": 1,
+      "trials": 10,
+      "events": 7,
+      "minimum_segments": 8,
+      "event_or_epoch_tails": 8,
+      "steps_inside_segments": 2,
+      "errors_below_0_1": 10,
+      "max_error_ratio": 0.03657172756093244,
+      "min_h_ns": 3124.9999999999945
+    },
+    {
+      "epoch": 2,
+      "trials": 9,
+      "events": 4,
+      "minimum_segments": 5,
+      "event_or_epoch_tails": 5,
+      "steps_inside_segments": 4,
+      "errors_below_0_1": 9,
+      "max_error_ratio": 0.0003764255207290652,
+      "min_h_ns": 1294.7929881907216
+    },
+    {
+      "epoch": 3,
+      "trials": 12,
+      "events": 5,
+      "minimum_segments": 6,
+      "event_or_epoch_tails": 6,
+      "steps_inside_segments": 6,
+      "errors_below_0_1": 11,
+      "max_error_ratio": 0.24297770743536287,
+      "min_h_ns": 1309.2431897988824
+    },
+    {
+      "epoch": 4,
+      "trials": 5,
+      "events": 2,
+      "minimum_segments": 3,
+      "event_or_epoch_tails": 3,
+      "steps_inside_segments": 2,
+      "errors_below_0_1": 5,
+      "max_error_ratio": 0.001148647993304653,
+      "min_h_ns": 1578.7018017243367
+    },
+    {
+      "epoch": 5,
+      "trials": 9,
+      "events": 6,
+      "minimum_segments": 7,
+      "event_or_epoch_tails": 7,
+      "steps_inside_segments": 2,
+      "errors_below_0_1": 9,
+      "max_error_ratio": 0.004475084855751338,
+      "min_h_ns": 3124.9999999999945
+    },
+    {
+      "epoch": 6,
+      "trials": 6,
+      "events": 2,
+      "minimum_segments": 3,
+      "event_or_epoch_tails": 3,
+      "steps_inside_segments": 3,
+      "errors_below_0_1": 6,
+      "max_error_ratio": 0.0025932196517886195,
+      "min_h_ns": 3984.5372919887536
+    },
+    {
+      "epoch": 7,
+      "trials": 12,
+      "events": 4,
+      "minimum_segments": 5,
+      "event_or_epoch_tails": 5,
+      "steps_inside_segments": 7,
+      "errors_below_0_1": 12,
+      "max_error_ratio": 0.0028341628431112756,
+      "min_h_ns": 1469.1207223433182
+    },
+    {
+      "epoch": 8,
+      "trials": 13,
+      "events": 5,
+      "minimum_segments": 6,
+      "event_or_epoch_tails": 6,
+      "steps_inside_segments": 7,
+      "errors_below_0_1": 13,
+      "max_error_ratio": 0.0034778975674591905,
+      "min_h_ns": 294.7385813099407
+    },
+    {
+      "epoch": 9,
+      "trials": 25,
+      "events": 11,
+      "minimum_segments": 12,
+      "event_or_epoch_tails": 12,
+      "steps_inside_segments": 13,
+      "errors_below_0_1": 25,
+      "max_error_ratio": 0.02306126266885111,
+      "min_h_ns": 203.25180732904138
+    },
+    {
+      "epoch": 10,
+      "trials": 16,
+      "events": 4,
+      "minimum_segments": 5,
+      "event_or_epoch_tails": 5,
+      "steps_inside_segments": 11,
+      "errors_below_0_1": 16,
+      "max_error_ratio": 0.00018387018325757945,
+      "min_h_ns": 307.2553600192889
+    },
+    {
+      "epoch": 11,
+      "trials": 20,
+      "events": 7,
+      "minimum_segments": 8,
+      "event_or_epoch_tails": 8,
+      "steps_inside_segments": 12,
+      "errors_below_0_1": 20,
+      "max_error_ratio": 0.003201408673431944,
+      "min_h_ns": 307.08865006170305
+    },
+    {
+      "epoch": 12,
+      "trials": 15,
+      "events": 7,
+      "minimum_segments": 8,
+      "event_or_epoch_tails": 8,
+      "steps_inside_segments": 7,
+      "errors_below_0_1": 15,
+      "max_error_ratio": 0.0004824711401456067,
+      "min_h_ns": 475.68853112513847
+    },
+    {
+      "epoch": 13,
+      "trials": 21,
+      "events": 11,
+      "minimum_segments": 12,
+      "event_or_epoch_tails": 12,
+      "steps_inside_segments": 9,
+      "errors_below_0_1": 21,
+      "max_error_ratio": 0.002801924678184046,
+      "min_h_ns": 996.3219884711526
+    },
+    {
+      "epoch": 14,
+      "trials": 3,
+      "events": 1,
+      "minimum_segments": 2,
+      "event_or_epoch_tails": 2,
+      "steps_inside_segments": 1,
+      "errors_below_0_1": 2,
+      "max_error_ratio": 0.252224787492819,
+      "min_h_ns": 3229.7623981042216
+    },
+    {
+      "epoch": 15,
+      "trials": 9,
+      "events": 5,
+      "minimum_segments": 6,
+      "event_or_epoch_tails": 6,
+      "steps_inside_segments": 3,
+      "errors_below_0_1": 8,
+      "max_error_ratio": 0.2522247875240718,
+      "min_h_ns": 1676.302322992367
+    }
+  ],
+  "trials": 191,
+  "segments": 100,
+  "event_or_epoch_tails": 100,
+  "steps_inside_segments": 91,
+  "max_error_ratio": 0.2522247875240718
+}
