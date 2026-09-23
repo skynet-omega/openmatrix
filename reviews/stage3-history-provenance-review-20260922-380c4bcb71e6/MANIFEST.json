@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "label": "stage3-history-provenance-review-20260922",
+  "description": "External non-author review of signed input results and a zero-step full-organism load proving the current protected pipeline lacks the first odor pulse present in the historical PFG branch; no new simulated step.",
+  "files": [
+    {
+      "path": "campaign/HISTORY_LOAD_FINDING.md",
+      "bytes": 2204,
+      "sha256": "6d17f0005885c1c6508e4ab4eb5b117dfcc61dcf1e0da6b8f47aa56e3bbb54aa"
+    },
+    {
+      "path": "campaign/HISTORY_PORTS.json",
+      "bytes": 694,
+      "sha256": "0d403e1bb07fdce660765c8156a917c73d17c33698fc334099efea86e491e884"
+    },
+    {
+      "path": "campaign/PLAN_HISTORY_LOAD_PROBE.json",
+      "bytes": 1259,
+      "sha256": "6aa4c55552fdc2a7e5544403289875137cb942b41a11b5bbb881c333352770da"
+    },
+    {
+      "path": "campaign/inspect_history_load.py",
+      "bytes": 2304,
+      "sha256": "8a7890a32c513840d0f1f0c4035de84311fa5b1daceab40fae0eca3adeb4ae2d"
+    },
+    {
+      "path": "campaign/history_load_01/RESULT.json",
+      "bytes": 597,
+      "sha256": "a6cf23ff69624f991c81b5dad38d647fdbd16425ce5752069b5eb91c0866023b"
+    },
+    {
+      "path": "campaign/CHATGPT_NONAUTHOR_REVIEW.md",
+      "bytes": 4066,
+      "sha256": "cd1e50749a11a4c30efe15f1829e42ce472ec6244e5d06cafa8a4d525dd8b8ed"
+    },
+    {
+      "path": "campaign/PLAN_EXTERNAL_RESULT_REVIEW.json",
+      "bytes": 734,
+      "sha256": "091b2bf1d312d008c15475ed0433a9ae69a8dbec615735592d1bb8c125813927"
+    },
+    {
+      "path": "campaign/SIGNED_CROSSCHECK.json",
+      "bytes": 331,
+      "sha256": "9aa4618967329b8e39fad4bbfdd0573fa05f5eff65d49fcefb1b63601056726f"
+    }
+  ]
+}

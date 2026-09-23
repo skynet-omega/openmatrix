@@ -1,0 +1,14 @@
+{
+  "time": "2026-09-23T02:41:00Z",
+  "hypothesis_selected_for_next_round": "B: efecto del pulso olfativo heredado en el primer intervalo, sin cambiar conectividad ni ganancias.",
+  "purpose": "Comprobar si el checkpoint cargado expone exactamente el estímulo pendiente de ese primer intervalo, antes de implementar una intervención causal larga.",
+  "alternatives_preserved": {
+    "A": "Transformación direccional incorrecta entre ORN y DNa02.",
+    "B": "Pulso de prehistoria y estado basal condicionan el contraste.",
+    "C": "Lector descendente y cuerpo no responden a mandos espejo."
+  },
+  "operation": "Una carga del organismo real sin obj.step(); inspección de pending_sensors, pending_excitation, reloj y hash del checkpoint. No escritura a archivos históricos ni modificación de estado.",
+  "budget": {"organism_loads_max": 1, "organism_steps": 0, "wall_seconds_max": 120, "GPU_seconds_max": 120, "RAM_GiB_max": 18},
+  "falsifier": "Si el pulso no está representado por un puerto pendiente identificable, no intervenir un índice supuesto; estudiar antes la ruta exacta de entrada.",
+  "stop": "Una carga e informe. No lanzar la campaña de 335 ms sin contrato de intervención, controles y comparación numérica de horizonte completo."
+}
