@@ -1,0 +1,17 @@
+{
+  "schema": "body_only_reconstructed_close_v1",
+  "stage3_admission": false,
+  "classification": "C_BODY_MECHANICAL_BIAS_WEAKENED",
+  "replay_qpos_max_abs": 0.0,
+  "replay_qvel_max_abs": 0.0,
+  "replay_yaw_max_abs_deg": 0.0,
+  "recomputed": {
+    "zero_yaw_deg": -0.0031176343840400023,
+    "plus_minus_zero_deg": 0.0794910590456368,
+    "minus_minus_zero_deg": -0.0794910597834928,
+    "mirror_sum_deg": -7.378559985227184e-10,
+    "sham_replay_minus_zero_deg": 0.07872419805406139
+  },
+  "interpretation": "For this frozen state and synthetic contact controller, positive sham yaw is primarily commanded; baseline neuronal/decoder source remains unvalidated. No biological handedness or stage-3 admission.",
+  "budget_wall_s": 44.015294570010155
+}

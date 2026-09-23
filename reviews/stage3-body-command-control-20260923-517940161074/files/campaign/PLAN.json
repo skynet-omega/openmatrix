@@ -1,0 +1,24 @@
+{
+  "schema": "stage3_causal_controls_prospective_v1",
+  "recorded_utc": "2026-09-23T09:12:49Z",
+  "parent": "campanas/etapa3_largo_diagnostico_20260923_10",
+  "status": "FROZEN_BEFORE_RUN",
+  "question": "Does the sham yaw originate in the physical body, in its neural command, or in the asymmetric PN output adapter?",
+  "rivals": {
+    "A": "The left-only 629-general-destination PN output substitution contributes materially to the DNb05 and yaw asymmetry; turn off only this substitution in a prospective organism child, retaining 466 dynamic destinations and native anatomy.",
+    "B": "Downstream central convergence or thresholds suppress DNa02 while preserving a DNb05 command; extend the in-kernel FP64 tap to DNb05 and compare effective targets and numerical reference before lesion selection.",
+    "C": "Sham yaw reflects a basal DNb05 command, physical posture/inertia, or both; replay the logged sham command on the same body state and compare open-loop zero and equal opposite commands."
+  },
+  "first_prototype": "C body-only physical replay from the exact 40-ms prepared sham body/controller snapshot, 400 ms at 25-us MuJoCo substeps, using the unchanged contact controller and numerical body. Replay saved sham commands first; then zero,+0.2,-0.2 deg/s with forward command 0.2 mm/s. This is a body/device diagnostic, never an organism or stage-3 PASS.",
+  "control_gates": "Saved sham command replay must match the complete-organism qpos and qvel trace to 1e-8 max absolute and yaw to 1e-6 degrees before interpreting open-loop tests; all arms start from independently restored identical body/controller state. Preserve failures.",
+  "budgets": {
+    "body_replay_400ms_max": 4,
+    "body_replay_wall_total_s_max": 1200,
+    "RAM_GiB_max": 12,
+    "GPU_GiB_max": 0,
+    "new_organism_400ms_max": 0,
+    "new_chatgpt_messages_max": 1,
+    "new_jev_api_requests_max": 1
+  },
+  "stop": "Stop if the first physical replay fails exact-state gate; do not tune physical parameters or alter the biological decoder to achieve a sign. A and B remain rivals for a separately budgeted full-organism campaign after this inexpensive discriminant."
+}

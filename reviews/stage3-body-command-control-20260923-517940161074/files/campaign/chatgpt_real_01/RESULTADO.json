@@ -1,0 +1,194 @@
+{
+  "status": "OFFLINE_COMPLETE",
+  "checks": {
+    "sham": {
+      "lag1_exact": true,
+      "decoder_exact": true,
+      "yaw_readback_error_deg": 1.4210854715202004e-14,
+      "lag0_command_error_rad_s": 0.00039701880692682355,
+      "lag2_command_error_rad_s": 0.00038874559448734853,
+      "DNa02_nonzero_targets_sampled": 0,
+      "DNb05_reader_ids_L_R": [
+        10118,
+        10065
+      ],
+      "baseline_L_R": [
+        0.7195551168337462,
+        0.7455248474961915
+      ],
+      "q_used_ON_L_R": [
+        0.7196450691762206,
+        0.7453304363288954
+      ],
+      "qvel_max_abs_native_units": 0.029546864501328998
+    },
+    "odor_left": {
+      "lag1_exact": true,
+      "decoder_exact": true,
+      "yaw_readback_error_deg": 1.4210854715202004e-14,
+      "lag0_command_error_rad_s": 0.00039701880692682355,
+      "lag2_command_error_rad_s": 0.00038874559448734853,
+      "DNa02_nonzero_targets_sampled": 0,
+      "DNb05_reader_ids_L_R": [
+        10118,
+        10065
+      ],
+      "baseline_L_R": [
+        0.7195551168337462,
+        0.7455248474961915
+      ],
+      "q_used_ON_L_R": [
+        0.7196450691762206,
+        0.7453304363288954
+      ],
+      "qvel_max_abs_native_units": 0.029546864501328998
+    },
+    "odor_right": {
+      "lag1_exact": true,
+      "decoder_exact": true,
+      "yaw_readback_error_deg": 1.4210854715202004e-14,
+      "lag0_command_error_rad_s": 0.00039701880692682355,
+      "lag2_command_error_rad_s": 0.00038874559448734853,
+      "DNa02_nonzero_targets_sampled": 0,
+      "DNb05_reader_ids_L_R": [
+        10118,
+        10065
+      ],
+      "baseline_L_R": [
+        0.7195551168337462,
+        0.7455248474961915
+      ],
+      "q_used_ON_L_R": [
+        0.7196450691762206,
+        0.7453304363288954
+      ],
+      "qvel_max_abs_native_units": 0.029546864501328998
+    },
+    "uniform": {
+      "lag1_exact": true,
+      "decoder_exact": true,
+      "yaw_readback_error_deg": 1.4210854715202004e-14,
+      "lag0_command_error_rad_s": 0.00039701880692682355,
+      "lag2_command_error_rad_s": 0.00038874559448734853,
+      "DNa02_nonzero_targets_sampled": 0,
+      "DNb05_reader_ids_L_R": [
+        10118,
+        10065
+      ],
+      "baseline_L_R": [
+        0.7195551168337462,
+        0.7455248474961915
+      ],
+      "q_used_ON_L_R": [
+        0.7196450691762206,
+        0.7453304363288954
+      ],
+      "qvel_max_abs_native_units": 0.029546864501328998
+    }
+  },
+  "contrasts": [
+    {
+      "ms": 250,
+      "theta_odd_deg": 0.03871977351302114,
+      "theta_common_deg": -0.006203808423558499,
+      "theta_uniform_minus_sham_deg": 0.00040117531616701285,
+      "command_odd_deg": 0.039077289237391996,
+      "command_common_deg": -0.006403545720790146,
+      "command_uniform_minus_sham_deg": 0.00014261270618000366,
+      "residual_odd_deg": -0.0003575157243708611,
+      "residual_common_deg": 0.00019973729723165093,
+      "residual_uniform_minus_sham_deg": 0.0002585626099870092
+    },
+    {
+      "ms": 275,
+      "theta_odd_deg": 0.04459895287918947,
+      "theta_common_deg": -0.010822583326488555,
+      "theta_uniform_minus_sham_deg": -0.00636553601574974,
+      "command_odd_deg": 0.04498997609887451,
+      "command_common_deg": -0.010986138365931084,
+      "command_uniform_minus_sham_deg": -0.006553699247342351,
+      "residual_odd_deg": -0.00039102321968503655,
+      "residual_common_deg": 0.00016355503944252663,
+      "residual_uniform_minus_sham_deg": 0.00018816323159261128
+    },
+    {
+      "ms": 300,
+      "theta_odd_deg": 0.05075089590325277,
+      "theta_common_deg": -0.013431979552699147,
+      "theta_uniform_minus_sham_deg": -0.009757155772419424,
+      "command_odd_deg": 0.051178875579560995,
+      "command_common_deg": -0.013525812972609796,
+      "command_uniform_minus_sham_deg": -0.009831369853282784,
+      "residual_odd_deg": -0.00042797967630822664,
+      "residual_common_deg": 9.383341991064942e-05,
+      "residual_uniform_minus_sham_deg": 7.421408086336068e-05
+    },
+    {
+      "ms": 320,
+      "theta_odd_deg": 0.05589133339239183,
+      "theta_common_deg": -0.013679863487674027,
+      "theta_uniform_minus_sham_deg": -0.009585616936430341,
+      "command_odd_deg": 0.056349347186594616,
+      "command_common_deg": -0.013705215066807996,
+      "command_uniform_minus_sham_deg": -0.00955054772016281,
+      "residual_odd_deg": -0.00045801379420278704,
+      "residual_common_deg": 2.5351579133962854e-05,
+      "residual_uniform_minus_sham_deg": -3.5069216267530345e-05
+    },
+    {
+      "ms": 350,
+      "theta_odd_deg": 0.0639135946752436,
+      "theta_common_deg": -0.010892382417262425,
+      "theta_uniform_minus_sham_deg": -0.004355230259889709,
+      "command_odd_deg": 0.06441513937633367,
+      "command_common_deg": -0.010799072470023346,
+      "command_uniform_minus_sham_deg": -0.00413018914891744,
+      "residual_odd_deg": -0.0005015447010900641,
+      "residual_common_deg": -9.330994723908206e-05,
+      "residual_uniform_minus_sham_deg": -0.0002250411109722683
+    },
+    {
+      "ms": 400,
+      "theta_odd_deg": 0.07780256327193058,
+      "theta_common_deg": 0.002414239682366315,
+      "theta_uniform_minus_sham_deg": 0.017716280171988785,
+      "command_odd_deg": 0.07837303051657223,
+      "command_common_deg": 0.00272505219890673,
+      "command_uniform_minus_sham_deg": 0.018280738847317193,
+      "residual_odd_deg": -0.000570467244641646,
+      "residual_common_deg": -0.00031081251654041433,
+      "residual_uniform_minus_sham_deg": -0.0005644586753284081
+    }
+  ],
+  "input_sha256": {
+    "full_sham_01/RESULT.json": "00ddaae0f44b92edea94b184132adca051a3762956db65b77cd6ea31ca4f4fa0",
+    "full_sham_01/RUN_CONTRACT.json": "e28e0ce5a3940f1a706fe07bdc646a63c7df4c736da5b3c7cae92f734f973951",
+    "full_sham_01/preparation_inputs/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "full_sham_01/FROZEN.json": "bfe79a555386ec1bc28f12fb8fdf6627a345ec5de74197f9334fe5474f2b94b1",
+    "full_sham_01/traces.npz": "9205ca64ded343335b0ab432d270f92157f0bc5942b272805e6cf0f6429363f9",
+    "full_sham_01/flow/FLOW.npz": "1fe96299aaffc1bb33623da92feceda0fdbac4dc8d0c6be8357633ec605879e7",
+    "full_odor_left_01/RESULT.json": "db389e1e133d876fbae2802d9ae6a0de20d92caa4c51441f0701d1954a4aa21c",
+    "full_odor_left_01/RUN_CONTRACT.json": "2a2af79ff05b7ebdff7e145e9c707a381b5c608719a3bb418fb0bfc42a43539f",
+    "full_odor_left_01/preparation_inputs/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "full_odor_left_01/FROZEN.json": "bfe79a555386ec1bc28f12fb8fdf6627a345ec5de74197f9334fe5474f2b94b1",
+    "full_odor_left_01/traces.npz": "62e9a7b3e7772fb31c1d19a60fa5e9a0817352f7dfcdb786271dad7866e0bd8e",
+    "full_odor_left_01/flow/FLOW.npz": "94c716dbba63c7d844b3699483fa7238c87e0ff4c08f76d723387d36ae10e084",
+    "full_odor_right_01/RESULT.json": "240460b56d95eb510a3287283c9c75f249575f8cf659f6afdc5ec1e0102e85a5",
+    "full_odor_right_01/RUN_CONTRACT.json": "7068b9f8e8d69543169f7ad86beaf914ed4b7964b71f07168f4070c8b1e4026f",
+    "full_odor_right_01/preparation_inputs/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "full_odor_right_01/FROZEN.json": "bfe79a555386ec1bc28f12fb8fdf6627a345ec5de74197f9334fe5474f2b94b1",
+    "full_odor_right_01/traces.npz": "bb8d4ddab243eb7e0b5d6765354b59c8131a05b6ebc5d79a2d46980d55b351e1",
+    "full_odor_right_01/flow/FLOW.npz": "fdf29762972622d2e1af1d67eb495a5e065fb5be2388fde1f8f52769b039220b",
+    "full_uniform_01/RESULT.json": "f76122226080ebe468717b01932e39a792b50880ba8583285058f1d5df61c80a",
+    "full_uniform_01/RUN_CONTRACT.json": "ff4d18047e056737078f83303fc35b1708cc5370b31815036ba5e512c870c567",
+    "full_uniform_01/preparation_inputs/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "full_uniform_01/FROZEN.json": "bfe79a555386ec1bc28f12fb8fdf6627a345ec5de74197f9334fe5474f2b94b1",
+    "full_uniform_01/traces.npz": "04228ae8e085e646923548f38434585d06e34616b98f5cd9b27a331129fe8f1a",
+    "full_uniform_01/flow/FLOW.npz": "764f54c67cea61f2a8bca0e6f89d4b5cf031579fdc87e842f8ba39e7b0e62705"
+  },
+  "manifest_checked": true,
+  "code_sha256": "a5c39e25e17824e17cbc470c374e79a696bd5c111dbb9373634fde02c2a6a2a9",
+  "wall_s": 0.14029334002407268,
+  "stage3_admission": false,
+  "limits": "Residual yaw-command es contabilidad, no torque causal. Rebasado offline no es intervención. Target DNa02 cero se refiere SOLO a muestras."
+}

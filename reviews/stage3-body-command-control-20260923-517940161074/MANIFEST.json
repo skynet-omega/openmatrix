@@ -1,0 +1,187 @@
+{
+  "format_version": 2,
+  "label": "stage3-body-command-control-20260923",
+  "description": "Four 400-ms open-loop MuJoCo body replays, exact sham pose/velocity replay, ChatGPT independent code executed on real four-arm arrays, Jev task routing, and A/B/C analysis; stage 3 remains open.",
+  "files": [
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2156,
+      "sha256": "c0d5356aeae5d26f6c14fa941b1ad85e1d175ba913943e28ef4b31b15afd760b"
+    },
+    {
+      "path": "campaign/README.md",
+      "bytes": 5830,
+      "sha256": "36d0e9b9d5e78c16559a875a719035c5e8310c59fe5eae9e5407df075516dd68"
+    },
+    {
+      "path": "campaign/BUGFIX.md",
+      "bytes": 523,
+      "sha256": "7d06658ae06de9407afbcba1a365571a5659ac52ab2158913956d169193e6dbc"
+    },
+    {
+      "path": "campaign/CLOSE.json",
+      "bytes": 6126,
+      "sha256": "5b5e8eba15b7820a3604a2727254df39ec8342dfe8de7bbbdc5e1af9e36d8e97"
+    },
+    {
+      "path": "campaign/VERIFIED_CLOSE.json",
+      "bytes": 752,
+      "sha256": "043f77ed243512ce73af1800fd79e45ced38a9da0ae64a93a718846401315568"
+    },
+    {
+      "path": "campaign/body_replay.py",
+      "bytes": 10295,
+      "sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d"
+    },
+    {
+      "path": "campaign/verify_close.py",
+      "bytes": 5571,
+      "sha256": "5e1c39f7271f5ddcb2cb29e4bd16af1ae140f1adb3ea5a89f6644f1663bf3c5d"
+    },
+    {
+      "path": "campaign/portable_body.json",
+      "bytes": 101354,
+      "sha256": "b9e50dc47f1ccb4334712632ae10fc9e303c5d3f710ff5f47ab576f0d4abbf49"
+    },
+    {
+      "path": "campaign/portable_body.npz",
+      "bytes": 9736,
+      "sha256": "ab566672a3c3d17ca361571c740abfdb81b122dcebead0f6704293bbf868f753"
+    },
+    {
+      "path": "campaign/reference_sham_traces.npz",
+      "bytes": 5669986,
+      "sha256": "9205ca64ded343335b0ab432d270f92157f0bc5942b272805e6cf0f6429363f9"
+    },
+    {
+      "path": "campaign/CHATGPT_REVIEW_EXCERPT.md",
+      "bytes": 20050,
+      "sha256": "6ac203279bad0d56adee14b4fb4037bc1ee4b82dcadc443777d7fe1a8e06cc00"
+    },
+    {
+      "path": "campaign/chatgpt_analizar_dnb05_original.py",
+      "bytes": 9772,
+      "sha256": "a5c39e25e17824e17cbc470c374e79a696bd5c111dbb9373634fde02c2a6a2a9"
+    },
+    {
+      "path": "campaign/body_sham_replay_02/RESULT.json",
+      "bytes": 1136,
+      "sha256": "35b2970f3f389c9746b5c38069bc7cc2127ffd292bdf0da5de5fdd238c06b06f"
+    },
+    {
+      "path": "campaign/body_zero_02/RESULT.json",
+      "bytes": 1119,
+      "sha256": "1516ed8c9152bd01a5c1263368b4e0ea882819641ca75c514338c00fe83892a2"
+    },
+    {
+      "path": "campaign/body_plus_02/RESULT.json",
+      "bytes": 1131,
+      "sha256": "daabfb72093ee69a3d90357bf2c8ef9c0b245b64083371e8cb92517b8f08499f"
+    },
+    {
+      "path": "campaign/body_minus_02/RESULT.json",
+      "bytes": 1133,
+      "sha256": "4c6e6d14981d5bcf53055a00a1c6e55bcbf2fbb88025f8f22757128571f786c7"
+    },
+    {
+      "path": "campaign/body_sham_replay_02/trace.npz",
+      "bytes": 626238,
+      "sha256": "6d0ba1d5f317ee4c0932d073793722d5d70e11859ae99666b85867cf6441425d"
+    },
+    {
+      "path": "campaign/body_zero_02/trace.npz",
+      "bytes": 619921,
+      "sha256": "908abc9a19074646542f4893f9dbf898e27f6f5c3ff718439ea319b17d36ff0b"
+    },
+    {
+      "path": "campaign/body_plus_02/trace.npz",
+      "bytes": 620385,
+      "sha256": "6663b800cc49baeb783a2a5e1d6299546380e93e49f79aff09f2632d8ba2912e"
+    },
+    {
+      "path": "campaign/body_minus_02/trace.npz",
+      "bytes": 620711,
+      "sha256": "79758e30c24a53985d3faad144eab5d844906611e655c32649695117fa5be425"
+    },
+    {
+      "path": "campaign/body_sham_replay_01/ERROR.json",
+      "bytes": 81,
+      "sha256": "56c4bd06fc04fc82809ec70a67c9e5f9c3229d964cb10245a5eeec74e5b91190"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/RESULTADO.json",
+      "bytes": 8497,
+      "sha256": "05475291e3d46dd63758c1c73e9b8b2addffca1703ce637e829c060e6f85d36d"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/CONTRASTES.csv",
+      "bytes": 1408,
+      "sha256": "5e74e94d3bb19e52b060b53b3a009110910a8e08b4aea85e80597875e34d46a2"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/DESCOMPOSICION.csv",
+      "bytes": 6112,
+      "sha256": "790ac996437791835872f26d1a006c80038de36c266d2914297fe20eb14f7ee7"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/CURVAS.npz",
+      "bytes": 47546,
+      "sha256": "d15926be12c065881562ce371293bcdc65c7608abafa79e91f0c8b2efaa7f60d"
+    },
+    {
+      "path": "campaign/chatgpt_real_01/PLAN_ANALISIS.json",
+      "bytes": 408,
+      "sha256": "63713740cf4ee9c72770e09bd4624181874f50a934001bcf1725a24fb420f05c"
+    },
+    {
+      "path": "campaign/jev_01/tasks.json",
+      "bytes": 1176,
+      "sha256": "838c279351251c538f6819b72ff2f54058e13713ea77f927dc6c60c678751dae"
+    },
+    {
+      "path": "campaign/jev_01/live_01/receipt.json",
+      "bytes": 706,
+      "sha256": "e7ee8ec7e7b0c248053665a793174d0ba1ad2739ccc8f15f27fc0098404c5d76"
+    },
+    {
+      "path": "campaign/jev_01/live_01/routing.json",
+      "bytes": 733,
+      "sha256": "1314ba07f03c4fa419139c950ae299288447d2b62d3a3dd54e4a8e193f2d26df"
+    },
+    {
+      "path": "campaign/jev_01/live_01/response.json",
+      "bytes": 1008,
+      "sha256": "cf6b937935835b9cb9ab77fd84fa926cc0e6b61a6ca2cf7502db81c9c119bab9"
+    },
+    {
+      "path": "source/rh_tarsal_body.py",
+      "bytes": 7472,
+      "sha256": "c810515dbd9a280b0160f987f7143f6ed170a9d9cdbe82970df4548a2ac0887c"
+    },
+    {
+      "path": "source/session_io.py",
+      "bytes": 2043,
+      "sha256": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172"
+    },
+    {
+      "path": "source/contact_controller.py",
+      "bytes": 12234,
+      "sha256": "040f182a941ffcb9c943b251dd6fd31c9b070da846ad24f968465ed4b34422c7"
+    },
+    {
+      "path": "source/contact_runtime.py",
+      "bytes": 6465,
+      "sha256": "8d5a14b8efd3b546d7730cef8a32f00f8cb89ffd581195de9dc2f94a7eef0af9"
+    },
+    {
+      "path": "source/synthetic_runtime.py",
+      "bytes": 9671,
+      "sha256": "c784019aab297d430d9fa4627c72087c81c03bd7762909d01ac9b7a05490835b"
+    },
+    {
+      "path": "prior/CLOSE_10.json",
+      "bytes": 2142,
+      "sha256": "f2211f9a5f8c0cfbee11f516684738ce9d7169cf412ce652d7624fc0cb650930"
+    }
+  ]
+}

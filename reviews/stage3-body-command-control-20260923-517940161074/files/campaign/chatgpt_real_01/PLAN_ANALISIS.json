@@ -1,0 +1,16 @@
+{
+  "scope": "Cuatro brazos 40+400 ms; no adaptación ni simulación",
+  "windows_ms": [
+    250,
+    275,
+    300,
+    320,
+    350,
+    400
+  ],
+  "decoder": "tanh(250*((qL-bL)-(qR-bR)))*deg2rad(5)",
+  "lag_expected_ms": 1,
+  "counterfactual": "Rebasado al ON SOLO offline; no predice otro cuerpo",
+  "yaw_readback_atol_deg": 1e-10,
+  "limits": "No certifica error biológico ni numérico del organismo"
+}

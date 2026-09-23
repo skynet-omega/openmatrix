@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-four-arm-native-flow-20260923](reviews/stage3-four-arm-native-flow-20260923-71db0d9537f1/README.md)
+[stage3-body-command-control-20260923](reviews/stage3-body-command-control-20260923-517940161074/README.md)
 
-Cuatro condiciones 400 ms del organismo completo con captura CUDA PN/DNa02, lector DNb05, estados pre-olor iguales, revisión externa y resultados verificables. Diagnóstico; etapa 3 abierta; no se publica checkpoint masivo ni se afirma reproducción integral.
+Four 400-ms open-loop MuJoCo body replays, exact sham pose/velocity replay, ChatGPT independent code executed on real four-arm arrays, Jev task routing, and A/B/C analysis; stage 3 remains open.
