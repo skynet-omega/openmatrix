@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-kc-native-sampling-20260923](reviews/stage3-kc-native-sampling-20260923-330abdb8323e/README.md)
+[stage3-kc-filter-and-cost-20260923](reviews/stage3-kc-filter-and-cost-20260923-65acc0143e26/README.md)
 
-First real KC substep traces, exact observer controls for both engines, eight rollback checks and matched-step CUDA replay. Stage3 remains open.
+Unchanged ChatGPT code executed on real SET ledgers; independent C++ source-filter extrema/integrals and actual full-epoch host profile. No recurrent or stage3 certificate.

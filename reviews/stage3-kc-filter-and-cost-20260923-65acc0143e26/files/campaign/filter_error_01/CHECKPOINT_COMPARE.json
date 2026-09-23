@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "id": 76431,
+      "checkpoint_difference": 8.485978457345444e-06,
+      "event_filter_difference": 8.485978436126307e-06,
+      "absolute_residual": 2.1219137558148304e-14
+    },
+    {
+      "id": 81004,
+      "checkpoint_difference": 1.7330025970832552e-05,
+      "event_filter_difference": 1.733002597109623e-05,
+      "absolute_residual": 2.636779683484747e-16
+    },
+    {
+      "id": 544736,
+      "checkpoint_difference": -2.5664740636576514e-87,
+      "event_filter_difference": 0.0,
+      "absolute_residual": 2.5664740636576514e-87
+    },
+    {
+      "id": 45199,
+      "checkpoint_difference": -1.5341460740669888e-16,
+      "event_filter_difference": 0.0,
+      "absolute_residual": 1.5341460740669888e-16
+    }
+  ],
+  "passed_1e_12": true,
+  "scope": "somatic q difference at20ms only; s is a unit-gain analytic source filter, not actual axonal output"
+}

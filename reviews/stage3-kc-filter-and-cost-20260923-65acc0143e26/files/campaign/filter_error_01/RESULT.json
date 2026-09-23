@@ -1,0 +1,115 @@
+{
+  "plan": {
+    "scope": "Linear q/s source discrepancy only; does not bound recurrent CNS or body",
+    "real_selected_cells": 4,
+    "controls": 4,
+    "quadrature_atol": 1e-11,
+    "operator": "q decays exponentially and is SET at published physical events; s_dot=(q-s)/ts; common initial s cancels",
+    "horizon_s": 0.02,
+    "gain": 1.0,
+    "no_new_stage3_or_numeric_tolerance": true
+  },
+  "rows": [
+    {
+      "neuron_id": 76431,
+      "events_each": [
+        1,
+        1
+      ],
+      "tau_s": 0.017420003190636635,
+      "synaptic_tau_s": 0.005,
+      "max_q_error": 0.2964376942879919,
+      "max_s_error": 9.264778431766763e-05,
+      "l1_q_s": 7.787968899408688e-07,
+      "l1_s_s": 3.6545765092752484e-07,
+      "final_q_error": 8.485978436126307e-06,
+      "final_s_error": 9.47400751704234e-06
+    },
+    {
+      "neuron_id": 81004,
+      "events_each": [
+        1,
+        1
+      ],
+      "tau_s": 0.019072845578193665,
+      "synaptic_tau_s": 0.005,
+      "max_q_error": 0.29400182282588,
+      "max_s_error": 0.00018367867955482176,
+      "l1_q_s": 1.5068279576793732e-06,
+      "l1_s_s": 7.1919019413285e-07,
+      "final_q_error": 1.733002597109623e-05,
+      "final_s_error": 1.8444725720454693e-05
+    },
+    {
+      "neuron_id": 544736,
+      "events_each": [
+        0,
+        0
+      ],
+      "tau_s": 0.01681625470519066,
+      "synaptic_tau_s": 0.005,
+      "max_q_error": 0.0,
+      "max_s_error": 0.0,
+      "l1_q_s": 0.0,
+      "l1_s_s": 0.0,
+      "final_q_error": 0.0,
+      "final_s_error": 0.0
+    },
+    {
+      "neuron_id": 45199,
+      "events_each": [
+        0,
+        0
+      ],
+      "tau_s": 0.017554979771375656,
+      "synaptic_tau_s": 0.005,
+      "max_q_error": 0.0,
+      "max_s_error": 0.0,
+      "l1_q_s": 0.0,
+      "l1_s_s": 0.0,
+      "final_q_error": 0.0,
+      "final_s_error": 0.0
+    }
+  ],
+  "controls": [
+    {
+      "tq": 0.01,
+      "ts": 0.02,
+      "delay": 1e-05,
+      "errors": {
+        "l1_q_s": 2.473336205982557e-19,
+        "l1_s_s": 2.1207587416879545e-17
+      }
+    },
+    {
+      "tq": 0.02,
+      "ts": 0.01,
+      "delay": 2e-05,
+      "errors": {
+        "l1_q_s": 5.692061405548898e-19,
+        "l1_s_s": 1.1624426058233842e-15
+      }
+    },
+    {
+      "tq": 0.01,
+      "ts": 0.01,
+      "delay": 1.5e-05,
+      "errors": {
+        "l1_q_s": 1.7702988597614877e-19,
+        "l1_s_s": 1.5500537890383924e-13
+      }
+    },
+    {
+      "tq": 0.005,
+      "ts": 0.03,
+      "delay": 0.0,
+      "errors": {
+        "l1_q_s": 0.0,
+        "l1_s_s": 0.0
+      }
+    }
+  ],
+  "source_sha256": "1ddd21080c50d0652eb451bea090f6494f5edbf89a50d4d2ef1cb56f35ebcbf8",
+  "stage3_admission": false,
+  "limitation": "Unit-gain linear source filter; does not include axonal gain dynamics or recurrent amplification. No biological or whole-motor certificate."
+}

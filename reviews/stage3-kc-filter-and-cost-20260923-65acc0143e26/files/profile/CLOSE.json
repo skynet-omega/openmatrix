@@ -1,0 +1,15 @@
+{
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "scope": "Host-time attribution only; no optimization or stage3 promotion",
+  "organism_loads": 4,
+  "aggregate_trial_ms": 44,
+  "wall_s": 268.68743510800414,
+  "profile_total_s": 59.88745911699998,
+  "native_graph_self_s": 40.255010592000005,
+  "native_graph_fraction": 0.6721776342749028,
+  "profile_on_off_exact": true,
+  "CNS_accepted_20ms": 3677,
+  "CNS_rejected_20ms": 0,
+  "GPU_kernel_activity_observed": false,
+  "nsys_limitation": "Installed2024.6 reports unsupported CUDA driver13.1, collects API trace with12.8 library; no GPU kernel table.2022 lacks importer. Preserve both diagnostics."
+}

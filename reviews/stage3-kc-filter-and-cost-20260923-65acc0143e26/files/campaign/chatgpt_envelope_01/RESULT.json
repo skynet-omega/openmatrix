@@ -1,0 +1,82 @@
+{
+  "plan": {
+    "cases": 4,
+    "mode": "unchanged external port_envelope function",
+    "scope": "unit-gain source filter, common initial s set0 because it cancels",
+    "bound_comparison_fp64_slack": 1e-11,
+    "not_executed": "full capture/rollback/proposal comparator; missing per-trial records"
+  },
+  "rows": [
+    {
+      "neuron_id": 76431,
+      "external": {
+        "status": "ENVOLVENTE_ALGEBRAICA_CALCULADA",
+        "sup_abs_q": 0.2964376942879919,
+        "upper_sup_abs_s": 0.00011874732386911917,
+        "upper_integral_abs_q_s": 7.787968899408694e-07,
+        "upper_integral_abs_s_s": 9.741086582302034e-07,
+        "scope": "Historias SET capturadas; sin cota FP64 ni de realimentaci\u00f3n"
+      },
+      "bound_minus_independent_exact": {
+        "max_q_error": 0.0,
+        "max_s_error": 2.609953955145154e-05,
+        "l1_q_s": 5.293955920339377e-22,
+        "l1_s_s": 6.086510073026786e-07
+      }
+    },
+    {
+      "neuron_id": 81004,
+      "external": {
+        "status": "ENVOLVENTE_ALGEBRAICA_CALCULADA",
+        "sup_abs_q": 0.29400182282588,
+        "upper_sup_abs_s": 0.00023087001006382544,
+        "upper_integral_abs_q_s": 1.5068279576793789e-06,
+        "upper_integral_abs_s_s": 1.8204492524592938e-06,
+        "scope": "Historias SET capturadas; sin cota FP64 ni de realimentaci\u00f3n"
+      },
+      "bound_minus_independent_exact": {
+        "max_q_error": 0.0,
+        "max_s_error": 4.7191330509003686e-05,
+        "l1_q_s": 5.717472393966527e-21,
+        "l1_s_s": 1.1012590583264438e-06
+      }
+    },
+    {
+      "neuron_id": 544736,
+      "external": {
+        "status": "ENVOLVENTE_ALGEBRAICA_CALCULADA",
+        "sup_abs_q": 0.0,
+        "upper_sup_abs_s": 0.0,
+        "upper_integral_abs_q_s": 0.0,
+        "upper_integral_abs_s_s": 0.0,
+        "scope": "Historias SET capturadas; sin cota FP64 ni de realimentaci\u00f3n"
+      },
+      "bound_minus_independent_exact": {
+        "max_q_error": 0.0,
+        "max_s_error": 0.0,
+        "l1_q_s": 0.0,
+        "l1_s_s": 0.0
+      }
+    },
+    {
+      "neuron_id": 45199,
+      "external": {
+        "status": "ENVOLVENTE_ALGEBRAICA_CALCULADA",
+        "sup_abs_q": 0.0,
+        "upper_sup_abs_s": 0.0,
+        "upper_integral_abs_q_s": 0.0,
+        "upper_integral_abs_s_s": 0.0,
+        "scope": "Historias SET capturadas; sin cota FP64 ni de realimentaci\u00f3n"
+      },
+      "bound_minus_independent_exact": {
+        "max_q_error": 0.0,
+        "max_s_error": 0.0,
+        "l1_q_s": 0.0,
+        "l1_s_s": 0.0
+      }
+    }
+  ],
+  "all_bounds_cover_independent_CPP": true,
+  "external_source_sha256": "626d75d7f565918a01631a4504f742b628dcd452357616a4dc0747aaf132afe5",
+  "stage3_admission": false
+}

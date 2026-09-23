@@ -1,0 +1,5 @@
+El Nsight Systems 2022.4 disponible en /usr/bin capturó el segundo ms y conservó el QDSTRM, pero carece del importador. El importador 2024.6 local no pudo leer ese formato antiguo. La cuarta carga, dentro del tope de cuatro, repite solamente el diagnóstico de 2 ms con la distribución 2024.6 ya instalada en Windows que contiene ejecutable Linux e importador compatible. No se borró el intento anterior ni se usa su tiempo como benchmark de rendimiento.
+
+La cuarta corrida completó2 ms y sí generó nsys-rep; hubo advertencias de LD_PRELOAD por espacios en la ruta de Windows. Antes de usar cifras se exige comprobar tablas CUDA y cobertura del intervalo, pues un archivo de reporte por sí solo no prueba instrumentación válida.
+
+El reporte2024 contiene3230 llamadas cudaMemcpyAsync,1423 sincronizaciones y191 lanzamientos de grafo, pero ninguna tabla de actividad de kernels GPU o memoria. Se conserva el perfil API; no permite adjudicar la espera a un kernel ni sumar GPU/CPU. La campaña termina en su tope de cuatro cargas sin promover optimización.

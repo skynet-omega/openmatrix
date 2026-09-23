@@ -1,0 +1,7 @@
+{
+  "cases": 4,
+  "mode": "unchanged external port_envelope function",
+  "scope": "unit-gain source filter, common initial s set0 because it cancels",
+  "bound_comparison_fp64_slack": 1e-11,
+  "not_executed": "full capture/rollback/proposal comparator; missing per-trial records"
+}

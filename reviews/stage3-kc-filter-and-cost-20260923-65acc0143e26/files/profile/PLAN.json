@@ -1,0 +1,29 @@
+{
+  "schema": "generic_epoch_cost_diagnosis_v1",
+  "recorded_utc": "2026-09-23T14:24:49.383273+00:00",
+  "rivals": {
+    "A": "Repeated host serialization, copying or validation dominates whole-epoch cost; an owner-aware compiled/buffered execution plan can retain semantics and cut total cost.",
+    "B": "Active numerical integration and event scheduling dominate; spatial/multirate redesign needs mathematical error control.",
+    "C": "Numerical stiffness forces many short accepted steps; coupled implicit integration may help, independently of host scheduling."
+  },
+  "operation": "Profile only complete obj.step calls after first-step warmup on the actual full organism. Compare profile on/off final science before attribution. Select at most one concrete semantics-preserving candidate from the measured dominant cost, with matched final-state and conductance/command checks.",
+  "budgets": {
+    "organism_loads_max": 4,
+    "trial_ms_per_load_max": 20,
+    "aggregate_trial_ms_max": 80,
+    "wall_per_load_s_max": 600,
+    "aggregate_wall_s_max": 2400,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_messages_new": 0,
+    "Jev_calls_new": 0,
+    "complete_prototypes_max": 2
+  },
+  "candidate_promotion": {
+    "minimum_total_step_speedup": 2.0,
+    "scientific_state": "bitwise identical for pure refactor; any change means no promotion as a refactor",
+    "safety": "Do not remove essential validation; preserve checks in an equivalent compiled/buffered form if they dominate",
+    "stage3_admission": false
+  },
+  "stop": "Budget, scientific mismatch, no dominant actionable component, or completed meaningful performance result. No micro-adjustment search."
+}

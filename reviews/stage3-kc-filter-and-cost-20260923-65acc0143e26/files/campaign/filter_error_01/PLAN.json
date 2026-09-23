@@ -1,0 +1,10 @@
+{
+  "scope": "Linear q/s source discrepancy only; does not bound recurrent CNS or body",
+  "real_selected_cells": 4,
+  "controls": 4,
+  "quadrature_atol": 1e-11,
+  "operator": "q decays exponentially and is SET at published physical events; s_dot=(q-s)/ts; common initial s cancels",
+  "horizon_s": 0.02,
+  "gain": 1.0,
+  "no_new_stage3_or_numeric_tolerance": true
+}
