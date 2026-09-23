@@ -1,0 +1,13 @@
+{
+  "scope": "Run original external generator and CPU selftest once; no integration",
+  "budget": {
+    "generator_runs": 1,
+    "CPU_selftests": 1,
+    "wall_s": 60,
+    "RAM_GiB": 1,
+    "GPU_runs": 0,
+    "external_messages": 0
+  },
+  "stop": "Preserve any failure or adverse work result; do not change tolerance or generator to rescue it.",
+  "message": "6a4f2957-5753-48ad-aeb7-5bd842f519a7"
+}

@@ -1,0 +1,78 @@
+{
+  "CPU": {
+    "scope": "Sólo métodos CPU NumPy; sin CUDA/organismo/controlador nativo",
+    "local_errors": [
+      [
+        0.05,
+        0.0004803881653026032,
+        1.769384309346922e-06
+      ],
+      [
+        0.025,
+        0.00012561221603524242,
+        2.2066017077437827e-07
+      ],
+      [
+        0.0125,
+        3.2111611534380025e-05,
+        2.7546009140344552e-08
+      ],
+      [
+        0.00625,
+        8.117682516683988e-06,
+        3.4408292326482126e-09
+      ]
+    ],
+    "observed_orders": [
+      [
+        1.9352238336983838,
+        3.003349283321356
+      ],
+      [
+        1.9678098017499157,
+        3.0019110245246154
+      ],
+      [
+        1.983955246807416,
+        3.0010151181707694
+      ]
+    ],
+    "runs": {
+      "parent": {
+        "accepted": 37,
+        "rejected": 3,
+        "coefficients": 240,
+        "wall_s": 0.0016236650408245623,
+        "true_error": 2.4893721286556314e-06
+      },
+      "B": {
+        "accepted": 1350,
+        "rejected": 8,
+        "coefficients": 2716,
+        "wall_s": 0.028335020993836224,
+        "true_error": 9.622161178945987e-09
+      }
+    },
+    "late_event": {
+      "uncut_estimator": 0.0,
+      "uncut_z": 0.0,
+      "true_z": 0.002262093545089899,
+      "with_cut": {
+        "accepted": 2049,
+        "rejected": 11,
+        "coefficients": 4120,
+        "wall_s": 0.046877046988811344,
+        "error_z": 2.2297528406989287e-13
+      }
+    },
+    "domain_and_finite_flags": true,
+    "input_preserved": true,
+    "borrowed_coeff_buffers": true,
+    "no_promoted_model": true
+  },
+  "status": "COMPLETE",
+  "wall_s": 0.11434090696275234,
+  "generator_sha256": "1fac3cee4ee236fafacb3901da698113e7822720cf1098295647afcda68dd72b",
+  "CUDA_executed": false,
+  "organism_executed": false
+}

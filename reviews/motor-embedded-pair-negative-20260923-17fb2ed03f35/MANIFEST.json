@@ -1,0 +1,92 @@
+{
+  "format_version": 2,
+  "label": "motor-embedded-pair-negative-20260923",
+  "description": "Second external generic integrator prototype, original CPU code reproduced:2716 coefficient calls versus240 at unchanged tolerances, with lower true error. Not promoted as efficiency improvement; no CUDA or organism test, all event cuts retained and Stage3 engine unchanged.",
+  "files": [
+    {
+      "path": "embedded/CHATGPT_RESPONSE.md",
+      "bytes": 17553,
+      "sha256": "ebb2883a2b3aa8972ee8be8db7ba35ceb57713a8db9e4074c479c68252b281ee"
+    },
+    {
+      "path": "embedded/CLOSE.json",
+      "bytes": 783,
+      "sha256": "c724b5c8d88247a1e0d38a6b60539b4be44dc324a7c4adc9a702e341ebf954c8"
+    },
+    {
+      "path": "embedded/DELIVERY.json",
+      "bytes": 149,
+      "sha256": "0277755d5a70f2c3bbfa99637a8663490fdd2d1c27436f397640576dd51922fd"
+    },
+    {
+      "path": "embedded/LOCAL_VALIDATION_PLAN.json",
+      "bytes": 399,
+      "sha256": "b765495594745e0c947505f9df2ffc9e8b6cc91b368be909335020997f9ff748"
+    },
+    {
+      "path": "embedded/MATHEMATICAL_NOTES.md",
+      "bytes": 3439,
+      "sha256": "0f2d0572f65df061840e0cefc2176f8c1da3b2f771969fa04f40aae58627e361"
+    },
+    {
+      "path": "embedded/PLAN.json",
+      "bytes": 659,
+      "sha256": "2f161120745651c44be89c1098ba5887c1b3c87717c4c9fe3fa6f33ce23a3671"
+    },
+    {
+      "path": "embedded/REQUEST.md",
+      "bytes": 4069,
+      "sha256": "88e72e046e93a39dfce16b23491ada4f6769eadf24d5ea7f648a0be0eff8d75a"
+    },
+    {
+      "path": "embedded/generar_b2_original.py",
+      "bytes": 10334,
+      "sha256": "1fac3cee4ee236fafacb3901da698113e7822720cf1098295647afcda68dd72b"
+    },
+    {
+      "path": "embedded/generated_01/B_CPU.npz",
+      "bytes": 55100,
+      "sha256": "52dd3eb566f8176ae652a01d70863dc41d834837b1869c23146878bc75984232"
+    },
+    {
+      "path": "embedded/generated_01/MANIFEST.json",
+      "bytes": 871,
+      "sha256": "be69a74a4eb7c21a1c1a29f9fcafb302a2fa2eb94d1c72f9528354ff59ed39fd"
+    },
+    {
+      "path": "embedded/generated_01/PLAN.json",
+      "bytes": 551,
+      "sha256": "43acc437ca409c9e6960e4ebc26cd54ec906e0cc5c9f994b0a2b986ea24db241"
+    },
+    {
+      "path": "embedded/generated_01/RESULTADO.json",
+      "bytes": 1787,
+      "sha256": "ff64583218136663e1d587f2063c92a38f6a489a4b1cd20133f25e201db66ff5"
+    },
+    {
+      "path": "embedded/generated_01/graph_control_parent.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "embedded/generated_01/graph_core_B.py",
+      "bytes": 7674,
+      "sha256": "aed03732ec7e971f883f6e4beddccc00a2b66675472af358ac0bba27b5dc7c43"
+    },
+    {
+      "path": "embedded/generated_01/graph_core_parent.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "embedded/generated_01/late_CPU.npz",
+      "bytes": 82930,
+      "sha256": "e091b8651571fafe7a6e0fbb87df7fd38d4ef2e89b7c9f364277366c3f69c51b"
+    },
+    {
+      "path": "embedded/generated_01/parent_CPU.npz",
+      "bytes": 2380,
+      "sha256": "8de1a1a81e2ef3d89cb25a320819f4853c90c3e34c6d861028e3c80afd8bca3a"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parent_sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+  "controller_sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+  "B_sha256": "aed03732ec7e971f883f6e4beddccc00a2b66675472af358ac0bba27b5dc7c43",
+  "plan": {
+    "name": "B2_exponential_Euler_midpoint_v1",
+    "orders": [
+      1,
+      2
+    ],
+    "norm_divisor": 1,
+    "coefficients_per_trial": 2,
+    "coefficient_fractions": [
+      0.0,
+      0.5
+    ],
+    "controller": "Padre sin cambios: aceptar e<=1, doblar si e<0.1, dividir tras rechazo",
+    "known_event_cuts": "Obligatorios; [] declara ausencia de fronteras",
+    "global_error_bound": false,
+    "organism_executed": false,
+    "CUDA_executed": false,
+    "CPU_tests": {
+      "rtol": 1e-06,
+      "atol": 1e-09,
+      "true_error_limit": 0.0001,
+      "max_attempts": 10000
+    }
+  }
+}

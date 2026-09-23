@@ -1,0 +1,24 @@
+{
+  "name": "B2_exponential_Euler_midpoint_v1",
+  "orders": [
+    1,
+    2
+  ],
+  "norm_divisor": 1,
+  "coefficients_per_trial": 2,
+  "coefficient_fractions": [
+    0.0,
+    0.5
+  ],
+  "controller": "Padre sin cambios: aceptar e<=1, doblar si e<0.1, dividir tras rechazo",
+  "known_event_cuts": "Obligatorios; [] declara ausencia de fronteras",
+  "global_error_bound": false,
+  "organism_executed": false,
+  "CUDA_executed": false,
+  "CPU_tests": {
+    "rtol": 1e-06,
+    "atol": 1e-09,
+    "true_error_limit": 0.0001,
+    "max_attempts": 10000
+  }
+}

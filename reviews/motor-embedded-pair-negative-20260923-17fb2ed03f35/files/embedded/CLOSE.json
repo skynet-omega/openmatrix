@@ -1,0 +1,21 @@
+{
+  "classification": "DESCARTADO",
+  "scope": "B2 is not promoted as an efficiency improvement in this round with unchanged tolerances; this CPU counterexample does not refute the method for every workload or at matched observed error.",
+  "same_tolerance_coefficient_calls": {
+    "parent": 240,
+    "B": 2716
+  },
+  "true_error": {
+    "parent": 2.4893721286556314e-06,
+    "B": 9.622161178945987e-09
+  },
+  "work_ratio_B_over_parent": 11.316666666666666,
+  "known_event_cuts_still_required": true,
+  "CPU_original_code_reproduced": true,
+  "CUDA_executed": false,
+  "organism_executed": false,
+  "tolerances_changed": false,
+  "candidate_source_sha256": "aed03732ec7e971f883f6e4beddccc00a2b66675472af358ac0bba27b5dc7c43",
+  "wall_s": 0.11434090696275234,
+  "budget_wall_s": 60
+}
