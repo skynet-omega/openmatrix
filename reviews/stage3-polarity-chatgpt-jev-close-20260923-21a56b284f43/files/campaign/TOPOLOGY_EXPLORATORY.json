@@ -1,0 +1,908 @@
+{
+  "schema": "stage3_unsigned_anatomical_probe_v1",
+  "status": "post_hoc_exploratory",
+  "limit": "Raw count graph is unsigned and may differ from the effective simulated operator. Two-hop existence is neither active flow nor proof of behavioral causation.",
+  "sources_sha256": {
+    "nodes": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "node_ids": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "counts_pre_post": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40"
+  },
+  "group_sizes": {
+    "ORN_DM1": 74,
+    "DM1_lPN": 2,
+    "MBON32": 2,
+    "LAL170": 2,
+    "LAL171": 2,
+    "DNa02": 2,
+    "LAL170_171": 4
+  },
+  "ORN_DM1_to_DM1_lPN_by_side": {
+    "L_to_L": {
+      "ORN_count": 35,
+      "connections": 35,
+      "unsigned_synapse_count": 3454
+    },
+    "L_to_R": {
+      "ORN_count": 35,
+      "connections": 32,
+      "unsigned_synapse_count": 2039
+    },
+    "R_to_L": {
+      "ORN_count": 39,
+      "connections": 39,
+      "unsigned_synapse_count": 3322
+    },
+    "R_to_R": {
+      "ORN_count": 39,
+      "connections": 39,
+      "unsigned_synapse_count": 4569
+    }
+  },
+  "selected_pairs": {
+    "ORN_DM1__to__DM1_lPN": {
+      "edges": 145,
+      "unsigned_synapse_count": 13384,
+      "details": [
+        {
+          "pre_id": 60498,
+          "post_id": 10176,
+          "count": 120
+        },
+        {
+          "pre_id": 60498,
+          "post_id": 10208,
+          "count": 60
+        },
+        {
+          "pre_id": 105395,
+          "post_id": 10176,
+          "count": 79
+        },
+        {
+          "pre_id": 105395,
+          "post_id": 10208,
+          "count": 112
+        },
+        {
+          "pre_id": 116618,
+          "post_id": 10176,
+          "count": 112
+        },
+        {
+          "pre_id": 116618,
+          "post_id": 10208,
+          "count": 97
+        },
+        {
+          "pre_id": 119181,
+          "post_id": 10176,
+          "count": 132
+        },
+        {
+          "pre_id": 119181,
+          "post_id": 10208,
+          "count": 96
+        },
+        {
+          "pre_id": 123123,
+          "post_id": 10176,
+          "count": 140
+        },
+        {
+          "pre_id": 123123,
+          "post_id": 10208,
+          "count": 72
+        },
+        {
+          "pre_id": 141372,
+          "post_id": 10176,
+          "count": 114
+        },
+        {
+          "pre_id": 141372,
+          "post_id": 10208,
+          "count": 124
+        },
+        {
+          "pre_id": 150947,
+          "post_id": 10176,
+          "count": 55
+        },
+        {
+          "pre_id": 150947,
+          "post_id": 10208,
+          "count": 107
+        },
+        {
+          "pre_id": 153046,
+          "post_id": 10176,
+          "count": 143
+        },
+        {
+          "pre_id": 153046,
+          "post_id": 10208,
+          "count": 83
+        },
+        {
+          "pre_id": 157520,
+          "post_id": 10176,
+          "count": 123
+        },
+        {
+          "pre_id": 157520,
+          "post_id": 10208,
+          "count": 84
+        },
+        {
+          "pre_id": 160357,
+          "post_id": 10176,
+          "count": 117
+        },
+        {
+          "pre_id": 160357,
+          "post_id": 10208,
+          "count": 81
+        },
+        {
+          "pre_id": 160643,
+          "post_id": 10176,
+          "count": 77
+        },
+        {
+          "pre_id": 160643,
+          "post_id": 10208,
+          "count": 87
+        },
+        {
+          "pre_id": 161922,
+          "post_id": 10176,
+          "count": 123
+        },
+        {
+          "pre_id": 161922,
+          "post_id": 10208,
+          "count": 72
+        },
+        {
+          "pre_id": 162611,
+          "post_id": 10176,
+          "count": 51
+        },
+        {
+          "pre_id": 162611,
+          "post_id": 10208,
+          "count": 121
+        },
+        {
+          "pre_id": 167640,
+          "post_id": 10176,
+          "count": 119
+        },
+        {
+          "pre_id": 167640,
+          "post_id": 10208,
+          "count": 83
+        },
+        {
+          "pre_id": 170403,
+          "post_id": 10176,
+          "count": 116
+        },
+        {
+          "pre_id": 170403,
+          "post_id": 10208,
+          "count": 63
+        },
+        {
+          "pre_id": 173031,
+          "post_id": 10176,
+          "count": 130
+        },
+        {
+          "pre_id": 173031,
+          "post_id": 10208,
+          "count": 87
+        },
+        {
+          "pre_id": 173387,
+          "post_id": 10176,
+          "count": 112
+        },
+        {
+          "pre_id": 173387,
+          "post_id": 10208,
+          "count": 84
+        },
+        {
+          "pre_id": 173751,
+          "post_id": 10176,
+          "count": 121
+        },
+        {
+          "pre_id": 173751,
+          "post_id": 10208,
+          "count": 94
+        },
+        {
+          "pre_id": 176260,
+          "post_id": 10176,
+          "count": 76
+        },
+        {
+          "pre_id": 176260,
+          "post_id": 10208,
+          "count": 143
+        },
+        {
+          "pre_id": 179108,
+          "post_id": 10176,
+          "count": 117
+        },
+        {
+          "pre_id": 179108,
+          "post_id": 10208,
+          "count": 86
+        },
+        {
+          "pre_id": 180317,
+          "post_id": 10176,
+          "count": 59
+        },
+        {
+          "pre_id": 180317,
+          "post_id": 10208,
+          "count": 134
+        },
+        {
+          "pre_id": 181207,
+          "post_id": 10176,
+          "count": 98
+        },
+        {
+          "pre_id": 181207,
+          "post_id": 10208,
+          "count": 75
+        },
+        {
+          "pre_id": 181625,
+          "post_id": 10176,
+          "count": 112
+        },
+        {
+          "pre_id": 181625,
+          "post_id": 10208,
+          "count": 96
+        },
+        {
+          "pre_id": 182888,
+          "post_id": 10176,
+          "count": 119
+        },
+        {
+          "pre_id": 182888,
+          "post_id": 10208,
+          "count": 86
+        },
+        {
+          "pre_id": 183425,
+          "post_id": 10176,
+          "count": 127
+        },
+        {
+          "pre_id": 183425,
+          "post_id": 10208,
+          "count": 84
+        },
+        {
+          "pre_id": 184230,
+          "post_id": 10176,
+          "count": 125
+        },
+        {
+          "pre_id": 184230,
+          "post_id": 10208,
+          "count": 78
+        },
+        {
+          "pre_id": 186397,
+          "post_id": 10176,
+          "count": 102
+        },
+        {
+          "pre_id": 186397,
+          "post_id": 10208,
+          "count": 111
+        },
+        {
+          "pre_id": 187949,
+          "post_id": 10176,
+          "count": 125
+        },
+        {
+          "pre_id": 187949,
+          "post_id": 10208,
+          "count": 86
+        },
+        {
+          "pre_id": 189075,
+          "post_id": 10176,
+          "count": 101
+        },
+        {
+          "pre_id": 189075,
+          "post_id": 10208,
+          "count": 125
+        },
+        {
+          "pre_id": 189518,
+          "post_id": 10176,
+          "count": 105
+        },
+        {
+          "pre_id": 189518,
+          "post_id": 10208,
+          "count": 89
+        },
+        {
+          "pre_id": 189605,
+          "post_id": 10176,
+          "count": 175
+        },
+        {
+          "pre_id": 189605,
+          "post_id": 10208,
+          "count": 41
+        },
+        {
+          "pre_id": 190032,
+          "post_id": 10176,
+          "count": 57
+        },
+        {
+          "pre_id": 190032,
+          "post_id": 10208,
+          "count": 104
+        },
+        {
+          "pre_id": 190294,
+          "post_id": 10176,
+          "count": 68
+        },
+        {
+          "pre_id": 190294,
+          "post_id": 10208,
+          "count": 96
+        },
+        {
+          "pre_id": 191144,
+          "post_id": 10176,
+          "count": 132
+        },
+        {
+          "pre_id": 191144,
+          "post_id": 10208,
+          "count": 88
+        },
+        {
+          "pre_id": 192631,
+          "post_id": 10176,
+          "count": 127
+        },
+        {
+          "pre_id": 192631,
+          "post_id": 10208,
+          "count": 202
+        },
+        {
+          "pre_id": 195280,
+          "post_id": 10176,
+          "count": 100
+        },
+        {
+          "pre_id": 195280,
+          "post_id": 10208,
+          "count": 83
+        },
+        {
+          "pre_id": 202140,
+          "post_id": 10176,
+          "count": 123
+        },
+        {
+          "pre_id": 202140,
+          "post_id": 10208,
+          "count": 80
+        },
+        {
+          "pre_id": 202705,
+          "post_id": 10176,
+          "count": 87
+        },
+        {
+          "pre_id": 202705,
+          "post_id": 10208,
+          "count": 79
+        },
+        {
+          "pre_id": 204248,
+          "post_id": 10176,
+          "count": 110
+        },
+        {
+          "pre_id": 204248,
+          "post_id": 10208,
+          "count": 78
+        },
+        {
+          "pre_id": 207430,
+          "post_id": 10176,
+          "count": 113
+        },
+        {
+          "pre_id": 207430,
+          "post_id": 10208,
+          "count": 70
+        },
+        {
+          "pre_id": 210364,
+          "post_id": 10176,
+          "count": 108
+        },
+        {
+          "pre_id": 210364,
+          "post_id": 10208,
+          "count": 92
+        },
+        {
+          "pre_id": 217507,
+          "post_id": 10176,
+          "count": 112
+        },
+        {
+          "pre_id": 217507,
+          "post_id": 10208,
+          "count": 83
+        },
+        {
+          "pre_id": 218745,
+          "post_id": 10176,
+          "count": 119
+        },
+        {
+          "pre_id": 218745,
+          "post_id": 10208,
+          "count": 61
+        },
+        {
+          "pre_id": 220183,
+          "post_id": 10176,
+          "count": 32
+        },
+        {
+          "pre_id": 220183,
+          "post_id": 10208,
+          "count": 89
+        },
+        {
+          "pre_id": 221747,
+          "post_id": 10176,
+          "count": 40
+        },
+        {
+          "pre_id": 221747,
+          "post_id": 10208,
+          "count": 85
+        },
+        {
+          "pre_id": 222974,
+          "post_id": 10176,
+          "count": 47
+        },
+        {
+          "pre_id": 222974,
+          "post_id": 10208,
+          "count": 142
+        },
+        {
+          "pre_id": 226920,
+          "post_id": 10176,
+          "count": 143
+        },
+        {
+          "pre_id": 226920,
+          "post_id": 10208,
+          "count": 68
+        },
+        {
+          "pre_id": 240470,
+          "post_id": 10176,
+          "count": 125
+        },
+        {
+          "pre_id": 240470,
+          "post_id": 10208,
+          "count": 77
+        },
+        {
+          "pre_id": 258551,
+          "post_id": 10176,
+          "count": 61
+        },
+        {
+          "pre_id": 258551,
+          "post_id": 10208,
+          "count": 119
+        },
+        {
+          "pre_id": 260128,
+          "post_id": 10176,
+          "count": 61
+        },
+        {
+          "pre_id": 260128,
+          "post_id": 10208,
+          "count": 109
+        },
+        {
+          "pre_id": 279476,
+          "post_id": 10176,
+          "count": 74
+        },
+        {
+          "pre_id": 279476,
+          "post_id": 10208,
+          "count": 68
+        },
+        {
+          "pre_id": 296449,
+          "post_id": 10176,
+          "count": 71
+        },
+        {
+          "pre_id": 296449,
+          "post_id": 10208,
+          "count": 52
+        },
+        {
+          "pre_id": 353891,
+          "post_id": 10176,
+          "count": 16
+        },
+        {
+          "pre_id": 353891,
+          "post_id": 10208,
+          "count": 81
+        },
+        {
+          "pre_id": 363119,
+          "post_id": 10176,
+          "count": 70
+        },
+        {
+          "pre_id": 363119,
+          "post_id": 10208,
+          "count": 100
+        },
+        {
+          "pre_id": 416090,
+          "post_id": 10176,
+          "count": 76
+        },
+        {
+          "pre_id": 416090,
+          "post_id": 10208,
+          "count": 106
+        },
+        {
+          "pre_id": 436473,
+          "post_id": 10176,
+          "count": 76
+        },
+        {
+          "pre_id": 436473,
+          "post_id": 10208,
+          "count": 92
+        },
+        {
+          "pre_id": 532745,
+          "post_id": 10176,
+          "count": 112
+        },
+        {
+          "pre_id": 532745,
+          "post_id": 10208,
+          "count": 64
+        },
+        {
+          "pre_id": 536451,
+          "post_id": 10176,
+          "count": 132
+        },
+        {
+          "pre_id": 536451,
+          "post_id": 10208,
+          "count": 48
+        },
+        {
+          "pre_id": 541552,
+          "post_id": 10176,
+          "count": 81
+        },
+        {
+          "pre_id": 541552,
+          "post_id": 10208,
+          "count": 115
+        },
+        {
+          "pre_id": 551768,
+          "post_id": 10176,
+          "count": 67
+        },
+        {
+          "pre_id": 551768,
+          "post_id": 10208,
+          "count": 126
+        },
+        {
+          "pre_id": 556859,
+          "post_id": 10176,
+          "count": 94
+        },
+        {
+          "pre_id": 556859,
+          "post_id": 10208,
+          "count": 80
+        },
+        {
+          "pre_id": 564451,
+          "post_id": 10176,
+          "count": 56
+        },
+        {
+          "pre_id": 564451,
+          "post_id": 10208,
+          "count": 126
+        },
+        {
+          "pre_id": 900877,
+          "post_id": 10176,
+          "count": 76
+        },
+        {
+          "pre_id": 900877,
+          "post_id": 10208,
+          "count": 133
+        },
+        {
+          "pre_id": 902023,
+          "post_id": 10208,
+          "count": 61
+        },
+        {
+          "pre_id": 922590,
+          "post_id": 10176,
+          "count": 88
+        },
+        {
+          "pre_id": 922590,
+          "post_id": 10208,
+          "count": 121
+        },
+        {
+          "pre_id": 925639,
+          "post_id": 10176,
+          "count": 15
+        },
+        {
+          "pre_id": 925639,
+          "post_id": 10208,
+          "count": 81
+        },
+        {
+          "pre_id": 212945075,
+          "post_id": 10176,
+          "count": 37
+        },
+        {
+          "pre_id": 212945075,
+          "post_id": 10208,
+          "count": 71
+        },
+        {
+          "pre_id": 222256845,
+          "post_id": 10176,
+          "count": 60
+        },
+        {
+          "pre_id": 222256845,
+          "post_id": 10208,
+          "count": 88
+        },
+        {
+          "pre_id": 499769368,
+          "post_id": 10176,
+          "count": 25
+        },
+        {
+          "pre_id": 499769368,
+          "post_id": 10208,
+          "count": 68
+        },
+        {
+          "pre_id": 526888712,
+          "post_id": 10176,
+          "count": 88
+        },
+        {
+          "pre_id": 526888712,
+          "post_id": 10208,
+          "count": 82
+        },
+        {
+          "pre_id": 648510281,
+          "post_id": 10176,
+          "count": 30
+        },
+        {
+          "pre_id": 648510281,
+          "post_id": 10208,
+          "count": 116
+        },
+        {
+          "pre_id": 742571852,
+          "post_id": 10176,
+          "count": 74
+        },
+        {
+          "pre_id": 742571852,
+          "post_id": 10208,
+          "count": 67
+        },
+        {
+          "pre_id": 802014155,
+          "post_id": 10208,
+          "count": 52
+        },
+        {
+          "pre_id": 821459348,
+          "post_id": 10208,
+          "count": 132
+        }
+      ]
+    },
+    "DM1_lPN__to__MBON32": {
+      "edges": 0,
+      "unsigned_synapse_count": 0,
+      "details": []
+    },
+    "DM1_lPN__to__DNa02": {
+      "edges": 0,
+      "unsigned_synapse_count": 0,
+      "details": []
+    },
+    "MBON32__to__LAL170_171": {
+      "edges": 7,
+      "unsigned_synapse_count": 1041,
+      "details": [
+        {
+          "pre_id": 11455,
+          "post_id": 13219,
+          "count": 291
+        },
+        {
+          "pre_id": 11455,
+          "post_id": 14830,
+          "count": 169
+        },
+        {
+          "pre_id": 11455,
+          "post_id": 18956,
+          "count": 33
+        },
+        {
+          "pre_id": 519131,
+          "post_id": 13219,
+          "count": 1
+        },
+        {
+          "pre_id": 519131,
+          "post_id": 13301,
+          "count": 266
+        },
+        {
+          "pre_id": 519131,
+          "post_id": 14830,
+          "count": 75
+        },
+        {
+          "pre_id": 519131,
+          "post_id": 18956,
+          "count": 206
+        }
+      ]
+    },
+    "MBON32__to__DNa02": {
+      "edges": 2,
+      "unsigned_synapse_count": 104,
+      "details": [
+        {
+          "pre_id": 11455,
+          "post_id": 10360,
+          "count": 49
+        },
+        {
+          "pre_id": 519131,
+          "post_id": 523769,
+          "count": 55
+        }
+      ]
+    },
+    "LAL170_171__to__DNa02": {
+      "edges": 7,
+      "unsigned_synapse_count": 309,
+      "details": [
+        {
+          "pre_id": 13219,
+          "post_id": 10360,
+          "count": 89
+        },
+        {
+          "pre_id": 13219,
+          "post_id": 523769,
+          "count": 3
+        },
+        {
+          "pre_id": 13301,
+          "post_id": 10360,
+          "count": 2
+        },
+        {
+          "pre_id": 13301,
+          "post_id": 523769,
+          "count": 73
+        },
+        {
+          "pre_id": 14830,
+          "post_id": 10360,
+          "count": 82
+        },
+        {
+          "pre_id": 14830,
+          "post_id": 523769,
+          "count": 5
+        },
+        {
+          "pre_id": 18956,
+          "post_id": 523769,
+          "count": 55
+        }
+      ]
+    }
+  },
+  "DM1_lPN_two_hop_to_DNa02": {
+    "10176": [
+      {
+        "middle_id": 10140,
+        "middle_type": "lLN1_bc",
+        "first_count": 103,
+        "second_count": 1,
+        "target_id": 10360
+      },
+      {
+        "middle_id": 11449,
+        "middle_type": "M_spPN5t10",
+        "first_count": 3,
+        "second_count": 1,
+        "target_id": 10360
+      },
+      {
+        "middle_id": 176862,
+        "middle_type": "AVLP299_c",
+        "first_count": 8,
+        "second_count": 29,
+        "target_id": 10360
+      }
+    ],
+    "10208": []
+  }
+}

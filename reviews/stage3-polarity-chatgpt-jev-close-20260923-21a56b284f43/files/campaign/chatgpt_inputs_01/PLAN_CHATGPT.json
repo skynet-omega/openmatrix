@@ -1,0 +1,85 @@
+{
+  "dataset": "male_v10_166700_archived_PFG_q_subset_9483",
+  "pipeline": "historical_PFG_failed_branch_20260919_not_current_protected_runtime",
+  "quantity": "q_snapshot_normalized_release_not_spikes_or_signed_flux",
+  "unit": "1",
+  "time_unit": "ms",
+  "keys": {
+    "ids": "ids",
+    "time": "times_ms",
+    "value": "q"
+  },
+  "arms": {
+    "odor_left": {
+      "file": "odor_left.npz",
+      "sha256": "8307b223917471562b7b1153b6d0c9f9f9e9d97bdeb34e032ced63c2fd4384c7"
+    },
+    "odor_right": {
+      "file": "odor_right.npz",
+      "sha256": "d80e340b35042e21ea3aef003cff3d3e31d7d4fa20872f2c806c9a949b288258"
+    },
+    "uniform": {
+      "file": "uniform.npz",
+      "sha256": "3372ca479357c9cdc7762a9c2e8002bd295678206e8f34b7d6d4272d7b1770d9"
+    },
+    "sham": {
+      "file": "sham.npz",
+      "sha256": "cac54c0a0d1bc18fdddabb9400bca75ba55c6c9dc573b37311c2c65325fded41"
+    }
+  },
+  "expected_times_ms": [
+    0,
+    1,
+    20,
+    40,
+    60,
+    100,
+    160,
+    220,
+    320,
+    335
+  ],
+  "window_ms": [
+    220,
+    220
+  ],
+  "side_field": "rootSide",
+  "side_by_type": {
+    "ORN_DM1": "rootSide",
+    "DM1_lPN": "somaSide",
+    "MBON32": "somaSide",
+    "LAL170": "somaSide",
+    "LAL171": "somaSide",
+    "DNa02": "instance"
+  },
+  "stage_by_type": {
+    "ORN_DM1": {
+      "stage": "ORN",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    },
+    "DM1_lPN": {
+      "stage": "PN",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    },
+    "MBON32": {
+      "stage": "MBON",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    },
+    "LAL170": {
+      "stage": "LAL",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    },
+    "LAL171": {
+      "stage": "LAL",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    },
+    "DNa02": {
+      "stage": "DNa02",
+      "source": "MaleCNS v1.0 type/side annotation, selected prospectively from stimulus and published DNa02 pathway; exploratory readback"
+    }
+  },
+  "max_array_mib": 256,
+  "source_subset_sha256": "742346d31df84c0f94884df5e80f402f8e43cddcf95020d6a86220362977cdff",
+  "source_metadata_sha256": "0bc6b1123c5ee021c92be7345f3afc334323798b1ca5be2b07582335ca4724e8",
+  "code_sha256": "0815d3faf279d89eb59e78d32a9433e90f51016a4a823a7fb85d36aca43a9da6"
+}

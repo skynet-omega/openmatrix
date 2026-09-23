@@ -1,0 +1,60 @@
+{
+  "schema": "chatgpt_code_real_subset_validation_v1",
+  "original_code_sha256": "0815d3faf279d89eb59e78d32a9433e90f51016a4a823a7fb85d36aca43a9da6",
+  "original_selftest_passed": true,
+  "real_run_complete": true,
+  "real_subset_cells": 9483,
+  "time_ms": 220,
+  "max_abs_difference": 1.1102230246251565e-16,
+  "focus_rows": [
+    {
+      "type": "ORN_DM1",
+      "chatgpt_impar": 0.5108977795721287,
+      "local_anti": 0.5108977795721286,
+      "absolute_difference": 1.1102230246251565e-16,
+      "n_L": 35,
+      "n_R": 39
+    },
+    {
+      "type": "DM1_lPN",
+      "chatgpt_impar": 0.0040236699844484,
+      "local_anti": 0.0040236699844485,
+      "absolute_difference": 9.974659986866641e-17,
+      "n_L": 1,
+      "n_R": 1
+    },
+    {
+      "type": "MBON32",
+      "chatgpt_impar": -5.832209390657802e-10,
+      "local_anti": -5.832209390678978e-10,
+      "absolute_difference": 2.117582368135751e-21,
+      "n_L": 1,
+      "n_R": 1
+    },
+    {
+      "type": "LAL170",
+      "chatgpt_impar": 0.0,
+      "local_anti": 0.0,
+      "absolute_difference": 0.0,
+      "n_L": 1,
+      "n_R": 1
+    },
+    {
+      "type": "LAL171",
+      "chatgpt_impar": -1.599779486705403e-12,
+      "local_anti": -1.5997794871289194e-12,
+      "absolute_difference": 4.235164736271502e-22,
+      "n_L": 1,
+      "n_R": 1
+    },
+    {
+      "type": "DNa02",
+      "chatgpt_impar": -0.005237080895261,
+      "local_anti": -0.005237080895260911,
+      "absolute_difference": 8.847089727481716e-17,
+      "n_L": 1,
+      "n_R": 1
+    }
+  ],
+  "limits": "Snapshot q contrast only; focus selected after broad analysis, no signed flux or organism simulation."
+}

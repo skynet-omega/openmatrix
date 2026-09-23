@@ -1,0 +1,60 @@
+{
+  "estado": "ANALISIS_DESCRIPTIVO_COMPLETO",
+  "n": 9483,
+  "tiempos": 10,
+  "ventana_solicitada_ms": [
+    220,
+    220
+  ],
+  "instantes_usados_ms": [
+    220
+  ],
+  "media": "Aritmetica de instantes guardados; no integral temporal ni p-valor",
+  "sin_anotacion": 0,
+  "sin_tipo": 25,
+  "sin_lado": 7247,
+  "sin_etapa": 9399,
+  "etapas_sin_mapeo_en_eje": [
+    "LN",
+    "LHN"
+  ],
+  "diferencia_primera_muestra_vs_sham": {
+    "odor_left": 0.0,
+    "odor_right": 0.0,
+    "uniform": 0.0,
+    "sham": 0.0
+  },
+  "etiqueta_brazo_contrastada_dentro_NPZ": {
+    "odor_left": false,
+    "odor_right": false,
+    "uniform": false,
+    "sham": false
+  },
+  "entradas": {
+    "anatomia_sha256": "0bc6b1123c5ee021c92be7345f3afc334323798b1ca5be2b07582335ca4724e8",
+    "odor_left": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_polaridad_20260923_01/chatgpt_inputs_01/odor_left.npz",
+      "sha256": "8307b223917471562b7b1153b6d0c9f9f9e9d97bdeb34e032ced63c2fd4384c7",
+      "sha256_esperado_verificado": true
+    },
+    "odor_right": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_polaridad_20260923_01/chatgpt_inputs_01/odor_right.npz",
+      "sha256": "d80e340b35042e21ea3aef003cff3d3e31d7d4fa20872f2c806c9a949b288258",
+      "sha256_esperado_verificado": true
+    },
+    "uniform": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_polaridad_20260923_01/chatgpt_inputs_01/uniform.npz",
+      "sha256": "3372ca479357c9cdc7762a9c2e8002bd295678206e8f34b7d6d4272d7b1770d9",
+      "sha256_esperado_verificado": true
+    },
+    "sham": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_polaridad_20260923_01/chatgpt_inputs_01/sham.npz",
+      "sha256": "cac54c0a0d1bc18fdddabb9400bca75ba55c6c9dc573b37311c2c65325fded41",
+      "sha256_esperado_verificado": true
+    }
+  },
+  "codigo_sha256": "0815d3faf279d89eb59e78d32a9433e90f51016a4a823a7fb85d36aca43a9da6",
+  "wall_s": 0.21731552598066628,
+  "limites": "Procedencia declarada; no valida circuito, corrientes, picos, causalidad, motor ni conducta. NaN en CURVAS solo denota lado ausente.",
+  "stage3_admission": false
+}

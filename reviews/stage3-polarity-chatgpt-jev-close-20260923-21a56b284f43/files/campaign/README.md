@@ -1,0 +1,28 @@
+# Etapa 3: lateralidad por estación, 23-09-2026
+
+Actualización posterior: [código de ChatGPT ejecutado sobre el subconjunto real, topología y revisión externa](ADDENDUM.md). El primer snapshot público de este README conserva la interpretación de la fecha de publicación; el addendum precisa que `DM1_lPN.q` es un puerto heredado, no todas las salidas PN.
+
+Estado: **PROMETEDOR_NO_CONFIRMADO** para el diagnóstico; **etapa 3 abierta**. Esta campaña sólo relee las cuatro corridas históricas PFG de una preparación con 166.700 neuronas y FlyBody. No ajusta parámetros, no ejecuta un organismo nuevo ni valida un mecanismo causal. El [plan previo](PLAN.json) conserva A/B/C y presupuesto; el análisis focal DM1 fue añadido exploratoriamente después de ver los promedios amplios.
+
+La comparación bilateral definida es `[(L−R)_olor_izquierdo − (L−R)_olor_derecho]/2`. En la única captura de todo el conectoma dentro de la ventana conductual, a 220 ms, la ORN del glomérulo estimulado **DM1** conserva lateralidad `+0,510898`; la pareja `DM1_lPN` también la conserva, aunque atenuada, `+0,004024`. El promedio de todos los ALPN es `−0,001240`, pero **ese promedio no demuestra inversión en ORN→PN**: mezcla glomérulos y vías con respuestas distintas. DNa02 tiene `−0,005237` y por tanto ya muestra signo contrario en esa instantánea. Su señal crece después; el promedio 161–311 ms del informe anterior era distinto porque incluye la gran activación posterior a 220 ms. Las cuatro capturas concuerdan exactamente con las neuronas monitorizadas en sus trazas de 1 ms.
+
+El foco anatómico no demuestra una ruta: `MBON32` tiene respuesta lateral del orden de `10⁻⁹` y `LAL170` permanece en valores subnormales prácticamente cero a 220 ms. Se seleccionaron porque son nodos de rutas descritas en la [investigación primaria de DNa02](https://elifesciences.org/articles/102230), pero sin medir flujo firmado ni intervenirlos no se puede afirmar que explican el mando en esta simulación. El artículo describe varias vías convergentes a DNa02, incluidas MBON32 y CX; el [inventario de PN](https://pmc.ncbi.nlm.nih.gov/articles/PMC7443706/) muestra proyecciones paralelas a LH y MB. La cadena única PN→LHN→LAL→DNa02 propuesta por Gemini no es una topología general demostrada.
+
+La [investigación de Olsen y Wilson (2008)](https://www.nature.com/articles/nature06864) sí apoya inhibición lateral y control de ganancia presináptico en el lóbulo antenal. No mide en esta preparación una inhibición contralateral excesiva que invierta la orientación DM1→DNa02, ni justifica cambiar pesos GABA/GluCl. A y B siguen abiertas para un **flujo firmado** en el motor vigente, con B favorecida descriptivamente por el contraste de DM1_lPN que conserva signo; C (sesgo basal o lectura descendente/cuerpo) requiere controles de preparación y mando. Los promedios de `q` no son espigas, corriente sináptica ni intervención.
+
+El 50 ms de sham propuesto no equivale a llevar voltajes y concentraciones a cero. [Comprobación previa](context/HISTORY_LOAD_FINDING.md): el pipeline vigente carga `pending_sensors=[0,0,0]` y consumió cero en el smoke causal; una rama histórica PFG consumió valores no nulos. Son pipelines distintos, así que no atribuimos el fallo antiguo a ese pulso. Una comparación de historia debe hacerse dentro de la misma rama y con sham/uniforme.
+
+Jev completó [una consulta](jev_01/receipt.json) con [clasificaciones](jev_01/routing.json): instrumentación local→Codex, crítica biológica→ChatGPT; historia y diagnóstico HTTP con confianza baja. No opinó sobre la validez neural. Se añadió `User-Agent: AXIOMA-JevWorkflow/1.0` al cliente, y una llamada autenticada funcionó. Las peticiones **sin clave** dieron 403 de autenticación tanto con UA por defecto como explícito; por ello el cambio de encabezado no prueba ser la única causa del antiguo 1010. El [error 1010](https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/) indica bloqueo por firma de cliente, pero el 403 más reciente no conservó cuerpo y no puede diagnosticarse retrospectivamente.
+
+Los archivos `readback_01/CONTRASTS.csv` y `readback_01/RESULT.json` contienen los 10 instantes de los 8 grupos, cobertura de lados y hashes. `subset_01/Q_SUBSET.npz` y `subset_01/NODES_SUBSET.csv` guardan sin pérdida las cuatro capturas de 9.483 neuronas relevantes, para que otro analista pueda ejecutar código propio sin descargar el conectoma completo. `subset_01/FOCUS.csv` muestra DM1 y parejas elegidas después del análisis amplio. La verificación portátil reconstruyó las 80 filas grupo×instante con error absoluto máximo `9,95×10⁻¹⁷`; esto valida el paquete, no la biología.
+
+Próximo experimento: instrumentar transmisión firmada ORN/ALLN→`DM1_lPN` y las ramas efectivamente conectadas hacia los 2.208 aferentes DNa02 **en el pipeline vigente**, comparar izquierda/derecha/uniforme/sham con mismo checkpoint e historia, y comprobar error numérico con la referencia segura antes de cualquier ablación. A/B/C se discriminan por la primera interfaz con inversión de *flujo*, no por un promedio amplio de `q`.
+
+```bash
+cd /home/daroch/AXIOMA_ASTRA
+/home/daroch/AXIOMA_FLYWIRE/matrix/.venv/bin/python -I -B campanas/etapa3_polaridad_20260923_01/analyze_layers.py --out /tmp/etapa3_readback_nuevo
+/home/daroch/AXIOMA_FLYWIRE/matrix/.venv/bin/python -I -B campanas/etapa3_polaridad_20260923_01/verify_portable.py --package campanas/etapa3_polaridad_20260923_01/subset_01
+python3 -I -B instrumentos/jev_workflow/test_jev_workflow.py
+```
+
+El primer comando requiere las trazas y metadatos históricos en sus rutas documentadas; la verificación portátil sólo requiere el ZIP de intercambio, Python, NumPy y Pandas.

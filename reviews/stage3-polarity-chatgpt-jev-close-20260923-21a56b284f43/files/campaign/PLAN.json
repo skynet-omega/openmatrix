@@ -1,0 +1,29 @@
+{
+  "schema": "stage3_polarity_prospective_v1",
+  "recorded_before_new_analysis": "2026-09-23T03:16:00Z",
+  "objective": "Localizar descriptivamente dónde se pierde la lateralidad olfativa y decidir una intervención causal posterior en el motor vigente, sin cambiar ecuaciones ni parámetros en esta ronda.",
+  "source_preparation": "Cuatro trazas históricas PFG, una única preparación de 166700 neuronas y FlyBody, 335 ms; no confundirlas con el pipeline vigente de sensores iniciales cero.",
+  "stage3_alternatives": {
+    "A": {"mechanism": "La transformación periférica ORN→ALPN/ALLN invierte el contraste.", "falsifier": "El contraste direccional ALPN sigue el signo ORN con cobertura anatómica suficiente, o la contribución ALLN no cambia el flujo firmado hacia ALPN.", "control": "Misma ventana, olor L/R y sham/uniforme; separar desplazamiento común de componente antisimétrica."},
+    "B": {"mechanism": "La convergencia posterior LH/MB/CX/LAL invierte una señal ALPN aún correcta.", "falsifier": "El contraste ya se invirtió en ALPN o la entrada firmada a DNa02 no fluye por la rama propuesta.", "control": "Enumerar rutas paralelas y etiquetado ausente, sin imponer cadena serial PN→LHN→LAL."},
+    "C": {"mechanism": "El sesgo basal o el acoplamiento descendente/corporal domina pese a señal olfativa correcta.", "falsifier": "Con misma preparación y sensores iniciales controlados el flujo DNa02 es contrario antes del cuerpo; espejo motor no rescata orientación bilateral.", "control": "Comparar sham/uniforme y referencia neutral; no interpretar 50 ms de sham como estado cero absoluto."}
+  },
+  "motor_alternatives_retained": {
+    "A": "Masa implícita acoplada para rigidez/puertos heterogéneos; coste y error contra referencia.",
+    "B": "Multirritmo espacial certificado con cortes de eventos y cota de influencia; falsador: errores de decisiones tardías o coste de sincronización.",
+    "C": "IR común compilado y residente CPU/GPU para distintos cerebros/modelos; falsador: insertar otro modelo obliga a modificar núcleo o no acelera el organismo real."
+  },
+  "precommitted_readback": {
+    "arms": ["odor_left", "odor_right", "uniform", "sham"],
+    "behavior_window_ms": [161, 311],
+    "primary_snapshot_ms": 220,
+    "flanking_snapshots_ms": [160, 320],
+    "snapshot_times_ms": [0, 1, 20, 40, 60, 100, 160, 220, 320, 335],
+    "groups": ["ORN", "ALPN", "ALLN", "LH_type_prefix", "MBON", "CX", "LAL_type_prefix", "DNa02"],
+    "laterality": "Prefer rootSide; instance suffix only if independently concordant; report coverage and unknown. Use node_ids.npy/NPZ IDs exact alignment.",
+    "contrast": "For each group at 220 ms, L-minus-R group mean q per arm, baseline-corrected to sham, then antisymmetric (odor_left - odor_right)/2; report common component separately and 160/320 ms descriptively. Only one stored full-network snapshot falls within the behavior window, so no window integral is possible. Snapshot q is not signed synaptic flux or causal localization.",
+    "positive_result_limit": "No stage-3 PASS from historical PFG traces or group q alone."
+  },
+  "budget": {"new_organism_runs": 0, "complete_prototypes": 0, "historic_arms_read": 4, "Jev_paid_requests_max": 1, "ChatGPT_new_messages_max": 2, "CPU_seconds_max": 300, "GPU_seconds_max": 0, "network_wall_seconds_max": 120},
+  "stop": "Stop after four-arm anatomical readback, one bounded Jev classification attempt and ChatGPT review; plan causal intervention only after checking anatomical coverage and current-pipeline observability."
+}

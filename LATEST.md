@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-polarity-layer-review-20260923](reviews/stage3-polarity-layer-review-20260923-8b84ca2c38d6/README.md)
+[stage3-polarity-chatgpt-jev-close-20260923](reviews/stage3-polarity-chatgpt-jev-close-20260923-21a56b284f43/README.md)
 
-Cuatro trazas reales del modelo completo: contraste ORN-DM1/PN/MBON/LAL/DNa02, subconjunto q anatómico portátil, código de reconstrucción, controles de historia y recibo Jev. Etapa 3 abierta; ninguna causalidad inferida de promedios q.
+Cierre reproducible: código original de ChatGPT y ejecución sobre 9483 neuronas reales, comparación cruzada, revisión con límites, topología cruda exploratoria y cliente Jev con errores HTTP seguros. Etapa 3 abierta.
