@@ -1,0 +1,8 @@
+{
+  "purpose": "Local compact Stage3 functional evidence for external review; no publication or organism execution",
+  "budget": {"cpu_seconds_per_preflight_or_build_max": 55, "wall_seconds_per_invocation_max": 90, "peak_rss_bytes_max": 943718400, "payload_bytes_max": 300000000, "single_file_bytes_max": 100000000, "gpu_calls": 0},
+  "verification": "One fresh extraction verification normal and optimized; targeted corruption tests only; no full checkpoint recomputation",
+  "scope": "Rebuild observable criteria from raw traces; link independently rebuilt full-state receipt with hashes; expressly not a self-contained organism capsule",
+  "scientific_criteria_changes": false,
+  "publication_authority_for_this_task": false
+}

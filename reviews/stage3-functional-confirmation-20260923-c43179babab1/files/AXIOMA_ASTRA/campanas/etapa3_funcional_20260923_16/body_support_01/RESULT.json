@@ -1,0 +1,62 @@
+{
+  "cases": {
+    "sham": {
+      "reference_errors": {
+        "max_qpos_abs": 0.0,
+        "max_qvel_abs": 0.0,
+        "max_yaw_deg_abs": 0.0
+      },
+      "min_leg_10ms_weight_fraction": 0.9999996462087317,
+      "max_abdominal_10ms_weight_fraction": 0.0,
+      "upright_min": 0.977455661104291,
+      "wall_s": 13.49634477001382,
+      "passed": true
+    },
+    "odor_right": {
+      "reference_errors": {
+        "max_qpos_abs": 0.0,
+        "max_qvel_abs": 0.0,
+        "max_yaw_deg_abs": 0.0
+      },
+      "min_leg_10ms_weight_fraction": 0.9999996395109648,
+      "max_abdominal_10ms_weight_fraction": 0.0,
+      "upright_min": 0.977455661104291,
+      "wall_s": 12.711158115009312,
+      "passed": true
+    },
+    "odor_left": {
+      "reference_errors": {
+        "max_qpos_abs": 0.0,
+        "max_qvel_abs": 0.0,
+        "max_yaw_deg_abs": 0.0
+      },
+      "min_leg_10ms_weight_fraction": 0.9999996318635297,
+      "max_abdominal_10ms_weight_fraction": 0.0,
+      "upright_min": 0.977455661104291,
+      "wall_s": 13.827891416964121,
+      "passed": true
+    },
+    "uniform": {
+      "reference_errors": {
+        "max_qpos_abs": 0.0,
+        "max_qvel_abs": 0.0,
+        "max_yaw_deg_abs": 0.0
+      },
+      "min_leg_10ms_weight_fraction": 0.9999996251892841,
+      "max_abdominal_10ms_weight_fraction": 0.0,
+      "upright_min": 0.977455661104291,
+      "wall_s": 12.891737130004913,
+      "passed": true
+    }
+  },
+  "source": {
+    "prepared_manifest_sha256": "484437bd4e95a4f2848ece11eca8e2bcb2c1908a83cd2635c1a179b10db1fe58",
+    "body_replay_sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d",
+    "observer_sha256": "b3a7872607254944c9b4d0551024bda82c4a733151b9c662d5c17c91ada5f329",
+    "harness_sha256": "8d8e7f17eb794fa36de2bc232918e362525d0ef8db7db7d60ce690485651a2b2",
+    "plan_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41"
+  },
+  "wall_s": 57.47609835700132,
+  "complete": true,
+  "scope": "Exact replay of the physical trajectory only; not a neural withdrawal or full organism continuation"
+}

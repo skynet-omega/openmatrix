@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-gaussian-code-review-20260923](reviews/stage4-gaussian-code-review-20260923-2b7164368ecd/README.md)
+[stage3-functional-confirmation-20260923](reviews/stage3-functional-confirmation-20260923-c43179babab1/README.md)
 
-Fuentes reales, 1604 poses, geometría, revisión independiente, clasificación Jev y código original de ChatGPT para corregir el primer piloto gaussiano; etapa3/4 no admitidas.
+Confirmación funcional local de orientación PN629-off; siete corridas completas y dos intentos incompletos, con poscierre. Paquete compacto de revisión: reconstruye observables, no reproduce organismo ni igualdad integral de checkpoints. El gate KC histórico sigue FAIL; no demuestra equivalencia biológica, navegación ni etapa4.

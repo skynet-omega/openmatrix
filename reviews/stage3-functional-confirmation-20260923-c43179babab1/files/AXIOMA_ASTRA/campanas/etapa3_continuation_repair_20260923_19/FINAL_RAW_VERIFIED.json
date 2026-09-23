@@ -1,0 +1,731 @@
+{
+  "schema": "stage3_restore_bugfix_raw_verified_v1",
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "functional_stage3_pass": true,
+  "strict_original_contract_fulfilled": false,
+  "attempts_total": 9,
+  "complete_organism_runs": 7,
+  "incomplete_attempts": 2,
+  "aggregate_all_attempts_wall_s": 12339.796752330976,
+  "aggregate_limit_s": 14350,
+  "previous_failure_preserved": true,
+  "changed_operation": "Rebind cached outer body identity to the restored carrier body",
+  "upright_reconstructed_from_pose": {
+    "reference_sham": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745467
+    },
+    "native_sham": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "reference_odor_left": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745467
+    },
+    "native_odor_left": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "reference_odor_right": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745467
+    },
+    "native_odor_right": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "reference_uniform": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745467
+    },
+    "native_uniform": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "withdrawal_odor_left": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "withdrawal_odor_right": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774521903745447
+    },
+    "continuation_right": {
+      "max_abs_recorded_vs_qpos": 0.0,
+      "min_reconstructed": 0.9774589368026958
+    }
+  },
+  "original_raw_result": {
+    "schema": "verified_functional_stage3_scope_v1",
+    "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+    "functional_stage3_pass": true,
+    "historical_hidden_state_gate": "FAIL_PRESERVADO",
+    "scope": "Functional orientation of the PN629-disabled model with the declared effective DNb05 decoder and body; not full-state equivalence, exact-solution error, learning, biological equivalence or source navigation.",
+    "biological_equivalence": false,
+    "source_navigation_demonstrated": false,
+    "stage4_completed": false,
+    "observable_pairs": {
+      "sham": {
+        "observation_pair_ok": true,
+        "yaw_sup_deg": 3.567650672664513e-07,
+        "command_L1_deg": 5.696113210560515e-07,
+        "errors_by_trace_native_units": {
+          "sensores_usados": 0.0,
+          "sensores_pendientes": 0.0,
+          "antenas_mm": 8.125308537110243e-09,
+          "concentracion_campo": 0.0,
+          "ORN_q_L": 2.7326926832493825e-10,
+          "ORN_q_R": 9.608185080889342e-11,
+          "ORN_filters": 7.777933852537444e-11,
+          "PN_q_legacy": 1.192596699173265e-08,
+          "PN_general_transmission": 1.1690437409783705e-08,
+          "PN_gamma_nS": 2.6013487900225507e-09,
+          "PN_additional_nS": 2.6310409337315654e-09,
+          "DN_q_actual": 1.655585335491594e-09,
+          "DN_q_usada": 1.655585335491594e-09,
+          "DN_baseline": 0.0,
+          "command_forward_mm_s": 0.0,
+          "command_yaw_rate_rad_s": 4.184230974462605e-08,
+          "qpos": 3.0455497290748923e-09,
+          "qvel": 4.074825290080811e-08,
+          "position_mm": 2.127814174857079e-09,
+          "yaw_delta_deg": 3.56765070819165e-07,
+          "upright": 9.514611321037592e-14,
+          "normal_force_N": 3.3640337016678165e-17,
+          "contact_force_N": 4.9101358417237073e-17,
+          "generalized_force_native": 3.73008779219015e-12,
+          "energy_motor_J": 4.657991909550557e-22
+        },
+        "targets_by_id": {
+          "10176": 3.909998539053383e-06,
+          "10208": 5.9168890902405735e-06,
+          "10360": 0.0,
+          "523769": 0.0,
+          "10065": 1.838253538277712e-08,
+          "10118": 8.809299312240171e-08
+        },
+        "raw_by_id": {
+          "10176": 0.05372088634612737,
+          "10208": 0.09034765342221363,
+          "10360": 0.05849168838210517,
+          "523769": 0.043270196248840875,
+          "10065": 0.0008127867986331694,
+          "10118": 0.002813801287629758
+        },
+        "discrete_trace_changes": {},
+        "events": {
+          "status": "DESCRIPTIVO; no nuevo gate discreto",
+          "predictor_counts": [
+            11383,
+            11381
+          ],
+          "accepted_counts": [
+            22670,
+            22670
+          ],
+          "count_differences": [],
+          "max_ordinal_time_ns": 3125.0,
+          "max_post_q": 7.560685930663169e-06
+        }
+      },
+      "odor_left": {
+        "observation_pair_ok": true,
+        "yaw_sup_deg": 3.4058844988749115e-07,
+        "command_L1_deg": 4.862564955640051e-07,
+        "errors_by_trace_native_units": {
+          "sensores_usados": 0.0,
+          "sensores_pendientes": 0.0,
+          "antenas_mm": 7.767817167270152e-09,
+          "concentracion_campo": 0.0,
+          "ORN_q_L": 7.087430475838374e-09,
+          "ORN_q_R": 9.604759348968983e-11,
+          "ORN_filters": 6.450785045020169e-10,
+          "PN_q_legacy": 1.6736185104448964e-08,
+          "PN_general_transmission": 7.727967064885544e-09,
+          "PN_gamma_nS": 2.1180707552442835e-09,
+          "PN_additional_nS": 2.1626943352490158e-09,
+          "DN_q_actual": 1.783245662245747e-09,
+          "DN_q_usada": 1.783245662245747e-09,
+          "DN_baseline": 0.0,
+          "command_forward_mm_s": 0.0,
+          "command_yaw_rate_rad_s": 3.9817596071863026e-08,
+          "qpos": 2.9078260632697805e-09,
+          "qvel": 3.874112180363154e-08,
+          "position_mm": 2.039358210081943e-09,
+          "yaw_delta_deg": 3.405884285712091e-07,
+          "upright": 7.838174553853605e-14,
+          "normal_force_N": 2.804271978474812e-17,
+          "contact_force_N": 4.329978143605637e-17,
+          "generalized_force_native": 3.2306054443977225e-12,
+          "energy_motor_J": 3.4362081785120886e-22
+        },
+        "targets_by_id": {
+          "10176": 3.909998539053383e-06,
+          "10208": 5.9168890902405735e-06,
+          "10360": 0.0,
+          "523769": 0.0,
+          "10065": 1.604905885965735e-08,
+          "10118": 4.84414479640094e-08
+        },
+        "raw_by_id": {
+          "10176": 0.05372088634612737,
+          "10208": 0.09034765342221363,
+          "10360": 0.04372534925664695,
+          "523769": 0.030717044985294706,
+          "10065": 0.0007101623486960307,
+          "10118": 0.0015486409211007413
+        },
+        "discrete_trace_changes": {},
+        "events": {
+          "status": "DESCRIPTIVO; no nuevo gate discreto",
+          "predictor_counts": [
+            11580,
+            11580
+          ],
+          "accepted_counts": [
+            22751,
+            22751
+          ],
+          "count_differences": [],
+          "max_ordinal_time_ns": 4688.0,
+          "max_post_q": 1.2991510881354973e-05
+        }
+      },
+      "odor_right": {
+        "observation_pair_ok": true,
+        "yaw_sup_deg": 3.5432148592917656e-07,
+        "command_L1_deg": 5.220743709557838e-07,
+        "errors_by_trace_native_units": {
+          "sensores_usados": 0.0,
+          "sensores_pendientes": 0.0,
+          "antenas_mm": 8.062999212743449e-09,
+          "concentracion_campo": 0.0,
+          "ORN_q_L": 2.7425294674143785e-10,
+          "ORN_q_R": 1.146848449540272e-09,
+          "ORN_filters": 1.3689731293009544e-10,
+          "PN_q_legacy": 1.675559258007553e-08,
+          "PN_general_transmission": 1.0816568377092217e-08,
+          "PN_gamma_nS": 2.5526333668340895e-09,
+          "PN_additional_nS": 2.5980349659809887e-09,
+          "DN_q_actual": 1.5648642381904665e-09,
+          "DN_q_usada": 1.5648642381904665e-09,
+          "DN_baseline": 0.0,
+          "command_forward_mm_s": 0.0,
+          "command_yaw_rate_rad_s": 4.5975385295701776e-08,
+          "qpos": 3.02442620947474e-09,
+          "qvel": 4.4786398964869606e-08,
+          "position_mm": 2.1056383303630355e-09,
+          "yaw_delta_deg": 3.5432148592917656e-07,
+          "upright": 9.248157795127554e-14,
+          "normal_force_N": 3.715594726425714e-17,
+          "contact_force_N": 5.999161334734047e-17,
+          "generalized_force_native": 4.734461563731448e-12,
+          "energy_motor_J": 2.0112054216997837e-22
+        },
+        "targets_by_id": {
+          "10176": 3.909998539053383e-06,
+          "10208": 5.9168890902405735e-06,
+          "10360": 0.0,
+          "523769": 0.0,
+          "10065": 3.265367887195225e-08,
+          "10118": 4.84414479640094e-08
+        },
+        "raw_by_id": {
+          "10176": 0.05372088634612737,
+          "10208": 0.09034765342221363,
+          "10360": 0.03334235186764545,
+          "523769": 0.026958266048950463,
+          "10065": 0.001445793499442516,
+          "10118": 0.0015486409211007413
+        },
+        "discrete_trace_changes": {},
+        "events": {
+          "status": "DESCRIPTIVO; no nuevo gate discreto",
+          "predictor_counts": [
+            11506,
+            11507
+          ],
+          "accepted_counts": [
+            22831,
+            22831
+          ],
+          "count_differences": [],
+          "max_ordinal_time_ns": 6250.0,
+          "max_post_q": 1.0750491988453792e-05
+        }
+      },
+      "uniform": {
+        "observation_pair_ok": true,
+        "yaw_sup_deg": 3.392058474105397e-07,
+        "command_L1_deg": 5.0912892067384e-07,
+        "errors_by_trace_native_units": {
+          "sensores_usados": 0.0,
+          "sensores_pendientes": 0.0,
+          "antenas_mm": 7.753918951358685e-09,
+          "concentracion_campo": 0.0,
+          "ORN_q_L": 6.488828530049062e-09,
+          "ORN_q_R": 1.7164935028901596e-09,
+          "ORN_filters": 4.80654849255302e-10,
+          "PN_q_legacy": 1.0614829015764826e-08,
+          "PN_general_transmission": 7.343267827142341e-09,
+          "PN_gamma_nS": 1.2005115035754188e-09,
+          "PN_additional_nS": 1.217805477120304e-09,
+          "DN_q_actual": 1.5981206358262057e-09,
+          "DN_q_usada": 1.5981206358262057e-09,
+          "DN_baseline": 0.0,
+          "command_forward_mm_s": 0.0,
+          "command_yaw_rate_rad_s": 4.8740814299766747e-08,
+          "qpos": 2.895835127247892e-09,
+          "qvel": 4.7466587190306275e-08,
+          "position_mm": 2.0495510844042997e-09,
+          "yaw_delta_deg": 3.392058545159671e-07,
+          "upright": 1.716404796070492e-13,
+          "normal_force_N": 6.703757557749435e-17,
+          "contact_force_N": 9.870351590739038e-17,
+          "generalized_force_native": 7.671317821988699e-12,
+          "energy_motor_J": 2.4380706792893567e-22
+        },
+        "targets_by_id": {
+          "10176": 4.9298197684066736e-06,
+          "10208": 5.9168890902405735e-06,
+          "10360": 0.0,
+          "523769": 0.0,
+          "10065": 2.7197596619288333e-08,
+          "10118": 5.563186844526058e-08
+        },
+        "raw_by_id": {
+          "10176": 0.06504164932994172,
+          "10208": 0.09034765342221363,
+          "10360": 0.03202095567678498,
+          "523769": 0.03008526183430149,
+          "10065": 0.0012040654437441844,
+          "10118": 0.001779277392415679
+        },
+        "discrete_trace_changes": {},
+        "events": {
+          "status": "DESCRIPTIVO; no nuevo gate discreto",
+          "predictor_counts": [
+            11524,
+            11518
+          ],
+          "accepted_counts": [
+            22960,
+            22960
+          ],
+          "count_differences": [],
+          "max_ordinal_time_ns": 4688.0,
+          "max_post_q": 1.3277239459763557e-05
+        }
+      }
+    },
+    "native_flow_reconstruction": {
+      "sham": {
+        "native": {
+          "samples": 440,
+          "max_target_error": 1.1102230246251565e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        },
+        "reference": {
+          "samples": 440,
+          "max_target_error": 1.1102230246251565e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        }
+      },
+      "odor_left": {
+        "native": {
+          "samples": 440,
+          "max_target_error": 1.1102230246251565e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        },
+        "reference": {
+          "samples": 440,
+          "max_target_error": 1.1102230246251565e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        }
+      },
+      "odor_right": {
+        "native": {
+          "samples": 440,
+          "max_target_error": 2.220446049250313e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        },
+        "reference": {
+          "samples": 440,
+          "max_target_error": 2.220446049250313e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        }
+      },
+      "uniform": {
+        "native": {
+          "samples": 440,
+          "max_target_error": 2.220446049250313e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        },
+        "reference": {
+          "samples": 440,
+          "max_target_error": 1.1102230246251565e-16,
+          "max_rate_error": 0.0,
+          "recomputed_from_raw_log": true
+        }
+      },
+      "withdrawal_odor_left_01": {
+        "samples": 440,
+        "max_target_error": 1.1102230246251565e-16,
+        "max_rate_error": 0.0,
+        "recomputed_from_raw_log": true
+      },
+      "withdrawal_odor_right_01": {
+        "samples": 440,
+        "max_target_error": 2.220446049250313e-16,
+        "max_rate_error": 0.0,
+        "recomputed_from_raw_log": true
+      },
+      "continuation": {
+        "samples": 300,
+        "max_target_error": 2.220446049250313e-16,
+        "max_rate_error": 0.0,
+        "recomputed_from_raw_log": true
+      }
+    },
+    "orientation": {
+      "complete": true,
+      "profiles": [
+        {
+          "yaw_400_deg": {
+            "sham": 0.023686321328529658,
+            "odor_left": 0.09288898203534401,
+            "odor_right": -0.05887220046472663,
+            "uniform": 0.02154555074938358
+          },
+          "margins_deg": {
+            "L-sham": 0.06920266070681436,
+            "L-uniform": 0.07134343128596043,
+            "sham-R": 0.08255852179325629,
+            "uniform-R": 0.08041775121411021
+          },
+          "odd_deg": 0.07588059125003532,
+          "directional_observation_ok": true
+        },
+        {
+          "yaw_400_deg": {
+            "sham": 0.023686497977930543,
+            "odor_left": 0.0928892091642588,
+            "odor_right": -0.05887198202550081,
+            "uniform": 0.021545752695633524
+          },
+          "margins_deg": {
+            "L-sham": 0.06920271118632826,
+            "L-uniform": 0.07134345646862528,
+            "sham-R": 0.08255848000343136,
+            "uniform-R": 0.08041773472113434
+          },
+          "odd_deg": 0.07588059559487981,
+          "directional_observation_ok": true
+        }
+      ],
+      "both_directional": true
+    },
+    "reference_support": {
+      "sham": {
+        "min_leg_10ms_weight_fraction": 0.999997381691536,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745467,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      },
+      "odor_left": {
+        "min_leg_10ms_weight_fraction": 0.999997381691536,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745467,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      },
+      "odor_right": {
+        "min_leg_10ms_weight_fraction": 0.999997381691536,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745467,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      },
+      "uniform": {
+        "min_leg_10ms_weight_fraction": 0.999997381691536,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745467,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      }
+    },
+    "native_support": {
+      "sham": {
+        "min_leg_10ms_weight_fraction": 0.9999996462087317,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.977455661104291,
+        "support_sha256": "39b09ee1109ee43c2634bd35d9b83b7b31acde66cc5b222835653128748f9536",
+        "physical_replay_exact": true
+      },
+      "odor_left": {
+        "min_leg_10ms_weight_fraction": 0.9999996318635297,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.977455661104291,
+        "support_sha256": "23cbc5b45af311a51d87adfd993254a4557eeab09ca2f5974e9a94c1c892f1ca",
+        "physical_replay_exact": true
+      },
+      "odor_right": {
+        "min_leg_10ms_weight_fraction": 0.9999996395109648,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.977455661104291,
+        "support_sha256": "cd0fd1fb9c81da0f3472d87adf3592d5b38834d6b91314669f03ff569f8680f6",
+        "physical_replay_exact": true
+      },
+      "uniform": {
+        "min_leg_10ms_weight_fraction": 0.9999996251892841,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.977455661104291,
+        "support_sha256": "9f0dea2ae6c585a69c9e7bdf5a1832fd23a58e2354399475af974d38dc640f5c",
+        "physical_replay_exact": true
+      }
+    },
+    "coupled_withdrawals": {
+      "arms": [
+        {
+          "arm": "odor_left",
+          "yaw_400_deg": -0.0032213939236669376,
+          "preparation": {
+            "exact": true,
+            "different_path_count": 0,
+            "different_paths": [],
+            "compared_complete_trees": [
+              "session",
+              "prosthesis",
+              "published",
+              "boundary"
+            ],
+            "manifest_sha256": [
+              "e11b6284aedbdc2b6e30e6fbc3a9494b8d7e40a33c433e06c37f6e6a74638d62",
+              "0df50ff62813d2c6947a6984a830a9365aa5d8d9f630dd9c60a014b7d4131386"
+            ]
+          },
+          "support": {
+            "min_leg_10ms_weight_fraction": 0.9999973816914899,
+            "max_abdominal_10ms_weight_fraction": 0.0,
+            "upright_min": 0.9774521903745447,
+            "mg_N": 9.65913659340625e-06,
+            "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+            "passed": true
+          },
+          "angular_command_zero_all_samples": true,
+          "forward_law_unchanged": true,
+          "coupled_feedback_preserved": true,
+          "traces_sha256": "e29e5b48669f34d3492fbe6be0a86f11e15981dabf1fc7fa8bac90c147ab9cba",
+          "status": "COMPLETE_VALIDATED",
+          "stage3_admission": false
+        },
+        {
+          "arm": "odor_right",
+          "yaw_400_deg": -0.0032213939236669376,
+          "preparation": {
+            "exact": true,
+            "different_path_count": 0,
+            "different_paths": [],
+            "compared_complete_trees": [
+              "session",
+              "prosthesis",
+              "published",
+              "boundary"
+            ],
+            "manifest_sha256": [
+              "700af6f3edb15a10ea312441449114f3a29d03f9caec9c1ba6784452c414ccf3",
+              "f3a8cc226d85daacef561f89b29976bd240f35c6fe06b7c62dc4dca5848d1523"
+            ]
+          },
+          "support": {
+            "min_leg_10ms_weight_fraction": 0.9999973816914899,
+            "max_abdominal_10ms_weight_fraction": 0.0,
+            "upright_min": 0.9774521903745447,
+            "mg_N": 9.65913659340625e-06,
+            "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+            "passed": true
+          },
+          "angular_command_zero_all_samples": true,
+          "forward_law_unchanged": true,
+          "coupled_feedback_preserved": true,
+          "traces_sha256": "0c2c722eaee7c06241ff283f18bb965d9d6be1f884671f7585b955b2e8f1b2d9",
+          "status": "COMPLETE_VALIDATED",
+          "stage3_admission": false
+        }
+      ],
+      "odd_yaw_deg": 0.0,
+      "limit_deg": 0.004,
+      "passed": true,
+      "scope": "Necessity of effective angular readout in this coupled trajectory, not necessity of a uniquely identified biological neuron type"
+    },
+    "continuation": {
+      "engine": "reference_cuda",
+      "same_profile": true,
+      "initial": {
+        "exact": true,
+        "different_path_count": 0,
+        "different_paths": [],
+        "compared_complete_trees": [
+          "session",
+          "prosthesis",
+          "published",
+          "effective_operator",
+          "boundary"
+        ],
+        "manifest_sha256": [
+          "3b8ed741ae5de49912d049e4714359b374fc300e9d32621ad4e5cd29c2a197ee",
+          "b836c1fe4e95315f9c8b3564f67929dd091896f9ceeab17597989cbc35fddcf0"
+        ]
+      },
+      "yaw_sup_deg": 0.0,
+      "command_L1_deg": 0.0,
+      "passed": true,
+      "errors_by_trace": {
+        "sensores_usados": 0.0,
+        "sensores_pendientes": 0.0,
+        "antenas_mm": 0.0,
+        "concentracion_campo": 0.0,
+        "ORN_q_L": 0.0,
+        "ORN_q_R": 0.0,
+        "ORN_filters": 0.0,
+        "PN_q_legacy": 0.0,
+        "PN_general_transmission": 0.0,
+        "PN_gamma_nS": 0.0,
+        "PN_additional_nS": 0.0,
+        "DN_q_actual": 0.0,
+        "DN_q_usada": 0.0,
+        "DN_baseline": 0.0,
+        "command_forward_mm_s": 0.0,
+        "command_yaw_rate_rad_s": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "position_mm": 0.0,
+        "yaw_delta_deg": 0.0,
+        "upright": 0.0,
+        "normal_force_N": 0.0,
+        "contact_force_N": 0.0,
+        "generalized_force_native": 0.0,
+        "energy_motor_J": 0.0
+      },
+      "discrete_mismatches": {
+        "paso": 0,
+        "CNS_time_ns": 0,
+        "PN_time_ns": 0,
+        "body_time_ns": 0,
+        "contact_active": 0
+      },
+      "traces_sha256": [
+        "fc07a7033e5d9c4d417dfb0a7236e5734ec7378097749d7b0b0b5ca1e53171a5",
+        "738d71470e7c2c80282582b4dc10ad4eb94405c75726045b87ee824dd0358266"
+      ],
+      "scope": "Cold continuation at100ms of this reference-profile organism; not all profiles or arbitrary checkpoints"
+    },
+    "organism_runs": 7,
+    "organism_wall_s": 11995.056704758987,
+    "budget": {
+      "reference_runs_max": 4,
+      "withdrawal_runs_max": 2,
+      "continuation_runs_max": 1,
+      "organism_runs_max": 7,
+      "wall_each_s_max": 2050,
+      "organism_wall_total_s_max": 14350,
+      "mechanical_replays_max": 4,
+      "mechanical_wall_total_s_max": 240,
+      "RAM_GiB_max": 18,
+      "GPU_GiB_max": 12,
+      "new_ChatGPT_messages_max": 1,
+      "new_Jev_calls_max": 0,
+      "complete_candidate_architectures_max": 2
+    },
+    "input_hashes": {
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/RESULT.json": "9e15d74d2f1c8f3e163171743d85801c0e69b9f8d7bc470799f174ebb933cdab",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/RUN_CONTRACT.json": "eeab043627fa56d14f8b834088755c45800770e54622440bb49c6bdac5305842",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/traces.npz": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/flow/FLOW.npz": "7d22ce7f7425dabc1328328ef2ee2052192f4b3b88673d0fdba7cc8fac74a837",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/flow/RESULT.json": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/EVENT_AUDIT.json": "6192fc424cbdac91fbc5997e7531e14a5cd9fc31a03a82baff0c14eeb988bac6",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/RESULT.json": "2291ba971a4265d0250f29c9f2a3e280e3814f703e5ed7ac46b97bd24f3bf7cc",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/RUN_CONTRACT.json": "f44160a77b2a66efffd1da6a148551f52b7f46198d06efb42b5ec5d83c03f83e",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/traces.npz": "b21dbdcad1b812f535a4d7e427e7d39091f50839d243cffbf04e110422390744",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/flow/FLOW.npz": "aff6981103aa8ae514a1e6a2c1451caa13930825399ba907dd02e4634f7dd2db",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/flow/RESULT.json": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_sham_01/EVENT_AUDIT.json": "acfd1b7340c98720dd5695400120dbae869207cc92cfe4a409e99d609d1ce103",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/RESULT.json": "175c1cceeb05d25ee08eda15c7550c58eaff72103ccefefd3e8d57402a3a68b5",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/RUN_CONTRACT.json": "57e6ad96b57b3ae80405bd07f6b85f12639f84809ee0ce13dbb7d6cd4734b460",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/traces.npz": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/flow/FLOW.npz": "9e506f7143af5cb2f8a99c16729446e75e533191e0d31d4d48113b867d9f8ad7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/flow/RESULT.json": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/EVENT_AUDIT.json": "3ef62bed3e65898adf01e0b20f533ac892461d872cacee8c98df17641ea109aa",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/RESULT.json": "963d4a246043b929fb1e5f613ac74d009e8ee4e9bc3e90dd2102900e67e0329d",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/RUN_CONTRACT.json": "8e03f02f231829723e6c26de2b34cd0037f8573bee002037acd7f05263b3cb71",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/traces.npz": "e731254e408c4c82d8adb607a58275271259e6ed22ccc15ec290104cf58f37db",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/flow/FLOW.npz": "799391ebdd53862c660b37a887c8637600ffa7058f5ffad67119436bb8e23052",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/flow/RESULT.json": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_left_01/EVENT_AUDIT.json": "c2d322b47a6f52a08d27d4d2951d3f5ec3964bd0b848fe13db900926cb469c28",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RESULT.json": "5b14f10794c7075f30a2d996b40ed2284d05653abfe5aab22550229c1f7b4ab3",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RUN_CONTRACT.json": "19d618c0ff2cd8f3150af8b1b77da96651ee29508f62f7edee5012cf4deab1cc",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/traces.npz": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/FLOW.npz": "cec8386baa273272d2de4d01ed842562620b21abefbd9dbd9cfd11462b98703f",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/EVENT_AUDIT.json": "5396fff35fe26807f889bdf96bf4234470d016e496f3738887d209b6876d16ab",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/RESULT.json": "e31019056f8d615f70dcd4b9b276e4abaa345bd6447fd6246e9bd34215f2486a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/RUN_CONTRACT.json": "f8be92e8452aaabf02380e2de40e7282f9ba55f2b2099bccd99eacde08e48088",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/traces.npz": "738d71470e7c2c80282582b4dc10ad4eb94405c75726045b87ee824dd0358266",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/flow/FLOW.npz": "d4946b82dd6eb90c70cf8069023c112c1fbe01e6ab1006651d4cac5bc5a1a1ae",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01/EVENT_AUDIT.json": "d206962be27fed3186ffa1555606779a7d29a3c3714eb7fdae39b4eb5c04154a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/RESULT.json": "0ef9aec35f2265011ce95d6bf08a62929bb37ccceb4561d5945a8de86c0930af",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/RUN_CONTRACT.json": "d3a726ff52378a9c2e4867a479f5bf9d5ed0aa10ec765b52b06eb72a95cfb797",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/traces.npz": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/flow/FLOW.npz": "881032362066cc48c2f04e6b98ae796c97242d38490591f3028ade9db0838ee3",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/EVENT_AUDIT.json": "5a37f079636cdcb7db4839288f3e882b2220231b274a59566db92b5a7d84c59f",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/RESULT.json": "6f8abfdbc55ca8b389a7dea53f3747d30b9303deb5f0ed4352a8c042ba0c0053",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/RUN_CONTRACT.json": "cfc68c23be163d31625243c3f90aa3888a75fe96a22e024779c5de72366bbaa2",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/traces.npz": "c90b0c2efaf338e53d773912236d700be02f65012e8e653882525238a10475e2",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/flow/FLOW.npz": "40eb0ce6ff5729afb8bb7153530f20d35fc2289063ea586bea27416d92b8ca7a",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/flow/RESULT.json": "7dd86a6c0f11f07f6c9830cf30056498014bd7437cd32b941c97b4f1934ee9b7",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_uniform_01/EVENT_AUDIT.json": "c62fe28524396c7248e8d8b800dcaa8178fce26d46f5d55fcce6699fd207d74d"
+    },
+    "contract_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+    "verifier_sha256": "34b85cbcba630c0e19614641d175f93f0564f280a89691d980752fc925c109fd"
+  },
+  "limitations": [
+    "The three initial references and the failed restore were observed before this repair; confirmation is not blind.",
+    "The historical KC hidden-state gate remains failed.",
+    "This is functional orientation in a PN629-off model with an engineered DNb05 decoder and roller body, not biological equivalence.",
+    "A fixed binary lateral field does not establish navigation to a localized source.",
+    "This functional gate does not establish a general brain engine or the strong intelligence objective."
+  ],
+  "contract_sha256": "4f59b6040c06c778cc262ca5e60ff3ac55b19203f84c810ed8740fb2c7c5f8c8",
+  "verifier_sha256": "0fa57f759848157146452b351849ae2b4a773cc9a60943cfa3d001109b047d9d"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_NOT_EXECUTED_ON_REAL_DATA",
+  "source_lock_sha256": "d10643726c55253487992f19aab1fcc8552e3aa71002ecb8d4ef5bfcefadea98",
+  "verifier_sha256": "ca0d4f0efa9b637f88e331eaa5421da98817e34a661d0c2c9be79258d0649859",
+  "synthetic_tests_per_mode": 21,
+  "tested_normal_and_optimized": true,
+  "latest_test_receipts": {
+    "TEST_NORMAL_02.json": "702c47b5717cfa0a5d260ba86da5143c1dddf786bb2b88ac48b8a5edb0263a14",
+    "TEST_OPTIMIZED_02.json": "f076633bf554e53d97cbb1254d2f16f62d0062e62b676bf49678ba3907350f50"
+  },
+  "synthetic_cpu_s_all_versions": 0.0408064,
+  "synthetic_max_rss_gib": 0.29144287109375,
+  "real_recomputations": 0,
+  "gpu_calls": 0,
+  "organism_loads": 0,
+  "real_receipt_exists": false,
+  "future_receipt": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_postclose_20260923_20/POSTCLOSE_VERIFIED_01.json"
+}

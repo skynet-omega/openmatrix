@@ -1,0 +1,11 @@
+{
+  "first_package": "build_01",
+  "first_archive_sha256": "24cc3d813e3312d17ef4967738661944a7f2e2811e64891cacb2871bfbf217ec",
+  "first_cold_verification": "FAILED_IN_PACKAGE_VERIFIER",
+  "error": "KeyError: withdrawal_odor_left",
+  "cause": "The compact verifier omitted _01 from the archived withdrawal flow dictionary key.",
+  "repair": "Change the lookup key only; no scientific input, formula, criterion or receipt changed.",
+  "failure_log_sha256": "47feb9ede49bbab18378cb3d5cca3a12a140085fc01657694b2d0993dedfb218",
+  "max_included_file": 60616130,
+  "scope": "Packaging implementation history; not an organism attempt"
+}

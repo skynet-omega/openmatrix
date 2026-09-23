@@ -1,0 +1,51 @@
+{
+  "schema": "stage3_pn629_causal_intervention_v1",
+  "created_utc": "2026-09-23T14:34:09.480302+00:00",
+  "parent": "campanas/etapa3_largo_diagnostico_20260923_10",
+  "rivals": {
+    "A": "The 629 refined left PN outgoing general channels materially cause the biased motor command.",
+    "B": "Downstream convergence or uncalibrated descending reader dominates despite the PN629 intervention.",
+    "C": "Basal neural history dominates; equal preparation within each condition does not erase a inherited neural state."
+  },
+  "operation": "Disable only pn_online_manifest.general_outputs.enabled before the fixed 40ms sham preparation, recompute and record the manifest hash, leave the 466 dynamic destinations, anatomy, cellular parameters and motor decoder unchanged. Four child odor arms start from the same checkpoint. Compare against preserved parent, labeling cross-parent prepared-state changes as effects of the intervention/history.",
+  "conditions": [
+    "sham",
+    "odor_right",
+    "odor_left",
+    "uniform"
+  ],
+  "preparation_ms": 40,
+  "trial_ms": 400,
+  "readback_ms": [
+    250,
+    300,
+    320,
+    350,
+    400
+  ],
+  "controls": "Two 1ms child observer-on/off exact controls and native signed-flow reconstruction <=1e-9; all child prepared scientific states and executed sources must match across odor arms. Manifest diff is exactly enabled and its record hash.",
+  "measures": [
+    "absolute yaw",
+    "odor-minus-sham yaw",
+    "command integral",
+    "DNb05 left/right target and actual rate",
+    "PN output-flow and target",
+    "numeric failures/events/support"
+  ],
+  "budget": {
+    "smoke_loads_max": 2,
+    "long_loads_max": 4,
+    "aggregate_loads_max": 6,
+    "wall_single_smoke_s_max": 240,
+    "wall_single_long_s_max": 2050,
+    "aggregate_wall_s_max": 8700,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_messages_new": 0,
+    "Jev_calls_new": 0,
+    "prototypes": 1
+  },
+  "material_effect_deg": 0.02,
+  "stop": "Stop at first source, observer, domain or budget failure. Stop after sham/right if the intervention changes right absolute yaw by less than0.02 degrees relative to preserved parent, or makes it more leftward: that specifically rejects PN629 as sufficient material rescue, without spending two more long arms. Otherwise complete all four for screening.",
+  "classification_contract": "Exploratory causal intervention only. No stage3 admission from this campaign, even if yaw passes the old directional screen: long-horizon numerical certification and calibrated biological reader are separate requirements. No tolerance or gain changes after observing response."
+}

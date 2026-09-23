@@ -1,0 +1,23 @@
+{
+  "schema": "unexpected_process_interruption_v1",
+  "observed_utc": "2026-09-23T18:19:40.605988+00:00",
+  "cause": "Process disappeared during environment/model switch; exact termination signal unobserved",
+  "processes_alive": false,
+  "queue_sha256_before_edit": "4c8e61c9493114d8c635bc7388a4d96d9459fc9c0beec99b9bcf5e6e49f037e4",
+  "last_completed_preparation_ms": 40,
+  "last_completed_uniform_trial_ms": 20,
+  "uniform_progress_sha256": "f5228e87cd4be42159a99d903e695ec9162d1afc2ee616a5fe02571646b3996a",
+  "uniform_prepared_manifest_sha256": "b0a11cfd1b40b6370de6d341905a30cd8dbfcc05498335d3f86f911ab762e92a",
+  "uniform_result_exists": false,
+  "completed_references": [
+    "reference_odor_right_01",
+    "reference_sham_01",
+    "reference_odor_left_01"
+  ],
+  "completed_wall_s": 5839.763920178986,
+  "partial_last_elapsed_s": 300.977753877989,
+  "stage3_admission": false,
+  "original_contract_unmet": true,
+  "scientific_failure_observed": false,
+  "recovery": "No old process to resume. Preserve original incomplete arm; any repeat is disclosed as a separate repair campaign and additional exposure."
+}

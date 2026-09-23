@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "checks": [
+    "symlink rejected",
+    "traversal rejected",
+    "credential text rejected",
+    "credential NPZ rejected",
+    "stream preflight symlink rejected",
+    "extended credential scan rejected",
+    "explicit root admitted: etapa3_continuation_repair_20260923_19",
+    "explicit root admitted: etapa3_postclose_20260923_20"
+  ],
+  "passed": true,
+  "optimized": true
+}

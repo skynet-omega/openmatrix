@@ -1,0 +1,58 @@
+{
+  "millisecond": null,
+  "group_order": [
+    "abdomen",
+    "legs",
+    "other"
+  ],
+  "leg_order": [
+    "LF",
+    "RF",
+    "LM",
+    "RM",
+    "LH",
+    "RH"
+  ],
+  "vertical_impulse_Ns": [
+    0.0,
+    4.250019387595087e-06,
+    0.0
+  ],
+  "normal_impulse_Ns": [
+    0.0,
+    4.250019387595087e-06,
+    0.0
+  ],
+  "world_impulse_Ns": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4.250019387595087e-06
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "slip_um": [
+    0.0,
+    85.98757187983814,
+    84.84673007037269,
+    0.0,
+    85.46600790246826,
+    86.98504106008738
+  ],
+  "duration_s": 0.4400000000146065,
+  "sample_steps": 17600,
+  "active_ground_contact_samples": 70400,
+  "mgN": 9.65913659340625e-06,
+  "force_unit_N_per_native": 1e-05,
+  "slip_definition": "Integral of maximum tangential contact-point speed per leg per step",
+  "velocity_sampling": "Post-step qvel with retained contact-step geometry"
+}

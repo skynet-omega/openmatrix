@@ -1,0 +1,28 @@
+{
+  "schema": "body_only_command_replay_v1",
+  "name": "sham",
+  "status": "COMPLETE",
+  "scope": "Saved body and synthetic contact prosthesis only; no CNS, odor or biological intervention",
+  "prepared_source": {
+    "prepared_manifest_sha256": "484437bd4e95a4f2848ece11eca8e2bcb2c1908a83cd2635c1a179b10db1fe58",
+    "body_replay_sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d",
+    "observer_sha256": "b3a7872607254944c9b4d0551024bda82c4a733151b9c662d5c17c91ada5f329",
+    "harness_sha256": "8d8e7f17eb794fa36de2bc232918e362525d0ef8db7db7d60ce690485651a2b2",
+    "plan_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+    "trace_sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8"
+  },
+  "initial_integration_sha256": "c194e021843a72957985ec85d0cf4ec2531ddb5f5ea5841e4d718408dac70067",
+  "dt_us": 25,
+  "ms": 400,
+  "final_yaw_deg": 0.023686321328540316,
+  "command_integral_deg": 0.026500215523411707,
+  "contact_count_min": 4,
+  "contact_count_max": 4,
+  "reference_errors": {
+    "max_qpos_abs": 0.0,
+    "max_qvel_abs": 0.0,
+    "max_yaw_deg_abs": 0.0
+  },
+  "wall_s": 13.49634477001382,
+  "stage3_admission": false
+}

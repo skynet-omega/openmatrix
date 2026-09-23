@@ -1,0 +1,23 @@
+{
+  "schema": "stage3_postclose_readonly_recompute_v1",
+  "status": "PREPARED_NOT_EXECUTED_ON_REAL_DATA",
+  "repair_directory": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19",
+  "release_condition": "QUEUE.json state COMPLETE; parent releases after repair19 closes. No scheduling or waiting process.",
+  "operation": "Invoke the frozen verify_repair19.verify() in a fresh CPU process; require its full finite typed JSON result to equal FINAL_RAW_VERIFIED.json exactly. Saved booleans cannot create success.",
+  "independence_scope": "Independent postclose process, input integrity and equality check; scientific verifier code and thresholds are deliberately reused, not an independently invented criterion.",
+  "budget": {
+    "future_real_recomputations_max": 1,
+    "future_cpu_seconds_max": 180,
+    "future_wall_seconds_max": 300,
+    "future_address_space_gib_max": 6,
+    "gpu_calls": 0,
+    "organism_loads": 0,
+    "new_neural_or_physical_steps": 0,
+    "synthetic_test_cpu_seconds_max": 20,
+    "synthetic_test_address_space_gib_max": 1
+  },
+  "receipt": "POSTCLOSE_VERIFIED_01.json",
+  "read_only": "Read original 15/16/17/19 and frozen source dependencies. Audit rejects writes/mutations outside this new folder. Collect actual local input file SHA256 at first open and verify unchanged at completion. Disable bytecode writes and GPU/organism imports.",
+  "failure": "Any incomplete queue, raw-verifier exception, false reconstructed gate, changed input, or any full-result mismatch rejects confirmation. Preserve one failed receipt when actual attempt has started; never overwrite or retry it.",
+  "scope_ceiling": "Functional Stage3 only; original strict contract and historical hidden-state failure retain their recorded scope. No Stage4, biological equivalence or engine-speed claim."
+}

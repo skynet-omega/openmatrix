@@ -1,0 +1,16 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "ValueError",
+    "message": "World is not bound to this continuing body",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/run_continuation.py\", line 43, in main\n    receipt=restore(obj,checkpoint,Field)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/restore_checkpoint.py\", line 86, in restore\n    obj._validate_adapter()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py\", line 127, in _validate_adapter\n    raise ValueError('World is not bound to this continuing body')\nValueError: World is not bound to this continuing body\n"
+  },
+  "cleanup_errors": [
+    "final state: ValueError('World is not bound to this continuing body')"
+  ],
+  "completed_continuation_ms": 0,
+  "initial_exact": null,
+  "runtime": null,
+  "wall_total_s": 43.76229369400062,
+  "stage3_admission": false
+}

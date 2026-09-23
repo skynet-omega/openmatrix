@@ -1,0 +1,53 @@
+{
+  "schema": "stage3_functional_prospective_20260923_v1",
+  "registered_utc": "2026-09-23T16:10:00.180276+00:00",
+  "scope": "Functional orientation of the PN629-disabled model with the declared effective DNb05 decoder and body; not full-state equivalence, exact-solution error, learning, biological equivalence or source navigation.",
+  "rivals": {
+    "A": "The directional observation survives a prospective native/reference comparison despite the preserved historical hidden-state FAIL.",
+    "B": "The existing global membrane profile offers a useful precise alternative, but must not be selected for a preferred yaw.",
+    "C": "Event sampling semantics prevent stable functional qualification and must be repaired before promotion."
+  },
+  "exposure": "All native PN629 trajectories are development observations. No reference_cuda400ms result for this intervention has been observed. Criteria selected before those references; campaign15 retains its exploratory classification.",
+  "unchanged": "Same source checkpoint, PN629 intervention, anatomical graph, gains, 40ms preparation, 400ms stimulus and 1ms observation. No temporal realignment, baseline subtraction in the controller, missing-event suppression or post-result tolerance changes.",
+  "external_code_sha256": "51ae660168bdfd4ba9595cf7362c6492354a708b93e3835d4f6c7f93c6e3ff54",
+  "criteria": {
+    "yaw_sup_deg_max": 0.002,
+    "command_L1_deg_max": 0.002,
+    "sample_ms": 1,
+    "material_deg": 0.02,
+    "signed_yaw_reserve_deg": 0.002,
+    "each_lateral_margin_over_both_controls_deg_min_exclusive": 0.024,
+    "angular_reader_withdrawal_odd_yaw_deg_max": 0.004,
+    "upright_min": 0.9,
+    "max_abdominal_10ms_weight_fraction": 0.01,
+    "min_leg_10ms_weight_fraction": 0.99,
+    "resume_yaw_sup_deg_max": 0.002,
+    "resume_command_L1_deg_max": 0.002
+  },
+  "sequence": [
+    "reference right; stop if pair fails",
+    "reference sham,left,uniform; stop if any pair or directional contrast fails",
+    "coupled angular reader withdrawal left,right from matched preparations",
+    "same-profile continuation of right100ms checkpoint to400ms"
+  ],
+  "measurement": "External code evaluates observable pairs only. KC events/continuous errors stay reported. Mechanical impulse support and causal withdrawal/continuation require separate checks; code success is never a Stage3 boolean.",
+  "snapshot_repair": "Save effective_operator alongside existing snapshots using the unchanged OperatorState implementation. This records operator arrays absent from the diagnostic runner; no numerical or biological write. Old snapshots retain their not-resume-validated status.",
+  "budget": {
+    "reference_runs_max": 4,
+    "withdrawal_runs_max": 2,
+    "continuation_runs_max": 1,
+    "organism_runs_max": 7,
+    "wall_each_s_max": 2050,
+    "organism_wall_total_s_max": 14350,
+    "mechanical_replays_max": 4,
+    "mechanical_wall_total_s_max": 240,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "new_ChatGPT_messages_max": 1,
+    "new_Jev_calls_max": 0,
+    "complete_candidate_architectures_max": 2
+  },
+  "budget_basis": "Previous reference20ms cost116.268s including load; native20ms93.383s. The 2050s ceiling is the unchanged bounded400ms runner ceiling. No extension after failure.",
+  "stop": "At the first domain, source, budget, numerical, directional, support, causal or continuation failure, preserve failure and stop this confirmation. Do not switch profile, gain, horizon or criterion to rescue it. No further references if right comparison fails.",
+  "qualification": "If every required check passes, at most a new scoped functional Stage3 result may be claimed. The old hidden-state gate stays FAIL. Otherwise PROMETEDOR_NO_CONFIRMADO or DESCARTADO/BLOQUEADO according to actual failure; Stage4 not started."
+}

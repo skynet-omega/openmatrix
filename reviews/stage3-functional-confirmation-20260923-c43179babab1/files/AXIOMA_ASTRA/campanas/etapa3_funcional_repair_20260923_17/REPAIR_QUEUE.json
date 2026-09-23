@@ -1,0 +1,27 @@
+{
+  "state": "RUNNING",
+  "current": "continuation_right_01",
+  "prior": {
+    "reference_odor_right_01": {
+      "wall_s": 1946.5756790480227,
+      "result_sha256": "e31019056f8d615f70dcd4b9b276e4abaa345bd6447fd6246e9bd34215f2486a"
+    },
+    "reference_sham_01": {
+      "wall_s": 1934.5442064149538,
+      "result_sha256": "2291ba971a4265d0250f29c9f2a3e280e3814f703e5ed7ac46b97bd24f3bf7cc"
+    },
+    "reference_odor_left_01": {
+      "wall_s": 1958.6440347160096,
+      "result_sha256": "963d4a246043b929fb1e5f613ac74d009e8ee4e9bc3e90dd2102900e67e0329d"
+    }
+  },
+  "completed_repair": [
+    "reference_uniform_01",
+    "withdrawal_odor_left_01",
+    "withdrawal_odor_right_01"
+  ],
+  "interrupted_partial_wall_s": 300.977753877989,
+  "wall_consumed_s": 10947.553929538975,
+  "attempts_started": 8,
+  "stage3_admission": false
+}

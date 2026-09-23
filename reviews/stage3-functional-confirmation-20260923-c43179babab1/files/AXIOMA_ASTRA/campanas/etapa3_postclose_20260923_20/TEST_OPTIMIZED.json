@@ -1,0 +1,116 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "optimized": true,
+  "tests": [
+    {
+      "name": "premature_no_verifier_import",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "failed_queue",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "exact_full_result",
+      "passed": true
+    },
+    {
+      "name": "stored_true_cannot_override_raw_exception",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "fresh_false",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "nested_false",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "float_change",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "bool_to_int",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "missing_key",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "nonfinite",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "queue_changes_during_check",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "duplicate_json_key",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "nonfinite_stored_json",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "source_write_blocked",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "GPU_import_blocked",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "GPU_library_blocked",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "input_changed_after_read",
+      "rejected": true,
+      "type": "ValueError"
+    },
+    {
+      "name": "transaction_success_cannot_overwrite",
+      "rejected": true,
+      "type": "FileExistsError"
+    },
+    {
+      "name": "transaction_success",
+      "passed": true
+    },
+    {
+      "name": "transaction_failure_cannot_overwrite",
+      "rejected": true,
+      "type": "FileExistsError"
+    },
+    {
+      "name": "transaction_failure",
+      "passed": true
+    }
+  ],
+  "count": 21,
+  "gpu_calls": 0,
+  "organism_loads": 0,
+  "real_recomputations": 0,
+  "real_receipt_exists": false,
+  "cpu_s": 0.011383699999999997,
+  "peak_rss_gib": 0.2799644470214844,
+  "source_sha256": "96a9441b896c53bfc13ac2d1d21e566a377b604a5fac24e7747cea3d09c73d36"
+}

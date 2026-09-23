@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "schema": "orientation_functional_v1",
+    "yaw_sup_deg": 0.002,
+    "command_L1_deg": 0.002,
+    "material_contrast_deg": 0.02,
+    "sign_reserve_deg": 0.002,
+    "contrast_reserve_deg": 0.004,
+    "sample_ms": 1,
+    "preparation_ms": 40,
+    "trial_ms": 400,
+    "historical_hidden_state_gate": "FAIL_PRESERVADO",
+    "stage3_admission": false
+  },
+  "input_plan": {
+    "schema": "orientation_functional_v1",
+    "registered_utc": "2026-09-23T16:10:00.180276+00:00",
+    "pairs": {
+      "sham": {
+        "causal": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01",
+        "reference": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/reference_sham_01"
+      },
+      "odor_left": {
+        "causal": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01",
+        "reference": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/reference_odor_left_01"
+      },
+      "odor_right": {
+        "causal": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01",
+        "reference": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/reference_odor_right_01"
+      },
+      "uniform": {
+        "causal": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01",
+        "reference": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/reference_uniform_01"
+      }
+    }
+  }
+}

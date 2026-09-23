@@ -1,0 +1,74 @@
+{
+  "arms": [
+    {
+      "arm": "odor_left",
+      "yaw_400_deg": -0.0032213939236669376,
+      "preparation": {
+        "exact": true,
+        "different_path_count": 0,
+        "different_paths": [],
+        "compared_complete_trees": [
+          "session",
+          "prosthesis",
+          "published",
+          "boundary"
+        ],
+        "manifest_sha256": [
+          "e11b6284aedbdc2b6e30e6fbc3a9494b8d7e40a33c433e06c37f6e6a74638d62",
+          "0df50ff62813d2c6947a6984a830a9365aa5d8d9f630dd9c60a014b7d4131386"
+        ]
+      },
+      "support": {
+        "min_leg_10ms_weight_fraction": 0.9999973816914899,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745447,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      },
+      "angular_command_zero_all_samples": true,
+      "forward_law_unchanged": true,
+      "coupled_feedback_preserved": true,
+      "traces_sha256": "e29e5b48669f34d3492fbe6be0a86f11e15981dabf1fc7fa8bac90c147ab9cba",
+      "status": "COMPLETE_VALIDATED",
+      "stage3_admission": false
+    },
+    {
+      "arm": "odor_right",
+      "yaw_400_deg": -0.0032213939236669376,
+      "preparation": {
+        "exact": true,
+        "different_path_count": 0,
+        "different_paths": [],
+        "compared_complete_trees": [
+          "session",
+          "prosthesis",
+          "published",
+          "boundary"
+        ],
+        "manifest_sha256": [
+          "700af6f3edb15a10ea312441449114f3a29d03f9caec9c1ba6784452c414ccf3",
+          "f3a8cc226d85daacef561f89b29976bd240f35c6fe06b7c62dc4dca5848d1523"
+        ]
+      },
+      "support": {
+        "min_leg_10ms_weight_fraction": 0.9999973816914899,
+        "max_abdominal_10ms_weight_fraction": 0.0,
+        "upright_min": 0.9774521903745447,
+        "mg_N": 9.65913659340625e-06,
+        "scope": "Integrated completed MuJoCo contact forces; effective synthetic contact-roller body, not biological gait",
+        "passed": true
+      },
+      "angular_command_zero_all_samples": true,
+      "forward_law_unchanged": true,
+      "coupled_feedback_preserved": true,
+      "traces_sha256": "0c2c722eaee7c06241ff283f18bb965d9d6be1f884671f7585b955b2e8f1b2d9",
+      "status": "COMPLETE_VALIDATED",
+      "stage3_admission": false
+    }
+  ],
+  "odd_yaw_deg": 0.0,
+  "limit_deg": 0.004,
+  "passed": true,
+  "scope": "Necessity of effective angular readout in this coupled trajectory, not necessity of a uniquely identified biological neuron type"
+}

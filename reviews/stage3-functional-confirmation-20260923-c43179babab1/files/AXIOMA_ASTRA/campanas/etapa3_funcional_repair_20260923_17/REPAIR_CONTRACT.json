@@ -1,0 +1,47 @@
+{
+  "schema": "stage3_interrupted_reference_repair_v1",
+  "registered_utc": "2026-09-23T18:22:07.296975+00:00",
+  "original_contract_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+  "original_campaign": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16",
+  "original_campaign_classification": "BLOQUEADO_POR_INTERRUPCION_EXTERNA",
+  "cause": "All terminal scientific processes vanished during environment/model switch; exact signal unobserved",
+  "exposure_before_repair": {
+    "three_complete_references": [
+      "reference_odor_right_01",
+      "reference_sham_01",
+      "reference_odor_left_01"
+    ],
+    "incomplete_uniform_preparation_ms": 40,
+    "incomplete_uniform_trial_ms": 20,
+    "incomplete_uniform_elapsed_s": 300.977753877989,
+    "uniform_partial_progress_sha256": "f5228e87cd4be42159a99d903e695ec9162d1afc2ee616a5fe02571646b3996a"
+  },
+  "additional_sequence": [
+    "reference_uniform_replacement_01: full unchanged400ms reference from original checkpoint",
+    "coupled withdrawal left400ms native",
+    "coupled withdrawal right400ms native",
+    "cold continuation of existing reference right100\u2192400ms"
+  ],
+  "rivals": {
+    "A": "Functional bilateral orientation with PN629-off and unchanged reader survives the missing uniform reference and causal withdrawal.",
+    "B": "Residual common mechanical/tonic bias or reader-independent neural route explains the observed rotations.",
+    "C": "Checkpoint or event semantics fail when tested by actual cold continuation, barring qualification."
+  },
+  "preservation": "Existing three complete reference directories remain in original campaign and are linked read-only here; partial uniform untouched. Original criteria and original verification source hashes unchanged. No parameter, solver, profile, gain, window or tolerance update.",
+  "budget": {
+    "new_complete_organism_runs_max": 4,
+    "prior_complete_organism_runs": 3,
+    "one_interrupted_partial_attempt": 1,
+    "total_attempts_max": 8,
+    "total_complete_runs_max": 7,
+    "wall_each_complete_s_max": 2050,
+    "aggregate_wall_including_partial_s_max": 14350,
+    "mechanical_replays_new_max": 0,
+    "new_Jev_calls_max": 0,
+    "new_ChatGPT_messages_max": 0,
+    "ram_GiB_max": 18,
+    "gpu_GiB_max": 12
+  },
+  "stop": "First source/observable/support/withdrawal/continuation/raw-verification/budget failure stops. No second replacement or threshold retuning. The repaired result carries its extra exposure and cannot be called a strict completion of original PLAN16.",
+  "scope": "At most local functional Stage3 with declared PN629-disabled reader and motorized roller body; not historical full-state gate, biological equivalence, unmeasured flies or navigation to a localized source."
+}

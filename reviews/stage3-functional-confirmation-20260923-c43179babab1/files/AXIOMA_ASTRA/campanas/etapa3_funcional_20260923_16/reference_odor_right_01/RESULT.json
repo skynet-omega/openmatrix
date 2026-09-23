@@ -1,0 +1,88 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "cleanup_errors": [],
+  "odor": "odor_right",
+  "engine": "reference_cuda",
+  "observer": "on",
+  "requested_trial_ms": 400,
+  "completed_trial_ms": 400,
+  "completed_preparation_ms": 40,
+  "wall_total_s": 1946.5756790480227,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/final_state"
+  },
+  "runtime": {
+    "profile": "reference_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "native_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/native_cell.py",
+        "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 7040,
+      "accepted": 179502,
+      "rejected": 19338,
+      "build_s": 0.1149848839850165,
+      "native_wall_s": 633.9367611415219,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "device_bytes": 8195072
+    },
+    "CNS": {
+      "epochs": 7040,
+      "accepted": 82069,
+      "rejected": 2,
+      "build_s": 0.11744438199093565,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 7040,
+      "accepted": 7040,
+      "rejected": 0,
+      "build_s": 2.7291902439901605,
+      "wall_s": 99.5703886784031,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 14080,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 7040,
+      "events": 34338,
+      "max_q_reconstruction_difference": 1.3877787807814457e-15,
+      "global_trials": 82071,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 3520,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 178062
+    }
+  },
+  "stage3_pass": null,
+  "reason": "Flow diagnostic only; not a new biological or historical admission."
+}

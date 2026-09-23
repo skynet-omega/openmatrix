@@ -1,0 +1,444 @@
+{
+  "schema": "kc81004_to_dnb05_anatomical_reachability_v1",
+  "source": {
+    "node_ids_sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "graph_sha256": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40",
+    "nodes_sha256": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a"
+  },
+  "presynaptic_ids": [
+    81004,
+    544736,
+    45199
+  ],
+  "targets": [
+    10065,
+    10118
+  ],
+  "directed_paths_by_min_synapses": {
+    "1": {
+      "remaining_edges": 25582938,
+      "paths": {
+        "81004": {
+          "10065": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 1
+            },
+            {
+              "id": 10567,
+              "type": "M_l2PNl20",
+              "synapses_to_next": 45
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 1
+            },
+            {
+              "id": 10567,
+              "type": "M_l2PNl20",
+              "synapses_to_next": 2
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "544736": {
+          "10065": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 2
+            },
+            {
+              "id": 10804,
+              "type": "MBON20",
+              "synapses_to_next": 33
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 33
+            },
+            {
+              "id": 10013,
+              "type": "MBON01",
+              "synapses_to_next": 3
+            },
+            {
+              "id": 10593,
+              "type": "AL-MBDL1",
+              "synapses_to_next": 3
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "45199": {
+          "10065": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 29
+            },
+            {
+              "id": 10495,
+              "type": "MBON05",
+              "synapses_to_next": 2
+            },
+            {
+              "id": 10175,
+              "type": "OA-VUMa6",
+              "synapses_to_next": 3
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 2
+            },
+            {
+              "id": 11145,
+              "type": "MBON20",
+              "synapses_to_next": 30
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        }
+      }
+    },
+    "5": {
+      "remaining_edges": 6242118,
+      "paths": {
+        "81004": {
+          "10065": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 62
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 50
+            },
+            {
+              "id": 10039,
+              "type": "VL2a_adPN",
+              "synapses_to_next": 97
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 62
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 5
+            },
+            {
+              "id": 16648,
+              "type": "VP1d_il2PN",
+              "synapses_to_next": 68
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "544736": {
+          "10065": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 67
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 50
+            },
+            {
+              "id": 10039,
+              "type": "VL2a_adPN",
+              "synapses_to_next": 97
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 67
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 5
+            },
+            {
+              "id": 16648,
+              "type": "VP1d_il2PN",
+              "synapses_to_next": 68
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "45199": {
+          "10065": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 9
+            },
+            {
+              "id": 10826,
+              "type": "MBON21",
+              "synapses_to_next": 20
+            },
+            {
+              "id": 10804,
+              "type": "MBON20",
+              "synapses_to_next": 33
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 29
+            },
+            {
+              "id": 10495,
+              "type": "MBON05",
+              "synapses_to_next": 169
+            },
+            {
+              "id": 11145,
+              "type": "MBON20",
+              "synapses_to_next": 30
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        }
+      }
+    },
+    "10": {
+      "remaining_edges": 2753975,
+      "paths": {
+        "81004": {
+          "10065": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 62
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 50
+            },
+            {
+              "id": 10039,
+              "type": "VL2a_adPN",
+              "synapses_to_next": 97
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 81004,
+              "type": "KCg-m",
+              "synapses_to_next": 24
+            },
+            {
+              "id": 10013,
+              "type": "MBON01",
+              "synapses_to_next": 89
+            },
+            {
+              "id": 10378,
+              "type": "AL-MBDL1",
+              "synapses_to_next": 63
+            },
+            {
+              "id": 11517,
+              "type": "lLN2T_c",
+              "synapses_to_next": 42
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "544736": {
+          "10065": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 67
+            },
+            {
+              "id": 10540,
+              "type": "APL",
+              "synapses_to_next": 50
+            },
+            {
+              "id": 10039,
+              "type": "VL2a_adPN",
+              "synapses_to_next": 97
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 544736,
+              "type": "KCg-m",
+              "synapses_to_next": 33
+            },
+            {
+              "id": 10013,
+              "type": "MBON01",
+              "synapses_to_next": 89
+            },
+            {
+              "id": 10378,
+              "type": "AL-MBDL1",
+              "synapses_to_next": 63
+            },
+            {
+              "id": 11517,
+              "type": "lLN2T_c",
+              "synapses_to_next": 42
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        },
+        "45199": {
+          "10065": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 29
+            },
+            {
+              "id": 10495,
+              "type": "MBON05",
+              "synapses_to_next": 13
+            },
+            {
+              "id": 21242,
+              "type": "MBON09",
+              "synapses_to_next": 30
+            },
+            {
+              "id": 10804,
+              "type": "MBON20",
+              "synapses_to_next": 33
+            },
+            {
+              "id": 10065,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ],
+          "10118": [
+            {
+              "id": 45199,
+              "type": "KCg-m",
+              "synapses_to_next": 29
+            },
+            {
+              "id": 10495,
+              "type": "MBON05",
+              "synapses_to_next": 169
+            },
+            {
+              "id": 11145,
+              "type": "MBON20",
+              "synapses_to_next": 30
+            },
+            {
+              "id": 10118,
+              "type": "DNb05",
+              "synapses_to_next": null
+            }
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Anatomical paths in male v1.0 counts. Does not establish sign, effective transmission, timing, magnitude, or that this specific KC error affected DNb05 in the simulation."
+}

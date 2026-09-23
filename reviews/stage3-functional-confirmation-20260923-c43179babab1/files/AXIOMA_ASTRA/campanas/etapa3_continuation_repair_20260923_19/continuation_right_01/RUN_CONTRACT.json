@@ -1,0 +1,28 @@
+{
+  "schema": "full_organism_continuation_v1",
+  "engine": "reference_cuda",
+  "odor": "odor_right",
+  "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/reference_odor_right_01",
+  "first_step": 101,
+  "last_step": 400,
+  "field_reinstalled": false,
+  "baseline_reset": false,
+  "plan_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+  "checkpoint_manifest_sha256": "3b8ed741ae5de49912d049e4714359b374fc300e9d32621ad4e5cd29c2a197ee",
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/run_reference.py": "0a2b088b090d391c5f8915a53a744a62eaf0618b434e69a7a4d930de87937dad",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/mechanical_observer_original.py": "b3a7872607254944c9b4d0551024bda82c4a733151b9c662d5c17c91ada5f329",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/check_support.py": "3c18a30d779bec3b967d535a55a5774f77b87bab77449cb7e382828d9150767e",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/run_references.py": "f136913f173e7a69dcae02fe3bc5b34904c145012de87cb7227a01ca6618c81b",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/run_set.py": "bf6482c3bc3f0d5d8bc0ed275f8e9fb7cdeb74cd1736af225c29fe34b6a97336",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/chatgpt_verificador_original.py": "51ae660168bdfd4ba9595cf7362c6492354a708b93e3835d4f6c7f93c6e3ff54",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/causal_runtime_20260922/operator_state.py": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/PLAN.json": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/restore_checkpoint.py": "07bd7150ada9eb03ca27b8262c91c67c2445f73bd4219c23341b3f2f95c45a69",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/run_continuation.py": "8f167767cbad5dd5c0ae14a78eb0e71a9e321812f064302a99105361c5955332",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/REPAIR19_CONTRACT.json": "4f59b6040c06c778cc262ca5e60ff3ac55b19203f84c810ed8740fb2c7c5f8c8",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_continuation_repair_20260923_19/checkpoint_compare.py": "50bec77da3525abf30f68fe890f6fa759096a86400d8b7c147d21f6e91d8d0b2"
+  },
+  "wall_limit_s": 2050,
+  "stage3_admission": false
+}

@@ -1,0 +1,19 @@
+Continuamos con código y mediciones reales. Tu contrato funcional original se conservó y se ejecutó aquí sobre la traza derecha y dos corrupciones deliberadas, sin modificarlo. Cuatro brazos PN629 completos: yaw400ms sham+0.023686321°, izquierda+0.092888982°, derecha−0.058872200°, uniforme+0.021546°; siguen exploratorios. Cierre y114archivos:
+https://raw.githubusercontent.com/skynet-omega/openmatrix/4162b3377f2cadc570880faa80ff890768537808/reviews/stage3-pn629-four-arm-20260923-f7f30ab53be8/README.md
+
+Contrato nuevo registrado antes de referencias largas, con tus0.002°/L1 y controles causales; además conserva apoyo histórico0.9verticalidad,99%peso en patas,≤1%abdomen:
+https://raw.githubusercontent.com/skynet-omega/openmatrix/0189489f297984336e03e41d8044eef8ca31b5af/reviews/stage3-functional-preregistered-20260923-1ad133c15d61/README.md
+Referencia derecha400ms corriendo, sin cambiar biología. A92ms desdeON, diferencia de yaw≤5.21e−8°; no es todavíaPASS ni convergencia a solución exacta. Se registró el operador efectivo que faltaba en los snapshots diagnósticos anteriores. No atribuimos admisión a tu código.
+
+Encargo pesado de esta consulta: usar los resultados de TU sonda C++ para elegir una mejora genérica del motor, no un arregloPN. Tres controles reales1ms,104.372s totales, estados científicos/eventos exactos y decisiones mode0/1 exactas. Fuentes C++, generador original, graph_core.py, organismo/coefs y44archivos:
+https://raw.githubusercontent.com/skynet-omega/openmatrix/6de6d717e10359f1776160dbabeb0e7ddc491025/reviews/motor-native-control-real-probe-20260923-b9a6b47015ce/README.md
+
+Dos hallazgos para confrontar:
+1) NO usar un porcentaje GPU de104.5%: suma graph_interval2279.313ms > pared nativa2181.308ms. Por época cociente1.04025–1.04699. Host sincronización2120.481ms; lanzamientos47.568ms. Marcamos inconsistencia temporal sin normalizarla ni inventar causaWSL. ¿Defecto de la sonda, semántica o relojes? Propón un discriminador barato y finito. No repetir por repetir ni cambiar presupuestos para ocultarlo.
+2) Readback exacto de191 intentos en100 segmentos físicos,91 pasos interiores y100 colas por eventos/fin deépoca. minstep100ns,max1e6ns; error máximo0.252225. Al aceptar una cola corta se calcula next desde h reducido, aunque el corte lo impuso un evento. En una vida sham40+400ms:81297aceptaciones y4rechazos CNS;34053eventos incluyen predictor/aceptado. Esto no demuestra rigidez dominante ni permite inferir aceleración usando errores antiguos para pasos nuevos.
+
+Compara mínimo A/B/C sustanciales: A recuperar la propuesta previa tras cortes sin eliminar fronteras ni prueba de error/dominio; B método exponencial embebido que reduzca los seis barridos globales por intento, válido para el contrato de coeficientes realmente leído (no asumir lambda constante si no lo es); C integración espacial con forzamiento/influencia acotados, o justificar otra alternativa macro. Puede haber una cuarta. Un controlador residente por sí solo no elimina el trabajo interno del grafo.
+
+Entrega una pieza ejecutable concreta para la alternativa más defendible ahora: preferiblemente generador C++ que verifique SHA del padre y produzca una variante aislada, con matemáticas, riesgos y falsador sobre el organismo. No tocar el motor operativo; ejecutaremos una campaña nueva acotada después de las referencias. Conserva errores, eventos físicos, rollback, límites de dominio y tolerancias. Máximo dos prototipos completos por ronda; no incorporar cambios microscópicos inconexos. Si una alternativa ahorra como máximo2×, dilo: la meta1s/60s sigue lejos. El propósito es decidir qué trabajo algorítmico eliminar, no sólo mover instrucciones dePython aC++.
+
+Código completo y respuesta≤16000caracteres. Distingue lo que leíste/ejecutaste de propuestas; no simules conformidad con archivos inaccesibles. Esta es la única nueva consulta deChatGPT prevista enPLAN16.

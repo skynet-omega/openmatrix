@@ -1,0 +1,18 @@
+{
+  "schema": "stage3_flow_run_contract_v1",
+  "odor": "odor_left",
+  "engine": "reference_cuda",
+  "observer": "on",
+  "preparation_ms": 40,
+  "trial_ms": 400,
+  "checkpoint": "work/stage234_settling_extension_20260915/settled_700ms",
+  "checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "plan_sha256": "a33ac1bd9ee04edebb607c1faf89bd0066c1a5fcafa73269f7b14b4ba844f7ac",
+  "wall_limit_s": 2050,
+  "event_boundaries": true,
+  "biological_parameters_changed": false,
+  "interface_intervention": "PN629 disabled before preparation",
+  "stage3_admission": false,
+  "event_representation": "physical SET(post_q) from both LIF and gamma CUDA publishers; genuine ADD retained; no state clipping",
+  "native_sideband": "FP64 raw signed net before tanh in general and PN CUDA kernels"
+}

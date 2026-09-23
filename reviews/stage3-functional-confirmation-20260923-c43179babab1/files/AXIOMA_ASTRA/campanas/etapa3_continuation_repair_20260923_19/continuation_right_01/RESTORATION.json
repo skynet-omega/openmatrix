@@ -1,0 +1,25 @@
+{
+  "construction": {
+    "checkpoint_manifest_sha256": "3b8ed741ae5de49912d049e4714359b374fc300e9d32621ad4e5cd29c2a197ee",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "initial": {
+    "exact": true,
+    "different_path_count": 0,
+    "different_paths": [],
+    "compared_complete_trees": [
+      "session",
+      "prosthesis",
+      "published",
+      "effective_operator",
+      "boundary"
+    ],
+    "manifest_sha256": [
+      "3b8ed741ae5de49912d049e4714359b374fc300e9d32621ad4e5cd29c2a197ee",
+      "b836c1fe4e95315f9c8b3564f67929dd091896f9ceeab17597989cbc35fddcf0"
+    ]
+  }
+}

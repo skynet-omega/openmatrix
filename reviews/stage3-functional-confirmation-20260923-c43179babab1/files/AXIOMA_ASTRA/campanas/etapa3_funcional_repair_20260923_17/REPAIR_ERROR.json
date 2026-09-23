@@ -1,0 +1,6 @@
+{
+  "type": "ValueError",
+  "message": "Organism run failed: continuation_right_01",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/run_repair.py\", line 86, in <module>\n    try:code=main()\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/run_repair.py\", line 53, in main\n    need(code==0,'Organism run failed: '+name)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_repair_20260923_17/run_repair.py\", line 14, in need\n    if not ok:raise ValueError(message)\nValueError: Organism run failed: continuation_right_01\n",
+  "stage3_admission": false
+}

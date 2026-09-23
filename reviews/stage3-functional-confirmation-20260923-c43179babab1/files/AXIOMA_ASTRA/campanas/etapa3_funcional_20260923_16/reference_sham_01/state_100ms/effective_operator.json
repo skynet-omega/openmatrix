@@ -1,0 +1,118 @@
+{
+  "schema": "effective_operator_v2",
+  "bindings": {
+    "tau": [
+      "tau"
+    ],
+    "theta": [
+      "rate_theta"
+    ],
+    "gain": [
+      "rate_gain"
+    ],
+    "weights": [
+      "weights64"
+    ],
+    "cuda_tau": [
+      "cuda",
+      "tau"
+    ],
+    "cuda_theta": [
+      "cuda",
+      "theta"
+    ],
+    "cuda_gain": [
+      "cuda",
+      "gain"
+    ],
+    "cuda_weights": [
+      "cuda",
+      "weights"
+    ]
+  },
+  "values": {
+    "tau": {
+      "__array__": "array_0"
+    },
+    "theta": {
+      "__array__": "array_1"
+    },
+    "gain": {
+      "__array__": "array_2"
+    },
+    "weights": {
+      "__array__": "array_3"
+    },
+    "cuda_tau": {
+      "__array__": "array_4"
+    },
+    "cuda_theta": {
+      "__array__": "array_5"
+    },
+    "cuda_gain": {
+      "__array__": "array_6"
+    },
+    "cuda_weights": {
+      "__array__": "array_7"
+    }
+  },
+  "manifest": {
+    "tau": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+    },
+    "theta": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+    },
+    "gain": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "80aa8a4a2d377eff2112e27e5c047d8d3b778c4985e31c1d6857a0ca687f0b9d"
+    },
+    "weights": {
+      "shape": [
+        25582938
+      ],
+      "dtype": "<f8",
+      "sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999"
+    },
+    "cuda_tau": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "ab85f91f17abb5579a30b580e6018aa79cd39817146c1c54beca95b22bd9bde5"
+    },
+    "cuda_theta": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "2d8d5b00a8fdadce7bc519bdefd10ffb9a4e439ade064d55ad3a6cfb3d7922ec"
+    },
+    "cuda_gain": {
+      "shape": [
+        166700
+      ],
+      "dtype": "<f8",
+      "sha256": "80aa8a4a2d377eff2112e27e5c047d8d3b778c4985e31c1d6857a0ca687f0b9d"
+    },
+    "cuda_weights": {
+      "shape": [
+        25582938
+      ],
+      "dtype": "<f8",
+      "sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999"
+    }
+  },
+  "identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7"
+}

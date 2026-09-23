@@ -1,0 +1,19 @@
+{
+  "original_code_sha256": "51ae660168bdfd4ba9595cf7362c6492354a708b93e3835d4f6c7f93c6e3ff54",
+  "checks": {
+    "same_actual_trace_zero": true,
+    "short_transient_rejected": true,
+    "cancelling_commands_rejected": true
+  },
+  "input_hashes": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RESULT.json": "5b14f10794c7075f30a2d996b40ed2284d05653abfe5aab22550229c1f7b4ab3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RUN_CONTRACT.json": "19d618c0ff2cd8f3150af8b1b77da96651ee29508f62f7edee5012cf4deab1cc",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/traces.npz": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/FLOW.npz": "cec8386baa273272d2de4d01ed842562620b21abefbd9dbd9cfd11462b98703f",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/EVENT_AUDIT.json": "5396fff35fe26807f889bdf96bf4234470d016e496f3738887d209b6876d16ab"
+  },
+  "scope": "Local execution of unchanged external comparator on one real trace and corrupted copies. Not two-engine numerical agreement; no organism executed."
+}

@@ -1,0 +1,95 @@
+{
+  "stage3_admission": false,
+  "historical_gate": "FAIL_PRESERVADO",
+  "input_hashes": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RESULT.json": "5b14f10794c7075f30a2d996b40ed2284d05653abfe5aab22550229c1f7b4ab3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/RUN_CONTRACT.json": "19d618c0ff2cd8f3150af8b1b77da96651ee29508f62f7edee5012cf4deab1cc",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/traces.npz": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/FLOW.npz": "cec8386baa273272d2de4d01ed842562620b21abefbd9dbd9cfd11462b98703f",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/EVENT_AUDIT.json": "5396fff35fe26807f889bdf96bf4234470d016e496f3738887d209b6876d16ab",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/RESULT.json": "e31019056f8d615f70dcd4b9b276e4abaa345bd6447fd6246e9bd34215f2486a",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/RUN_CONTRACT.json": "f8be92e8452aaabf02380e2de40e7282f9ba55f2b2099bccd99eacde08e48088",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/INTERVENTION.json": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/FROZEN.json": "635b22ca0ea6eb69367a755b48c3793f80c8f338739528ca6b75412fcde31b93",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/traces.npz": "738d71470e7c2c80282582b4dc10ad4eb94405c75726045b87ee824dd0358266",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/flow/FLOW.npz": "d4946b82dd6eb90c70cf8069023c112c1fbe01e6ab1006651d4cac5bc5a1a1ae",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/flow/RESULT.json": "38c312a49723fc1b616f450cb8fc7d9c3e308076fdfd3c2d6bb2a8697bf7508a",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/EVENT_AUDIT.json": "d206962be27fed3186ffa1555606779a7d29a3c3714eb7fdae39b4eb5c04154a"
+  },
+  "pairs": {
+    "odor_right": {
+      "observation_pair_ok": true,
+      "yaw_sup_deg": 3.5432148592917656e-07,
+      "command_L1_deg": 5.220743709557838e-07,
+      "errors_by_trace_native_units": {
+        "sensores_usados": 0.0,
+        "sensores_pendientes": 0.0,
+        "antenas_mm": 8.062999212743449e-09,
+        "concentracion_campo": 0.0,
+        "ORN_q_L": 2.7425294674143785e-10,
+        "ORN_q_R": 1.146848449540272e-09,
+        "ORN_filters": 1.3689731293009544e-10,
+        "PN_q_legacy": 1.675559258007553e-08,
+        "PN_general_transmission": 1.0816568377092217e-08,
+        "PN_gamma_nS": 2.5526333668340895e-09,
+        "PN_additional_nS": 2.5980349659809887e-09,
+        "DN_q_actual": 1.5648642381904665e-09,
+        "DN_q_usada": 1.5648642381904665e-09,
+        "DN_baseline": 0.0,
+        "command_forward_mm_s": 0.0,
+        "command_yaw_rate_rad_s": 4.5975385295701776e-08,
+        "qpos": 3.02442620947474e-09,
+        "qvel": 4.4786398964869606e-08,
+        "position_mm": 2.1056383303630355e-09,
+        "yaw_delta_deg": 3.5432148592917656e-07,
+        "upright": 9.248157795127554e-14,
+        "normal_force_N": 3.715594726425714e-17,
+        "contact_force_N": 5.999161334734047e-17,
+        "generalized_force_native": 4.734461563731448e-12,
+        "energy_motor_J": 2.0112054216997837e-22
+      },
+      "targets_by_id": {
+        "10176": 3.909998539053383e-06,
+        "10208": 5.9168890902405735e-06,
+        "10360": 0.0,
+        "523769": 0.0,
+        "10065": 3.265367887195225e-08,
+        "10118": 4.84414479640094e-08
+      },
+      "raw_by_id": {
+        "10176": 0.05372088634612737,
+        "10208": 0.09034765342221363,
+        "10360": 0.03334235186764545,
+        "523769": 0.026958266048950463,
+        "10065": 0.001445793499442516,
+        "10118": 0.0015486409211007413
+      },
+      "discrete_trace_changes": {},
+      "events": {
+        "status": "DESCRIPTIVO; no nuevo gate discreto",
+        "predictor_counts": [
+          11506,
+          11507
+        ],
+        "accepted_counts": [
+          22831,
+          22831
+        ],
+        "count_differences": [],
+        "max_ordinal_time_ns": 6250.0,
+        "max_post_q": 1.0750491988453792e-05
+      }
+    }
+  },
+  "orientation": {
+    "status": "PENDIENTE_CUATRO_BRAZOS",
+    "complete": false
+  },
+  "observations_concordant": true,
+  "remaining": "Retirada del lector en organismo acoplado y continuación propia no verificadas por este analizador. Sin certificado entre muestras ni de error respecto de la solución exacta.",
+  "status": "ANALISIS_COMPLETO",
+  "code_sha256": "51ae660168bdfd4ba9595cf7362c6492354a708b93e3835d4f6c7f93c6e3ff54"
+}
