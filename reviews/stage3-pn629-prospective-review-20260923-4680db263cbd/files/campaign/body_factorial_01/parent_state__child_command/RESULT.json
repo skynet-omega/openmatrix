@@ -1,0 +1,38 @@
+{
+  "schema": "body_only_command_replay_v1",
+  "name": "parent_state__child_command",
+  "status": "COMPLETE",
+  "scope": "Saved body and synthetic contact prosthesis only; no CNS, odor or biological intervention",
+  "prepared_source": {
+    "state": {
+      "prepared_manifest_sha256": "a4d854f43c7ebb2394af1da8aa231dc9995f77b4935ad218a48f66bd305eccbe",
+      "source_trace_sha256": "9205ca64ded343335b0ab432d270f92157f0bc5942b272805e6cf0f6429363f9",
+      "controller_sha256": "040f182a941ffcb9c943b251dd6fd31c9b070da846ad24f968465ed4b34422c7",
+      "body_replay_source_sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d",
+      "plan_sha256": "c0d5356aeae5d26f6c14fa941b1ad85e1d175ba913943e28ef4b31b15afd760b",
+      "factorial_plan_sha256": "8ff938e8836561787dbb7dc900efa195fc8cb92ab830510fdff12f6e67023d4e"
+    },
+    "command": {
+      "prepared_manifest_sha256": "484437bd4e95a4f2848ece11eca8e2bcb2c1908a83cd2635c1a179b10db1fe58",
+      "source_trace_sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+      "controller_sha256": "040f182a941ffcb9c943b251dd6fd31c9b070da846ad24f968465ed4b34422c7",
+      "body_replay_source_sha256": "d643ada3394d63fd9622adba9f353d66a7dbf4202307d07adc2609c864a7729d",
+      "plan_sha256": "c0d5356aeae5d26f6c14fa941b1ad85e1d175ba913943e28ef4b31b15afd760b",
+      "factorial_plan_sha256": "8ff938e8836561787dbb7dc900efa195fc8cb92ab830510fdff12f6e67023d4e"
+    }
+  },
+  "initial_integration_sha256": "2f6e94e97597449b754bcf19a0e566b11c32fa0604b5b4328ca7d4beddc8445d",
+  "dt_us": 25,
+  "ms": 400,
+  "final_yaw_deg": 0.023790080863591356,
+  "command_integral_deg": 0.026500215523411707,
+  "contact_count_min": 4,
+  "contact_count_max": 4,
+  "reference_errors": {
+    "max_qpos_abs": null,
+    "max_qvel_abs": null,
+    "max_yaw_deg_abs": null
+  },
+  "wall_s": 11.139806944003794,
+  "stage3_admission": false
+}

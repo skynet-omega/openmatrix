@@ -1,0 +1,14 @@
+{
+  "scope": "Prospective inexpensive decomposition of the observed PN629 sham change; no new CNS execution or stage3 criterion",
+  "observation_before_plan": "400ms sham changed from +0.075606563 degrees in parent to +0.023686321 degrees with PN629 disabled before preparation",
+  "rivals": {
+    "A": "Changed neural commands explain the yaw change",
+    "B": "Changed prepared mechanical/controller state explains the yaw change",
+    "C": "An interaction between prepared state and command is material"
+  },
+  "operation": "2x2 body/controller prepared state (parent or PN629-disabled) crossed with saved sham command stream (parent or PN629-disabled), 400ms and identical MuJoCo/controller implementation",
+  "gates": {"matched_qpos_qvel_max_abs": 1e-8, "matched_yaw_max_abs_deg": 1e-6},
+  "decision": "Report additive command and prepared-state effects at parent plus factorial interaction; no winner chosen by a fitted threshold, no recalibration",
+  "budget": {"CPU_body_runs_max": 4, "CPU_wall_total_s_max": 240, "RAM_GiB_max": 4, "GPU_runs": 0, "new_organism_runs": 0, "external_calls": 0},
+  "stop": "Run two matched controls first; stop on failed reproduction, nonfinite, warning or budget. Otherwise run two crossed controls. Preserve originals."
+}
