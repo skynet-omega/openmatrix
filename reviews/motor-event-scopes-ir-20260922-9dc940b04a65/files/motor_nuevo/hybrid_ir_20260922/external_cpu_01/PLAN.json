@@ -1,0 +1,19 @@
+{
+  "plan": {
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "convergencia": 1e-09,
+    "iteraciones": 24,
+    "error_externo": 0.0001,
+    "ventana": 0.125,
+    "muestras_segmento": 33,
+    "segundos": 1.0,
+    "cpu_max_s": 60,
+    "ram_max_bytes": 2147483648
+  },
+  "python": "3.10.18",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "modelos": [],
+  "sha256": "a43e828372091f7895992bf638e29a2d4ef75927d4bc875e2ec62103aa8ec287"
+}

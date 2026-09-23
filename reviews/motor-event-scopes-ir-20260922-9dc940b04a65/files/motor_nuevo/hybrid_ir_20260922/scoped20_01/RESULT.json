@@ -1,0 +1,210 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "variant": "guard",
+  "mode": "scoped",
+  "effective_event_policy": {
+    "scoped_epochs": 320,
+    "global_cuts": 0
+  },
+  "ms": 20,
+  "requested_ms": 20,
+  "wall_s": 52.14416937000351,
+  "times": [
+    {
+      "step": 1,
+      "advance_s": 2.3388895000098273,
+      "observation_s": 0.0009795229998417199
+    },
+    {
+      "step": 2,
+      "advance_s": 1.9807077629957348,
+      "observation_s": 0.001257758995052427
+    },
+    {
+      "step": 3,
+      "advance_s": 1.8217143980436958,
+      "observation_s": 0.0009875329560600221
+    },
+    {
+      "step": 4,
+      "advance_s": 1.7635834999964572,
+      "observation_s": 0.0015470419893972576
+    },
+    {
+      "step": 5,
+      "advance_s": 1.7494684450211935,
+      "observation_s": 0.0009721629903651774
+    },
+    {
+      "step": 6,
+      "advance_s": 1.8530650970060378,
+      "observation_s": 0.000983556965366006
+    },
+    {
+      "step": 7,
+      "advance_s": 1.7459527860046364,
+      "observation_s": 0.0009745259885676205
+    },
+    {
+      "step": 8,
+      "advance_s": 1.7985717019764706,
+      "observation_s": 0.0009803579887375236
+    },
+    {
+      "step": 9,
+      "advance_s": 1.784459488990251,
+      "observation_s": 0.0009779909742064774
+    },
+    {
+      "step": 10,
+      "advance_s": 1.6871170019730926,
+      "observation_s": 0.0009430120117031038
+    },
+    {
+      "step": 11,
+      "advance_s": 1.7928204500349239,
+      "observation_s": 0.0010207360028289258
+    },
+    {
+      "step": 12,
+      "advance_s": 1.759375014982652,
+      "observation_s": 0.0009404399897903204
+    },
+    {
+      "step": 13,
+      "advance_s": 1.7527174290153198,
+      "observation_s": 0.0010005560470744967
+    },
+    {
+      "step": 14,
+      "advance_s": 1.6995695969671942,
+      "observation_s": 0.0009847420151345432
+    },
+    {
+      "step": 15,
+      "advance_s": 1.6078929429640993,
+      "observation_s": 0.0009510319796390831
+    },
+    {
+      "step": 16,
+      "advance_s": 1.604926856001839,
+      "observation_s": 0.0010295649990439415
+    },
+    {
+      "step": 17,
+      "advance_s": 1.709653741971124,
+      "observation_s": 0.0011244170018471777
+    },
+    {
+      "step": 18,
+      "advance_s": 1.7001585730467923,
+      "observation_s": 0.0010530040017329156
+    },
+    {
+      "step": 19,
+      "advance_s": 1.758866105985362,
+      "observation_s": 0.00101055100094527
+    },
+    {
+      "step": 20,
+      "advance_s": 1.7196562510216609,
+      "observation_s": 0.001008629973512143
+    }
+  ],
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "event_guard",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/transient_localization_20260922/event_guard.py",
+        "sha256": "8b1398d3a23a53605d0a4a23a61e8114ba206530bcd58499373508e5dea0e125"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 320,
+      "accepted": 2779418,
+      "rejected": 881085,
+      "build_s": 0.0026017039781436324,
+      "native_wall_s": 17.69796341919573,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6055936,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "event_guard_step_ns": 1562,
+      "event_guard_threshold_mV": -40.0,
+      "event_detection": "unchanged sampled local maximum; no continuous-root claim",
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        82.0,
+        82.0
+      ]
+    },
+    "CNS": {
+      "epochs": 320,
+      "accepted": 373,
+      "rejected": 33,
+      "build_s": 0.20626670197816566,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 320,
+      "accepted": 320,
+      "rejected": 0,
+      "build_s": 2.281111766002141,
+      "wall_s": 4.665092424373142,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 640,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 320,
+      "events": 1563,
+      "max_q_reconstruction_difference": 2.831068712794149e-15,
+      "global_trials": 406,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 160,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 990
+    }
+  },
+  "stage3_admission": false
+}

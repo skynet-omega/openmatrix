@@ -1,0 +1,32 @@
+{
+  "objective": "Execute a general event/continuous-coupling prototype and measure the actual complete CNS, with code-producing ChatGPT review; keep biological equations and A/B/C alternatives.",
+  "budget": {
+    "organism_loads": 4,
+    "seconds_per_load": 300,
+    "aggregate_organism_seconds": 1200,
+    "small_CPU_runs": 10,
+    "small_GPU_runs": 10,
+    "CNS_replays": 12,
+    "full_numerical_prototypes": 2,
+    "Jev_requests": 1,
+    "RAM_GiB": 18,
+    "VRAM_GiB": 14
+  },
+  "alternatives": {
+    "A": "Globally coupled implicit residual, including non-diagonal mass and exact recurrence; retain previous negative cost evidence.",
+    "B": "Waveform/multirate coupling with model-declared event dependencies and corrected recurrent trajectories, reducing global work imposed by local events.",
+    "C": "Compiled effective operator/dependency program with persistent state and batched sparse products; retain ordinary temporal discretization initially.",
+    "D": "High-order explicit full-operator integration as additional rival, not parent/control."
+  },
+  "selection": "First inspect the actual operator and event propagation. Build at most2 complete numerical prototypes; a code-only abstract framework is not a completed milestone. ChatGPT produces runnable numerical code independently while local work extracts real dependencies.",
+  "criteria": {
+    "normalized_state_limit": 0.0001,
+    "no_nonfinite": true,
+    "discrete_identities_exact": true,
+    "material_speedup_complete_advance": 2,
+    "preserve_source_equations_and_detector": true,
+    "events": "Keep exact model-declared jumps. Do not identify absence of spikes with absent graded influence. Retain separate event timing/count diagnostics.",
+    "stage3": "Speed target is operational, not biological. Passing a small fixture or peer agreement is not admission."
+  },
+  "execution": "One GPU load at a time. Exact new adapter baseline if compared. Freeze sources and parameters before each experiment, do not extend budgets after failures. No Codex subagents."
+}

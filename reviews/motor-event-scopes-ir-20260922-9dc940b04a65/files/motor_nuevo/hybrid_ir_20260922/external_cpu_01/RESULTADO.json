@@ -1,0 +1,175 @@
+{
+  "plan": {
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "convergencia": 1e-09,
+    "iteraciones": 24,
+    "error_externo": 0.0001,
+    "ventana": 0.125,
+    "muestras_segmento": 33,
+    "segundos": 1.0,
+    "cpu_max_s": 60,
+    "ram_max_bytes": 2147483648
+  },
+  "python": "3.10.18",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "modelos": [
+    {
+      "caso": 0,
+      "error_max": {
+        "referencia": 0.0,
+        "global": 6.916617278918125e-11,
+        "iterado": 6.623873671784963e-11,
+        "congelado": 0.03366065270843706
+      },
+      "medidas": {
+        "referencia": {
+          "pared_s": 0.10626160999527201,
+          "cpu_s": 0.10461229999999996,
+          "rhs": 8756,
+          "filas_puerto": 8756,
+          "solves_masa": 8756,
+          "iteraciones": 0,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "global": {
+          "pared_s": 0.007137665990740061,
+          "cpu_s": 0.010910400000000042,
+          "rhs": 674,
+          "filas_puerto": 674,
+          "solves_masa": 674,
+          "iteraciones": 0,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "iterado": {
+          "pared_s": 0.2833377849892713,
+          "cpu_s": 0.30545779999999995,
+          "rhs": 15574,
+          "filas_puerto": 15574,
+          "solves_masa": 15574,
+          "iteraciones": 79,
+          "rhs_control": 10428,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "congelado": {
+          "pared_s": 0.008865189040079713,
+          "cpu_s": 0.0,
+          "rhs": 674,
+          "filas_puerto": 674,
+          "solves_masa": 674,
+          "iteraciones": 11,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "contraste_correcto": true
+    },
+    {
+      "caso": 1,
+      "error_max": {
+        "referencia": 0.0,
+        "global": 3.4237193635711094e-10,
+        "iterado": 2.9089999853404436e-10,
+        "congelado": 0.00928437060396825
+      },
+      "medidas": {
+        "referencia": {
+          "pared_s": 0.09812466701259837,
+          "cpu_s": 0.10910920000000002,
+          "rhs": 8432,
+          "filas_puerto": 8432,
+          "solves_masa": 8432,
+          "iteraciones": 0,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "global": {
+          "pared_s": 0.0072977530071511865,
+          "cpu_s": 0.010892299999999966,
+          "rhs": 764,
+          "filas_puerto": 764,
+          "solves_masa": 764,
+          "iteraciones": 0,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "iterado": {
+          "pared_s": 0.1477661560056731,
+          "cpu_s": 0.16363870000000003,
+          "rhs": 8729,
+          "filas_puerto": 8729,
+          "solves_masa": 8729,
+          "iteraciones": 44,
+          "rhs_control": 5808,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "congelado": {
+          "pared_s": 0.009562605991959572,
+          "cpu_s": 0.010909200000000063,
+          "rhs": 719,
+          "filas_puerto": 719,
+          "solves_masa": 719,
+          "iteraciones": 11,
+          "rhs_control": 0,
+          "eventos_confirmados": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "contraste_correcto": true
+    }
+  ],
+  "sha256": "a43e828372091f7895992bf638e29a2d4ef75927d4bc875e2ec62103aa8ec287",
+  "pruebas": {
+    "rechazo_sin_publicar": true,
+    "dominio_transaccional": true,
+    "orden_ADD_SET": true,
+    "error_masa": 5.551115123125783e-17
+  },
+  "estado": "COMPLETO",
+  "pared_s": 0.7111460120067932,
+  "cpu_s": 0.8585986,
+  "rss_mib": 74.26953125,
+  "alcance": "CPU serial; eventos prescritos; masa por bloque; error muestreado, no certificado continuo; no organismo"
+}

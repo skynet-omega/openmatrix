@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-ledger-critique-20260922](reviews/motor-ledger-critique-20260922-e5c04fc6957b/README.md)
+[motor-event-scopes-ir-20260922](reviews/motor-event-scopes-ir-20260922-9dc940b04a65/README.md)
 
-Post-review ADD/SET ledger fix with real CPU-to-CUDA counterexample; Gemini criticism tested against existing snapshots. No new organism simulation or speedup. Self-contained fixtures and descriptive snapshot analysis; previous full campaign77611a3 remains immutable.
+Complete-organism20/50ms event-scope comparisons:2.06/2.08x faster, original numerical short criteria retained. ChatGPT executable CPU prototype reproduced, negative serial cost retained, dimensional IR bridge tested. Source/arrays, not stage3 admission. Static organism assets excluded; short verification self-contained.

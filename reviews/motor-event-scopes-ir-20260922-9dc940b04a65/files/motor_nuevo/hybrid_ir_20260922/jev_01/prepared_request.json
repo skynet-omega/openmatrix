@@ -1,0 +1,43 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "purpose": "Advisory triage of event dependencies in a general neuronal engine; never choose a solver or grant scientific PASS.",
+    "code": {
+      "base": "target[transmission_start:]=released(state[:n]); base neuron inputs use state[transmission_start:]. Adapter finally sets target[q_event_rows]=state[q_event_rows],rate=0 and target[s_event_rows]=state[s_event_rows],rate=0.",
+      "receptor": "source_rows=declared_rows; activation=K*state[source_rows]*caps[source_rows]; target=activation/(activation+B);rate=activation+B. Unknown overlap between source_rows and event_rows.",
+      "regional": "kernel computes x,b,sax targets; outer model sets target[x_rows]=state[x_rows],rate=0 and target[sax_rows]=state[sax_rows],rate=0. Reads/writes of b need inspection."
+    }
+  },
+  "questions": {
+    "base": {
+      "type": "choice",
+      "instructions": "Classify only what the provided final dependency information establishes for base. Prefer needs_dependency_proof when index overlap or consumers remain unspecified.",
+      "criteria": {
+        "discontinuous_rhs": "A jump of an owned state can change a free right-hand side instantly.",
+        "continuous_filtered": "Jump reaches this live equation only through continuous filtered state.",
+        "overwritten": "The contribution is computed but overridden before final RHS consumption.",
+        "needs_dependency_proof": "Snippet alone does not identify the final consumers or active masks."
+      }
+    },
+    "receptor": {
+      "type": "choice",
+      "instructions": "Classify only what the provided final dependency information establishes for receptor. Prefer needs_dependency_proof when index overlap or consumers remain unspecified.",
+      "criteria": {
+        "discontinuous_rhs": "A jump of an owned state can change a free right-hand side instantly.",
+        "continuous_filtered": "Jump reaches this live equation only through continuous filtered state.",
+        "overwritten": "The contribution is computed but overridden before final RHS consumption.",
+        "needs_dependency_proof": "Snippet alone does not identify the final consumers or active masks."
+      }
+    },
+    "regional": {
+      "type": "choice",
+      "instructions": "Classify only what the provided final dependency information establishes for regional. Prefer needs_dependency_proof when index overlap or consumers remain unspecified.",
+      "criteria": {
+        "discontinuous_rhs": "A jump of an owned state can change a free right-hand side instantly.",
+        "continuous_filtered": "Jump reaches this live equation only through continuous filtered state.",
+        "overwritten": "The contribution is computed but overridden before final RHS consumption.",
+        "needs_dependency_proof": "Snippet alone does not identify the final consumers or active masks."
+      }
+    }
+  }
+}

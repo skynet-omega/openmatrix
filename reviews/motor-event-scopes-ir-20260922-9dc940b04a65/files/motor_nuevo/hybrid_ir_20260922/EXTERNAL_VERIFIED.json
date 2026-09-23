@@ -1,0 +1,50 @@
+{
+  "code_sha256": "a43e828372091f7895992bf638e29a2d4ef75927d4bc875e2ec62103aa8ec287",
+  "local_CPU_evidence": [
+    {
+      "case": 0,
+      "errors": {
+        "referencia": 0.0,
+        "global": 6.916617278918125e-11,
+        "iterado": 6.623873671784963e-11,
+        "congelado": 0.03366065270843706
+      },
+      "contrast_pass": true,
+      "serial_B_over_global_time": 39.696139516314595,
+      "rhs_counts": {
+        "iterado": 15574,
+        "global": 674,
+        "referencia": 8756,
+        "congelado": 674
+      }
+    },
+    {
+      "case": 1,
+      "errors": {
+        "referencia": 0.0,
+        "global": 3.4237193635711094e-10,
+        "iterado": 2.9089999853404436e-10,
+        "congelado": 0.00928437060396825
+      },
+      "contrast_pass": true,
+      "serial_B_over_global_time": 20.248171712700426,
+      "rhs_counts": {
+        "iterado": 8729,
+        "global": 764,
+        "referencia": 8432,
+        "congelado": 719
+      }
+    }
+  ],
+  "IR_bridge_errors": {
+    "referencia": 0.0,
+    "global": 1.917027647735381e-11,
+    "iterado": 1.279670813758571e-11
+  },
+  "corruptions_detected": [
+    "criterion",
+    "flag",
+    "raw_state"
+  ],
+  "scope": "Local raw arrays and criteria verified; external remote arrays not downloaded. No organism execution by ChatGPT."
+}

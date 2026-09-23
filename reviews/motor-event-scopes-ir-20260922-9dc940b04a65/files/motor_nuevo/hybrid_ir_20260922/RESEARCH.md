@@ -1,0 +1,11 @@
+# Decisiones apoyadas por fuentes primarias
+
+Consulta22-09-2026. Estas fuentes son antecedentes, no validaciones del organismo local.
+
+1. [Hahne et al., Integration of continuous-time dynamics in a spiking neural network simulator](https://arxiv.org/abs/1610.09990). Distingue comunicación por eventos e interacciones continuas y separa dinámica de infraestructura de conexión/comunicación. Decisión: el motor admite estados graduados y puertos temporales; no identificar ausencia de espigas con ausencia de influencia. Falsador local: añadir un lector directo de un estado que salta debe recuperar la barrera, aunque el resto del modelo use filtros.
+2. [Bolten y Hahne, Using ODE waveform-relaxation methods to efficiently include gap junctions](https://arxiv.org/abs/2105.06404). Investiga partición en subsistemas e iteración de trayectorias para acoplamiento continuo. Decisión: pedir una referencia ejecutable con realimentación iterada y compararla con integración global, incluyendo el control de realimentación congelada. Su rendimiento distribuido no predice el de una sola GPU ni elimina el coste de iteraciones locales.
+3. [Arbor, Cable cell probing and sampling](https://docs.arbor-sim.org/en/latest/cpp/probe_sample.html). Documenta muestreo agrupado por intervalos. Decisión: conservar separación observación/avance; no convertir telemetría en sincronización neuronal obligatoria. Los tiempos actuales de captura se miden por separado; no se presume que sean el cuello dominante.
+
+La nueva prueba local reduce barreras del planificador con una declaración verificable de dependencias del RHS efectivo. No equivale todavía al algoritmo de trayectorias iteradas de la segunda fuente, ni afirma novedad matemática. El certificado sólo comprende dependencia directa de saltos en el operador explícito ya reducido; una matriz de masa que mezcle ecuaciones requiere propagar esas dependencias al resolverla. No se admite aplicar este certificado sin más a DAE, retardos o masa no diagonal.
+
+Autocrítica: el encargo inicial a ChatGPT incluyó dos rutas secundarias inferidas que pueden no existir; la evidencia principal sí estaba publicada. Las siguientes entregas usarán rutas del manifiesto real y código completo, reduciendo tiempo perdido en reconstruir contexto.

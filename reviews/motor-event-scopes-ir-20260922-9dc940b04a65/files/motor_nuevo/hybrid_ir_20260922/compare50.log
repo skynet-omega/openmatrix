@@ -1,0 +1,148 @@
+{
+  "ms": 50,
+  "short_screen": true,
+  "speedup": 2.08143438480762,
+  "snapshots": {
+    "1": {
+      "normalized_state_max_abs": 2.91068336665673e-07,
+      "gate_max_abs": 8.328893130737924e-12,
+      "voltage_max_abs_mV": 2.401683474317906e-08,
+      "changed_discrete_fields": []
+    },
+    "5": {
+      "normalized_state_max_abs": 1.8994602381805503e-06,
+      "gate_max_abs": 1.317169151526798e-09,
+      "voltage_max_abs_mV": 9.584090463476969e-07,
+      "changed_discrete_fields": []
+    },
+    "20": {
+      "normalized_state_max_abs": 1.254337891059415e-05,
+      "gate_max_abs": 5.996382629325225e-08,
+      "voltage_max_abs_mV": 9.249340692463193e-06,
+      "changed_discrete_fields": []
+    },
+    "50": {
+      "normalized_state_max_abs": 2.9687200635675204e-05,
+      "gate_max_abs": 7.99174526555646e-07,
+      "voltage_max_abs_mV": 2.3822743056456375e-05,
+      "changed_discrete_fields": []
+    }
+  },
+  "endpoint_screen": {
+    "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/hybrid_ir_20260922/baseline50_01",
+    "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/hybrid_ir_20260922/scoped50_01",
+    "verifier_revision": 2,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 1.4854810679310049e-05,
+      "normalized_state_max_abs": 2.9687200635675204e-05,
+      "gates_max_abs": 7.99174526555646e-07,
+      "yaw_trace_max_abs_deg": 6.272412633734348e-08,
+      "root_position_max_abs_m": 3.484957981914061e-11,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    },
+    "limits": {
+      "PN_voltage_max_abs_mV": 0.005,
+      "normalized_state_max_abs": 0.0001,
+      "gates_max_abs": 0.0001,
+      "yaw_trace_max_abs_deg": 0.0001,
+      "root_position_max_abs_m": 1e-06
+    },
+    "exact_all_leaves": false,
+    "histories": {
+      "/pn_online_state/base/apl_receptor": {
+        "max_abs": 8.416585706161328e-09,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44496000000,
+          44496125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/GABA": {
+        "max_abs": 3.6083026472288893e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44496000000,
+          44496125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/Glu": {
+        "max_abs": 9.30571293411564e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44496000000,
+          44496125000
+        ],
+        "knots": 3
+      }
+    },
+    "history_normalized_limit": 0.0001,
+    "unexpected_layouts": [],
+    "changed_flags": [],
+    "changed_exact_fields": [],
+    "screen_pass": true,
+    "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+  },
+  "uncovered_fields": 67,
+  "performance": {
+    "baseline50_01": {
+      "advance_s": 183.6058311513043,
+      "wall_s": 200.50449081102852,
+      "observation_s": 0.05257359112147242,
+      "membrane_s": 44.67717049946077,
+      "PN_s": 11.933781003463082,
+      "remainder_s": 126.99487964838045,
+      "CNS": {
+        "epochs": 800,
+        "accepted": 9562,
+        "rejected": 0,
+        "build_s": 0.17518157995073125,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "event_policy": {
+        "scoped_epochs": 0,
+        "global_cuts": 3960
+      },
+      "simulated_ms": 50,
+      "ratio_to_operational_time_budget": 61.201943717101436
+    },
+    "scoped50_01": {
+      "advance_s": 88.21120304893702,
+      "wall_s": 105.00164744001813,
+      "observation_s": 0.05191220005508512,
+      "membrane_s": 45.4535113312304,
+      "PN_s": 11.522629253275227,
+      "remainder_s": 31.235062464431394,
+      "CNS": {
+        "epochs": 800,
+        "accepted": 862,
+        "rejected": 40,
+        "build_s": 0.19362127303611487,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "event_policy": {
+        "scoped_epochs": 800,
+        "global_cuts": 0
+      },
+      "simulated_ms": 50,
+      "ratio_to_operational_time_budget": 29.403734349645674
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "continuous_free_rhs": true,
+  "affected_rows": [],
+  "reasons": [],
+  "zero_rows": 11242,
+  "meaning": "Direct jump dependence only; controller must still estimate temporal error.",
+  "identity": "d9f5e2c7e77738a6e03c6524e59776336c2c39c29bf9dfb071611381d98d615f",
+  "sources": {
+    "gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "coefficient_buffer_brain.py": "25717e5fbe5f4337ba4e7bec84a26bfef4ef9a42e7cef01e259aaff91b08d12e",
+    "orn_peripheral_terminal_brain.py": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35",
+    "pn_general_output_brain.py": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4",
+    "olfactory_endogenous_brain.py": "481ce2e06964114b4925e15d46f407e2e86488fe3d7eb880b65ceb7f9fdf62e2",
+    "kc_axonal_brain.py": "7482a86a9846c6ba8d4911790daf60bf8f3db2a75fe695c1a74ae5626c584245",
+    "kc_apl_dynamic_brain.py": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4",
+    "kcgamma_output_brain.py": "c6b222a5d7d36450538de288aef10d45722cd707592a4c3d8ca61b40e79999ab",
+    "pnkc_receptor_brain.py": "7e204d94fcd0a0297042a45f824b470534e6efe2efbaf7d259e93f654af5825d",
+    "lamina_boundary_brain.py": "4594ceeab95732e910d3ebfc5274300301d7c5c6b37217ba61b265899291203b",
+    "cvn7_conductance_brain.py": "481730f42151962d8b8f6a8305cca31be1a11b480e244b2bda4ce1bd9bd99ad6",
+    "retinal_transduction_brain.py": "8400c52cb3e8618d92b6aebd04160fbf660f32be83c39b0f5de37e60065c4476",
+    "t4_gaba_brain.py": "08496a69ae70467a591530a8330eab21fb8664a3582e0eaab1f95d5fc6b51bb2",
+    "kcgamma_regional_brain.py": "3eb7fae8d7254c5cfe70cfad3748a71174dc9e4c4fd4995d84e7de1084303ed4",
+    "prosthetic_olfactory_brain.py": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6",
+    "pvlp_adaptation_brain.py": "a90c83240b39fdf135423ae8990d0423f99d4cbc1e2aacc4821e6fa16e1cf7a7",
+    "cyborg_retinal_port.py": "eb2bd8731305d1664da04b0e6e13d4cc3c312af729f5af59793da378157b4328",
+    "gpu_measured_t4_visual_brain.py": "e852f313c80e28ca86e546f8cc9d148ff7093088f63e2e8ca6c4f24fafa47cf5",
+    "gpu_synaptic_visual_brain.py": "9736b37ab1e7abd42445ba314140a8002b681951ca43ebf191be7b8ca42b1e23"
+  },
+  "jump_rows": 4062,
+  "scope": "Pinned complete target/rate operator. Does not include source membrane RHS, mass, delays or body in this certificate.",
+  "actual_full_RHS_probe_errors": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

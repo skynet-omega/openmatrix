@@ -1,0 +1,142 @@
+{
+  "ms": 20,
+  "short_screen": true,
+  "speedup": 2.0628062823487303,
+  "snapshots": {
+    "1": {
+      "normalized_state_max_abs": 2.91068336665673e-07,
+      "gate_max_abs": 8.328893130737924e-12,
+      "voltage_max_abs_mV": 2.401683474317906e-08,
+      "changed_discrete_fields": []
+    },
+    "5": {
+      "normalized_state_max_abs": 1.8994602381805503e-06,
+      "gate_max_abs": 1.317169151526798e-09,
+      "voltage_max_abs_mV": 9.584090463476969e-07,
+      "changed_discrete_fields": []
+    },
+    "20": {
+      "normalized_state_max_abs": 1.254337891059415e-05,
+      "gate_max_abs": 5.996382629325225e-08,
+      "voltage_max_abs_mV": 9.249340692463193e-06,
+      "changed_discrete_fields": []
+    }
+  },
+  "endpoint_screen": {
+    "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/hybrid_ir_20260922/baseline20_01",
+    "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/hybrid_ir_20260922/scoped20_01",
+    "verifier_revision": 2,
+    "metrics": {
+      "PN_voltage_max_abs_mV": 9.249340692463193e-06,
+      "normalized_state_max_abs": 1.254337891059415e-05,
+      "gates_max_abs": 5.996382629325225e-08,
+      "yaw_trace_max_abs_deg": 6.188059842315852e-09,
+      "root_position_max_abs_m": 3.1247001514023154e-12,
+      "final_event_counts_exact": true,
+      "finite": true,
+      "endpoint_clock_exact": true,
+      "model_metadata_exact": true
+    },
+    "limits": {
+      "PN_voltage_max_abs_mV": 0.005,
+      "normalized_state_max_abs": 0.0001,
+      "gates_max_abs": 0.0001,
+      "yaw_trace_max_abs_deg": 0.0001,
+      "root_position_max_abs_m": 1e-06
+    },
+    "exact_all_leaves": false,
+    "histories": {
+      "/pn_online_state/base/apl_receptor": {
+        "max_abs": 2.6159673871539724e-09,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44466000000,
+          44466125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/GABA": {
+        "max_abs": 2.2816476996645463e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44466000000,
+          44466125000
+        ],
+        "knots": 3
+      },
+      "/pn_online_state/receptors/Glu": {
+        "max_abs": 4.231958929401536e-07,
+        "segments": [
+          2,
+          2
+        ],
+        "future_interval_ns": [
+          44466000000,
+          44466125000
+        ],
+        "knots": 3
+      }
+    },
+    "history_normalized_limit": 0.0001,
+    "unexpected_layouts": [],
+    "changed_flags": [],
+    "changed_exact_fields": [],
+    "screen_pass": true,
+    "scope": "Short numerical transport screen only. History channel layout, all discrete identities and physical clocks exact; no long-time certification."
+  },
+  "uncovered_fields": 67,
+  "performance": {
+    "baseline20_01": {
+      "advance_s": 73.49606878811028,
+      "wall_s": 91.75946375099011,
+      "observation_s": 0.02139896195149049,
+      "membrane_s": 18.18024228484137,
+      "PN_s": 4.656930118449964,
+      "remainder_s": 50.658896384818945,
+      "CNS": {
+        "epochs": 320,
+        "accepted": 3718,
+        "rejected": 0,
+        "build_s": 0.23142294195713475,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "event_policy": {
+        "scoped_epochs": 0,
+        "global_cuts": 1563
+      },
+      "simulated_ms": 20,
+      "ratio_to_operational_time_budget": 61.2467239900919
+    },
+    "scoped20_01": {
+      "advance_s": 35.629166644008365,
+      "wall_s": 52.14416937000351,
+      "observation_s": 0.020727136870846152,
+      "membrane_s": 17.69796341919573,
+      "PN_s": 4.665092424373142,
+      "remainder_s": 13.266110800439492,
+      "CNS": {
+        "epochs": 320,
+        "accepted": 373,
+        "rejected": 33,
+        "build_s": 0.20626670197816566,
+        "device_bytes": 55914496,
+        "event_capacity_per_cell_per_epoch": 8,
+        "mandatory_event_boundaries": true
+      },
+      "event_policy": {
+        "scoped_epochs": 320,
+        "global_cuts": 0
+      },
+      "simulated_ms": 20,
+      "ratio_to_operational_time_budget": 29.690972203340305
+    }
+  }
+}
