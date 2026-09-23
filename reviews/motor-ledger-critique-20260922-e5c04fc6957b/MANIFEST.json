@@ -1,0 +1,142 @@
+{
+  "format_version": 2,
+  "label": "motor-ledger-critique-20260922",
+  "description": "Post-review ADD/SET ledger fix with real CPU-to-CUDA counterexample; Gemini criticism tested against existing snapshots. No new organism simulation or speedup. Self-contained fixtures and descriptive snapshot analysis; previous full campaign77611a3 remains immutable.",
+  "files": [
+    {
+      "path": "motor_nuevo/macro_abc_20260922/README_ADDENDUM.md",
+      "bytes": 2562,
+      "sha256": "83af531464e09e17b3b32e65aefddeb91b64e2920c86327f1dc62708d7ff41f8"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/GEMINI_CRITIQUE_APPLIED.md",
+      "bytes": 4733,
+      "sha256": "cff035f1b118fd53fa95133ca8d78e24192866a06a4c164b2a638aa6673bd749"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/GEMINI_OBSERVATION_PLAN.json",
+      "bytes": 1026,
+      "sha256": "342fdad262518fe83228aab3c6f8ab27a680da8fd8dcc297b20f785d1c873fe0"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/ACTIVITY_DESCRIPTIVE.json",
+      "bytes": 3542,
+      "sha256": "e65dd8de337782b4aec90bf93a8263d960250a260da18c96a70d9382686c3f53"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/analyze_activity.py",
+      "bytes": 1684,
+      "sha256": "500a7fbe26f20abaadc9d9b9e6bf3eff280a10b791ee26492feb3eae6ff3b528"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/CHATGPT_CODE_REVIEW.md",
+      "bytes": 2521,
+      "sha256": "ec1dbcab2dd5070d8edadb3c27588bef0c917ce2021cdd7a2bfdb1849e7a0162"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/reset_ledger.py",
+      "bytes": 2539,
+      "sha256": "f06367ee688b65410afb0c9bd60445603a00ffb26f1e9c2b4bbc16028941f110"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/reset_adapter.py",
+      "bytes": 1245,
+      "sha256": "01b019626822a012952e935b12b468e4b0a1c97589a11fa03698e650e9114da5"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/reset_adapter_before_review.py",
+      "bytes": 1676,
+      "sha256": "b33ed4170e7bb5dedd95a649a30e9fc40a584b314fe285d19915e35a262d5c57"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/reset_ports.py",
+      "bytes": 2694,
+      "sha256": "a9d392abf569017f7b3685cc9617f5b2b15c74193a946a3b12c86573f98f13db"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/lif_event_metadata.py",
+      "bytes": 1591,
+      "sha256": "ecbe8aae586a963141c56f064654079c1602bf865a5c37a051b2668bd262bee9"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/LIF_PROVENANCE.json",
+      "bytes": 310,
+      "sha256": "6ec36f2ca21e87c120e095c0f91de5dc14cdad033290db09c84abfdc0504a601"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/check_ledger_bridge.py",
+      "bytes": 2949,
+      "sha256": "d26f2ffd7b07eccb8c5d55130e8d0c4450a35580266774bf8b18062feb154fa5"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/LEDGER_BRIDGE_CHECK.json",
+      "bytes": 246,
+      "sha256": "c85441aecc439f8a0ca7185d2f8ee9a450081f1fbad728cd68e5365716dc00f2"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/ledger_bridge.log",
+      "bytes": 230,
+      "sha256": "08002e066a8b1fb8791fa24c3177356527663ab4577e87ff576bbd6d4a6dde12"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/bundle_addendum.py",
+      "bytes": 3026,
+      "sha256": "70c5d17e0186b6e48af966bd7141fee30c34e669a91e0504d155d75b11a9e5dd"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/ENVIRONMENT.json",
+      "bytes": 280,
+      "sha256": "7bd7222d67996574ec12f7a2271a47cf284407faf7cf569ddfd915287bf5a584"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/verification_vendor/event_waveform.py",
+      "bytes": 5483,
+      "sha256": "49986d70a5a72fe33267c7261b904d5ef68d0bde4e6344ff050e38dfeec75fae"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/event_ports.py",
+      "bytes": 2395,
+      "sha256": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/verification_vendor/compare.py",
+      "bytes": 4908,
+      "sha256": "768c6bf4cdb206f6f8f9980402397570e2656ccf285e52527620fc971400dae6"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/OPERATOR_INVENTORY.json",
+      "bytes": 1524,
+      "sha256": "a603aa9889f621c706b3793134bfaf60aee8bd7eb97140f0f689b0431eec9b75"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_01ms.json",
+      "bytes": 167404,
+      "sha256": "2b8283d0a8683f00ac6d1ddd91a7ce14751d028c2be4d9b4913067c36c639746"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_01ms.npz",
+      "bytes": 9961417,
+      "sha256": "94e9f496fba166051aa43ee693384f5106ca28157b1115d2b79be1246359a4e0"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_05ms.json",
+      "bytes": 167405,
+      "sha256": "9ef7cca1a689124102f3091b6c48add03082149a7d2bfdc87894dddd4dcb98d8"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_05ms.npz",
+      "bytes": 9961228,
+      "sha256": "0e42e88b6901e2b552df5eea1eeab674488a7c3714f76e09c897b77e3dc834ae"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_20ms.json",
+      "bytes": 167408,
+      "sha256": "3c2847b9218122d7919008e3a2dc9d8f3fef05c16c0c0c65f540fcdcc4acbcef"
+    },
+    {
+      "path": "motor_nuevo/macro_abc_20260922/guard_reset_01/brain_20ms.npz",
+      "bytes": 9960205,
+      "sha256": "b9bc09e8896f718c004fe8822b3e0dbe6994cdc08e2d09fdbe57afdcc0f23eed"
+    }
+  ]
+}

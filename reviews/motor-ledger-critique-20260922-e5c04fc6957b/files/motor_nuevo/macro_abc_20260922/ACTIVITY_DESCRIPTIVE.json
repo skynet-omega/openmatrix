@@ -1,0 +1,130 @@
+{
+  "intervals": [
+    {
+      "start_ms": 1,
+      "end_ms": 5,
+      "n": 166700,
+      "transmission_offset": 177758,
+      "variables": {
+        "normalized_neural_state": {
+          "positive_at_start": 142237,
+          "positive_at_end": 142237,
+          "changed": [
+            {
+              "threshold": 0.0,
+              "count": 128259,
+              "fraction": 0.7694001199760048
+            },
+            {
+              "threshold": 1e-12,
+              "count": 123435,
+              "fraction": 0.7404619076184763
+            },
+            {
+              "threshold": 1e-06,
+              "count": 37463,
+              "fraction": 0.22473305338932215
+            },
+            {
+              "threshold": 0.0001,
+              "count": 9201,
+              "fraction": 0.05519496100779844
+            }
+          ],
+          "maximum_delta": 0.2755063779433953
+        },
+        "synaptic_transmission": {
+          "positive_at_start": 142237,
+          "positive_at_end": 142237,
+          "changed": [
+            {
+              "threshold": 0.0,
+              "count": 128265,
+              "fraction": 0.7694361127774445
+            },
+            {
+              "threshold": 1e-12,
+              "count": 123445,
+              "fraction": 0.7405218956208758
+            },
+            {
+              "threshold": 1e-06,
+              "count": 47290,
+              "fraction": 0.2836832633473305
+            },
+            {
+              "threshold": 0.0001,
+              "count": 9934,
+              "fraction": 0.059592081583683267
+            }
+          ],
+          "maximum_delta": 0.13597628822072777
+        }
+      }
+    },
+    {
+      "start_ms": 5,
+      "end_ms": 20,
+      "n": 166700,
+      "transmission_offset": 177758,
+      "variables": {
+        "normalized_neural_state": {
+          "positive_at_start": 142237,
+          "positive_at_end": 142237,
+          "changed": [
+            {
+              "threshold": 0.0,
+              "count": 128278,
+              "fraction": 0.7695140971805638
+            },
+            {
+              "threshold": 1e-12,
+              "count": 123660,
+              "fraction": 0.7418116376724655
+            },
+            {
+              "threshold": 1e-06,
+              "count": 61460,
+              "fraction": 0.36868626274745053
+            },
+            {
+              "threshold": 0.0001,
+              "count": 14858,
+              "fraction": 0.08913017396520696
+            }
+          ],
+          "maximum_delta": 0.3505109481382352
+        },
+        "synaptic_transmission": {
+          "positive_at_start": 142237,
+          "positive_at_end": 142237,
+          "changed": [
+            {
+              "threshold": 0.0,
+              "count": 128268,
+              "fraction": 0.7694541091781644
+            },
+            {
+              "threshold": 1e-12,
+              "count": 123635,
+              "fraction": 0.7416616676664667
+            },
+            {
+              "threshold": 1e-06,
+              "count": 78183,
+              "fraction": 0.46900419916016794
+            },
+            {
+              "threshold": 0.0001,
+              "count": 16088,
+              "fraction": 0.09650869826034793
+            }
+          ],
+          "maximum_delta": 0.3061022616122867
+        }
+      }
+    }
+  ],
+  "source_snapshots": "guard_reset_01",
+  "scope": "Endpoint activity only: not computational sparsity, passive-flow test or an omitted-error bound. No assumption that a nonspiking neuron contributes zero."
+}
