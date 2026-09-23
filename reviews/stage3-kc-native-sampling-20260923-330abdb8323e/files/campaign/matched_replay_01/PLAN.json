@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    0,
+    1
+  ],
+  "trial_steps_ns": [
+    25000,
+    12500,
+    6250,
+    3125
+  ],
+  "implementation_absolute_limit": 1e-12,
+  "historical_state_limit": 0.0001,
+  "cases": 8,
+  "scope": "same input and same full/two-half step; no cadence or model change"
+}

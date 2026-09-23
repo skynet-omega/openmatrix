@@ -1,0 +1,347 @@
+{
+  "format_version": 2,
+  "label": "stage3-kc-native-sampling-20260923",
+  "description": "First real KC substep traces, exact observer controls for both engines, eight rollback checks and matched-step CUDA replay. Stage3 remains open.",
+  "files": [
+    {
+      "path": "campaign/compare_capture.py",
+      "bytes": 3165,
+      "sha256": "ade03479c3a396720416c4382d81f3d3d42b2d34071e453d9efd1dba8bb2094c"
+    },
+    {
+      "path": "campaign/kc_trace.cuh",
+      "bytes": 1750,
+      "sha256": "f2446d5af5a5d94aca387e9e315bfec5895c3beae9fc97b196c1fe1a7932e40c"
+    },
+    {
+      "path": "campaign/device_cell.py",
+      "bytes": 7631,
+      "sha256": "42d4c0a8ba9f2b0ce00628cd8fa56f069f407ee041ae4f0c92580b44bff1a25a"
+    },
+    {
+      "path": "campaign/native_cell.py",
+      "bytes": 9382,
+      "sha256": "0a294e2287e677322b6422cbc938bd20f54c2374ff56c8d7fdadd8c2da47d69d"
+    },
+    {
+      "path": "campaign/event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "campaign/physical_events.cu",
+      "bytes": 2743,
+      "sha256": "697ba62b003fc6e16fea9502974aef0ce148125ae7e67b5c3baca91e4b3ec308"
+    },
+    {
+      "path": "campaign/native_tap.py",
+      "bytes": 9053,
+      "sha256": "b22f879c5cf57e38f91528e4a32b96c6ce018ae21a2536d76e1780b496f6e631"
+    },
+    {
+      "path": "campaign/README.md",
+      "bytes": 2650,
+      "sha256": "4ac77c64f5081303872de70b1b167c3d919345464aa4217f8faf19398d208d1d"
+    },
+    {
+      "path": "campaign/kc_trace.py",
+      "bytes": 4228,
+      "sha256": "863b652a5ea31e5cc90a8160dd173f5e62407561b7bcf4eed9576733b1e09fa8"
+    },
+    {
+      "path": "campaign/matched_replay.py",
+      "bytes": 4215,
+      "sha256": "cc068a463822029cae127c74573e9e3ea9ead17b6a16a47fe9891214284e429c"
+    },
+    {
+      "path": "campaign/REQUEST.md",
+      "bytes": 1710,
+      "sha256": "05318bf2a248713ec13ff01bca94a07030ef4145aa574388ec8f6cd8b1a69d17"
+    },
+    {
+      "path": "campaign/PLAN.json",
+      "bytes": 2307,
+      "sha256": "bba73c8708e7167c7837bdb8b63076b3fe220e851a5effca462d4da06caa2006"
+    },
+    {
+      "path": "campaign/CHATGPT_DELIVERY.json",
+      "bytes": 322,
+      "sha256": "379feb9f4437bfbaf111f6d490c82f07eaecaca961cbb21ccb77591dfb350622"
+    },
+    {
+      "path": "campaign/run_set.py",
+      "bytes": 12504,
+      "sha256": "d67e0ba30903e8bb51e37075fe57513cb7c9f3dbc1f26ca2443684aee400cbf0"
+    },
+    {
+      "path": "campaign/event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "campaign/device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "campaign/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "campaign/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "campaign/CAPTURE_NEUTRALITY.json",
+      "bytes": 4668,
+      "sha256": "b0f475bbc0f4cf7d6839263249f4c892905b56ede83698258c44e6601140cdc1"
+    },
+    {
+      "path": "campaign/analyze_trace.py",
+      "bytes": 3613,
+      "sha256": "bc166a6eb4078a02f9f5a57493bd6049ca81ec668d89fd8fc5712097fa16e4fe"
+    },
+    {
+      "path": "campaign/TRACE_COMPARISON.json",
+      "bytes": 138694,
+      "sha256": "27f7cb99ab177a9f5e907a6b2088565a463928e7ddf65be76176569125c75b6e"
+    },
+    {
+      "path": "campaign/CLOSE.json",
+      "bytes": 652,
+      "sha256": "8e70284a42f38a983be23107c1aecf12c0d1c92b709bab06ec363442e3b97016"
+    },
+    {
+      "path": "campaign/warp_original.cu",
+      "bytes": 4361,
+      "sha256": "bcba71ea89b602d24f57f188fa1f49c65830165cf741f89e72a7cf63cdf94aac"
+    },
+    {
+      "path": "campaign/block_midpoint.py",
+      "bytes": 10926,
+      "sha256": "68319162d265a22b2c5f004d2f3008982496bacd40780b5f11caf5333dad22bc"
+    },
+    {
+      "path": "campaign/matched_replay_01/RESULT.json",
+      "bytes": 4861,
+      "sha256": "ae5e80c392f16126ccea7120d8831e65c9764716a9d8cb11118f0cc9de6b11a6"
+    },
+    {
+      "path": "campaign/matched_replay_01/PLAN.json",
+      "bytes": 276,
+      "sha256": "2c16bdb3a015917c5620bd1af660178ccc2d43107650406982721e66117649b4"
+    },
+    {
+      "path": "campaign/native_on_01/RESULT.json",
+      "bytes": 3294,
+      "sha256": "511bb0079220b855b57860cd0ff349a2c135ce90024f802b38940567afac235e"
+    },
+    {
+      "path": "campaign/native_on_01/RUN_CONTRACT.json",
+      "bytes": 752,
+      "sha256": "2e9ecc4c963f2ab65e1ff54729c3724825ad535c60f8d3d757e7b344e359d32f"
+    },
+    {
+      "path": "campaign/native_on_01/FROZEN.json",
+      "bytes": 2457,
+      "sha256": "939fa3bf99322d48ee0dfd88b1a5de04a6a0bfbb1cb22d35387efc71ddbd40b9"
+    },
+    {
+      "path": "campaign/native_on_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "campaign/native_on_01/PROGRESS.jsonl",
+      "bytes": 164,
+      "sha256": "36e800c2312f413179963abded2497f4e497e2b127f84bfbcb26dd7b8d11b473"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/input_02.npz",
+      "bytes": 66595,
+      "sha256": "b31e0c78345c29f7d2a3f72ab4c335069c30ee07f98a51dd7b96a9490376f4fd"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/metadata.json",
+      "bytes": 494,
+      "sha256": "a90e5e33ac76d08683cb3e2f114c2cb72ab469f4b01898e566e358ebfdab5a35"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/trace.npz",
+      "bytes": 112236,
+      "sha256": "45708f3181dc61eb9164fab48e8110af061eb89bc0570d854a4692f91ef7d6cd"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/input_01.npz",
+      "bytes": 66580,
+      "sha256": "8318a4bc26c2d6a8569801b71ae68425f7f5ab2610811800126853826f2346cd"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/input_03.npz",
+      "bytes": 66598,
+      "sha256": "dcf2938a7476c290e4a700c844da3f3ceafc01fba7d3580d0f727124137b7949"
+    },
+    {
+      "path": "campaign/native_on_01/kc_native_0/input_00.npz",
+      "bytes": 66577,
+      "sha256": "e88f447942f3a5ddc71d51da36b1aa59f2bc4d114d9d5ffd7f407af5dac306f6"
+    },
+    {
+      "path": "campaign/native_off_01/RESULT.json",
+      "bytes": 3300,
+      "sha256": "b5d54e9340cb5068d6dd17f93c42c38f39b4b6f6792b3c6435fa566e60a72afe"
+    },
+    {
+      "path": "campaign/native_off_01/RUN_CONTRACT.json",
+      "bytes": 753,
+      "sha256": "6e28b2e15de15aabf3bcad5b76199e20242dbd3ae004629dd0be3b79ec569ac9"
+    },
+    {
+      "path": "campaign/native_off_01/FROZEN.json",
+      "bytes": 2457,
+      "sha256": "939fa3bf99322d48ee0dfd88b1a5de04a6a0bfbb1cb22d35387efc71ddbd40b9"
+    },
+    {
+      "path": "campaign/native_off_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "campaign/native_off_01/PROGRESS.jsonl",
+      "bytes": 163,
+      "sha256": "db9c04dc56fae77b2b82a616b441d8a842832b04ffee091cb42b5f0391f8a137"
+    },
+    {
+      "path": "campaign/reference_on_01/RESULT.json",
+      "bytes": 2745,
+      "sha256": "42c665ada762a3c9dd0adc62a36bade1caeb525531923e96431c8236d09a301b"
+    },
+    {
+      "path": "campaign/reference_on_01/RUN_CONTRACT.json",
+      "bytes": 755,
+      "sha256": "0d3dde2ca7b2f6d7a03f6e99baa060f0a9cfb6bc1e44f96d3c56f29820a3e4bf"
+    },
+    {
+      "path": "campaign/reference_on_01/FROZEN.json",
+      "bytes": 2457,
+      "sha256": "939fa3bf99322d48ee0dfd88b1a5de04a6a0bfbb1cb22d35387efc71ddbd40b9"
+    },
+    {
+      "path": "campaign/reference_on_01/EVENT_AUDIT.json",
+      "bytes": 21488,
+      "sha256": "ee644e81e3b29411bfe12d79f74dd6ad5a76b81aa1d7eec605514eb09d296a1f"
+    },
+    {
+      "path": "campaign/reference_on_01/PROGRESS.jsonl",
+      "bytes": 165,
+      "sha256": "b419298f010c5d9c7ab5da5d327d20c726856f1ea79bb98d787b4e95f16c1c29"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/input_02.npz",
+      "bytes": 66585,
+      "sha256": "514da9d7115d9842e46269a69f5460e0ddb7a64f0ab2663142bdc50991e47af4"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/metadata.json",
+      "bytes": 494,
+      "sha256": "a90e5e33ac76d08683cb3e2f114c2cb72ab469f4b01898e566e358ebfdab5a35"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/trace.npz",
+      "bytes": 333106,
+      "sha256": "ae42710bb487534b13e03bd78726753065f9b33f213f824a8768a94452b5c022"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/input_01.npz",
+      "bytes": 66580,
+      "sha256": "8318a4bc26c2d6a8569801b71ae68425f7f5ab2610811800126853826f2346cd"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/input_03.npz",
+      "bytes": 66588,
+      "sha256": "cda75fa9fffe98fdce99b0f55cc29b98b142d28ddb635ed05644c7bccaebd10c"
+    },
+    {
+      "path": "campaign/reference_on_01/kc_native_0/input_00.npz",
+      "bytes": 66577,
+      "sha256": "e88f447942f3a5ddc71d51da36b1aa59f2bc4d114d9d5ffd7f407af5dac306f6"
+    },
+    {
+      "path": "campaign/reference_off_01/RESULT.json",
+      "bytes": 2746,
+      "sha256": "07a11e9f2d316bb0e165df2d9d48bdc7cc0bb8178781b50836a08f960ca369c4"
+    },
+    {
+      "path": "campaign/reference_off_01/RUN_CONTRACT.json",
+      "bytes": 756,
+      "sha256": "28708beb61c7abbe03862f95c8cd088b468a31b817f62540ff8bb2d21bcb1faf"
+    },
+    {
+      "path": "campaign/reference_off_01/FROZEN.json",
+      "bytes": 2457,
+      "sha256": "939fa3bf99322d48ee0dfd88b1a5de04a6a0bfbb1cb22d35387efc71ddbd40b9"
+    },
+    {
+      "path": "campaign/reference_off_01/EVENT_AUDIT.json",
+      "bytes": 21488,
+      "sha256": "ee644e81e3b29411bfe12d79f74dd6ad5a76b81aa1d7eec605514eb09d296a1f"
+    },
+    {
+      "path": "campaign/reference_off_01/PROGRESS.jsonl",
+      "bytes": 164,
+      "sha256": "8e524766eec7f769d7bc67df09d36d84bcf0b47018473ded226f549c6d2053a9"
+    },
+    {
+      "path": "campaign/jev_01/response.json",
+      "bytes": 1019,
+      "sha256": "ef9506573fc11abfa7c17fd90f1a7636ffffcacd27de7d125991096939ef62a6"
+    },
+    {
+      "path": "campaign/jev_01/routing.json",
+      "bytes": 741,
+      "sha256": "adec35b93ca7766e643da490c6218c2d8062eb3f3489f2ef5739beec22f07e09"
+    },
+    {
+      "path": "campaign/jev_01/request.json",
+      "bytes": 4267,
+      "sha256": "2b98f729bf700f835ede8f7dc96c17c21f4220b9e3109f0fbc9e212c0b34541a"
+    },
+    {
+      "path": "campaign/jev_01/receipt.json",
+      "bytes": 706,
+      "sha256": "bc03f25d25af836338d1839c0ffa505070de7549300f7889fea1bcd29feead07"
+    },
+    {
+      "path": "source/kc_fused_step.py",
+      "bytes": 4060,
+      "sha256": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76"
+    },
+    {
+      "path": "source/kc_fused_warp.py",
+      "bytes": 4416,
+      "sha256": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+    },
+    {
+      "path": "source/kc_adaptive.py",
+      "bytes": 4852,
+      "sha256": "5e0a51523ec28629f368c4e75dc1dfd3235ef5057b4e3f7a364066543e702d68"
+    },
+    {
+      "path": "source/waveform_coupling.py",
+      "bytes": 5627,
+      "sha256": "eb41a2c74eba9d7a49dff6940ff6c58b8634fd6072dfcf62d70c7001c00ace02"
+    },
+    {
+      "path": "source/cell_control.cpp",
+      "bytes": 2951,
+      "sha256": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c"
+    },
+    {
+      "path": "source/execution_parent_snapshot.py",
+      "bytes": 3731,
+      "sha256": "130195807a92b3e2de9490e1953096b3b7ada08d0ef5ba44070f5d39ac2579e6"
+    }
+  ]
+}

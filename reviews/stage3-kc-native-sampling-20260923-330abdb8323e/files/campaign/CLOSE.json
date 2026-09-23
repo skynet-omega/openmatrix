@@ -1,0 +1,19 @@
+{
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "scope": "Diagnostic observation and matched-step arithmetic only, not stage3 or full-engine equivalence",
+  "organism_loads": 4,
+  "wall_s": 144.94989978312515,
+  "capture_neutrality_both": true,
+  "rollback_checks": {
+    "native_on_01": 8,
+    "native_off_01": 8,
+    "reference_on_01": 8,
+    "reference_off_01": 8
+  },
+  "first_predictor_and_accepted_inputs_identical": true,
+  "voltage_error_common_times": 6.685349659107942e-05,
+  "q_error_common_times": 2.6596512389620575e-05,
+  "matched_step_arithmetic_pass": true,
+  "matched_step_cases": 8,
+  "stage3_admission": false
+}

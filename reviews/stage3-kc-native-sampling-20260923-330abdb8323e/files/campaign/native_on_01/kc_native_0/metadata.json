@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "calls_seen": 16,
+  "calls_captured": 4,
+  "capacity_per_channel": 8192,
+  "overflow": false,
+  "columns": [
+    "voltage",
+    "previous_voltage",
+    "increment",
+    "previous_increment",
+    "previous_trough",
+    "post_q",
+    "post_s",
+    "peak",
+    "event",
+    "event_count"
+  ],
+  "meta_columns": [
+    "call_index",
+    "absolute_sample_ns",
+    "accepted_h_ns",
+    "split"
+  ],
+  "phase": "even call=predictor discarded; odd call=accepted physical epoch"
+}

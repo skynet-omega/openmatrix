@@ -1,0 +1,5779 @@
+{
+  "schema": "kc_common_timestamp_trace_comparison_v1",
+  "rows": [
+    {
+      "neuron_id": 76431,
+      "compartment": 0,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.4911134776696144e-05,
+        "raw_increment": 0.01122918473483736,
+        "pre_trough": 0.0,
+        "q": 6.071532165918825e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 0,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8943978041363607e-05,
+        "raw_increment": 0.01122922131195736,
+        "pre_trough": 35.8780581476788,
+        "q": 2.6596512389620575e-05,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482100000
+      ],
+      "event_times_ns_reference": [
+        1482098437
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 0,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.539438133197791e-05,
+        "raw_increment": 0.02265452816997282,
+        "pre_trough": 0.0226799225513048,
+        "q": 2.6553606348067582e-05,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 0,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.819213174693914e-05,
+        "raw_increment": 0.03542259434968997,
+        "pre_trough": 0.035460615981286026,
+        "q": 2.6553606348067582e-05,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 1,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.3618610422745405e-06,
+        "raw_increment": 0.007004636542561116,
+        "pre_trough": 0.0,
+        "q": 5.637851296924623e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 1,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.269021774116482e-06,
+        "raw_increment": 0.007004641429816161,
+        "pre_trough": 47.306529420085916,
+        "q": 2.6596512389620575e-05,
+        "s": 4.63405057678141e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482065625
+      ],
+      "event_times_ns_reference": [
+        1482064062
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 1,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.2372046811037762e-05,
+        "raw_increment": 0.032583273730963924,
+        "pre_trough": 0.03259530992752957,
+        "q": 2.6501259617783823e-05,
+        "s": 4.5599898304571253e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 1,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.965318973873309e-05,
+        "raw_increment": 0.04534957364093373,
+        "pre_trough": 0.04536825315624071,
+        "q": 2.6501259617783823e-05,
+        "s": 4.5599898129570614e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 2,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.825658012601707e-07,
+        "raw_increment": 0.004346423442001424,
+        "pre_trough": 0.0014683910989674587,
+        "q": 2.220446049250313e-16,
+        "s": 1.3660947373317356e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482046875
+      ],
+      "event_times_ns_reference": [
+        1482046875
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 2,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.1498315447843197e-06,
+        "raw_increment": 0.006976815780973311,
+        "pre_trough": 0.0069789656125180954,
+        "q": 6.661338147750939e-16,
+        "s": 6.661338147750939e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482046875
+      ],
+      "event_times_ns_reference": [
+        1482046875
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 2,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.775009673745444e-06,
+        "raw_increment": 0.03388508985979399,
+        "pre_trough": 0.03388862888890287,
+        "q": 1.1102230246251565e-15,
+        "s": 3.6251565985190304e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 2,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.348646991227724e-06,
+        "raw_increment": 0.045797798686692204,
+        "pre_trough": 0.04580329783638604,
+        "q": 1.609823385706477e-15,
+        "s": 1.1261417146024577e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 3,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.7728894761148695e-06,
+        "raw_increment": 0.003519201703483077,
+        "pre_trough": 0.003517428814006962,
+        "q": 2.7755575615628914e-16,
+        "s": 3.7339922820400773e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482018750
+      ],
+      "event_times_ns_reference": [
+        1482018750
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 3,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.11255097326557e-06,
+        "raw_increment": 0.008234965421593188,
+        "pre_trough": 0.008232886877792112,
+        "q": 7.216449660063518e-16,
+        "s": 9.003214840319629e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482018750
+      ],
+      "event_times_ns_reference": [
+        1482018750
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 3,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.4188917393530573e-06,
+        "raw_increment": 0.03609859161791462,
+        "pre_trough": 0.03609617272617527,
+        "q": 1.1657341758564144e-15,
+        "s": 3.6195404312655555e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 3,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.7887113393253458e-06,
+        "raw_increment": 0.04692195581155545,
+        "pre_trough": 0.046918167100216124,
+        "q": 1.5543122344752192e-15,
+        "s": 1.1243459288601265e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 4,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.9207644470498053e-06,
+        "raw_increment": 0.004603169939358054,
+        "pre_trough": 68.85226651415383,
+        "q": 2.6596512389620575e-05,
+        "s": 4.634062336231616e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482003125
+      ],
+      "event_times_ns_reference": [
+        1482001562
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 4,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.985864682614192e-06,
+        "raw_increment": 0.009045830932066679,
+        "pre_trough": 68.85226651767123,
+        "q": 2.6596512389620575e-05,
+        "s": 4.634050576781713e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482003125
+      ],
+      "event_times_ns_reference": [
+        1482001562
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 4,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.0496705366876995e-06,
+        "raw_increment": 0.037975244413303244,
+        "pre_trough": 0.037971194742766556,
+        "q": 2.6406347984342382e-05,
+        "s": 4.486908191611051e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 4,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.483831711534549e-06,
+        "raw_increment": 0.04840682435572319,
+        "pre_trough": 0.04840038308479677,
+        "q": 2.6406347984342382e-05,
+        "s": 4.4869081741736976e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 5,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.6726626199670136e-06,
+        "raw_increment": 0.00528898479062434,
+        "pre_trough": 0.005287312128004373,
+        "q": 6.106226635438361e-16,
+        "s": 5.321264262558856e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 5,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.7040911163567216e-06,
+        "raw_increment": 0.009783662788052538,
+        "pre_trough": 0.009780958696936182,
+        "q": 9.43689570931383e-16,
+        "s": 1.0555792351318871e-15
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 5,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.7535056662818533e-06,
+        "raw_increment": 0.04032179187625218,
+        "pre_trough": 0.040318038370585896,
+        "q": 1.4432899320127035e-15,
+        "s": 3.6157968980043975e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 5,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.835705735535157e-06,
+        "raw_increment": 0.05090839093895738,
+        "pre_trough": 0.0509025819023492,
+        "q": 1.7208456881689926e-15,
+        "s": 1.12315347994274e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 6,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1731966793604443e-06,
+        "raw_increment": 0.005828013948473654,
+        "pre_trough": 0.005826840751794293,
+        "q": 4.440892098500626e-16,
+        "s": 5.312590645178972e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 6,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.6581984851882225e-06,
+        "raw_increment": 0.010695908476606064,
+        "pre_trough": 0.010694250278120876,
+        "q": 9.992007221626409e-16,
+        "s": 1.0590486820838407e-15
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 6,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.9696101105637354e-06,
+        "raw_increment": 0.04390837857340557,
+        "pre_trough": 0.04390640896329501,
+        "q": 1.4988010832439613e-15,
+        "s": 3.6158064389835154e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 6,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.3314401715879285e-06,
+        "raw_increment": 0.05526371202695657,
+        "pre_trough": 0.05526157921634933,
+        "q": 1.887379141862766e-15,
+        "s": 1.123152612581002e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 7,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.838009116132525e-07,
+        "raw_increment": 0.006127162105372008,
+        "pre_trough": 0.006126578304460395,
+        "q": 6.106226635438361e-16,
+        "s": 5.321264262558856e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 7,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.083913177690192e-07,
+        "raw_increment": 0.011446153493920974,
+        "pre_trough": 0.01144571348959289,
+        "q": 9.43689570931383e-16,
+        "s": 1.0555792351318871e-15
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 7,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.168646938751408e-07,
+        "raw_increment": 0.04717720122171443,
+        "pre_trough": 0.04717741373181639,
+        "q": 1.4432899320127035e-15,
+        "s": 3.6157968980043975e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 7,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.0724106778734495e-06,
+        "raw_increment": 0.0594349089685835,
+        "pre_trough": 0.05943737096410473,
+        "q": 1.7208456881689926e-15,
+        "s": 1.12315347994274e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 8,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.502572868934294e-07,
+        "raw_increment": 0.006411517688434287,
+        "pre_trough": 0.006411767945721181,
+        "q": 6.106226635438361e-16,
+        "s": 5.30825383648903e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 8,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.177698891297041e-06,
+        "raw_increment": 0.012311889967676848,
+        "pre_trough": 0.012313067666568145,
+        "q": 1.0547118733938987e-15,
+        "s": 1.057313958607864e-15
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 8,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.296625990856228e-06,
+        "raw_increment": 0.05108411788968681,
+        "pre_trough": 0.051087220025806346,
+        "q": 1.4432899320127035e-15,
+        "s": 3.6157960306426595e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 8,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.55228169630118e-06,
+        "raw_increment": 0.06449643265706584,
+        "pre_trough": 0.06450510538724075,
+        "q": 1.942890293094024e-15,
+        "s": 1.123154347304478e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 9,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1269127782043142e-06,
+        "raw_increment": 0.0066489944043297555,
+        "pre_trough": 86.6596292907592,
+        "q": 2.6596512389620575e-05,
+        "s": 4.6340623362315725e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482006250
+      ],
+      "event_times_ns_reference": [
+        1482004687
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 9,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.78545515186579e-06,
+        "raw_increment": 0.013125482115825093,
+        "pre_trough": 86.65962930285602,
+        "q": 2.6596512389620575e-05,
+        "s": 4.634050576781713e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482006250
+      ],
+      "event_times_ns_reference": [
+        1482004687
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 9,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.232964338437341e-06,
+        "raw_increment": 0.05483291779012234,
+        "pre_trough": 0.05483890552991966,
+        "q": 2.641108548312454e-05,
+        "s": 4.49053921218745e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 9,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.59968544721778e-05,
+        "raw_increment": 0.06940801155921861,
+        "pre_trough": 0.06942292285810936,
+        "q": 2.641108548312454e-05,
+        "s": 4.490539194746974e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 10,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8653924911404829e-06,
+        "raw_increment": 0.006796524187336672,
+        "pre_trough": 88.66419008236399,
+        "q": 2.6596512389565063e-05,
+        "s": 4.6340623362316376e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482009375
+      ],
+      "event_times_ns_reference": [
+        1482007812
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 10,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.0918085630892165e-06,
+        "raw_increment": 0.013772045768703833,
+        "pre_trough": 88.66419010281898,
+        "q": 2.6596512389565063e-05,
+        "s": 4.634050576781648e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482009375
+      ],
+      "event_times_ns_reference": [
+        1482007812
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 10,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 8.625330437439516e-06,
+        "raw_increment": 0.057932339368321095,
+        "pre_trough": 0.057940678139488,
+        "q": 2.6415823831726915e-05,
+        "s": 4.4941726510211964e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 10,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.138422273390006e-05,
+        "raw_increment": 0.07356927147124281,
+        "pre_trough": 0.07358941506758754,
+        "q": 2.6415823831726915e-05,
+        "s": 4.494172633577511e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 11,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.335042836421053e-06,
+        "raw_increment": 0.006467684593047807,
+        "pre_trough": 0.006470019635884228,
+        "q": 3.885780586188048e-16,
+        "s": 4.2630829422130034e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482012500
+      ],
+      "event_times_ns_reference": [
+        1482012500
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 11,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.963363835486234e-06,
+        "raw_increment": 0.013846560167110056,
+        "pre_trough": 0.013851523530945542,
+        "q": 7.216449660063518e-16,
+        "s": 9.471590178833367e-16
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482012500
+      ],
+      "event_times_ns_reference": [
+        1482012500
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 11,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.0222471743759343e-05,
+        "raw_increment": 0.059113957710565046,
+        "pre_trough": 0.05912386133280734,
+        "q": 1.2212453270876722e-15,
+        "s": 3.618294899809804e-12
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 11,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.5037207137756923e-05,
+        "raw_increment": 0.07565954957067333,
+        "pre_trough": 0.07568323300337454,
+        "q": 1.4432899320127035e-15,
+        "s": 1.1239512792693418e-11
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 12,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.921214615980716e-06,
+        "raw_increment": 0.004806604270299886,
+        "pre_trough": 91.07135329241589,
+        "q": 2.6596512389620575e-05,
+        "s": 4.634062336231399e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482028125
+      ],
+      "event_times_ns_reference": [
+        1482026562
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 12,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.9763181212701966e-06,
+        "raw_increment": 0.012739882528833846,
+        "pre_trough": 91.07135336251832,
+        "q": 2.6596512389620575e-05,
+        "s": 4.634050576781388e-05
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [
+        1482028125
+      ],
+      "event_times_ns_reference": [
+        1482026562
+      ]
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 12,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        18,
+        40
+      ],
+      "exact_common_times": 18,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1927456725402408e-05,
+        "raw_increment": 0.05709079098662073,
+        "pre_trough": 0.05710237017477482,
+        "q": 2.6444271779724193e-05,
+        "s": 4.5160241536327216e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 76431,
+      "compartment": 12,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        28,
+        76
+      ],
+      "exact_common_times": 28,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.8654413668505185e-05,
+        "raw_increment": 0.07487045321975927,
+        "pre_trough": 0.0748976228293401,
+        "q": 2.6444271779724193e-05,
+        "s": 4.516024136170301e-05
+      },
+      "accepted_h_ns_native": [
+        6250,
+        12500
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 0,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.4118642841131077e-05,
+        "raw_increment": 0.04688304817763367,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 0,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.9703818480063546e-05,
+        "raw_increment": 0.04688304982289537,
+        "pre_trough": 0.0,
+        "q": 1.0408340855860843e-17,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 0,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.899399309721275e-05,
+        "raw_increment": 0.040593436701250596,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 0,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.2644013862845895e-05,
+        "raw_increment": 0.04059343855303155,
+        "pre_trough": 0.0,
+        "q": 1.0408340855860843e-17,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 1,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.9082675524705337e-05,
+        "raw_increment": 0.05553564659861365,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 6.071532165918825e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 1,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.205970267889825e-05,
+        "raw_increment": 0.055535648270421234,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 8.673617379884035e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 1,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.679748433034092e-05,
+        "raw_increment": 0.041047929204509614,
+        "pre_trough": 0.0,
+        "q": 2.42861286636753e-17,
+        "s": 1.3877787807814457e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 1,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.739001516895769e-05,
+        "raw_increment": 0.0410479309124554,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-17,
+        "s": 1.1275702593849246e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 2,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.825917559017398e-05,
+        "raw_increment": 0.05394737950248896,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 2.6020852139652106e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 2,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.6476981332734795e-05,
+        "raw_increment": 0.05394738138312505,
+        "pre_trough": 0.0,
+        "q": 1.0408340855860843e-17,
+        "s": 1.3010426069826053e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 2,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.9117436639580774e-05,
+        "raw_increment": 0.03619016813506448,
+        "pre_trough": 0.0,
+        "q": 2.2551405187698492e-17,
+        "s": 1.474514954580286e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 2,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.9297657277993494e-05,
+        "raw_increment": 0.0361901700303946,
+        "pre_trough": 0.0,
+        "q": 3.2959746043559335e-17,
+        "s": 2.2551405187698492e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 3,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.8816633838887356e-06,
+        "raw_increment": 0.04967316376207975,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 6.071532165918825e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 3,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 8.495496771843136e-06,
+        "raw_increment": 0.04967316586110826,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 2.6020852139652106e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 3,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.070716998849093e-06,
+        "raw_increment": 0.030548054531664093,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 2.6020852139652106e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 3,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.202511748185316e-06,
+        "raw_increment": 0.030548056628290965,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 1.3877787807814457e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 4,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.950544755885858e-07,
+        "raw_increment": 0.04850254510985508,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 3.469446951953614e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 4,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 8.052731317320649e-07,
+        "raw_increment": 0.04850254732536996,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 4,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.873407277727893e-07,
+        "raw_increment": 0.02878253384531604,
+        "pre_trough": 0.0,
+        "q": 1.214306433183765e-17,
+        "s": 8.673617379884035e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 4,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.691877842968097e-07,
+        "raw_increment": 0.028782536049234864,
+        "pre_trough": 0.0,
+        "q": 1.214306433183765e-17,
+        "s": 1.0408340855860843e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 5,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.6942983052103955e-06,
+        "raw_increment": 0.05081671258858478,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 5,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.8316911599167724e-06,
+        "raw_increment": 0.05081671488770212,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 8.673617379884035e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 5,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.306589216047541e-06,
+        "raw_increment": 0.029922571322899216,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 1.1275702593849246e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 5,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.789742232309436e-06,
+        "raw_increment": 0.029922573610818404,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 1.214306433183765e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 6,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.713225311230417e-06,
+        "raw_increment": 0.05836307586046985,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 6.071532165918825e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 6,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.75705523178749e-06,
+        "raw_increment": 0.05836307824242226,
+        "pre_trough": 0.0,
+        "q": 1.5612511283791264e-17,
+        "s": 1.3010426069826053e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 6,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.945281581100971e-06,
+        "raw_increment": 0.03459693781326223,
+        "pre_trough": 0.0,
+        "q": 2.949029909160572e-17,
+        "s": 1.5612511283791264e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 6,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.96349115717021e-06,
+        "raw_increment": 0.03459694019349513,
+        "pre_trough": 0.0,
+        "q": 3.2959746043559335e-17,
+        "s": 1.734723475976807e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 7,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.0051213403557995e-06,
+        "raw_increment": 0.06823764052494141,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 7,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.223548211892194e-06,
+        "raw_increment": 0.06823764295550916,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 7,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.4052021429006345e-06,
+        "raw_increment": 0.04054105003170605,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 6.938893903907228e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 7,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.405202313430891e-06,
+        "raw_increment": 0.04054105247517725,
+        "pre_trough": 0.0,
+        "q": 1.5612511283791264e-17,
+        "s": 7.806255641895632e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 8,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1045761709738144e-06,
+        "raw_increment": 0.08335120877129043,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 2.6020852139652106e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 8,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1170332072651945e-06,
+        "raw_increment": 0.08335121123353417,
+        "pre_trough": 0.0,
+        "q": 1.214306433183765e-17,
+        "s": 1.1275702593849246e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 8,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.3753348017407916e-06,
+        "raw_increment": 0.04899591849215312,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-17,
+        "s": 1.3010426069826053e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 8,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.004907973533591e-06,
+        "raw_increment": 0.0489959209908335,
+        "pre_trough": 0.0,
+        "q": 3.122502256758253e-17,
+        "s": 1.6479873021779667e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 9,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.269111736401101e-06,
+        "raw_increment": 0.10115198982961715,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 9,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.191140096068466e-05,
+        "raw_increment": 0.1011519923074502,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 6.071532165918825e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 9,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.6191596060366464e-05,
+        "raw_increment": 0.05824399300495031,
+        "pre_trough": 0.0,
+        "q": 1.0408340855860843e-17,
+        "s": 8.673617379884035e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 9,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.948991886990825e-05,
+        "raw_increment": 0.05824399554657589,
+        "pre_trough": 0.0,
+        "q": 1.5612511283791264e-17,
+        "s": 6.938893903907228e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 10,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.2330677083459705e-05,
+        "raw_increment": 0.12140216976064266,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 10,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.273542587578504e-05,
+        "raw_increment": 0.12140217223733885,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 3.469446951953614e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 10,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.6089515376147574e-05,
+        "raw_increment": 0.06762006861146119,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 10,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.66867324572695e-05,
+        "raw_increment": 0.06762007118243218,
+        "pre_trough": 0.0,
+        "q": 1.214306433183765e-17,
+        "s": 7.806255641895632e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 11,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.0072972439020305e-05,
+        "raw_increment": 0.13952221362170292,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 7.806255641895632e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 11,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.224853543950303e-05,
+        "raw_increment": 0.13952221608288085,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 6.938893903907228e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 11,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.372135807135692e-05,
+        "raw_increment": 0.07613283441948226,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 9.540979117872439e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 11,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.3721357858194096e-05,
+        "raw_increment": 0.07613283700271722,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 1.3010426069826053e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 12,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.53741442925093e-05,
+        "raw_increment": 0.15797412108396713,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 7.806255641895632e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 12,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        80
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.270102507244246e-05,
+        "raw_increment": 0.15797412350319462,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 9.540979117872439e-18
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 12,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        20,
+        40
+      ],
+      "exact_common_times": 20,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.680831371852491e-05,
+        "raw_increment": 0.08797599456146088,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 1.214306433183765e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 81004,
+      "compartment": 12,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        40,
+        76
+      ],
+      "exact_common_times": 40,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.685349659107942e-05,
+        "raw_increment": 0.08797599713683724,
+        "pre_trough": 0.0,
+        "q": 1.0408340855860843e-17,
+        "s": 1.0408340855860843e-17
+      },
+      "accepted_h_ns_native": [
+        6250
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 0,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.3083048240077915e-10,
+        "raw_increment": 3.89967453600093e-05,
+        "pre_trough": 0.0,
+        "q": 4.7127297266858175e-89,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 0,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.616413669580652e-09,
+        "raw_increment": 3.899849950528278e-05,
+        "pre_trough": 0.0,
+        "q": 1.0996369362266907e-88,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 0,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.676313084128196e-10,
+        "raw_increment": 3.887756260212427e-05,
+        "pre_trough": 0.0,
+        "q": 1.8065463952295634e-88,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 0,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.830485985010455e-09,
+        "raw_increment": 3.88791515746334e-05,
+        "pre_trough": 0.0,
+        "q": 1.9636373861190906e-88,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 1,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1833378721348708e-10,
+        "raw_increment": 3.344834915708361e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 1,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.9770141079789028e-10,
+        "raw_increment": 3.345063707627105e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 1,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.1260859739413718e-10,
+        "raw_increment": 3.3444817063355003e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 1,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.843023594323313e-10,
+        "raw_increment": 3.3445429536982374e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 2,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.973177839128766e-11,
+        "raw_increment": 2.8741559219724877e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 2,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.198703441536054e-10,
+        "raw_increment": 2.8786965756921745e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 2,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.3040058749757009e-10,
+        "raw_increment": 2.881186919978518e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 2,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.4214053812320344e-10,
+        "raw_increment": 2.8838940423270287e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 3,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.467804152838653e-11,
+        "raw_increment": 2.3615837832835496e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 3,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8452794847689802e-10,
+        "raw_increment": 2.3704176427941093e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 3,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.376481234023231e-10,
+        "raw_increment": 2.3759215324048455e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 3,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.171294338244479e-10,
+        "raw_increment": 2.3823805065603665e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 4,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.413358732970664e-11,
+        "raw_increment": 2.077572047198828e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 4,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.5025136690383079e-10,
+        "raw_increment": 2.0883723337306037e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 4,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.134470378223341e-10,
+        "raw_increment": 2.0952573521526574e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 4,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.857660774679971e-10,
+        "raw_increment": 2.1034917764950478e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 5,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.3518078857450746e-11,
+        "raw_increment": 1.840206354586371e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 5,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.248423586730496e-10,
+        "raw_increment": 1.8521368630786128e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 5,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.787441306078108e-10,
+        "raw_increment": 1.8598278117565314e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 5,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.466862270011916e-10,
+        "raw_increment": 1.869131368437138e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 6,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.030198397231288e-11,
+        "raw_increment": 1.5736525540432922e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 6,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.490008778811898e-11,
+        "raw_increment": 1.586352233573507e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 6,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.355004997094511e-10,
+        "raw_increment": 1.5946195489391357e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 6,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.9021229036297882e-10,
+        "raw_increment": 1.604718821113238e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 7,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.028333139809547e-11,
+        "raw_increment": 1.3866527268646678e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 7,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.204903340607416e-11,
+        "raw_increment": 1.3996441552421857e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 7,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.0336975719837938e-10,
+        "raw_increment": 1.4081544549071623e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 7,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.4625811672885902e-10,
+        "raw_increment": 1.4186130258053709e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 8,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.084732386720134e-11,
+        "raw_increment": 1.2207844235945231e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 8,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.030642569181509e-11,
+        "raw_increment": 1.2338305609205236e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 8,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.312905836442951e-11,
+        "raw_increment": 1.2424233204910706e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 8,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.0460610155860195e-10,
+        "raw_increment": 1.2530374419839063e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 9,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.297451035497943e-11,
+        "raw_increment": 1.0879270760710824e-05,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 9,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.213074251107173e-11,
+        "raw_increment": 1.1009054901478521e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 9,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.7833736971369945e-11,
+        "raw_increment": 1.1094915365106317e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 9,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.986056177993305e-11,
+        "raw_increment": 1.1201410387684518e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 10,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.119638212316204e-12,
+        "raw_increment": 9.934948892009743e-06,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 10,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.858779796748422e-11,
+        "raw_increment": 1.0063347772870657e-05,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 10,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.8961721909581684e-11,
+        "raw_increment": 1.0148570083856612e-05,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 10,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.39541736341198e-11,
+        "raw_increment": 1.0254592893943482e-05,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 11,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.140598892059643e-12,
+        "raw_increment": 9.327301569328483e-06,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 11,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.407585821463726e-12,
+        "raw_increment": 9.454055913238335e-06,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 11,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.6129320101754274e-11,
+        "raw_increment": 9.538375266515686e-06,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 11,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.6332713787269313e-11,
+        "raw_increment": 9.643490002986255e-06,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 12,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1652900866465643e-12,
+        "raw_increment": 8.725473577442244e-06,
+        "pre_trough": 0.0,
+        "q": 6.077163357286271e-64,
+        "s": 3.4184043884735275e-64
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 12,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.2363443602225743e-12,
+        "raw_increment": 8.849548137845886e-06,
+        "pre_trough": 0.0,
+        "q": 1.2154326714572542e-63,
+        "s": 5.697340647455879e-64
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 12,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.5011104298755527e-12,
+        "raw_increment": 8.932285751939162e-06,
+        "pre_trough": 0.0,
+        "q": 1.5952553812876462e-63,
+        "s": 1.1014858585081367e-63
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 544736,
+      "compartment": 12,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.560174708487466e-12,
+        "raw_increment": 9.035657029698996e-06,
+        "pre_trough": 0.0,
+        "q": 1.9750780911180381e-63,
+        "s": 1.2154326714572542e-63
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 0,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.452417894957762e-08,
+        "raw_increment": 0.0010144052266838344,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 0,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.1259523802209515e-07,
+        "raw_increment": 0.0010183176463698373,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 0,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.4412909621341896e-07,
+        "raw_increment": 0.0010209102285045901,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 0,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8255411049494796e-07,
+        "raw_increment": 0.001024137114136181,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 0.0
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 1,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.863403546551126e-08,
+        "raw_increment": 0.0012047876678877856,
+        "pre_trough": 0.0,
+        "q": 3.0357660829594124e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 1,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.0782001425013732e-07,
+        "raw_increment": 0.0012096923820195116,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.168404344971009e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 1,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.4327669362046436e-07,
+        "raw_increment": 0.001212959713839723,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 2.3852447794681098e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 1,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8894572662020437e-07,
+        "raw_increment": 0.00121703243431881,
+        "pre_trough": 0.0,
+        "q": 8.673617379884035e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 2,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.7068815572638414e-08,
+        "raw_increment": 0.0013480219301058582,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 1.3010426069826053e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 2,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 8.690866337701664e-08,
+        "raw_increment": 0.0013536637485032088,
+        "pre_trough": 0.0,
+        "q": 5.204170427930421e-18,
+        "s": 3.903127820947816e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 2,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.204824044975794e-07,
+        "raw_increment": 0.0013574379403564762,
+        "pre_trough": 0.0,
+        "q": 6.938893903907228e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 2,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.63271096198514e-07,
+        "raw_increment": 0.0013621637909295714,
+        "pre_trough": 0.0,
+        "q": 8.239936510889834e-18,
+        "s": 6.288372600415926e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 3,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.7616579245659523e-08,
+        "raw_increment": 0.0014839577921037517,
+        "pre_trough": 0.0,
+        "q": 2.168404344971009e-18,
+        "s": 2.168404344971009e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 3,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.532091845201649e-08,
+        "raw_increment": 0.0014902974269475067,
+        "pre_trough": 0.0,
+        "q": 4.336808689942018e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 3,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.247276722135211e-08,
+        "raw_increment": 0.001494550774744141,
+        "pre_trough": 0.0,
+        "q": 6.071532165918825e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 3,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.2812745353585342e-07,
+        "raw_increment": 0.001499890917081359,
+        "pre_trough": 0.0,
+        "q": 8.239936510889834e-18,
+        "s": 5.854691731421724e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 4,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.2838804625280318e-08,
+        "raw_increment": 0.001547540505583811,
+        "pre_trough": 0.0,
+        "q": 2.168404344971009e-18,
+        "s": 2.168404344971009e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 4,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.4013000294617086e-08,
+        "raw_increment": 0.0015542091023590388,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 4,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.691527770248285e-08,
+        "raw_increment": 0.0015586863868790601,
+        "pre_trough": 0.0,
+        "q": 7.806255641895632e-18,
+        "s": 4.9873299934333204e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 4,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.075848956588743e-07,
+        "raw_increment": 0.0015643121328494658,
+        "pre_trough": 0.0,
+        "q": 9.107298248878237e-18,
+        "s": 6.938893903907228e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 5,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.9165931064435426e-08,
+        "raw_increment": 0.0015856442948845029,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 3.0357660829594124e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 5,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.534806663514246e-08,
+        "raw_increment": 0.0015925099485940564,
+        "pre_trough": 0.0,
+        "q": 4.336808689942018e-18,
+        "s": 3.686287386450715e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 5,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.466529356430328e-08,
+        "raw_increment": 0.001597120441857669,
+        "pre_trough": 0.0,
+        "q": 7.806255641895632e-18,
+        "s": 4.9873299934333204e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 5,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.08228798834898e-08,
+        "raw_increment": 0.0016029156844652448,
+        "pre_trough": 0.0,
+        "q": 9.107298248878237e-18,
+        "s": 5.854691731421724e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 6,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.52354857618775e-08,
+        "raw_increment": 0.0016139639302821251,
+        "pre_trough": 0.0,
+        "q": 1.734723475976807e-18,
+        "s": 1.5178830414797062e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 6,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.6146644788459525e-08,
+        "raw_increment": 0.001620973109282886,
+        "pre_trough": 0.0,
+        "q": 3.903127820947816e-18,
+        "s": 2.168404344971009e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 6,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.175024853087962e-08,
+        "raw_increment": 0.0016256806189858253,
+        "pre_trough": 0.0,
+        "q": 6.5052130349130266e-18,
+        "s": 3.469446951953614e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 6,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.284774738991473e-08,
+        "raw_increment": 0.0016315990491193588,
+        "pre_trough": 0.0,
+        "q": 7.806255641895632e-18,
+        "s": 5.204170427930421e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 7,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.2725998033147334e-08,
+        "raw_increment": 0.0016270720316384768,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 7,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.0236662951210747e-08,
+        "raw_increment": 0.0016341446555898642,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 7,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.333611514084623e-08,
+        "raw_increment": 0.0016388950247048228,
+        "pre_trough": 0.0,
+        "q": 7.37257477290143e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 7,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 6.108661665393811e-08,
+        "raw_increment": 0.0016448678715690335,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 4.7704895589362195e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 8,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.0722743581936811e-08,
+        "raw_increment": 0.0016333725187678283,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 8,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.546389765711865e-08,
+        "raw_increment": 0.0016404717426468096,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 8,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.649382307457927e-08,
+        "raw_increment": 0.001645239956644673,
+        "pre_trough": 0.0,
+        "q": 7.37257477290143e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 8,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 5.144786285882219e-08,
+        "raw_increment": 0.0016512354820008568,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 4.7704895589362195e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 9,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 9.243109388989978e-09,
+        "raw_increment": 0.0016356743805303608,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 9,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.1919618120591622e-08,
+        "raw_increment": 0.0016427794529292328,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 9,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.136502613187986e-08,
+        "raw_increment": 0.0016475514647780187,
+        "pre_trough": 0.0,
+        "q": 7.37257477290143e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 9,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 4.419931087795703e-08,
+        "raw_increment": 0.001653551858090907,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 4.7704895589362195e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 10,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 8.26108248475066e-09,
+        "raw_increment": 0.00163520015409091,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 10,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.956870221420104e-08,
+        "raw_increment": 0.00164229725026388,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 10,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.7957014481216902e-08,
+        "raw_increment": 0.0016470638241585789,
+        "pre_trough": 0.0,
+        "q": 7.37257477290143e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 10,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.938109216505836e-08,
+        "raw_increment": 0.0016530574008157828,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 4.7704895589362195e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 11,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.666621115731687e-09,
+        "raw_increment": 0.0016335451998017447,
+        "pre_trough": 0.0,
+        "q": 2.6020852139652106e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 11,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.8176123717239534e-08,
+        "raw_increment": 0.0016406297058821906,
+        "pre_trough": 0.0,
+        "q": 4.7704895589362195e-18,
+        "s": 2.8189256484623115e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 11,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.599101378564228e-08,
+        "raw_increment": 0.0016453877848761067,
+        "pre_trough": 0.0,
+        "q": 7.37257477290143e-18,
+        "s": 4.336808689942018e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 11,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.6588517104974017e-08,
+        "raw_increment": 0.0016513706294887243,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 4.7704895589362195e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 12,
+      "call": 0,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 7.336296903304174e-09,
+        "raw_increment": 0.001630854222824496,
+        "pre_trough": 0.0,
+        "q": 3.469446951953614e-18,
+        "s": 1.734723475976807e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 12,
+      "call": 1,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        80
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 1.733684484861442e-08,
+        "raw_increment": 0.0016379216674948793,
+        "pre_trough": 0.0,
+        "q": 5.637851296924623e-18,
+        "s": 3.2526065174565133e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 12,
+      "call": 2,
+      "phase": "predictor",
+      "samples_native_reference": [
+        6,
+        40
+      ],
+      "exact_common_times": 6,
+      "max_abs_diff_at_common_times": {
+        "voltage": 2.4690869793175807e-08,
+        "raw_increment": 0.0016426679709056202,
+        "pre_trough": 0.0,
+        "q": 7.806255641895632e-18,
+        "s": 5.421010862427522e-18
+      },
+      "accepted_h_ns_native": [
+        12500,
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    },
+    {
+      "neuron_id": 45199,
+      "compartment": 12,
+      "call": 3,
+      "phase": "accepted",
+      "samples_native_reference": [
+        10,
+        76
+      ],
+      "exact_common_times": 10,
+      "max_abs_diff_at_common_times": {
+        "voltage": 3.467983589189316e-08,
+        "raw_increment": 0.0016486357771512417,
+        "pre_trough": 0.0,
+        "q": 9.540979117872439e-18,
+        "s": 5.637851296924623e-18
+      },
+      "accepted_h_ns_native": [
+        25000
+      ],
+      "accepted_h_ns_reference": [
+        3125,
+        6250
+      ],
+      "event_times_ns_native": [],
+      "event_times_ns_reference": []
+    }
+  ],
+  "inputs": [
+    {
+      "call": 0,
+      "all_exact": true,
+      "max_absolute_differences": {
+        "origin_ns": 0.0,
+        "duration_ns": 0.0,
+        "rest": 0.0,
+        "ts": 0.0,
+        "selected_local": 0.0,
+        "selected_ids": 0.0,
+        "state_delta": 0.0,
+        "state_gates": 0.0,
+        "state_q": 0.0,
+        "state_counts": 0.0,
+        "state_last_siz": 0.0,
+        "state_previous_slope": 0.0,
+        "state_trough": 0.0,
+        "state_clipped": 0.0,
+        "ax_q": 0.0,
+        "ax_s": 0.0,
+        "ax_last_voltage": 0.0,
+        "ax_previous_slope": 0.0,
+        "ax_trough": 0.0,
+        "ax_counts": 0.0,
+        "ax_clipped": 0.0,
+        "ge": 0.0,
+        "gi": 0.0,
+        "current": 0.0,
+        "gain": 0.0,
+        "caps": 0.0,
+        "tau": 0.0,
+        "C": 0.0,
+        "G": 0.0,
+        "chanG": 0.0,
+        "chanb": 0.0,
+        "shuntG": 0.0,
+        "shuntb": 0.0,
+        "ena": 0.0,
+        "observation": 0.0
+      }
+    },
+    {
+      "call": 1,
+      "all_exact": true,
+      "max_absolute_differences": {
+        "origin_ns": 0.0,
+        "duration_ns": 0.0,
+        "rest": 0.0,
+        "ts": 0.0,
+        "selected_local": 0.0,
+        "selected_ids": 0.0,
+        "state_delta": 0.0,
+        "state_gates": 0.0,
+        "state_q": 0.0,
+        "state_counts": 0.0,
+        "state_last_siz": 0.0,
+        "state_previous_slope": 0.0,
+        "state_trough": 0.0,
+        "state_clipped": 0.0,
+        "ax_q": 0.0,
+        "ax_s": 0.0,
+        "ax_last_voltage": 0.0,
+        "ax_previous_slope": 0.0,
+        "ax_trough": 0.0,
+        "ax_counts": 0.0,
+        "ax_clipped": 0.0,
+        "ge": 0.0,
+        "gi": 0.0,
+        "current": 0.0,
+        "gain": 0.0,
+        "caps": 0.0,
+        "tau": 0.0,
+        "C": 0.0,
+        "G": 0.0,
+        "chanG": 0.0,
+        "chanb": 0.0,
+        "shuntG": 0.0,
+        "shuntb": 0.0,
+        "ena": 0.0,
+        "observation": 0.0
+      }
+    },
+    {
+      "call": 2,
+      "all_exact": false,
+      "max_absolute_differences": {
+        "origin_ns": 0.0,
+        "duration_ns": 0.0,
+        "rest": 0.0,
+        "ts": 0.0,
+        "selected_local": 0.0,
+        "selected_ids": 0.0,
+        "state_delta": 6.270102507244246e-05,
+        "state_gates": 9.800733005160822e-07,
+        "state_q": 2.6558370265827858e-05,
+        "state_counts": 0.0,
+        "state_last_siz": 3.9703818480063546e-05,
+        "state_previous_slope": 0.040858734991303436,
+        "state_trough": 1.8943978041363607e-05,
+        "state_clipped": 0.0,
+        "ax_q": 2.6506014144167533e-05,
+        "ax_s": 4.5636695425889124e-05,
+        "ax_last_voltage": 6.270102507244246e-05,
+        "ax_previous_slope": 0.0894099481035795,
+        "ax_trough": 9.269021774116482e-06,
+        "ax_counts": 0.0,
+        "ax_clipped": 0.0,
+        "ge": 0.0,
+        "gi": 2.4697258127481803e-13,
+        "current": 0.0,
+        "gain": 9.814022927656652e-10,
+        "caps": 0.0,
+        "tau": 0.0,
+        "C": 0.0,
+        "G": 0.0,
+        "chanG": 0.0,
+        "chanb": 0.0,
+        "shuntG": 0.0,
+        "shuntb": 0.0,
+        "ena": 0.0,
+        "observation": 0.0
+      }
+    },
+    {
+      "call": 3,
+      "all_exact": false,
+      "max_absolute_differences": {
+        "origin_ns": 0.0,
+        "duration_ns": 0.0,
+        "rest": 0.0,
+        "ts": 0.0,
+        "selected_local": 0.0,
+        "selected_ids": 0.0,
+        "state_delta": 6.270102507244246e-05,
+        "state_gates": 9.800733005160822e-07,
+        "state_q": 2.6558370265827858e-05,
+        "state_counts": 0.0,
+        "state_last_siz": 3.9703818480063546e-05,
+        "state_previous_slope": 0.040858734991303436,
+        "state_trough": 1.8943978041363607e-05,
+        "state_clipped": 0.0,
+        "ax_q": 2.6506014144167533e-05,
+        "ax_s": 4.5636695425889124e-05,
+        "ax_last_voltage": 6.270102507244246e-05,
+        "ax_previous_slope": 0.0894099481035795,
+        "ax_trough": 9.269021774116482e-06,
+        "ax_counts": 0.0,
+        "ax_clipped": 0.0,
+        "ge": 0.0,
+        "gi": 2.157482525966259e-12,
+        "current": 0.0,
+        "gain": 1.5369273631549163e-09,
+        "caps": 0.0,
+        "tau": 0.0,
+        "C": 0.0,
+        "G": 0.0,
+        "chanG": 0.0,
+        "chanb": 0.0,
+        "shuntG": 0.0,
+        "shuntb": 0.0,
+        "ena": 0.0,
+        "observation": 0.0
+      }
+    }
+  ],
+  "restore_checks": {
+    "native": 8,
+    "reference": 8
+  },
+  "scope": "Selected cells, first two epochs, exact common timestamps only; raw increments and trough retain different sample histories. No trajectory interpolation or causal motor certificate.",
+  "stage3_admission": false
+}

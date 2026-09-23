@@ -1,0 +1,177 @@
+{
+  "schema": "kc_post_commit_capture_two_ms_neutrality_v1",
+  "engines": {
+    "native": {
+      "exact_scientific_state": true,
+      "fields": {
+        "time_ns": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "ticks": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_sensors": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_light": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_excitation": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_proprioception": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_cyborg_command": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "used_light": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "world": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "body": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "hybrid": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "muscles": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "rotor": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "plasticity": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "proprioception": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        }
+      },
+      "exact_auxiliary_files": {
+        "published.npz": true,
+        "prosthesis.npz": true,
+        "boundary.json": true
+      }
+    },
+    "reference": {
+      "exact_scientific_state": true,
+      "fields": {
+        "time_ns": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "ticks": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_sensors": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_light": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_excitation": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_proprioception": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "pending_cyborg_command": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "used_light": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "world": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "body": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "hybrid": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "muscles": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "rotor": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "plasticity": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        },
+        "proprioception": {
+          "equal": true,
+          "different_paths": [],
+          "different_path_count": 0
+        }
+      },
+      "exact_auxiliary_files": {
+        "published.npz": true,
+        "prosthesis.npz": true,
+        "boundary.json": true
+      }
+    }
+  },
+  "reference_engine_neutrality_tested": true,
+  "scope": "Full final scientific state tree and three auxiliary checkpoint files for both engines after 1ms; excludes wall time and sideband. All non-finite capture values are separately rejected."
+}
