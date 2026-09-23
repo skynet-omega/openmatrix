@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-flow-observer-failures-20260923](reviews/stage3-flow-observer-failures-20260923-887b1258caa9/README.md)
+[stage3-flow-static-addendum-20260923](reviews/stage3-flow-static-addendum-20260923-9a4d5667aa3c/README.md)
 
-Revisión de ventana tardía, auditoría del pipeline vigente y dos campañas de instrumentación detenidas por discrepancia PN; código ejecutado, fallos, fixture CUDA y revisión externa. Sin PASS de etapa 3.
+Addendum estático: receptor APL omitido, anatomía PN bilateral, evaluación de tres consejos y kernel FP64 genérico faltante en paquete anterior. Sin nuevas corridas de organismo ni admisión de etapa 3.

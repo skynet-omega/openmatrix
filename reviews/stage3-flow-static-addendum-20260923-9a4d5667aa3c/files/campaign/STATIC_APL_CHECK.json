@@ -1,0 +1,20 @@
+{
+  "schema": "stage3_apl_static_omission_v1",
+  "APL_afferents_by_post_ID": {
+    "10176": [
+      10540
+    ],
+    "10208": [
+      10977
+    ],
+    "10360": [],
+    "523769": []
+  },
+  "source_sha256": {
+    "block_midpoint.py": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b",
+    "gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "flow_observer.py": "ac3e89824ff3c91883aaab5b583a9f5456f9db814c3bf56304fa42d1080987d8"
+  },
+  "finding": "The observer reads post-step weights and unmodified stage transmission, while the accepted coefficient path temporarily scales APL weights by local release and sets APL transmission to 1. Both PNs have one APL afferent. This is a concrete omitted operator, not a demonstrated explanation of the entire 0.0059274696 discrepancy.",
+  "falsifier": "Capture the APL term at the same PN kernel evaluation and compare its signed difference with the observed residual; also validate all remaining input terms."
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "label": "stage3-flow-static-addendum-20260923",
+  "description": "Addendum estático: receptor APL omitido, anatomía PN bilateral, evaluación de tres consejos y kernel FP64 genérico faltante en paquete anterior. Sin nuevas corridas de organismo ni admisión de etapa 3.",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "bytes": 9864,
+      "sha256": "816ed56334e493ab638856d8ce7ecf039c7b8872c5cf08d389ea09253040ef8e"
+    },
+    {
+      "path": "campaign/GEMINI_ADVICE_REVIEW.md",
+      "bytes": 2677,
+      "sha256": "198f522c46d43a0db198f4b26ebd7a6d2817771a20e0ae167ca841357d1cd911"
+    },
+    {
+      "path": "campaign/NEXT_INSTRUMENT_ABC.md",
+      "bytes": 2972,
+      "sha256": "08bb82498a4eaef2d86e1eef4470b8cea626b9ae8ae54fad6d5f6c350e2ab9b8"
+    },
+    {
+      "path": "campaign/STATIC_APL_CHECK.json",
+      "bytes": 1017,
+      "sha256": "d495c26f1fb7173d771b58f41b76b350d37a1a86bd0c3fa2bf8bed6f620c2c1e"
+    },
+    {
+      "path": "campaign/static_apl_check.py",
+      "bytes": 2586,
+      "sha256": "d9f2a5666737d590c6760bec8ff4f6a0b619f71be82f9864c77ce8b908c0cbd4"
+    },
+    {
+      "path": "campaign/PN_PAIR_STRUCTURE.json",
+      "bytes": 1288,
+      "sha256": "e53571512140ecda0bbca3a958e4ad486fb7c9bc60255b01d4df20e3449989ec"
+    },
+    {
+      "path": "campaign/read_pn_pair.py",
+      "bytes": 1130,
+      "sha256": "d4ab83465c05ca3b261f963dcd6f01a17c8f3e1d638c0be0e469d94bd78d83c8"
+    },
+    {
+      "path": "source/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "source/bridge_blocks_other_motor.cpp",
+      "bytes": 5701,
+      "sha256": "3660815571f16b896b9a4104d722d78471a4f3cded88721b465a368470f2a2c2"
+    },
+    {
+      "path": "campaign/REMOTE_VERIFY.json",
+      "bytes": 314,
+      "sha256": "771b5d6c1662e8b0e8db40499052bb82b0d9866ae4450e415f222df0576c98b6"
+    }
+  ]
+}
