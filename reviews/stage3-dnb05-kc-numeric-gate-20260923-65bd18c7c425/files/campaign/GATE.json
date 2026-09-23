@@ -1,0 +1,139 @@
+{
+  "schema": "stage3_dnb05_native_gate_summary_v1",
+  "statuses": {
+    "native_sham_20_01": "COMPLETE",
+    "reference_sham_20_01": "COMPLETE"
+  },
+  "wall_s": {
+    "native_sham_20_01": 93.38251930603292,
+    "reference_sham_20_01": 116.26830791897373
+  },
+  "per_id": {
+    "10176": {
+      "native_target_first": 0.592971911590874,
+      "native_target_last": 0.5737941056338065,
+      "target_max_abs_between_engines": 2.478727174737294e-06,
+      "raw_max_abs_between_engines": 0.03427429740440857
+    },
+    "10208": {
+      "native_target_first": 0.6098326016581364,
+      "native_target_last": 0.5924286089101886,
+      "target_max_abs_between_engines": 2.2426114731910474e-06,
+      "raw_max_abs_between_engines": 0.035202411309001036
+    },
+    "10360": {
+      "native_target_first": 0.0,
+      "native_target_last": 0.0,
+      "target_max_abs_between_engines": 0.0,
+      "raw_max_abs_between_engines": 0.011480041136451291
+    },
+    "523769": {
+      "native_target_first": 0.0,
+      "native_target_last": 0.0,
+      "target_max_abs_between_engines": 0.0,
+      "raw_max_abs_between_engines": 0.004239817173811389
+    },
+    "10065": {
+      "native_target_first": 0.7454273307752394,
+      "native_target_last": 0.7453632169868787,
+      "target_max_abs_between_engines": 7.590256645428894e-09,
+      "raw_max_abs_between_engines": 0.0003359684706083499
+    },
+    "10118": {
+      "native_target_first": 0.7198516477778258,
+      "native_target_last": 0.719812110018361,
+      "target_max_abs_between_engines": 8.00544475154652e-09,
+      "raw_max_abs_between_engines": 0.0002561670044087805
+    }
+  },
+  "dnb05_left_minus_right_target_last": -0.0255511069685177,
+  "dnb05_left_minus_right_actual_q_last": -0.025700225261770182,
+  "dna02_both_target_zero_all_samples": true,
+  "kc_errors": {
+    "hybrid/kc_axonal_state/trough": {
+      "max_abs": 0.06524803602137297,
+      "index": [
+        1529,
+        2
+      ],
+      "native_value": -66.51967788444435,
+      "reference_value": -66.45442984842298
+    },
+    "hybrid/kc_axonal_state/previous_slope": {
+      "max_abs": 0.06176295392349829,
+      "index": [
+        97,
+        5
+      ],
+      "native_value": 0.08250627931624877,
+      "reference_value": 0.020743325392750478
+    },
+    "hybrid/kc_axonal_state/last_voltage": {
+      "max_abs": 0.0029300741174296263,
+      "index": [
+        108,
+        5
+      ],
+      "native_value": -21.423242271905004,
+      "reference_value": -21.426172346022433
+    },
+    "hybrid/kc_spatial_state/trough": {
+      "max_abs": 0.001087113041492671,
+      "index": [
+        1042
+      ],
+      "native_value": -10.346837909424579,
+      "reference_value": -10.345750796383086
+    },
+    "hybrid/kc_spatial_state/previous_slope": {
+      "max_abs": 0.02264959642452169,
+      "index": [
+        97
+      ],
+      "native_value": 0.030242491081203582,
+      "reference_value": 0.007592894656681892
+    }
+  },
+  "numerical_gate": false,
+  "observer_on_off_1ms_exact": true,
+  "accepted_events": {
+    "schema": "stage3_committed_event_comparison_v1",
+    "accepted_block_ns": 125000,
+    "predictor_events_causal": 528,
+    "predictor_events_reference": 527,
+    "committed_events_causal": 1036,
+    "committed_events_reference": 1036,
+    "per_neuron_count_differences": [],
+    "paired_events": 1036,
+    "maximum_event_time_abs_ns": 3125,
+    "event_time_p99_abs_ns": 1563.0,
+    "maximum_physical_post_q_abs": 2.4103540724462746e-06,
+    "worst_timing_event": {
+      "producer": "gamma_cuda",
+      "row": 25552,
+      "neuron_id": 38549,
+      "causal_time_ns": 1492250000,
+      "reference_time_ns": 1492246875,
+      "abs_ns": 3125
+    },
+    "scope": "Midpoint code confirms half-block predictor is restored; this filters by the frozen 125000-ns full-block clock. Event timing error is measured, not accepted by a new threshold."
+  },
+  "compact_sha256": "8510d09d6f0dda120ca5637e263585438431e459383c4585a3310b3ceb7796cb",
+  "source_sha256": {
+    "native_sham_20_01": {
+      "RESULT.json": "8258023f8f3e6ed1198b751c90f335086a0ceb00a430fd953d479d1169a1e865",
+      "flow/FLOW.npz": "6317fdb3174d4d47353371e7d50a4ee6e66b07711a1fe64fc78f37723fd9a6ef",
+      "EVENT_AUDIT.json": "0ec9b100654ac6eb57969706d34610f6f57796aad70ebba154dcd2d483d8fce6",
+      "final_state/session.json": "bd2b37475352b214d9e14dd28bd3e5e6cd4abecd8073fa2216ce5ae4dbae6776",
+      "final_state/session.npz": "7acd434a26c281c52419765047e87de157bf80c6526cf87fbe37ae81005ad615"
+    },
+    "reference_sham_20_01": {
+      "RESULT.json": "59641dfe86f8860ce01da2f8462bf52fee0201071b654c2f7e4262db9de2b938",
+      "flow/FLOW.npz": "b81afff7fcfce2da9a42c2ddd7ce6a97f70b2bc142f2bb7e3e4eaf6b0a8a1f73",
+      "EVENT_AUDIT.json": "c279ad2d0cee56a161f280eef2c92f410eea7048440923b60d9b259cbc3be7f4",
+      "final_state/session.json": "22c4754b205762cdbb64641f4ecb50ea31f55ab0e51389cdae900eaed1528c73",
+      "final_state/session.npz": "5e925ecd5655c1aaf8092be88b40740576949228e51cec8eb551ee17012e635a"
+    }
+  },
+  "scope": "Two 20-ms sham trajectories, six selected native rate rows, five KC arrays and accepted physical events. No 400-ms error certificate or odor contrast."
+}

@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-body-command-control-20260923](reviews/stage3-body-command-control-20260923-517940161074/README.md)
+[stage3-dnb05-kc-numeric-gate-20260923](reviews/stage3-dnb05-kc-numeric-gate-20260923-65bd18c7c425/README.md)
 
-Four 400-ms open-loop MuJoCo body replays, exact sham pose/velocity replay, ChatGPT independent code executed on real four-arm arrays, Jev task routing, and A/B/C analysis; stage 3 remains open.
+Native CUDA FP64 DNb05/PN/DNa02 tap, exact one-ms observer control, two 20-ms real-organism engines, KC hidden-state mismatch and accepted-event audit; selected portable data and code, no stage-3 admission.

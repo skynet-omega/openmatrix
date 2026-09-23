@@ -1,0 +1,29 @@
+{
+  "schema": "stage3_dnb05_native_gate_prospective_v1",
+  "recorded_utc": "2026-09-23T11:05:00Z",
+  "parent": "campanas/etapa3_causal_controls_20260923_11",
+  "status": "FROZEN_BEFORE_RUN",
+  "question": "Does the signed input and target actually consumed by DNb05 preserve odor-relevant polarity, and is the 20-ms native trajectory numerically concordant with the reference engine?",
+  "rivals": {
+    "A": "The 629 left PN general-destination substitution generates an asymmetric downstream drive; its prospective flag intervention is distinct and remains pending.",
+    "B": "Central convergence and thresholds route useful contrast to DNb05 while suppressing the sampled DNa02 pair; measure both pairs in the actual native rate kernels before selecting any circuit lesion.",
+    "C": "Baseline motor command and decoder produce the sham yaw independent of body asymmetry; 400-ms body-only open-loop result in campaign 11 supports the command component, but the neural/decoder source remains unknown."
+  },
+  "prototype": "B diagnostic only: extend the existing native CUDA FP64 sideband with DNb05 R10065/L10118, no change to biological equations or output; one-ms sham observer on/off exact state, then 20-ms sham native/reference comparison including hidden state, discrete events, DNb05 and DNa02 target.",
+  "falsifiers": "A sideband target reconstruction error >1e-9, one-ms scientific on/off difference, nonfinite, or 20-ms comparison mismatch above frozen 1e-4 blocks numerical certification. Observed DNb05 contrast at sham alone cannot establish odor steering.",
+  "budgets": {
+    "new_organism_runs_max": 4,
+    "one_ms_runs_max": 2,
+    "twenty_ms_runs_max": 2,
+    "new_organism_trial_ms_max": 42,
+    "wall_total_s_max": 1600,
+    "wall_one_ms_s_max": 240,
+    "wall_twenty_ms_s_max": 600,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "ChatGPT_new_messages_max": 1,
+    "Jev_new_calls_max": 0
+  },
+  "limits": "No biological parameter adjustment, decoder retuning, 400-ms extrapolation, stage-3 admission, or replacement of anatomical edges. Instrumentation may store six selected rows but must not read debug data in model equations.",
+  "stop": "Stop after any source-identity, ownership, observer-equivalence or domain failure and preserve the failed run. A mismatched reference result is a diagnostic failure, not a reason to loosen tolerance."
+}
