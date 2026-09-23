@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-pn629-prospective-review-20260923](reviews/stage3-pn629-prospective-review-20260923-4680db263cbd/README.md)
+[stage3-functional-preregistered-20260923](reviews/stage3-functional-preregistered-20260923-1ad133c15d61/README.md)
 
-Two completed organism arms and crossed body replays; left/uniform pending. Prospective numerical-admission review, no stage3 claim.
+Prospective query-specific numerical and causal qualification contract; no long reference data observed.
