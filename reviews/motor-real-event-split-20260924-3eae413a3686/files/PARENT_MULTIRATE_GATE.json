@@ -1,0 +1,51 @@
+{
+  "schema": "multirate_next_discriminator_v1",
+  "date_utc": "2026-09-24",
+  "status": "FROZEN_NOT_EXECUTED",
+  "decision": "Test coupled multirate on one real event-cut block; keep QSS2 as second rival, Krylov as third unimplemented route.",
+  "parent": "strict FP64 CNS with the same prepared sham organism and unchanged biological laws",
+  "question": "Can a coupled method reconstruct recurrent graded transmission and dated events with at least 10x fewer effective full-CSR products on the real 125-us block while retaining the parent numerical contract?",
+  "scope": {
+    "capture": "First 125 us of the existing 1-ms sham preparation; exact block start/end states, owner states, event sequence, operator versions, trial phase and all coefficient inputs/outputs effectively consumed.",
+    "no_stage_admission": true,
+    "no_biological_recalibration": true,
+    "model_registry_required_for_promotion": true
+  },
+  "budget": {
+    "organism_capture_runs_max": 1,
+    "organism_simulated_ms_max": 1,
+    "organism_capture_wall_s_max": 240,
+    "candidate_prototypes_max": 2,
+    "candidate_replays_per_candidate_max": 1,
+    "candidate_replay_wall_s_max": 120,
+    "RAM_GiB_max": 18,
+    "VRAM_GiB_max": 12,
+    "new_disk_GiB_max": 2
+  },
+  "arms": [
+    {
+      "id": "A_MRI_GARK",
+      "operation": "Fast local evolution driven by published-order slow recurrent forcing; solve coupling across stage nodes and cut at every physical event.",
+      "falsifier": "Residual between nodes, event ordering, state error, or full work/fallback violates the common gate."
+    },
+    {
+      "id": "B_QSS2_CSC",
+      "operation": "Source trajectories with certified per-source error, CSC updates and recurrent influence accounting even without spikes.",
+      "falsifier": "Certified update/scatter and audit cost approaches the strict full-CSR work, or trajectory/event error fails."
+    },
+    {
+      "id": "C_EXPONENTIAL_KRYLOV",
+      "operation": "Matrix-free action of the coupled Jacobian with nonlinear defect and operator-version invalidation.",
+      "falsifier": "Basis growth, renewal or nonlinear residual costs too many products, or event/state error fails.",
+      "role": "independent reserved hypothesis, no third complete prototype this round"
+    }
+  ],
+  "common_gate": {
+    "capture_neutrality": "Compare every serialized scientific state of the sham step, RNG, event sequence and counters to a strict reference; h.state alone is insufficient.",
+    "numerics": "Keep current atol=1e-7 and rtol=1e-5; detect non-finite/domain violations; compare all owner states, PN/KC/DN ports and event times/order, including a late-event control. Do not tune tolerances after exposure.",
+    "work": "At least 10x fewer full-CSR-equivalent edge visits than the strict parent in the same 125-us block, counting residual audits, rejected proposals, setup amortized across only that block and fallback. This is an early discriminator, not the final speed target.",
+    "wall": "Report capture and replay wall separately, CPU/GPU transfer and peak memory; no speed claim until one complete 1-ms organism pair also passes.",
+    "stop": "Stop without promotion if required effective-operator or owner metadata cannot be captured within budget, if neutrality fails, or if either candidate fails its preset error/work gate. Preserve all failed receipts."
+  },
+  "final_target_separate": "1 simulated second / 60 wall seconds for the complete organism still requires <=0.060 wall s/ms plus a general runtime; passing this block only authorizes the next test."
+}

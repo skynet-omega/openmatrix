@@ -1,0 +1,272 @@
+{
+  "format_version": 2,
+  "label": "motor-real-event-split-20260924",
+  "description": "Neutral full-organism capture receipt; complete ChatGPT MRI code, CPU execution and measured real-event work floor; standalone CUDA port-current primitive with 60 real inputs/outputs, independent CPU recomputation, preserved timing inconsistency and setup cost. Compact reproducible operator package, not a complete brain checkpoint or validated engine speedup.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6090,
+      "sha256": "f378d2031787853821acd86440bdfd5806a2f0fce4eeb4510e1437346b0bf296"
+    },
+    {
+      "path": "NEXT_SPLIT_ABC.md",
+      "bytes": 5437,
+      "sha256": "fae50f61c322e279565f1733451d741d3a2936f5e360ec3f42223bd0b1be87b8"
+    },
+    {
+      "path": "SPECIALIST_REVIEW_01.md",
+      "bytes": 1836,
+      "sha256": "2844ceb2eeefd4546ebd3c88df25e7e3a017774940041a7c83846c8278850913"
+    },
+    {
+      "path": "GATE_CLARIFICATION_01.md",
+      "bytes": 1875,
+      "sha256": "b76de85e3c9cf412c5b3531c973b48f57569623b7cb80fa7aeb40f9d9758aef8"
+    },
+    {
+      "path": "CAPTURE_CONTRACT_01.json",
+      "bytes": 1589,
+      "sha256": "e143dfe6875ee3da229dfbf45873b6e77cb6e8da4d869bfe62d2384c978ff2f9"
+    },
+    {
+      "path": "CAPTURE_MANIFEST_01.json",
+      "bytes": 11463,
+      "sha256": "bc799a71f03c671fdcbe6c7839cc88135079eb69d03a3636d2d91a30910ec591"
+    },
+    {
+      "path": "NEUTRALITY_01.json",
+      "bytes": 1236,
+      "sha256": "da82b080297e2ba4bd68f7b99e9a0593734c2ceb35c576cf3c901379402a67bc"
+    },
+    {
+      "path": "BLOCK_ANALYSIS_01.json",
+      "bytes": 1287,
+      "sha256": "11c43df822377d52ca970c9ef217e345e4792d4ba5c21179790bb253d5d748ff"
+    },
+    {
+      "path": "ORACLE_MEMORY_TEST_01.json",
+      "bytes": 436,
+      "sha256": "41657cc587cb0647f15f65900491e8819f07e413b9f1eded549d201e61254d8e"
+    },
+    {
+      "path": "ENVIRONMENT_01.json",
+      "bytes": 245,
+      "sha256": "ede5ff003a56fe1100c24128f52950c69acc47dc3307d0696530667f3693d78c"
+    },
+    {
+      "path": "CHATGPT_MRI_RESPONSE_01.md",
+      "bytes": 20122,
+      "sha256": "dcdf526751f1e8a62bb99f7cbf4e2cab875fcd5a6bf14e3f37174a70c7548de6"
+    },
+    {
+      "path": "CHATGPT_REAL_WORK_FLOOR_01.json",
+      "bytes": 563,
+      "sha256": "16ebf74e107c20092626776142e185725caf9df78fdca141a725986b551ae728"
+    },
+    {
+      "path": "JEV_REQUEST_01.json",
+      "bytes": 2233,
+      "sha256": "5ababa17720e0d995cf2d86314713d9c975e92d6c117466fa18f3879197e38b1"
+    },
+    {
+      "path": "capture_effective_block.py",
+      "bytes": 11606,
+      "sha256": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180"
+    },
+    {
+      "path": "effective_oracle.py",
+      "bytes": 2766,
+      "sha256": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c"
+    },
+    {
+      "path": "verify_capture.py",
+      "bytes": 2629,
+      "sha256": "beaaad53d89ed1708b53db3e119823cf5525ed12d6180449e809dbd948b0ab0e"
+    },
+    {
+      "path": "analyze_block.py",
+      "bytes": 2705,
+      "sha256": "0b81245798a43e6cd6c421a0681ec94e6de36b8e36fa36861a73b73c735f3ae1"
+    },
+    {
+      "path": "test_oracle_memory.py",
+      "bytes": 2552,
+      "sha256": "f22c167879b4cd5a73a741a90e2668013b7dff4c144618a7a0f83a5c12369402"
+    },
+    {
+      "path": "chatgpt_original/mri33_replay.py",
+      "bytes": 12611,
+      "sha256": "c8c3d75a6ed0d8bd908f41d24804dff4a25789f6da4b8bdeb2e617d6c42a2984"
+    },
+    {
+      "path": "chatgpt_original/RECEIPT.json",
+      "bytes": 494,
+      "sha256": "95927fd84ffd0efc01b610e975ced4f03bc347b0015a21319e86b6a98ff6653f"
+    },
+    {
+      "path": "chatgpt_cpu_01/RESULT.json",
+      "bytes": 3520,
+      "sha256": "8dd5c171fca7b245abdd2bab0c61dc49c1e6d1857f695ae46c1663f96a477dbb"
+    },
+    {
+      "path": "jev_01/request.json",
+      "bytes": 2130,
+      "sha256": "d2fa34241f6393645e0da8f80bf7eb2345e5fcfa37eca77c3c976ba30d44e78e"
+    },
+    {
+      "path": "jev_01/response.json",
+      "bytes": 469,
+      "sha256": "5917eed780b83fbc2f7cd0c6b9aecf439f2ea59a032660c02c18f942ce7eeb2d"
+    },
+    {
+      "path": "jev_01/receipt.json",
+      "bytes": 402,
+      "sha256": "1022bd72b4d9b31e118a711ed7c0fbc9008c8435de082c3f93ff49e82b6599a1"
+    },
+    {
+      "path": "capture_01/CAPTURE_RESULT.json",
+      "bytes": 1247,
+      "sha256": "811cff493f247cc0cd975b0f592770b73f8d5c3e3107dd81ea844c760ec7287a"
+    },
+    {
+      "path": "capture_01/ORACLE_CHECK.json",
+      "bytes": 573,
+      "sha256": "06f524866bf22a44a39803456886c3a58c4ee44ed88b2a4fd7f25893f166a8d1"
+    },
+    {
+      "path": "capture_01/EPOCHS.json",
+      "bytes": 2328,
+      "sha256": "41e8b5799f012acde7db01e0037776d99a1945741ab974476825cc35dc679e18"
+    },
+    {
+      "path": "capture_01/trace_clock.npz",
+      "bytes": 1923,
+      "sha256": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+    },
+    {
+      "path": "capture_01/block_events.json",
+      "bytes": 441,
+      "sha256": "2126d6d8a4f1423e98755e6f5350d1c952a9ace7811ecc90a24e7be839129dec"
+    },
+    {
+      "path": "capture_01/block_events.npz",
+      "bytes": 88455,
+      "sha256": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7"
+    },
+    {
+      "path": "capture_01/block_inputs.json",
+      "bytes": 892,
+      "sha256": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0"
+    },
+    {
+      "path": "capture_01/block_inputs.npz",
+      "bytes": 33199,
+      "sha256": "ee5e9f3cba91927ad1b47f229837a4b06551b14d7d583dbdd9f92bd295cbae85"
+    },
+    {
+      "path": "capture_01/executed_sources/capture_effective_block.py",
+      "bytes": 11606,
+      "sha256": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180"
+    },
+    {
+      "path": "capture_01/executed_sources/effective_oracle.py",
+      "bytes": 2464,
+      "sha256": "86bcce0322381edb3a3e5815a928d769ab00eeac0d284e106c7e16f4554358fb"
+    },
+    {
+      "path": "event_sparse/CONTRACT.json",
+      "bytes": 2799,
+      "sha256": "26c7d587bf93da7d3ea958e24ed8ef2fd711c7b55a3d8df21b65b2b1e9d84dec"
+    },
+    {
+      "path": "event_sparse/README.md",
+      "bytes": 5638,
+      "sha256": "9657d68637cf92e1fa4e004c2539e9830b5dd207de74c9873fd99f191f557d82"
+    },
+    {
+      "path": "event_sparse/CLOSE.json",
+      "bytes": 1670,
+      "sha256": "d5d5e8faad4468df70698578cb793194b8ff6f1562f496d14738c79c26a7a24e"
+    },
+    {
+      "path": "event_sparse/VERIFY_01.json",
+      "bytes": 704,
+      "sha256": "177cf4a66894ebfe1ec5b1a780de52f81e16beb04c78f436f09fbf94208afba9"
+    },
+    {
+      "path": "event_sparse/VERIFY_02_OPTIMIZED.json",
+      "bytes": 703,
+      "sha256": "ccf17baff4fbdfc9a106076f332a895355cd9e51575bff8a4651be097ce5db67"
+    },
+    {
+      "path": "event_sparse/event_sparse.py",
+      "bytes": 7789,
+      "sha256": "6d52fec3d83d9a8ec582d1f3ec0c309967aa02211d2a7f34d7be6164caa9b2cc"
+    },
+    {
+      "path": "event_sparse/sparse_kernels.cu",
+      "bytes": 2522,
+      "sha256": "92db3bf70a1a9a76bd6c0f4c0a81325de78aca743c2a0ce107880b3d0ce6c43d"
+    },
+    {
+      "path": "event_sparse/gpu_operator.py",
+      "bytes": 3196,
+      "sha256": "94b5711f968ec59553010d0050ac0f3755b7ac8d360295580d6f296624635784"
+    },
+    {
+      "path": "event_sparse/run_probe.py",
+      "bytes": 13450,
+      "sha256": "1102f7bfda6511453e9176dfb16589864be115f49b7cc8486a794015a1ef7c7c"
+    },
+    {
+      "path": "event_sparse/verify_capsule.py",
+      "bytes": 5584,
+      "sha256": "a5552c4b53ec3dfe03fefef05df816fad7b2c707429b83f09ae01e6b9f8206be"
+    },
+    {
+      "path": "event_sparse/test_cpu.py",
+      "bytes": 4598,
+      "sha256": "0efb5f793d22b68b9576fa6cacb330f3fb254d8022262e31efb879d4d7594ff1"
+    },
+    {
+      "path": "event_sparse/cpu_01/RESULT.json",
+      "bytes": 671,
+      "sha256": "a85f1a5f8ea29ff7e9c59976d57e563338eee5ca719e91d61b9e37fa90e452d8"
+    },
+    {
+      "path": "event_sparse/cpu_02/RESULT.json",
+      "bytes": 670,
+      "sha256": "2fcc08a1ebf2acda54a3ebc0352059e788d3ffad6edb855d97cc3ebd60cdd625"
+    },
+    {
+      "path": "event_sparse/gpu_01/RESULT.json",
+      "bytes": 6251,
+      "sha256": "bbc702afe2f72046a6cf49543c268c6322ec94684672c217619f232bf79a22cc"
+    },
+    {
+      "path": "event_sparse/gpu_01/FROZEN.json",
+      "bytes": 1574,
+      "sha256": "40b9ce2968819003b5b2bc170ed33f0dee81975f4acff95936499c17a78a491f"
+    },
+    {
+      "path": "event_sparse/gpu_01/OUTPUT_HASHES.json",
+      "bytes": 344,
+      "sha256": "cefc9ff6935fae38d67f520d4ee58400fc66ee98c3604c895019cf0556447cf6"
+    },
+    {
+      "path": "event_sparse/gpu_01/capsule.npz",
+      "bytes": 1983911,
+      "sha256": "6b3e72b3b737d79c0c75a4b9d56d3f40e7ca32c264e41a4982755c6d27d06e5e"
+    },
+    {
+      "path": "event_sparse/gpu_01/currents.npz",
+      "bytes": 9990797,
+      "sha256": "c8fdaedca574f9fdf932baa036d0c7bd378c07b0b197cd08975a8c8d56b456cc"
+    },
+    {
+      "path": "PARENT_MULTIRATE_GATE.json",
+      "bytes": 3566,
+      "sha256": "9efb6fde98fa600b8b92341aa754f49d994a05e00b1a539dc76df8f9ea813750"
+    }
+  ]
+}

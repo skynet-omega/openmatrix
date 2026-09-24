@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-multirate-three-view-20260924](reviews/motor-multirate-three-view-20260924-d96f62ad66db/README.md)
+[motor-real-event-split-20260924](reviews/motor-real-event-split-20260924-3eae413a3686/README.md)
 
-Contraste con tres revisiones del motor multirritmo, correcciones de procedencia, pruebas negativas reales y gate prospectivo. Complementa el paquete e005d91 sin repetir la capsula grande.
+Neutral full-organism capture receipt; complete ChatGPT MRI code, CPU execution and measured real-event work floor; standalone CUDA port-current primitive with 60 real inputs/outputs, independent CPU recomputation, preserved timing inconsistency and setup cost. Compact reproducible operator package, not a complete brain checkpoint or validated engine speedup.

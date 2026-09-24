@@ -1,0 +1,58 @@
+# motor-real-event-split-20260924
+
+Neutral full-organism capture receipt; complete ChatGPT MRI code, CPU execution and measured real-event work floor; standalone CUDA port-current primitive with 60 real inputs/outputs, independent CPU recomputation, preserved timing inconsistency and setup cost. Compact reproducible operator package, not a complete brain checkpoint or validated engine speedup.
+
+Snapshot inmutable: `motor-real-event-split-20260924-3eae413a3686`. [Manifiesto](MANIFEST.json), [ZIP dividido y hashes](ARCHIVE.json).
+
+Fuentes y evidencia legibles:
+
+- [README.md](files/README.md)
+- [NEXT_SPLIT_ABC.md](files/NEXT_SPLIT_ABC.md)
+- [SPECIALIST_REVIEW_01.md](files/SPECIALIST_REVIEW_01.md)
+- [GATE_CLARIFICATION_01.md](files/GATE_CLARIFICATION_01.md)
+- [CAPTURE_CONTRACT_01.json](files/CAPTURE_CONTRACT_01.json)
+- [CAPTURE_MANIFEST_01.json](files/CAPTURE_MANIFEST_01.json)
+- [NEUTRALITY_01.json](files/NEUTRALITY_01.json)
+- [BLOCK_ANALYSIS_01.json](files/BLOCK_ANALYSIS_01.json)
+- [ORACLE_MEMORY_TEST_01.json](files/ORACLE_MEMORY_TEST_01.json)
+- [ENVIRONMENT_01.json](files/ENVIRONMENT_01.json)
+- [CHATGPT_MRI_RESPONSE_01.md](files/CHATGPT_MRI_RESPONSE_01.md)
+- [CHATGPT_REAL_WORK_FLOOR_01.json](files/CHATGPT_REAL_WORK_FLOOR_01.json)
+- [JEV_REQUEST_01.json](files/JEV_REQUEST_01.json)
+- [capture_effective_block.py](files/capture_effective_block.py)
+- [effective_oracle.py](files/effective_oracle.py)
+- [verify_capture.py](files/verify_capture.py)
+- [analyze_block.py](files/analyze_block.py)
+- [test_oracle_memory.py](files/test_oracle_memory.py)
+- [chatgpt_original/mri33_replay.py](files/chatgpt_original/mri33_replay.py)
+- [chatgpt_original/RECEIPT.json](files/chatgpt_original/RECEIPT.json)
+- [chatgpt_cpu_01/RESULT.json](files/chatgpt_cpu_01/RESULT.json)
+- [jev_01/request.json](files/jev_01/request.json)
+- [jev_01/response.json](files/jev_01/response.json)
+- [jev_01/receipt.json](files/jev_01/receipt.json)
+- [capture_01/CAPTURE_RESULT.json](files/capture_01/CAPTURE_RESULT.json)
+- [capture_01/ORACLE_CHECK.json](files/capture_01/ORACLE_CHECK.json)
+- [capture_01/EPOCHS.json](files/capture_01/EPOCHS.json)
+- [capture_01/block_events.json](files/capture_01/block_events.json)
+- [capture_01/block_inputs.json](files/capture_01/block_inputs.json)
+- [capture_01/executed_sources/capture_effective_block.py](files/capture_01/executed_sources/capture_effective_block.py)
+- [capture_01/executed_sources/effective_oracle.py](files/capture_01/executed_sources/effective_oracle.py)
+- [event_sparse/CONTRACT.json](files/event_sparse/CONTRACT.json)
+- [event_sparse/README.md](files/event_sparse/README.md)
+- [event_sparse/CLOSE.json](files/event_sparse/CLOSE.json)
+- [event_sparse/VERIFY_01.json](files/event_sparse/VERIFY_01.json)
+- [event_sparse/VERIFY_02_OPTIMIZED.json](files/event_sparse/VERIFY_02_OPTIMIZED.json)
+- [event_sparse/event_sparse.py](files/event_sparse/event_sparse.py)
+- [event_sparse/sparse_kernels.cu](files/event_sparse/sparse_kernels.cu)
+- [event_sparse/gpu_operator.py](files/event_sparse/gpu_operator.py)
+- [event_sparse/run_probe.py](files/event_sparse/run_probe.py)
+- [event_sparse/verify_capsule.py](files/event_sparse/verify_capsule.py)
+- [event_sparse/test_cpu.py](files/event_sparse/test_cpu.py)
+- [event_sparse/cpu_01/RESULT.json](files/event_sparse/cpu_01/RESULT.json)
+- [event_sparse/cpu_02/RESULT.json](files/event_sparse/cpu_02/RESULT.json)
+- [event_sparse/gpu_01/RESULT.json](files/event_sparse/gpu_01/RESULT.json)
+- [event_sparse/gpu_01/FROZEN.json](files/event_sparse/gpu_01/FROZEN.json)
+- [event_sparse/gpu_01/OUTPUT_HASHES.json](files/event_sparse/gpu_01/OUTPUT_HASHES.json)
+- [PARENT_MULTIRATE_GATE.json](files/PARENT_MULTIRATE_GATE.json)
+
+Descargar las partes, concatenar por número y comprobar SHA256. El manifiesto enumera todos los archivos del ZIP. Revisar archivos no equivale a ejecutarlos.

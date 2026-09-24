@@ -1,0 +1,13 @@
+{
+  "segments": 8,
+  "minimum_coefficient_calls": 49,
+  "best_possible_count_ratio_this_code": 1.2244897959183674,
+  "assumption": "One full CSR per coefficient; no fast CSR; no rejections",
+  "schema": "mri33_real_event_work_floor_v1",
+  "source_sha256": "c8c3d75a6ed0d8bd908f41d24804dff4a25789f6da4b8bdeb2e617d6c42a2984",
+  "event_npz_sha256": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+  "required_speedup": 10.0,
+  "classification": "DESCARTADO_POR_COSTE_ANTES_DE_REPLAY",
+  "real_integrator_run": false,
+  "stage_admission": false
+}

@@ -1,0 +1,115 @@
+{
+  "status": "COMPLETE_CPU_SELFTEST",
+  "test": {
+    "scope": "CPU synthetic projected event, independent scipy.expm",
+    "uncut_negative": {
+      "estimate": 0.0,
+      "z": 0.0,
+      "reference_z": 0.0022620935450898974
+    },
+    "cut_abs_error": 2.3703101178877695e-09,
+    "cut_scaled_error": 0.01933038684765956,
+    "coefficients_including_setup_and_audits": 55,
+    "receipt": {
+      "status": "PROVISIONAL_REPLAY",
+      "stats": {
+        "attempts": 10,
+        "accepted": 8,
+        "rejected": 2,
+        "slow_trial": 30,
+        "slow_audit": 24,
+        "fast_flows": 64,
+        "projections": 129
+      },
+      "steps": [
+        {
+          "t": 0.0,
+          "end": 0.00011250000000000001,
+          "error_3_2": 0.0,
+          "accepted": true,
+          "sampled_defect_scaled": 0.0,
+          "sampled_rhs_defect_max": 0.0
+        },
+        {
+          "t": 0.00011250000000000001,
+          "end": 0.000125,
+          "error_3_2": 175.735415390649,
+          "accepted": false
+        },
+        {
+          "t": 0.00011250000000000001,
+          "end": 0.000115,
+          "error_3_2": 1.808355744846845,
+          "accepted": false
+        },
+        {
+          "t": 0.00011250000000000001,
+          "end": 0.00011375,
+          "error_3_2": 0.2292989347614745,
+          "accepted": true,
+          "sampled_defect_scaled": 55.55630618335855,
+          "sampled_rhs_defect_max": 6.67767617760018
+        },
+        {
+          "t": 0.00011375,
+          "end": 0.00011558802681655949,
+          "error_3_2": 0.7062985254988648,
+          "accepted": true,
+          "sampled_defect_scaled": 116.43312025886253,
+          "sampled_rhs_defect_max": 9.631564845087055
+        },
+        {
+          "t": 0.00011558802681655949,
+          "end": 0.0001174455386377995,
+          "error_3_2": 0.6962915770636648,
+          "accepted": true,
+          "sampled_defect_scaled": 112.91736103824529,
+          "sampled_rhs_defect_max": 9.449543284787936
+        },
+        {
+          "t": 0.0001174455386377995,
+          "end": 0.00011933169220163767,
+          "error_3_2": 0.6896212222026985,
+          "accepted": true,
+          "sampled_defect_scaled": 109.48000373499396,
+          "sampled_rhs_defect_max": 9.31020715052881
+        },
+        {
+          "t": 0.00011933169220163767,
+          "end": 0.0001212530843810956,
+          "error_3_2": 0.6834357169165315,
+          "accepted": true,
+          "sampled_defect_scaled": 105.85112384840542,
+          "sampled_rhs_defect_max": 9.195960539877575
+        },
+        {
+          "t": 0.0001212530843810956,
+          "end": 0.00012321626068899575,
+          "error_3_2": 0.6777859791075322,
+          "accepted": true,
+          "sampled_defect_scaled": 102.08365811115304,
+          "sampled_rhs_defect_max": 9.102884841024036
+        },
+        {
+          "t": 0.00012321626068899575,
+          "end": 0.000125,
+          "error_3_2": 0.4727622403601743,
+          "accepted": true,
+          "sampled_defect_scaled": 77.70634003837124,
+          "sampled_rhs_defect_max": 8.00272957171336
+        }
+      ],
+      "wall_s": 0.002279555999848526,
+      "atol": 1e-07,
+      "rtol": 1e-05,
+      "continuous_defect_certified": false,
+      "owner_state_committed": false,
+      "stage_admission": false
+    },
+    "input_unchanged": true,
+    "nonfinite_rejected": true,
+    "CUDA_executed": false,
+    "organism_executed": false
+  },
+  "source_sha256": "c8c3d75a6ed0d8bd908f41d24804dff4a25789f6da4b8bdeb2e617d6c42a2984"
+}

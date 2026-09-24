@@ -1,0 +1,39 @@
+{
+  "drive": {
+    "__array__": "array_0"
+  },
+  "light": {
+    "__array__": "array_1"
+  },
+  "held_boundary_light": {
+    "__array__": "array_2"
+  },
+  "held_afferent_rate_hz": {
+    "__array__": "array_3"
+  },
+  "general_transmission": {
+    "__array__": "array_4"
+  },
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "norm_size": 359373,
+  "next_step_ns": 31250
+}

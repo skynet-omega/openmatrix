@@ -1,0 +1,24 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": {
+    "evidence": "One real accepted 125us CNS block; 359373 state coordinates,166700 neurons,25.58M edges. Full neutral 1ms capture matches 580 serialized arrays, RNG/events/output. The block has60global coefficient evaluations,10accepted trials,7internal event times =>8event-free intervals. Fastest possible scheme requiring>=one complete graph product per interval costs>=8products, ceiling7.5x before audits, failing prospective10x work gate. Local max relaxation rate*h=.09135, which alone does not bound coupled stiffness. Three actual oracle queries reproduced consumed target/rate/state exactly; off-trajectory robustness not universalproof. No candidate has run. ChatGPT preparing published MRI prototype. Minimum3 alternatives: A multirate analytic local split with recurrent forcing; B QSS2 source trajectories/CSC; C Jacobian Krylov, reserved no third fullprototype."
+  },
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Prioritize next bounded experiment by information gain, taking the measured work floor seriously. Advisory only, no scientific PASS.",
+      "criteria": {
+        "local_event_split": "First prove exact event/local versus global operator split; events handled locally with affected CSR rows. Then test A or B against full oracle.",
+        "global_per_cut_mri": "Implement full global MRI at every event cut even though it cannot meet10x; numerical accuracy could still be informative.",
+        "fast_tolerance": "Define separate fast functional mode now; do not require current whole-state gate but use future prospective observables."
+      }
+    },
+    "precision_claim": {
+      "instructions": "Choose best interpretation of bitwise equality and biology noise based on explicit scope.",
+      "criteria": {
+        "limited_validation": "Bitwise equality validates compared execution only; numerical error can be stable but biased, biological noise needs explicit stochastic model.",
+        "perfect_engine_first": "Require perfect universal integrator and bitwise all backends before any fastmode.",
+        "noise_substitution": "Permit arbitrary roundoff/discretization because livebiology is noisy."
+      }
+    }
+  }
+}

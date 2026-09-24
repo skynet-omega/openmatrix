@@ -1,0 +1,38 @@
+{
+  "schema": "event_sparse_closure_v1",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "fixed_snapshot_port_contribution_validated": true,
+  "original_result_sha256": "bbc702afe2f72046a6cf49543c268c6322ec94684672c217619f232bf79a22cc",
+  "gpu_event_intervals_sum_ms": 70.354946160689,
+  "query_loop_wall_ms": 65.1602920042933,
+  "timing_consistent": false,
+  "timing_excess_ms": 5.1946541563957,
+  "speedup_claim_admitted": false,
+  "speedup_rejection_reason": "Measured GPU intervals exceed their enclosing wall interval; isolated timing is unresolved. No repeat authorized in this probe.",
+  "engine_admission": false,
+  "biological_equivalence": false,
+  "organism_interactions": 0,
+  "gpu_probes_consumed": 1,
+  "real_queries_consumed": 60,
+  "limitation": "Captured base CSR only, without transient specialized PN/APL/etc replacements. Partition reuse across epochs is not implemented or measured.",
+  "verification": {
+    "schema": "event_sparse_capsule_verification_v1",
+    "queries": 60,
+    "active_receivers": 6342,
+    "edges": 885587,
+    "gates_recomputed_from_arrays": {
+      "current": true,
+      "edge_work": true,
+      "independent_cpu_current": true,
+      "ports": true
+    },
+    "current_max_normalized": 4.43054670505357e-06,
+    "independent_cpu_current_max_normalized": 2.630344497092738e-05,
+    "ports_cpu_gpu_max_abs": 5.551115123125783e-17,
+    "edge_ratio_including_one_partition": 19.49964682862625,
+    "wall_s": 1.1468611059972318,
+    "optimized": false,
+    "full_graph_reexecuted": false,
+    "scope": "All 60 port currents independently recomputed on CPU from compact real CSR; full CSR GPU outputs retained and hashed"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "oracle_memory_regression_v1",
+  "old": {
+    "canaries_intact": false,
+    "A_B_A_direct_equal": [
+      true,
+      true,
+      true
+    ],
+    "private_pool": false
+  },
+  "fixed": {
+    "canaries_intact": true,
+    "A_B_A_direct_equal": [
+      true,
+      true,
+      true
+    ],
+    "private_pool": true
+  },
+  "fixed_pass": true,
+  "scope": "Synthetic allocation/interference regression, not organism validation"
+}

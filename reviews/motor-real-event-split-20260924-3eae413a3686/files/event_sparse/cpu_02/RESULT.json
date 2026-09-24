@@ -1,0 +1,27 @@
+{
+  "schema": "event_sparse_cpu_fixtures_v1",
+  "fixtures": [
+    {
+      "name": "partition_caps_visual_and_heterogeneous_taus",
+      "passed": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "late_within_trial_repeated_SET_ADD_and_rollback",
+      "passed": true,
+      "q_at_event": 0.4
+    },
+    {
+      "name": "late_inserted_event_invalidates_epoch",
+      "passed": true,
+      "message": "Late event invalidated epoch: rebuild and replay affected queries"
+    },
+    {
+      "name": "wrong_W_or_event_version_rejected",
+      "passed": true,
+      "message": "Wrong effective W version"
+    }
+  ],
+  "optimized": true,
+  "wall_s": 0.021385225001722574
+}

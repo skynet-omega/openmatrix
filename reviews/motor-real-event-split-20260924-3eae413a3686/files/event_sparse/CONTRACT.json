@@ -1,0 +1,36 @@
+{
+  "schema": "event_sparse_discriminator_v1",
+  "registered_before_execution": true,
+  "scope": "Generic fixed-epoch base CSR contribution of exact q/s event ports; donor only, no solver or stage admission",
+  "limitations": ["PN/APL and other specialized row/weight replacements are not included and require a versioned extension", "No biological calibration or tau grouping", "Timing is isolated operator timing, not organism speedup"],
+  "information": "Captured legal source rows, q/s initial states, exact taus, ordered SET/ADD events, fixed effective base W, caps, visual mask, scale, connected flag and the original 60 query times",
+  "hypothesis": "A source-restricted CSR can reconstruct the port contribution within the frozen current tolerance while traversing at least 10 times fewer edges than the full base CSR for that contribution",
+  "alternatives": {
+    "A_selected": "Source-restricted CSR, analytic exact per-source q/s and deterministic receptor reduction; pure arbitrary-time queries support speculative rollback",
+    "B_not_implemented": "Source CSC scatter of exact per-source analytic changes with versioned chronological checkpoints; conflict and rollback overhead may remove savings",
+    "C_not_implemented": "Certified per-source quantized q/s updates through CSC with an omitted-current bound; bound propagation and event cuts may require near-global updates"
+  },
+  "budget": {
+    "gpu_probes": 1,
+    "real_query_times": 60,
+    "gpu_probe_wall_seconds": 120,
+    "extra_vram_bytes": 2147483648,
+    "ram_bytes": 3221225472,
+    "output_bytes": 104857600,
+    "cpu_fixture_cases": 4,
+    "synthetic_gpu_queries_same_fixtures": 4,
+    "organism_interactions": 0,
+    "comparator_training": 0,
+    "full_solver_prototypes": 0
+  },
+  "gates": {
+    "current_normalized_error_max": 1.0,
+    "current_absolute_tolerance": 1e-10,
+    "current_relative_tolerance": 1e-10,
+    "edge_work_reduction_min": 10.0,
+    "time_speedup_gate": null
+  },
+  "comparison": "One full and one reduced GPU query per each of the original 60 timestamps, with the same independently reconstructed release; two channels retain signed nonvisual current and positive/negative visual conductance. Reduced vs full CUDA sums may differ in rounding order. Edge work is reported both steady and with one global partition pass; measured preparation time is also included separately. cuda/weights is a captured snapshot after coefficient return, not a claim about transient specialized overrides.",
+  "guards": ["late inserted event invalidates prepared epoch", "repeated same-time SET preserves source order", "incorrect W version rejects query before launch"],
+  "stopping": "Stop after the single bounded probe or any validation/budget failure; no tolerance changes or biological/solver claim"
+}

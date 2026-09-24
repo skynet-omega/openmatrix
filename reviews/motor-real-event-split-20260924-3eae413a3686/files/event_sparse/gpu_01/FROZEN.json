@@ -1,0 +1,23 @@
+{
+  "schema": "event_sparse_frozen_inputs_v1",
+  "sources": {
+    "CONTRACT.json": "26c7d587bf93da7d3ea958e24ed8ef2fd711c7b55a3d8df21b65b2b1e9d84dec",
+    "event_sparse.py": "6d52fec3d83d9a8ec582d1f3ec0c309967aa02211d2a7f34d7be6164caa9b2cc",
+    "sparse_kernels.cu": "92db3bf70a1a9a76bd6c0f4c0a81325de78aca743c2a0ce107880b3d0ce6c43d",
+    "gpu_operator.py": "94b5711f968ec59553010d0050ac0f3755b7ac8d360295580d6f296624635784",
+    "test_cpu.py": "0efb5f793d22b68b9576fa6cacb330f3fb254d8022262e31efb879d4d7594ff1",
+    "run_probe.py": "1102f7bfda6511453e9176dfb16589864be115f49b7cc8486a794015a1ef7c7c",
+    "verify_capsule.py": "a5552c4b53ec3dfe03fefef05df816fad7b2c707429b83f09ae01e6b9f8206be"
+  },
+  "capture_inputs": {
+    "block_events.json": "2126d6d8a4f1423e98755e6f5350d1c952a9ace7811ecc90a24e7be839129dec",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "block_inputs.json": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EPOCHS.json": "41e8b5799f012acde7db01e0037776d99a1945741ab974476825cc35dc679e18",
+    "final_state/session.json": "e19e7f0a2ccf1e4d887e6dfd8fac854b2df69c7a64fa12e5a01edffbddefd89c"
+  }
+}

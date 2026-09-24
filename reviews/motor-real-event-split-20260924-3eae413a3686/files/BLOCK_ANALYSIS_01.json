@@ -1,0 +1,39 @@
+{
+  "schema": "real_block_work_floor_v1",
+  "queries": 60,
+  "trial_count": 10,
+  "internal_event_times_s": [
+    4.99020484170615e-06,
+    9.607863151525445e-06,
+    6.203957461801302e-05,
+    7.53089252956338e-05,
+    8.884754263470111e-05,
+    0.0001,
+    0.00012187500000000001
+  ],
+  "event_free_intervals": 8,
+  "global_per_interval_speedup_ceiling": 7.5,
+  "gate_speedup_min": 10.0,
+  "global_per_interval_can_pass_work_gate": false,
+  "scope_of_ceiling": "Only algorithms requiring at least one full CSR per event-free interval. Does not rule out local event forcing or sparse corrections.",
+  "port_sources": 4062,
+  "distinct_tau_q": 4060,
+  "tau_q_min_max_s": [
+    0.01226336695253849,
+    0.02745869755744934
+  ],
+  "edges": 25582938,
+  "edges_from_ports": 885587,
+  "port_edge_fraction": 0.03461631341951421,
+  "full_divided_by_port_edge_work": 28.888113759574157,
+  "recurrent_edge_fraction": 0.9653836865804858,
+  "relaxation_rates": {
+    "min": 0.0,
+    "max": 730.7737779228154,
+    "max_times_duration": 0.09134672224035192
+  },
+  "stiffness_inference": "Diagonal relaxation only; does not bound the full coupled Jacobian.",
+  "classification": "A_GLOBAL_PER_CUT_DISCARDED_FOR_THIS_WORK_GATE",
+  "whole_organism_speedup_measured": false,
+  "stage_admission": false
+}

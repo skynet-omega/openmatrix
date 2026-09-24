@@ -1,0 +1,27 @@
+{
+  "schema": "effective_real_block_capture_v1",
+  "status": "CAPTURED_PENDING_NEUTRALITY",
+  "gate_sha256": "9efb6fde98fa600b8b92341aa754f49d994a05e00b1a539dc76df8f9ea813750",
+  "clarification_sha256": "b76de85e3c9cf412c5b3531c973b48f57569623b7cb80fa7aeb40f9d9758aef8",
+  "capture_source_sha256": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180",
+  "oracle_source_sha256": "86bcce0322381edb3a3e5815a928d769ab00eeac0d284e106c7e16f4554358fb",
+  "stage_admission": false,
+  "solver_candidate_executed": false,
+  "event_ports_source_sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+  "captured_epoch": {
+    "epoch": 1,
+    "phase": "accepted",
+    "start_clock_ns": 44446000000,
+    "duration_ns": 125000,
+    "pn_clock_ns": 44446062500,
+    "coefficient_queries": 60
+  },
+  "oracle_bitwise_queries": 3,
+  "trace_queries": 60,
+  "owner_snapshot_scope": "evolving CNS/KC/APL/axon, PN source and published RNG/rates at block entry/exit",
+  "effective_operator_scope": "actual full target/rate plus effective GPU arrays; oracle graph validated at three real queried states",
+  "portable_off_trajectory_runtime": false,
+  "wall_s": 57.645030577004945,
+  "runner_exit_code": 0,
+  "output_bytes": 812251207
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "effective_capture_neutrality_v1",
+  "neutral": true,
+  "complete_1ms_pair": true,
+  "semantic_states": {
+    "session": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 574
+    },
+    "prosthesis": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 5
+    },
+    "published": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 1
+    }
+  },
+  "exact_other": {
+    "final_state/boundary.json": true,
+    "EVENT_AUDIT.json": true,
+    "traces.npz": true,
+    "CNS_scientific_counts": true,
+    "events": true
+  },
+  "deliberate_clock_mutation_detected": true,
+  "reference": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/architecture_round_20260924_01/fusion_base_1ms_01",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "comparator_sha256": "ebec9f67c21c7890ce9252b6e0cb597cb258ddd815cb46c9027e0ef0d66c61bf",
+  "scope": "All serialized scientific owners, RNG, events, output and counts in this one sham step; not universal correctness.",
+  "stage_admission": false
+}

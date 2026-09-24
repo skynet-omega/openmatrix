@@ -1,0 +1,20 @@
+{
+  "schema": "event_sparse_capsule_verification_v1",
+  "queries": 60,
+  "active_receivers": 6342,
+  "edges": 885587,
+  "gates_recomputed_from_arrays": {
+    "current": true,
+    "edge_work": true,
+    "independent_cpu_current": true,
+    "ports": true
+  },
+  "current_max_normalized": 4.43054670505357e-06,
+  "independent_cpu_current_max_normalized": 2.630344497092738e-05,
+  "ports_cpu_gpu_max_abs": 5.551115123125783e-17,
+  "edge_ratio_including_one_partition": 19.49964682862625,
+  "wall_s": 1.0861658779977006,
+  "optimized": true,
+  "full_graph_reexecuted": false,
+  "scope": "All 60 port currents independently recomputed on CPU from compact real CSR; full CSR GPU outputs retained and hashed"
+}
