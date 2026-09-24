@@ -1,0 +1,85 @@
+{
+  "schema": "stage4_gaussian_intensity_gate_prospective_v1",
+  "registered_before_organism_runs": true,
+  "eligibility": "Start only after repair19 QUEUE.json is COMPLETE and etapa3_postclose_20260923_20/POSTCLOSE_VERIFIED_01.json independently recalculates scoped functional Stage3 successfully and links by SHA256 to the current repair19 queue and final raw receipt. Otherwise remain DORMANT; preserve the historical hidden-state FAIL and both unsuccessful prior attempts.",
+  "limitation_observed": "Binary half-plane odor yielded bilateral turns but gives no evidence that new spatial samples affect the command or help locate a finite source.",
+  "operation": "Replace only the binary trial boundary after the same 40 ms sham preparation with two fixed Gaussian sources derived once from the frozen prepared antennal pose; leave CNS, PN629-off intervention, decoder, body, clocks and parameters unchanged.",
+  "legal_information": "Geometry of the common prepared body, the unchanged AntennalBoundary Gaussian, prior source manifests and online pose/sensor input. No target heading, source label, route or success signal enters the organism.",
+  "rivals": {
+    "A": "A change of spatial intensity/history from S+ versus S- is consumed and creates a reproducible difference in neural command within 400 ms.",
+    "B": "The two fields are consumed and measurably different, but the present circuit/decoder gives no material command difference in that horizon.",
+    "C": "A boundary/clock/consumer mismatch or inadequate field separation prevents interpreting the pair; this is a measurement/interface issue before biology."
+  },
+  "difference_from_parent": "Stage3 uses a binary half-plane; this gate uses a smooth finite planar source pair with equal initial left/right concentrations across sources and subsequent intensity variation. It is an input/observation experiment, not a new neural law or motor architecture.",
+  "controls": "Same prepared checkpoint, pose, PN629-off operator, angular reader, forward command, source sigma, observer and horizon; paired native and reference profiles. Existing binary/sham traces are contextual, not new confirmation arms.",
+  "fixed_inputs": {
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "source_helper_sha256": "64fd970f0363b63e38a6b511788d329ec64f30e07b96777ef637499fedc0f559",
+    "local_pose_guarded_helper_sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5",
+    "guard_scope": "Only hash-checked geometry, prepared root pose and antenna geoms; exact common neural preparation still requires identical checkpoint/source/state checks. A v2 helper will use the tolerance below after checking already exposed Stage3 reference preparations.",
+    "preparation_ms": 40,
+    "trial_ms": 400,
+    "fields": [
+      "plus",
+      "minus"
+    ],
+    "source_determination": "Fixed in GEOMETRY.json and CAMPOS.json before any new organism result; never recenter at trial pose or tune on outcome."
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "guard_tolerance_basis": "Previously exposed Stage3 reference preparations differ from the native GEOMETRY by 4.514721929638199e-12 root-native and 1.291450280049844e-11 mm antenna at 40 ms. This prospective identity guard is above those differences but far below the 0.23 mm baseline; it is not a relaxation of any neural/behavioral error criterion.",
+    "initial_plus_minus_concentration_max_abs": 1e-11,
+    "initial_concentration_basis": "At the already observed Stage3 reference preparation, the fixed native-centered S+/S- sources differ by 1.0376144388146713e-12 in initial concentration solely from the 1e-11 mm pose discrepancy; native difference is 1.11e-16. The 1e-11 guard is prospective for this new pilot, not an outcome tolerance.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "observation": {
+    "bounded_drive_epochs": [
+      "preparacion:1",
+      "preparacion:40",
+      "ensayo:1",
+      "ensayo:2",
+      "ensayo:10",
+      "ensayo:100",
+      "ensayo:300",
+      "ensayo:400"
+    ],
+    "bounded_drive_ordinals": [
+      0,
+      1
+    ],
+    "ORN_scope": "Observer captures actual adapter drive arguments and device boundary buffers at the declared calls, with complete-buffer hashes and bilateral ORN_DM1 indices. It does not inspect every CUDA kernel read.",
+    "PN_scope": "NativeFlowTap records the signed orn_pn_synaptic kernel net and target for DM1_lPN 10176/10208 and checks the coefficient returned for integration. It does not observe the later 629 general outputs (disabled) or 466 electrical/Ca outputs, and does not isolate the ORN contribution to the signed net.",
+    "PN_general_buffer_scope": "Adapter PN boundary is hashed; because the PN629 general route is disabled, buffer presence alone is not proof of consumption. A false general_transmission capture binding is expected and is not a biological failure.",
+    "selected_capture_calls_are_not_all_1ms_calls": true
+  },
+  "sequential_decision": [
+    "Run native plus and minus from separately loaded identical preparations; stop if a source, clock, consumer or budget guard fails.",
+    "If both complete, check source separation and command contrast from raw traces without changing sources. If no resolvable input difference, classify C. If input differs but command does not, classify B at this horizon.",
+    "Only if output contrast is material, run reference plus and minus, then recalculate source/consumer and command agreement. A remains a functional intensity/history result, never Stage4 navigation."
+  ],
+  "thresholds": {
+    "late_300_400ms_mean_concentration_pair_abs_min_exclusive": 0.02,
+    "integrated_absolute_command_pair_deg_min_exclusive": 0.004,
+    "native_reference_yaw_sup_deg_max": 0.002,
+    "native_reference_command_L1_deg_max": 0.002,
+    "all_numeric_finite": true
+  },
+  "budget": {
+    "native_runs_max": 2,
+    "reference_runs_max": 2,
+    "organism_runs_max": 4,
+    "wall_each_s_max": 2050,
+    "aggregate_wall_s_max": 8200,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "complete_prototypes_max": 1,
+    "new_ChatGPT_messages_max": 0,
+    "new_Jev_calls_max": 0
+  },
+  "stop": "Stop on first failed guard or budget; preserve prefixes. No gain, field, source, horizon, solver or threshold retuning after observing new organism data.",
+  "qualification": "At most a locally confirmed intensity/history-to-command effect in a synthetic roller body, pending independent review. Full Stage4 source navigation requires a later fixed online-versus-yoked perturbation from matched state, source-distance and correction outcomes, plus controls; this gate cannot qualify it."
+}

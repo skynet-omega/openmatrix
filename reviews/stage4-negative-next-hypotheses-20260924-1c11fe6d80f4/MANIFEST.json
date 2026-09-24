@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "label": "stage4-negative-next-hypotheses-20260924",
+  "description": "Resultado B de par gaussiano S+/S- con estados preparados exactos y contraste de mando subumbral; solicitud de tres hipótesis nuevas basadas en trazas reales. Sin estados grandes ni navegación admitida.",
+  "files": [
+    {
+      "path": "REQUEST.md",
+      "bytes": 2409,
+      "sha256": "0b5114eb198c607b1e7248b2e49be7a2bacc54d9968d2657510c8797d45bd0d2"
+    },
+    {
+      "path": "result/CLOSE.json",
+      "bytes": 2874,
+      "sha256": "ec4c74ca5f97a7e107b1520727bfa3e1c08c8680532ea6f98235771ef623e933"
+    },
+    {
+      "path": "result/LAYER_DIAGNOSTIC_01.json",
+      "bytes": 7095,
+      "sha256": "217f2a61b464b3b18c1370df584a35a486f09184476f72cae450bb08264de792"
+    },
+    {
+      "path": "result/compare_layers.py",
+      "bytes": 3341,
+      "sha256": "3d6cc77af9eefd72dc5a54d808d4ddbcd8448b44f6ecc6a5c56a547251d6074c"
+    },
+    {
+      "path": "result/RAW_VERIFIED_01.json",
+      "bytes": 9447,
+      "sha256": "02c7c1e526542d5e2ac6d1cb1ce5ce64e6b14a2f61f15fba60c689de95e0653e"
+    },
+    {
+      "path": "contract/PLAN.json",
+      "bytes": 6868,
+      "sha256": "5cf0a9b06116686a845bd893a57bd35d58fbb81a81d00238f6d4ac83fc00545f"
+    },
+    {
+      "path": "contract/GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "code/gaussiano_400.py",
+      "bytes": 15698,
+      "sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5"
+    }
+  ]
+}

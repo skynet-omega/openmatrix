@@ -1,0 +1,53 @@
+{
+  "schema": "stage4_gaussian_recovery24_close_v1",
+  "closed_utc": "2026-09-24T06:17:16.445111+00:00",
+  "status": "COMPLETE_NEGATIVE_SCOPED",
+  "scientific_classification": "DESCARTADO_EN_ESTE_CONTRATO",
+  "rival": "B",
+  "interpretation": "S+ and S- inputs separated but did not produce the preregistered material command contrast in 400 ms; no reference arms by sequential stop. Does not refute all odor navigation mechanisms.",
+  "stage3_status": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA for PN629-off, DNb05 effective reader, roller body only",
+  "stage4_navigation_admitted": false,
+  "biological_equivalence": false,
+  "run_complete": true,
+  "run_wall_s": 1552.615129238,
+  "prior_plus_wall_s": 1414.687907733,
+  "prior_interrupted_elapsed_lower_bound_s": 1331.354821641,
+  "prepared_state_exact": true,
+  "canonical_recomputations_scientific_fields_equal": true,
+  "canonical_errors": [],
+  "canonical_missing": [],
+  "native_pair": {
+    "late_concentration_mean_abs": 0.04335093272739405,
+    "command_L1_deg": 0.0016892447178007799,
+    "yaw_sup_deg": 0.0016739217123529215
+  },
+  "thresholds": {
+    "late_300_400ms_mean_concentration_pair_abs_min_exclusive": 0.02,
+    "integrated_absolute_command_pair_deg_min_exclusive": 0.004,
+    "native_reference_yaw_sup_deg_max": 0.002,
+    "native_reference_command_L1_deg_max": 0.002,
+    "all_numeric_finite": true
+  },
+  "chatgpt_code_real_data_result": "LISTO_PARA_VERIFICADOR_CRUDO; no scientific effect decision",
+  "jev": "prior advisory reused, zero new API calls",
+  "reference_runs_new": 0,
+  "stop_rule_obeyed": true,
+  "C_free_bytes_at_close": 62700113920,
+  "sha256": {
+    "RECOVERY24_CONTRACT.json": "a0a9f94fb835a8eb7f24c20cfcd84bd08cdf32300dea803c82d9713ee6c2723a",
+    "PREPARED_COMPARE_causal_cuda.json": "19b6d27809b369ce67f5a7941c4df911a29950c700e5c228ad77ad178bd9eb95",
+    "RAW_VERIFIED_01.json": "02c7c1e526542d5e2ac6d1cb1ce5ce64e6b14a2f61f15fba60c689de95e0653e",
+    "RAW_VERIFIED_02.json": "baa555c67bd22590b973732002fbbb7b4eba9339bf1a7ad7600d07b6e208dc49",
+    "DECISION_NATIVE_01.json": "c167157d235326fdafaf2370605ab1b7f6bb5b91bd006f640d1ed03fbe7a0d62",
+    "CHATGPT_CHECK_01.json": "1cf1ff0e85a0e42734b0fe417b9df2cce1360e9fb66f17b6ce669b745e00270b",
+    "CHATGPT_RESPONSE_01.md": "b0029e3c588dd4539b4d7df3afd5bc6001ca48451b4d502ca9ff52dcec8f2663",
+    "chatgpt_original/revisar_recuperacion.py": "1b7085d49e935230e566c117d3e049640a6a69b6779f034fb2da5c1180cc035d",
+    "native_minus_02/RESULT.json": "c71fd09807f254f008356573fef7907d770d57883bbf60c01c1b4f8a0f5a79b8"
+  },
+  "limitations": [
+    "This 400-ms gate tests intensity/history-to-command, not finite-source navigation.",
+    "The earlier S- power-loss attempt remains incomplete with NUL bytes.",
+    "No independent external execution of CUDA/MuJoCo or full states.",
+    "Old Stage3 KC strict-state gate still fails."
+  ]
+}

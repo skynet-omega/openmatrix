@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-gaussian-recovery-review-20260924](reviews/stage4-gaussian-recovery-review-20260924-5a2a104e37f7/README.md)
+[stage4-negative-next-hypotheses-20260924](reviews/stage4-negative-next-hypotheses-20260924-1c11fe6d80f4/README.md)
 
-Contrato de recuperación tras corte eléctrico, runner y verificador exactos del par gaussiano; S+ completo, S- interrumpido a388 ms. Revisión de código y procedencia, sin checkpoints grandes ni claim de navegación.
+Resultado B de par gaussiano S+/S- con estados preparados exactos y contraste de mando subumbral; solicitud de tres hipótesis nuevas basadas en trazas reales. Sin estados grandes ni navegación admitida.
