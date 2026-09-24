@@ -19,6 +19,7 @@
     "Full fly checkpoint import, PN/KC/visual owner ports or actual 166700-neuron migration",
     "CUDA work enqueued before late failure and device-state rollback",
     "General MuJoCo models: fixture body owner accepts exactly one actuator and one mj_step per tick",
+    "Causally correct within-tick motor timing; fixture event at 0.5 ms controls a whole 1-ms physical step",
     "Persistent serialization of owner state and RNG",
     "Any speedup, five simulated seconds, or stage 4/5 admission"
   ]
