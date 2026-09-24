@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-mirrored-source-prelaunch](reviews/stage4-mirrored-source-prelaunch-f9de4479495b/README.md)
+[stage4-mirrored-source-prelaunch-v2](reviews/stage4-mirrored-source-prelaunch-v2-807f53742abc/README.md)
 
-Prospective mirrored finite-source code and criteria before full organism runs; prior negative and CPU preflight preserved. No navigation or publication claim.
+Corrected prospective mirrored finite-source verifier and fixed contract before organism runs; original review and prior negative preserved. No navigation or publication claim.

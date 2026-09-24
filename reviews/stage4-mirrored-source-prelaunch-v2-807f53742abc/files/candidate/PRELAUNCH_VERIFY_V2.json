@@ -1,0 +1,34 @@
+{
+  "schema": "independent_mirrored_source_gate_v1",
+  "sources": {
+    "sources": 47,
+    "source_lock_sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+    "plan_sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+  },
+  "decision": {
+    "rival": null,
+    "classification": "INCOMPLETO",
+    "reason": "Native pair missing or interrupted; no scientific conclusion"
+  },
+  "prepared_comparisons": {},
+  "errors": [],
+  "missing": [],
+  "runs": {},
+  "stage4_navigation_admitted": false,
+  "biological_equivalence": false,
+  "aggregate_completed_run_wall_s": 0,
+  "verifier_wall_s": 0.005471427999509615,
+  "verifier_rss_peak_kib": 37508,
+  "limitations": [
+    "No new organism or GPU execution; this is raw readback, not reproduction.",
+    "No cold checkpoint restore or independent MuJoCo reconstruction of antennae from all joints.",
+    "Drive full buffers were not archived: their hashes establish agreement among recorded descriptors, not recoverable full data.",
+    "ORN index identity is checked against a separately pinned CPU anatomical map; no physiological ORN calibration.",
+    "PN observation is signed total net at one fine-stage per interval, not isolated ORN current or efficacy of PN629/466.",
+    "No independent hardware memory trace; GPU samples do not bound intersample peaks.",
+    "SOURCE_LOCK is checked, but is not a complete transitive organism dependency manifest.",
+    "Stage3 eligibility receipts and event-owner logs are not independently re-audited here."
+  ]
+}

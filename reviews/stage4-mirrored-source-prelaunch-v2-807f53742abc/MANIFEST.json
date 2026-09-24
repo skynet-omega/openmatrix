@@ -1,0 +1,102 @@
+{
+  "format_version": 2,
+  "label": "stage4-mirrored-source-prelaunch-v2",
+  "description": "Corrected prospective mirrored finite-source verifier and fixed contract before organism runs; original review and prior negative preserved. No navigation or publication claim.",
+  "files": [
+    {
+      "path": "request/REVIEW_REQUEST.md",
+      "bytes": 2657,
+      "sha256": "8b64860ba72cdec61aba5e7726fd5fe81261f83a9aad7a6495c7d3f28b26000c"
+    },
+    {
+      "path": "candidate/PLAN.json",
+      "bytes": 5895,
+      "sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5"
+    },
+    {
+      "path": "candidate/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "candidate/SOURCE_LOCK.json",
+      "bytes": 7463,
+      "sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c"
+    },
+    {
+      "path": "candidate/run_mirror.py",
+      "bytes": 25024,
+      "sha256": "44e464e88c34e65a06bc7c6b7ca20684f5db9b5301cc127ea9020fa1e56fe711"
+    },
+    {
+      "path": "candidate/verify_mirror.py",
+      "bytes": 43032,
+      "sha256": "4b21b836cb2e9564b45bdbe5021643b06cd03293c52f3a0651cff8fc72125562"
+    },
+    {
+      "path": "candidate/test_verify_mirror.py",
+      "bytes": 4479,
+      "sha256": "7e56f0abea871638d85515365a5e23232a8584b1107ee048e555ce2540ba8b11"
+    },
+    {
+      "path": "context/PLAN_ABC.json",
+      "bytes": 4330,
+      "sha256": "7135d0cd2b764cae903632708310d26630c677dcecf9163fd9deb80ad254dc3d"
+    },
+    {
+      "path": "context/geometry_preflight.py",
+      "bytes": 9409,
+      "sha256": "04ad8f5f52c26ee3f2c255c9a8defb71e15a68f7fe4a9ad397844c17521be97e"
+    },
+    {
+      "path": "context/GEOMETRY_PREFLIGHT_RESULT.json",
+      "bytes": 3862,
+      "sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+    },
+    {
+      "path": "context/CHATGPT_RESPONSE_01.md",
+      "bytes": 17532,
+      "sha256": "9304739c4226e178e12122034c9ef542832459a330007dbfb18bd5d2e273ed04"
+    },
+    {
+      "path": "context/PRIOR_CLOSE.json",
+      "bytes": 2874,
+      "sha256": "ec4c74ca5f97a7e107b1520727bfa3e1c08c8680532ea6f98235771ef623e933"
+    },
+    {
+      "path": "context/PRIOR_LAYERS.json",
+      "bytes": 7095,
+      "sha256": "217f2a61b464b3b18c1370df584a35a486f09184476f72cae450bb08264de792"
+    },
+    {
+      "path": "context/PREPARED_GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "context/gaussiano_400.py",
+      "bytes": 15698,
+      "sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5"
+    },
+    {
+      "path": "candidate/preflight_reference_guard.py",
+      "bytes": 3035,
+      "sha256": "919f12e529ab3a626abf256311329b7375e2ac34999bf1aaca0c2a8ce5193019"
+    },
+    {
+      "path": "candidate/REFERENCE_POSE_GUARD_01.json",
+      "bytes": 3794,
+      "sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3"
+    },
+    {
+      "path": "review/CHATGPT_REVIEW_01.md",
+      "bytes": 7349,
+      "sha256": "97a40516fd14e68e3772aefcf239352d5fe5d0596637d728e16f01561541b871"
+    },
+    {
+      "path": "candidate/PRELAUNCH_VERIFY_V2.json",
+      "bytes": 1733,
+      "sha256": "caf986cc3459112deadd901f67157785bd075cecbf917f7ceee474436dd8bceb"
+    }
+  ]
+}
