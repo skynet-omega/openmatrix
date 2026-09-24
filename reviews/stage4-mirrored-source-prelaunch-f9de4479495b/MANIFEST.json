@@ -1,0 +1,82 @@
+{
+  "format_version": 2,
+  "label": "stage4-mirrored-source-prelaunch",
+  "description": "Prospective mirrored finite-source code and criteria before full organism runs; prior negative and CPU preflight preserved. No navigation or publication claim.",
+  "files": [
+    {
+      "path": "request/REVIEW_REQUEST.md",
+      "bytes": 2657,
+      "sha256": "8b64860ba72cdec61aba5e7726fd5fe81261f83a9aad7a6495c7d3f28b26000c"
+    },
+    {
+      "path": "candidate/PLAN.json",
+      "bytes": 5516,
+      "sha256": "7c1d19ebff5784778441bc281db12e4daccfcaaca3a1729c5cf4bf28ef25133e"
+    },
+    {
+      "path": "candidate/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "candidate/SOURCE_LOCK.json",
+      "bytes": 7119,
+      "sha256": "acace55372db48831cd0553e08b2afe3470093327f4c6025b9978bc8183e14d5"
+    },
+    {
+      "path": "candidate/run_mirror.py",
+      "bytes": 24810,
+      "sha256": "cfb03351ab92b1813144d1ef37a772e03cea19ad56f962fdeb3530a1241cdd58"
+    },
+    {
+      "path": "candidate/verify_mirror.py",
+      "bytes": 41661,
+      "sha256": "3310df529db5edfd90ff31a2be59a547abd957e2d77437fcf1466934ec3c2348"
+    },
+    {
+      "path": "candidate/test_verify_mirror.py",
+      "bytes": 3232,
+      "sha256": "73d927b5730353b65be2ba2ea65778357289c000b8060fcee70a0622f7ef7d4e"
+    },
+    {
+      "path": "context/PLAN_ABC.json",
+      "bytes": 4330,
+      "sha256": "7135d0cd2b764cae903632708310d26630c677dcecf9163fd9deb80ad254dc3d"
+    },
+    {
+      "path": "context/geometry_preflight.py",
+      "bytes": 9409,
+      "sha256": "04ad8f5f52c26ee3f2c255c9a8defb71e15a68f7fe4a9ad397844c17521be97e"
+    },
+    {
+      "path": "context/GEOMETRY_PREFLIGHT_RESULT.json",
+      "bytes": 3862,
+      "sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+    },
+    {
+      "path": "context/CHATGPT_RESPONSE_01.md",
+      "bytes": 17532,
+      "sha256": "9304739c4226e178e12122034c9ef542832459a330007dbfb18bd5d2e273ed04"
+    },
+    {
+      "path": "context/PRIOR_CLOSE.json",
+      "bytes": 2874,
+      "sha256": "ec4c74ca5f97a7e107b1520727bfa3e1c08c8680532ea6f98235771ef623e933"
+    },
+    {
+      "path": "context/PRIOR_LAYERS.json",
+      "bytes": 7095,
+      "sha256": "217f2a61b464b3b18c1370df584a35a486f09184476f72cae450bb08264de792"
+    },
+    {
+      "path": "context/PREPARED_GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "context/gaussiano_400.py",
+      "bytes": 15698,
+      "sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5"
+    }
+  ]
+}

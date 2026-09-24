@@ -1,0 +1,54 @@
+{
+  "schema": "stage4_next_abc_after_negative_v1",
+  "registered_utc": "2026-09-24T06:32:29.013238+00:00",
+  "status": "OPTIONS_ONLY_NO_NEW_ORGANISM",
+  "basis": {
+    "close_path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_power_recovery_20260924_24/CLOSE.json",
+    "close_sha256": "ec4c74ca5f97a7e107b1520727bfa3e1c08c8680532ea6f98235771ef623e933",
+    "layer_diagnostic_path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_power_recovery_20260924_24/LAYER_DIAGNOSTIC_01.json",
+    "layer_diagnostic_sha256": "217f2a61b464b3b18c1370df584a35a486f09184476f72cae450bb08264de792",
+    "classification": "DESCARTADO_EN_ESTE_CONTRATO",
+    "native_pair": {
+      "late_concentration_mean_abs": 0.04335093272739405,
+      "command_L1_deg": 0.0016892447178007799,
+      "yaw_sup_deg": 0.0016739217123529215
+    }
+  },
+  "limitation": "S+/S- mainly separates intensity/history; PN and ORN differ but DNb05 contrast is small, and registered command threshold fails. This observation alone cannot identify the causal bottleneck or navigation.",
+  "alternatives": {
+    "A": {
+      "mechanism": "Input geometry: the original pair varied mainly common intensity, whereas bilateral steering may require changing signed antennal contrast at matched common intensity.",
+      "new_operation": "Prospective finite-source pair with equal initial mean and opposite later L-R contrast; keep neuronal model and reader fixed.",
+      "legal_information": "Prepared pose, existing Gaussian boundary and measured antennal positions only. No target heading/route to organism.",
+      "prediction": "Committed ORN/PN lateral contrast and DNb05/command reversal grow together under matched common intensity.",
+      "falsifier": "Lateral ORN/PN contrast is observed but DNb05/command remains below frozen prospective material threshold, or source pair cannot be matched at initial state.",
+      "control": "Equal common intensity, same initial state/clock; reference engine only if native effect material."
+    },
+    "B": {
+      "mechanism": "Internal transfer: contrast reaches PN but recurrent/intermediate transfer to the DNb05 rate target attenuates it.",
+      "new_operation": "Offline sensitivity calculation from exact signed PN/DN net and target; then one bounded causal intervention on a predeclared anatomical branch, no global retuning.",
+      "legal_information": "Frozen flow taps, anatomical graph, receptor signs and original state; no desired turn signal.",
+      "prediction": "Identified branch intervention changes DNb05 target and command contrast while preserving peripheral drive.",
+      "falsifier": "Target is not in a low-sensitivity regime or branch intervention leaves DNb05/command contrast unchanged.",
+      "control": "Sham matched intervention and numerical reference; label any model change as new candidate, not recovery of old gate."
+    },
+    "C": {
+      "mechanism": "Closed-loop environmental feedback or temporal accumulation may be necessary for spatial correction, rather than immediate intensity contrast.",
+      "new_operation": "From matched state, compare online finite-source feedback with a yoked replay of actually consumed odor after a fixed small body perturbation.",
+      "legal_information": "Only current antenna pose for online arm; replay uses a donor sequence registered before target run, never a target heading.",
+      "prediction": "Online controller adjusts command and reduces source-distance error versus replay across a predeclared longer horizon.",
+      "falsifier": "Online and replay remain equivalent in command or source-distance trajectories, or body/odor clocks fail pairing.",
+      "control": "Same initial state, perturbation, contact physics, source, energy and budget; do not assume improvement from longer unperturbed S+/S-."
+    }
+  },
+  "next_discriminator": "No candidate promoted before external comparison and a new frozen organism budget; cheap CPU checks of geometry/signed-flow sensitivity may prune A or B.",
+  "budget": {
+    "new_organism_runs": 0,
+    "CPU_wall_s_max": 180,
+    "GPU_calls": 0,
+    "ChatGPT_messages_max": 1,
+    "Jev_calls_max": 1,
+    "Codex_subagents": 0
+  },
+  "stop": "This round ends after external analysis and a ranked discriminating design. No Stage4 pass claim and no source/threshold retune of campaign24."
+}
