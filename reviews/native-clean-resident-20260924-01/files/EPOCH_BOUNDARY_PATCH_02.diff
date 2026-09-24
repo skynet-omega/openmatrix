@@ -1,0 +1,40 @@
+--- v1/epoch_session.hpp
++++ v2/epoch_session.hpp
+@@ -1,5 +1,6 @@
+ #pragma once
+ 
++#include <cstddef>
+ #include <cstdint>
+ #include <map>
+ #include <memory>
+@@ -33,6 +34,10 @@
+   const std::vector<Event>& events() const { return events_; }
+ 
+  private:
++  friend class Session;
++  // Events published during this transaction start here. Prior events stay
++  // available for provenance but are not delivered to a later tick again.
++  std::size_t event_begin_ = 0;
+   std::vector<Event> events_;
+   std::map<std::string, double> values_;
+   std::uint64_t next_sequence_ = 0;
+--- v1/epoch_session.cpp
++++ v2/epoch_session.cpp
+@@ -19,7 +19,8 @@
+     throw std::runtime_error("event query outside current tick");
+   }
+   double sum = 0.0;
+-  for (const auto& event : events_) {
++  for (std::size_t i = event_begin_; i < events_.size(); ++i) {
++    const auto& event = events_[i];
+     if (event.port == port && event.at_ns >= now_ns && event.at_ns <= through_ns) {
+       sum += event.value;
+     }
+@@ -81,6 +82,7 @@
+   }
+   Context before = context_;
+   context_.end_ns = context_.now_ns + tick_ns_;
++  context_.event_begin_ = context_.events_.size();
+   std::size_t snapped = 0;
+   try {
+     for (auto& owner : owners_) {

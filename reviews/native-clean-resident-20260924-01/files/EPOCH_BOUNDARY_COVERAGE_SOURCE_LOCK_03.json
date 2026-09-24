@@ -1,0 +1,11 @@
+{
+  "schema": "epoch_boundary_coverage_source_lock_v1",
+  "plan": "EPOCH_BOUNDARY_COVERAGE_PLAN_03.json",
+  "before_test": true,
+  "sha256": {
+    "event_boundary_fixture_v3.cpp": "dc7691c64fad8adc7551839d08bd74c80551bb5a97b9db14e1a044582f35e011",
+    "event_boundary_v3": "d85c7d4055d1520d626b6fca4055dafb9f5bee5ef85534b9685ba085101b4cbb",
+    "epoch_session_v2/epoch_session.hpp": "521ccbd8ec44e3af5c8c5aa124654dd21761a9d7d5cba4bb975450fd7202bbfe",
+    "epoch_session_v2/epoch_session.cpp": "f37979606f87efddf413ea200bdedc5a07a5ecf0c81ac9b62f7ed357812b591f"
+  }
+}

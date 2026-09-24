@@ -1,0 +1,10 @@
+<mujoco model="epoch_fixture">
+  <option timestep="0.001" gravity="0 0 0"/>
+  <worldbody>
+    <body name="slider" pos="0 0 0">
+      <joint name="x" type="slide" axis="1 0 0"/>
+      <geom type="sphere" size="0.05" mass="1"/>
+    </body>
+  </worldbody>
+  <actuator><motor name="drive" joint="x" gear="1"/></actuator>
+</mujoco>

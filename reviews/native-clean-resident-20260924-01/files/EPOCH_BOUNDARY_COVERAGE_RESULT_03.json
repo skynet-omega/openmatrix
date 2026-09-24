@@ -1,0 +1,11 @@
+{
+  "schema": "epoch_boundary_coverage_result_v1",
+  "plan": "EPOCH_BOUNDARY_COVERAGE_PLAN_03.json",
+  "source_lock": "EPOCH_BOUNDARY_COVERAGE_SOURCE_LOCK_03.json",
+  "source_lock_rechecked_after_run": true,
+  "cpu_executions_consumed": 1,
+  "exit_code": 0,
+  "output": "PASS boundary_end=1 boundary_start=1 retry=1 empty=1 simultaneous=1",
+  "max_rss_kb": 3832,
+  "scope": "CPU events at two adjacent ticks and same-timestamp pair; no continuous/fractional-time neuronal SET/ADD, GPU or full organism."
+}

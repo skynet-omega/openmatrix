@@ -9,9 +9,41 @@
       "sha256": "6158b6626b29e1df246a2d668213d2abf61f1537f1128b8657f691f955a2f27b",
       "bytes": 2782
     },
+    "CHATGPT_REVIEW_02.md": {
+      "sha256": "61c8a3c9155b3c0f894db3493c1c990e0ac825e07b771632c940b8247643671d",
+      "bytes": 2233
+    },
     "DONORS_20260924.md": {
       "sha256": "a2cbf5ef93b0cccaafd9a501b8612f7e36739df634b6225de44175a5ce678d19",
       "bytes": 4250
+    },
+    "EPOCH_BOUNDARY_COVERAGE_PLAN_03.json": {
+      "sha256": "8510b8b7d8e2db3a3a98d85044e51e997b2759a2a21e1a74687e234b9a0ce22f",
+      "bytes": 793
+    },
+    "EPOCH_BOUNDARY_COVERAGE_RESULT_03.json": {
+      "sha256": "e565544c86a82cd28369aca4801f275160c3554532d92252fbe0d4efd37d93c2",
+      "bytes": 506
+    },
+    "EPOCH_BOUNDARY_COVERAGE_SOURCE_LOCK_03.json": {
+      "sha256": "cefd80e2bce79aa0fce4a4e2e1f6361422c125be868c98546568078472d43017",
+      "bytes": 566
+    },
+    "EPOCH_BOUNDARY_PATCH_02.diff": {
+      "sha256": "561a0e6e7dc47e2ed318cb9323c057596c95a1495c0c55d588fdff0e92a958f4",
+      "bytes": 1221
+    },
+    "EPOCH_BOUNDARY_REPAIR_PLAN_02.json": {
+      "sha256": "1c34bac3b5f98af1874e81a894ecd96ab33c322b49447113fd6badebf973ac2a",
+      "bytes": 1262
+    },
+    "EPOCH_BOUNDARY_REPAIR_RESULT_02.json": {
+      "sha256": "e3dbc9bebf92331a5e2ff21e4f51e22cdb710f952700f6f7c7e39c7109ded122",
+      "bytes": 1345
+    },
+    "EPOCH_BOUNDARY_REPAIR_SOURCE_LOCK_02.json": {
+      "sha256": "d768aac1972af28c28c888d3a87d39a41e3f0901369d01f6e1dbf5c8296a0247",
+      "bytes": 1465
     },
     "EPOCH_SESSION_PLAN_01.json": {
       "sha256": "d4cf3e0fa3e6187f666df01dbf506136b2602e3147513bdbb776d522558c60c0",
@@ -50,8 +82,8 @@
       "bytes": 2573
     },
     "README.md": {
-      "sha256": "1a34fa151fba7f6f68444c408560e366b546fb7dc162652ce67fc5e6e5e5dbb3",
-      "bytes": 5073
+      "sha256": "d7bd250d7effc491eb8f71c3af3c6a5c6cc2804a5bf73c0b2a1c58cb67b768f8",
+      "bytes": 5574
     },
     "REAL_PAIR_VERIFY_01.json": {
       "sha256": "7e385b1f728da2fd4fd4bfe792908782ced8676dec3b66d1c893784395719a87",
@@ -116,6 +148,38 @@
     "epoch_session_fixture.cpp": {
       "sha256": "c9724cc5b2a4323ec6ca41244e82eb02b57f0405702f8dcc6b89617e43a4030f",
       "bytes": 7656
+    },
+    "epoch_session_v2/epoch_session.cpp": {
+      "sha256": "f37979606f87efddf413ea200bdedc5a07a5ecf0c81ac9b62f7ed357812b591f",
+      "bytes": 3475
+    },
+    "epoch_session_v2/epoch_session.hpp": {
+      "sha256": "521ccbd8ec44e3af5c8c5aa124654dd21761a9d7d5cba4bb975450fd7202bbfe",
+      "bytes": 1892
+    },
+    "epoch_session_v2/epoch_session_fixture.cpp": {
+      "sha256": "c9724cc5b2a4323ec6ca41244e82eb02b57f0405702f8dcc6b89617e43a4030f",
+      "bytes": 7656
+    },
+    "epoch_session_v2/fixture_body.xml": {
+      "sha256": "984e45efe51f091041f6fefdc2b3db79aa038db43b70a8963eaeab63898a0799",
+      "bytes": 327
+    },
+    "epoch_session_v2/mujoco_owner.cpp": {
+      "sha256": "7c249a8c4bbabf3c47614aec3f2c5036216dd9d191f7d40e5f3b589960690656",
+      "bytes": 1311
+    },
+    "epoch_session_v2/mujoco_owner.hpp": {
+      "sha256": "d938ad2cea3fb3332cf6be017564391f0f1451afbb8c6a694d4add1c55f4dfc2",
+      "bytes": 864
+    },
+    "event_boundary_fixture.cpp": {
+      "sha256": "e1baafabf3a4a578a9511ce964cc92e212a3ed5541c2c7c512e1ae063bef2fad",
+      "bytes": 5041
+    },
+    "event_boundary_fixture_v3.cpp": {
+      "sha256": "dc7691c64fad8adc7551839d08bd74c80551bb5a97b9db14e1a044582f35e011",
+      "bytes": 5754
     },
     "fixture_body.xml": {
       "sha256": "984e45efe51f091041f6fefdc2b3db79aa038db43b70a8963eaeab63898a0799",

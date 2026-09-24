@@ -1,0 +1,22 @@
+{
+  "schema": "epoch_boundary_repair_plan_v1",
+  "registered_before_copy_patch_and_new_fixture": true,
+  "reason": "External ChatGPT review identified a potentially duplicated event at a tick boundary; local verification and prospective repair are required before the event bus can be reused.",
+  "unchanged_original": "epoch_session.hpp/.cpp and EPOCH_SESSION_SOURCE_LOCK_01.json remain frozen",
+  "candidate": "epoch_session_v2/ copies, patch only transaction-local event publication window",
+  "test_budget": {
+    "cpu_executions": 3,
+    "aggregate_wall_s_max": 30,
+    "host_ram_gib": 1,
+    "new_disk_mib": 20,
+    "gpu_executions": 0,
+    "no_extension_after_failure": true
+  },
+  "tests": [
+    "Original code with new two-tick boundary fixture must reproduce duplicate, otherwise stop and investigate reviewer claim",
+    "Patched copy with same fixture must handle end, start, simultaneous and late-failure retry boundaries",
+    "Patched copy must still pass original MuJoCo one-tick fixture"
+  ],
+  "falsator": "A new event published at the start of a tick is lost, an end event is counted twice, or rollback changes the replay result.",
+  "non_claims": "No GPU owner, full fly, causal intra-tick motor action, long-run speed or stage admission."
+}

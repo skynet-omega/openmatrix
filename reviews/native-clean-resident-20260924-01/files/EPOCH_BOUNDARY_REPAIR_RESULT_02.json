@@ -1,0 +1,29 @@
+{
+  "schema": "epoch_boundary_repair_result_v1",
+  "plan": "EPOCH_BOUNDARY_REPAIR_PLAN_02.json",
+  "source_lock": "EPOCH_BOUNDARY_REPAIR_SOURCE_LOCK_02.json",
+  "source_lock_rechecked_after_runs": true,
+  "cpu_executions_consumed": 3,
+  "aggregate_wall_s_observed_resolution": "each command reported 0.00, 0.00 and 0.01 seconds; below 30-s budget",
+  "original_boundary_fixture": {
+    "exit_code": 1,
+    "output": "FAIL event double counted or lost",
+    "interpretation": "Expected new falsator on frozen v1 source; fixture exits at first two-tick boundary case, without printing the observed total."
+  },
+  "v2_boundary_fixture": {
+    "exit_code": 0,
+    "output": "PASS boundary_end=1 boundary_start=1 retry=1 empty=1",
+    "max_rss_kb": 3956
+  },
+  "v2_original_mujoco_fixture": {
+    "exit_code": 0,
+    "output": "PASS duplicate=1 unit=1 no_early_event=1 rollback=1 clean_replay=1 qpos=1e-06 neuron=1",
+    "max_rss_kb": 9640
+  },
+  "classification": "BOUNDARY_BUG_REPRODUCED_AND_REPAIRED_IN_CPU_FIXTURES",
+  "remaining": [
+    "Simultaneous events were not in this locked fixture; tested prospectively in EPOCH_BOUNDARY_COVERAGE_RESULT_03.json",
+    "Original v1 fixture still passes its narrower one-tick contract and is preserved",
+    "No GPU/real organism, long-run event queue bound, SET/ADD, phase schedule or speed proof"
+  ]
+}

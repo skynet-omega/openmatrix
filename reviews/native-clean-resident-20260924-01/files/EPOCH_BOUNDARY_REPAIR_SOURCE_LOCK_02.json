@@ -1,0 +1,21 @@
+{
+  "schema": "epoch_boundary_repair_source_lock_v1",
+  "plan": "EPOCH_BOUNDARY_REPAIR_PLAN_02.json",
+  "before_test": true,
+  "files": {
+    "epoch_session.hpp": "9beef5dfaa8acf64b8cc1a83736492987a5fdf5a6b2c38912f8ba23ba0a73b97",
+    "epoch_session.cpp": "ad4d359e0418818f14fbd225965826bab5c8f8b9be6464f2af3e0e9bed59bfaf",
+    "event_boundary_fixture.cpp": "e1baafabf3a4a578a9511ce964cc92e212a3ed5541c2c7c512e1ae063bef2fad",
+    "event_boundary_original": "96ae72faea0099103842e231ab2be413f4f9eede46a77bf62d71bae94c4a422c",
+    "event_boundary_v2": "facec29dbbe2afe5a4b5b4ec1551c95dcad86297104e9af1a832ec93fea376b7",
+    "epoch_session_v2/epoch_session.hpp": "521ccbd8ec44e3af5c8c5aa124654dd21761a9d7d5cba4bb975450fd7202bbfe",
+    "epoch_session_v2/epoch_session.cpp": "f37979606f87efddf413ea200bdedc5a07a5ecf0c81ac9b62f7ed357812b591f",
+    "epoch_session_v2/mujoco_owner.hpp": "d938ad2cea3fb3332cf6be017564391f0f1451afbb8c6a694d4add1c55f4dfc2",
+    "epoch_session_v2/mujoco_owner.cpp": "7c249a8c4bbabf3c47614aec3f2c5036216dd9d191f7d40e5f3b589960690656",
+    "epoch_session_v2/epoch_session_fixture.cpp": "c9724cc5b2a4323ec6ca41244e82eb02b57f0405702f8dcc6b89617e43a4030f",
+    "epoch_session_v2/fixture_body.xml": "984e45efe51f091041f6fefdc2b3db79aa038db43b70a8963eaeab63898a0799",
+    "epoch_session_v2/epoch_session_fixture_v2": "8e40c0de4238b407e07b2eba74dda6dc59618bb03d40c7647ed2ce7b1cd3ce18"
+  },
+  "test_executions_allowed": 3,
+  "compiler": "g++ 13.3.0"
+}

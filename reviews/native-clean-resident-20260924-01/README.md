@@ -9,3 +9,5 @@ Un segundo prototipo incorpora `files/epoch_session.cpp`: coordinador C++ de pue
 Una revisión de procedencia de la preparación real identifica la homologación PN/DNb05, lector motor de ganancia 250 extraído de un script histórico de Gemini y 40 pasos físicos de 25 µs por milisegundo (`files/PREPARATION_PROVENANCE_01.json`). El verificador de paridad compara esta preparación intervenida. ChatGPT identificó de forma documental el ULP del oráculo, sin ejecutar el código; ver `files/CHATGPT_REVIEW_01.md`.
 
 El perfil ya guardado sitúa los 40 `mj_step` en 0,005243 s y toda la función corporal en 0,041059 s de un milisegundo perfilado de 3,082603 s. `files/BODY_COST_NOTE_01.md` explica la limitación de esa medida.
+
+ChatGPT detectó una doble cuenta en la frontera de ticks; el original falló un nuevo fixture CPU y una copia v2 pasó, con presupuesto y fuentes congelados. El diff está en `files/EPOCH_BOUNDARY_PATCH_02.diff`; la revisión y límites en `files/CHATGPT_REVIEW_02.md`. No se modificó el motor del organismo.
