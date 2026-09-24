@@ -1,0 +1,17 @@
+# Presupuesto cuantitativo del motor completo
+
+La meta operativa de **1 s simulado por 60 s de reloj** concede 0,060 s de pared por milisegundo simulado. No es un criterio biológico ni se ha alcanzado. Las cifras siguientes vienen de preparaciones y ventanas distintas y se presentan como **restricciones condicionales**, no como partes aditivas de un mismo perfil GPU.
+
+| Observación fijada | Cálculo útil | Límite de interpretación |
+| --- | --- | --- |
+| Perfil CPU de 19 ms: 59,887 s de pared, de ellos 40,255 s en `NativeGraph.advance` | 3,152 s/ms y **52,53×** sobre la meta. Aun hacer instantánea esa llamada deja 19,632/19=**1,033 s/ms**, 17,22× sobre el objetivo. | Tiempos anidados: el coste restante no se suma a los 40,255 s. El perfil incluye espera de GPU, no mide un kernel exclusivamente. |
+| En el mismo perfil, 18.240 llamadas a `cupy.ndarray.get` acumulan 7,075 s de tiempo propio | 0,372 s/ms en ese perfil, >6× el presupuesto entero por ms. | No atribuir todo a PCIe; incluye llamada/espera/copia. Trasladar el bucle a C++ sin resolver propietarios y materializaciones no garantiza eliminarlo. |
+| Un 1 ms real tuvo 191 ensayos CNS aceptados, 0 rechazados, seis evaluaciones cada uno, 84 eventos y 16 bloques de acoplamiento | **1.146** evaluaciones del CSR por ms; los eventos exigen cortes fechados. | La cantidad cambia con estado/estímulo. No todos los eventos implican un producto completo si existe una actualización analítica local demostrada. |
+| Kernel CSR FP64 aislado: mediana 1,396 ms/evaluación en 12 repeticiones alternadas | Si cada evaluación costara igual en el organismo, 1.146 costarían 1,60 s/ms. Para caber en 0,060 s/ms con ese coste, harían falta **≤42 evaluaciones globales/ms**, ignorando todos los otros módulos. | No convertir el producto de medianas aisladas en tiempo real medido del organismo ni sumarlo al perfil CPU. |
+| Kernel FP32 aislado: mediana 0,717 ms/evaluación; puerta de velocidad 2× fallida por 1,947× | Aun concediendo el cambio de precisión, el presupuesto sólo admite **≤83 productos/ms** antes de PN/KC/cuerpo. | Su error se midió en tres entradas de coeficientes, no en trayectorias ni eventos. No es un modo rápido certificado. |
+
+Un ejecutable C++/CUDA residente puede evitar gran parte de la orquestación, pero **no** por sí solo los 1.146 recorridos. Recíprocamente, resolver el CNS sin los puertos, PN/KC y el cuerpo deja más de 1 s/ms en el perfil observado. La arquitectura genérica debe atacar simultáneamente dos planos: disminuir productos recurrentes globales **con control de error y eventos** y retirar materializaciones/sincronizaciones de los propietarios especializados. Una mejora aislada sólo se promueve tras medir el organismo completo con el mismo horizonte y preparación.
+
+La distribución de grados del CSR real (mediana 98, p99 858, máximo 11.526) advierte además que un kernel «una warp por fila» tiene desbalance; no prueba por sí sola que reordenar filas produzca el salto requerido. El grafo y las ecuaciones siguen siendo entradas del runtime, no supuestos codificados para una sola neurona, región o cerebro.
+
+Fuentes crudas: `motor_nuevo/epoch_cost_20260923/profile_on_01/PROFILE.json`, `profile_on_01/RESULT.json`, `fusion_base_1ms_01/RESULT.json`, `fast_fp32_probe_01/RESULT.json`, `../native_unified_20260924_01/run_01/RESULT.json`. Fecha 24-09-2026. La meta se compara con **tiempo de ejecución amortizado**, separando carga/compilación del paso, y debe volver a medirse para etapa4 y visión futura.

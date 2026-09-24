@@ -1,0 +1,24 @@
+{
+  "schema": "real_cns_rhs_trace_plan_v1",
+  "question": "Does an affine temporal cache reduce base-CSR products on a real event-boundary CNS trajectory without changing that trajectory?",
+  "baseline": "fusion_base_1ms_01 sham causal_cuda, observer off, 1 ms trial",
+  "budget": {
+    "organism_loads_max": 1,
+    "simulated_trial_ms_max": 1,
+    "wall_seconds_max": 240,
+    "RAM_GiB_max": 18,
+    "VRAM_GiB_max": 12,
+    "captured_rhs_max": 64
+  },
+  "identity": {
+    "graph_weights_sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+    "graph_indices_sha256": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db",
+    "initial_transmission_sha256": "7d3d18ecdda76c2f99af6354bd5eaa7a420991d985b0828641bea9cab7af7687",
+    "final_state_sha256": "4722b051b0b4ee849c84457484835e9211be1f4089e33fb25307ebfb6ad52b62"
+  },
+  "baseline_cns": {"accepted": 191, "rejected": 0, "events": 84, "epochs": 16},
+  "capture_contract": "Inline sideband records exactly the first 64 launch-order RHS vectors presented to the base CSR kernel after its 12 warmup evaluations. The captured kernel outputs are never fed back. Timestamps use the CNS clock and stage fraction.",
+  "followup_cache_budget_per_receptor_abs": 0.001,
+  "followup_cache_work_gate": "at least 10x fewer full base-CSR passes including one-time row-norm pass",
+  "scope_limit": "This capsule uses the fixed initial CSR weights for offline W*x. Specialized effective weights and other nonlinear operators may change during the trajectory; no recurrent, event, trajectory, or wall-speedup claim follows."
+}

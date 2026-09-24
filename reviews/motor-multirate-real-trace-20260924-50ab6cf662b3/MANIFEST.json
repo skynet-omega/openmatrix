@@ -1,0 +1,132 @@
+{
+  "format_version": 2,
+  "label": "motor-multirate-real-trace-20260924",
+  "description": "Trazas reales del CNS, sonda temporal C++ de ChatGPT, variantes negativas y falsadores de un motor neuronal multirritmo general; sin admisión de etapa ni promesa de velocidad.",
+  "files": [
+    {
+      "path": "MULTIRATE_REVIEW_REQUEST_01.md",
+      "bytes": 3256,
+      "sha256": "41b7ec3b2e0b2eecda3ed58ce9a14835980acb1a82bff48ead94399ed4bd0b21"
+    },
+    {
+      "path": "MOTOR_DECISION_01.md",
+      "bytes": 12160,
+      "sha256": "8ae1005935d5c6e84c4e9714ae42806e9ea62f36eb74e6f909b9d1c3eb3935b7"
+    },
+    {
+      "path": "FEASIBILITY_ENVELOPE.md",
+      "bytes": 3550,
+      "sha256": "fbb2888a0dd8964c6ed6bcdd350bdc038f647a0fa40b326c1e3e50b8a6828c87"
+    },
+    {
+      "path": "NATIVE_RUNTIME_SPEC.md",
+      "bytes": 12918,
+      "sha256": "20a8c5a1e0cacf0f18014ef125ba29706d18abcd657dffde6357740a11fe9b59"
+    },
+    {
+      "path": "HOST_PORTS_PROFILE.md",
+      "bytes": 8639,
+      "sha256": "6edfe2290a5cabf6f7e890436f453a8a45387696c30ae9f0686ae5fe0d0720c3"
+    },
+    {
+      "path": "EVENT_AGGREGATE_MATH.md",
+      "bytes": 9877,
+      "sha256": "290c1c3cb2e4268bbb7118bc360261e5641b0b95b4b1ea3b0784210975ff1e2b"
+    },
+    {
+      "path": "coupled/COUPLED_TEMPORAL_CANDIDATE.md",
+      "bytes": 8894,
+      "sha256": "66c3c1b560e5884d794f16307a0f146eff846422435bb4dd9dac1d1407bfdcde"
+    },
+    {
+      "path": "coupled/coupled_temporal_fixture.py",
+      "bytes": 6895,
+      "sha256": "6aabc57fac2f97c1f771cfa0f6888ad5f62c7c252a4a12b085cecd1f46d77d3d"
+    },
+    {
+      "path": "coupled/RESULT.json",
+      "bytes": 832,
+      "sha256": "4f78db010311c887d33ea5c12e7638bac26103eb40a8b16de31015418545acce"
+    },
+    {
+      "path": "multiscale/MULTISCALE_RESULT_01.md",
+      "bytes": 3547,
+      "sha256": "8a803a8564f5eac7b7f4256abb3dd7f50405b4de4cb9f1f8c40b2f7182d1befa"
+    },
+    {
+      "path": "multiscale/RESULT.json",
+      "bytes": 10695,
+      "sha256": "9a95265ecbb14c8d84a33aaae0a7e0723f38b49e248afd95892a6e4918c4ba31"
+    },
+    {
+      "path": "multiscale/MAPPING_VERIFY.json",
+      "bytes": 1081,
+      "sha256": "f3496854899c0f60956dd559ae4fea220d68cab662735a19255e5b054baa3315"
+    },
+    {
+      "path": "trace/TRACE_PLAN_01.json",
+      "bytes": 1601,
+      "sha256": "58be0dc3bc38cc860d92b0953cd174329b32b7be9e75016be81683e2ff3a6b8d"
+    },
+    {
+      "path": "trace/trace_real_rhs_1ms.py",
+      "bytes": 10280,
+      "sha256": "3397a2ae84f52ec9d5e5cd3ec8c4d7d66caf2927c959e9d9caaf50c3b629f500"
+    },
+    {
+      "path": "trace/FAILED_COMPILE_01.json",
+      "bytes": 3058,
+      "sha256": "cca6a1370b3ee124382dea20cdba00cff41733007e1fed951852ce2163bbbacc"
+    },
+    {
+      "path": "trace/FAILED_MONOTONE_02.json",
+      "bytes": 596,
+      "sha256": "d69d4db24f6cf00cd382156c48e1729920885f3728cb4ed3f398afdf2eb2b904"
+    },
+    {
+      "path": "trace/RESULT.json",
+      "bytes": 1456,
+      "sha256": "d8367731eae99be44d05bf78b7be29e0fea76400f67e1e4e5266aba2f196f74a"
+    },
+    {
+      "path": "trace/base_csr_rhs_first64.npz",
+      "bytes": 154282391,
+      "sha256": "9aabecb6cd5a3dbe5d10d288e4a376d17671237f356f2b6c5ea01ddcc0b5d95f"
+    },
+    {
+      "path": "trace/TRACE_DELTA_01.json",
+      "bytes": 1488,
+      "sha256": "a16869d50187c1bbed5cbb833bbcbed8d3589a9ce47756bc58ed6268f1b3ea0e"
+    },
+    {
+      "path": "cache/chatgpt_temporal_cache_probe.py",
+      "bytes": 12781,
+      "sha256": "30287f170d33523837d74e5bfb50cc4b83c417ada484f0f50192fdb45e5c6381"
+    },
+    {
+      "path": "cache/SELFTEST_RESULT.json",
+      "bytes": 14791,
+      "sha256": "1fdf35f2c6f9c24126bd9012f43c5cc3821e24c3d5599b7935cb8cffbaf678c3"
+    },
+    {
+      "path": "cache/REAL_RESULT.json",
+      "bytes": 13048,
+      "sha256": "c1d7926959cd18e08d3657ead79f9436cd16eedbd078269f0034b97045da60e6"
+    },
+    {
+      "path": "incremental/RHO_1MS_PLAN_01.json",
+      "bytes": 988,
+      "sha256": "b3fbe63c7b818082f8a6683eb3825047c1c610f9c153ded0d016ec326e16533b"
+    },
+    {
+      "path": "incremental/RHO_RESULT.json",
+      "bytes": 1782,
+      "sha256": "f47048082925e93bb596ee5e9e8d0dcdc6bbeccc8b314d692013ecd84ee59f0e"
+    },
+    {
+      "path": "incremental/CSC_ENVELOPE_RESULT.json",
+      "bytes": 1654,
+      "sha256": "b5725ebc056397d15fa3891b123e4e9e0788335d0547e91c81a80ed448c4d48b"
+    }
+  ]
+}

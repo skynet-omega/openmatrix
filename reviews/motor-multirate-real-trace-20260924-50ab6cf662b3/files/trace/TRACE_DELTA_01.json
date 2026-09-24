@@ -1,0 +1,46 @@
+{
+  "schema": "trace_rhs_delta_diagnostic_v1",
+  "input_sha256": "9aabecb6cd5a3dbe5d10d288e4a376d17671237f356f2b6c5ea01ddcc0b5d95f",
+  "frames": 64,
+  "backward_time_pairs": 12,
+  "same_rhs_as_any_previous": 12,
+  "consecutive": [
+    {
+      "abs_cutoff": 0,
+      "changed_sources_min": 127735,
+      "changed_sources_median": 127976.0,
+      "changed_sources_max": 128240,
+      "edge_mass_min": 0.7177521987505892,
+      "edge_mass_median": 0.7201619297986807,
+      "edge_mass_max": 0.7227463475852539
+    },
+    {
+      "abs_cutoff": 1e-12,
+      "changed_sources_min": 113208,
+      "changed_sources_median": 121900.0,
+      "changed_sources_max": 122932,
+      "edge_mass_min": 0.6363426280437375,
+      "edge_mass_median": 0.6710687412055645,
+      "edge_mass_max": 0.6755212399764249
+    },
+    {
+      "abs_cutoff": 1e-09,
+      "changed_sources_min": 14889,
+      "changed_sources_median": 38094.0,
+      "changed_sources_max": 107340,
+      "edge_mass_min": 0.11234835498565489,
+      "edge_mass_median": 0.2596040376597872,
+      "edge_mass_max": 0.6110574164703053
+    },
+    {
+      "abs_cutoff": 1e-06,
+      "changed_sources_min": 534,
+      "changed_sources_median": 1839.0,
+      "changed_sources_max": 12002,
+      "edge_mass_min": 0.003761608615867341,
+      "edge_mass_median": 0.015306021536697622,
+      "edge_mass_max": 0.09133137874938367
+    }
+  ],
+  "scope": "exploratory, first64 launch-order speculative RHS only; not a per-millisecond speed certificate"
+}

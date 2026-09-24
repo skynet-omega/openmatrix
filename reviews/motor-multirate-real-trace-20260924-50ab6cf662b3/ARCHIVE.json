@@ -1,0 +1,27 @@
+{
+  "archive_sha256": "97aa32e493b4debe178287b06b54435f9f59cc54ec8a80ec36e79fca532bd87e",
+  "archive_bytes": 154342526,
+  "parts": [
+    {
+      "path": "evidence.zip.part000",
+      "bytes": 41943040,
+      "sha256": "7244d93b1a02bfb8cd2d711172511bdf5d7c591b98f2ffb45e33455613ffc010"
+    },
+    {
+      "path": "evidence.zip.part001",
+      "bytes": 41943040,
+      "sha256": "1ae93d4f5e6109ca1e862d6531d0cf55331ab3562fdd3d0dd40136312847dfb5"
+    },
+    {
+      "path": "evidence.zip.part002",
+      "bytes": 41943040,
+      "sha256": "10a784d388b422fa202f3c01e70e41efafecd2100e036f0ae2745b328b5613e2"
+    },
+    {
+      "path": "evidence.zip.part003",
+      "bytes": 28513406,
+      "sha256": "951d7e30e16dd8572ae6c1e07c4cc51e59bf34f0c0aa9cffe4c3cccb10ab1005"
+    }
+  ],
+  "join": "Concatenate parts in listed order to evidence.zip; verify SHA256 before extraction."
+}

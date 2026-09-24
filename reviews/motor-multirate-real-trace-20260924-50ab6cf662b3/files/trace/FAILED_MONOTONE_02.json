@@ -1,0 +1,10 @@
+{
+  "schema": "real_cns_rhs_trace_result_v1",
+  "status": "FAILED_RETAINED",
+  "stage_admission": false,
+  "simulated_trial_ms": 0,
+  "plan_sha256": "58be0dc3bc38cc860d92b0953cd174329b32b7be9e75016be81683e2ff3a6b8d",
+  "source_sha256": "819b9cb4b27d5fe64e2dd60a3facfe2474d21cc9589f0939b252929d8d065152",
+  "error": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/architecture_round_20260924_01/trace_real_rhs_1ms.py\", line 167, in main\n    raise ValueError('Nonmonotone stage times')\nValueError: Nonmonotone stage times\n",
+  "wall_s": 18.009144456002105
+}

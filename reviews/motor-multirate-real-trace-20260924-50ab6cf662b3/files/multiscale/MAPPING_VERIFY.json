@@ -1,0 +1,37 @@
+{
+  "schema": "block_csr_mapping_verification_result_v1",
+  "status": "COMPLETE",
+  "new_simulated_ms": 0,
+  "source_result_sha256": "9a95265ecbb14c8d84a33aaae0a7e0723f38b49e248afd95892a6e4918c4ba31",
+  "plan_sha256": "fe597cb8d592327c7865b34d788d2261a5f483faf1ba697ce339eac879b6b1d2",
+  "blocks": [
+    {
+      "visual_target": false,
+      "target_bin": 0,
+      "source_bin": 0,
+      "rows": 7001,
+      "nnz": 1090100,
+      "ptr_exact": true,
+      "indices_exact": true,
+      "raw_values_exact": true,
+      "effective_values_count": 1090100,
+      "has_sorted_indices": true,
+      "has_canonical_format": true
+    },
+    {
+      "visual_target": true,
+      "target_bin": 0,
+      "source_bin": 0,
+      "rows": 3418,
+      "nnz": 213544,
+      "ptr_exact": true,
+      "indices_exact": true,
+      "raw_values_exact": true,
+      "effective_values_count": 213544,
+      "has_sorted_indices": true,
+      "has_canonical_format": true
+    }
+  ],
+  "wall_seconds": 11.390823403999093,
+  "source_sha256": "a4d89fb026fd7e838bae342cceb7328b8d0e2b1ff568ff94be8b390ce0724b8a"
+}

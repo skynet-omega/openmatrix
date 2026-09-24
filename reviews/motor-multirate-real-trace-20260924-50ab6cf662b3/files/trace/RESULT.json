@@ -1,0 +1,38 @@
+{
+  "schema": "real_cns_rhs_trace_result_v1",
+  "status": "COMPLETE_SHADOW_ONLY",
+  "stage_admission": false,
+  "simulated_trial_ms": 1,
+  "plan_sha256": "58be0dc3bc38cc860d92b0953cd174329b32b7be9e75016be81683e2ff3a6b8d",
+  "source_sha256": "3397a2ae84f52ec9d5e5cd3ec8c4d7d66caf2927c959e9d9caaf50c3b629f500",
+  "trace_count": 1158,
+  "captured_rhs": 64,
+  "timestamp_first_s": 0.0,
+  "timestamp_last_s": 4.349454101814734e-05,
+  "timestamp_unique": 42,
+  "timestamp_backward_pairs": 12,
+  "base_kernel_build_calls": 18,
+  "capsule_sha256": "9aabecb6cd5a3dbe5d10d288e4a376d17671237f356f2b6c5ea01ddcc0b5d95f",
+  "capsule_bytes": 154282391,
+  "final_state_sha256": "4722b051b0b4ee849c84457484835e9211be1f4089e33fb25307ebfb6ad52b62",
+  "runtime_counts": {
+    "CNS": {
+      "epochs": 16,
+      "accepted": 191,
+      "rejected": 0,
+      "build_s": 0.18831822500214912,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "events": {
+      "blocks": 16,
+      "events": 84,
+      "max_q_reconstruction_difference": 6.106226635438361e-16,
+      "global_trials": 191,
+      "time_resolved": true
+    }
+  },
+  "scope_limit": "This capsule uses the fixed initial CSR weights for offline W*x. Specialized effective weights and other nonlinear operators may change during the trajectory; no recurrent, event, trajectory, or wall-speedup claim follows.",
+  "wall_s": 30.499228234999464
+}
