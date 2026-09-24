@@ -1,0 +1,86 @@
+{
+  "schema": "native_migration_effective_preparation_v1",
+  "scope": "read-only reconstruction from executed 1-ms reference preparation, not a new organism run",
+  "source_hashes": {
+    "plan": "108ce7233a3498e3885f3f205677a6308789b6327dc5587cd26d3d38ed02f00a",
+    "parent_script": "c3cd418d34e753c94f91cdf9a54527c60414a575ea3a8d3587466f5967838394",
+    "motor_runtime": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3",
+    "diagnostic": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+  },
+  "source_paths": {
+    "plan": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/matrix_diagnostico_olfativo_v1.json",
+    "parent_script": "/home/daroch/AXIOMA_FLYWIRE/matrix/gemini_work/test_self_calibrating_embodied.py",
+    "motor_runtime": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/motor_runtime.py"
+  },
+  "parent_script_matches_plan_hash": true,
+  "base_plan_scales": {
+    "ipsilateral": 1.4,
+    "contralateral": 0.1
+  },
+  "runtime_loader_overrides_scales_to": {
+    "ipsilateral": 1.0,
+    "contralateral": 1.0
+  },
+  "actual_saved_orn_weights": {
+    "ORN_DM1_L": {
+      "count": 4129,
+      "exactly_equal_before_after": true
+    },
+    "ORN_DM1_R": {
+      "count": 5097,
+      "exactly_equal_before_after": true
+    }
+  },
+  "tau_theta_homologation": [
+    {
+      "nombre": "PN",
+      "ids": [
+        10208,
+        10176
+      ],
+      "indices": [
+        189,
+        159
+      ],
+      "tau_antes": [
+        0.019051333889365196,
+        0.015203534625470638
+      ],
+      "theta_antes": [
+        289.4622497558594,
+        295.4805908203125
+      ],
+      "tau_despues": 0.017127434257417917,
+      "theta_despues": 292.47142028808594
+    },
+    {
+      "nombre": "DNb05",
+      "ids": [
+        10118,
+        10065
+      ],
+      "indices": [
+        104,
+        52
+      ],
+      "tau_antes": [
+        0.021746084094047546,
+        0.019991092383861542
+      ],
+      "theta_antes": [
+        570.436279296875,
+        563.478271484375
+      ],
+      "tau_despues": 0.020868588238954544,
+      "theta_despues": 566.957275390625
+    }
+  ],
+  "decoder_gain": 250.0,
+  "decoder_source_function": "bind_macro_advance extracted by AST; not entire parent script execution",
+  "body_dt_ns": 25000,
+  "body_substeps_per_ms": 40,
+  "contact_prosthesis_active": true,
+  "contact_prosthesis_elapsed_ns": 701000000,
+  "six_leg_walking_claimed": false,
+  "interpretation": "Neural and body parity refers to this modified effective preparation, not the untouched biological checkpoint or natural six-leg gait."
+}
