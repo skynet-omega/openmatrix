@@ -1,0 +1,41 @@
+{
+  "schema": "stage3_cold_continuation_restore_bugfix_v1",
+  "registered_utc": "2026-09-23T20:06:05.536693+00:00",
+  "original_plan_sha256": "04129eb49efc057b142230ce2b9470b446dfdf2ad68d417e2e462868bccfaa41",
+  "previous_repair_contract_sha256": "140304f3c84478115980fc54c658f008c5baa74ad1913f84842cf7bfb615f245",
+  "previous_attempts": "Three original references, one externally interrupted uniform, one replacement uniform, two coupled angular-command clamps, and one failed cold restore. Eight attempts exposed; seven complete runs are possible only after one new continuation.",
+  "observed_failure": {
+    "receipt_sha256": "f064c53010f66221bf3758c319813baf634bf4d38a66cbc0e6831525a53efeb7",
+    "completed_ms": 0,
+    "initial_exact": null,
+    "error": "World is not bound to this continuing body"
+  },
+  "limitation_observed": "AntennalContactRuntime holds core and body as independent attributes; restore replaced the core/body but left the outer body alias referring to the closed old body. The world was bound to the new body, making its identity validator fail before any step.",
+  "single_code_change": "Two implementation-only changes in a copy of restore_checkpoint.py: rebind obj.body=core.body when assigning obj.core=core on success; mark core.failed=True before closing an incomplete reconstruction on exception. No equation, checkpoint, field, profile, tolerance, reader or scientific criterion changes.",
+  "rivals": {
+    "A": "Rebind the cached outer body alias after reconstructing the carrier; exact pre-step state and 300ms continuation must match the same-profile saved reference.",
+    "B": "Reconstruct a full contact-runtime archive through its class loader instead of replacing the carrier; this could repair ownership but requires repackaging all dynamic state and would be a larger unvalidated loader change.",
+    "C": "Restore all dynamic fields in place on the existing outer/core/body objects, preserving their identities; this could avoid alias replacement but needs a broader audit of body, world and neural subobject mutations and exact checkpoint state."
+  },
+  "discriminator": "A gets one attempt. Before any step its session, prosthesis, published brain, effective operator, field and RNG must compare exactly with the checkpoint; then 101..400ms clock, sensory exposure, commands and physical yaw must pass the unchanged raw verifier. Any failure stops; B/C remain viable but unexecuted loader alternatives, not rescue runs.",
+  "control": "Same frozen reference profile, 100ms checkpoint, original right-arm trace and source/operator maps; CPU fixtures reproduce the body-alias failure and the exception-path publication guard under normal and -O interpreters.",
+  "prior_incomplete": {
+    "interrupted_uniform_wall_s": 300.977753877989,
+    "failed_restore_wall_s": 43.76229369400062
+  },
+  "budget": {
+    "new_complete_organism_runs_max": 1,
+    "new_run_wall_s_max": 2050,
+    "prior_attempts": 8,
+    "all_attempts_max": 9,
+    "complete_runs_max": 7,
+    "aggregate_all_attempts_wall_s_max": 14350,
+    "mechanical_replays_new_max": 0,
+    "new_ChatGPT_messages_max": 0,
+    "new_Jev_calls_max": 0,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12
+  },
+  "stop": "One new continuation attempt only. A failed initial exact comparison, neural/physical step, raw comparison, source or budget gate terminates. No further run, threshold change or alternative architecture within this campaign.",
+  "classification_ceiling": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA for this declared functional PN629-off, effective DNb05 reader and roller body only; original strict contract cannot be retroactively fulfilled and historical KC gate remains FAIL."
+}

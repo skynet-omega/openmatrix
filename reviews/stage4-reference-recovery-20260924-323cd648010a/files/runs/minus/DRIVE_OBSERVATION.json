@@ -1,0 +1,4769 @@
+{
+  "schema": "bounded_adapter_drive_observation_v1",
+  "failed": false,
+  "failure": null,
+  "closed": false,
+  "source": {
+    "adapter_sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "observer_sha256": "709082e4160a6292381a67e433d49ce04b9409b2c11371212544c5342366907d"
+  },
+  "selected_epochs": [
+    "preparacion:1",
+    "preparacion:40",
+    "ensayo:1",
+    "ensayo:2",
+    "ensayo:10",
+    "ensayo:100",
+    "ensayo:300",
+    "ensayo:400"
+  ],
+  "epochs": [
+    {
+      "label": "preparacion:1",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "preparacion:2",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:3",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:4",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:5",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:6",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:7",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:8",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:9",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:10",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:11",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:12",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:13",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:14",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:15",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:16",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:17",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:18",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:19",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:20",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:21",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:22",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:23",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:24",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:25",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:26",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:27",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:28",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:29",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:30",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:31",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:32",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:33",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:34",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:35",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:36",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:37",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:38",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:39",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "preparacion:40",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:1",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:2",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:3",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:4",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:5",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:6",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:7",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:8",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:9",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:10",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:11",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:12",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:13",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:14",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:15",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:16",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:17",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:18",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:19",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:20",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:21",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:22",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:23",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:24",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:25",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:26",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:27",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:28",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:29",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:30",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:31",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:32",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:33",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:34",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:35",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:36",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:37",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:38",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:39",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:40",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:41",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:42",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:43",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:44",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:45",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:46",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:47",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:48",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:49",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:50",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:51",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:52",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:53",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:54",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:55",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:56",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:57",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:58",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:59",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:60",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:61",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:62",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:63",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:64",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:65",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:66",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:67",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:68",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:69",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:70",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:71",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:72",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:73",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:74",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:75",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:76",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:77",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:78",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:79",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:80",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:81",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:82",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:83",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:84",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:85",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:86",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:87",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:88",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:89",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:90",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:91",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:92",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:93",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:94",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:95",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:96",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:97",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:98",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:99",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:100",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:101",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:102",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:103",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:104",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:105",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:106",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:107",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:108",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:109",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:110",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:111",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:112",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:113",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:114",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:115",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:116",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:117",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:118",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:119",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:120",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:121",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:122",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:123",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:124",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:125",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:126",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:127",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:128",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:129",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:130",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:131",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:132",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:133",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:134",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:135",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:136",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:137",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:138",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:139",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:140",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:141",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:142",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:143",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:144",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:145",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:146",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:147",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:148",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:149",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:150",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:151",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:152",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:153",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:154",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:155",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:156",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:157",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:158",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:159",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:160",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:161",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:162",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:163",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:164",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:165",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:166",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:167",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:168",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:169",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:170",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:171",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:172",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:173",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:174",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:175",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:176",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:177",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:178",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:179",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:180",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:181",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:182",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:183",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:184",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:185",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:186",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:187",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:188",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:189",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:190",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:191",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:192",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:193",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:194",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:195",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:196",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:197",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:198",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:199",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:200",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:201",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:202",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:203",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:204",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:205",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:206",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:207",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:208",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:209",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:210",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:211",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:212",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:213",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:214",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:215",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:216",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:217",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:218",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:219",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:220",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:221",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:222",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:223",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:224",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:225",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:226",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:227",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:228",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:229",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:230",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:231",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:232",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:233",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:234",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:235",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:236",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:237",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:238",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:239",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:240",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:241",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:242",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:243",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:244",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:245",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:246",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:247",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:248",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:249",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:250",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:251",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:252",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:253",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:254",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:255",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:256",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:257",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:258",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:259",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:260",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:261",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:262",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:263",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:264",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:265",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:266",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:267",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:268",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:269",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:270",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:271",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:272",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:273",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:274",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:275",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:276",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:277",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:278",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:279",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:280",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:281",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:282",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:283",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:284",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:285",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:286",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:287",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:288",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:289",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:290",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:291",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:292",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:293",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:294",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:295",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:296",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:297",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:298",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:299",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:300",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    },
+    {
+      "label": "ensayo:301",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:302",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:303",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:304",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:305",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:306",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:307",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:308",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:309",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:310",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:311",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:312",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:313",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:314",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:315",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:316",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:317",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:318",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:319",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:320",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:321",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:322",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:323",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:324",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:325",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:326",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:327",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:328",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:329",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:330",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:331",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:332",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:333",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:334",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:335",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:336",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:337",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:338",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:339",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:340",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:341",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:342",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:343",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:344",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:345",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:346",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:347",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:348",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:349",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:350",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:351",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:352",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:353",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:354",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:355",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:356",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:357",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:358",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:359",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:360",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:361",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:362",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:363",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:364",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:365",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:366",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:367",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:368",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:369",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:370",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:371",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:372",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:373",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:374",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:375",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:376",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:377",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:378",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:379",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:380",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:381",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:382",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:383",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:384",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:385",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:386",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:387",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:388",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:389",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:390",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:391",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:392",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:393",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:394",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:395",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:396",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:397",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:398",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:399",
+      "calls": 16,
+      "captured": 0,
+      "selected": false
+    },
+    {
+      "label": "ensayo:400",
+      "calls": 16,
+      "captured": 2,
+      "selected": true
+    }
+  ],
+  "open_epoch": null,
+  "coefficient_build_calls_observed": 18,
+  "actual_pn_reader_calls_during_build": 18,
+  "pn_capture_binding_observed": true,
+  "capture_limits": {
+    "selected_epochs_max": 8,
+    "step_calls_per_epoch_max": 32,
+    "capture_ordinals_per_epoch": [
+      0,
+      1
+    ],
+    "records_total_max": 16,
+    "coefficient_build_calls_max": 32,
+    "actual_pn_host_reads_per_step_max": 2,
+    "array_bytes_max": 16000000,
+    "selected_indices_max": 256
+  },
+  "records": [
+    {
+      "epoch": "preparacion:1",
+      "ordinal": 0,
+      "start_time_ns": 44446000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "277ed443abb2cddd136edd5644aece0ff87611d4b67c414ed52ff948985f2a29",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "277ed443abb2cddd136edd5644aece0ff87611d4b67c414ed52ff948985f2a29",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "277ed443abb2cddd136edd5644aece0ff87611d4b67c414ed52ff948985f2a29",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 2,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "preparacion:1",
+      "ordinal": 1,
+      "start_time_ns": 44446000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "24d54b4df81c2f0908889f68594c5b9665fcb6ae709a971afd820c87105669e5",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "24d54b4df81c2f0908889f68594c5b9665fcb6ae709a971afd820c87105669e5",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "30b949bc84a543af064adea9f5e12a89305b6b26c4a8eb124609180b22b8ee78",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "24d54b4df81c2f0908889f68594c5b9665fcb6ae709a971afd820c87105669e5",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "preparacion:40",
+      "ordinal": 0,
+      "start_time_ns": 44485000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec14dde6ca209d1c2ec6b0fe40694319252b4200ff9ed7e3dd4cb331a4090e14",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec14dde6ca209d1c2ec6b0fe40694319252b4200ff9ed7e3dd4cb331a4090e14",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec14dde6ca209d1c2ec6b0fe40694319252b4200ff9ed7e3dd4cb331a4090e14",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "preparacion:40",
+      "ordinal": 1,
+      "start_time_ns": 44485000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec879f8308cda65f18c08a956fb5f1d9e4fd9817f717f776f2c649ece335d02f",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec879f8308cda65f18c08a956fb5f1d9e4fd9817f717f776f2c649ece335d02f",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51ff6735e937a9c940a6eb09177e82ab7f3e2c8fb33d7c76e51ac091d8a6c14",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "ec879f8308cda65f18c08a956fb5f1d9e4fd9817f717f776f2c649ece335d02f",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:1",
+      "ordinal": 0,
+      "start_time_ns": 44486000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6dec2ac9020cd3aeb00ff9edef7c4cbeb12d2217a1221ae4f17515379cff65ae",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6dec2ac9020cd3aeb00ff9edef7c4cbeb12d2217a1221ae4f17515379cff65ae",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6dec2ac9020cd3aeb00ff9edef7c4cbeb12d2217a1221ae4f17515379cff65ae",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:1",
+      "ordinal": 1,
+      "start_time_ns": 44486000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f7158f15d3df8571d5e31fd1db35b420105b86773d479d89899bd830de263f97",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f7158f15d3df8571d5e31fd1db35b420105b86773d479d89899bd830de263f97",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "995bf270533659ad69343cb3be1f3fccfaf2bf01d7254812d44ccd473f765ec8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          31.898751314638567,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314,
+          62.13028380436314
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f7158f15d3df8571d5e31fd1db35b420105b86773d479d89899bd830de263f97",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:2",
+      "ordinal": 0,
+      "start_time_ns": 44487000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "d8132f0e4f25ccfc3027628747940d254a2941d35dc74ec4f047c4e2c809b25d",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "d8132f0e4f25ccfc3027628747940d254a2941d35dc74ec4f047c4e2c809b25d",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "d8132f0e4f25ccfc3027628747940d254a2941d35dc74ec4f047c4e2c809b25d",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:2",
+      "ordinal": 1,
+      "start_time_ns": 44487000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "16edd89fde2d2e2c7493c977f930b75f90be23bca0db084d1d80b59c5bf710e8",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "16edd89fde2d2e2c7493c977f930b75f90be23bca0db084d1d80b59c5bf710e8",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "80829cab11b646c5f679704c6f2d39fdcd75ccf975565a891c6a1127101f607a",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          31.902468562863806,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255,
+          62.137521299213255
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "16edd89fde2d2e2c7493c977f930b75f90be23bca0db084d1d80b59c5bf710e8",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:10",
+      "ordinal": 0,
+      "start_time_ns": 44495000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "b20c00f733aadabbbd3c0d49a0c28032262cd277b9668a15f1947f896344863f",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "b20c00f733aadabbbd3c0d49a0c28032262cd277b9668a15f1947f896344863f",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "b20c00f733aadabbbd3c0d49a0c28032262cd277b9668a15f1947f896344863f",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:10",
+      "ordinal": 1,
+      "start_time_ns": 44495000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "387d503bb16b26bc8f1f25f32b341fd8a126bea551dbaa6a9a5d1228c084a54b",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "387d503bb16b26bc8f1f25f32b341fd8a126bea551dbaa6a9a5d1228c084a54b",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b8c90bfa8e8f9199667df66eebec3fe2a2f7c842e33b7cd7e9f7a5302917d585",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          31.933003181318234,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864,
+          62.195760678075864
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "387d503bb16b26bc8f1f25f32b341fd8a126bea551dbaa6a9a5d1228c084a54b",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:100",
+      "ordinal": 0,
+      "start_time_ns": 44585000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "7cefa65c2c06b8ac9f62962bed4ba595ca84e5c7d63d5fcc3106f08bcfca8bb9",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "7cefa65c2c06b8ac9f62962bed4ba595ca84e5c7d63d5fcc3106f08bcfca8bb9",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "7cefa65c2c06b8ac9f62962bed4ba595ca84e5c7d63d5fcc3106f08bcfca8bb9",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:100",
+      "ordinal": 1,
+      "start_time_ns": 44585000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "69fe996e7d1b11c7ffb6bf3f54c2efc839633caf50d22145b25a23f37b3987de",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "69fe996e7d1b11c7ffb6bf3f54c2efc839633caf50d22145b25a23f37b3987de",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "07da82527e5f029ae1b0e8b68e86e588ac86827081205a15fdf7aefb6c8996a8",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          32.261461731807344,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922,
+          62.79037044285922
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "69fe996e7d1b11c7ffb6bf3f54c2efc839633caf50d22145b25a23f37b3987de",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:300",
+      "ordinal": 0,
+      "start_time_ns": 44785000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "0d3fa940eb86b09117222f228c80b548168a0fc552572ba38e1ddc28feda8c4b",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "0d3fa940eb86b09117222f228c80b548168a0fc552572ba38e1ddc28feda8c4b",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "0d3fa940eb86b09117222f228c80b548168a0fc552572ba38e1ddc28feda8c4b",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:300",
+      "ordinal": 1,
+      "start_time_ns": 44785000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "2b4e0b48f805787706f4cb375cb9fa59a8fefb7b777263746ea36ea03b091b75",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "2b4e0b48f805787706f4cb375cb9fa59a8fefb7b777263746ea36ea03b091b75",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "52a0cf81c6967d3da4cf7a4a21100a36baf1d004f64dea029d6324b67a2e52fb",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          32.79258066780845,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121,
+          63.62718071019121
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "2b4e0b48f805787706f4cb375cb9fa59a8fefb7b777263746ea36ea03b091b75",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:400",
+      "ordinal": 0,
+      "start_time_ns": 44885000000,
+      "duration_ns": 62500,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f1da6959e6a0c3dc361ee4275154e8a8220770c69866b9f1c07c45d3e9d41859",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f1da6959e6a0c3dc361ee4275154e8a8220770c69866b9f1c07c45d3e9d41859",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "f1da6959e6a0c3dc361ee4275154e8a8220770c69866b9f1c07c45d3e9d41859",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    },
+    {
+      "epoch": "ensayo:400",
+      "ordinal": 1,
+      "start_time_ns": 44885000000,
+      "duration_ns": 125000,
+      "argument_dtype_before_validation": "float64",
+      "comparison_conversion": "Inherited _validated_inputs converts drive to float64",
+      "drive_argument": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "drive_before": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "pn_refresh": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6d51741ca5900bac27b6f08194a0e9c26d87bb2b7dd00228c55d8bc12f5b65db",
+        "indices": [],
+        "values": []
+      },
+      "pn_before": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6d51741ca5900bac27b6f08194a0e9c26d87bb2b7dd00228c55d8bc12f5b65db",
+        "indices": [],
+        "values": []
+      },
+      "captured_device_pointers": [
+        39288404992,
+        39214636544
+      ],
+      "drive_after": {
+        "shape": [
+          166700
+        ],
+        "dtype": "float64",
+        "bytes": 1333600,
+        "sha256": "b51a1986ef6efa0b9dfbcb9a82d7413d8f80ad152f4dac5b2f860a5174abbcac",
+        "indices": [
+          79492,
+          110266,
+          110852,
+          113804,
+          44502,
+          87435,
+          89199,
+          91799
+        ],
+        "values": [
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          32.972614084345814,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524,
+          63.811177819132524
+        ]
+      },
+      "pn_after": {
+        "shape": [
+          629
+        ],
+        "dtype": "float64",
+        "bytes": 5032,
+        "sha256": "6d51741ca5900bac27b6f08194a0e9c26d87bb2b7dd00228c55d8bc12f5b65db",
+        "indices": [],
+        "values": []
+      },
+      "buffers_unchanged_during_advance": true,
+      "host_pn_reads": 1,
+      "argument_unchanged": true,
+      "status": "OBSERVED_EXACT_BOUNDARIES"
+    }
+  ],
+  "scope": "Actual adapter arguments and held buffers at selected advances, plus Python binding observations during graph construction",
+  "not_demonstrated": [
+    "Every CUDA kernel read or every numerical stage",
+    "Causal efficacy of a PN pathway or ORN physiological calibration",
+    "All epochs/steps outside the explicitly selected captures",
+    "GPU noninterference or overhead before a real paired test",
+    "Whole-organism equivalence, Stage3/Stage4 admission or navigation"
+  ]
+}

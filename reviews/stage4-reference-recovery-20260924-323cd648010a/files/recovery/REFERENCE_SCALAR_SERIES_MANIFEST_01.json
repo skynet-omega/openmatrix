@@ -1,0 +1,15 @@
+{
+  "schema": "stage4_reference_scalar_series_descriptive_v1",
+  "classification": "DESCRIPTIVE_ONLY",
+  "rows": 800,
+  "rows_by_arm": {
+    "plus": 400,
+    "minus": 400
+  },
+  "source_trace_sha256": {
+    "plus": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+    "minus": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7"
+  },
+  "csv_sha256": "96fe1534f4718f26113487ed0cd557ea294d695d3b62ae42b68ce091d4c832f1",
+  "scope": "Selected scalar fields extracted from full reference traces; not the raw verifier or a navigation claim."
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "stage4_reference_timeout_descriptive_estimate_v1",
+  "classification": "DESCRIPTIVE_ESTIMATE_ONLY",
+  "input_sha256": {
+    "PLAN.json": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+    "RESULT.json": "d8cc8ac0f67ac1d25aba15c5e5bb984d7aa6fb57966e6f1944ae4c72e9c1e4f6",
+    "PROGRESS.jsonl": "3451d579b30eca499cb241731e0e67a043e5ff4067181486eea71239fa8b05ff"
+  },
+  "completed_preparation_ms": 40,
+  "completed_trial_ms": 391,
+  "missing_trial_ms": 9,
+  "last_100_step_mean_s": 4.436552052219995,
+  "last_100_step_max_s": 5.486650323000504,
+  "last_elapsed_s": 2011.9846383349995,
+  "predicted_missing_compute_s": 39.92896846997996,
+  "runner_guard_margin_s": 40,
+  "old_wall_limit_s": 2050,
+  "estimated_min_new_limit_s_at_last100_mean": 2091.9136068049793,
+  "qualification": "Extrapolation from an exposed prefix; not a time guarantee, numerical completion, or permission to alter the frozen campaign."
+}

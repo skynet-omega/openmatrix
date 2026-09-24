@@ -1,0 +1,162 @@
+{
+  "schema": "stage4_reference_recovery_composite_v1",
+  "sources": {
+    "prior": {
+      "sources": 47,
+      "source_lock_sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+      "plan_sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+      "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+      "preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+    },
+    "recovery": {
+      "sources": 48,
+      "source_lock_sha256": "a9efbc4cdd0cc41333c43943856eb239301e7d64ba1516fc1b2af462cb35661e",
+      "plan_sha256": "53a0277f85a47bd9528323a06105777e1cd270dfddd1c294cc56c8274467fd42",
+      "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+      "preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+    }
+  },
+  "decision": {
+    "rival": "A",
+    "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+    "reason": "Scoped mirrored finite-source-side-to-command effect only; not navigation",
+    "native_pair": {
+      "late_signed_LR_plus": 0.38542020181370823,
+      "late_signed_LR_minus": -0.3855624442781802,
+      "late_field_pair_mean_abs": 0.38549132304594413,
+      "command_L1_deg": 0.057746767029625064,
+      "signed_command_plus_minus_deg": 0.05774676702962507,
+      "yaw_plus_minus_last_deg": 0.05732051642988267,
+      "yaw_sup_deg": 0.05732051642988267
+    },
+    "native_checks": {
+      "input": true,
+      "command_L1": true,
+      "signed_command": true,
+      "body_yaw": true
+    },
+    "reference_pair": {
+      "late_signed_LR_plus": 0.38542020138951394,
+      "late_signed_LR_minus": -0.38556244456008304,
+      "late_field_pair_mean_abs": 0.38549132297479854,
+      "command_L1_deg": 0.057746765857798046,
+      "signed_command_plus_minus_deg": 0.057746765857798046,
+      "yaw_plus_minus_last_deg": 0.05732051547082051,
+      "yaw_sup_deg": 0.05732051547082051
+    },
+    "reference_checks": {
+      "input": true,
+      "command_L1": true,
+      "signed_command": true,
+      "body_yaw": true
+    },
+    "parity": {
+      "plus": {
+        "yaw_sup_deg": 3.421114058710373e-07,
+        "command_L1_deg": 5.577481342337071e-07
+      },
+      "minus": {
+        "yaw_sup_deg": 3.376945869604242e-07,
+        "command_L1_deg": 5.476720690195219e-07
+      }
+    }
+  },
+  "errors": [],
+  "missing": [],
+  "new_reference_wall_s": 4133.443030643997,
+  "prepared": {
+    "causal_cuda": {
+      "receipt_sha256": "ede2fcd7c485e8ffc95e86fea0b72163e9d67b404c510cf971e5e58088152907",
+      "comparator_sha256": "4c17a41d9b213ccc66565f6e1dc874206900b5841b5a6496caf14c8592b91a09",
+      "recomputed_section_equality": true,
+      "scope": "Separate exact semantic comparator receipt linked to both full raw prepared states; its semantic parse is not repeated here"
+    },
+    "reference_cuda": {
+      "receipt_sha256": "ad1f11203800a53365d290af595258dc7301459eff2c1df5291f72718f670423",
+      "comparator_sha256": "4c17a41d9b213ccc66565f6e1dc874206900b5841b5a6496caf14c8592b91a09",
+      "recomputed_section_equality": true,
+      "scope": "Separate exact semantic comparator receipt linked to both full raw prepared states; its semantic parse is not repeated here"
+    }
+  },
+  "runs": {
+    "causal_cuda/plus": {
+      "folder": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_mirrored_source_20260924_26/native_plus_01",
+      "raw_hashes": {
+        "traces.npz": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+        "GAUSSIAN_INTERVALS.json": "00e0daf96ed16a2c0ffd07aa10954e4070ccc22ba3302364f5f72fa66935083c",
+        "DRIVE_OBSERVATION.json": "cf6e28d5d129abc658a3d94fca9328b778bc7ede53fb44814b1a0b406484dccb",
+        "flow/FLOW.npz": "9d30d896b0c095af9cfec84d0ae5acc96b42f81ebe4341d1c179cebcea2af10f",
+        "flow/FLOW.jsonl": "450fe8d0c9eeb51fb7736a45b3a0d398c128d041cb9b98c9e44363f120f72a95",
+        "RESULT.json": "25bd719f921b143700fe66c2a045d2d80398cda76fe24edb585f0eae7351b2eb"
+      },
+      "resources": {
+        "wall_s": 1567.037635921999,
+        "rss_peak_at_last_sample_gib": 5.820423126220703,
+        "gpu_device_used_sample_max_gib": 1.84228515625,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "complete": true,
+      "signed_command_deg": 0.04819431100061335
+    },
+    "causal_cuda/minus": {
+      "folder": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_mirrored_source_20260924_26/native_minus_01",
+      "raw_hashes": {
+        "traces.npz": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+        "GAUSSIAN_INTERVALS.json": "e31a648b98b247fc932e65847f0991c26c9488f4eb5d60f1a3c789c32fb3395d",
+        "DRIVE_OBSERVATION.json": "509454fb5a06d4c5513d2a762ed719c9cab7c06024dde7796500ac5f906a1ae7",
+        "flow/FLOW.npz": "9a0cdcb328c43ba1274d1042aad38fc4a05c39e2a59da82e19206be7d0272bca",
+        "flow/FLOW.jsonl": "f422b61670615132869ac966831f74117df121351d3a0b8b8cf413a01fe361fc",
+        "RESULT.json": "0d1b80e1867651a6edf8a248f0e9af74c3cbe919a57eab935f7bd0dcd47b62d6"
+      },
+      "resources": {
+        "wall_s": 1561.2547684290003,
+        "rss_peak_at_last_sample_gib": 5.7775115966796875,
+        "gpu_device_used_sample_max_gib": 1.84423828125,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "complete": true,
+      "signed_command_deg": -0.009552456029011714
+    },
+    "reference_cuda/minus": {
+      "folder": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/reference_minus_01",
+      "raw_hashes": {
+        "traces.npz": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+        "GAUSSIAN_INTERVALS.json": "32e154ca0f3c5f70c7ea7d518bbf656b440126e840d9b09aec908495eab2c518",
+        "DRIVE_OBSERVATION.json": "bde37dcac712d596263d635c6249d2e19110989572bf0498a05e9b11536e9812",
+        "flow/FLOW.npz": "76122d157e3a3d555a1ebac59e1013869a8300365b4a158c5bbd13d4435e4c00",
+        "flow/FLOW.jsonl": "2df04391870dd9bb733999cdefc1c1583e39487c64900729698356b8974a567d",
+        "RESULT.json": "d0f6bca6d25489d1c96612b3f0ba7dbb32701347036e2c0c53464db48dfa84b7"
+      },
+      "resources": {
+        "wall_s": 2084.231289547999,
+        "rss_peak_at_last_sample_gib": 5.766075134277344,
+        "gpu_device_used_sample_max_gib": 1.84423828125,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "complete": true,
+      "signed_command_deg": -0.009552298428025957
+    },
+    "reference_cuda/plus": {
+      "folder": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/reference_plus_01",
+      "raw_hashes": {
+        "traces.npz": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+        "GAUSSIAN_INTERVALS.json": "1b95c9204fcb5c4ed31400ea497be3d844c59cb796c9c271f26f04ca78725422",
+        "DRIVE_OBSERVATION.json": "82595fbba712f376bf70731e4d8f8a5206fa119a3d9ad1d00040c5fe2f1c3494",
+        "flow/FLOW.npz": "d1de3367f02b0837ff6beaee2977cf095fef42746a2af050f4147a1cf27c88a3",
+        "flow/FLOW.jsonl": "34c84c6ff236c75ad29b5dce7f09e7ea351d0f75ab6752cff4f95c72389883e7",
+        "RESULT.json": "ac844ae37c9a46280d4aaa41e9390dc686c082786376819a8d41c0758824fc01"
+      },
+      "resources": {
+        "wall_s": 2049.211741095998,
+        "rss_peak_at_last_sample_gib": 5.822479248046875,
+        "gpu_device_used_sample_max_gib": 1.84423828125,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "complete": true,
+      "signed_command_deg": 0.04819446742977209
+    }
+  },
+  "stage4_navigation_admitted": false,
+  "stage5_admitted": false,
+  "limitation": "The old campaign remains blocked. At most this confirms numerical parity of the source-to-command effect; no online-versus-replay navigation test or animal equivalence."
+}

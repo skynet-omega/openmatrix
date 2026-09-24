@@ -1,0 +1,107 @@
+{
+  "schema": "stage4_mirrored_reference_recovery_prospective_v1",
+  "registered_before_organism_runs": true,
+  "status": "READY_FOR_PREFLIGHT_NOT_YET_EXECUTED",
+  "limitation_observed": "Campaign26 native pair is complete and material, but its first reference stopped at 391/400ms due the frozen 2050s wall cap. The final 100 observed trial steps average 4.436552s; 9 steps plus the runner 40s reserve imply 2091.914s at that exposed rate. This does not guarantee timing of a new run.",
+  "operation": "Prospective repeat of two complete strict reference_cuda arms from the same settled source checkpoint and identical frozen Gaussian geometry, PN629 intervention, decoder, model, clock and 400ms horizon. No native arm reruns; old native results remain exposed inputs. Only the per-run operational wall budget changes from 2050s to 2300s.",
+  "legal_information": "Only previously exposed Campaign26 native and reference prefix timing, code and frozen source metadata. No numerical outcomes from the new references.",
+  "difference_from_parent": "New operational resource contract and independent composite verifier; no biological, numerical, source, observer or threshold change. Campaign26 remains BLOQUEADO and is never reclassified.",
+  "rivals": {
+    "A": "The consumed opposite lateral contrasts produce a correctly signed and material DNb05-reader command difference, reproduced by numerical references.",
+    "B": "Opposite lateral contrasts are consumed but do not produce a material command difference under the frozen organism within 400 ms.",
+    "C": "Preparation, field, clock, observer, numerical, or source separation checks fail; the experiment is uninterpretable before a circuit inference."
+  },
+  "controls": "Same basal checkpoint, separate but exact prepared states, 40-ms odor-free preparation, fixed physical source and sigma, source-independent forward command, existing motor decoder, signed flow taps and actual ORN/PN consumer observation. The previous negative is retained as exposed context, not relabeled or promoted.",
+  "fixed_inputs": {
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "geometry_preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757",
+    "reference_pose_guard_sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3",
+    "local_pose_guarded_helper_sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5",
+    "source_design": "lateral offset 1.5 antenna baselines; sigma 1.5 baselines; forward offset is the unique nonnegative solution that matches the old prepared bilateral mean",
+    "source_labels": {
+      "plus": "left",
+      "minus": "right"
+    },
+    "preparation_ms": 40,
+    "trial_ms": 400
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "observation": {
+    "bounded_drive_epochs": [
+      "preparacion:1",
+      "preparacion:40",
+      "ensayo:1",
+      "ensayo:2",
+      "ensayo:10",
+      "ensayo:100",
+      "ensayo:300",
+      "ensayo:400"
+    ],
+    "bounded_drive_ordinals": [
+      0,
+      1
+    ],
+    "scope": "Exact committed sensor/trace lag and selected ORN argument buffers, plus signed PN/DN kernel net and target at each accepted millisecond; not every hidden kernel read."
+  },
+  "sequential_decision": [
+    "Check all frozen sources, old native evidence and disk reserve before any launch.",
+    "Run strict plus once, preserve and stop if incomplete or invalid.",
+    "Only then run strict minus once.",
+    "Recompute each raw arm, exact prepared reference pair, parity against old native pair, and campaign budget without trusting runner PASS flags."
+  ],
+  "thresholds": {
+    "late_300_400ms_signed_LR_plus_min_exclusive": 0.25,
+    "late_300_400ms_signed_LR_minus_max_exclusive": -0.25,
+    "late_300_400ms_mean_abs_field_pair_min_exclusive": 0.25,
+    "command_L1_pair_deg_min_exclusive": 0.01,
+    "signed_command_plus_minus_deg_min_exclusive": 0.01,
+    "yaw_plus_minus_deg_min_exclusive": 0.005,
+    "native_reference_yaw_sup_deg_max": 0.002,
+    "native_reference_command_L1_deg_max": 0.002,
+    "all_numeric_finite": true
+  },
+  "budget": {
+    "native_runs_max": 0,
+    "reference_runs_max": 2,
+    "organism_runs_max": 2,
+    "wall_each_s_max": 2300,
+    "aggregate_wall_s_max": 4600,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "projected_output_GiB_max": 3,
+    "physical_C_reserve_GiB_min": 30,
+    "complete_prototypes_max": 1,
+    "new_ChatGPT_messages_max": 0,
+    "new_Jev_calls_max": 0,
+    "Codex_subagents": 0
+  },
+  "stop": "At most one prospective plus and one prospective minus strict run. Stop if plus is incomplete/invalid or any run exceeds its cap. No retuning after new results. Preserve failed attempts and do not relabel Campaign26.",
+  "qualification": "A successful composite result confirms only mirrored source-to-command numerical parity locally; Stage4 navigation and Stage5 perturbation remain open.",
+  "recovery_rivals": {
+    "A": "A prospective full strict pair finishes within budget and matches the exposed native effect within the unchanged thresholds.",
+    "B": "References finish but violate numerical parity or the signed source-to-command effect.",
+    "C": "A new reference times out or source, preparation, flow, consumer, memory or run-inventory integrity fails; no numerical inference."
+  },
+  "recovery_links": {
+    "prior_plan_sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+    "prior_close_sha256": "2e1ced26af1eac5e119e86ff7819a80c946b86a4b739cc94d2a2fb2d437d233e",
+    "prior_source_lock_sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+    "old_native_plus_trace_sha256": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+    "old_native_minus_trace_sha256": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+    "old_incomplete_reference_result_sha256": "d8cc8ac0f67ac1d25aba15c5e5bb984d7aa6fb57966e6f1944ae4c72e9c1e4f6",
+    "timing_receipt_sha256": "e1a080f29f4384fb14c6faeefc3a98c7ec38333e3ac3418944f85931eaaecbd0"
+  }
+}

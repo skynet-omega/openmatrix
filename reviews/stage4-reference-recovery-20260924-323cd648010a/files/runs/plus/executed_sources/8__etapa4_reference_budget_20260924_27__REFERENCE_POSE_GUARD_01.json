@@ -1,0 +1,75 @@
+{
+  "schema": "stage4_preexisting_prepared_pose_guard_v1",
+  "scope": "Already exposed Stage3 prepared poses; no new organism or future source outcomes",
+  "rows": [
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/traces.npz",
+      "trace_sha256": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+      "common_pair_abs": 1.1102230246251565e-16,
+      "common_prior_abs": 1.1102230246251565e-16,
+      "contrast_antisymmetry_abs": 5.551115123125783e-17,
+      "plus_signed_LR": 0.37789415612003013,
+      "minus_signed_LR": -0.3778941561200302
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/traces.npz",
+      "trace_sha256": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+      "common_pair_abs": 1.1102230246251565e-16,
+      "common_prior_abs": 1.1102230246251565e-16,
+      "contrast_antisymmetry_abs": 5.551115123125783e-17,
+      "plus_signed_LR": 0.37789415612003013,
+      "minus_signed_LR": -0.3778941561200302
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/traces.npz",
+      "trace_sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+      "common_pair_abs": 1.1102230246251565e-16,
+      "common_prior_abs": 1.1102230246251565e-16,
+      "contrast_antisymmetry_abs": 5.551115123125783e-17,
+      "plus_signed_LR": 0.37789415612003013,
+      "minus_signed_LR": -0.3778941561200302
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/traces.npz",
+      "trace_sha256": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615",
+      "common_pair_abs": 1.1102230246251565e-16,
+      "common_prior_abs": 1.1102230246251565e-16,
+      "contrast_antisymmetry_abs": 5.551115123125783e-17,
+      "plus_signed_LR": 0.37789415612003013,
+      "minus_signed_LR": -0.3778941561200302
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_left_01/traces.npz",
+      "trace_sha256": "e731254e408c4c82d8adb607a58275271259e6ed22ccc15ec290104cf58f37db",
+      "common_pair_abs": 4.011868615094727e-11,
+      "common_prior_abs": 2.0018653401621123e-11,
+      "contrast_antisymmetry_abs": 3.107014645564732e-12,
+      "plus_signed_LR": 0.3778941561184501,
+      "minus_signed_LR": -0.37789415612155713
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_odor_right_01/traces.npz",
+      "trace_sha256": "738d71470e7c2c80282582b4dc10ad4eb94405c75726045b87ee824dd0358266",
+      "common_pair_abs": 4.011868615094727e-11,
+      "common_prior_abs": 2.0018653401621123e-11,
+      "contrast_antisymmetry_abs": 3.107014645564732e-12,
+      "plus_signed_LR": 0.3778941561184501,
+      "minus_signed_LR": -0.37789415612155713
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/reference_sham_01/traces.npz",
+      "trace_sha256": "b21dbdcad1b812f535a4d7e427e7d39091f50839d243cffbf04e110422390744",
+      "common_pair_abs": 4.011868615094727e-11,
+      "common_prior_abs": 2.0018653401621123e-11,
+      "contrast_antisymmetry_abs": 3.107014645564732e-12,
+      "plus_signed_LR": 0.3778941561184501,
+      "minus_signed_LR": -0.37789415612155713
+    }
+  ],
+  "max_common_pair_abs": 4.011868615094727e-11,
+  "max_common_prior_abs": 2.0018653401621123e-11,
+  "max_contrast_antisymmetry_abs": 3.107014645564732e-12,
+  "code_sha256": "919f12e529ab3a626abf256311329b7375e2ac34999bf1aaca0c2a8ce5193019",
+  "source_fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+  "organism_executed": false
+}

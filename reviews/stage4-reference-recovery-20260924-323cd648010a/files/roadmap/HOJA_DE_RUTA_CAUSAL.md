@@ -1,0 +1,50 @@
+# Hoja de ruta causal — revisión del 24-09-2026
+
+Esta hoja traduce la analogía de «hacer ingeniería inversa del motor» en decisiones comprobables. La propuesta externa recibida el 24-09 está preservada en el adjunto local `Texto pegado.txt` (SHA-256 `b587cae38de62983f53f828de7de7f52a4efca61d1881627de0e5007ea2ab6f2`). Es una propuesta, no un resultado ni una instrucción para reetiquetar campañas. Prevalecen los contratos y datos de cada ejecución.
+
+## Estado de las etapas
+
+| Etapa | Pregunta concreta | Estado a este corte |
+| --- | --- | --- |
+| 0–2 | Entorno, puertos descendentes y soporte corporal simplificado | Infraestructura de trabajo; no equivale a organismo biológico completo. |
+| 3 | ¿El olor lateral causa orientación corporal bilateral? | **Confirmación funcional local pendiente de auditoría** sólo para PN629 general desactivado, lector DNb05 efectivo y cuerpo asistido por rodillos. La paridad estricta histórica de estado KC continúa fallando. |
+| 4 | ¿Usa la posición de una fuente continua para aproximarse en lazo cerrado? | **Abierta.** La campaña27 completó las dos referencias estrictas y confirmó localmente el contraste fuente→mando; falta el control online frente a entrada reproducida y una mejora de trayectoria atribuible al feedback. La campaña24 anterior dio un negativo de intensidad. |
+| 5 | ¿Corrige una perturbación nueva y navega durante segundos? | **Abierta y sin ensayo admitido.** Una película 3D puede ilustrar la trayectoria; no sustituye la retirada causal de feedback ni la medida de distancia y rumbo. |
+| 6 | ¿Qué estados internos conservan rumbo u objetivo cuando falta olor? | Línea futura para complejo central y otras rutas. La etiqueta «compás» es hipótesis funcional, no una capacidad ya medida. |
+| 7 | ¿Qué prótesis se sustituyen por circuitos y sensores verificables? | Línea futura, incluida marcha de seis patas y propiocepción. Cada sustitución exige interfaces, controles y observables propios; vuelo no es requisito automático. |
+| 8 | ¿Qué organización causal puede abstraerse y ejecutarse con menor coste? | **Programa transversal que puede empezar ahora.** No espera a completar patas. Aceleración exacta y reducción funcional son afirmaciones diferentes. |
+| 9 | ¿Se transfiere esa organización a otro cuerpo y tarea con aprendizaje interno? | Horizonte de investigación, no promesa de robot ni de superioridad frente a otras arquitecturas. Exige pruebas fuera de la mosca y contabilidad de hardware, energía y aprendizaje. |
+
+Las etapas 6–9 ordenan preguntas, no constituyen un ascenso automático ni una secuencia rígida. El [objetivo de fondo](OBJETIVO_DE_FONDO.md) exige representación, memoria, revisión de hipótesis, adquisición duradera y transferencia en una misma arquitectura. Navegar con olor, aun si se confirma, sólo respalda una pieza. Un controlador exportable a un robot tampoco bastaría para demostrar inteligencia general.
+
+## Tres rutas rivales para la abstracción
+
+El modelo completo y sus intervenciones son la referencia; no cuentan como una cuarta candidata. Como máximo se prototipan dos rutas completas por ronda. Antes de cada piloto se congelan presupuesto, observables, tolerancias, intervenciones reservadas y costes de CPU/GPU/memoria.
+
+| Ruta | Operación nueva | Predicción que puede fallar | Control decisivo |
+| --- | --- | --- | --- |
+| **A. Ejecución fiel y dispersa** | Reorganizar planificación de eventos, memoria y comunicación CPU/GPU, conservando estados y ecuaciones del modelo original. | Reduce tiempo de pared/energía en organismo real sin cambiar decisiones de eventos ni exceder error numérico previo. | Paridad de estado, flujo y conducta bajo entradas e intervenciones no usadas para optimizar; medir latencia y energía en hardware real. Esto prueba ingeniería del simulador, todavía no simplificación causal. |
+| **B. Reducción causal identificable** | Sustituir grupos definidos por un estado dinámico menor, con entradas/salidas y memoria temporal explícitas. | Preserva efectos de intervenciones internas retenidas, no sólo trayectorias de entrenamiento ni mando medio. | Perturbaciones de neuronas, conexiones y entradas retenidas; comparar predicciones neuronales y corporales, incertidumbre y coste contra el modelo completo y una reducción trivial del mismo tamaño. |
+| **C. Organización adaptativa local** | Unidades y conexiones efectivas se reorganizan por señales disponibles durante la vida, para adquirir y reutilizar relaciones. | Aprende una estructura nueva, conserva capacidades anteriores y la aplica a argumentos/tareas no vistos sin entrenador o planificador operativo externo. | Historia relevante frente a historia de control de igual coste, ablación específica, cambio de mundo y evaluación conjunta por vida/semilla; comparador competente de memoria/adaptación. |
+
+Ninguna ruta se adopta por plausibilidad o velocidad aislada. La capacitancia, los tiempos de membrana y la inhibición pueden almacenar historia o fijar estabilidad; llamarlos «burocracia» no demuestra que se puedan eliminar. Para B y C se exige equivalencia **del alcance intervenido** y utilidad computacional; no identidad molecular ni extrapolación automática a todos los cerebros. Para A se exige fidelidad y rendimiento del organismo completo con futura carga visual, no sólo un sector PN/KC o un benchmark sintético.
+
+## Decisión inmediata: etapa 4 antes de etapa 5
+
+La [campaña26](campanas/etapa4_mirrored_source_20260924_26/CLOSE_01.json) consumió su presupuesto y no se reabre. Sus dos brazos nativos pasaron el discriminador lateral; la referencia `plus` registró 391 ms y terminó por el límite de 2050 s. En los últimos 100 ms observados, cada paso tardó en promedio 4,43655 s; extrapolar los 9 ms faltantes da aproximadamente 39,93 s más de cálculo. El corredor reserva otros 40 s para guardar evidencia. De ahí resulta un límite estimado de 2091,91 s **sólo para esa traza**, sin garantizar la siguiente corrida ni incluir variación de carga. La [reconstrucción de sólo lectura](investigacion/roadmap_causal_20260924_01/TIMING_RECEIPT_01.json) usa el `PROGRESS.jsonl` crudo, comprueba pasos y relojes, y produjo la misma salida con Python normal y `-O`; no cambia el contrato anterior. La ruta **A** se ejecutó en la [campaña27](campanas/etapa4_reference_budget_20260924_27/README.md), con un presupuesto nuevo de2300s por brazo: ambos completaron400ms y pasaron paridad. B/C quedaron sin ejecutar. Esto confirma sólo el subresultado numérico fuente→mando.
+
+Tres salidas distintas para el bloqueo numérico:
+
+| Ruta | Discriminador barato previo | Falsador / límite |
+| --- | --- | --- |
+| **A. Nueva referencia completa con presupuesto prospectivo** | Registrar antes de ejecutarla un límite por brazo suficiente según la distribución real de pasos y repetir ambos lados sin cambiar ecuaciones, fuente, preparación ni tolerancias; verificar de nuevo desde trazas crudas. | Si excede el nuevo límite, diverge del nativo o cambia la preparación, no confirma el contraste. Es la primera elección por ser el cambio operativo mínimo. |
+| **B. Continuación fría exacta del gaussiano** | Demostrar primero restauración bit a bit del estado total y reproducción de un paso ya registrado, incluida frontera espacial, sensores pendientes, operador y cuerpo. | El restaurador histórico sólo conoce una frontera lateral anterior; el checkpoint gaussiano dice `COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED`. No empalmar los 9 ms sin esta prueba. |
+| **C. Referencia numérica independiente** | Ensayar un integrador independiente sobre segmentos y eventos reales con tolerancias congeladas y medir error/coste antes de un organismo completo. | Si exige alterar eventos, ecuaciones o tolerancias para pasar, no es referencia equivalente. Su coste de desarrollo es mayor. |
+
+Superar A, B o C sólo cerraría la **paridad numérica del efecto fuente→mando**. La [serie cruda por milisegundo](campanas/etapa4_mirrored_source_20260924_26/SCALAR_SERIES_01.csv) muestra además que en los últimos 100 ms el mando integrado del brazo con fuente izquierda fue −0,002624°, pese a haber sido positivo antes; el de fuente derecha fue −0,023234°. En las trazas completas, el mando de avance es exactamente 0,2 mm/s en ambos brazos; el cuerpo avanzó en torno a 0,075 mm y la diferencia de acercamiento entre condiciones fue 0,000649 mm ([recibo espacial](campanas/etapa4_mirrored_source_20260924_26/TRAJECTORY_DESCRIPTIVE_01.json)). Hay modulación diferencial, no un rumbo positivo sostenido ni una aproximación atribuida al feedback. La etapa 4 requiere después una campaña nueva de feedback online frente a entrada reproducida o perturbación equivalente, con distancia/rumbo, controles y horizonte prospectivos. La etapa 5 requiere además corrección ante perturbación nueva durante segundos; el mando angular actual está limitado a ±5°/s, por lo que 5° de corrección comandada no caben en 400 ms. [Tres diseños rivales](campanas/etapa4_next_20260924_25/STAGE5_ABC_DRAFT.md).
+
+## Comunicación y transferencia
+
+Una animación construida con `qpos`, contactos y pocas señales ORN/PN/DN guardadas debe rotular qué se midió y qué se interpoló. No representa actividad cerebral completa ni valida la marcha natural. [Revisión de alcance visual y anterioridad](campanas/etapa4_next_20260924_25/GEMINI_ETAPA5_REVISION_01.md).
+
+Para una futura transferencia a otro cuerpo, el núcleo deberá exponer estados, eventos, entradas sensoriales e intervenciones mediante interfaces generales; el adaptador corporal declarará sus propios sensores, unidades, retardos y efectores. La prueba tendrá que comparar el mismo núcleo con un controlador competente y atribuir cualquier ventaja al estado aprendido, no a un adaptador que codifique la ruta correcta. La meta aproximada de 1 s simulado/60 s reales sigue abierta; el [perfil real](motor_nuevo/epoch_cost_20260923/README.md) ubica 67,2 % de una ventana medida dentro de la llamada C++ del grafo, sin separar trabajo GPU de esperas. No extrapolar rendimiento de una versión reducida a un cerebro completo con visión antes de medirlo.
