@@ -1,0 +1,15 @@
+# Decisión prospectiva de continuación — 24-09-2026
+
+Encargo actual: contrastar la propuesta de Gemini con ChatGPT, un especialista y los archivos reales. No se interpreta el texto citado como orden de congelar C++ ni lanzar una corrida de horas.
+
+Exposición: las campañas 26/27 y sus cierres ya están expuestos. Esta revisión no cambia sus contratos. Se conocen antes del análisis signos finales opuestos, diferencia entre brazos de 0,05732052°, avance común y límite de mando ±5°/s. El especialista comunicó un posible aumento del error de rumbo; se recomputará independientemente y se etiquetará descriptivo, no confirmatorio.
+
+Tres rutas propias de Codex, formuladas antes de recibir la respuesta nueva de ChatGPT:
+
+* **A — experimento largo ahora con el motor operativo.** Donante intacto y pareja online/replay perturbada, conservando actuador, cuerpo, historia y exposición; permite observar dinámica tardía. Falsador: no hay ventaja online material sobre replay. Coste: al menos tres trayectorias nuevas del horizonte elegido, más comprobación numérica apropiada; no confundir tiempo de un brazo con el de la campaña. Riesgo: duración/magnitud sin sensibilidad demostrada.
+* **B — diagnóstico causal corto y dirigido antes del ensayo largo.** Calibrar fuera del CNS la magnitud de intervención y luego una pareja desde una historia común, con una desviación pequeña o un cambio de fuente declarado. Falsador: no separa entrada consumida, mando y reducción de error por encima del error numérico; en tal caso no escalar por mera duración. Es exploratorio, no cierre de etapa 4/5. No exige motor universal terminado.
+* **C — acelerar primero la trayectoria completa.** Conservar motor operativo como referencia y concentrar la nueva arquitectura en el coste recurrente medido, manteniendo MRI, QSS y Krylov como rivales, con coordinación nativa transversal. Falsador: la candidata no conserva observables/estabilidad o no reduce tiempo integral; no promover un microbenchmark. Permite controles de segundos a coste práctico, pero por sí sola no resuelve navegación.
+
+Presupuesto de esta revisión: cero pasos de organismo/GPU, cero prototipos completos nuevos, como máximo dos ejecuciones de análisis CPU de 60 s cada una y 512 MiB, salida nueva <10 MiB, una consulta nueva a ChatGPT y un especialista sin subdelegación (~10 min). Puede usarse Python para leer NPZ y calcular métricas; no está en el bucle neuronal. No se consulta Jev en este encargo específico. No se modifican fuentes históricas, motor operativo, ganancias, tolerancias ni cuerpos. Las alternativas físicas del borrador A/B/C de etapa 5 siguen separadas de estas estrategias de trabajo.
+
+Análisis: reconstruir signos/rumbo/distancia/mando desde NPZ, coste por paso desde PROGRESS, proyección explícitamente no medida a 2/3 s, y límite del mando después de una perturbación a 1,5 s. Un cálculo geométrico de rotaciones de antenas sólo evalúa cambios hipotéticos de entrada, no simula recuperación física ni respuesta neuronal. La revisión termina con una recomendación concreta y sus condiciones, sin declarar etapas superadas ni perfección del motor.

@@ -1,0 +1,112 @@
+{
+  "format_version": 2,
+  "label": "stage45-feedback-decision-20260924",
+  "description": "Contraste de Gemini, ChatGPT y un especialista. Código geométrico externo ejecutado sobre JSON originales; trayectorias y costes expuestos recomputados localmente. Sin organismo nuevo ni admisión de etapas4/5. La cápsula reproduce sólo la criba geométrica externa.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8171,
+      "sha256": "3e2a8cda583c08056c700da18919ae1afeaa522b7fcd7c14f9ba0ec11323107a"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 1726,
+      "sha256": "8517a38ca4811eb733a99b0a472abc701bd8ed7ecbdfe1c0b7514b699225005a"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 3193,
+      "sha256": "127eb998d29d7b369417aaa77e2b65cd48f93a633f2776b3759f029ffe93b919"
+    },
+    {
+      "path": "NEXT_PILOT_DRAFT.md",
+      "bytes": 4671,
+      "sha256": "1086b546acf2a2f30f14353854e2314da574b69e2b17f8fad5034ff3ba234eec"
+    },
+    {
+      "path": "SUBAGENT_REVIEW.md",
+      "bytes": 2433,
+      "sha256": "17522bdb764b54ad70b5b79b51fb136801a7c7361d5beb58f077bae08310f55c"
+    },
+    {
+      "path": "CHATGPT_REQUEST.md",
+      "bytes": 3146,
+      "sha256": "ebb0492e7f171721a2f717f715ebc0574dbcabf5b4a3379d85411d373e7f0f2a"
+    },
+    {
+      "path": "CHATGPT_DELIVERY.json",
+      "bytes": 467,
+      "sha256": "01481418879f033a575216fd3c83405b179ea74b0a46a15f4b076bb361544a9a"
+    },
+    {
+      "path": "CHATGPT_RESPONSE.md",
+      "bytes": 12906,
+      "sha256": "89907d5c450f29470a4271bd37b7f201304d3e34be344711719d3d301a8bf05d"
+    },
+    {
+      "path": "criba_feedback_chatgpt_original.py",
+      "bytes": 4553,
+      "sha256": "c180580a44dfe529632896be3173ce08a7675149e315fd2825c79ffc5623c667"
+    },
+    {
+      "path": "EXTERNAL_CODE_PLAN.md",
+      "bytes": 1066,
+      "sha256": "c906ffc1ba9028ac71e3c1b1324a998737c0fae0e6e20cab8f6cec408931ef7b"
+    },
+    {
+      "path": "EXTERNAL_CODE_LOCK.json",
+      "bytes": 1308,
+      "sha256": "b851a9c16f1ae2c1aa85fcbd200653778fcb0d80658881e38e78ebf4dd00e217"
+    },
+    {
+      "path": "EXTERNAL_CODE_RESULT.json",
+      "bytes": 6923,
+      "sha256": "0b661062166eb2c22b58b2530579cff59d86ed560927cc581344451f61268666"
+    },
+    {
+      "path": "verify_chatgpt_code.py",
+      "bytes": 3422,
+      "sha256": "8f0253813bee22e8d6a09a655d5bde307746f903a85596d3e3ca64e6a0fb2b82"
+    },
+    {
+      "path": "analyze_existing.py",
+      "bytes": 6673,
+      "sha256": "9d48dd2dc32fd17cc2f07c791acf8f1d43f7e5e304f6ef01480a26a63c6918a1"
+    },
+    {
+      "path": "refine_timing_and_geometry.py",
+      "bytes": 4207,
+      "sha256": "e12d7f87c687bfb8e2e6b238b74b9d285872fe58e6eeb2b23a134c24e4b56670"
+    },
+    {
+      "path": "RAW_FEASIBILITY_01.json",
+      "bytes": 15160,
+      "sha256": "8763ff0e060a60d1c4d9b5f3c6284adc114d39e4a6cdbfe4a87bcbf8f32909f7"
+    },
+    {
+      "path": "RAW_FEASIBILITY_02.json",
+      "bytes": 17804,
+      "sha256": "65046b10679ff256ea4190536d389b6d1d1d1bc6c9b3132d1a6e8b8d40217295"
+    },
+    {
+      "path": "files/runs/plus/executed_sources/16__etapa4_diseno_20260923_17__GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "files/recovery/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "files/recovery/CLOSE_01.json",
+      "bytes": 3250,
+      "sha256": "5997074999999fdba304028769790462be021209b14872f49ff6542749ff7bcd"
+    },
+    {
+      "path": "files/prior/CLOSE_01.json",
+      "bytes": 3902,
+      "sha256": "2e1ced26af1eac5e119e86ff7819a80c946b86a4b739cc94d2a2fb2d437d233e"
+    }
+  ]
+}

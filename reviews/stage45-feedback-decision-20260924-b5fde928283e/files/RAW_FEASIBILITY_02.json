@@ -1,0 +1,462 @@
+{
+  "schema": "stage45_exposed_feasibility_v2",
+  "organism_runs": 0,
+  "scope": "Descriptive exposed traces, timing extrapolations and rigid geometry only; no causal admission.",
+  "runs": {
+    "native_plus": {
+      "yaw_last_deg": 0.044914178574828156,
+      "integrated_command_deg": 0.048194311000613346,
+      "last100_integrated_command_deg": -0.0026236514570119147,
+      "max_command_abs_deg_s": 0.28245434033044964,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ],
+      "distance_start_mm": 1.1298624295132904,
+      "distance_end_mm": 1.0545635309536912,
+      "distance_reduction_mm": 0.07529889855959926,
+      "heading_error_start_deg": 17.348854013177647,
+      "heading_error_end_deg": 18.55769240644937,
+      "absolute_heading_error_change_deg": 1.2088383932717244,
+      "hypothetical_rigid_antenna_rotation": [
+        {
+          "rigid_yaw_away_deg": -0.25,
+          "concentration_before": [
+            0.8015093427358772,
+            0.41614892427035566
+          ],
+          "concentration_hypothetical": [
+            0.794859994735915,
+            0.40929973639300865
+          ],
+          "change_L_minus_R": 0.0001998398773848109
+        },
+        {
+          "rigid_yaw_away_deg": -1,
+          "concentration_before": [
+            0.8015093427358772,
+            0.41614892427035566
+          ],
+          "concentration_hypothetical": [
+            0.7744875020394116,
+            0.3890721553555836
+          ],
+          "change_L_minus_R": 5.492821830654915e-05
+        },
+        {
+          "rigid_yaw_away_deg": -5,
+          "concentration_before": [
+            0.8015093427358772,
+            0.41614892427035566
+          ],
+          "concentration_hypothetical": [
+            0.6580394200829518,
+            0.2903476970953203
+          ],
+          "change_L_minus_R": -0.017668695477890017
+        },
+        {
+          "rigid_yaw_away_deg": -30,
+          "concentration_before": [
+            0.8015093427358772,
+            0.41614892427035566
+          ],
+          "concentration_hypothetical": [
+            0.09934964671479761,
+            0.021816515657902835
+          ],
+          "change_L_minus_R": -0.30782728740862675
+        },
+        {
+          "rigid_yaw_away_deg": -45,
+          "concentration_before": [
+            0.8015093427358772,
+            0.41614892427035566
+          ],
+          "concentration_hypothetical": [
+            0.017319426505104284,
+            0.0028484552743216515
+          ],
+          "change_L_minus_R": -0.3708894472347389
+        }
+      ],
+      "timing": {
+        "observed_trial_wall_s": 1327.2420088109993,
+        "mean_step_s_per_sim_ms": 3.318105022027498,
+        "observed_other_wall_s": 239.7956271109997,
+        "observed_total_wall_s": 1567.037635921999,
+        "projection_not_measurement": {
+          "2": {
+            "one_arm_h": 1.9420383077950985,
+            "three_arms_h": 5.826114923385295
+          },
+          "3": {
+            "one_arm_h": 2.883757105041688,
+            "three_arms_h": 8.651271315125063
+          }
+        },
+        "elapsed_progress_rate_s_per_sim_ms": 3.390187670087722,
+        "inferred_nontrial_wall_s": 210.9625678869104,
+        "projection_method": "(elapsed step400 - elapsed step1)/399; other cost inferred from observed total400ms; not a long-run benchmark"
+      },
+      "inputs": {
+        "campanas/etapa4_mirrored_source_20260924_26/native_plus_01/traces.npz": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+        "campanas/etapa4_mirrored_source_20260924_26/native_plus_01/RESULT.json": "25bd719f921b143700fe66c2a045d2d80398cda76fe24edb585f0eae7351b2eb",
+        "campanas/etapa4_mirrored_source_20260924_26/native_plus_01/GAUSSIAN_SPEC.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+        "campanas/etapa4_mirrored_source_20260924_26/native_plus_01/PROGRESS.jsonl": "49c5881c1ea8dd05f7531da96d888adb62558c213006e9a1721b4799bb2ffebd"
+      },
+      "nominal_initial_bearing_rate_due_forward_deg_s": 3.024255425955155,
+      "mean_observed_heading_rate_deg_s": 0.11228544643709644,
+      "mean_observed_source_bearing_rate_deg_s": 3.134381429616403
+    },
+    "native_minus": {
+      "yaw_last_deg": -0.012406337855054517,
+      "integrated_command_deg": -0.009552456029011717,
+      "last100_integrated_command_deg": -0.023233961387312332,
+      "max_command_abs_deg_s": 0.42551129872308824,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ],
+      "distance_start_mm": 1.1312492593472234,
+      "distance_end_mm": 1.0565997970858856,
+      "distance_reduction_mm": 0.07464946226133784,
+      "heading_error_start_deg": -18.376847273299628,
+      "heading_error_end_deg": -19.722892277573944,
+      "absolute_heading_error_change_deg": 1.346045004274315,
+      "hypothetical_rigid_antenna_rotation": [
+        {
+          "rigid_yaw_away_deg": 0.25,
+          "concentration_before": [
+            0.41218010446697073,
+            0.7976563306854612
+          ],
+          "concentration_hypothetical": [
+            0.40536055038967345,
+            0.7909678539790376
+          ],
+          "change_L_minus_R": -0.00013107737087370008
+        },
+        {
+          "rigid_yaw_away_deg": 1,
+          "concentration_before": [
+            0.41218010446697073,
+            0.7976563306854612
+          ],
+          "concentration_hypothetical": [
+            0.385225713130233,
+            0.7704858459496279
+          ],
+          "change_L_minus_R": 0.0002160933990955627
+        },
+        {
+          "rigid_yaw_away_deg": 5,
+          "concentration_before": [
+            0.41218010446697073,
+            0.7976563306854612
+          ],
+          "concentration_hypothetical": [
+            0.2870690365342771,
+            0.6536609576588531
+          ],
+          "change_L_minus_R": 0.018884305093914422
+        },
+        {
+          "rigid_yaw_away_deg": 30,
+          "concentration_before": [
+            0.41218010446697073,
+            0.7976563306854612
+          ],
+          "concentration_hypothetical": [
+            0.021379619201434875,
+            0.09763630969053172
+          ],
+          "change_L_minus_R": 0.3092195357293936
+        },
+        {
+          "rigid_yaw_away_deg": 45,
+          "concentration_before": [
+            0.41218010446697073,
+            0.7976563306854612
+          ],
+          "concentration_hypothetical": [
+            0.0027779219165403775,
+            0.01690230921096762
+          ],
+          "change_L_minus_R": 0.3713518389240632
+        }
+      ],
+      "timing": {
+        "observed_trial_wall_s": 1322.3313549720024,
+        "mean_step_s_per_sim_ms": 3.305828387430006,
+        "observed_other_wall_s": 238.92341345699788,
+        "observed_total_wall_s": 1561.2547684290003,
+        "projection_not_measurement": {
+          "2": {
+            "one_arm_h": 1.9343633771005095,
+            "three_arms_h": 5.803090131301528
+          },
+          "3": {
+            "one_arm_h": 2.8722893127138485,
+            "three_arms_h": 8.616867938141546
+          }
+        },
+        "elapsed_progress_rate_s_per_sim_ms": 3.3765333682080207,
+        "inferred_nontrial_wall_s": 210.64142114579204,
+        "projection_method": "(elapsed step400 - elapsed step1)/399; other cost inferred from observed total400ms; not a long-run benchmark"
+      },
+      "inputs": {
+        "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/traces.npz": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+        "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/RESULT.json": "0d1b80e1867651a6edf8a248f0e9af74c3cbe919a57eab935f7bd0dcd47b62d6",
+        "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/GAUSSIAN_SPEC.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+        "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/PROGRESS.jsonl": "87cb1575e46f714c6b5b0f015a5c9ad36bac44b649c7dfdca3a46789adaf0535"
+      },
+      "nominal_initial_bearing_rate_due_forward_deg_s": -3.193529088701798,
+      "mean_observed_heading_rate_deg_s": -0.0310158446376341,
+      "mean_observed_source_bearing_rate_deg_s": -3.3961283553234245
+    },
+    "reference_plus": {
+      "yaw_last_deg": 0.04491433557106461,
+      "integrated_command_deg": 0.04819446742977209,
+      "last100_integrated_command_deg": -0.0026238304846326306,
+      "max_command_abs_deg_s": 0.28245463499826334,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ],
+      "distance_start_mm": 1.1298624295122894,
+      "distance_end_mm": 1.0545635306421235,
+      "distance_reduction_mm": 0.07529889887016594,
+      "heading_error_start_deg": 17.348854012467054,
+      "heading_error_end_deg": 18.557692187031446,
+      "absolute_heading_error_change_deg": 1.20883817456439,
+      "hypothetical_rigid_antenna_rotation": [
+        {
+          "rigid_yaw_away_deg": -0.25,
+          "concentration_before": [
+            0.8015093487101104,
+            0.41614893047356843
+          ],
+          "concentration_hypothetical": [
+            0.7948600007757675,
+            0.4092997425499519
+          ],
+          "change_L_minus_R": 0.00019983998927364244
+        },
+        {
+          "rigid_yaw_away_deg": -1,
+          "concentration_before": [
+            0.8015093487101104,
+            0.41614893047356843
+          ],
+          "concentration_hypothetical": [
+            0.7744875082607103,
+            0.38907216136690065
+          ],
+          "change_L_minus_R": 5.492865726774987e-05
+        },
+        {
+          "rigid_yaw_away_deg": -5,
+          "concentration_before": [
+            0.8015093487101104,
+            0.41614893047356843
+          ],
+          "concentration_hypothetical": [
+            0.6580394268812593,
+            0.29034770220156086
+          ],
+          "change_L_minus_R": -0.01766869355684353
+        },
+        {
+          "rigid_yaw_away_deg": -30,
+          "concentration_before": [
+            0.8015093487101104,
+            0.41614893047356843
+          ],
+          "concentration_hypothetical": [
+            0.09934964904272524,
+            0.02181651628879362
+          ],
+          "change_L_minus_R": -0.3078272854826103
+        },
+        {
+          "rigid_yaw_away_deg": -45,
+          "concentration_before": [
+            0.8015093487101104,
+            0.41614893047356843
+          ],
+          "concentration_hypothetical": [
+            0.017319427017095285,
+            0.00284845536963883
+          ],
+          "change_L_minus_R": -0.37088944658908546
+        }
+      ],
+      "timing": {
+        "observed_trial_wall_s": 1767.7948215569559,
+        "mean_step_s_per_sim_ms": 4.419487053892389,
+        "observed_other_wall_s": 281.4169195390423,
+        "observed_total_wall_s": 2049.211741095998,
+        "projection_not_measurement": {
+          "2": {
+            "one_arm_h": 2.5646099102743687,
+            "three_arms_h": 7.693829730823105
+          },
+          "3": {
+            "one_arm_h": 3.8117251769222382,
+            "three_arms_h": 11.435175530766715
+          }
+        },
+        "elapsed_progress_rate_s_per_sim_ms": 4.48961495993233,
+        "inferred_nontrial_wall_s": 253.36575712306626,
+        "projection_method": "(elapsed step400 - elapsed step1)/399; other cost inferred from observed total400ms; not a long-run benchmark"
+      },
+      "inputs": {
+        "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/traces.npz": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+        "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/RESULT.json": "ac844ae37c9a46280d4aaa41e9390dc686c082786376819a8d41c0758824fc01",
+        "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/GAUSSIAN_SPEC.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+        "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/PROGRESS.jsonl": "eead285eb437fe8f63a9c1df9211f710b29d02f3e43f6378e315ea96021cf3c5"
+      },
+      "nominal_initial_bearing_rate_due_forward_deg_s": 3.024255425837773,
+      "mean_observed_heading_rate_deg_s": 0.1122858389276742,
+      "mean_observed_source_bearing_rate_deg_s": 3.1343812753386526
+    },
+    "reference_minus": {
+      "yaw_last_deg": -0.012406179899755898,
+      "integrated_command_deg": -0.00955229842802596,
+      "last100_integrated_command_deg": -0.023234125926164327,
+      "max_command_abs_deg_s": 0.42551294656336075,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ],
+      "distance_start_mm": 1.131249259348469,
+      "distance_end_mm": 1.056599797548137,
+      "distance_reduction_mm": 0.07464946180033216,
+      "heading_error_start_deg": -18.376847274006014,
+      "heading_error_end_deg": -19.722892495002235,
+      "absolute_heading_error_change_deg": 1.3460452209962201,
+      "hypothetical_rigid_antenna_rotation": [
+        {
+          "rigid_yaw_away_deg": 0.25,
+          "concentration_before": [
+            0.4121800982595725,
+            0.7976563246420475
+          ],
+          "concentration_hypothetical": [
+            0.4053605442291724,
+            0.7909678478715114
+          ],
+          "change_L_minus_R": -0.00013107725986405416
+        },
+        {
+          "rigid_yaw_away_deg": 1,
+          "concentration_before": [
+            0.4121800982595725,
+            0.7976563246420475
+          ],
+          "concentration_hypothetical": [
+            0.38522570711712845,
+            0.7704858396651406
+          ],
+          "change_L_minus_R": 0.00021609383446280495
+        },
+        {
+          "rigid_yaw_away_deg": 5,
+          "concentration_before": [
+            0.4121800982595725,
+            0.7976563246420475
+          ],
+          "concentration_hypothetical": [
+            0.28706903143305756,
+            0.6536609508198982
+          ],
+          "change_L_minus_R": 0.01888430699563437
+        },
+        {
+          "rigid_yaw_away_deg": 30,
+          "concentration_before": [
+            0.4121800982595725,
+            0.7976563246420475
+          ],
+          "concentration_hypothetical": [
+            0.021379618573433345,
+            0.09763630737271034
+          ],
+          "change_L_minus_R": 0.309219537583198
+        },
+        {
+          "rigid_yaw_away_deg": 45,
+          "concentration_before": [
+            0.4121800982595725,
+            0.7976563246420475
+          ],
+          "concentration_hypothetical": [
+            0.002777921821631898,
+            0.016902308702702984
+          ],
+          "change_L_minus_R": 0.3713518395014039
+        }
+      ],
+      "timing": {
+        "observed_trial_wall_s": 1803.661834189039,
+        "mean_step_s_per_sim_ms": 4.509154585472597,
+        "observed_other_wall_s": 280.5694553589601,
+        "observed_total_wall_s": 2084.231289547999,
+        "projection_not_measurement": {
+          "2": {
+            "one_arm_h": 2.614151718214459,
+            "three_arms_h": 7.842455154643378
+          },
+          "3": {
+            "one_arm_h": 3.8861508321075235,
+            "three_arms_h": 11.658452496322571
+          }
+        },
+        "elapsed_progress_rate_s_per_sim_ms": 4.579196810015033,
+        "inferred_nontrial_wall_s": 252.5525655419858,
+        "projection_method": "(elapsed step400 - elapsed step1)/399; other cost inferred from observed total400ms; not a long-run benchmark"
+      },
+      "inputs": {
+        "campanas/etapa4_reference_budget_20260924_27/reference_minus_01/traces.npz": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+        "campanas/etapa4_reference_budget_20260924_27/reference_minus_01/RESULT.json": "d0f6bca6d25489d1c96612b3f0ba7dbb32701347036e2c0c53464db48dfa84b7",
+        "campanas/etapa4_reference_budget_20260924_27/reference_minus_01/GAUSSIAN_SPEC.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+        "campanas/etapa4_reference_budget_20260924_27/reference_minus_01/PROGRESS.jsonl": "ed22be81868491723dfc982a655cdf15003ea0879e96f38486605c1e7fcd9c2a"
+      },
+      "nominal_initial_bearing_rate_due_forward_deg_s": -3.1935290888167986,
+      "mean_observed_heading_rate_deg_s": -0.031015449749395192,
+      "mean_observed_source_bearing_rate_deg_s": -3.3961285022399466
+    }
+  },
+  "command_envelope_not_passive_body_bound": {
+    "cap_deg_s": 5,
+    "time_min_at_cap_for_30deg_s": 6,
+    "time_min_at_cap_for_45deg_s": 9,
+    "kick_at_s": 1.5,
+    "max_remaining_integral_2s_deg": 2.5,
+    "max_remaining_integral_3s_deg": 7.5
+  },
+  "source_sha256": "9d48dd2dc32fd17cc2f07c791acf8f1d43f7e5e304f6ef01480a26a63c6918a1",
+  "plan_sha256": "127eb998d29d7b369417aaa77e2b65cd48f93a633f2776b3759f029ffe93b919",
+  "cpu_wall_s": 0.03389233000052627,
+  "native_pair": {
+    "yaw_plus_minus_deg": 0.05732051642988267,
+    "distance_reduction_plus_minus_mm": 0.0006494362982614188
+  },
+  "reference_pair": {
+    "yaw_plus_minus_deg": 0.05732051547082051,
+    "distance_reduction_plus_minus_mm": 0.0006494370698337804
+  },
+  "supersedes_only_timing_extrapolation_of": {
+    "file": "RAW_FEASIBILITY_01.json",
+    "sha256": "8763ff0e060a60d1c4d9b5f3c6284adc114d39e4a6cdbfe4a87bcbf8f32909f7"
+  },
+  "second_analysis_source_sha256": "e12d7f87c687bfb8e2e6b238b74b9d285872fe58e6eeb2b23a134c24e4b56670",
+  "second_analysis_wall_s": 0.021921412997471634,
+  "interpretation_limits": [
+    "Heading error and kinematic rates are exposed descriptive metrics, not preregistered admission.",
+    "A longer run may change neural commands; these rates are not long-term predictions.",
+    "Rigid antenna rotations are hypothetical inputs, not physically reachable states or feedback responses.",
+    "Timing scales measured progress; long-run stiffness, I/O and stability remain unmeasured."
+  ]
+}

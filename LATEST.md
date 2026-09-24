@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-gemini-check-20260924](reviews/motor-gemini-check-20260924-a79df6f06d68/README.md)
+[stage45-feedback-decision-20260924](reviews/stage45-feedback-decision-20260924-b5fde928283e/README.md)
 
-Revisión crítica de FP32, event_sparse, límites de Amdahl y campaña27; fuentes y recibos para examen externo. Sin ensayo de cinco segundos ni admisión de etapa5.
+Contraste de Gemini, ChatGPT y un especialista. Código geométrico externo ejecutado sobre JSON originales; trayectorias y costes expuestos recomputados localmente. Sin organismo nuevo ni admisión de etapas4/5. La cápsula reproduce sólo la criba geométrica externa.

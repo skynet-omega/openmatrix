@@ -1,0 +1,139 @@
+{
+  "status": "CPU_GEOMETRY_RECOMPUTED_NO_ORGANISM",
+  "response_message_id": "306c27aa-6e90-43c6-ae95-57f1963ed299",
+  "original_code_unmodified": true,
+  "source_lock_sha256": "b851a9c16f1ae2c1aa85fcbd200653778fcb0d80658881e38e78ebf4dd00e217",
+  "gemini_case": {
+    "inputs_sha256": {
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/runs/plus/executed_sources/16__etapa4_diseno_20260923_17__GEOMETRY.json": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/recovery/CAMPOS.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/recovery/CLOSE_01.json": "5997074999999fdba304028769790462be021209b14872f49ff6542749ff7bcd",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/prior/CLOSE_01.json": "2e1ced26af1eac5e119e86ff7819a80c946b86a4b739cc94d2a2fb2d437d233e"
+    },
+    "T_s": 2,
+    "perturbation_s": 1.5,
+    "remaining_s": 0.5,
+    "assumed_decoder_limit_deg_s": 5.0,
+    "maximum_command_integral_after_perturbation_deg": 2.5,
+    "command_time_for_angle_at_ceiling_s": 6.0,
+    "earliest_command_only_compensation_from_on_s": 7.5,
+    "geometry": {
+      "plus": {
+        "bearing_initial_deg": 17.348854013177647,
+        "distance_initial_mm": 1.1298624295132904,
+        "straight_distance_over_v_s": 5.649312147566452,
+        "counterfactual_rotation_deg": -29.999999999999996,
+        "c_initial": [
+          0.7766285475738758,
+          0.3987343914538456
+        ],
+        "c_after_rigid_rotation_at_initial_pose": [
+          0.09118127352477885,
+          0.01818521488581364
+        ],
+        "delta_normalized_LR": 0.3459317392894328
+      },
+      "minus": {
+        "bearing_initial_deg": -18.376847273299628,
+        "distance_initial_mm": 1.1312492593472234,
+        "straight_distance_over_v_s": 5.656246296736117,
+        "counterfactual_rotation_deg": 29.999999999999996,
+        "c_initial": [
+          0.3987343914538457,
+          0.7766285475738759
+        ],
+        "c_after_rigid_rotation_at_initial_pose": [
+          0.01819335304798827,
+          0.0911159167268609
+        ],
+        "delta_normalized_LR": -0.3456087593832712
+      }
+    },
+    "ideal_equal_speed_position_separation_upper_mm": 0.05176380902050415,
+    "cost_linear_h": {
+      "one_native": 2.172425280799305,
+      "one_reference": 2.8704465490583315,
+      "donor_and_two_native_and_two_reference": 12.25816894051458,
+      "three_native_and_three_reference": 15.12861548957291
+    },
+    "limits": [
+      "Geometría en el preparado, NO en el instante futuro del pulso.",
+      "La integral de mando no acota toda rotación física pasiva.",
+      "Cota XY sólo para dos trayectorias ideales de igual rapidez y diferencia de rumbo <=ángulo.",
+      "Tiempo extrapolado, no corrida larga medida ni presupuesto autorizado.",
+      "No efectos neurales, contactos, navegación o etapa5 simulados."
+    ],
+    "organism_executed": false,
+    "CUDA_executed": false
+  },
+  "chatgpt_case": {
+    "inputs_sha256": {
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/runs/plus/executed_sources/16__etapa4_diseno_20260923_17__GEOMETRY.json": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/recovery/CAMPOS.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/recovery/CLOSE_01.json": "5997074999999fdba304028769790462be021209b14872f49ff6542749ff7bcd",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/prepared/reviews/stage4-reference-recovery-20260924-323cd648010a/files/prior/CLOSE_01.json": "2e1ced26af1eac5e119e86ff7819a80c946b86a4b739cc94d2a2fb2d437d233e"
+    },
+    "T_s": 2,
+    "perturbation_s": 0.5,
+    "remaining_s": 1.5,
+    "assumed_decoder_limit_deg_s": 5.0,
+    "maximum_command_integral_after_perturbation_deg": 7.5,
+    "command_time_for_angle_at_ceiling_s": 0.2,
+    "earliest_command_only_compensation_from_on_s": 0.7,
+    "geometry": {
+      "plus": {
+        "bearing_initial_deg": 17.348854013177647,
+        "distance_initial_mm": 1.1298624295132904,
+        "straight_distance_over_v_s": 5.649312147566452,
+        "counterfactual_rotation_deg": -1.0,
+        "c_initial": [
+          0.7766285475738758,
+          0.3987343914538456
+        ],
+        "c_after_rigid_rotation_at_initial_pose": [
+          0.7512572515022995,
+          0.3720692578238967
+        ],
+        "delta_normalized_LR": 0.0160453905195328
+      },
+      "minus": {
+        "bearing_initial_deg": -18.376847273299628,
+        "distance_initial_mm": 1.1312492593472234,
+        "straight_distance_over_v_s": 5.656246296736117,
+        "counterfactual_rotation_deg": 1.0,
+        "c_initial": [
+          0.3987343914538457,
+          0.7766285475738759
+        ],
+        "c_after_rigid_rotation_at_initial_pose": [
+          0.37208969916984436,
+          0.7512975307492632
+        ],
+        "delta_normalized_LR": -0.01604480405331382
+      }
+    },
+    "ideal_equal_speed_position_separation_upper_mm": 0.005235921299024362,
+    "cost_linear_h": {
+      "one_native": 2.172425280799305,
+      "one_reference": 2.8704465490583315,
+      "donor_and_two_native_and_two_reference": 12.25816894051458,
+      "three_native_and_three_reference": 15.12861548957291
+    },
+    "limits": [
+      "Geometría en el preparado, NO en el instante futuro del pulso.",
+      "La integral de mando no acota toda rotación física pasiva.",
+      "Cota XY sólo para dos trayectorias ideales de igual rapidez y diferencia de rumbo <=ángulo.",
+      "Tiempo extrapolado, no corrida larga medida ni presupuesto autorizado.",
+      "No efectos neurales, contactos, navegación o etapa5 simulados."
+    ],
+    "organism_executed": false,
+    "CUDA_executed": false
+  },
+  "invalid_inputs_rejected": [
+    "Se requiere 0<=pulso<horizonte y 0<ángulo<=180",
+    "Se requiere 0<=pulso<horizonte y 0<ángulo<=180",
+    "Se requiere 0<=pulso<horizonte y 0<ángulo<=180"
+  ],
+  "wall_s": 0.004017008999653626,
+  "limitation": "Geometry at initial pose, not pulse time; cost includes scaled preparation; no CNS/MuJoCo response."
+}

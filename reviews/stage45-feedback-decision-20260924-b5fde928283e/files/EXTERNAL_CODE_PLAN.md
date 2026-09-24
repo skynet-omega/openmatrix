@@ -1,0 +1,5 @@
+# Verificación posterior del código externo
+
+Presupuesto separado registrado después de recibir ChatGPT306c27aa y antes de ejecutar su código: una ejecución CPU de un arnés que llama los dos casos propuestos y tres entradas inválidas, máximo30s y512MiB; cero GPU/organismo. No amplía los dos análisis locales ya completos ni modifica sus resultados. Congelar código recibido y cuatro JSON reales antes de ejecutar. Comparar geometría, cotas y cuentas mediante cálculo elemental; conservar diferencias de método de extrapolación de tiempo.
+
+El código se conserva sin editar y usa sólo biblioteca estándar. ChatGPT declaró ejecución CPU sobre JSON geométricos materializados desde GitHub con hashes coincidentes, tiempos transcritos de recibos y ninguna corrida CUDA/MuJoCo/organismo ni descarga de NPZ. La prueba local usará los cuatro archivos originales del paquete disponible. Su coste lineal multiplica también preparación/cierre; la extrapolación local02 separa costes y se informan ambos métodos, sin llamar a ninguno benchmark largo.
