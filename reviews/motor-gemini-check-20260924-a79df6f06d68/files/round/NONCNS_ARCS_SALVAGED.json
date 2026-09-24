@@ -1,0 +1,433 @@
+{
+  "caveat": "Arcs identify calling functions, not individual call expressions or array sizes. Self/cumulative times may include GPU synchronization and profiler overhead.",
+  "rows": [
+    {
+      "arc_call_sum": 960,
+      "arcs": [
+        {
+          "caller": {
+            "file": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/__init__.py",
+            "function": "asnumpy",
+            "line": 782
+          },
+          "calls": 800,
+          "cumulative_s": 0.087888939,
+          "primitive_calls": 800,
+          "self_s": 0.086388563
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.py",
+            "function": "advance",
+            "line": 51
+          },
+          "calls": 112,
+          "cumulative_s": 0.24923393700000002,
+          "primitive_calls": 112,
+          "self_s": 0.248912608
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_stage.py",
+            "function": "run",
+            "line": 61
+          },
+          "calls": 32,
+          "cumulative_s": 0.045023326,
+          "primitive_calls": 32,
+          "self_s": 0.044958204
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+            "function": "step",
+            "line": 43
+          },
+          "calls": 16,
+          "cumulative_s": 0.005793376,
+          "primitive_calls": 16,
+          "self_s": 0.005617329000000001
+        }
+      ],
+      "callee": {
+        "file": "~",
+        "function": "<method 'get' of 'cupy._core.core._ndarray_base' objects>",
+        "line": 0
+      },
+      "calls": 960,
+      "cumulative_s": 0.387939578,
+      "kind": "cupy.ndarray.get",
+      "primitive_calls": 960,
+      "self_s": 0.385876704
+    },
+    {
+      "arc_call_sum": 204,
+      "arcs": [
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py",
+            "function": "advance_graph_resident",
+            "line": 15
+          },
+          "calls": 112,
+          "cumulative_s": 0.041266159000000004,
+          "primitive_calls": 112,
+          "self_s": 0.041266159000000004
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py",
+            "function": "<listcomp>",
+            "line": 190
+          },
+          "calls": 32,
+          "cumulative_s": 0.021709968,
+          "primitive_calls": 32,
+          "self_s": 0.021709968
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.py",
+            "function": "advance",
+            "line": 51
+          },
+          "calls": 16,
+          "cumulative_s": 1.7439e-05,
+          "primitive_calls": 16,
+          "self_s": 1.7439e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py",
+            "function": "step",
+            "line": 143
+          },
+          "calls": 8,
+          "cumulative_s": 9.04e-06,
+          "primitive_calls": 8,
+          "self_s": 9.04e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py",
+            "function": "step",
+            "line": 81
+          },
+          "calls": 5,
+          "cumulative_s": 4.729e-06,
+          "primitive_calls": 5,
+          "self_s": 4.729e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py",
+            "function": "step",
+            "line": 62
+          },
+          "calls": 4,
+          "cumulative_s": 1.933e-06,
+          "primitive_calls": 4,
+          "self_s": 1.933e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py",
+            "function": "step",
+            "line": 88
+          },
+          "calls": 4,
+          "cumulative_s": 1.627e-06,
+          "primitive_calls": 4,
+          "self_s": 1.627e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py",
+            "function": "step",
+            "line": 62
+          },
+          "calls": 4,
+          "cumulative_s": 6.4000000000000006e-06,
+          "primitive_calls": 4,
+          "self_s": 6.4000000000000006e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py",
+            "function": "step",
+            "line": 60
+          },
+          "calls": 4,
+          "cumulative_s": 1.3150000000000001e-06,
+          "primitive_calls": 4,
+          "self_s": 1.3150000000000001e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py",
+            "function": "step",
+            "line": 67
+          },
+          "calls": 4,
+          "cumulative_s": 3.927e-06,
+          "primitive_calls": 4,
+          "self_s": 3.927e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_field.py",
+            "function": "sample",
+            "line": 36
+          },
+          "calls": 3,
+          "cumulative_s": 1.421e-06,
+          "primitive_calls": 3,
+          "self_s": 1.421e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py",
+            "function": "step",
+            "line": 61
+          },
+          "calls": 3,
+          "cumulative_s": 1.078e-06,
+          "primitive_calls": 3,
+          "self_s": 1.078e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py",
+            "function": "step",
+            "line": 133
+          },
+          "calls": 3,
+          "cumulative_s": 1.071e-06,
+          "primitive_calls": 3,
+          "self_s": 1.071e-06
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py",
+            "function": "<dictcomp>",
+            "line": 188
+          },
+          "calls": 2,
+          "cumulative_s": 3.46e-07,
+          "primitive_calls": 2,
+          "self_s": 3.46e-07
+        }
+      ],
+      "callee": {
+        "file": "~",
+        "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+        "line": 0
+      },
+      "calls": 204,
+      "cumulative_s": 0.06302645300000001,
+      "kind": "numpy.ndarray.tolist",
+      "primitive_calls": 204,
+      "self_s": 0.06302645300000001
+    },
+    {
+      "arc_call_sum": 800,
+      "arcs": [
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py",
+            "function": "host",
+            "line": 59
+          },
+          "calls": 416,
+          "cumulative_s": 0.059064990000000005,
+          "primitive_calls": 416,
+          "self_s": 0.000400874
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py",
+            "function": "advance_graph_resident",
+            "line": 15
+          },
+          "calls": 112,
+          "cumulative_s": 0.007210315,
+          "primitive_calls": 112,
+          "self_s": 0.00011403800000000001
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/axon_gpu.py",
+            "function": "<dictcomp>",
+            "line": 34
+          },
+          "calls": 112,
+          "cumulative_s": 0.005828014,
+          "primitive_calls": 112,
+          "self_s": 7.2069e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/pn_execution.py",
+            "function": "advance",
+            "line": 22
+          },
+          "calls": 48,
+          "cumulative_s": 0.007529536000000001,
+          "primitive_calls": 48,
+          "self_s": 5.2701e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/resident.py",
+            "function": "final_proposal",
+            "line": 64
+          },
+          "calls": 48,
+          "cumulative_s": 0.004501499,
+          "primitive_calls": 48,
+          "self_s": 3.2577e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_stage.py",
+            "function": "graph_stage",
+            "line": 71
+          },
+          "calls": 32,
+          "cumulative_s": 0.001869669,
+          "primitive_calls": 32,
+          "self_s": 4.2701e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/graph_step.py",
+            "function": "<listcomp>",
+            "line": 190
+          },
+          "calls": 32,
+          "cumulative_s": 0.0027253990000000003,
+          "primitive_calls": 32,
+          "self_s": 3.3892e-05
+        }
+      ],
+      "callee": {
+        "file": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/cupy/__init__.py",
+        "function": "asnumpy",
+        "line": 782
+      },
+      "calls": 800,
+      "cumulative_s": 0.088729422,
+      "kind": "asnumpy",
+      "primitive_calls": 800,
+      "self_s": 0.000748852
+    },
+    {
+      "arc_call_sum": 416,
+      "arcs": [
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py",
+            "function": "<dictcomp>",
+            "line": 96
+          },
+          "calls": 344,
+          "cumulative_s": 0.024096856,
+          "primitive_calls": 344,
+          "self_s": 0.000383277
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/axon_gpu.py",
+            "function": "__init__",
+            "line": 21
+          },
+          "calls": 32,
+          "cumulative_s": 0.004106327,
+          "primitive_calls": 32,
+          "self_s": 7.3261e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.py",
+            "function": "advance",
+            "line": 51
+          },
+          "calls": 16,
+          "cumulative_s": 0.0009538760000000001,
+          "primitive_calls": 16,
+          "self_s": 4.761e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py",
+            "function": "advance",
+            "line": 64
+          },
+          "calls": 16,
+          "cumulative_s": 0.001261631,
+          "primitive_calls": 16,
+          "self_s": 7.4116e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py",
+            "function": "advance",
+            "line": 94
+          },
+          "calls": 8,
+          "cumulative_s": 0.029238604,
+          "primitive_calls": 8,
+          "self_s": 1.4040000000000001e-05
+        }
+      ],
+      "callee": {
+        "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_projected_batch.py",
+        "function": "host",
+        "line": 59
+      },
+      "calls": 416,
+      "cumulative_s": 0.05965729400000001,
+      "kind": "host",
+      "primitive_calls": 416,
+      "self_s": 0.000592304
+    },
+    {
+      "arc_call_sum": 40,
+      "arcs": [
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_fine_ionic.py",
+            "function": "state_dict",
+            "line": 129
+          },
+          "calls": 24,
+          "cumulative_s": 0.0029881620000000004,
+          "primitive_calls": 24,
+          "self_s": 2.4408e-05
+        },
+        {
+          "caller": {
+            "file": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/pn_execution.py",
+            "function": "advance",
+            "line": 22
+          },
+          "calls": 16,
+          "cumulative_s": 0.0019467030000000001,
+          "primitive_calls": 16,
+          "self_s": 1.2321000000000001e-05
+        }
+      ],
+      "callee": {
+        "file": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_mass_backend.py",
+        "function": "asnumpy",
+        "line": 16
+      },
+      "calls": 40,
+      "cumulative_s": 0.004934865,
+      "kind": "asnumpy",
+      "primitive_calls": 40,
+      "self_s": 3.6729e-05
+    }
+  ],
+  "schema": "noncns_pstats_caller_arcs_v1"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "fast5s_three_rival_round_v1",
+  "registered_before_new_candidate_work": true,
+  "objective": "Develop a generic heterogeneous CNS runtime toward 5 simulated seconds in 300-600 wall seconds without losing prospective numerical and functional checks",
+  "common_evidence": [
+    "../multirate_real_20260924_01/README.md",
+    "../multirate_real_20260924_01/NEXT_SPLIT_ABC.md",
+    "../round_20260924_fast5s_01/AMDahl_01.json",
+    "../round_20260924_fast5s_01/rhs_subspace_cpu_01/RESULT.json",
+    "../round_20260924_fast5s_01/verify_holdout_cpu_01/RESULT.json",
+    "../round_20260924_fast5s_01/QSS_MATH_REVIEW_01.md"
+  ],
+  "rivals": {
+    "A": "Coupled multirate with exact dated event forcing and full recurrent correction; no global full CSR per event cut",
+    "B": "QSS2/CSC for continuously graded sources with conservative recurrent influence bound and fallback",
+    "C": "Dynamic exponential/Krylov/Jacobian action with event/version invalidation; fixed six-vector basis across the block failed holdout"
+  },
+  "independence": "Three specialists first write separate proposals against the same frozen evidence. They may inspect older work but must state exposure; then root compares and requests cross-falsification. No merging by vote.",
+  "budget": {
+    "specialists_simultaneous_max": 3,
+    "recursive_delegation": false,
+    "first_phase_gpu_or_organism_runs": 0,
+    "cpu_discriminators_after_selection_max": 2,
+    "cpu_discriminator_wall_s_each_max": 120,
+    "cpu_discriminator_peak_ram_gib_each_max": 2,
+    "cpu_discriminator_new_output_mib_each_max": 100,
+    "gpu_candidate_replays_max": 2,
+    "gpu_candidate_simulated_ms_each_max": 1,
+    "gpu_candidate_wall_s_each_max": 120,
+    "gpu_candidate_peak_ram_gib_each_max": 18,
+    "gpu_candidate_peak_vram_gib_each_max": 12,
+    "full_prototypes_max": 2,
+    "model_training_interactions": 0,
+    "new_disk_gib_max": 2,
+    "no_budget_extension_after_failure": true
+  },
+  "decision": {
+    "whole_organism_target_wall_s_for_5_sim_s": 600,
+    "preferred_wall_s": 300,
+    "pilot_gate": "Correct owner/event state and bounded error on a real block plus all setup/rollback/audit in cost. A primitive-only gain never proves whole-organism speed.",
+    "previous_local_work_gate": "The old 10x full-CSR work gate remains historical; passing it alone cannot meet this 5-second operational target because the non-CNS runtime also costs about 1.033 seconds per simulated ms in the short profile.",
+    "stage4_or_5_admission_from_this_round": false
+  }
+}

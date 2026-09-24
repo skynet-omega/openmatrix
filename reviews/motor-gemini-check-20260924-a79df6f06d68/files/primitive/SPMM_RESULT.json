@@ -1,0 +1,90 @@
+{
+  "schema": "native_unified_batched_csr_primitive_result_v1",
+  "status": "PRIMITIVE_SPEED_GATE_FAILED",
+  "organism_loads": 1,
+  "simulated_ms": 0,
+  "kernel_only": true,
+  "scientific_scope": "Eight candidate RHS on real effective CSR; no recurrent, organism or stage speed claim",
+  "source_hashes": {
+    "contract_sha256": "58cc493e5eab8a9cd8b4e954da1e5b35c0feb9106bfafc2dc90507bc298919de",
+    "kernel_sha256": "c948e79d96210a9d8b532260f908070464772b70a7c80813a922f943da95b3e9",
+    "harness_sha256": "129de75ef8533b1cf8d37d905c48dd5cb37fef8c5016f5dbda76099148f8dc2e",
+    "weights_sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+    "indices_sha256": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db",
+    "indptr_i64_sha256": "6e58b593426b23e4a95ccc0fa9ed97f7944e7f532639f004260b9c520b40b9dc",
+    "state_rhs0_sha256": "7d3d18ecdda76c2f99af6354bd5eaa7a420991d985b0828641bea9cab7af7687",
+    "eight_rhs_sha256": "e0446dc387bf6530c685dfabb64e0bc55faab3011d2d0665db4397d5877831a4"
+  },
+  "degree_stats": {
+    "min": 0,
+    "p50": 98.0,
+    "p90": 318.0,
+    "p99": 858.0,
+    "p99_9": 2219.3010000000068,
+    "max": 11526
+  },
+  "rhs_generation": "RHS0 real transmission state; RHS1..7 fixed seed 20260924 normal perturbations, amplitude index*1e-4; illustrative only",
+  "neuron_count": 166700,
+  "edge_count": 25582938,
+  "rhs_count": 8,
+  "bitwise_equal_per_rhs": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "different_values_per_rhs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "nonfinite_reference": 0,
+  "nonfinite_batched": 0,
+  "reference_output_sha256": "fe5c78b0e6b7536655b0f0a30e8ec71224187fd3d5c2e50fc8a0ebad736e56f6",
+  "batched_output_sha256": "fe5c78b0e6b7536655b0f0a30e8ec71224187fd3d5c2e50fc8a0ebad736e56f6",
+  "kernel_ms_samples": {
+    "eight_scalar_ms": [
+      7.259007930755615,
+      4.345791816711426,
+      4.388864040374756,
+      4.341760158538818,
+      4.345856189727783,
+      4.3427839279174805,
+      4.344831943511963,
+      4.340735912322998,
+      4.348927974700928,
+      4.349952220916748,
+      4.569087982177734,
+      4.349952220916748
+    ],
+    "one_batched_ms": [
+      3.8799359798431396,
+      3.8840320110321045,
+      3.881983995437622,
+      3.8840320110321045,
+      3.8799359798431396,
+      3.880959987640381,
+      3.8891520500183105,
+      3.8830080032348633,
+      3.880959987640381,
+      3.8840320110321045,
+      4.163584232330322,
+      3.8881280422210693
+    ]
+  },
+  "kernel_ms_median": {
+    "eight_scalar_ms": 4.3473920822143555,
+    "one_batched_ms": 3.883520007133484
+  },
+  "speedup_scalar8_over_batched": 1.1194462946576311,
+  "wall_seconds": 12.815931252000155
+}

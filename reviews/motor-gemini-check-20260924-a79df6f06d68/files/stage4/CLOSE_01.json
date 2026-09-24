@@ -1,0 +1,71 @@
+{
+  "schema": "stage4_reference_recovery_postclose_v1",
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "scope": "Mirrored finite-source-to-command numerical parity only",
+  "stage4_status": "ABIERTO",
+  "stage5_status": "ABIERTO",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "campaign26_classification_unchanged": "BLOQUEADO",
+  "native_pair": {
+    "late_signed_LR_plus": 0.38542020181370823,
+    "late_signed_LR_minus": -0.3855624442781802,
+    "late_field_pair_mean_abs": 0.38549132304594413,
+    "command_L1_deg": 0.057746767029625064,
+    "signed_command_plus_minus_deg": 0.05774676702962507,
+    "yaw_plus_minus_last_deg": 0.05732051642988267,
+    "yaw_sup_deg": 0.05732051642988267
+  },
+  "reference_pair": {
+    "late_signed_LR_plus": 0.38542020138951394,
+    "late_signed_LR_minus": -0.38556244456008304,
+    "late_field_pair_mean_abs": 0.38549132297479854,
+    "command_L1_deg": 0.057746765857798046,
+    "signed_command_plus_minus_deg": 0.057746765857798046,
+    "yaw_plus_minus_last_deg": 0.05732051547082051,
+    "yaw_sup_deg": 0.05732051547082051
+  },
+  "parity": {
+    "plus": {
+      "yaw_sup_deg": 3.421114058710373e-07,
+      "command_L1_deg": 5.577481342337071e-07
+    },
+    "minus": {
+      "yaw_sup_deg": 3.376945869604242e-07,
+      "command_L1_deg": 5.476720690195219e-07
+    }
+  },
+  "prepared_reference_exact": true,
+  "runs": {
+    "plus": {
+      "result_sha256": "ac844ae37c9a46280d4aaa41e9390dc686c082786376819a8d41c0758824fc01",
+      "trace_sha256": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+      "completed_trial_ms": 400,
+      "wall_s": 2049.211741095998
+    },
+    "minus": {
+      "result_sha256": "d0f6bca6d25489d1c96612b3f0ba7dbb32701347036e2c0c53464db48dfa84b7",
+      "trace_sha256": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+      "completed_trial_ms": 400,
+      "wall_s": 2084.231289547999
+    }
+  },
+  "new_reference_wall_s": 4133.443030643997,
+  "aggregate_limit_s": 4600,
+  "source_hashes": {
+    "PLAN.json": "53a0277f85a47bd9528323a06105777e1cd270dfddd1c294cc56c8274467fd42",
+    "SOURCE_LOCK.json": "a9efbc4cdd0cc41333c43943856eb239301e7d64ba1516fc1b2af462cb35661e",
+    "verify_ref27.py": "a014f662dd21eb420ca848e38a7b0e269d67ee8bdabc0602d8420d9ead0c01a2",
+    "RAW_VERIFIED_01.json": "bba70673b5e4b78419109d27d7c969d3f8afc93387ade52be2239c9e39d51deb",
+    "RAW_VERIFIED_02.json": "bba70673b5e4b78419109d27d7c969d3f8afc93387ade52be2239c9e39d51deb",
+    "PREPARED_COMPARE_reference_cuda.json": "ad1f11203800a53365d290af595258dc7301459eff2c1df5291f72718f670423"
+  },
+  "limitations": [
+    "No feedback online-versus-yoked perturbation or source-distance causal control.",
+    "One prepared organism per side; no compatible live-fly calibration or biological equivalence.",
+    "Azimuthal roller-assisted body and effective DNb05 reader, not natural six-leg gait.",
+    "Scientific effect is tiny in body position and the late plus command reverses sign.",
+    "ChatGPT and Jev did not audit these new complete strict references at this close."
+  ],
+  "next_required": "Prospective feedback intervention with matched online and replay input, distance/heading and raw numerical checks before Stage4 admission."
+}

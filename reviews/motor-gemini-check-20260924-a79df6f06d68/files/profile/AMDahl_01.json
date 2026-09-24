@@ -1,0 +1,65 @@
+{
+  "schema": "fast5s_amdahl_profile_v1",
+  "input": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/profile_on_01/PROFILE.json",
+  "input_sha256": "d72addc51e380bb4637250fbf05c6120bcb2b7401f858778a15ebbbedef43197",
+  "basis": "19 profiled milliseconds, function cumulative time and nested NativeGraph.advance self time; categories are disjoint only by caller nesting, not by hardware attribution",
+  "profile_s_per_ms": {
+    "total": 3.1520101694736846,
+    "native_graph_advance": 2.118684768,
+    "rest_of_organism": 1.0333254014736841
+  },
+  "target_s_per_ms": {
+    "accepted_10min": 0.12,
+    "preferred_5min": 0.06
+  },
+  "absolute_min_speedups": {
+    "10min": {
+      "native_graph": 17.6557064,
+      "rest": 8.611045012280702,
+      "both_if_equal": 26.266751412280705
+    },
+    "5min": {
+      "native_graph": 35.3114128,
+      "rest": 17.222090024561403,
+      "both_if_equal": 52.53350282456141
+    }
+  },
+  "required_rest_given_cns_factor": [
+    {
+      "cns_speedup": 10,
+      "required_rest_speedup_for_0.12s_per_ms": null,
+      "required_rest_speedup_for_0.06s_per_ms": null
+    },
+    {
+      "cns_speedup": 20,
+      "required_rest_speedup_for_0.12s_per_ms": 73.46387852000028,
+      "required_rest_speedup_for_0.06s_per_ms": null
+    },
+    {
+      "cns_speedup": 30,
+      "required_rest_speedup_for_0.12s_per_ms": 20.927187795373005,
+      "required_rest_speedup_for_0.06s_per_ms": null
+    },
+    {
+      "cns_speedup": 40,
+      "required_rest_speedup_for_0.12s_per_ms": 15.415202049226028,
+      "required_rest_speedup_for_0.06s_per_ms": 146.92775704000056
+    },
+    {
+      "cns_speedup": 60,
+      "required_rest_speedup_for_0.12s_per_ms": 12.201471717002313,
+      "required_rest_speedup_for_0.06s_per_ms": 41.85437559074601
+    },
+    {
+      "cns_speedup": 100,
+      "required_rest_speedup_for_0.12s_per_ms": 10.457367032754169,
+      "required_rest_speedup_for_0.06s_per_ms": 26.623073358079772
+    },
+    {
+      "cns_speedup": 200,
+      "required_rest_speedup_for_0.12s_per_ms": 9.444819843027654,
+      "required_rest_speedup_for_0.06s_per_ms": 20.914734065508338
+    }
+  ],
+  "limitations": "Short sham profiler timings, not five-second sustained measurements. Nested cProfile time includes GPU waits and cannot assign pure CUDA or Python cost. Native Stage4 440ms wall includes full setup and may differ. No candidate speedup measured."
+}

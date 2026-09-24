@@ -1,0 +1,137 @@
+{
+  "format_version": 2,
+  "label": "motor-gemini-check-20260924",
+  "description": "Revisión crítica de FP32, event_sparse, límites de Amdahl y campaña27; fuentes y recibos para examen externo. Sin ensayo de cinco segundos ni admisión de etapa5.",
+  "files": [
+    {
+      "path": "round/README.md",
+      "bytes": 6275,
+      "sha256": "db5686bc0ea2ec7b95aa3b28ae7bc16a0e6989580a8360ab62a4ed86eded8ed8"
+    },
+    {
+      "path": "round/PLAN.json",
+      "bytes": 2536,
+      "sha256": "96f9f4eec1972d638ffc087091a50cab016aa073d3d9a556082bb91325aee8ee"
+    },
+    {
+      "path": "round/CODEX_EXTRA_THREE_01.md",
+      "bytes": 5656,
+      "sha256": "acb373860d73281dba6c86342727fb611c6d90631dc7a83d64a81205c4c60294"
+    },
+    {
+      "path": "round/CHATGPT_THREE_01.md",
+      "bytes": 3527,
+      "sha256": "0504096cf71c388fbbf01bc60ba4efe679bb92ef8575dd2d917a39038b41effd"
+    },
+    {
+      "path": "round/A_COUPLED_PROTOTYPE_DESIGN_01.md",
+      "bytes": 15049,
+      "sha256": "a261cf170342388058e4d416c8b4df042639e85e0b2d1515b935311bb8278b8e"
+    },
+    {
+      "path": "round/GEMINI_REVIEW_01.md",
+      "bytes": 10431,
+      "sha256": "a65bbacb83ce54c9eb2c175ae81d8b863cd58e42234c3e28a2c769bf8252631f"
+    },
+    {
+      "path": "round/NONCNS_DIAGNOSTIC_01.md",
+      "bytes": 3116,
+      "sha256": "f144fa1d6f857d83fb8b661016905e216e8a6f2527d8b75ec0c2950b708494c8"
+    },
+    {
+      "path": "round/NONCNS_PSTATS_PLAN_01.json",
+      "bytes": 1961,
+      "sha256": "149125f07e0e352a750e7c9a3f20984f013b6e48668dd4d7902a23028a16a317"
+    },
+    {
+      "path": "round/NONCNS_PSTATS_SOURCE_LOCK_01.json",
+      "bytes": 1064,
+      "sha256": "063915740814a3c6df7508b0a1db43c00463b6536a2551b50a521fc005ed7822"
+    },
+    {
+      "path": "round/NONCNS_verify_saved.py",
+      "bytes": 7066,
+      "sha256": "6fd74b12d6f253c70498a0cc2eb62c24cc31cd7da4b5c910563970ca87f35006"
+    },
+    {
+      "path": "round/NONCNS_pstats_arcs.py",
+      "bytes": 3673,
+      "sha256": "bc6aa3ecb8d42e08a557a7aa0d752e21fb20cb85c7875a0059b49f3c43463b1b"
+    },
+    {
+      "path": "round/NONCNS_SALVAGED_VERIFY_01.json",
+      "bytes": 4997,
+      "sha256": "f8fd955cd1d8162ae9786644324d365e47e6bf5ff42ac5f8c68780d060e7ed6b"
+    },
+    {
+      "path": "round/NONCNS_ARCS_SALVAGED.json",
+      "bytes": 12882,
+      "sha256": "2a644f145f35858f2dd53b8dc5785e2ffaa64be6fa74bdebe3a6cbff7930ef5b"
+    },
+    {
+      "path": "round/NONCNS_PROFILE_RESULT.json",
+      "bytes": 3671,
+      "sha256": "2a3906f804850b765db57a6c1c2901d90e02c2b6066de1da1b36fc508f3a09bb"
+    },
+    {
+      "path": "round/NONCNS_CONTROL_RESULT.json",
+      "bytes": 3269,
+      "sha256": "2d8cf5bca1582eed09f6e7e66578700477dc1dcd507c09087c185bcf15fd5468"
+    },
+    {
+      "path": "profile/AMDahl_01.json",
+      "bytes": 2395,
+      "sha256": "ad962476d6cb073e287e45726c0f3b97c56dc6906781f0dc8e3ceb7aa1000372"
+    },
+    {
+      "path": "primitive/FP32_RESULT.json",
+      "bytes": 2539,
+      "sha256": "c110f9fc0c7554d9c03c341c214b2dad302902e4f9fbe1a0d3e831a1d1397461"
+    },
+    {
+      "path": "primitive/SPMM_RESULT.json",
+      "bytes": 2749,
+      "sha256": "9f178bdabfb3de7836c95d64b1d122d7ed89b8a9434788fb44a1a5ef4c9f09fc"
+    },
+    {
+      "path": "primitive/batched_csr.cu",
+      "bytes": 3067,
+      "sha256": "c948e79d96210a9d8b532260f908070464772b70a7c80813a922f943da95b3e9"
+    },
+    {
+      "path": "primitive/EVENT_SPARSE_RESULT.json",
+      "bytes": 6251,
+      "sha256": "bbc702afe2f72046a6cf49543c268c6322ec94684672c217619f232bf79a22cc"
+    },
+    {
+      "path": "primitive/EVENT_SPARSE_CLOSE.json",
+      "bytes": 1670,
+      "sha256": "d5d5e8faad4468df70698578cb793194b8ff6f1562f496d14738c79c26a7a24e"
+    },
+    {
+      "path": "primitive/event_sparse.py",
+      "bytes": 7789,
+      "sha256": "6d52fec3d83d9a8ec582d1f3ec0c309967aa02211d2a7f34d7be6164caa9b2cc"
+    },
+    {
+      "path": "engine/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "engine/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "stage4/README.md",
+      "bytes": 4643,
+      "sha256": "57f25d70748f42318978b019ff3ed47f2f65682c1a1c0fd0d3d40f59e0bbc450"
+    },
+    {
+      "path": "stage4/CLOSE_01.json",
+      "bytes": 3250,
+      "sha256": "5997074999999fdba304028769790462be021209b14872f49ff6542749ff7bcd"
+    }
+  ]
+}

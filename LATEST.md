@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-real-event-split-20260924](reviews/motor-real-event-split-20260924-3eae413a3686/README.md)
+[motor-gemini-check-20260924](reviews/motor-gemini-check-20260924-a79df6f06d68/README.md)
 
-Neutral full-organism capture receipt; complete ChatGPT MRI code, CPU execution and measured real-event work floor; standalone CUDA port-current primitive with 60 real inputs/outputs, independent CPU recomputation, preserved timing inconsistency and setup cost. Compact reproducible operator package, not a complete brain checkpoint or validated engine speedup.
+Revisión crítica de FP32, event_sparse, límites de Amdahl y campaña27; fuentes y recibos para examen externo. Sin ensayo de cinco segundos ni admisión de etapa5.
