@@ -1,0 +1,27 @@
+{
+  "schema": "legacy_guard_collision_replay_plan_v1",
+  "date": "2026-09-24",
+  "relation": "Independent executable falsifier after plan09's four-run budget. Preserves published v1 unchanged.",
+  "frozen_source_sha256": {
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+    "chatgpt_original/overlay_vistas.py": "a27a45cdaa4597115435320f8ea0d8b958332176992843ee5553f52d128f0181"
+  },
+  "case": "One ordinary edge, w0=2, w1=3, release_after=1, baseline release_before A=.25 and B=.5, identical patched weight/source/event tokens.",
+  "gates_frozen": {
+    "legacy_guard_accepts_both": true,
+    "delta_A": 2.5,
+    "delta_B": 2,
+    "stale_reuse_error": 0.5,
+    "new_view_keys_distinct": true,
+    "new_guard_rejects_stale": true
+  },
+  "budget": {
+    "executions": 1,
+    "cpu_wall_seconds_max": 10,
+    "ram_gib_max": 0.5,
+    "gpu_seconds": 0,
+    "organism_runs": 0,
+    "output_bytes_max": 65536
+  },
+  "scope": "Synthetic counterexample only; does not imply actual replay used a cache."
+}

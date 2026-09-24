@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-owner-precedence-review-20260924](reviews/motor-owner-precedence-review-20260924-46e212f01f0d/README.md)
+[motor-owner-view-contract-20260924](reviews/motor-owner-view-contract-20260924-8f8b1788aa74/README.md)
 
-Correction of static set/add/transform owner precedence, one Jev advisory response, and locally replayed ChatGPT CPU strict-fallback fixture. Original GPU sparse overlay remains a primitive, not full motor or Stage4/5 admission.
+ChatGPT two-view guard correction and locally executed real-capsule diagnostic; a one-edge legacy-guard falsifier; real port/owner topology and receiver incidence; Jev advisory with prior locality negative. Numeric primitive only, no organism, speed or Stage4/5 admission.

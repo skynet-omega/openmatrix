@@ -1,0 +1,134 @@
+{
+  "schema": "port_owner_receiver_incidence_result_v1",
+  "classification": "STATIC_POTENTIAL_ONLY",
+  "plan_sha256": "8421b84d1197697405c51d4b3e99e7c3648b3137b220aeb04bf7221819b91b84",
+  "script_sha256": "cddae17d492b8578efcce24de0897e18d47cf11d6fae40709ac8d8a1aa7a831c",
+  "input_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7"
+  },
+  "source_sha256": {
+    "owner_precedence_screen.py": "6b4ca9bea89215046607244a07e6a4bddb80459ce3661522bf2fdb2e80dee782"
+  },
+  "base_edges": 25582938,
+  "port_sources": 4062,
+  "port_edges": 885587,
+  "port_active_receiver_rows": 6342,
+  "port_active_rows_with_any_special_target": 4786,
+  "port_active_rows_with_multiple_target_touches": 1682,
+  "port_active_rows_with_any_special_rate": 4064,
+  "port_active_rows_with_multiple_rate_touches": 0,
+  "owner_family_incidence": [
+    {
+      "owner": "kc_apl_dynamic",
+      "target_op": "set",
+      "rate_op": "set",
+      "owner_rows": 4064,
+      "port_active_receiver_rows_in_owner": 4064,
+      "port_edges_into_owner_rows": 647588
+    },
+    {
+      "owner": "regional",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 1611,
+      "port_active_receiver_rows_in_owner": 1611,
+      "port_edges_into_owner_rows": 340313
+    },
+    {
+      "owner": "pnkc_receptor",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 1375,
+      "port_active_receiver_rows_in_owner": 1375,
+      "port_edges_into_owner_rows": 288298
+    },
+    {
+      "owner": "kcgamma_output",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 791,
+      "port_active_receiver_rows_in_owner": 791,
+      "port_edges_into_owner_rows": 137221
+    },
+    {
+      "owner": "orn_pn",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 2,
+      "port_active_receiver_rows_in_owner": 2,
+      "port_edges_into_owner_rows": 121
+    },
+    {
+      "owner": "cvn7",
+      "target_op": "set",
+      "rate_op": "set",
+      "owner_rows": 2,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "cyborg_retinal_port",
+      "target_op": "set",
+      "rate_op": "set",
+      "owner_rows": 3021,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "lamina_boundary",
+      "target_op": "transform",
+      "rate_op": "transform",
+      "owner_rows": 1771,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "measured_t4",
+      "target_op": "add",
+      "rate_op": null,
+      "owner_rows": 6853,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "orn_terminal",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 74,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "pvlp_adaptation",
+      "target_op": "set",
+      "rate_op": null,
+      "owner_rows": 3,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "retinal_transduction",
+      "target_op": "set",
+      "rate_op": "set",
+      "owner_rows": 3021,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    },
+    {
+      "owner": "t4_gaba",
+      "target_op": "add",
+      "rate_op": null,
+      "owner_rows": 6860,
+      "port_active_receiver_rows_in_owner": 0,
+      "port_edges_into_owner_rows": 0
+    }
+  ],
+  "effective_owner_activation_checked": false,
+  "full_target_rate_validated": false,
+  "organism_executed": false,
+  "stage_admission": false,
+  "wall_s": 0.5898185440019006,
+  "maxrss_kib": 490304
+}

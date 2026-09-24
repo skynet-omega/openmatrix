@@ -1,0 +1,29 @@
+{
+  "schema": "port_owner_receiver_incidence_plan_v1",
+  "date": "2026-09-24",
+  "question": "Which real port-edge receiver rows are also touched by specialized owners, so the next active set/add/transform parity probe is chosen before seeing candidate errors?",
+  "inputs_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7"
+  },
+  "source_sha256": {
+    "owner_precedence_screen.py": "6b4ca9bea89215046607244a07e6a4bddb80459ce3661522bf2fdb2e80dee782"
+  },
+  "gates_frozen": {
+    "base_edges": 25582938,
+    "port_sources": 4062,
+    "port_edges": 885587,
+    "owner_families": 13,
+    "port_active_receiver_rows": 6342
+  },
+  "budget": {
+    "executions": 1,
+    "cpu_wall_seconds_max": 30,
+    "ram_gib_max": 1.5,
+    "gpu_seconds": 0,
+    "organism_runs": 0,
+    "output_bytes_max": 65536
+  },
+  "scope": "Structural potential overlap only. Owner activation, effective values, write precedence and full target/rate identity remain untested."
+}

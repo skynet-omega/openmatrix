@@ -1,0 +1,37 @@
+{
+  "schema": "owner_event_overlap_gate_plan_v1",
+  "date": "2026-09-24",
+  "question": "Do effective source ports intersect the sparse owner overlay on the real captured graph, and does an event-projected owner baseline reproduce the direct edge current at two actual query states?",
+  "predecessor": "OVERLAY_VIEW_REPAIR_PLAN_09.json; plan 09's four executions were completed without changing published source/results.",
+  "inputs_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "block_events.json": "2126d6d8a4f1423e98755e6f5350d1c952a9ace7811ecc90a24e7be839129dec",
+    "block_inputs.npz": "ee5e9f3cba91927ad1b47f229837a4b06551b14d7d583dbdd9f92bd295cbae85",
+    "block_inputs.json": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0",
+    "final_state/session.json": "e19e7f0a2ccf1e4d887e6dfd8fac854b2df69c7a64fa12e5a01edffbddefd89c"
+  },
+  "source_dependencies_sha256": {
+    "event_sparse.py": "6d52fec3d83d9a8ec582d1f3ec0c309967aa02211d2a7f34d7be6164caa9b2cc",
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571"
+  },
+  "fixture": "For queries 2 and 59, reconstruct q/s port projection; replace only port source release by no-event analytic projection to form C0, use captured release for event view CE, then apply the same PN-real/APL-PNKC-synthetic owner fixture as plan02 to form CO. Evaluate the union of event and owner affected edges in 3 channels; count topology overlaps. No full target/rate.",
+  "gates_frozen": {
+    "port_projection_max_abs": 1e-12,
+    "composed_vs_direct_max_abs": 1e-8,
+    "exact_overlay_event_union": true,
+    "nonfinite_zero": true
+  },
+  "budget": {
+    "executions": 1,
+    "cpu_wall_seconds_max": 60,
+    "ram_gib_max": 2,
+    "gpu_seconds": 0,
+    "organism_runs": 0,
+    "output_bytes_max": 1048576
+  },
+  "interpretation": "No speed/organism/Stage4-5 claim. If there are no overlaps, report that instead of forcing an interaction claim. If overlap exists, report wrong-baseline error without tuning."
+}

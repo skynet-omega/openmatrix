@@ -1,0 +1,36 @@
+{
+  "schema": "owner_overlay_view_contract_plan_v1",
+  "date": "2026-09-24",
+  "question": "Does the published three-token guard admit stale sparse deltas, and can a two-view consumer/time/order contract reject wrong-baseline composition while preserving the real-capsule numeric identity?",
+  "trigger": "ChatGPT review 22a847ae-a6e9-4ec2-8162-52ed5e3a6783 of public capsule commit 34d2d5c9be1df260837f0402183de043e4f8acd7",
+  "frozen_inputs": {
+    "capsule_01/capsule.npz": "36e5a64f9830b24344dfac03c90a50ced78be04d205354136548750fcdb845d4",
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+    "owner_overlay.cu": "7b2f2115ef7d11a2086bd544edb2d0087a5eadc8c2c0f005d667c593f8a56760"
+  },
+  "candidate": "Save ChatGPT's supplied overlay_vistas.py verbatim as external, untrusted diagnostic code; inspect and run selftest and real capsule. Locally prove old guard collision on a one-edge counterexample and correct transition identity where needed. Do not alter frozen prior code/results.",
+  "gates_frozen": {
+    "old_guard_collision_expected": true,
+    "stale_delta_abs_error_min": 0.49,
+    "wrong_baseline_rejected": true,
+    "duplicate_delta_rejected": true,
+    "capsule_max_abs_error": 1e-8,
+    "optimize_mode_equivalent": true,
+    "no_organism_or_speed_claim": true
+  },
+  "rivals": {
+    "A": "Event-projected base plus sparse owner delta, with per-consumer before/after identities and ordered owner callbacks",
+    "B": "Spatial partition and bounded influence remains unproven by sparse delta",
+    "C": "Exact native transactional runtime remains independent option"
+  },
+  "budget": {
+    "external_source_extractions": 1,
+    "cpu_executions_max": 4,
+    "cpu_wall_seconds_total_max": 60,
+    "ram_gib_max": 2,
+    "gpu_seconds": 0,
+    "organism_runs": 0,
+    "output_bytes_max": 1048576
+  },
+  "caveats": "The capsule lacks full event waveforms and actual APL/PNKC factors; this repair is a correctness gate, not promotion of an engine."
+}

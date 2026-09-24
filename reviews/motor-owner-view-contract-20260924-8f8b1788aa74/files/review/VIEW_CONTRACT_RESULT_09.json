@@ -1,0 +1,33 @@
+{
+  "schema": "chatgpt_view_contract_local_replay_v1",
+  "date": "2026-09-24",
+  "source": "ChatGPT conversation 6ab06db7-9908-83e9-a515-58c9e6e18a1a, reply 22a847ae-a6e9-4ec2-8162-52ed5e3a6783",
+  "source_sha256": "a27a45cdaa4597115435320f8ea0d8b958332176992843ee5553f52d128f0181",
+  "capsule_sha256": "36e5a64f9830b24344dfac03c90a50ced78be04d205354136548750fcdb845d4",
+  "four_commands_exit_zero": true,
+  "selftest_normal_and_optimized_identical": true,
+  "selftest": {
+    "stale_delta": 2.5,
+    "current_delta": 2,
+    "wrong_overlap": 3.5,
+    "correct_overlap": 3,
+    "guards_rejected": 6,
+    "overwrite_target": -0.4,
+    "preserved_rate": 9
+  },
+  "capsule_normal_and_optimized_identical": true,
+  "capsule_max_abs_by_query": {
+    "A": 2.3646862246096134e-11,
+    "B": 2.3646862246096134e-11
+  },
+  "frozen_capsule_tolerance": 1e-8,
+  "conditions": "All four commands ran locally on 2026-09-24 with OPENBLAS_NUM_THREADS=1, Python -B; two repeated under -O. No hidden extra organism run.",
+  "limitations": [
+    "The capsule contains real CSR edges and saved release but synthetic APL/PNKC factors.",
+    "No full target/rate owner output, event waveforms, CUDA execution, organism step or speed measurement in this replay.",
+    "The external module hashes complete CPU arrays; it is a diagnostic contract, not a GPU cache design.",
+    "sobrescribir implements ordered partial SET only, not ADD/TRANSFORM or actual wrapper activation."
+  ],
+  "classification": "DIAGNOSTIC_CONTRACT_ONLY",
+  "stage_admission": false
+}

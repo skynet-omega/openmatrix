@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Asesoría, no validación científica. Meta operativa: 5 s simulados en <=10 min; organismo real actual ~3 s/ms. En bloque real de125us se midieron60 evaluaciones CNS y7 eventos. Base166700 neuronas/25.582.938 aristas. Fuente de puertos fechados:4062 fuentes/885587 aristas/6342 receptores. Overlay PN/APL/PNKC:140489 aristas; factores PN reales, APL/PNKC sintéticos. NUEVO: intersección por arista/fuente entre puertos y este overlay =0; el contraejemplo de composición de ChatGPT sigue válido en general pero no se ejercita aquí. Por receptor,4786/6342 filas tocadas potencialmente por propietarios especiales,1682 con múltiples touches; KC/APL dinámico recibe647588 aristas de puerto en4064 filas, regional340313 en1611, PNKC288298 en1375. Activación y target/rate reales aún no medidos. La versión antigua del guard acepta dos deltas que difieren0,5; nuevo diagnóstico rechaza base errónea y cápsula real conserva error2,365e-11, sin full operator. Antecedente negativo de B: 4 saltos cubren94,17–99,57% topología y48–68% de masa entrante a bloques viene de fuera; cotas de B sólo condicionales. C++ nativo aún sin integración biológica completa; Python/transferencia ~32,8% exterior CNS en perfil anterior. Etapas4/5 abiertas.",
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Elige una sola prueba acotada que maximice información para decidir el motor. La opción elegida no gana por votos; este panel no puede ejecutar archivos. Considera el negativo espacial y el nuevo solapamiento por receptor.",
+      "criteria": {
+        "A_owner_output": "Capturar target/rate efectivos y el orden de retorno del propietario KC/APL dinámico en estados reales A-B-A, con puerto fechado, comparando al oráculo completo y contabilizando aristas/tiempo.",
+        "B_spatial_residual": "Medir cota temporal recurrente y coste de frontera en una partición real más estrecha para rescatar o descartar B pese al alcance casi global ya observado.",
+        "C_native_transaction": "Portar un paso completo CNS+propietarios+MuJoCo a C++/CUDA y medir estado completo/tiempo, conservando fallback exacto."
+      }
+    },
+    "first_failure": {
+      "instructions": "Indica el riesgo dominante de la prueba A antes de promoverla; responde sólo como priorización provisional.",
+      "criteria": {
+        "target_rate_order": "Confundir suma, set, transform, escritura parcial o prioridad de retorno del propietario KC/APL.",
+        "version_lifetime": "Reutilizar versiones de peso, fuente o evento fuera de la época/consumidor correcto.",
+        "event_time": "Muestrear puertos en el tiempo equivocado o duplicar un salto justo en el borde de época."
+      }
+    }
+  }
+}

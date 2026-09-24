@@ -1,0 +1,17 @@
+{
+  "schema": "legacy_guard_collision_replay_result_v1",
+  "legacy_guard_accepts_both": true,
+  "delta_A": 2.5,
+  "delta_B": 2.0,
+  "stale_reuse_error": 0.5,
+  "new_view_keys_distinct": true,
+  "new_guard_rejects_stale": true,
+  "source_sha256": {
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+    "chatgpt_original/overlay_vistas.py": "a27a45cdaa4597115435320f8ea0d8b958332176992843ee5553f52d128f0181"
+  },
+  "plan_sha256": "018b11752971cccb577a178e550ead77b840f988d5bdfe3b7d15fd94a5ec8433",
+  "wall_s": 0.0014812180015724152,
+  "maxrss_kib": 125760,
+  "scope": "One-edge synthetic diagnostic. No published runner reused a delta."
+}
