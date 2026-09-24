@@ -1,0 +1,50 @@
+{
+  "schema": "fusion_pair_raw_verify_v1",
+  "strict_scientific_parity": true,
+  "semantic_state": {
+    "session": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 574
+    },
+    "prosthesis": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 5
+    },
+    "published": {
+      "equal": true,
+      "different_paths": [],
+      "different_count": 0,
+      "nan_count": 0,
+      "array_count": 1
+    }
+  },
+  "exact_other": {
+    "final_state/boundary.json": true,
+    "EVENT_AUDIT.json": true,
+    "traces.npz": true,
+    "runtime/events": true,
+    "runtime/CNS_scientific": true
+  },
+  "corruption_event_detected": true,
+  "corruption_state_detected": true,
+  "step_wall_base_s": 3.914670435995504,
+  "step_wall_fused_s": 3.8995160549966386,
+  "single_pair_improvement_fraction": 0.003871176704817958,
+  "build_s": [
+    0.20691855499899248,
+    0.29875533300219104
+  ],
+  "device_bytes": [
+    55914496,
+    53039104
+  ],
+  "promotion_threshold_fraction": 0.1,
+  "standalone_speed_gate": false,
+  "stage_admission": false
+}

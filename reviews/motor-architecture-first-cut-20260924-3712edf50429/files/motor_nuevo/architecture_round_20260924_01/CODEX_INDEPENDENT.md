@@ -1,0 +1,11 @@
+# Tres propuestas independientes del especialista Codex
+
+El especialista inspeccionó código/perfiles y formuló estas tres antes de leer el texto Gemini ni el PLAN_ABC histórico. No ejecutó organismo ni cambió el motor. Sus propuestas son externas al organismo y requieren prueba local.
+
+| ID | Operación macro | Discriminador y falsador |
+| --- | --- | --- |
+| **C-A** | Residir agenda de eventos, decisión adaptativa y aceptación en GPU conservando los operadores de cada modelo. | Dos vidas cortas padre/candidato con mismos eventos, decisiones y estado; medir pared completa y presión de memoria. Falla si el coste está dentro del grafo o hay deriva. Coincide parcialmente con G-A. |
+| **C-B** | Particionar por error de influencia **y defecto temporal**, con retorno recurrente y fronteras de modelos PN/KC/visuales. | Certificado y coste del scheduler sobre estados reales. Falla si el conjunto activo es casi global o el certificado cuesta más que el trabajo evitado. El análisis previo ya halló 94–99,6% del grafo alcanzable en cuatro saltos y 48–69% de entrada desde fuera: [negativo condicionado](../locality_discriminator_20260923/README.md). Se parece a G-B pero no depende de cuantos QSS. |
+| **C-C** | Mantener propuesta temporal nominal tras un corte de evento corto; seguir probando error y dominio en cada segmento. | Sonda emparejada de 1 ms con mismos 84 eventos, menos intentos y menor pared. Falla por rechazo, deriva o ausencia de ahorro. En el registro hay 100 segmentos obligatorios y 91 pasos interiores, de modo que **aun eliminar idealmente todos los interiores** daría ≤1,47× al organismo si cada intento costara igual y el resto quedara fijo ([RESULT_01.json](RESULT_01.json)); no es por sí sola ruta a 52×. |
+
+El padre implícito C del PLAN_ABC anterior no recibe apoyo de 0/191 rechazos en la sonda ni 0/3677 en 20 ms, aunque esos prefijos no lo refutan para otras cargas. C-A y C-B duplican **familias** presentes en el plan histórico; el solapamiento se registra y no se finge diversidad nueva. La siguiente selección prioriza una reforma que pueda reducir el número/coste de evaluaciones globales **y** el tiempo fuera del grafo, no tres integraciones completas para sumar candidatos.

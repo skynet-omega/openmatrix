@@ -1,0 +1,97 @@
+{
+  "format_version": 2,
+  "label": "motor-architecture-first-cut-20260924",
+  "description": "Motor completo: nueve propuestas, limite condicional de ancho de banda, par real de fusion, contrato de runtime nativo y codigo para revision matematica externa.",
+  "files": [
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/CHATGPT_MOTOR_FOLLOWUP_02.md",
+      "bytes": 2343,
+      "sha256": "990f960764a7fcfd0a4c4f508b3a1474336428ca573e2aa69da4e8c0e6743462"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/NINE_OPTIONS.md",
+      "bytes": 4001,
+      "sha256": "051e499dbf47608bd496ba15eebd66699319016f42d0fb720a19160f5bd971ca"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/NATIVE_RUNTIME_SPEC.md",
+      "bytes": 12918,
+      "sha256": "20a8c5a1e0cacf0f18014ef125ba29706d18abcd657dffde6357740a11fe9b59"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/NUMERICS_GATE.md",
+      "bytes": 11733,
+      "sha256": "bb1928277fcd88604e9a540998e63499ee31aa8da98015425323d76b2980fe4d"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/GEMINI_REVIEW.md",
+      "bytes": 4966,
+      "sha256": "a9ca089ebb205caf9ceeb8de013a3468c5691489cdb634cc8324f43296299b90"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/CODEX_INDEPENDENT.md",
+      "bytes": 2245,
+      "sha256": "0bfa6159a8b3a4a31c44158e8cc4f77127f09c2100b41e969e3d94d1d9af0ac0"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/BANDWIDTH_FLOOR_01.json",
+      "bytes": 1556,
+      "sha256": "85ea40fba4bdaa152301cd96cc0d620263df3daee653988c6ed6af50c6af65cf"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/bandwidth_floor.py",
+      "bytes": 3743,
+      "sha256": "2d265079272571a81f600f5c767b97706d2eaec6ce79d741e3bf87f1f0d7af28"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/FUSION_PAIR_VERIFY_03.json",
+      "bytes": 1174,
+      "sha256": "1853a03ef38efd2b375ccc695bdf97a40df26c412152836834732bdc0f995e75"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/gpu_operand_probe_01.json",
+      "bytes": 3742,
+      "sha256": "c91b7977278bd5e0d7a4d031698b1156673032645d39785168cb03e5cfc46c15"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/chatgpt_generar_fusion.py",
+      "bytes": 8063,
+      "sha256": "ade207231cf04666796ede30293a69e1696ddf6c555a20b0f8e9bfa1c61ab12e"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/chatgpt_fusion_candidate_01/relax_fp64.cu",
+      "bytes": 367,
+      "sha256": "d770b5604a2ef5fa1093144d93ddf41ac14b4b0c231e8108c9317f68299f17db"
+    },
+    {
+      "path": "motor_nuevo/architecture_round_20260924_01/chatgpt_fusion_candidate_01/graph_core_fused.py",
+      "bytes": 7975,
+      "sha256": "e0fe6b3205c5d012c4cdd37c7aee4c8512c09f18d486607fafdeaef9157993ef"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/legacy_sources/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    }
+  ]
+}

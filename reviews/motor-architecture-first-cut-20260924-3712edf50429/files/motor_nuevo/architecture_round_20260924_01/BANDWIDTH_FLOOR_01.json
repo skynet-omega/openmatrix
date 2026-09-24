@@ -1,0 +1,28 @@
+{
+  "schema": "current_full_csr_format_bandwidth_floor_v1",
+  "claim_scope": "Conditional on the existing CSR kernel scanning every stored edge in all six coefficient evaluations per adaptive trial; not a bound on new methods",
+  "graph_contract_sha256": "935d25aa44eaa5c85777b1ef3d84396baf643b485d85ce00928feea0c728f3be",
+  "coefficient_source_sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+  "stored_edges": 25582938,
+  "real_trials_per_ms": 191,
+  "coefficients_per_trial": 6,
+  "coefficient_evaluations_per_ms": 1146,
+  "index_bytes": 4,
+  "weight_bytes": 8,
+  "graph_stream_bytes_per_evaluation": 306995256,
+  "graph_stream_bytes_per_ms_nominal": 351816563376,
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "memory_clock_khz_reported": 10501000,
+  "memory_bus_bits": 256,
+  "L2_bytes": 50331648,
+  "theoretical_peak_bytes_per_s": 672064000000.0,
+  "ideal_nominal_stream_seconds_per_ms": 0.5234866967669746,
+  "ideal_after_full_L2_reuse_seconds_per_ms": 0.4376614351728407,
+  "target_wall_seconds_per_ms": 0.06,
+  "nominal_stream_vs_target_ratio": 8.724778279449577,
+  "ideal_L2_stream_vs_target_ratio": 7.294357252880678,
+  "exclusions": [
+    "recurrent state, target/rate writes, specialized PN/KC, body, compute, launch costs, bandwidth not at peak"
+  ],
+  "reasoning": "The existing kernel scans all CSR entries per coefficient evaluation. The edge arrays exceed L2. A fused host loop with unchanged six full passes cannot meet the target under this FP64+int32 representation even at peak streaming bandwidth."
+}
