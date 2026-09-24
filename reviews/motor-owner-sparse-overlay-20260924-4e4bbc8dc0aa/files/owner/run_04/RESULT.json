@@ -1,0 +1,29 @@
+{
+  "schema": "real_csr_sparse_overlay_cuda_result_v1",
+  "status": "COMPLETE",
+  "plan_sha256": "742353caa67523db0a566ee70b0ebf1e1bdc2ee49bcdfc6837f14ffb21edc91a",
+  "runner_sha256": "232d17b09e9ec867fc8d806d0f0ff9a462e9f398abc9f42e688cc544372e5c17",
+  "kernel_sha256": "7b2f2115ef7d11a2086bd544edb2d0087a5eadc8c2c0f005d667c593f8a56760",
+  "frozen_predecessor_sha256": {
+    "PLAN_02.json": "8ec6098ff664415350b0dbe3253613acd1b3ec0a4838eb99773186b81167628e",
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+    "run_02/RESULT.json": "3a9c1b22940ebe609541fe0d247efab3b75fed4a6e41386eb0b5459ba10cdbbf"
+  },
+  "base_csr_edges": 25582938,
+  "overlay_edges": 140489,
+  "active_receiver_rows": 14016,
+  "cuda_max_abs_error_by_query_A_B_A": [
+    2.3646862246096134e-11,
+    2.3646862246096134e-11,
+    2.3646862246096134e-11
+  ],
+  "cuda_max_abs_error": 2.3646862246096134e-11,
+  "A_restored_bitwise": true,
+  "stale_token_rejections": 3,
+  "additional_vram_bytes_observed": 12582912,
+  "classification": "CUDA_SPARSE_DELTA_PRIMITIVE_ONLY",
+  "scope": "Only overlay current from PN/APL weight patches and source substitutions on real graph. APL/PNKC factors are synthetic. No full owner target/rate, candidate CNS integration, body, or engine speed claim.",
+  "stage_admission": false,
+  "wall_s": 2.596986365999328,
+  "maxrss_kib": 793248
+}

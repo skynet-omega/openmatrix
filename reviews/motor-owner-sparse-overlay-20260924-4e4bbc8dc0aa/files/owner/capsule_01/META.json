@@ -1,0 +1,29 @@
+{
+  "schema": "owner_overlay_portable_capsule_v1",
+  "label": "Real whole-brain CSR subset; synthetic APL/PNKC factors",
+  "base_csr_edges": 25582938,
+  "selected_edges": 140489,
+  "active_receiver_rows": 14016,
+  "state_query_indices": [
+    2,
+    59
+  ],
+  "actual_PN_factor": true,
+  "synthetic_APL_and_PNKC_factors": true,
+  "channels": [
+    "ordinary_signed",
+    "visual_positive",
+    "visual_negative"
+  ],
+  "upstream_input_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "block_inputs.npz": "ee5e9f3cba91927ad1b47f229837a4b06551b14d7d583dbdd9f92bd295cbae85",
+    "block_inputs.json": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "final_state/session.json": "e19e7f0a2ccf1e4d887e6dfd8fac854b2df69c7a64fa12e5a01edffbddefd89c"
+  },
+  "full_organism_or_full_coefficient_included": false,
+  "stage_admission": false
+}

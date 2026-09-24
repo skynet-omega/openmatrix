@@ -1,0 +1,31 @@
+{
+  "schema": "real_csr_sparse_overlay_cuda_gate_v1",
+  "date": "2026-09-24",
+  "purpose": "Compile a generic CUDA receiver-row sparse-delta kernel for weight patches and source substitutions on the real whole-brain graph. Check A-B-A state queries and version rejection against the independent CPU delta. This is a primitive, not a coupled solver.",
+  "frozen_predecessors": {
+    "PLAN_02.json": "8ec6098ff664415350b0dbe3253613acd1b3ec0a4838eb99773186b81167628e",
+    "sparse_overlay_cpu.py": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+    "run_02/RESULT.json": "3a9c1b22940ebe609541fe0d247efab3b75fed4a6e41386eb0b5459ba10cdbbf"
+  },
+  "fixture": "Same two captured states (queries 2 and 59), actual graph/release/PN general factors, synthetic APL and PNKC factors explicitly labeled in PLAN_02. Overlay edges sorted by CSR position. GPU computes three delta channels on active receiver rows; CPU recomputes those deltas independently. Query A-B-A, rejecting stale W/source/event tokens.",
+  "gates_frozen": {
+    "max_absolute_channel_error": 1e-8,
+    "min_stale_token_rejections": 3,
+    "expected_delta_edges": 140489,
+    "expected_base_edges": 25582938
+  },
+  "rivals": {
+    "A": "Sparse dynamic overlay with versioned owners, the primitive tested here.",
+    "B": "Partition/compression with certified residual; neither accepted nor rejected by this kernel.",
+    "C": "Exact native runtime using the current coefficient; this kernel may also be a component but does not measure it."
+  },
+  "budget": {
+    "executions": 1,
+    "wall_seconds_max": 90,
+    "ram_gib_max": 2,
+    "vram_gib_additional_max": 1,
+    "output_bytes_max": 1048576
+  },
+  "stage_admission": false,
+  "whole_engine_speed_claim": false
+}

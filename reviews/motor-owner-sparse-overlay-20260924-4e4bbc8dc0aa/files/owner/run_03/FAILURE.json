@@ -1,0 +1,12 @@
+{
+  "schema": "real_csr_sparse_overlay_cuda_failure_v1",
+  "status": "FAILED_BEFORE_FIRST_KERNEL",
+  "plan_sha256": "742353caa67523db0a566ee70b0ebf1e1bdc2ee49bcdfc6837f14ffb21edc91a",
+  "runner_sha256": "232d17b09e9ec867fc8d806d0f0ff9a462e9f398abc9f42e688cc544372e5c17",
+  "kernel_v1_sha256": "c30b5e303b21a7e50954096eb407774650849c483b849cf94de52bc7c1a3b295",
+  "exit_code": 1,
+  "error": "NVRTC compilation failed at /usr/include/math.h(27): cannot open bits/libc-header-start.h",
+  "scientific_queries_completed": 0,
+  "gpu_identity_measured": false,
+  "repair_scope": "Remove unnecessary system math/stdint includes only; keep formula, graph, fixtures, tolerances and budget unchanged in a new prospective attempt."
+}

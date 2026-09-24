@@ -1,0 +1,96 @@
+{
+  "schema": "owner_fallback_edge_gate_result_v1",
+  "status": "COMPLETE",
+  "plan_sha256": "a733ec38acf778c56262b6e111240ad4b7641ef6c2548bf2483d8149217743e7",
+  "script_sha256": "e4e178d9325d92b2f478b4713b0a83e9a12ea00a588c1481a5b756abfd6f55b0",
+  "input_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "executed_gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "a_waveform_cpu.py": "22b3b51f958732bcd6a5cf16be1b140a989155aec4e87a2d90a64ad27fabad50"
+  },
+  "neurons": 166700,
+  "base_csr_edges": 25582938,
+  "special_receiver_rows": 26044,
+  "special_receiver_fraction": 0.15623275344931015,
+  "special_base_csr_edges_one_pass": 3901860,
+  "special_base_csr_edge_fraction_one_pass": 0.15251805715199715,
+  "other_base_csr_edges_one_pass": 21681078,
+  "nominal_residual_edges_after_5_727_sweeps": 6984142.074000001,
+  "special_fits_nominal_residual_once": true,
+  "decision": "NOT_RULED_OUT_BY_THIS_EDGE_GATE",
+  "family_incidence_overlaps_do_not_sum": {
+    "_mi9_cuda/rows": {
+      "rows": 6853,
+      "base_csr_edges": 425814
+    },
+    "_retinal_port_cuda_rows": {
+      "rows": 3021,
+      "base_csr_edges": 12102
+    },
+    "_pvlp_cuda_rows": {
+      "rows": 3,
+      "base_csr_edges": 1071
+    },
+    "_orn_pn_cuda/pn_rows": {
+      "rows": 2148,
+      "base_csr_edges": 587958
+    },
+    "_regional_cuda/rows": {
+      "rows": 1611,
+      "base_csr_edges": 436362
+    },
+    "_gaba_cuda/rows": {
+      "rows": 6860,
+      "base_csr_edges": 426153
+    },
+    "_retinal_cuda/rows": {
+      "rows": 3021,
+      "base_csr_edges": 12102
+    },
+    "_cvn7_cuda_rows": {
+      "rows": 2,
+      "base_csr_edges": 640
+    },
+    "_boundary_cuda/rows": {
+      "rows": 1771,
+      "base_csr_edges": 34914
+    },
+    "_pnkc_cuda/rows": {
+      "rows": 1375,
+      "base_csr_edges": 367300
+    },
+    "_output_cuda/rows": {
+      "rows": 791,
+      "base_csr_edges": 400182
+    },
+    "_dynamic_gpu_rows": {
+      "rows": 4064,
+      "base_csr_edges": 836605
+    },
+    "_orn_terminal_cuda/rows": {
+      "rows": 74,
+      "base_csr_edges": 6242
+    },
+    "_general_positions": {
+      "rows": 629,
+      "base_csr_edges": 213083
+    },
+    "_apl_gpu_positions": {
+      "rows": 5062,
+      "base_csr_edges": 1355870
+    },
+    "_apl_gpu_rows": {
+      "rows": 5062,
+      "base_csr_edges": 1355870
+    },
+    "_pnkc_cuda/source_rows": {
+      "rows": 13191,
+      "base_csr_edges": 2906822
+    }
+  },
+  "interpretation_limit": "Counts base CSR row incidence once. Does not count specialized kernel reads, dynamic weight changes, build/recapture, local RHS calls, or wall time. A custom owner kernel may avoid a full-row fallback.",
+  "stage_admission": false,
+  "wall_s": 0.5459305769982166,
+  "maxrss_kib": 202156
+}

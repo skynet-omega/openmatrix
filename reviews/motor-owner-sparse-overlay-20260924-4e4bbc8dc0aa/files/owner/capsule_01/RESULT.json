@@ -1,0 +1,22 @@
+{
+  "schema": "owner_overlay_capsule_build_result_v1",
+  "status": "COMPLETE",
+  "plan_sha256": "e1c63ddb95ebd13f0f58f4c348d810aceac56e40699449fc8e814cef7a3d98e4",
+  "manifest_sha256": "6997c00c8b5d53506275b54a1365649f9e26bac6f72c2120ff85992ff414feea",
+  "verified": {
+    "schema": "owner_overlay_capsule_verify_v1",
+    "status": "PASS",
+    "manifest_sha256": "6997c00c8b5d53506275b54a1365649f9e26bac6f72c2120ff85992ff414feea",
+    "errors_by_state": {
+      "A": 2.3646862246096134e-11,
+      "B": 2.3646862246096134e-11
+    },
+    "mutation_rejections": 2,
+    "full_organism_reproduced": false
+  },
+  "files_bytes": 5549154,
+  "wall_s": 2.691547640999488,
+  "maxrss_kib": 679504,
+  "classification": "PORTABLE_PRIMITIVE_ONLY",
+  "stage_admission": false
+}

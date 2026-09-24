@@ -1,0 +1,41 @@
+{
+  "schema": "real_csr_sparse_overlay_gate_v1",
+  "date": "2026-09-24",
+  "question": "Can source substitutions and temporary weight patches be represented as a sparse algebraic delta over the frozen whole-brain CSR, including ordinary and visual E/I channels?",
+  "relation_to_plan_01": "Prospective second, distinct CPU primitive after one full-special-row fallback pass fit but two exceeded A's nominal residual. No organism replay and no claim that all row owners are implemented.",
+  "inputs_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "block_inputs.npz": "ee5e9f3cba91927ad1b47f229837a4b06551b14d7d583dbdd9f92bd295cbae85",
+    "block_inputs.json": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "final_state/session.json": "e19e7f0a2ccf1e4d887e6dfd8fac854b2df69c7a64fa12e5a01edffbddefd89c"
+  },
+  "fixture": {
+    "captured_state_indices": [2, 59],
+    "weight_patches": "Use actual 629-element PN general transmission vector for PN positions; apply a deterministic 0.7+0.2*sin(index) factor for APL positions. These APL factors are structural test data, not the organism's release.",
+    "substitutions": "Set PN/APL source release to 1 and PNKC source release to 0.5*old+0.01. These PNKC values are structural test data, not a biological model.",
+    "channels": "Ordinary signed current and separate visual positive/negative conductances with actual caps, visual mask, connected flag and stored-weight scale.",
+    "invalidation": "A patched-weight token, a source-release token, and an event token must all match before reuse; stale tokens rejected. Query A-B-A from the two actual saved states and require A restoration."
+  },
+  "gates_frozen": {
+    "delta_edge_union_fraction_max": 0.05,
+    "identity_max_abs": 1e-8,
+    "stale_token_rejections_min": 3,
+    "status_if_pass": "SPARSE_DELTA_PRIMITIVE_ONLY"
+  },
+  "rivals": {
+    "A": "Exact sparse overlays for dynamic weights and source substitutions; specialized owner row callbacks still required.",
+    "B": "Spatial partition with certified residual, not decided by this primitive.",
+    "C": "Exact native runtime, not decided by this primitive."
+  },
+  "budget": {
+    "executions": 1,
+    "cpu_wall_seconds_max": 120,
+    "ram_gib_max": 3,
+    "gpu_seconds": 0,
+    "output_bytes_max": 1048576
+  },
+  "stage_admission": false
+}

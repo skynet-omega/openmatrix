@@ -1,0 +1,15 @@
+{
+  "schema": "sparse_overlay_cuda_compile_repair_v1",
+  "date": "2026-09-24",
+  "failure": "run_03/FAILURE.json",
+  "allowed_change": "Remove #include <math.h> and #include <stdint.h> from owner_overlay.cu because NVRTC could not locate a transitive glibc header. No kernel arithmetic, row assignment, state, fixture or gate changes.",
+  "attempts": 1,
+  "output": "run_04 unique",
+  "inherited_gate": "PLAN_03.json unchanged",
+  "budget": {
+    "wall_seconds_max": 90,
+    "ram_gib_max": 2,
+    "vram_gib_additional_max": 1,
+    "output_bytes_max": 1048576
+  }
+}

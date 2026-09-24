@@ -1,0 +1,54 @@
+{
+  "schema": "real_csr_sparse_overlay_gate_result_v1",
+  "status": "COMPLETE",
+  "plan_sha256": "8ec6098ff664415350b0dbe3253613acd1b3ec0a4838eb99773186b81167628e",
+  "script_sha256": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571",
+  "input_sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "block_inputs.npz": "ee5e9f3cba91927ad1b47f229837a4b06551b14d7d583dbdd9f92bd295cbae85",
+    "block_inputs.json": "da1b265527532ee1fc912b1b5faa4a749ce34045d8360f7659ae9c5ac879dbb0",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "final_state/session.json": "e19e7f0a2ccf1e4d887e6dfd8fac854b2df69c7a64fa12e5a01edffbddefd89c"
+  },
+  "captured_state_indices": [
+    2,
+    59
+  ],
+  "base_csr_edges": 25582938,
+  "port_source_count": 4062,
+  "port_csr_edges": 885587,
+  "patch_positions_pn": 629,
+  "patch_positions_apl": 5845,
+  "patch_positions_union": 6474,
+  "substituted_sources_union": 301,
+  "substituted_source_edges": 140489,
+  "delta_edge_union": 140489,
+  "delta_edge_union_fraction": 0.005491511569155974,
+  "identity_max_abs_by_state_and_channel": [
+    {
+      "ordinary_signed": 8.731149137020111e-11,
+      "visual_positive": 5.551115123125783e-16,
+      "visual_negative": 4.440892098500626e-16
+    },
+    {
+      "ordinary_signed": 1.0186340659856796e-10,
+      "visual_positive": 2.220446049250313e-16,
+      "visual_negative": 1.1102230246251565e-16
+    }
+  ],
+  "identity_max_abs_all": 1.0186340659856796e-10,
+  "stale_token_rejections": 3,
+  "restored_A_token_valid": true,
+  "gates": {
+    "identity": true,
+    "delta_fraction": true,
+    "versions": true
+  },
+  "classification": "SPARSE_DELTA_PRIMITIVE_ONLY",
+  "scope": "Base CSR with actual graph and captured release; actual PN factors, synthetic APL factors and PNKC release. Visual E/I handled separately. Does not reproduce full owner target/rate, CNS state, or organism time.",
+  "stage_admission": false,
+  "wall_s": 6.314826633999473,
+  "maxrss_kib": 711456
+}

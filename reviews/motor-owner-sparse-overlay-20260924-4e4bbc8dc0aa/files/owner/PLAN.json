@@ -1,0 +1,31 @@
+{
+  "schema": "owner_fallback_edge_gate_v1",
+  "date": "2026-09-24",
+  "question": "Does a faithful full-CSR fallback for all specialized receiver rows fit the residual six-sweep budget of the proposed multirate block?",
+  "input": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "executed_gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "a_waveform_cpu.py": "22b3b51f958732bcd6a5cf16be1b140a989155aec4e87a2d90a64ad27fabad50"
+  },
+  "measurement": "Exact base-CSR incidence of the conservative union of owner-overridden rows, patched-weight destinations, and all destinations of substituted sources. Count each graph edge once in the union, plus each category separately. Compare one full-row fallback pass with the 0.273-sweep nominal remainder. This is an edge-count gate, not a runtime benchmark or proof that a custom owner kernel cannot fit.",
+  "thresholds_frozen": {
+    "base_edges_expected": 25582938,
+    "special_rows_expected": 26044,
+    "residual_full_sweep_fraction": 0.273,
+    "decision": "If one full-row fallback pass exceeds the residual fraction, rule out that fallback within A's six-sweep first-block contract. Otherwise retain only as unmeasured candidate."
+  },
+  "rivals": {
+    "A": "Versioned continuous/event split with specialized owner callbacks; full-row fallback is the conservative first implementation measured here.",
+    "B": "Spatial compression/partition with exact residual; cost depends on cut and cannot be inferred from this receiver-row count.",
+    "C": "Exact native runtime preserves the old coefficient; this test does not estimate its wall time."
+  },
+  "budget": {
+    "executions": 1,
+    "wall_seconds_max": 90,
+    "ram_gib_max": 2,
+    "gpu_seconds": 0,
+    "output_bytes_max": 1048576
+  },
+  "stage_admission": false
+}

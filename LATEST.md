@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-feedback-motor-profile-20260924](reviews/stage45-feedback-motor-profile-20260924-bfb9e07c1203/README.md)
+[motor-owner-sparse-overlay-20260924](reviews/motor-owner-sparse-overlay-20260924-4e4bbc8dc0aa/README.md)
 
-Cribas físicas y geométricas de Etapas 4/5, negativas preservadas y perfil real de llamadas GPU/CPU. Los checkpoints del organismo no están incluidos; esta entrega no reproduce una corrida completa ni acredita navegación o aceleración.
+Real 166700-neuron CSR sparse owner overlay CPU/CUDA primitive and portable 5.55MB capsule; PN factor real, APL/PNKC factors synthetic. No full owner target/rate identity, organism trajectory, integral speedup or Stage4/5 claim. First CUDA compile failure preserved and repaired prospectively.
