@@ -1,0 +1,22 @@
+{
+  "schema": "owner_precedence_repair_v2",
+  "date": "2026-09-24",
+  "invalid_v1_result_sha256": "2b63cc758900960f3a04524041508244184a9ce56dca396338cd5386fa0bf67b",
+  "v1_source_sha256": "be0b40cd685a53871ddefb17546ca2a76bd904eda28a94cab85dfc66af62b1c5",
+  "allowed_change": "Classify measured_t4 and t4_gaba as additive target-only operations, not rate writers. Report set/add/transform semantics and separate final touch from effective contribution; no claim that overlap nullifies a predecessor. Keep graph rows/order and all other flags fixed.",
+  "verified_semantic_sources_sha256": {
+    "gpu_measured_t4_visual_brain.py": "e852f313c80e28ca86e546f8cc9d148ff7093088f63e2e8ca6c4f24fafa47cf5",
+    "t4_gaba_brain.py": "08496a69ae70467a591530a8330eab21fb8664a3582e0eaab1f95d5fc6b51bb2",
+    "orn_peripheral_terminal.py": "7c65535a50193acc249b173d29d80934563d47a80cd493423afd94c2a0399043",
+    "cyborg_retinal_port.py": "eb2bd8731305d1664da04b0e6e13d4cc3c312af729f5af59793da378157b4328",
+    "retinal_transduction_brain.py": "8400c52cb3e8618d92b6aebd04160fbf660f32be83c39b0f5de37e60065c4476",
+    "lamina_boundary_brain.py": "4594ceeab95732e910d3ebfc5274300301d7c5c6b37217ba61b265899291203b"
+  },
+  "attempts": 1,
+  "budget": {
+    "wall_seconds_max": 30,
+    "ram_gib_max": 2,
+    "output_bytes_max": 1048576
+  },
+  "scope": "Conservative static row touch order, not live coefficients or owner-enabled certainty."
+}

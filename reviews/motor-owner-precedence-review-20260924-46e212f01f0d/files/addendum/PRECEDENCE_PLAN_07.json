@@ -1,0 +1,35 @@
+{
+  "schema": "owner_write_precedence_screen_v1",
+  "date": "2026-09-24",
+  "question": "Which neuron target/rate rows have multiple potential writers in the frozen coefficient wrapper order?",
+  "scope": "Conservative structural map of row overrides in the captured layout. Owner enable flags and conditional branches are not interpreted as proof of an executed write; source substitutions and appended non-neuron state are separately excluded. This is a test-selection screen, not a full coefficient reconstruction.",
+  "frozen_inputs_sha256": {
+    "gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631"
+  },
+  "ordered_writers_after_base": [
+    "measured_t4", "cyborg_retinal_port", "pvlp_adaptation", "orn_pn",
+    "regional", "t4_gaba", "retinal_transduction", "cvn7", "lamina_boundary",
+    "pnkc_receptor", "kcgamma_output", "kc_apl_dynamic", "orn_terminal"
+  ],
+  "frozen_checks": {
+    "neurons": 166700,
+    "reject_if_wrapper_order_changed": true,
+    "report_target_rate_separately": true,
+    "report_pairwise_intersections": true,
+    "no_stage_or_speed_claim": true
+  },
+  "rivals": {
+    "A": "Prioritized owner callbacks after sparse dynamic base correction; use collision map to choose identity probes.",
+    "B": "Partition/residual path remains independent of this owner order screen.",
+    "C": "Exact native port must reproduce this order as well."
+  },
+  "budget": {
+    "executions": 1,
+    "wall_seconds_max": 30,
+    "ram_gib_max": 2,
+    "gpu_seconds": 0,
+    "output_bytes_max": 1048576
+  }
+}

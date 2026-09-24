@@ -1,0 +1,9 @@
+{
+  "schema": "owner_precedence_interpretation_correction_v1",
+  "status": "INVALID_FOR_RATE_WRITERS_AND_SET_SEMANTICS",
+  "result_v1_sha256": "2b63cc758900960f3a04524041508244184a9ce56dca396338cd5386fa0bf67b",
+  "source_v1_sha256": "be0b40cd685a53871ddefb17546ca2a76bd904eda28a94cab85dfc66af62b1c5",
+  "finding": "The Mi9 and T4 GABA kernels execute target[row] += ... and receive rate as const; they do not write rate. The v1 static map counted them as target+rate set writers, so its rate and final-writer-pair counts cannot be interpreted. Multiple target touches do not imply earlier additive contributions were erased.",
+  "scientific_state_changed": false,
+  "repair": "Prospective v2 reclassifies set/add/transform and counts only genuine rate writes; the original result remains unchanged."
+}

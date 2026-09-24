@@ -1,0 +1,16 @@
+{
+  "schema": "chatgpt_provider_cpu_replay_v1",
+  "date": "2026-09-24",
+  "source": "chatgpt_original/proveedor_versionado.py",
+  "local_source_sha256": "6244c2339c2ec7a68c386d37576ad4f6a57124258f7741771bd5f2a31526d79a",
+  "provenance": "First fenced Python code from ChatGPT reply to the pinned a5e0f267 review request. Its claimed module SHA256 differs from the locally extracted text, so this source is treated as a transcript extraction, not a byte-identical downloaded artifact. Code inspected for local compilation/no network before running.",
+  "test": "Run its --selftest synthetic CPU fixture once; require COMPLETE_CPU_FIXTURE and no errors. Preserve any failure. Do not infer real-graph identity, CUDA, owner coverage or speedup.",
+  "budget": {
+    "executions": 1,
+    "wall_seconds_max": 120,
+    "ram_gib_max": 2,
+    "gpu_seconds": 0,
+    "output_bytes_max": 1048576
+  },
+  "stage_admission": false
+}

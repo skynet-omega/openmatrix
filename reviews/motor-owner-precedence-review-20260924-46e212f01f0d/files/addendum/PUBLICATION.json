@@ -1,0 +1,145 @@
+{
+  "commit": "34d2d5c9be1df260837f0402183de043e4f8acd7",
+  "snapshot": "reviews/motor-owner-sparse-overlay-20260924-4e4bbc8dc0aa",
+  "manifest_public_verified": true,
+  "all_binary_downloads_verified": false,
+  "url": "https://github.com/skynet-omega/openmatrix/tree/34d2d5c9be1df260837f0402183de043e4f8acd7/reviews/motor-owner-sparse-overlay-20260924-4e4bbc8dc0aa",
+  "raw_index": "https://raw.githubusercontent.com/skynet-omega/openmatrix/34d2d5c9be1df260837f0402183de043e4f8acd7/reviews/motor-owner-sparse-overlay-20260924-4e4bbc8dc0aa/README.md",
+  "files": [
+    {
+      "path": "owner/README.md",
+      "bytes": 4171,
+      "sha256": "f6a7fcad8f6b71003d3b47c64eb85a9c7fa685ce2273263d95a626ec0e306d3b"
+    },
+    {
+      "path": "owner/PLAN.json",
+      "bytes": 1986,
+      "sha256": "a733ec38acf778c56262b6e111240ad4b7641ef6c2548bf2483d8149217743e7"
+    },
+    {
+      "path": "owner/PLAN_02.json",
+      "bytes": 2682,
+      "sha256": "8ec6098ff664415350b0dbe3253613acd1b3ec0a4838eb99773186b81167628e"
+    },
+    {
+      "path": "owner/PLAN_03.json",
+      "bytes": 1746,
+      "sha256": "742353caa67523db0a566ee70b0ebf1e1bdc2ee49bcdfc6837f14ffb21edc91a"
+    },
+    {
+      "path": "owner/REPAIR_PLAN_04.json",
+      "bytes": 565,
+      "sha256": "589bf0ea67f3f45946c06673e3a702a1f3b2bcc057a86e8f7492660e45795104"
+    },
+    {
+      "path": "owner/CAPSULE_PLAN_05.json",
+      "bytes": 1512,
+      "sha256": "e1c63ddb95ebd13f0f58f4c348d810aceac56e40699449fc8e814cef7a3d98e4"
+    },
+    {
+      "path": "owner/count_fallback_edges.py",
+      "bytes": 7734,
+      "sha256": "e4e178d9325d92b2f478b4713b0a83e9a12ea00a588c1481a5b756abfd6f55b0"
+    },
+    {
+      "path": "owner/sparse_overlay_cpu.py",
+      "bytes": 12842,
+      "sha256": "6adaa2858c476f99ed315ef762606dc9f1d26558ccf8d7252613d67ab1060571"
+    },
+    {
+      "path": "owner/owner_overlay_v1.cu",
+      "bytes": 1897,
+      "sha256": "c30b5e303b21a7e50954096eb407774650849c483b849cf94de52bc7c1a3b295"
+    },
+    {
+      "path": "owner/owner_overlay.cu",
+      "bytes": 1858,
+      "sha256": "7b2f2115ef7d11a2086bd544edb2d0087a5eadc8c2c0f005d667c593f8a56760"
+    },
+    {
+      "path": "owner/run_overlay_cuda.py",
+      "bytes": 10325,
+      "sha256": "232d17b09e9ec867fc8d806d0f0ff9a462e9f398abc9f42e688cc544372e5c17"
+    },
+    {
+      "path": "owner/build_capsule.py",
+      "bytes": 7662,
+      "sha256": "03c56bd1b4cc62c4406d5b6d6eb6be98042b352e2ef32bcf1e4f8b7a137ceaa2"
+    },
+    {
+      "path": "owner/verify_capsule.py",
+      "bytes": 5892,
+      "sha256": "c4fbde2f44f2710f14f8818c15bf86cb2024021009e01429962233ca9e3bfc34"
+    },
+    {
+      "path": "owner/run_01/RESULT.json",
+      "bytes": 2937,
+      "sha256": "cc087f101f5d2b8390c2f7e8b45b11ca153cf744df66ba58a004849da4d1fb95"
+    },
+    {
+      "path": "owner/run_02/RESULT.json",
+      "bytes": 2259,
+      "sha256": "3a9c1b22940ebe609541fe0d247efab3b75fed4a6e41386eb0b5459ba10cdbbf"
+    },
+    {
+      "path": "owner/run_03/FAILURE.json",
+      "bytes": 722,
+      "sha256": "bc2822cb9d425673ce1ded92602363556d62f22d67184cc5d4e69d572b28954e"
+    },
+    {
+      "path": "owner/run_04/RESULT.json",
+      "bytes": 1386,
+      "sha256": "9e6ec5eead8a93b739a8a6fda90d3b93837e0cd2d9ae6e4a144dc6a7fc2fd010"
+    },
+    {
+      "path": "owner/capsule_01/capsule.npz",
+      "bytes": 5547443,
+      "sha256": "36e5a64f9830b24344dfac03c90a50ced78be04d205354136548750fcdb845d4"
+    },
+    {
+      "path": "owner/capsule_01/META.json",
+      "bytes": 1204,
+      "sha256": "05fa1ce7e18c5e2a3884d0374db96515b1a6d3a35239927e5ca7f7ff4504ac40"
+    },
+    {
+      "path": "owner/capsule_01/MANIFEST.json",
+      "bytes": 507,
+      "sha256": "6997c00c8b5d53506275b54a1365649f9e26bac6f72c2120ff85992ff414feea"
+    },
+    {
+      "path": "owner/capsule_01/RESULT.json",
+      "bytes": 762,
+      "sha256": "2f082bc470bc16bbf65413ea598842e605c60c3ae0bcc7f2f52ce5b2356fabfc"
+    },
+    {
+      "path": "owner/VERIFY_O_01.json",
+      "bytes": 317,
+      "sha256": "52cac320874c1be658219178e20a319000293097def2da6f9c0dd66530897f53"
+    },
+    {
+      "path": "legacy/gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "legacy/gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "legacy/kc_apl_dynamic_brain.py",
+      "bytes": 16023,
+      "sha256": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4"
+    },
+    {
+      "path": "legacy/pn_general_output_brain.py",
+      "bytes": 7255,
+      "sha256": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4"
+    },
+    {
+      "path": "legacy/pnkc_receptor_brain.py",
+      "bytes": 14397,
+      "sha256": "7e204d94fcd0a0297042a45f824b470534e6efe2efbaf7d259e93f654af5825d"
+    }
+  ]
+}

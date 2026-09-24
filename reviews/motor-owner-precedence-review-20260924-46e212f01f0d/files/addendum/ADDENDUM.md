@@ -1,0 +1,11 @@
+# Revisión de propietarios posterior a la cápsula GPU
+
+El [paquete principal](https://github.com/skynet-omega/openmatrix/tree/34d2d5c9be1df260837f0402183de043e4f8acd7/reviews/motor-owner-sparse-overlay-20260924-4e4bbc8dc0aa) conserva fuentes, cápsula portátil de5,55MB, fallo inicial de compilación y reparación CUDA. Su ZIP se descargó íntegro:27 archivos/5.599.737bytes. El verificador de la cápsula extraída pasó en Python normal y `-O`; reproduce sólo la primitiva dispersa.
+
+Este complemento registra tres revisiones sin cambiar el resultado principal:
+
+1. La primera criba de precedencia (`precedence_01`) clasificó por error las correcciones Mi9 y T4 GABA como escrituras de `rate`. Sus kernels suman al `target` y reciben `rate` como constante. El resultado inicial quedó **invalidado para tasa e interpretación de reemplazo**; la versión corregida (`precedence_02`) cuenta operaciones potenciales `set/add/transform`. En ella,6.852 filas T4 reciben ambas sumas de target,3.021 filas retinales tienen dos sets potenciales y1.375 filas PNKC son tocadas también por la dinámica KC/APL. Son prioridades de verificación, no evidencia de qué rama se ejecutó en un estado concreto.
+2. Jev respondió a una sola consulta Choice. Priorizó B/partición con residual (0,61; confianza0,42) y la precedencia de propietarios como primer riesgo (0,68; confianza0,52). No ejecutó código, y la consulta no incorporó el negativo previo de localidad del grafo; su clasificación no es una decisión científica.
+3. ChatGPT entregó código para un proveedor CPU `continuous/event/owner` con fallback íntegro obligatorio. El texto extraído de la conversación tiene un hash distinto del declarado por ChatGPT; se registró esa limitación. Su fixture sintético se compiló y pasó localmente en0,25s, pero **consultó el oráculo completo en cada llamada** y no usó el conectoma real, CUDA ni MuJoCo. Conservarlo como arnés de identidad, no como motor rápido.
+
+La ruta A sigue exigiendo `target/rate` efectivos en estados candidatos, incluida prioridad de operaciones, puertos fechados y presupuesto total de aristas. B y C continúan rivales. Ninguna etapa cambió de estado ni se midió aceleración integral en este complemento.

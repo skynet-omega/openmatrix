@@ -1,0 +1,217 @@
+{
+  "schema": "owner_write_precedence_screen_result_v2",
+  "status": "COMPLETE_CONSERVATIVE_STATIC",
+  "plan_sha256": "342b1b2834080a146d24c993845057825db536c32c5247df7bbaac4cab187a9b",
+  "original_plan_sha256": "796337068b3ee571600f7a0d1e24c0db3971c216661b0e7cd37388d4c0492cda",
+  "script_sha256": "6b4ca9bea89215046607244a07e6a4bddb80459ce3661522bf2fdb2e80dee782",
+  "frozen_inputs_sha256": {
+    "gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631"
+  },
+  "neurons": 166700,
+  "owner_writers": [
+    {
+      "label": "measured_t4",
+      "wrapper": "_GpuMeasuredT4VisualBrain",
+      "row_key": "_mi9_cuda/rows",
+      "potential_rows": 6853,
+      "target_operation": "add",
+      "rate_operation": null
+    },
+    {
+      "label": "cyborg_retinal_port",
+      "wrapper": "_GpuCyborgRetinalPortBrain",
+      "row_key": "_retinal_port_cuda_rows",
+      "potential_rows": 3021,
+      "target_operation": "set",
+      "rate_operation": "set"
+    },
+    {
+      "label": "pvlp_adaptation",
+      "wrapper": "_GpuPvlpAdaptationBrain",
+      "row_key": "_pvlp_cuda_rows",
+      "potential_rows": 3,
+      "target_operation": "set",
+      "rate_operation": null
+    },
+    {
+      "label": "orn_pn",
+      "wrapper": "_GpuProstheticOlfactoryBrain",
+      "row_key": "_orn_pn_cuda/pn_rows",
+      "potential_rows": 2,
+      "target_operation": "set",
+      "rate_operation": null
+    },
+    {
+      "label": "regional",
+      "wrapper": "_GpuKcGammaRegionalBrain",
+      "row_key": "_regional_cuda/rows",
+      "potential_rows": 1611,
+      "target_operation": "set",
+      "rate_operation": null
+    },
+    {
+      "label": "t4_gaba",
+      "wrapper": "_GpuT4GabaBrain",
+      "row_key": "_gaba_cuda/rows",
+      "potential_rows": 6860,
+      "target_operation": "add",
+      "rate_operation": null
+    },
+    {
+      "label": "retinal_transduction",
+      "wrapper": "_GpuRetinalTransductionBrain",
+      "row_key": "_retinal_cuda/rows",
+      "potential_rows": 3021,
+      "target_operation": "set",
+      "rate_operation": "set"
+    },
+    {
+      "label": "cvn7",
+      "wrapper": "_GpuCvn7ConductanceBrain",
+      "row_key": "_cvn7_cuda_rows",
+      "potential_rows": 2,
+      "target_operation": "set",
+      "rate_operation": "set"
+    },
+    {
+      "label": "lamina_boundary",
+      "wrapper": "_GpuLaminaBoundaryBrain",
+      "row_key": "_boundary_cuda/rows",
+      "potential_rows": 1771,
+      "target_operation": "transform",
+      "rate_operation": "transform"
+    },
+    {
+      "label": "pnkc_receptor",
+      "wrapper": "_GpuPnkcReceptorBrain",
+      "row_key": "_pnkc_cuda/rows",
+      "potential_rows": 1375,
+      "target_operation": "set",
+      "rate_operation": null
+    },
+    {
+      "label": "kcgamma_output",
+      "wrapper": "_GpuKcGammaOutputBrain",
+      "row_key": "_output_cuda/rows",
+      "potential_rows": 791,
+      "target_operation": "set",
+      "rate_operation": null
+    },
+    {
+      "label": "kc_apl_dynamic",
+      "wrapper": "_GpuKcAplDynamicBrain",
+      "row_key": "_dynamic_gpu_rows",
+      "potential_rows": 4064,
+      "target_operation": "set",
+      "rate_operation": "set"
+    },
+    {
+      "label": "orn_terminal",
+      "wrapper": "_OrnPeripheralTerminalMixin",
+      "row_key": "_orn_terminal_cuda/rows",
+      "potential_rows": 74,
+      "target_operation": "set",
+      "rate_operation": null
+    }
+  ],
+  "potential_target_override_union": 16518,
+  "potential_rate_override_union": 8858,
+  "rows_with_multiple_potential_target_writers": 11555,
+  "rows_with_multiple_potential_rate_writers": 3021,
+  "rows_with_different_last_target_and_rate_touch": 7660,
+  "intersections": [
+    {
+      "earlier": "measured_t4",
+      "later": "t4_gaba",
+      "rows": 6852
+    },
+    {
+      "earlier": "cyborg_retinal_port",
+      "later": "retinal_transduction",
+      "rows": 3021
+    },
+    {
+      "earlier": "regional",
+      "later": "kc_apl_dynamic",
+      "rows": 1559
+    },
+    {
+      "earlier": "regional",
+      "later": "pnkc_receptor",
+      "rows": 1375
+    },
+    {
+      "earlier": "pnkc_receptor",
+      "later": "kc_apl_dynamic",
+      "rows": 1375
+    },
+    {
+      "earlier": "kcgamma_output",
+      "later": "kc_apl_dynamic",
+      "rows": 123
+    }
+  ],
+  "last_touch_pair_histogram": [
+    {
+      "target": "t4_gaba",
+      "rate": "base",
+      "rows": 6860
+    },
+    {
+      "target": "kc_apl_dynamic",
+      "rate": "kc_apl_dynamic",
+      "rows": 4064
+    },
+    {
+      "target": "retinal_transduction",
+      "rate": "retinal_transduction",
+      "rows": 3021
+    },
+    {
+      "target": "lamina_boundary",
+      "rate": "lamina_boundary",
+      "rows": 1771
+    },
+    {
+      "target": "kcgamma_output",
+      "rate": "base",
+      "rows": 668
+    },
+    {
+      "target": "orn_terminal",
+      "rate": "base",
+      "rows": 74
+    },
+    {
+      "target": "regional",
+      "rate": "base",
+      "rows": 52
+    },
+    {
+      "target": "pvlp_adaptation",
+      "rate": "base",
+      "rows": 3
+    },
+    {
+      "target": "orn_pn",
+      "rate": "base",
+      "rows": 2
+    },
+    {
+      "target": "cvn7",
+      "rate": "cvn7",
+      "rows": 2
+    },
+    {
+      "target": "measured_t4",
+      "rate": "base",
+      "rows": 1
+    }
+  ],
+  "interpretation_limit": "Potential row touches from source order, regardless of conditional enablement. Add and transform operations retain earlier values; last touch is not sole causal owner. Base target/rate and source substitutions still need live candidate verification.",
+  "stage_admission": false,
+  "wall_s": 0.047855288998107426,
+  "maxrss_kib": 121300
+}

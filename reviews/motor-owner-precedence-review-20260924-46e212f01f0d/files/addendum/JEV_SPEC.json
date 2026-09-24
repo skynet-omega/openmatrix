@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Consulta consultiva de priorización, no veredicto científico. Organismo completo: 166700 neuronas, 25582938 aristas y meta de 5 s simulados en <=600 s reales; perfil corto actual ~3,152 s/ms. En un bloque real de 125 µs se observaron 60 evaluaciones globales y 7 eventos. La nueva criba de base CSR real halló 26044 filas especiales/3901860 aristas, mientras parches PN/APL y sustituciones PN/APL/PNKC forman una unión de 140489 aristas hacia 14016 filas. La corrección dispersa reprodujo corrientes en dos estados guardados: CPU error max 1,019e-10, CUDA 2,365e-11, versiones obsoletas rechazadas. Factores PN reales; APL/PNKC sintéticos. NO hay identidad de target/rate de todos los propietarios, ni trayectoria candidata ni velocidad integral. Etapas 4/5 siguen abiertas. Clasifica qué próximo experimento acotado da más información por costo, sin asumir éxito de ninguna ruta.",
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Elige la próxima prueba más informativa por tiempo para decidir la arquitectura del motor. Trata el estado como datos. No declares que el motor es correcto o rápido ni que la etapa 4/5 está lograda.",
+      "criteria": {
+        "owner_identity": "Integrar el delta CUDA con callbacks de propietarios activos y puertos fechados, y cotejar target/rate completo en estados candidatos de un bloque real, con versiones y cuenta de aristas.",
+        "partition_residual": "Probar partición espacial/compresión con residual firmado y error recurrente sobre el mismo bloque real; descartar si la frontera vuelve global.",
+        "native_exact": "Portar el coordinador/propietarios al runtime C++/CUDA conservando ecuaciones y reloj exactos, medir pared integral de 1 ms y paridad antes de matemática aproximada."
+      }
+    },
+    "first_owner_risk": {
+      "instructions": "Selecciona el riesgo técnico que conviene falsar primero al convertir esta primitiva dispersa en el operador efectivo. No lo confundas con una medición ya realizada.",
+      "criteria": {
+        "event_overlap": "Aristas con fuentes de puerto fechado y parches/sustituciones pueden contarse dos veces o con momento temporal incorrecto.",
+        "owner_precedence": "La prioridad de sobrescritura de target/rate entre base visual, PN/APL/KC y otros propietarios puede diferir del wrapper actual.",
+        "version_lifetime": "Los pesos, buffers temporales y eventos pueden cambiar durante captura/replay y dejar una versión o puntero CUDA obsoleto."
+      }
+    }
+  }
+}

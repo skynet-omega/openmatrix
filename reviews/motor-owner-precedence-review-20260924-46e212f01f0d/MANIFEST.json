@@ -1,0 +1,102 @@
+{
+  "format_version": 2,
+  "label": "motor-owner-precedence-review-20260924",
+  "description": "Correction of static set/add/transform owner precedence, one Jev advisory response, and locally replayed ChatGPT CPU strict-fallback fixture. Original GPU sparse overlay remains a primitive, not full motor or Stage4/5 admission.",
+  "files": [
+    {
+      "path": "addendum/ADDENDUM.md",
+      "bytes": 2252,
+      "sha256": "2c55a625ab0ebcde7393949cce2e6251dd0e88ff960e53f33cdb8a23255939c9"
+    },
+    {
+      "path": "addendum/PRECEDENCE_PLAN_07.json",
+      "bytes": 1766,
+      "sha256": "796337068b3ee571600f7a0d1e24c0db3971c216661b0e7cd37388d4c0492cda"
+    },
+    {
+      "path": "addendum/owner_precedence_screen_v1.py",
+      "bytes": 7839,
+      "sha256": "be0b40cd685a53871ddefb17546ca2a76bd904eda28a94cab85dfc66af62b1c5"
+    },
+    {
+      "path": "addendum/precedence_01/RESULT.json",
+      "bytes": 5620,
+      "sha256": "2b63cc758900960f3a04524041508244184a9ce56dca396338cd5386fa0bf67b"
+    },
+    {
+      "path": "addendum/precedence_01/INTERPRETATION_INVALID.json",
+      "bytes": 802,
+      "sha256": "6f110ee1575594afa4c56c4cc7e7b68d4c7a49199e6e764c2ef44b77d3c5550b"
+    },
+    {
+      "path": "addendum/PRECEDENCE_REPAIR_PLAN_08.json",
+      "bytes": 1419,
+      "sha256": "342b1b2834080a146d24c993845057825db536c32c5247df7bbaac4cab187a9b"
+    },
+    {
+      "path": "addendum/owner_precedence_screen.py",
+      "bytes": 8687,
+      "sha256": "6b4ca9bea89215046607244a07e6a4bddb80459ce3661522bf2fdb2e80dee782"
+    },
+    {
+      "path": "addendum/precedence_02/RESULT.json",
+      "bytes": 5832,
+      "sha256": "e0005722409fcb6e27357d67222d7f187fb88ee43033cd710bf091de4a5371df"
+    },
+    {
+      "path": "addendum/JEV_SPEC.json",
+      "bytes": 2566,
+      "sha256": "e56b6bfbfdd2f1d40600126aeb39d7cb504ceb59deb04076dcbb7e077a12b226"
+    },
+    {
+      "path": "addendum/jev_01/request.json",
+      "bytes": 2559,
+      "sha256": "e13ce68d86be3858f8156f700b7e821ef9f48ffafd89df632140b3f4ea80476a"
+    },
+    {
+      "path": "addendum/jev_01/response.json",
+      "bytes": 459,
+      "sha256": "ba7805192640c2a2b816f232f405ec3def2fc87498886bea75d48d22781170ca"
+    },
+    {
+      "path": "addendum/jev_01/receipt.json",
+      "bytes": 402,
+      "sha256": "f8cf8e13f19880cdbf0ee8f62ef957aa302157cdded2e4cb6f6490b2b33116f3"
+    },
+    {
+      "path": "addendum/CHATGPT_REPLAY_PLAN_06.json",
+      "bytes": 917,
+      "sha256": "9c8fd9602c49ee2536f9983224d635cab8fd4385b77a0ecad6b067871af8acac"
+    },
+    {
+      "path": "addendum/chatgpt_original/proveedor_versionado.py",
+      "bytes": 14310,
+      "sha256": "6244c2339c2ec7a68c386d37576ad4f6a57124258f7741771bd5f2a31526d79a"
+    },
+    {
+      "path": "addendum/chatgpt_cpu_01/RESULT.json",
+      "bytes": 4586,
+      "sha256": "c69d1a0029726e59f9fbe9fa57bfef48f89948a528db9ba5c92c6a74e8131348"
+    },
+    {
+      "path": "addendum/PUBLICATION.json",
+      "bytes": 4889,
+      "sha256": "3e55cd4537483d3b0d6c9159528a1d0268e529a2c72cb329e01cdfa30b001986"
+    },
+    {
+      "path": "addendum/REMOTE_VERIFY.json",
+      "bytes": 461,
+      "sha256": "c98816dcc89c791705a05c1f23e731ef5120299ea82d0af3d6bd6027af5cc2cb"
+    },
+    {
+      "path": "addendum/COLD_VERIFY_01.json",
+      "bytes": 317,
+      "sha256": "52cac320874c1be658219178e20a319000293097def2da6f9c0dd66530897f53"
+    },
+    {
+      "path": "addendum/COLD_VERIFY_O_01.json",
+      "bytes": 317,
+      "sha256": "52cac320874c1be658219178e20a319000293097def2da6f9c0dd66530897f53"
+    }
+  ]
+}
