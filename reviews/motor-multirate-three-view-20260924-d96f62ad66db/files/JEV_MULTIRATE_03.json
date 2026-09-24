@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Triage only, not scientific validation. Real 166700-neuron/25.58m-edge graded recurrent CNS, 84 physical SET/ADD events and 1146 CSR evaluations in a 1ms sham run. Full organism profile 3.15s/ms vs desired0.06s/ms. Exact successive RHS changes affect median72.0% of edge mass in first64 speculative coefficient calls; 12 backward-time query pairs and ten distinct candidate states at duplicated times. ChatGPT affine W*x cache on those64 calls:26 full products+setup=2.37x work, slower CPU than direct, below frozen10x gate; not a trajectory certificate. Coupled waveform 3-neuron fixture:89 products, residual0.001939>0.001 fail. Fixed-block low rank also fail. All are narrow negatives, not proof a multirate or Krylov method impossible. A generic runtime requires model descriptors, event-time cuts, operator versions, error bounds and fallback.",
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Choose ONE cheapest bounded next experiment likely to change the architecture decision. Rank based on information gain and clear falsifier, not correctness of an untested algorithm.",
+      "criteria": {
+        "incremental_error": "For one existing real RHS trace, compute per-receptor omission debt and scatter cost for CSC updates; reject if bound and update work remain too large.",
+        "coupled_mri": "Implement one event-cut coupled multirate collocation prototype with continuous residual on a short real-operator interval; compare full products, accepted state and wall against strict parent.",
+        "krylov_jvp": "Measure matrix-free JVP spectral/stiffness structure and event-version invalidation on a frozen real state, then trial exponential/Krylov only if few basis vectors meet residual."
+      }
+    },
+    "overclaim": {
+      "instructions": "Which claim is MOST directly refuted or unsupported by the supplied measurements? This is a consistency flag, not a biological verdict.",
+      "criteria": {
+        "fixed_anatomical_lanes": "Assigning all CX/MB to a100-1000ms slow lane based on labels, despite current dense graded coupling and no per-domain error certificate.",
+        "forty_sixty_guarantee": "Predicting40-60 CSR passes/ms from the3-neuron fixture even though its residual failed and89 passes alone exceed the nominal60ms budget at current isolated kernel cost.",
+        "native_runtime_guarantee": "Claiming C++/CUDA port alone meets60ms/ms while unchanged1146 products and non-CNS profile cost remain."
+      }
+    }
+  }
+}

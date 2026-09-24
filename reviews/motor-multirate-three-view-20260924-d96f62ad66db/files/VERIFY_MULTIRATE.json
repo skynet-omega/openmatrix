@@ -1,0 +1,24 @@
+{
+  "schema": "motor_multirate_raw_trace_verify_v1",
+  "status": "PASS",
+  "optimized_python": false,
+  "trace": {
+    "frames": 64,
+    "backward_time_pairs": 12,
+    "unique_times": 42,
+    "max_time_s": 6.238772937484634e-05
+  },
+  "delta": {
+    "median_exact_edge_mass": 0.7201619297986807,
+    "median_1e_minus_6_edge_mass": 0.015306021536697622
+  },
+  "cache": {
+    "full_products": 26,
+    "pass_reduction": 2.3703703703703702,
+    "work_gate": false,
+    "candidate_wall_s": 14.951421762045356,
+    "reference_wall_s": 7.121328233013628
+  },
+  "corruptions_rejected": 2,
+  "scope": "Raw capsule/receipt arithmetic and identities; no GPU output, interval proof, or organism rerun"
+}

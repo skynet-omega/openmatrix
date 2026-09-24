@@ -1,0 +1,88 @@
+{
+  "schema": "same_time_speculative_branch_diagnostic_v1",
+  "input_sha256": "9aabecb6cd5a3dbe5d10d288e4a376d17671237f356f2b6c5ea01ddcc0b5d95f",
+  "unique_timestamps": 42,
+  "repeated_timestamps": 20,
+  "repeated_with_distinct_rhs": 10,
+  "largest_same_time_rhs_difference": 4.163451859939826e-07,
+  "examples": [
+    {
+      "time_s": 4.968700628202702e-05,
+      "indices": [
+        25,
+        28
+      ],
+      "max_abs_rhs_delta": 4.163451859939826e-07,
+      "pairs": [
+        {
+          "a": 25,
+          "b": 28,
+          "max_abs_rhs_delta": 4.163451859939826e-07
+        }
+      ]
+    },
+    {
+      "time_s": 2.8085095064668675e-05,
+      "indices": [
+        19,
+        22
+      ],
+      "max_abs_rhs_delta": 2.3270197063718356e-07,
+      "pairs": [
+        {
+          "a": 19,
+          "b": 22,
+          "max_abs_rhs_delta": 2.3270197063718356e-07
+        }
+      ]
+    },
+    {
+      "time_s": 2.807786315152545e-05,
+      "indices": [
+        55,
+        58
+      ],
+      "max_abs_rhs_delta": 2.3255098108299066e-07,
+      "pairs": [
+        {
+          "a": 55,
+          "b": 58,
+          "max_abs_rhs_delta": 2.3255098108299066e-07
+        }
+      ]
+    },
+    {
+      "time_s": 1.4228095064668675e-05,
+      "indices": [
+        13,
+        16
+      ],
+      "max_abs_rhs_delta": 5.822993975890256e-08,
+      "pairs": [
+        {
+          "a": 13,
+          "b": 16,
+          "max_abs_rhs_delta": 5.822993975890256e-08
+        }
+      ]
+    },
+    {
+      "time_s": 1.4225363151525446e-05,
+      "indices": [
+        49,
+        52
+      ],
+      "max_abs_rhs_delta": 5.8192139384960484e-08,
+      "pairs": [
+        {
+          "a": 49,
+          "b": 52,
+          "max_abs_rhs_delta": 5.8192139384960484e-08
+        }
+      ]
+    }
+  ],
+  "scope": "first64 speculative base CSR queries only, exploratory; branch-specific state is required for memoization",
+  "time_min_s": 0.0,
+  "time_max_s": 6.238772937484634e-05
+}

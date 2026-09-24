@@ -1,0 +1,92 @@
+{
+  "format_version": 2,
+  "label": "motor-multirate-three-view-20260924",
+  "description": "Contraste con tres revisiones del motor multirritmo, correcciones de procedencia, pruebas negativas reales y gate prospectivo. Complementa el paquete e005d91 sin repetir la capsula grande.",
+  "files": [
+    {
+      "path": "MULTIRATE_ADDENDUM_01.md",
+      "bytes": 1904,
+      "sha256": "6d2926030b31882b49518f14f3d08309a1e5783dcd60a6b5d784a7ea9e5c5cb1"
+    },
+    {
+      "path": "MULTIRATE_ASSESSMENT_01.md",
+      "bytes": 8615,
+      "sha256": "fb33428ef72f9d6bf60f13d35a1e741ad6f5b3025b6ffdb4c84f5db5288eadbd"
+    },
+    {
+      "path": "CHATGPT_MULTIRATE_REVIEW_01.md",
+      "bytes": 15583,
+      "sha256": "6adaa404832eada42b28e230120a637fd1ed8c4226e86ba4aa18274f2b7bb91c"
+    },
+    {
+      "path": "SPECIALIST_MULTIRATE_REVIEW_01.md",
+      "bytes": 1899,
+      "sha256": "70102d33797fc02768b08f6a45e6cc63af89eeefa864094bc3483a395578f844"
+    },
+    {
+      "path": "MULTIRATE_NEXT_GATE_01.json",
+      "bytes": 3566,
+      "sha256": "9efb6fde98fa600b8b92341aa754f49d994a05e00b1a539dc76df8f9ea813750"
+    },
+    {
+      "path": "MULTIRATE_REVIEW_REQUEST_01.md",
+      "bytes": 3790,
+      "sha256": "280b4dae5b2e2a9b2fd3a4b145293db3240f0bcb84f452b5ea6a875adf050e0b"
+    },
+    {
+      "path": "MOTOR_DECISION_01.md",
+      "bytes": 12309,
+      "sha256": "17bd7f42caf416cada16cda25ef2140a441893504c8a21ca71c3334d8c10dd11"
+    },
+    {
+      "path": "TRACE_BRANCH_01.json",
+      "bytes": 1954,
+      "sha256": "457f0800971f95ef6bd1a945f306b0b923dcb9bdd8447675ef6165bfdb39a180"
+    },
+    {
+      "path": "TRACE_BRANCH_OUTPUT_01.json",
+      "bytes": 2681,
+      "sha256": "357eebe711113c0b3d255502f9d4cb6cfbea0b5c4440bc853f8a9e88deba260f"
+    },
+    {
+      "path": "JEV_MULTIRATE_03.json",
+      "bytes": 2535,
+      "sha256": "81d65590ab17899b4543dbd84158227879a63b213a6a6d696d35fb2ed0be6525"
+    },
+    {
+      "path": "jev_multirate_03/request.json",
+      "bytes": 2440,
+      "sha256": "4be5bf73db29df6a6e1bf00cfd1cd43d63d10c3297f18a3ca91861da70a85b18"
+    },
+    {
+      "path": "jev_multirate_03/response.json",
+      "bytes": 467,
+      "sha256": "ebcacff0a70ab0ca6b5451e5e913f28995e5795ed84320ef99d461688788ec51"
+    },
+    {
+      "path": "jev_multirate_03/receipt.json",
+      "bytes": 415,
+      "sha256": "ced201e898d013f7259317f6a85eea4519f795f817787cbd72745c555c364159"
+    },
+    {
+      "path": "verify_multirate_evidence.py",
+      "bytes": 7756,
+      "sha256": "c5240a7436ff84dfd3cb487309ea036f90b515b89100845d464086a10395cb54"
+    },
+    {
+      "path": "VERIFY_MULTIRATE.json",
+      "bytes": 692,
+      "sha256": "ce4ddfd96ba386a6fd0da8647f1eecf120a5357c40d43b2346b485dca3efe4c9"
+    },
+    {
+      "path": "VERIFY_MULTIRATE_OPTIMIZED.json",
+      "bytes": 691,
+      "sha256": "175f880e054b321ba9321743886f898df9cf32dc2b3f1fb277682d811a8b9c16"
+    },
+    {
+      "path": "OPENMATRIX_REMOTE_VERIFY_03.json",
+      "bytes": 382,
+      "sha256": "56f2d8a66064bd5a970489cbf1c1e5cedf09478bc6cd27f929f04cc9679a20ad"
+    }
+  ]
+}

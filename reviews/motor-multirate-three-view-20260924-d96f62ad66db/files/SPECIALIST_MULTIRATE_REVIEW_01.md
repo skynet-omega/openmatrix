@@ -1,0 +1,9 @@
+# Síntesis de la revisión especializada
+
+24-09-2026. Síntesis redactada por Codex del subagente de sólo lectura `/root/multirate_biology_review`; es una segunda interpretación, no una reproducción del organismo ni una medición independiente de sus tiempos. El especialista no editó archivos ni ejecutó un motor nuevo.
+
+**Dictamen:** conservar la integración multirritmo como hipótesis numérica general; rechazar una asignación permanente de CX/MB a 100–1.000 ms, ORN/LH/DNb05 a 0,5–5 ms y la predicción de 40–60 barridos/ms como si fueran consecuencias de la biología.
+
+La [medición de ORN](https://pmc.ncbi.nlm.nih.gov/articles/PMC6147046/) encontró primeras espigas desde aproximadamente 3 ms bajo estímulos fuertes, pero latencias más largas a concentraciones bajas. La [lateralización olfativa en marcha](https://pmc.ncbi.nlm.nih.gov/articles/PMC3590906/) relacionó diferencias de respuesta PN de pocos milisegundos con un giro posterior; no midió un reloj universal por región. [P-EN y E-PG en el complejo central](https://elifesciences.org/articles/23496v1) actualizan la representación de rumbo durante los giros, pese a su persistencia entre estímulos. La [anatomía DNb05](https://elifesciences.org/articles/34272) incluye proyecciones a glomérulos olfativos y ópticos; no prueba una única cadena ORN→PN→LH→DNb05→músculo cervical.
+
+El falsador numérico que propuso el especialista es permitir que una región provisionalmente lenta reciba influencias rápidas del resto del grafo y exigir cota del defecto acoplado, salida funcional y tiempos de eventos **entre** muestras. Un evento tardío que se pierda, una deriva en un puerto PN/KC/DN o la ausencia de ahorro de pared del organismo descartan la variante, aunque los estados al final de un intervalo parezcan próximos. Este criterio informa el [gate siguiente](MULTIRATE_NEXT_GATE_01.json).
