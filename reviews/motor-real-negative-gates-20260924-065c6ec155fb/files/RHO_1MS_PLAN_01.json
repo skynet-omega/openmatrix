@@ -1,0 +1,10 @@
+{
+  "schema": "graded_source_weighted_change_diagnostic_v1",
+  "question": "How much of the real CSR's outgoing edge mass originates from transmission coordinates that change across an existing 1 ms sham run?",
+  "input": "fusion_base_1ms_01/final_state/session.npz, array_261; one fresh matching preparation load",
+  "input_sha256": "41cd304000e95870adfe5c228965352e2a90d54e509aeaee164723700d36e746",
+  "budget": {"organism_loads_max": 1, "new_simulated_ms": 0, "gpu_kernel_timings": 0, "wall_seconds_max": 90, "RAM_GiB_max": 18},
+  "diagnostic_thresholds_abs": [0, 1e-12, 1e-9, 1e-6, 1e-4],
+  "identity_requirements": ["prepared initial transmission SHA256 equals batched-csr run RHS0", "effective weight/index SHA256 match prior receipts", "final session state shape and finiteness"],
+  "interpretation_limit": "A one-millisecond endpoint difference is not per-trial sparsity or a certificate that incremental CSC is fast or slow. No candidate promotion from this diagnostic alone."
+}

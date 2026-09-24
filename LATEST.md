@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-architecture-first-cut-20260924](reviews/motor-architecture-first-cut-20260924-3712edf50429/README.md)
+[motor-real-negative-gates-20260924](reviews/motor-real-negative-gates-20260924-065c6ec155fb/README.md)
 
-Motor completo: nueve propuestas, limite condicional de ancho de banda, par real de fusion, contrato de runtime nativo y codigo para revision matematica externa.
+Resultados reales negativos de SpMM batched, FP32, compresion y prueba matematica de transmision graduada; tres rutas generalistas vigentes y falsadores.

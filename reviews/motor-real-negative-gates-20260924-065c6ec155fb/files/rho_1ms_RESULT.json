@@ -1,0 +1,51 @@
+{
+  "schema": "graded_source_weighted_change_result_v1",
+  "status": "COMPLETE",
+  "new_simulated_ms": 0,
+  "stage_admission": false,
+  "neuron_count": 166700,
+  "edge_count": 25582938,
+  "start_sha256": "7d3d18ecdda76c2f99af6354bd5eaa7a420991d985b0828641bea9cab7af7687",
+  "final_state_sha256": "4722b051b0b4ee849c84457484835e9211be1f4089e33fb25307ebfb6ad52b62",
+  "delta_max": 0.049257666896815024,
+  "delta_median": 5.7896992686212734e-08,
+  "thresholds": [
+    {
+      "abs_threshold": 0,
+      "changed_sources": 128255,
+      "source_fraction": 0.769376124775045,
+      "outgoing_edges_from_changed_sources": 18499209,
+      "weighted_rho": 0.7231072912735824
+    },
+    {
+      "abs_threshold": 1e-12,
+      "changed_sources": 123276,
+      "source_fraction": 0.7395080983803239,
+      "outgoing_edges_from_changed_sources": 17341108,
+      "weighted_rho": 0.6778388002191148
+    },
+    {
+      "abs_threshold": 1e-09,
+      "changed_sources": 121052,
+      "source_fraction": 0.7261667666466707,
+      "outgoing_edges_from_changed_sources": 17096919,
+      "weighted_rho": 0.6682938058169863
+    },
+    {
+      "abs_threshold": 1e-06,
+      "changed_sources": 28875,
+      "source_fraction": 0.17321535692861428,
+      "outgoing_edges_from_changed_sources": 5185923,
+      "weighted_rho": 0.20271022038203743
+    },
+    {
+      "abs_threshold": 0.0001,
+      "changed_sources": 4301,
+      "source_fraction": 0.025800839832033594,
+      "outgoing_edges_from_changed_sources": 860751,
+      "weighted_rho": 0.03364551014430008
+    }
+  ],
+  "interpretation_limit": "A one-millisecond endpoint difference is not per-trial sparsity or a certificate that incremental CSC is fast or slow. No candidate promotion from this diagnostic alone.",
+  "wall_seconds": 13.15698619899922
+}

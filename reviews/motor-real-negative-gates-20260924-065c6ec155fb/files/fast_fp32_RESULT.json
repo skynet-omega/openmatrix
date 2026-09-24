@@ -1,0 +1,80 @@
+{
+  "schema": "fp32_fast_csr_preflight_v1",
+  "status": "COMPLETE_NEGATIVE",
+  "organism_trial_ms": 0,
+  "fast_mode_only": true,
+  "stage_admission": false,
+  "loop_edges_per_evaluation": 25582938,
+  "effective_weight_edges_per_evaluation": 25582938,
+  "visual_output_connected": true,
+  "logical_index_and_effective_weight_bytes_per_evaluation": 306995256,
+  "source_sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+  "fast_kernel_sha256": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801",
+  "cases": {
+    "real": {
+      "target_max_abs": 5.232582663272645e-07,
+      "target_worst_row": 12830,
+      "target_ref_at_worst": 0.027463052276787636,
+      "rate_max_scaled": 2.460913677594706e-07,
+      "rate_worst_row": 9553,
+      "target_sign_or_zero_changed": 0
+    },
+    "smooth_1pct": {
+      "target_max_abs": 5.009164044805781e-07,
+      "target_worst_row": 12830,
+      "target_ref_at_worst": 0.03476577052371001,
+      "rate_max_scaled": 1.6647282661621892e-07,
+      "rate_worst_row": 880,
+      "target_sign_or_zero_changed": 0
+    },
+    "near_threshold_1pct": {
+      "target_max_abs": 5.398553598601197e-08,
+      "target_worst_row": 120884,
+      "target_ref_at_worst": 0.2500704583092333,
+      "rate_max_scaled": 1.5502262590352884e-07,
+      "rate_worst_row": 117097,
+      "target_sign_or_zero_changed": 0
+    }
+  },
+  "kernel_ms_samples": {
+    "baseline": [
+      1.397760033607483,
+      1.6414719820022583,
+      1.3957120180130005,
+      1.397760033607483,
+      1.3922879695892334,
+      1.3926399946212769,
+      1.397760033607483,
+      1.3957120180130005,
+      1.598464012145996,
+      1.393664002418518,
+      1.3926399946212769,
+      1.3946880102157593
+    ],
+    "fast": [
+      0.7157760262489319,
+      0.7167999744415283,
+      0.7157760262489319,
+      0.7137280106544495,
+      0.7167999744415283,
+      0.7178239822387695,
+      0.7167999744415283,
+      0.7167999744415283,
+      0.7178239822387695,
+      0.7135999798774719,
+      0.7167999744415283,
+      0.7495359778404236
+    ]
+  },
+  "kernel_ms_median": {
+    "baseline": 1.3957120180130005,
+    "fast": 0.7167999744415283
+  },
+  "fast_kernel_speedup": 1.9471429517006118,
+  "max_target_abs_error": 5.232582663272645e-07,
+  "max_rate_scaled_error": 2.460913677594706e-07,
+  "error_gate": true,
+  "speed_gate": false,
+  "limits": "Only three frozen coefficient inputs and an isolated CSR kernel; no event, long trajectory, specialized models or body comparison",
+  "wall_s": 11.716512173996307
+}

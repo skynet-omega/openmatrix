@@ -1,0 +1,50 @@
+{
+  "schema": "graded_csc_omission_envelope_result_v1",
+  "status": "COMPLETE",
+  "new_simulated_ms": 0,
+  "stage_admission": false,
+  "neuron_count": 166700,
+  "edge_count": 25582938,
+  "visual_scale": 0.03333333333333333,
+  "source_gain_max": 243.88475036621094,
+  "rows": [
+    {
+      "threshold": 1e-12,
+      "omitted_sources": 43424,
+      "input_bound_max": 9.829186148820653e-09,
+      "input_bound_p99": 1.056497243889664e-10,
+      "input_bound_median": 0.0,
+      "rows_bound_over_1e_minus_6": 0,
+      "rows_bound_over_1e_minus_4": 0
+    },
+    {
+      "threshold": 1e-09,
+      "omitted_sources": 45648,
+      "input_bound_max": 6.204247842536242e-06,
+      "input_bound_p99": 1.5157788877012572e-07,
+      "input_bound_median": 6.223257080987513e-19,
+      "rows_bound_over_1e_minus_6": 152,
+      "rows_bound_over_1e_minus_4": 0
+    },
+    {
+      "threshold": 1e-06,
+      "omitted_sources": 137825,
+      "input_bound_max": 0.049703717670676675,
+      "input_bound_p99": 0.0031386803078068157,
+      "input_bound_median": 0.0001750695002611865,
+      "rows_bound_over_1e_minus_6": 150298,
+      "rows_bound_over_1e_minus_4": 103541
+    },
+    {
+      "threshold": 0.0001,
+      "omitted_sources": 162399,
+      "input_bound_max": 2.545266841441577,
+      "input_bound_p99": 0.2056809061988356,
+      "input_bound_median": 0.0023065807208604155,
+      "rows_bound_over_1e_minus_6": 164533,
+      "rows_bound_over_1e_minus_4": 157358
+    }
+  ],
+  "interpretation": "Descriptive only: a one-millisecond endpoint is not the speculative per-trial state, and no threshold is authorized for the motor.",
+  "wall_seconds": 12.968354324999382
+}

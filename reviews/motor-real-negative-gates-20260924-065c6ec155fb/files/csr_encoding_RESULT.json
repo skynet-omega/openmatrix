@@ -1,0 +1,93 @@
+{
+  "schema": "real_csr_lossless_encoding_probe_v1",
+  "status": "COMPLETE",
+  "organism_trial_ms": 0,
+  "stage_admission": false,
+  "neuron_count": 166700,
+  "edge_count": 25582938,
+  "n_exact_dictionary_values": 3148,
+  "comparison": {
+    "baseline": {
+      "target_bitwise": true,
+      "rate_bitwise": true,
+      "target_nonfinite": 0,
+      "rate_nonfinite": 0
+    },
+    "fp32_exact": {
+      "target_bitwise": true,
+      "rate_bitwise": true,
+      "target_nonfinite": 0,
+      "rate_nonfinite": 0
+    },
+    "u16_dictionary": {
+      "target_bitwise": true,
+      "rate_bitwise": true,
+      "target_nonfinite": 0,
+      "rate_nonfinite": 0
+    }
+  },
+  "bytes_per_edge": {
+    "baseline": 12,
+    "fp32_exact": 8,
+    "u16_dictionary": 6
+  },
+  "kernel_ms_samples": {
+    "baseline": [
+      1.6998399496078491,
+      1.411072015762329,
+      1.3953919410705566,
+      1.3946880102157593,
+      1.4049279689788818,
+      1.435647964477539,
+      1.46943998336792,
+      1.6343040466308594,
+      1.393664002418518,
+      1.3998080492019653,
+      1.4018559455871582,
+      1.405951976776123
+    ],
+    "fp32_exact": [
+      1.499135971069336,
+      1.5360000133514404,
+      1.4950400590896606,
+      1.5001599788665771,
+      1.5605759620666504,
+      1.5022079944610596,
+      1.4970879554748535,
+      1.4967999458312988,
+      1.4960639476776123,
+      1.499135971069336,
+      1.504256010055542,
+      1.7356799840927124
+    ],
+    "u16_dictionary": [
+      1.418239951133728,
+      1.4202879667282104,
+      1.3957120180130005,
+      1.628159999847412,
+      1.3987840414047241,
+      1.418239951133728,
+      1.3967360258102417,
+      1.393664002418518,
+      1.393664002418518,
+      1.3967360258102417,
+      1.4018559455871582,
+      1.4765759706497192
+    ]
+  },
+  "kernel_ms_median": {
+    "baseline": 1.4054399728775024,
+    "fp32_exact": 1.4996479749679565,
+    "u16_dictionary": 1.4003199934959412
+  },
+  "fp32_kernel_speedup": 0.9371799224464881,
+  "dictionary_kernel_speedup": 1.0036562924226906,
+  "source_hashes": {
+    "source": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+    "weights": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+    "indices": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db"
+  },
+  "all_weights_bitwise_reconstructed": true,
+  "limits": "Isolated generic CSR coefficient kernel; no PN/KC, events, body or dynamic plasticity; full-organism performance unmeasured",
+  "wall_s": 13.530664327001432
+}

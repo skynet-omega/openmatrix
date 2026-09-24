@@ -1,0 +1,31 @@
+{
+  "schema": "native_unified_batched_csr_primitive_v1",
+  "date": "2026-09-24",
+  "question": "Can eight candidate waveforms be multiplied by the real 25,582,938-edge CSR in one CUDA pass faster than eight scalar passes while preserving FP64 results?",
+  "scientific_scope": "Generic linear-operator primitive only; no recurrent waveform consistency, PN/KC/vision, events, body or stage admission",
+  "input": {
+    "brain": "MaleCNS v1.0, 166700 rows, real effective weights from one current organism load",
+    "rhs_count": 8,
+    "rhs_generation": "Deterministic finite candidate vectors from one real state and fixed-seed perturbations; not claimed as a physical trajectory",
+    "weights_sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+    "indices_sha256": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db"
+  },
+  "budget": {
+    "organism_loads_max": 1,
+    "simulated_ms": 0,
+    "warmups_per_arm": 3,
+    "timed_repetitions_per_arm": 12,
+    "wall_seconds_max": 180,
+    "RAM_GiB_max": 18,
+    "VRAM_GiB_max": 12,
+    "complete_motor_prototypes_count": 0
+  },
+  "gates": {
+    "same_CSR_and_RHS": true,
+    "per_RHS_FP64_bitwise_equal_to_scalar_kernel": true,
+    "reject_nonfinite": true,
+    "minimum_kernel_only_speedup_to_continue_waveform_research": 2.0,
+    "full_organism_speedup_unmeasured": true
+  },
+  "stop": "On source mismatch, any output difference, or speedup below 2.0, retain evidence and do not infer engine promotion. No parameter retuning after result."
+}

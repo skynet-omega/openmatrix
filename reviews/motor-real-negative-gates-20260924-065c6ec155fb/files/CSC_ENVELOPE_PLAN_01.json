@@ -1,0 +1,10 @@
+{
+  "schema": "graded_csc_omission_envelope_preflight_v1",
+  "question": "On the existing real 1 ms endpoint pair, what conservative input-error envelope follows from omitting small transmission changes?",
+  "input_sha256": "41cd304000e95870adfe5c228965352e2a90d54e509aeaee164723700d36e746",
+  "graph_weights_sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+  "thresholds_abs": [1e-12, 1e-9, 1e-6, 1e-4],
+  "budget": {"organism_loads_max": 1, "new_simulated_ms": 0, "wall_seconds_max": 90, "RAM_GiB_max": 18, "GPU_timings": 0},
+  "math": "B_i = sum_j |W_ij| max(|cap_j|, |visual_scale|) |delta_s_j| for omitted columns. This bounds input changes for either kernel branch with connected=True, not recurrent state or events.",
+  "decision": "Descriptive only: a one-millisecond endpoint is not the speculative per-trial state, and no threshold is authorized for the motor."
+}

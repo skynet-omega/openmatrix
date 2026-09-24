@@ -1,0 +1,92 @@
+{
+  "format_version": 2,
+  "label": "motor-real-negative-gates-20260924",
+  "description": "Resultados reales negativos de SpMM batched, FP32, compresion y prueba matematica de transmision graduada; tres rutas generalistas vigentes y falsadores.",
+  "files": [
+    {
+      "path": "MOTOR_DECISION_01.md",
+      "bytes": 9053,
+      "sha256": "0cf6b3f4a3daf2e6540f93170bf17261d7bfb2ed8a073c96d0b10e54d9e75172"
+    },
+    {
+      "path": "EVENT_AGGREGATE_MATH.md",
+      "bytes": 9877,
+      "sha256": "290c1c3cb2e4268bbb7118bc360261e5641b0b95b4b1ea3b0784210975ff1e2b"
+    },
+    {
+      "path": "RHO_1MS_PLAN_01.json",
+      "bytes": 988,
+      "sha256": "b3fbe63c7b818082f8a6683eb3825047c1c610f9c153ded0d016ec326e16533b"
+    },
+    {
+      "path": "rho_1ms_probe.py",
+      "bytes": 3806,
+      "sha256": "62ba9d58cd197a75c6d326e5dce791090a81e77947a4a75f37a646bec2333880"
+    },
+    {
+      "path": "rho_1ms_RESULT.json",
+      "bytes": 1782,
+      "sha256": "f47048082925e93bb596ee5e9e8d0dcdc6bbeccc8b314d692013ecd84ee59f0e"
+    },
+    {
+      "path": "CSC_ENVELOPE_PLAN_01.json",
+      "bytes": 902,
+      "sha256": "dd7f3c48ad7cea248014db7a86f78b28a455a9a95c1e4d0d45e2883ffd28f3b5"
+    },
+    {
+      "path": "csc_envelope_probe.py",
+      "bytes": 3732,
+      "sha256": "c390766f5250086e018843d6eed02ae3de5e9f40c37b804b4c5f32ddb020f116"
+    },
+    {
+      "path": "csc_envelope_RESULT.json",
+      "bytes": 1654,
+      "sha256": "b5725ebc056397d15fa3891b123e4e9e0788335d0547e91c81a80ed448c4d48b"
+    },
+    {
+      "path": "FP32_FAST_PLAN_01.json",
+      "bytes": 1028,
+      "sha256": "750a545bed22d727de26c91f06d734361f02a0f5684edba0b591780b1cb793fb"
+    },
+    {
+      "path": "fast_fp32_coefficient.cu",
+      "bytes": 1170,
+      "sha256": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801"
+    },
+    {
+      "path": "fast_fp32_probe.py",
+      "bytes": 7671,
+      "sha256": "029e4b4d2bd28c304f14601961e03c93aa656fc1270c5c47abf761b352770332"
+    },
+    {
+      "path": "fast_fp32_RESULT.json",
+      "bytes": 2539,
+      "sha256": "c110f9fc0c7554d9c03c341c214b2dad302902e4f9fbe1a0d3e831a1d1397461"
+    },
+    {
+      "path": "native_batched/CONTRACT.json",
+      "bytes": 1532,
+      "sha256": "58cc493e5eab8a9cd8b4e954da1e5b35c0feb9106bfafc2dc90507bc298919de"
+    },
+    {
+      "path": "native_batched/batched_csr.cu",
+      "bytes": 3067,
+      "sha256": "c948e79d96210a9d8b532260f908070464772b70a7c80813a922f943da95b3e9"
+    },
+    {
+      "path": "native_batched/run_batched_csr.py",
+      "bytes": 9643,
+      "sha256": "129de75ef8533b1cf8d37d905c48dd5cb37fef8c5016f5dbda76099148f8dc2e"
+    },
+    {
+      "path": "native_batched/RESULT.json",
+      "bytes": 2749,
+      "sha256": "9f178bdabfb3de7836c95d64b1d122d7ed89b8a9434788fb44a1a5ef4c9f09fc"
+    },
+    {
+      "path": "csr_encoding_RESULT.json",
+      "bytes": 2517,
+      "sha256": "80e2f665f59cf9da92cd7c1fbbac663cbef19940571bd59fe6ef68aa9c764628"
+    }
+  ]
+}

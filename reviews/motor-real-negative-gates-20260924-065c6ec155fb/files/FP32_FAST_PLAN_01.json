@@ -1,0 +1,23 @@
+{
+  "schema": "fast_mode_fp32_csr_preflight_v1",
+  "question": "Does FP32 coefficient arithmetic (not merely storage) materially accelerate the real CSR operator within a prospectively bounded local error?",
+  "parent": "FP64 CSR kernel source fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+  "input": "real MaleCNS graph and current release; 3 deterministic input cases: real, 1% smooth perturbation, low-amplitude near-threshold",
+  "budget": {
+    "organism_loads": 1,
+    "simulated_ms": 0,
+    "wall_s_max": 180,
+    "RAM_GiB_max": 18,
+    "VRAM_GiB_max": 12,
+    "warmups": 3,
+    "timed_launches_each": 12
+  },
+  "gates": {
+    "finite": true,
+    "max_target_abs_error": 0.00005,
+    "max_rate_scaled_error": 0.0001,
+    "min_isolated_kernel_speedup": 2
+  },
+  "limits": "FP32 changes arithmetic and is fast-mode only; no event/state/behavior validation or full-engine speedup",
+  "stop": "If error or speed gate fails, retain negative and do not integrate. No threshold changes after inspection."
+}
