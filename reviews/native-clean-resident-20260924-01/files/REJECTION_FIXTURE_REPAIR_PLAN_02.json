@@ -1,0 +1,15 @@
+{
+  "schema": "resident_rejection_oracle_bug_repair_plan_v1",
+  "registered_before_repaired_fixture_source": true,
+  "reason": "The original CPU oracle used literal 2000e-9, one ULP below the controller's duration_ns*1e-9. Hexfloat trace located the first mismatch at trial 10.",
+  "only_change": "Compute host oracle end from its duration_ns argument multiplied by 1e-9, exactly as both native controllers do; keep the existing CUDA controller binary and all thresholds unchanged.",
+  "budget": {
+    "gpu_runs": 1,
+    "wall_s_max": 30,
+    "host_ram_gib": 1,
+    "gpu_vram_gib": 1,
+    "disk_mib": 20,
+    "no_extension_after_failure": true
+  },
+  "gate": "Exact accepted/rejected counts, next step, minimum step and max error; absolute final state difference <=1e-12; one event at 1.5us and at least one rejected trial. No organism admission."
+}

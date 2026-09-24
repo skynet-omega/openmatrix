@@ -1,0 +1,11 @@
+{
+  "schema": "resident_rejection_trace_source_lock_v1",
+  "registered_before_gpu_execution": true,
+  "command": "timeout 30s ./motor_nuevo/native_clean_20260924_01/resident_rejection_trace",
+  "sha256": {
+    "REJECTION_TRACE_PLAN_01.json": "3af05537a68d0d312b5a26c5894756684ef4faf89fbd57b1388b7645ae2aa656",
+    "resident_rejection_trace.cu": "41086837a47a73d0b2c378c24942d0dc6fa9fe06fa070c8f4b71de99d5b2e13c",
+    "resident_rejection_trace": "81902a2bc20233e37ff5a855e580e997276837f22cd098bd46f8a105ef79740d",
+    "libresident_controller.so": "ccce05fe6dc7593e02577b309f8ce2eb24b2163d1adf9e8cf3c913b99086565b"
+  }
+}

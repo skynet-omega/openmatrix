@@ -1,0 +1,22 @@
+{
+  "schema": "resident_rejection_trace_plan_v1",
+  "registered_before_diagnostic_source": true,
+  "purpose": "Locate the first divergence of trial h/used/error between the frozen CPU scalar oracle and the unchanged CUDA resident controller. This is diagnosis of the failed fixture, not a retry for PASS.",
+  "fixed_inputs": {
+    "duration_ns": 2000,
+    "initial_next_ns": 1000,
+    "minimum_ns": 100,
+    "maximum_ns": 1000,
+    "event_time_s": 0.0000015,
+    "error_rule": "error=2 if h>500ns else 0.05"
+  },
+  "budget": {
+    "gpu_runs": 1,
+    "wall_s_max": 30,
+    "host_ram_gib": 1,
+    "gpu_vram_gib": 1,
+    "disk_mib": 20,
+    "no_extension_after_failure": true
+  },
+  "output": "Two ordered trial traces with hexfloat h, used and state, first differing trial index, unchanged final scientific FAIL gate from REJECTION_FIXTURE_RESULT_01.json."
+}

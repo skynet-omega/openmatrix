@@ -1,0 +1,17 @@
+{
+  "schema": "resident_rejection_oracle_repair_result_v1",
+  "status": "PASS_CORRECTED_SCALAR_ORACLE",
+  "process_exit_code": 0,
+  "gpu_fixture": {
+    "pass": true,
+    "state_printed": 0.002,
+    "expected_state_printed": 0.002,
+    "accepted": 7,
+    "rejected": 6,
+    "minimum_ns": 251,
+    "next_ns": 500,
+    "max_error": 0.05,
+    "wall_s": 0.343217
+  },
+  "interpretation": "The same native controller binary matched the corrected host scalar oracle under a forced rejection and a mandatory event boundary. The earlier FAIL remains an instrument failure caused by a one-ULP endpoint mismatch. This does not test whole-organism rejection or full-epoch rollback after a fatal error."
+}
