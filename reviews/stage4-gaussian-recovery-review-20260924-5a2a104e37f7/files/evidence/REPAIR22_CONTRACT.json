@@ -1,0 +1,95 @@
+{
+  "schema": "gaussian_measurement_repair22_prospective_v1",
+  "registered_utc": "2026-09-23T21:22:42.533036+00:00",
+  "status": "PREPARED_NO_NEW_ORGANISM",
+  "parent_campaign": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_20260923_20",
+  "parent_plan_sha256": "5cf0a9b06116686a845bd893a57bd35d58fbb81a81d00238f6d4ac83fc00545f",
+  "parent_source_lock_sha256": "425af88a25b38b41e73f35a962e558057a1d76af61473425ec8205e956030427",
+  "parent_verifier_sha256": "6b99a6b84de30899f8f62eedca65bfda108811c43e3015328257f1eca98e1abd",
+  "runner_for_future_outputs": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_20260923_20/run_gaussian.py",
+  "runner_sha256": "734e8830cb47aaae3c8479653fdab47330ea818cc328fa88eff5d1b765f3d7c1",
+  "operation": "Three readback repairs: (1) preserve observed float64 ORN arithmetic and require captured pre-validation dtype; (2) add omitted, unchanged inherited quaternion domain; (3) distinguish disabled generic PN629 replacement from preserved peripheral PN-to-ORN feedback using frozen layout source, saved manifests and exactly one observed PN reader per coefficient build. No model, neuronal threshold, field or organism change.",
+  "observed_defect": {
+    "guard": "Mismatch Actual bilateral ORN drive",
+    "old_expectation": "float32(80*c) widened to float64",
+    "actual_recorded_dtype": "float64",
+    "all_captured_drive_values_equal_float64_80c": true,
+    "captured_calls": 16,
+    "odor_captured_calls": 12,
+    "max_false_discrepancy": 1.8939141313012442e-06,
+    "source_lines": "191-196: pending_proprioception[drive].astype(float), otherwise np.zeros, followed by odor_drive*pending_sensors",
+    "candidate_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/cyborg_visual_session.py",
+    "candidate_source_sha256": "b7c9bdab33e00015ff6382b597952bc7b17cc2d7b4d408333687f78df6dc2a6e",
+    "candidate_source_status": "Static candidate explanation only; absent from the run FROZEN inventory, so not verified as the executed transitive source. Direct dtype/argument/buffer capture is the decisive evidence."
+  },
+  "domain_guard": {
+    "max_abs_norm_squared_error_exclusive": 1e-08,
+    "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_funcional_20260923_16/check_remaining.py",
+    "source_sha256": "c3bfd432861562dabaa25cb3d7dd03f2352ccd5ddd7086cf91935907e82ad9f2",
+    "independent_review": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/gaussian_domain_review_20260923/check_domain.py",
+    "independent_review_sha256": "95776ff33597d44b03b958a856cf372b97488651d870125fefe0ca7ea642d853",
+    "basis": "Unchanged Stage3 pose_yaw domain; not selected on Gaussian outcomes"
+  },
+  "rivals": {
+    "A": "Repair the two verifier assumptions from direct boundaries and frozen source control flow; retain exposed plus and its original failures, no model change.",
+    "B": "Modify model, dtype, PN feedback or re-run plus to fit wrong guards; rejected because this would change science or duplicate exposure.",
+    "C": "New branch-specific native tap if the existing exact source/manifest/binding evidence is insufficient; would require separate prospective budget, not relabel this observation."
+  },
+  "exposure": {
+    "plus_already_observed": true,
+    "copied_complete_plus_counts_as_one_existing_attempt": true,
+    "original_plus_directory": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_20260923_20/native_plus_01",
+    "original_plus_result_sha256": "7699a102d2286ae953da5e3bc2783d07df781c52fc5c10c89bfe9260eec4a614",
+    "plus_wall_s": 1414.6879077329995,
+    "blind_confirmation_claimed": false,
+    "gate20_stop_preserved": true,
+    "gate20_stop_receipt": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_20260923_20/STOP_01.json",
+    "gate20_stop_sha256": "37c68175dc864815120be7a2d397a2ce3d24535d965624b9ab6693c1e677353a"
+  },
+  "budget": {
+    "organism_attempts_total_max": 4,
+    "existing_plus_attempts": 1,
+    "new_native_attempts_max": 1,
+    "new_reference_attempts_max": 2,
+    "new_organism_attempts_max": 3,
+    "wall_each_s_max": 2050,
+    "aggregate_all_organism_wall_s_max": 8200,
+    "existing_consumed_wall_s": 1414.6879077329995,
+    "remaining_aggregate_wall_s": 6785.3120922670005,
+    "preparation_cpu_s_max": 120,
+    "preparation_wall_s_max": 180,
+    "preparation_address_space_gib_max": 2,
+    "preparation_gpu_calls": 0,
+    "preparation_organism_runs": 0
+  },
+  "unchanged": "PLAN.json, SOURCE_LOCK.json and reference directory copied byte-for-byte from20. All fields, geometry, neuronal thresholds, command contrasts, pair/parity thresholds, model/solver/body/decoder and observations remain unchanged. Future outputs use the exact original runner20.",
+  "release": "No new organism launch before normal and -O CPU tests, full plus re-read and non-author review. Root alone launches the next arm.",
+  "stop": "Both original gate20 and repair21 failures remain retained. Any additional defect or missing/contradictory provenance, manifest, count, dtype, clock, domain or budget blocks next arm. Root alone launches following independent review.",
+  "parent_failed_verifier": {
+    "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_repair_20260923_21/verify.py",
+    "sha256": "31c066c2f34c551430bb76bb3c882fe729fb85a781b5a7762671a978030e9e76",
+    "failed_readback_sha256": "bac43ef5693f95f943652fe9be7ce7789d3953f4ad417bb27bf8c411e32afd0f"
+  },
+  "pn_reader_defect": {
+    "old_assumption": "PN629-off implies zero general_transmission reader calls and no captured PN binding",
+    "observed": {
+      "build_calls": 18,
+      "reader_calls": 18,
+      "binding": true
+    },
+    "source": "native_plus_01/executed_sources/29__legacy_sources__gpu_coefficient_layout.py",
+    "source_sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "mechanism": "_GpuPnGeneralOutputBrain skips general replacement read with general_outputs.enabled false; _OrnPeripheralTerminalMixin still reads and passes local buffer to peripheral terminal kernel. 31 PN feedback contacts preserved.",
+    "guard": "Prepared and final hybrid.pn_online_manifest general_outputs.enabled is False; electrical_outputs.enabled is True; orn_peripheral_terminal.local_PN_feedback_pairs equals31 and recurrent_connected is True; exact frozen layout hash; observed reader calls equal18 coefficient calls, binding True.",
+    "scope": "Python graph-construction binding explained by exact source branch and saved state, not hardware tracing of every kernel read or proof of pathway efficacy.",
+    "fixture": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_gaussian_gate_repair_20260923_21/pn_reader_diagnosis_01/RESULT_01.json",
+    "fixture_sha256": "9ff1f9dbbc4c0568371fc2cc92ae3c25571a0823038757570efcf42ae79fb246"
+  },
+  "terminology": "Generic replacement629 disabled, not deletion of anatomical edges or PN silence: inherited general pathway remains, and peripheral PN-to-ORN feedback retains31 contacts.",
+  "independent_pn_review": {
+    "path": "motor_nuevo/pn_reader_scope_review_20260923/READY.json",
+    "source_hashes_sha256": "374ff1f36be64e20312ee5a592e8ad7b02d3435119bebef18f0233ba7ab451d8",
+    "review_sha256": "61acfc704a1dce3e1a0393c0ead9ff390a281913741ed79e3f4856b8ee6606f9",
+    "normal_and_optimized": "one peripheral reader when generic replacement disabled; two readers enabled, across18 evaluations. Synthetic CPU fixture, not new organism."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "label": "stage4-gaussian-recovery-review-20260924",
+  "description": "Contrato de recuperación tras corte eléctrico, runner y verificador exactos del par gaussiano; S+ completo, S- interrumpido a388 ms. Revisión de código y procedencia, sin checkpoints grandes ni claim de navegación.",
+  "files": [
+    {
+      "path": "recovery/RECOVERY24_CONTRACT.json",
+      "bytes": 3334,
+      "sha256": "a0a9f94fb835a8eb7f24c20cfcd84bd08cdf32300dea803c82d9713ee6c2723a"
+    },
+    {
+      "path": "recovery/REVIEW_REQUEST.md",
+      "bytes": 2660,
+      "sha256": "c7260399175aa2e20cce3c4e5a04b607d2f32ef38b16dcaf869ec74fee5b50c4"
+    },
+    {
+      "path": "recovery/PLAN.json",
+      "bytes": 6868,
+      "sha256": "5cf0a9b06116686a845bd893a57bd35d58fbb81a81d00238f6d4ac83fc00545f"
+    },
+    {
+      "path": "recovery/SOURCE_LOCK.json",
+      "bytes": 6145,
+      "sha256": "425af88a25b38b41e73f35a962e558057a1d76af61473425ec8205e956030427"
+    },
+    {
+      "path": "recovery/GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "code/run_gaussian.py",
+      "bytes": 22527,
+      "sha256": "734e8830cb47aaae3c8479653fdab47330ea818cc328fa88eff5d1b765f3d7c1"
+    },
+    {
+      "path": "code/verify.py",
+      "bytes": 37447,
+      "sha256": "401de9aa6099c34c42d34e85d721ead5534973a48a1109bffb0031ecabf31e89"
+    },
+    {
+      "path": "code/test_verify.py",
+      "bytes": 21711,
+      "sha256": "4cd04942ecc1b1018a7acc5aa17f14717bed75c3b2b5877e15ed2c833e759fc6"
+    },
+    {
+      "path": "code/compare_prepared.py",
+      "bytes": 13063,
+      "sha256": "4c17a41d9b213ccc66565f6e1dc874206900b5841b5a6496caf14c8592b91a09"
+    },
+    {
+      "path": "evidence/REPAIR22_CONTRACT.json",
+      "bytes": 7393,
+      "sha256": "02618d4d094c32504c678beb4a099dab87ee6b46e7294f6211aef6782adaa550"
+    },
+    {
+      "path": "evidence/PLUS_READBACK_01.json",
+      "bytes": 6006,
+      "sha256": "853d5a1eb37735f1377f2b70aa05b6e311b84922632bae38e6ba86fd1076b4a5"
+    },
+    {
+      "path": "evidence/PLUS_RESULT.json",
+      "bytes": 3390,
+      "sha256": "7699a102d2286ae953da5e3bc2783d07df781c52fc5c10c89bfe9260eec4a614"
+    },
+    {
+      "path": "evidence/NONAUTHOR_REVIEW.json",
+      "bytes": 4633,
+      "sha256": "f93e70b21cae9af85df6742f964c20e8418fa079ee3aaf80eff313f3c1c24295"
+    }
+  ]
+}

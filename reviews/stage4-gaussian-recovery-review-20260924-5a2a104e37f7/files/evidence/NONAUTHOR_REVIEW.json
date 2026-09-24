@@ -1,0 +1,73 @@
+{
+  "reviewer": "revision_critica; independent of repair22 author",
+  "registered_utc": "2026-09-23T21:29:01+00:00",
+  "scope": "Non-author CPU release review before native minus; no GPU or organism and no changes to frozen sources.",
+  "release_verdict": "NO_MATERIAL_BLOCKER_FOR_ONE_NATIVE_MINUS",
+  "scientific_status": "INCOMPLETO; missing native minus, no A/B/C acceptance or navigation claim.",
+  "hashes": {
+    "REPAIR22_LOCK.json": "6ac73e9c19afe37d1391e1e89b12cf69cc8c41ad5ec7ca8665d9ee0f68871b86",
+    "REPAIR22_CONTRACT.json": "02618d4d094c32504c678beb4a099dab87ee6b46e7294f6211aef6782adaa550",
+    "verify.py": "401de9aa6099c34c42d34e85d721ead5534973a48a1109bffb0031ecabf31e89",
+    "test_verify.py": "4cd04942ecc1b1018a7acc5aa17f14717bed75c3b2b5877e15ed2c833e759fc6",
+    "CPU_TESTS_02.json": "bf40dad2c76c71c9305a26fe8469adcf639d7e16e2254bba156e59781bdf3dac",
+    "PLUS_READBACK_01.json": "853d5a1eb37735f1377f2b70aa05b6e311b84922632bae38e6ba86fd1076b4a5",
+    "COPY_VERIFIED.json": "3c9641ec55322dc38d644d8206daac2a501e75f54efd6908f35912069e4e01d4",
+    "changes_from_gate20.patch": "9e012382d0543c70211a79c010e4fd173edd41dfb88534216f95ce7ba401cbbe",
+    "README.md": "7d92eaebaebb711a39922907b36d6029138d751cee9897934e1eb622771f4695",
+    "READY.json": "3019dd993e9158d7be3289aa9281b5f9227bac1d633e8d265d86ec31d7e8bb3e"
+  },
+  "checks": {
+    "copies": "Independently hashed all 94 files on original20 and repair22; exact size/hash and inventory coverage; no symlinks. Total 1357403446 bytes.",
+    "copied_bytes": 1357403446,
+    "copied_files": 94,
+    "criteria": "AST of pair_metrics, decide, check_prepared_receipt, check_budget_progress, check_intervals and check_flow identical to20; model, field and A/B/C thresholds unchanged.",
+    "repair_scope": "ORN expected values keep measured float64 dtype; quaternion domain uses inherited norm-squared tolerance below1e-8; PN guard attributes shared-buffer binding to preserved31 peripheral contacts while generic629 replacement is disabled.",
+    "pn_scope": "Guard requires exact frozen layout hash, prepared/final session manifest identity, general_outputs.enabled false, electrical_outputs.enabled true, peripheral feedback pairs31 and recurrent_connected true, reader count18 and binding true. This does not claim PN silence or direct all-kernel efficacy.",
+    "history": "STOP20, failed readback21, sources20/21, preliminary22 and original plus preserved; hashes checked. Exposed plus is neither a new repetition nor blind confirmation.",
+    "prospective_registration": "Contract registered2026-09-23T21:22:42.533036+00:00, checked against clock21:24:41UTC before minus.",
+    "tests": "Checked hashes and return codes of15 normal and15 optimized CPU tests from CPU_TESTS_02; did not rerun those tests.",
+    "ready_hashes": "All nine READY source/artifact hashes independently matched."
+  },
+  "independent_readback": {
+    "interpreter": "/home/daroch/AXIOMA_FLYWIRE/matrix/.venv/bin/python -I -B -O",
+    "entrypoint": "verify.compute(repair22)",
+    "identical_to_PLUS_READBACK_01_raw_readback_except": [
+      "verifier_wall_s",
+      "verifier_rss_peak_kib"
+    ],
+    "errors": [],
+    "runs": [
+      "causal_cuda/plus"
+    ],
+    "complete_plus": true,
+    "decision": {
+      "rival": null,
+      "classification": "INCOMPLETO",
+      "reason": "Native pair missing or interrupted; no scientific conclusion"
+    },
+    "aggregate_completed_run_wall_s": 1414.6879077329995,
+    "cpu_s": 2.9340846,
+    "gpu_calls": 0,
+    "organism_runs": 0,
+    "readback_writes": 0
+  },
+  "budget": {
+    "existing_plus_attempts": 1,
+    "total_organism_attempts_max": 4,
+    "new_native_minus_max": 1,
+    "new_references_max": 2,
+    "wall_each_s_max": 2050,
+    "aggregate_wall_s_max": 8200,
+    "existing_plus_wall_s": 1414.6879077329995,
+    "remaining_wall_s": 6785.3120922670005,
+    "worst_case_existing_plus_and_three_full_future_arms_s": 7564.6879077329995
+  },
+  "next_step": "Root may run one native minus with unchanged runner20 and new output in repair22. Apply the existing prepared-pair comparator and verifier22; references remain conditional under the same contract. Stop on a guard or budget failure.",
+  "limits": [
+    "No new organism or GPU execution by reviewer.",
+    "Hash checks do not establish complete transitive dependency closure.",
+    "Sampled resource telemetry does not bound peaks between samples.",
+    "Captured drive rows and descriptor hashes do not reconstruct every CUDA buffer or prove causal efficacy of31 peripheral contacts.",
+    "No checkpoint-resumption proof, navigation claim or biological equivalence."
+  ]
+}

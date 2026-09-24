@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage3-functional-confirmation-20260923](reviews/stage3-functional-confirmation-20260923-c43179babab1/README.md)
+[stage4-gaussian-recovery-review-20260924](reviews/stage4-gaussian-recovery-review-20260924-5a2a104e37f7/README.md)
 
-Confirmación funcional local de orientación PN629-off; siete corridas completas y dos intentos incompletos, con poscierre. Paquete compacto de revisión: reconstruye observables, no reproduce organismo ni igualdad integral de checkpoints. El gate KC histórico sigue FAIL; no demuestra equivalencia biológica, navegación ni etapa4.
+Contrato de recuperación tras corte eléctrico, runner y verificador exactos del par gaussiano; S+ completo, S- interrumpido a388 ms. Revisión de código y procedencia, sin checkpoints grandes ni claim de navegación.
