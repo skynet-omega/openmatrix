@@ -1,0 +1,9 @@
+{
+  "status": "PRESERVED_OPERATIONAL_PREFLIGHT_FAILURE",
+  "original": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_mirrored_source_20260924_26/native_plus_01",
+  "current": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_mirrored_source_20260924_26/preflight_failures/python_system_no_cupy_01",
+  "result_sha256": "08fc912ade42758e54134de6bd83f18aee045d6232d41558d1dfd42bfcda0e25",
+  "organism_ms": 0,
+  "reason": "System Python lacked CuPy; use pinned GPU environment for first scientific exposure",
+  "scientific_exposure": false
+}

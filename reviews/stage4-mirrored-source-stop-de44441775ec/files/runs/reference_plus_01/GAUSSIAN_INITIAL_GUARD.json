@@ -1,0 +1,28 @@
+{
+  "plus": [
+    0.7766285475931046,
+    0.39873439147465434
+  ],
+  "minus": [
+    0.39873439143298206,
+    0.7766285475545393
+  ],
+  "common_pair_abs": 4.011879717324973e-11,
+  "common_prior_abs": 2.0018653401621123e-11,
+  "contrast_antisymmetry_abs": 3.1069036232622693e-12,
+  "plus_signed_LR": 0.3778941561184503,
+  "minus_signed_LR": -0.3778941561215572,
+  "limits": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  }
+}

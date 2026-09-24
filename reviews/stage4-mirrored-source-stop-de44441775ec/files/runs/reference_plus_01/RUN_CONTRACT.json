@@ -1,0 +1,42 @@
+{
+  "schema": "stage4_mirrored_source_gate_run_v1",
+  "field": "plus",
+  "engine": "reference_cuda",
+  "observer": "native_signed_flow_and_bounded_adapter_boundary",
+  "drive_capture_epochs": [
+    "preparacion:1",
+    "preparacion:40",
+    "ensayo:1",
+    "ensayo:2",
+    "ensayo:10",
+    "ensayo:100",
+    "ensayo:300",
+    "ensayo:400"
+  ],
+  "preparation_ms": 40,
+  "trial_ms": 400,
+  "stage3_eligibility": {
+    "repair_queue_sha256": "fc53a7f053ef56c251fd3a234ece4a240411a6078634b82983338d5676014df9",
+    "postclose_sha256": "51384f34f03a054237d75752c10d4afab81158a6723a845269b3db51f6de4d4e",
+    "final_raw_sha256": "beaa6999f46499aa88f2fc5db4e5a5cc17178370a656ab50291056391068f1b2",
+    "repair_verifier_sha256": "0fa57f759848157146452b351849ae2b4a773cc9a60943cfa3d001109b047d9d",
+    "scope": "Independent receipt for scoped functional Stage3; not strict historical equivalence or navigation"
+  },
+  "source_identity": {
+    "source_lock_sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+    "sources_count": 47
+  },
+  "checkpoint": "work/stage234_settling_extension_20260915/settled_700ms",
+  "checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "plan_sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+  "wall_limit_s": 2050,
+  "event_boundaries": true,
+  "biological_parameters_changed": false,
+  "interface_intervention": "PN629 disabled before preparation; mirrored fixed Gaussian source installed after preparation",
+  "source_mode": "plus=left, minus=right; initial common matched to prior negative, signed bilateral contrast reversed",
+  "stage3_admission": false,
+  "stage4_admission": false,
+  "event_representation": "physical SET(post_q) from both LIF and gamma CUDA publishers; genuine ADD retained; no state clipping",
+  "native_sideband": "FP64 raw signed net before tanh in general and PN CUDA kernels",
+  "resumable_gaussian": false
+}

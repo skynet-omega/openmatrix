@@ -1,0 +1,26 @@
+{
+  "schema": "stage4_scalar_series_export_v1",
+  "source_sha256": "7545d89e3d90a3758ca28a645875b9a1fa61b0b8d713553df8004a83c18e9b1f",
+  "scope": "Raw observed samples; reference plus ends at 391/400 ms; no full numerical or navigation admission.",
+  "arms": {
+    "causal_cuda/plus": {
+      "folder": "native_plus_01",
+      "trace_sha256": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+      "trial_rows": 400,
+      "complete_400ms": true
+    },
+    "causal_cuda/minus": {
+      "folder": "native_minus_01",
+      "trace_sha256": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+      "trial_rows": 400,
+      "complete_400ms": true
+    },
+    "reference_cuda/plus": {
+      "folder": "reference_plus_01",
+      "trace_sha256": "828c45790eddab9de7c1b1d398c25be512dda34de9921b009570ac794aca45c7",
+      "trial_rows": 391,
+      "complete_400ms": false
+    }
+  },
+  "csv_sha256": "480e7294f0ec96176fa63e62e052bd9ac758443270c3ad57b524081849b29150"
+}

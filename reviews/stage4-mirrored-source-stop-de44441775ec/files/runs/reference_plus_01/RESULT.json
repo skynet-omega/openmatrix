@@ -1,0 +1,94 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "TimeoutError",
+    "message": "Frozen process budget; saving prefix evidence",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa4_mirrored_source_20260924_26/run_mirror.py\", line 295, in main\n    raise TimeoutError('Frozen process budget; saving prefix evidence')\nTimeoutError: Frozen process budget; saving prefix evidence\n",
+    "numerical_diagnostic": null
+  },
+  "cleanup_errors": [],
+  "field": "plus",
+  "engine": "reference_cuda",
+  "observer": "on",
+  "requested_trial_ms": 400,
+  "completed_trial_ms": 391,
+  "completed_preparation_ms": 40,
+  "wall_total_s": 2041.5123376620013,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "campanas/etapa4_mirrored_source_20260924_26/reference_plus_01/final_state"
+  },
+  "runtime": {
+    "profile": "reference_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "native_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/native_cell.py",
+        "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 6896,
+      "accepted": 175409,
+      "rejected": 18924,
+      "build_s": 0.18799133600077766,
+      "native_wall_s": 648.1607099931771,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "device_bytes": 8195072
+    },
+    "CNS": {
+      "epochs": 6896,
+      "accepted": 80296,
+      "rejected": 2,
+      "build_s": 0.1199996880004619,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 6896,
+      "accepted": 6896,
+      "rejected": 0,
+      "build_s": 2.4396555830007856,
+      "wall_s": 115.20136202074718,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 13792,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 6896,
+      "events": 33590,
+      "max_q_reconstruction_difference": 1.4432899320127035e-15,
+      "global_trials": 80298,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 3448,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 174648
+    }
+  },
+  "stage3_pass": null,
+  "stage4_pass": null,
+  "reason": "Mirrored finite-source input-to-command diagnostic only; not source navigation or biological equivalence."
+}

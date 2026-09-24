@@ -1,0 +1,36 @@
+{
+  "schema": "stage4_mirrored_trajectory_descriptive_v1",
+  "scope": "Single 400-ms pair; absolute distance reduction can result from common forward motion. No navigation/feedback admission.",
+  "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+  "code_sha256": "1e10b727aba01b13a7fc12df2da211c6973602dc979da395deccdefab9d46d9f",
+  "arms": {
+    "plus": {
+      "trace_sha256": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+      "body_start_mm": 1.1298624295132904,
+      "body_end_mm": 1.0545635309536912,
+      "body_change_mm": -0.07529889855959926,
+      "antenna_midpoint_start_mm": 0.35723113144622265,
+      "antenna_midpoint_end_mm": 0.34493682471520376,
+      "antenna_midpoint_change_mm": -0.01229430673101889,
+      "body_xy_change_mm": [
+        0.0738674409765992,
+        -0.028000539457027893
+      ]
+    },
+    "minus": {
+      "trace_sha256": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+      "body_start_mm": 1.1312492593472234,
+      "body_end_mm": 1.0565997970858856,
+      "body_change_mm": -0.07464946226133784,
+      "antenna_midpoint_start_mm": 0.35723113144622265,
+      "antenna_midpoint_end_mm": 0.3474382849247421,
+      "antenna_midpoint_change_mm": -0.009792846521480547,
+      "body_xy_change_mm": [
+        0.07376247744064418,
+        -0.02834640446749291
+      ]
+    }
+  },
+  "body_distance_change_plus_minus_mm": -0.0006494362982614188,
+  "antenna_distance_change_plus_minus_mm": -0.002501460209538342
+}

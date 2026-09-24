@@ -1,0 +1,211 @@
+{
+  "schema": "independent_mirrored_source_gate_v1",
+  "sources": {
+    "sources": 47,
+    "source_lock_sha256": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+    "plan_sha256": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+  },
+  "decision": {
+    "rival": null,
+    "classification": "PROMETEDOR_NO_CONFIRMADO",
+    "reason": "Material native contrast; both references required for A",
+    "native_pair": {
+      "late_signed_LR_plus": 0.38542020181370823,
+      "late_signed_LR_minus": -0.3855624442781802,
+      "late_field_pair_mean_abs": 0.38549132304594413,
+      "command_L1_deg": 0.057746767029625064,
+      "signed_command_plus_minus_deg": 0.05774676702962507,
+      "yaw_plus_minus_last_deg": 0.05732051642988267,
+      "yaw_sup_deg": 0.05732051642988267
+    },
+    "native_checks": {
+      "input": true,
+      "command_L1": true,
+      "signed_command": true,
+      "body_yaw": true
+    }
+  },
+  "prepared_comparisons": {
+    "causal_cuda": {
+      "receipt_sha256": "ede2fcd7c485e8ffc95e86fea0b72163e9d67b404c510cf971e5e58088152907",
+      "comparator_sha256": "4c17a41d9b213ccc66565f6e1dc874206900b5841b5a6496caf14c8592b91a09",
+      "recomputed_section_equality": true,
+      "scope": "Separate exact semantic comparator receipt linked to both full raw prepared states; its semantic parse is not repeated here"
+    }
+  },
+  "errors": [],
+  "missing": [],
+  "runs": {
+    "causal_cuda/minus": {
+      "arm": "minus",
+      "engine": "causal_cuda",
+      "drive": {
+        "captured_calls": 16,
+        "epochs": 440,
+        "full_buffer_data_archived": false,
+        "meaning": "Matching descriptor hashes and eight ORN rows at declared calls; held PN buffer binding during 18 coefficient builds. Route attribution additionally requires frozen layout and prepared/final manifest checks; no all-kernel read proof."
+      },
+      "pn_route": {
+        "layout_sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+        "saved_states": {
+          "prepared_state": {
+            "session_sha256": "1f8168168e58e4cc2199647420ca1068b9445e51e821e4c0dee32a554e6709a2",
+            "general_outputs_enabled": false,
+            "dynamic_466_enabled": true,
+            "local_PN_feedback_pairs": 31,
+            "recurrent_connected": true,
+            "manifest_record_sha256": "1182232e7edb7096532012400d961ccf8814344a5493a195548f088c2d1fb252"
+          },
+          "final_state": {
+            "session_sha256": "a5dc7642604f81fd6511903c6ae6335a0879ec27025f9b4e9a4edb9a4c799624",
+            "general_outputs_enabled": false,
+            "dynamic_466_enabled": true,
+            "local_PN_feedback_pairs": 31,
+            "recurrent_connected": true,
+            "manifest_record_sha256": "1182232e7edb7096532012400d961ccf8814344a5493a195548f088c2d1fb252"
+          }
+        },
+        "meaning": "Frozen layout has one peripheral reader per coefficient with generic replacement disabled; buffer is passed to the terminal kernel. Counts plus saved flags explain the observed binding, without hardware callsite tracing or proof of pathway efficacy."
+      },
+      "flow": {
+        "samples": 440,
+        "target_max_error": 2.220446049250313e-16,
+        "rate_max_error": 0.0,
+        "scope": "Last accepted fine-stage signed PN/DN net reproduces coefficient. Not ORN-only current, all graph stages, or PN629/466 efficacy."
+      },
+      "resources": {
+        "wall_s": 1561.2547684290003,
+        "rss_peak_at_last_sample_gib": 5.7775115966796875,
+        "gpu_device_used_sample_max_gib": 1.84423828125,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "folder": "campanas/etapa4_mirrored_source_20260924_26/native_minus_01",
+      "raw_hashes": {
+        "traces.npz": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+        "GAUSSIAN_INTERVALS.json": "e31a648b98b247fc932e65847f0991c26c9488f4eb5d60f1a3c789c32fb3395d",
+        "DRIVE_OBSERVATION.json": "509454fb5a06d4c5513d2a762ed719c9cab7c06024dde7796500ac5f906a1ae7",
+        "flow/FLOW.npz": "9a0cdcb328c43ba1274d1042aad38fc4a05c39e2a59da82e19206be7d0272bca",
+        "flow/FLOW.jsonl": "f422b61670615132869ac966831f74117df121351d3a0b8b8cf413a01fe361fc",
+        "RESULT.json": "0d1b80e1867651a6edf8a248f0e9af74c3cbe919a57eab935f7bd0dcd47b62d6"
+      },
+      "metrics": {
+        "steps": 400,
+        "complete": true,
+        "start_ns": 44446000000,
+        "initial_common_pair_abs": 1.1102230246251565e-16,
+        "initial_common_prior_abs": 1.1102230246251565e-16,
+        "initial_contrast_antisymmetry_abs": 5.551115123125783e-17,
+        "initial_signed_LR": {
+          "plus": 0.37789415612003013,
+          "minus": -0.3778941561200302
+        },
+        "initial": {
+          "plus": [
+            0.7766285475738758,
+            0.39873439145384565
+          ],
+          "minus": [
+            0.3987343914538457,
+            0.7766285475738759
+          ]
+        },
+        "signed_command_deg": -0.009552456029011714,
+        "absolute_command_deg": 0.049169265587023676
+      }
+    },
+    "causal_cuda/plus": {
+      "arm": "plus",
+      "engine": "causal_cuda",
+      "drive": {
+        "captured_calls": 16,
+        "epochs": 440,
+        "full_buffer_data_archived": false,
+        "meaning": "Matching descriptor hashes and eight ORN rows at declared calls; held PN buffer binding during 18 coefficient builds. Route attribution additionally requires frozen layout and prepared/final manifest checks; no all-kernel read proof."
+      },
+      "pn_route": {
+        "layout_sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+        "saved_states": {
+          "prepared_state": {
+            "session_sha256": "08345eb10d4dd68d4613c571498f5493e7c64c2f4e750e5820b0d24933f0283e",
+            "general_outputs_enabled": false,
+            "dynamic_466_enabled": true,
+            "local_PN_feedback_pairs": 31,
+            "recurrent_connected": true,
+            "manifest_record_sha256": "1182232e7edb7096532012400d961ccf8814344a5493a195548f088c2d1fb252"
+          },
+          "final_state": {
+            "session_sha256": "d72e87c0d1927c71f098927d6e1c3fdf257926d0c968cb97086f199f3731a7be",
+            "general_outputs_enabled": false,
+            "dynamic_466_enabled": true,
+            "local_PN_feedback_pairs": 31,
+            "recurrent_connected": true,
+            "manifest_record_sha256": "1182232e7edb7096532012400d961ccf8814344a5493a195548f088c2d1fb252"
+          }
+        },
+        "meaning": "Frozen layout has one peripheral reader per coefficient with generic replacement disabled; buffer is passed to the terminal kernel. Counts plus saved flags explain the observed binding, without hardware callsite tracing or proof of pathway efficacy."
+      },
+      "flow": {
+        "samples": 440,
+        "target_max_error": 2.220446049250313e-16,
+        "rate_max_error": 0.0,
+        "scope": "Last accepted fine-stage signed PN/DN net reproduces coefficient. Not ORN-only current, all graph stages, or PN629/466 efficacy."
+      },
+      "resources": {
+        "wall_s": 1567.037635921999,
+        "rss_peak_at_last_sample_gib": 5.820423126220703,
+        "gpu_device_used_sample_max_gib": 1.84228515625,
+        "memory_limit_scope": "RSS lifetime high-water sampled per interval; GPU device usage snapshots (includes other processes), no bound on unsampled GPU peaks or cleanup allocation"
+      },
+      "folder": "campanas/etapa4_mirrored_source_20260924_26/native_plus_01",
+      "raw_hashes": {
+        "traces.npz": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+        "GAUSSIAN_INTERVALS.json": "00e0daf96ed16a2c0ffd07aa10954e4070ccc22ba3302364f5f72fa66935083c",
+        "DRIVE_OBSERVATION.json": "cf6e28d5d129abc658a3d94fca9328b778bc7ede53fb44814b1a0b406484dccb",
+        "flow/FLOW.npz": "9d30d896b0c095af9cfec84d0ae5acc96b42f81ebe4341d1c179cebcea2af10f",
+        "flow/FLOW.jsonl": "450fe8d0c9eeb51fb7736a45b3a0d398c128d041cb9b98c9e44363f120f72a95",
+        "RESULT.json": "25bd719f921b143700fe66c2a045d2d80398cda76fe24edb585f0eae7351b2eb"
+      },
+      "metrics": {
+        "steps": 400,
+        "complete": true,
+        "start_ns": 44446000000,
+        "initial_common_pair_abs": 1.1102230246251565e-16,
+        "initial_common_prior_abs": 1.1102230246251565e-16,
+        "initial_contrast_antisymmetry_abs": 5.551115123125783e-17,
+        "initial_signed_LR": {
+          "plus": 0.37789415612003013,
+          "minus": -0.3778941561200302
+        },
+        "initial": {
+          "plus": [
+            0.7766285475738758,
+            0.39873439145384565
+          ],
+          "minus": [
+            0.3987343914538457,
+            0.7766285475738759
+          ]
+        },
+        "signed_command_deg": 0.04819431100061335,
+        "absolute_command_deg": 0.06324084198693271
+      }
+    }
+  },
+  "stage4_navigation_admitted": false,
+  "biological_equivalence": false,
+  "aggregate_completed_run_wall_s": 3128.2924043509993,
+  "verifier_wall_s": 5.8497751930008235,
+  "verifier_rss_peak_kib": 570796,
+  "limitations": [
+    "No new organism or GPU execution; this is raw readback, not reproduction.",
+    "No cold checkpoint restore or independent MuJoCo reconstruction of antennae from all joints.",
+    "Drive full buffers were not archived: their hashes establish agreement among recorded descriptors, not recoverable full data.",
+    "ORN index identity is checked against a separately pinned CPU anatomical map; no physiological ORN calibration.",
+    "PN observation is signed total net at one fine-stage per interval, not isolated ORN current or efficacy of PN629/466.",
+    "No independent hardware memory trace; GPU samples do not bound intersample peaks.",
+    "SOURCE_LOCK is checked, but is not a complete transitive organism dependency manifest.",
+    "Stage3 eligibility receipts and event-owner logs are not independently re-audited here."
+  ]
+}

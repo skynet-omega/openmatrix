@@ -1,0 +1,110 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "cleanup_errors": [],
+  "field": "minus",
+  "engine": "causal_cuda",
+  "observer": "on",
+  "requested_trial_ms": 400,
+  "completed_trial_ms": 400,
+  "completed_preparation_ms": 40,
+  "wall_total_s": 1561.2547684290003,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/final_state"
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 7040,
+      "accepted": 44969031,
+      "rejected": 211758,
+      "build_s": 0.003916458999810857,
+      "native_wall_s": 125.47361293402173,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        20.0
+      ]
+    },
+    "CNS": {
+      "epochs": 7040,
+      "accepted": 81816,
+      "rejected": 0,
+      "build_s": 0.4510665939997125,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 7040,
+      "accepted": 7040,
+      "rejected": 0,
+      "build_s": 2.737490194998827,
+      "wall_s": 117.9912074548738,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 14080,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 7040,
+      "events": 34443,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "global_trials": 81816,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 3520,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 178182
+    }
+  },
+  "stage3_pass": null,
+  "stage4_pass": null,
+  "reason": "Mirrored finite-source input-to-command diagnostic only; not source navigation or biological equivalence."
+}

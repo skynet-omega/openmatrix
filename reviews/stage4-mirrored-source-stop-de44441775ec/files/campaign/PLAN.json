@@ -1,0 +1,77 @@
+{
+  "schema": "stage4_mirrored_finite_source_prospective_v1",
+  "registered_before_organism_runs": true,
+  "status": "READY_FOR_PREFLIGHT_NOT_YET_EXECUTED",
+  "limitation_observed": "The completed S+/S- pair changed mostly common olfactory intensity: late field difference 0.0433509327 but command L1 0.0016892447 degree, below its registered 0.004 threshold. The pair did not reverse left-right input contrast.",
+  "operation": "Two world-fixed finite Gaussian sources mirrored about the prepared antenna midline. Their initial bilateral means equal each other and the previous negative pair, while signed L-R contrast reverses. All neural, PN629-off, decoder, body and clock sources stay unchanged.",
+  "legal_information": "Only frozen 40-ms prepared antenna geometry, the previous source definitions, the previously registered initial mean and the existing Gaussian boundary equation. No desired heading, target route, command, or observed new organism outcome enters source design.",
+  "difference_from_parent": "New input geometry reverses the lateral mode instead of varying longitudinal intensity at nearly unchanged lateral mode; it is a new prospective input experiment, not a rescue of the old negative contract.",
+  "rivals": {
+    "A": "The consumed opposite lateral contrasts produce a correctly signed and material DNb05-reader command difference, reproduced by numerical references.",
+    "B": "Opposite lateral contrasts are consumed but do not produce a material command difference under the frozen organism within 400 ms.",
+    "C": "Preparation, field, clock, observer, numerical, or source separation checks fail; the experiment is uninterpretable before a circuit inference."
+  },
+  "controls": "Same basal checkpoint, separate but exact prepared states, 40-ms odor-free preparation, fixed physical source and sigma, source-independent forward command, existing motor decoder, signed flow taps and actual ORN/PN consumer observation. The previous negative is retained as exposed context, not relabeled or promoted.",
+  "fixed_inputs": {
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "geometry_preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757",
+    "reference_pose_guard_sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3",
+    "local_pose_guarded_helper_sha256": "3b800923c0fc39589c905b7f3d5171a0476ed770f5a77bb28491c84d43be25f5",
+    "source_design": "lateral offset 1.5 antenna baselines; sigma 1.5 baselines; forward offset is the unique nonnegative solution that matches the old prepared bilateral mean",
+    "source_labels": {"plus": "left", "minus": "right"},
+    "preparation_ms": 40,
+    "trial_ms": 400
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "observation": {
+    "bounded_drive_epochs": ["preparacion:1", "preparacion:40", "ensayo:1", "ensayo:2", "ensayo:10", "ensayo:100", "ensayo:300", "ensayo:400"],
+    "bounded_drive_ordinals": [0, 1],
+    "scope": "Exact committed sensor/trace lag and selected ORN argument buffers, plus signed PN/DN kernel net and target at each accepted millisecond; not every hidden kernel read."
+  },
+  "sequential_decision": [
+    "Run native plus and minus from separately loaded exact preparations; stop on any source, clock, consumer or budget guard failure.",
+    "Recalculate full traces and require opposite late L-R contrast, sufficient field separation and correctly signed material command and body-yaw separation. If input fails, C; if input passes but output fails, B.",
+    "Only after native effect is material, run plus/minus numerical references. Require pair effect and per-arm numerical parity before A. A remains source-side command modulation, not Stage4 navigation."
+  ],
+  "thresholds": {
+    "late_300_400ms_signed_LR_plus_min_exclusive": 0.25,
+    "late_300_400ms_signed_LR_minus_max_exclusive": -0.25,
+    "late_300_400ms_mean_abs_field_pair_min_exclusive": 0.25,
+    "command_L1_pair_deg_min_exclusive": 0.01,
+    "signed_command_plus_minus_deg_min_exclusive": 0.01,
+    "yaw_plus_minus_deg_min_exclusive": 0.005,
+    "native_reference_yaw_sup_deg_max": 0.002,
+    "native_reference_command_L1_deg_max": 0.002,
+    "all_numeric_finite": true
+  },
+  "budget": {
+    "native_runs_max": 2,
+    "reference_runs_max": 2,
+    "organism_runs_max": 4,
+    "wall_each_s_max": 2050,
+    "aggregate_wall_s_max": 8200,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "projected_output_GiB_max": 6,
+    "physical_C_reserve_GiB_min": 30,
+    "complete_prototypes_max": 1,
+    "new_ChatGPT_messages_max": 1,
+    "new_Jev_calls_max": 0,
+    "Codex_subagents": 0
+  },
+  "stop": "No source, gain, horizon, threshold, solver or reader retuning after observing either new organism. Preserve every failed or interrupted attempt; do not silently retry.",
+  "qualification": "At most locally confirmed synthetic mirrored finite-source-to-command modulation. Stage4 navigation additionally needs a separately frozen online-versus-yoked perturbation with source-distance/correction outcomes and controls; a visualization cannot replace it."
+}

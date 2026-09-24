@@ -1,0 +1,71 @@
+{
+  "schema": "stage4_mirrored_source_stop_v1",
+  "classification": "BLOQUEADO",
+  "native_subresult": "PROMETEDOR_NO_CONFIRMADO",
+  "reason": "Native 400-ms mirrored-source-to-command effect is material, but the first strict numerical reference stopped at the registered wall limit after 391/400 ms; the second reference was not run. No full numerical confirmation or closed-loop navigation admission.",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "native_metrics": {
+    "late_signed_LR_plus": 0.38542020181370823,
+    "late_signed_LR_minus": -0.3855624442781802,
+    "late_field_pair_mean_abs": 0.38549132304594413,
+    "command_L1_deg": 0.057746767029625064,
+    "signed_command_plus_minus_deg": 0.05774676702962507,
+    "yaw_plus_minus_last_deg": 0.05732051642988267,
+    "yaw_sup_deg": 0.05732051642988267
+  },
+  "native_checks": {
+    "input": true,
+    "command_L1": true,
+    "signed_command": true,
+    "body_yaw": true
+  },
+  "prepared_exact": true,
+  "reference_plus": {
+    "completed_trial_ms": 391,
+    "requested_trial_ms": 400,
+    "wall_s": 2041.5123376620013,
+    "error_type": "TimeoutError",
+    "prefix_yaw_sup_deg": 3.421114058710373e-07,
+    "prefix_command_L1_deg": 5.40878849316226e-07,
+    "prefix_only": true
+  },
+  "reference_minus": "NOT_LAUNCHED_AFTER_REQUIRED_REFERENCE_PLUS_FAILED",
+  "budget": {
+    "organism_runs": 3,
+    "native_runs": 2,
+    "reference_runs": 1,
+    "aggregate_wall_s": 5169.804742013001,
+    "limit_s": 8200
+  },
+  "external_review": {
+    "ChatGPT": "Prelaunch review identified and locally repaired trace-length bug; no execution of organism or final scientific audit.",
+    "Jev": "One bounded task-routing advisory in preceding design campaign; no biological validation."
+  },
+  "sources_sha256": {
+    "PLAN.json": "c78cede7dc6b843624bb926af78c769e84a9aada73b15f1fbc40e0356253b3f5",
+    "CAMPOS.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "SOURCE_LOCK.json": "7484144e90ced367474c695754cbca06fce1521655fce2f5ae6a13593c0b194c",
+    "RAW_VERIFIED_01.json": "5b4e94d480461e2bd38353f5d478498f7ab93db038ba131da31948de8a1d910e",
+    "RAW_VERIFIED_02.json": "80c121eda79018ef55b2448ff5f5d6b81a55d52e60583e7589c883f117fb06ed",
+    "PREPARED_COMPARE_causal_cuda.json": "ede2fcd7c485e8ffc95e86fea0b72163e9d67b404c510cf971e5e58088152907",
+    "PREFIX_PARITY_01.json": "2b754d4f32ff772c3d98e49af06be19f36b4122ac2997935114fb90045f52e5b",
+    "SCALAR_SERIES_01.csv": "480e7294f0ec96176fa63e62e052bd9ac758443270c3ad57b524081849b29150",
+    "SCALAR_SERIES_MANIFEST_01.json": "1ffe82f607f9256d833aeca226ea7e5013b739ed437d4223c461ab169e301327",
+    "TRAJECTORY_DESCRIPTIVE_01.json": "755bf110436759a1807fdb38ac22b0bdacfec5c818a6317d132b989724c8bd5b",
+    "PAIR_DIAGNOSTIC.json": "dbac54b872c4114984f4a9f1d98aa0b21eef0683a0fac3ef49ace6e356676aab",
+    "CHATGPT_REVIEW_01.md": "97a40516fd14e68e3772aefcf239352d5fe5d0596637d728e16f01561541b871"
+  },
+  "limitations": [
+    "Sources were matched in mean only at preparation, not along divergent trajectories.",
+    "Both bodies approached their source mostly through shared forward motion; no online-versus-yoked perturbation.",
+    "Only one prepared state/organism per source side; no animal variability or compatible in-vivo calibration.",
+    "Full strict reference and four-arm numerical parity are absent.",
+    "The body uses an azimuthal roller-assisted effector, not validated six-leg natural gait."
+  ],
+  "next_ABC": [
+    "A: performance engineering or genuinely faster strict numerical profile at the same equations, with a new prospective budget and parity contract.",
+    "B: prove exact cold continuation of a Gaussian reference from saved full state before using it to complete a long run.",
+    "C: independently validated reference integrator and matched online-versus-replay perturbation; keep numerical and navigation gates separate."
+  ]
+}
