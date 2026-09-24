@@ -1,0 +1,25 @@
+{
+  "schema": "resident_rejection_fixture_plan_v1",
+  "registered_before_fixture_source": true,
+  "objective": "Exercise an actual rejected CUDA trial, mandatory event boundary, and accepted-state commit through the same resident_controller.so tested on the real CNS. Use an independently computed host scalar oracle; no organism/biology claim.",
+  "budgets": {
+    "gpu_fixture_runs": 1,
+    "wall_s": 30,
+    "host_ram_gib": 1,
+    "gpu_vram_gib": 1,
+    "new_disk_mib": 20,
+    "no_extension_after_failure": true
+  },
+  "frozen_case": {
+    "state_size": 1,
+    "duration_ns": 2000,
+    "next_ns": 1000,
+    "minimum_ns": 100,
+    "maximum_ns": 1000,
+    "event_times_s": [0.0000015],
+    "trial_rule": "fine = state + 1000*clock_h_seconds; error = 2 when h>500 ns else 0.05; flag=0; domain=0",
+    "expected_end_state": 0.002,
+    "expected_rejections_at_least": 1,
+    "gate": "same accepted/rejected count, proposed next step, minimum step, maximum error and end state as independent scalar CPU oracle; state finite"
+  }
+}

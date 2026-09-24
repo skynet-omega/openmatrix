@@ -1,0 +1,14 @@
+{
+  "schema": "native_clean_fixture_source_lock_v1",
+  "locked_before_gpu_fixture": true,
+  "command": "timeout 30s ./motor_nuevo/native_clean_20260924_01/graph_tail_fixture",
+  "expected_observed_count": 7,
+  "budget_gpu_fixture_wall_s": 30,
+  "sha256": {
+    "PLAN.json": "d6424a376e9fe9fd846ccca642bf6c451275d17cfff05ce9d3d48b5917a51b23",
+    "graph_tail_probe.cu": "3ca1c3b2015c23f83f9f962a83129afc858d486de4782e44d3c37913fa6b3b58",
+    "graph_tail_fixture.cpp": "b1d8e4deb2832e78da829c30a398d3d1c835eb08b8e013d7ba1e12344104fe7a",
+    "libgraph_tail_probe.so": "f55f471eae34cffeb8f5c7517bc37d322218b6e8c773d0d99e694ebecebaf842",
+    "graph_tail_fixture": "082d2112c59d00116eaa110b4deffd508f4bdef204b4659dfef317fdc3443219"
+  }
+}

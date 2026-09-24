@@ -1,0 +1,38 @@
+{
+  "schema": "native_clean_resident_controller_plan_v1",
+  "registered_before_prototype_source_or_execution": true,
+  "objective": "Build a model-agnostic C++/CUDA temporal controller with device-resident trial decisions, exact event boundaries, rollback and state accounting; use the current full-CNS CUDA trial graph only as the first pluggable model. Python may prepare the model but must not decide each microtrial.",
+  "observed_problem": {
+    "profile_19ms_s_per_ms": 3.1520101694736846,
+    "native_graph_advance_s_per_ms": 2.118684768,
+    "rest_of_organism_s_per_ms": 1.0333254014736841,
+    "profiled_get_calls_per_ms": 960,
+    "profiled_tolist_calls_per_ms": 204,
+    "controller_current": "graph_control_v2.cpp synchronizes the host after each adaptive trial"
+  },
+  "independent_rivals": {
+    "A": "Coupled multirate waveform with exact dated events and recurrent correction; needs a partitioned model provider",
+    "B": "Spatial model partition and QSS/CSC with conservative influence bounds; unproven separation",
+    "F": "Exact adaptive device-resident control for the existing complete target/rate graph, then native model/body owners behind generic interfaces"
+  },
+  "first_prototype": "An isolated CUDA 12.0 shared library accepts a captured graph source and device state/status buffers, uses device tail self-launch for an adaptive event-bounded epoch, and returns a compact result once per epoch. It must not alter production sources. A tiny graph checks API compatibility only; then at most one 1-ms sham real-organism candidate replay may run from the same settled checkpoint as a strict reference. No speed claim from the tiny graph.",
+  "science_contract": "Same model equations, FP64 state, SET/ADD event times and ordering, target/rate evaluation, error norm, acceptance/rejection, domain checks, rollback and complete state. Compare state, RNG, events, model outputs and body against the original on real 1-ms replay; log any changed adaptive schedule explicitly. Hashes identify sources, not numerical equality of binaries.",
+  "budget": {
+    "api_fixture_gpu_runs_max": 1,
+    "api_fixture_wall_s_max": 30,
+    "real_organism_candidate_runs_max": 1,
+    "real_organism_simulated_ms_max": 1,
+    "real_organism_wall_s_max": 120,
+    "peak_ram_gib_max": 18,
+    "peak_vram_gib_max": 12,
+    "new_disk_gib_max": 1,
+    "no_extension_after_failure": true
+  },
+  "early_falsators": [
+    "CUDA 12.0 cannot instantiate the existing captured trial graph for device launch",
+    "tail self-launch cannot preserve adaptive event handling and rollback",
+    "the full-state or event trace differs outside the frozen tolerance",
+    "wall time including all owner boundaries does not materially improve over paired reference"
+  ],
+  "interpretation": "Success of the first prototype is a native control component, not a complete Python-free organism, biological equivalence, stage4/5 admission, or a 5-second speed claim."
+}

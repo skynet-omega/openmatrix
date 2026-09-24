@@ -1,0 +1,27 @@
+{
+  "schema": "native_clean_interface_bug_repair_lock_v1",
+  "registered_before_rerun": true,
+  "reason": "CuPy 13.6.0 destroys source cudaGraph_t and exposes Graph.graph==0; initial native bridge passed that null value",
+  "repair_scope": "Recapture one raw source graph with cudaStreamBeginCapture/cudaStreamEndCapture, then destroy after native child graph construction. No model/controller numerical change.",
+  "prior_failure_result_sha256": "9e28ce81e5de3c771dc456b27cf71b1b4859390fae40271aed0561e14dd2da1a",
+  "reference_result_sha256": "94b154512d247ebd9088bdb7a3b4c7629ef067035a66dff7174c327fd0ada08c",
+  "budgets": {
+    "candidate_runs": 1,
+    "simulated_ms": 1,
+    "wall_s": 120,
+    "host_ram_gib": 18,
+    "gpu_vram_gib": 12,
+    "new_disk_gib": 0.5,
+    "no_extension_after_failure": true
+  },
+  "falsators": [
+    "the real captured graph is incompatible with CUDA 12 device launch",
+    "a model state, event or body state differs from the locked reference",
+    "end-to-end 1-ms wall time does not improve materially"
+  ],
+  "sha256": {
+    "run_real_one_ms.py": "b569a23ba2abb45d59c6d722ad77c1829254c5661fb3dc5ad3d08afb48169c46",
+    "resident_controller.cu": "6c28333a6a333747688b5078acb09eccc450eed45e369bd619c0175a9ca564d7",
+    "libresident_controller.so": "ccce05fe6dc7593e02577b309f8ce2eb24b2163d1adf9e8cf3c913b99086565b"
+  }
+}

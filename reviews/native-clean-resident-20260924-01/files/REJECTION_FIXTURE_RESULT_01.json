@@ -1,0 +1,17 @@
+{
+  "schema": "resident_rejection_fixture_result_v1",
+  "status": "FAIL_FROZEN_GATE",
+  "process_exit_code": 1,
+  "stdout": {
+    "pass": false,
+    "state": 0.002,
+    "expected_state": 0.002,
+    "accepted": 7,
+    "rejected": 6,
+    "minimum_ns": 251,
+    "next_ns": 500,
+    "max_error": 0.05,
+    "wall_s": 0.506832
+  },
+  "interpretation": "The end state agreed at printed precision, but the resident acceptance schedule failed the independently computed scalar host oracle. The fixture was not rerun or its gate adjusted. The real 1-ms paired run had no rejected CNS trials, so rejection/rollback parity remains unverified."
+}

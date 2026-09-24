@@ -1,0 +1,27 @@
+{
+  "schema": "native_clean_real_replay_lock_v1",
+  "registered_before_reference_or_candidate": true,
+  "reference": "One 1-ms causal_cuda sham run using the original graph controller",
+  "candidate": "One 1-ms causal_cuda sham run from the same settled checkpoint, replacing only the adaptive CNS controller with the CUDA-resident prototype",
+  "common_checkpoint_manifest_sha256": "1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15",
+  "budgets": {
+    "reference_runs": 1,
+    "candidate_runs": 1,
+    "simulated_ms_per_run": 1,
+    "wall_s_per_run": 120,
+    "gpu_vram_gib": 12,
+    "host_ram_gib": 18,
+    "total_new_disk_gib": 1,
+    "no_extension_after_failure": true
+  },
+  "scientific_gate": "Compare the complete serialized session, prosthesis, published state, effective operator, physical boundary, clock, and event accounting. A failure is retained; no relaxed tolerance after seeing it. Timing is descriptive only unless full state passes.",
+  "source_sha256": {
+    "PLAN.json": "d6424a376e9fe9fd846ccca642bf6c451275d17cfff05ce9d3d48b5917a51b23",
+    "run_real_one_ms.py": "12a54a92b4cab9d356d291373571d1ad12e8824415905a1fcd8848df474d427d",
+    "resident_controller.cu": "6c28333a6a333747688b5078acb09eccc450eed45e369bd619c0175a9ca564d7",
+    "libresident_controller.so": "ccce05fe6dc7593e02577b309f8ce2eb24b2163d1adf9e8cf3c913b99086565b",
+    "graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "graph_control_v2.cpp": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "native_clean_full_state_pair_verify_v1",
+  "reference_complete": true,
+  "candidate_complete": true,
+  "files": {
+    "session": {
+      "exact_semantic": true,
+      "changes": [],
+      "json_sha256_equal": false,
+      "npz_sha256_equal": false
+    },
+    "prosthesis": {
+      "exact_semantic": true,
+      "changes": [],
+      "json_sha256_equal": true,
+      "npz_sha256_equal": true
+    },
+    "published": {
+      "exact_semantic": true,
+      "changes": [],
+      "json_sha256_equal": true,
+      "npz_sha256_equal": true
+    },
+    "effective_operator": {
+      "exact_semantic": true,
+      "changes": [],
+      "json_sha256_equal": true,
+      "npz_sha256_equal": true
+    },
+    "boundary": {
+      "exact_bytes": true
+    }
+  },
+  "scientific_state_exact": true,
+  "speed_result_admissible": true,
+  "user_target_5s_in_600s_demonstrated": false,
+  "clock_equal": true,
+  "trial_counts_equal": true,
+  "corruption_checks_pass": true,
+  "step_wall_reference_s": 3.8081653920016834,
+  "step_wall_candidate_s": 3.9025601030007238,
+  "candidate_over_reference_step_wall_ratio": 1.0247874504603445
+}

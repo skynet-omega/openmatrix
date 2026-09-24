@@ -1,0 +1,11 @@
+{
+  "schema": "resident_rejection_source_lock_v1",
+  "registered_before_gpu_execution": true,
+  "command": "timeout 30s ./motor_nuevo/native_clean_20260924_01/resident_rejection_fixture",
+  "source_sha256": {
+    "REJECTION_FIXTURE_PLAN_01.json": "bd2d5e1aafdfa226f2ff576f6f1d42fe3b39800ac8c248403063bc32462091b0",
+    "resident_rejection_fixture.cu": "2327dced7664c41d390f2eb2217be53614625b9753f353872a55f76326459c99",
+    "resident_rejection_fixture": "76d1db22f0e2f7132443cedfe550ad4b8e84fd3ea5b53bb57c93a25874a940c8",
+    "libresident_controller.so": "ccce05fe6dc7593e02577b309f8ce2eb24b2163d1adf9e8cf3c913b99086565b"
+  }
+}
