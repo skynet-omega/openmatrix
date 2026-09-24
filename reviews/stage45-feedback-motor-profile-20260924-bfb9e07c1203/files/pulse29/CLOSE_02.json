@@ -1,0 +1,67 @@
+{
+  "schema": "stage45_body_pulse_postprocess_repair_v1",
+  "classification": "DESCARTADO_EN_ESTE_CONTRATO",
+  "body_only": true,
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "original_runner_failure_sha256": "7f591fa81f22b62bbdab0094ddb3187c191ecf526964f7a47adc8b53f4ba426b",
+  "original_runner_source_sha256": "aaef17c1b3f41c438946d8c8f28be56e393c9bc352e2c05f7d339f1d245c2e7a",
+  "plan_sha256": "5ce736d58fd3a2d52fe3900e52381824230f7d0dda6d494b68f691656ee1f938",
+  "source_lock_sha256": "515fb9f3aaf5fb3fc49124e84b4c3a1b11e2b1c0923b8d534ec8b4c572998e9f",
+  "repair_plan_sha256": "6cac772da0104db9ae34d3769c42c6609243a5c467d3b5c18910028ebf16d314",
+  "repair_code_sha256": "4b61b6dec007e590fc34b28a6aaa6c250dddd45c739e48fbdaefca28e7001a05",
+  "arm_hashes": {
+    "zero_25us": {
+      "result": "4c1388d9fb8a152853695fb11ef64dd42f91a0bef93d261062d5ec5e856d8f7e",
+      "trace": "e98dab1714957bf31af7ae81673eea69043028c68a4823a69a23e22335eee512"
+    },
+    "pulse_25us": {
+      "result": "e2ad0f5657ba8dd879329a0be3716e8ebf2885aaedbbd005bc64e708ec23b304",
+      "trace": "894ffbd491ce6f5b71921c2fcc0ea79226f528756a4c5aebe23c6c8745b5f940"
+    },
+    "pulse_12p5us": {
+      "result": "2d28f82613a61a0a0feaf1496cf65b31ff2a84a97abf454475ef71783903bdc9",
+      "trace": "56762db5543982e69e036f3016fae41e34550261b4c92f29caef9b84fc6a43d7"
+    }
+  },
+  "baseline_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "yaw_deg": 0.0
+  },
+  "pulse_spec": {
+    "M_native_root_yaw": 7.496324252332084e-06,
+    "torque_Nm_per_native": 1e-07,
+    "torque_native": -4.672697857153467e-05,
+    "torque_Nm": -4.672697857153467e-12,
+    "equivalence_root5_max_abs_native": 9.003011277577391e-06,
+    "equivalence_root5_rel": 0.19267266048016812,
+    "applyFT_generalized_nonzero_indices": [
+      3,
+      4,
+      5
+    ],
+    "source_model_nq": 109,
+    "source_model_nv": 108,
+    "prepared_time_s": 44.486000000027154
+  },
+  "effect_final_deg": -0.007617899110528015,
+  "refinement_yaw_sup_deg": 5.0142255645369005e-06,
+  "refinement_xy_sup_mm": 4.335350656595183e-08,
+  "normal_force_ratio_min": 0.9999819671151766,
+  "checks": {
+    "historical_zero": true,
+    "effect_sign": true,
+    "effect_size": false,
+    "refined_yaw": true,
+    "refined_xy": true,
+    "contacts": true,
+    "support": true,
+    "upright": true,
+    "body_budget": true
+  },
+  "body_wall_total_s": 26.33323343400116,
+  "close_cpu_s": 0.18469976100459462,
+  "interpretation": "No new body arms; failed fixed effect minimum is not retuned. Next rival may use a changed source rather than increasing the pulse."
+}

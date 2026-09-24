@@ -1,0 +1,28 @@
+{
+  "schema": "stage45_exposed_pair_spatial_feedback_screen_v1",
+  "registered_before_readback": true,
+  "question": "How different is the minus-source antenna input on the two already-executed, prepared-identical trajectories?",
+  "inputs": {
+    "plus_trace": "campanas/etapa4_mirrored_source_20260924_26/native_plus_01/traces.npz",
+    "minus_trace": "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/traces.npz",
+    "fields": "campanas/etapa4_mirrored_source_20260924_26/CAMPOS.json",
+    "reference_close": "campanas/etapa4_reference_budget_20260924_27/CLOSE_01.json"
+  },
+  "operation": "Recompute the fixed minus Gaussian on the exact antenna positions of both the prior plus-source and minus-source native trajectories. Compare the sensor difference due solely to divergent trajectories under the same evaluated field; preserve their actually different neural exposure histories. No CNS or body is rerun.",
+  "rivals": {
+    "A": "Realized body divergence creates a material >=0.001 late mean signed L-R change under the common minus field, justifying a short online/yoked switch pilot.",
+    "B": "Body divergence and source-to-command response exist but common-field feedback difference stays <0.001; spend next compute on longer horizon/motor speed or validated effector change.",
+    "C": "Prepared identity, time correspondence, raw source field or numerical domain fail; geometry cannot be interpreted."
+  },
+  "criteria": {
+    "original_minus_field_reconstruction_max_abs": 1e-12,
+    "plus_field_reconstruction_max_abs": 1e-12,
+    "late_301_400_mean_abs_signed_LR_difference_min": 0.001,
+    "all_numeric_finite": true,
+    "same_prepared_qpos_exact": true,
+    "same_400ms_trial_clock": true
+  },
+  "budget": {"CPU_runs_max": 1, "wall_s_max": 10, "RAM_GiB_max": 1, "GPU_GiB_max": 0,
+             "organism_runs_max": 0, "output_MiB_max": 2},
+  "limits": "This is an empirical scale screen from fixed left/right exposure, not a run with source relocation at 100 ms and not a formal upper bound on future feedback. It cannot admit Stage4/5."
+}

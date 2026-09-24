@@ -1,0 +1,63 @@
+{
+  "schema": "stage45_body_authority_postclose_v1",
+  "classification": "VERIFIED_BODY_ONLY",
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "arms": {
+    "donor": {
+      "concentration_sup": 0.0,
+      "yaw_sup_deg": 0.0
+    },
+    "positive_ceiling": {
+      "concentration_sup": 0.0,
+      "yaw_sup_deg": 0.0
+    },
+    "negative_ceiling": {
+      "concentration_sup": 0.0,
+      "yaw_sup_deg": 0.0
+    }
+  },
+  "parity": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "yaw": 0.0
+  },
+  "effects": {
+    "final_yaw_gap_extremes_deg": 2.978897622116591,
+    "late_mean_abs_signed_LR_gap_extremes": 0.002501292680900116,
+    "max_signed_LR_gap_donor_vs_either": 0.005475779184469787,
+    "final_bearing_error_deg": {
+      "donor": 19.798118716443117,
+      "positive_ceiling": 21.70825801536417,
+      "negative_ceiling": 17.80111142105443
+    },
+    "bearing_error_at_switch_deg": 18.727817684648894,
+    "final_minus_LR": {
+      "donor": -0.3855271408996492,
+      "positive_ceiling": -0.38296998592469883,
+      "negative_ceiling": -0.3800513617151794
+    }
+  },
+  "checks": {
+    "donor_parity": true,
+    "same_initial_state": true,
+    "extreme_yaw_gap": true,
+    "extreme_field_gap": true,
+    "baseline_field_gap": true,
+    "contacts": true,
+    "upright": true,
+    "budget": true
+  },
+  "corruption_rejected": {
+    "antenna": true,
+    "donor_qpos": true,
+    "status": true
+  },
+  "source_lock_sha256": "6823e6b8542cbc85ea91fb69c70d8c9914be2a5155b71f110e94d75c55d54888",
+  "plan_sha256": "a06540c7fc8d7c6c71f045fdd99bf111822067234bbb2d0972c1e37d95e7ead6",
+  "postclose_plan_sha256": "9a5882f5c0a7123045ec3786b5f5100de045bd288a48b58bda9f19f3dd210473",
+  "verifier_sha256": "9d71bbf1df3f6816087dcb26d3daa0af64a041f2190b26b71ed774ba085d4e5f",
+  "wall_s": 0.12257618000148796,
+  "limits": "No per-ms commanded forces recorded in body-only traces; old code and source hash remain part of evidence."
+}

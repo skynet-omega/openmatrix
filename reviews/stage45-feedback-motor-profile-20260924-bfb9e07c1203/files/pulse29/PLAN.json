@@ -1,0 +1,57 @@
+{
+  "schema": "stage45_body_pulse_preflight_v1",
+  "registered_before_body_steps": true,
+  "purpose": "Calibrate a declared small physical yaw perturbation on the current Stage4 roller-assisted body. This is a body-only screen, not olfactory feedback or Stage4/5 admission.",
+  "source": "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/prepared_state plus first 200 trial commands/poses",
+  "rivals": {
+    "A": "Pure world-z torque on thorax via mj_applyFT added to existing prosthesis force; physical perturbation with unchanged neural command replay.",
+    "B": "Direct root yaw generalized torque qfrc[5], equivalent to A only if the restored model maps a thorax pure torque to that sole DOF; measure the map before use.",
+    "C": "Rigid olfactory frame rotation without body force, useful as an input control if physical support or torque map fails; cannot be labelled wind or body perturbation."
+  },
+  "chosen_probe": "A",
+  "legal_information": "Saved body/controller state and command trace, MuJoCo model inertia and documented unit conversion, all exposed before this preflight. No neural output from a new perturbation is available.",
+  "model": {
+    "source_side": "plus_left",
+    "torque_sign": -1,
+    "duration_ms": 200,
+    "pulse_start_ms": 50,
+    "pulse_end_ms_exclusive": 70,
+    "nominal_free_body_target_deg_at_200ms": 1.0,
+    "formula": "torque_Nm = - M_native[5,5] * torque_Nm_per_native * radians(1) / (pulse_duration_s * (total_s - pulse_start_s - pulse_duration_s/2)); M measured in a scratch MjData from prepared state. This free-body estimate is a fixed initial pulse, not a predicted MuJoCo outcome.",
+    "normal_dt_ns": 25000,
+    "refined_dt_ns": 12500,
+    "pulse_shapes": "identical physical torque_Nm over the same [50,70) ms wall-physical interval at both step sizes",
+    "command_policy": "Replay the same 200 signed forward/yaw commands from strict reference plus; keep motorized contact controller intact. Zero arm uses the same commands."
+  },
+  "arms": ["zero_25us", "pulse_25us", "pulse_12p5us"],
+  "checks": {
+    "zero_qpos_max_abs": 1e-8,
+    "zero_qvel_max_abs": 1e-8,
+    "zero_yaw_deg_max_abs": 1e-6,
+    "pulse_final_yaw_difference_deg_min": 0.3,
+    "pulse_final_yaw_difference_deg_max": 2.0,
+    "pulse_refinement_yaw_deg_max_abs": 0.02,
+    "pulse_refinement_xy_mm_max_abs": 0.0005,
+    "contact_count_each_ms_min": 3,
+    "normal_force_ratio_vs_zero_min": 0.8,
+    "upright_each_ms_min": 0.95,
+    "all_states_finite": true,
+    "no_mujoco_warnings": true,
+    "qfrc_always_cleared_after_step": true,
+    "pulse_applied_only_in_declared_window": true,
+    "no_stage_admission": true
+  },
+  "budget": {
+    "body_replays_max": 3,
+    "body_ms_max_each": 200,
+    "CPU_wall_total_s_max": 120,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 0,
+    "output_MiB_max": 10,
+    "ChatGPT_messages_max": 1,
+    "Jev_requests_max": 1,
+    "Codex_subagents": 0,
+    "complete_new_neural_prototypes_max": 0
+  },
+  "stop": "Stop after failed baseline replay, out-of-domain body state, time/memory limit, three arms, or source mismatch. Preserve failures and do not retune the pulse based on the new yaw."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "stage45_source_switch_geometry_v1",
+  "classification": "GEOMETRY_ONLY_ELIGIBLE",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "organism_runs": 0,
+  "donor_sha256": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+  "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+  "plan_sha256": "b350fc77498650921e393845bb5a1e90a8e23de4f0fb5a062e7b993dc11619ac",
+  "code_sha256": "8c8e55076162304966a1ce81c170f8421b1df2f3a49b9014120271bbfc7621f6",
+  "tape_sha256": "9f36b3d65b12cf75c8e210ab29dc59e69f683b6d2784687c6d7e1fea4fad5a89",
+  "original_plus_recompute_max_abs": 0.0,
+  "new_first_pending_at_trial_ms": 101,
+  "first_new_consumed_at_trial_ms": 102,
+  "mean_signed_LR_plus_201_400": 0.38509481593820183,
+  "mean_signed_LR_new_201_400": -0.38527642729347555,
+  "mean_abs_change_signed_LR_201_400": 0.7703712432316775,
+  "checks": {
+    "prefix_exact": true,
+    "late_material": true,
+    "opposite_sign": true,
+    "budget": true
+  },
+  "cpu_wall_s": 0.008700302001670934,
+  "interpretation": "Counterfactual source on saved poses; no living online branch or motor response."
+}

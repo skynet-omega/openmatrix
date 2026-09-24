@@ -1,0 +1,10 @@
+{
+  "schema": "stage45_body_authority_postclose_plan_v1",
+  "registered_after_body_runs_before_readback": true,
+  "purpose": "Independently rebuild body parity, sampled Gaussian contrast, bearings, support and predefined effect metrics from the saved raw arrays, without adding or changing physical arms.",
+  "inputs": "PLAN.json, SOURCE_LOCK.json, RESULT.json, three arm RESULT.json and trace.npz files, original donor traces.npz, frozen CAMPOS.json",
+  "criteria": "All source hashes match the frozen lock; no object arrays or nonfinite numbers; exactly400 samples and full original prepared-body parity; first100 full qpos/qvel identical across branches; concentration reconstructed from each antenna coordinate with sup error <=1e-12; yaw reconstructed from quaternions with sup error <=1e-10 degree; recomputed effects agree with reported values <=1e-10; result flags are checked but do not supply measurements.",
+  "corruption_checks": "A modified antenna coordinate, a modified donor qpos, and a flipped result status must each be detected on copies in memory.",
+  "budget": {"CPU_runs_max": 2, "wall_s_max_each": 20, "RAM_GiB_max": 2, "organism_runs_max": 0, "body_runs_max": 0},
+  "limitations": "The run did not record every submitted command or force in the raw trace. This verifier checks the frozen code and source hash plus physical trajectories, but cannot independently reconstruct each motor input from trace arrays alone."
+}

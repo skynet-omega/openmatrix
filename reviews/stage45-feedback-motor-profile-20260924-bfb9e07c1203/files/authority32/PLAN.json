@@ -1,0 +1,49 @@
+{
+  "schema": "stage45_body_authority_screen_v1",
+  "registered_before_execution": true,
+  "prospective_operational_repeat": {
+    "prior_attempt": "campanas/etapa45_body_authority_20260924_31",
+    "prior_failure": "Physical RAM budget before first simulated millisecond of first arm; no physical result was observed",
+    "prior_plan_sha256": "00707ab1ce828d72208549ca3db91a26aaa2aff5a74aaa3360de13034bc20e73",
+    "prior_code_sha256": "3ee9aaa5d11d46b8f50c35e3d7267f7f0f556b6120c969e31957ef5d7d860392",
+    "prior_failure_sha256": "839f2df15f9b1254d7439c2d879cc46825b672ef97a40952c87916bce6c6f7c2",
+    "sole_change": "RAM budget 2 to 18 GiB; the preceding body pulse screen already used an 18 GiB operational ceiling. Commands, fields, sources, horizon, effects and thresholds stay fixed."
+  },
+  "question": "Can the current contact body expose a material changed-source feedback signal during the 300 ms remaining after a source switch at trial millisecond 100?",
+  "alternatives": {
+    "A": "Existing neural command tape yields enough angular and antennal displacement for a meaningful short online-versus-yoked source-switch test.",
+    "B": "Only saturated ±5 degree/s commands expose a material signal; the current neural trajectory does not, so the 400-ms switch is a motor-authority diagnostic, not Stage4 navigation.",
+    "C": "Even saturated commands fail to produce a material geometric separation or body replay fails, so postpone expensive organism runs and prioritize motor/horizon work."
+  },
+  "inputs": {
+    "prepared": "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/prepared_state",
+    "donor_trace": "campanas/etapa4_reference_budget_20260924_27/reference_plus_01/traces.npz",
+    "fields": "campanas/etapa4_mirrored_source_20260924_26/CAMPOS.json",
+    "body_owner": "campanas/etapa3_causal_controls_20260923_11/body_replay.py"
+  },
+  "operation": "Replay reference plus neural commands exactly for 400 ms. From the same full physical checkpoint, replay the first 100 ms of those commands then force only the angular command to +5 or -5 degrees/s for the remaining 300 ms, keeping the recorded forward command each millisecond. No physical torque, odor delivery, CNS, or GPU is advanced. Evaluate the same mirrored minus Gaussian on each resulting real antenna pose.",
+  "criteria": {
+    "baseline_qpos_sup_native_max": 1e-8,
+    "baseline_qvel_sup_native_max": 1e-8,
+    "baseline_yaw_sup_deg_max": 1e-6,
+    "same_initial_integration_state": true,
+    "max_command_abs_deg_s": 5.0,
+    "extreme_pair_final_yaw_gap_deg_min": 0.5,
+    "extreme_pair_late_mean_abs_signed_LR_gap_min": 0.001,
+    "baseline_vs_extreme_max_signed_LR_gap_min": 0.001,
+    "contact_count_each_ms_min": 2,
+    "upright_each_ms_min": 0.9,
+    "all_numeric_finite": true
+  },
+  "budget": {
+    "body_replays_max": 3,
+    "wall_total_s_max": 160,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 0,
+    "output_MiB_max": 20,
+    "ChatGPT_messages_max": 1,
+    "Jev_requests_max": 1,
+    "organism_runs_max": 0
+  },
+  "stop": "Use the fixed three arms once. Failure or small effect is preserved; no command or threshold retuning within this contract. This is only a body/geometric feasibility screen and cannot admit Stage4 or Stage5."
+}

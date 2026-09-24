@@ -1,0 +1,200 @@
+{
+  "schema": "noncns_pstats_path_repair_verification_v1",
+  "classification": "SALVAGED_DIAGNOSTIC_FROM_PATH_TYPE_ERROR",
+  "runner_failure": "Cannot create or construct a <class 'pstats.Stats'> object from PosixPath('motor_nuevo/round_20260924_fast5s_02/NONCNS_pstats_on_01/NONCNS_RAW.pstats')",
+  "organism_ms_per_arm": 2,
+  "scientific_state_exact": true,
+  "state_fields": {
+    "population_indices": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "mode": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "proprioception_enabled": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "pending_excitation": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "parent_archive": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "motor_ids": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "pending_proprioception": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "intervention": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "ticks": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "initial_camera": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "pending_light": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "pending_sensors": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "source_identity": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "start_ns": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "history": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "ports": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "config": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "visual_groups": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "time_ns": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "initial_plasticity_updates": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "schema": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "world": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "body": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "hybrid": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "eyes": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "light_world": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "muscles": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "plasticity": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "proprioception": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "used_light": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "rotor": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "pending_cyborg_command": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "output_connected": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    },
+    "probe": {
+      "equal": true,
+      "different_paths": [],
+      "different_path_count": 0
+    }
+  },
+  "auxiliary_files_exact": {
+    "final_state/prosthesis.json": true,
+    "final_state/prosthesis.npz": true,
+    "final_state/published.json": true,
+    "final_state/published.npz": true,
+    "final_state/boundary.json": true,
+    "traces.npz": true,
+    "EVENT_AUDIT.json": true
+  },
+  "raw_profile_sha256": "1ebd2a75f9ea197e07ad56caf516d0f27dbd198136d27b34a771734d964c1399",
+  "raw_profile_bytes": 144782,
+  "complete_caller_arcs": true,
+  "get_calls": 960,
+  "tolist_calls": 204,
+  "deliberate_state_mutation_detected": true,
+  "deliberate_arc_mutation_detected": true,
+  "compare_source_sha256": "240dd392a4d27a6a9b472a265837a5c5c371c397115bff424df907478ed5c745",
+  "extractor_source_sha256": "bc6aa3ecb8d42e08a557a7aa0d752e21fb20cb85c7875a0059b49f3c43463b1b",
+  "repair_plan_sha256": "498441ccf45c7d91caaae1c30c5a23248837670e9aa72cafb703d3488a9b30db",
+  "limitation": "Only second millisecond of a two-ms sham run; cProfile times include device waits and profiler overhead. Runner status remains INCOMPLETE; raw pstats and state were saved before the import failure.",
+  "arcs_sha256": "2e1f9cee8db7181b52b6eccbe7a74d74fa7bf06d43652977eb17ba6390cd0969"
+}

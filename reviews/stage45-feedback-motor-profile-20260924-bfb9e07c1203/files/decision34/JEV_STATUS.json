@@ -1,0 +1,9 @@
+{
+  "schema": "stage45_jev_advisory_status_v1",
+  "spec": "JEV_SPEC.json",
+  "status": "NOT_CALLED_MISSING_LOCAL_ENV",
+  "reason": "TYPESAFE_API_KEY was not available in the local WSL process environment when checked after the empirical screens. User was asked asynchronously to configure the variable locally without pasting a secret. No credential was copied into this campaign or public exchange.",
+  "api_requests": 0,
+  "claim_of_jev_review": false,
+  "science_work_continues": true
+}

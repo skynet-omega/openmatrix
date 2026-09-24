@@ -1,0 +1,11 @@
+{
+  "schema": "noncns_pstats_offline_repair_plan_v1",
+  "registered_after_both_2ms_runs_before_offline_readback": true,
+  "prior_control_result_sha256": "259927612f4ccb4a9491592d01b65f3e22be9ff1b20480e4f59e55276bf61181",
+  "prior_profile_result_sha256": "67570705680df93b7092586001461c6a9c38b92fb956a05ad506afbff6c972c3",
+  "raw_pstats_sha256": "1ebd2a75f9ea197e07ad56caf516d0f27dbd198136d27b34a771734d964c1399",
+  "observed_failure": "Both organism arms completed two milliseconds, but the profile runner supplied a pathlib.Path to pstats.Stats; it requires str(path) on Python 3.10. Its RESULT.json remains INCOMPLETE.",
+  "operation": "Call the unchanged frozen extractor with str(raw_path) on the saved 142-KiB pstats file; verify caller totals against flat PROFILE.json; compare all saved scientific states and auxiliary trace/event files between control and profiled runs; reject deliberately corrupted state and caller totals. No organism or GPU rerun.",
+  "limits": {"CPU_verifications_max": 2, "wall_s_each_max": 30, "RAM_GiB_max": 2, "derived_json_MiB_max": 4, "organism_runs_max": 0, "GPU_runs_max": 0},
+  "classification_scope": "A postprocessed diagnostic from the preserved incomplete runner, not a retroactive change to its status or a motor speedup."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "stage45_body_pulse_close_repair_v1",
+  "trigger": "All three declared body arms finished and saved; run_preflight.py crashed only when assembling the final checks because it referenced `refine_y` instead of the existing `refine_yaw` variable.",
+  "classification_of_first_runner": "FAILED_POSTPROCESSING_AFTER_COMPLETED_BODY_ARMS",
+  "operation": "Use a separate verifier over the existing three NPZ and result receipts. Recompute the original PLAN.json checks without altering pulse, thresholds, body code, commands or traces.",
+  "legal_information": "The three already exposed saved arm traces and original prospective criteria.",
+  "budget": {"new_body_arms_max": 0, "CPU_wall_s_max": 10, "output_MiB_max": 1},
+  "failed_attempt_immutable": true,
+  "no_stage_admission": true
+}

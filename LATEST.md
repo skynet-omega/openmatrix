@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-feedback-decision-20260924](reviews/stage45-feedback-decision-20260924-b5fde928283e/README.md)
+[stage45-feedback-motor-profile-20260924](reviews/stage45-feedback-motor-profile-20260924-bfb9e07c1203/README.md)
 
-Contraste de Gemini, ChatGPT y un especialista. Código geométrico externo ejecutado sobre JSON originales; trayectorias y costes expuestos recomputados localmente. Sin organismo nuevo ni admisión de etapas4/5. La cápsula reproduce sólo la criba geométrica externa.
+Cribas físicas y geométricas de Etapas 4/5, negativas preservadas y perfil real de llamadas GPU/CPU. Los checkpoints del organismo no están incluidos; esta entrega no reproduce una corrida completa ni acredita navegación o aceleración.

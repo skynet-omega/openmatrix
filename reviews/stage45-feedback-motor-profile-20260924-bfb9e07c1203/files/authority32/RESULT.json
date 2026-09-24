@@ -1,0 +1,88 @@
+{
+  "schema": "stage45_body_authority_screen_result_v1",
+  "classification": "PHYSICAL_ENVELOPE_MATERIAL",
+  "checks": {
+    "donor_parity": true,
+    "same_initial_state": true,
+    "extreme_yaw_gap": true,
+    "extreme_field_gap": true,
+    "baseline_field_gap": true,
+    "contacts": true,
+    "upright": true,
+    "budget": true
+  },
+  "effects": {
+    "final_yaw_gap_extremes_deg": 2.978897622116591,
+    "late_mean_abs_signed_LR_gap_extremes": 0.002501292680900116,
+    "max_signed_LR_gap_donor_vs_either": 0.005475779184469787,
+    "final_bearing_error_deg": {
+      "donor": 19.798118716443117,
+      "positive_ceiling": 21.70825801536417,
+      "negative_ceiling": 17.801111421054433
+    },
+    "bearing_error_at_switch_deg": 18.727817684648894,
+    "final_minus_LR": {
+      "donor": -0.3855271408996492,
+      "positive_ceiling": -0.38296998592469883,
+      "negative_ceiling": -0.3800513617151794
+    },
+    "donor_final_command_integral_deg": 0.04819446742977209
+  },
+  "arms": {
+    "donor": {
+      "schema": "stage45_body_authority_arm_v1",
+      "name": "donor",
+      "status": "COMPLETE",
+      "initial_integration_sha256": "ad31273ba7c4e7c7ad97b3c32899d07e6da66fcc247deb66ba1ac331f0f81b8d",
+      "ms": 400,
+      "final_yaw_deg": 0.04491433557106461,
+      "contact_count_min": 4,
+      "upright_min": 0.9774556611042514,
+      "wall_s": 10.584562600000936,
+      "trace_sha256": "53efc38f63c5566e1b2febe787371555dd9b79f5ef84489e041901ab61d2a8a6",
+      "body_only": true,
+      "stage4_admission": false,
+      "stage5_admission": false
+    },
+    "positive_ceiling": {
+      "schema": "stage45_body_authority_arm_v1",
+      "name": "positive_ceiling",
+      "status": "COMPLETE",
+      "initial_integration_sha256": "ad31273ba7c4e7c7ad97b3c32899d07e6da66fcc247deb66ba1ac331f0f81b8d",
+      "ms": 400,
+      "final_yaw_deg": 1.504847831701369,
+      "contact_count_min": 4,
+      "upright_min": 0.9774556611042514,
+      "wall_s": 10.368153086994425,
+      "trace_sha256": "3d919863b794c0b2a260dab1855e1ee7ffc722ddc223fe0e3eb7cb7ec7d1384d",
+      "body_only": true,
+      "stage4_admission": false,
+      "stage5_admission": false
+    },
+    "negative_ceiling": {
+      "schema": "stage45_body_authority_arm_v1",
+      "name": "negative_ceiling",
+      "status": "COMPLETE",
+      "initial_integration_sha256": "ad31273ba7c4e7c7ad97b3c32899d07e6da66fcc247deb66ba1ac331f0f81b8d",
+      "ms": 400,
+      "final_yaw_deg": -1.474049790415222,
+      "contact_count_min": 4,
+      "upright_min": 0.9774556611042514,
+      "wall_s": 10.44993003700074,
+      "trace_sha256": "5d9ca087ca909b5f7fc19cb0550d69cc4ba1c87a6ba5cc74ba7dcdee1d38e474",
+      "body_only": true,
+      "stage4_admission": false,
+      "stage5_admission": false
+    }
+  },
+  "body_only": true,
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "source_lock_sha256": "6823e6b8542cbc85ea91fb69c70d8c9914be2a5155b71f110e94d75c55d54888",
+  "plan_sha256": "a06540c7fc8d7c6c71f045fdd99bf111822067234bbb2d0972c1e37d95e7ead6",
+  "code_sha256": "3ee9aaa5d11d46b8f50c35e3d7267f7f0f556b6120c969e31957ef5d7d860392",
+  "wall_total_s": 31.412858630996197,
+  "interpretation": "Saturated-command physical counterfactual, not an upper bound on passive MuJoCo yaw or actual CNS response.",
+  "output_bytes": 1958487
+}

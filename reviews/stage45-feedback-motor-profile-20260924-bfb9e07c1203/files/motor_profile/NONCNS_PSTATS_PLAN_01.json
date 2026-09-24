@@ -1,0 +1,12 @@
+{
+  "schema": "noncns_pstats_two_arm_diagnostic_plan_v1",
+  "registered_before_runner_copy_and_execution": true,
+  "purpose": "Attribute the measured 18240 cupy.ndarray.get and 3876 numpy.ndarray.tolist calls to calling functions without changing organism dataflow, because the sys.setprofile hook failed its GPU fixture.",
+  "arms": ["control_no_profile", "cprofile_raw_arcs"],
+  "common_preparation": {"checkpoint":"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms","checkpoint_manifest_sha256":"1817df128eb1f79953a6e45a24863465b6fe6c59b71fa0ddd6af4edde541ba15","odor":"sham","engine":"causal_cuda","observer":"off","kc_capture":"off","preparation_ms":0,"trial_ms":2,"profile_only_second_ms":true},
+  "code_change": "Use a copy of epoch_cost_20260923/run_set.py preserving load, step, events, checkpoint and state logic; add cProfile.Profile.dump_stats after the timed second step and retain caller arcs in a bounded derived JSON. Do not change the operational organism or historical campaign sources.",
+  "scientific_neutrality": "Both arms start from the same frozen checkpoint. Compare complete session/prosthesis/published/boundary state, RNG, event audit and traces with existing recursive comparator; exact equality required. If different, no attribution is used to promote refactor.",
+  "attribution_gate": "Raw pstats must contain get/tolist caller arcs and derived arc-call totals must match corresponding callee totals; else classify INCOMPLETE. Inclusive wall can include CUDA waits; bytes are not measured.",
+  "budget": {"organism_loads_max":2,"simulated_ms_per_load_max":2,"aggregate_simulated_ms_max":4,"wall_s_per_load_max":120,"aggregate_wall_s_max":180,"peak_ram_gib_max":18,"peak_vram_gib_max":12,"total_new_disk_gib_max":1,"derived_json_mib_max":4,"no_extension_after_failure":true},
+  "scope": "Causal profiling of host callgraph only, not a speedup, biological result, or stage4/5 admission."
+}
