@@ -1,0 +1,25 @@
+{
+  "schema": "epoch_session_result_v1",
+  "plan": "EPOCH_SESSION_PLAN_01.json",
+  "source_lock": "EPOCH_SESSION_SOURCE_LOCK_01.json",
+  "fixture_runs_consumed": 1,
+  "command": "timeout 30s ./epoch_session_fixture ./fixture_body.xml",
+  "exit_code": 0,
+  "observed_stdout": "PASS duplicate=1 unit=1 no_early_event=1 rollback=1 clean_replay=1 qpos=1e-06 neuron=1",
+  "time_output": "WALL_S=0.00 MAX_RSS_KB=9528",
+  "classification": "PROMISING_ARCHITECTURE_FIXTURE_ONLY",
+  "demonstrated": [
+    "One native C++ tick with a synthetic neuron and MuJoCo C, no Python callback",
+    "Compile-time registration rejects duplicate writer and unit mismatch",
+    "Dated event is not visible at 0.25 ms and is visible at 0.5 ms",
+    "Late injected failure restores synthetic owners, context clock/events and MuJoCo integration state",
+    "Retry from restored state matches an independently built clean control"
+  ],
+  "not_demonstrated": [
+    "Full fly checkpoint import, PN/KC/visual owner ports or actual 166700-neuron migration",
+    "CUDA work enqueued before late failure and device-state rollback",
+    "General MuJoCo models: fixture body owner accepts exactly one actuator and one mj_step per tick",
+    "Persistent serialization of owner state and RNG",
+    "Any speedup, five simulated seconds, or stage 4/5 admission"
+  ]
+}

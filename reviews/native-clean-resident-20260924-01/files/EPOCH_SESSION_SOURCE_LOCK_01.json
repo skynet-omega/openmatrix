@@ -1,0 +1,18 @@
+{
+  "schema": "epoch_session_source_lock_v1",
+  "plan": "EPOCH_SESSION_PLAN_01.json",
+  "compiled_before_run": true,
+  "fixture_runs_allowed": 1,
+  "sha256": {
+    "epoch_session.hpp": "9beef5dfaa8acf64b8cc1a83736492987a5fdf5a6b2c38912f8ba23ba0a73b97",
+    "epoch_session.cpp": "ad4d359e0418818f14fbd225965826bab5c8f8b9be6464f2af3e0e9bed59bfaf",
+    "mujoco_owner.hpp": "d938ad2cea3fb3332cf6be017564391f0f1451afbb8c6a694d4add1c55f4dfc2",
+    "mujoco_owner.cpp": "7c249a8c4bbabf3c47614aec3f2c5036216dd9d191f7d40e5f3b589960690656",
+    "epoch_session_fixture.cpp": "c9724cc5b2a4323ec6ca41244e82eb02b57f0405702f8dcc6b89617e43a4030f",
+    "fixture_body.xml": "984e45efe51f091041f6fefdc2b3db79aa038db43b70a8963eaeab63898a0799",
+    "epoch_session_fixture": "5a9369f79358d4fee4d0a8005c38982d5edc8b1a09c6d10b514db2a38ed70398"
+  },
+  "compiler": "g++ 13.3.0",
+  "mujoco": "libmujoco.so.3.2.7",
+  "build": "g++ -std=c++17 -O2 -Wall -Wextra -Werror -I/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/mujoco/include epoch_session.cpp mujoco_owner.cpp epoch_session_fixture.cpp -L/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/mujoco -l:libmujoco.so.3.2.7 -Wl,-rpath,/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/mujoco -o epoch_session_fixture"
+}

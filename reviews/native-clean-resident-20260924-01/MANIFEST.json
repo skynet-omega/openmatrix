@@ -5,21 +5,41 @@
       "sha256": "a2cbf5ef93b0cccaafd9a501b8612f7e36739df634b6225de44175a5ce678d19",
       "bytes": 4250
     },
+    "EPOCH_SESSION_PLAN_01.json": {
+      "sha256": "d4cf3e0fa3e6187f666df01dbf506136b2602e3147513bdbb776d522558c60c0",
+      "bytes": 1537
+    },
+    "EPOCH_SESSION_RESULT_01.json": {
+      "sha256": "1ce83dc6c20bcebdd3636b1d69adbdba47f12aff52fec68b9e13183a26f79f46",
+      "bytes": 1330
+    },
+    "EPOCH_SESSION_SOURCE_LOCK_01.json": {
+      "sha256": "192e9e6f91a3cd0d9429eea53de3f5630f40468a497de12d9360df4615cea70c",
+      "bytes": 1280
+    },
     "FIXTURE_SOURCE_LOCK_01.json": {
       "sha256": "8f9d6bea365ba636991ca38f7377102ae8cd14685ba6f7fcba95abd663d88008",
       "bytes": 732
     },
+    "GEMINI_REVIEW_02.md": {
+      "sha256": "3086c173e50234d7b945840f428f04d7830ecfb36b1c018b29b8640b5aafaf83",
+      "bytes": 2844
+    },
     "INTERFACE_FAILURE_01.md": {
       "sha256": "3d0bcee263f4eb7030bc374427d5b6e47227515bed058c68b6689c2a087c6fd4",
       "bytes": 1299
+    },
+    "OWNER_MIGRATION_MAP_01.md": {
+      "sha256": "e80233fc31eeb1db2e88ed428aef82a0ca71c31336a7d26a0177f66d61359cef",
+      "bytes": 3534
     },
     "PLAN.json": {
       "sha256": "d6424a376e9fe9fd846ccca642bf6c451275d17cfff05ce9d3d48b5917a51b23",
       "bytes": 2952
     },
     "README.md": {
-      "sha256": "b68acb86bfe0bf9a935b26c8bb90bb09a2d1581c9b7d1da95164662e0dae3a6a",
-      "bytes": 3469
+      "sha256": "253ef0ae2f6760ab4c5d414a7427401931e3ea5623a76ee650a146f8881606bc",
+      "bytes": 4305
     },
     "REAL_PAIR_VERIFY_01.json": {
       "sha256": "7e385b1f728da2fd4fd4bfe792908782ced8676dec3b66d1c893784395719a87",
@@ -73,6 +93,22 @@
       "sha256": "546f0236848479feb03bf94067ebadcc5ce117ee6e0604de1d56013dec516bf5",
       "bytes": 619
     },
+    "epoch_session.cpp": {
+      "sha256": "ad4d359e0418818f14fbd225965826bab5c8f8b9be6464f2af3e0e9bed59bfaf",
+      "bytes": 3362
+    },
+    "epoch_session.hpp": {
+      "sha256": "9beef5dfaa8acf64b8cc1a83736492987a5fdf5a6b2c38912f8ba23ba0a73b97",
+      "bytes": 1666
+    },
+    "epoch_session_fixture.cpp": {
+      "sha256": "c9724cc5b2a4323ec6ca41244e82eb02b57f0405702f8dcc6b89617e43a4030f",
+      "bytes": 7656
+    },
+    "fixture_body.xml": {
+      "sha256": "984e45efe51f091041f6fefdc2b3db79aa038db43b70a8963eaeab63898a0799",
+      "bytes": 327
+    },
     "graph_tail_fixture.cpp": {
       "sha256": "b1d8e4deb2832e78da829c30a398d3d1c835eb08b8e013d7ba1e12344104fe7a",
       "bytes": 665
@@ -80,6 +116,14 @@
     "graph_tail_probe.cu": {
       "sha256": "3ca1c3b2015c23f83f9f962a83129afc858d486de4782e44d3c37913fa6b3b58",
       "bytes": 3229
+    },
+    "mujoco_owner.cpp": {
+      "sha256": "7c249a8c4bbabf3c47614aec3f2c5036216dd9d191f7d40e5f3b589960690656",
+      "bytes": 1311
+    },
+    "mujoco_owner.hpp": {
+      "sha256": "d938ad2cea3fb3332cf6be017564391f0f1451afbb8c6a694d4add1c55f4dfc2",
+      "bytes": 864
     },
     "real_reference_01/RESULT.json": {
       "sha256": "94b154512d247ebd9088bdb7a3b4c7629ef067035a66dff7174c327fd0ada08c",

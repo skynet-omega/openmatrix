@@ -1,0 +1,27 @@
+{
+  "schema": "native_epoch_session_plan_v1",
+  "registered_before_new_epoch_source": true,
+  "objective": "Implement a clean C++ temporal orchestrator with no Python calls in its hot loop, pluggable state owners, declared channels and dated events, two-phase commit/rollback, and a MuJoCo C owner. Demonstrate that a model owner can be added without editing the orchestrator; do not claim complete fly fidelity or speed.",
+  "relation_to_rivals": {
+    "A": "Can install a multirate CNS owner with continuous/event current provider after its causal replay passes",
+    "B": "Can install partitioned QSS owners without changing scheduler code",
+    "C": "Can install JVP/Krylov owner if its cost/error gate passes",
+    "F": "Existing CUDA resident controller can be one owner; this prototype coordinates owner boundaries and MuJoCo"
+  },
+  "budget": {
+    "cpu_fixture_runs": 1,
+    "wall_s_max": 30,
+    "host_ram_gib": 1,
+    "new_disk_mib": 20,
+    "gpu_runs": 0,
+    "no_extension_after_failure": true
+  },
+  "falsators": [
+    "duplicate or unit-incompatible channel ownership is not rejected before running",
+    "an event is visible to a consumer before its recorded time",
+    "a forced late error fails to restore all owner state and the MuJoCo mjData",
+    "a subsequent successful tick differs from a clean control run",
+    "the native runner requires Python callbacks during a tick"
+  ],
+  "scope": "A tiny synthetic neuron and one-axis MuJoCo fixture, not the 166700-neuron model. No organism speed or stage admission."
+}
