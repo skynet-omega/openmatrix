@@ -1,0 +1,19 @@
+{
+  "schema": "Motor_size_CNS200_withdrawal_v1",
+  "qualified_parameter_transfer": false,
+  "withdrawn": true,
+  "promoted": false,
+  "affected_family": "matrix_motor_size_session_v1",
+  "rejected_checkpoints": [
+    "runs/motor_size_20260913/normalized/checkpoint",
+    "runs/motor_size_20260913/disabled/checkpoint"
+  ],
+  "reason": "Existing whole-CNS volume normalization was overlooked.200 applied a second size scaling to4307 generic cells. Numerical continuity does not validate this biological premise.",
+  "rejected_delivery_manifest": "evidence/motor_size_20260913/preservation_manifest.json",
+  "rejected_delivery_sha256": "4da16a7e5f769a2276c8502f262767870be43038af705fb8389f9f70fbdc694d",
+  "report": "reports/RETIRO_DOBLE_NORMALIZACION_20260913.md",
+  "audit": "evidence/motor_size_withdrawal_20260913/audit.json",
+  "retained_active_checkpoint": "runs/trochanter_cns_20260913/live/checkpoint",
+  "next_experiment_parent": "runs/bilateral_front_cns_20260913/live/checkpoint",
+  "base_normalization_verified": true
+}

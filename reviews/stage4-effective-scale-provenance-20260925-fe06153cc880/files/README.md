@@ -1,0 +1,13 @@
+# Corrección de procedencia: el modelo efectivo sí está normalizado
+
+Complemento material a la campaña37. No se cambió ningún parámetro. La frase enviada a ChatGPT sobre ausencia de normalización en el constructor era insuficiente para describir la vida vigente: el checkpoint conserva una intervención volumétrica posterior. La biblioteca ya documentaba esto el16-09; se recuperó el informe antes de proponer una nueva normalización. La primera tentativa de enviar la corrección a ChatGPT fue rechazada porque ya estaba respondiendo; no se cuenta como mensaje recibido.
+
+La lectura actual del operador efectivo de campaña36 confirmó exactamente umbrales DNa02 de **641,8660278320312** (derecha) y **547,9972534179688** (izquierda), con coeficientes CPU/CUDA iguales. La tabla MaleCNS y su manifiesto verificados dan mediana global **189.014.792,5 voxeles** y factores de volumen relativo DNa02 **82,6661/82,9461**. La ley registrada es `gain←gain/s; theta←theta*s`. Las unidades de entrada/umbral son del modelo; volumen no equivale a capacitancia o resistencia.
+
+La normalización adicional de4307 células fue retirada por doble aplicación; está preservada como negativo. Reintroducirla sería un error conocido. La cohorte frontal de la publicación usa una referencia de998.603.428,5 voxeles,5,2832 veces la global. Ese cociente **no es una ganancia que debamos aplicar**: cambiar la referencia altera el modelo completo y requeriría una hipótesis/contraste nuevo con parámetros originales y referencia fija, sin elegir por el giro obtenido.
+
+La ley puede escribirse como `tanh((a/r_max)*(J/s-theta_original))` para entradas J y los parámetros originales ideales antes del redondeo. Esto explicita que cambia la respuesta a densidad de entrada, no sólo una etiqueta de unidades. No demuestra que la escala actual sea incorrecta ni que otra cierre etapa4. Faltan datos que identifiquen esa transferencia para estas células/preparación.
+
+Archivos: auditoría histórica original, ecuación aplicada, retiro original, extracción actual de22 filas, hashes de fuentes y programa de lectura. El programa actual usa archivos locales; este suplemento permite revisar la procedencia y valores extraídos, **no** reejecutar la simulación ni el extractor sin el operador/atlas completos. La cápsula principal de37 sí incluye su verificación portátil de lectura/cotas/endpoints.
+
+Coste de comprobación actual0,125 s CPU y0,166 GiB pico, frente a límite60 s/2 GiB; cero organismos y cero modificaciones. Ninguna etapa cambió de estado. Autocrítica: hay que consultar la intervención persistida y la biblioteca, no deducir el modelo vigente del texto de su constructor. La misma confusión ya produjo un negativo histórico.

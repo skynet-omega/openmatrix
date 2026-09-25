@@ -1,0 +1,297 @@
+{
+  "scope": "Descriptive endpoint coefficients; volume is not capacitance and saved coefficients are not fitted physiology",
+  "budget": {
+    "wall_s": 60,
+    "max_rss_gib": 2,
+    "new_organism_runs": 0
+  },
+  "sources": {
+    "populations": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_motor_interface_20260925_37/population_01/RESULT.json",
+      "sha256": "ac7afee474ad117f85b87c507ee11daa3d5f3e036f0ffddee641e516648c6062"
+    },
+    "effective_metadata": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/final_state/effective_operator.json",
+      "sha256": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+    },
+    "effective_arrays": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/final_state/effective_operator.npz",
+      "sha256": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5"
+    },
+    "checkpoint_manifest": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/final_state/MANIFEST.json",
+      "sha256": "889f4fe6f481558397c9a2039e294b32e0d28dd07258a1935bcd31514ca6b621"
+    },
+    "volumes": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/anatomical_morphometry/v0.1/canonical_morphometry.parquet",
+      "sha256": "f9e7b6842510ff14fb25300dbb9877a3978cb9272cd69cb45becd1eb3ba88d2e"
+    },
+    "volumes_manifest": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/anatomical_morphometry/v0.1/manifest.json",
+      "sha256": "262a1481731fff94baf51200f16b0dea0c8ee01629e3c7d01b5baf07f1a88087"
+    },
+    "prior_audit": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_progression_20260916/motor_size_audit.md",
+      "sha256": "fb0635d8f3c0bee6ad1b82875c2fc0352a5a52167e39f1811666e63ddd11ee39"
+    },
+    "withdrawal": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/motor_size_withdrawal_v1.json",
+      "sha256": "2ef75eb5676a3a23e222a60f4b0489e191cf6ef053fd1eccb404f6671ac7402b"
+    },
+    "formula": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/anatomical_morphometry.py",
+      "sha256": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43"
+    }
+  },
+  "global_volume_median": 189014792.5,
+  "front_cohort_median": 998603428.5,
+  "front_to_global_reference_ratio": 5.283202522363428,
+  "host_cuda_coefficients_exact": true,
+  "rows": [
+    {
+      "bodyId": 10442,
+      "type": "DNa01",
+      "instance": "DNa01(VES006)_L",
+      "volume_source_voxels": 8291999725.0,
+      "relative_to_whole_cns_median": 43.86958086891533,
+      "effective_theta": 322.96826171875,
+      "effective_gain_q": 0.0001069131233975199,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10760,
+      "type": "DNa01",
+      "instance": "DNa01(VES006)_R",
+      "volume_source_voxels": 8413579951.0,
+      "relative_to_whole_cns_median": 44.51281214405481,
+      "effective_theta": 324.7102966308594,
+      "effective_gain_q": 0.00010904931326627615,
+      "prepared_model_hz": 6.6024088859558105,
+      "final_identity_model_hz": 6.698992729187012
+    },
+    {
+      "bodyId": 10360,
+      "type": "DNa02",
+      "instance": "DNa02_R",
+      "volume_source_voxels": 15625110542.0,
+      "relative_to_whole_cns_median": 82.66607250858422,
+      "effective_theta": 641.8660278320312,
+      "effective_gain_q": 6.767527340244853e-05,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 523769,
+      "type": "DNa02",
+      "instance": "DNa02_L",
+      "volume_source_voxels": 15678046977.0,
+      "relative_to_whole_cns_median": 82.94613754635104,
+      "effective_theta": 547.9972534179688,
+      "effective_gain_q": 5.593889479398343e-05,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10975,
+      "type": "DNa03",
+      "instance": "DNa03_R",
+      "volume_source_voxels": 4283814144.0,
+      "relative_to_whole_cns_median": 22.66390946094867,
+      "effective_theta": 175.61532592773438,
+      "effective_gain_q": 0.0002445473228540243,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 519624,
+      "type": "DNa03",
+      "instance": "DNa03_L",
+      "volume_source_voxels": 4549020432.0,
+      "relative_to_whole_cns_median": 24.06700751741428,
+      "effective_theta": 184.01197814941406,
+      "effective_gain_q": 0.00018521661058130832,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10971,
+      "type": "DNa11",
+      "instance": "DNa11(VES008)_L",
+      "volume_source_voxels": 4430604630.0,
+      "relative_to_whole_cns_median": 23.44051791607792,
+      "effective_theta": 170.64178466796875,
+      "effective_gain_q": 0.0002458850147672011,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 11233,
+      "type": "DNa11",
+      "instance": "DNa11(VES008)_R",
+      "volume_source_voxels": 4382799642.0,
+      "relative_to_whole_cns_median": 23.18760126671038,
+      "effective_theta": 184.27879333496094,
+      "effective_gain_q": 0.0001981259453434468,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10805,
+      "type": "DNb02",
+      "instance": "DNb02_R",
+      "volume_source_voxels": 2875282516.0,
+      "relative_to_whole_cns_median": 15.211944409059942,
+      "effective_theta": 104.37769317626953,
+      "effective_gain_q": 0.0003459995451612245,
+      "prepared_model_hz": 0.6851550340652466,
+      "final_identity_model_hz": 0.5075109601020813
+    },
+    {
+      "bodyId": 12767,
+      "type": "DNb02",
+      "instance": "DNb02_L",
+      "volume_source_voxels": 2683193838.0,
+      "relative_to_whole_cns_median": 14.195681737449199,
+      "effective_theta": 97.83916473388672,
+      "effective_gain_q": 0.000334602127656399,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 13922,
+      "type": "DNb02",
+      "instance": "DNb02_R",
+      "volume_source_voxels": 2837134552.0,
+      "relative_to_whole_cns_median": 15.010119125993803,
+      "effective_theta": 114.16260528564453,
+      "effective_gain_q": 0.0003641178906730757,
+      "prepared_model_hz": 5.435494899749756,
+      "final_identity_model_hz": 5.2321672439575195
+    },
+    {
+      "bodyId": 529488,
+      "type": "DNb02",
+      "instance": "DNb02_L",
+      "volume_source_voxels": 2907714367.0,
+      "relative_to_whole_cns_median": 15.38352807492567,
+      "effective_theta": 128.4536895751953,
+      "effective_gain_q": 0.00031464450189488583,
+      "prepared_model_hz": 1.3565970433128554e-40,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10065,
+      "type": "DNb05",
+      "instance": "DNb05_R",
+      "volume_source_voxels": 15280107409.0,
+      "relative_to_whole_cns_median": 80.84080196527475,
+      "effective_theta": 566.957275390625,
+      "effective_gain_q": 5.08413860550008e-05,
+      "prepared_model_hz": 149.43804931640625,
+      "final_identity_model_hz": 149.47291564941406
+    },
+    {
+      "bodyId": 10118,
+      "type": "DNb05",
+      "instance": "DNb05_L",
+      "volume_source_voxels": 15537294586.0,
+      "relative_to_whole_cns_median": 82.20147418356159,
+      "effective_theta": 566.957275390625,
+      "effective_gain_q": 6.486901658325508e-05,
+      "prepared_model_hz": 139.74473571777344,
+      "final_identity_model_hz": 139.76849365234375
+    },
+    {
+      "bodyId": 11074,
+      "type": "DNg13",
+      "instance": "DNg13_L",
+      "volume_source_voxels": 7163128936.0,
+      "relative_to_whole_cns_median": 37.897186993975616,
+      "effective_theta": 284.58477783203125,
+      "effective_gain_q": 0.00012994579420231195,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 512006,
+      "type": "DNg13",
+      "instance": "DNg13_R",
+      "volume_source_voxels": 7363893069.0,
+      "relative_to_whole_cns_median": 38.9593479515631,
+      "effective_theta": 307.74310302734375,
+      "effective_gain_q": 0.00013072376711535907,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10045,
+      "type": "DNg100",
+      "instance": "DNg100_L",
+      "volume_source_voxels": 16688976137.0,
+      "relative_to_whole_cns_median": 88.29455047546081,
+      "effective_theta": 663.258544921875,
+      "effective_gain_q": 5.64052823774715e-05,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10056,
+      "type": "DNg100",
+      "instance": "DNg100_R",
+      "volume_source_voxels": 16542412146.0,
+      "relative_to_whole_cns_median": 87.51914031278795,
+      "effective_theta": 559.1860961914062,
+      "effective_gain_q": 5.7706444761764594e-05,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 10783,
+      "type": "DNp09",
+      "instance": "DNp09_L",
+      "volume_source_voxels": 5594143150.0,
+      "relative_to_whole_cns_median": 29.596324583960804,
+      "effective_theta": 188.37411499023438,
+      "effective_gain_q": 0.00015913539750662226,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 11177,
+      "type": "DNp09",
+      "instance": "DNp09_R",
+      "volume_source_voxels": 4985441081.0,
+      "relative_to_whole_cns_median": 26.37593076742922,
+      "effective_theta": 204.20736694335938,
+      "effective_gain_q": 0.00019873336181496843,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 14674,
+      "type": "LAL013",
+      "instance": "LAL013_R",
+      "volume_source_voxels": 1358720996.0,
+      "relative_to_whole_cns_median": 7.188437360001863,
+      "effective_theta": 55.06699752807617,
+      "effective_gain_q": 0.0005575017035691652,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    },
+    {
+      "bodyId": 512258,
+      "type": "LAL013",
+      "instance": "LAL013_L",
+      "volume_source_voxels": 1262406230.0,
+      "relative_to_whole_cns_median": 6.678875305487003,
+      "effective_theta": 52.0065803527832,
+      "effective_gain_q": 0.0006989319379934785,
+      "prepared_model_hz": 0.0,
+      "final_identity_model_hz": 0.0
+    }
+  ],
+  "conclusion": "DNa02 effective thresholds match the already documented global volume intervention. Reapplying the withdrawn frontal normalization is not a repair.",
+  "no_parameter_change": true,
+  "no_stage_admission": true
+}

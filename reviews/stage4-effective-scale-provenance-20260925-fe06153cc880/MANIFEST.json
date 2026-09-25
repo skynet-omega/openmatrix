@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "label": "stage4-effective-scale-provenance-20260925",
+  "description": "Material correction: effective current model already has global volume normalization; withdrawn second normalization must not be reapplied. Source audit, actual22-cell coefficients and provenance; no model changes or stage admission.",
+  "files": [
+    {
+      "path": "AUDIT_20260916_ORIGINAL.md",
+      "bytes": 4065,
+      "sha256": "fb0635d8f3c0bee6ad1b82875c2fc0352a5a52167e39f1811666e63ddd11ee39"
+    },
+    {
+      "path": "PARAMETERS.csv",
+      "bytes": 2578,
+      "sha256": "ca21ae43a39f9b341751f6ce10c37c95fa8cb333e453b4ee168ccb8dc331d638"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2755,
+      "sha256": "7ce01c71dca559f7ac5cf795e48a1c5761fee19e45e0bf654c8edf8f6361610a"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 10620,
+      "sha256": "600555d1ef5e41273d3850926a81bf5effff212f6eb9f4b73d2275772beb985b"
+    },
+    {
+      "path": "RUNTIME.json",
+      "bytes": 75,
+      "sha256": "64115db21c68f8adde710285e17f9eb812744bbbc956e36cc9df1142cd0059c4"
+    },
+    {
+      "path": "WITHDRAWAL_ORIGINAL.json",
+      "bytes": 1030,
+      "sha256": "2ef75eb5676a3a23e222a60f4b0489e191cf6ef053fd1eccb404f6671ac7402b"
+    },
+    {
+      "path": "anatomical_morphometry_original.py",
+      "bytes": 7377,
+      "sha256": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43"
+    },
+    {
+      "path": "effective_parameter_provenance.py",
+      "bytes": 4579,
+      "sha256": "780242cedca57d698e671aba3780619deb85bfd78c1c2749f6d2429ff868d9b6"
+    }
+  ]
+}
