@@ -1,0 +1,39 @@
+{
+  "schema": "rhs_freeze_result_v1",
+  "plan_sha256": "03cb80695ab1bba42587fc53aca6e0d01fb6947a43dc5a4dd0db9b59c2205238",
+  "status": "DIAGNOSTIC_ONLY",
+  "queries": 60,
+  "segments_with_queries": 8,
+  "event_boundaries": 7,
+  "anchor_query_by_segment": {
+    "0": 0,
+    "1": 6,
+    "2": 12,
+    "3": 30,
+    "4": 36,
+    "5": 42,
+    "6": 48,
+    "7": 54
+  },
+  "scope": "Observed full RHS queries only; zero-order freeze proxy, no candidate trajectory, no speed claim.",
+  "whole_block": {
+    "max": 11.916210070902105,
+    "median": 3.3573020190185527,
+    "p90": 6.870990174716309,
+    "queries_over_0_1": 54,
+    "queries_over_1": 42,
+    "worst_query": 53,
+    "worst_state_index": 60020
+  },
+  "one_per_event_interval": {
+    "max": 5.374805000650668,
+    "median": 0.1729835679275677,
+    "p90": 2.129308037215672,
+    "queries_over_0_1": 32,
+    "queries_over_1": 13,
+    "worst_query": 29,
+    "worst_state_index": 60020
+  },
+  "wall_s": 2.0382737439940684,
+  "maxrss_kib": 730732
+}

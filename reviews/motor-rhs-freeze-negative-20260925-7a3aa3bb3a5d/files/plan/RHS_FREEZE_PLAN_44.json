@@ -1,0 +1,19 @@
+{
+  "schema": "rhs_freeze_plan_v1",
+  "date": "2026-09-25",
+  "question": "Before another MRI implementation, is zero-order freezing of the complete effective RHS between physical events even locally close on all60 consumed states of a real125us block?",
+  "full_arrays_sha256": "e91b7101e7c09562c0a92717c10e40b47b86836ac0a13dd2880c9336361c7292",
+  "audit_sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6",
+  "script_sha256": "29ad72419ccc214aab72abb5e1e0ef545d1f96dee9d5a9be3230dbc63338d2ef",
+  "atol": 1e-07,
+  "rtol": 1e-05,
+  "method": "RHS=r*(target-z). At each observed query compare to query0, and separately to first observed query in its physical-event-free interval. Report max over coordinates of h_query*abs(delta RHS)/(3*(atol+rtol*max(abs(z_i),abs(z_anchor)))). This is only a local perturbation proxy, not an integrated error bound.",
+  "falsifier": "A value>1 invalidates the naive claim that frozen full RHS is always a small perturbation along these observed query states. A value<=1 does not validate a frozen-RHS integrator or MRI correction.",
+  "budget": {
+    "organism_runs": 0,
+    "wall_s_max": 120,
+    "ram_gib_max": 4,
+    "output_bytes_max": 10000
+  },
+  "stop_rule": "One read-only computation, no selected rank/anchor tuning. Keep MRI with recurrent correction separate from naive freezing."
+}

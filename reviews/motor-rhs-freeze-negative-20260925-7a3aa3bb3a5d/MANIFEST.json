@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "label": "motor-rhs-freeze-negative-20260925",
+  "description": "Criba sobre60 consultas reales: congelar el RHS completo falla el indicador local en42/60, y aun anclado por intervalo en13/60. Fuente completa local fijada por SHA, sin nueva trayectoria ni veredicto de MRI.",
+  "files": [
+    {
+      "path": "review/RHS_FREEZE_REVIEW.md",
+      "bytes": 1779,
+      "sha256": "2167cbf620b4e0cb023279d8f05862245f30654ef36c19a8a77323403de0f01e"
+    },
+    {
+      "path": "plan/RHS_FREEZE_PLAN_44.json",
+      "bytes": 1352,
+      "sha256": "03cb80695ab1bba42587fc53aca6e0d01fb6947a43dc5a4dd0db9b59c2205238"
+    },
+    {
+      "path": "code/analyze_rhs_freeze.py",
+      "bytes": 3827,
+      "sha256": "29ad72419ccc214aab72abb5e1e0ef545d1f96dee9d5a9be3230dbc63338d2ef"
+    },
+    {
+      "path": "code/verify_rhs_freeze.py",
+      "bytes": 2782,
+      "sha256": "93fd01d6682e3038826df8b0a519ef13148bc909cddbe1b0e168a956900ebe58"
+    },
+    {
+      "path": "result/RHS_FREEZE_RESULT.json",
+      "bytes": 996,
+      "sha256": "5f505422d5dbe87d54a2cf6bd670a885f92f2a80bd2aeb9ac35143a0f02a97e2"
+    },
+    {
+      "path": "context/QUANTIZED_FULL_RESULT.json",
+      "bytes": 28141,
+      "sha256": "31b08559a25592d18dbf53734d60cd74fe0d3c5d44d649542a58618cc1416d97"
+    },
+    {
+      "path": "context/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    }
+  ]
+}

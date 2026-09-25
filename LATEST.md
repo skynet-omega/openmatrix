@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-event-step-policy-20260925](reviews/motor-event-step-policy-20260925-8cf4a2a8bb40/README.md)
+[motor-rhs-freeze-negative-20260925](reviews/motor-rhs-freeze-negative-20260925-7a3aa3bb3a5d/README.md)
 
-Código C++ y evidencia empírica pareada de la política de eventos interiores: 1ms y20ms del organismo completo; mejora parcial verificada, etapas4/5 abiertas. Incluye negativo v1 y cápsula numérica portátil; sin checkpoints completos ni credenciales.
+Criba sobre60 consultas reales: congelar el RHS completo falla el indicador local en42/60, y aun anclado por intervalo en13/60. Fuente completa local fijada por SHA, sin nueva trayectoria ni veredicto de MRI.
