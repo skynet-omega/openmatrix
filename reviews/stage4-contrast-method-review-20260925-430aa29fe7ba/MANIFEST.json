@@ -1,0 +1,102 @@
+{
+  "format_version": 2,
+  "label": "stage4-contrast-method-review-20260925",
+  "description": "Revisión de método y coste: replay identidad y ablación lateral en curso. Código real y donante1s; sin resultado de ablación, sin admisión de etapas4/5.",
+  "files": [
+    {
+      "path": "REVIEW_SCOPE.md",
+      "bytes": 1935,
+      "sha256": "3c17a978b14c7b2fbb711937850a53bbee7513b10177e0f2a7a46e69805b29ad"
+    },
+    {
+      "path": "DECISION.md",
+      "bytes": 5507,
+      "sha256": "46229567087ebfda017315c4b9f0b272646b0909066168a664dba7a8fefc293b"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 3448,
+      "sha256": "c7cde656fa04ece8b55209afee1c0b99b82c2f985cd99d91974d712dab8df5d5"
+    },
+    {
+      "path": "SOURCE_LOCK.json",
+      "bytes": 7630,
+      "sha256": "ee3e23e0e961d045374f9d773de5e08df0726fb068e06e5f8cad37201a67255b"
+    },
+    {
+      "path": "run_replay.py",
+      "bytes": 25280,
+      "sha256": "e2f1f4794e43c9d5901428b1e84ddb30653b0505f26acfb07295cd7dfcffb080"
+    },
+    {
+      "path": "replay_boundary.py",
+      "bytes": 8128,
+      "sha256": "49dee84f05a3f65a6443ed10a8ecf97111a127dda66a08b7e1c624f944b5032e"
+    },
+    {
+      "path": "verify_pair.py",
+      "bytes": 10198,
+      "sha256": "8dd94e53230883508327dcd3d59f07bd4e60e1bde8df73d2014e103fa0f28616"
+    },
+    {
+      "path": "test_replay.py",
+      "bytes": 2949,
+      "sha256": "d60eceb0604adbca331e72abfddd050501b65bd277a20e227a25d49cc9d5ff54"
+    },
+    {
+      "path": "chatgpt_verificar_cintas_cd.py",
+      "bytes": 5781,
+      "sha256": "21373acbd1323b52375dd5892d3a198996e4695fd42cfa879b9ba187255510ca"
+    },
+    {
+      "path": "READOUT_DIAGNOSIS.json",
+      "bytes": 584,
+      "sha256": "055227d43fd4ee6750bff081d7428b11445c1a3db4630cfcc8e74a12be1fd740"
+    },
+    {
+      "path": "CPU_TEST_01.json",
+      "bytes": 352,
+      "sha256": "2a3c8cfcf9d9ce9afde7c750b27c7818b35f1c6df12f2aa8757423dbd367a318"
+    },
+    {
+      "path": "CPU_TEST_02.json",
+      "bytes": 352,
+      "sha256": "2a3c8cfcf9d9ce9afde7c750b27c7818b35f1c6df12f2aa8757423dbd367a318"
+    },
+    {
+      "path": "PRECHECK.json",
+      "bytes": 589,
+      "sha256": "b0cb549ccf8f30f689b816dd61f30a7e4088f569591a96702652a3909f710429"
+    },
+    {
+      "path": "PREPARATION_EQUALITY.json",
+      "bytes": 387,
+      "sha256": "614a1f429b99d42e88d8d1948c41eeeabac6cbc864e4072a75e955cc34281031"
+    },
+    {
+      "path": "PREPARATION_INTERVENTIONS.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "donor/traces.npz",
+      "bytes": 13281335,
+      "sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29"
+    },
+    {
+      "path": "donor/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "donor/DIAGNOSIS_01.json",
+      "bytes": 1510,
+      "sha256": "6be1c8fed68d40b50f9b5081c69a30cc23bce3e0641474f4eb4c3a00ca1577d3"
+    },
+    {
+      "path": "donor/RAW_VERIFIED_01.json",
+      "bytes": 1597,
+      "sha256": "f3dbad9c19cff3e6eb8b09c36729330cfde79694007c231b07c8cf785088e910"
+    }
+  ]
+}

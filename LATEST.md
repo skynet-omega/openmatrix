@@ -1,5 +1,5 @@
 # Última evidencia
 
-[neurocore-real-review-20260925](reviews/neurocore-real-review-20260925-c3a5a4aa112f/README.md)
+[stage4-contrast-method-review-20260925](reviews/stage4-contrast-method-review-20260925-430aa29fe7ba/README.md)
 
-Revisión acotada de núcleo RK3(2) CUDA: seis corridas reales, mejora observada de tiempo y discrepancia numérica de 100 ms. Código y registros; no incluye trayectorias CNS completas ni modelo/checkpoint para reproducción integral.
+Revisión de método y coste: replay identidad y ablación lateral en curso. Código real y donante1s; sin resultado de ablación, sin admisión de etapas4/5.
