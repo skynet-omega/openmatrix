@@ -1,0 +1,50 @@
+{
+  "control": {
+    "bearing_deg": [
+      18.376847273299628,
+      19.722892277573944,
+      22.116783284259853
+    ],
+    "bearing_integral_deg_s": 20.145831785823077,
+    "progreso_mm": 0.18534269079994958,
+    "command_integral_deg": -0.022796211107375838,
+    "command_L1_deg": 0.1573899609821617,
+    "cancelacion_temporal": 0.8551609583920062,
+    "cancelacion_entrada_DN": 0.29731302505642354,
+    "mejora_historica_0p5": false,
+    "apoyo": true
+  },
+  "no_contrast": {
+    "bearing_deg": [
+      18.376847273299628,
+      19.76024268951254,
+      22.24512138476134
+    ],
+    "bearing_integral_deg_s": 20.200749928108433,
+    "progreso_mm": 0.18505119826809047,
+    "command_integral_deg": 0.06946531865324436,
+    "command_L1_deg": 0.160442386903248,
+    "cancelacion_temporal": 0.5670388605279588,
+    "cancelacion_entrada_DN": 0.2787546285721637,
+    "mejora_historica_0p5": false,
+    "apoyo": true
+  },
+  "delta_error_noD_minus_D_deg": 0.12833810050148742,
+  "effect_screen": "D_HELPS_IN_THIS_DISCRETIZED_MODEL",
+  "mean_input_concentration_exact": true,
+  "max_abs_change_mean_PN_q": 0.004591059830401867,
+  "max_abs_change_mean_DNb05_q": 3.4959041399496016e-05,
+  "wall_seconds": [
+    3739.030837704995,
+    4290.544247815997
+  ],
+  "total_wall_seconds": 8029.575085520992,
+  "numerical_resolution_1s_confirmed": false,
+  "stage4_admitted": false,
+  "stage5_admitted": false,
+  "report_source_sha256": "739eef142a046c3ea44eda9172d54b81bf5e0d69f13ee6a09ad1e27d9bf9c6fd",
+  "traces_sha256": {
+    "identity_01": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+    "no_contrast_01": "27f61f1ad39b7bdc0b563e64b2411cd161cef0674b0ef26b0e5b584cf80756af"
+  }
+}

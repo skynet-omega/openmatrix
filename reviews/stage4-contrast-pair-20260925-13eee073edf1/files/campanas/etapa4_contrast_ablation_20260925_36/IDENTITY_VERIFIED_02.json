@@ -1,0 +1,26 @@
+{
+  "identity_exact": true,
+  "final_bearing_error_deg": 22.116783284259853,
+  "initial_bearing_error_deg": 18.376847273299628,
+  "bearing_error_integral_deg_s": 20.145831785823077,
+  "final_distance_mm": 0.9459065685472738,
+  "initial_distance_mm": 1.1312492593472234,
+  "command_integral_deg": -0.022796211107375838,
+  "absolute_command_integral_deg": 0.1573899609821617,
+  "upright_min": 0.977455661104291,
+  "contacts_min": 4,
+  "mode": "identity",
+  "trace_sha256": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+  "prepared_state": {
+    "scientific_state_exact": true,
+    "different_sections": [],
+    "arrays_compared": 588,
+    "left_manifest_sha256": "e41c97dcf7e144886804e1ee69cacb1112c75f87fd9add93be4af98b07e97861",
+    "right_manifest_sha256": "c45f77fd1eeec9a48bc0e4f354c44511e41cbbf35b666603f3d6878a44ec554c",
+    "scope": "All prepared scientific state; new experiment profile differs intentionally; no resume claim"
+  },
+  "plan_sha256": "c7cde656fa04ece8b55209afee1c0b99b82c2f985cd99d91974d712dab8df5d5",
+  "verifier_sha256": "8dd94e53230883508327dcd3d59f07bd4e60e1bde8df73d2014e103fa0f28616",
+  "stage4_admission": false,
+  "stage5_admission": false
+}

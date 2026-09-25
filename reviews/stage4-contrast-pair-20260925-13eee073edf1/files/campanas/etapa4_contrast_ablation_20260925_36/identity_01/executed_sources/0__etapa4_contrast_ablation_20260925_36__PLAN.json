@@ -1,0 +1,69 @@
+{
+  "schema": "stage4_replay_contrast_prospective_v1",
+  "status": "FROZEN_BEFORE_ORGANISM",
+  "limitation": "One second spatial screen worsens bearing; sustained bilateral contrast may help, harm, or be overwhelmed by common history/basal dynamics.",
+  "rivals": {
+    "A": "Lateral sensory contribution: identity tape vs mean-bilateral tape, frozen model.",
+    "B": "Neural reader/bilateral and temporal cancellation; descriptive analysis first, no gain retuning.",
+    "C": "Delayed orientation with2s horizon; deferred without discriminating temporal prediction."
+  },
+  "operation": "40ms preparation plus1000ms replay per arm, donor L/R bits for identity or FP64 mean assigned to both; no change of third channel, model, integrator, body, reader or proprioception.",
+  "legal_information": "Exposed campaign35 raw donor; ChatGPT reviewed code and gave NumPy verifier, not new organism. No new arm outcomes inspected.",
+  "arms": [
+    "identity",
+    "no_contrast"
+  ],
+  "donor_trace_sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29",
+  "donor_trace": "../etapa4_long_trajectory_20260925_35/native_minus_02/traces.npz",
+  "timing": {
+    "preparation_ms": 40,
+    "trial_ms": 1000,
+    "step_ns": 1000000,
+    "tape_records": 1001,
+    "terminal_pending_consumed": false
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "diagnostic": {
+    "delta_definition": "abs(bearing_noD_final)-abs(bearing_identity_final); positive means D helps",
+    "material_effect_deg": 0.02,
+    "tentative_numerical_budget_per_arm_deg": 0.001,
+    "numerical_budget_validated": false,
+    "effect_size_screen_deg": 0.022,
+    "scope": "Size screen only; cannot claim resolved effect absent precision validation for both whole arms",
+    "historical_navigation_improvement_deg": 0.5,
+    "historical_late_improvement_deg": 0.5
+  },
+  "controls": [
+    "Every prepared scientific state/array/RNG/operator matches donor before installation",
+    "Every donor trace column exactly repeated in identity arm",
+    "1001 tape samples including terminal pending; no clock lag shift",
+    "Reconstruct physical field separately from delivered replay",
+    "Independent external verifier after paired run"
+  ],
+  "budget": {
+    "full_organism_runs_max": 2,
+    "wall_s_per_arm": 4300,
+    "aggregate_wall_s": 8600,
+    "RAM_GiB": 18,
+    "GPU_GiB": 12,
+    "output_GiB_max": 3,
+    "C_reserve_GiB_min": 30,
+    "CPU_preflight_wall_s_max": 120,
+    "new_engine_prototypes": 0,
+    "external_chatgpt_messages": 1,
+    "external_jev_requests": 1
+  },
+  "stop": "Stop if identity or preparation differs, numerical/domain failures, resource limits, or source mutation; preserve negative evidence; no automatic budget extension. No stage4/5 admission from replay."
+}

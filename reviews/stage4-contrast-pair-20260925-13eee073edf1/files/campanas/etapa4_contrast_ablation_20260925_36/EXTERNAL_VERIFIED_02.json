@@ -1,0 +1,47 @@
+{
+  "status": "COMPARACION_DESCRIPTIVA_NO_ADMISION",
+  "control": {
+    "bearing_deg": [
+      18.376847273299628,
+      19.722892277573944,
+      22.116783284259853
+    ],
+    "bearing_integral_deg_s": 20.145831785823077,
+    "progreso_mm": 0.18534269079994958,
+    "command_integral_deg": -0.022796211107375838,
+    "command_L1_deg": 0.1573899609821617,
+    "cancelacion_temporal": 0.8551609583920062,
+    "cancelacion_entrada_DN": 0.29731302505642354,
+    "mejora_historica_0p5": false,
+    "apoyo": true
+  },
+  "sinD": {
+    "bearing_deg": [
+      18.376847273299628,
+      19.76024268951254,
+      22.24512138476134
+    ],
+    "bearing_integral_deg_s": 20.200749928108433,
+    "progreso_mm": 0.18505119826809047,
+    "command_integral_deg": 0.06946531865324436,
+    "command_L1_deg": 0.160442386903248,
+    "cancelacion_temporal": 0.5670388605279588,
+    "cancelacion_entrada_DN": 0.2787546285721637,
+    "mejora_historica_0p5": false,
+    "apoyo": true
+  },
+  "efecto_D_bearing_deg": 0.12833810050148742,
+  "efecto_D_integral_deg_s": 0.05491814228535574,
+  "efecto_D_progreso_mm": 0.0002914925318591166,
+  "estado_preparado_completo_verificado": false,
+  "error_numerico_1s_verificado": false,
+  "stage4_admitted": false,
+  "stage5_admitted": false,
+  "sha256": {
+    "../etapa4_long_trajectory_20260925_35/native_minus_02/traces.npz": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29",
+    "identity_01/traces.npz": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+    "no_contrast_01/traces.npz": "27f61f1ad39b7bdc0b563e64b2411cd161cef0674b0ef26b0e5b584cf80756af",
+    "../etapa4_long_trajectory_20260925_35/CAMPOS.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+  },
+  "codigo_sha256": "21373acbd1323b52375dd5892d3a198996e4695fd42cfa879b9ba187255510ca"
+}

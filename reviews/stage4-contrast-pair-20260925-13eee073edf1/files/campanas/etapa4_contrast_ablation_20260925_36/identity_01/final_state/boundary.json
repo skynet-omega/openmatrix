@@ -1,0 +1,30 @@
+{
+  "schema": "clocked_olfactory_replay_v1",
+  "mode": "identity",
+  "donor_trace_sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29",
+  "origin_ns": 44486000000,
+  "consumed_samples": 1000,
+  "terminal_pending_samples": 1,
+  "physical_field": {
+    "schema": "fixed_gaussian_intensity_v1",
+    "arm": "minus",
+    "installed_ns": 44486000000,
+    "source_mm": [
+      0.5937021945501157,
+      -0.8361869899756281
+    ],
+    "sigma_mm": 0.34678683007781147,
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "sampling_order": [
+      "L",
+      "R"
+    ],
+    "source_authority": "boundary.json; no world.source_mm histórico",
+    "canonical_scale_declared": 80.0,
+    "biological_transduction_calibrated": false
+  },
+  "concentration_campo_semantics": "Delivered tape, not the field at the current body pose",
+  "physical_concentration_column": "concentracion_fisica",
+  "spatial_feedback_enabled": false,
+  "resumable": false
+}

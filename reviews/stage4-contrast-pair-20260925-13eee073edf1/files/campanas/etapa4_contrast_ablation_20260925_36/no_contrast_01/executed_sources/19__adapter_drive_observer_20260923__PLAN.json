@@ -1,0 +1,30 @@
+{
+  "schema": "bounded_adapter_drive_observer_v1",
+  "scope": "Separate observer of actual adapter entry arguments, actual host PN refreshes, capture-time coefficient identities, and before/after graph boundary buffers; no model equation changes",
+  "budget": {
+    "cpu_seconds_tests_total_max": 30,
+    "wall_seconds_tests_total_max": 60,
+    "rss_MiB_tests_max": 256,
+    "gpu_calls_executed_now": 0,
+    "organism_steps_executed_now": 0
+  },
+  "capture_limits": {
+    "selected_epochs_max": 8,
+    "step_calls_per_epoch_max": 32,
+    "capture_ordinals_per_epoch": [
+      0,
+      1
+    ],
+    "records_total_max": 16,
+    "coefficient_build_calls_max": 32,
+    "actual_pn_host_reads_per_step_max": 2,
+    "array_bytes_max": 16000000,
+    "selected_indices_max": 256
+  },
+  "comparison": "Exact array dtype/shape/content after the documented float64 input conversion; pointer/object identity across graph capture and each observed advance; no tolerance relaxation",
+  "source_hashes": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+  },
+  "limits": "GPU execution not tested. Does not record every kernel read, ORN spiking, all PN routes or causal efficacy. Synchronization overhead unmeasured on the organism."
+}
