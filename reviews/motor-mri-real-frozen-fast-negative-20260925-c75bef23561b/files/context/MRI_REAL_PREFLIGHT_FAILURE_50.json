@@ -1,0 +1,10 @@
+{
+  "schema": "mri_real_preflight_failure_v1",
+  "status": "STOPPED_BEFORE_LOADING",
+  "exit_code": 1,
+  "error": "SyntaxError: expected else after if expression, source line190",
+  "scientific_runs": 0,
+  "source_sha256": "a99a2bb2684ffaa8f0a4026df88eed4decf073ba208937b59d5ed85b922550b2",
+  "plan_sha256": "e9115ee9c3c7e51dbd8ecdba759f32cb90d29e3cd76708c3506e7a791cc020a6",
+  "repaired_in": "probe_mri_real_frozen_fast_v2.py under new plan51"
+}

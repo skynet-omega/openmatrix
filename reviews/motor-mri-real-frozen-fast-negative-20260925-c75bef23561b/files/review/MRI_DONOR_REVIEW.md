@@ -1,0 +1,7 @@
+# Donante MRI de ChatGPT — recibido y probado localmente
+
+El archivo [mri_event_probe.py](chatgpt_original/mri_event_probe.py) se transfirió íntegro de la conversación externa con SHA-256 `03ffdf6038772226d4797b837c5ed08275d470019925f697c56d5a23857a15fc` (11.803 bytes, 207 líneas). Sólo importa NumPy/SciPy y escribe su propio resultado; no se integra al motor operativo.
+
+Los selftests CPU pasaron tanto en Python normal como bajo `-O`. El control de residuo lento constante cumple sus cuatro puertas internas. El caso adverso de evento tardío con masa no diagonal y recurrencia omitida **falla**: error normalizado final 22,518 y defecto muestreado 671,954, aunque el estimador embebido es cero. El código detecta este fallo y conserva `FAIL_RETAINED`. Una prueba independiente de ODE suave sin eventos mostró reducción del error local ~16× al dividir el paso por dos, compatible con el orden tres global que se espera del esquema; no valida discontinuidades ni el organismo.
+
+El módulo exige `full`, `fast`, `project`, versión de operador y contabilidad de aristas. Aquí aún no existe un proveedor `fast` probado para el operador completo real. Cinco llamadas `full` por bloque de 125 µs serían prometedoras frente a las 60 consultas del bloque padre **sólo si** las consultas rápidas no esconden barridos completos y si el estado, eventos, defectos y coste total pasan un replay del mismo bloque. La respuesta externa no descargó la cápsula anterior y no ejecutó CUDA. Clasificación `DONANTE_CPU_SIN_ADMISIÓN`.

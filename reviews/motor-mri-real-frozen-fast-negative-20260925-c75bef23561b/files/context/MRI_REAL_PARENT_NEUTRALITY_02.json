@@ -1,0 +1,9 @@
+{
+  "schema": "mri_parent_neutrality_v1",
+  "status": "PASS_EXACT_PARENT_OUTPUT",
+  "run": "mri_real_frozen_fast_02",
+  "baseline_result_sha256": "91956e9f446dc8ca3ea89578c1ec591fbe24a0e36a3412e3de77a24da20ca6cf",
+  "run_result_sha256": "0d30b7612c1c0a582e5bd71ba79125c2e632bdeb15e27e363db096826fd0f5c3",
+  "session_arrays_resolved": 574,
+  "scope": "Diagnostic MRI failed before integration due unsorted event list; organism still ran original parent exactly."
+}

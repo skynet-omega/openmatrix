@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-event-strict-replay-20260925](reviews/motor-event-strict-replay-20260925-1f906613f316/README.md)
+[motor-mri-real-frozen-fast-negative-20260925](reviews/motor-mri-real-frozen-fast-negative-20260925-c75bef23561b/README.md)
 
-Auditoría portátil de eventos especulativos versus confirmados y máximo de estado CNS final en 20ms sham. Ejecutar python3 -B code/verify_event_step_audit_strict.py --root . --out verify.json tras extracción. Sin afirmación de trayectoria completa.
+Real same-run sham125us MRI falsifier: five full effective RHS calls with frozen diagonal fast RHS fail endpoint1.865 and sampled defect146.659; parent organism unchanged. Portable arrays verify endpoint only, not live defect or parent checkpoint.

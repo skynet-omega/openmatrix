@@ -1,0 +1,21 @@
+{
+  "schema": "mri_real_frozen_fast_result_v1",
+  "plan_sha256": "63489cbaf7d55ba2301e0f2e6f1e2a706a77db7d750417264d9b4e7b5dc67291",
+  "source_sha256": "23d4f164c446853bbfec78ce984770da2349cb80aadde040ec7a6f3e950cd118",
+  "chatgpt_mri_sha256": "03ffdf6038772226d4797b837c5ed08275d470019925f697c56d5a23857a15fc",
+  "run_result_sha256": "0d30b7612c1c0a582e5bd71ba79125c2e632bdeb15e27e363db096826fd0f5c3",
+  "runner_exit_code": 0,
+  "runner_status": "COMPLETE",
+  "completed_trial_ms": 1,
+  "physical_epochs": 16,
+  "replayed_blocks": 1,
+  "oracle_build_s": 0.011188268006662838,
+  "mri": null,
+  "diagnostic_error": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/probe_mri_real_frozen_fast_v2.py\", line 130, in advance\n    trial=mri_event_probe.Ensayo(\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/chatgpt_original/mri_event_probe.py\", line 41, in __init__\n    need(ev==sorted(ev) and all(t0<=t<=t1 for t in ev),'Fechas/orden')\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/chatgpt_original/mri_event_probe.py\", line 15, in need\n    if not ok: raise ValueError(msg)\nValueError: Fechas/orden\n",
+  "wall_s": 34.24021855699539,
+  "maxrss_kib": 6061620,
+  "disk_bytes": 374896880,
+  "scope": "One sham125us block post-step independent replay; frozen diagonal fast is deliberately weak; no state published.",
+  "budget_ok": true,
+  "status": "INCOMPLETE_RETAINED"
+}

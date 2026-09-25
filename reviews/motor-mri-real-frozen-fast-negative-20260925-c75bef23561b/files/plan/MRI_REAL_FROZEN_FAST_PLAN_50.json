@@ -1,0 +1,42 @@
+{
+  "schema": "mri_real_frozen_fast_plan_v1",
+  "purpose": "Falsify a simple frozen-diagonal F_fast under five full RHS calls on one real accepted sham125us block; original organism trajectory remains parent",
+  "candidate": "ChatGPT MRI-GARK CPU donor unmodified; Codex provider returns frozen r0*(a0-z), exact port project and real full effective oracle",
+  "hypotheses": {
+    "A": "Frozen diagonal fast RHS plus stage slow corrections meets endpoint/defect with <=5 full queries",
+    "B": "Full recurrence JVP/Krylov may be required when A fails",
+    "C": "QSS/influence schedule may be required when both stage methods exceed work"
+  },
+  "expected_negative": "Prior full-RHS freeze proxy exceeded tolerance in 42/60 consumed queries; this run tests integrated stage correction rather than preselecting success",
+  "budget": {
+    "runs_max": 1,
+    "simulated_ms": 1,
+    "replayed_blocks_max": 1,
+    "full_queries_max": 5,
+    "wall_s_max": 240,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 734003200
+  },
+  "gates": {
+    "endpoint_normalized_max": 1,
+    "sampled_defect_normalized_max": 1,
+    "full_calls_max": 5,
+    "scientific_parent_state_exact": true
+  },
+  "limits": [
+    "Work gate counts base CSR edges only as lower bound; specialized and local work not fully counted",
+    "Sham125us only, no trajectory or Stage4/5 claim",
+    "Pure frozen diagonal fast split; failure does not rule out corrected event-sparse fast provider"
+  ],
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/probe_mri_real_frozen_fast.py": "a99a2bb2684ffaa8f0a4026df88eed4decf073ba208937b59d5ed85b922550b2",
+    "motor_nuevo/owner_fallback_cost_20260924_01/chatgpt_original/mri_event_probe.py": "03ffdf6038772226d4797b837c5ed08275d470019925f697c56d5a23857a15fc",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/epoch_cost_20260923/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+  },
+  "baseline_result_sha256": "91956e9f446dc8ca3ea89578c1ec591fbe24a0e36a3412e3de77a24da20ca6cf"
+}

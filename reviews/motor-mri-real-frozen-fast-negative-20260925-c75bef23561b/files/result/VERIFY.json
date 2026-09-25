@@ -1,0 +1,13 @@
+{
+  "schema": "mri_frozen_capsule_verify_v1",
+  "status": "FAIL_FROZEN_FAST",
+  "endpoint_normalized": 1.8651122041742974,
+  "embedded_normalized": 0.18603880618687538,
+  "max_index": 29460,
+  "coordinates_over_one": 1,
+  "defect_reported_unrecomputed": 146.65932417416084,
+  "full_calls": 5,
+  "state_sha256": "406ff7cc84cb66b06ce79cb4f950a7975f70ba285573c83c3c3557e210a20078",
+  "corruption_rejected": true,
+  "scope": "Endpoint and embedded recomputed from portable arrays; live-oracle defect, parent neutrality, full operator work and speedup require local organism."
+}

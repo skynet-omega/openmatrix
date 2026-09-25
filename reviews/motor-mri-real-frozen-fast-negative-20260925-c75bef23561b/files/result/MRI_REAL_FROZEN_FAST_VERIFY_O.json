@@ -1,0 +1,13 @@
+{
+  "schema": "mri_real_frozen_fast_verify_v1",
+  "status": "FAIL_FROZEN_FAST",
+  "parent_scientific_output_exact": true,
+  "endpoint_normalized": 1.8651122041742974,
+  "embedded_normalized": 0.18603880618687538,
+  "sampled_defect_normalized_reported": 146.65932417416084,
+  "full_calls": 5,
+  "fast_calls": 229,
+  "initial_state_sha256": "406ff7cc84cb66b06ce79cb4f950a7975f70ba285573c83c3c3557e210a20078",
+  "corruption_rejected": true,
+  "scope": "One sham125us block, frozen diagonal fast RHS. Defect requires live oracle and is not independently recomputed from saved states; no stage admission."
+}

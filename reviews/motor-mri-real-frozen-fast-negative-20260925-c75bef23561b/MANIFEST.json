@@ -1,0 +1,112 @@
+{
+  "format_version": 2,
+  "label": "motor-mri-real-frozen-fast-negative-20260925",
+  "description": "Real same-run sham125us MRI falsifier: five full effective RHS calls with frozen diagonal fast RHS fail endpoint1.865 and sampled defect146.659; parent organism unchanged. Portable arrays verify endpoint only, not live defect or parent checkpoint.",
+  "files": [
+    {
+      "path": "MRI_REAL_BLOCK_STATES.npz",
+      "bytes": 8577463,
+      "sha256": "406ff7cc84cb66b06ce79cb4f950a7975f70ba285573c83c3c3557e210a20078"
+    },
+    {
+      "path": "MRI_REAL_FROZEN_FAST_RESULT.json",
+      "bytes": 1723,
+      "sha256": "b07b52a2b273e95bfa624f85ce9d670f310b3d301bd10261e7694ba50def15d0"
+    },
+    {
+      "path": "MRI_REAL_FROZEN_FAST_PLAN_52.json",
+      "bytes": 3210,
+      "sha256": "92c9c906334d1a987d144e18b21c14add4b03254381c391a2bd1952ef05f1fc9"
+    },
+    {
+      "path": "code/probe_mri_real_frozen_fast_v3.py",
+      "bytes": 9834,
+      "sha256": "3285f394d677dc93f986dc98c01739ea282fc90f5f52037062379aee119059e2"
+    },
+    {
+      "path": "code/mri_event_probe.py",
+      "bytes": 11803,
+      "sha256": "03ffdf6038772226d4797b837c5ed08275d470019925f697c56d5a23857a15fc"
+    },
+    {
+      "path": "code/verify_mri_frozen_capsule.py",
+      "bytes": 3140,
+      "sha256": "b8499fae5f3367f7cfe0b211291554419ae0ad342402d23804f5a62043cba7bc"
+    },
+    {
+      "path": "review/MRI_REAL_FROZEN_FAST_REVIEW.md",
+      "bytes": 3491,
+      "sha256": "02181cdacba5f1e3152758e37597e983fcddd97f0af3b983ce2dd6fe6f154dfb"
+    },
+    {
+      "path": "result/VERIFY.json",
+      "bytes": 574,
+      "sha256": "5c3b532f85d416c09fd3474014aa4a770e10d6745786e661eb989ee2436601c1"
+    },
+    {
+      "path": "result/VERIFY_O.json",
+      "bytes": 574,
+      "sha256": "5c3b532f85d416c09fd3474014aa4a770e10d6745786e661eb989ee2436601c1"
+    },
+    {
+      "path": "review/MRI_DONOR_REVIEW.md",
+      "bytes": 1541,
+      "sha256": "faac716f9af2657be0fa59b2dd0b97a77aac88d184996af35c90e7ede7bca7e3"
+    },
+    {
+      "path": "plan/MRI_REAL_FROZEN_FAST_PLAN_50.json",
+      "bytes": 2645,
+      "sha256": "e9115ee9c3c7e51dbd8ecdba759f32cb90d29e3cd76708c3506e7a791cc020a6"
+    },
+    {
+      "path": "plan/MRI_REAL_FROZEN_FAST_PLAN_51.json",
+      "bytes": 2907,
+      "sha256": "63489cbaf7d55ba2301e0f2e6f1e2a706a77db7d750417264d9b4e7b5dc67291"
+    },
+    {
+      "path": "context/MRI_REAL_PREFLIGHT_FAILURE_50.json",
+      "bytes": 447,
+      "sha256": "4f938aa67228ae9d2f6040a860893bea7e966f44b75b36be5e96b7430fced44c"
+    },
+    {
+      "path": "context/MRI_REAL_FROZEN_FAST_RESULT_02.json",
+      "bytes": 1505,
+      "sha256": "a8008db1892f73adbf7eacfc1cc63c1415db172631e852a2d57b4055ebadde70"
+    },
+    {
+      "path": "context/MRI_REAL_PARENT_NEUTRALITY_02.json",
+      "bytes": 464,
+      "sha256": "aeaa6cc13a792dbb66284bfc41a0418d53576407349ddfc4433a45768892da84"
+    },
+    {
+      "path": "result/MRI_REAL_FROZEN_FAST_VERIFY.json",
+      "bytes": 603,
+      "sha256": "e628f58af6ccb116955ed95c31a81b27028a94c7458bc7d2a8e67d5e41143afd"
+    },
+    {
+      "path": "result/MRI_REAL_FROZEN_FAST_VERIFY_O.json",
+      "bytes": 603,
+      "sha256": "e628f58af6ccb116955ed95c31a81b27028a94c7458bc7d2a8e67d5e41143afd"
+    },
+    {
+      "path": "context/effective_oracle.py",
+      "bytes": 2766,
+      "sha256": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c"
+    },
+    {
+      "path": "context/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "context/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "context/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    }
+  ]
+}
