@@ -1,0 +1,598 @@
+{
+  "mode": "continuous",
+  "operator": "event_coupling.lif_record",
+  "target_row": 37405,
+  "status": "TRACE_CHANGED_EXECUTION",
+  "prestep": {
+    "time_ns": 44447000000,
+    "cns_sha256": "ceb8bb659a036b31172691dd47d351fd038714a78f137f65d4e206589417b94c",
+    "pending_sensors_sha256": "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+    "next_step_ns": 3352,
+    "body_integration_sha256": "326deead3a2a7af29f1db44574ee6c6d948543155a93842bcd367964cd0d67a3"
+  },
+  "component_differences": {
+    "core": "core.hybrid.pn_online_state.base.apl_charge_pC",
+    "prosthesis": null,
+    "published": null,
+    "events": null
+  },
+  "calls": 16,
+  "trace": [
+    {
+      "call": 0,
+      "start_elapsed_ns": 1483000000,
+      "brain_time_ns": 44447000000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -44.694674277491345,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2709268328566469,
+        "vinf": -21.590881907678437,
+        "rate": 34.49563108258075,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -44.6449166912321,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2701134040008333
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 1,
+      "start_elapsed_ns": 1483000000,
+      "brain_time_ns": 44447000000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -44.694674277491345,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2709268328566469,
+        "vinf": -21.59033385575625,
+        "rate": 34.49648144150116,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -44.5952614622293,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2693024173782103
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 2,
+      "start_elapsed_ns": 1483125000,
+      "brain_time_ns": 44447125000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -44.5952614622293,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2693024173782103,
+        "vinf": -21.589710326639395,
+        "rate": 34.497453651986596,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0021673925222624926,
+        "count": 237,
+        "q": 0.48032408984965114
+      },
+      "event_times_s": [
+        2.9892522262492267e-05,
+        null
+      ],
+      "event_jumps": [
+        0.21216279654796288,
+        0.0
+      ],
+      "event_posts": [
+        0.48107819618227976,
+        null
+      ]
+    },
+    {
+      "call": 3,
+      "start_elapsed_ns": 1483125000,
+      "brain_time_ns": 44447125000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -44.5952614622293,
+        "refractory": 0.0,
+        "count": 236,
+        "q": 0.2693024173782103,
+        "vinf": -21.588660985926303,
+        "rate": 34.49910755406463,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0021048897251538003,
+        "count": 237,
+        "q": 0.4788819396920542
+      },
+      "event_times_s": [
+        2.9889725153800256e-05,
+        null
+      ],
+      "event_jumps": [
+        0.21216279654796288,
+        0.0
+      ],
+      "event_posts": [
+        0.48107823237034464,
+        null
+      ]
+    },
+    {
+      "call": 4,
+      "start_elapsed_ns": 1483250000,
+      "brain_time_ns": 44447250000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0021048897251538003,
+        "count": 237,
+        "q": 0.4788819396920542,
+        "vinf": -21.58784891952556,
+        "rate": 34.50038361661589,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0020423897251538,
+        "count": 237,
+        "q": 0.4774441478566488
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 5,
+      "start_elapsed_ns": 1483250000,
+      "brain_time_ns": 44447250000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0021048897251538003,
+        "count": 237,
+        "q": 0.4788819396920542,
+        "vinf": -21.587270397548682,
+        "rate": 34.50128770066774,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0019798897251538,
+        "count": 237,
+        "q": 0.47601067283754106
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 6,
+      "start_elapsed_ns": 1483375000,
+      "brain_time_ns": 44447375000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0019798897251538,
+        "count": 237,
+        "q": 0.47601067283754106,
+        "vinf": -21.586921760068662,
+        "rate": 34.50182560168485,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0019173897251538,
+        "count": 237,
+        "q": 0.47458150167395163
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 7,
+      "start_elapsed_ns": 1483375000,
+      "brain_time_ns": 44447375000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0019798897251538,
+        "count": 237,
+        "q": 0.47601067283754106,
+        "vinf": -21.585931857723278,
+        "rate": 34.50338967331862,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0018548897251538,
+        "count": 237,
+        "q": 0.4731566214440142
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 8,
+      "start_elapsed_ns": 1483500000,
+      "brain_time_ns": 44447500000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0018548897251538,
+        "count": 237,
+        "q": 0.4731566214440142,
+        "vinf": -21.58487550034673,
+        "rate": 34.50506129892872,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0017923897251538,
+        "count": 237,
+        "q": 0.47173601926465936
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 9,
+      "start_elapsed_ns": 1483500000,
+      "brain_time_ns": 44447500000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0018548897251538,
+        "count": 237,
+        "q": 0.4731566214440142,
+        "vinf": -21.583282030707085,
+        "rate": 34.5075929650336,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0017298897251538,
+        "count": 237,
+        "q": 0.4703196822914973
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 10,
+      "start_elapsed_ns": 1483625000,
+      "brain_time_ns": 44447625000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0017298897251538,
+        "count": 237,
+        "q": 0.4703196822914973,
+        "vinf": -21.581218782999567,
+        "rate": 34.51087737907958,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0016673897251537999,
+        "count": 237,
+        "q": 0.4689075977187025
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 11,
+      "start_elapsed_ns": 1483625000,
+      "brain_time_ns": 44447625000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0017298897251538,
+        "count": 237,
+        "q": 0.4703196822914973,
+        "vinf": -21.57875481712041,
+        "rate": 34.51480448959288,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0016048897251537998,
+        "count": 237,
+        "q": 0.4674997527788973
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 12,
+      "start_elapsed_ns": 1483750000,
+      "brain_time_ns": 44447750000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0016048897251537998,
+        "count": 237,
+        "q": 0.4674997527788973,
+        "vinf": -21.576527242003916,
+        "rate": 34.51835545546393,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0015423897251537998,
+        "count": 237,
+        "q": 0.46609613474303696
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 13,
+      "start_elapsed_ns": 1483750000,
+      "brain_time_ns": 44447750000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0016048897251537998,
+        "count": 237,
+        "q": 0.4674997527788973,
+        "vinf": -21.5743759886342,
+        "rate": 34.521786151764765,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0014798897251537997,
+        "count": 237,
+        "q": 0.46469673092029407
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 14,
+      "start_elapsed_ns": 1483875000,
+      "brain_time_ns": 44447875000,
+      "duration_s": 6.25e-05,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0014798897251537997,
+        "count": 237,
+        "q": 0.46469673092029407,
+        "vinf": -21.572015831335047,
+        "rate": 34.525553000881345,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0014173897251537997,
+        "count": 237,
+        "q": 0.46330152865794433
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    },
+    {
+      "call": 15,
+      "start_elapsed_ns": 1483875000,
+      "brain_time_ns": 44447875000,
+      "duration_s": 0.000125,
+      "before": {
+        "voltage": -53.9924,
+        "refractory": 0.0014798897251537997,
+        "count": 237,
+        "q": 0.46469673092029407,
+        "vinf": -21.569913467565197,
+        "rate": 34.52890909901334,
+        "reset": -53.9924,
+        "threshold": -44.57155,
+        "cap": 226.76242065429688,
+        "filter_tau": 0.020785462111234665
+      },
+      "after": {
+        "voltage": -53.9924,
+        "refractory": 0.0013548897251537996,
+        "count": 237,
+        "q": 0.46191051534125166
+      },
+      "event_times_s": [
+        null,
+        null
+      ],
+      "event_jumps": [
+        0.0,
+        0.0
+      ],
+      "event_posts": [
+        null,
+        null
+      ]
+    }
+  ]
+}

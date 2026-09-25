@@ -1,5 +1,5 @@
 # Última evidencia
 
-[neurocore-reinicio-driver-y-cache-20260925](reviews/neurocore-reinicio-driver-y-cache-20260925-5c539b2a15b1/README.md)
+[neurocore-checkpoint-real-cierre-20260925](reviews/neurocore-checkpoint-real-cierre-20260925-f607ffd8771c/README.md)
 
-Motor CNS+membranas en organismo real: checkpoint versionado del campo externo validado, carga en otro proceso, guardas de corrupcion, estado exacto tras instalar RuntimeSession y dos controles de cache PN negativos. Divergencia de continuacion aun abierta; codigo, JSON y hashes sin checkpoint voluminoso.
+Cierre auditable del checkpoint del organismo real CNS+membranas: driver externo versionado, carga y estado tras instalacion exactos elemento a elemento, dos controles PN negativos, siete guardas CPU y limites de continuacion. Fuentes/JSON con hashes; no incluye checkpoint voluminoso.

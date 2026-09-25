@@ -1,0 +1,131 @@
+{
+  "phase": "prepare",
+  "status": "FAILED",
+  "field": "odor_left",
+  "candidate": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_blocks_20260925_03",
+  "completed_ms": 1,
+  "advance_wall_s": 3.5913415850081947,
+  "time_ns": 44447000000,
+  "pending_sensors_sha256": "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+  "cns_sha256": "ceb8bb659a036b31172691dd47d351fd038714a78f137f65d4e206589417b94c",
+  "field_metadata": {
+    "arm": "odor_left",
+    "installed_ns": 44446000000,
+    "center_mm": [
+      0.6347434669004495,
+      -0.47985922076197657
+    ],
+    "odor_axis": [
+      0.3670894834385348,
+      0.9301856326286866
+    ],
+    "first_ON_after_install_ms": 0.0,
+    "live_geometry": true,
+    "stationary_world_field": true,
+    "calibrated_optogenetic_drive": false
+  },
+  "boundary_class": "StaticLateralField",
+  "error": "UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 16: ordinal not in range(128)",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_resume_20260925_04/check_restart.py\", line 161, in prepare\n    save_with_driver(obj, checkpoint)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_resume_20260925_04/static_lateral_checkpoint.py\", line 125, in save\n    return external_checkpoint.save(obj, path, _export)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_resume_20260925_04/external_checkpoint.py\", line 51, in save\n    model.save(stage / 'organism')\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py\", line 158, in save\n    CoefficientBufferSession.save(self.core,staging/'core_carrier')\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_session.py\", line 59, in save\n    if require_covered_dependencies(ROOT/'src', ENTRYPOINT, SOURCES) != self.config['runtime_source_contract']['static_local_imports']:\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_audited_session.py\", line 33, in require_covered_dependencies\n    closure=source_closure(root,entry);missing=set(closure)-set(sources)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_audited_session.py\", line 25, in source_closure\n    for node in ast.walk(ast.parse((root/name).read_text())):\n  File \"/home/daroch/miniconda3/envs/GPU/lib/python3.10/pathlib.py\", line 1135, in read_text\n    return f.read()\n  File \"/home/daroch/miniconda3/envs/GPU/lib/python3.10/encodings/ascii.py\", line 26, in decode\n    return codecs.ascii_decode(input, self.errors)[0]\nUnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 16: ordinal not in range(128)\n",
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_blocks_20260925_03/device_cell.py",
+        "sha256": "843fb27d1c5c499e6f0f22f868291a15f6ad266ce02834cd984ab334f43c5bea"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_blocks_20260925_03/real_model.py",
+        "sha256": "31035a86c1dacd6412fcc4525e3584a99258fa9b916e891ed09ebef310a887a8"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 16,
+      "accepted": 102604,
+      "rejected": 578,
+      "build_s": 0.03886084200348705,
+      "native_wall_s": 0.30619808100163937,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "generic_transactional_independent_blocks",
+      "count_unit": "cell_trials",
+      "device_bytes": 2239488,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 136,
+        "num_regs": 252,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "implementation_sources": {
+        "device_cell.py": "843fb27d1c5c499e6f0f22f868291a15f6ad266ce02834cd984ab334f43c5bea",
+        "block_executor.py": "1e453cad9a189297389e7f468e670784f3731d592898d055599e7b0c503e4e22",
+        "membrane_model.cu": "c92e75bb46881463e48fc90a0e551509aedd9b71bbde4511c5ab6b2fdfe3ff26",
+        "dense_warp.cuh": "169dba77400535cd06ca7754648dd8e0a72f3d66a6b8e4e751402d366ac634d2",
+        "independent_blocks.cuh": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        22.0
+      ]
+    },
+    "CNS": {
+      "epochs": 16,
+      "accepted": 191,
+      "rejected": 0,
+      "build_s": 0.15587554300145712,
+      "device_bytes": 78626304,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 955,
+      "method": "resident_exponential_midpoint_shared_initial_5",
+      "event_time_contract": "authoritative_endpoint_explicit_side"
+    },
+    "PN": {
+      "calls": 16,
+      "accepted": 16,
+      "rejected": 0,
+      "build_s": 2.478587254998274,
+      "wall_s": 0.46382581697253045,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 32,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 16,
+      "events": 84,
+      "max_q_reconstruction_difference": 6.106226635438361e-16,
+      "global_trials": 191,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 8,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 365
+    }
+  }
+}
