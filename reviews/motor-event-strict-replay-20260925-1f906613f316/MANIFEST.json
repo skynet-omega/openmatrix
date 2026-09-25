@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "label": "motor-event-strict-replay-20260925",
+  "description": "Auditoría portátil de eventos especulativos versus confirmados y máximo de estado CNS final en 20ms sham. Ejecutar python3 -B code/verify_event_step_audit_strict.py --root . --out verify.json tras extracción. Sin afirmación de trayectoria completa.",
+  "files": [
+    {
+      "path": "EVENT_STEP_LONG_CAPSULE.npz",
+      "bytes": 4315839,
+      "sha256": "7e35d80d1b48c399e55af56053decba1a420d8915d56f5daa24e915745e908e9"
+    },
+    {
+      "path": "EVENT_STEP_PAIR_LONG_RESULT.json",
+      "bytes": 1458,
+      "sha256": "e9ced3ae8e1f6083b8ec318b6410d904b35675678353eba3b51730aeb6a2fad5"
+    },
+    {
+      "path": "event_step_baseline_long_01/EVENT_AUDIT.json",
+      "bytes": 405580,
+      "sha256": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547"
+    },
+    {
+      "path": "event_step_candidate_long_01/EVENT_AUDIT.json",
+      "bytes": 405580,
+      "sha256": "2bcfb32e0fb3a4a8f133c784282b3badffb2d89b3766f0adbaeae671169816bc"
+    },
+    {
+      "path": "code/verify_event_step_audit_strict.py",
+      "bytes": 5978,
+      "sha256": "c953480f13c01d6d2133f477baa5dfa174bd26dc7ccee84f0034c0467dd843aa"
+    },
+    {
+      "path": "result/STRICT_EVENT_AUDIT_RESULT_V2.json",
+      "bytes": 1300,
+      "sha256": "381f6aeb0d8808fa47bfeb0d3b03a5ac2c2c0590842136650209fb721f535554"
+    },
+    {
+      "path": "result/STRICT_EVENT_AUDIT_RESULT_V2_O.json",
+      "bytes": 1300,
+      "sha256": "381f6aeb0d8808fa47bfeb0d3b03a5ac2c2c0590842136650209fb721f535554"
+    },
+    {
+      "path": "review/EVENT_STEP_STRICT_ADDENDUM.md",
+      "bytes": 2414,
+      "sha256": "b5ba22f2e828c2e1827f0ac53823331b46d7b42911ff745ee08fc198aabb7d5e"
+    }
+  ]
+}

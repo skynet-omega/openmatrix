@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-event-cell-audit-20260925](reviews/motor-event-cell-audit-20260925-dcb3bcdf83fe/README.md)
+[motor-event-strict-replay-20260925](reviews/motor-event-strict-replay-20260925-1f906613f316/README.md)
 
-Revisión estricta de evento especulativo/confirmado y costo celular en organismo real, con perfil CUDA de alcance limitado y asesoría Jev. Sin evidencia de velocidad objetivo ni cierre de etapas4/5.
+Auditoría portátil de eventos especulativos versus confirmados y máximo de estado CNS final en 20ms sham. Ejecutar python3 -B code/verify_event_step_audit_strict.py --root . --out verify.json tras extracción. Sin afirmación de trayectoria completa.
