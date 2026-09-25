@@ -1,5 +1,5 @@
 # Última evidencia
 
-[neurocore-reinicio-real-20260925](reviews/neurocore-reinicio-real-20260925-76813c709783/README.md)
+[neurocore-campo-versionado-20260925](reviews/neurocore-campo-versionado-20260925-36d052bf1c34/README.md)
 
-Reinicio del organismo real CNS+membranas tras 1 ms: fallo por campo externo no serializado y divergencia posterior de ejecucion. Incluye fuentes historicas copiadas con hashes, prueba reproducible y JSON pequenos. No incluye checkpoint de 464 MB ni datos personales.
+Checkpoint real del organismo con estado versionado del campo externo, control de cache PN negativo, comparaciones exactas A/C, prueba de corrupcion y traza LIF invalidada por interferencia. Fuentes y recibos pequenos con hashes; sin checkpoint de 464 MB.

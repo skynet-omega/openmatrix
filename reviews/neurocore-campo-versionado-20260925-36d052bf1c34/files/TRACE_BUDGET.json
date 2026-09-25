@@ -1,0 +1,14 @@
+{
+  "question": "Which input or output first differs at nongamma_lif neuron 52140 after real-organism restart?",
+  "runs": [
+    "continuous 1+1 ms",
+    "versioned restart 1 ms after saved 1 ms"
+  ],
+  "max_wall_s_per_run": 300,
+  "maximum_new_gpu_runs": 2,
+  "observed_baseline": "run_10_versioned_driver",
+  "operator": "event_coupling.lif_record",
+  "row": 37405,
+  "falsifier": "If traced final state differs from uninstrumented branch, instrumentation cannot diagnose the operator.",
+  "stop": "Stop after first differing call or if both traces are identical; no parameter tuning."
+}
