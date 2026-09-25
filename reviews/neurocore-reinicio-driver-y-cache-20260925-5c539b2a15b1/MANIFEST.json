@@ -1,0 +1,177 @@
+{
+  "format_version": 2,
+  "label": "neurocore-reinicio-driver-y-cache-20260925",
+  "description": "Motor CNS+membranas en organismo real: checkpoint versionado del campo externo validado, carga en otro proceso, guardas de corrupcion, estado exacto tras instalar RuntimeSession y dos controles de cache PN negativos. Divergencia de continuacion aun abierta; codigo, JSON y hashes sin checkpoint voluminoso.",
+  "files": [
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 7096,
+      "sha256": "1fc1e1bc29dccd043bf5d539508b290eb5323b0c2f2d42f0963dd643ae833111"
+    },
+    {
+      "path": "check_restart.py",
+      "bytes": 18532,
+      "sha256": "b2504f4e7226f76946e5d76bcede2e315258fc3d7761a611d4a15f902872d0f9"
+    },
+    {
+      "path": "review_sources/PROVENANCE.json",
+      "bytes": 884,
+      "sha256": "5f115f914c882e472bd984b6a39b94116da04fc305d5319ff05c1210fcc1cd5d"
+    },
+    {
+      "path": "review_sources/antennal_world.py",
+      "bytes": 5834,
+      "sha256": "d627bb7caa3f3ae24f4d6a632b25fc74e547763a9a476ffebd87da8490d40cb5"
+    },
+    {
+      "path": "review_sources/antennal_runtime.py",
+      "bytes": 12097,
+      "sha256": "10dc2c80bc520f18fc59779ae50b5d8fe0f53faf15808a39fe1f13b83dfbe4e7"
+    },
+    {
+      "path": "review_sources/static_field.py",
+      "bytes": 1692,
+      "sha256": "21939eed9b465368666dd95809290c2280154285db83f91754de798b3241d4e6"
+    },
+    {
+      "path": "run_04/PREPARE.json",
+      "bytes": 4419,
+      "sha256": "8277b560ef96d60a8b98acca4371df632b7af0f6194a476cafcfcea749551da0"
+    },
+    {
+      "path": "run_05_control/PREPARE.json",
+      "bytes": 4454,
+      "sha256": "9a204cfbfe32084e96301db230debd01e7eb7de2653cabf8d763b9fd7a0523db"
+    },
+    {
+      "path": "reload_02/RELOAD.json",
+      "bytes": 1419,
+      "sha256": "221495667ce8312f41e3d275797490ae777514b7033202b47fb1fd5fcb6fc4d4"
+    },
+    {
+      "path": "reload_07/RELOAD.json",
+      "bytes": 4293,
+      "sha256": "fa0ba6f7c302d59db910b699606577bd8b0a351aa46e412a178786f2d65d65b2"
+    },
+    {
+      "path": "run_04/continuous_2ms/events.json",
+      "bytes": 16303,
+      "sha256": "b530c7becd7b7ea46446e27d87e4ff5c79daafb33869f44a99c540ae6e9c900e"
+    },
+    {
+      "path": "reload_07/resumed_2ms/events.json",
+      "bytes": 16304,
+      "sha256": "ce15453ed15d5eab979887ad18a44a17ee9844e542599a08238a0549496daab3"
+    },
+    {
+      "path": "related/real_model.py",
+      "bytes": 1962,
+      "sha256": "31035a86c1dacd6412fcc4525e3584a99258fa9b916e891ed09ebef310a887a8"
+    },
+    {
+      "path": "related/graph_runtime.py",
+      "bytes": 10764,
+      "sha256": "dc6a9def407ea9f39a39783fffd72e02ec0e22b8bcf268e1f87b27f9d34b3de7"
+    },
+    {
+      "path": "related/pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "related/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "external_checkpoint.py",
+      "bytes": 3317,
+      "sha256": "ecf947db8759c9f668994a07bf8ee93be2453adde15833a83f9421d188c25306"
+    },
+    {
+      "path": "static_lateral_checkpoint.py",
+      "bytes": 6066,
+      "sha256": "38cb847ee0868dc460738f8bddc10dfda2ec62d65dc4bb306c0034163b1a3334"
+    },
+    {
+      "path": "trace_first_lif.py",
+      "bytes": 6783,
+      "sha256": "700bb53b6b4e7d465e78d8fbdafcd26ab1af9ffe85bba04bf72cf4f4848edec5"
+    },
+    {
+      "path": "TRACE_BUDGET.json",
+      "bytes": 590,
+      "sha256": "c01552ddd33a7a79da431a7c5e63eea4f289cc0145988c2503a60cde812413da"
+    },
+    {
+      "path": "CHECKPOINT_GUARDS.json",
+      "bytes": 365,
+      "sha256": "504aaf7b5f3b0ae8eaa1c52a932a4060eee2c596e8b628f51114871f628a0d9a"
+    },
+    {
+      "path": "VERSIONED_COMPARISON.json",
+      "bytes": 243,
+      "sha256": "f481ae1eccb3d50f5e8b55304d27442d9abe5b40eef841feb3ee7b130629ad3f"
+    },
+    {
+      "path": "run_08_stagegraph_cache/PREPARE.json",
+      "bytes": 4730,
+      "sha256": "ab875bbe127fb882a0694150cd3ccb1514ef8fdb7c97e0e881d9392ff018aa9d"
+    },
+    {
+      "path": "run_09_versioned_driver/PREPARE.json",
+      "bytes": 6125,
+      "sha256": "1fa4f9ab49179f53cedfb50a960505201628ba1429884d81803bc275e6fc211c"
+    },
+    {
+      "path": "run_10_versioned_driver/PREPARE.json",
+      "bytes": 4455,
+      "sha256": "2aed69e82d64ad383bfaee2295a24728932828cf3ea0ff8662bff7b387fb249e"
+    },
+    {
+      "path": "run_10_versioned_driver/RELOAD.json",
+      "bytes": 4331,
+      "sha256": "d8e880d329401199b664dce89a95181e0b068f6d3e0a9a6eb02311062df1c68a"
+    },
+    {
+      "path": "run_10_versioned_driver/checkpoint_v1/driver.json",
+      "bytes": 708,
+      "sha256": "215ee4080bb55fd8b3745a79388b64705bc9c3ee9f74b6fb4932895732243b4e"
+    },
+    {
+      "path": "run_10_versioned_driver/checkpoint_v1/manifest.json",
+      "bytes": 230,
+      "sha256": "5b867b5f1806df514d3676103acb9aba080ed0c7a24a6533cfb7d9e44d16424c"
+    },
+    {
+      "path": "trace_lif_continuous_01/TRACE.json",
+      "bytes": 13972,
+      "sha256": "9fb1a1d03d52b41ebd993fc67481572691073ba36a75a4a6c6d99bb810b53899"
+    },
+    {
+      "path": "check_after_install.py",
+      "bytes": 3541,
+      "sha256": "77724aa5470e74f3c3bc836125a3073e1f364eff8d7f3376209abf33b01bfbdd"
+    },
+    {
+      "path": "check_checkpoint_guards.py",
+      "bytes": 3283,
+      "sha256": "b89b47688939a0139d97c48375c3af44eac211037854b6ec1281bec59cc64c7f"
+    },
+    {
+      "path": "after_install_01/RESULT.json",
+      "bytes": 859,
+      "sha256": "7d9cbf8b1f4f8bbf731c89acca95aaa6204494cf3e6df6b7617803e356769408"
+    },
+    {
+      "path": "run_11_pn_backend_cache/PREPARE.json",
+      "bytes": 4748,
+      "sha256": "adff456b00ca5ca652710e5f5da8ed45af8118e2d4ca29be0f115d25fbc7d3ce"
+    },
+    {
+      "path": "related/PLAN_ABC.md",
+      "bytes": 39672,
+      "sha256": "65d624595248c75b9f7ee37f33d5b45d12159788fe1975130ce1aa66e924991f"
+    }
+  ]
+}
