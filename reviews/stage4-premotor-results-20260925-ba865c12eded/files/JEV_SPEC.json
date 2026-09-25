@@ -1,0 +1,23 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": {
+    "scope": "Advisory prioritization only, no certification. Four whole-model40+200ms runs finished; identical588-array preparation, matched final sensory buffers and imposed body motion. Fixed functional40ms current pulse to DNp09 bilaterally or DNa03 left/right, target0.25 at ON; no parameters, W or motor reader changed. No refined200ms reference.",
+    "findings": [
+      "Sources responded with deltaq0.208\u20130.234. In selected22-cell panel, DNp09 and DNa03 modulate already-active DNa01/DNb02; no new inactive downstream cells recruited at frozen0.001q threshold.",
+      "DNa02/DNa11/LAL013 remain subthreshold across all queried coefficients under DNa03 pulses. Direct excitatory edges exist; no sign flip found. Negative finding only applies to this dose/state/window, not all stimulation or all DNs.",
+      "DNb05 changes below0.001q still induce up to0.61/0.99deg/s change in original shadow motor command, biphasic. Integrated left+0.00519deg and right-0.02825deg, not real body turns; forward stays tonic.",
+      "Effective laws already include global historical volume scaling. Absence of normalization was an incorrect hypothesis, now corrected. No evidence justifies reapplied scaling or threshold tuning by desired turn.",
+      "Source time constants19\u201322ms; synaptic5ms.40ms finite stimulation and uncalibrated model-current amplitude differ from live experiments using seconds. A simple isolated filter calculation demonstrates attenuation but does not bound the recurrent model."
+    ]
+  },
+  "questions": {
+    "next_decision": {
+      "instructions": "Choose the most informative structural next action before another expensive organism. Preserve current failures and finite budgets; do not approve stages4/5 or choose by a desired turn. Prioritize a falsifiable distinction, not microtuning.",
+      "criteria": {
+        "A_interface_identification": "Use independently defined neural-to-body transfer tests to identify decoder timing/population mapping; do not fit gains to navigation or sham failure. Small DN changes have meaningful commands.",
+        "B_discriminate_excitation": "First compare known physiological stimulation/response and current model kinetics to distinguish inadequate functional dose or state from an excitability/transmission model mismatch. Preserve parameters; an observed finite-window barrier is not automatically a defect.",
+        "C_joint_forward_turn": "Design and separately validate a joint neural forward/turn interface using preselected populations; new connections to the reader require independent evidence, not just existing-cell modulation."
+      }
+    }
+  }
+}

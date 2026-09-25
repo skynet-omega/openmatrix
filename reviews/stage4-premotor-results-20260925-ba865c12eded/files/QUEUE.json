@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE",
+  "pid": 475505,
+  "completed": [
+    {
+      "condition": "sham",
+      "exit_code": 0,
+      "status": "COMPLETE",
+      "wall_s": 902.5227091069974
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "exit_code": 0,
+      "status": "COMPLETE",
+      "wall_s": 898.2555680130026
+    },
+    {
+      "condition": "DNa03_izquierda",
+      "exit_code": 0,
+      "status": "COMPLETE",
+      "wall_s": 888.6483009099902
+    },
+    {
+      "condition": "DNa03_derecha",
+      "exit_code": 0,
+      "status": "COMPLETE",
+      "wall_s": 896.4965956659871
+    }
+  ],
+  "current": null,
+  "budget": {
+    "max_full_organism_runs": 4,
+    "aggregate_wall_s": 5000,
+    "per_run_wall_s": 1300,
+    "max_rss_gib": 18,
+    "max_gpu_gib": 12,
+    "max_observation_mib": 256,
+    "max_checkpoint_gib": 4,
+    "max_new_controllers": 0,
+    "max_probe_harnesses": 1,
+    "extra_test_organisms": 0
+  },
+  "elapsed_s": 3589.0884880499943,
+  "child_pid": 485978
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Analytic isolated two-filter counterexample only: fixed target0.25, no recurrent input or adaptation. Not a bound or fit for the actual recurrent network. Demonstrates why nonrecruitment under a finite probe does not establish inability under other stimuli. No model/criteria changed.",
+  "rows": [
+    {
+      "id": 10783,
+      "tau_q_s": 0.0193028561770916,
+      "tau_syn_s": 0.005,
+      "pulse_duration_s": 0.04,
+      "constant_target": 0.25,
+      "isolated_peak_transmission": 0.20850669592761126,
+      "peak_time_after_on_s": 0.04090577121735128
+    },
+    {
+      "id": 11177,
+      "tau_q_s": 0.022328896448016167,
+      "tau_syn_s": 0.005,
+      "pulse_duration_s": 0.04,
+      "constant_target": 0.25,
+      "isolated_peak_transmission": 0.19765784135274173,
+      "peak_time_after_on_s": 0.0411729396853895
+    },
+    {
+      "id": 519624,
+      "tau_q_s": 0.019608700647950172,
+      "tau_syn_s": 0.005,
+      "pulse_duration_s": 0.04,
+      "constant_target": 0.25,
+      "isolated_peak_transmission": 0.2073871645690764,
+      "peak_time_after_on_s": 0.04093268996198743
+    },
+    {
+      "id": 10975,
+      "tau_q_s": 0.021164411678910255,
+      "tau_syn_s": 0.005,
+      "pulse_duration_s": 0.04,
+      "constant_target": 0.25,
+      "isolated_peak_transmission": 0.20176729224184048,
+      "peak_time_after_on_s": 0.04107005192120611
+    }
+  ]
+}

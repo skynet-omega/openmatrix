@@ -1,0 +1,19 @@
+{
+  "condition": "DNp09_bilateral",
+  "plan_sha256": "655b3d785042aa36a788a742bb9ef20e2756a265eca52877ee388c752e3dca4b",
+  "source_lock": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/DYNAMIC_PLAN.json": "655b3d785042aa36a788a742bb9ef20e2756a265eca52877ee388c752e3dca4b",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/native_probe.py": "d0d602b2f34dd7742bb0f52c045e9c42c5fe5534b2aa3b65d1dc8083384422c3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/paired_inputs.py": "d83141acbb72c18e35e9a0824272eb6cc729e4649b81b747eb09c4ea901ab000",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/run_probe.py": "7b5f8da6e2150c169591ae6565645bd29cf8ece8d209446b33dba0ccb631486b",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/chatgpt_pulse_original.py": "f54c83675f111d03f48513512ae81aa2f279b1a151832e2285159dbfb44558ca",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_motor_interface_20260925_37/population_01/RESULT.json": "ac7afee474ad117f85b87c507ee11daa3d5f3e036f0ffddee641e516648c6062",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_premotor_recruitment_20260925_38/run_queue.py": "33db4db98dd467ea2fb24aa521ea18dbcbb1d663cc51bc34f5e9a7e93997f438"
+  },
+  "initial_clock_ns": 44446000000,
+  "engine": "causal_cuda",
+  "pulse": "native generic current; fixed at first ON evaluation",
+  "checkpoint_scope": "Serialized organism and pulse metadata; no resume validation",
+  "stage4_admission": false,
+  "stage5_admission": false
+}

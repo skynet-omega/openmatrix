@@ -1,0 +1,282 @@
+{
+  "format_version": 2,
+  "label": "stage4-premotor-results-20260925",
+  "description": "Four completed whole-model causal recruitment screens. Portable raw-observation reproduction; not a standalone organism or convergence reproduction; no stage4/5 admission.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7432,
+      "sha256": "56cdfbfab52d00da8299b7debc4a2ecf43d2601bbaa6ed14fd18bf1e7903d515"
+    },
+    {
+      "path": "DYNAMIC_PLAN.json",
+      "bytes": 3775,
+      "sha256": "655b3d785042aa36a788a742bb9ef20e2756a265eca52877ee388c752e3dca4b"
+    },
+    {
+      "path": "SOURCE_LOCK.json",
+      "bytes": 1163,
+      "sha256": "b6619560279d37b98dbbd6a9c5208cf379ae817962ac51adb3043269a6f3d63e"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 47158,
+      "sha256": "d3123e3852ad9d95ec70295a8616ddc12b7944fb0b95ea90de584dda48acb365"
+    },
+    {
+      "path": "CELL_PANEL.json",
+      "bytes": 9832,
+      "sha256": "ac7afee474ad117f85b87c507ee11daa3d5f3e036f0ffddee641e516648c6062"
+    },
+    {
+      "path": "CELL_EFFECTS.csv",
+      "bytes": 16295,
+      "sha256": "9c23dcde24bfe17c7b4d6bae76413a73182b67b6823ab631b9cd5cf138ad1162"
+    },
+    {
+      "path": "SOURCE_ANNOTATIONS.json",
+      "bytes": 1331,
+      "sha256": "6fe8e59334f2751726e135d60784ef2e956a21f9a6002bdd9820f167def575d7"
+    },
+    {
+      "path": "PULSE_TIMESCALE_CONTEXT.json",
+      "bytes": 1383,
+      "sha256": "a3595f8edfe701416b4c8b361c00491a8842f11864de7ea9e4d79b1b018ee8c2"
+    },
+    {
+      "path": "RESPUESTAS.png",
+      "bytes": 353994,
+      "sha256": "3523b0667df25265acf94abdcef87d427857f9be957b31d368f1b162f087a92b"
+    },
+    {
+      "path": "QUEUE.json",
+      "bytes": 976,
+      "sha256": "7619996d17b066905a7d4d3c95e843c9f2eeb67bc2cbd1462da2b75456157742"
+    },
+    {
+      "path": "CHATGPT_REVIEW.md",
+      "bytes": 2801,
+      "sha256": "ecbd2dbc4fa872e4c0cec50aaaff9439c30fff26702f4dbd8fa222ecfbc4869a"
+    },
+    {
+      "path": "JEV_SPEC.json",
+      "bytes": 2694,
+      "sha256": "534e7616299f682c106e815577fb2885c8b2ca10ee685cfa1deada38c6aedd0f"
+    },
+    {
+      "path": "jev_01/response.json",
+      "bytes": 305,
+      "sha256": "a12cd767d3d699246fc08e4926bbbb4efaa518c6623fb2bf0fcc79ac7673033d"
+    },
+    {
+      "path": "jev_01/receipt.json",
+      "bytes": 400,
+      "sha256": "b741cda99b115c1a30b81fd1fb1903634ddf111dfdca4b66723cb60f272153d4"
+    },
+    {
+      "path": "native_probe.py",
+      "bytes": 9217,
+      "sha256": "d0d602b2f34dd7742bb0f52c045e9c42c5fe5534b2aa3b65d1dc8083384422c3"
+    },
+    {
+      "path": "paired_inputs.py",
+      "bytes": 4318,
+      "sha256": "d83141acbb72c18e35e9a0824272eb6cc729e4649b81b747eb09c4ea901ab000"
+    },
+    {
+      "path": "run_probe.py",
+      "bytes": 10286,
+      "sha256": "7b5f8da6e2150c169591ae6565645bd29cf8ece8d209446b33dba0ccb631486b"
+    },
+    {
+      "path": "run_queue.py",
+      "bytes": 2137,
+      "sha256": "33db4db98dd467ea2fb24aa521ea18dbcbb1d663cc51bc34f5e9a7e93997f438"
+    },
+    {
+      "path": "chatgpt_pulse_original.py",
+      "bytes": 4134,
+      "sha256": "f54c83675f111d03f48513512ae81aa2f279b1a151832e2285159dbfb44558ca"
+    },
+    {
+      "path": "verify_probe.py",
+      "bytes": 9912,
+      "sha256": "452ec4cde7240cc995d37f8b93c62f591762eeac4361306d6c4a710a47ef5f66"
+    },
+    {
+      "path": "verify_capsule.py",
+      "bytes": 6086,
+      "sha256": "4adc5e66f4a6c5d156165df7025f8cb1ccb59a2c02f78eb611037f0e9a58716c"
+    },
+    {
+      "path": "plot_results.py",
+      "bytes": 2463,
+      "sha256": "88942b2cfbdd5264de650ebe23042c7fb183f31553bba61a4b0f108adf515894"
+    },
+    {
+      "path": "structure_02/RESULT.json",
+      "bytes": 38241,
+      "sha256": "ebabce884d4095e945c211fadf321b5fe90f0a8fdae22f2ba15339511d83ae7e"
+    },
+    {
+      "path": "structure_02/PATHS.csv",
+      "bytes": 10024,
+      "sha256": "6f7db707e20469dd559fcd4a37401fce55e5f55a58d368d4ad7eea21dbd7b3fe"
+    },
+    {
+      "path": "sham_01/traces.npz",
+      "bytes": 3133778,
+      "sha256": "6abaa61a94a4611ee514355fd8d645199e62959be35e11c89490c8ef1fcc1f93"
+    },
+    {
+      "path": "sham_01/INPUTS.jsonl",
+      "bytes": 3485904,
+      "sha256": "c43da9364db2c92dfa284eff46925156d77c90a0337eca3b92574a79d5338c19"
+    },
+    {
+      "path": "sham_01/RESULT.json",
+      "bytes": 3332,
+      "sha256": "f4677ab2f374a69ed31eb789b43a0fb559ec1391ee7c8b53200a69bb539e844f"
+    },
+    {
+      "path": "sham_01/RUN_CONTRACT.json",
+      "bytes": 1581,
+      "sha256": "7342f3d2a32a0aa0f35798ca7f9f724a3b10f05aa6e761688635a4b090e6b16b"
+    },
+    {
+      "path": "sham_01/PREPARATION_EQUALITY.json",
+      "bytes": 387,
+      "sha256": "9f618dd5cbb7e50d328b67e064643ae441bddf8496be36e3da980be33f87249a"
+    },
+    {
+      "path": "sham_01/probe/PANEL.npz",
+      "bytes": 110007,
+      "sha256": "7336be57718267f2914727d6267658773f39c2c278a19b606027bb0ecceb9a11"
+    },
+    {
+      "path": "sham_01/probe/METADATA.json",
+      "bytes": 3147,
+      "sha256": "988a2f67ae26f2581b3b67dc2dd8b88dc711aa5503d8f7b0c36453bb7d6608e1"
+    },
+    {
+      "path": "DNp09_bilateral_01/traces.npz",
+      "bytes": 3133952,
+      "sha256": "c1d202d3e22e0fc750aa07b87e587b0414feb7b469b2ce796cf144f9acda21b6"
+    },
+    {
+      "path": "DNp09_bilateral_01/INPUTS.jsonl",
+      "bytes": 3485904,
+      "sha256": "c43da9364db2c92dfa284eff46925156d77c90a0337eca3b92574a79d5338c19"
+    },
+    {
+      "path": "DNp09_bilateral_01/RESULT.json",
+      "bytes": 3357,
+      "sha256": "ce81357114cc2e4ca39183863f3b035e124b9f5066f82b24e028e8352b8256a4"
+    },
+    {
+      "path": "DNp09_bilateral_01/RUN_CONTRACT.json",
+      "bytes": 1592,
+      "sha256": "ff0381e9836574f70f20466c720254bbc8eb53f736c6da8200dc26e9b7d2184f"
+    },
+    {
+      "path": "DNp09_bilateral_01/PREPARATION_EQUALITY.json",
+      "bytes": 387,
+      "sha256": "7fee178f33f0a263eace15ab67ee70c55e7d0e55cfd53c151a2f35d465363050"
+    },
+    {
+      "path": "DNp09_bilateral_01/probe/PANEL.npz",
+      "bytes": 114148,
+      "sha256": "d9366e279a7f82f5de317e59777e3df64d2cad71171bb3c1b180b862c236bc30"
+    },
+    {
+      "path": "DNp09_bilateral_01/probe/METADATA.json",
+      "bytes": 3171,
+      "sha256": "c16b1125d37fc291d2f67690a3a9628d6194b0dfcdb54792958d57a7339b0cbc"
+    },
+    {
+      "path": "DNp09_bilateral_01/probe/DOSE.json",
+      "bytes": 413,
+      "sha256": "622f911682b208e0c6334583cde29035b2eb52a0ff8a99306a5803e0cbd7dc35"
+    },
+    {
+      "path": "DNa03_izquierda_01/traces.npz",
+      "bytes": 3133955,
+      "sha256": "a9c327ecd4e26772dbea69d88866e9cab9c95416d9bfe3a32cbc7b39e87f74fb"
+    },
+    {
+      "path": "DNa03_izquierda_01/INPUTS.jsonl",
+      "bytes": 3485904,
+      "sha256": "c43da9364db2c92dfa284eff46925156d77c90a0337eca3b92574a79d5338c19"
+    },
+    {
+      "path": "DNa03_izquierda_01/RESULT.json",
+      "bytes": 3357,
+      "sha256": "d299ed470405c9086a521daacd41a9d5445afc127d8d24ed856f89b58e6e01df"
+    },
+    {
+      "path": "DNa03_izquierda_01/RUN_CONTRACT.json",
+      "bytes": 1592,
+      "sha256": "3fa163d6500e348e48121a7d955af4e0642fa1b6688a53b1b132304cf1fb5e74"
+    },
+    {
+      "path": "DNa03_izquierda_01/PREPARATION_EQUALITY.json",
+      "bytes": 387,
+      "sha256": "36f3f3455d7d1f6272766c7e3cb915f98a40285c0e22c7974f5977ca54618d84"
+    },
+    {
+      "path": "DNa03_izquierda_01/probe/PANEL.npz",
+      "bytes": 112466,
+      "sha256": "825fe62ae582a4b9137f0e5d3f73a7a9c8780a9ea83e559004ae173c16011621"
+    },
+    {
+      "path": "DNa03_izquierda_01/probe/METADATA.json",
+      "bytes": 3161,
+      "sha256": "615fb7e60d925e3d913c81431746c6af1f8fea9c576080683ca345b0eacf2007"
+    },
+    {
+      "path": "DNa03_izquierda_01/probe/DOSE.json",
+      "bytes": 327,
+      "sha256": "dcbb6d5b4d227c4427a08335f5098dae548c4a0a0f56c5093515a13de26a9734"
+    },
+    {
+      "path": "DNa03_derecha_01/traces.npz",
+      "bytes": 3133807,
+      "sha256": "906a3a5a063d01500a97769dc56ee72984a31ab78a65053a458c1cefeaa8bdcd"
+    },
+    {
+      "path": "DNa03_derecha_01/INPUTS.jsonl",
+      "bytes": 3485904,
+      "sha256": "c43da9364db2c92dfa284eff46925156d77c90a0337eca3b92574a79d5338c19"
+    },
+    {
+      "path": "DNa03_derecha_01/RESULT.json",
+      "bytes": 3352,
+      "sha256": "63a693eae8f5aac4ca59636939b9c0a6bbd70b64f3d57d3c241625f2a18e1475"
+    },
+    {
+      "path": "DNa03_derecha_01/RUN_CONTRACT.json",
+      "bytes": 1590,
+      "sha256": "8b40f992433f7edde71301858b890a496e6599a7b994f27846fda73a624fd214"
+    },
+    {
+      "path": "DNa03_derecha_01/PREPARATION_EQUALITY.json",
+      "bytes": 387,
+      "sha256": "4c0c3be30f87b860c00c30fc12965a90c106c6bf7767963eea3905444b0dad32"
+    },
+    {
+      "path": "DNa03_derecha_01/probe/PANEL.npz",
+      "bytes": 112231,
+      "sha256": "6d5467ab068edfa740ccebff46179087be56a895f287417cc44c78ddd7390152"
+    },
+    {
+      "path": "DNa03_derecha_01/probe/METADATA.json",
+      "bytes": 3160,
+      "sha256": "a849f53df0c9b2743f57172e4492bb3fec4b3dd805e9746f63b2d64124de3b69"
+    },
+    {
+      "path": "DNa03_derecha_01/probe/DOSE.json",
+      "bytes": 326,
+      "sha256": "85828b29f3ac9376e827cd5c849247948113ea9cd82aae9c6dbedfae0674e10f"
+    }
+  ]
+}

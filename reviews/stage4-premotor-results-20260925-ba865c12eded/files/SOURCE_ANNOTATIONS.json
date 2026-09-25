@@ -1,0 +1,43 @@
+{
+  "scope": "Source annotations and existing signed direct paths; not independent transmitter measurements and not a connectivity bug found",
+  "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet",
+  "source_sha256": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+  "rows": [
+    {
+      "bodyId": 10783,
+      "type": "DNp09",
+      "somaSide": "L",
+      "nt_predicted_nt": "acetylcholine",
+      "nt_predicted_nt_confidence": 0.9534627156,
+      "nt_ground_truth": "acetylcholine",
+      "nt_consensus_nt": "acetylcholine"
+    },
+    {
+      "bodyId": 10975,
+      "type": "DNa03",
+      "somaSide": "R",
+      "nt_predicted_nt": "acetylcholine",
+      "nt_predicted_nt_confidence": 0.9598354304,
+      "nt_ground_truth": null,
+      "nt_consensus_nt": "acetylcholine"
+    },
+    {
+      "bodyId": 11177,
+      "type": "DNp09",
+      "somaSide": "R",
+      "nt_predicted_nt": "acetylcholine",
+      "nt_predicted_nt_confidence": 0.957317491,
+      "nt_ground_truth": "acetylcholine",
+      "nt_consensus_nt": "acetylcholine"
+    },
+    {
+      "bodyId": 519624,
+      "type": "DNa03",
+      "somaSide": "L",
+      "nt_predicted_nt": "acetylcholine",
+      "nt_predicted_nt_confidence": 0.9558636831,
+      "nt_ground_truth": null,
+      "nt_consensus_nt": "acetylcholine"
+    }
+  ]
+}

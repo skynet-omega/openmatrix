@@ -1,0 +1,1622 @@
+{
+  "scope": "Reachability of nonzero effective stored weights on canonical graph; not receptor/cell owner dynamics, excitation, physiology or stage admission",
+  "rows": [
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10442,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10030,
+        10442
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        2.009999990463257
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10760,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10045,
+        10760
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.14999999105930328
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10360,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10109,
+        10360
+      ],
+      "path_signed_weights": [
+        0.8399999737739563,
+        -0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 523769,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        523769
+      ],
+      "path_signed_weights": [
+        1.350000023841858
+      ],
+      "direct_signed_weight": 1.350000023841858,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10975,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10103,
+        10975
+      ],
+      "path_signed_weights": [
+        0.47999998927116394,
+        1.9499999284744263
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 519624,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10030,
+        519624
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10971,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        10971
+      ],
+      "path_signed_weights": [
+        4.440000057220459
+      ],
+      "direct_signed_weight": 4.440000057220459,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 11233,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10045,
+        11233
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.23999999463558197
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10805,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10192,
+        10805
+      ],
+      "path_signed_weights": [
+        2.7300000190734863,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 12767,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        12767
+      ],
+      "path_signed_weights": [
+        0.7199999690055847
+      ],
+      "direct_signed_weight": 0.7199999690055847,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 13922,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10090,
+        13922
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 529488,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        529488
+      ],
+      "path_signed_weights": [
+        0.44999998807907104
+      ],
+      "direct_signed_weight": 0.44999998807907104,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10065,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10221,
+        10065
+      ],
+      "path_signed_weights": [
+        0.11999999731779099,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10118,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10030,
+        10118
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.11999999731779099
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 11074,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10030,
+        11074
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 512006,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10045,
+        512006
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.17999999225139618
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10045,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        10045
+      ],
+      "path_signed_weights": [
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.05999999865889549,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10056,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10783,
+        10056
+      ],
+      "path_signed_weights": [
+        0.14999999105930328
+      ],
+      "direct_signed_weight": 0.14999999105930328,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 10783,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 0,
+      "one_path": [
+        10783
+      ],
+      "path_signed_weights": [],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 11177,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10056,
+        11177
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 14674,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10063,
+        14674
+      ],
+      "path_signed_weights": [
+        0.17999999225139618,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 10783,
+      "target_bodyId": 512258,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10783,
+        10103,
+        512258
+      ],
+      "path_signed_weights": [
+        0.47999998927116394,
+        0.32999998331069946
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10442,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10045,
+        10442
+      ],
+      "path_signed_weights": [
+        3.1499998569488525,
+        0.08999999612569809
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10760,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        10760
+      ],
+      "path_signed_weights": [
+        0.08999999612569809
+      ],
+      "direct_signed_weight": 0.08999999612569809,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10360,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        10360
+      ],
+      "path_signed_weights": [
+        0.26999998092651367
+      ],
+      "direct_signed_weight": 0.26999998092651367,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 523769,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10167,
+        523769
+      ],
+      "path_signed_weights": [
+        1.1399999856948853,
+        -0.11999999731779099
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10975,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10069,
+        10975
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 519624,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10103,
+        519624
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        1.8299999237060547
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10971,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10056,
+        10971
+      ],
+      "path_signed_weights": [
+        3.059999942779541,
+        0.44999998807907104
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 11233,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        11233
+      ],
+      "path_signed_weights": [
+        2.2200000286102295
+      ],
+      "direct_signed_weight": 2.2200000286102295,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10805,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10101,
+        10805
+      ],
+      "path_signed_weights": [
+        0.11999999731779099,
+        -0.14999999105930328
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 12767,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10333,
+        12767
+      ],
+      "path_signed_weights": [
+        0.5099999904632568,
+        -0.23999999463558197
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 13922,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        13922
+      ],
+      "path_signed_weights": [
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.05999999865889549,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 529488,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10104,
+        529488
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10065,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10069,
+        10065
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10118,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10191,
+        10118
+      ],
+      "path_signed_weights": [
+        0.11999999731779099,
+        0.11999999731779099
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 11074,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10045,
+        11074
+      ],
+      "path_signed_weights": [
+        3.1499998569488525,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 512006,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        512006
+      ],
+      "path_signed_weights": [
+        0.08999999612569809
+      ],
+      "direct_signed_weight": 0.08999999612569809,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10045,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        10045
+      ],
+      "path_signed_weights": [
+        3.1499998569488525
+      ],
+      "direct_signed_weight": 3.1499998569488525,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10056,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        11177,
+        10056
+      ],
+      "path_signed_weights": [
+        3.059999942779541
+      ],
+      "direct_signed_weight": 3.059999942779541,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 10783,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10202,
+        10783
+      ],
+      "path_signed_weights": [
+        0.20999999344348907,
+        -0.41999998688697815
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 11177,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 0,
+      "one_path": [
+        11177
+      ],
+      "path_signed_weights": [],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 14674,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10103,
+        14674
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.5099999904632568
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNp09_bilateral",
+      "source_bodyId": 11177,
+      "target_bodyId": 512258,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        11177,
+        10103,
+        512258
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.32999998331069946
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10442,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        10442
+      ],
+      "path_signed_weights": [
+        0.08999999612569809
+      ],
+      "direct_signed_weight": 0.08999999612569809,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10760,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10005,
+        10760
+      ],
+      "path_signed_weights": [
+        0.5099999904632568,
+        -0.08999999612569809
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10360,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10070,
+        10360
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        -8.670000076293945
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 523769,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        523769
+      ],
+      "path_signed_weights": [
+        7.649999618530273
+      ],
+      "direct_signed_weight": 7.649999618530273,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10975,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10070,
+        10975
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        -6.779999732971191
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 519624,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 0,
+      "one_path": [
+        519624
+      ],
+      "path_signed_weights": [],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10971,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        10971
+      ],
+      "path_signed_weights": [
+        6.210000038146973
+      ],
+      "direct_signed_weight": 6.210000038146973,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 11233,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10070,
+        11233
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        -1.5299999713897705
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10805,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        10805
+      ],
+      "path_signed_weights": [
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.029999999329447746,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 12767,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        12767
+      ],
+      "path_signed_weights": [
+        0.32999998331069946
+      ],
+      "direct_signed_weight": 0.32999998331069946,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 13922,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10048,
+        13922
+      ],
+      "path_signed_weights": [
+        0.75,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 529488,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        529488
+      ],
+      "path_signed_weights": [
+        0.29999998211860657
+      ],
+      "direct_signed_weight": 0.29999998211860657,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10065,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10221,
+        10065
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10118,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10030,
+        10118
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.11999999731779099
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 11074,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        11074
+      ],
+      "path_signed_weights": [
+        0.11999999731779099
+      ],
+      "direct_signed_weight": 0.11999999731779099,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 512006,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10070,
+        512006
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        -0.11999999731779099
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10045,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10030,
+        10045
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.14999999105930328
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10056,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10106,
+        10056
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 10783,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10030,
+        10783
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 11177,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10109,
+        11177
+      ],
+      "path_signed_weights": [
+        4.619999885559082,
+        -0.14999999105930328
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 14674,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        519624,
+        10109,
+        14674
+      ],
+      "path_signed_weights": [
+        4.619999885559082,
+        -0.26999998092651367
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_left",
+      "source_bodyId": 519624,
+      "target_bodyId": 512258,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        519624,
+        512258
+      ],
+      "path_signed_weights": [
+        0.08999999612569809
+      ],
+      "direct_signed_weight": 0.08999999612569809,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10442,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        10442
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -0.6899999976158142
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10760,
+      "target_type": "DNa01",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        10760
+      ],
+      "path_signed_weights": [
+        0.14999999105930328
+      ],
+      "direct_signed_weight": 0.14999999105930328,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10360,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        10360
+      ],
+      "path_signed_weights": [
+        8.90999984741211
+      ],
+      "direct_signed_weight": 8.90999984741211,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 523769,
+      "target_type": "DNa02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        523769
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -8.90999984741211
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10975,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 0,
+      "one_path": [
+        10975
+      ],
+      "path_signed_weights": [],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 519624,
+      "target_type": "DNa03",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        519624
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -7.349999904632568
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10971,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        10971
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -2.429999828338623
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 11233,
+      "target_type": "DNa11",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        11233
+      ],
+      "path_signed_weights": [
+        5.519999980926514
+      ],
+      "direct_signed_weight": 5.519999980926514,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10805,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        10805
+      ],
+      "path_signed_weights": [
+        0.14999999105930328
+      ],
+      "direct_signed_weight": 0.14999999105930328,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 12767,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        12767
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -1.2599999904632568
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 13922,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        13922
+      ],
+      "path_signed_weights": [
+        0.35999998450279236
+      ],
+      "direct_signed_weight": 0.35999998450279236,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 529488,
+      "target_type": "DNb02",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        529488
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -1.4399999380111694
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10065,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10304,
+        10065
+      ],
+      "path_signed_weights": [
+        0.05999999865889549,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10118,
+      "target_type": "DNb05",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10617,
+        10118
+      ],
+      "path_signed_weights": [
+        0.6899999976158142,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 11074,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10005,
+        11074
+      ],
+      "path_signed_weights": [
+        0.14999999105930328,
+        -0.29999998211860657
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 512006,
+      "target_type": "DNg13",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        512006
+      ],
+      "path_signed_weights": [
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.029999999329447746,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10045,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10054,
+        10045
+      ],
+      "path_signed_weights": [
+        0.11999999731779099,
+        0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10056,
+      "target_type": "DNg100",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10101,
+        10056
+      ],
+      "path_signed_weights": [
+        2.5799999237060547,
+        -0.35999998450279236
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": true
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 10783,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10582,
+        10783
+      ],
+      "path_signed_weights": [
+        0.029999999329447746,
+        -0.029999999329447746
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 11177,
+      "target_type": "DNp09",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10109,
+        11177
+      ],
+      "path_signed_weights": [
+        1.2899999618530273,
+        -0.14999999105930328
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 14674,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 1,
+      "one_path": [
+        10975,
+        14674
+      ],
+      "path_signed_weights": [
+        0.32999998331069946
+      ],
+      "direct_signed_weight": 0.32999998331069946,
+      "target_current_actuator": false
+    },
+    {
+      "condition": "DNa03_right",
+      "source_bodyId": 10975,
+      "target_bodyId": 512258,
+      "target_type": "LAL013",
+      "reachable": true,
+      "minimum_hops": 2,
+      "one_path": [
+        10975,
+        10070,
+        512258
+      ],
+      "path_signed_weights": [
+        0.5099999904632568,
+        -0.05999999865889549
+      ],
+      "direct_signed_weight": 0.0,
+      "target_current_actuator": false
+    }
+  ],
+  "reachable_count_by_source": {
+    "10783": 166311,
+    "11177": 166311,
+    "519624": 166311,
+    "10975": 166311
+  },
+  "effective_nonzero_edges": 24559135,
+  "structural_hashes_verified": true,
+  "input_sha256": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/node_ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/final_state/effective_operator.npz": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/final_state/effective_operator.json": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff"
+  },
+  "new_organism_runs": 0,
+  "classifications": {
+    "10783": "ALL_PANEL_REACHABLE",
+    "11177": "ALL_PANEL_REACHABLE",
+    "519624": "ALL_PANEL_REACHABLE",
+    "10975": "ALL_PANEL_REACHABLE"
+  }
+}
