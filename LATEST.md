@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-premotor-results-20260925](reviews/stage4-premotor-results-20260925-ba865c12eded/README.md)
+[neurocore-reinicio-real-20260925](reviews/neurocore-reinicio-real-20260925-76813c709783/README.md)
 
-Four completed whole-model causal recruitment screens. Portable raw-observation reproduction; not a standalone organism or convergence reproduction; no stage4/5 admission.
+Reinicio del organismo real CNS+membranas tras 1 ms: fallo por campo externo no serializado y divergencia posterior de ejecucion. Incluye fuentes historicas copiadas con hashes, prueba reproducible y JSON pequenos. No incluye checkpoint de 464 MB ni datos personales.
