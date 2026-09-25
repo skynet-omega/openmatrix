@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "label": "motor-event-cone-real-block-20260925",
+  "description": "Zona estructural de influencia de siete eventos en bloque real MaleCNS de 125 us, con CSR ponderado portable de dos saltos, cuatro capas verificadas y limites explicitos; no prueba ahorro ni causalidad dinamica.",
+  "files": [
+    {
+      "path": "code/analyze_event_cone.py",
+      "bytes": 4982,
+      "sha256": "ea44d5a194b700b2aff805a56e11eaa71bde6e35f7d996ba1c265f445c56ad78"
+    },
+    {
+      "path": "code/verify_event_cone.py",
+      "bytes": 3393,
+      "sha256": "ac72026b3bf90e56a05a3786e85b7bbd08c444bce1b806a5ee1ad255d7322695"
+    },
+    {
+      "path": "code/build_event_cone_capsule.py",
+      "bytes": 2721,
+      "sha256": "afbc81534c3ca15edf136f0913b53e442221fb3efb12632ac2503b95755ad210"
+    },
+    {
+      "path": "code/verify_event_cone_capsule.py",
+      "bytes": 3205,
+      "sha256": "6a92229b0088c2387f858931ab3e27abc0eb0a05a725300448cc227b76f27f69"
+    },
+    {
+      "path": "evidence/EVENT_CONE_PLAN_53.json",
+      "bytes": 1726,
+      "sha256": "0a843a4d3d8c1bd4b8f1b0e1d8aae607433f212a2e043741f61a6d75d4f2306e"
+    },
+    {
+      "path": "evidence/EVENT_CONE_RESULT.json",
+      "bytes": 2221,
+      "sha256": "e49158b9a4544e719b227a55f367b8d6ccd63468e208da556ffb1e53dd7d9fcf"
+    },
+    {
+      "path": "evidence/EVENT_CONE_REVIEW.md",
+      "bytes": 2359,
+      "sha256": "ba43af34254505e1fb2f2eeeaa42b3605dc95f5cad0359ad5984b7b198de82f1"
+    },
+    {
+      "path": "evidence/EVENT_CONE_VERIFY.json",
+      "bytes": 632,
+      "sha256": "d86a57a6c0527f7b6f93b8ea9e6a5aab31bd43e63df1c8b966a61961626648cf"
+    },
+    {
+      "path": "evidence/EVENT_CONE_VERIFY_O.json",
+      "bytes": 632,
+      "sha256": "d86a57a6c0527f7b6f93b8ea9e6a5aab31bd43e63df1c8b966a61961626648cf"
+    },
+    {
+      "path": "evidence/EVENT_CONE_CAPSULE.npz",
+      "bytes": 624607,
+      "sha256": "ec50fc413c6d59bb4cfa4407299ef390c415f1fb5baef4d86382d0b05a761d08"
+    },
+    {
+      "path": "evidence/EVENT_CONE_CAPSULE_MANIFEST.json",
+      "bytes": 641,
+      "sha256": "c0538a6e371a9de699bbaf95d12c490973283cd77e503ecea64c74886bd714e8"
+    },
+    {
+      "path": "evidence/EVENT_CONE_CAPSULE_VERIFY.json",
+      "bytes": 395,
+      "sha256": "c10b1c96b75339f2070d1cc0ac180966623dc6bd54105974df8ab2815af59a06"
+    },
+    {
+      "path": "evidence/EVENT_CONE_CAPSULE_VERIFY_O.json",
+      "bytes": 395,
+      "sha256": "c10b1c96b75339f2070d1cc0ac180966623dc6bd54105974df8ab2815af59a06"
+    }
+  ]
+}

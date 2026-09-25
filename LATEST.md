@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-mri-real-frozen-fast-negative-20260925](reviews/motor-mri-real-frozen-fast-negative-20260925-c75bef23561b/README.md)
+[motor-event-cone-real-block-20260925](reviews/motor-event-cone-real-block-20260925-72ed0a482745/README.md)
 
-Real same-run sham125us MRI falsifier: five full effective RHS calls with frozen diagonal fast RHS fail endpoint1.865 and sampled defect146.659; parent organism unchanged. Portable arrays verify endpoint only, not live defect or parent checkpoint.
+Zona estructural de influencia de siete eventos en bloque real MaleCNS de 125 us, con CSR ponderado portable de dos saltos, cuatro capas verificadas y limites explicitos; no prueba ahorro ni causalidad dinamica.

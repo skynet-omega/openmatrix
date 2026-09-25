@@ -1,0 +1,21 @@
+{
+  "schema": "event_cone_plan_v1",
+  "question": "How quickly does the seven-source real-event structural dependency cone spread in the frozen complete CNS CSR, and is MRI max-error hDeltaA direct or downstream?",
+  "decision": "If a one/two-hop fast subgraph touches most edges, naive event-cone integration is unlikely to meet cost. If sparse, prototype one-hop/two-hop operator with residual correction. Structural reachability alone cannot certify dynamics.",
+  "budget": {
+    "runs_max": 1,
+    "wall_s_max": 60,
+    "ram_gib_max": 4,
+    "disk_bytes_max": 1048576
+  },
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/analyze_event_cone.py": "ea44d5a194b700b2aff805a56e11eaa71bde6e35f7d996ba1c265f445c56ad78",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/block_events.json": "2126d6d8a4f1423e98755e6f5350d1c952a9ace7811ecc90a24e7be839129dec",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EVENT_AUDIT.json": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_real_frozen_fast_03/EVENT_AUDIT.json": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+  },
+  "same_weights_sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+}

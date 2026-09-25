@@ -1,0 +1,29 @@
+{
+  "schema": "event_cone_verify_v1",
+  "status": "PASS_STRUCTURAL_RECOMPUTE",
+  "layers": [
+    {
+      "depth": 1,
+      "new": 1263,
+      "cumulative": 1270
+    },
+    {
+      "depth": 2,
+      "new": 13328,
+      "cumulative": 14598
+    },
+    {
+      "depth": 3,
+      "new": 88188,
+      "cumulative": 102786
+    },
+    {
+      "depth": 4,
+      "new": 60311,
+      "cumulative": 163097
+    }
+  ],
+  "source_corruption_rejected": true,
+  "graph_sha256": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+  "scope": "Base CSR nonzero reachability; no claims about effective specialized edges or dynamics."
+}

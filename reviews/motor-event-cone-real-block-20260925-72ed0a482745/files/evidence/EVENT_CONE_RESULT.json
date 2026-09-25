@@ -1,0 +1,72 @@
+{
+  "schema": "event_cone_result_v1",
+  "plan_sha256": "0a843a4d3d8c1bd4b8f1b0e1d8aae607433f212a2e043741f61a6d75d4f2306e",
+  "status": "STRUCTURAL_ONLY",
+  "sources": [
+    35387,
+    36540,
+    51040,
+    57513,
+    60830,
+    62314,
+    108384
+  ],
+  "n_neurons": 166700,
+  "csr_stored_edges": 25582938,
+  "csr_active_edges": 24559135,
+  "event_source_outgoing_active_edges": 1477,
+  "target_row": 29460,
+  "target_indegree_active": 296,
+  "target_direct_event_sources": [],
+  "target_first_reachability_depth": 2,
+  "target_first_hop_predecessors": [
+    12940,
+    131606
+  ],
+  "layers": [
+    {
+      "depth": 1,
+      "new_neurons": 1263,
+      "reachable_neurons_cumulative": 1270,
+      "reachable_fraction": 0.0076184763047390525,
+      "outgoing_active_edges_from_new": 279942,
+      "outgoing_active_edges_from_cumulative": 281419,
+      "cumulative_outgoing_fraction": 0.011458831917329337,
+      "target_reachable": false
+    },
+    {
+      "depth": 2,
+      "new_neurons": 13328,
+      "reachable_neurons_cumulative": 14598,
+      "reachable_fraction": 0.08757048590281943,
+      "outgoing_active_edges_from_new": 3388460,
+      "outgoing_active_edges_from_cumulative": 3669879,
+      "cumulative_outgoing_fraction": 0.14943030363243656,
+      "target_reachable": true
+    },
+    {
+      "depth": 3,
+      "new_neurons": 88188,
+      "reachable_neurons_cumulative": 102786,
+      "reachable_fraction": 0.6165926814637073,
+      "outgoing_active_edges_from_new": 15227613,
+      "outgoing_active_edges_from_cumulative": 18897492,
+      "cumulative_outgoing_fraction": 0.769468957273943,
+      "target_reachable": true
+    },
+    {
+      "depth": 4,
+      "new_neurons": 60311,
+      "reachable_neurons_cumulative": 163097,
+      "reachable_fraction": 0.9783863227354529,
+      "outgoing_active_edges_from_new": 5625290,
+      "outgoing_active_edges_from_cumulative": 24522782,
+      "cumulative_outgoing_fraction": 0.9985197768569618,
+      "target_reachable": true
+    }
+  ],
+  "wall_s": 0.9304302859964082,
+  "maxrss_kib": 665108,
+  "scope": "Base nonzero CSR structural reachability; not dynamics, current, specialized PN/KC/visual edges, or proof of causal source for MRI error.",
+  "budget_ok": true
+}

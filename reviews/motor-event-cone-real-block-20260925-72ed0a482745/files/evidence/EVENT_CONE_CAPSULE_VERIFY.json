@@ -1,0 +1,15 @@
+{
+  "schema": "event_cone_capsule_verify_v1",
+  "status": "PASS_PORTABLE_TWO_HOP_STRUCTURE",
+  "sources": 7,
+  "first_hop": 1263,
+  "second_new": 13328,
+  "edge1": 1477,
+  "edge2": 279942,
+  "target_two_hop_predecessors": [
+    12940,
+    131606
+  ],
+  "corruption_rejected": true,
+  "scope": "Weighted base CSR subset only; cannot certify completeness without parent full-graph hash/source."
+}
