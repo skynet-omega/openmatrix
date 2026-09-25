@@ -1,0 +1,152 @@
+{
+  "format_version": 2,
+  "label": "motor-release-reuse-traffic-20260925",
+  "description": "Real 125us CNS block: exact source-release changes, same-time consumed target/rate differences, conditional GPU bandwidth floor, and a 61.4MB lossless portable subset. No new integrator, speed gain, or Stage4/5 admission.",
+  "files": [
+    {
+      "path": "review/RELEASE_REUSE_REVIEW.md",
+      "bytes": 4159,
+      "sha256": "00c4b79c62e4f7ca5000e60128fab57709ff66e8ef1cd2a6ed8fc811fda06033"
+    },
+    {
+      "path": "review/RELEASE_REUSE_PLAN_19.json",
+      "bytes": 1281,
+      "sha256": "d9d3f44d473eba93d6bd6853d9c2096d86c426f76b5847dbf5938081b126b73b"
+    },
+    {
+      "path": "review/probe_release_reuse.py",
+      "bytes": 5306,
+      "sha256": "5907575697d563d60db936622f3794a44a2da0201bc00d4f3b23c51f42e2b4c7"
+    },
+    {
+      "path": "review/release_reuse_01/RESULT.json",
+      "bytes": 14310,
+      "sha256": "a76f2455ed1313054c911d92aa6b140beacce32beb8365bb48c7072d1aa6e9bd"
+    },
+    {
+      "path": "review/SAME_TIME_CONSUMED_PLAN_20.json",
+      "bytes": 993,
+      "sha256": "1b6e3db2068c4fe558c94309b8ae00e2b10316db4f954e35f8b67c50a90b4dc2"
+    },
+    {
+      "path": "review/probe_same_time_consumed.py",
+      "bytes": 2967,
+      "sha256": "4a5936391da0a844a281f5d705e745d362c056f92495cdc0ddedcab830d81dd1"
+    },
+    {
+      "path": "review/same_time_01/RESULT.json",
+      "bytes": 12198,
+      "sha256": "da8505202fbbf4c435aa0b1299a6cacced37d4e04284a96bc7e524fd2a226ad9"
+    },
+    {
+      "path": "review/BANDWIDTH_PLAN_21.json",
+      "bytes": 1416,
+      "sha256": "f23f5b155592d9b97dd550fe1a52b75ea183e82cae3d90b01801d2673088519d"
+    },
+    {
+      "path": "review/bandwidth_floor.py",
+      "bytes": 5015,
+      "sha256": "cc864152504b97a40071595fbe99d1d7a979e1d30bde17f46f837d2718d481f0"
+    },
+    {
+      "path": "review/bandwidth_01/RESULT.json",
+      "bytes": 2325,
+      "sha256": "151fc49032fa8ef84ff931552a305e9604c0a616d9ef0ffcdda214b1a92e1814"
+    },
+    {
+      "path": "review/RELEASE_CAPSULE_PLAN_22.json",
+      "bytes": 1355,
+      "sha256": "87c1831eb4a14dd1f6ba2e509eb338cffc0d577f9526a6b0c7a06563ea00e82d"
+    },
+    {
+      "path": "review/make_release_capsule.py",
+      "bytes": 3437,
+      "sha256": "aafbb4488e1fdad6b1bec75b3b652e8844d55b1c924324d3dd1e639965eaa60d"
+    },
+    {
+      "path": "review/verify_release_capsule.py",
+      "bytes": 4097,
+      "sha256": "103364cbf56484848a246bbb09efff455abcdd1d2452f02ba93ed29e80d6b2b7"
+    },
+    {
+      "path": "review/release_capsule_01/FAILURE.json",
+      "bytes": 620,
+      "sha256": "ba00e7cf68fe07ba462af99f863bb9757351683eb591e0145c528ef03182a7b8"
+    },
+    {
+      "path": "review/RELEASE_CAPSULE_XOR_PLAN_23.json",
+      "bytes": 1467,
+      "sha256": "b5d9e579541e762fa446e80e1a9581c8f85fc9df081b8993b0b42c3a151e3796"
+    },
+    {
+      "path": "review/make_release_capsule_xor.py",
+      "bytes": 3725,
+      "sha256": "4c8994d8b89f8586146c8569034742a161e14af2fa1a5c6e9dd26abc4204f8c6"
+    },
+    {
+      "path": "review/verify_release_capsule_xor.py",
+      "bytes": 4248,
+      "sha256": "a22fbed1685e5e9951099caf4fec5795f60b85d1da6d272a06588bbd28d04752"
+    },
+    {
+      "path": "review/release_capsule_xor_01/release_capsule_xor.npz",
+      "bytes": 61429370,
+      "sha256": "25f04acd4655e7a6201de19cb9274c360823df016121c5dd1d534d135e8ce83d"
+    },
+    {
+      "path": "review/release_capsule_xor_01/MANIFEST.json",
+      "bytes": 1307,
+      "sha256": "d721a80b2d8e6d913932170e7b0526c4a076bfa3a70cda06d2c952ddd11e892c"
+    },
+    {
+      "path": "review/release_capsule_xor_01/VERIFY.json",
+      "bytes": 1054,
+      "sha256": "99c3e8fc0513da03e521040b86dba102fbc6568069cd65162bbf667f31a1855f"
+    },
+    {
+      "path": "review/release_capsule_xor_01/VERIFY_OPT.json",
+      "bytes": 1054,
+      "sha256": "99c3e8fc0513da03e521040b86dba102fbc6568069cd65162bbf667f31a1855f"
+    },
+    {
+      "path": "review/JEV_SPEC_03.json",
+      "bytes": 2404,
+      "sha256": "b765f3447087cdf9a6667acea96ea8932b3a2640ffd58376dcfba3e71a2a4d3c"
+    },
+    {
+      "path": "review/jev_03/request.json",
+      "bytes": 2417,
+      "sha256": "def1a8e21ab52e85829f8b1aba9e82475ddd95b88a97e8f71b14fcda75430e83"
+    },
+    {
+      "path": "review/jev_03/response.json",
+      "bytes": 452,
+      "sha256": "ba4d82ff9df3bcec488b73d771a482de547c2f33d27974434dc0cbe741fe6f26"
+    },
+    {
+      "path": "review/jev_03/receipt.json",
+      "bytes": 402,
+      "sha256": "0c0be74cf5e94cd85100d40ef7e7555a57a9e27fb6dcad0be0f845ec12e24f2b"
+    },
+    {
+      "path": "reference/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "reference/CAPTURE_RESULT.json",
+      "bytes": 3290,
+      "sha256": "7cc248e39d49a5ceb4786d79e1bc80db58d90fbb1509632a7d17572d7229f833"
+    },
+    {
+      "path": "reference/trace_clock.npz",
+      "bytes": 1923,
+      "sha256": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+    },
+    {
+      "path": "review/PUBLICATION_PREFLIGHT_FAILURE_01.json",
+      "bytes": 333,
+      "sha256": "6e2c08aaaba62aa77b22ef4049e7369e64a2a7a1429695fa7d03482e058b336b"
+    }
+  ]
+}

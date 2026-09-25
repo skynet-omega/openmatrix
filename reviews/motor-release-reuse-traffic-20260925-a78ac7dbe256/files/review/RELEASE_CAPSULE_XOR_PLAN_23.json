@@ -1,0 +1,30 @@
+{
+  "schema": "portable_release_xor_capsule_prereg_v1",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "capture_sha256": {
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+  },
+  "source_sha256": {
+    "make_release_capsule_xor.py": "4c8994d8b89f8586146c8569034742a161e14af2fa1a5c6e9dd26abc4204f8c6",
+    "verify_release_capsule_xor.py": "a22fbed1685e5e9951099caf4fec5795f60b85d1da6d272a06588bbd28d04752"
+  },
+  "sample_query_ids": [
+    0,
+    2,
+    1,
+    4
+  ],
+  "budget": {
+    "runs": 1,
+    "cpu_wall_s_max": 90,
+    "maxrss_kib_max": 1800000,
+    "capsule_bytes_max": 70000000
+  },
+  "change_from_failed_plan22": "Lossless bitwise XOR between adjacent query release vectors; no numerical approximation or change to diagnostic criteria. Plan22 failure remains retained.",
+  "purpose": "Portable release trace plus two same-time full-output pairs for ChatGPT and clean-extraction verification."
+}

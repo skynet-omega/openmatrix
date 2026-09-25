@@ -1,0 +1,46 @@
+{
+  "status": "CONDITIONAL_TRAFFIC_BOUND_ONLY",
+  "capture_sha256": {
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "RESULT.json": "7cc248e39d49a5ceb4786d79e1bc80db58d90fbb1509632a7d17572d7229f833"
+  },
+  "source_sha256": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "memory_bus_width_bits": 256,
+    "memory_clock_khz": 10501000,
+    "l2_bytes": 50331648,
+    "calculated_theoretical_peak_Bps": 672064000000.0
+  },
+  "graph": {
+    "edges": 25582938,
+    "index_dtype": "int32",
+    "weight_dtype": "float64",
+    "index_and_weight_bytes_per_full_pass": 306995256,
+    "graph_bytes_to_l2_ratio": 6.099447727203369
+  },
+  "captured_125us_block": {
+    "full_coefficient_queries": 60,
+    "target_wall_s_for_125us": 0.015,
+    "index_weight_bytes_if_read_each_query": 18419715360,
+    "ideal_peak_DRAM_seconds_for_those_bytes": 0.027407680459003905,
+    "maximum_full_passes_at_peak_before_other_work": 32
+  },
+  "whole_captured_1ms": {
+    "accepted_trials": 191,
+    "rejected_trials": 0,
+    "coefficient_calls_per_trial_from_frozen_graph_core": 6,
+    "calculated_full_queries": 1146,
+    "target_wall_s_for_1ms": 0.12,
+    "index_weight_bytes_if_read_each_query": 351816563376,
+    "ideal_peak_DRAM_seconds_for_those_bytes": 0.5234866967669746,
+    "maximum_full_passes_at_peak_before_other_work": 262
+  },
+  "assumption": "Current full CSR kernel reads every source index and FP64 weight on every coefficient query, without inter-query DRAM reuse. This is plausible because the two arrays exceed L2, but it is a conditional traffic estimate, not a measured bandwidth or universal lower bound.",
+  "not_counted": "CSR pointers, release/state, output stores, owner kernels, launches, sync, body, CPU. Peak is theoretical; sustained bandwidth is lower."
+}

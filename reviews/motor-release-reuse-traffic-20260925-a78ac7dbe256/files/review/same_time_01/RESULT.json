@@ -1,0 +1,517 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE_ONLY",
+  "capture_sha256": {
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29"
+  },
+  "same_time_pairs": 20,
+  "pairs_with_changed_target": 10,
+  "pairs_with_changed_rate": 10,
+  "pairs": [
+    {
+      "query_indices": [
+        0,
+        2
+      ],
+      "time_hex": "0x0.0p+0",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        1,
+        4
+      ],
+      "time_hex": "0x1.4ee310fe670e9p-19",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 255091,
+        "max_abs": 1.7002517060937805e-08,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 243299,
+        "max_abs": 5.382522139107948e-08,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106171,
+        "max_abs": 3.8510421518367366e-08,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        6,
+        8
+      ],
+      "time_hex": "0x1.4ee310fe670e9p-18",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        7,
+        10
+      ],
+      "time_hex": "0x1.e9d47300d4b40p-18",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 254979,
+        "max_abs": 1.4555834537688384e-08,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 243204,
+        "max_abs": 4.608603922096055e-08,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106104,
+        "max_abs": 3.2977425235003466e-08,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        12,
+        14
+      ],
+      "time_hex": "0x1.4262ea81a12ccp-17",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        13,
+        16
+      ],
+      "time_hex": "0x1.dd52f0638d708p-17",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 255839,
+        "max_abs": 5.8192139384960484e-08,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244221,
+        "max_abs": 1.842644730409848e-07,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106394,
+        "max_abs": 1.3187238323553174e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        18,
+        20
+      ],
+      "time_hex": "0x1.3c217b22bcda2p-16",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        19,
+        22
+      ],
+      "time_hex": "0x1.d7118104a91dep-16",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256355,
+        "max_abs": 2.3255098108299066e-07,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244765,
+        "max_abs": 7.365199256176291e-07,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106481,
+        "max_abs": 5.272641487863439e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        24,
+        26
+      ],
+      "time_hex": "0x1.3900c3734ab0cp-15",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        25,
+        28
+      ],
+      "time_hex": "0x1.a0b6de24d4f9bp-15",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256523,
+        "max_abs": 4.1630798547354075e-07,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244927,
+        "max_abs": 1.3191108813731534e-06,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106508,
+        "max_abs": 9.448329194583494e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        30,
+        32
+      ],
+      "time_hex": "0x1.04367c6b2fa15p-14",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        31,
+        34
+      ],
+      "time_hex": "0x1.200a6a16cdfe3p-14",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256147,
+        "max_abs": 1.1984273706744375e-07,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244551,
+        "max_abs": 3.800006776882858e-07,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106451,
+        "max_abs": 2.723393208725611e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        36,
+        38
+      ],
+      "time_hex": "0x1.3bde57c26c5b1p-14",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        37,
+        40
+      ],
+      "time_hex": "0x1.5842d5287306cp-14",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256133,
+        "max_abs": 1.2468268556498074e-07,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244551,
+        "max_abs": 3.954825904123327e-07,
+        "max_abs_index": 50024
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106445,
+        "max_abs": 2.8353764491839684e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        42,
+        44
+      ],
+      "time_hex": "0x1.74a7528e79b26p-14",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        43,
+        46
+      ],
+      "time_hex": "0x1.8c0ac0a01ef2ap-14",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256023,
+        "max_abs": 8.456795635991554e-08,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244411,
+        "max_abs": 3.0566763476886494e-07,
+        "max_abs_index": 29460
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106429,
+        "max_abs": 1.9245109683652117e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        48,
+        50
+      ],
+      "time_hex": "0x1.a36e2eb1c432dp-14",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        49,
+        52
+      ],
+      "time_hex": "0x1.d14e3bcd35a86p-14",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 256475,
+        "max_abs": 3.249967422958022e-07,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 244876,
+        "max_abs": 1.1751523500904033e-06,
+        "max_abs_index": 29460
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 106505,
+        "max_abs": 7.400498986953608e-07,
+        "max_abs_index": 75
+      }
+    },
+    {
+      "query_indices": [
+        54,
+        56
+      ],
+      "time_hex": "0x1.ff2e48e8a71dfp-14",
+      "state": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "target": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      },
+      "rate": {
+        "equal_bytes": true,
+        "changed_coordinates": 0,
+        "max_abs": 0.0,
+        "max_abs_index": 0
+      }
+    },
+    {
+      "query_indices": [
+        55,
+        58
+      ],
+      "time_hex": "0x1.02de00d1b7176p-13",
+      "state": {
+        "equal_bytes": false,
+        "changed_coordinates": 254056,
+        "max_abs": 6.63358795671698e-09,
+        "max_abs_index": 270745
+      },
+      "target": {
+        "equal_bytes": false,
+        "changed_coordinates": 242069,
+        "max_abs": 2.4002422092852388e-08,
+        "max_abs_index": 29460
+      },
+      "rate": {
+        "equal_bytes": false,
+        "changed_coordinates": 105795,
+        "max_abs": 1.512231051492563e-08,
+        "max_abs_index": 75
+      }
+    }
+  ],
+  "wall_s": 1.6032512630044948,
+  "maxrss_kib": 573260,
+  "interpretation_limit": "A time-only cache is falsified for this captured RK call sequence; no candidate integrator or speed is evaluated."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PREPARE_REJECTED_NO_PUBLICATION",
+  "reason": "Publisher source root excludes read-only historical AXIOMA_FLYWIRE path. No remote mutation.",
+  "rejected_destination": "reference/gpu_coefficient_layout.py",
+  "repair": "Omit duplicate historical source; immutable earlier OpenMatrix commit 34d2 already carries it."
+}

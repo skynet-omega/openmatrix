@@ -1,0 +1,42 @@
+{
+  "status": "PASS_PORTABLE_SUBSET",
+  "capsule_sha256": "25f04acd4655e7a6201de19cb9274c360823df016121c5dd1d534d135e8ce83d",
+  "release_reuse_checks": {
+    "0.0": {
+      "span_sources": 128241,
+      "span_edges": 18491070,
+      "median_adjacent_edges": 18430757.0
+    },
+    "1e-12": {
+      "span_sources": 123051,
+      "span_edges": 17300212,
+      "median_adjacent_edges": 17188263.0
+    },
+    "1e-09": {
+      "span_sources": 113961,
+      "span_edges": 16363341,
+      "median_adjacent_edges": 7552811.0
+    },
+    "1e-06": {
+      "span_sources": 15423,
+      "span_edges": 2973367,
+      "median_adjacent_edges": 449378.0
+    },
+    "0.0001": {
+      "span_sources": 1568,
+      "span_edges": 321500,
+      "median_adjacent_edges": 11421.0
+    }
+  },
+  "same_time_pairs_verified": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "limits": "Outdegree derives from the local full CSR. Capsule reproduces release incidence and sampled same-time outputs; it does not include all graph columns or all target/rate queries."
+}

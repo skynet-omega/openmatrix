@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-kc-apl-causal-lesion-20260925](reviews/motor-kc-apl-causal-lesion-20260925-7c1b13a37b5c/README.md)
+[motor-release-reuse-traffic-20260925](reviews/motor-release-reuse-traffic-20260925-a78ac7dbe256/README.md)
 
-One real 1-ms whole-organism probe: effective KC/APL trace identity, preserved failed cross-run reference, and same-run A/B/A full-target/rate lesion of 836605 incoming edges with exact restoration. Limited dependency evidence only; no pruned kernel, speed gain or Stage4/5 admission. Raw A/B/A arrays are not included for independent recomputation.
+Real 125us CNS block: exact source-release changes, same-time consumed target/rate differences, conditional GPU bandwidth floor, and a 61.4MB lossless portable subset. No new integrator, speed gain, or Stage4/5 admission.

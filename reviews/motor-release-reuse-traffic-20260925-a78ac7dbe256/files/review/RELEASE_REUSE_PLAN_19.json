@@ -1,0 +1,28 @@
+{
+  "schema": "release_reuse_diagnostic_prereg_v1",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "sha256": {
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+  },
+  "script_sha256": "5907575697d563d60db936622f3794a44a2da0201bc00d4f3b23c51f42e2b4c7",
+  "descriptive_abs_thresholds": [
+    0.0,
+    1e-12,
+    1e-09,
+    1e-06,
+    0.0001
+  ],
+  "budget": {
+    "runs": 1,
+    "cpu_wall_s_max": 90,
+    "maxrss_kib_max": 2200000,
+    "gpu": false,
+    "output_bytes_max": 1000000
+  },
+  "question": "Fraction of base CSR source edges requiring exact release refresh across observed RK coefficient queries; same-time repeated queries falsify time-only cache.",
+  "limits": "Descriptive only. Thresholds are not allowed numerical error. A different integrator or QSS scheduler is not bounded by this probe."
+}

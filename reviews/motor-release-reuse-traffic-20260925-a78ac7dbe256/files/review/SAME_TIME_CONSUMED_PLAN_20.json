@@ -1,0 +1,20 @@
+{
+  "schema": "same_time_consumed_prereg_v1",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "sha256": {
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29"
+  },
+  "script_sha256": "4a5936391da0a844a281f5d705e745d362c056f92495cdc0ddedcab830d81dd1",
+  "budget": {
+    "runs": 1,
+    "cpu_wall_s_max": 45,
+    "maxrss_kib_max": 1200000,
+    "gpu": false,
+    "output_bytes_max": 1000000
+  },
+  "question": "At identical timestamp in one accepted block, do actually consumed full target/rate outputs depend on candidate state?",
+  "interpretation": "Only falsifies time-only cache for observed calls; no integrator candidate or speed."
+}

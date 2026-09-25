@@ -1,0 +1,12 @@
+{
+  "status": "FAILED_SIZE_LIMIT_RETAINED",
+  "reason": "Lossless NPZ is larger than preregistered 70,000,000-byte cap; no publication or verifier claimed",
+  "actual_bytes": 83250088,
+  "limit_bytes": 70000000,
+  "capsule_sha256": "a799d962217ef9a6584d6b452883ae603414f638cc8c33ecb60b2aa6f4236864",
+  "source_sha256": {
+    "make_release_capsule.py": "aafbb4488e1fdad6b1bec75b3b652e8844d55b1c924324d3dd1e639965eaa60d",
+    "verify_release_capsule.py": "103364cbf56484848a246bbb09efff455abcdd1d2452f02ba93ed29e80d6b2b7"
+  },
+  "next_action": "Separate prospective XOR-delta encoding plan; do not reclassify this run."
+}

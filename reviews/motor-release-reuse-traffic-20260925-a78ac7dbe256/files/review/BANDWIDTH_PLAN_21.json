@@ -1,0 +1,24 @@
+{
+  "schema": "conditional_bandwidth_prereg_v1",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "capture_sha256": {
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "RESULT.json": "7cc248e39d49a5ceb4786d79e1bc80db58d90fbb1509632a7d17572d7229f833"
+  },
+  "source_sha256": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+  },
+  "script_sha256": "cc864152504b97a40071595fbe99d1d7a979e1d30bde17f46f837d2718d481f0",
+  "budget": {
+    "runs": 1,
+    "cpu_wall_s_max": 30,
+    "maxrss_kib_max": 1300000,
+    "gpu_kernel_launches_max": 0,
+    "output_bytes_max": 30000
+  },
+  "question": "With current full-CSR schedule, are even ideal index+weight reads compatible with 5 simulated seconds in <=600 wall seconds?",
+  "interpretation": "Conditional traffic bound for current layout and query counts; no measured bandwidth and no impossibility statement for redesigned integrators."
+}

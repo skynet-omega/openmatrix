@@ -1,0 +1,29 @@
+{
+  "schema": "portable_release_capsule_prereg_v1",
+  "capture": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/multirate_real_20260924_01/capture_01",
+  "capture_sha256": {
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+  },
+  "source_sha256": {
+    "make_release_capsule.py": "aafbb4488e1fdad6b1bec75b3b652e8844d55b1c924324d3dd1e639965eaa60d",
+    "verify_release_capsule.py": "103364cbf56484848a246bbb09efff455abcdd1d2452f02ba93ed29e80d6b2b7"
+  },
+  "sample_query_ids": [
+    0,
+    2,
+    1,
+    4
+  ],
+  "budget": {
+    "runs": 1,
+    "cpu_wall_s_max": 90,
+    "maxrss_kib_max": 1600000,
+    "capsule_bytes_max": 70000000
+  },
+  "purpose": "Give external review 60 real source-release query vectors and two same-time full-output pairs without publishing the much larger original capture. No full graph indices or all target/rate arrays."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "release_reuse_xor_capsule_v1",
+  "status": "COMPLETE",
+  "capture_sha256": {
+    "EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29",
+    "trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d"
+  },
+  "source_index_array_sha256": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db",
+  "release_uncompressed_sha256": "a6cd116fc04582e6d406cd49fd867c5566dc577c9422a754753f4d7f93bc2ece",
+  "capsule_sha256": "25f04acd4655e7a6201de19cb9274c360823df016121c5dd1d534d135e8ce83d",
+  "capsule_bytes": 61429370,
+  "n_edges": 25582938,
+  "sample_query_ids": [
+    0,
+    2,
+    1,
+    4
+  ],
+  "wall_s": 5.6176492419908755,
+  "maxrss_kib": 391060,
+  "limits": "Outdegree derives from the local full CSR. Capsule reproduces release incidence and sampled same-time outputs; it does not include all graph columns or all target/rate queries."
+}
