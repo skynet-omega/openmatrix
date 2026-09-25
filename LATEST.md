@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-kc-apl-stream-repair-20260925](reviews/motor-kc-apl-stream-repair-20260925-66fd2ecf32b8/README.md)
+[motor-quantized-full-screen-20260925](reviews/motor-quantized-full-screen-20260925-a58dd0e4caef/README.md)
 
-Stream-ordered repeat of one real 1-ms KC/APL A-B-A lesion. Full consumed/baseline/lesion/restored arrays saved and independently recomputed; selected 836605 edges, 698768 nonzero weights, exact target/rate on two query states. No pruning, speed gain or Stage4/5 admission.
+Same-run 60-query real-organism full coefficient screen for source-release cache1e-6; full local verifier and selected portable capsule. Necessary evidence only; no integrated motor or Stage4/5 claim.

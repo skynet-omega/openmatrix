@@ -1,0 +1,25 @@
+{
+  "schema": "quantized_full_capsule_plan_v1",
+  "date": "2026-09-25",
+  "source_plan_sha256": "9c7ccc5433f0c4a1808f59c6da42ae4d372d0f63edbf17b4edc2f7459910a779",
+  "full_arrays_sha256": "e91b7101e7c09562c0a92717c10e40b47b86836ac0a13dd2880c9336361c7292",
+  "result_sha256": "31b08559a25592d18dbf53734d60cd74fe0d3c5d44d649542a58618cc1416d97",
+  "script_sha256": "202487591edc516315b608e1bd5ed670742fcd1b4e1c82dbe441b19d56ba7203",
+  "verifier_sha256": "d4366eef98f37792910c0ce4169b8b818fab1864fb83c68f075c9f155b52f30a",
+  "selected_query_indices": [
+    0,
+    24,
+    59
+  ],
+  "selection_rationale": "Query0 exact cache initialization control; query24 largest observed local RHS proxy; query59 terminal query. Selection frozen before capsule construction, after parent result; not a held-out scientific cohort.",
+  "n_sources": 166700,
+  "transmission_start": 177758,
+  "absolute_release_threshold": 1e-06,
+  "rtol": 1e-05,
+  "atol": 1e-07,
+  "verification_max_abs": 1e-12,
+  "budget": {
+    "capsule_bytes_max": 157286400
+  },
+  "scope": "Transport package: all release vectors and three complete coefficient queries. Full 60-query arrays and verification stay local; no claim of independent 60-query coefficient replay by recipient."
+}

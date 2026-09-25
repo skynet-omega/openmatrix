@@ -1,0 +1,6 @@
+{
+  "status": "PASS_CORRUPTION_REJECTED",
+  "mutation": "per_query[10].updated_edges += 1",
+  "verifier_exit_code": 1,
+  "stderr_tail": "ine 115, in <module>\n    print(json.dumps(run(args.result, args.plan, args.out), indent=2))\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/verify_quantized_full_same_run.py\", line 67, in run\n    need(row[\"query\"] == j and row[\"updated_sources\"] == int(np.count_nonzero(active))\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/verify_quantized_full_same_run.py\", line 12, in need\n    raise ValueError(message)\nValueError: Update accounting\n"
+}

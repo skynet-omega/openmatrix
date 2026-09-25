@@ -1,0 +1,117 @@
+{
+  "format_version": 2,
+  "label": "motor-quantized-full-screen-20260925",
+  "description": "Same-run 60-query real-organism full coefficient screen for source-release cache1e-6; full local verifier and selected portable capsule. Necessary evidence only; no integrated motor or Stage4/5 claim.",
+  "files": [
+    {
+      "path": "review/QUANTIZED_FULL_REVIEW.md",
+      "bytes": 4301,
+      "sha256": "0c3f3bdc1a58c0375d601d78acce8ee98aa763bf7e8f499f310bea2a66125a83"
+    },
+    {
+      "path": "plans/QUANTIZED_FULL_PLAN_27.json",
+      "bytes": 3704,
+      "sha256": "9c7ccc5433f0c4a1808f59c6da42ae4d372d0f63edbf17b4edc2f7459910a779"
+    },
+    {
+      "path": "code/probe_quantized_full_same_run.py",
+      "bytes": 16079,
+      "sha256": "874f00a98cef8df258e942ceb2d817435be0c592ac970ab7e277aa4c7fcd55ee"
+    },
+    {
+      "path": "code/verify_quantized_full_same_run.py",
+      "bytes": 5798,
+      "sha256": "0297b2785214a1bf87a0f528d414840ebb14a45845217774ea2cb56ace508708"
+    },
+    {
+      "path": "plans/QUANTIZED_FULL_CAPSULE_PLAN_28.json",
+      "bytes": 1239,
+      "sha256": "b3498600ee3e06a08c68c601584102f99569586398fee51d654132c0b5bb9ef8"
+    },
+    {
+      "path": "code/make_quantized_full_capsule.py",
+      "bytes": 3156,
+      "sha256": "202487591edc516315b608e1bd5ed670742fcd1b4e1c82dbe441b19d56ba7203"
+    },
+    {
+      "path": "code/verify_quantized_full_capsule.py",
+      "bytes": 5548,
+      "sha256": "d4366eef98f37792910c0ce4169b8b818fab1864fb83c68f075c9f155b52f30a"
+    },
+    {
+      "path": "results/QUANTIZED_FULL_RESULT.json",
+      "bytes": 28141,
+      "sha256": "31b08559a25592d18dbf53734d60cd74fe0d3c5d44d649542a58618cc1416d97"
+    },
+    {
+      "path": "results/ORGANISM_RESULT.json",
+      "bytes": 3302,
+      "sha256": "f07bcf5cff8dbb299353cf96a20d25e62602dd36fd56675955d6d12f153f98c5"
+    },
+    {
+      "path": "results/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "results/VERIFY_FULL.json",
+      "bytes": 475,
+      "sha256": "73f26fa072f8fb781fd67e9c2e0150720f5e192b26fb5fc81a137cb24006a027"
+    },
+    {
+      "path": "results/VERIFY_FULL_OPT.json",
+      "bytes": 475,
+      "sha256": "73f26fa072f8fb781fd67e9c2e0150720f5e192b26fb5fc81a137cb24006a027"
+    },
+    {
+      "path": "results/CORRUPTION_TEST.json",
+      "bytes": 656,
+      "sha256": "5d209e2270a072299cf94653dd562d8f5ba0d231844ee55c19c65e907ff90236"
+    },
+    {
+      "path": "capsule/quantized_full_capsule_01.npz",
+      "bytes": 110795258,
+      "sha256": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122"
+    },
+    {
+      "path": "capsule/QUANTIZED_CAPSULE_MANIFEST.json",
+      "bytes": 443,
+      "sha256": "fa01f1212319e600a45e3eb68c517aae8d4e623952ee1dc485fb2d8f3ecf374e"
+    },
+    {
+      "path": "capsule/VERIFY.json",
+      "bytes": 539,
+      "sha256": "775e0fbcefcba468d557527a76d7ef32345dc7204e42c5f56c7626d18456236c"
+    },
+    {
+      "path": "capsule/VERIFY_OPT.json",
+      "bytes": 539,
+      "sha256": "775e0fbcefcba468d557527a76d7ef32345dc7204e42c5f56c7626d18456236c"
+    },
+    {
+      "path": "advisory/JEV_SPEC_05.json",
+      "bytes": 2469,
+      "sha256": "85877f4647cdd62f03051a75f549f7772ad64c4fc8fe7a10a970b191165b7a35"
+    },
+    {
+      "path": "advisory/JEV_RESPONSE_05.json",
+      "bytes": 457,
+      "sha256": "c4e7b2f008f131595cac0daf7e5a3b1cc1717833d1e7db7aa43b6e62ad0ff1bf"
+    },
+    {
+      "path": "chatgpt_code/binding_guard_patch.py",
+      "bytes": 5167,
+      "sha256": "8bfdf57ead85520332e692afdf4a72bf1e94e43ae61162eac943430bcff3b415"
+    },
+    {
+      "path": "chatgpt_code/owner_same_run_v2.py",
+      "bytes": 16426,
+      "sha256": "80926bc330012d0048270ab4559ff5ed6d1c989e7518e98b07a5dd25eabed30f"
+    },
+    {
+      "path": "chatgpt_code/owner_write_probe.py",
+      "bytes": 15271,
+      "sha256": "8ffaf4676c17d2c1aa8130ec1899ee6b28c2a31f7bd191e360b25c1fae145333"
+    }
+  ]
+}

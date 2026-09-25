@@ -1,0 +1,17 @@
+{
+  "status": "PASS_CAPSULE_RECOMPUTE_LIMITED",
+  "capsule_sha256": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+  "queries_release": 60,
+  "queries_full_coefficients": [
+    0,
+    24,
+    59
+  ],
+  "median_updated_edges": 387441.0,
+  "selected_proxy": {
+    "0": 0.0,
+    "24": 0.008378819800353312,
+    "59": 0.000867240616597449
+  },
+  "scope": "Recomputes update counts for all 60 and full coefficient proxy for three queries. Does not independently recheck other 57 coefficient outputs or integrated state."
+}

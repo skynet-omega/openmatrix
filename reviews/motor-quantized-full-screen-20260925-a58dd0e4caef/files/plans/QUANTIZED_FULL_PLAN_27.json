@@ -1,0 +1,45 @@
+{
+  "schema": "quantized_full_same_run_plan_v1",
+  "date": "2026-09-25",
+  "question": "On all 60 coefficient queries actually consumed in one real 125-us CNS block, how much does a persistent 1e-6 source-release cache alter the full target/rate and local RHS proxy while source dynamics remain exact?",
+  "architecture": "B: prospective quantized release update by source state, versus A full owner/operator and C native exact runtime. Parent is unchanged organism. The screen is read-only on a separate oracle; no candidate motor promotion.",
+  "design": "One new 1-ms sham organism run. Capture actual coefficient inputs/outputs in the graph; query independent baseline and cache-patched full coefficient oracle at every captured query inside the same accepted block before parent state publication. Cache changes continuous release only; event source release and source dynamics remain exact. Archive complete consumed, baseline and candidate arrays.",
+  "absolute_release_threshold": 1e-06,
+  "expected_queries": 60,
+  "transmission_start": 177758,
+  "rtol": 1e-05,
+  "atol": 1e-07,
+  "verification_max_abs": 1e-12,
+  "frozen_inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/multirate_real_20260924_01/capture_effective_block.py": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/owner_fallback_cost_20260924_01/quantized_release_01/RESULT.json": "af809b20b5cff705db40ae7a26f2d3e9561e631a851296e02343e6570f09e197",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py": "25717e5fbe5f4337ba4e7bec84a26bfef4ef9a42e7cef01e259aaff91b08d12e",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+  },
+  "script_sha256": "874f00a98cef8df258e942ceb2d817435be0c592ac970ab7e277aa4c7fcd55ee",
+  "verifier_sha256": "0297b2785214a1bf87a0f528d414840ebb14a45845217774ea2cb56ace508708",
+  "gates": {
+    "same_run_baseline_exact": true,
+    "all_60_queries": true,
+    "event_release_exact": true,
+    "source_dynamics_exact": true,
+    "no_nonfinite": true
+  },
+  "budget": {
+    "organism_runs": 1,
+    "simulation_ms": 1,
+    "wall_seconds_max": 240,
+    "ram_gib_max": 18,
+    "incremental_vram_gib_max": 12,
+    "disk_bytes_max": 1610612736
+  },
+  "stop_rule": "One run and independent array recomputation. No threshold tuning after result. If local proxy exceeds 1, discard this threshold for promotion. If <=1, retain only as a necessary screen; integrated state/event/body and wall-time comparisons remain required.",
+  "interpretation": "Coefficient and one-step RHS screening only, on the observed RK query order. No state error, acceptance/rollback equivalence, navigation behavior, solver speed, or general other-brain validity."
+}

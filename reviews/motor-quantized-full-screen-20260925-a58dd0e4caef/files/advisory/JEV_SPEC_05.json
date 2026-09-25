@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Sólo asesoría de priorización. Objetivo: 5 s simulados <=5-10 min reales en organismo+cerebro completo. Padre:191 ensayos/1 ms×6=1146 consultas globales. B screen previo: umbral de liberación1e-6 redujo mediana de aristas de actualización; ahora corrida real NUEVA mismo-run 1 ms,60 consultas completas: baseline oracle=salidas consumidas bit a bit; mediana387441/25582938 aristas por consulta (1.51%), mediana1894 fuentes; diferencia máxima target6.033e-6, rate1.054e-4, proxy local RHS normalizado0.008379 (<1). Verificador independiente recompuso arrays completos normal/-O y rechazó una corrupción. Es prueba necesaria solamente: el organismo siguió referencia; no se ejecutó cache CSC, ni prueba de estado acumulado, eventos/rechazos/rollback, cronometraje de aceleración o navegación. El archivo completo ocupa984MB. ChatGPT detectó binding de una sonda de propietarios y estimó que guard estricto copia al menos3.08GB por10 lecturas, sin ejecutar CUDA. A: dueño completo todavía no validado. C nativo exacto aislado no redujo barridos. Etapas4/5 abiertas.",
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Elegir una prueba corta que cambie la decisión de construir motor genérico sin confundir indicador local con validación integrada.",
+      "criteria": {
+        "A_owner_guard": "Corregir binding real y medir coste/igualdad del guard y escrituras de propietario en un bloque; habilita operador completo, pero no reduce barridos por sí mismo.",
+        "B_integrated_release": "Implementar caché CSC/release transaccional en una sola época CNS real, conservar eventos exactos; comparar estado/aceptación y medir tiempo total contra padre. Es prototipo técnico costoso.",
+        "C_native_exact": "Portar lazo completo C++/CUDA exacto y medir organismo; reduce Python/transferencia, no los1146 barridos del CNS."
+      }
+    },
+    "chief_risk": {
+      "instructions": "Elegir falla dominante que debe falsarse primero si se implementa B.",
+      "criteria": {
+        "accumulated_state": "Error pequeño por consulta crece o altera aceptación/eventos/viraje tras integración.",
+        "owner_effects": "Adaptadores propietarios y orden SET/ADD/transform invalidan la variación observada del operador completo.",
+        "transaction_cost": "CSC/atómicos/rollback hacen el candidato lento o inconsistente pese a pocas aristas activas."
+      }
+    }
+  }
+}
