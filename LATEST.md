@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-effective-scale-provenance-20260925](reviews/stage4-effective-scale-provenance-20260925-fe06153cc880/README.md)
+[stage4-premotor-probe-code-20260925](reviews/stage4-premotor-probe-code-20260925-a658900a7b87/README.md)
 
-Material correction: effective current model already has global volume normalization; withdrawn second normalization must not be reapplied. Source audit, actual22-cell coefficients and provenance; no model changes or stage admission.
+Review of a bounded native causal recruitment probe; compilation and structural paths only, organism outcomes pending. Not a self-contained organism reproduction.

@@ -1,0 +1,67 @@
+{
+  "format_version": 2,
+  "label": "stage4-premotor-probe-code-20260925",
+  "description": "Review of a bounded native causal recruitment probe; compilation and structural paths only, organism outcomes pending. Not a self-contained organism reproduction.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3135,
+      "sha256": "bb7026920a1589845ac145a2a9f3bbd2bb98249c7aa2bae6b18ec56609a3980f"
+    },
+    {
+      "path": "DYNAMIC_PLAN.json",
+      "bytes": 3775,
+      "sha256": "655b3d785042aa36a788a742bb9ef20e2756a265eca52877ee388c752e3dca4b"
+    },
+    {
+      "path": "SOURCE_LOCK.json",
+      "bytes": 1163,
+      "sha256": "b6619560279d37b98dbbd6a9c5208cf379ae817962ac51adb3043269a6f3d63e"
+    },
+    {
+      "path": "native_probe.py",
+      "bytes": 9217,
+      "sha256": "d0d602b2f34dd7742bb0f52c045e9c42c5fe5534b2aa3b65d1dc8083384422c3"
+    },
+    {
+      "path": "paired_inputs.py",
+      "bytes": 4318,
+      "sha256": "d83141acbb72c18e35e9a0824272eb6cc729e4649b81b747eb09c4ea901ab000"
+    },
+    {
+      "path": "run_probe.py",
+      "bytes": 10286,
+      "sha256": "7b5f8da6e2150c169591ae6565645bd29cf8ece8d209446b33dba0ccb631486b"
+    },
+    {
+      "path": "run_queue.py",
+      "bytes": 2137,
+      "sha256": "33db4db98dd467ea2fb24aa521ea18dbcbb1d663cc51bc34f5e9a7e93997f438"
+    },
+    {
+      "path": "chatgpt_pulse_original.py",
+      "bytes": 4134,
+      "sha256": "f54c83675f111d03f48513512ae81aa2f279b1a151832e2285159dbfb44558ca"
+    },
+    {
+      "path": "structure_02/RESULT.json",
+      "bytes": 38241,
+      "sha256": "ebabce884d4095e945c211fadf321b5fe90f0a8fdae22f2ba15339511d83ae7e"
+    },
+    {
+      "path": "structure_02/PATHS.csv",
+      "bytes": 10024,
+      "sha256": "6f7db707e20469dd559fcd4a37401fce55e5f55a58d368d4ad7eea21dbd7b3fe"
+    },
+    {
+      "path": "context/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "context/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    }
+  ]
+}

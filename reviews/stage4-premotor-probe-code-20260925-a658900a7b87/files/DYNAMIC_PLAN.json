@@ -1,0 +1,68 @@
+{
+  "status": "FROZEN_BEFORE_DYNAMIC_SCREEN",
+  "utc": "2026-09-25T09:50:30.063939+00:00",
+  "origin": "ChatGPT premotor recruitment proposal with one native implementation choice by Codex; antecedent DNg100 not repeated",
+  "alternatives_from": "PLAN.json",
+  "conditions": [
+    "sham",
+    "DNp09_bilateral",
+    "DNa03_izquierda",
+    "DNa03_derecha"
+  ],
+  "preparation_ms": 40,
+  "trial_ms": 200,
+  "pulse_ns": [
+    20000000,
+    60000000
+  ],
+  "fraction_remaining_target": 0.25,
+  "sources": {
+    "sham": [],
+    "DNp09_bilateral": [
+      10783,
+      11177
+    ],
+    "DNa03_izquierda": [
+      519624
+    ],
+    "DNa03_derecha": [
+      10975
+    ]
+  },
+  "pulse_operation": "Generic-rate CUDA consumer derives one fixed additional drive per source at its first coefficient evaluation at ON, using current incoming net, current drive and saved effective gain/theta. It then adds exactly that dose to the local drive term for [20,60)ms; no alteration of weights, gain, threshold, baseline or state q. Dose initialized in the initial coefficient evaluation before its dependent graph stages; read back and validated.",
+  "native_design_choices": {
+    "A": "Host pulse from last preceding coefficient: simpler but preceding stage is not exactly initial ON input; not chosen",
+    "B": "Pulse initialized inside actual native coefficient consumer at ON, fixed over pulse; chosen",
+    "C": "Fixed isolated-neuron target dose: useful historical probe but ignores recurrent current; not chosen"
+  },
+  "observation": "22 preselected ordinary-rate cells. q sampled each1ms; native last input/target plus maximum argument and positive-query count across ALL executed coefficient queries, including rejected trials. The latter is an upper bound on accepted sampled maxima; positive-query counts are not time occupancy. No claim of continuous physiology or exact accepted-time integrals.",
+  "readout": "Original neural commands observed; identical archived body commands physically applied to all conditions. Tonic forward is allowed for this causal identification, not evidence of neural speed control.",
+  "inputs": "Match final copied adapter drive/light/held_boundary_light/held_afferent_rate_hz at every125us boundary; pulse is internal to kernel and therefore separate from unchanged exogenous drive. Do not match endogenous PN general or recurrent states. Check body integration states, pending_sensors, FeCO and CxHP8 per1ms.",
+  "donor": "../etapa4_contrast_ablation_20260925_36/identity_01/traces.npz",
+  "donor_sha256": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+  "screen": {
+    "source_material_q_effect": 0.01,
+    "panel_material_q_effect": 0.001,
+    "native_dose_reconstruction_atol": 1e-12,
+    "native_dose_reconstruction_rtol": 1e-10,
+    "classification": "Descriptive recruitment screen, no physiological calibration or stage admission; no refined full200ms paired reference allocated",
+    "subthreshold": "Only if the maximum argument over ALL executed queries is <=0; positive maxima without endpoint q effect remain unresolved",
+    "sham_must_reproduce_donor_prefix": true,
+    "stop_on_nonfinite": true,
+    "stop_on_input_or_body_mismatch": true,
+    "no_retuning": true
+  },
+  "budget": {
+    "max_full_organism_runs": 4,
+    "aggregate_wall_s": 5000,
+    "per_run_wall_s": 1300,
+    "max_rss_gib": 18,
+    "max_gpu_gib": 12,
+    "max_observation_mib": 256,
+    "max_checkpoint_gib": 4,
+    "max_new_controllers": 0,
+    "max_probe_harnesses": 1,
+    "extra_test_organisms": 0
+  },
+  "stop": "One bounded four-arm screen, stop at resource or interpretability failure. No retries with higher dose, changed window or threshold. A software fix may repeat only affected arms under a separately recorded correction."
+}
