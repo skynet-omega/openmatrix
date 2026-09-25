@@ -1,0 +1,66 @@
+{
+  "schema": "event_step_organism_plan_v1",
+  "date": "2026-09-25",
+  "problem": "Mandatory event cuts truncate an accepted h; current C++ controller bases next proposal on truncated h even at small normalized error. Test whether carrying the pre-cut proposal avoids artificial recovery trials.",
+  "alternatives": {
+    "A": "Preserve pre-cut proposal after event-limited accepted step if e<0.1; still cut at every event and run full error/domain test. This round tests A.",
+    "B": "Quantized CSC transactional transmission; two isolated GPU variants failed prospective cost/current gates, no new tuning in this round.",
+    "C": "Coupled exponential/Krylov recurrent action with residual-based renewal; no organism prototype yet."
+  },
+  "candidate_change": "Only next-step proposal assignment after a strictly interior event cut in engine_advance_events, conditional on accepted e<0.1. Epoch ends and all other controls unchanged.",
+  "same_prep": "Fresh separate baseline/candidate one-ms sham processes under the same frozen loader and checkpoint. Must verify preparation W SHA match. Previous plan41 pair retained separately, not used as the control.",
+  "frozen_sha256": {
+    "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "motor_nuevo/owner_fallback_cost_20260924_01/graph_control_event_memory_v2.cpp": "5d63fd6c7ffe5c59376325ee6787efca8c036e32e24214fac722950fae6ff859",
+    "motor_nuevo/owner_fallback_cost_20260924_01/run_event_step_organism_v2.py": "00f85908d910c24bb91ca212fc25730a7de7c84e49b6ad371aff72f9498ddb90",
+    "motor_nuevo/owner_fallback_cost_20260924_01/check_event_step_policy_v2.py": "88618b11aad9eeadddeabff02402ee82482f5efdc290f1f55220911ca32857f1",
+    "motor_nuevo/owner_fallback_cost_20260924_01/compare_event_step_organism_v2.py": "dfad0ed0091206d3277b6e7dd0b3ad124c6f102bac38063b65e7a166eb6e4855"
+  },
+  "native_source_sha256": {
+    "baseline": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "candidate": "5d63fd6c7ffe5c59376325ee6787efca8c036e32e24214fac722950fae6ff859"
+  },
+  "binary_sha256": {
+    "baseline": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+    "candidate": "8056f01930c16b9de426710c4f7243e20086c967f52a23e28aa62ce4af862093"
+  },
+  "synthetic_fixture": {
+    "baseline_trials": 9,
+    "candidate_trials": 3,
+    "no_event_equal": true,
+    "endpoint_vs_analytic_abs_max": 1e-07,
+    "epoch_end_equal": true
+  },
+  "budget_per_run": {
+    "organisms": 1,
+    "simulation_ms": 1,
+    "wall_s_max": 100,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 734003200
+  },
+  "total_budget": {
+    "organisms": 2,
+    "simulation_ms": 2,
+    "wall_s_max": 220,
+    "disk_bytes_max": 1468006400
+  },
+  "gates": {
+    "candidate_rejected_max": 0,
+    "candidate_accepted_max_fraction_of_baseline": 0.9,
+    "candidate_step_wall_max_fraction_of_baseline": 0.9,
+    "final_state_normalized_error_max": 1.0,
+    "yaw_delta_abs_deg_max": 0.0001,
+    "event_time_abs_s_max": 1e-09,
+    "event_jump_abs_max": 1e-06,
+    "event_post_q_abs_max": 1e-06,
+    "no_nonfinite": true
+  },
+  "stop_rule": "Run one pair only. If safety/fidelity or speed gate fails, preserve negative and do not tune A using this pair. Passing this 1ms pair is only a necessary preflight; no claim of 5s/5–10min, Stage4, or Stage5.",
+  "known_limit": "One sham1ms preparation cannot validate odor, long-horizon recurrence, multiple seeds, or general brain structures.",
+  "amendment_of_plan_sha256": "a2dc4952abf6ead336a49c327f425d9187303aa791d0ed6812d71cbcf497158b",
+  "failed_startup": "The plan40 startup failed before any simulated ms. Plan41 one-ms pair completed and passed numeric/speed gates but its candidate also carried proposal at epoch end, violating intended isolation; retained as exploratory, not promotion. Plan42 only carries proposal after strictly interior event cuts."
+}

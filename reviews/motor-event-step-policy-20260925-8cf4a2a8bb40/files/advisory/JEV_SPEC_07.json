@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Asesoría clasificatoria, no prueba. Meta organismo completo 5s simulados en 5–10min reales; etapa3 funcional local, etapas4/5 abiertas. Dos variantes CUDA CSC aisladas fallaron puertas congeladas: 0,1095 y 0,1168ms/consulta >0,05, error excitador0,0291 >0,01, sin propietarios. Instrumento de un organismo real sham1ms sin cambiar integrador: 191 pruebas CNS (73 predictor,118 aceptadas), 84 terminan en límite de evento, 16 en fin de época y 91 entre cortes; mediana error normalizado de no cortadas2,86e-5. El controlador C++ fija siguiente propuesta a floor(h_real_ns*(error<0,1?2:1)) también cuando h fue recortado por evento. Esto sugiere una hipótesis prospectiva de evitar reinicio artificial del tamaño; aún no se ha ejecutado ni medido una candidata. Neurona52584 alcanza máximo174/191 pero el error es diminuto en muchos casos: no prueba rigidez. Mantener eventos, aceptación, mismo modelo y trazas; no extrapolar sonda1ms a 5s.",
+  "questions": {
+    "priority": {
+      "instructions": "Prioriza el siguiente discriminador acotado; clasifica valor de información, no veredicto de fidelidad ni rendimiento.",
+      "criteria": {
+        "A_event_step_memory": "Modificar sólo política de propuesta posterior a corte de evento, preservar propuesta previa si error aceptado pequeño, y medir mismo organismo contra padre con error/estado/eventos/tiempo fijados antes.",
+        "B_csc_error_decomposition": "Descomponer error cuantización frente a redondeo del CSC ya fallido en corriente excitadora y coste de reconstrucción; sin más tuning de kernel por ahora.",
+        "C_krylov_recurrence": "Sonda de JVP/exponencial acoplada en el bloque real, contando cada operador y error de estado antes de portar a organismo."
+      }
+    },
+    "chief_falsifier": {
+      "instructions": "Si se elige A, identifica el riesgo más urgente que debe falsarse con el mismo run pareado.",
+      "criteria": {
+        "event_continuity": "La h más larga tras un evento cruza otra discontinuidad o cambia fase de predictor/aceptado.",
+        "state_error": "El calendario cambia la trayectoria y el error numérico acumulado supera el contrato aunque cada trial sea aceptado.",
+        "whole_cost": "Bajan trials pero no el tiempo completo o el nuevo calendario causa rechazos y trabajo extra."
+      }
+    }
+  }
+}

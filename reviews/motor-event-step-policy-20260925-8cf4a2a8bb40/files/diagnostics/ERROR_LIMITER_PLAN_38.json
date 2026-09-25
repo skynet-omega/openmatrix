@@ -1,0 +1,26 @@
+{
+  "schema": "error_limiter_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "Both isolated CSC B kernels failed. Before constructing A, identify which state coordinates limit the adaptive CNS timestep instead of assigning slow/fast regions by anatomical story.",
+  "question": "Across every actual CNS trial in one real1-ms sham organism, which coordinate attains the max accepted-error norm, at what h, and how concentrated are those limiting coordinates?",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_compact_gpu_01/RESULT.json": "9ed0bb6617c045b60847fb0567ac6513a824f279e6a5a0b718187476f583ab9e"
+  },
+  "script_sha256": "c4bd4fba5169243e81881b2ffc32af4a17519f609804aff948e53ed92b11f66a",
+  "expected_trials": 191,
+  "maximum_error_reconstruction_abs": 1e-10,
+  "budget": {
+    "organism_runs": 1,
+    "simulation_ms": 1,
+    "wall_seconds_max": 120,
+    "ram_gib_max": 12,
+    "incremental_vram_gib_max": 5,
+    "disk_bytes_max": 734003200
+  },
+  "stop_rule": "One read-only instrumented organism run. If actual error norm cannot be reconstructed from block maxima, reject interpretation. No timestep or tolerance changes.",
+  "interpretation": "A diagnostic of the current integrator. Concentrated limiter can motivate an exact/implicit treatment and a prospective state-error test; distributed limiter weakens simple local-stiffness designs. No speed claim."
+}

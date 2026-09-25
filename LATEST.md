@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-csc-cuda-failures-20260925](reviews/motor-csc-cuda-failures-20260925-fdc99a855e7a/README.md)
+[motor-event-step-policy-20260925](reviews/motor-event-step-policy-20260925-8cf4a2a8bb40/README.md)
 
-Two prospectively gated CUDA CSC base-current kernels on the real CNS graph failed useful speed and exploratory current-error limits; provenance of5845 weight differences and matched rerun documented. No organism speed claim. Full graph arrays not included; prior release capsule is separately published.
+Código C++ y evidencia empírica pareada de la política de eventos interiores: 1ms y20ms del organismo completo; mejora parcial verificada, etapas4/5 abiertas. Incluye negativo v1 y cápsula numérica portátil; sin checkpoints completos ni credenciales.

@@ -1,0 +1,267 @@
+{
+  "format_version": 2,
+  "label": "motor-event-step-policy-20260925",
+  "description": "Código C++ y evidencia empírica pareada de la política de eventos interiores: 1ms y20ms del organismo completo; mejora parcial verificada, etapas4/5 abiertas. Incluye negativo v1 y cápsula numérica portátil; sin checkpoints completos ni credenciales.",
+  "files": [
+    {
+      "path": "advisory/JEV_RECEIPT_07.json",
+      "bytes": 402,
+      "sha256": "c4ce47accd3062f151675c0a5501b8827973af99cf05cf902ba8120b92c7cee3"
+    },
+    {
+      "path": "advisory/JEV_RESPONSE_07.json",
+      "bytes": 461,
+      "sha256": "77ee0cd239751f531935a0966df1048771fb08a091cc7c38828d60f1d883cabd"
+    },
+    {
+      "path": "advisory/JEV_SPEC_07.json",
+      "bytes": 2381,
+      "sha256": "919ee1f4e21f45921a8332401653b511bf660dacf054b9d40a1b2f2edb773d7a"
+    },
+    {
+      "path": "code/analyze_event_clock.py",
+      "bytes": 5497,
+      "sha256": "dd6d1cd3f2e971bc30637588281fe072942389cf7a4cbb9a091ffa5bdb86b689"
+    },
+    {
+      "path": "code/build_event_step_capsule.py",
+      "bytes": 2335,
+      "sha256": "907f898df4bcc33d4fc2b999facdb738bf91447ed240a21d214261203ae04f05"
+    },
+    {
+      "path": "code/check_event_step_policy_v2.py",
+      "bytes": 2023,
+      "sha256": "88618b11aad9eeadddeabff02402ee82482f5efdc290f1f55220911ca32857f1"
+    },
+    {
+      "path": "code/compare_event_step_organism_long.py",
+      "bytes": 7300,
+      "sha256": "9d2d128055e3e7b3414f754045c08f5186d9ed098836041479996ad0048f7798"
+    },
+    {
+      "path": "code/compare_event_step_organism_v2.py",
+      "bytes": 7294,
+      "sha256": "dfad0ed0091206d3277b6e7dd0b3ad124c6f102bac38063b65e7a166eb6e4855"
+    },
+    {
+      "path": "code/event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "code/graph_control_event_memory_v1.cpp",
+      "bytes": 6151,
+      "sha256": "b2cf25e608042e3301771a116b21df0a3469b199303045ac425e9e0c4ad005d1"
+    },
+    {
+      "path": "code/graph_control_event_memory_v2.cpp",
+      "bytes": 6172,
+      "sha256": "5d63fd6c7ffe5c59376325ee6787efca8c036e32e24214fac722950fae6ff859"
+    },
+    {
+      "path": "code/graph_control_v2.cpp",
+      "bytes": 5784,
+      "sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642"
+    },
+    {
+      "path": "code/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "code/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "code/probe_error_limiter.py",
+      "bytes": 9799,
+      "sha256": "c4bd4fba5169243e81881b2ffc32af4a17519f609804aff948e53ed92b11f66a"
+    },
+    {
+      "path": "code/run_event_step_organism_long.py",
+      "bytes": 4466,
+      "sha256": "092d727ab6796f7607c455a65bf380c3ce496fb57c413d36b5d75ef1cc6f0930"
+    },
+    {
+      "path": "code/run_event_step_organism_v2.py",
+      "bytes": 4465,
+      "sha256": "00f85908d910c24bb91ca212fc25730a7de7c84e49b6ad371aff72f9498ddb90"
+    },
+    {
+      "path": "code/run_set.py",
+      "bytes": 13198,
+      "sha256": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d"
+    },
+    {
+      "path": "code/verify_error_clock.py",
+      "bytes": 4872,
+      "sha256": "e4ea1a14cecf24fdd468651241e1cd927e519f0903c50fc617fa9e7eaab0bc9f"
+    },
+    {
+      "path": "code/verify_event_step_capsule.py",
+      "bytes": 6238,
+      "sha256": "210d05eac0bbc78bfe2012026045238bd103aaa574f4fa81997a18f063f5ef8c"
+    },
+    {
+      "path": "data/EVENT_STEP_CAPSULE_MANIFEST.json",
+      "bytes": 1476,
+      "sha256": "1f494f4bc3f43e08ba3aae2dd31dd5f71616d7b60640a793acaadfe44287545d"
+    },
+    {
+      "path": "data/EVENT_STEP_LONG_CAPSULE.npz",
+      "bytes": 4315839,
+      "sha256": "7e35d80d1b48c399e55af56053decba1a420d8915d56f5daa24e915745e908e9"
+    },
+    {
+      "path": "diagnostics/ERROR_LIMITER_PLAN_38.json",
+      "bytes": 1910,
+      "sha256": "1c5a3076f09e3020b50dbfbfc0339a1def13ef4db27338fae89855bc16fc7318"
+    },
+    {
+      "path": "diagnostics/EVENT_CLOCK_PLAN_39.json",
+      "bytes": 1091,
+      "sha256": "4e7243cfd855a9bd91c42889295b687d3b07a7883ac97553f8a1a162cc1beeb1"
+    },
+    {
+      "path": "diagnostics/EVENT_CLOCK_RESULT.json",
+      "bytes": 50669,
+      "sha256": "dc8d6a083d3ddf7bed4014630742aca735c28a4b4b42490f5b678c350b5ac59d"
+    },
+    {
+      "path": "diagnostics/analyze_event_clock.py",
+      "bytes": 5497,
+      "sha256": "dd6d1cd3f2e971bc30637588281fe072942389cf7a4cbb9a091ffa5bdb86b689"
+    },
+    {
+      "path": "diagnostics/error_limiter_01/ERROR_LIMITER_ARRAYS.npz",
+      "bytes": 2057889,
+      "sha256": "7720dc0cca1d7c75dffa74af6bb6fc123a86ac737563859a693901335fc60483"
+    },
+    {
+      "path": "diagnostics/error_limiter_01/ERROR_LIMITER_RESULT.json",
+      "bytes": 1953,
+      "sha256": "e0cacaaefc7b3246d5bf534843f784fd13b44e86a89573995ac30dd4cf077559"
+    },
+    {
+      "path": "diagnostics/error_limiter_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "diagnostics/probe_error_limiter.py",
+      "bytes": 9799,
+      "sha256": "c4bd4fba5169243e81881b2ffc32af4a17519f609804aff948e53ed92b11f66a"
+    },
+    {
+      "path": "diagnostics/verify_error_clock.py",
+      "bytes": 4872,
+      "sha256": "e4ea1a14cecf24fdd468651241e1cd927e519f0903c50fc617fa9e7eaab0bc9f"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_38.json",
+      "bytes": 1910,
+      "sha256": "1c5a3076f09e3020b50dbfbfc0339a1def13ef4db27338fae89855bc16fc7318"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_39.json",
+      "bytes": 1091,
+      "sha256": "4e7243cfd855a9bd91c42889295b687d3b07a7883ac97553f8a1a162cc1beeb1"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_40.json",
+      "bytes": 3775,
+      "sha256": "04d57cffcfe6c1db0056288598ba5c6ada38513e4471232a1ede581bc2ec1baa"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_41.json",
+      "bytes": 4263,
+      "sha256": "a2dc4952abf6ead336a49c327f425d9187303aa791d0ed6812d71cbcf497158b"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_42.json",
+      "bytes": 4440,
+      "sha256": "7ca459d7cf12af35e2f54bdaca171211df7a7b929d991075648d57ead247751c"
+    },
+    {
+      "path": "plans/EVENT_STEP_PLAN_43.json",
+      "bytes": 4175,
+      "sha256": "58bf0b650f5a43678b8acac413e2b58d4d80016ff0b4b413dc8ebc1195f3b8e7"
+    },
+    {
+      "path": "results/ERROR_LIMITER_RESULT.json",
+      "bytes": 1953,
+      "sha256": "e0cacaaefc7b3246d5bf534843f784fd13b44e86a89573995ac30dd4cf077559"
+    },
+    {
+      "path": "results/EVENT_CLOCK_RESULT.json",
+      "bytes": 50669,
+      "sha256": "dc8d6a083d3ddf7bed4014630742aca735c28a4b4b42490f5b678c350b5ac59d"
+    },
+    {
+      "path": "results/EVENT_STEP_PAIR_LONG_RESULT.json",
+      "bytes": 1458,
+      "sha256": "e9ced3ae8e1f6083b8ec318b6410d904b35675678353eba3b51730aeb6a2fad5"
+    },
+    {
+      "path": "results/EVENT_STEP_PAIR_V2_RESULT.json",
+      "bytes": 1415,
+      "sha256": "7dac8955384befb1fe9b7a8d2b03b29b08a9022624a6422ce48124de094fc4f5"
+    },
+    {
+      "path": "results/baseline/EVENT_AUDIT.json",
+      "bytes": 405580,
+      "sha256": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547"
+    },
+    {
+      "path": "results/baseline/EVENT_STEP_RECEIPT.json",
+      "bytes": 713,
+      "sha256": "bcf17d7b67b0d9657efea32a28881bf9cb54bf7afbc489d5b8a408c00e814542"
+    },
+    {
+      "path": "results/baseline/RESULT.json",
+      "bytes": 3298,
+      "sha256": "d51ef7d844e70d2e869501fd6ba38cd76c352d61ac2d2ba645392a1b6c8436dc"
+    },
+    {
+      "path": "results/baseline/traces.npz",
+      "bytes": 265391,
+      "sha256": "dd9c03737c966210a80d4eaba88bb0469f4e2b918d509f5de875f7e9651cdf87"
+    },
+    {
+      "path": "results/candidate/EVENT_AUDIT.json",
+      "bytes": 405580,
+      "sha256": "2bcfb32e0fb3a4a8f133c784282b3badffb2d89b3766f0adbaeae671169816bc"
+    },
+    {
+      "path": "results/candidate/EVENT_STEP_RECEIPT.json",
+      "bytes": 714,
+      "sha256": "39c7e9685f820cf416801010a17d61ed0451d00082f4a847c1451d1b1dcfd704"
+    },
+    {
+      "path": "results/candidate/RESULT.json",
+      "bytes": 3299,
+      "sha256": "7d593eb794f8e104eb693ba6cd8e3963fe03618b9e920e045d3a08723c52acd1"
+    },
+    {
+      "path": "results/candidate/traces.npz",
+      "bytes": 265375,
+      "sha256": "e3bc7ba951073a3175b73eecad1430c2ec7fba705ad3589073c3186ccc9ff2d6"
+    },
+    {
+      "path": "results/exploratory_v1_pair_RESULT.json",
+      "bytes": 1415,
+      "sha256": "88c9563cc7bfad82164985a8e50f4ba37e8b8301d212c7cb68ffc8994c6a276e"
+    },
+    {
+      "path": "results/failed_startup_RESULT.json",
+      "bytes": 1028,
+      "sha256": "6fdcbcaaf2b8208e0ee2b7890baab28be50ef4d1fbafde42b5d54a3c3186cd47"
+    },
+    {
+      "path": "review/EVENT_STEP_REVIEW.md",
+      "bytes": 3950,
+      "sha256": "704d4d3ed994d4eb6a25e7ef6b4edfb7d18e3dc4823b604c1edacc9044cabec1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "RuntimeError",
+    "message": "Event owner already imported before local candidate: event_ports",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/run_set.py\", line 111, in main\n    raise RuntimeError('Event owner already imported before local candidate: '+name)\nRuntimeError: Event owner already imported before local candidate: event_ports\n",
+    "numerical_diagnostic": null
+  },
+  "cleanup_errors": [],
+  "odor": "sham",
+  "engine": "causal_cuda",
+  "observer": "off",
+  "requested_trial_ms": 1,
+  "completed_trial_ms": 0,
+  "completed_preparation_ms": 0,
+  "wall_total_s": 27.475138337991666,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "motor_nuevo/owner_fallback_cost_20260924_01/event_step_baseline_01/final_state"
+  },
+  "runtime": null,
+  "stage3_pass": null,
+  "reason": "Flow diagnostic only; not a new biological or historical admission."
+}

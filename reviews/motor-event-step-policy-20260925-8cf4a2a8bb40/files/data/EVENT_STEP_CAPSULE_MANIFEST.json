@@ -1,0 +1,24 @@
+{
+  "schema": "event_step_capsule_manifest_v1",
+  "capsule_sha256": "7e35d80d1b48c399e55af56053decba1a420d8915d56f5daa24e915745e908e9",
+  "capsule_bytes": 4315839,
+  "source_hashes": {
+    "baseline": {
+      "final_state/session.json": "88a2e0df10a7db34d43d3b92251887281423d29a88f33572154123fc23862644",
+      "final_state/session.npz": "faf0d930a8659279be30fe9f14c9b48297f3648ef43dff2c41ac3d5edf91d153",
+      "RESULT.json": "d51ef7d844e70d2e869501fd6ba38cd76c352d61ac2d2ba645392a1b6c8436dc",
+      "EVENT_STEP_RECEIPT.json": "bcf17d7b67b0d9657efea32a28881bf9cb54bf7afbc489d5b8a408c00e814542",
+      "EVENT_AUDIT.json": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547",
+      "traces.npz": "dd9c03737c966210a80d4eaba88bb0469f4e2b918d509f5de875f7e9651cdf87"
+    },
+    "candidate": {
+      "final_state/session.json": "3ef38f868381be42eae54b00edac5345ae9147979aa8770c54b2305cd3973874",
+      "final_state/session.npz": "df88bbb63104e8f1e1a0e2059009efc13c10c0d94178732a4a2c33d7c31ecfb5",
+      "RESULT.json": "7d593eb794f8e104eb693ba6cd8e3963fe03618b9e920e045d3a08723c52acd1",
+      "EVENT_STEP_RECEIPT.json": "39c7e9685f820cf416801010a17d61ed0451d00082f4a847c1451d1b1dcfd704",
+      "EVENT_AUDIT.json": "2bcfb32e0fb3a4a8f133c784282b3badffb2d89b3766f0adbaeae671169816bc",
+      "traces.npz": "e3bc7ba951073a3175b73eecad1430c2ec7fba705ad3589073c3186ccc9ff2d6"
+    }
+  },
+  "scope": "Scientific state arrays only; complete session checkpoints remain local."
+}

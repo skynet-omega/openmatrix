@@ -1,0 +1,18 @@
+{
+  "schema": "event_clock_analysis_plan_v1",
+  "date": "2026-09-25",
+  "question": "Among191 observed CNS trials including8 half-duration predictors and8 full accepted epochs, how many step endpoints are prescribed event cuts versus epoch ends, and how small is error on noncut trials?",
+  "arrays_sha256": "7720dc0cca1d7c75dffa74af6bb6fc123a86ac737563859a693901335fc60483",
+  "audit_sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6",
+  "controller_sha256": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+  "script_sha256": "dd6d1cd3f2e971bc30637588281fe072942389cf7a4cbb9a091ffa5bdb86b689",
+  "clock_tolerance_s": 1e-10,
+  "reconstruction_max_abs": 1e-10,
+  "budget": {
+    "runs": 1,
+    "wall_seconds_max": 10,
+    "ram_gib_max": 1,
+    "output_bytes_max": 150000
+  },
+  "interpretation": "Classification is retrospective on a read-only instrumented run. If many trial ends are events and accepted errors tiny, do not claim stiffness from limiting row. A change to next-step policy needs a new prospective parity/error/event experiment."
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "error_limiter_result_v1",
+  "plan_sha256": "1c5a3076f09e3020b50dbfbfc0339a1def13ef4db27338fae89855bc16fc7318",
+  "runner_exit_code": 0,
+  "error": null,
+  "runtime_installed_count": 1,
+  "build_ready_count": 1,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY",
+  "trials": 191,
+  "blocks_per_trial": 1404,
+  "norm_size": 359373,
+  "limiter_unique_rows": 13,
+  "limiter_regions": {
+    "soma": 191,
+    "photo_pre_transmission": 0,
+    "transmission": 0,
+    "specialized_tail": 0
+  },
+  "top_limiter_rows": [
+    {
+      "index": 52584,
+      "trials": 174
+    },
+    {
+      "index": 2102,
+      "trials": 2
+    },
+    {
+      "index": 13588,
+      "trials": 2
+    },
+    {
+      "index": 39403,
+      "trials": 2
+    },
+    {
+      "index": 47080,
+      "trials": 2
+    },
+    {
+      "index": 164082,
+      "trials": 2
+    },
+    {
+      "index": 29460,
+      "trials": 1
+    },
+    {
+      "index": 46846,
+      "trials": 1
+    },
+    {
+      "index": 109215,
+      "trials": 1
+    },
+    {
+      "index": 111062,
+      "trials": 1
+    },
+    {
+      "index": 125794,
+      "trials": 1
+    },
+    {
+      "index": 132102,
+      "trials": 1
+    },
+    {
+      "index": 136506,
+      "trials": 1
+    }
+  ],
+  "h_s_quantiles": [
+    2.032518073290414e-07,
+    2.1605e-06,
+    4.99020484170615e-06,
+    1.0758201775709081e-05,
+    3.3677e-05
+  ],
+  "error_quantiles": [
+    1.050500754018155e-09,
+    1.255041929727948e-06,
+    1.815101615764142e-05,
+    0.0002371000654837892,
+    0.2522247875240718
+  ],
+  "reconstruction_max_abs": 6.938893903907228e-18,
+  "arrays_sha256": "7720dc0cca1d7c75dffa74af6bb6fc123a86ac737563859a693901335fc60483",
+  "wall_s": 34.47653638900374,
+  "maxrss_kib": 6057076,
+  "gpu_allocation_delta_upper_bytes": 629145600,
+  "disk_bytes": 376954761,
+  "budget_ok": true,
+  "scope": "One 1-ms real sham organism with read-only per-trial error-index instrumentation. Does not change integration or prove a faster method."
+}

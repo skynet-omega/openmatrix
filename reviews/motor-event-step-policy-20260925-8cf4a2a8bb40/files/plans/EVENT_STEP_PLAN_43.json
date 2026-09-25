@@ -1,0 +1,66 @@
+{
+  "schema": "event_step_organism_plan_v1",
+  "date": "2026-09-25",
+  "problem": "After the strictly interior event-cut candidate passed one sham1ms pair, test accumulation of state, events and speed over a prospectively fixed twenty-ms coupled organism trajectory. No policy or biological parameter change.",
+  "alternatives": {
+    "A": "Preserve pre-cut proposal after event-limited accepted step if e<0.1; still cut at every event and run full error/domain test. This round tests A.",
+    "B": "Quantized CSC transactional transmission; two isolated GPU variants failed prospective cost/current gates, no new tuning in this round.",
+    "C": "Coupled exponential/Krylov recurrent action with residual-based renewal; no organism prototype yet."
+  },
+  "candidate_change": "Only next-step proposal assignment after a strictly interior event cut in engine_advance_events, conditional on accepted e<0.1. Epoch ends and all other controls unchanged.",
+  "same_prep": "Fresh separate baseline/candidate sham20ms processes with same inherited checkpoint and frozen loader. Require identical preparation W SHA. No reuse of prior1ms final state.",
+  "frozen_sha256": {
+    "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "motor_nuevo/owner_fallback_cost_20260924_01/graph_control_event_memory_v2.cpp": "5d63fd6c7ffe5c59376325ee6787efca8c036e32e24214fac722950fae6ff859",
+    "motor_nuevo/owner_fallback_cost_20260924_01/check_event_step_policy_v2.py": "88618b11aad9eeadddeabff02402ee82482f5efdc290f1f55220911ca32857f1",
+    "motor_nuevo/owner_fallback_cost_20260924_01/run_event_step_organism_long.py": "092d727ab6796f7607c455a65bf380c3ce496fb57c413d36b5d75ef1cc6f0930",
+    "motor_nuevo/owner_fallback_cost_20260924_01/compare_event_step_organism_long.py": "9d2d128055e3e7b3414f754045c08f5186d9ed098836041479996ad0048f7798"
+  },
+  "native_source_sha256": {
+    "baseline": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "candidate": "5d63fd6c7ffe5c59376325ee6787efca8c036e32e24214fac722950fae6ff859"
+  },
+  "binary_sha256": {
+    "baseline": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+    "candidate": "8056f01930c16b9de426710c4f7243e20086c967f52a23e28aa62ce4af862093"
+  },
+  "synthetic_fixture": {
+    "baseline_trials": 9,
+    "candidate_trials": 3,
+    "no_event_equal": true,
+    "endpoint_vs_analytic_abs_max": 1e-07,
+    "epoch_end_equal": true
+  },
+  "budget_per_run": {
+    "organisms": 1,
+    "simulation_ms": 20,
+    "wall_s_max": 300,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 1258291200
+  },
+  "total_budget": {
+    "organisms": 2,
+    "simulation_ms": 40,
+    "wall_s_max": 620,
+    "disk_bytes_max": 2516582400
+  },
+  "gates": {
+    "candidate_rejected_max": 0,
+    "candidate_accepted_max_fraction_of_baseline": 0.9,
+    "candidate_step_wall_max_fraction_of_baseline": 0.9,
+    "final_state_normalized_error_max": 1.0,
+    "yaw_delta_abs_deg_max": 0.0001,
+    "event_time_abs_s_max": 1e-09,
+    "event_jump_abs_max": 1e-06,
+    "event_post_q_abs_max": 1e-06,
+    "no_nonfinite": true
+  },
+  "stop_rule": "Run exactly one twenty-ms pair. Preserve a failed gate; no parameter, threshold, or event-policy tuning from this result. A pass is not five seconds or Stage4/5 admission.",
+  "known_limit": "Twenty-ms sham still lacks odor and multi-second spatial navigation; wall timing is one pair only and may be noisy.",
+  "amendment_of_plan_sha256": "7ca459d7cf12af35e2f54bdaca171211df7a7b929d991075648d57ead247751c",
+  "one_ms_prerequisite_result_sha256": "7dac8955384befb1fe9b7a8d2b03b29b08a9022624a6422ce48124de094fc4f5"
+}

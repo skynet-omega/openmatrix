@@ -1,0 +1,58 @@
+# motor-event-step-policy-20260925
+
+Código C++ y evidencia empírica pareada de la política de eventos interiores: 1ms y20ms del organismo completo; mejora parcial verificada, etapas4/5 abiertas. Incluye negativo v1 y cápsula numérica portátil; sin checkpoints completos ni credenciales.
+
+Snapshot inmutable: `motor-event-step-policy-20260925-8cf4a2a8bb40`. [Manifiesto](MANIFEST.json), [ZIP dividido y hashes](ARCHIVE.json).
+
+Fuentes y evidencia legibles:
+
+- [advisory/JEV_RECEIPT_07.json](files/advisory/JEV_RECEIPT_07.json)
+- [advisory/JEV_RESPONSE_07.json](files/advisory/JEV_RESPONSE_07.json)
+- [advisory/JEV_SPEC_07.json](files/advisory/JEV_SPEC_07.json)
+- [code/analyze_event_clock.py](files/code/analyze_event_clock.py)
+- [code/build_event_step_capsule.py](files/code/build_event_step_capsule.py)
+- [code/check_event_step_policy_v2.py](files/code/check_event_step_policy_v2.py)
+- [code/compare_event_step_organism_long.py](files/code/compare_event_step_organism_long.py)
+- [code/compare_event_step_organism_v2.py](files/code/compare_event_step_organism_v2.py)
+- [code/event_coupling.py](files/code/event_coupling.py)
+- [code/graph_control_event_memory_v1.cpp](files/code/graph_control_event_memory_v1.cpp)
+- [code/graph_control_event_memory_v2.cpp](files/code/graph_control_event_memory_v2.cpp)
+- [code/graph_control_v2.cpp](files/code/graph_control_v2.cpp)
+- [code/graph_core.py](files/code/graph_core.py)
+- [code/organism_adapter.py](files/code/organism_adapter.py)
+- [code/probe_error_limiter.py](files/code/probe_error_limiter.py)
+- [code/run_event_step_organism_long.py](files/code/run_event_step_organism_long.py)
+- [code/run_event_step_organism_v2.py](files/code/run_event_step_organism_v2.py)
+- [code/run_set.py](files/code/run_set.py)
+- [code/verify_error_clock.py](files/code/verify_error_clock.py)
+- [code/verify_event_step_capsule.py](files/code/verify_event_step_capsule.py)
+- [data/EVENT_STEP_CAPSULE_MANIFEST.json](files/data/EVENT_STEP_CAPSULE_MANIFEST.json)
+- [diagnostics/ERROR_LIMITER_PLAN_38.json](files/diagnostics/ERROR_LIMITER_PLAN_38.json)
+- [diagnostics/EVENT_CLOCK_PLAN_39.json](files/diagnostics/EVENT_CLOCK_PLAN_39.json)
+- [diagnostics/EVENT_CLOCK_RESULT.json](files/diagnostics/EVENT_CLOCK_RESULT.json)
+- [diagnostics/analyze_event_clock.py](files/diagnostics/analyze_event_clock.py)
+- [diagnostics/error_limiter_01/ERROR_LIMITER_RESULT.json](files/diagnostics/error_limiter_01/ERROR_LIMITER_RESULT.json)
+- [diagnostics/error_limiter_01/EVENT_AUDIT.json](files/diagnostics/error_limiter_01/EVENT_AUDIT.json)
+- [diagnostics/probe_error_limiter.py](files/diagnostics/probe_error_limiter.py)
+- [diagnostics/verify_error_clock.py](files/diagnostics/verify_error_clock.py)
+- [plans/EVENT_STEP_PLAN_38.json](files/plans/EVENT_STEP_PLAN_38.json)
+- [plans/EVENT_STEP_PLAN_39.json](files/plans/EVENT_STEP_PLAN_39.json)
+- [plans/EVENT_STEP_PLAN_40.json](files/plans/EVENT_STEP_PLAN_40.json)
+- [plans/EVENT_STEP_PLAN_41.json](files/plans/EVENT_STEP_PLAN_41.json)
+- [plans/EVENT_STEP_PLAN_42.json](files/plans/EVENT_STEP_PLAN_42.json)
+- [plans/EVENT_STEP_PLAN_43.json](files/plans/EVENT_STEP_PLAN_43.json)
+- [results/ERROR_LIMITER_RESULT.json](files/results/ERROR_LIMITER_RESULT.json)
+- [results/EVENT_CLOCK_RESULT.json](files/results/EVENT_CLOCK_RESULT.json)
+- [results/EVENT_STEP_PAIR_LONG_RESULT.json](files/results/EVENT_STEP_PAIR_LONG_RESULT.json)
+- [results/EVENT_STEP_PAIR_V2_RESULT.json](files/results/EVENT_STEP_PAIR_V2_RESULT.json)
+- [results/baseline/EVENT_AUDIT.json](files/results/baseline/EVENT_AUDIT.json)
+- [results/baseline/EVENT_STEP_RECEIPT.json](files/results/baseline/EVENT_STEP_RECEIPT.json)
+- [results/baseline/RESULT.json](files/results/baseline/RESULT.json)
+- [results/candidate/EVENT_AUDIT.json](files/results/candidate/EVENT_AUDIT.json)
+- [results/candidate/EVENT_STEP_RECEIPT.json](files/results/candidate/EVENT_STEP_RECEIPT.json)
+- [results/candidate/RESULT.json](files/results/candidate/RESULT.json)
+- [results/exploratory_v1_pair_RESULT.json](files/results/exploratory_v1_pair_RESULT.json)
+- [results/failed_startup_RESULT.json](files/results/failed_startup_RESULT.json)
+- [review/EVENT_STEP_REVIEW.md](files/review/EVENT_STEP_REVIEW.md)
+
+Descargar las partes, concatenar por número y comprobar SHA256. El manifiesto enumera todos los archivos del ZIP. Revisar archivos no equivale a ejecutarlos.
