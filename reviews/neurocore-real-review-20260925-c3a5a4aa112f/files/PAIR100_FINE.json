@@ -1,0 +1,439 @@
+{
+  "status": "FAIL_COUPLED_NUMERICAL",
+  "reference": "reference100_fine_01",
+  "candidate": "candidate100_fine_01",
+  "simulated_ms": 100,
+  "comparisons": [
+    {
+      "state": "time_ns",
+      "value": 0.0,
+      "limit": 0.0,
+      "pass": true
+    },
+    {
+      "state": "cns",
+      "value": 3.248455084546257,
+      "limit": 1.0,
+      "pass": false,
+      "max_sample": 89,
+      "max_coordinate": 58613,
+      "raw_max": 1.3831147167853164e-06,
+      "p99": 0.002406654216558291
+    },
+    {
+      "state": "body_qpos",
+      "value": 2.2730123339087527e-11,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "body_qvel",
+      "value": 1.7076846603458762e-09,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "pending_sensors",
+      "value": 0.0,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "cell_delta",
+      "value": 2.814919284332973e-05,
+      "limit": 2e-05,
+      "pass": false
+    },
+    {
+      "state": "cell_gates",
+      "value": 4.505567220425277e-07,
+      "limit": 2e-07,
+      "pass": false
+    },
+    {
+      "state": "cell_q",
+      "value": 0.0,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "cell_counts",
+      "value": 0.0,
+      "limit": 0.0,
+      "pass": true
+    },
+    {
+      "state": "cell_clipped",
+      "value": 0.0,
+      "limit": 0.0,
+      "pass": true
+    },
+    {
+      "state": "cell_last_siz",
+      "value": 5.319327486947209e-07,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "cell_previous_slope",
+      "value": 6.907211513862421e-08,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "cell_trough",
+      "value": 2.3115164955261563e-07,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_q",
+      "value": 0.0,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_s",
+      "value": 1.0547118733938987e-15,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_last_voltage",
+      "value": 1.5381502308287054e-05,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_previous_slope",
+      "value": 2.055839587455921e-07,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_trough",
+      "value": 1.0653347530364954e-05,
+      "limit": 0.0001,
+      "pass": true
+    },
+    {
+      "state": "axon_counts",
+      "value": 0.0,
+      "limit": 0.0,
+      "pass": true
+    },
+    {
+      "state": "axon_clipped",
+      "value": 0.0,
+      "limit": 0.0,
+      "pass": true
+    }
+  ],
+  "events": {
+    "pass": false,
+    "records_including_predictors": 7788,
+    "max_time_difference_s": 9.898692800975977e-09,
+    "failures": [
+      {
+        "block": 1376,
+        "event": 0,
+        "structure_equal": true,
+        "time_difference_s": 1.9633018872957145e-09
+      },
+      {
+        "block": 1377,
+        "event": 1,
+        "structure_equal": true,
+        "time_difference_s": 1.9622683491250315e-09
+      },
+      {
+        "block": 1532,
+        "event": 3,
+        "structure_equal": true,
+        "time_difference_s": 9.734179039191037e-09
+      },
+      {
+        "block": 1533,
+        "event": 6,
+        "structure_equal": true,
+        "time_difference_s": 9.898692800975977e-09
+      }
+    ]
+  },
+  "final_PN": {
+    "pass": true,
+    "comparisons": [
+      {
+        "state": "PN/base/base/base/base/base/pn/pn/voltage_delta_mV",
+        "value": 3.7377965611540276e-08,
+        "limit": 2e-05,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/pn/gates",
+        "value": 2.2630453067051803e-11,
+        "limit": 2e-07,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/pn/ionic_charge_pC",
+        "value": 1.7332468793540556e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/gates",
+        "value": 3.2858304965799334e-10,
+        "limit": 2e-07,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/outward_charge_pC",
+        "value": 9.832898384409816e-13,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/calcium_uM",
+        "value": 9.766323263840672e-10,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/available",
+        "value": 7.267869639449032e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/fast",
+        "value": 8.572266160800091e-13,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/slow",
+        "value": 8.373274296147315e-12,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/released",
+        "value": 1.3126543596340617e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC",
+        "value": 9.832898384409816e-13,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/fast",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/base/slow",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/ach/fast",
+        "value": 1.2317397156489523e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/ach/slow",
+        "value": 7.365722649865791e-10,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/ach_charge_pC",
+        "value": 4.796521354101245e-12,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/base/orn_charge_pC",
+        "value": 7.198519424994408e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/extra_output/fast",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/extra_output/slow",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/base/extra_output/legacy",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/general_output/fast",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/general_output/slow",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/base/general_output/legacy",
+        "value": 0.0,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/occupancy",
+        "value": 1.588221221204833e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/last_driver",
+        "value": 1.590153064778832e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/history/0/left",
+        "value": 1.589715248329071e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/history/0/right",
+        "value": 1.5899341843095272e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/history/1/left",
+        "value": 1.5899341843095272e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_receptor/history/1/right",
+        "value": 1.590153064778832e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/base/apl_charge_pC",
+        "value": 1.5659989228054197e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/occupancy",
+        "value": 8.265334527912671e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/last_driver",
+        "value": 9.948745771648504e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/history/0/left",
+        "value": 9.93295418139084e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/history/0/right",
+        "value": 9.95113058621655e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/history/1/left",
+        "value": 9.95113058621655e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/GABA/history/1/right",
+        "value": 9.948745771648504e-09,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/occupancy",
+        "value": 1.1903982355399023e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/last_driver",
+        "value": 8.43788472149054e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/history/0/left",
+        "value": 8.355421671213392e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/history/0/right",
+        "value": 8.399968716432671e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/history/1/left",
+        "value": 8.399968716432671e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/receptors/Glu/history/1/right",
+        "value": 8.43788472149054e-08,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/charges_pC/GABA",
+        "value": 3.935731116058209e-11,
+        "limit": 0.0001,
+        "pass": true
+      },
+      {
+        "state": "PN/charges_pC/Glu",
+        "value": 1.0621207941121959e-10,
+        "limit": 0.0001,
+        "pass": true
+      }
+    ],
+    "scope": "All saved PN physical states, release, receptors and delay queues at endpoint."
+  },
+  "reference_advance_s": 371.0288659360667,
+  "candidate_advance_s": 292.6642623960797,
+  "advance_ratio": 0.7887910868005341,
+  "candidate_CNS_rhs_calls": 77336,
+  "parameters_changed": false,
+  "scope": "Paired coupled trajectories, shared GPU. Not full rewrite, long-horizon or biological equivalence."
+}

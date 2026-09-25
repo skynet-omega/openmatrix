@@ -1,0 +1,212 @@
+{
+  "format_version": 2,
+  "label": "neurocore-real-review-20260925",
+  "description": "Revisión acotada de núcleo RK3(2) CUDA: seis corridas reales, mejora observada de tiempo y discrepancia numérica de 100 ms. Código y registros; no incluye trayectorias CNS completas ni modelo/checkpoint para reproducción integral.",
+  "files": [
+    {
+      "path": "CONSULTA.md",
+      "bytes": 5671,
+      "sha256": "f5dd38c5d1adc2cb700d8733cc0c3a764fd0b1d737fbd07cef16b86894081adc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5616,
+      "sha256": "b244767a12942985c953bd966a7e5385ca8ab9c6ff4e7d87bd5a9e9253fdff18"
+    },
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 6783,
+      "sha256": "97a9a5102464809bfa51be6e8696c7d5e90b13ab2e16809f02b3ae558d661518"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 2876,
+      "sha256": "48fd8539780616e84d6b94e8161c782f2bfa595d31694fd6d2a3385aa60479cd"
+    },
+    {
+      "path": "PRECISION.md",
+      "bytes": 1403,
+      "sha256": "6e636ded6da633b71ac5f16c2deb6c6dd0edd27a5ac264eed1504537b2b99040"
+    },
+    {
+      "path": "graph_runtime.py",
+      "bytes": 8575,
+      "sha256": "76ca6c0b7626cef192fe5d82c9f914ffa7fb7b9c177b0856d830236457f7a083"
+    },
+    {
+      "path": "real_model.py",
+      "bytes": 1661,
+      "sha256": "d7c5073a3ae383919d9da5386dc08ec137a6eee07797e85bdfe326e7b76ed371"
+    },
+    {
+      "path": "resident_controller.cu",
+      "bytes": 10047,
+      "sha256": "6c28333a6a333747688b5078acb09eccc450eed45e369bd619c0175a9ca564d7"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1450,
+      "sha256": "78e226fb7c435b75142f8a00841070b8043b77581da42cb04fb3c93844690845"
+    },
+    {
+      "path": "run_real.py",
+      "bytes": 8919,
+      "sha256": "d12c53186ad903eca82836d3b950514bde6560e85d07cdfe0c2ddee7094a28e4"
+    },
+    {
+      "path": "run_real_initial.py",
+      "bytes": 8205,
+      "sha256": "9f9fce9cfc39ad47dfd6fae4c66d9b0418f1e2f36a2e603b3d509cad6c857157"
+    },
+    {
+      "path": "compare_real.py",
+      "bytes": 7670,
+      "sha256": "9bee4f22e26735f7039d2d2db998fe1a39c4c9ace11551e759d95a8d7b33d635"
+    },
+    {
+      "path": "check_runtime.py",
+      "bytes": 2657,
+      "sha256": "420ca5b2f7ebd23b99c22dde96459f3cb05af297bace0cd62938c432bb2960be"
+    },
+    {
+      "path": "PAIR20_FULL.json",
+      "bytes": 10138,
+      "sha256": "f1e026e1d9e4b69b23141ef58a085f9725ed456672b7a7d2e0964d29cbc8697f"
+    },
+    {
+      "path": "PAIR100.json",
+      "bytes": 11011,
+      "sha256": "b21095731e9c7acc99f2837500d57beffd3ade6ce16aa08515a781643aa24103"
+    },
+    {
+      "path": "PAIR100_FINE.json",
+      "bytes": 10722,
+      "sha256": "bf7037d263f5d975d3e385a24452372ff187cb865b8ab35c2e863818f4dcdb23"
+    },
+    {
+      "path": "CONVERGENCE.json",
+      "bytes": 9986,
+      "sha256": "91140b1dd7f4576317ce94df919dede3ec20a457d594c79baf6145d3ac74c66b"
+    },
+    {
+      "path": "candidate20_01/RESULT.json",
+      "bytes": 4906,
+      "sha256": "49f0623683b70530c10d92273ac232b1fb000fc7d82c153c87a1687b5b79db33"
+    },
+    {
+      "path": "candidate20_01/PROGRESS.jsonl",
+      "bytes": 4521,
+      "sha256": "d60df1b349dc9a5e1ae5678e723cdf4b73897fe3490e96e156500a2632b1f3b7"
+    },
+    {
+      "path": "candidate20_01/EVENTS.json",
+      "bytes": 375988,
+      "sha256": "5c6c357a679f6eb05d71a6d4c692c83483bd9da453a55f4bad1774da334fe3dc"
+    },
+    {
+      "path": "reference20_01/RESULT.json",
+      "bytes": 4714,
+      "sha256": "e68b01c31f302cb6abe494711181e50150520cd88b6a1b184a4fb7f51ca7d8be"
+    },
+    {
+      "path": "reference20_01/PROGRESS.jsonl",
+      "bytes": 4515,
+      "sha256": "a093c5496d7615d1abe2b77956f4ccf47ae0e4182ec152e2c6756d1e279dd11d"
+    },
+    {
+      "path": "reference20_01/EVENTS.json",
+      "bytes": 375977,
+      "sha256": "e38f1a0e37f3658ddca21d240e44608fea760e073faadbbeec1a050c8cb2a735"
+    },
+    {
+      "path": "candidate100_01/RESULT.json",
+      "bytes": 4938,
+      "sha256": "6598b061e133cd93c111dafc63f8dbc89876550c7f3413443f1fe7c6a2603e6a"
+    },
+    {
+      "path": "candidate100_01/PROGRESS.jsonl",
+      "bytes": 22697,
+      "sha256": "8ec6c3d95fc8d601051726f75c5d4e45f8e37967ead11190de4faf3efc3cbb2c"
+    },
+    {
+      "path": "candidate100_01/EVENTS.json",
+      "bytes": 1873614,
+      "sha256": "1511d55d66805f67f0cfc25111fece2e9b6b8bbda97f8d5c3efd247458d75b05"
+    },
+    {
+      "path": "reference100_01/RESULT.json",
+      "bytes": 4747,
+      "sha256": "3b220a5ed4ed61fd961854e40e6053ebe6a19f9d4582bd70bbcec3e974de0c52"
+    },
+    {
+      "path": "reference100_01/PROGRESS.jsonl",
+      "bytes": 22674,
+      "sha256": "a405cc75329b5b3e7feabb1c96b3932d84bb3b6aeb59413966eb6ce1bd9e2fc9"
+    },
+    {
+      "path": "reference100_01/EVENTS.json",
+      "bytes": 1873658,
+      "sha256": "f82f2f507b7e1d49748704310b1363615256625aa2c1094ab5efb642d2ceae38"
+    },
+    {
+      "path": "candidate100_fine_01/RESULT.json",
+      "bytes": 5062,
+      "sha256": "a8c6d3cb6d5137255320937f7e1e1a5b31e6225330728d48b6d335688481d7b8"
+    },
+    {
+      "path": "candidate100_fine_01/PROGRESS.jsonl",
+      "bytes": 22673,
+      "sha256": "6ff19aa656ad4e2b632ef7c99b1cdd1a0df1cd37fbe2f0a586fccf01ef6910fa"
+    },
+    {
+      "path": "candidate100_fine_01/EVENTS.json",
+      "bytes": 1873632,
+      "sha256": "949a035fe6f6f3b8d5950618e94657d564655a49d4a3855f5822c3966de9cf18"
+    },
+    {
+      "path": "reference100_fine_01/RESULT.json",
+      "bytes": 4868,
+      "sha256": "755714a18552a4fb415dc797dfdaefff781f7cf88d20c79f2a726e09e1935ad6"
+    },
+    {
+      "path": "reference100_fine_01/PROGRESS.jsonl",
+      "bytes": 22671,
+      "sha256": "09f3e846c9d41bd5735e704740d9470852e855f9653c8097f14d56bda7603dc1"
+    },
+    {
+      "path": "reference100_fine_01/EVENTS.json",
+      "bytes": 1873681,
+      "sha256": "8342c59b932e40c9984d59f41c63b8131ac9f825bb8a3d963a443dcd3e325c87"
+    },
+    {
+      "path": "reference/graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "reference/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "reference/event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "reference/event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "reference/event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "reference/runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    }
+  ]
+}

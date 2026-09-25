@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-one-second-negative-20260925](reviews/stage4-one-second-negative-20260925-35f02107a658/README.md)
+[neurocore-real-review-20260925](reviews/neurocore-real-review-20260925-c3a5a4aa112f/README.md)
 
-Organismo completo PN629-off con fuente derecha fija durante 1 s: bearing empeora 18,37685 a 22,11678 grados pese a acercamiento por avance tonico. Prefijo de 400 ms exacto, verificadores crudos normal/-O. Criba exploratoria negativa; Etapas 4 y 5 abiertas. ZIP reproduce metricas, no la simulacion completa ni checkpoints.
+Revisión acotada de núcleo RK3(2) CUDA: seis corridas reales, mejora observada de tiempo y discrepancia numérica de 100 ms. Código y registros; no incluye trayectorias CNS completas ni modelo/checkpoint para reproducción integral.
