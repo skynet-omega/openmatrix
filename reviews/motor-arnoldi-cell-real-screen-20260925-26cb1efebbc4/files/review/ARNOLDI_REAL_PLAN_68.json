@@ -1,0 +1,20 @@
+{
+  "schema": "arnoldi_real_plan_v1",
+  "purpose": "Measure a two-column Arnoldi projection of the complete effective RHS at the same real 125us sham block and interior stage, after ChatGPT's one-column sampled residual exceeded 0.1.",
+  "independent_alternatives": {
+    "A": "Temporal compression with continuous defect certificate; direct row/source masks already failed cost screen.",
+    "B": "Full-operator Krylov/JVP; two columns are a local dimensional screen only.",
+    "C": "Certified QSS/event queue with recurrent-owner closure; remains unimplemented."
+  },
+  "frozen_parameters": {"stage_index": 1, "block_ns": 125000, "normalized_direction_max": 1.0, "even_remainder_gate": 0.1, "sampled_residual_gate": 0.1, "residual_sample_fractions": [0.25, 0.5, 0.75, 1.0], "reorthogonalization_passes": 2},
+  "budget": {"organism_runs_max": 1, "oracle_queries_max": 6, "wall_s_max": 180, "ram_gib_max": 12, "disk_bytes_max": 700000000},
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_jvp_downloaded_01/capsule/data/MRI_SLOW_INPUTS.npz": "35c2b82b7a645347bc78bff1dd0f0b661e557726701210fec31bf41b9be46a11",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_jvp_downloaded_01/capsule/data/JVP_REAL_ARRAYS.npz": "dabe36b9a35f5577fc90e315fa198097aa1dd49c975eba55d57a659e356625b9",
+    "motor_nuevo/owner_fallback_cost_20260924_01/chatgpt_original/krylov_criba.py": "10e3164adad5dbdc1b67d7b2447355320ae9d6f93f3d56ce78b4e1d9a6f611f5"
+  },
+  "limitations": "Six oracle queries are a diagnostic cap, not six equivalent graph passes: graph setup and owner cost are unmeasured. Sampled Arnoldi residual is not a continuous nonlinear/event error certificate. No pilot result is promoted by this screen."
+}

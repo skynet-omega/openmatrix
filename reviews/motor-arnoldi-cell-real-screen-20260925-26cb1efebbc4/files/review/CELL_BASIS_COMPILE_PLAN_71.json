@@ -1,0 +1,17 @@
+{
+  "schema": "cell_basis_compile_plan_v1",
+  "question": "Can the certified proportional 51-to-15 channel operator basis from the historical real-cell data fit inside the current device-independent epoch kernel without register spill?",
+  "alternatives": {
+    "A": "Certified operator-basis grouping in the current epoch kernel, no topology assumptions; must match full operator and preserve event/error gates.",
+    "B": "A structurally distinct batched dense factorization or low-rank update of the 17x17 solve; requires independent residual proof.",
+    "C": "A different adaptive integrator such as the archived Rosenbrock donor; requires new whole-organism error and event validation."
+  },
+  "admission_preflight": "Reject an executable pilot if compiler reports local memory spill or resource failure, or if current cell geometry differs from the frozen historical geometry. Compile resource metadata alone cannot establish speed.",
+  "budget": {"gpu_compiles_max": 1, "wall_s_max": 60, "ram_gib_max": 4, "disk_bytes_max": 2000000},
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "motor_nuevo/native_hybrid_20260922/basis_compile.py": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3",
+    "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.npz": "44b488d1200733a07bd5e2b23e998cc75839f78228742bb5788dcb94bd824835",
+    "motor_nuevo/native_hybrid_20260922/baseline_01/brain_final.json": "d8b9899f482933292a732dd7affdbd3bf568df3112abde3ed7d79243d6fef67c"
+  }
+}

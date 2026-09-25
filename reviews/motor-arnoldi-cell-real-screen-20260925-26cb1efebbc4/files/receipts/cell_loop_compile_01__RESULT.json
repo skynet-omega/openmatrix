@@ -1,0 +1,45 @@
+{
+  "schema": "cell_loop_schedule_compile_v1",
+  "plan_sha256": "fb1b235cba9be4c51a9b8f346e0d7df29c7f04ad86862f7a04e3481f82768ff2",
+  "source_sha256": "82d1dabab0b5e74bac2e0e0eacf0262d9a8ae576ff9c6ae241454fdee851b18d",
+  "removed_directives": 10,
+  "variants": [
+    {
+      "name": "control",
+      "source_sha256": "dd396aad59eb40288c0be8dcf33b1d7e5291d0ab0b0e4681306c4572385ca1d4",
+      "compile_s": 0.3142951719928533,
+      "attributes": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      }
+    },
+    {
+      "name": "no_forced_unroll",
+      "source_sha256": "b455e29f822e7ad6a1f919fb0e4002bee48a841b7159c80a69c3f81cb8561097",
+      "compile_s": 0.433578858996043,
+      "attributes": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 136,
+        "num_regs": 245,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      }
+    }
+  ],
+  "wall_s": 1.0168845760053955,
+  "maxrss_kib": 299984,
+  "budget_ok": true
+}

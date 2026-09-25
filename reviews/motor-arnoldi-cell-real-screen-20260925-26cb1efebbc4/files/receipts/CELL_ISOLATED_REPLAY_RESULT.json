@@ -1,0 +1,56 @@
+{
+  "schema": "cell_isolated_replay_result_v1",
+  "plan_sha256": "7dc2926ad08a67345d9cad2e6907d37559b40e8a1bedfd83b1531918c09d1e00",
+  "probe_sha256": "634761f3dd821f372c9de1e03bc2b7935d1d673bad2f636abc5df00be9420e64",
+  "organism_result_sha256": "12ae44eb0b0d7d116d2a595832200b1f3014930aae1dfcfead63e120967c945b",
+  "original_kernel_calls": 16,
+  "original_owner_wall_s": 0.2670092949847458,
+  "original_step_wall_s": 3.548101531006978,
+  "kernel_attributes": {
+    "max_threads_per_block": 256,
+    "shared_size_bytes": 0,
+    "const_size_bytes": 0,
+    "local_size_bytes": 0,
+    "num_regs": 250,
+    "ptx_version": 89,
+    "binary_version": 89,
+    "cache_mode_ca": 0,
+    "max_dynamic_shared_size_bytes": 49152,
+    "preferred_shared_memory_carveout": -1
+  },
+  "replay_post_state_only": true,
+  "replays": [
+    {
+      "index": 0,
+      "event_ms": 23.010303497314453,
+      "enclosing_host_ms": 20.739270010381006,
+      "status_nonzero": 0,
+      "accepted": 8027,
+      "rejected": 33,
+      "timing_consistent": false
+    },
+    {
+      "index": 1,
+      "event_ms": 22.9703369140625,
+      "enclosing_host_ms": 20.734220001031645,
+      "status_nonzero": 0,
+      "accepted": 8027,
+      "rejected": 33,
+      "timing_consistent": false
+    },
+    {
+      "index": 2,
+      "event_ms": 22.994943618774414,
+      "enclosing_host_ms": 20.724949004943483,
+      "status_nonzero": 0,
+      "accepted": 8027,
+      "rejected": 33,
+      "timing_consistent": false
+    }
+  ],
+  "wall_s": 32.83055163999961,
+  "maxrss_kib": 6087312,
+  "disk_bytes": 374896877,
+  "budget_ok": true,
+  "status": "INCOMPLETE_RETAINED"
+}

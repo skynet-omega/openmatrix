@@ -1,0 +1,12 @@
+{
+  "schema": "jvp_even_arnoldi_offline_plan_v1",
+  "purpose": "Check ChatGPT's missed even nonlinear remainder on the archived six complete real-RHS arrays, then perform a one-column Arnoldi arithmetic screen without additional GPU calls.",
+  "prospective_gate": {"even_remainder_max": 0.1, "one_column_residual_max": 0.1},
+  "budget": {"gpu_queries_max": 0, "cpu_wall_s_max": 60, "ram_gib_max": 4, "disk_bytes_max": 30000000},
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/chatgpt_original/krylov_criba.py": "10e3164adad5dbdc1b67d7b2447355320ae9d6f93f3d56ce78b4e1d9a6f611f5",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_jvp_downloaded_01/capsule/data/JVP_REAL_ARRAYS.npz": "dabe36b9a35f5577fc90e315fa198097aa1dd49c975eba55d57a659e356625b9",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_jvp_downloaded_01/capsule/receipts/JVP_PREFLIGHT.json": "266d5d47fd5aaaf8dc08181460b06bd88529d510935fffd5d1102083a0877047"
+  },
+  "scope": "One local state/direction, not an error certificate, integrator, or whole-organism speed claim. ChatGPT source was reviewed by Codex; ChatGPT did not download arrays or execute CUDA."
+}

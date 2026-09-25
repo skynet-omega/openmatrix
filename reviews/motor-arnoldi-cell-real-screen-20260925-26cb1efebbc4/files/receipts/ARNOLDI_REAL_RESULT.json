@@ -1,0 +1,40 @@
+{
+  "schema": "arnoldi_real_result_v1",
+  "plan_sha256": "3a2ca39f4c75fcdc29308ab7ebcdca7a4d3ac8d0223de708f872d13ef0ba08f7",
+  "source_sha256": "321fc4d346fd4ad9c46ea93c28530d6383b4e732396e33a5018e1fc47126fc34",
+  "runner_exit_code": 0,
+  "runner_status": "COMPLETE",
+  "physical_epochs": 16,
+  "tested_blocks": 1,
+  "diagnostic_error": null,
+  "probe": {
+    "full_queries": 6,
+    "arrays_sha256": "eb2fca2703692bddf76e1de6419f2fad8e5bc910766c7f60c4690c0b356a240c",
+    "baseline_repeat_exact": true,
+    "prior_q1_exact": true,
+    "k11": -0.0010873636910349806,
+    "k21": 0.022830965863212108,
+    "k12": -0.01058011884156804,
+    "k22": -0.01049858137134375,
+    "k32": 0.024006769357354785,
+    "even_remainders": [
+      2.772614800144613e-09,
+      3.2739527509707274e-09
+    ],
+    "sampled_residuals": [
+      0.0014226758877076413,
+      0.005685193366125556,
+      0.012779271478712287,
+      0.02269660851596955
+    ],
+    "sampled_residual_max": 0.02269660851596955,
+    "even_gate_pass": true,
+    "sampled_gate_pass": true,
+    "scope": "One fixed state, one two-column projection, sampled residual only; no integration or speed claim."
+  },
+  "wall_s": 34.57951561200025,
+  "maxrss_kib": 6138396,
+  "disk_bytes": 412048241,
+  "budget_ok": true,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY"
+}

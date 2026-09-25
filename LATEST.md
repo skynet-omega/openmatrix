@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-mri-jvp-real-screen-20260925](reviews/motor-mri-jvp-real-screen-20260925-dcf1b053e54a/README.md)
+[motor-arnoldi-cell-real-screen-20260925](reviews/motor-arnoldi-cell-real-screen-20260925-26cb1efebbc4/README.md)
 
-Datos y codigo de un bloque real MaleCNS: semilla MRI por filas falla criba optimista de seis barridos con 229 llamadas; una JVP completa en una direccion supera prueba local de linealidad. Solo diagnostico, etapas4/5 abiertas.
+Two-column full-effective-RHS Arnoldi real-block arithmetic and cell-owner compile negatives; diagnostic only, no validated fast motor or stage4/5 closure.

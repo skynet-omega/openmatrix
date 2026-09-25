@@ -1,0 +1,25 @@
+{
+  "schema": "cell_shared_row_compile_v1",
+  "plan_sha256": "5869f038144a83496f4d36470de05452bbc2761c354fbc89ffb996616dd2c432",
+  "generator_sha256": "f5ad80b50c28080237b3ab46dade1672f143224cfabd1b78fcdc90708dc57f50",
+  "source_sha256": "51ee31bdd8eaa656788ab0a60526ca83e777d245c8a3070941ecbcd27e147236",
+  "original_source_sha256": "dd396aad59eb40288c0be8dcf33b1d7e5291d0ab0b0e4681306c4572385ca1d4",
+  "candidate_source_sha256": "c8e9ccf1e519f46202c373c81f16817dbdca65a11a84feb007fbbe569791c9ce",
+  "compile_s": 0.9667330460069934,
+  "kernel_attributes": {
+    "max_threads_per_block": 256,
+    "shared_size_bytes": 4624,
+    "const_size_bytes": 0,
+    "local_size_bytes": 0,
+    "num_regs": 254,
+    "ptx_version": 89,
+    "binary_version": 89,
+    "cache_mode_ca": 0,
+    "max_dynamic_shared_size_bytes": 44528,
+    "preferred_shared_memory_carveout": -1
+  },
+  "compile_gate_pass": false,
+  "wall_s": 1.2277806130005047,
+  "maxrss_kib": 330696,
+  "budget_ok": true
+}

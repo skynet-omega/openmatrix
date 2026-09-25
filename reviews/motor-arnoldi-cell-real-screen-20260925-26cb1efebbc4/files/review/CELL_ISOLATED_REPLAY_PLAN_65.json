@@ -1,0 +1,12 @@
+{
+  "schema": "cell_isolated_replay_plan_v1",
+  "question": "How much wall time does the unchanged real 17-coordinate cell_epoch launch require when run alone on cloned post-sham states, without neighboring CNS work?",
+  "protocol": "Run one original sham ms without observation, capture the final cell_epoch argument tuple read-only, then run three isolated same-snapshot clone launches. Reset event/output buffers on each clone. No replay outputs are fed back into the organism.",
+  "interpretation": "GPU event timing must be no greater than enclosing synchronized host wall (allow 1ms overhead jitter); otherwise attribution is invalid. Isolated post-state timing is not necessarily the fraction of the original coupled run.",
+  "budget": {"organism_runs_max": 1, "replay_launches_max": 3, "wall_s_max": 180, "ram_gib_max": 12, "disk_bytes_max": 700000000},
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "motor_nuevo/epoch_cost_20260923/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+  }
+}

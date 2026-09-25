@@ -1,0 +1,16 @@
+{
+  "schema": "cell_shared_row_plan_v1",
+  "question": "Can moving only the row-owned 17x17 solve and residual arrays from per-thread registers to per-block shared memory reduce current epoch-kernel register pressure without altering arithmetic?",
+  "alternatives": {
+    "A": "Current fully fused warp solver, 250 registers/thread and zero local spill; control.",
+    "B": "Shared row arrays for the same FP64 Gaussian elimination and residual check; same event/integrator code; compile then real one-ms only if resources improve.",
+    "C": "Separate factorization/solve strategy or certified numerical integrator with independent operator residual and event checks; not this probe."
+  },
+  "compile_falsifier": "Reject B if compilation fails, local spill appears, or registers do not fall below 200 per thread. A compile resource improvement only permits a real-body fidelity/time pilot; it does not prove a speedup.",
+  "budget": {"gpu_compiles_max": 1, "wall_s_max": 60, "ram_gib_max": 4, "disk_bytes_max": 2000000, "organism_runs_max": 1, "organism_wall_s_max": 180},
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "motor_nuevo/epoch_cost_20260923/device_cell.cu": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e",
+    "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_warp.py": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+  }
+}

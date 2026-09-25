@@ -1,0 +1,8 @@
+{
+  "schema": "arnoldi_parent_diag_plan_v1",
+  "reason": "The first two-column diagnostic was launched with OPENBLAS_NUM_THREADS=1; its final CNS/KC state differs from the historical parent at 19, 1-4 and 1-2 coordinates by floating-point roundoff (max 7.11e-15) despite matching baseline RHS/event audit. This may be BLAS-thread environment or stateful owner queries. No scientific result is promoted until distinguished.",
+  "action": "Repeat the exact locked probe once without overriding OPENBLAS_NUM_THREADS, in a unique directory; compare to the historical parent and original JVP diagnostic. No source or numerical parameter change.",
+  "additional_budget": {"organism_runs_max": 1, "wall_s_max": 180, "ram_gib_max": 12, "disk_bytes_max": 700000000},
+  "original_probe_sha256": "321fc4d346fd4ad9c46ea93c28530d6383b4e732396e33a5018e1fc47126fc34",
+  "original_plan_sha256": "3a2ca39f4c75fcdc29308ab7ebcdca7a4d3ac8d0223de708f872d13ef0ba08f7"
+}

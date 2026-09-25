@@ -1,0 +1,212 @@
+{
+  "format_version": 2,
+  "label": "motor-arnoldi-cell-real-screen-20260925",
+  "description": "Two-column full-effective-RHS Arnoldi real-block arithmetic and cell-owner compile negatives; diagnostic only, no validated fast motor or stage4/5 closure.",
+  "files": [
+    {
+      "path": "review/MOTOR_DECISION_AFTER_ARNOLDI_CELL_20260925.md",
+      "bytes": 7060,
+      "sha256": "ea2c1d4412c94e0acb9f6a103f97e7e33822043482781e3243056992f67989e4"
+    },
+    {
+      "path": "review/ARNOLDI_REAL_PLAN_68.json",
+      "bytes": 2111,
+      "sha256": "3a2ca39f4c75fcdc29308ab7ebcdca7a4d3ac8d0223de708f872d13ef0ba08f7"
+    },
+    {
+      "path": "review/ARNOLDI_REAL_EXEC_LOCK_69.json",
+      "bytes": 216,
+      "sha256": "d7475b6982a253bb4de5588185a668be2d20fdd8602bbf5c7cd13de10363ba17"
+    },
+    {
+      "path": "review/ARNOLDI_PARENT_DIAG_PLAN_70.json",
+      "bytes": 948,
+      "sha256": "88bfa0bdbea24b43da7477407aa9a4704991b045901b7d71f4e02b8a5207d8ee"
+    },
+    {
+      "path": "review/JVP_EVEN_ARNOLDI_PLAN_67.json",
+      "bytes": 1155,
+      "sha256": "5e654bb77a20e79efb6351a07f1a2185c0dbfa214ed143d9d6e43b8cc6b0efaf"
+    },
+    {
+      "path": "review/CELL_LOOP_SCHEDULE_PLAN_64.json",
+      "bytes": 1417,
+      "sha256": "fb1b235cba9be4c51a9b8f346e0d7df29c7f04ad86862f7a04e3481f82768ff2"
+    },
+    {
+      "path": "review/CELL_ISOLATED_REPLAY_PLAN_65.json",
+      "bytes": 1259,
+      "sha256": "7dc2926ad08a67345d9cad2e6907d37559b40e8a1bedfd83b1531918c09d1e00"
+    },
+    {
+      "path": "review/CELL_BASIS_COMPILE_PLAN_71.json",
+      "bytes": 1594,
+      "sha256": "2330c4f1a62e0d33887f6a8183f990063ba5206c1d6e6498e500bf2f0bea3e09"
+    },
+    {
+      "path": "review/CELL_SHARED_ROW_PLAN_73.json",
+      "bytes": 1478,
+      "sha256": "5869f038144a83496f4d36470de05452bbc2761c354fbc89ffb996616dd2c432"
+    },
+    {
+      "path": "code/probe_arnoldi_real.py",
+      "bytes": 10279,
+      "sha256": "321fc4d346fd4ad9c46ea93c28530d6383b4e732396e33a5018e1fc47126fc34"
+    },
+    {
+      "path": "code/verify_arnoldi_real.py",
+      "bytes": 7618,
+      "sha256": "4e98385a622813aac3d54ab9636eb978c5dbcbb5c2ce5ceac3cfa03852d48648"
+    },
+    {
+      "path": "code/verify_arnoldi_portable.py",
+      "bytes": 6268,
+      "sha256": "cdff6ec0561699da1e795c86ee6e9a74e46048a5823782304c5de8fa95d18ec4"
+    },
+    {
+      "path": "code/krylov_criba.py",
+      "bytes": 7149,
+      "sha256": "10e3164adad5dbdc1b67d7b2447355320ae9d6f93f3d56ce78b4e1d9a6f611f5"
+    },
+    {
+      "path": "code/compile_cell_loop_schedule.py",
+      "bytes": 2951,
+      "sha256": "82d1dabab0b5e74bac2e0e0eacf0262d9a8ae576ff9c6ae241454fdee851b18d"
+    },
+    {
+      "path": "code/probe_cell_isolated_replay.py",
+      "bytes": 6389,
+      "sha256": "634761f3dd821f372c9de1e03bc2b7935d1d673bad2f636abc5df00be9420e64"
+    },
+    {
+      "path": "code/compile_cell_basis_epoch.py",
+      "bytes": 3786,
+      "sha256": "dda221ec76e1b6d6fa30b59a72ffef5732f69ec5268c99cdc57fafac587e1278"
+    },
+    {
+      "path": "code/cell_shared_row_source.py",
+      "bytes": 1016,
+      "sha256": "f5ad80b50c28080237b3ab46dade1672f143224cfabd1b78fcdc90708dc57f50"
+    },
+    {
+      "path": "code/compile_cell_shared_row.py",
+      "bytes": 2687,
+      "sha256": "51ee31bdd8eaa656788ab0a60526ca83e777d245c8a3070941ecbcd27e147236"
+    },
+    {
+      "path": "code/device_cell.py",
+      "bytes": 7482,
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    {
+      "path": "code/device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "code/block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "code/physical_events.cu",
+      "bytes": 2537,
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "code/kc_fused_warp.py",
+      "bytes": 4416,
+      "sha256": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+    },
+    {
+      "path": "code/kc_fused_step.py",
+      "bytes": 4060,
+      "sha256": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76"
+    },
+    {
+      "path": "code/basis_compile.py",
+      "bytes": 4953,
+      "sha256": "1a55f00dfd15242c7d30ecd115938a3883d00685e6f8f2c38a9bca9ea2f159f3"
+    },
+    {
+      "path": "data/ARNOLDI_REAL_ARRAYS.npz",
+      "bytes": 37151370,
+      "sha256": "eb2fca2703692bddf76e1de6419f2fad8e5bc910766c7f60c4690c0b356a240c"
+    },
+    {
+      "path": "data/JVP_REAL_ARRAYS.npz",
+      "bytes": 20993992,
+      "sha256": "dabe36b9a35f5577fc90e315fa198097aa1dd49c975eba55d57a659e356625b9"
+    },
+    {
+      "path": "data/ARNOLDI_STAGE1_SOURCE_74.npz",
+      "bytes": 5955035,
+      "sha256": "84a47bf53d3d93cc6d9107f75677cd3ad1416178db77f97a2f7d0d2580da530f"
+    },
+    {
+      "path": "receipts/ARNOLDI_REAL_RESULT.json",
+      "bytes": 1304,
+      "sha256": "77cb5331df0c185949795ee107a0b5ffec5c6613a3c2064316ee782c689378e0"
+    },
+    {
+      "path": "receipts/arnoldi_real_02__RESULT.json",
+      "bytes": 3299,
+      "sha256": "1150d3c956ee41364f9fd0db3b78944167681e8735328d9ca50cf38eee4b4b4b"
+    },
+    {
+      "path": "receipts/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "receipts/ARNOLDI_REAL_VERIFY_70.json",
+      "bytes": 363,
+      "sha256": "cfb38ddb1d271b5e5e2bf3853d05de1cc5411afce1b8ec73c13121f4a52bf87b"
+    },
+    {
+      "path": "receipts/ARNOLDI_REAL_VERIFY_70_O.json",
+      "bytes": 363,
+      "sha256": "cfb38ddb1d271b5e5e2bf3853d05de1cc5411afce1b8ec73c13121f4a52bf87b"
+    },
+    {
+      "path": "receipts/arnoldi_offline_01__RESULT.json",
+      "bytes": 351,
+      "sha256": "1b73253c5507b749fd58ec119d8beb0d778dd173cf9d6532a453f383bec47b3e"
+    },
+    {
+      "path": "receipts/ARNOLDI_STAGE1_SOURCE_74.json",
+      "bytes": 359,
+      "sha256": "63c7546a46ad12dc763f97d90c1675dc201be9d959251626045ce9371c054c41"
+    },
+    {
+      "path": "receipts/cell_loop_compile_01__RESULT.json",
+      "bytes": 1425,
+      "sha256": "5370bd774129d84662f6657a33dfd581634424bd4eb15eff793516d34364f8c6"
+    },
+    {
+      "path": "receipts/CELL_ISOLATED_REPLAY_RESULT.json",
+      "bytes": 1622,
+      "sha256": "f5aab4f3758f0e637e50120b80423b832e553111a67e3d850c8458fcce71d308"
+    },
+    {
+      "path": "receipts/cell_basis_compile_01__RESULT.json",
+      "bytes": 1094,
+      "sha256": "e9a45e57913b907a34962925e3a80c7a20b327a87ae8135b9112a0aae456e0ca"
+    },
+    {
+      "path": "receipts/cell_shared_compile_01__RESULT.json",
+      "bytes": 972,
+      "sha256": "bd884e030262d878ce48fe8b44bfec69ffbec6d0aabe0cba23443a3a99899c13"
+    },
+    {
+      "path": "receipts/response.json",
+      "bytes": 504,
+      "sha256": "52f9ce5734080af01980dcae276685b7d19e9de910014fa3b0c953ab4ed1da3c"
+    },
+    {
+      "path": "receipts/receipt.json",
+      "bytes": 415,
+      "sha256": "a0315054f4eea46311ec1346d351e18815513464f03ecd1c9bc150880f2b770e"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "cell_loop_schedule_plan_v1",
+  "date_utc": "2026-09-25",
+  "question": "Does removing only the ten forced loop-unroll directives lower resource pressure in the unchanged 17-coordinate FP64 cell kernel?",
+  "alternatives": {
+    "A": "Original compiled kernel, full forced unroll; measured control.",
+    "B": "Same source and math without the ten injected #pragma unroll directives; compile resource screen, then one real sham ms only if promising.",
+    "C": "A genuinely different 17x17 solver schedule or factorization, requiring independent residual and event validation; not coded this round."
+  },
+  "falsifier": "If registers/local memory fail to improve materially, or any real-organism output changes beyond the frozen parent contract, reject B. A launch-only timing gain is not scientific admission.",
+  "budget": {
+    "compiles_max": 2,
+    "compile_wall_s_max": 180,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 2000000,
+    "organism_runs_max": 1,
+    "organism_wall_s_max": 180
+  },
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "motor_nuevo/epoch_cost_20260923/device_cell.cu": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e",
+    "motor_nuevo/native_hybrid_20260922/vendor/kc_fused_warp.py": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+  }
+}
