@@ -1,0 +1,328 @@
+{
+  "schema": "csc_quantized_gpu_result_v1",
+  "status": "COMPLETE_MICROBENCH_ONLY",
+  "plan_sha256": "41f10b292fb7548bbe3573d485dc03afd7f62feb48b0d122a4510f27317642d6",
+  "code_sha256": "f07fa672e17651a4dcf0ba6b6e2a32955e8227ac3cd608acc3e176fd16114ef6",
+  "graph_edges": 25582938,
+  "csc_build_s": 0.3022672110091662,
+  "gpu_59_query_ms": [
+    6.525951862335205,
+    6.514688014984131,
+    6.532095909118652,
+    6.512351989746094,
+    6.513567924499512
+  ],
+  "gpu_ms_per_query_median": 0.11041844093193443,
+  "excit_max_abs": 0.02913574921876716,
+  "inhib_max_abs": 1.9995077771284286e-06,
+  "seed_error_probe": 0.0,
+  "per_query": [
+    {
+      "query": 0,
+      "excit_max_abs": 0.0,
+      "inhib_max_abs": 0.0
+    },
+    {
+      "query": 1,
+      "excit_max_abs": 0.0054527012835023925,
+      "inhib_max_abs": 2.678105508469031e-07
+    },
+    {
+      "query": 2,
+      "excit_max_abs": 8.673617379884035e-19,
+      "inhib_max_abs": 0.0
+    },
+    {
+      "query": 3,
+      "excit_max_abs": 0.003546742546745918,
+      "inhib_max_abs": 3.481221508838672e-07
+    },
+    {
+      "query": 4,
+      "excit_max_abs": 0.005454004265629919,
+      "inhib_max_abs": 2.6784782169997357e-07
+    },
+    {
+      "query": 5,
+      "excit_max_abs": 0.008251647250290262,
+      "inhib_max_abs": 5.959048017256663e-07
+    },
+    {
+      "query": 6,
+      "excit_max_abs": 0.010987173789544613,
+      "inhib_max_abs": 4.930336483521813e-07
+    },
+    {
+      "query": 7,
+      "excit_max_abs": 0.009804267663639621,
+      "inhib_max_abs": 4.324434299540769e-07
+    },
+    {
+      "query": 8,
+      "excit_max_abs": 0.004718306017821305,
+      "inhib_max_abs": 2.994364853847742e-07
+    },
+    {
+      "query": 9,
+      "excit_max_abs": 0.007188198424046277,
+      "inhib_max_abs": 3.6594763486164084e-07
+    },
+    {
+      "query": 10,
+      "excit_max_abs": 0.009805391609916114,
+      "inhib_max_abs": 4.3247501846366276e-07
+    },
+    {
+      "query": 11,
+      "excit_max_abs": 0.012003327332422487,
+      "inhib_max_abs": 5.22411555792246e-07
+    },
+    {
+      "query": 12,
+      "excit_max_abs": 0.012321552305365913,
+      "inhib_max_abs": 5.704453056587511e-07
+    },
+    {
+      "query": 13,
+      "excit_max_abs": 0.010417154393508099,
+      "inhib_max_abs": 4.738518296631966e-07
+    },
+    {
+      "query": 14,
+      "excit_max_abs": 0.00531355928251287,
+      "inhib_max_abs": 2.9689124578236026e-07
+    },
+    {
+      "query": 15,
+      "excit_max_abs": 0.007865945972298505,
+      "inhib_max_abs": 3.7006378861281775e-07
+    },
+    {
+      "query": 16,
+      "excit_max_abs": 0.011648750991298584,
+      "inhib_max_abs": 4.739746854998117e-07
+    },
+    {
+      "query": 17,
+      "excit_max_abs": 0.01569808501881198,
+      "inhib_max_abs": 4.907513693197529e-07
+    },
+    {
+      "query": 18,
+      "excit_max_abs": 0.02061270900958334,
+      "inhib_max_abs": 5.49092572521559e-07
+    },
+    {
+      "query": 19,
+      "excit_max_abs": 0.02003245128071285,
+      "inhib_max_abs": 5.980091898338813e-07
+    },
+    {
+      "query": 20,
+      "excit_max_abs": 0.006294983524639974,
+      "inhib_max_abs": 4.7636213729163046e-07
+    },
+    {
+      "query": 21,
+      "excit_max_abs": 0.01035550530650653,
+      "inhib_max_abs": 5.194129988339569e-07
+    },
+    {
+      "query": 22,
+      "excit_max_abs": 0.015137003796553472,
+      "inhib_max_abs": 5.981455187820117e-07
+    },
+    {
+      "query": 23,
+      "excit_max_abs": 0.015141615374886896,
+      "inhib_max_abs": 7.028914870144121e-07
+    },
+    {
+      "query": 24,
+      "excit_max_abs": 0.013744039788434748,
+      "inhib_max_abs": 6.190034151920543e-07
+    },
+    {
+      "query": 25,
+      "excit_max_abs": 0.012032142823954928,
+      "inhib_max_abs": 8.29069453978093e-07
+    },
+    {
+      "query": 26,
+      "excit_max_abs": 0.009095425386476563,
+      "inhib_max_abs": 6.231951359403354e-07
+    },
+    {
+      "query": 27,
+      "excit_max_abs": 0.02416699644891196,
+      "inhib_max_abs": 7.268615194178096e-07
+    },
+    {
+      "query": 28,
+      "excit_max_abs": 0.012028697074129013,
+      "inhib_max_abs": 8.292716331403938e-07
+    },
+    {
+      "query": 29,
+      "excit_max_abs": 0.025985134787333664,
+      "inhib_max_abs": 9.294032619067139e-07
+    },
+    {
+      "query": 30,
+      "excit_max_abs": 0.015258859562891303,
+      "inhib_max_abs": 1.0274602555426782e-06
+    },
+    {
+      "query": 31,
+      "excit_max_abs": 0.01686886724201031,
+      "inhib_max_abs": 1.1354766722426746e-06
+    },
+    {
+      "query": 32,
+      "excit_max_abs": 0.015136407340833102,
+      "inhib_max_abs": 1.0243306061141766e-06
+    },
+    {
+      "query": 33,
+      "excit_max_abs": 0.022499095251987455,
+      "inhib_max_abs": 1.0817876403557136e-06
+    },
+    {
+      "query": 34,
+      "excit_max_abs": 0.016867864043888403,
+      "inhib_max_abs": 1.1355353630726484e-06
+    },
+    {
+      "query": 35,
+      "excit_max_abs": 0.023354852655756986,
+      "inhib_max_abs": 1.191904929420673e-06
+    },
+    {
+      "query": 36,
+      "excit_max_abs": 0.018659800645764335,
+      "inhib_max_abs": 1.2456372102676028e-06
+    },
+    {
+      "query": 37,
+      "excit_max_abs": 0.02020387997981743,
+      "inhib_max_abs": 1.355595236507412e-06
+    },
+    {
+      "query": 38,
+      "excit_max_abs": 0.018457417643730878,
+      "inhib_max_abs": 1.242256695288546e-06
+    },
+    {
+      "query": 39,
+      "excit_max_abs": 0.0261973931810644,
+      "inhib_max_abs": 1.3008493202626426e-06
+    },
+    {
+      "query": 40,
+      "excit_max_abs": 0.0202028228668496,
+      "inhib_max_abs": 1.3556562765693059e-06
+    },
+    {
+      "query": 41,
+      "excit_max_abs": 0.028886937401694013,
+      "inhib_max_abs": 1.4131389516336412e-06
+    },
+    {
+      "query": 42,
+      "excit_max_abs": 0.02185308807202091,
+      "inhib_max_abs": 1.4720210739227468e-06
+    },
+    {
+      "query": 43,
+      "excit_max_abs": 0.023332726303124218,
+      "inhib_max_abs": 1.5640115695880752e-06
+    },
+    {
+      "query": 44,
+      "excit_max_abs": 0.021856741373994737,
+      "inhib_max_abs": 1.470689302340844e-06
+    },
+    {
+      "query": 45,
+      "excit_max_abs": 0.02770460800093133,
+      "inhib_max_abs": 1.53607762554131e-06
+    },
+    {
+      "query": 46,
+      "excit_max_abs": 0.02333202929185063,
+      "inhib_max_abs": 1.5640529573701656e-06
+    },
+    {
+      "query": 47,
+      "excit_max_abs": 0.027499973079102347,
+      "inhib_max_abs": 1.6253236494456758e-06
+    },
+    {
+      "query": 48,
+      "excit_max_abs": 0.024837881805069628,
+      "inhib_max_abs": 1.6532867261886963e-06
+    },
+    {
+      "query": 49,
+      "excit_max_abs": 0.026967010422595195,
+      "inhib_max_abs": 1.8228418965371418e-06
+    },
+    {
+      "query": 50,
+      "excit_max_abs": 0.02444098506566661,
+      "inhib_max_abs": 1.641155168652375e-06
+    },
+    {
+      "query": 51,
+      "excit_max_abs": 0.02589357571741857,
+      "inhib_max_abs": 1.7326379042614803e-06
+    },
+    {
+      "query": 52,
+      "excit_max_abs": 0.0269642281018605,
+      "inhib_max_abs": 1.8229994678264916e-06
+    },
+    {
+      "query": 53,
+      "excit_max_abs": 0.028613989728910383,
+      "inhib_max_abs": 1.9133243021052238e-06
+    },
+    {
+      "query": 54,
+      "excit_max_abs": 0.028509910947832395,
+      "inhib_max_abs": 1.9995077771284286e-06
+    },
+    {
+      "query": 55,
+      "excit_max_abs": 0.02913574921876716,
+      "inhib_max_abs": 1.95836920680037e-06
+    },
+    {
+      "query": 56,
+      "excit_max_abs": 0.028466778312576935,
+      "inhib_max_abs": 1.9217502749135917e-06
+    },
+    {
+      "query": 57,
+      "excit_max_abs": 0.028469719347413047,
+      "inhib_max_abs": 1.940061171712415e-06
+    },
+    {
+      "query": 58,
+      "excit_max_abs": 0.029135712933566538,
+      "inhib_max_abs": 1.9583742143503002e-06
+    },
+    {
+      "query": 59,
+      "excit_max_abs": 0.028814967919970513,
+      "inhib_max_abs": 1.976684397053674e-06
+    }
+  ],
+  "wall_s": 1.9954512460099068,
+  "maxrss_kib": 1486072,
+  "gpu_allocation_delta_upper_bytes": 880803840,
+  "scope": "Real CNS graph and same-run release vectors; batched CUDA graph for base E/I sums only. No specialized owners, CNS integration, body, or whole-organism speed.",
+  "budget_ok": true,
+  "numerical_gate_ok": false,
+  "speed_gate_ok": false
+}

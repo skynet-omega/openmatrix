@@ -1,0 +1,127 @@
+{
+  "format_version": 2,
+  "label": "motor-csc-cuda-failures-20260925",
+  "description": "Two prospectively gated CUDA CSC base-current kernels on the real CNS graph failed useful speed and exploratory current-error limits; provenance of5845 weight differences and matched rerun documented. No organism speed claim. Full graph arrays not included; prior release capsule is separately published.",
+  "files": [
+    {
+      "path": "CSC_GPU_REVIEW.md",
+      "bytes": 5021,
+      "sha256": "746b953ae1e7653866a000d4c5c6358e36a8ffe3f21763e8e1a79d39f66cb30f"
+    },
+    {
+      "path": "CSC_QUANTIZED_GPU_PLAN_31.json",
+      "bytes": 2208,
+      "sha256": "41f10b292fb7548bbe3573d485dc03afd7f62feb48b0d122a4510f27317642d6"
+    },
+    {
+      "path": "CSC_COST_SPLIT_PLAN_32.json",
+      "bytes": 2044,
+      "sha256": "841dfaee1398e5b450f125c76b9fa41a309f73e1821f57747bc64c50562a320c"
+    },
+    {
+      "path": "GRAPH_PREPARATION_PLAN_33.json",
+      "bytes": 1492,
+      "sha256": "f17d028f0d3b76ace40154f1859dc63d5d6e36067c6d8c04f9735576c01accc9"
+    },
+    {
+      "path": "GRAPH_WEIGHT_DIFF_PLAN_34.json",
+      "bytes": 1409,
+      "sha256": "cd5f4e60e366d84786a28538f9474b838b73d50a75daed7c83e79f433169822d"
+    },
+    {
+      "path": "CSC_QUANTIZED_CURRENT_PLAN_35.json",
+      "bytes": 1999,
+      "sha256": "2c5e1b150e607582165e193d04de86eb5e18da14a52a88c02acaa4ae614849dc"
+    },
+    {
+      "path": "CSC_COST_CURRENT_PLAN_36.json",
+      "bytes": 1907,
+      "sha256": "6bc206e209b07905e8a2e29609bcc707cc033b43a0b305dc2936aa78f719bad0"
+    },
+    {
+      "path": "CSC_COMPACT_GPU_PLAN_37.json",
+      "bytes": 2514,
+      "sha256": "6231a5f5fd8b38d2a66263fd233087cf44f2fe7f292c239d37ba9d65116919ce"
+    },
+    {
+      "path": "csc_quantized_gpu_probe.py",
+      "bytes": 12883,
+      "sha256": "f07fa672e17651a4dcf0ba6b6e2a32955e8227ac3cd608acc3e176fd16114ef6"
+    },
+    {
+      "path": "csc_quantized_gpu_current.py",
+      "bytes": 13118,
+      "sha256": "909199f876c9820bbb7fe0cb19f8ae41eff4f64b165ea9f070645a73f79d7795"
+    },
+    {
+      "path": "compare_csc_costs.py",
+      "bytes": 5672,
+      "sha256": "fa832ec9e8b0076baaa5df782a869b8101d88478dc2a2f1ca414d40a99cd6780"
+    },
+    {
+      "path": "compare_csc_costs_current.py",
+      "bytes": 5905,
+      "sha256": "84f691a887ee40a02acb7c43679666ada35deeef9eea61837a490f7b6a9a47ff"
+    },
+    {
+      "path": "verify_graph_preparation.py",
+      "bytes": 2924,
+      "sha256": "4d5c7ef758b532b63d7f74b10b33afb64808ff0d644f7b69ac5e6a0d53b6feab"
+    },
+    {
+      "path": "diff_graph_weights.py",
+      "bytes": 3334,
+      "sha256": "117a58973372f9c1755334a83be0de2fcb09f1928c1fcc621df032ecc5038ffb"
+    },
+    {
+      "path": "csc_compact_gpu_probe.py",
+      "bytes": 14951,
+      "sha256": "a7310a467d45ed3683921a3cc923ae64a6fb4df398cb97610914bee8cb6e16d5"
+    },
+    {
+      "path": "csc_quantized_gpu_01/RESULT.json",
+      "bytes": 8260,
+      "sha256": "d3196635e1cf4e21c0fee1e491b344cf042d667f14ade69c9d6feb3c34a8c37d"
+    },
+    {
+      "path": "csc_cost_split_01/RESULT.json",
+      "bytes": 1618,
+      "sha256": "037523722f62db9ecffc95055b3845697f13123c5371335a0be5d1ae4830e5d1"
+    },
+    {
+      "path": "graph_preparation_01/RESULT.json",
+      "bytes": 1414,
+      "sha256": "6ba304911856681fc233caab1e1743b66a220ef9f0d9a2d538cd6af82803952b"
+    },
+    {
+      "path": "graph_weight_diff_01/RESULT.json",
+      "bytes": 1174,
+      "sha256": "d29710e8605652324cf250dbf480d8420e5ab452bcae91060ad2b202b2d3ea7d"
+    },
+    {
+      "path": "csc_quantized_current_01/RESULT.json",
+      "bytes": 8262,
+      "sha256": "5971c0a444acd6884ef9587909573b879b6e3fe8ba5fb47d5aed1fd06741ed0c"
+    },
+    {
+      "path": "csc_cost_current_01/RESULT.json",
+      "bytes": 1615,
+      "sha256": "cf8ecca59b7414b17be6cf2ab00435e61a23bf990ea6bcc6e8371eb4820be4e7"
+    },
+    {
+      "path": "csc_compact_gpu_01/RESULT.json",
+      "bytes": 8259,
+      "sha256": "9ed0bb6617c045b60847fb0567ac6513a824f279e6a5a0b718187476f583ab9e"
+    },
+    {
+      "path": "JEV_SPEC_06.json",
+      "bytes": 2639,
+      "sha256": "1268f00bc5f1ee3a12ff6f6a41d2f632159959f05dcd4f4ecaf0e8363f3babac"
+    },
+    {
+      "path": "jev_06/response.json",
+      "bytes": 458,
+      "sha256": "889e5686dadbb8c17f714d17cd2917ea08265eeb445e2e7f31a3eb1ad66e5bdb"
+    }
+  ]
+}

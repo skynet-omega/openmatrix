@@ -1,0 +1,27 @@
+{
+  "schema": "csc_cost_split_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "Prospectively frozen CSC prototype31 failed0.05ms/query speed and0.01 absolute-current diagnostic. Split cost without retuning threshold or modifying failed result.",
+  "question": "How much of CSC cost comes from inactive source scan, exact event updates, continuous updates; and how does same base full CSR compare under captured GPU graph?",
+  "mapping": "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json",
+  "graph_archive": "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz",
+  "release_capsule": "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_quantized_gpu_probe.py": "f07fa672e17651a4dcf0ba6b6e2a32955e8227ac3cd608acc3e176fd16114ef6",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_quantized_gpu_01/RESULT.json": "d3196635e1cf4e21c0fee1e491b344cf042d667f14ade69c9d6feb3c34a8c37d"
+  },
+  "script_sha256": "fa832ec9e8b0076baaa5df782a869b8101d88478dc2a2f1ca414d40a99cd6780",
+  "scale": 0.03333333333333333,
+  "absolute_release_threshold": 1e-06,
+  "timing_repetitions": 5,
+  "budget": {
+    "runs": 1,
+    "wall_seconds_max": 120,
+    "ram_gib_max": 6,
+    "output_bytes_max": 50000
+  },
+  "interpretation": "Isolated E/I base-sum timings only, same GPU/graph. If sparse>=full, naive B lacks even base-kernel gain. If sparse<full but >0.05ms/query, still fails utility gate31 and requires major redesign; no integrated motor conclusion."
+}

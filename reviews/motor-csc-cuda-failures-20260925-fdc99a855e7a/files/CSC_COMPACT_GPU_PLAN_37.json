@@ -1,0 +1,33 @@
+{
+  "schema": "csc_quantized_gpu_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "First current-W CSC source-per-warp failed prospective0.05ms/query and current-error0.01; empty scan alone0.05439ms. Test a distinct capture-compatible active-source compaction with fixed scatter grid, same release rule, same numeric/speed gates.",
+  "graph_archive": "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz",
+  "mapping": "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json",
+  "release_capsule": "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz",
+  "current_weights_archive": "motor_nuevo/owner_fallback_cost_20260924_01/graph_weight_diff_01/FRESH_WEIGHTS.npz",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+    "motor_nuevo/owner_fallback_cost_20260924_01/graph_weight_diff_01/FRESH_WEIGHTS.npz": "dbae7ffb218b1b0fd8d706ff1b6ab61442a50bd423f57078fcb666f2567038bc",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_quantized_current_01/RESULT.json": "5971c0a444acd6884ef9587909573b879b6e3fe8ba5fb47d5aed1fd06741ed0c",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_cost_current_01/RESULT.json": "cf8ecca59b7414b17be6cf2ab00435e61a23bf990ea6bcc6e8371eb4820be4e7"
+  },
+  "script_sha256": "a7310a467d45ed3683921a3cc923ae64a6fb4df398cb97610914bee8cb6e16d5",
+  "scale": 0.03333333333333333,
+  "absolute_release_threshold": 1e-06,
+  "scatter_blocks": 256,
+  "timing_repetitions": 5,
+  "gpu_ms_per_query_max": 0.05,
+  "maximum_current_abs": 0.01,
+  "budget": {
+    "real_graph_runs": 1,
+    "wall_seconds_max": 240,
+    "ram_gib_max": 12,
+    "incremental_vram_gib_max": 8,
+    "output_bytes_max": 100000
+  },
+  "interpretation": "Second isolated B primitive, not full operator/integrator/body. Five GPU timings of one graph containing59 updates. Same diagnostic current and speed gates as failed first candidate; no post-result block-count tuning.",
+  "stop_rule": "One real graph run after synthetic CUDA selftest. Preserve failure and pivot to A/C or better mathematical B only with a new hypothesis."
+}

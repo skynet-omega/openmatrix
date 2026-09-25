@@ -1,0 +1,22 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Asesoría, no veredicto. Objetivo5s simulados en5-10min reales: presupuesto<=0,120s pared por ms organismo. CNS observado191 ensayos×6=1146 consultas/ms. B screen full operator un mismo run: baseline exact60/60 y proxy local RHS0,008379 a umbral1e-6; no integración. Coste corregido:4.062 fuentes de eventos exactas cambian en cada consulta,885.587 aristas; continuo mediana387.441; total mediano1.273.028 (4,98% CSR). Primer prototipo CUDA CSC fuente-por-warp de E/I base, con pesos del loader actual y vectores release reales: 0,1095ms/consulta versus0,9693ms full CSR, ~8,85x sólo primitiva; nulo escaneo de fuentes0,0544ms. Falló gate congelado0,05ms/consulta y error suma excitadora0,01 (0,0291). No propietarios, integrador ni cuerpo; 5 repeticiones. W vieja difería5845/25,58M posiciones, por eso se repitió con W del loader actual; topología/caps/visual iguales. Full organismo exigiría reducir también número de consultas y coste exterior. ChatGPT propuso compactar fuentes y cache transaccional en C++ pero no envió código inline aún; ejecutó fixtures CPU propios, no CUDA. El runtime nativo exacto previo mostró paridad pero no speedup. Etapas4/5 abiertas.",
+  "questions": {
+    "next_discriminator": {
+      "instructions": "Escoge una prueba nueva con máximo valor decisorio y costo acotado; el voto no certifica ciencia.",
+      "criteria": {
+        "A_multirate_recurrent": "Diseñar bloque MRI con corriente predicha/corrección recurrente, aspirar a<=6 barridos completos equivalentes por125us y medir error/estado/eventos, no asignar ritmos por anatomía.",
+        "B_compacted_csc": "Probar una segunda arquitectura B con compactación GPU activa y caché transaccional real, misma regla1e-6, medir tiempo de selección/scatter/reconstrucción y estado de una época; descartar si coste/errores no cumplen.",
+        "C_krylov_implicit": "Probar acción exponencial/Jacobiano-vector recurrente con renovación por residual y conteo integral de operadores en el mismo bloque; descartar si necesita tantos productos como padre."
+      }
+    },
+    "chief_warning": {
+      "instructions": "Selecciona qué error de interpretación más fácilmente haría declarar éxito sin sustento.",
+      "criteria": {
+        "isolated_speed": "Extrapolar8,85x de E/I base a organismo con propietarios, integrador y cuerpo.",
+        "local_error": "Tratar proxy0,008379 o error de suma0,0291 como contrato de estado/eventos a largo plazo.",
+        "mixed_preparation": "Usar W capturada vieja sin registrar5845 diferencias con loader actual."
+      }
+    }
+  }
+}

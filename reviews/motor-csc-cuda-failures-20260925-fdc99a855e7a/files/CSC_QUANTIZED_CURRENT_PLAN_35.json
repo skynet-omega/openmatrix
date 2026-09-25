@@ -1,0 +1,30 @@
+{
+  "schema": "csc_quantized_gpu_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "Plan31 used same topology but old W differed at5845/25.58M positions. Repeat code with current-loader W, keeping all thresholds and timing gates identical.",
+  "graph_archive": "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz",
+  "mapping": "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json",
+  "release_capsule": "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz",
+  "current_weights_archive": "motor_nuevo/owner_fallback_cost_20260924_01/graph_weight_diff_01/FRESH_WEIGHTS.npz",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/owner_fallback_cost_20260924_01/quantized_full_capsule_01.npz": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+    "motor_nuevo/owner_fallback_cost_20260924_01/graph_weight_diff_01/FRESH_WEIGHTS.npz": "dbae7ffb218b1b0fd8d706ff1b6ab61442a50bd423f57078fcb666f2567038bc",
+    "motor_nuevo/owner_fallback_cost_20260924_01/csc_quantized_gpu_01/RESULT.json": "d3196635e1cf4e21c0fee1e491b344cf042d667f14ade69c9d6feb3c34a8c37d"
+  },
+  "script_sha256": "909199f876c9820bbb7fe0cb19f8ae41eff4f64b165ea9f070645a73f79d7795",
+  "scale": 0.03333333333333333,
+  "absolute_release_threshold": 1e-06,
+  "timing_repetitions": 5,
+  "gpu_ms_per_query_max": 0.05,
+  "maximum_current_abs": 0.01,
+  "budget": {
+    "real_graph_runs": 1,
+    "wall_seconds_max": 240,
+    "ram_gib_max": 12,
+    "incremental_vram_gib_max": 8,
+    "output_bytes_max": 100000
+  },
+  "scope": "Base E/I sums with current loader W and release from new real run. Not a same-run W capture or organism timing. Preserve negative plan31."
+}

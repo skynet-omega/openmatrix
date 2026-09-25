@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-quantized-event-cost-correction-20260925](reviews/motor-quantized-event-cost-correction-20260925-17c3517728ea/README.md)
+[motor-csc-cuda-failures-20260925](reviews/motor-csc-cuda-failures-20260925-fdc99a855e7a/README.md)
 
-Correction to immutable quantized full-operator screen: exact event source changes add885587 edges each query; combined median1273028 edges (4.98% CSR). Original code/data snapshot remains linked and unchanged.
+Two prospectively gated CUDA CSC base-current kernels on the real CNS graph failed useful speed and exploratory current-error limits; provenance of5845 weight differences and matched rerun documented. No organism speed claim. Full graph arrays not included; prior release capsule is separately published.

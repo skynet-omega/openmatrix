@@ -1,0 +1,30 @@
+{
+  "schema": "graph_preparation_comparison_result_v1",
+  "status": "DIFFERENT_BASE_OPERATOR",
+  "plan_sha256": "f17d028f0d3b76ace40154f1859dc63d5d6e36067c6d8c04f9735576c01accc9",
+  "same": {
+    "indptr": true,
+    "indices": true,
+    "weights": false,
+    "caps": true,
+    "visual": true
+  },
+  "frozen_sha256": {
+    "indptr": "6e58b593426b23e4a95ccc0fa9ed97f7944e7f532639f004260b9c520b40b9dc",
+    "indices": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db",
+    "weights": "394d946556e9540947057a167d3d84bd4e3c817691ff957c7e2a05a4068664ad",
+    "caps": "f227f6c6cc8a806220f380c1fa5bb3105018c13ec15e9def8ed7a15420c17478",
+    "visual": "f7320f9052e5cc625021bac230694c504113d2d58a61049ac30c938ad18bdd90"
+  },
+  "live_sha256": {
+    "indptr": "6e58b593426b23e4a95ccc0fa9ed97f7944e7f532639f004260b9c520b40b9dc",
+    "indices": "c0a2d02fbe1ab449a2cdf7377024361a625f201266f7d6415c3c8584dc67a2db",
+    "weights": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+    "caps": "f227f6c6cc8a806220f380c1fa5bb3105018c13ec15e9def8ed7a15420c17478",
+    "visual": "f7320f9052e5cc625021bac230694c504113d2d58a61049ac30c938ad18bdd90"
+  },
+  "wall_s": 12.924224593007239,
+  "maxrss_kib": 4803332,
+  "scope": "Fresh load from the current loader versus archived graph arrays; no CNS/body step. Matching base arrays do not prove all owners/state matched between runs.",
+  "budget_ok": true
+}

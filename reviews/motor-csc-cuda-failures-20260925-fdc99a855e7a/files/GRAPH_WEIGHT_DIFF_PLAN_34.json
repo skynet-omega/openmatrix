@@ -1,0 +1,21 @@
+{
+  "schema": "graph_weight_diff_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "Fresh loader matched topology/caps/visual but differed in weights from older captured graph. Localize mismatches before attributing CSC performance to current preparation.",
+  "mapping": "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json",
+  "graph_archive": "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/owner_fallback_cost_20260924_01/graph_preparation_01/RESULT.json": "6ba304911856681fc233caab1e1743b66a220ef9f0d9a2d538cd6af82803952b",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/motor_runtime.py": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3"
+  },
+  "script_sha256": "117a58973372f9c1755334a83be0de2fcb09f1928c1fcc621df032ecc5038ffb",
+  "budget": {
+    "loads": 1,
+    "wall_seconds_max": 90,
+    "ram_gib_max": 12,
+    "weights_bytes_max": 250000000
+  },
+  "stop_rule": "One fresh load, count exact differing weights/rows, save W with digest. No threshold or weight edits."
+}
