@@ -1,0 +1,16 @@
+{
+  "status": "CANCELLED_PENDING_REFERENCE_REUSING_FROZEN_CONTROL",
+  "supervisor_pid": 447310,
+  "candidate_pid": 447329,
+  "wait_for_pid": 436959,
+  "pause_utc": "2026-09-25T08:10:02.441184+00:00",
+  "reason": "Existing stage36 coordination: keep current candidate running, defer new reference until its live process exits. Only this task supervisor is suspended.",
+  "scientific_changes": false,
+  "candidate_alarm_unchanged": true,
+  "timing_note": "Raw launcher_wall_s will include supervisor dispatch hold; use actual child RESULT.wall_total_s for process budget, report queued time separately.",
+  "cancel_utc": "2026-09-25T08:17:38.929931+00:00",
+  "supervisor_exit_code": 143,
+  "supervisor_exit_expected": true,
+  "queue_waiter_exit_code": 1,
+  "queue_waiter_reason": "Observed deliberate dispatch cancellation; sent no signal. No simulation interrupted."
+}

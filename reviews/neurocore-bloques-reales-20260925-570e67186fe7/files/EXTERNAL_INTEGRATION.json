@@ -1,0 +1,8 @@
+{
+  "external_original_sha256": "e32286505caaf632076b45c7524d7d597b322af8a3a093a8bc895b656e750b6f",
+  "integrated_header_sha256": "169dba77400535cd06ca7754648dd8e0a72f3d66a6b8e4e751402d366ac634d2",
+  "local_change": "Wrap host math.h include in !__CUDACC_RTC__ for CuPy NVRTC; device math is built in. No solver arithmetic change.",
+  "reviewer_execution": "Static source development; no compile/GPU execution by reviewer.",
+  "local_verification": "BLOCK_GUARDS_02.json; full mass, dimensions1/3/17/32, invalid systems and transaction rollback.",
+  "initial_compile_failure": "BLOCK_GUARDS_ERROR.log retained. No organism or solver test executed in that failed compile."
+}

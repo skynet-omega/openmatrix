@@ -1,5 +1,5 @@
 # Última evidencia
 
-[neurocore-continuidad-real-20260925](reviews/neurocore-continuidad-real-20260925-48550991ef55/README.md)
+[neurocore-bloques-reales-20260925](reviews/neurocore-bloques-reales-20260925-570e67186fe7/README.md)
 
-CNS residente C++/CUDA compatible: punto medio exponencial con cinco evaluaciones por intento, pareja real de 100 ms exacta en los campos guardados, sin modificar umbrales. Reproducción del núcleo y recálculo local verificados. Snapshot público de fuentes/resultados; no contiene trayectorias grandes ni checkpoints, y no certifica aceleración con hardware compartido.
+Etapa2: CNS conservado y membranas con algebra/control/estado separados de la fisiologia. Nueva candidata real100ms exacta frente a control100ms conservado, y modelo distinto con masa densa. Una preprueba1ms, sin ajuste de tolerancias. Fuentes y resultados; omite trayectorias voluminosas y no acredita velocidad.

@@ -1,0 +1,144 @@
+{
+  "mode": "reference",
+  "requested_ms": 100,
+  "completed_ms": 100,
+  "field": "odor_left",
+  "status": "COMPLETE",
+  "parameters_changed": false,
+  "biological_parameters_changed": false,
+  "numerical_precision_factor": 1.0,
+  "compact_state": true,
+  "whole_neural_rewrite": false,
+  "scope": "Real coupled organism; candidate replaces CNS executor only. PN/spatial solvers conserved.",
+  "sources": {
+    "run_real.py": "96e36ab9e024d5b386b19f629e383ba464177adfff5e5a475836cb757ecc6f85",
+    "real_model.py": "3adf53db291e06e7b4c0fa62a60f43a8e101d83a40a67a66a786df25d3435b82",
+    "graph_runtime.py": "dc6a9def407ea9f39a39783fffd72e02ec0e22b8bcf268e1f87b27f9d34b3de7",
+    "event_projection.py": "e4cc4ad2b2ec2e74c147d3fcb9992d2dd1e290d6946ba87d2ebb01b4e01b61bf",
+    "resident_controller.cu": "c7638124427546693bf487c9050bcf516307512c29d172e785e96455f535f95b",
+    "libresident_controller.so": "4462ff86ea4c12f134570c6377ddf5ce7d984311dcc9a2fd827ef08b53020ff7",
+    "PLAN.md": "e8872ceb98ac2e891ffcbfcb94809eb4acbd112194156dab42cb4227c73d3f97"
+  },
+  "checkpoint": "work/stage234_settling_extension_20260915/settled_700ms",
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "initial_cns_sha256": "e8f1d6c457af0f7f464c8e3631251314913039f46f48845163aedc28e84227f8",
+  "weights_sha256": "7fb2ee43cb45f9c5a366bad29a36d6b7f6771dff50d3c2699a74aaaf6418c999",
+  "weights_count": 25582938,
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "initial_gpu_used_bytes": 1747451904,
+  "load_setup_s": 14.802101049004705,
+  "advance_total_s": 637.9881154009345,
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 1600,
+      "accepted": 10214382,
+      "rejected": 47064,
+      "build_s": 0.004430753004271537,
+      "native_wall_s": 59.16618684589048,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        6.320000000000164,
+        20.0
+      ]
+    },
+    "CNS": {
+      "epochs": 1600,
+      "accepted": 18770,
+      "rejected": 0,
+      "build_s": 0.1903783339948859,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 1600,
+      "accepted": 1600,
+      "rejected": 0,
+      "build_s": 2.8665293569938513,
+      "wall_s": 42.179072380953585,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 3200,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 1600,
+      "events": 7788,
+      "max_q_reconstruction_difference": 8.326672684688674e-16,
+      "global_trials": 18770,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 800,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 40836
+    }
+  },
+  "wall_total_s": 670.0362077630125,
+  "maxrss_kib": 5545560,
+  "files_bytes": 371363739
+}

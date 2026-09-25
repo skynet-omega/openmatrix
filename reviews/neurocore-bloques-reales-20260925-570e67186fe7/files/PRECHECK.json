@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "scope": "1-ms integration against first two samples/event-prefix of preserved complete reference; not the prospective 100-ms pair",
+  "fields": [
+    {
+      "state": "time_ns",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cns",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "body_qpos",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "body_qvel",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "pending_sensors",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_delta",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_gates",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_q",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_counts",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_clipped",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_last_siz",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_previous_slope",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "cell_trough",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_q",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_s",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_last_voltage",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_previous_slope",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_trough",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_counts",
+      "exact": true,
+      "max_difference": 0.0
+    },
+    {
+      "state": "axon_clipped",
+      "exact": true,
+      "max_difference": 0.0
+    }
+  ],
+  "events_exact": true,
+  "installed": {
+    "membrane": {
+      "module": "device_cell",
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_blocks_20260925_03/device_cell.py",
+      "sha256": "843fb27d1c5c499e6f0f22f868291a15f6ad266ce02834cd984ab334f43c5bea"
+    },
+    "CNS": {
+      "module": "real_model",
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_blocks_20260925_03/real_model.py",
+      "sha256": "31035a86c1dacd6412fcc4525e3584a99258fa9b916e891ed09ebef310a887a8"
+    },
+    "PN": {
+      "module": "pn_inhibitory_closure_source",
+      "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+      "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+    }
+  },
+  "cell": {
+    "calls": 16,
+    "accepted": 102604,
+    "rejected": 578,
+    "build_s": 0.5052749680035049,
+    "native_wall_s": 0.6714700610173168,
+    "event_capacity_per_cell_per_epoch": 8,
+    "compressed": false,
+    "scheduler": "generic_transactional_independent_blocks",
+    "count_unit": "cell_trials",
+    "device_bytes": 2239488,
+    "kernel": {
+      "max_threads_per_block": 256,
+      "shared_size_bytes": 0,
+      "const_size_bytes": 0,
+      "local_size_bytes": 136,
+      "num_regs": 252,
+      "ptx_version": 89,
+      "binary_version": 89,
+      "cache_mode_ca": 0,
+      "max_dynamic_shared_size_bytes": 49152,
+      "preferred_shared_memory_carveout": -1
+    },
+    "implementation_sources": {
+      "device_cell.py": "843fb27d1c5c499e6f0f22f868291a15f6ad266ce02834cd984ab334f43c5bea",
+      "block_executor.py": "1e453cad9a189297389e7f468e670784f3731d592898d055599e7b0c503e4e22",
+      "membrane_model.cu": "c92e75bb46881463e48fc90a0e551509aedd9b71bbde4511c5ab6b2fdfe3ff26",
+      "dense_warp.cuh": "169dba77400535cd06ca7754648dd8e0a72f3d66a6b8e4e751402d366ac634d2",
+      "independent_blocks.cuh": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    "last_accepted_quantiles": [
+      5.0,
+      5.0,
+      5.0,
+      10.0,
+      22.0
+    ]
+  }
+}

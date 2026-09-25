@@ -1,0 +1,227 @@
+{
+  "schema": "PN_inhibitory_closure_source_v1",
+  "identity": "080243339d15481724cfd92e42ec23f35d117460aa7f8553ba78c855652d6150",
+  "base": {
+    "schema": "PN_APL_graded_source_v1",
+    "identity": "63826f233b96695a9207709064b5cd6a38c8d04f98aed24f967ceb9f8561cf3d",
+    "base": {
+      "schema": "PN_general_output_source_v1",
+      "identity": "6f30fe75feab9104cf4456d5d3a039bbb5e2af564e8374a7518f98bde6b89d89",
+      "base": {
+        "schema": "PN_additional_electrical_output_source_v1",
+        "identity": "8efa25ab44ee288c19af75e4f94e8307c423108d40015c3403ade9ab767098c6",
+        "base": {
+          "schema": "PN_cholinergic_online_source_v1",
+          "identity": "c50b77c4cc831d16d922084da9ae9c6f4af5e5d9d0899b697be744c622e03842",
+          "base": {
+            "schema": "PN_online_canonical_ORN_source_v1",
+            "identity": "6e302f6e67da9bbbe0901f7e087dc5f67d78689ee3837ac3e8e3af3ac15c2482",
+            "time_ns": 44546000000,
+            "pn": {
+              "schema": "pn_voltage_calcium_coupled_v1",
+              "identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+              "pn": {
+                "schema": "pn_fine_ionic_v1",
+                "identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+                "time_ns": 924100000,
+                "voltage_delta_mV": {
+                  "__array__": "array_0"
+                },
+                "gates": {
+                  "__array__": "array_1"
+                },
+                "ionic_charge_pC": {
+                  "__array__": "array_2"
+                }
+              },
+              "calcium": {
+                "identity": "782e61253a3aaa155cb8da48d5897740d772a755b340dca284805e0ff4a6642f",
+                "time_ns": 924100000,
+                "enabled": true,
+                "release_enabled": true,
+                "gates": {
+                  "__array__": "array_3"
+                },
+                "outward_charge_pC": {
+                  "__array__": "array_4"
+                },
+                "chemistry": {
+                  "schema": "PN_site_calcium_resource_candidate_v1",
+                  "identity": "2817dee0fff18a2c80390942bf484b5f6a81b043a1e14c3b89cca46175caaee6",
+                  "time_ns": 924100000,
+                  "calcium_uM": {
+                    "__array__": "array_5"
+                  },
+                  "available": {
+                    "__array__": "array_6"
+                  },
+                  "fast": {
+                    "__array__": "array_7"
+                  },
+                  "slow": {
+                    "__array__": "array_8"
+                  },
+                  "released": {
+                    "__array__": "array_9"
+                  },
+                  "calcium_charge_pC": {
+                    "__array__": "array_10"
+                  }
+                }
+              }
+            },
+            "fast": {
+              "__array__": "array_11"
+            },
+            "slow": {
+              "__array__": "array_12"
+            }
+          },
+          "ach": {
+            "schema": "PN_cholinergic_pair_rate_prior_v1",
+            "identity": "d51712913177996e7f1519007329a1c71bbbec00a653c0ba31f4f14135a193f8",
+            "time_ns": 44546000000,
+            "fast": {
+              "__array__": "array_13"
+            },
+            "slow": {
+              "__array__": "array_14"
+            }
+          },
+          "ach_charge_pC": -38.727480541711124,
+          "orn_charge_pC": -100.02906483104468
+        },
+        "extra_output": {
+          "schema": "PN_additional_electrical_output_port_v1",
+          "identity": "ac45de34ebdcf68720ede39f63a8e0afc4bb1b9f6b0c7966715942dd061fe98a",
+          "time_ns": 44546000000,
+          "fast": {
+            "__array__": "array_15"
+          },
+          "slow": {
+            "__array__": "array_16"
+          },
+          "legacy": 1.106682854211084e-80
+        }
+      },
+      "general_output": {
+        "schema": "PN_general_output_port_v1",
+        "identity": "43f7f1f41957c5151fd8f09910ef5d887a1c334ae982850a4c8b9f94edeb0ef5",
+        "time_ns": 44546000000,
+        "fast": {
+          "__array__": "array_17"
+        },
+        "slow": {
+          "__array__": "array_18"
+        },
+        "legacy": 1.352317656489593e-80
+      }
+    },
+    "apl_receptor": {
+      "schema": "APL_delayed_graded_receptor_v1",
+      "identity": "18b885d39d1ca67f1f469786154289a5b856998a2e1a5dc67822030116f934eb",
+      "time_ns": 44546000000,
+      "occupancy": {
+        "__array__": "array_19"
+      },
+      "last_driver": {
+        "__array__": "array_20"
+      },
+      "history": [
+        {
+          "start_ns": 44546000000,
+          "end_ns": 44546062500,
+          "left": {
+            "__array__": "array_21"
+          },
+          "right": {
+            "__array__": "array_22"
+          }
+        },
+        {
+          "start_ns": 44546062500,
+          "end_ns": 44546125000,
+          "left": {
+            "__array__": "array_23"
+          },
+          "right": {
+            "__array__": "array_24"
+          }
+        }
+      ]
+    },
+    "apl_charge_pC": 4.682336924209108
+  },
+  "receptors": {
+    "GABA": {
+      "schema": "APL_delayed_graded_receptor_v1",
+      "identity": "2cd90c9be2564f7a1693db76d5ce5fe4cc43b415ed618a12d20b90ff25cfca08",
+      "time_ns": 44546000000,
+      "occupancy": {
+        "__array__": "array_25"
+      },
+      "last_driver": {
+        "__array__": "array_26"
+      },
+      "history": [
+        {
+          "start_ns": 44546000000,
+          "end_ns": 44546062500,
+          "left": {
+            "__array__": "array_27"
+          },
+          "right": {
+            "__array__": "array_28"
+          }
+        },
+        {
+          "start_ns": 44546062500,
+          "end_ns": 44546125000,
+          "left": {
+            "__array__": "array_29"
+          },
+          "right": {
+            "__array__": "array_30"
+          }
+        }
+      ]
+    },
+    "Glu": {
+      "schema": "APL_delayed_graded_receptor_v1",
+      "identity": "d299cdbcfaabdc8d8c77e588f2e74cb62aa61884996e2a5528171d24e286a628",
+      "time_ns": 44546000000,
+      "occupancy": {
+        "__array__": "array_31"
+      },
+      "last_driver": {
+        "__array__": "array_32"
+      },
+      "history": [
+        {
+          "start_ns": 44546000000,
+          "end_ns": 44546062500,
+          "left": {
+            "__array__": "array_33"
+          },
+          "right": {
+            "__array__": "array_34"
+          }
+        },
+        {
+          "start_ns": 44546062500,
+          "end_ns": 44546125000,
+          "left": {
+            "__array__": "array_35"
+          },
+          "right": {
+            "__array__": "array_36"
+          }
+        }
+      ]
+    }
+  },
+  "charges_pC": {
+    "GABA": 10.090405190048287,
+    "Glu": 2.7242443472539843
+  }
+}

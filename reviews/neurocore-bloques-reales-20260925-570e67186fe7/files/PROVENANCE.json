@@ -1,0 +1,31 @@
+{
+  "description": "One-time donor extraction during development. Runtime source is explicit and standalone. Dense algebra extracted to generic header; physiology remains model code.",
+  "donors": [
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_fused_step.py",
+      "sha256": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/kc_fused_warp.py",
+      "sha256": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.cu",
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/physical_events.cu",
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/block_runtime.hpp",
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    }
+  ],
+  "preserved_CNS": {
+    "graph_runtime.py": "dc6a9def407ea9f39a39783fffd72e02ec0e22b8bcf268e1f87b27f9d34b3de7",
+    "event_projection.py": "e4cc4ad2b2ec2e74c147d3fcb9992d2dd1e290d6946ba87d2ebb01b4e01b61bf",
+    "resident_controller.cu": "c7638124427546693bf487c9050bcf516307512c29d172e785e96455f535f95b",
+    "libresident_controller.so": "4462ff86ea4c12f134570c6377ddf5ce7d984311dcc9a2fd827ef08b53020ff7"
+  }
+}

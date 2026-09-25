@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/daroch/miniconda3/envs/GPU/bin/python",
+    "-u",
+    "-B",
+    "run_real.py",
+    "--mode",
+    "candidate",
+    "--ms",
+    "1",
+    "--field",
+    "odor_left",
+    "--out",
+    "smoke1_01",
+    "--compact-state",
+    "--wall-limit",
+    "100"
+  ],
+  "budget_s": 120,
+  "status": "FINISHED",
+  "pid": 446686,
+  "exit_code": 0,
+  "wall_s": 26.92338248800661,
+  "simulation_status": "COMPLETE",
+  "completed_ms": 1,
+  "cleanup_errors": []
+}

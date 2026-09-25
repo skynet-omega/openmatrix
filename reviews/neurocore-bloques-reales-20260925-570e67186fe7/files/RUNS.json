@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "candidate",
+    "command": [
+      "/home/daroch/miniconda3/envs/GPU/bin/python",
+      "-u",
+      "-B",
+      "run_real.py",
+      "--mode",
+      "candidate",
+      "--ms",
+      "100",
+      "--field",
+      "odor_left",
+      "--out",
+      "candidate100_01",
+      "--compact-state",
+      "--wall-limit",
+      "850"
+    ],
+    "gpu_before": "NVIDIA GeForce RTX 4070 Ti SUPER, 1676 MiB, 80 %",
+    "exclusive_gpu": false,
+    "status": "FINISHED",
+    "pid": 447329,
+    "exit_code": 0,
+    "exit_evidence": "Linux zombie wait status read from /proc before cancelling dispatch supervisor",
+    "simulation_status": "COMPLETE",
+    "completed_ms": 100,
+    "cleanup_errors": [],
+    "process_wall_s": 596.025297811997
+  },
+  {
+    "mode": "reference",
+    "status": "REUSED_FROZEN_CONTROL",
+    "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/neurocore_continuidad_20260925_02/reference100_01",
+    "exit_code": 0,
+    "simulation_status": "COMPLETE",
+    "completed_ms": 100,
+    "cleanup_errors": [],
+    "executed_this_round": false,
+    "original_process_wall_s": 670.0362077630125,
+    "process_wall_s_this_round": 0.0
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "status": "PASS_CLEAN_EXTRACTION",
+  "archive": "/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/outputs/Motor_CUDA_etapa2_evidencia.zip",
+  "extraction": "/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/blocks_release_check",
+  "checks": [
+    {
+      "check": "blocks_evidence_normal",
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "-B",
+        "verify_saved.py"
+      ],
+      "exit_code": 0,
+      "wall_s": 9.413239615008933,
+      "output": "{\"status\": \"EVIDENCE_RECOMPUTED\", \"files\": 78, \"comparison_status\": \"PASS_COUPLED_NUMERICAL\", \"python_optimized\": false, \"scope\": \"Saved real trajectories and PN/events recomputed; no new organism simulation\"}"
+    },
+    {
+      "check": "blocks_evidence_optimized",
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "-B",
+        "-O",
+        "verify_saved.py"
+      ],
+      "exit_code": 0,
+      "wall_s": 9.706128535006428,
+      "output": "{\"status\": \"EVIDENCE_RECOMPUTED\", \"files\": 78, \"comparison_status\": \"PASS_COUPLED_NUMERICAL\", \"python_optimized\": true, \"scope\": \"Saved real trajectories and PN/events recomputed; no new organism simulation\"}"
+    },
+    {
+      "check": "blocks_reject_corruption",
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "-B",
+        "-O",
+        "verify_saved.py"
+      ],
+      "exit_code": 1,
+      "wall_s": 9.38344092600164,
+      "output": ""
+    },
+    {
+      "check": "blocks_fresh_controller_build",
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "-B",
+        "build.py",
+        "--out",
+        "librebuilt_controller.so"
+      ],
+      "exit_code": 0,
+      "wall_s": 1.262772665999364,
+      "output": ""
+    },
+    {
+      "check": "blocks_fresh_membrane_model_compile",
+      "command": [
+        "/home/daroch/miniconda3/pkgs/cuda-nvcc-12.1.66-0/bin/nvcc",
+        "--ptx",
+        "--std=c++17",
+        "-arch=sm_89",
+        "-ccbin=/usr/bin/g++-12",
+        "--fmad=false",
+        "--prec-div=true",
+        "-I/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/blocks_release_check",
+        "-I/home/daroch/miniconda3/pkgs/cuda-cudart-dev-12.1.55-0/include",
+        "membrane_model.cu",
+        "-o",
+        "membrane_model.ptx"
+      ],
+      "exit_code": 0,
+      "wall_s": 0.41850219600019045,
+      "output": ""
+    },
+    {
+      "check": "blocks_fresh_linear_mass_model_compile",
+      "command": [
+        "/home/daroch/miniconda3/pkgs/cuda-nvcc-12.1.66-0/bin/nvcc",
+        "--ptx",
+        "--std=c++17",
+        "-arch=sm_89",
+        "-ccbin=/usr/bin/g++-12",
+        "--fmad=false",
+        "--prec-div=true",
+        "-I/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/blocks_release_check",
+        "-I/home/daroch/miniconda3/pkgs/cuda-cudart-dev-12.1.55-0/include",
+        "linear_mass_model.cu",
+        "-o",
+        "linear_mass_model.ptx"
+      ],
+      "exit_code": 0,
+      "wall_s": 0.23033686701091938,
+      "output": ""
+    }
+  ],
+  "wall_s": 36.4974080969987,
+  "new_gpu_execution": false,
+  "scope": "Saved-state comparison normal/-O, corruption rejection and CPU compilation from fresh sources. Original GPU guards and real organism executed before packaging; no second organism/GPU run during resource contention."
+}
