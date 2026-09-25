@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "label": "motor-kc-apl-stream-repair-20260925",
+  "description": "Stream-ordered repeat of one real 1-ms KC/APL A-B-A lesion. Full consumed/baseline/lesion/restored arrays saved and independently recomputed; selected 836605 edges, 698768 nonzero weights, exact target/rate on two query states. No pruning, speed gain or Stage4/5 admission.",
+  "files": [
+    {
+      "path": "repair/KC_APL_STREAM_REPAIR_REVIEW.md",
+      "bytes": 2429,
+      "sha256": "97c9388f19cf22d4210cb28cb1a88c6e2606b561b6de7e1da5a37c617a4646dd"
+    },
+    {
+      "path": "repair/KC_APL_STREAM_REPAIR_PLAN_24.json",
+      "bytes": 3064,
+      "sha256": "7cce9f1a42e127581a7ab9179b9fddfb1390dc8cc41364048f1538fd2020f8c5"
+    },
+    {
+      "path": "repair/probe_kc_apl_same_run_v3.py",
+      "bytes": 17063,
+      "sha256": "bc74f100559efcae98512dc6b4caeca547b888375074273a2f6d0d1e9e8c2d88"
+    },
+    {
+      "path": "repair/verify_kc_apl_stream_lesion.py",
+      "bytes": 3358,
+      "sha256": "6cde3cb72014970ccfcc5a340326f3be3089d8ce63b156e4907446254bd0a531"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/LESION_RESULT.json",
+      "bytes": 3520,
+      "sha256": "1ce902a2f9c12228f73382a4f1987624cf805d9a2455c53263876bf41ac0a9dd"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/ABA_ARRAYS.npz",
+      "bytes": 37971051,
+      "sha256": "7b7c77fb1fb07d89bd7b3e45942871e20b32362108d97f58897b0cb292c308e7"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/VERIFY.json",
+      "bytes": 455,
+      "sha256": "ef6a1141ee0e848f02990a37e133d84fb6fc4ec39940cdfd9d92685a0593af2e"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/VERIFY_OPT.json",
+      "bytes": 455,
+      "sha256": "ef6a1141ee0e848f02990a37e133d84fb6fc4ec39940cdfd9d92685a0593af2e"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/RESULT.json",
+      "bytes": 3299,
+      "sha256": "3ccd99759cf14fb4b0ca9ffe660ad33945b38fae18c5fe5e0633980df508dce1"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/FROZEN.json",
+      "bytes": 2006,
+      "sha256": "c0b7e76f74de2e1b14e06ef25cfc809a136ae24e45ce8cc7ab3a89cb378db2cf"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/RUN_CONTRACT.json",
+      "bytes": 728,
+      "sha256": "1cd0c1c11ec6ca9460c4d5ab98d065bfb1d3c09ba2aa111c9a3c6c9d24177d61"
+    },
+    {
+      "path": "repair/kc_apl_stream_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "repair/kc_apl_stream_corrupt_01/CORRUPTION_TEST.json",
+      "bytes": 120,
+      "sha256": "4b540812dd7dd0ecdc1404a3bc6e85077c1b9f8625366444fd6b2c6c71f4baf8"
+    }
+  ]
+}

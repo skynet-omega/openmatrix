@@ -1,0 +1,39 @@
+{
+  "schema": "kc_apl_stream_repair_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "ChatGPT identified cross-stream copies in prior same-run lesion. This is a plausible race, not a demonstrated failure; the prior PASS is provisional until stream-ordered replay with full arrays.",
+  "predecessor_result_sha256": "a65a5c0d89908c0f3a3b7f61dd6b5d38873d58202aec5f2ea34c4cb56b23538f",
+  "question": "For the same newly executed real accepted 125-us block, does zeroing all 836605 incoming base edges into 4064 KC/APL dynamic rows alter any full target/rate output at the deterministic query indices 2 and last?",
+  "design": "Repeat one 1-ms neutral real organism run with same consumed queries and same KC/APL weight lesion. All input, baseline, lesion and restore copies are enqueued on oracle.stream; synchronize before comparison or CPU export. Save consumed/baseline/lesion/restored full target/rate and selected weights. Recompute from arrays independently.",
+  "frozen_inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/multirate_real_20260924_01/capture_effective_block.py": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8"
+  },
+  "script_sha256": "bc74f100559efcae98512dc6b4caeca547b888375074273a2f6d0d1e9e8c2d88",
+  "verifier_sha256": "6cde3cb72014970ccfcc5a340326f3be3089d8ce63b156e4907446254bd0a531",
+  "states_rule": "query indices [2, m-1], where m is the current block's captured query count; require 3<=m<=128 and accepted block duration125000ns",
+  "gates_frozen": {
+    "baseline_projected_state_exact": true,
+    "baseline_target_rate_exact": true,
+    "selected_weights_restored_exact": true,
+    "post_restore_target_rate_exact": true,
+    "lesion_full_target_rate_exact": true,
+    "maximum_abs_error": 0,
+    "nonfinite_count": 0
+  },
+  "budget": {
+    "organism_runs": 1,
+    "simulation_ms": 1,
+    "wall_seconds_max": 120,
+    "ram_gib_max": 18,
+    "incremental_vram_gib_max": 12,
+    "disk_bytes_max": 734003200
+  },
+  "stop_rule": "Stop after one run or first baseline/lesion/restore mismatch; preserve failed artifacts; no threshold changes.",
+  "interpretation": "If both runner and independent array verifier pass, only local dependency evidence. No edge pruning, speedup, generic validity or Stage4/5 advancement."
+}

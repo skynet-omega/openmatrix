@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-release-reuse-traffic-20260925](reviews/motor-release-reuse-traffic-20260925-a78ac7dbe256/README.md)
+[motor-kc-apl-stream-repair-20260925](reviews/motor-kc-apl-stream-repair-20260925-66fd2ecf32b8/README.md)
 
-Real 125us CNS block: exact source-release changes, same-time consumed target/rate differences, conditional GPU bandwidth floor, and a 61.4MB lossless portable subset. No new integrator, speed gain, or Stage4/5 admission.
+Stream-ordered repeat of one real 1-ms KC/APL A-B-A lesion. Full consumed/baseline/lesion/restored arrays saved and independently recomputed; selected 836605 edges, 698768 nonzero weights, exact target/rate on two query states. No pruning, speed gain or Stage4/5 admission.
