@@ -1,0 +1,129 @@
+{
+  "schema": "nsys_api_only_summary_v1",
+  "sqlite_sha256": "1ac5b8cf5d94428885dfb645b565875bf450643b140c5cc528e186f76cb9f9ea",
+  "api_rows": [
+    {
+      "name": "cudaStreamSynchronize_v3020",
+      "calls": 1376,
+      "total_ns": 1916922935
+    },
+    {
+      "name": "cudaMemcpyAsync_v3020",
+      "calls": 3871,
+      "total_ns": 465186135
+    },
+    {
+      "name": "cudaGraphLaunch_v10000",
+      "calls": 212,
+      "total_ns": 109200745
+    },
+    {
+      "name": "cuModuleLoadData",
+      "calls": 39,
+      "total_ns": 32073551
+    },
+    {
+      "name": "cuLaunchKernel",
+      "calls": 4913,
+      "total_ns": 31525454
+    },
+    {
+      "name": "cudaMalloc_v3020",
+      "calls": 150,
+      "total_ns": 23707920
+    },
+    {
+      "name": "cudaHostAlloc_v3020",
+      "calls": 12,
+      "total_ns": 6748116
+    },
+    {
+      "name": "cudaGraphInstantiate_v12000",
+      "calls": 3,
+      "total_ns": 4549293
+    },
+    {
+      "name": "cudaEventRecord_v3020",
+      "calls": 691,
+      "total_ns": 3442092
+    },
+    {
+      "name": "cudaMemsetAsync_v3020",
+      "calls": 297,
+      "total_ns": 2178921
+    },
+    {
+      "name": "cudaEventQuery_v3020",
+      "calls": 1656,
+      "total_ns": 1202003
+    },
+    {
+      "name": "cudaStreamIsCapturing_v10000",
+      "calls": 2066,
+      "total_ns": 1157297
+    },
+    {
+      "name": "cudaEventCreateWithFlags_v3020",
+      "calls": 691,
+      "total_ns": 950035
+    },
+    {
+      "name": "cudaLaunchKernel_v7000",
+      "calls": 75,
+      "total_ns": 911726
+    },
+    {
+      "name": "cudaEventDestroy_v3020",
+      "calls": 690,
+      "total_ns": 593800
+    },
+    {
+      "name": "cudaGraphDestroy_v10000",
+      "calls": 3,
+      "total_ns": 314441
+    },
+    {
+      "name": "cuGetProcAddress_v2",
+      "calls": 802,
+      "total_ns": 109396
+    },
+    {
+      "name": "cudaStreamEndCapture_v10000",
+      "calls": 3,
+      "total_ns": 57051
+    },
+    {
+      "name": "cudaStreamBeginCapture_v10000",
+      "calls": 3,
+      "total_ns": 56268
+    },
+    {
+      "name": "cudaMallocHost_v3020",
+      "calls": 2,
+      "total_ns": 49058
+    },
+    {
+      "name": "cudaStreamCreateWithFlags_v5000",
+      "calls": 3,
+      "total_ns": 18126
+    },
+    {
+      "name": "cuInit",
+      "calls": 2,
+      "total_ns": 4214
+    },
+    {
+      "name": "cudaStreamDestroy_v5050",
+      "calls": 1,
+      "total_ns": 2361
+    },
+    {
+      "name": "cuModuleGetLoadingMode",
+      "calls": 2,
+      "total_ns": 451
+    }
+  ],
+  "kernel_activity_available": false,
+  "gpu_memcpy_activity_available": false,
+  "scope": "API host durations across whole captured sham1ms step, not per-owner GPU execution and not a speedup."
+}

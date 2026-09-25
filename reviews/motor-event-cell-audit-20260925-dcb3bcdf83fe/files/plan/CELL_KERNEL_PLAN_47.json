@@ -1,0 +1,25 @@
+{
+  "schema": "cell_kernel_timing_plan_v2",
+  "question": "Resolve CUDA-event versus host-owner clock inconsistency per actual somatic call in one sham organism ms",
+  "protocol": "One new instrumented sham 1ms run; record per-call CUDA-event kernel, per-call host advance wall, and native owner wall delta. Preserve original run as failed timing attribution; no tuning.",
+  "comparison": "Uninstrumented baseline and previous diagnostic; compare final scientific state/events/body and establish whether kernel times fit host intervals.",
+  "budget": {
+    "runs_max": 1,
+    "simulated_ms": 1,
+    "wall_s_max": 120,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 734003200
+  },
+  "frozen_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/epoch_cost_20260923/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "motor_nuevo/epoch_cost_20260923/device_cell.cu": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e",
+    "motor_nuevo/epoch_cost_20260923/physical_events.cu": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/owner_fallback_cost_20260924_01/probe_cell_kernel_timing_v2.py": "cdf23ae24c9daabb5f73f5fb941e9bbfbe912859073a4ee7464e1d354008ded4"
+  },
+  "baseline_result_sha256": "91956e9f446dc8ca3ea89578c1ec591fbe24a0e36a3412e3de77a24da20ca6cf",
+  "baseline_final_manifest_sha256": "21bed58416cb97eab58e84a9aa9fb8c7687e3af1a1fae1a1edef7f64d7366701",
+  "stop": "If output differs biologically or device time exceeds containing host wall, record clock attribution as unverified rather than infer kernel fraction."
+}

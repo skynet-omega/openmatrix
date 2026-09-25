@@ -1,0 +1,40 @@
+{
+  "schema": "event_step_strict_audit_v1",
+  "pair_sha256": "e9ced3ae8e1f6083b8ec318b6410d904b35675678353eba3b51730aeb6a2fad5",
+  "audit_sha256": {
+    "event_step_baseline_long_01": "1f889382f5b65c97f70be7e412f2d134e56dfb15759930a1ff098966126e7547",
+    "event_step_candidate_long_01": "2bcfb32e0fb3a4a8f133c784282b3badffb2d89b3766f0adbaeae671169816bc"
+  },
+  "status": "PASS_STRICT_EVENT_LOG_CHECK",
+  "events": {
+    "records": 1564,
+    "speculative_records": 528,
+    "confirmed_records": 1036,
+    "speculative_blocks": 160,
+    "confirmed_blocks": 160,
+    "max_time_s": 4.4991243841390957e-10,
+    "max_jump": 3.63431507111045e-12,
+    "max_post_q": 3.2580621533995213e-10,
+    "confirmed_span_ms": 20.0
+  },
+  "final_state_max_index": 58613,
+  "final_state_max_normalized_error": 0.9317595534541555,
+  "final_state_at_index": [
+    0.01433065581157485,
+    0.014330882516897141
+  ],
+  "auxiliary_endpoint_max_abs": {
+    "pending_excitation": 9.082508443253312e-10,
+    "pending_sensors": 0.0,
+    "muscles_activation": 3.193310060822796e-10,
+    "plasticity_factors": 0.0
+  },
+  "corruptions_rejected": [
+    "start_elapsed_ns",
+    "neuron_id",
+    "time_s",
+    "jump",
+    "post_q"
+  ],
+  "scope": "Endpoint and logged half/full trials only; no full neural trajectory certification."
+}

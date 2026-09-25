@@ -1,0 +1,24 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": "Asesoría clasificatoria, no simulación. Objetivo 5 segundos de organismo completo en 5–10 minutos reales con error científico verificado. Candidato de controlador temporal sham20ms redujo pared acoplada 63,939→49,238 s, estado CNS final máximo 0,932 tolerancias, pero sigue ~2,46 s/ms frente a meta 0,12 s/ms. Auditoría corregida: 160 bloques especulativos 62,5us con 528 registros de eventos y 160 confirmados 125us con 1036 registros; no son 1564 eventos físicos únicos. Congelar RHS en bloque real125us falla proxy en 42/60 consultas, y aun con ocho anclas falla 13/60. ChatGPT propuso MRI con cinco consultas completas y un fixture de evento tardío falla correctamente; falta proveedor rápido que no llame al global en cada evento. Celular CUDA aparte consume ~0,263 s/ms en el motor vigente y superar la meta requiere también al menos 2,19× allí. Dos ensayos con cuda.Event resultaron mayores que la pared interna del owner; perfil Nsight en curso. Dos primitivas CSC previas fallaron coste y error. Etapas4/5 abiertas.",
+  "questions": {
+    "next_cns_discriminator": {
+      "instructions": "Clasifica qué alternativa tiene mayor valor decisorio como siguiente sonda acotada en bloque REAL, sin prometer aceleración. Penaliza supuestos de recurrencia omitida y trabajo escondido.",
+      "criteria": {
+        "A_MRI_corrected_fast": "Construir F_fast con eventos/estado local y fuerza recurrente corregida por F_full−F_fast en etapas lentas; no aceptar si F_fast requiere barrido global por evento; medir endpoint, defecto, aristas y todos los propietarios.",
+        "B_Krylov_JVP": "Probar exponencial/implícito con JVP del operador completo y precondicionador medidos, preservando eventos y masa; rechazar si productos equivalentes o error superan contrato.",
+        "C_QSS_certified_schedule": "Agenda asíncrona basada en influencia/cotas por bloque receptor, sin escaneo global en cada microevento; verificar tolerancia de estado y órdenes de eventos, contabilizar invalidación de dependencias.",
+        "D_exact_compiled_runtime": "Conservar todos los productos pero compilar y coordinar GPU/CPU sin envoltorio Python; medir techo, ya que el barrido CSR actual aislado sugiere que no basta por sí solo."
+      }
+    },
+    "chief_methodological_risk": {
+      "instructions": "Elige el riesgo que más probablemente invalidaría una promoción prematura hacia etapa4/5; la selección es sólo guía para un control experimental.",
+      "criteria": {
+        "late_recurrence": "Un evento tardío cambia la recurrencia después de la última etapa lenta; un estimador embebido o unas pocas auditorías pueden no acotar el defecto entre muestras.",
+        "event_record_confusion": "Contar registros especulativos y confirmados como eventos físicos únicos produce una falsa cota de trabajo para arquitecturas nuevas.",
+        "somatic_floor": "Acelerar sólo CNS deja el costo medido del owner celular por encima de toda la meta de pared por ms.",
+        "endpoint_only": "Estado CNS sólo al final y yaw final no certifican toda la trayectoria, estados especializados ni comportamiento olfativo largo."
+      }
+    }
+  }
+}

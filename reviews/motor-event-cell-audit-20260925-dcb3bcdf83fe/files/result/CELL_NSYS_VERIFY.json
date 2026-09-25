@@ -1,0 +1,11 @@
+{
+  "schema": "cell_nsys_verify_v1",
+  "status": "SCIENTIFIC_OUTPUT_EXACT__GPU_KERNEL_TRACE_UNAVAILABLE",
+  "run_result_sha256": "882aae94df286895a12ce89cf7f8469d02753c5377eab41f0bc25c90a46d8c1d",
+  "sqlite_sha256": "1ac5b8cf5d94428885dfb645b565875bf450643b140c5cc528e186f76cb9f9ea",
+  "runtime_api_calls": 17563,
+  "kernel_table_present": false,
+  "gpu_memcpy_table_present": false,
+  "owner_wall_s": 0.2737496770278085,
+  "scope": "Nsight 2022.4 captured CUDA API but no GPU kernel/memcpy activity table on this WSL host. No kernel fraction can be inferred."
+}

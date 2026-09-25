@@ -1,0 +1,23 @@
+{
+  "schema": "cell_kernel_timing_verification_v1",
+  "status": "SCIENTIFIC_OUTPUT_EXACT__KERNEL_FRACTION_UNVERIFIED",
+  "runs": [
+    {
+      "run": "cell_kernel_timing_01",
+      "scientific_outputs_exact": true,
+      "sum_kernel_cuda_event_s": 0.28102553367614747,
+      "native_owner_wall_s": 0.26580301600915845,
+      "kernel_exceeds_owner_wall_s": 0.01522251766698901
+    },
+    {
+      "run": "cell_kernel_timing_02",
+      "scientific_outputs_exact": true,
+      "sum_kernel_cuda_event_s": 0.28109097671508787,
+      "native_owner_wall_s": 0.26547023303282913,
+      "kernel_exceeds_owner_wall_s": 0.015620743682258742,
+      "sum_host_advance_s": 0.28225667696096934,
+      "kernel_exceeds_owner_call_count": 15
+    }
+  ],
+  "interpretation": "CUDA event interval exceeds containing native-owner wall in both runs; use a profiler timeline before attributing exact kernel fraction."
+}

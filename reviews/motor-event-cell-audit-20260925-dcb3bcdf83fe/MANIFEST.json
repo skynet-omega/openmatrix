@@ -1,0 +1,132 @@
+{
+  "format_version": 2,
+  "label": "motor-event-cell-audit-20260925",
+  "description": "Revisión estricta de evento especulativo/confirmado y costo celular en organismo real, con perfil CUDA de alcance limitado y asesoría Jev. Sin evidencia de velocidad objetivo ni cierre de etapas4/5.",
+  "files": [
+    {
+      "path": "review/EVENT_STEP_STRICT_ADDENDUM.md",
+      "bytes": 2414,
+      "sha256": "b5ba22f2e828c2e1827f0ac53823331b46d7b42911ff745ee08fc198aabb7d5e"
+    },
+    {
+      "path": "code/verify_event_step_audit_strict.py",
+      "bytes": 5885,
+      "sha256": "8c4e297980fe27097df0b716abdd85f9f9cc33b43be2cd6aff4c9fa859ecb960"
+    },
+    {
+      "path": "result/STRICT_EVENT_AUDIT_RESULT.json",
+      "bytes": 1300,
+      "sha256": "381f6aeb0d8808fa47bfeb0d3b03a5ac2c2c0590842136650209fb721f535554"
+    },
+    {
+      "path": "result/STRICT_EVENT_AUDIT_RESULT_O.json",
+      "bytes": 1300,
+      "sha256": "381f6aeb0d8808fa47bfeb0d3b03a5ac2c2c0590842136650209fb721f535554"
+    },
+    {
+      "path": "context/EVENT_STEP_PAIR_LONG_RESULT.json",
+      "bytes": 1458,
+      "sha256": "e9ced3ae8e1f6083b8ec318b6410d904b35675678353eba3b51730aeb6a2fad5"
+    },
+    {
+      "path": "review/CELL_OWNER_PROFILE_REVIEW.md",
+      "bytes": 2628,
+      "sha256": "c0f88550e2bc63cce0b1a3b84f80f89073fa2e11874a7a9368a445cc34a98530"
+    },
+    {
+      "path": "plan/CELL_KERNEL_PLAN_46.json",
+      "bytes": 1864,
+      "sha256": "76b707692fa57ba914b9b784102a173f79015cc8ece9d87aeb77891318546712"
+    },
+    {
+      "path": "plan/CELL_KERNEL_PLAN_47.json",
+      "bytes": 1968,
+      "sha256": "df29f68d1e242682a47b0f08bea831790345ee2e85b7691cd9fb04bd694773b9"
+    },
+    {
+      "path": "plan/CELL_NSYS_PLAN_48.json",
+      "bytes": 2043,
+      "sha256": "4e02edb46f05d23086eaae4a2b42a200f4c43f1962b46845c5eabe7475993546"
+    },
+    {
+      "path": "code/probe_cell_kernel_timing.py",
+      "bytes": 4734,
+      "sha256": "37b5f327d53cfd429d8ed6a191e16d648dd8875e9958aa7550508bdb72fef002"
+    },
+    {
+      "path": "code/probe_cell_kernel_timing_v2.py",
+      "bytes": 5340,
+      "sha256": "cdf23ae24c9daabb5f73f5fb941e9bbfbe912859073a4ee7464e1d354008ded4"
+    },
+    {
+      "path": "code/profile_cell_nsys.py",
+      "bytes": 4310,
+      "sha256": "57cf981fd503c757c43f727fc7f241abdfe71afade49e217cc04175aa790c87d"
+    },
+    {
+      "path": "code/verify_cell_kernel_timing.py",
+      "bytes": 4831,
+      "sha256": "29580babccbf87620b5add692e7b86badbc7836de5615ccc7187bfada9f1ceb8"
+    },
+    {
+      "path": "code/verify_cell_nsys.py",
+      "bytes": 2693,
+      "sha256": "16e5fc7232d68d23a988bd64d45025bc6bbc0bb5698232e09b7b85d165919961"
+    },
+    {
+      "path": "result/CELL_KERNEL_VERIFY_RESULT.json",
+      "bytes": 895,
+      "sha256": "b652aa0ffd1c3ab12b69cec24caa1ac240749f8b438699ba97a068cd54bd437f"
+    },
+    {
+      "path": "result/CELL_KERNEL_VERIFY_RESULT_O.json",
+      "bytes": 895,
+      "sha256": "b652aa0ffd1c3ab12b69cec24caa1ac240749f8b438699ba97a068cd54bd437f"
+    },
+    {
+      "path": "result/CELL_NSYS_VERIFY.json",
+      "bytes": 563,
+      "sha256": "6a6164966dead39513adf4dcb89f922a197fdd99bfdacfc55daabd2b65061f41"
+    },
+    {
+      "path": "result/CELL_NSYS_VERIFY_O.json",
+      "bytes": 563,
+      "sha256": "6a6164966dead39513adf4dcb89f922a197fdd99bfdacfc55daabd2b65061f41"
+    },
+    {
+      "path": "result/CELL_NSYS_API_SUMMARY.json",
+      "bytes": 2691,
+      "sha256": "f2d792223ccad698cb9af9ccd42b03b1d6a3f7d4f4e7d24e640f35c62cc367c8"
+    },
+    {
+      "path": "result/CELL_KERNEL_TIMING_RESULT_01.json",
+      "bytes": 960,
+      "sha256": "1fc38e7ba2073a04c162fd41d3c59cc728b8c6db7b55f2a08d89c1f73173e4b9"
+    },
+    {
+      "path": "result/CELL_KERNEL_TIMING_RESULT_02.json",
+      "bytes": 1879,
+      "sha256": "f31a9ff35b0c888a2aa4b4a5f91fc052604c193e4f37d0619138ccb50b581224"
+    },
+    {
+      "path": "result/CELL_NSYS_RUN_RESULT.json",
+      "bytes": 1317,
+      "sha256": "84bd517d95986c51d43e6f0319e651717ac639079b6f21777b1c192cbf504dcd"
+    },
+    {
+      "path": "advisory/JEV_SPEC_09.json",
+      "bytes": 3218,
+      "sha256": "80471b7c29331823b73f6e8a428a6b8ee1cbc0cb30d5783729e479011386c4bb"
+    },
+    {
+      "path": "advisory/JEV_RESPONSE_09.json",
+      "bytes": 556,
+      "sha256": "71c3411749a97ea9b8dfcbb3cf33936c2097e532a2a1fab91d7599e803d17f7e"
+    },
+    {
+      "path": "advisory/JEV_RECEIPT_09.json",
+      "bytes": 416,
+      "sha256": "e9185ecddcb0f3fcf33ba95d29d6d753e8d589ca4432e709a0d213f0dbac525f"
+    }
+  ]
+}

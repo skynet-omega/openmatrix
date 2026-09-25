@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-rhs-freeze-negative-20260925](reviews/motor-rhs-freeze-negative-20260925-7a3aa3bb3a5d/README.md)
+[motor-event-cell-audit-20260925](reviews/motor-event-cell-audit-20260925-dcb3bcdf83fe/README.md)
 
-Criba sobre60 consultas reales: congelar el RHS completo falla el indicador local en42/60, y aun anclado por intervalo en13/60. Fuente completa local fijada por SHA, sin nueva trayectoria ni veredicto de MRI.
+Revisión estricta de evento especulativo/confirmado y costo celular en organismo real, con perfil CUDA de alcance limitado y asesoría Jev. Sin evidencia de velocidad objetivo ni cierre de etapas4/5.
