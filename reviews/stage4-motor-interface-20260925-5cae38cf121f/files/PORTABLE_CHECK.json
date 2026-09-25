@@ -1,0 +1,30 @@
+{
+  "readout_classification": "DESCARTADO",
+  "rest_candidate_deg": 0.09572383509653769,
+  "gates": {
+    "heldout_rest_nonregression": false,
+    "static_left_direction": true,
+    "static_right_direction": true,
+    "spatial_plus_direction": true,
+    "spatial_minus_direction": true,
+    "static_bilateral_separation": true,
+    "spatial_bilateral_separation": true
+  },
+  "bounds": {
+    "long_identity": {
+      "lower_deg": -0.545,
+      "upper_deg": 0.0
+    },
+    "long_equal": {
+      "lower_deg": 0.0,
+      "upper_deg": 1.675
+    },
+    "shared_equal_minus_original": {
+      "lower_deg": 0.0,
+      "upper_deg": 2.1350000000000002
+    }
+  },
+  "population_cells": 22,
+  "zero_both_final_cells": 17,
+  "scope": "Recomputed command screen, algebraic bounds and published endpoints only; no organism or physiological calibration"
+}

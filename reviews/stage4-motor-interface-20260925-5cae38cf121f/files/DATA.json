@@ -1,0 +1,135 @@
+{
+  "scope": "Exact selected arrays extracted locally from full raw NPZ files; original byte identities recorded, omitted arrays are not part of this capsule. Full published rate vectors included. Whole organism checkpoints are not included.",
+  "traces": {
+    "sham": {
+      "path": "data/sham.npz",
+      "original_sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8",
+      "subset_sha256": "2fd4209e0180aa2887f5fb4248632dc17d897b55b16b7bc237674ece7bca095a",
+      "arrays": {
+        "DN_q_usada": "c900a4e5ed4279e9e9f99712a6ca2c0039de6bbbbf243adb4392005d37fee09a",
+        "DN_q_actual": "a4b0eea877307ceb70290492e378d4321df3c14d9b7479cc60b7bc1e9a3a5825",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "ecf4c643fc883afb6e3eabef87bdfa7af0beb879234b4ad31560fa8e30f0ad99",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "7699f2712dee335b3d68401dc0a6e726ab765e5677777666aafc5935d8727dbb",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "uniform": {
+      "path": "data/uniform.npz",
+      "original_sha256": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615",
+      "subset_sha256": "9e528788cb9232768cd2e4f4629a32cb3affda4244c131d2c84b802fcae8181b",
+      "arrays": {
+        "DN_q_usada": "5b6014ce06b232af8e48e1a140a64e79504ceb9c649ecc8bc6f7f3db13f10c32",
+        "DN_q_actual": "40448d71fdcd360ca14d0cff0a9038ff4e4af37b3a6770bba95673bcba67d397",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "9f4e6c91fbf4679a8998b658fc2105f499f6cd528db29677fdbcfb8e5df9e619",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "47761eb1fd89af741f473f0458a0b47159eb59e3bf9b5d75be390494282b49bf",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "odor_left": {
+      "path": "data/odor_left.npz",
+      "original_sha256": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56",
+      "subset_sha256": "60cf1a0082ea81c4e1efbc707d18d67a4cdf5c98a589643d63f5ec7cef8da034",
+      "arrays": {
+        "DN_q_usada": "39a2a7f88a819e9098fdcde6527962aff55f2ac8baefad9698fec96b63d3331e",
+        "DN_q_actual": "15b0c9529a7e71fbf018c4c0f3f0fbd19e0c995896144b6680ac232d813efc3c",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "10d55a19b8f5a82cf9acf8059a4ac402f8a17808760a4811abe8c6422d6bf52e",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "0e5c2ff9f9da3307e8fa7f9df04e60c65e1c691bcbb495514a197f6e9f8fc0fa",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "odor_right": {
+      "path": "data/odor_right.npz",
+      "original_sha256": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3",
+      "subset_sha256": "bc9739ee5c21fbe73706f98958c1885fc5e47a6198b240d593078b447075b0a7",
+      "arrays": {
+        "DN_q_usada": "6ff3a7a6fcf2390709f4cdf87333047eb56b8947cfea1c7484dd4b3e61b0707e",
+        "DN_q_actual": "ee2bb1cbb8cb87b99879eb52a3e739646794ea2e2246e8cdc441ab4daa3e17ee",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "68350b6600f6642400cc52cffb272c0a68aaa435ffa490994ffdfd0461e3ea76",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "e8f6719006cabe384aecdd6330d672afbb19748387d56a65f95362b1a8d19720",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "spatial_plus": {
+      "path": "data/spatial_plus.npz",
+      "original_sha256": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+      "subset_sha256": "365b1b739c71260280f6fff3352c1f48afdefb6577afc5fe9c16df608160dd25",
+      "arrays": {
+        "DN_q_usada": "3b63ca52887f018caea28833bbdbb1adba3f5f116d4942387d2321c5ec89db8f",
+        "DN_q_actual": "0b0476e6b1e528dded3bb8651e622b9fe01372e213dc0aa11c732b450fc35ddd",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "c342352047f8b9d329752db1f614e6e191c44da60f80c2c69e8a8f7de7a18ed2",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "4f94c585785fd9ac02f937b3b4c5df0bb20e38ad43cff6e83f93667760c8170f",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "spatial_minus": {
+      "path": "data/spatial_minus.npz",
+      "original_sha256": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+      "subset_sha256": "1ff13ad4e248f5b6b27cd871e544581da75b4b52a9d1cb2f960863cb663b042b",
+      "arrays": {
+        "DN_q_usada": "0dfe2c808b331cd7e5849fc8d815566be13bac9c349fbd968255e41ec871aa84",
+        "DN_q_actual": "4c4c8984ff6ae70de9e5752ab2eba5ea1aecbc0352660b1940c89a55f3ebe5e1",
+        "DN_baseline": "c414a0250d2cbd5a1b45204e99305b2054b97acffaa05b0085c250668084f6ed",
+        "command_yaw_rate_rad_s": "5fd38d8636855a8e4aa28362d537b2590880f2447d240f474c754bb0a91459db",
+        "command_forward_mm_s": "65d42ee9864d324a6a4a62956b96addf60c36793d3504baf09f72b63ef152555",
+        "sensores_usados": "6925aa881cc7206f0eb32ab6239844c15ab97e50b5e0e910c0701ef8ba2aeb38",
+        "CNS_time_ns": "fac3000abc045fccd93c2d0017c347069c2c99e8f1127482e054220762e6221c"
+      }
+    },
+    "long_identity": {
+      "path": "data/long_identity.npz",
+      "original_sha256": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+      "subset_sha256": "c8aacdeca59cdebf900f0d6b35f398d1b734affe116aa052ece9cab6673f7cda",
+      "arrays": {
+        "DN_q_usada": "da6296adbfcddf041caa1a726ac7fd744c6400924b48ddec66b9dbd274b1f466",
+        "DN_q_actual": "e0e8e26f27a9346d73716ca2f2be8a17d4a02ba5ddd31316259ac19ab118eb00",
+        "DN_baseline": "853a8cb525f4b5ef399e835735db3f04e567305417740f575d22ee0a9461f1fb",
+        "command_yaw_rate_rad_s": "051a1484a740234cefc72cdad15a0a52938496ace4217ebd81f924b3a8aa767a",
+        "command_forward_mm_s": "14dcae365e895709521eaaed17ae2d82787fa12b4006d768155659757cf4bcd2",
+        "sensores_usados": "7c70f07d585f50f46502d9f3d378578bbd1d0bac23f22d258379886b69787d36",
+        "CNS_time_ns": "5b626aacbf02919708d39606a7bba0ccad76490b287020d0cf2f02b789043a56"
+      }
+    },
+    "long_equal": {
+      "path": "data/long_equal.npz",
+      "original_sha256": "27f61f1ad39b7bdc0b563e64b2411cd161cef0674b0ef26b0e5b584cf80756af",
+      "subset_sha256": "6662e632a6b9e7c797e96cb3f6b8b483c3dd480c2d55c4fabb2663c1b2dee3d0",
+      "arrays": {
+        "DN_q_usada": "81cf477bea88d9d147187ec8c3fbb3460c8d3e0c3269bb0c32e5cd691b9896f8",
+        "DN_q_actual": "7b686eeb9a0f96ace74d30f942103df24cd0118c1c6624f456820bdfab71eaf2",
+        "DN_baseline": "853a8cb525f4b5ef399e835735db3f04e567305417740f575d22ee0a9461f1fb",
+        "command_yaw_rate_rad_s": "ce0940f463c2b9d970acd2c409e24f2368832ecc117e143262c5b54acaafa698",
+        "command_forward_mm_s": "14dcae365e895709521eaaed17ae2d82787fa12b4006d768155659757cf4bcd2",
+        "sensores_usados": "5293ad50538acc7fc25c99576d9f8ff1775866a5c630bdbf2287eb7e38f42a6e",
+        "CNS_time_ns": "5b626aacbf02919708d39606a7bba0ccad76490b287020d0cf2f02b789043a56"
+      }
+    }
+  },
+  "published": {
+    "identity_01/prepared_state": {
+      "path": "data/identity_01__prepared_state.npz",
+      "sha256": "701e0d27caa03faa04214e0f3eb22712aeb0e236311d5f7493152a5069116cbc"
+    },
+    "identity_01/final_state": {
+      "path": "data/identity_01__final_state.npz",
+      "sha256": "eecbe68db525d5e87f7efc779d24a5cf66f65d795283f6e380c1e52d3b9c3d4e"
+    },
+    "no_contrast_01/prepared_state": {
+      "path": "data/no_contrast_01__prepared_state.npz",
+      "sha256": "701e0d27caa03faa04214e0f3eb22712aeb0e236311d5f7493152a5069116cbc"
+    },
+    "no_contrast_01/final_state": {
+      "path": "data/no_contrast_01__final_state.npz",
+      "sha256": "0e5c51676b10350fdbd8d574819caa6f806bec3eee74891084e2dca23e658a7f"
+    }
+  }
+}

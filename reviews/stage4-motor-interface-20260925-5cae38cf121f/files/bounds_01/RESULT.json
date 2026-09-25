@@ -1,0 +1,41 @@
+{
+  "individual": {
+    "long_identity": {
+      "lower_deg": -0.545,
+      "upper_deg": 0.0,
+      "unique_amplitudes": 1000,
+      "current_command_deg": -0.022796211107375838
+    },
+    "long_equal": {
+      "lower_deg": 0.0,
+      "upper_deg": 1.675,
+      "unique_amplitudes": 1000,
+      "current_command_deg": 0.06946531865324436
+    }
+  },
+  "shared_equal_minus_original": {
+    "lower_deg": 0.0,
+    "upper_deg": 2.1350000000000002,
+    "unique_amplitudes": 1999,
+    "current_command_difference_deg": 0.0922615297606202
+  },
+  "tests": {
+    "ties": true,
+    "monotone_enumeration": true,
+    "shared_reader": true,
+    "zero": true,
+    "invalid_inputs_rejected": 3
+  },
+  "source_sha256": "3609bb1fbc94a7089d06e8dd5d31601eee7a25f693b9bc1e9d5f9cbafd6ff57e",
+  "plan_sha256": "b643ab634beb645467a86c3ea649283c3fae1aa80c54330c265d6a8a8bb89f27",
+  "input_sha256": {
+    "long_identity": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba",
+    "long_equal": "27f61f1ad39b7bdc0b563e64b2411cd161cef0674b0ef26b0e5b584cf80756af"
+  },
+  "classification": "CONFIRMED_ALGEBRA_ON_FIXED_SIGNALS_ONLY",
+  "no_body_bound": true,
+  "no_gain_selected": true,
+  "new_organism_runs": 0,
+  "stage4_admitted": false,
+  "stage5_admitted": false
+}

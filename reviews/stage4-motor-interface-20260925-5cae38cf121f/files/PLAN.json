@@ -1,0 +1,91 @@
+{
+  "schema": "stage4_motor_interface_screen_v1",
+  "status": "FROZEN_BEFORE_NEW_READOUT_EVALUATION",
+  "utc": "2026-09-25T08:56:40.993394+00:00",
+  "limitation": "A beneficial sensory contrast is insufficient for navigation. Readout uses arbitrary release-to-velocity scaling and fixed birth offset; forward channels DNg100 are silent and forward motion is tonic.",
+  "rivals": {
+    "A": "Explicit calibrated neural-to-actuator port: offset and scale derived only from an odor-free calibration record; common interface independent of CNS engine. Test transport before any organism integration.",
+    "B": "Preserve the reader and change upstream neural processing/population recruitment after identifying a failed layer using signed consumed flow; not a gain change.",
+    "C": "Joint descending control of forward motion and steering: audit the locomotor channels and their interaction before assuming tonic advance is neural navigation. No target-bearing or source position enters a controller."
+  },
+  "operation": "One new functional readout hypothesis: u=5*tanh((qL-qR-mu_rest)/sigma_rest) deg/s. Fixed mu/sigma from first200ms of an existing sham trial. Preserve DN IDs10118L/10065R and 1ms consumed samples. No training on odor labels, pose, bearing, source location or commanded target. Endpoint baseline reset is diagnostic only, not a promoted candidate.",
+  "information": "Exposed historical recordings only. This is an exploratory screening, not a blind confirmation or biological fit; calibration data are separate from the evaluation samples.",
+  "calibration": {
+    "record": "sham",
+    "trial_start_ms": 0,
+    "trial_stop_ms": 200,
+    "preparation_rows": 40,
+    "variance_ddof": 0
+  },
+  "readout": {
+    "neuron_ids": [
+      10118,
+      10065
+    ],
+    "input": "DN_q_usada[:,2:4]",
+    "input_units": "dimensionless model release q; not firing rate or calcium",
+    "output_units": "deg/s",
+    "ceiling_abs": 5.0,
+    "parent_gain": 250.0,
+    "dt_s": 0.001
+  },
+  "prediction": "A rest-scaled port will transfer direction and sustain material directional signal without material new rest drift; failure rejects this normalization, not all calibrated ports.",
+  "screen": {
+    "heldout_rest_ms": [
+      200,
+      400
+    ],
+    "rest_net_nonregression_margin_deg": 0.02,
+    "requires_left_net_positive": true,
+    "requires_right_net_negative": true,
+    "requires_spatial_plus_positive": true,
+    "requires_spatial_minus_negative": true,
+    "minimum_pair_directional_separation_deg": 0.02,
+    "numerical_admission": false,
+    "stage_admission": false,
+    "notes": "The0.02deg margin is a prospective material command screen, not an error bound or navigation threshold. No retuning after failure."
+  },
+  "budget": {
+    "max_new_organism_runs": 0,
+    "max_prototypes": 1,
+    "cpu_wall_s": 180,
+    "max_rss_gib": 4,
+    "max_output_mib": 50,
+    "review_wall_min": 15,
+    "parameter_searches": 0
+  },
+  "inputs": {
+    "sham": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_sham_01/traces.npz",
+      "sha256": "097ee4ef5501bcf6df296c3d2f0b1c108e738da46d2e0cf779cfd3b2359ec5b8"
+    },
+    "uniform": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_uniform_01/traces.npz",
+      "sha256": "e9817f978a629ca64b0967eb2850cb259e33decbba7225588ffe8571f0566615"
+    },
+    "odor_left": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_left_01/traces.npz",
+      "sha256": "b47a8ad07b8b2f8fd1ac0e59f175d762487f2989a3c476fee65a00130cc8fd56"
+    },
+    "odor_right": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/full_odor_right_01/traces.npz",
+      "sha256": "82b0bf25b2de5d019056be1f0b9bac6e25d2ea45b5f2fa29e84b2a8c71d515e3"
+    },
+    "spatial_plus": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/reference_plus_01/traces.npz",
+      "sha256": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b"
+    },
+    "spatial_minus": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_reference_budget_20260924_27/reference_minus_01/traces.npz",
+      "sha256": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7"
+    },
+    "long_identity": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/identity_01/traces.npz",
+      "sha256": "f9b15fcebdb1517d464ea97972f4ce5e0fc7ae46863cf1ee464c855f771969ba"
+    },
+    "long_equal": {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa4_contrast_ablation_20260925_36/no_contrast_01/traces.npz",
+      "sha256": "27f61f1ad39b7bdc0b563e64b2411cd161cef0674b0ef26b0e5b584cf80756af"
+    }
+  }
+}

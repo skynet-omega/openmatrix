@@ -1,0 +1,45 @@
+{
+  "results": {
+    "identity": {
+      "integer_duration": {
+        "lower_deg": -0.545,
+        "upper_deg": 0.0,
+        "unique_amplitudes": 1000
+      },
+      "chatgpt_float_duration": {
+        "min_grados_mando": -0.5450000000000004,
+        "max_grados_mando": 0.0
+      },
+      "maximum_absolute_difference_deg": 3.3306690738754696e-16
+    },
+    "equal": {
+      "integer_duration": {
+        "lower_deg": 0.0,
+        "upper_deg": 1.675,
+        "unique_amplitudes": 1000
+      },
+      "chatgpt_float_duration": {
+        "min_grados_mando": 0.0,
+        "max_grados_mando": 1.6750000000000012
+      },
+      "maximum_absolute_difference_deg": 1.1102230246251565e-15
+    },
+    "shared_equal_minus_identity": {
+      "integer_duration": {
+        "lower_deg": 0.0,
+        "upper_deg": 2.1350000000000002,
+        "unique_amplitudes": 1999
+      },
+      "chatgpt_float_duration": {
+        "min_grados_mando": 0.0,
+        "max_grados_mando": 2.1350000000000016
+      },
+      "maximum_absolute_difference_deg": 1.3322676295501878e-15
+    }
+  },
+  "donor_message_id": "af1741c4-7b88-43d1-bcf1-ae1cd6096b17",
+  "donor_sha256": "ba5f424acf39a4b5ef73fb004d30369b2f21b0f30fdd2d3daec0e6242bd82a34",
+  "execution": "local; ChatGPT did not execute these real arrays",
+  "stage_admission": false,
+  "full_organism_runs": 0
+}

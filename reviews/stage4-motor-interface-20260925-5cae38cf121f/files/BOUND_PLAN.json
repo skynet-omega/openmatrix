@@ -1,0 +1,11 @@
+{
+  "schema": "odd_monotone_reader_bound_v1",
+  "operation": "One CPU pass over the fixed consumed DNb05 signals from campaign36. Bound all odd nondecreasing static f in [-1,1], u=5*f(x), with original fixed baseline. Compute both individual bounds and a shared-reader paired bound.",
+  "origin": "ChatGPT cf9fe063 mathematical proposal; independent Codex implementation and brute-force threshold verification. Actual external code transfer is separately recorded if received.",
+  "scope": "Command integrals on frozen traces only. No claim about body yaw, regenerated neural dynamics, physiology, or all possible readers. Rest-calibrated offsets and stateful readers are outside the fixed-x family.",
+  "inputs": ["long_identity", "long_equal"],
+  "ceiling_deg_s": 5.0,
+  "budget": {"cpu_wall_s": 30, "max_rss_gib": 1, "new_organism_runs": 0, "parameter_searches": 0},
+  "stop": "Compute once; if the bound excludes no relevant fixed-trace claim, label non-discriminating. Do not select a gain or threshold from extremizers. Preserve the rejection of the earlier normalization.",
+  "verification": "Group exact amplitude ties; independently enumerate all threshold functions, include zero, and test a shared reader on identical signals. Test nonfinite state and incompatible clocks. Numeric comparison tolerance1e-12 degrees is for implementation arithmetic only."
+}

@@ -1,0 +1,237 @@
+{
+  "classification": "DESCARTADO",
+  "scope": "One normalization hypothesis, offline exposed records. Commands are not simulated body trajectories or biological measurements.",
+  "plan_sha256": "22baca0732ab2e2e6af7992c33de772a7516e251dfed6f5f4d31949d0470c39c",
+  "source_sha256": {
+    "screen.py": "8aa48696cef35524926aa8af247d9d4938cd2d3378cd90a63eb90eb38e7ea7b0",
+    "motor_port.py": "499ce63013ce73db9311e5328927c1248b172380953a9d919e0b4995b6433550"
+  },
+  "records": {
+    "sham": {
+      "parent": {
+        "net_command_deg": 0.009565903607722233,
+        "absolute_command_deg": 0.06496709315995951,
+        "positive_fraction": 0.615,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": 0.09572383509653769,
+        "absolute_command_deg": 0.9041771107626293,
+        "positive_fraction": 0.54,
+        "near_ceiling_fraction": 0.795
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.03636339464968812,
+        "absolute_command_deg": 0.06244362918741213,
+        "positive_fraction": 0.46,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 200,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "uniform": {
+      "parent": {
+        "net_command_deg": 0.02475301253050572,
+        "absolute_command_deg": 0.057266733749965076,
+        "positive_fraction": 0.6075,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": -0.38106435638461994,
+        "absolute_command_deg": 1.5107566035683588,
+        "positive_fraction": 0.405,
+        "near_ceiling_fraction": 0.545
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.06749289443952648,
+        "absolute_command_deg": 0.08564333373638695,
+        "positive_fraction": 0.2075,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 400,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "odor_left": {
+      "parent": {
+        "net_command_deg": 0.09649081459970917,
+        "absolute_command_deg": 0.09984296503819827,
+        "positive_fraction": 0.92,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": 1.3844617752463813,
+        "absolute_command_deg": 1.7114621259575982,
+        "positive_fraction": 0.88,
+        "near_ceiling_fraction": 0.69
+      },
+      "reset_diagnostic": {
+        "net_command_deg": 0.004241539516173348,
+        "absolute_command_deg": 0.0409133471515278,
+        "positive_fraction": 0.63,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 400,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "odor_right": {
+      "parent": {
+        "net_command_deg": -0.056393289252631436,
+        "absolute_command_deg": 0.07092533614069998,
+        "positive_fraction": 0.2075,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": -1.497982008462439,
+        "absolute_command_deg": 1.6205510049024217,
+        "positive_fraction": 0.1,
+        "near_ceiling_fraction": 0.615
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.14837301612812426,
+        "absolute_command_deg": 0.14837301612812426,
+        "positive_fraction": 0.0,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 400,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "spatial_plus": {
+      "parent": {
+        "net_command_deg": 0.04819446742977209,
+        "absolute_command_deg": 0.0632412026139804,
+        "positive_fraction": 0.8775,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": 0.6119227408531033,
+        "absolute_command_deg": 1.2926340061640371,
+        "positive_fraction": 0.7275,
+        "near_ceiling_fraction": 0.3775
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.044113547912116455,
+        "absolute_command_deg": 0.04789119235564782,
+        "positive_fraction": 0.255,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 400,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "spatial_minus": {
+      "parent": {
+        "net_command_deg": -0.009552298428025961,
+        "absolute_command_deg": 0.04916942704981584,
+        "positive_fraction": 0.47,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": -0.8078169178100904,
+        "absolute_command_deg": 1.3233863764123925,
+        "positive_fraction": 0.3225,
+        "near_ceiling_fraction": 0.3475
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.10175374140060786,
+        "absolute_command_deg": 0.10175374140060786,
+        "positive_fraction": 0.0,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 400,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "long_identity": {
+      "parent": {
+        "net_command_deg": -0.022796211107375834,
+        "absolute_command_deg": 0.1573899609821617,
+        "positive_fraction": 0.454,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": -1.663585351905185,
+        "absolute_command_deg": 3.8696555096932412,
+        "positive_fraction": 0.349,
+        "near_ceiling_fraction": 0.512
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.25321635121749436,
+        "absolute_command_deg": 0.25970593810264236,
+        "positive_fraction": 0.078,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 1000,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    },
+    "long_equal": {
+      "parent": {
+        "net_command_deg": 0.06946531865324436,
+        "absolute_command_deg": 0.160442386903248,
+        "positive_fraction": 0.667,
+        "near_ceiling_fraction": 0.0
+      },
+      "candidate": {
+        "net_command_deg": -0.22745466749930152,
+        "absolute_command_deg": 3.73575877557105,
+        "positive_fraction": 0.459,
+        "near_ceiling_fraction": 0.46
+      },
+      "reset_diagnostic": {
+        "net_command_deg": -0.16112680292569018,
+        "absolute_command_deg": 0.1987985043166563,
+        "positive_fraction": 0.195,
+        "near_ceiling_fraction": 0.0
+      },
+      "samples": 1000,
+      "neural_forward_channels_vary": false,
+      "forward_command_range_mm_s": [
+        0.2,
+        0.2
+      ]
+    }
+  },
+  "gates": {
+    "heldout_rest_nonregression": false,
+    "static_left_direction": true,
+    "static_right_direction": true,
+    "spatial_plus_direction": true,
+    "spatial_minus_direction": true,
+    "static_bilateral_separation": true,
+    "spatial_bilateral_separation": true
+  },
+  "corruptions_rejected": [
+    "swapped_identity",
+    "nonfinite_input",
+    "missing_variation"
+  ],
+  "parameter_searches": 0,
+  "new_organism_runs": 0,
+  "stage4_admitted": false,
+  "stage5_admitted": false
+}
