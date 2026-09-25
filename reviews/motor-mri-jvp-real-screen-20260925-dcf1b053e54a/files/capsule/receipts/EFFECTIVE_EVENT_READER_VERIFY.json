@@ -1,0 +1,19 @@
+{
+  "schema": "effective_event_reader_verify_v1",
+  "status": "PASS_DIAGNOSTIC_ONLY",
+  "same_parent_output_exact": true,
+  "same_event_schedule_exact": true,
+  "source_rows": [
+    35387,
+    36540,
+    51040,
+    57513,
+    60830,
+    62314,
+    108384
+  ],
+  "union_changed_cns_rows": 182,
+  "outside_base_first_hop": 7,
+  "corruption_rejected": true,
+  "scope": "Recomputes saved masks/counts and parent neutrality. Does not independently replay CUDA coefficient deltas or prove temporal error."
+}

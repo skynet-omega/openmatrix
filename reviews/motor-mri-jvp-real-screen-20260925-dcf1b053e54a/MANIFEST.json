@@ -1,0 +1,192 @@
+{
+  "format_version": 2,
+  "label": "motor-mri-jvp-real-screen-20260925",
+  "description": "Datos y codigo de un bloque real MaleCNS: semilla MRI por filas falla criba optimista de seis barridos con 229 llamadas; una JVP completa en una direccion supera prueba local de linealidad. Solo diagnostico, etapas4/5 abiertas.",
+  "files": [
+    {
+      "path": "capsule/CAPSULE_MANIFEST.json",
+      "bytes": 4074,
+      "sha256": "f55f2bd42b01078dceb49ea3b4697811ab1cabead3cd0bd519557fe5479b2fbd"
+    },
+    {
+      "path": "capsule/README.md",
+      "bytes": 1040,
+      "sha256": "75edb9695e7df224625872379e06215db23ecb62479c15a2adef763b33b97343"
+    },
+    {
+      "path": "capsule/code/analyze_row_event_readers.py",
+      "bytes": 5969,
+      "sha256": "9a6214ede5bc8250a85824202f31088cd18a14a41aa25b6fce1b44539dd9a6b0"
+    },
+    {
+      "path": "capsule/code/compute_mri_row_zone_cost.py",
+      "bytes": 5317,
+      "sha256": "410682fc8fa9ea1031cd52f2502896ab2ca4f5987e81c007c8553d87b590c3e2"
+    },
+    {
+      "path": "capsule/code/fast_base_provider.py",
+      "bytes": 11924,
+      "sha256": "9db0a3931b7bc0d6d491168b757eeed513a1018f89945dca3d6117f0c5cd0342"
+    },
+    {
+      "path": "capsule/code/mri_event_probe.py",
+      "bytes": 11803,
+      "sha256": "03ffdf6038772226d4797b837c5ed08275d470019925f697c56d5a23857a15fc"
+    },
+    {
+      "path": "capsule/code/preflight_jvp_real.py",
+      "bytes": 3154,
+      "sha256": "35fde62a3c1b9de8ade59bcc0e154ee9c3432bd84d77d03211c8c6944a6d7816"
+    },
+    {
+      "path": "capsule/code/probe_effective_event_readers.py",
+      "bytes": 10621,
+      "sha256": "6ecccc7095a7f9acc157da019ac6efca1f63988ce147cc549dddcca8482b962e"
+    },
+    {
+      "path": "capsule/code/probe_jvp_real.py",
+      "bytes": 7649,
+      "sha256": "55dd40ca04633a8d785f618bbf792b752e84e2152e60ca667f6ba64042e64805"
+    },
+    {
+      "path": "capsule/code/probe_mri_slow_inputs_v5.py",
+      "bytes": 13349,
+      "sha256": "7a8a552cc428ef3472e9f7cfbcb36cfac4fa08b0e99337c335ff2fb6e5700f51"
+    },
+    {
+      "path": "capsule/code/verify_mri_jvp_capsule.py",
+      "bytes": 5526,
+      "sha256": "97141ebde578c926799db80e28b3a99a89f90a32bf21dda97d1545a89a680c40"
+    },
+    {
+      "path": "capsule/code/zone_cost_gate.py",
+      "bytes": 7086,
+      "sha256": "37b1ee96df837a4c3205eecd0f14bd55db9b960ef957d214df63f81e8d6d06d2"
+    },
+    {
+      "path": "capsule/data/EFFECTIVE_EVENT_READERS.npz",
+      "bytes": 15097,
+      "sha256": "cbfced4763e6d9c3044605d0a367f58d583eb3d373d22af55a8ea720d9fea888"
+    },
+    {
+      "path": "capsule/data/JVP_DIRECTION_62.npz",
+      "bytes": 6231954,
+      "sha256": "2a4fbcf949267ddd78cf467d0df3fcf4b5079d4a8993e34a013e3045ca3aef9e"
+    },
+    {
+      "path": "capsule/data/JVP_REAL_ARRAYS.npz",
+      "bytes": 20993992,
+      "sha256": "dabe36b9a35f5577fc90e315fa198097aa1dd49c975eba55d57a659e356625b9"
+    },
+    {
+      "path": "capsule/data/MRI_ROW_ZONE_ROWS_61.npz",
+      "bytes": 21513,
+      "sha256": "d00a6fa5e691b04582829b9600f8155669bd733e1865467788490a5bae2be1e0"
+    },
+    {
+      "path": "capsule/data/MRI_SLOW_INPUTS.npz",
+      "bytes": 40067528,
+      "sha256": "35c2b82b7a645347bc78bff1dd0f0b661e557726701210fec31bf41b9be46a11"
+    },
+    {
+      "path": "capsule/data/ROW_EVENT_READER_ROWS_57.npz",
+      "bytes": 8465,
+      "sha256": "da511d50a74da57b3df21bbbcb50f5675582a5e2606c386f7974e77a24325e1f"
+    },
+    {
+      "path": "capsule/plans/EFFECTIVE_EVENT_READER_PLAN.json",
+      "bytes": 2692,
+      "sha256": "0a490b0fb04f41669e2e931a2310ba3d2e54b71884aa662bf49f6841ae0019cf"
+    },
+    {
+      "path": "capsule/plans/JVP_EXEC_LOCK.json",
+      "bytes": 514,
+      "sha256": "20f68e9b043abdef4545ec1151094d82eee2a63497d4a43d8ed5fee6510fe759"
+    },
+    {
+      "path": "capsule/plans/JVP_REAL_PLAN.json",
+      "bytes": 2292,
+      "sha256": "99a096b9741c469c8a26d1b49c2a3a592a723386a73f300fbe539fa38373cbc2"
+    },
+    {
+      "path": "capsule/plans/MRI_ROW_ZONE_COST_PLAN.json",
+      "bytes": 1970,
+      "sha256": "b15a8e0d6b9437f98a856b4257502f2ed310906d8e38f025a245704cd7e54fe9"
+    },
+    {
+      "path": "capsule/plans/MRI_SLOW_INPUTS_PLAN.json",
+      "bytes": 4057,
+      "sha256": "31f874aea2a275b6f8b33ac851b60681ed9f7f3a73ba496dacf0f7ab61c7f09e"
+    },
+    {
+      "path": "capsule/plans/ROW_EVENT_READER_PLAN.json",
+      "bytes": 1646,
+      "sha256": "2f8c72b96bbab4572cf66166b111c3c6cfb1a31169469981eb6348a99c75c060"
+    },
+    {
+      "path": "capsule/receipts/EFFECTIVE_EVENT_READER_RESULT.json",
+      "bytes": 3989,
+      "sha256": "aa8834ed1e456154d791abae09e4c873085747983be4cbfdc197cfb7d9531a5e"
+    },
+    {
+      "path": "capsule/receipts/EFFECTIVE_EVENT_READER_VERIFY.json",
+      "bytes": 502,
+      "sha256": "f2f6ac9eb43eaa2b1de76cb533b85adfc532df5946bb22b07b9333ead26b4ba4"
+    },
+    {
+      "path": "capsule/receipts/EVENT_CONE_RESULT.json",
+      "bytes": 2221,
+      "sha256": "e49158b9a4544e719b227a55f367b8d6ccd63468e208da556ffb1e53dd7d9fcf"
+    },
+    {
+      "path": "capsule/receipts/EVENT_SIDE_FIXTURE.json",
+      "bytes": 670,
+      "sha256": "f2e3320324ebc01c97af6c55eeebbf8445b67c5cc8d6ea3c1a3707220157ae92"
+    },
+    {
+      "path": "capsule/receipts/JEV_11_RESPONSE.json",
+      "bytes": 583,
+      "sha256": "20fbbf0b00a07883773ac40405929068be91ef86d3554b4a2893fc687726da2c"
+    },
+    {
+      "path": "capsule/receipts/JVP_PREFLIGHT.json",
+      "bytes": 651,
+      "sha256": "266d5d47fd5aaaf8dc08181460b06bd88529d510935fffd5d1102083a0877047"
+    },
+    {
+      "path": "capsule/receipts/JVP_REAL_RESULT.json",
+      "bytes": 1190,
+      "sha256": "69ac40d47e6a3b5831f924c945a79e81c61a7b14ec118025c66292ecc1fb91c0"
+    },
+    {
+      "path": "capsule/receipts/JVP_REAL_VERIFY.json",
+      "bytes": 335,
+      "sha256": "b5bce0799bd717a316556051d77b37cde637c4f0ba9dc021339bfaf3e509b17f"
+    },
+    {
+      "path": "capsule/receipts/MRI_ROW_ZONE_COST_RESULT.json",
+      "bytes": 1747,
+      "sha256": "0459ae34c6f5239d78f98bee9638251ee97cc8b48418545f02d2b2c9b76818ec"
+    },
+    {
+      "path": "capsule/receipts/MRI_SLOW_INPUTS_VERIFY.json",
+      "bytes": 392,
+      "sha256": "bbbc8037e63ce22e1f7e081847fabd517859e52fd822fadb446342f390987a0c"
+    },
+    {
+      "path": "capsule/receipts/MRI_SLOW_RESULT.json",
+      "bytes": 1963,
+      "sha256": "2910439de30faa02076f33c773466c94fc0128f59dde4b10836fe84ad095beac"
+    },
+    {
+      "path": "capsule/receipts/ROW_EVENT_READER_RESULT.json",
+      "bytes": 2925,
+      "sha256": "80a1b4ab03181b134a7c547a8ba383d3ea9e16df41581db7056f32b1d0641432"
+    },
+    {
+      "path": "capsule/review/MOTOR_DECISION.md",
+      "bytes": 7274,
+      "sha256": "53626a4d081223e3c2ee01ce1fee22002c3e2a4240cdf78a4a1ceb638a50121d"
+    }
+  ]
+}

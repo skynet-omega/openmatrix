@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "a9e3f0c201cfec5369c8936d41c46e96c2cfca56202cce72adbe89a81a57bfa6",
+  "archive_bytes": 67398101,
+  "parts": [
+    {
+      "path": "evidence.zip.part000",
+      "bytes": 41943040,
+      "sha256": "9d2be608356104ce95dc51e3e9677649234f7bbd8d877cbadb5eecdebd9ce3f7"
+    },
+    {
+      "path": "evidence.zip.part001",
+      "bytes": 25455061,
+      "sha256": "6e92ad54af2389a68aadc346e36e1f40afa74af20e3cfaea4f17a46308876e55"
+    }
+  ],
+  "join": "Concatenate parts in listed order to evidence.zip; verify SHA256 before extraction."
+}

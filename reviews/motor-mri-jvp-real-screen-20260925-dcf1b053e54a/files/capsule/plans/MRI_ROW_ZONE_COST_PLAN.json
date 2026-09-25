@@ -1,0 +1,24 @@
+{
+  "schema": "mri_row_zone_cost_plan_v1",
+  "question": "Does ChatGPT's deterministic seed (all observed event readers OR sampled MRI defect >1) fit the six-pass optimistic direct-row CSR budget on the real block, before owner and non-CNS-coordinate closures?",
+  "decision": "Reject only this direct-row CSR realization if even the known q-coordinate base-row union exceeds six passes. A pass leaves A unproven because s/tail mappings, owners, setup, temporal defect certificate and wall cost remain.",
+  "budget": {
+    "runs_max": 1,
+    "wall_s_max": 60,
+    "ram_gib_max": 4,
+    "disk_bytes_max": 1048576
+  },
+  "hypotheses": {
+    "A": "Selected final-row MRI needs few enough full coefficient programs to preserve five slow calls plus at most one equivalent pass of fast work.",
+    "B": "Krylov/JVP avoids a spatial seed if the score/owner closure is broad.",
+    "C": "QSS uses influence/temporal bounds instead of stage-sampled score, but must still pay owner dependencies."
+  },
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_slow_inputs_01/MRI_SLOW_INPUTS.npz": "35c2b82b7a645347bc78bff1dd0f0b661e557726701210fec31bf41b9be46a11",
+    "motor_nuevo/owner_fallback_cost_20260924_01/effective_event_readers_01/EFFECTIVE_EVENT_READERS.npz": "cbfced4763e6d9c3044605d0a367f58d583eb3d373d22af55a8ea720d9fea888",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8"
+  },
+  "optimistic_model": "Five full passes of 25,582,938 stored base edges plus 229 fast calls reading only nonzero incoming base edges of selected q rows. Charge zero for setup, owner programs, s/tail coordinates, projection, memory and transfers. Cannot prove a universal lower bound.",
+  "limit_equivalent_passes": 6
+}

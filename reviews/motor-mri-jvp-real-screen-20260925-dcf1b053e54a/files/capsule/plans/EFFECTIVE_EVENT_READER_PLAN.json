@@ -1,0 +1,42 @@
+{
+  "schema": "effective_event_reader_plan_v1",
+  "purpose": "Identify real final coefficient coordinates that respond to each of seven timestamped event ports after all owner overlays, using one same-run A/B/A perturbation per event. No new integrator or motor speed claim.",
+  "alternatives": {
+    "A": "If a small effective reader set and complete owner closures fit six equivalent global passes, a row-selected MRI F_fast is worth a candidate replay.",
+    "B": "If effective readers or owner closures are dense, test a full-operator JVP/Krylov representation without anatomical row selection.",
+    "C": "If event effects are sparse but continuous influence is dense, test a certified QSS/event schedule with actual recurrent error bounds."
+  },
+  "delta": 0.001,
+  "time_s": 0.000125,
+  "budget": {
+    "runs_max": 1,
+    "simulated_ms": 1,
+    "accepted_blocks_probed_max": 1,
+    "event_ports_max": 7,
+    "oracle_queries_max": 20,
+    "wall_s_max": 180,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 838860800
+  },
+  "gates": {
+    "same_preparation_events_exact": true,
+    "all_seven_restorations_bitwise": true,
+    "parent_final_outputs_bitwise": true,
+    "no_nonfinite": true
+  },
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/probe_effective_event_readers.py": "6ecccc7095a7f9acc157da019ac6efca1f63988ce147cc549dddcca8482b962e",
+    "motor_nuevo/owner_fallback_cost_20260924_01/ROW_EVENT_READER_ROWS_57.npz": "da511d50a74da57b3df21bbbcb50f5675582a5e2606c386f7974e77a24325e1f",
+    "motor_nuevo/owner_fallback_cost_20260924_01/EVENT_CONE_RESULT.json": "e49158b9a4544e719b227a55f367b8d6ccd63468e208da556ffb1e53dd7d9fcf",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/epoch_cost_20260923/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+  },
+  "baseline_result_sha256": "91956e9f446dc8ca3ea89578c1ec591fbe24a0e36a3412e3de77a24da20ca6cf",
+  "limitations": [
+    "A tiny intervention at the block endpoint probes coefficient sensitivity, not temporal integration, long behavior, or a continuous error certificate.",
+    "Final effective readers depend on this state, event amplitude and 0.001 perturbation; absence of change here is not global independence.",
+    "The accepted parent output must remain exact; the diagnostic is external to organism cognition."
+  ]
+}

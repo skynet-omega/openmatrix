@@ -1,0 +1,37 @@
+{
+  "schema": "jvp_real_plan_v1",
+  "question": "Can one local full effective RHS linearization remain consistent at tolerance-scale displacements in the same real 125 us block, without spatial row selection?",
+  "choice_after_A": "Direct per-callback source and row MRI realizations exceeded six equivalent base passes at their observed 229 fast calls. This B screen is a distinct full-operator JVP feasibility test, not an MRI retune or speed claim.",
+  "stage_index": 1,
+  "direction": "Use slow_f[1] from archived five-stage MRI; set prescribed entries to zero and scale once so max |v_i|/(1e-7+1e-5|z_i|)=1. No amplitude retry.",
+  "queries": ["F(z)", "F(z+v)", "F(z-v)", "F(z+v/2)", "F(z-v/2)", "F(z) repeat"],
+  "linearity_gate": "125e-6 * max_i(|(F(z+v)-F(z-v))/2 - (F(z+v/2)-F(z-v/2))|/(1e-7+1e-5|z_i|)) <= 0.1",
+  "budget": {
+    "preflight_runs_max": 1,
+    "organism_runs_max": 1,
+    "simulated_ms": 1,
+    "full_oracle_queries_max": 6,
+    "wall_s_max": 180,
+    "ram_gib_max": 12,
+    "disk_bytes_max": 838860800
+  },
+  "gates": {
+    "z_plus_minus_v_within_model_domain": true,
+    "baseline_F_matches_archived_full_stage": true,
+    "repeat_F_z_bitwise": true,
+    "parent_output_bitwise": true,
+    "nonfinite_rejected": true
+  },
+  "frozen_sha256": {
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_slow_inputs_01/MRI_SLOW_INPUTS.npz": "35c2b82b7a645347bc78bff1dd0f0b661e557726701210fec31bf41b9be46a11",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/epoch_cost_20260923/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+  },
+  "limitations": [
+    "A finite-difference screen does not implement Arnoldi or show that Krylov uses fewer products over a block.",
+    "The six full queries are diagnostic cost and cannot be subtracted from a future engine's budget.",
+    "One direction can miss nonlinearities or event effects in other states and times; no stage4/5 inference."
+  ]
+}

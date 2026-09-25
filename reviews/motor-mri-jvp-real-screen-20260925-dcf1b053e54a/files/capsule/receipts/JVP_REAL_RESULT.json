@@ -1,0 +1,30 @@
+{
+  "schema": "jvp_real_result_v1",
+  "plan_sha256": "99a096b9741c469c8a26d1b49c2a3a592a723386a73f300fbe539fa38373cbc2",
+  "source_sha256": "55dd40ca04633a8d785f618bbf792b752e84e2152e60ca667f6ba64042e64805",
+  "run_result_sha256": "ecb63c49eb1efb18b75262fa1032bc9d9c0bbc59b707f07603f65a37b82737d7",
+  "runner_exit_code": 0,
+  "runner_status": "COMPLETE",
+  "completed_trial_ms": 1,
+  "physical_epochs": 16,
+  "tested_blocks": 1,
+  "diagnostic_error": null,
+  "probe": {
+    "time_s": 4.1666666666666665e-05,
+    "stage_index": 1,
+    "direction_sha256": "2a4fbcf949267ddd78cf467d0df3fcf4b5079d4a8993e34a013e3045ca3aef9e",
+    "arrays_sha256": "dabe36b9a35f5577fc90e315fa198097aa1dd49c975eba55d57a659e356625b9",
+    "full_queries": 6,
+    "baseline_matches_archived": true,
+    "repeat_exact": true,
+    "normalized_linearity_discrepancy": 2.0155739493641745e-11,
+    "gate_le_0_1": true,
+    "coordinates_above_0_1": 0,
+    "scope": "One local finite-difference direction; does not prove Krylov efficiency or nonlinear long-horizon error."
+  },
+  "wall_s": 34.93169405599474,
+  "maxrss_kib": 6095532,
+  "disk_bytes": 395890859,
+  "budget_ok": true,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY"
+}

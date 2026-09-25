@@ -1,0 +1,10 @@
+{
+  "schema": "mri_slow_inputs_verify_v1",
+  "status": "PASS_DIAGNOSTIC_ONLY",
+  "sampled_defect_max": 146.65932417416084,
+  "coordinates_gt1": 1521,
+  "mri_state_matches_repaired_prior": true,
+  "parent_output_exact": true,
+  "corruption_rejected": true,
+  "scope": "Recomputes sampled defect from archived stage/flow arrays; does not certify between-sample error or a new fast provider."
+}

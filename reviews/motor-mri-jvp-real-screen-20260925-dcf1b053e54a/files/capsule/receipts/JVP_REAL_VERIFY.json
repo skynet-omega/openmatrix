@@ -1,0 +1,9 @@
+{
+  "schema": "jvp_real_verify_v1",
+  "status": "PASS_DIAGNOSTIC_ONLY",
+  "normalized_linearity_discrepancy": 2.0155739493641745e-11,
+  "gate_le_0_1": true,
+  "parent_output_exact": true,
+  "corruption_rejected": true,
+  "scope": "Single direction at one real block stage. Passing does not validate Krylov integration or a speedup."
+}

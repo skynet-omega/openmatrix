@@ -1,0 +1,97 @@
+{
+  "schema": "row_event_reader_result_v1",
+  "status": "STRUCTURAL_COST_SCREEN_ONLY",
+  "plan_sha256": "2f8c72b96bbab4572cf66166b111c3c6cfb1a31169469981eb6348a99c75c060",
+  "rows_sha256": "da511d50a74da57b3df21bbbcb50f5675582a5e2606c386f7974e77a24325e1f",
+  "n_event_sources": 7,
+  "n_first_hop_rows": 1263,
+  "base_stored_edges": 25582938,
+  "base_active_edges": 24559135,
+  "maximum_edges_per_fast_for_six_passes_no_setup_owners": 111715,
+  "scenarios": {
+    "all_direct_base_readers": {
+      "rows": 1263,
+      "incoming_active_base_edges": 373716,
+      "incoming_stored_base_edges": 423858,
+      "five_full_plus_229_fast_equivalent_passes_no_setup_owners": 8.345235953743858,
+      "six_pass_screen": false
+    },
+    "readers_without_listed_special_owner": {
+      "rows": 128,
+      "incoming_active_base_edges": 63899,
+      "incoming_stored_base_edges": 67115,
+      "five_full_plus_229_fast_equivalent_passes_no_setup_owners": 5.5719777376625,
+      "six_pass_screen": true
+    },
+    "readers_without_listed_special_owner_or_visual": {
+      "rows": 128,
+      "incoming_active_base_edges": 63899,
+      "incoming_stored_base_edges": 67115,
+      "five_full_plus_229_fast_equivalent_passes_no_setup_owners": 5.5719777376625,
+      "six_pass_screen": true
+    }
+  },
+  "special_metadata": {
+    "_mi9_cuda/rows": {
+      "declared_rows": 6853,
+      "direct_event_readers": 0
+    },
+    "_retinal_port_cuda_rows": {
+      "declared_rows": 3021,
+      "direct_event_readers": 0
+    },
+    "_pvlp_cuda_rows": {
+      "declared_rows": 3,
+      "direct_event_readers": 0
+    },
+    "_orn_pn_cuda/rows": {
+      "declared_rows": 74,
+      "direct_event_readers": 0
+    },
+    "_regional_cuda/rows": {
+      "declared_rows": 1611,
+      "direct_event_readers": 489
+    },
+    "_gaba_cuda/rows": {
+      "declared_rows": 6860,
+      "direct_event_readers": 0
+    },
+    "_retinal_cuda/rows": {
+      "declared_rows": 3021,
+      "direct_event_readers": 0
+    },
+    "_cvn7_cuda_rows": {
+      "declared_rows": 2,
+      "direct_event_readers": 0
+    },
+    "_boundary_cuda/rows": {
+      "declared_rows": 1771,
+      "direct_event_readers": 0
+    },
+    "_pnkc_cuda/rows": {
+      "declared_rows": 1375,
+      "direct_event_readers": 451
+    },
+    "_output_cuda/rows": {
+      "declared_rows": 791,
+      "direct_event_readers": 216
+    },
+    "_apl_gpu_rows": {
+      "declared_rows": 2,
+      "direct_event_readers": 2
+    },
+    "_dynamic_gpu_rows": {
+      "declared_rows": 4064,
+      "direct_event_readers": 970
+    },
+    "_orn_terminal_cuda/rows": {
+      "declared_rows": 74,
+      "direct_event_readers": 0
+    }
+  },
+  "hdeltaa_target_direct_reader": false,
+  "wall_s": 0.8531984680012101,
+  "maxrss_kib": 543844,
+  "scope": "Direct readers in nonzero base CSR. Owner/visual exclusion is an exploratory mask, not effective final read dependency; specialized costs and time omitted.",
+  "budget_ok": true
+}

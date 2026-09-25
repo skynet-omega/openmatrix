@@ -1,0 +1,49 @@
+{
+  "schema": "mri_row_zone_cost_result_v1",
+  "status": "OPTIMISTIC_BASE_CSR_SCREEN_ONLY",
+  "plan_sha256": "b15a8e0d6b9437f98a856b4257502f2ed310906d8e38f025a245704cd7e54fe9",
+  "rows_sha256": "d00a6fa5e691b04582829b9600f8155669bd733e1865467788490a5bae2be1e0",
+  "full_state_coordinates_above_sampled_defect_one": 1521,
+  "above_one_in_q": 472,
+  "above_one_in_non_q": 1049,
+  "event_reader_q": 175,
+  "q_union_owner_marked": 93,
+  "q_union_visual": 0,
+  "max_base_edges_per_fast_with_five_full": 111715,
+  "scenarios": {
+    "event_readers_q": {
+      "rows": 175,
+      "incoming_active_base_edges": 112659,
+      "equivalent_passes_no_setup_owners": 6.008442071821461,
+      "six_pass_screen": false
+    },
+    "sampled_defect_q": {
+      "rows": 472,
+      "incoming_active_base_edges": 106236,
+      "equivalent_passes_no_setup_owners": 5.950948010740596,
+      "six_pass_screen": true
+    },
+    "union_q": {
+      "rows": 640,
+      "incoming_active_base_edges": 215168,
+      "equivalent_passes_no_setup_owners": 6.926028668013033,
+      "six_pass_screen": false
+    },
+    "union_q_without_marked_owners": {
+      "rows": 547,
+      "incoming_active_base_edges": 135553,
+      "equivalent_passes_no_setup_owners": 6.2133726392175905,
+      "six_pass_screen": false
+    },
+    "union_q_without_marked_owners_or_visual": {
+      "rows": 547,
+      "incoming_active_base_edges": 135553,
+      "equivalent_passes_no_setup_owners": 6.2133726392175905,
+      "six_pass_screen": false
+    }
+  },
+  "wall_s": 0.41536774499400053,
+  "maxrss_kib": 451824,
+  "scope": "State-dependent observed q seed; full s/tail mappings and true owner job costs absent. Direct-row base cost is conditional, not universal MRI lower bound.",
+  "budget_ok": true
+}

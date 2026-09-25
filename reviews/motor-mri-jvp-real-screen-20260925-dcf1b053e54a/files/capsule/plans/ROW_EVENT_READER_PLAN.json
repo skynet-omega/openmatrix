@@ -1,0 +1,23 @@
+{
+  "schema": "row_event_reader_plan_v1",
+  "question": "Does evaluating complete incoming base CSR rows for all direct readers of seven real event ports fit the six-pass optimistic MRI budget, and how many readers are marked visual or specialized?",
+  "decision": "This is an anatomical/metadata screen for ChatGPT row-selector, not its full effective operator plan. A cost failure for all direct base readers does not rule out pruning overwritten rows; a pass does not validate dynamics.",
+  "budget": {
+    "runs_max": 1,
+    "wall_s_max": 60,
+    "ram_gib_max": 4,
+    "disk_bytes_max": 1048576
+  },
+  "frozen_sha256": {
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/owner_fallback_cost_20260924_01/EVENT_CONE_RESULT.json": "e49158b9a4544e719b227a55f367b8d6ccd63468e208da556ffb1e53dd7d9fcf",
+    "motor_nuevo/owner_fallback_cost_20260924_01/mri_real_frozen_fast_04/MRI_REAL_FROZEN_FAST_RESULT.json": "8b069397392dd46cc1d538338fff836ba16026051308514c65eea82ec28572c3"
+  },
+  "scenarios": [
+    "all_direct_base_readers",
+    "readers_without_listed_special_owner",
+    "readers_without_listed_special_owner_or_visual"
+  ],
+  "cost_model": "Five complete stored-edge passes plus 229 fast calls each reading every nonzero incoming base edge of selected rows, no setup, no specialized costs. This is conditional on that row kernel; not a lower bound for all algorithms."
+}

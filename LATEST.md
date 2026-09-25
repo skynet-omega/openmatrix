@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-event-cone-real-block-20260925](reviews/motor-event-cone-real-block-20260925-72ed0a482745/README.md)
+[motor-mri-jvp-real-screen-20260925](reviews/motor-mri-jvp-real-screen-20260925-dcf1b053e54a/README.md)
 
-Zona estructural de influencia de siete eventos en bloque real MaleCNS de 125 us, con CSR ponderado portable de dos saltos, cuatro capas verificadas y limites explicitos; no prueba ahorro ni causalidad dinamica.
+Datos y codigo de un bloque real MaleCNS: semilla MRI por filas falla criba optimista de seis barridos con 229 llamadas; una JVP completa en una direccion supera prueba local de linealidad. Solo diagnostico, etapas4/5 abiertas.
