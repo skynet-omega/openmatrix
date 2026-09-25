@@ -1,0 +1,18 @@
+{
+  "schema": "event_update_cost_plan_v1",
+  "date": "2026-09-25",
+  "trigger": "Original B screen held4062 event sources exact but updated_edges counted only continuous sources; quantify the excluded mandatory CSC work before benchmarking.",
+  "question": "How many additional event-source edges change per query in the same released capsule, and what is combined CSC work without changing threshold?",
+  "capsule_sha256": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+  "report_sha256": "31b08559a25592d18dbf53734d60cd74fe0d3c5d44d649542a58618cc1416d97",
+  "script_sha256": "c18576249fee4c2346fdda9ea9122906cb740a568dc29da144ae317abc4f8411",
+  "absolute_release_threshold": 1e-06,
+  "budget": {
+    "runs": 1,
+    "wall_seconds_max": 10,
+    "ram_gib_max": 3,
+    "output_bytes_max": 50000
+  },
+  "stop_rule": "Recompute all59 post-seed queries once; fail if continuous counts differ or event source not exact. No threshold retuning.",
+  "scope": "Exact edge-count correction only; no runtime throughput or organism-state conclusion."
+}

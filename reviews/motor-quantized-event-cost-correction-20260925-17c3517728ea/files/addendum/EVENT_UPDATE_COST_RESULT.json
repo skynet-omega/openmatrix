@@ -1,0 +1,490 @@
+{
+  "schema": "event_update_cost_result_v1",
+  "status": "PASS_FULL_EVENT_COST_RECOUNT",
+  "plan_sha256": "3b29018a48fb87a29390f444502bb8e6ced5965884bbde1317f323071c3c502e",
+  "capsule_sha256": "97697df2833be13003f890b9c447e32db491576de792263dcebf2217e90a5122",
+  "queries_after_seed": 59,
+  "event_edges_median": 885587.0,
+  "event_edges_max": 885587,
+  "continuous_edges_median": 387441.0,
+  "total_edges_median": 1273028.0,
+  "total_edges_max": 2228810,
+  "total_edges_fraction_of_csr_median": 0.04976082105972348,
+  "per_query": [
+    {
+      "query": 1,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 809,
+      "continuous_edges": 182338,
+      "total_edges": 1067925
+    },
+    {
+      "query": 2,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 809,
+      "continuous_edges": 182338,
+      "total_edges": 1067925
+    },
+    {
+      "query": 3,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 553,
+      "continuous_edges": 110382,
+      "total_edges": 995969
+    },
+    {
+      "query": 4,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 809,
+      "continuous_edges": 182338,
+      "total_edges": 1067925
+    },
+    {
+      "query": 5,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 801,
+      "continuous_edges": 179643,
+      "total_edges": 1065230
+    },
+    {
+      "query": 6,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1173,
+      "continuous_edges": 254913,
+      "total_edges": 1140500
+    },
+    {
+      "query": 7,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1701,
+      "continuous_edges": 345712,
+      "total_edges": 1231299
+    },
+    {
+      "query": 8,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 770,
+      "continuous_edges": 168326,
+      "total_edges": 1053913
+    },
+    {
+      "query": 9,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 525,
+      "continuous_edges": 105773,
+      "total_edges": 991360
+    },
+    {
+      "query": 10,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 770,
+      "continuous_edges": 168326,
+      "total_edges": 1053913
+    },
+    {
+      "query": 11,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 966,
+      "continuous_edges": 201562,
+      "total_edges": 1087149
+    },
+    {
+      "query": 12,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1440,
+      "continuous_edges": 278514,
+      "total_edges": 1164101
+    },
+    {
+      "query": 13,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3325,
+      "continuous_edges": 655728,
+      "total_edges": 1541315
+    },
+    {
+      "query": 14,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1295,
+      "continuous_edges": 298688,
+      "total_edges": 1184275
+    },
+    {
+      "query": 15,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 770,
+      "continuous_edges": 168326,
+      "total_edges": 1053913
+    },
+    {
+      "query": 16,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1298,
+      "continuous_edges": 299059,
+      "total_edges": 1184646
+    },
+    {
+      "query": 17,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1666,
+      "continuous_edges": 333456,
+      "total_edges": 1219043
+    },
+    {
+      "query": 18,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2289,
+      "continuous_edges": 447324,
+      "total_edges": 1332911
+    },
+    {
+      "query": 19,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 5934,
+      "continuous_edges": 1132101,
+      "total_edges": 2017688
+    },
+    {
+      "query": 20,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2812,
+      "continuous_edges": 555904,
+      "total_edges": 1441491
+    },
+    {
+      "query": 21,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1296,
+      "continuous_edges": 298898,
+      "total_edges": 1184485
+    },
+    {
+      "query": 22,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2846,
+      "continuous_edges": 561959,
+      "total_edges": 1447546
+    },
+    {
+      "query": 23,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2640,
+      "continuous_edges": 548143,
+      "total_edges": 1433730
+    },
+    {
+      "query": 24,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3970,
+      "continuous_edges": 746948,
+      "total_edges": 1632535
+    },
+    {
+      "query": 25,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 6625,
+      "continuous_edges": 1275139,
+      "total_edges": 2160726
+    },
+    {
+      "query": 26,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3785,
+      "continuous_edges": 736831,
+      "total_edges": 1622418
+    },
+    {
+      "query": 27,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1849,
+      "continuous_edges": 387441,
+      "total_edges": 1273028
+    },
+    {
+      "query": 28,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3788,
+      "continuous_edges": 737133,
+      "total_edges": 1622720
+    },
+    {
+      "query": 29,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 4090,
+      "continuous_edges": 833764,
+      "total_edges": 1719351
+    },
+    {
+      "query": 30,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 4547,
+      "continuous_edges": 879852,
+      "total_edges": 1765439
+    },
+    {
+      "query": 31,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 4138,
+      "continuous_edges": 799652,
+      "total_edges": 1685239
+    },
+    {
+      "query": 32,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2001,
+      "continuous_edges": 419177,
+      "total_edges": 1304764
+    },
+    {
+      "query": 33,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 951,
+      "continuous_edges": 214891,
+      "total_edges": 1100478
+    },
+    {
+      "query": 34,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2015,
+      "continuous_edges": 421297,
+      "total_edges": 1306884
+    },
+    {
+      "query": 35,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3109,
+      "continuous_edges": 574516,
+      "total_edges": 1460103
+    },
+    {
+      "query": 36,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3749,
+      "continuous_edges": 734381,
+      "total_edges": 1619968
+    },
+    {
+      "query": 37,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 4704,
+      "continuous_edges": 897501,
+      "total_edges": 1783088
+    },
+    {
+      "query": 38,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2049,
+      "continuous_edges": 427070,
+      "total_edges": 1312657
+    },
+    {
+      "query": 39,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 971,
+      "continuous_edges": 219915,
+      "total_edges": 1105502
+    },
+    {
+      "query": 40,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2051,
+      "continuous_edges": 427325,
+      "total_edges": 1312912
+    },
+    {
+      "query": 41,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2247,
+      "continuous_edges": 455256,
+      "total_edges": 1340843
+    },
+    {
+      "query": 42,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3190,
+      "continuous_edges": 648103,
+      "total_edges": 1533690
+    },
+    {
+      "query": 43,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 4943,
+      "continuous_edges": 925962,
+      "total_edges": 1811549
+    },
+    {
+      "query": 44,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1735,
+      "continuous_edges": 365718,
+      "total_edges": 1251305
+    },
+    {
+      "query": 45,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 864,
+      "continuous_edges": 193795,
+      "total_edges": 1079382
+    },
+    {
+      "query": 46,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1737,
+      "continuous_edges": 366063,
+      "total_edges": 1251650
+    },
+    {
+      "query": 47,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1894,
+      "continuous_edges": 385456,
+      "total_edges": 1271043
+    },
+    {
+      "query": 48,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 2991,
+      "continuous_edges": 620607,
+      "total_edges": 1506194
+    },
+    {
+      "query": 49,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 6978,
+      "continuous_edges": 1343223,
+      "total_edges": 2228810
+    },
+    {
+      "query": 50,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3380,
+      "continuous_edges": 655382,
+      "total_edges": 1540969
+    },
+    {
+      "query": 51,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1702,
+      "continuous_edges": 359988,
+      "total_edges": 1245575
+    },
+    {
+      "query": 52,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3391,
+      "continuous_edges": 656778,
+      "total_edges": 1542365
+    },
+    {
+      "query": 53,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3893,
+      "continuous_edges": 749856,
+      "total_edges": 1635443
+    },
+    {
+      "query": 54,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 3959,
+      "continuous_edges": 770674,
+      "total_edges": 1656261
+    },
+    {
+      "query": 55,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 1382,
+      "continuous_edges": 275269,
+      "total_edges": 1160856
+    },
+    {
+      "query": 56,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 620,
+      "continuous_edges": 126643,
+      "total_edges": 1012230
+    },
+    {
+      "query": 57,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 437,
+      "continuous_edges": 79412,
+      "total_edges": 964999
+    },
+    {
+      "query": 58,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 620,
+      "continuous_edges": 126643,
+      "total_edges": 1012230
+    },
+    {
+      "query": 59,
+      "event_sources": 4062,
+      "event_edges": 885587,
+      "continuous_sources": 916,
+      "continuous_edges": 169765,
+      "total_edges": 1055352
+    }
+  ],
+  "scope": "Counts CSC edge updates for exact event sources plus thresholded continuous sources. Still omits source selection, atomics, owner transforms, state-error and speed costs.",
+  "wall_s": 0.34423403900291305,
+  "maxrss_kib": 130824
+}

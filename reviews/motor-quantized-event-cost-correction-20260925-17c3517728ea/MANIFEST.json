@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "label": "motor-quantized-event-cost-correction-20260925",
+  "description": "Correction to immutable quantized full-operator screen: exact event source changes add885587 edges each query; combined median1273028 edges (4.98% CSR). Original code/data snapshot remains linked and unchanged.",
+  "files": [
+    {
+      "path": "review/QUANTIZED_FULL_REVIEW.md",
+      "bytes": 5095,
+      "sha256": "e00deb85cd87bdd1345c58e1412385e8ff4f93063950ddfb95ba7d749d5ebfd8"
+    },
+    {
+      "path": "addendum/EVENT_UPDATE_COST_PLAN_30.json",
+      "bytes": 1061,
+      "sha256": "3b29018a48fb87a29390f444502bb8e6ced5965884bbde1317f323071c3c502e"
+    },
+    {
+      "path": "addendum/event_update_cost.py",
+      "bytes": 4376,
+      "sha256": "c18576249fee4c2346fdda9ea9122906cb740a568dc29da144ae317abc4f8411"
+    },
+    {
+      "path": "addendum/EVENT_UPDATE_COST_RESULT.json",
+      "bytes": 11788,
+      "sha256": "4ee896d591d4f1e6032ca005230d7813cdb98b7c4661171d43da9f031aa38c53"
+    },
+    {
+      "path": "original/QUANTIZED_FULL_PUBLICATION.json",
+      "bytes": 4237,
+      "sha256": "6a1bd709a8b4b6354511213eb8859cf29528f605aac78ce18d595d5a2ee7d183"
+    },
+    {
+      "path": "original/QUANTIZED_FULL_REMOTE_VERIFY.json",
+      "bytes": 478,
+      "sha256": "c4b23b5061b5de0f1c5277411e8417f676f76e95460c6a7a2292fd0f14875fe8"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-quantized-full-screen-20260925](reviews/motor-quantized-full-screen-20260925-a58dd0e4caef/README.md)
+[motor-quantized-event-cost-correction-20260925](reviews/motor-quantized-event-cost-correction-20260925-17c3517728ea/README.md)
 
-Same-run 60-query real-organism full coefficient screen for source-release cache1e-6; full local verifier and selected portable capsule. Necessary evidence only; no integrated motor or Stage4/5 claim.
+Correction to immutable quantized full-operator screen: exact event source changes add885587 edges each query; combined median1273028 edges (4.98% CSR). Original code/data snapshot remains linked and unchanged.
