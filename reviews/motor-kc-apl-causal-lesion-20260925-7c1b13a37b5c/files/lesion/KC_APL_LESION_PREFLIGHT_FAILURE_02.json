@@ -1,0 +1,15 @@
+{
+  "schema": "kc_apl_lesion_preflight_failure_v2",
+  "date": "2026-09-24",
+  "plan_sha256": "a4daf70664b4c362ef08a715220a2d97f133ae8853892f7a7411281268f650c5",
+  "script_sha256": "31619e51712c7870f848710c3018144e5bc269088b2a7d807b5e346576e2781a",
+  "phase": "CuPy import after all 11 frozen hashes matched, before load()/RuntimeSession/organism",
+  "error_type": "ModuleNotFoundError",
+  "missing_module": "cupy",
+  "invoked_python": "/usr/bin/python3 3.12.3",
+  "correct_runtime": "/home/daroch/miniconda3/envs/GPU/bin/python 3.10.18, CuPy 13.6.0 checked",
+  "organism_runs": 0,
+  "simulation_ms": 0,
+  "output_dir_created": false,
+  "repair_scope": "Switch interpreter only; plan16 source, inputs, budget and gates remain fixed."
+}

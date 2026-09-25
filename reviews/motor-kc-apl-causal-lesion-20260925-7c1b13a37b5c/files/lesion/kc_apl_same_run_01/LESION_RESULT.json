@@ -1,0 +1,100 @@
+{
+  "schema": "kc_apl_same_run_lesion_result_v1",
+  "plan_sha256": "e81b62d24cca416e111cd7186828b355fad20ecdeb069df3573ef1ca4fcec5d9",
+  "script_sha256": "f891be2c25ff5d69ebea24f3dc78c97f07f17e8846902086fe6cfea870c932e4",
+  "inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/multirate_real_20260924_01/capture_effective_block.py": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8"
+  },
+  "status": "PASS_LIMITED",
+  "simulation_ms_requested": 1,
+  "dynamic_rows": 4064,
+  "incoming_base_edges": 836605,
+  "prior_capture_queries": 60,
+  "prior_capture_events": 7,
+  "current_capture_queries": 60,
+  "chosen_query_indices": [
+    2,
+    59
+  ],
+  "current_block_events": 7,
+  "current_block_event_version_equal_to_prior": "NOT_CHECKED",
+  "selected_nonzero_weights": 698768,
+  "baseline_rows": [
+    {
+      "query": 2,
+      "time_s": 0.0,
+      "projected_state_exact": true,
+      "target_exact": true,
+      "rate_exact": true
+    },
+    {
+      "query": 59,
+      "time_s": 0.00012421875,
+      "projected_state_exact": true,
+      "target_exact": true,
+      "rate_exact": true
+    }
+  ],
+  "baseline_projected_state_exact": true,
+  "baseline_target_rate_exact": true,
+  "selected_weights_restored_exact": true,
+  "lesion_rows": [
+    {
+      "query": 2,
+      "target_exact": true,
+      "rate_exact": true,
+      "target_changed_coordinates": 0,
+      "rate_changed_coordinates": 0,
+      "target_first_changed": [],
+      "rate_first_changed": [],
+      "target_max_abs": 0.0,
+      "rate_max_abs": 0.0
+    },
+    {
+      "query": 59,
+      "target_exact": true,
+      "rate_exact": true,
+      "target_changed_coordinates": 0,
+      "rate_changed_coordinates": 0,
+      "target_first_changed": [],
+      "rate_first_changed": [],
+      "target_max_abs": 0.0,
+      "rate_max_abs": 0.0
+    }
+  ],
+  "restore_rows": [
+    {
+      "query": 2,
+      "target_exact": true,
+      "rate_exact": true
+    },
+    {
+      "query": 59,
+      "target_exact": true,
+      "rate_exact": true
+    }
+  ],
+  "post_restore_target_rate_exact": true,
+  "lesion_full_target_rate_exact": true,
+  "maximum_abs_error": 0.0,
+  "nonfinite_count": 0,
+  "oracle_queries": 6,
+  "runner_exit_code": 0,
+  "error": null,
+  "runtime_installed_count": 1,
+  "steps_seen": 16,
+  "test_executions": 1,
+  "wall_s": 34.67471657700662,
+  "maxrss_kib": 6274860,
+  "gpu_allocation_delta_upper_bytes": 1820327936,
+  "disk_bytes": 374896873,
+  "budget_ok": true,
+  "frozen_gates_ok": true,
+  "scope": "One 1-ms real organism run; two full coefficient queries before/lesion/restored. No pruned-kernel timing or long dynamics."
+}

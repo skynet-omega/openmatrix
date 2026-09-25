@@ -1,0 +1,127 @@
+{
+  "format_version": 2,
+  "label": "motor-kc-apl-causal-lesion-20260925",
+  "description": "One real 1-ms whole-organism probe: effective KC/APL trace identity, preserved failed cross-run reference, and same-run A/B/A full-target/rate lesion of 836605 incoming edges with exact restoration. Limited dependency evidence only; no pruned kernel, speed gain or Stage4/5 admission. Raw A/B/A arrays are not included for independent recomputation.",
+  "files": [
+    {
+      "path": "lesion/KC_APL_LESION_REVIEW.md",
+      "bytes": 2862,
+      "sha256": "4d9f14e492c781b6dfe65f96732cb96c22f24798ebd85611ef5271eea13c030d"
+    },
+    {
+      "path": "lesion/KC_APL_EFFECTIVE_TRACE_PLAN_14.json",
+      "bytes": 1868,
+      "sha256": "6a600118a101f6c8d14b94a34ab21bcead7957d4ca7abd5802d95b9379a55f82"
+    },
+    {
+      "path": "lesion/check_kc_apl_effective_trace.py",
+      "bytes": 6366,
+      "sha256": "86d0854732ea482b804c6fd876b3e239c142e8ba34cebcd4fa65cbb81907d6a5"
+    },
+    {
+      "path": "lesion/kc_apl_trace_01/RESULT.json",
+      "bytes": 1939,
+      "sha256": "e599099a49c003cde4efafb80e35a2ea50d579a820a46efbebe93450f8232b90"
+    },
+    {
+      "path": "lesion/KC_APL_LESION_PLAN_15.json",
+      "bytes": 3097,
+      "sha256": "911dc8ce60895c209ac89f407c39282c442bdb81660e5ded9334c10097684bb4"
+    },
+    {
+      "path": "lesion/probe_kc_apl_lesion_v1.py",
+      "bytes": 12272,
+      "sha256": "20d4dc3b761c5ae1942a5864ec51550696e9ab066d8d53a9f7ea865b5bac157e"
+    },
+    {
+      "path": "lesion/KC_APL_LESION_PREFLIGHT_FAILURE_01.json",
+      "bytes": 969,
+      "sha256": "5c7a34d994429ebcdaf93e363134e60df232aa56f398750345b1f9fbeaa73db8"
+    },
+    {
+      "path": "lesion/KC_APL_LESION_REPAIR_PLAN_16.json",
+      "bytes": 3503,
+      "sha256": "a4daf70664b4c362ef08a715220a2d97f133ae8853892f7a7411281268f650c5"
+    },
+    {
+      "path": "lesion/probe_kc_apl_lesion_v2.py",
+      "bytes": 12281,
+      "sha256": "31619e51712c7870f848710c3018144e5bc269088b2a7d807b5e346576e2781a"
+    },
+    {
+      "path": "lesion/KC_APL_LESION_PREFLIGHT_FAILURE_02.json",
+      "bytes": 735,
+      "sha256": "1c970401aeed0c9a803cf93b6087156d330e01957601100ead0dc7c6d17c55dc"
+    },
+    {
+      "path": "lesion/KC_APL_LESION_RUNTIME_PLAN_17.json",
+      "bytes": 828,
+      "sha256": "88cad4feba611cbf494865378a6eea2d77a9edd28ce030793f013dc723af193e"
+    },
+    {
+      "path": "lesion/kc_apl_lesion_01/LESION_RESULT.json",
+      "bytes": 2789,
+      "sha256": "db211b8c80f81afc54f91a01e0d9f66c578bc1aec2aeb61e73628bf50fb45ac9"
+    },
+    {
+      "path": "lesion/kc_apl_lesion_01/RESULT.json",
+      "bytes": 7751,
+      "sha256": "1d5fd4d6c4591b290f740b00fb3e8e9b0ef075dccd361a4aa2ab41fcb40f290f"
+    },
+    {
+      "path": "lesion/KC_APL_SAME_RUN_PLAN_18.json",
+      "bytes": 2882,
+      "sha256": "e81b62d24cca416e111cd7186828b355fad20ecdeb069df3573ef1ca4fcec5d9"
+    },
+    {
+      "path": "lesion/probe_kc_apl_same_run.py",
+      "bytes": 13927,
+      "sha256": "f891be2c25ff5d69ebea24f3dc78c97f07f17e8846902086fe6cfea870c932e4"
+    },
+    {
+      "path": "lesion/kc_apl_same_run_01/LESION_RESULT.json",
+      "bytes": 3411,
+      "sha256": "a65a5c0d89908c0f3a3b7f61dd6b5d38873d58202aec5f2ea34c4cb56b23538f"
+    },
+    {
+      "path": "lesion/kc_apl_same_run_01/RESULT.json",
+      "bytes": 3300,
+      "sha256": "63e5421356b6b9ff82548c4d2a428f1e3f6e7ee7fe3d85afd459be735f7d3e08"
+    },
+    {
+      "path": "lesion/kc_apl_same_run_01/RUN_CONTRACT.json",
+      "bytes": 728,
+      "sha256": "1cd0c1c11ec6ca9460c4d5ab98d065bfb1d3c09ba2aa111c9a3c6c9d24177d61"
+    },
+    {
+      "path": "lesion/kc_apl_same_run_01/FROZEN.json",
+      "bytes": 2006,
+      "sha256": "c0b7e76f74de2e1b14e06ef25cfc809a136ae24e45ce8cc7ab3a89cb378db2cf"
+    },
+    {
+      "path": "lesion/kc_apl_same_run_01/EVENT_AUDIT.json",
+      "bytes": 21691,
+      "sha256": "65c32e202bfd75d6b667a68fbe818a9bc99a45a72255546b3cbc62efc63be9f6"
+    },
+    {
+      "path": "sources/capture_effective_block.py",
+      "bytes": 11606,
+      "sha256": "82fc13842f1a32fc459430b939dcd590011e4aa6165601abc2c43dd1e436f180"
+    },
+    {
+      "path": "sources/effective_oracle.py",
+      "bytes": 2766,
+      "sha256": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c"
+    },
+    {
+      "path": "sources/executed_gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "sources/prior_ORACLE_CHECK.json",
+      "bytes": 573,
+      "sha256": "06f524866bf22a44a39803456886c3a58c4ee44ed88b2a4fd7f25893f166a8d1"
+    }
+  ]
+}

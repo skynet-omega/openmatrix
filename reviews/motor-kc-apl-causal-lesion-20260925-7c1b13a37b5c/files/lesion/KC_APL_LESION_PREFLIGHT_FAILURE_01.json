@@ -1,0 +1,16 @@
+{
+  "schema": "kc_apl_lesion_preflight_failure_v1",
+  "date": "2026-09-24",
+  "plan_sha256": "911dc8ce60895c209ac89f407c39282c442bdb81660e5ded9334c10097684bb4",
+  "script_sha256": "20d4dc3b761c5ae1942a5864ec51550696e9ab066d8d53a9f7ea865b5bac157e",
+  "phase": "SHA256 preflight before importing CuPy or loading organism",
+  "error": "Frozen source/capture changed",
+  "path": "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+  "expected_wrong_sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+  "actual_sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9bda364a18ded6",
+  "cause": "Manual transposition in preregistered hash, not file mutation. All other frozen hashes matched.",
+  "organism_runs": 0,
+  "simulation_ms": 0,
+  "output_dir_created": false,
+  "repair_scope": "Correct only the transcription error in a prospective plan and point a preserved-copy script at it; keep inputs, intervention, gates and budget."
+}

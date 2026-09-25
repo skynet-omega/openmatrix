@@ -1,0 +1,51 @@
+{
+  "schema": "kc_apl_base_edge_lesion_repair_v2",
+  "date": "2026-09-24",
+  "question": "In the actual prepared coefficient CUDA Graph, does zeroing all 836605 base weights into the 4064 dynamic KC/APL rows change any full target/rate output at the captured early/late candidate states, after verifying baseline replay and restoring A exactly?",
+  "hypothesis": "Because active KC/APL owns target=state and rate=0 on these rows, their inherited base input might be dead; a read-before-overwrite elsewhere would falsify it.",
+  "inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7"
+  },
+  "states": [
+    2,
+    59
+  ],
+  "controls": [
+    "Baseline oracle full target/rate must equal captured trace bitwise before lesion, else stop.",
+    "Lesion must zero at least one nonzero base weight and match 836605 selected positions.",
+    "Weights restored bitwise in finally; A after restoration equals baseline even if lesion fails.",
+    "Run_set final status COMPLETE and original frozen biology/clock untouched."
+  ],
+  "gates_frozen": {
+    "baseline_exact": true,
+    "restoration_exact": true,
+    "lesion_full_target_rate_exact": true,
+    "max_abs_tolerance": 0,
+    "nonfinite_zero": true
+  },
+  "budget": {
+    "organism_runs": 1,
+    "simulation_ms": 1,
+    "wall_seconds_max": 120,
+    "ram_gib_max": 18,
+    "gpu_vram_gib_max": 12,
+    "disk_bytes_max": 734003200
+  },
+  "interpretation": "If full target/rate is exact in these two states, this is a pruning candidate for this preparation, not a timing speedup or universal dead-code proof. If not, retain failure and identify affected coordinates.",
+  "repair": {
+    "predecessor_plan_sha256": "911dc8ce60895c209ac89f407c39282c442bdb81660e5ded9334c10097684bb4",
+    "predecessor_script_sha256": "20d4dc3b761c5ae1942a5864ec51550696e9ab066d8d53a9f7ea865b5bac157e",
+    "preflight_failure": "KC_APL_LESION_PREFLIGHT_FAILURE_01.json",
+    "change": "Only correct one mistyped reference SHA, no prior organism run and no threshold/intervention change."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "kc_apl_base_edge_lesion_result_v1",
+  "plan_sha256": "a4daf70664b4c362ef08a715220a2d97f133ae8853892f7a7411281268f650c5",
+  "script_sha256": "31619e51712c7870f848710c3018144e5bc269088b2a7d807b5e346576e2781a",
+  "inputs_sha256": {
+    "motor_nuevo/epoch_cost_20260923/run_set.py": "4beef46a3149ea169712db67cf30168f7d258ba872af29ebaace07029ee9a95d",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "motor_nuevo/multirate_real_20260924_01/effective_oracle.py": "bc1ebd444d8e86288e8940ba71599daf68de7d4cd3c447c21d72f64933a1403c",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/effective_gpu_arrays.npz": "602cfc42123f9bdb7c5287b49c06e4d6fb60f786bffbd5e965052ca4c1a35631",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/EFFECTIVE_ARRAY_PATHS.json": "190a94be058bb3350f3e756738e642ba95f14481039abd3213cf216d88d1f1f8",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_state.npz": "39283015b75018bd874e0ad4d1a9ff56b71e8e451bb985f06dc550784a2516dd",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_target.npz": "3407cc9333f6f1e6eb1587464f6f4235bc9fc6b9d32eed22aaac013b1a4cdce2",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_rate.npz": "649850ad877009502c3ef4078c17b4ff1fc11939dd57a8cfa42e4e9ff2994c29",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/trace_clock.npz": "78d63666cbe894fbc1032e79a5dfc4f956c4811e93a51b79a56c607ecc3f880d",
+    "motor_nuevo/multirate_real_20260924_01/capture_01/block_events.npz": "0d46bbac2fc4860329e9036baa54da77789a372355bf51c9520e270afe7d26e7"
+  },
+  "status": "INCOMPLETE_OR_FALSIFIED",
+  "organism_ms_requested": 1,
+  "states": [
+    2,
+    59
+  ],
+  "dynamic_rows": 4064,
+  "selected_base_edges": 836605,
+  "gpu_total_bytes": 17170956288,
+  "selected_nonzero_weights": 698768,
+  "baseline_checks": [
+    {
+      "state": 2,
+      "time_s": 0.0,
+      "projected_exact": false,
+      "target_exact": false,
+      "rate_exact": false
+    },
+    {
+      "state": 59,
+      "time_s": 0.00012421875,
+      "projected_exact": false,
+      "target_exact": false,
+      "rate_exact": false
+    }
+  ],
+  "runner_exit_code": 2,
+  "error": null,
+  "runtime_installed_count": 1,
+  "epoch_steps_seen": 2,
+  "test_executions": 1,
+  "wall_s": 19.11060054299014,
+  "maxrss_kib": 5085604,
+  "gpu_free_after_bytes": 14767095808,
+  "gpu_allocation_delta_upper_bytes": 1050673152,
+  "disk_bytes": 186698,
+  "budget_ok": true,
+  "frozen_gates_ok": false,
+  "scope": "Two saved states, full target/rate, same prepared oracle; no omitted-edge kernel timing or long organism behavior."
+}

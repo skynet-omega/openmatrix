@@ -1,0 +1,116 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "ValueError",
+    "message": "Baseline differs from frozen consumed trace",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/run_set.py\", line 171, in main\n    try: obj.step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py\", line 135, in step\n    row=super().step();self._validate_adapter()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_cns_20260915/contact_runtime.py\", line 69, in step\n    row=self.core.step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_session.py\", line 100, in step\n    row=super().step();self.body.rh_pending=self.rh_command();self._validate_rh_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_session.py\", line 64, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/serial_ctr_session.py\", line 83, in step\n    row=super().step();self.body.pending_serial=self.serial_command();self._validate_serial_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/cxhp8_position_session.py\", line 44, in step\n    row=super().step();self.hybrid.set_cxhp8_sample(self.cxhp8_field.sample(self.body));self._validate_cxhp8_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rf_tarsal_session.py\", line 63, in step\n    row=super().step();self.body.pending_tarsal=self.tarsal_command();self._validate_tarsal_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/bilateral_front_session.py\", line 63, in step\n    self._validate_rf_pending();used=self.body.pending_rf.copy();row=super().step();self.body.pending_rf=self.right_front_command();self._validate_rf_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/trochanter_session.py\", line 61, in step\n    self._validate_tr_pending();used=self.body.pending_tr.copy();row=super().step();self.body.pending_tr=self.trochanter_command();self._validate_tr_pending()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coxal_session.py\", line 91, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_session.py\", line 102, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/olfactory_endogenous_session.py\", line 56, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/lamina_boundary_session.py\", line 118, in step\n    row=super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/prosthetic_olfactory_session.py\", line 100, in step\n    row = super().step()\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kcgamma_sensory_probe.py\", line 158, in step\n    self.hybrid.advance(self.CONTROL_NS, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/coefficient_buffer_brain.py\", line 54, in advance\n    return super().advance(dt_ns, drive, light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 124, in advance\n    pn(self,half,first,middle);cns(self,ns,drive,light,True)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 87, in cns\n    try:GpuProjectionParallelBrain.advance(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_axonal_brain.py\", line 69, in advance\n    super().advance(ns,drive,light)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/event_coupling.py\", line 73, in begin\n    result=old_spatial(self,dt_ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/kc_spatial_brain.py\", line 92, in advance\n    try:GpuKcGammaOutputBrain.advance(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py\", line 75, in gpu\n    try:return old_gpu(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/event_coupling.py\", line 101, in gpu\n    return engine.step(self,ns,drive,light)\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/probe_kc_apl_lesion.py\", line 142, in step\n    need(all(all((row[\"projected_exact\"], row[\"target_exact\"], row[\"rate_exact\"]))\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/owner_fallback_cost_20260924_01/probe_kc_apl_lesion.py\", line 24, in need\n    raise ValueError(message)\nValueError: Baseline differs from frozen consumed trace\n",
+    "numerical_diagnostic": null
+  },
+  "cleanup_errors": [
+    "checkpoint: RuntimeError('Failed owner cannot publish coherent state')"
+  ],
+  "odor": "sham",
+  "engine": "causal_cuda",
+  "observer": "off",
+  "requested_trial_ms": 1,
+  "completed_trial_ms": 0,
+  "completed_preparation_ms": 0,
+  "wall_total_s": 16.943475473002763,
+  "checkpoint": {
+    "status": "FAILED_NOT_RESUMABLE",
+    "message": "RuntimeError('Failed owner cannot publish coherent state')"
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/epoch_cost_20260923/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 2,
+      "accepted": 12857,
+      "rejected": 76,
+      "build_s": 0.004121969002881087,
+      "native_wall_s": 0.18727614601084497,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        40.0
+      ]
+    },
+    "CNS": {
+      "epochs": 2,
+      "accepted": 16,
+      "rejected": 0,
+      "build_s": 0.49350764699920546,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "build_s": 2.2179292239889037,
+      "wall_s": 0.06175229400105309,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 2,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 1,
+      "events": 3,
+      "max_q_reconstruction_difference": 2.7755575615628914e-16,
+      "global_trials": 16,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 0,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 36
+    }
+  },
+  "stage3_pass": null,
+  "reason": "Flow diagnostic only; not a new biological or historical admission."
+}
