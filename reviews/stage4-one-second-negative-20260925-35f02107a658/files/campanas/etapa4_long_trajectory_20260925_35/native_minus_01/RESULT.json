@@ -1,0 +1,82 @@
+{
+  "status": "INCOMPLETE",
+  "error": {
+    "type": "ValueError",
+    "message": "Explicit bounded unique epochs required",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa4_long_trajectory_20260925_35/run_long.py\", line 221, in main\n    drive_observer = DriveObserver(session.adapter,selected_epochs=CAPTURE_EPOCHS,\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/adapter_drive_observer_20260923/observer.py\", line 56, in __init__\n    need(selected and len(set(selected))==len(selected)<=limits['selected_epochs_max'],'Explicit bounded unique epochs required')\n  File \"/home/daroch/AXIOMA_ASTRA/motor_nuevo/adapter_drive_observer_20260923/observer.py\", line 20, in need\n    if not ok:raise ValueError(message)\nValueError: Explicit bounded unique epochs required\n",
+    "numerical_diagnostic": null
+  },
+  "cleanup_errors": [],
+  "field": "minus",
+  "engine": "causal_cuda",
+  "observer": "on",
+  "requested_trial_ms": 1000,
+  "completed_trial_ms": 0,
+  "completed_preparation_ms": 0,
+  "wall_total_s": 41.80715418400359,
+  "checkpoint": {
+    "status": "COMPLETE_SERIALIZED_NOT_RESUME_VALIDATED",
+    "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_01/final_state"
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "initialized": false
+    },
+    "CNS": {
+      "epochs": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "build_s": 0.0,
+      "device_bytes": 0,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "build_s": 2.335670497006504,
+      "wall_s": 0.0,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true
+    },
+    "events": {
+      "blocks": 0,
+      "events": 0,
+      "max_q_reconstruction_difference": 0.0,
+      "global_trials": 0,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 0,
+      "step_ns": 125000,
+      "predictor_restore_exact": null,
+      "pn_rejections": 0,
+      "predictor_evaluations": 0
+    }
+  },
+  "stage3_pass": null,
+  "stage4_pass": null,
+  "reason": "Single one-second fixed-source trajectory; only a falsification screen. A matched control is required to claim navigation or feedback."
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "stage4_one_second_trajectory_screen_prospective_v1",
+  "registered_before_organism_runs": true,
+  "status": "READY_FOR_PREFLIGHT",
+  "chosen_arm": "minus",
+  "limitation_observed": "A 400-ms bilateral source pair altered command and yaw but both bearing errors worsened; no source pursuit demonstrated. One longer biological trajectory can falsify delayed orientation, not prove feedback.",
+  "operation": "Extend the unchanged PN629-off full organism, source, motor, geometry and Gaussian boundary to 1000 ms from the same 40-ms odor-free preparation. No wind or 30-degree teleport.",
+  "legal_information": "Only the 400-ms exposed pair, its fixed source, measured motor limit and frozen numerical setup. No 1000-ms neural or body outcome has been observed.",
+  "rivals": {
+    "A": "Delayed correction emerges within 1 s: absolute bearing error decreases materially from preparation and from 400 ms.",
+    "B": "Early source-driven turn persists or reverses without material bearing improvement by 1 s.",
+    "C": "Clock, field, preparation, support, prefix or numerical integrity fails; no biological interpretation."
+  },
+  "controls_and_limit": "The first 400 ms are compared with the historical same-arm trace and raw field/motor equations are rebuilt. This is a one-arm screening run; matched sham/yoked and numerical reference are required before any Stage4 admission.",
+  "fixed_inputs": {
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "geometry_preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757",
+    "reference_pose_guard_sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3",
+    "local_pose_guarded_helper_sha256": "110608f9a716d18ef4bef470cb1898ac1c02681d437b1900007d5663dfba43da",
+    "source_design": "lateral offset 1.5 antenna baselines; sigma 1.5 baselines; forward offset is the unique nonnegative solution that matches the old prepared bilateral mean",
+    "source_labels": {
+      "plus": "left",
+      "minus": "right"
+    },
+    "preparation_ms": 40,
+    "trial_ms": 400
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "observation": {
+    "bounded_drive_epochs": [
+      "preparacion:1",
+      "preparacion:40",
+      "ensayo:1",
+      "ensayo:100",
+      "ensayo:400",
+      "ensayo:700",
+      "ensayo:900",
+      "ensayo:1000"
+    ],
+    "bounded_drive_ordinals": [
+      0,
+      1
+    ],
+    "scope": "Raw per-ms body, sensors, DN and signed flow; observer at ten fixed epochs."
+  },
+  "screen": {
+    "bearing_improvement_deg_min": 0.5,
+    "late_bearing_improvement_deg_min": 0.5,
+    "upright_min": 0.95,
+    "contacts_min": 4,
+    "prefix_max_abs": {
+      "qpos": 1e-06,
+      "position_mm": 1e-05,
+      "yaw_delta_deg": 0.0001,
+      "command_yaw_rate_rad_s": 1e-05,
+      "concentracion_campo": 1e-06,
+      "sensores_usados": 1e-06
+    },
+    "meaning": "A positive screen only triggers matched controls; it is not a Stage4 pass. A negative screen rejects delayed bearing correction for this arm and horizon."
+  },
+  "budget": {
+    "full_organism_runs_max": 1,
+    "wall_s_max": 4300,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "projected_output_GiB_max": 3,
+    "physical_C_reserve_GiB_min": 30,
+    "new_engine_prototypes": 0,
+    "new_biological_parameters": 0
+  },
+  "stop": "No retuning of source, gain, reader, horizon, thresholds or solver after outcome. Preserve incomplete attempts. Stage4 and Stage5 remain open unless separate causal controls pass."
+}

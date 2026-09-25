@@ -1,0 +1,422 @@
+{
+  "format_version": 2,
+  "label": "stage4-one-second-negative-20260925",
+  "description": "Organismo completo PN629-off con fuente derecha fija durante 1 s: bearing empeora 18,37685 a 22,11678 grados pese a acercamiento por avance tonico. Prefijo de 400 ms exacto, verificadores crudos normal/-O. Criba exploratoria negativa; Etapas 4 y 5 abiertas. ZIP reproduce metricas, no la simulacion completa ni checkpoints.",
+  "files": [
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/README.md",
+      "bytes": 4950,
+      "sha256": "59b57b7ffc793d8e7f335798a5ac8d38d6509ffe8a613dae5e8320468c242bd1"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/PLAN.json",
+      "bytes": 4304,
+      "sha256": "68b5b929ca704f213cc1586cc95f8a32b0325d4e5baffad75daad2decaa171db"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/SOURCE_LOCK.json",
+      "bytes": 7290,
+      "sha256": "99d3d7dff37c2f92fb66605e378e11fc836eaed628746eb3082aa50e645f277c"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/PREFLIGHT_REPAIR_01.json",
+      "bytes": 743,
+      "sha256": "0250155fdc0f7472cb8824f07e939df5d608ab82a8fb5b5db0a00a105cde912c"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/REFERENCE_POSE_GUARD_01.json",
+      "bytes": 3794,
+      "sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/run_long.py",
+      "bytes": 24978,
+      "sha256": "40937999e90973789899a5f1046126c4bce4e6370cbf2489a5e78ef82639df15"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/gaussiano_400.py",
+      "bytes": 15701,
+      "sha256": "110608f9a716d18ef4bef470cb1898ac1c02681d437b1900007d5663dfba43da"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/verify_long.py",
+      "bytes": 7122,
+      "sha256": "1cd966dfce5f287cda12d9c82b24988406ed9e4ed157b8cdd1e7612c1ca28239"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/diagnose_long.py",
+      "bytes": 4061,
+      "sha256": "ace38ef50f78a1db8b440bd99cbf998711dc9634637d254d69149ce641eed416"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/RAW_VERIFIED_01.json",
+      "bytes": 1597,
+      "sha256": "f3dbad9c19cff3e6eb8b09c36729330cfde79694007c231b07c8cf785088e910"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/RAW_VERIFIED_02.json",
+      "bytes": 1597,
+      "sha256": "f3dbad9c19cff3e6eb8b09c36729330cfde79694007c231b07c8cf785088e910"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/DIAGNOSIS_01.json",
+      "bytes": 1510,
+      "sha256": "6be1c8fed68d40b50f9b5081c69a30cc23bce3e0641474f4eb4c3a00ca1577d3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/DIAGNOSIS_02.json",
+      "bytes": 1510,
+      "sha256": "6be1c8fed68d40b50f9b5081c69a30cc23bce3e0641474f4eb4c3a00ca1577d3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/CHATGPT_STAGE45_RESPONSE.md",
+      "bytes": 8636,
+      "sha256": "a06d379f9796f32a67f94b7a5da573a142cafc22439af98d619f288f0aa9a9f1"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/JEV_SPEC.json",
+      "bytes": 1876,
+      "sha256": "8cb7d47c4e3a27752fdcbd7e6346e1c558ca1ba8169f3cc8e1942a1c5723a635"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/jev_01/request.json",
+      "bytes": 1905,
+      "sha256": "f2c47a1b7ef71a7d8b1a3e52be1767cc4cb38230cba4d9a0a5ef571f7f123f51"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/jev_01/response.json",
+      "bytes": 264,
+      "sha256": "edbf31bddbf89785661795504b5645b84fa4b3c9549636aa226bdc3bc4ae36c5"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/jev_01/receipt.json",
+      "bytes": 402,
+      "sha256": "2e081876af02bea16e645344af2017b7369aaf1ad3dd35f39ce21d6d2ef026cf"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_01/RESULT.json",
+      "bytes": 3246,
+      "sha256": "d60c182b5d95a4786f0f5a2cb4df3318ab59e44a238b94cb33dedc4fbc1602eb"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/RESULT.json",
+      "bytes": 3420,
+      "sha256": "101f87408d4aed408b53fa8777a3d4994a53412e62f2cf458e164f17710f9608"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/RUN_CONTRACT.json",
+      "bytes": 1969,
+      "sha256": "8ad9779152cd9af156d4461c95e6e0e4e02b0527e6cf095fe3ff85c6bb6e22b0"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/FROZEN.json",
+      "bytes": 5715,
+      "sha256": "4192e3b72e0667d2a8b1ab5bbf40e679b0f584b51cbaade67a5abde90b16ca3d"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/INTERVENTION.json",
+      "bytes": 421,
+      "sha256": "19131c2698958218f39b36c3caefb05c1898c13d5895f6bc0588b04e1f1b6249"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/OWNER.json",
+      "bytes": 68,
+      "sha256": "378bf5cb2f298483d6b65386509370e798ad1aae8d8e465d7d7e8fa310751ed9"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/GAUSSIAN_SPEC.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/GAUSSIAN_INITIAL_GUARD.json",
+      "bytes": 1082,
+      "sha256": "963f70ac94f13526c77c60677bc69b5aee576bcbbf2a080ff3a230a0439ef37c"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/DRIVE_INDEX_MAP.json",
+      "bytes": 1470,
+      "sha256": "3c1b467c73ee840608d3b82cb81311d20e3dd03a499079496d2933fb8df45680"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/DRIVE_OBSERVATION.json",
+      "bytes": 162010,
+      "sha256": "e8f2274368d5568609b1050398e25ca9e3a1e0584db8b5858be7c44942fb8571"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/PROGRESS.jsonl",
+      "bytes": 353904,
+      "sha256": "4fae0142d596f4572bbf0759143922516a5af08ddd6d23208a911c9281e64632"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/traces.npz",
+      "bytes": 13281335,
+      "sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/GAUSSIAN_INTERVALS.json",
+      "bytes": 18885971,
+      "sha256": "4f37678bc703cd1e2255d42b12a83b5bba6205326a8af75d1c255bbe1aa6f3c8"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/EVENT_AUDIT.json",
+      "bytes": 21086082,
+      "sha256": "69c37ce063f85ee1c8d1096240f560fa6c2a5a8cfc169e87cf57f9e209c67961"
+    },
+    {
+      "path": "campanas/etapa4_mirrored_source_20260924_26/native_minus_01/traces.npz",
+      "bytes": 5672724,
+      "sha256": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/0__etapa4_long_trajectory_20260925_35__PLAN.json",
+      "bytes": 4304,
+      "sha256": "68b5b929ca704f213cc1586cc95f8a32b0325d4e5baffad75daad2decaa171db"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/10__etapa3_continuation_repair_20260923_19__REPAIR19_CONTRACT.json",
+      "bytes": 3696,
+      "sha256": "4f59b6040c06c778cc262ca5e60ff3ac55b19203f84c810ed8740fb2c7c5f8c8"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/11__etapa3_continuation_repair_20260923_19__RUN_LOCK.json",
+      "bytes": 22342,
+      "sha256": "3e11a3cb1c18418478c86b2527b29c7f3502bafb9502477a17c5972dbcec0dbb"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/12__etapa3_postclose_20260923_20__verify_postclose.py",
+      "bytes": 9488,
+      "sha256": "ca0d4f0efa9b637f88e331eaa5421da98817e34a661d0c2c9be79258d0649859"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/13__etapa3_postclose_20260923_20__PLAN.json",
+      "bytes": 1831,
+      "sha256": "5f33a4f29bd3473f75be773bb36531c675d642307325194bf8cdfc86fdb0594f"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/14__etapa4_diseno_20260923_17__GEOMETRY.json",
+      "bytes": 905,
+      "sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/15__etapa4_long_trajectory_20260925_35__gaussiano_400.py",
+      "bytes": 15701,
+      "sha256": "110608f9a716d18ef4bef470cb1898ac1c02681d437b1900007d5663dfba43da"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/16__adapter_drive_observer_20260923__observer.py",
+      "bytes": 13459,
+      "sha256": "709082e4160a6292381a67e433d49ce04b9409b2c11371212544c5342366907d"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/17__adapter_drive_observer_20260923__PLAN.json",
+      "bytes": 1482,
+      "sha256": "03e627ddc998be48f0625f36a0736ffbe220f46f38788b35e723dd1dc254f1ee"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/18__etapa3_pn629_intervention_20260923_15__native_tap.py",
+      "bytes": 9053,
+      "sha256": "b22f879c5cf57e38f91528e4a32b96c6ce018ae21a2536d76e1780b496f6e631"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/19__etapa3_pn629_intervention_20260923_15__event_waveform.py",
+      "bytes": 7117,
+      "sha256": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/1__etapa4_long_trajectory_20260925_35__run_long.py",
+      "bytes": 24978,
+      "sha256": "40937999e90973789899a5f1046126c4bce4e6370cbf2489a5e78ef82639df15"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/20__etapa3_pn629_intervention_20260923_15__event_ports.py",
+      "bytes": 3299,
+      "sha256": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/21__etapa3_pn629_intervention_20260923_15__event_coupling.py",
+      "bytes": 6889,
+      "sha256": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/22__etapa3_pn629_intervention_20260923_15__native_cell.py",
+      "bytes": 9297,
+      "sha256": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/23__etapa3_pn629_intervention_20260923_15__device_cell.py",
+      "bytes": 7482,
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/24__etapa3_pn629_intervention_20260923_15__physical_events.cu",
+      "bytes": 2537,
+      "sha256": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/25__etapa3_pn629_intervention_20260923_15__device_cell.cu",
+      "bytes": 3333,
+      "sha256": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/26__etapa3_pn629_intervention_20260923_15__block_runtime.hpp",
+      "bytes": 1196,
+      "sha256": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/27__pipeline_review_20260922__runtime_session.py",
+      "bytes": 3443,
+      "sha256": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/28__pipeline_review_20260922__run_pipeline.py",
+      "bytes": 7724,
+      "sha256": "a5c3bd57c936c986f7cf0b444cbf7bec7d4b75049ce205a18fab5d5cdc71f5bf"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/29__etapa3_motor_nuevo_20260922__organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/2__etapa4_long_trajectory_20260925_35__verify_long.py",
+      "bytes": 7122,
+      "sha256": "1cd966dfce5f287cda12d9c82b24988406ed9e4ed157b8cdd1e7612c1ca28239"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/30__etapa3_motor_nuevo_20260922__graph_core.py",
+      "bytes": 7119,
+      "sha256": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/31__etapa3_motor_nuevo_20260922__pn_execution.py",
+      "bytes": 2107,
+      "sha256": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/32__causal_runtime_20260922__operator_state.py",
+      "bytes": 5236,
+      "sha256": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/34__legacy_sources__gpu_visual_brain.py",
+      "bytes": 6622,
+      "sha256": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/35__legacy_sources__prosthetic_olfactory_brain.py",
+      "bytes": 26776,
+      "sha256": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/36__legacy_sources__gpu_coefficient_layout.py",
+      "bytes": 16113,
+      "sha256": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/37__motor13_20260922__block_midpoint.py",
+      "bytes": 10836,
+      "sha256": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/38__motor13_20260922__kc_adaptive.py",
+      "bytes": 4852,
+      "sha256": "5e0a51523ec28629f368c4e75dc1dfd3235ef5057b4e3f7a364066543e702d68"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/39__motor14_20260922__motor_runtime.py",
+      "bytes": 2528,
+      "sha256": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/3__etapa4_long_trajectory_20260925_35__CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/40__motor14_20260922__event_coupling.py",
+      "bytes": 5993,
+      "sha256": "cb5e69b003963b7fc74e77c33bd668cde84267c15a2b7c349f60404d6a5419ac"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/41__stage4_antennal_contact_adapter_20260915__antennal_runtime.py",
+      "bytes": 12097,
+      "sha256": "10dc2c80bc520f18fc59779ae50b5d8fe0f53faf15808a39fe1f13b83dfbe4e7"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/42__stage3_bilateral_entry_20260915__antennal_boundary.py",
+      "bytes": 1260,
+      "sha256": "403a897d50fee3b15497b0a17d51ce6a60aeaecbd5491ae485d53e28badd78f7"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/43__src__gpu_coefficient_buffers.py",
+      "bytes": 2318,
+      "sha256": "114c60273a52c23f812c5f2252ed0b150439f5236c17bf88fad2a40cf23d5315"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/44__src__matrix_olfactory_diagnostic.py",
+      "bytes": 114166,
+      "sha256": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/45__src__sensorimotor_contact_session.py",
+      "bytes": 16817,
+      "sha256": "cb677d6e75617f378286df74d933cdcf23c5893ab33114f917b51fa829376e4f"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/4__reference__ORN_INDEX_MAP.json",
+      "bytes": 1383,
+      "sha256": "c114d23ab72d8e7bc96fba91d181e9e47c0f167647fbd74b6869dfe799798413"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/5__etapa4_long_trajectory_20260925_35__preflight_reference_guard.py",
+      "bytes": 3035,
+      "sha256": "919f12e529ab3a626abf256311329b7375e2ac34999bf1aaca0c2a8ce5193019"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/6__etapa4_long_trajectory_20260925_35__REFERENCE_POSE_GUARD_01.json",
+      "bytes": 3794,
+      "sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/7__etapa4_next_20260924_25__geometry_preflight.py",
+      "bytes": 9409,
+      "sha256": "04ad8f5f52c26ee3f2c255c9a8defb71e15a68f7fe4a9ad397844c17521be97e"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/8__geometry_preflight_01__RESULT.json",
+      "bytes": 3862,
+      "sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/executed_sources/9__etapa3_continuation_repair_20260923_19__verify_repair19.py",
+      "bytes": 7514,
+      "sha256": "0fa57f759848157146452b351849ae2b4a773cc9a60943cfa3d001109b047d9d"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/flow/FLOW.jsonl",
+      "bytes": 1039357,
+      "sha256": "8b2f9cabd182961bf24a571003b36d07d8f72526e2411761062db000cf70d54a"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/flow/FLOW.npz",
+      "bytes": 76196,
+      "sha256": "be00007f3414ef218093b9b2b2800285b8fab1bd3b70d050dd483528b17d4529"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/flow/METADATA.json",
+      "bytes": 1576,
+      "sha256": "f6898acf15df46ab425b63101ace814292399c781e3efc22101720584f5b9a2f"
+    },
+    {
+      "path": "campanas/etapa4_long_trajectory_20260925_35/native_minus_02/flow/RESULT.json",
+      "bytes": 187,
+      "sha256": "852d2d84b740a842b98c362eb91f86c71e46d297874cdb8f1dfacac90072a2d5"
+    }
+  ]
+}

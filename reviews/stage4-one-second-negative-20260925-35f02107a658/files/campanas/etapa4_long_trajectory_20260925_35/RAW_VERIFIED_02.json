@@ -1,0 +1,37 @@
+{
+  "schema": "stage4_one_second_raw_screen_v1",
+  "classification": "SCREEN_NEGATIVE_FOR_THIS_HORIZON",
+  "stage4_navigation_admitted": false,
+  "stage5_feedback_admitted": false,
+  "field": "minus",
+  "run_result_sha256": "101f87408d4aed408b53fa8777a3d4994a53412e62f2cf458e164f17710f9608",
+  "trace_sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29",
+  "historical_trace_sha256": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d",
+  "plan_sha256": "68b5b929ca704f213cc1586cc95f8a32b0325d4e5baffad75daad2decaa171db",
+  "verifier_sha256": "1cd966dfce5f287cda12d9c82b24988406ed9e4ed157b8cdd1e7612c1ca28239",
+  "historical_prefix_max_abs": {
+    "qpos": 0.0,
+    "position_mm": 0.0,
+    "yaw_delta_deg": 0.0,
+    "command_yaw_rate_rad_s": 0.0,
+    "concentracion_campo": 0.0,
+    "sensores_usados": 0.0
+  },
+  "historical_prefix_within_frozen_limits": true,
+  "bearing_error_deg": {
+    "prepared": 18.376847273299628,
+    "trial_400ms": 19.722892277573944,
+    "trial_1000ms": 22.116783284259853
+  },
+  "bearing_improvement_deg": -3.739936010960225,
+  "late_bearing_improvement_deg": -2.3938910066859087,
+  "body_source_distance_mm": {
+    "prepared": 1.1312492593472234,
+    "trial_400ms": 1.0565997970858856,
+    "trial_1000ms": 0.9459065685472738
+  },
+  "upright_min": 0.977455661104291,
+  "contacts_min": 4,
+  "max_abs_reader_error_rad_s": 0.0,
+  "interpretation": "One fixed-source life is an exploratory trajectory screen. Absolute approach can arise from common forward drive; neither feedback nor navigation is proven without a matched control."
+}

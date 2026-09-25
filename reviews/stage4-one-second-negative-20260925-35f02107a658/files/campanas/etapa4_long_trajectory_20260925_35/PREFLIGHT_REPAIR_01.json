@@ -1,0 +1,13 @@
+{
+  "schema": "stage4_long_preflight_repair_v1",
+  "failed_attempt": "native_minus_01",
+  "failed_result_status": "INCOMPLETE",
+  "completed_preparation_ms": 0,
+  "completed_trial_ms": 0,
+  "error": "DriveObserver permits at most eight selected epochs; the initial list had ten.",
+  "original_source_lock_sha256": "ab12997a0dedd0ebdffbe54f4857da2d86665730a33f8e8c508beafb21fb21b4",
+  "repair": "Retain eight observational epochs: preparation 1/40, trial 1/100/400/700/900/1000. No organism equation, source, horizon, metric or outcome threshold changed.",
+  "repaired_source_lock_sha256": "99d3d7dff37c2f92fb66605e378e11fc836eaed628746eb3082aa50e645f277c",
+  "repeated_arm": "native_minus_02",
+  "scientific_exposure_from_failed_attempt": 0
+}

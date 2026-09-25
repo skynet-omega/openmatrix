@@ -1,0 +1,30 @@
+{
+  "schema": "stage4_one_second_posthoc_decomposition_v1",
+  "classification": "POSTHOC_DESCRIPTIVE_NOT_AN_ADMISSION_GATE",
+  "trace_sha256": "d1d508ae0699b4d3835629c7b8448296b18ea6f307e8d93485962faefa5a2d29",
+  "raw_verifier_sha256": "f3dbad9c19cff3e6eb8b09c36729330cfde79694007c231b07c8cf785088e910",
+  "source_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+  "analysis_code_sha256": "ace38ef50f78a1db8b440bd99cbf998711dc9634637d254d69149ce641eed416",
+  "source_direction_change_deg": -3.7710375002231515,
+  "body_yaw_change_deg": -0.031101489262933768,
+  "neural_command_integral_deg": -0.022796211107375834,
+  "neural_command_integral_first400_deg": -0.009552456029011717,
+  "neural_command_integral_last600_deg": -0.013243755078364117,
+  "neural_command_rate_deg_s": {
+    "mean": -0.022796211107375834,
+    "min": -0.42551129872308824,
+    "max": 0.31784427843622737,
+    "positive_fraction": 0.454,
+    "saturated_fraction": 0.0
+  },
+  "consumed_l_minus_r": {
+    "first100_mean": -0.37985245656744693,
+    "last100_mean": -0.3644272654973201
+  },
+  "forward_command_mm_s": 0.2,
+  "body_xy_change_mm": [
+    0.18416390022194765,
+    -0.07119868444910264
+  ],
+  "interpretation": "On this trajectory the line of sight moved far more than body yaw; the neural command did not approach the ±5 deg/s ceiling. The source distance decrease is compatible with tonic forward motion. This does not identify the upstream neural mechanism or prove a body-independent bottleneck."
+}
