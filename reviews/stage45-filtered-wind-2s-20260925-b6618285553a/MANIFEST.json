@@ -1,0 +1,229 @@
+{
+  "schema": "stage45_empirical_review_capsule_v1",
+  "files": [
+    {
+      "path": "campaign/README.md",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/README.md",
+      "bytes": 3898,
+      "sha256": "42c627b7b769bf52e31689609c68ff6df2b997c6730fb57aa09cfdc936f6d537"
+    },
+    {
+      "path": "campaign/PLAN.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/PLAN.json",
+      "bytes": 5100,
+      "sha256": "f6258d7be5286770605fcc9f9c511b0836bab814f03875244f4c3e2e6212b5db"
+    },
+    {
+      "path": "campaign/SOURCE_LOCK.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/SOURCE_LOCK.json",
+      "bytes": 7303,
+      "sha256": "b6618285553af81f495376847a7916d911e45ca4b2668f5bfdf4e9f6c7888993"
+    },
+    {
+      "path": "campaign/FINISH_SOURCE_LOCK.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/FINISH_SOURCE_LOCK.json",
+      "bytes": 976,
+      "sha256": "7bee125815bf580d4e2faa8d030a5e94c2f39dfd62539c5ac8ffc788d2be663f"
+    },
+    {
+      "path": "campaign/CAMPOS.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/CAMPOS.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "campaign/run_navigation.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/run_navigation.py",
+      "bytes": 27073,
+      "sha256": "1d82b4d503acbe99a9c8bfb70d0ff95a7983b5326500fab57b7ccaa92fe7c782"
+    },
+    {
+      "path": "campaign/run_finish.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/run_finish.py",
+      "bytes": 12893,
+      "sha256": "0f849e8a547b142145759ad12fc8d846dcbe68efea6c7d0cff8aec7e7cdf7dc1"
+    },
+    {
+      "path": "campaign/restore_gaussian.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/restore_gaussian.py",
+      "bytes": 8557,
+      "sha256": "5afd83956371578de05cbbc25b2791f27e8b35d056ca5cab8d8c2d8fc79736f6"
+    },
+    {
+      "path": "campaign/checkpoint_compare_utf8.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/checkpoint_compare_utf8.py",
+      "bytes": 2106,
+      "sha256": "fb95563b2ef9c22aea6bead2633b0c58364964b707a6bfe38ff03beef55c9757"
+    },
+    {
+      "path": "campaign/motor_wind.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/motor_wind.py",
+      "bytes": 4522,
+      "sha256": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01"
+    },
+    {
+      "path": "campaign/gaussiano_400.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/gaussiano_400.py",
+      "bytes": 16223,
+      "sha256": "fcff2afe27887cdfe0c68080baf0d7af768ee001fab36db6abc3e63a490677b9"
+    },
+    {
+      "path": "campaign/merge_segments.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merge_segments.py",
+      "bytes": 4153,
+      "sha256": "87074458e9368d32a4e9dfddcff7eb4ffdea6d8d0f38755a2f5acc80adc43e11"
+    },
+    {
+      "path": "campaign/analyze_navigation.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/analyze_navigation.py",
+      "bytes": 8194,
+      "sha256": "96565c8223e7be8f533ab9cfa15f355dc49ff0e9bcb407121bb30a3bf2019163"
+    },
+    {
+      "path": "campaign/render_video.py",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/render_video.py",
+      "bytes": 5958,
+      "sha256": "90e8d7b925402244c513df866388d4cd2084ad1e61a88c478947acd8b917c218"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/RESULT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/RESULT.json",
+      "bytes": 4079,
+      "sha256": "898f422e35834fa11971715cb43d4289268236a3441072d8f323c6f75bccae7c"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/RUN_CONTRACT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/RUN_CONTRACT.json",
+      "bytes": 2311,
+      "sha256": "8b2c35608576510a20afddcd9725e780cb2a042d7d1706bd99340019a644ebcf"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/MOTOR_WIND_AUDIT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/MOTOR_WIND_AUDIT.json",
+      "bytes": 371,
+      "sha256": "d876d9d5bba7b8d2ca0bbbef14f8bf6e77abe7a17cb222c64096648e6a6ab173"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/GAUSSIAN_INITIAL_GUARD.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/GAUSSIAN_INITIAL_GUARD.json",
+      "bytes": 1082,
+      "sha256": "963f70ac94f13526c77c60677bc69b5aee576bcbbf2a080ff3a230a0439ef37c"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/DRIVE_OBSERVATION.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/DRIVE_OBSERVATION.json",
+      "bytes": 149116,
+      "sha256": "3ed8954ccfde1a62e327e8496654ccece23bb307bddb0c6f456bae831b196a0c"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/RESULT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/RESULT.json",
+      "bytes": 3750,
+      "sha256": "70d2c84f0d2f27b0fa6914e843c3a81beb384d14055158ad35005af793e3e830"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/RUN_CONTRACT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/RUN_CONTRACT.json",
+      "bytes": 847,
+      "sha256": "965583bac2c88c2041fb7b11fb769977e428fddce1b32b0e16e41aa2afbb5ea6"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/RESTORATION.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/RESTORATION.json",
+      "bytes": 848,
+      "sha256": "a91111ea3c54979c6d98b6a22f9d0a2078deea5d061c54db8ead857798ec1419"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/FILTER_RESTORE.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/FILTER_RESTORE.json",
+      "bytes": 352,
+      "sha256": "1be2ecf8ae13a0c37742e89e3edbad4d663f965ab2bee2722858bd9abeaba2e1"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/MOTOR_WIND_AUDIT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/MOTOR_WIND_AUDIT.json",
+      "bytes": 390,
+      "sha256": "612e1cc301e04263dd47795dd9fd8c2e70ae879c7a59cc6bb91c8eee3074d460"
+    },
+    {
+      "path": "campaign/merged_full_01/RESULT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/RESULT.json",
+      "bytes": 311,
+      "sha256": "c5daa324f31283e72d437fd59fd41fd324b0a0f774f9abb85ae21b5edde53d83"
+    },
+    {
+      "path": "campaign/merged_full_01/MERGE_RECEIPT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/MERGE_RECEIPT.json",
+      "bytes": 1061,
+      "sha256": "940e75e30b0811ab37c10775b8f0f2e98530a5dd3eeaf34e721bf2418f174ab4"
+    },
+    {
+      "path": "campaign/merged_full_01/ANALYSIS.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/ANALYSIS.json",
+      "bytes": 4226,
+      "sha256": "2bec27d97066b7b21943b7dda183f6d85101525b208389e5ebc75ba615bcb7eb"
+    },
+    {
+      "path": "campaign/merged_full_01/MOTOR_WIND_AUDIT.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/MOTOR_WIND_AUDIT.json",
+      "bytes": 390,
+      "sha256": "612e1cc301e04263dd47795dd9fd8c2e70ae879c7a59cc6bb91c8eee3074d460"
+    },
+    {
+      "path": "campaign/merged_full_01/GAUSSIAN_SPEC.json",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/GAUSSIAN_SPEC.json",
+      "bytes": 448,
+      "sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+    },
+    {
+      "path": "campaign/merged_full_01/traces.npz",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/traces.npz",
+      "bytes": 26157378,
+      "sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e"
+    },
+    {
+      "path": "campaign/merged_full_01/TRAJECTORY.png",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/TRAJECTORY.png",
+      "bytes": 172060,
+      "sha256": "aee71274ad7a6d87299991e0ac93025f04abee0a5c18afcd4e716f35bfdad389"
+    },
+    {
+      "path": "campaign/merged_full_01/VIDEO_POSTER.png",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/VIDEO_POSTER.png",
+      "bytes": 143413,
+      "sha256": "24d3635ed00863c88430c72a88a3843d6fb9666d07d80650c2c6993af43fc50b"
+    },
+    {
+      "path": "campaign/merged_full_01/MUJOCO_TRAJECTORY.mp4",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/MUJOCO_TRAJECTORY.mp4",
+      "bytes": 92704,
+      "sha256": "76700a29a05bc1be237f6a13b1c0f326f7fb74e53d3d20ac7aba5da5a75d3156"
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/EVENT_AUDIT.json.gz",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/EVENT_AUDIT.json",
+      "bytes": 2929343,
+      "sha256": "596a5fd7e8ebb15b62fb9ef7fdcc9d5d36abb5c4e3236842b642189d22742adb",
+      "uncompressed_sha256": "05fcdf2c662aac775860fb4808fef3f4ffb291433b00a4d9f1260cb2d713fc5d",
+      "uncompressed_bytes": 21053999
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_03/GAUSSIAN_INTERVALS.json.gz",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/GAUSSIAN_INTERVALS.json",
+      "bytes": 5403470,
+      "sha256": "c98a00e66ad6d71f98703c1003cb36808ba465bc9db9947dc990781f9eddeaf6",
+      "uncompressed_sha256": "342a7e22dbf3e0116558cc81e273fc5dfb43eb54c46146f3ffe53a85fb523e55",
+      "uncompressed_bytes": 18932756
+    },
+    {
+      "path": "campaign/navigation_minus_filtered_wind_05_continue/EVENT_AUDIT.json.gz",
+      "source": "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_05_continue/EVENT_AUDIT.json",
+      "bytes": 2810517,
+      "sha256": "2e3b0d88ae0ccba0afa52122d6a80fbe838030d01f88733b3dd33e78f6795e90",
+      "uncompressed_sha256": "2164c828400ffd8f21bf56667a2d5844f96139d877465268f9e01a871ba57e9e",
+      "uncompressed_bytes": 20205455
+    }
+  ],
+  "scope": "Code, raw complete per-ms trace, analytic reconstruction, video and compact event/input logs. Full 166700-neuron checkpoint and source dependencies are not included; this package cannot re-run the organism or independently reproduce cold-state equality.",
+  "secrets_included": false
+}

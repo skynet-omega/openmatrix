@@ -1,0 +1,20 @@
+{
+  "schema": "stage45_cold_continue_1000_to_2000_v1",
+  "source_checkpoint_manifest_sha256": "851d0ffa165404bc930383900e0955ce57ffa51ace0455c3b3ef7f1298c91c37",
+  "source_result_sha256": "898f422e35834fa11971715cb43d4289268236a3441072d8f323c6f75bccae7c",
+  "source_trace_sha256": "d45939b72bd20ef46793664ada893796253573c225cd18515a9c9ffe2bc1b250",
+  "source_identity": {
+    "original_lock_sha256": "b6618285553af81f495376847a7916d911e45ca4b2668f5bfdf4e9f6c7888993",
+    "finish_lock_sha256": "7bee125815bf580d4e2faa8d030a5e94c2f39dfd62539c5ac8ffc788d2be663f",
+    "original_source_count": 46,
+    "finish_source_count": 6
+  },
+  "engine": "causal_cuda",
+  "first_trial_step": 1001,
+  "last_trial_step": 2000,
+  "wind_first_step": 1001,
+  "wind_last_step": 1020,
+  "wall_limit_s": 4500,
+  "stage4_admission": false,
+  "stage5_admission": false
+}

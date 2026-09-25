@@ -1,0 +1,120 @@
+{
+  "schema": "stage45_two_second_trace_rebuild_v1",
+  "status": "COMPLETE_SCREEN",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "run_result_sha256": "c5daa324f31283e72d437fd59fd41fd324b0a0f774f9abb85ae21b5edde53d83",
+  "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+  "motor_wind_audit_sha256": "612e1cc301e04263dd47795dd9fd8c2e70ae879c7a59cc6bb91c8eee3074d460",
+  "analysis_source_sha256": "96565c8223e7be8f533ab9cfa15f355dc49ff0e9bcb407121bb30a3bf2019163",
+  "field": "minus",
+  "source_mm": [
+    0.5937021945501157,
+    -0.8361869899756281
+  ],
+  "prepared_bearing_error_deg": -18.37684727329963,
+  "checkpoints": {
+    "1": {
+      "position_mm": [
+        -0.27898054702452196,
+        -0.11665593784585146,
+        -0.0748667699712568
+      ],
+      "yaw_deg": -21.12540493475021,
+      "source_bearing_deg": -39.50574259960012,
+      "signed_bearing_error_deg": -18.380337664849918,
+      "absolute_bearing_error_deg": 18.380337664849918,
+      "source_distance_mm": 1.1310614936515206,
+      "command_deg_s": 0.0,
+      "upright": 0.9774556446072724,
+      "active_contacts": 4
+    },
+    "400": {
+      "position_mm": [
+        -0.20440739029828547,
+        -0.14174941602696423,
+        -0.07479074515924339
+      ],
+      "yaw_deg": -20.66658837993365,
+      "source_bearing_deg": -41.02662909465353,
+      "signed_bearing_error_deg": -20.360040714719872,
+      "absolute_bearing_error_deg": 20.360040714719872,
+      "source_distance_mm": 1.0579331044723923,
+      "command_deg_s": -5.0,
+      "upright": 0.97745984117125,
+      "active_contacts": 4
+    },
+    "1000": {
+      "position_mm": [
+        -0.09697194098344407,
+        -0.19406249948366774,
+        -0.07478640460802485
+      ],
+      "yaw_deg": -22.224965611774497,
+      "source_bearing_deg": -42.91381809153838,
+      "signed_bearing_error_deg": -20.68885247976388,
+      "absolute_bearing_error_deg": 20.68885247976388,
+      "source_distance_mm": 0.9430560019344503,
+      "command_deg_s": -5.0,
+      "upright": 0.9774600390606658,
+      "active_contacts": 4
+    },
+    "1020": {
+      "position_mm": [
+        -0.09737226514088909,
+        -0.20256053331870943,
+        -0.07428338126184383
+      ],
+      "yaw_deg": -23.102659968397635,
+      "source_bearing_deg": -42.51682287956118,
+      "signed_bearing_error_deg": -19.414162911163544,
+      "absolute_bearing_error_deg": 19.414162911163544,
+      "source_distance_mm": 0.9375854069965127,
+      "command_deg_s": 0.0,
+      "upright": 0.9774930614022549,
+      "active_contacts": 4
+    },
+    "1500": {
+      "position_mm": [
+        -0.008656105689060216,
+        -0.23173384729489213,
+        -0.07478587894654753
+      ],
+      "yaw_deg": -21.70486502419795,
+      "source_bearing_deg": -45.099456721924575,
+      "signed_bearing_error_deg": -23.39459169772664,
+      "absolute_bearing_error_deg": 23.39459169772664,
+      "source_distance_mm": 0.853345840538083,
+      "command_deg_s": 0.0,
+      "upright": 0.9774600207656636,
+      "active_contacts": 4
+    },
+    "2000": {
+      "position_mm": [
+        0.08482844571147481,
+        -0.26258751620215465,
+        -0.074787040524415
+      ],
+      "yaw_deg": -20.863653099689188,
+      "source_bearing_deg": -48.42188655873453,
+      "signed_bearing_error_deg": -27.55823345904534,
+      "absolute_bearing_error_deg": 27.55823345904534,
+      "source_distance_mm": 0.7667912679277835,
+      "command_deg_s": -5.0,
+      "upright": 0.9774599497158456,
+      "active_contacts": 4
+    }
+  },
+  "raw_integral_deg": -0.010300193619238044,
+  "raw_absolute_integral_deg": 0.3465495271475555,
+  "applied_integral_deg": 1.04,
+  "applied_absolute_integral_deg": 5.789999999999999,
+  "raw_sign_changes": 15,
+  "applied_sign_changes": 21,
+  "minimum_contacts": 4,
+  "minimum_upright": 0.9774556446072724,
+  "bearing_abs_change_prepared_to_1000_deg": 2.3120052064642493,
+  "bearing_abs_change_after_wind_to_final_deg": 8.144070547881796,
+  "distance_change_prepared_to_final_mm": -0.3644579914194399,
+  "interpretation": "One filtered/thresholded motor arm with wind; no matched no-wind or unfiltered control. A favorable trace alone cannot establish Stage4 navigation or Stage5 feedback."
+}

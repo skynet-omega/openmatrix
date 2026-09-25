@@ -1,0 +1,104 @@
+{
+  "schema": "stage45_two_second_filtered_wind_screen_prospective_v1",
+  "registered_before_organism_runs": true,
+  "status": "READY_TO_RUN",
+  "chosen_arm": "minus",
+  "limitation_observed": "The prior 1-s right-source organism accumulated only -0.0228 deg signed motor command versus 0.1574 deg absolute command, and bearing error worsened by 3.77 deg. Its raw command changed sign 8 times.",
+  "operation": "Run the same 166700-neuron full organism and MuJoCo body for 2000 ms after 40 ms odor-free preparation. Apply one fixed causal motor EMA plus symmetric threshold at output and one physical thorax-yaw wind torque over trial steps 1001..1020. No source-bearing information enters the motor policy.",
+  "legal_information": "Previously exposed 1-s right-source trace, existing prepared geometry, the prior body-only torque pulse and existing 5-deg/s controller envelope. The 2-s filtered/wind outcome is unseen.",
+  "rivals": {
+    "A": "The filtered sign provides a sustained useful turn; after wind, bearing error recovers toward the source.",
+    "B": "The filter acts but direction/strength is insufficient; bearing error persists or worsens.",
+    "C": "The wind/body integration or neural clock leaves the numerical/support domain; biological interpretation stops."
+  },
+  "controls_and_limit": "One exploratory intervention arm only. The unmodified 1-s run is contextual evidence, not a matched 2-s control. Stage4/5 remains open until a same-start unfiltered and sham/yoked perturbation comparison.",
+  "fixed_inputs": {
+    "geometry_sha256": "3214fd7600d6ad2ec9daca0484eb2fa3d895b9afc8e1321f9d379ec9521276f3",
+    "fields_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "geometry_preflight_sha256": "375e7a186d8f35420870199f9bea6dec306beae4fa53aac4101b22cca5895757",
+    "reference_pose_guard_sha256": "196584bdb020c2cb736d0a0a45d157897a2fe605575186cb46d923ee2dfbcef3",
+    "local_pose_guarded_helper_sha256": "fcff2afe27887cdfe0c68080baf0d7af768ee001fab36db6abc3e63a490677b9",
+    "source_design": "lateral offset 1.5 antenna baselines; sigma 1.5 baselines; forward offset is the unique nonnegative solution that matches the old prepared bilateral mean",
+    "source_labels": {
+      "plus": "left",
+      "minus": "right"
+    },
+    "preparation_ms": 40,
+    "trial_ms": 2000
+  },
+  "preflight": {
+    "prepared_root_qpos_max_abs_native": 1e-10,
+    "prepared_antenna_max_abs_mm": 1e-10,
+    "initial_common_pair_abs_max": 1e-10,
+    "initial_common_prior_abs_max": 1e-10,
+    "initial_contrast_antisymmetry_abs_max": 1e-11,
+    "initial_signed_contrast_min": 0.3,
+    "guard_basis": "Seven already exposed Stage3 prepared poses: maximum common pair discrepancy 4.0118686151e-11 and prior-common discrepancy 2.0018653402e-11. The 1e-10 bounds are input/pose identity tolerances, not a change to neural, motor or numerical-effect criteria.",
+    "clock_step_ns": 1000000,
+    "requires_exact_L_R_order": true,
+    "requires_actual_ORN_and_PN_consumer_witness": true,
+    "no_future_odor_events": true
+  },
+  "observation": {
+    "bounded_drive_epochs": [
+      "preparacion:1",
+      "preparacion:40",
+      "ensayo:1",
+      "ensayo:100",
+      "ensayo:400",
+      "ensayo:1000",
+      "ensayo:1500",
+      "ensayo:2000"
+    ],
+    "bounded_drive_ordinals": [
+      0,
+      1
+    ],
+    "scope": "Raw per-ms body, sensors, DN, signed flow, raw and filtered motor, and wind dose; bounded adapter observations."
+  },
+  "screen": {
+    "bearing_improvement_deg_min": 0.5,
+    "late_bearing_improvement_deg_min": 0.5,
+    "upright_min": 0.95,
+    "contacts_min": 4,
+    "prefix_max_abs": {
+      "qpos": 1e-06,
+      "position_mm": 1e-05,
+      "yaw_delta_deg": 0.0001,
+      "command_yaw_rate_rad_s": 1e-05,
+      "concentracion_campo": 1e-06,
+      "sensores_usados": 1e-06
+    },
+    "meaning": "A positive screen only triggers matched controls; it is not a Stage4 pass. A negative screen rejects delayed bearing correction for this arm and horizon."
+  },
+  "budget": {
+    "full_organism_runs_max": 1,
+    "wall_s_max": 9000,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "projected_output_GiB_max": 5,
+    "physical_C_reserve_GiB_min": 30,
+    "new_engine_prototypes": 0,
+    "new_biological_parameters": 0
+  },
+  "stop": "Do not tune the filter, threshold, gain, torque or source after observing this run. Preserve failures and logs; do not call this Stage5 causal proof.",
+  "motor_policy": {
+    "tau_s": 0.2,
+    "threshold_rad_s": 0.0005,
+    "output_abs_max_deg_s": 5.0,
+    "zero_initial_filter_state": true,
+    "fixed_before_trial": true,
+    "input": "released DN pair only",
+    "classification": "engineered prosthetic motor intervention"
+  },
+  "wind": {
+    "start_ms": 1000,
+    "end_ms_exclusive": 1020,
+    "torque_native": -0.004672697857153467,
+    "torque_Nm": -4.672697857153467e-10,
+    "site": "thorax",
+    "axis": "world_z",
+    "implementation": "mj_applyFT each 25us MuJoCo substep; no pose teleport",
+    "note": "100x the prior verified tiny pulse; realized angular displacement is measured, not assumed"
+  }
+}
