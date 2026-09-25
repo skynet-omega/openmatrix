@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage4-contrast-method-review-20260925](reviews/stage4-contrast-method-review-20260925-430aa29fe7ba/README.md)
+[neurocore-continuidad-real-20260925](reviews/neurocore-continuidad-real-20260925-48550991ef55/README.md)
 
-Revisión de método y coste: replay identidad y ablación lateral en curso. Código real y donante1s; sin resultado de ablación, sin admisión de etapas4/5.
+CNS residente C++/CUDA compatible: punto medio exponencial con cinco evaluaciones por intento, pareja real de 100 ms exacta en los campos guardados, sin modificar umbrales. Reproducción del núcleo y recálculo local verificados. Snapshot público de fuentes/resultados; no contiene trayectorias grandes ni checkpoints, y no certifica aceleración con hardware compartido.

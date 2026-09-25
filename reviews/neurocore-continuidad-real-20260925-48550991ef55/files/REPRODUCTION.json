@@ -1,0 +1,45 @@
+{
+  "status": "PASS_CLEAN_EXTRACTION",
+  "archive": "/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/outputs/Motor_CUDA_continuidad_evidencia.zip",
+  "extraction": "/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/continuidad_release_check",
+  "checks": [
+    {
+      "check": "continuidad_evidence_normal",
+      "exit_code": 0,
+      "wall_s": 9.766554166999413,
+      "output": "{\"status\": \"EVIDENCE_RECOMPUTED\", \"files\": 44, \"comparison_status\": \"PASS_COUPLED_NUMERICAL\", \"python_optimized\": false, \"scope\": \"Saved real trajectories and PN/events recomputed; no new organism simulation\"}"
+    },
+    {
+      "check": "continuidad_evidence_optimized",
+      "exit_code": 0,
+      "wall_s": 9.367925513986847,
+      "output": "{\"status\": \"EVIDENCE_RECOMPUTED\", \"files\": 44, \"comparison_status\": \"PASS_COUPLED_NUMERICAL\", \"python_optimized\": true, \"scope\": \"Saved real trajectories and PN/events recomputed; no new organism simulation\"}"
+    },
+    {
+      "check": "continuidad_reject_changed_verdict",
+      "exit_code": 1,
+      "wall_s": 9.122049650002737,
+      "output": ""
+    },
+    {
+      "check": "continuidad_fresh_build",
+      "exit_code": 0,
+      "wall_s": 1.2578371409908868,
+      "output": ""
+    },
+    {
+      "check": "continuidad_guards_normal",
+      "exit_code": 0,
+      "wall_s": 2.5312897990079364,
+      "output": "{\"status\": \"PASS_RUNTIME_GUARDS\", \"logistic_error\": 2.0565855810561473e-06, \"accepted\": 209, \"rejected\": 8, \"piecewise_error\": 0.0, \"gpu_authoritative_endpoint\": true, \"explicit_sides\": true, \"simultaneous_set_add\": true, \"aliased_coefficients\": true, \"rollback_exact\": true, \"noncontiguous_rejected\": true, \"overlapping_calls_rejected\": true, \"library\": \"/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/continuidad_release_check/librebuilt_controller.so\", \"python_optimized\": false, \"scope\": \"Analytic/transaction checks, not organism validation\"}"
+    },
+    {
+      "check": "continuidad_guards_optimized",
+      "exit_code": 0,
+      "wall_s": 0.772452921999502,
+      "output": "{\"status\": \"PASS_RUNTIME_GUARDS\", \"logistic_error\": 2.0565855810561473e-06, \"accepted\": 209, \"rejected\": 8, \"piecewise_error\": 0.0, \"gpu_authoritative_endpoint\": true, \"explicit_sides\": true, \"simultaneous_set_add\": true, \"aliased_coefficients\": true, \"rollback_exact\": true, \"noncontiguous_rejected\": true, \"overlapping_calls_rejected\": true, \"library\": \"/mnt/c/Users/gonza/Documents/Codex/2026-09-25/pu/work/continuidad_release_check/librebuilt_controller.so\", \"python_optimized\": true, \"scope\": \"Analytic/transaction checks, not organism validation\"}"
+    }
+  ],
+  "wall_s": 38.990819865008234,
+  "scope": "Independent saved-state recomputation; corruption rejection; fresh CUDA build and analytic/transaction guards. No new organism run."
+}

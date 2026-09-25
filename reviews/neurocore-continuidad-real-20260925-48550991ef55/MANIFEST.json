@@ -1,0 +1,192 @@
+{
+  "format_version": 2,
+  "label": "neurocore-continuidad-real-20260925",
+  "description": "CNS residente C++/CUDA compatible: punto medio exponencial con cinco evaluaciones por intento, pareja real de 100 ms exacta en los campos guardados, sin modificar umbrales. Reproducción del núcleo y recálculo local verificados. Snapshot público de fuentes/resultados; no contiene trayectorias grandes ni checkpoints, y no certifica aceleración con hardware compartido.",
+  "files": [
+    {
+      "path": "ENVIRONMENT.json",
+      "bytes": 366,
+      "sha256": "05de0306da56feb3b4beb1e135b6d8f7e4d8ca9b68c7aadcb11d81bafc4430fc"
+    },
+    {
+      "path": "GUARDS.json",
+      "bytes": 480,
+      "sha256": "2eff67b2ff4f182396f98a891aae493e303a2977f8c6f17b39d7e52119759149"
+    },
+    {
+      "path": "GUARDS_O.json",
+      "bytes": 547,
+      "sha256": "e7bcff9c4b33833590b3a2f40ad8e394dd46a77f36ba9a6ec07a72eff7075a00"
+    },
+    {
+      "path": "PAIR100.json",
+      "bytes": 9196,
+      "sha256": "809992278c1391bd721299c6e1e1df3a440acb17711c6640affd073881aed0ee"
+    },
+    {
+      "path": "PAIR_PROCESS.log",
+      "bytes": 10192,
+      "sha256": "79adff8b34e580505035b0c439c30c556433d79e763d7a09636a843979871c75"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 2506,
+      "sha256": "e8872ceb98ac2e891ffcbfcb94809eb4acbd112194156dab42cb4227c73d3f97"
+    },
+    {
+      "path": "PUBLIC_SCOPE.md",
+      "bytes": 791,
+      "sha256": "a929f2870c79bbd0c52c645bc0ce440eaef60a6236998113fd436cf11d638bad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5119,
+      "sha256": "22abff73357ff87e8e52ee5795e967619ae1f2756ecc2c83711d654d9943ac4e"
+    },
+    {
+      "path": "REPRODUCTION.json",
+      "bytes": 2890,
+      "sha256": "1534d1712993b69c56bd7d78a58fcb10622b050cdbc88d209555cf3a738bafaf"
+    },
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 4699,
+      "sha256": "3b47dfc8987a184474670486b46eb7a5a86a6bc4b469128b9179adb217f9f9d2"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1435,
+      "sha256": "c9366749c0a98c00daa2cb45e43ce46cc90e5f9cfae2ac2e8d81752d8447c03a"
+    },
+    {
+      "path": "RUNS.json",
+      "bytes": 1292,
+      "sha256": "627b686af03ab845abe614e0748ea72028cd9c93034aaa6167f542a23c924059"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1450,
+      "sha256": "78e226fb7c435b75142f8a00841070b8043b77581da42cb04fb3c93844690845"
+    },
+    {
+      "path": "candidate100_01.log",
+      "bytes": 4901,
+      "sha256": "8a5a3398a01becb409ffdce3655bf9e1b57315191dcdb95eda281450eefc2314"
+    },
+    {
+      "path": "candidate100_01/EVENTS.json",
+      "bytes": 1873672,
+      "sha256": "5acb3c318aa6d382adf299f81bfb0203946dc42d1df42d67123fb93ed62446d2"
+    },
+    {
+      "path": "candidate100_01/PROGRESS.jsonl",
+      "bytes": 22668,
+      "sha256": "7a18813fb01ac76eef565bcb37d59ae19a4500e2c9e8bd1477569b377f761d50"
+    },
+    {
+      "path": "candidate100_01/RESULT.json",
+      "bytes": 5216,
+      "sha256": "42ececbc606e480326cc3882eca2696d08b70ff7c1bc13624c4718016fedc416"
+    },
+    {
+      "path": "candidate100_01/final_state/pn_state.json",
+      "bytes": 6869,
+      "sha256": "589877a9961b8dd08881c20890dfaf6c19777ddb84261152114ce1733067c54a"
+    },
+    {
+      "path": "candidate100_01/final_state/prosthesis.json",
+      "bytes": 53363,
+      "sha256": "7d6350f69f5402c5641f45895db15456b544ade61d6996ce6e62c7d5428b1b7e"
+    },
+    {
+      "path": "candidate100_01/final_state/published.json",
+      "bytes": 288,
+      "sha256": "6d5b5faf7df54656c516fe04c85eaead25957acc795d5c2be33fc579afcff38d"
+    },
+    {
+      "path": "check_runtime.py",
+      "bytes": 5249,
+      "sha256": "046ee04eb08bc5491dec16cc31df7f078b6c45054d26a84acb2c7b6bf183d5a3"
+    },
+    {
+      "path": "compare_real.py",
+      "bytes": 7670,
+      "sha256": "9bee4f22e26735f7039d2d2db998fe1a39c4c9ace11551e759d95a8d7b33d635"
+    },
+    {
+      "path": "comparison.log",
+      "bytes": 6394,
+      "sha256": "f0b75bbcf97ecf96d55e2ef21953b0a964028a8b0ad344e1e1848fde5891c28a"
+    },
+    {
+      "path": "event_projection.py",
+      "bytes": 3762,
+      "sha256": "e4cc4ad2b2ec2e74c147d3fcb9992d2dd1e290d6946ba87d2ebb01b4e01b61bf"
+    },
+    {
+      "path": "graph_runtime.py",
+      "bytes": 10764,
+      "sha256": "dc6a9def407ea9f39a39783fffd72e02ec0e22b8bcf268e1f87b27f9d34b3de7"
+    },
+    {
+      "path": "real_model.py",
+      "bytes": 1540,
+      "sha256": "3adf53db291e06e7b4c0fa62a60f43a8e101d83a40a67a66a786df25d3435b82"
+    },
+    {
+      "path": "reference100_01.log",
+      "bytes": 4890,
+      "sha256": "930972e52a7d91c7f5714ec5caba438c93ab8e3fa68b17c10786865a96498a02"
+    },
+    {
+      "path": "reference100_01/EVENTS.json",
+      "bytes": 1873672,
+      "sha256": "5acb3c318aa6d382adf299f81bfb0203946dc42d1df42d67123fb93ed62446d2"
+    },
+    {
+      "path": "reference100_01/PROGRESS.jsonl",
+      "bytes": 22624,
+      "sha256": "e659c3ab4c6cd76f4fda08d5a220b2169fd11a4600b56036ea826f422eb5959a"
+    },
+    {
+      "path": "reference100_01/RESULT.json",
+      "bytes": 4947,
+      "sha256": "849e13a766daf56dcb3c237555a52e7ba273844a10a3668cb8d0d3074d77c27e"
+    },
+    {
+      "path": "reference100_01/final_state/pn_state.json",
+      "bytes": 6869,
+      "sha256": "589877a9961b8dd08881c20890dfaf6c19777ddb84261152114ce1733067c54a"
+    },
+    {
+      "path": "reference100_01/final_state/prosthesis.json",
+      "bytes": 53363,
+      "sha256": "7d6350f69f5402c5641f45895db15456b544ade61d6996ce6e62c7d5428b1b7e"
+    },
+    {
+      "path": "reference100_01/final_state/published.json",
+      "bytes": 288,
+      "sha256": "6d5b5faf7df54656c516fe04c85eaead25957acc795d5c2be33fc579afcff38d"
+    },
+    {
+      "path": "resident_controller.cu",
+      "bytes": 10239,
+      "sha256": "c7638124427546693bf487c9050bcf516307512c29d172e785e96455f535f95b"
+    },
+    {
+      "path": "run_pair.py",
+      "bytes": 2499,
+      "sha256": "073e4f7bc2e5b14616621d5ee2086dec5ecfc64a8d63e10ec8cf503b61753ded"
+    },
+    {
+      "path": "run_real.py",
+      "bytes": 8932,
+      "sha256": "96e36ab9e024d5b386b19f629e383ba464177adfff5e5a475836cb757ecc6f85"
+    },
+    {
+      "path": "verify_saved.py",
+      "bytes": 1427,
+      "sha256": "6f8c237db2e259ea5637868651c01e1180860b202e1e741e1ef5424a6385e661"
+    }
+  ]
+}
