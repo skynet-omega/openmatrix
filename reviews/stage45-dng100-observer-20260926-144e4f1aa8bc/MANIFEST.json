@@ -1,0 +1,122 @@
+{
+  "format_version": 2,
+  "label": "stage45-dng100-observer-20260926",
+  "description": "Prospective bounded observation47 of two DNg100 rows during unchanged protocol45. Code review only; scientific paired acquisition is running, not a result. Software instrument checks pass. Original scheduler/model interfaces included for review; full organism assets remain outside this small package. No stage4/5 admission.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3041,
+      "sha256": "71cdda059a75a1f24fb4f9d1e7ddb478a1191d5635ca34cb6e76e36fe6b6ff80"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 1916,
+      "sha256": "f026cbec4394551251db1986efbd05611f26cea3e73af7ce80199563dde9e08a"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 54495,
+      "sha256": "045ebca7d5289a7c14977be845099126892452287b3839eba357d29de361a3e0"
+    },
+    {
+      "path": "observer.py",
+      "bytes": 7124,
+      "sha256": "1a0bc763c6960e34b6781eac24bda8805d73d91113d365db6384946e5dbb0dd4"
+    },
+    {
+      "path": "observe.cu",
+      "bytes": 1578,
+      "sha256": "e0b550fdb57980f6ae235825afe0c116c9b779ee47cc3ff97c82f3697ad2d3de"
+    },
+    {
+      "path": "coefficient_observed.cu",
+      "bytes": 1877,
+      "sha256": "5a45c5ba54a67a16bda7b956df1ea45e9f820b20d0c0df53b0bd0028346e560a"
+    },
+    {
+      "path": "run.py",
+      "bytes": 11091,
+      "sha256": "9bba7319cd751321c9b0cd006116a42fdaec5fd5bb7fbb498adf75771174c424"
+    },
+    {
+      "path": "launch.py",
+      "bytes": 2262,
+      "sha256": "eebedb079fb50747dd7a1b3de9e1c3749d235032cba3f1d95d23c218a20152eb"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 5741,
+      "sha256": "151e15691039375144ce8b84218a9dd4a76b3621d15e480878bf06205dfddb03"
+    },
+    {
+      "path": "test_observer.py",
+      "bytes": 3851,
+      "sha256": "b63861cef91d377157c72ede4d7aafd7ede4d4f36dc74b3a4c12893b8075513c"
+    },
+    {
+      "path": "SOFTWARE_TEST.json",
+      "bytes": 239,
+      "sha256": "15855f4f053fd6ac5a684ff55985076d63df4045006a834b42032f9d61e866a1"
+    },
+    {
+      "path": "CHATGPT_DISENO.md",
+      "bytes": 6653,
+      "sha256": "18233217bcd91b0163adcb1fde8f1d0305b890bb20a573d3cb25a51f477165d0"
+    },
+    {
+      "path": "jev_spec.json",
+      "bytes": 3006,
+      "sha256": "0cd9372636437b2b669af7001ddafd553dd00c9ac19e16c611818a72c56b8fdd"
+    },
+    {
+      "path": "jev_review/response.json",
+      "bytes": 515,
+      "sha256": "3cded7cd52fc69d82d106e4c44b5c0f614ba180dc1a6f937cdc91574f8c99b03"
+    },
+    {
+      "path": "original/fast_fp32_coefficient.cu",
+      "bytes": 1170,
+      "sha256": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801"
+    },
+    {
+      "path": "original/fp32_operator.py",
+      "bytes": 2775,
+      "sha256": "af1edfcf7a5b08bbf5679e8d3437233f31014f40bf58637f3e3d422d779c5624"
+    },
+    {
+      "path": "original/real_model.py",
+      "bytes": 4753,
+      "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+    },
+    {
+      "path": "original/graph_runtime.py",
+      "bytes": 8950,
+      "sha256": "97cecb15ad321165ad90100c4bb81f3e7dbb19c1a7de9e153fc481f1fa33c3d1"
+    },
+    {
+      "path": "original/resident_controller.cu",
+      "bytes": 11102,
+      "sha256": "6940d56d8cf6fa6fa26c4598dd1874598f338cc1efa185b68929399824be7125"
+    },
+    {
+      "path": "parent45/protocol.py",
+      "bytes": 5170,
+      "sha256": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2"
+    },
+    {
+      "path": "parent45/run.py",
+      "bytes": 9622,
+      "sha256": "091642022721052328d905bd6a397820bf7aa23eab9a31e6909d30632b0d9cb2"
+    },
+    {
+      "path": "original/organism_adapter.py",
+      "bytes": 4139,
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    {
+      "path": "original/block_midpoint.py",
+      "bytes": 10836,
+      "sha256": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b"
+    }
+  ]
+}
