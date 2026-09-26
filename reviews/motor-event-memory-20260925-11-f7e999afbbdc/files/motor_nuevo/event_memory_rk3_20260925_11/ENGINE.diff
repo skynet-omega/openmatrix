@@ -1,0 +1,29 @@
+--- 07/resident_controller.cu
++++ 11/engine/resident_controller.cu
+@@ -88,6 +88,17 @@
+       c->failure = invalid_domain;
+       return;
+     }
++    // An interior event can clip a valid proposal to an arbitrarily short
++    // tail. Preserve its pre-cut size only under the existing small-error
++    // rule; the next trial still clips at events and checks its own error.
++    // Compute this before advancing used_s. Epoch ends never qualify.
++    const long previous_ns = c->next_ns;
++    const double requested_s = static_cast<double>(
++        min(previous_ns, c->max_ns)) * 1e-9;
++    const double available_s = c->attempted_stop_s - c->used_s;
++    const bool recover_proposal = c->event_index < c->event_count &&
++        c->attempted_stop_s < c->end_s && h == available_s &&
++        h < requested_s && error < .1;
+     c->accept = 1;
+     c->used_s = h == c->attempted_stop_s - c->used_s
+         ? c->attempted_stop_s : c->used_s + h;
+@@ -98,6 +109,8 @@
+     const long proposal = static_cast<long>(floor(h * 1e9 *
+                                                    (error < .1 ? 2.0 : 1.0)));
+     c->next_ns = min(c->max_ns, max(c->min_ns, proposal));
++    if (recover_proposal)
++      c->next_ns = min(c->max_ns, max(c->next_ns, previous_ns));
+   } else {
+     c->accept = 0;
+     ++c->rejected;

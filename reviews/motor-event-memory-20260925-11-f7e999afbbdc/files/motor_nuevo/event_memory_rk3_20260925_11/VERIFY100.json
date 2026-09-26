@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SAVED_EVIDENCE",
+  "checks": [
+    "short_pair_recomputed",
+    "stable100_recomputed",
+    "incomplete_run_rejected",
+    "changed_forward_command_rejected"
+  ],
+  "python_optimized": true,
+  "scope": "CPU reconstruction of recorded results; no new neuronal/body advancement."
+}

@@ -1,0 +1,144 @@
+{
+  "status": "INTEGRITY_CONFIRMED",
+  "ms": 1000,
+  "runs": {
+    "control_100ms_01": {
+      "trace": {
+        "fields": 35,
+        "rows_checked": 100,
+        "all_clocks_step_ns": 1000000
+      },
+      "initial_neural_fields": 20,
+      "initial_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "final_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "process_s": 219.15463775300304,
+      "budget_s": 450,
+      "within_budget": true
+    },
+    "candidate_100ms_01": {
+      "trace": {
+        "fields": 35,
+        "rows_checked": 100,
+        "all_clocks_step_ns": 1000000
+      },
+      "initial_neural_fields": 20,
+      "initial_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "final_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "process_s": 185.096285275009,
+      "budget_s": 450,
+      "within_budget": true
+    },
+    "candidate_1000ms_01": {
+      "trace": {
+        "fields": 35,
+        "rows_checked": 1000,
+        "all_clocks_step_ns": 1000000
+      },
+      "initial_neural_fields": 20,
+      "initial_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "final_trees": {
+        "pn_state": 99,
+        "published": 7
+      },
+      "process_s": 1477.6270022090175,
+      "budget_s": 2400,
+      "within_budget": true,
+      "process_targets_minutes": {
+        "25": true,
+        "20": false,
+        "12": false
+      },
+      "historical_process_s": 1879.9811160860118,
+      "historical_fraction_saved_not_controlled": 0.21402029543502388
+    }
+  },
+  "short_pair_process_s": 404.25092302801204,
+  "historical_initial_neural_fields": 20,
+  "historical_initial_scope": "Neural0 and source/checkpoint provenance checked. Historical PN0/publication0 were not saved; no direct comparison of those historical trees is claimed. All new runs compare those initial trees against the fresh control.",
+  "events": {
+    "parent": {
+      "diagnostic_only": true,
+      "matching": "Ordered identical identities inside the same block; all exclusions counted",
+      "committed": {
+        "control_events": 51977,
+        "candidate_events": 51977,
+        "ordered_pairs": 51977,
+        "excluded_control_events": 0,
+        "excluded_candidate_events": 0,
+        "excluded_blocks": 0,
+        "jump_changed": 23314,
+        "jump_max_abs": 1.63934421593126e-11,
+        "post_q_presence_changes": 0,
+        "post_q_pairs": 51977,
+        "post_q_changed": 48475,
+        "post_q_max_abs": 1.7812279429207933e-10,
+        "time_max_abs_s": 2.5591295286443347e-09
+      },
+      "predictor": {
+        "control_events": 25983,
+        "candidate_events": 25983,
+        "ordered_pairs": 25983,
+        "excluded_control_events": 0,
+        "excluded_candidate_events": 0,
+        "excluded_blocks": 0,
+        "jump_changed": 11465,
+        "jump_max_abs": 1.6428192139983366e-11,
+        "post_q_presence_changes": 0,
+        "post_q_pairs": 25983,
+        "post_q_changed": 24220,
+        "post_q_max_abs": 1.7813522878995514e-10,
+        "time_max_abs_s": 2.5272954764314604e-09
+      }
+    },
+    "stable": {
+      "diagnostic_only": true,
+      "matching": "Ordered identical identities inside the same block; all exclusions counted",
+      "committed": {
+        "control_events": 51977,
+        "candidate_events": 51977,
+        "ordered_pairs": 51963,
+        "excluded_control_events": 14,
+        "excluded_candidate_events": 14,
+        "excluded_blocks": 2,
+        "jump_changed": 23012,
+        "jump_max_abs": 2.490316175496332e-09,
+        "post_q_presence_changes": 0,
+        "post_q_pairs": 51963,
+        "post_q_changed": 48560,
+        "post_q_max_abs": 2.0958783248925528e-06,
+        "time_max_abs_s": 3.125000000000008e-06
+      },
+      "predictor": {
+        "control_events": 25981,
+        "candidate_events": 25983,
+        "ordered_pairs": 25959,
+        "excluded_control_events": 22,
+        "excluded_candidate_events": 24,
+        "excluded_blocks": 4,
+        "jump_changed": 11515,
+        "jump_max_abs": 2.4901247730468867e-09,
+        "post_q_presence_changes": 0,
+        "post_q_pairs": 25959,
+        "post_q_changed": 24248,
+        "post_q_max_abs": 1.579677876839547e-06,
+        "time_max_abs_s": 3.1250000000000014e-06
+      }
+    }
+  },
+  "scope": "External data-integrity audit, no new engine execution or numerical thresholds. Functional screen and speed target remain separate decisions."
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS_POLICY_GUARDS",
+  "python_optimized": true,
+  "checks": {
+    "none": {
+      "control": {
+        "next_ns": 100000,
+        "counts": [
+          1,
+          0,
+          100000
+        ],
+        "max_error": 0.0019458461961966394,
+        "value": 0.20199003333333335
+      },
+      "candidate": {
+        "next_ns": 100000,
+        "counts": [
+          1,
+          0,
+          100000
+        ],
+        "max_error": 0.0019458461961966394,
+        "value": 0.20199003333333335
+      }
+    },
+    "terminal": {
+      "control": {
+        "next_ns": 100000,
+        "counts": [
+          1,
+          0,
+          100000
+        ],
+        "max_error": 0.0019458461961966394,
+        "value": 0.20199003333333335
+      },
+      "candidate": {
+        "next_ns": 100000,
+        "counts": [
+          1,
+          0,
+          100000
+        ],
+        "max_error": 0.0019458461961966394,
+        "value": 0.20199003333333335
+      }
+    },
+    "interior": {
+      "control": {
+        "next_ns": 26001,
+        "counts": [
+          9,
+          0,
+          500
+        ],
+        "max_error": 9.880752712998311e-05,
+        "value": 0.2019900332518952
+      },
+      "candidate": {
+        "next_ns": 100000,
+        "counts": [
+          3,
+          0,
+          500
+        ],
+        "max_error": 0.00024323996745414145,
+        "value": 0.2019900332603166
+      }
+    },
+    "rejection_rollback": {
+      "status": "PASS_RUNTIME_GUARDS",
+      "event_abs_error": 1.876921551513533e-08,
+      "accepted": 262,
+      "rejected": 7,
+      "epoch_rollback_exact": true,
+      "library": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/engine/libresident_controller.so",
+      "python_optimized": true,
+      "scope": "Supplemental synthetic correctness checks; actual coupled performance is in PAIR*.json."
+    }
+  },
+  "scope": "Synthetic correctness only, no organism or speed claim"
+}

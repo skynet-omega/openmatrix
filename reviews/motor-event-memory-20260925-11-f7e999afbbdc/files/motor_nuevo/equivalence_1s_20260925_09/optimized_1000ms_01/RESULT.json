@@ -1,0 +1,222 @@
+{
+  "status": "COMPLETE",
+  "engine": "optimized",
+  "requested_ms": 1000,
+  "completed_ms": 1000,
+  "parameters_changed": false,
+  "event_owner": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15",
+  "scope": "Whole organism from campaign40 preparation; same Gaussian and motor filter",
+  "source_checkpoint": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state",
+  "source_trace_sha256": "d45939b72bd20ef46793664ada893796253573c225cd18515a9c9ffe2bc1b250",
+  "runner_sha256": "6012cb71813e3b74b21db1292edd47f3ab02de1bb7ad7ef5e0cf1dd69cb0e7fe",
+  "restore_sha256": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+  "plan_sha256": "2f37f27794eef81dd31a98b54d728145c5ba6ea2b25bbb07e0dec7f1f20f1327",
+  "restoration": {
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "initial": {
+    "exact": true,
+    "trees": {
+      "session": {
+        "expected": "60731cebb66ce810fc3436a594e75adf1205ea7b23680f85c4f5564b2d1f36cc",
+        "actual": "60731cebb66ce810fc3436a594e75adf1205ea7b23680f85c4f5564b2d1f36cc",
+        "exact": true
+      },
+      "prosthesis": {
+        "expected": "53c8b5dadd3c8ef3a8c2e040f764fef178c9161e1df13e5de2b225630957288d",
+        "actual": "53c8b5dadd3c8ef3a8c2e040f764fef178c9161e1df13e5de2b225630957288d",
+        "exact": true
+      },
+      "published": {
+        "expected": "2d58ed4412d290297fc863644af6ebdba9f50958b7030e723883f71fc5e23455",
+        "actual": "2d58ed4412d290297fc863644af6ebdba9f50958b7030e723883f71fc5e23455",
+        "exact": true
+      },
+      "effective_operator": {
+        "expected": "cd86ddd30b6f46b9a33cddb2c0e7d668249a98461ec53467e0da50f575065d5e",
+        "actual": "cd86ddd30b6f46b9a33cddb2c0e7d668249a98461ec53467e0da50f575065d5e",
+        "exact": true
+      },
+      "boundary": {
+        "exact": true
+      }
+    },
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d"
+  },
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "candidate_manifest": {
+    "run_real.py": "7925bd305e6943df8d154ff23a805939124824db23ee3ca2346a81886b2f8170",
+    "real_model.py": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5",
+    "fp32_operator.py": "af1edfcf7a5b08bbf5679e8d3437233f31014f40bf58637f3e3d422d779c5624",
+    "persistent_weights.py": "026be92ee1a885ce8006e78f074316d39a91e8c526ef6d017c3800bf0441f978",
+    "persistent_fp32.cu": "b2c3c1c26c98d59c327e3a9112241d8dcd592265c64cc58677faac0caf263170",
+    "model_weight_writers.py": "fb61ca69158397f775ff985ebe22e462d50b13c5d4441e1553732f9a6dbf7360",
+    "fast_fp32_coefficient.cu": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801",
+    "graph_runtime.py": "76ca6c0b7626cef192fe5d82c9f914ffa7fb7b9c177b0856d830236457f7a083",
+    "resident_controller.cu": "6c28333a6a333747688b5078acb09eccc450eed45e369bd619c0175a9ca564d7",
+    "libresident_controller.so": "145e387739ce3961bdf3cc94394b83f190e8a212002a9a1e4cee3d6b9aba2ae5",
+    "compare_real.py": "9bee4f22e26735f7039d2d2db998fe1a39c4c9ace11551e759d95a8d7b33d635",
+    "PLAN.md": "436b8eacb12b97e2314911cc3f800606ea29e781388fc2cbfe949d414ae43326"
+  },
+  "load_setup_s": 40.5643179960025,
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "cupy": "13.6.0",
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]"
+  },
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "weight_mirror": {
+    "weights": 25582938,
+    "mutable_positions": 6474,
+    "mutable_fraction": 0.00025305928505944076,
+    "full_refreshes_after_initialization": 16984,
+    "audit_enabled": false,
+    "audit_mismatches": 0,
+    "audited_evaluations": 0,
+    "writer_groups": {
+      "_general_positions": 629,
+      "_apl_gpu_positions": 5845
+    }
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/persistent_fp32_20260925_07/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 16000,
+      "accepted": 102219560,
+      "rejected": 484385,
+      "build_s": 0.0032623150036670268,
+      "native_wall_s": 277.1549027139263,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        20.0
+      ]
+    },
+    "CNS": {
+      "epochs": 16000,
+      "accepted": 186037,
+      "rejected": 5,
+      "build_s": 0.14994499800377525,
+      "device_bytes": 69990400,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 744168,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 16000,
+      "accepted": 16000,
+      "rejected": 0,
+      "build_s": 2.5277301549940603,
+      "wall_s": 213.0461453414755,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 32000,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 16000,
+      "events": 77960,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "global_trials": 186042,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 8000,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 267360
+    }
+  },
+  "cns_resident_s": 904.3947647425812,
+  "thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "advance_total_s": 1824.4058187482296,
+  "wall_total_s": 1879.9811160860118
+}

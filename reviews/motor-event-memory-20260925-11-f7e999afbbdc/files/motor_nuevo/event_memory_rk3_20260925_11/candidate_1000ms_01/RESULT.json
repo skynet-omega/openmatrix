@@ -1,0 +1,375 @@
+{
+  "status": "COMPLETE",
+  "engine": "event_memory",
+  "requested_ms": 1000,
+  "completed_ms": 1000,
+  "parameters_changed": false,
+  "event_owner": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15",
+  "scope": "Whole organism from campaign40 preparation; same Gaussian and motor filter",
+  "source_checkpoint": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state",
+  "source_trace_sha256": "d45939b72bd20ef46793664ada893796253573c225cd18515a9c9ffe2bc1b250",
+  "runner_sha256": "8c65b7e106118eb10611babcfa3642f480d9e9e27537328ffcc7d23d8c887d59",
+  "restore_sha256": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+  "plan_sha256": "1bdbba676edd5aede07c22fb45be806785ade6195ee1d5e79d9d2ab58e3b5c2d",
+  "sources_sha256": "f5cd2bf8d42c85046cb2b57fd478b0f141206a219d69db295e07dde4051fde02",
+  "restoration": {
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "initial": {
+    "exact": true,
+    "trees": {
+      "session": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 574,
+        "array_values": 128062458,
+        "scalar_leaves": 5254391,
+        "containers": 701740
+      },
+      "prosthesis": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 5,
+        "array_values": 124,
+        "scalar_leaves": 1553,
+        "containers": 532
+      },
+      "published": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 166700,
+        "scalar_leaves": 6,
+        "containers": 3
+      },
+      "effective_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 8,
+        "array_values": 52166076,
+        "scalar_leaves": 38,
+        "containers": 28
+      },
+      "boundary": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 10,
+        "containers": 3
+      }
+    },
+    "method": "Direct recursive key/length/type/shape/dtype/value comparison; no structural hash",
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d"
+  },
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "engine_path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/engine",
+  "engine_library_sha256": "3f60bc193c483e899c28212fe939575cc0189c4e94c27a7190208cd66b8d5ae6",
+  "load_setup_s": 34.104916192009114,
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "cupy": "13.6.0",
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]"
+  },
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "weight_mirror": {
+    "weights": 25582938,
+    "mutable_positions": 6474,
+    "mutable_fraction": 0.00025305928505944076,
+    "full_refreshes_after_initialization": 16984,
+    "audit_enabled": false,
+    "audit_mismatches": 0,
+    "audited_evaluations": 0,
+    "writer_groups": {
+      "_general_positions": 629,
+      "_apl_gpu_positions": 5845
+    }
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/engine/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 16000,
+      "accepted": 102219560,
+      "rejected": 484385,
+      "build_s": 0.0031791660003364086,
+      "native_wall_s": 266.54750113587943,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        20.0
+      ]
+    },
+    "CNS": {
+      "epochs": 16000,
+      "accepted": 113138,
+      "rejected": 26,
+      "build_s": 0.11658057299791835,
+      "device_bytes": 69990400,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 452656,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 16000,
+      "accepted": 16000,
+      "rejected": 0,
+      "build_s": 2.2283764840103686,
+      "wall_s": 206.3127031326003,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 32000,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 16000,
+      "events": 77960,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "global_trials": 113164,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 8000,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 169964
+    }
+  },
+  "cns_resident_s": 537.6479000367108,
+  "thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "advance_total_s": 1426.0856980872632,
+  "hardware_samples": [
+    {
+      "step": 0,
+      "pid": 660695,
+      "maxrss_KiB": 34024,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 920 MiB, 40"
+    },
+    {
+      "step": 1,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 42 %, 2211 MiB, 48"
+    },
+    {
+      "step": 100,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2228 MiB, 42"
+    },
+    {
+      "step": 200,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2258 MiB, 45"
+    },
+    {
+      "step": 300,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2225 MiB, 43"
+    },
+    {
+      "step": 400,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2242 MiB, 43"
+    },
+    {
+      "step": 500,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2240 MiB, 42"
+    },
+    {
+      "step": 600,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2235 MiB, 44"
+    },
+    {
+      "step": 700,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2194 MiB, 42"
+    },
+    {
+      "step": 800,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2204 MiB, 42"
+    },
+    {
+      "step": 900,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2244 MiB, 43"
+    },
+    {
+      "step": 1000,
+      "pid": 660695,
+      "maxrss_KiB": 6925700,
+      "python_processes": [
+        {
+          "pid": 660695,
+          "script": "run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2227 MiB, 40"
+    }
+  ],
+  "wall_total_s": 1477.6270022090175
+}

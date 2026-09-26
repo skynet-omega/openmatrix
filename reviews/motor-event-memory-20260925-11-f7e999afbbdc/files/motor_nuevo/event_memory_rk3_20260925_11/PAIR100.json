@@ -1,0 +1,1714 @@
+{
+  "status": "PASS",
+  "ms": 100,
+  "gates": {
+    "finite_coherent_clocks": true,
+    "release_bound": true,
+    "position_bound": true,
+    "yaw_bound": true,
+    "same_applied_commands": true,
+    "same_contacts": true,
+    "useful_advance": true,
+    "process_no_regression": true,
+    "same_forward_commands": true
+  },
+  "limits": {
+    "release_max_abs": 0.001,
+    "position_max_abs_mm": 0.01,
+    "yaw_max_abs_deg": 0.1,
+    "same_applied_yaw_command_each_tick": true,
+    "same_contacts_each_tick": true
+  },
+  "fields": {
+    "fase": {
+      "exact": true
+    },
+    "paso": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "CNS_time_ns": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "PN_time_ns": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "body_time_ns": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "sensores_usados": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 300
+    },
+    "sensores_pendientes": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 300
+    },
+    "antenas_mm": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 600
+    },
+    "concentracion_campo": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 200
+    },
+    "ORN_q_L": {
+      "exact": false,
+      "max_abs": 2.247972641367113e-11,
+      "rms": 4.451443027948408e-12,
+      "changed_values": 3500,
+      "values": 3500
+    },
+    "ORN_q_R": {
+      "exact": false,
+      "max_abs": 4.146738508126191e-11,
+      "rms": 7.242503577494966e-12,
+      "changed_values": 3900,
+      "values": 3900
+    },
+    "ORN_filters": {
+      "exact": false,
+      "max_abs": 9.767403899574312e-12,
+      "rms": 1.112119311719103e-12,
+      "changed_values": 29594,
+      "values": 29600
+    },
+    "PN_q_legacy": {
+      "exact": false,
+      "max_abs": 9.739486994675417e-11,
+      "rms": 6.094620801908469e-11,
+      "changed_values": 200,
+      "values": 200
+    },
+    "PN_general_transmission": {
+      "exact": false,
+      "max_abs": 1.8525528333590557e-12,
+      "rms": 3.5816960106863546e-13,
+      "changed_values": 61448,
+      "values": 62900
+    },
+    "PN_gamma_nS": {
+      "exact": false,
+      "max_abs": 1.2209504240967561e-13,
+      "rms": 3.0318662835980304e-14,
+      "changed_values": 9876,
+      "values": 10000
+    },
+    "PN_additional_nS": {
+      "exact": false,
+      "max_abs": 9.207998946658691e-14,
+      "rms": 1.7283145564644786e-14,
+      "changed_values": 36152,
+      "values": 36600
+    },
+    "DN_q_actual": {
+      "exact": false,
+      "max_abs": 8.884787350282863e-10,
+      "rms": 2.3591190696239964e-10,
+      "changed_values": 200,
+      "values": 400
+    },
+    "DN_q_usada": {
+      "exact": false,
+      "max_abs": 8.884787350282863e-10,
+      "rms": 2.3316806822735346e-10,
+      "changed_values": 198,
+      "values": 400
+    },
+    "DN_baseline": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 400
+    },
+    "command_forward_mm_s": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "command_yaw_rate_rad_s": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "qpos": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 10900
+    },
+    "qvel": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 10800
+    },
+    "position_mm": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 300
+    },
+    "yaw_delta_deg": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "upright": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "contact_active": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 600
+    },
+    "normal_force_N": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 600
+    },
+    "contact_force_N": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 1800
+    },
+    "generalized_force_native": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 10800
+    },
+    "energy_motor_J": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "neural_command_raw_rad_s": {
+      "exact": false,
+      "max_abs": 2.2339106956620336e-08,
+      "rms": 1.0038881997863173e-08,
+      "changed_values": 99,
+      "values": 100
+    },
+    "motor_filter_applied_rad_s": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    },
+    "motor_filter_state_rad_s": {
+      "exact": false,
+      "max_abs": 2.701862121187726e-09,
+      "rms": 1.0950268363448058e-09,
+      "changed_values": 99,
+      "values": 100
+    },
+    "wind_torque_native": {
+      "exact": true,
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_values": 0,
+      "values": 100
+    }
+  },
+  "neural": {
+    "0": {
+      "time_ns": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1
+      },
+      "cns": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 359373
+      },
+      "body_qpos": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 109
+      },
+      "body_qvel": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 108
+      },
+      "pending_sensors": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 3
+      },
+      "cell_delta": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 26469
+      },
+      "cell_gates": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 105876
+      },
+      "cell_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_last_siz": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_previous_slope": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_trough": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "axon_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_s": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_last_voltage": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_previous_slope": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_trough": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      }
+    },
+    "1": {
+      "time_ns": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1
+      },
+      "cns": {
+        "exact": false,
+        "max_abs": 2.4632867384744017e-08,
+        "rms": 6.035017087367612e-11,
+        "changed_values": 266891,
+        "values": 359373
+      },
+      "body_qpos": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 109
+      },
+      "body_qvel": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 108
+      },
+      "pending_sensors": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 3
+      },
+      "cell_delta": {
+        "exact": false,
+        "max_abs": 1.6135537350692175e-11,
+        "rms": 5.864891522154268e-13,
+        "changed_values": 22265,
+        "values": 26469
+      },
+      "cell_gates": {
+        "exact": false,
+        "max_abs": 8.337774914934926e-14,
+        "rms": 2.4275449298990975e-15,
+        "changed_values": 50440,
+        "values": 105876
+      },
+      "cell_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_last_siz": {
+        "exact": false,
+        "max_abs": 2.2239987629291136e-12,
+        "rms": 4.585052981875287e-13,
+        "changed_values": 1527,
+        "values": 1557
+      },
+      "cell_previous_slope": {
+        "exact": false,
+        "max_abs": 9.947598300641403e-14,
+        "rms": 2.320622857404618e-14,
+        "changed_values": 1300,
+        "values": 1557
+      },
+      "cell_trough": {
+        "exact": false,
+        "max_abs": 2.1245227799226996e-12,
+        "rms": 3.2308628896022694e-13,
+        "changed_values": 825,
+        "values": 1557
+      },
+      "axon_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_s": {
+        "exact": false,
+        "max_abs": 2.7755575615628914e-17,
+        "rms": 1.210222323266392e-18,
+        "changed_values": 1952,
+        "values": 18684
+      },
+      "axon_last_voltage": {
+        "exact": false,
+        "max_abs": 1.0800249583553523e-12,
+        "rms": 7.545618770280961e-14,
+        "changed_values": 10101,
+        "values": 18684
+      },
+      "axon_previous_slope": {
+        "exact": false,
+        "max_abs": 5.684341886080802e-14,
+        "rms": 6.619325702634293e-15,
+        "changed_values": 7085,
+        "values": 18684
+      },
+      "axon_trough": {
+        "exact": false,
+        "max_abs": 1.0800249583553523e-12,
+        "rms": 5.3010579045061934e-14,
+        "changed_values": 5264,
+        "values": 18684
+      },
+      "axon_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      }
+    },
+    "100": {
+      "time_ns": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1
+      },
+      "cns": {
+        "exact": false,
+        "max_abs": 2.3391959584617705e-07,
+        "rms": 1.0779230303646398e-09,
+        "changed_values": 274528,
+        "values": 359373
+      },
+      "body_qpos": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 109
+      },
+      "body_qvel": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 108
+      },
+      "pending_sensors": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 3
+      },
+      "cell_delta": {
+        "exact": false,
+        "max_abs": 7.192866036120904e-06,
+        "rms": 1.068451243900014e-07,
+        "changed_values": 26469,
+        "values": 26469
+      },
+      "cell_gates": {
+        "exact": false,
+        "max_abs": 6.340576974572798e-08,
+        "rms": 5.811011764637588e-10,
+        "changed_values": 105875,
+        "values": 105876
+      },
+      "cell_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 1557
+      },
+      "cell_last_siz": {
+        "exact": false,
+        "max_abs": 2.4727509710942286e-06,
+        "rms": 6.490990192696565e-08,
+        "changed_values": 1557,
+        "values": 1557
+      },
+      "cell_previous_slope": {
+        "exact": false,
+        "max_abs": 1.1578748626561719e-08,
+        "rms": 3.172486049151534e-10,
+        "changed_values": 1546,
+        "values": 1557
+      },
+      "cell_trough": {
+        "exact": false,
+        "max_abs": 3.648022968150144e-07,
+        "rms": 1.0424435681686277e-08,
+        "changed_values": 1527,
+        "values": 1557
+      },
+      "axon_q": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_s": {
+        "exact": false,
+        "max_abs": 8.465450562766819e-16,
+        "rms": 4.873131304919839e-17,
+        "changed_values": 18020,
+        "values": 18684
+      },
+      "axon_last_voltage": {
+        "exact": false,
+        "max_abs": 7.192866036120904e-06,
+        "rms": 1.2286179870957566e-07,
+        "changed_values": 18684,
+        "values": 18684
+      },
+      "axon_previous_slope": {
+        "exact": false,
+        "max_abs": 8.740080659208616e-08,
+        "rms": 1.3863198777920656e-09,
+        "changed_values": 18500,
+        "values": 18684
+      },
+      "axon_trough": {
+        "exact": false,
+        "max_abs": 7.642481847369709e-07,
+        "rms": 1.8995365979963164e-08,
+        "changed_values": 18329,
+        "values": 18684
+      },
+      "axon_counts": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      },
+      "axon_clipped": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 18684
+      }
+    }
+  },
+  "PN": {
+    "0": {
+      "/schema": {
+        "exact": true
+      },
+      "/identity": {
+        "exact": true
+      },
+      "/base/schema": {
+        "exact": true
+      },
+      "/base/identity": {
+        "exact": true
+      },
+      "/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/voltage_delta_mV": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 178838
+      },
+      "/base/base/base/base/base/pn/pn/gates": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 8356
+      },
+      "/base/base/base/base/base/pn/pn/ionic_charge_pC": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 3
+      },
+      "/base/base/base/base/base/pn/calcium/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/enabled": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/release_enabled": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/gates": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 5702
+      },
+      "/base/base/base/base/base/pn/calcium/outward_charge_pC": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 5702
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/calcium_uM": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/available": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/released": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/ach/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 217
+      },
+      "/base/base/base/base/ach/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 217
+      },
+      "/base/base/base/base/ach_charge_pC": {
+        "exact": true
+      },
+      "/base/base/base/base/orn_charge_pC": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/schema": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/identity": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/extra_output/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/extra_output/legacy": {
+        "exact": true
+      },
+      "/base/base/general_output/schema": {
+        "exact": true
+      },
+      "/base/base/general_output/identity": {
+        "exact": true
+      },
+      "/base/base/general_output/time_ns": {
+        "exact": true
+      },
+      "/base/base/general_output/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/general_output/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/general_output/legacy": {
+        "exact": true
+      },
+      "/base/apl_receptor/schema": {
+        "exact": true
+      },
+      "/base/apl_receptor/identity": {
+        "exact": true
+      },
+      "/base/apl_receptor/time_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/occupancy": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_receptor/last_driver": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_receptor/history/0/start_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/0/end_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/0/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_receptor/history/0/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_receptor/history/1/start_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/1/end_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/1/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_receptor/history/1/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 15
+      },
+      "/base/apl_charge_pC": {
+        "exact": true
+      },
+      "/receptors/GABA/schema": {
+        "exact": true
+      },
+      "/receptors/GABA/identity": {
+        "exact": true
+      },
+      "/receptors/GABA/time_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/occupancy": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/GABA/last_driver": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/GABA/history/0/start_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/0/end_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/0/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/GABA/history/0/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/GABA/history/1/start_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/1/end_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/1/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/GABA/history/1/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 86
+      },
+      "/receptors/Glu/schema": {
+        "exact": true
+      },
+      "/receptors/Glu/identity": {
+        "exact": true
+      },
+      "/receptors/Glu/time_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/occupancy": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/receptors/Glu/last_driver": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/receptors/Glu/history/0/start_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/0/end_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/0/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/receptors/Glu/history/0/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/receptors/Glu/history/1/start_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/1/end_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/1/left": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/receptors/Glu/history/1/right": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 72
+      },
+      "/charges_pC/GABA": {
+        "exact": true
+      },
+      "/charges_pC/Glu": {
+        "exact": true
+      }
+    },
+    "100": {
+      "/schema": {
+        "exact": true
+      },
+      "/identity": {
+        "exact": true
+      },
+      "/base/schema": {
+        "exact": true
+      },
+      "/base/identity": {
+        "exact": true
+      },
+      "/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/pn/voltage_delta_mV": {
+        "exact": false,
+        "max_abs": 1.49654226788698e-08,
+        "rms": 3.626382307893412e-10,
+        "changed_values": 178283,
+        "values": 178838
+      },
+      "/base/base/base/base/base/pn/pn/gates": {
+        "exact": false,
+        "max_abs": 4.372974204969182e-12,
+        "rms": 2.2740174595140175e-12,
+        "changed_values": 8356,
+        "values": 8356
+      },
+      "/base/base/base/base/base/pn/pn/ionic_charge_pC": {
+        "exact": false,
+        "max_abs": 2.7485791420645e-12,
+        "rms": 1.6253491664905708e-12,
+        "changed_values": 2,
+        "values": 3
+      },
+      "/base/base/base/base/base/pn/calcium/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/enabled": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/release_enabled": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/gates": {
+        "exact": false,
+        "max_abs": 1.4594436770209995e-11,
+        "rms": 2.269637857030408e-12,
+        "changed_values": 5702,
+        "values": 5702
+      },
+      "/base/base/base/base/base/pn/calcium/outward_charge_pC": {
+        "exact": false,
+        "max_abs": 2.3002433291452462e-14,
+        "rms": 2.7577684662188498e-15,
+        "changed_values": 5702,
+        "values": 5702
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/calcium_uM": {
+        "exact": false,
+        "max_abs": 4.3718095810163504e-10,
+        "rms": 2.6493811341746575e-11,
+        "changed_values": 6267,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/available": {
+        "exact": false,
+        "max_abs": 1.2100542789994506e-11,
+        "rms": 4.5908669070455085e-12,
+        "changed_values": 6263,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/fast": {
+        "exact": false,
+        "max_abs": 2.5804098441328804e-13,
+        "rms": 9.397874247191032e-14,
+        "changed_values": 6256,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/slow": {
+        "exact": false,
+        "max_abs": 2.239292085093325e-12,
+        "rms": 8.31469101898922e-13,
+        "changed_values": 6261,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/released": {
+        "exact": false,
+        "max_abs": 1.6482815112794924e-11,
+        "rms": 6.469935834690539e-12,
+        "changed_values": 6116,
+        "values": 6267
+      },
+      "/base/base/base/base/base/pn/calcium/chemistry/calcium_charge_pC": {
+        "exact": false,
+        "max_abs": 2.3002433291452462e-14,
+        "rms": 2.5962538210433005e-15,
+        "changed_values": 6267,
+        "values": 6267
+      },
+      "/base/base/base/base/base/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/base/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/base/ach/schema": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/identity": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/base/ach/fast": {
+        "exact": false,
+        "max_abs": 5.516683125399678e-12,
+        "rms": 7.521092581344428e-13,
+        "changed_values": 120,
+        "values": 217
+      },
+      "/base/base/base/base/ach/slow": {
+        "exact": false,
+        "max_abs": 2.9814222531759915e-10,
+        "rms": 4.3465784368820987e-11,
+        "changed_values": 121,
+        "values": 217
+      },
+      "/base/base/base/base/ach_charge_pC": {
+        "exact": false
+      },
+      "/base/base/base/base/orn_charge_pC": {
+        "exact": false
+      },
+      "/base/base/base/extra_output/schema": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/identity": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/time_ns": {
+        "exact": true
+      },
+      "/base/base/base/extra_output/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/extra_output/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/base/extra_output/legacy": {
+        "exact": true
+      },
+      "/base/base/general_output/schema": {
+        "exact": true
+      },
+      "/base/base/general_output/identity": {
+        "exact": true
+      },
+      "/base/base/general_output/time_ns": {
+        "exact": true
+      },
+      "/base/base/general_output/fast": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/general_output/slow": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 6267
+      },
+      "/base/base/general_output/legacy": {
+        "exact": true
+      },
+      "/base/apl_receptor/schema": {
+        "exact": true
+      },
+      "/base/apl_receptor/identity": {
+        "exact": true
+      },
+      "/base/apl_receptor/time_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/occupancy": {
+        "exact": false,
+        "max_abs": 1.4562295813647097e-10,
+        "rms": 4.7307915566149825e-11,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_receptor/last_driver": {
+        "exact": false,
+        "max_abs": 4.1139897044573104e-10,
+        "rms": 1.1963744306517942e-10,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_receptor/history/0/start_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/0/end_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/0/left": {
+        "exact": false,
+        "max_abs": 4.1147663054630357e-10,
+        "rms": 1.1959566002355002e-10,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_receptor/history/0/right": {
+        "exact": false,
+        "max_abs": 4.114487639483855e-10,
+        "rms": 1.1961989120828288e-10,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_receptor/history/1/start_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/1/end_ns": {
+        "exact": true
+      },
+      "/base/apl_receptor/history/1/left": {
+        "exact": false,
+        "max_abs": 4.114487639483855e-10,
+        "rms": 1.1961989120828288e-10,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_receptor/history/1/right": {
+        "exact": false,
+        "max_abs": 4.1139897044573104e-10,
+        "rms": 1.1963744306517942e-10,
+        "changed_values": 11,
+        "values": 15
+      },
+      "/base/apl_charge_pC": {
+        "exact": false
+      },
+      "/receptors/GABA/schema": {
+        "exact": true
+      },
+      "/receptors/GABA/identity": {
+        "exact": true
+      },
+      "/receptors/GABA/time_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/occupancy": {
+        "exact": false,
+        "max_abs": 1.3039837265527154e-09,
+        "rms": 3.8387001384421285e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/GABA/last_driver": {
+        "exact": false,
+        "max_abs": 1.4388934349574e-09,
+        "rms": 4.009184329050099e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/GABA/history/0/start_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/0/end_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/0/left": {
+        "exact": false,
+        "max_abs": 1.457527321058194e-09,
+        "rms": 4.0784575994619586e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/GABA/history/0/right": {
+        "exact": false,
+        "max_abs": 1.4155825123207677e-09,
+        "rms": 4.0362086991748754e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/GABA/history/1/start_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/1/end_ns": {
+        "exact": true
+      },
+      "/receptors/GABA/history/1/left": {
+        "exact": false,
+        "max_abs": 1.4155825123207677e-09,
+        "rms": 4.0362086991748754e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/GABA/history/1/right": {
+        "exact": false,
+        "max_abs": 1.4388934349574e-09,
+        "rms": 4.009184329050099e-10,
+        "changed_values": 77,
+        "values": 86
+      },
+      "/receptors/Glu/schema": {
+        "exact": true
+      },
+      "/receptors/Glu/identity": {
+        "exact": true
+      },
+      "/receptors/Glu/time_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/occupancy": {
+        "exact": false,
+        "max_abs": 1.7893676540481351e-09,
+        "rms": 4.6215245611315947e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/receptors/Glu/last_driver": {
+        "exact": false,
+        "max_abs": 2.7273378000458592e-09,
+        "rms": 5.567075818329072e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/receptors/Glu/history/0/start_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/0/end_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/0/left": {
+        "exact": false,
+        "max_abs": 2.6334476821432418e-09,
+        "rms": 5.552420017253695e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/receptors/Glu/history/0/right": {
+        "exact": false,
+        "max_abs": 2.64991306675455e-09,
+        "rms": 5.536359471052001e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/receptors/Glu/history/1/start_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/1/end_ns": {
+        "exact": true
+      },
+      "/receptors/Glu/history/1/left": {
+        "exact": false,
+        "max_abs": 2.64991306675455e-09,
+        "rms": 5.536359471052001e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/receptors/Glu/history/1/right": {
+        "exact": false,
+        "max_abs": 2.7273378000458592e-09,
+        "rms": 5.567075818329072e-10,
+        "changed_values": 49,
+        "values": 72
+      },
+      "/charges_pC/GABA": {
+        "exact": false
+      },
+      "/charges_pC/Glu": {
+        "exact": false
+      }
+    }
+  },
+  "published": {
+    "0": {
+      "/rates": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "changed_values": 0,
+        "values": 166700
+      },
+      "/time_ns": {
+        "exact": true
+      },
+      "/rng/bit_generator": {
+        "exact": true
+      },
+      "/rng/state/state": {
+        "exact": true
+      },
+      "/rng/state/inc": {
+        "exact": true
+      },
+      "/rng/has_uint32": {
+        "exact": true
+      },
+      "/rng/uinteger": {
+        "exact": true
+      }
+    },
+    "100": {
+      "/rates": {
+        "exact": false,
+        "max_abs": 5.14984130859375e-05,
+        "rms": 3.7985226189832084e-07,
+        "changed_values": 1927,
+        "values": 166700
+      },
+      "/time_ns": {
+        "exact": true
+      },
+      "/rng/bit_generator": {
+        "exact": true
+      },
+      "/rng/state/state": {
+        "exact": true
+      },
+      "/rng/state/inc": {
+        "exact": true
+      },
+      "/rng/has_uint32": {
+        "exact": true
+      },
+      "/rng/uinteger": {
+        "exact": true
+      }
+    }
+  },
+  "events": {
+    "committed": {
+      "control_count": 5171,
+      "candidate_count": 5171,
+      "blocks_with_identity_difference": 0,
+      "max_time_difference_s_where_order_matches": 3.308717681890956e-10,
+      "same_total_identity_counts": true,
+      "unmatched_control_total": 0,
+      "unmatched_candidate_total": 0
+    },
+    "predictor": {
+      "control_count": 2641,
+      "candidate_count": 2641,
+      "blocks_with_identity_difference": 0,
+      "max_time_difference_s_where_order_matches": 2.9723386961764226e-10,
+      "same_total_identity_counts": true,
+      "unmatched_control_total": 0,
+      "unmatched_candidate_total": 0
+    },
+    "first_identity_difference": null,
+    "scope": "Committed events separated from discarded predictors; time metric only where ordered identity agrees."
+  },
+  "timing": {
+    "candidate_advance_s": 143.09319972305093,
+    "candidate_process_s": 185.096285275009,
+    "advance_minutes_per_simulated_second": 23.84886662050849,
+    "process_minutes_per_simulated_second": 30.849380879168166,
+    "scope": "100ms rates are extrapolations including repeated setup; only1000ms measures a full second.",
+    "control_advance_s": 176.40026617611875,
+    "control_process_s": 219.15463775300304,
+    "advance_fraction_saved": 0.18881528455186058,
+    "process_fraction_saved": 0.1554078564213609
+  },
+  "counts": {
+    "control": {
+      "epochs": 1600,
+      "accepted": 18361,
+      "rejected": 0,
+      "build_s": 0.1463285369973164,
+      "device_bytes": 69990400,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 73444,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "candidate": {
+      "epochs": 1600,
+      "accepted": 11453,
+      "rejected": 1,
+      "build_s": 0.12333784700604156,
+      "device_bytes": 69990400,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 45816,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    }
+  },
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/control_100ms_01/RESULT.json": "48c3059558881768e6bf397780a5204ca69de9244cc2f53ca92496f1a5917858",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/control_100ms_01/traces.npz": "7bc5bc55b679309b7bb622ae2afa470743c2724fba17ced657274304208657f5",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/control_100ms_01/neural_states.npz": "56e156446ab4e018951c8a2a731d81727337e4eb0631714fb6f69e7110398254",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/control_100ms_01/EVENTS.json": "1f4816e1af97a08cdf3604421aa0d4de5511445cba13cab6960e9abf31afca39",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/candidate_100ms_01/RESULT.json": "e82dc64bc156799a9220282b3d96deb7f8e1797598eb08f9afff03d764d7d946",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/candidate_100ms_01/traces.npz": "8cf5c799f8fcc1b4b17c6fd0a5f0fd3d8fc7b80b62e470c5d640205bc5b2adc1",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/candidate_100ms_01/neural_states.npz": "273d7c0e4db96e3843138e7f9c4065233064a81d25ca80aa615e1e61ba6a31ec",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/event_memory_rk3_20260925_11/candidate_100ms_01/EVENTS.json": "4d797983dcb77212f30d5359f979309d576b262bb5469e3b345ad17ecdd0930d"
+  },
+  "evaluator_sha256": "c2384649e9080802172f340110b6000324174fc749bfd3859f7be2d7e8f76ab9",
+  "forward_command_note": "Explicitly covers forward as well as yaw; added before candidate execution after static code review. No engine or tolerance changes."
+}

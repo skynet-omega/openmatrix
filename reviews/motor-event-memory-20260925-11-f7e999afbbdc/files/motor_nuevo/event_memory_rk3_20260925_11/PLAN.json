@@ -1,0 +1,46 @@
+{
+  "scope": "Single event-memory v2 port to resident RK3, whole-organism same campaign40 preparation as09",
+  "parent": "persistent_fp32_20260925_07",
+  "algorithm_change": "Restore pre-cut proposal only at accepted low-error interior event. Same RK3 tableau, left/right projection, weights, biological parameters, tolerance and coupling.",
+  "round_max_full_prototypes": 2,
+  "this_prototype": 1,
+  "short_pair": {
+    "runs": 2,
+    "ms_each": 100,
+    "wall_s_total_max": 900,
+    "wall_s_each_max": 450,
+    "order": [
+      "control",
+      "event_memory"
+    ],
+    "minimum_advance_fraction_saved": 0.1,
+    "process_no_regression": true
+  },
+  "confirmation": {
+    "runs_max": 1,
+    "ms": 1000,
+    "only_if_short_pair_passes": true,
+    "wall_s_max": 2400
+  },
+  "resources": {
+    "RAM_GiB_max": 24,
+    "VRAM_GiB_max": 14,
+    "disk_GiB_max": 6,
+    "GPU_other_simulations": 0,
+    "OPENBLAS_NUM_THREADS": 1
+  },
+  "comparison_limits_engineering_only": {
+    "release_max_abs": 0.001,
+    "position_max_abs_mm": 0.01,
+    "yaw_max_abs_deg": 0.1,
+    "same_applied_yaw_command_each_tick": true,
+    "same_contacts_each_tick": true
+  },
+  "comparison_scope": "Same functional screen as09. Report all recorded neuronal, PN, physical committed vs discarded event differences independently; no biological equivalence claim.",
+  "stop": "Invalid/nonfinite state, source mismatch, solver failure, functional-screen discrepancy or budget. No retuning of factors/tolerance/kernel on this exposure.",
+  "targets_process_minutes_per_simulated_second": [
+    25,
+    20,
+    12
+  ]
+}

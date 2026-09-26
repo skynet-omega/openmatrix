@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-postwind-final-review-20260925-41](reviews/stage45-postwind-final-review-20260925-41-75e499fc5b8e/README.md)
+[motor-event-memory-20260925-11](reviews/motor-event-memory-20260925-11-f7e999afbbdc/README.md)
 
-Posthoc supplement to b572a266 campaign41: exact filter audit, small restart artifact and ChatGPT-requested delivered-command/tracking decomposition, executed locally on real traces. ChatGPT could not read the public files; no independent file audit or new rollout. Requires original physical capsule.
+RK3 residente: una mejora de propuesta tras eventos; pareja real de100ms y confirmación de1s. Código del núcleo y evidencia para recalcular comparaciones en CPU. No contiene checkpoint/modelo para reiniciar el organismo. Ver RESULTADOS.md para coste, alcance funcional y limitaciones.

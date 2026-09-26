@@ -1,0 +1,9 @@
+{
+  "created_UTC": "2026-09-26T00:06:26.000270+00:00",
+  "candidate_has_not_started": true,
+  "evaluator_sha256": "c2384649e9080802172f340110b6000324174fc749bfd3859f7be2d7e8f76ab9",
+  "clarification": "Review found forward command in addition to yaw. Require forward exact as well, before candidate exposure; uses recorded existing35fields. Frozen engine, runner, original criterion thresholds and SOURCES unchanged.",
+  "initial_next_step_ns": 11574,
+  "minimum_step_ns": 100,
+  "historical_v2_is_floor_not_exact_assignment": true
+}
