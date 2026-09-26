@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "plan_sha256": "ed98206ed7ecad23a1b6791ecae346dcf9d86a5843a816ca19892529cac776bf",
+  "arms": [
+    {
+      "arm": "common",
+      "returncode": 0,
+      "guard_reason": null,
+      "cpu_s": 3281.832646,
+      "wall_s": 483.163789009006,
+      "completed_ms": 120,
+      "source_result_sha256": "5103caba121acaee238e0fd78f12e7bd5a6f1a0d2a7639691e2b3a59b654cc0f",
+      "prefix_matches_historical_sham": true
+    },
+    {
+      "arm": "virtual",
+      "returncode": 0,
+      "guard_reason": null,
+      "cpu_s": 3239.377327,
+      "wall_s": 486.00833396599046,
+      "completed_ms": 120,
+      "source_result_sha256": "17e79c4cfb90af37d839ceffa28a9600768aa4ff7d293e9b1d397ee551d8b647",
+      "prefix_matches_historical_sham": true
+    }
+  ],
+  "neural_ms_max": 240,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "wall_s": 994.37182493601,
+  "cpu_s": 6521.209973,
+  "classification": "DESCARTADO_EFECTO_MATERIAL_100MS"
+}

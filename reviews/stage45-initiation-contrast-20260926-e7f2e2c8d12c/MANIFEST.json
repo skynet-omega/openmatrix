@@ -1,0 +1,152 @@
+{
+  "format_version": 2,
+  "label": "stage45-initiation-contrast-20260926",
+  "description": "Completed4s sham/odor initiation pair, saved-video analysis and finite lateral contrast46. Observation subset reproduces selected45 metrics with NumPy; no complete CNS restart or reconstruction of unrecorded synaptic currents. Stages4/5 stay open. See INFORME.md and round46/README.md. Local absolute links in the report identify provenance; the links in this public index identify files included here.",
+  "files": [
+    {
+      "path": "INFORME.md",
+      "bytes": 17159,
+      "sha256": "aae7ebc88375685d1edde5cc6cb23884fa590958aab17a1de87afceff4fa3247"
+    },
+    {
+      "path": "METRICAS45.json",
+      "bytes": 1319,
+      "sha256": "3075db74cf72818f5a7d1079a6ec06681e6ee14fecc96b1390573b80792e7239"
+    },
+    {
+      "path": "PREPARED_DN.json",
+      "bytes": 13347,
+      "sha256": "b8a816c20664db53eb9d8b02641c150d6d3cc7c6b5e8b408c7e63dae97fdd3b0"
+    },
+    {
+      "path": "probe_prepared.py",
+      "bytes": 6059,
+      "sha256": "05bcddde98ee165aab518ffac0f870bf8a8c9349bab353fff7015dd32f9c5847"
+    },
+    {
+      "path": "UNIFORME_GIRO.json",
+      "bytes": 632,
+      "sha256": "49f5723aeb2dba7fe3d4c6eeb29c73379201e3e322a01b6296473e73ba666c40"
+    },
+    {
+      "path": "GEOMETRIA_12S.json",
+      "bytes": 784,
+      "sha256": "6056cf6e3a0276ce387b7f8ff9eb8f77cb01d11363a152c15089af636fd96446"
+    },
+    {
+      "path": "OBSERVACIONES45.npz",
+      "bytes": 12059288,
+      "sha256": "f6d575a1edc0e33dddbad3b0106ed11c4ea6d7f3e526c781f7dad10c6f85db1c"
+    },
+    {
+      "path": "OBSERVACIONES_PROCEDENCIA.json",
+      "bytes": 14921,
+      "sha256": "3879b81036b6f9481e772bd8a24806c21f243ba2760af24b4a3773b438740218"
+    },
+    {
+      "path": "recalculate.py",
+      "bytes": 2640,
+      "sha256": "565ac0e59416c38d89756ca64d94a1d41072e5f6d8c2f9adac800e39006f5d4e"
+    },
+    {
+      "path": "CHATGPT.md",
+      "bytes": 9059,
+      "sha256": "89775cd00c220def384d98eb6c2fe4e4995f5137904da88111df09940feec888"
+    },
+    {
+      "path": "jev_spec.json",
+      "bytes": 4872,
+      "sha256": "f546d6d53ae113564ac65b4c99ed8aba6913b9a5ba569a8bde4dd692fb49ea51"
+    },
+    {
+      "path": "jev_review/request.json",
+      "bytes": 4693,
+      "sha256": "d97e5c2414d0e3337a909e0e7d4a8e42bd775c47db6b8efe7e083464fba93aef"
+    },
+    {
+      "path": "jev_review/response.json",
+      "bytes": 737,
+      "sha256": "9b417cf6a819f03731d1f8bb05a027bcadcd0f03f0e6fe591ef04e19ecb31273"
+    },
+    {
+      "path": "jev_review/receipt.json",
+      "bytes": 415,
+      "sha256": "e2f5c26dd5ce490b12d1c65e5238d90197a7bd36215adf946d0bf1e883208a21"
+    },
+    {
+      "path": "round46/PLAN.json",
+      "bytes": 4706,
+      "sha256": "ed98206ed7ecad23a1b6791ecae346dcf9d86a5843a816ca19892529cac776bf"
+    },
+    {
+      "path": "round46/QUEUE.json",
+      "bytes": 960,
+      "sha256": "51134dac280cf7b2410cd0027c6ebb18110993192eeb51439b3fff923a4df104"
+    },
+    {
+      "path": "round46/RESULTADOS.json",
+      "bytes": 7357,
+      "sha256": "410a0034130bc7efe1cd70f7e1a60e3fac20ac1df629abd0698651c31add0ba8"
+    },
+    {
+      "path": "round46/README.md",
+      "bytes": 2630,
+      "sha256": "1a2c03654b572aeb975a444ed6020dd4d345d472b0c25f19cba504e4b087708a"
+    },
+    {
+      "path": "round46/CHATGPT.md",
+      "bytes": 3209,
+      "sha256": "a48ad4d096805071961b26b7ee418df9ef25c061cc69b916b63fd2fdc5472f48"
+    },
+    {
+      "path": "round46/launch.py",
+      "bytes": 5174,
+      "sha256": "86f762367d80117b752e202c3234cdaf606731301d40a8015a0284b94c8dc194"
+    },
+    {
+      "path": "round46/common/traces.npz",
+      "bytes": 1563399,
+      "sha256": "edeabde22c140781cab82248c511715d1c8c9691ba3a0b33a4c6e2d9cae4602a"
+    },
+    {
+      "path": "round46/common/RESULT.json",
+      "bytes": 3292,
+      "sha256": "5103caba121acaee238e0fd78f12e7bd5a6f1a0d2a7639691e2b3a59b654cc0f"
+    },
+    {
+      "path": "round46/common/RUN_CONTRACT.json",
+      "bytes": 520,
+      "sha256": "674e7365e7b2a9eb4c72aa46171b15348803426ecef5a8672d771939bb031e72"
+    },
+    {
+      "path": "round46/virtual/traces.npz",
+      "bytes": 1563286,
+      "sha256": "3718893585d0d84acd6848d47573da52ea0ee0a505a77405cc33f2cc83e9c30f"
+    },
+    {
+      "path": "round46/virtual/RESULT.json",
+      "bytes": 3298,
+      "sha256": "17e79c4cfb90af37d839ceffa28a9600768aa4ff7d293e9b1d397ee551d8b647"
+    },
+    {
+      "path": "round46/virtual/RUN_CONTRACT.json",
+      "bytes": 521,
+      "sha256": "a34ed27844b4d59c91db20e12b2963be2e3f0b7dbe0fe156667b07bcba6f888b"
+    },
+    {
+      "path": "figures/poster.png",
+      "bytes": 462809,
+      "sha256": "699ee5b11a398e9c17432735ee57264f11c7bf6d7beb10db4b3bc42928f51e1d"
+    },
+    {
+      "path": "figures/datos.png",
+      "bytes": 274583,
+      "sha256": "a4103d97febe8b2d3f16fc528421b350ae48b355f743856624aa2e4332f49705"
+    },
+    {
+      "path": "source/paired45.py",
+      "bytes": 24445,
+      "sha256": "1642a75e84d6b39b6b03554ee00b6140f1fe6bb9ba34d0570f7d6868667c353e"
+    }
+  ]
+}

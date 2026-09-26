@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-motor-crossreview-20260926-01](reviews/stage45-motor-crossreview-20260926-01-d77babaff5ba/README.md)
+[stage45-initiation-contrast-20260926](reviews/stage45-initiation-contrast-20260926-e7f2e2c8d12c/README.md)
 
-Revision CPU de motor12/13 y campaña45: reconstruccion exacta de DN/lector/relay, limite1911, tres contraejemplos sinteticos del analizador y contraste ChatGPT/Jev. No ejecuta CNS/MuJoCo ni admite etapas4/5; archivos congelados y arrays seleccionados.
+Completed4s sham/odor initiation pair, saved-video analysis and finite lateral contrast46. Observation subset reproduces selected45 metrics with NumPy; no complete CNS restart or reconstruction of unrecorded synaptic currents. Stages4/5 stay open. See INFORME.md and round46/README.md. Local absolute links in the report identify provenance; the links in this public index identify files included here.

@@ -1,0 +1,60 @@
+{
+  "phases": {
+    "baseline": {
+      "ORN_mean_difference_LR": [
+        0.0,
+        0.0
+      ],
+      "DN_mean_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PN_legacy_mean_difference": [
+        0.0,
+        0.0
+      ],
+      "forward_command_max_difference": 0.0
+    },
+    "stimulus": {
+      "ORN_mean_difference_LR": [
+        0.21439646950393157,
+        0.21714895232375284
+      ],
+      "DN_mean_difference": [
+        0.0,
+        0.0,
+        0.0005674695338193816,
+        0.0002517858308567563
+      ],
+      "PN_legacy_mean_difference": [
+        0.0552484369092833,
+        0.06547641946623946
+      ],
+      "forward_command_max_difference": 0.0
+    },
+    "poststimulus": {
+      "ORN_mean_difference_LR": [
+        0.004149827099513092,
+        0.00431786304263278
+      ],
+      "DN_mean_difference": [
+        0.0,
+        0.0,
+        0.0001344388092512393,
+        -4.211840722052618e-05
+      ],
+      "PN_legacy_mean_difference": [
+        -0.005643658319383066,
+        -0.005528947237268651
+      ],
+      "forward_command_max_difference": 0.0
+    }
+  },
+  "body_identical": true,
+  "total_new_simulated_ms": 0,
+  "stage4": "OPEN",
+  "stage5": "OPEN",
+  "claim": "Sensory propagation without DNg100-driven initiation in this prepared model/context"
+}

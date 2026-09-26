@@ -1,0 +1,250 @@
+{
+  "schema": "stage45_neural_matched_pair_verified44_v1",
+  "classification": "DESCARTADO_EFECTO_MATERIAL_100MS",
+  "plan_sha256": "edf1d5d3cad7509cb17f3c19480eea14c83ff8f2fd79b72f665774a3277eba54",
+  "source_lock_sha256": "5217a970bbd96aa5c3df03bee6be2b0834ee3a7731571f7c55bd499241236d1f",
+  "tape_sha256": "f324890894d3fc424e320e4cd2e31cada7f6fc4a1164e4df3b2bfe27999a2303",
+  "trace_sha256": {
+    "common": "edeabde22c140781cab82248c511715d1c8c9691ba3a0b33a4c6e2d9cae4602a",
+    "virtual": "3718893585d0d84acd6848d47573da52ea0ee0a505a77405cc33f2cc83e9c30f"
+  },
+  "all_exogenous_and_physical_controls_exact": true,
+  "actual_drive_residual_max": [
+    6.217248937900877e-15,
+    7.105427357601002e-15
+  ],
+  "layers": {
+    "sensores_usados": {
+      "1021_1070": {
+        "rms": 0.0011159591319885845,
+        "max_abs": 0.0015232058777460145,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 0.000594586253411577,
+        "max_abs": 0.001072750686130941,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 0.000894119006904207,
+        "max_abs": 0.0015232058777460145,
+        "above_numeric_floor": true
+      }
+    },
+    "ORN_q_L": {
+      "1021_1070": {
+        "rms": 0.00044515714417185247,
+        "max_abs": 0.0006533443076282563,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 0.00042725768232226114,
+        "max_abs": 0.0006321142906263177,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 0.00043629921505237073,
+        "max_abs": 0.0006533443076282563,
+        "above_numeric_floor": true
+      }
+    },
+    "ORN_q_R": {
+      "1021_1070": {
+        "rms": 0.000488827259993235,
+        "max_abs": 0.0007249336455799615,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 0.0005161165073242702,
+        "max_abs": 0.0007251939686246933,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 0.0005026571093922263,
+        "max_abs": 0.0007251939686246933,
+        "above_numeric_floor": true
+      }
+    },
+    "ORN_filters": {
+      "1021_1070": {
+        "rms": 1.87892477879759e-05,
+        "max_abs": 6.791035134819101e-05,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 4.0664384699467915e-05,
+        "max_abs": 0.00010899187020191325,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 3.167513232351427e-05,
+        "max_abs": 0.00010899187020191325,
+        "above_numeric_floor": true
+      }
+    },
+    "PN_q_legacy": {
+      "1021_1070": {
+        "rms": 6.70075393192325e-06,
+        "max_abs": 1.2971961799168596e-05,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 1.692132080159044e-05,
+        "max_abs": 2.0782214063874704e-05,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 1.2869172485566472e-05,
+        "max_abs": 2.0782214063874704e-05,
+        "above_numeric_floor": true
+      }
+    },
+    "PN_general_transmission": {
+      "1021_1070": {
+        "rms": 1.847544042511153e-08,
+        "max_abs": 3.843918720131123e-07,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 1.6088243290036008e-07,
+        "max_abs": 1.0163746455293943e-06,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 1.145087313588809e-07,
+        "max_abs": 1.0163746455293943e-06,
+        "above_numeric_floor": true
+      }
+    },
+    "PN_gamma_nS": {
+      "1021_1070": {
+        "rms": 2.750345861955863e-09,
+        "max_abs": 1.9284249443835e-08,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 2.294084049627098e-08,
+        "max_abs": 7.079866547882174e-08,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 1.6337786952885088e-08,
+        "max_abs": 7.079866547882174e-08,
+        "above_numeric_floor": true
+      }
+    },
+    "PN_additional_nS": {
+      "1021_1070": {
+        "rms": 1.5978280405091743e-09,
+        "max_abs": 1.4376881860359014e-08,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 1.3187592995150364e-08,
+        "max_abs": 5.521935817799639e-08,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 9.393233294579037e-09,
+        "max_abs": 5.521935817799639e-08,
+        "above_numeric_floor": true
+      }
+    },
+    "DN_q_actual": {
+      "1021_1070": {
+        "rms": 2.7140504350887447e-08,
+        "max_abs": 1.286412990575414e-07,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 1.3082839250237805e-07,
+        "max_abs": 3.3132454990703053e-07,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 9.447929736502287e-08,
+        "max_abs": 3.3132454990703053e-07,
+        "above_numeric_floor": true
+      }
+    },
+    "DN_q_usada": {
+      "1021_1070": {
+        "rms": 2.5570402970218182e-08,
+        "max_abs": 1.2299474871912963e-07,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 1.290039695480855e-07,
+        "max_abs": 3.302924294068532e-07,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 9.299427312265716e-08,
+        "max_abs": 3.302924294068532e-07,
+        "above_numeric_floor": true
+      }
+    },
+    "neural_command_raw_rad_s": {
+      "1021_1070": {
+        "rms": 1.1175449297529432e-06,
+        "max_abs": 2.6416658979577096e-06,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 5.128386143642364e-06,
+        "max_abs": 6.349739001491189e-06,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 3.711418267207262e-06,
+        "max_abs": 6.349739001491189e-06,
+        "above_numeric_floor": true
+      }
+    },
+    "motor_filter_state_rad_s": {
+      "1021_1070": {
+        "rms": 6.436190708302377e-08,
+        "max_abs": 1.7917395961385748e-07,
+        "above_numeric_floor": true
+      },
+      "1071_1120": {
+        "rms": 7.508059755495024e-07,
+        "max_abs": 1.264250901499616e-06,
+        "above_numeric_floor": true
+      },
+      "1021_1120": {
+        "rms": 5.328471018989424e-07,
+        "max_abs": 1.264250901499616e-06,
+        "above_numeric_floor": true
+      }
+    },
+    "motor_filter_applied_rad_s": {
+      "1021_1070": {
+        "rms": 0.0,
+        "max_abs": 0.0,
+        "above_numeric_floor": false
+      },
+      "1071_1120": {
+        "rms": 0.0,
+        "max_abs": 0.0,
+        "above_numeric_floor": false
+      },
+      "1021_1120": {
+        "rms": 0.0,
+        "max_abs": 0.0,
+        "above_numeric_floor": false
+      }
+    }
+  },
+  "raw_delta_abs_integral_deg": 1.6502579871630157e-05,
+  "raw_delta_net_integral_deg": -1.6502579871630157e-05,
+  "raw_delta_last50_mean_deg_s": -0.0002868648615161512,
+  "raw_detectable": true,
+  "raw_material": false,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "scope": "Effect of finite lateral tape redistribution at matched input mean on computed neural output. No free body feedback, angular error code or learning established.",
+  "execution_round": 46,
+  "new_execution_plan_sha256": "ed98206ed7ecad23a1b6791ecae346dcf9d86a5843a816ca19892529cac776bf",
+  "historical_stop44_preserved": true
+}

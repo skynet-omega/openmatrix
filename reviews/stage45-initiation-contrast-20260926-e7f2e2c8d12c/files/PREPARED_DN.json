@@ -1,0 +1,455 @@
+{
+  "status": "PREPARED_ONLY",
+  "restoration": {
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "neural_steps": 0,
+  "physical_steps": 0,
+  "coefficient_calls": 0,
+  "time_ns": 44486000000,
+  "observations": [
+    {
+      "id": 10045,
+      "row": 36,
+      "type": "DNg100",
+      "state": 1.93e-322,
+      "release": 1.93e-322,
+      "published": 0.0,
+      "cap": 201.9180450439453,
+      "motor_baseline": 1.93e-322,
+      "tau_s": 0.018692342564463615,
+      "theta": 663.258544921875,
+      "gain": 5.64052823774715e-05,
+      "input_edges": 1123,
+      "base_positive": 6933.207109846903,
+      "base_negative": -7681.479572662995,
+      "base_net": -748.2724628160922,
+      "direct_drive": 0.0,
+      "base_margin_over_theta": -1411.5310077379672,
+      "base_target": 0.0,
+      "generic_current_is_effective_at_prepared": true,
+      "applicable_row_caches": [],
+      "dynamic_writers": [],
+      "largest_base_contributions": [
+        {
+          "id": 11118,
+          "type": "PVLP137",
+          "term": 1149.1132468759301,
+          "weight": 9.75,
+          "transmission": 0.6286503303911787
+        },
+        {
+          "id": 10329,
+          "type": "PVLP137",
+          "term": 1097.1131792881956,
+          "weight": 7.649999618530273,
+          "transmission": 0.7664512177009183
+        },
+        {
+          "id": 516820,
+          "type": "GNG127",
+          "term": -944.0798848409564,
+          "weight": -9.300000190734863,
+          "transmission": 0.5070227298126416
+        },
+        {
+          "id": 11982,
+          "type": "GNG127",
+          "term": -717.2670812655683,
+          "weight": -7.859999656677246,
+          "transmission": 0.4233065350238425
+        },
+        {
+          "id": 578647,
+          "type": "VES089",
+          "term": 664.7967498779473,
+          "weight": 8.9399995803833,
+          "transmission": 0.34385039901591324
+        },
+        {
+          "id": 524363,
+          "type": "GNG031",
+          "term": -626.7226237151933,
+          "weight": -3.0899999141693115,
+          "transmission": 0.9984646193691924
+        },
+        {
+          "id": 10377,
+          "type": "DNge054",
+          "term": -625.3314741074407,
+          "weight": -6.239999771118164,
+          "transmission": 0.5068055088695693
+        },
+        {
+          "id": 520862,
+          "type": "GNG031",
+          "term": -474.64752082391647,
+          "weight": -2.5799999237060547,
+          "transmission": 0.9980636268176063
+        },
+        {
+          "id": 15246,
+          "type": "CB4105",
+          "term": 461.090017212122,
+          "weight": 6.089999675750732,
+          "transmission": 0.3907208131356261
+        },
+        {
+          "id": 512165,
+          "type": "GNG555",
+          "term": -458.18029912893365,
+          "weight": -5.489999771118164,
+          "transmission": 0.4135814739807651
+        },
+        {
+          "id": 519879,
+          "type": "VES089",
+          "term": 396.59360373504825,
+          "weight": 6.329999923706055,
+          "transmission": 0.33153310601065883
+        },
+        {
+          "id": 11043,
+          "type": "LPT60",
+          "term": 375.0899721586196,
+          "weight": 2.3999998569488525,
+          "transmission": 0.8903773346797127
+        }
+      ]
+    },
+    {
+      "id": 10056,
+      "row": 46,
+      "type": "DNg100",
+      "state": 2.8e-322,
+      "release": 2.8e-322,
+      "published": 0.0,
+      "cap": 190.84814453125,
+      "motor_baseline": 2.8e-322,
+      "tau_s": 0.022916041314601898,
+      "theta": 559.1860961914062,
+      "gain": 5.7706444761764594e-05,
+      "input_edges": 1166,
+      "base_positive": 7058.6086875867095,
+      "base_negative": -7804.58112514936,
+      "base_net": -745.9724375626504,
+      "direct_drive": 0.0,
+      "base_margin_over_theta": -1305.1585337540566,
+      "base_target": 0.0,
+      "generic_current_is_effective_at_prepared": true,
+      "applicable_row_caches": [],
+      "dynamic_writers": [],
+      "largest_base_contributions": [
+        {
+          "id": 10329,
+          "type": "PVLP137",
+          "term": 1239.0925061570647,
+          "weight": 8.639999389648438,
+          "transmission": 0.7664512177009183
+        },
+        {
+          "id": 11118,
+          "type": "PVLP137",
+          "term": 1152.648948471821,
+          "weight": 9.779999732971191,
+          "transmission": 0.6286503303911787
+        },
+        {
+          "id": 516820,
+          "type": "GNG127",
+          "term": -822.2630505559863,
+          "weight": -8.09999942779541,
+          "transmission": 0.5070227298126416
+        },
+        {
+          "id": 578647,
+          "type": "VES089",
+          "term": 711.6448536991222,
+          "weight": 9.569999694824219,
+          "transmission": 0.34385039901591324
+        },
+        {
+          "id": 11982,
+          "type": "GNG127",
+          "term": -692.6281363902464,
+          "weight": -7.589999675750732,
+          "transmission": 0.4233065350238425
+        },
+        {
+          "id": 524363,
+          "type": "GNG031",
+          "term": -596.2991751917398,
+          "weight": -2.93999981880188,
+          "transmission": 0.9984646193691924
+        },
+        {
+          "id": 10377,
+          "type": "DNge054",
+          "term": -586.2482689220916,
+          "weight": -5.849999904632568,
+          "transmission": 0.5068055088695693
+        },
+        {
+          "id": 520862,
+          "type": "GNG031",
+          "term": -496.72417316068953,
+          "weight": -2.700000047683716,
+          "transmission": 0.9980636268176063
+        },
+        {
+          "id": 519879,
+          "type": "VES089",
+          "term": 451.10172285378366,
+          "weight": 7.199999809265137,
+          "transmission": 0.33153310601065883
+        },
+        {
+          "id": 11043,
+          "type": "LPT60",
+          "term": 389.15587080053893,
+          "weight": 2.490000009536743,
+          "transmission": 0.8903773346797127
+        },
+        {
+          "id": 10583,
+          "type": "LPT60",
+          "term": 366.6147151940208,
+          "weight": 2.309999942779541,
+          "transmission": 0.7946734561242557
+        },
+        {
+          "id": 15246,
+          "type": "CB4105",
+          "term": 358.8779462095632,
+          "weight": 4.739999771118164,
+          "transmission": 0.3907208131356261
+        }
+      ]
+    },
+    {
+      "id": 10118,
+      "row": 104,
+      "type": "DNb05",
+      "state": 0.7195505546069066,
+      "release": 0.7195505546069066,
+      "published": 139.74473571777344,
+      "cap": 194.21115112304688,
+      "motor_baseline": 0.7195551168337462,
+      "tau_s": 0.020868588238954544,
+      "theta": 566.957275390625,
+      "gain": 6.486901658325508e-05,
+      "input_edges": 1311,
+      "base_positive": 23437.974754292045,
+      "base_negative": -8903.491580202639,
+      "base_net": 14534.483174089408,
+      "direct_drive": 0.0,
+      "base_margin_over_theta": 13967.525898698783,
+      "base_target": 0.719235640876826,
+      "generic_current_is_effective_at_prepared": true,
+      "applicable_row_caches": [],
+      "dynamic_writers": [],
+      "largest_base_contributions": [
+        {
+          "id": 14666,
+          "type": "VP3+_l2PN",
+          "term": 1018.7795548569743,
+          "weight": 5.369999885559082,
+          "transmission": 0.9999952229433222
+        },
+        {
+          "id": 12231,
+          "type": "vLN25",
+          "term": -928.5659976916843,
+          "weight": -6.929999828338623,
+          "transmission": 0.6807310023691436
+        },
+        {
+          "id": 12425,
+          "type": "vLN25",
+          "term": -884.8719494158495,
+          "weight": -5.639999866485596,
+          "transmission": 0.8375859303911786
+        },
+        {
+          "id": 10461,
+          "type": "AL-AST1",
+          "term": 859.5470873089972,
+          "weight": 4.829999923706055,
+          "transmission": 0.9860295995610108
+        },
+        {
+          "id": 16013,
+          "type": "VP5+VP3_l2PN",
+          "term": 594.954530923781,
+          "weight": 2.9700000286102295,
+          "transmission": 0.999622677889822
+        },
+        {
+          "id": 10134,
+          "type": "VL2a_adPN",
+          "term": 591.3144912786299,
+          "weight": 4.349999904632568,
+          "transmission": 0.621605994337082
+        },
+        {
+          "id": 37147,
+          "type": "TRN_VP3a",
+          "term": 572.6881881818065,
+          "weight": 2.7300000190734863,
+          "transmission": 0.9999996970151707
+        },
+        {
+          "id": 524990,
+          "type": "VP3+_l2PN",
+          "term": 453.50209440473003,
+          "weight": 2.1599998474121094,
+          "transmission": 0.999999959572148
+        },
+        {
+          "id": 16648,
+          "type": "VP1d_il2PN",
+          "term": 409.6448854140449,
+          "weight": 2.0399999618530273,
+          "transmission": 0.9998760793139799
+        },
+        {
+          "id": 35634,
+          "type": "TRN_VP3a",
+          "term": 409.56736589101246,
+          "weight": 2.0999999046325684,
+          "transmission": 0.9999340432054473
+        },
+        {
+          "id": 522730,
+          "type": "LHPV2i1",
+          "term": 408.53076115399324,
+          "weight": 3.629999876022339,
+          "transmission": 0.5615597168542559
+        },
+        {
+          "id": 11090,
+          "type": "LoVP90a",
+          "term": 405.7953158459777,
+          "weight": 4.799999713897705,
+          "transmission": 0.4282527754770552
+        }
+      ]
+    },
+    {
+      "id": 10065,
+      "row": 52,
+      "type": "DNb05",
+      "state": 0.7453355188109316,
+      "release": 0.7453355188109316,
+      "published": 149.43804931640625,
+      "cap": 200.49769592285156,
+      "motor_baseline": 0.7455248474961915,
+      "tau_s": 0.020868588238954544,
+      "theta": 566.957275390625,
+      "gain": 5.08413860550008e-05,
+      "input_edges": 1288,
+      "base_positive": 30316.667145498417,
+      "base_negative": -10827.293115069944,
+      "base_net": 19489.37403042847,
+      "direct_drive": 0.0,
+      "base_margin_over_theta": 18922.416755037844,
+      "base_target": 0.7451862754240156,
+      "generic_current_is_effective_at_prepared": true,
+      "applicable_row_caches": [],
+      "dynamic_writers": [],
+      "largest_base_contributions": [
+        {
+          "id": 17319,
+          "type": "VP3+_l2PN",
+          "term": 1477.5231234252067,
+          "weight": 7.46999979019165,
+          "transmission": 0.9999999998602255
+        },
+        {
+          "id": 12332,
+          "type": "vLN25",
+          "term": -1438.9234629573868,
+          "weight": -7.349999904632568,
+          "transmission": 0.9533742505548973
+        },
+        {
+          "id": 12735,
+          "type": "vLN25",
+          "term": -1341.3410397769856,
+          "weight": -7.349999904632568,
+          "transmission": 0.8792285963926287
+        },
+        {
+          "id": 10629,
+          "type": "AL-AST1",
+          "term": 858.6228594436811,
+          "weight": 4.349999904632568,
+          "transmission": 0.9997836056353175
+        },
+        {
+          "id": 16136,
+          "type": "VP5+VP3_l2PN",
+          "term": 853.8008947999167,
+          "weight": 4.440000057220459,
+          "transmission": 0.9999999778480028
+        },
+        {
+          "id": 10628,
+          "type": "AL-AST1",
+          "term": 673.4717457249301,
+          "weight": 3.5399999618530273,
+          "transmission": 0.9999806514510664
+        },
+        {
+          "id": 11514,
+          "type": "DL4_adPN",
+          "term": 581.2235775155635,
+          "weight": 2.759999990463257,
+          "transmission": 0.9979917957324586
+        },
+        {
+          "id": 527577,
+          "type": "VA6_adPN",
+          "term": 563.7559887607582,
+          "weight": 2.9700000286102295,
+          "transmission": 0.9998416413038758
+        },
+        {
+          "id": 13666,
+          "type": "M_l2PNm16",
+          "term": 516.6757114135145,
+          "weight": 2.5799999237060547,
+          "transmission": 0.9284276382502653
+        },
+        {
+          "id": 555967,
+          "type": "VP3+_l2PN",
+          "term": 509.3795281732012,
+          "weight": 2.490000009536743,
+          "transmission": 0.9999999607731708
+        },
+        {
+          "id": 16648,
+          "type": "VP1d_il2PN",
+          "term": 475.91095573809406,
+          "weight": 2.369999885559082,
+          "transmission": 0.9998760793139799
+        },
+        {
+          "id": 133348431,
+          "type": "TRN_VP3a",
+          "term": 469.53564263913063,
+          "weight": 2.129999876022339,
+          "transmission": 0.9985516502479583
+        }
+      ]
+    }
+  ],
+  "wall_s": 23.930430759006413,
+  "warning": "Prepared generic CSR input is not the unrecorded input during the4s stimulus. Applicable overrides/writers preclude treating base current as effective.",
+  "reader_file": "/home/daroch/AXIOMA_ASTRA/campanas/iniciacion_olfativa_20260926_45/protocol.py"
+}

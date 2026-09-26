@@ -1,0 +1,66 @@
+{
+  "schema": "stage45_pending_contrast_round46_v1",
+  "registered_UTC": "2026-09-26T18:55:03.212594+00:00",
+  "registered_before_new_neural_steps": true,
+  "objective": "Complete the two unexecuted common/virtual120ms branches of44 with unchanged original engine, inputs, thresholds and body tapes; no stage admission.",
+  "source_scientific_contract": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/PLAN.json",
+  "historical_stop44_preserved": true,
+  "fixed_inputs": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_contraste_pendiente_20260926_46/launch.py": "86f762367d80117b752e202c3234cdaf606731301d40a8015a0284b94c8dc194",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/PLAN.json": "edf1d5d3cad7509cb17f3c19480eea14c83ff8f2fd79b72f665774a3277eba54",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/SOURCE_LOCK.json": "5217a970bbd96aa5c3df03bee6be2b0834ee3a7731571f7c55bd499241236d1f",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/run_branch.py": "ebaac7267a42575993aecd30608b0f0501884b6ebb0700becff63d62f6fcda75",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/interventions.py": "e01cff1cb66c14e8dfc7e161750edcf4aa20b4b14248d02df1d80f1e4d355d93",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/verify_pair.py": "a6d82ef938f000f6d655f7a69dddc1916f07774a1f0c30361805d6f44867fefe",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/verify_sham.py": "481b6c7f6c227cddb31e43ce3e67f3eec5af73a508c89468ec03c534bcd69a63",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/sham_01/VERIFIED.json": "d0f4d11d9628b18bcbe50ac9b582ea3d950e55d95e9809dc65981c12b4b31094",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/sham_01/traces.npz": "797c56fe16c285c30ac4118ceba4db48fc3cd004b6f6509515f7924af7f03edb",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_neural_contrast_20260925_44/STOP.json": "44bc0b609ced01ca155a0f3f0e6c06b7b041769484cc32d864b40bcfc8f84eed",
+    "/home/daroch/AXIOMA_ASTRA/investigacion/avance_etapas45_20260926_02/PREPARED_DN.json": "b8a816c20664db53eb9d8b02641c150d6d3cc7c6b5e8b408c7e63dae97fdd3b0"
+  },
+  "alternatives": {
+    "A": "Complete100ms lateral contrast already isolated in43, selected because it resolves directional sensitivity without a long life.",
+    "B": "Repeat uniform odor initiation; rejected for this round because45 provides no propulsive modulation and incoming stimulus-period currents were not saved.",
+    "C": "Direct motor pulse/mechanical calibration; reserve, separates actuator authority but cannot establish olfactory recruitment."
+  },
+  "budget": {
+    "neural_processes_max": 2,
+    "neural_ms_max": 240,
+    "neural_ms_each": 120,
+    "wall_s_each_max": 900,
+    "wall_s_aggregate_max": 1800,
+    "cpu_s_aggregate_max": 8000,
+    "RAM_GiB_max": 18,
+    "outputs_GiB_max": 8,
+    "model_prototypes": 0,
+    "automatic_retries": 0
+  },
+  "budget_basis": "Historical sham120ms=466.96wall/3169.30CPU; two copies predict~6339CPU.8000CPU fixed prospectively, including guard/cleanup margin; not a retroactive change to44.",
+  "reuse_sham": "Recompute sham44 verification before launch; require original source locks and exact common prefixes, full matched body/substep forces/retinal/proprioceptive/RNG/input checks in original verify_pair.",
+  "effects": {
+    "units": "Mismo organismo/estado1000ms; intervención de entrada sobre100ms, no navegación online.",
+    "windows_steps": [
+      [
+        1021,
+        1070
+      ],
+      [
+        1071,
+        1120
+      ],
+      [
+        1021,
+        1120
+      ]
+    ],
+    "layer_numeric_floor": 1e-12,
+    "sham_and_prefix_exact": true,
+    "common_match_max_abs": 1e-15,
+    "material_raw_abs_integral_deg_min": 0.001,
+    "material_raw_mean_last50_deg_s_min": 0.02,
+    "materiality_rule": "Reportar ambas condiciones; efecto material si cualquiera se cumple. Detectabilidad exige max_abs >1e-12 por eslabón y controles íntegros. No definir un signo obligatorio."
+  },
+  "stop": "Stop after either branch failure, resource limit, initial/prefix mismatch; no retries/amplitude/threshold/window tuning. A valid negative ends this discrimination.",
+  "interpretation": "Body motion is imposed from donor tape and computed neural commands are not delivered. This is not autonomous initiation, navigation or wind recovery.",
+  "advisers": "ChatGPT reviewed public protocol45/43/44 and supplied an execution suggestion; Jev selected effective-input audit as first priority. Prepared-only audit completed with zero steps before this registration."
+}
