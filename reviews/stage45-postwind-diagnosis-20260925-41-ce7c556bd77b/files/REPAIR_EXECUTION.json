@@ -1,0 +1,20 @@
+{
+  "schema": "replay_cold_boundary_repair_v1",
+  "cause": "Identity exact through1000ms; original cold restoration at1000 resets MuJoCo derived data. First pure wind torque maps to zero in cold data, nonzero with mj_fwdPosition on scratch. Continuous replay omitted this actual intervention boundary.",
+  "repair": "At1000ms load original physical/controller checkpoint into new MjData exactly as the historical continuation. Preserve zero first wind force rather than silently correct historical physics.",
+  "criteria_unchanged": true,
+  "executed_arms": [
+    "identity",
+    "zero_yaw_after_wind",
+    "zero_forward_after_wind"
+  ],
+  "not_run": [
+    "no_wind"
+  ],
+  "reason_not_run": "First failed identity consumed one of four registered replay executions. Three remaining full2s arms preserve4 executions and8000ms total; no budget increase.",
+  "previous_wall_s": 27.8316103190009,
+  "previous_ms": 2000,
+  "previous_attempts": 1,
+  "minimal_probe": "Zero physical/neural steps; force evaluation on cold and scratch consistent geometry.",
+  "classification_limit": "Mechanical yaw/forward effects only; matched no-wind effect remains unmeasured."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "physical_capsule_clean_extraction_v1",
+  "zip_sha256": "a35526f137351818fe2fea90d98695bd4ff20bd3982d07b7c13021a55ce20031",
+  "all_three_saved_metrics_recomputed": true,
+  "normal_and_O_byte_identical": true,
+  "corruptions_rejected": [
+    "context",
+    "flag",
+    "criterion"
+  ],
+  "identity2s_reran_from_extracted_files": true,
+  "identity_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "yaw_deg": 0.0
+  },
+  "clean_identity_wall_s": 27.49912665100419,
+  "clean_identity_limit_s": 150,
+  "counterfactuals_reran_in_extraction": false,
+  "historical_sources_imported": false,
+  "CNS_reran": false,
+  "model_MJB_version": "3.2.7",
+  "clean_trace_sha256": "f1a07b69c6f4b59b072667eb51d21e8e079ce25a0a79a03c50019f0f707966e3",
+  "scientific_claim": "Complete2s physical identity and all offline metrics; not full neural organism or allcounterfactual reexecution."
+}

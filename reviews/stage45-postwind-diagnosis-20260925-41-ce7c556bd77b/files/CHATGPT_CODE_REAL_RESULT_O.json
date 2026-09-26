@@ -1,0 +1,49 @@
+{
+  "ventanas": [
+    {
+      "inicio_s": 44.486000000000004,
+      "fin_s": 45.486000000000004,
+      "geometria_deg": -3.4114261695588755,
+      "giro_deg": 1.0994209630946237,
+      "delta_error_deg": -2.3120052064642516,
+      "bordes_interpolados": false
+    },
+    {
+      "inicio_s": 45.486000000000004,
+      "fin_s": 45.506,
+      "geometria_deg": 0.3969952119772026,
+      "giro_deg": 0.8776943566231382,
+      "delta_error_deg": 1.274689568600341,
+      "bordes_interpolados": false
+    },
+    {
+      "inicio_s": 45.506,
+      "fin_s": 46.486000000000004,
+      "geometria_deg": -5.905063679173353,
+      "giro_deg": -2.2390068687084446,
+      "delta_error_deg": -8.144070547881798,
+      "bordes_interpolados": false
+    }
+  ],
+  "discrepancia_error_deg": null,
+  "alcance": "Cinem\u00e1tica; no identifica feedback neural",
+  "clock_audit": {
+    "escala_neural_fisica": 1.0,
+    "offset_s": 0.0,
+    "residuo_max_s": 7.105427357601002e-15,
+    "deriva_s": 0.0,
+    "dt_mj_min_max_s": [
+      0.0009999999999976694,
+      0.0010000000000047748
+    ]
+  },
+  "applied_postwind_integral_deg": 2.189999999999978,
+  "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+  "external_code_sha256": "7d9b949fda04fbfd582844e9604d348c16d75d7a451ac8ae4efeb9a6e6ec3e6d",
+  "agreement_abs_deg": {
+    "delta_bearing_deg": 7.993605777301127e-15,
+    "delta_signed_error_deg": 1.7763568394002505e-15,
+    "delta_yaw_deg": 2.6645352591003757e-15
+  },
+  "executed_by": "Codex locally, real recorded trace; ChatGPT executed only synthetic examples"
+}

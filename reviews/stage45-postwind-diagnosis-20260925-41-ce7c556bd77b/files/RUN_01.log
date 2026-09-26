@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/run_replay.py", line 149, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/run_replay.py", line 140, in main
+    result={name:run_arm(name,a.out/name,plan,Controller,donor,started,cpu_start) for name in names}
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/run_replay.py", line 140, in <dictcomp>
+    result={name:run_arm(name,a.out/name,plan,Controller,donor,started,cpu_start) for name in names}
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/run_replay.py", line 122, in run_arm
+    need(errors[key]<=plan['criteria']['identity_'+key+'_sup_max'],'Identity failed: '+key)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/run_replay.py", line 21, in need
+    raise ValueError(why)
+ValueError: Identity failed: qpos

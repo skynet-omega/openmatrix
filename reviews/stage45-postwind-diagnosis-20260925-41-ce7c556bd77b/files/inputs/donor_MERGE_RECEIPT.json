@@ -1,0 +1,17 @@
+{
+  "schema": "stage45_exact_cold_merged_trace_v1",
+  "prefix_result_sha256": "898f422e35834fa11971715cb43d4289268236a3441072d8f323c6f75bccae7c",
+  "prefix_trace_sha256": "d45939b72bd20ef46793664ada893796253573c225cd18515a9c9ffe2bc1b250",
+  "prefix_final_snapshot_manifest_sha256": "851d0ffa165404bc930383900e0955ce57ffa51ace0455c3b3ef7f1298c91c37",
+  "finish_result_sha256": "70d2c84f0d2f27b0fa6914e843c3a81beb384d14055158ad35005af793e3e830",
+  "finish_trace_sha256": "c555951cc907f1c1ca1ab79a8a508f7d7735bb2ef607abc9e5e4225fa4c54c1c",
+  "finish_restoration_sha256": "a91111ea3c54979c6d98b6a22f9d0a2078deea5d061c54db8ead857798ec1419",
+  "exact_restored_initial_state": true,
+  "filter_restored_exactly": true,
+  "phase_rows": {
+    "preparation": 40,
+    "trial": 2000
+  },
+  "joined_trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+  "scope": "The prefix failed only at an unregistered snapshot after 1000 accepted ms. The cold restored continuation completed the next 1000 ms. No biological step was skipped or repeated."
+}

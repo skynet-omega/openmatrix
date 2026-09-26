@@ -1,0 +1,87 @@
+{
+  "schema": "postwind_mechanical_diagnosis_v1",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "scope": "Mechanical replay of one exposed command train, not neural feedback or navigation",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "organism_runs": 0,
+  "identity_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "yaw_deg": 0.0
+  },
+  "arms": {
+    "identity": {
+      "final_abs_error_deg": 27.558233459045343,
+      "postwind_start_abs_error_deg": 19.414162911163547,
+      "postwind_abs_error_change_deg": 8.144070547881796,
+      "final_distance_mm": 0.7667912679277835,
+      "delta_bearing_deg": -5.905063679173345,
+      "delta_yaw_deg": 2.2390068687084472,
+      "delta_signed_error_deg": -8.144070547881796,
+      "postwind_yaw_command_integral_deg": 2.19,
+      "minimum_contacts": 4,
+      "minimum_upright": 0.9774556446072724,
+      "support_domain": true
+    },
+    "zero_yaw_after_wind": {
+      "final_abs_error_deg": 24.24871155075954,
+      "postwind_start_abs_error_deg": 19.414162911163547,
+      "postwind_abs_error_change_deg": 4.834548639595994,
+      "final_distance_mm": 0.7584465527833268,
+      "delta_bearing_deg": -4.780134516733931,
+      "delta_yaw_deg": 0.0544141228620596,
+      "delta_signed_error_deg": -4.834548639595994,
+      "postwind_yaw_command_integral_deg": 0.0,
+      "minimum_contacts": 4,
+      "minimum_upright": 0.9774556446072724,
+      "support_domain": true
+    },
+    "zero_forward_after_wind": {
+      "final_abs_error_deg": 22.314832677718442,
+      "postwind_start_abs_error_deg": 19.414162911163547,
+      "postwind_abs_error_change_deg": 2.900669766554895,
+      "final_distance_mm": 0.9427169227254939,
+      "delta_bearing_deg": -0.6504380678799535,
+      "delta_yaw_deg": 2.250231698674934,
+      "delta_signed_error_deg": -2.900669766554895,
+      "postwind_yaw_command_integral_deg": 2.19,
+      "minimum_contacts": 4,
+      "minimum_upright": 0.9774556446072724,
+      "support_domain": true
+    }
+  },
+  "improvement_vs_identity_deg": {
+    "zero_yaw_after_wind": 3.3095219082858023,
+    "zero_forward_after_wind": 5.243400781326901
+  },
+  "all_registered_conditions_complete": false,
+  "not_run": [
+    "no_wind"
+  ],
+  "material_improvement": {
+    "zero_yaw_after_wind": true,
+    "zero_forward_after_wind": true
+  },
+  "all_arms_in_support_domain": true,
+  "inference_limit": "Ablations need not add linearly. Freezing commands blocks altered sensory-neural feedback. Stopping forward motion is diagnostic, not a navigation policy.",
+  "source_lock_sha256": "f67050b5daaf969be0cd04a44e343051dbbd69c8389788d3d5412fc2ba404122",
+  "trace_sha256": {
+    "identity": "f1a07b69c6f4b59b072667eb51d21e8e079ce25a0a79a03c50019f0f707966e3",
+    "zero_yaw_after_wind": "3f240a60c36de711124f66caaba758063d00e4e0975abe1cc97e937e357c8a14",
+    "zero_forward_after_wind": "cca65cf85319a7f8de86318dfffab24fe78042d3e916a19adc578576f9d96aab"
+  },
+  "budget_consumed": {
+    "wall_s": 83.12578320599278,
+    "CPU_s": 91.1485371,
+    "peak_RSS_bytes": 218329088,
+    "wall_with_failed_identity_s": 110.95739352499368
+  },
+  "simulated_body_ms": 8000,
+  "verifier_source_sha256": "0e744348f39270726e7709732f723fbc498889f1ff53ca4c47a05dd793664d4d",
+  "corruptions_rejected": [
+    "context",
+    "flag",
+    "criterion"
+  ]
+}

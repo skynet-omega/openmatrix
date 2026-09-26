@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_contact_prosthesis_20260915/controller.py": "040f182a941ffcb9c943b251dd6fd31c9b070da846ad24f968465ed4b34422c7",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_synthetic_prosthesis_20260915/controller.py": "a8e2045bd2bb668da419687bec9643cc4b29d52fdba75c3726dbc3cbae2f2eea",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage2_synthetic_prosthesis_20260915/prototype.py": "4747dc5a9b17da8989ccbd62e695df9492eba57013aa67972b965baf0345203e",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/MANIFEST.json": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/session.json": "266d39a5177d4ea0caed0a6bc745c53d13418ba044763b01b12f61cffad575d6",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/session.npz": "49e53e0cf13c0432ef83da40410d7cb453dc87ecb1f7d4482f5091ce3740ee97",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/prosthesis.json": "d686664188ada9dd9e626ff37fbd7d0598e7205f8dd164ddade9dda6ee9c0326",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/prosthesis.npz": "c59f948d7da0fdd39527c4e4df9bd04e308c6f2092e9ddf559c1cd3d8cc6875b",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/motor_wind.py": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/run_navigation.py": "1d82b4d503acbe99a9c8bfb70d0ff95a7983b5326500fab57b7ccaa92fe7c782",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/prepare_inputs.py": "3a20c05dea75f9d25a897fdce81d9e61b2ff3fc7fd15bd8401dbd8fb515db5d1"
+  },
+  "exported": {
+    "inputs/physical.json": "cdd0333a8aedd95280a4175ccf8bf3245f786248b909ccfbf01d2188b5cc5821",
+    "inputs/physical.npz": "13702fbe05dbd2ed336dfcb17cb8e8d553151a7938e732398ef50e60f50027a2",
+    "inputs/donor_traces.npz": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "inputs/donor_MERGE_RECEIPT.json": "940e75e30b0811ab37c10775b8f0f2e98530a5dd3eeaf34e721bf2418f174ab4",
+    "inputs/body.mjb": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539",
+    "inputs/donor_GAUSSIAN_SPEC.json": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "inputs/reference.npz": "368a67e913eef59946e88420c445b765c461d65fc7de826da5e56e06c1009591",
+    "inputs/donor_MOTOR_WIND_AUDIT.json": "612e1cc301e04263dd47795dd9fd8c2e70ae879c7a59cc6bb91c8eee3074d460",
+    "inputs/donor_RESULT.json": "c5daa324f31283e72d437fd59fd41fd324b0a0f774f9abb85ae21b5edde53d83"
+  },
+  "scope": "Complete executable physical replay capsule, not CNS continuation"
+}

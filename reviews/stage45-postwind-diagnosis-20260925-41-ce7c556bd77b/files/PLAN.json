@@ -1,0 +1,57 @@
+{
+  "schema": "stage45_postwind_diagnosis_v1",
+  "date": "2026-09-25",
+  "prior_exposure": "Codex read campaigns 35-40, motor equivalence 09, and user priorities before this plan. Historical campaign40 outcomes are exposed; counterfactual body outcomes are unseen. No blinded confirmation is claimed.",
+  "limitation": "Campaign40 bearing error increased after wind; a changing bearing during tonic advance and alternating neural commands prevent attributing the failure to CNS, effector or passive dynamics from one trajectory.",
+  "operation": "Restore identical prepared MuJoCo body and roller controller. Replay recorded forward/yaw commands and wind at 25us substeps, without loading CNS. Compare identity with three one-variable interventions. No new motor policy, neural weights or filter tuning.",
+  "legal_information": "Existing prepared physical state, recorded per-ms commands, wind timing and dose, fixed source only in evaluator. No source coordinates enter the controller. All external replay decisions belong to evaluator.",
+  "difference_and_prior_art": "Same physical replay method as campaigns11/32, now matched to the full 2s campaign40 and post-wind state. Engineering causal ablation, no claimed biological novelty. It extends saturated-command screening to the actual failed command sequence.",
+  "strategic_ABC": {
+    "A": "Priority: diagnose and obtain sustained orientation with current body.",
+    "B": "Bounded later: CNS-VNC-MN signal identification without whole gait integration.",
+    "C": "Later: combine muscles and six legs once orientation and gait work separately."
+  },
+  "rival_explanations_within_A": {
+    "A_neural_direction": {"prediction": "Frozen postwind yaw commands worsen source orientation relative to yaw held zero; removes a delivered command rather than changing capacity.", "falsifier": "Recorded yaw commands materially improve final bearing relative to zero-yaw control.", "information": "Recorded command only; source for scoring."},
+    "B_tonic_advance": {"prediction": "Removing tonic forward advance after wind materially reduces final bearing error because direction to the fixed source changes as the body translates.", "falsifier": "Zero-forward control provides less than frozen minimum improvement; cannot treat translation as sufficient cause.", "information": "Recorded yaw command, zero forward; source only for scoring."},
+    "C_passive_wind_body": {"prediction": "With identical recorded commands, removing wind materially reduces final error; the disturbance carries a mechanically persistent penalty.", "falsifier": "No-wind has equal or worse error; cannot blame the wind as the primary mechanical cause at this horizon.", "information": "Recorded commands with physical wind set zero."}
+  },
+  "arms": {
+    "identity": "Replay all 2000 original commands and wind.",
+    "no_wind": "Same commands throughout; wind zero.",
+    "zero_yaw_after_wind": "Identity through ms1020 inclusive; yaw command zero from ms1021.",
+    "zero_forward_after_wind": "Identity through ms1020 inclusive; forward command zero from ms1021."
+  },
+  "criteria": {
+    "duration_ms": 2000,
+    "dt_ns": 25000,
+    "wind_first_ms": 1001,
+    "wind_last_ms": 1020,
+    "postwind_first_ms": 1021,
+    "identity_qpos_sup_max": 1e-8,
+    "identity_qvel_sup_max": 1e-8,
+    "identity_yaw_deg_sup_max": 1e-6,
+    "effect_bearing_deg_min": 0.5,
+    "minimum_contacts": 4,
+    "minimum_upright": 0.95,
+    "numeric_report_tolerance": 1e-10
+  },
+  "budget": {
+    "body_replays_max": 4,
+    "simulated_body_ms_total_max": 8000,
+    "wall_s_max": 600,
+    "CPU_s_max": 600,
+    "RAM_GiB_max": 8,
+    "GPU_runs": 0,
+    "organism_runs": 0,
+    "training_interactions": 0,
+    "new_prototypes": 0,
+    "output_MiB_max": 256,
+    "chatgpt_requests_max": 2,
+    "jev_requests_max": 1,
+    "external_wait_wall_s_max": 1800,
+    "basis": "Campaign32 measured ~10.5s per400ms physical replay; four 2s replays project210s. 600s reserves loading and checks, not tuning. No comparator training. Packaging includes a separate single clean identity replay bounded150s."
+  },
+  "stop": "Stop counterfactuals if identity fails; preserve failure and diagnose minimum implementation bug before affected arms only. Do not alter algorithm, criteria, gain or source from outcomes. Close once discriminator complete. No Stage4/5 admission or neural counterfactual from replay; neural feedback remains untested.",
+  "classification_scope": "Causal mechanical diagnostic on one exposed life, not navigation, learning, natural gait or biological equivalence."
+}

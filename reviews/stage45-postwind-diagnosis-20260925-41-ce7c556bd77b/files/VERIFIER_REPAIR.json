@@ -1,0 +1,9 @@
+{
+  "type": "implementation_bug",
+  "fault": "Verifier assumed physical/neural origin40ms. Checkpoint starts44.486s after inherited history; stored clocks are monotonic identical in all domains.",
+  "fix": "Compute exact integer origin from frozen physical.steps times25000ns, never estimate from outcomes. Original verify.py and SOURCE_LOCK remain intact.",
+  "criteria_or_tolerances_changed": false,
+  "old_sha256": "b19cb94e7fef1d1202160aa45b7e1551ccaefb95048a33abc3a1c2acee93030f",
+  "new_sha256": "0e744348f39270726e7709732f723fbc498889f1ff53ca4c47a05dd793664d4d",
+  "full_replay_repeated": false
+}

@@ -1,0 +1,17 @@
+{
+  "arm": "zero_yaw_after_wind",
+  "status": "COMPLETE",
+  "wall_s": 27.6629011319892,
+  "wind_substeps": 800,
+  "source_lock_sha256": "f67050b5daaf969be0cd04a44e343051dbbd69c8389788d3d5412fc2ba404122",
+  "input_sha256": "13702fbe05dbd2ed336dfcb17cb8e8d553151a7938e732398ef50e60f50027a2",
+  "trace_sha256": "3f240a60c36de711124f66caaba758063d00e4e0975abe1cc97e937e357c8a14",
+  "identity_errors": {
+    "qpos": 0.02051608539294128,
+    "qvel": 0.08533469651303957,
+    "yaw_deg": 2.4100401476407853
+  },
+  "body_only": true,
+  "stage4_admission": false,
+  "stage5_admission": false
+}
