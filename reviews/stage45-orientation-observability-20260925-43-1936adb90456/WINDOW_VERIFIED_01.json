@@ -1,0 +1,20 @@
+{
+  "schema": "stage45_window_tapes_verified_v1",
+  "window_plan_sha256": "9577eff351b41160b7977239c5fac25e7da88dc3df48c73edd9989c6ccd5f696",
+  "window_result_sha256": "52a2822080a2c6efb181054736ba288915bd6fdcd3dd4a0279d8cca446ce59a8",
+  "matched_plan_sha256": "7f27a34c3eb119afd350b1c7e2635d310f0ae12164859fecb70ee0fbdc675b84",
+  "tape_sha256": "f324890894d3fc424e320e4cd2e31cada7f6fc4a1164e4df3b2bfe27999a2303",
+  "raw_window_recomputed_exact": true,
+  "tape_arrays_recomputed_exact": true,
+  "contrast_sign_match_ms": 100,
+  "tape_min_abs_contrast_delta": 0.0006585706993996743,
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "corruption_tests_rejected": [
+    "input_hash",
+    "context",
+    "criterion",
+    "flag"
+  ]
+}

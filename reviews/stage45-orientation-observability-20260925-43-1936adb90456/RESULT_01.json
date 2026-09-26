@@ -1,0 +1,114 @@
+{
+  "schema": "stage45_virtual_orientation_sensor_preflight_result_v1",
+  "plan_sha256": "125881f61f7899846031158e8dab72a9bf285f59fc2f896d3d52cf4f1e7fc6f8",
+  "source_sha256": "0b2947f66e128b78df618e5496bbf9d10f6eac8a1616397b318792ee82eea7a7",
+  "input_sha256": {
+    "trace": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "body_mjb": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539",
+    "gaussian_spec": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+  },
+  "poses": [
+    {
+      "trial_ms": 1000,
+      "signed_error_base_deg": -20.68885247976388,
+      "signed_error_virtual_deg": -22.68885247976388,
+      "absolute_error_increase_deg": 2.0,
+      "virtual_yaw_delta_deg": 2.0,
+      "antennae_base_mm": [
+        [
+          0.858394901343829,
+          -0.472771980138172,
+          -0.03449318915621491
+        ],
+        [
+          0.771913408771921,
+          -0.6801927971277173,
+          -0.017804579649625153
+        ]
+      ],
+      "antennae_virtual_mm": [
+        [
+          0.8675397382776893,
+          -0.43926037588955613,
+          -0.034493189156214854
+        ],
+        [
+          0.7883498100129611,
+          -0.649572998286555,
+          -0.01780457964962512
+        ]
+      ],
+      "consumed_base_LR": [
+        0.43154176307443287,
+        0.7919831549028754
+      ],
+      "consumed_virtual_LR": [
+        0.3802966811787754,
+        0.739108271103266
+      ],
+      "channel_change_LR": [
+        -0.05124508189565746,
+        -0.05287488379960936
+      ],
+      "max_abs_channel_change": 0.05287488379960936,
+      "signed_LR_contrast_change": 0.0016298019039518996,
+      "observability_floor_pass": true,
+      "baseline_geometry_max_abs_mm": 0.0,
+      "baseline_sample_max_abs": 0.0
+    },
+    {
+      "trial_ms": 1020,
+      "signed_error_base_deg": -19.414162911163544,
+      "signed_error_virtual_deg": -21.414162911163544,
+      "absolute_error_increase_deg": 2.0,
+      "virtual_yaw_delta_deg": 2.0,
+      "antennae_base_mm": [
+        [
+          0.8535891378861185,
+          -0.49582807049891997,
+          -0.03411887490474173
+        ],
+        [
+          0.7640298881354965,
+          -0.7018031452345913,
+          -0.017474002998819002
+        ]
+      ],
+      "antennae_virtual_mm": [
+        [
+          0.8632447273402832,
+          -0.4624613454899468,
+          -0.034118874904741664
+        ],
+        [
+          0.7809284611063344,
+          -0.6714365185166998,
+          -0.017474002998818985
+        ]
+      ],
+      "consumed_base_LR": [
+        0.4665234867114007,
+        0.8222576985425879
+      ],
+      "consumed_virtual_LR": [
+        0.4136385759873262,
+        0.7721403244979562
+      ],
+      "channel_change_LR": [
+        -0.05288491072407453,
+        -0.05011737404463168
+      ],
+      "max_abs_channel_change": 0.05288491072407453,
+      "signed_LR_contrast_change": -0.00276753667944285,
+      "observability_floor_pass": true,
+      "baseline_geometry_max_abs_mm": 0.0,
+      "baseline_sample_max_abs": 0.0
+    }
+  ],
+  "all_observable": true,
+  "classification": "CPU_SENSOR_PREFLIGHT_ONLY",
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "hash_corruption_rejected": true
+}

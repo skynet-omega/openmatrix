@@ -1,0 +1,42 @@
+{
+  "schema": "stage45_virtual_orientation_sensor_preflight_v1",
+  "registered_before_calculation": true,
+  "prior_exposure": "Campaigns 40-42 and two ChatGPT reviews are exposed. Jev ranked a short bilateral sensory tape perturbation; ChatGPT proposed a distinct virtual yaw perturbation of 2 degrees. This is a CPU codifier preflight only, not a blinded neural test.",
+  "limitation_observed": "The mirrored source contrast reaches DNb05 but produces only 0.057746766 degrees paired command difference in 400 ms; the 2-s trajectory worsens after wind even if recorded raw command replaces relay output. Whether the sensor is locally informative about an incremental orientation error at the postwind state is unknown.",
+  "alternatives": {
+    "A_virtual_orientation": {
+      "operation": "Hold full body pose except rotate the free-root yaw by 2 degrees away from the fixed right source only for CPU olfactory sampling, then restore. Compare actual antenna geometry and effective L/R concentration at trial ms1000 and1020.",
+      "information": "Saved qpos, frozen model and source/sigma; source is evaluator information, never a CNS input.",
+      "falsifier": "The rotation fails to increase signed bearing error, or changes neither consumed L/R channel nor contrast above the predeclared numerical floor at both poses."
+    },
+    "B_mirrored_sensory_tape": {
+      "operation": "At a shared checkpoint, swap left/right olfactory samples for a short neural continuation with body/proprioceptive tape fixed.",
+      "information": "Recorded bilateral samples and shared checkpoint only; no source bearing injected into CNS.",
+      "falsifier": "The valid intervention is consumed but does not change the downstream raw-command contrast in the fixed horizon."
+    },
+    "C_online_body_yaw": {
+      "operation": "Perturb the physical yaw and let actual sensors/body/CNS close the loop in a short continuation after an exact same-start control.",
+      "information": "Own physical state and sensors only; evaluator computes error.",
+      "falsifier": "No corrective behavioral/neural difference beyond matched physical passive effects; costly and confounded by proprioception/contact changes."
+    }
+  },
+  "preflight_choice": "A is screened before constructing a neural runner. B and C remain distinct alternatives; the preflight does not promote A or forbid B/C.",
+  "fixed_inputs": {
+    "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "body_mjb_sha256": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539",
+    "gaussian_spec_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133",
+    "trial_steps": [1000, 1020],
+    "virtual_yaw_degrees": 2.0,
+    "expected_source_arm": "minus_right"
+  },
+  "checks": {
+    "antenna_pose_max_abs_mm": 1e-9,
+    "gaussian_sample_max_abs": 1e-10,
+    "virtual_error_increase_min_deg": 1.999999,
+    "sensor_channel_change_min_exclusive": 0.0001,
+    "signed_LR_change_min_exclusive": 0.0001,
+    "criterion_scope": "The concentration floors are only a codifier observability screen; they do not predict DN or navigation effect. No threshold is retuned after output."
+  },
+  "budget": {"CPU_s_max": 60,"wall_s_max": 60,"RAM_GiB_max": 2,"GPU_GiB_max": 0,"organism_runs_max": 0,"network_bytes_max": 0,"output_MiB_max": 2},
+  "stop": "After two frozen poses. If geometry identity or numerical checks fail, mark uninterpretable; if sensor change fails the floor, do not launch the 2-degree neural continuation. A separate prospective contract is required for any neural run."
+}

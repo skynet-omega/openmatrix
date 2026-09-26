@@ -1,0 +1,24 @@
+{
+  "schema": "stage45_virtual_yaw_fixed_window_encoder_map_v1",
+  "registered_before_calculation": true,
+  "exposure": "The two-pose CPU preflight43 is exposed: a 2-degree error increase changes mean concentration by about -0.052 per channel, while L-R changes +0.001630 at ms1000 and -0.002768 at ms1020. This follow-up does not alter or reclassify that preflight.",
+  "question": "Over the preselected 100 postwind milliseconds 1021..1120, does the same virtual 2-degree yaw perturbation produce a sign-stable lateral contrast after exact common-mode matching? This is a sensor-input design question, not CNS feedback.",
+  "alternatives": {
+    "A_stable_lateral": "At least 90 of 100 virtual-minus-baseline L-R differences share the initial nonzero sign and at least 80 exceed absolute 0.0001. A common-matched neural contrast challenge is technically interpretable for this window, though not yet validated as a natural error code.",
+    "B_variable_lateral": "The fixed perturbation changes L-R sign frequently or remains small; a fixed-signed neural response criterion would conflate input geometry and CNS response.",
+    "C_integrity_failure": "Saved geometry/field or synthetic common matching is invalid; no inference about neural sensitivity."
+  },
+  "method": "For each saved body pose after trial ms1020..1119, rotate only the CPU sensor pose by the same +2-degree yaw away from the right source, sample the frozen Gaussian, then replace virtual bilateral mean by the original bilateral mean: c_control=c_base; c_selective=c_virtual-mean(c_virtual)+mean(c_base). Thus common concentration is exactly matched and only the lateral contrast differs. No input is sent to CNS.",
+  "fixed": {
+    "source_plan_sha256": "125881f61f7899846031158e8dab72a9bf285f59fc2f896d3d52cf4f1e7fc6f8",
+    "trial_pose_steps": [1020,1119],
+    "future_input_steps": [1021,1120],
+    "virtual_yaw_deg": 2.0,
+    "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "mjb_sha256": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539",
+    "source_sha256": "fcf9f2879d703cc03e3b8dca3908701279f12ce113188ce1eaf8c65484401133"
+  },
+  "checks": {"antenna_mm_max_abs": 1e-9,"field_max_abs": 1e-10,"absolute_contrast_floor": 0.0001,"large_contrast_ms_min": 80,"initial_sign_match_ms_min": 90,"synthetic_domain_min": 0.0,"synthetic_domain_max": 1.0},
+  "budget": {"CPU_s_max": 30,"wall_s_max": 30,"RAM_GiB_max": 2,"GPU_GiB_max": 0,"organism_runs_max": 0,"output_MiB_max": 2},
+  "stop": "Run exactly 100 fixed poses once. No search over yaw magnitude, start time, window length or matched transform. This preflight alone cannot admit Stage4/5."
+}

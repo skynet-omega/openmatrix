@@ -1,0 +1,26 @@
+{
+  "schema": "stage45_common_matched_tapes_receipt_v1",
+  "input_steps": [
+    1021,
+    1120
+  ],
+  "all_100_rows_valid": true,
+  "max_abs_common_mismatch": 1.1102230246251565e-16,
+  "max_abs_antisymmetric_residual": 2.220446049250313e-16,
+  "contrast_delta_minmax": [
+    -0.003046411755491918,
+    -0.0006585706993996743
+  ],
+  "min_abs_contrast_delta": 0.0006585706993996743,
+  "unmatched_common_shift_minmax": [
+    -0.051501142384353105,
+    -0.05085314828074561
+  ],
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "scope": "Evaluator-generated sensor tapes for a prospective neural contrast; no CNS response is measured.",
+  "plan_sha256": "7f27a34c3eb119afd350b1c7e2635d310f0ae12164859fecb70ee0fbdc675b84",
+  "source_sha256": "5b03f95800b0cef1bac2391e4faace219a50f75ca7b6b89b3efedfb9fb951135",
+  "tape_sha256": "f324890894d3fc424e320e4cd2e31cada7f6fc4a1164e4df3b2bfe27999a2303"
+}

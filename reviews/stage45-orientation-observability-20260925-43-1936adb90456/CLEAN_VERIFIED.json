@@ -1,0 +1,16 @@
+{
+  "schema": "stage45_orientation_cpu_capsule_verified_v1",
+  "manifest_sha256": "ec22a07734f3780663aa6ed74b876e4177c4cf0054a312278e97c5193302c095",
+  "file_count": 28,
+  "rebuilt_receipts_sha256": {
+    "RESULT_01.json": "d480e6ddf33a4acff23b95a43a0c1e73159a5b8d00e830d54d1b1e5191e1fb62",
+    "VERIFIED_01.json": "efc8f1a5e1bc6ddd9235fa4dee5dfc32e19a00e597f0ea59540ad035976bfc89",
+    "WINDOW_RESULT_01.json": "52a2822080a2c6efb181054736ba288915bd6fdcd3dd4a0279d8cca446ce59a8",
+    "WINDOW_VERIFIED_01.json": "16d7400d1354e696f50e624eb2046a7cff47b4cebcc2aaf4c8ae9ce21bb3d9e0"
+  },
+  "normal_optimized_exact": true,
+  "all_tape_arrays_exact": true,
+  "organism_runs": 0,
+  "stage4_admission": false,
+  "stage5_admission": false
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "stage45_common_matched_virtual_yaw_tapes_v1",
+  "registered_before_tape_generation": true,
+  "exposure": "The two-pose and fixed100ms sensor maps are exposed; ChatGPT subsequently proposed virtual concentration versus a common-intensity-matched control. Its response was based only on a textual summary, not raw data.",
+  "question": "Can two exact, finite, in-domain olfactory tapes isolate the lateral component of the 2-degree virtual-yaw stimulus over the fixed postwind100ms, while retaining the virtual branch itself? No CNS is run here.",
+  "operation": "For every input step1021..1120, intervention=(L_Y,R_Y), control=(L_0+delta_m,R_0+delta_m), delta_m=mean(virtual)-mean(baseline). Thus both means equal virtual mean and the difference is exactly antisymmetric; use the original body forward/yaw/wind command tape in both prospective arms.",
+  "information": "Frozen Stage40 sensor/body trace and prospective CPU virtual-yaw map only. This synthetic evaluator intervention does not pass source coordinates, bearing or targets to the organism.",
+  "alternatives": {
+    "A_valid_pair": "All100 rows are in [0,1], means match within1e-15, branch difference sums to zero within1e-15, and absolute L-R difference exceeds0.0001 in every row; the input contrast is well defined, not yet a neural result.",
+    "B_unobservable_or_invalid": "Any row violates domain/common matching/clock or the contrast floor; do not run a neural branch on this tape.",
+    "C_original_context_drift": "Baseline tape no longer matches the actual donor pending/consumed samples; stop before interpreting branch differences."
+  },
+  "fixed": {
+    "window_plan_sha256": "9577eff351b41160b7977239c5fac25e7da88dc3df48c73edd9989c6ccd5f696",
+    "window_result_sha256": "52a2822080a2c6efb181054736ba288915bd6fdcd3dd4a0279d8cca446ce59a8",
+    "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "input_steps": [1021,1120],
+    "min_abs_contrast_change_exclusive": 0.0001,
+    "common_match_abs_max": 1e-15,
+    "domain": [0.0,1.0]
+  },
+  "budget": {"CPU_s_max": 10,"wall_s_max": 10,"RAM_GiB_max": 1,"GPU_GiB_max": 0,"organism_runs_max": 0,"output_MiB_max": 2},
+  "stop": "Generate once from fixed100ms rows; no tuning of magnitude, start, duration, mean or sign after seeing the tape. Neural use needs a separate budget and exact shared checkpoint/restoration/physical tape controls."
+}
