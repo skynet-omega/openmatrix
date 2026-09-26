@@ -1,0 +1,36 @@
+{
+  "schema": "stage45_signal_chain_archive_v1",
+  "registered_before_calculation": true,
+  "scope": "Diagnostico descriptivo sobre tres trazas ya expuestas; no modifica organismo ni umbrales de etapas 4/5.",
+  "limitation_observed": "La pareja espejo de 400 ms produjo una diferencia de mando de solo 0.057746766 grados; despues del viento el error angular crecio de 19.414163 a 27.558233 grados y los controles de ordenes congeladas no rescataron la orientacion.",
+  "rivals": {
+    "A": "El contraste lateral llega a sensores pero la diferencia DNb05 prelector deja de codificar una orden sostenida util. Falsador: diferencia pareada de DNb05 y mando crudo consistentemente dirigidos hacia cada fuente durante ventanas tardias.",
+    "B": "La diferencia neural prelector es util pero el filtro/relay temporal cambia el signo o amplifica los segmentos adversos. Falsador: ya hay segmentos adversos e integral desfavorable antes del filtro, o el aplicado conserva fielmente el signo util.",
+    "C": "El avance y la geometria temporal demandan mas giro del que suministra incluso una senal correctamente orientada. Falsador: una orden de giro suficiente en magnitud empeora tambien con avance controlado, o el giro adverso se observa sin ese acoplamiento."
+  },
+  "inputs": {
+    "stage27_plus_trace_sha256": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+    "stage27_minus_trace_sha256": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+    "stage40_full_trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e"
+  },
+  "analysis_frozen": {
+    "stage27_trial_windows_ms": [[1,100],[101,200],[201,300],[301,400]],
+    "stage40_postwind_windows_ms": [[1021,1300],[1301,1600],[1601,2000]],
+    "signals": "L-R sensores_usados, DNb05 qL-qR relative to frozen baseline, raw neural command, applied command and yaw. Stage27 uses unfiltered command; stage40 has raw and applied separately.",
+    "measures": "Per-window signed input and reader means, paired plus-minus reader and command integrals, fractions of nonzero samples whose command sign agrees with consumed L-R, raw/applied signed angular integrals and zero counts. Also reconstruct both reader equations from saved q and compare exact arrays.",
+    "controls": "Exact input hashes, fixed trial clocks/shapes, sham preparation, one-step DN lag, finite arrays, decoder reconstruction, pair alignment. No selection of cells, lag, thresholds or windows from output.",
+    "interpretation": "Agreement with L-R is a local sign proxy, not source bearing or navigational success; archive is exposed and carries no confirmation seed. A signal that changes at DN cannot be assigned to a specific synapse from these arrays. Replay with frozen commands cannot localize closed-loop effects."
+  },
+  "budget": {
+    "organism_runs_max": 0,
+    "full_prototypes_max": 0,
+    "CPU_s_max": 60,
+    "RAM_GiB_max": 2,
+    "GPU_GiB_max": 0,
+    "new_ChatGPT_messages_max": 2,
+    "new_Jev_requests_max": 1,
+    "new_output_MiB_max": 20,
+    "Codex_subagents": 0
+  },
+  "stop": "Detener este calculo tras los tres archivos fijados y las siete ventanas. Si no identifica causa, registrar una unica intervencion prospectiva con presupuesto propio antes de cualquier organismo; no declarar PASS de etapa 4/5."
+}

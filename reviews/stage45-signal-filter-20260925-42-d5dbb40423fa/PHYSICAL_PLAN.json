@@ -1,0 +1,40 @@
+{
+  "schema": "stage45_raw_command_physical_replay_v1",
+  "registered_before_run": true,
+  "exposure": "Campaigns 40/41 and archival signal analysis42 are fully exposed; this is a matched mechanical diagnostic, not a blinded confirmation.",
+  "operation": "Restore the exact Campaign40 physical state and historical cold restart at trial ms1001. Replay original forward command, recorded wind and original delivered yaw through ms1020. For ms1021-2000 replace only delivered yaw by the recorded pre-EMA neural_command_raw_rad_s. CNS and body feedback are frozen.",
+  "legal_information": "Recorded commands and states only. Source position enters scoring, never controller. No fit or gain selection.",
+  "parent_and_difference": "Campaign41 identity and zero-yaw/zero-forward physical controls. One new arm uses the existing neural command before the frozen EMA/relay; no new reader, circuit, body, or filter parameters.",
+  "predictions": {
+    "A_filter_adverse": "Raw-command replay improves final bearing error versus identity by at least 0.5 degree, with valid support; the EMA/relay caused a material adverse physical effect on this frozen command sequence.",
+    "B_filter_not_main_cause": "Raw replay changes final bearing by less than 0.5 degree; the filter is not a material cause under this replay.",
+    "C_filter_beneficial_or_inconclusive": "Raw replay worsens final bearing by at least 0.5 degree, or physical identity/support/input checks fail. A failure of integrity blocks causal inference."
+  },
+  "controls": "Campaign41 identity has exact qpos/qvel/yaw; recheck ms1-1020 prefix, wind clock/dose, source score and final support. Zero-yaw is an exposed stopping control, not navigation. Do not infer a new CNS feedback trajectory.",
+  "criteria": {
+    "postwind_first_ms": 1021,
+    "effect_bearing_deg_min": 0.5,
+    "prefix_qpos_sup_max": 1e-8,
+    "prefix_qvel_sup_max": 1e-8,
+    "minimum_contacts": 4,
+    "minimum_upright": 0.95
+  },
+  "input_sha256": {
+    "campaign41_runner": "c6931e30e3d4652441ae5fec7bf6c75e8f9ef9c3c25df977ec639f77998aeccc",
+    "donor_traces": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "physical_state": "13702fbe05dbd2ed336dfcb17cb8e8d553151a7938e732398ef50e60f50027a2",
+    "restart_state": "14d04cc1a01c58586cd6e05f195d64a177180ffa5ce254ae5ab03fa3e5409a82",
+    "body_mjb": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539"
+  },
+  "budget": {
+    "physical_replays_max": 1,
+    "simulated_ms_max": 2000,
+    "CPU_s_max": 150,
+    "wall_s_max": 150,
+    "RAM_GiB_max": 4,
+    "GPU_GiB_max": 0,
+    "organism_runs_max": 0,
+    "output_MiB_max": 128
+  },
+  "stop": "One arm only. No parameter adjustment or rerun on scientific failure. A reproducibility bug may be repaired with a minimal demonstrated test and affected-arm repeat, without changing the scientific rule."
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "stage45_raw_physical_replay_verified_v1",
+  "scope": "One exposed command train; body-only counterfactual, no neural feedback",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "verdict": "A_FILTER_ADVERSE_FROZEN_REPLAY",
+  "identity": {
+    "postwind_start_error_deg": 19.414162911163547,
+    "final_abs_error_deg": 27.558233459045343,
+    "postwind_error_change_deg": 8.144070547881796,
+    "final_distance_mm": 0.7667912679277835,
+    "delta_bearing_deg": -5.905063679173345,
+    "delta_yaw_deg": 2.2390068687084472,
+    "delta_signed_error_deg": -8.144070547881796,
+    "yaw_command_integral_postwind_deg": 2.19,
+    "minimum_contacts": 4,
+    "minimum_upright": 0.9774556446072724,
+    "support_domain": true
+  },
+  "raw_after_wind": {
+    "postwind_start_error_deg": 19.414162911163547,
+    "final_abs_error_deg": 24.275700973798095,
+    "postwind_error_change_deg": 4.861538062634548,
+    "final_distance_mm": 0.7585250182745445,
+    "delta_bearing_deg": -4.79212265142219,
+    "delta_yaw_deg": 0.06941541121235417,
+    "delta_signed_error_deg": -4.861538062634548,
+    "yaw_command_integral_postwind_deg": 0.014936809626003687,
+    "minimum_contacts": 4,
+    "minimum_upright": 0.9774556446072724,
+    "support_domain": true
+  },
+  "improvement_vs_identity_deg": 3.2825324852472484,
+  "input_hashes": {
+    "campaign41_runner": "c6931e30e3d4652441ae5fec7bf6c75e8f9ef9c3c25df977ec639f77998aeccc",
+    "donor_traces": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "physical_state": "13702fbe05dbd2ed336dfcb17cb8e8d553151a7938e732398ef50e60f50027a2",
+    "restart_state": "14d04cc1a01c58586cd6e05f195d64a177180ffa5ce254ae5ab03fa3e5409a82",
+    "body_mjb": "70853a9629bd4c7c20b949e857c2705df0eeeaa277c263efa4252a44c6e93539"
+  },
+  "physical_plan_sha256": "320b8ebd9286ca4f6d40138cf66be755ca2adc880501e9788b6751273aef67a2",
+  "replay_source_sha256": "868dacfabd0b1b9f097ddbdf6865fbe4aefd0d1c1419f8b197dca929dc05d98d",
+  "verifier_source_sha256": "28de5acc65a8a452a90a900d516bb33d045823828d075c6044b0e2e3d3808f9b",
+  "trace_sha256": "a0e70993f553c0cadc64de3cca98965abb977d0782019e7622ee2a4aeb13e61a",
+  "budget_consumed": {
+    "wall_s": 28.592598938004812,
+    "CPU_s": 31.2280499,
+    "peak_RSS_bytes": 200814592
+  },
+  "corruption_tests_rejected": [
+    "context",
+    "flag",
+    "criterion"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "stage4_mirror_layer_profile_exposed_v1",
+  "registered_before_calculation": true,
+  "provenance": "ChatGPT Matrix proposed a layer-wise contrast and absolute/net command difference after its first response. It declared no access to raw files. Codex froze this specific archival analysis after seeing the signed-window analysis42 and physical raw replay; no blind confirmation is claimed.",
+  "decision": "Distinguish absent effective sensory contrast, loss before the exact DNb05 reader, and temporal cancellation of source-dependent command. Does not assign a synapse or validate navigation.",
+  "rivals": {
+    "A": "Effective input contrast is absent after encoding; falsified by a pair difference above same-layer reference/native numerical discrepancy.",
+    "B": "Input differs but DNb05 reader does not; falsified by DNb05 pair difference above same-layer numerical discrepancy.",
+    "C": "Reader and instantaneous command differ but the 0.0577-degree net effect hides major sign cancellation; falsified by an absolute/net ratio close to one. No threshold is selected from this exposed trace."
+  },
+  "windows_trial_ms": [[1,10],[11,100],[101,400]],
+  "sham_window_prep_ms": [1,40],
+  "fields": ["sensores_usados_LR","ORN_q_L","ORN_q_R","ORN_filters","PN_general_transmission","PN_q_legacy","DN_q_usada","DN_reader_DNb05_LminusR","command_yaw_rate_rad_s"],
+  "metrics": "For each field/window: paired plus-minus RMS and max absolute difference, same-arm native-vs-reference maximum RMS and max absolute discrepancy. Do not compare RMS magnitudes across units. For command across all400ms: absolute integral of paired instantaneous difference, signed integral, net/absolute ratio, and positive/negative/zero sample counts.",
+  "controls": "Both strict-reference and native traces are already exposed. Check SHA256, phase, clock, shapes, finite values and baseline/decoder, but do not use 400 temporal samples as independent seeds. Prepared sham is a pair baseline, not a pure numerical-noise estimate.",
+  "sha256": {
+    "reference_plus": "cef5c9e407c89c3f85ed1453f11c01660d6e4392ad28ff7858d5fd7477be277b",
+    "reference_minus": "42ca5523710d5725707a59a771d04ab0d7ffc2888e82304d3c038884486956e7",
+    "native_plus": "6998e42c5f5ef0ddeeb89ee97f116eee384a6530a9ff1bf2704e622485c5eefe",
+    "native_minus": "519ae04417e9b3c77781ee0165a6caabb9d208b5c94c622a8d5855d51c0bf87d"
+  },
+  "budget": {"CPU_s_max": 60,"RAM_GiB_max": 2,"GPU_GiB_max": 0,"organism_runs_max": 0,"output_MiB_max": 5},
+  "stop": "One fixed layer profile. No scale fitting, reader fitting, threshold promotion, neural rerun or posthoc field selection."
+}

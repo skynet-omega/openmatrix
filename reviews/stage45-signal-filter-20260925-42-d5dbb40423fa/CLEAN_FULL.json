@@ -1,0 +1,14 @@
+{
+  "schema": "stage45_signal_chain_capsule_verified_v1",
+  "manifest_sha256": "0c2cf91dd1e99823176fe2d7c410476a2c15390e727fb00b0bb92d59543ecfc0",
+  "file_count": 58,
+  "rebuilt_receipts_sha256": {
+    "RESULT_01.json": "d3062ad3595d1be22ab8993c5cbceb43f868e539dbd5d15b2fd00cdf57969434",
+    "LAYER_PROFILE_01.json": "a0dd4dba4410f723a1d0a692cb6e13d488c477b9695b260a1a80537d9113b77b",
+    "VERIFIED_01.json": "39b090cdcd8682b13f86eba6ad47e1c37edda55d271b36bc929899a73ef660b3"
+  },
+  "normal_and_optimized_exact": true,
+  "full_physical_replay_exact": true,
+  "full_physical_trace_array_count": 10,
+  "scope": "Short mode recomputes exposed metrics and corruption checks; full mode repeats only the 2-s physical raw-command replay, not the CNS."
+}
