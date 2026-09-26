@@ -1,0 +1,39 @@
+{
+  "schema": "exposed_filter_descriptive_audit_v1",
+  "raw_EMA_relay_all_exact": true,
+  "postwind_ms": 980,
+  "metrics": {
+    "raw": {
+      "net_integral_deg": 0.01493680962600373,
+      "positive_integral_deg": 0.09930068090043638,
+      "negative_integral_deg": -0.08436387127443264,
+      "positive_ms": 517,
+      "negative_ms": 463,
+      "zero_ms": 0
+    },
+    "EMA": {
+      "net_integral_deg": 0.028397106061349233,
+      "positive_integral_deg": 0.03485820534607276,
+      "negative_integral_deg": -0.006461099284723473,
+      "positive_ms": 705,
+      "negative_ms": 275,
+      "zero_ms": 0
+    },
+    "applied": {
+      "net_integral_deg": 2.1900000000000093,
+      "positive_integral_deg": 2.535000000000002,
+      "negative_integral_deg": -0.3449999999999997,
+      "positive_ms": 507,
+      "negative_ms": 69,
+      "zero_ms": 404
+    }
+  },
+  "odor_L_minus_R_range": [
+    -0.355515499146287,
+    -0.2508363300610042
+  ],
+  "trace_sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+  "source_sha256": "60638a9c0c4b17fb21a2df35b43b04594d4dc9a0f801e449aafb7e8a54f6fd12",
+  "scope": "Posthoc description of exposed life. No threshold/gain fitted, no prospective hypothesis test or localization of neural cause.",
+  "interpretation": "The code matches the frozen filter exactly. Positive postwind motor integral is already present weakly in raw input and strongly amplified by EMA/relay; this does not identify which circuit generated the signal."
+}

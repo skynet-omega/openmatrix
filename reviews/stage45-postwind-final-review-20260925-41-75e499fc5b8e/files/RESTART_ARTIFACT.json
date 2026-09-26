@@ -1,0 +1,14 @@
+{
+  "scope": "Posthoc mechanics of continuous versus historical cold restart with identical commands. No new rollout and not the omitted no-wind control.",
+  "continuous_final_error_deg": 27.556263448762333,
+  "historical_restart_final_error_deg": 27.558233459045343,
+  "final_error_difference_deg": -0.0019700102830100263,
+  "max_yaw_difference_deg": 0.0011058474738732116,
+  "max_error_difference_deg": 0.0019700102830100263,
+  "source_sha256": "ef96b08b86739fd8880dfb0b231112fa75a045cdbdcc0716442248d6b216f6ea",
+  "raw_hashes": {
+    "run_01": "b095f9bc30cdb53884d60869d7f30bb9509f711a9c752e1c7fbb0bf93ca2f9d1",
+    "run_02": "f1a07b69c6f4b59b072667eb51d21e8e079ce25a0a79a03c50019f0f707966e3"
+  },
+  "inference_limit": "Difference is physically small in this frozen sequence; it does not certify arbitrary restart continuity or neuronal equivalence."
+}

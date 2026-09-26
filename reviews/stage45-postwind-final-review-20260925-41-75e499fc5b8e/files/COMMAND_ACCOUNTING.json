@@ -1,0 +1,50 @@
+{
+  "schema": "signed_error_command_accounting_v1",
+  "results": {
+    "identity": {
+      "G_geometry_rad2": 0.04288717170839671,
+      "C_command_rad2": 0.01508871249220635,
+      "M_command_minus_actual_rad2": 0.00028928118764461573,
+      "delta_error_squared_over2_rad2": 0.058265165388247685,
+      "residual_rad2": 1.3877787807814457e-17,
+      "command_adverse_ms": 507,
+      "command_corrective_ms": 69,
+      "command_zero_ms": 404,
+      "classification": "DELIVERED_COMMAND_NET_ADVERSE"
+    },
+    "zero_yaw_after_wind": {
+      "G_geometry_rad2": 0.031833841236054636,
+      "C_command_rad2": 0.0,
+      "M_command_minus_actual_rad2": 0.0003170485552341271,
+      "delta_error_squared_over2_rad2": 0.03215088979128874,
+      "residual_rad2": 2.0816681711721685e-17,
+      "command_adverse_ms": 0,
+      "command_corrective_ms": 0,
+      "command_zero_ms": 980,
+      "classification": "ZERO_COMMAND_CONTRIBUTION"
+    },
+    "zero_forward_after_wind": {
+      "G_geometry_rad2": 0.004159405747688556,
+      "C_command_rad2": 0.013916295137623916,
+      "M_command_minus_actual_rad2": 0.0003600554444721625,
+      "delta_error_squared_over2_rad2": 0.018435756329784662,
+      "residual_rad2": 2.7755575615628914e-17,
+      "command_adverse_ms": 507,
+      "command_corrective_ms": 69,
+      "command_zero_ms": 404,
+      "classification": "DELIVERED_COMMAND_NET_ADVERSE"
+    }
+  },
+  "contract_sha256": "8d1e115c40c35a67e6db4a1f0752b973f93b4a0165b8897a456fe9958bde5f8c",
+  "code_sha256": "b5a85f1bcf1cfb4bf6e76bdfbc7a08966dc9fce6fb01f0c2228a49796a36db11",
+  "first_command_row": 1021,
+  "initial_completed_state_ms": 1020,
+  "final_completed_state_ms": 2000,
+  "interval_count": 980,
+  "interval_seconds": 0.001,
+  "interpretation": "Accounting identity only. G/C/M are not independent causal effects. M includes interface/timing/tracking, not pure mechanics. Closing identity cannot itself validate U clock because U cancels; raw-clock/context checks are separate in verifier.",
+  "reviewer_origin": "ChatGPT response e767b18f-b9db-4855-b066-02738c24fa22; no actual file access or execution by reviewer",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "new_physical_or_neural_steps": 0
+}

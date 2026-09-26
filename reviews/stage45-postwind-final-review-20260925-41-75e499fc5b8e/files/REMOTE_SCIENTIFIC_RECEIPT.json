@@ -1,0 +1,15 @@
+{
+  "commit": "b572a2661b77ed5f5499995e633812bd7842af0c",
+  "archive_sha256": "bf43750957a2c3321d156fc2b18f540ffdda901ca942db51150e46cd040b893a",
+  "verified_bytes": 57115423,
+  "verified_members": 80,
+  "all_binary_downloads_verified": true,
+  "extraction": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_postwind_diagnosis_20260925_41/remote_extraction_01",
+  "scope": "Published bytes and explicit inventory verified; scientific reproduction requires separate execution",
+  "scientific_recompute_after_remote_extraction": {
+    "normal_or_optimized": "python -O -I -B verify_clock.py --run run_02 --out REMOTE_RECOMPUTED.json --corruption-tests",
+    "byte_identical_to_verified": true,
+    "recomputed_sha256": "ca3ed55078fed8095ca05d318619ecb5b8562a2703ca1e6bb0f0bd0e75b85ee5",
+    "CNS_or_body_resimulated": false
+  }
+}

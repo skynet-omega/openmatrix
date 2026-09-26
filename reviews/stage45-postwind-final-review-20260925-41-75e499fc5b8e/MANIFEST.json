@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "label": "stage45-postwind-final-review-20260925-41",
+  "description": "Posthoc supplement to b572a266 campaign41: exact filter audit, small restart artifact and ChatGPT-requested delivered-command/tracking decomposition, executed locally on real traces. ChatGPT could not read the public files; no independent file audit or new rollout. Requires original physical capsule.",
+  "files": [
+    {
+      "path": "SUPPLEMENT.md",
+      "bytes": 3638,
+      "sha256": "416d17acd40613856bd6a0f083aa52075dd3328a1c80915aedc4a74e1819a6d2"
+    },
+    {
+      "path": "DECISION.md",
+      "bytes": 2897,
+      "sha256": "5e943beed081cb3279f0c8934bdd3a5cad42ca6c2004dc302ab1906fddc6c461"
+    },
+    {
+      "path": "audit_filter.py",
+      "bytes": 2497,
+      "sha256": "60638a9c0c4b17fb21a2df35b43b04594d4dc9a0f801e449aafb7e8a54f6fd12"
+    },
+    {
+      "path": "FILTER_AUDIT.json",
+      "bytes": 1492,
+      "sha256": "b3c91f1d7fcfcb56d3d9647873981714ade73b5e758da39d9c368c48f32d6685"
+    },
+    {
+      "path": "FILTER_AUDIT_O.json",
+      "bytes": 1492,
+      "sha256": "b3c91f1d7fcfcb56d3d9647873981714ade73b5e758da39d9c368c48f32d6685"
+    },
+    {
+      "path": "audit_restart.py",
+      "bytes": 2078,
+      "sha256": "ef96b08b86739fd8880dfb0b231112fa75a045cdbdcc0716442248d6b216f6ea"
+    },
+    {
+      "path": "RESTART_ARTIFACT.json",
+      "bytes": 856,
+      "sha256": "130f57f2bba0eb5b9cfdbf027327d4a01d244a0257fdbb37d4e08b0c03102b51"
+    },
+    {
+      "path": "ACCOUNTING_PLAN.json",
+      "bytes": 822,
+      "sha256": "8d1e115c40c35a67e6db4a1f0752b973f93b4a0165b8897a456fe9958bde5f8c"
+    },
+    {
+      "path": "command_accounting.py",
+      "bytes": 3052,
+      "sha256": "b5a85f1bcf1cfb4bf6e76bdfbc7a08966dc9fce6fb01f0c2228a49796a36db11"
+    },
+    {
+      "path": "COMMAND_ACCOUNTING.json",
+      "bytes": 2214,
+      "sha256": "dd71a1edee438a0c7053c165d227b414879593a6e6a232615c2362c55dc2dae6"
+    },
+    {
+      "path": "COMMAND_ACCOUNTING_O.json",
+      "bytes": 2214,
+      "sha256": "dd71a1edee438a0c7053c165d227b414879593a6e6a232615c2362c55dc2dae6"
+    },
+    {
+      "path": "CHATGPT_REQUEST_02.md",
+      "bytes": 3488,
+      "sha256": "11237581fc02cc64da565d7b3c9d2b1d13d1d8ab0c8ae81a64e6278fa62138f7"
+    },
+    {
+      "path": "CHATGPT_RESPONSE_02.md",
+      "bytes": 8463,
+      "sha256": "c75e4da7093df91aa54fb0639c50a4f87f6d9ab3ec337aa8da73fd0230ee9a85"
+    },
+    {
+      "path": "CHATGPT_RECEIPT_02.json",
+      "bytes": 503,
+      "sha256": "e835a219175a66c5cc3b2b0cc670e709486432c54ed5cd992d4ad76667a54b4f"
+    },
+    {
+      "path": "EXTERNAL_STATUS.json",
+      "bytes": 867,
+      "sha256": "dfc367a8b5af4f3a9702ed57bb1767b391e9a5222b41a15a3dcd1dc3b12378f1"
+    },
+    {
+      "path": "REMOTE_SCIENTIFIC_RECEIPT.json",
+      "bytes": 823,
+      "sha256": "c2f4a2f5e91a3ce8bd1467a4a0b7997a5eb0444aae158a7ef0e9094ada30e5c3"
+    }
+  ]
+}

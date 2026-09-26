@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-postwind-diagnosis-20260925-41](reviews/stage45-postwind-diagnosis-20260925-41-ce7c556bd77b/README.md)
+[stage45-postwind-final-review-20260925-41](reviews/stage45-postwind-final-review-20260925-41-75e499fc5b8e/README.md)
 
-Physical replay of campaign40: exact historical identity, postwind yaw/forward ablations, preserved failed continuous replay and cold-force-cache finding. No neural simulation or Stage4/5 admission. Executable physical capsule, not whole-organism checkpoint.
+Posthoc supplement to b572a266 campaign41: exact filter audit, small restart artifact and ChatGPT-requested delivered-command/tracking decomposition, executed locally on real traces. ChatGPT could not read the public files; no independent file audit or new rollout. Requires original physical capsule.
