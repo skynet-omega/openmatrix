@@ -1,0 +1,137 @@
+{
+  "format_version": 2,
+  "label": "stage45-motor-crossreview-20260926-01",
+  "description": "Revision CPU de motor12/13 y campaña45: reconstruccion exacta de DN/lector/relay, limite1911, tres contraejemplos sinteticos del analizador y contraste ChatGPT/Jev. No ejecuta CNS/MuJoCo ni admite etapas4/5; archivos congelados y arrays seleccionados.",
+  "files": [
+    {
+      "path": "CHATGPT_REQUEST.md",
+      "bytes": 4131,
+      "sha256": "b2ca1f55d522d3ac6b9c7abd675fecfa0867f02b1d1b0c8bad5c371a03ed2d69"
+    },
+    {
+      "path": "CHATGPT_REVIEW.md",
+      "bytes": 8714,
+      "sha256": "db16eee5b1f660ae55f043bff31af01fc49c06b02472c637f591d47075611fe1"
+    },
+    {
+      "path": "CONTRASTE.md",
+      "bytes": 2802,
+      "sha256": "de8802b0f20ac0d1c5600017fe23cc443db3c681a7109b3bae2928911e08e24e"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 4670,
+      "sha256": "f649315e92bb4a1de955ce80578064fa7da87371935bee0499ae0111f480f3cf"
+    },
+    {
+      "path": "JEV_SPEC.json",
+      "bytes": 2914,
+      "sha256": "b62fee20cb2818af0855baf4d4e32757697ec816723e978835ab0d6185186731"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 2463,
+      "sha256": "29aaf5b5611e4eea40141d1290f4f51f70802b2eafdac85227881d7bd5664ca3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1453,
+      "sha256": "92291c6b39ef039fe4b7a2f75b79109e569caac7be47438f9d54ae36685da8fb"
+    },
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 5032,
+      "sha256": "79543de1c08d4efd9f5e222c93372abf072fc5d9ef537630009d04246d6789fd"
+    },
+    {
+      "path": "check_review.py",
+      "bytes": 10959,
+      "sha256": "7c5d7264d4b1234e721103ae3bfb5f716af7f3ea5394a590bfa5d0abb4b328c7"
+    },
+    {
+      "path": "data/exploratory12s.npz",
+      "bytes": 512854,
+      "sha256": "090b620baef461a8041e4a85accafc274ecbd3d65e617f17df6db999738ab5c8"
+    },
+    {
+      "path": "data/reviewed2s.npz",
+      "bytes": 87422,
+      "sha256": "05bb4c568cc5853ce6a19a20e238fda1b9629750f198b13d3eafe4becefb0c6d"
+    },
+    {
+      "path": "data/stable2s.npz",
+      "bytes": 87445,
+      "sha256": "9d10a7f62797bb73c6fbe807d296649775eb9e73cb960d42bd9b16f4f2371bfc"
+    },
+    {
+      "path": "jev_01/receipt.json",
+      "bytes": 403,
+      "sha256": "7cf0dee6b78472697483c9c5e87f8997d5e71bbc120897be7fd929e56e7991f4"
+    },
+    {
+      "path": "jev_01/request.json",
+      "bytes": 2771,
+      "sha256": "0c9a5e149985bb01558fc4d3f713ac4f7ff0c8e2ca749278ff56856ed01cb642"
+    },
+    {
+      "path": "jev_01/response.json",
+      "bytes": 486,
+      "sha256": "13df1d337ec3461a8800390eb48511f52df1eccbbd6f35a35ba8ea6f7468b813"
+    },
+    {
+      "path": "make_report.py",
+      "bytes": 5906,
+      "sha256": "b6fcb328c4d43e6310c615949819f140026edf163c188f90af5e20f67dd3e083"
+    },
+    {
+      "path": "run_01/RESULTADOS.json",
+      "bytes": 2130,
+      "sha256": "86d95571654570c21fa5eda254af51bb5b7d1f1dfe9fecdfbd25c18fad730080"
+    },
+    {
+      "path": "run_02/RESULTADOS.json",
+      "bytes": 2130,
+      "sha256": "d5606a85d1af15c90e7a996e13bbd2999376a82280e67bec65e8cc246437d161"
+    },
+    {
+      "path": "snapshots/INTERVENCIONES.json",
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    {
+      "path": "snapshots/PAIR2000.json",
+      "bytes": 202652,
+      "sha256": "245f4e5fc1b03c4637b4721d89bc113368ec7fa6534ead0923407273f2334b6e"
+    },
+    {
+      "path": "snapshots/PLAN45.json",
+      "bytes": 1446,
+      "sha256": "87543b171ee01d5480ae4202a29d9a6ec578ecbd97536e13bee8541d55ee7788"
+    },
+    {
+      "path": "snapshots/analyze45.py",
+      "bytes": 6808,
+      "sha256": "7f14c41f1c4c8f2210ac9d80911b4b4cc9c41121ea2086e63d2274dea7b5105a"
+    },
+    {
+      "path": "snapshots/motor_wind40.py",
+      "bytes": 4522,
+      "sha256": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01"
+    },
+    {
+      "path": "snapshots/observations.py",
+      "bytes": 7384,
+      "sha256": "fa0fcaaeca142e7cbdc29c840f5cc1e4a346860570474c35ff99551ad8911761"
+    },
+    {
+      "path": "snapshots/protocol45.py",
+      "bytes": 5170,
+      "sha256": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2"
+    },
+    {
+      "path": "snapshots/run45.py",
+      "bytes": 9622,
+      "sha256": "091642022721052328d905bd6a397820bf7aa23eab9a31e6909d30632b0d9cb2"
+    }
+  ]
+}

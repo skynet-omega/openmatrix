@@ -1,0 +1,52 @@
+{
+  "scope": "Revision cruzada de motor12/13 y campaña45 para recomendaciones verificables a Motor C++/CUDA; no alterar corrida activa",
+  "started_utc": "2026-09-26T15:20:20.976413+00:00",
+  "budget": {
+    "wall_s": 3600,
+    "CPU_analysis_s": 900,
+    "RAM_GiB": 4,
+    "disk_GiB": 1,
+    "new_neural_steps": 0,
+    "GPU_runs": 0,
+    "new_prototypes": 0,
+    "ChatGPT_requests_max": 1,
+    "Jev_requests_max": 1,
+    "Codex_subagents": 0
+  },
+  "exposure": [
+    "Etapas40..44 negativas/continuidad sham y presupuesto CPU",
+    "ESTADO_ACTUAL26sep",
+    "Hilo Motor C++/CUDA ultimos5turnos",
+    "ChatGPT Motor ultimos5turnos; especificacion+codigo protocol.py ya revisados; nuestra revision no es ciega"
+  ],
+  "alternatives": [
+    {
+      "id": "A_sensory_recruitment",
+      "operation": "No cambiar nucleo: rastrear receptor/publicacion/DNg100 y DNb05 antes/despues del estimulo consumido",
+      "legal_information": "Entradas sensoriales y estado neuronal guardados",
+      "discriminator": "ORN/PN cambian pero DNg100 no frente a sham",
+      "falsifier": "DNg100 se modula materialmente y el lector conserva ese cambio"
+    },
+    {
+      "id": "B_reader_nonlinearity",
+      "operation": "Recalcular sin cambiar parametros lector, clipping, filtro y relay de trazas guardadas",
+      "legal_information": "DN comprometida y baseline previo fijo",
+      "discriminator": "Salida neuronal pequena o diferencia de integracion cruza frontera de relay; aplicado diverge sin ganancia de direccion",
+      "falsifier": "Aplicado conserva magnitud/signo del crudo sin saturacion relevante"
+    },
+    {
+      "id": "C_body_feedback",
+      "operation": "Separar fuerza, apoyo/freno y desplazamiento con yaw aplicado cero; analisis de fuerzas ya guardadas",
+      "legal_information": "qpos/qvel/contactos/fuerzas y mando aplicado",
+      "discriminator": "Mando cambia sin respuesta fisica o fisica cambia por ruta distinta del lector; retina/propiocepcion como feedback",
+      "falsifier": "Efecto temporal fisico explicado por mando despues del retardo legal sin conflicto de fuerzas"
+    }
+  ],
+  "rules": [
+    "No reetiquetar FAIL12 ni admision4/5",
+    "No modificar fuentes/criterios de45 activa",
+    "Probar hallazgos del analizador con datos sinteticos solo en revision propia",
+    "Recomendaciones externas son propuestas; verificar localmente",
+    "Entregar informe/codigo/resultados autocontenidos; no acreditar reproduccion del CNS"
+  ]
+}

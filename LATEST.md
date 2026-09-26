@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-full-review-20260926-12](reviews/motor-full-review-20260926-12-a944d3b13e13/README.md)
+[stage45-motor-crossreview-20260926-01](reviews/stage45-motor-crossreview-20260926-01-d77babaff5ba/README.md)
 
-Revisión integral C++/CUDA y pareja continua2s: FAIL de mando exacto en1/2000 pasos,47,72% menos tiempo y27,19min/s. Evidencia negativa preservada; subconjunto para revisión, alcance detallado en PUBLIC_SCOPE.md.
+Revision CPU de motor12/13 y campaña45: reconstruccion exacta de DN/lector/relay, limite1911, tres contraejemplos sinteticos del analizador y contraste ChatGPT/Jev. No ejecuta CNS/MuJoCo ni admite etapas4/5; archivos congelados y arrays seleccionados.

@@ -1,0 +1,31 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": {
+    "purpose": "Prioritize a bounded recommendation to another session, advisory only; not determine scientific truth",
+    "facts": [
+      "Active campaign45 is two frozen 4s sham/odor arms, no forward offset/yaw0/plasticityOFF. Do not interrupt or retune.",
+      "CPU reconstruction of actual stable/reviewed2s and exploratory12s DN->raw->filter->relay is bit exact. Only differing applied command at1911: filtered0.000499559159 vs0.000500468357 rad/s around0.0005; applied0vs5deg/s. HistoricalFAILpreserved.",
+      "12sDNg100LR q=[1.93e-322,2.8e-322] constant; forwardtarget0.2mm/s. Rawyaw6-12mean-0.478992deg/s vsapplied-5 continuous.",
+      "Adversarial synthetic data accepted by current analyzer: motion without DN/motor difference; command1001 without allowed DNlag; modifiedPLANchanges verdict. No actual active-run corruption alleged.",
+      "Existing stages40negative,41/42bodycontrolsno recovery,43virtual2degtapesfrozen,44sham120msexactbutCPUoverrun. Uniform45inputtestsinitiationnotorientation."
+    ]
+  },
+  "questions": {
+    "first_handoff": {
+      "instructions": "Which existing bounded action should be requested first? Select according to information gain for interpreting current45 while preserving its frozen sources and compute budget. No new simulations or scientific PASS authorization.",
+      "criteria": {
+        "supplement_reader_verification": "Add separate CPU report after45 with frozenPLANhash, DNprevious->command reconstruction and earliestcommand1002, plus receptor/DN/raw/applied/physical effects byphase. Preserve original evaluator and thresholds.",
+        "relay_cpu_diagnosis": "First document1911relayboundary and12syaw amplification from already saved traces; prepare future directional test, without changing motor now.",
+        "sensory_direction_next": "First implement prospective orientation contrast using frozen43tapes and fastmotor once45finishes, with fresh measured finitebudget. Do not run now."
+      }
+    },
+    "next_discriminator": {
+      "instructions": "After current45closes, which existing-data discriminator should lead stages4/5 planning, avoiding new fullmotor trials until a decision changes? This is prioritization only; source correct causal alternatives independently.",
+      "criteria": {
+        "DN_recruitment": "Compare consumedORN/PN/DNg100/DNb05 responses tosham byphase, identify if quietchannel is lack of recruitment vsclipping; include inputtarget diagnostics only from frozenstates.",
+        "decoder_direction": "Use DNsignals preserved in43 and13 to check whether directionalcontrast survives into raw vsfiltered/relay; unchangedbaseline and no retuning on same trajectory.",
+        "force_response": "Trace propulsioncommand vs physicalforce/speed and supportbraking, distinguishing movement modulated byforwardreader from otherfeedbackpaths."
+      }
+    }
+  }
+}

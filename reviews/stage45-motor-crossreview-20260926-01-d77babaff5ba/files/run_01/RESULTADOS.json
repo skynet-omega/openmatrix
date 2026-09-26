@@ -1,0 +1,76 @@
+{
+  "status": "CPU_REVIEW_COMPLETE",
+  "neural_steps": 0,
+  "reconstruction": {
+    "stable": {
+      "raw_exact": true,
+      "filter_exact": true,
+      "relay_exact": true
+    },
+    "reviewed": {
+      "raw_exact": true,
+      "filter_exact": true,
+      "relay_exact": true
+    },
+    "exploratory12s": {
+      "raw_exact": true,
+      "filter_exact": true,
+      "relay_exact": true
+    }
+  },
+  "pair2s_relay_boundary": [
+    {
+      "interval_ms": 1911,
+      "stable_filter_rad_s": 0.0004995591588058994,
+      "reviewed_filter_rad_s": 0.0005004683573549568,
+      "filter_difference_rad_s": 9.091985490574045e-07,
+      "threshold_rad_s": 0.0005,
+      "stable_applied_deg_s": 0.0,
+      "reviewed_applied_deg_s": 5.0
+    }
+  ],
+  "historical_FAIL_preserved": true,
+  "exploratory12s": {
+    "ticks": 12000,
+    "DNg100_release_initial": [
+      1.93e-322,
+      2.8e-322
+    ],
+    "DNg100_delta_range": [
+      0.0,
+      0.0
+    ],
+    "DNg100_meaning": "Numerically subnormal release and no modulation in this exposure, not biological inactivity proof",
+    "forward_target_unique_mm_s": [
+      0.2
+    ],
+    "raw_yaw_mean_6_12_deg_s": -0.4789916458741905,
+    "applied_yaw_unique_6_12_deg_s": [
+      -5.0
+    ],
+    "applied_nonzero_sign_disagrees_raw_count": 746
+  },
+  "adversarial_synthetic_tests": [
+    {
+      "case": "physical_change_without_DN_or_command",
+      "original_operational_criterion": true,
+      "reader_contract_consistent": true,
+      "interpretation": "Physical criterion alone does not certify DN-driven propulsion; fixture is not a mechanically reproduced run"
+    },
+    {
+      "case": "command_interval1001_inconsistent_with_DN",
+      "original_accepts": true,
+      "original_first_command": 1001,
+      "supplement_rejects": "odor: decoder mismatch"
+    },
+    {
+      "case": "changed_PLAN_after_acquisition",
+      "original_accepts_and_verdict_changes": true,
+      "supplement_rejects": "Frozen plan identity changed"
+    }
+  ],
+  "no_actual_campaign45_corruption_claim": true,
+  "CPU_s": 0.07547740000000003,
+  "wall_s": 0.04904706199886277,
+  "peak_RSS_bytes": 121532416
+}

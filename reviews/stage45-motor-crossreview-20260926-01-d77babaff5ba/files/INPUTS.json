@@ -1,0 +1,98 @@
+{
+  "scope": "Analysis-only evidence capsule; no neuronal/physical re-run or full state reproduction",
+  "source_selection": {
+    "stable2s.npz": {
+      "source_relative": "motor_nuevo/full_pipeline_review_20260925_12/stable_2000ms_01/traces.npz",
+      "original_sha256": "63d82665862fb94c2cd0c8045929db59d5cc90835332e9fc5d2528d0e016ec14",
+      "original_bytes": 25638256,
+      "selected_fields": [
+        "paso",
+        "DN_q_actual",
+        "DN_q_usada",
+        "DN_baseline",
+        "neural_command_raw_rad_s",
+        "motor_filter_state_rad_s",
+        "command_yaw_rate_rad_s",
+        "command_forward_mm_s"
+      ],
+      "scope": "Exact selected arrays; full original file not included, not a complete CNS reproduction"
+    },
+    "reviewed2s.npz": {
+      "source_relative": "motor_nuevo/full_pipeline_review_20260925_12/reviewed_2000ms_01/traces.npz",
+      "original_sha256": "35dc06d816051d00f0da0441aecf666807116ed51631b933c20f74bef9cba1ce",
+      "original_bytes": 25638236,
+      "selected_fields": [
+        "paso",
+        "DN_q_actual",
+        "DN_q_usada",
+        "DN_baseline",
+        "neural_command_raw_rad_s",
+        "motor_filter_state_rad_s",
+        "command_yaw_rate_rad_s",
+        "command_forward_mm_s"
+      ],
+      "scope": "Exact selected arrays; full original file not included, not a complete CNS reproduction"
+    },
+    "exploratory12s.npz": {
+      "source_relative": "motor_nuevo/dynamics_12s_20260926_13/run_01/traces.npz",
+      "original_sha256": "1ed9716fb21eb4b6aba8dbfa372474839be0433d23480e64fc1c5a4d66b7d33f",
+      "original_bytes": 149577830,
+      "selected_fields": [
+        "paso",
+        "DN_q_actual",
+        "DN_q_usada",
+        "DN_baseline",
+        "neural_command_raw_rad_s",
+        "motor_filter_state_rad_s",
+        "command_yaw_rate_rad_s",
+        "command_forward_mm_s"
+      ],
+      "scope": "Exact selected arrays; full original file not included, not a complete CNS reproduction"
+    },
+    "analyze45.py": {
+      "source_relative": "campanas/iniciacion_olfativa_20260926_45/analyze.py",
+      "sha256": "7f14c41f1c4c8f2210ac9d80911b4b4cc9c41121ea2086e63d2274dea7b5105a"
+    },
+    "protocol45.py": {
+      "source_relative": "campanas/iniciacion_olfativa_20260926_45/protocol.py",
+      "sha256": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2"
+    },
+    "PLAN45.json": {
+      "source_relative": "campanas/iniciacion_olfativa_20260926_45/PLAN.json",
+      "sha256": "87543b171ee01d5480ae4202a29d9a6ec578ecbd97536e13bee8541d55ee7788"
+    },
+    "observations.py": {
+      "source_relative": "motor_nuevo/dynamics_12s_20260926_13/observations.py",
+      "sha256": "fa0fcaaeca142e7cbdc29c840f5cc1e4a346860570474c35ff99551ad8911761"
+    },
+    "motor_wind40.py": {
+      "source_relative": "campanas/etapa45_navigation_wind_20260925_40/motor_wind.py",
+      "sha256": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01"
+    },
+    "PAIR2000.json": {
+      "source_relative": "motor_nuevo/full_pipeline_review_20260925_12/PAIR2000.json",
+      "sha256": "245f4e5fc1b03c4637b4721d89bc113368ec7fa6534ead0923407273f2334b6e"
+    },
+    "INTERVENCIONES.json": {
+      "source_relative": "motor_nuevo/dynamics_12s_20260926_13/run_01/static_inputs/INTERVENCIONES.json",
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "run45.py": {
+      "source_relative": "campanas/iniciacion_olfativa_20260926_45/run.py",
+      "sha256": "091642022721052328d905bd6a397820bf7aa23eab9a31e6909d30632b0d9cb2"
+    }
+  },
+  "review_files": {
+    "data/stable2s.npz": "9d10a7f62797bb73c6fbe807d296649775eb9e73cb960d42bd9b16f4f2371bfc",
+    "data/exploratory12s.npz": "090b620baef461a8041e4a85accafc274ecbd3d65e617f17df6db999738ab5c8",
+    "data/reviewed2s.npz": "05bb4c568cc5853ce6a19a20e238fda1b9629750f198b13d3eafe4becefb0c6d",
+    "snapshots/protocol45.py": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2",
+    "snapshots/PAIR2000.json": "245f4e5fc1b03c4637b4721d89bc113368ec7fa6534ead0923407273f2334b6e",
+    "snapshots/motor_wind40.py": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01",
+    "snapshots/PLAN45.json": "87543b171ee01d5480ae4202a29d9a6ec578ecbd97536e13bee8541d55ee7788",
+    "snapshots/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "snapshots/observations.py": "fa0fcaaeca142e7cbdc29c840f5cc1e4a346860570474c35ff99551ad8911761",
+    "snapshots/analyze45.py": "7f14c41f1c4c8f2210ac9d80911b4b4cc9c41121ea2086e63d2274dea7b5105a",
+    "snapshots/run45.py": "091642022721052328d905bd6a397820bf7aa23eab9a31e6909d30632b0d9cb2"
+  }
+}
