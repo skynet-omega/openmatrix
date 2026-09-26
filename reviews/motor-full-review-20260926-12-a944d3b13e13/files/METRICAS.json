@@ -1,0 +1,93 @@
+{
+  "status": "PROMETEDOR_NO_CONFIRMADO",
+  "pair_status": "FAIL",
+  "promoted": false,
+  "failed_gates": [
+    "same_applied_yaw_each_tick"
+  ],
+  "different_yaw_command_ticks": [
+    1911
+  ],
+  "scope": "One prepared state, one Gaussian condition, corrected physical wind, continuous2s",
+  "functional_status": "FAIL",
+  "runtime_status": "PASS_RUNTIME_CONTRACT",
+  "trace_fields_exact": 9,
+  "trace_fields_total": 35,
+  "body_qpos_exact": false,
+  "body_qvel_exact": false,
+  "yaw_commands_exact": false,
+  "forward_commands_exact": true,
+  "contacts_exact": true,
+  "candidate_minutes_per_simulated_second": 27.194735903875213,
+  "performance_targets_met": {
+    "12": false,
+    "20": false,
+    "25": false
+  },
+  "timing": {
+    "stable_advance_s": 6119.69002574656,
+    "reviewed_advance_s": 3127.420515894948,
+    "stable_process_s": 6241.904438273021,
+    "reviewed_process_s": 3263.3683084650256,
+    "advance_speedup": 1.9567851507795522,
+    "process_speedup": 1.912718347506719,
+    "advance_fraction_saved": 0.48895769185410265,
+    "process_fraction_saved": 0.477183872208092,
+    "scope": "Paired wall measurements; speedup is engineering evidence, not scientific or biological admission."
+  },
+  "committed_events": {
+    "stable_count": 103821,
+    "reviewed_count": 103821,
+    "identity_different_blocks": 12,
+    "ordered_identity_equal_blocks": 15988,
+    "payload_compared_events": 103724,
+    "payload_exact_events": 6270,
+    "excluded_stable_events": 97,
+    "excluded_reviewed_events": 97,
+    "max_time_difference_s": 6.250000000000003e-06,
+    "max_jump_difference": 4.514109352982132e-08,
+    "max_post_q_difference": 2.0958783248925528e-06,
+    "post_q_presence_differences": 0,
+    "same_total_identity_counts": true,
+    "unmatched_stable_total": 0,
+    "unmatched_reviewed_total": 0
+  },
+  "predictor_events": {
+    "stable_count": 51943,
+    "reviewed_count": 51944,
+    "identity_different_blocks": 15,
+    "ordered_identity_equal_blocks": 15985,
+    "payload_compared_events": 51869,
+    "payload_exact_events": 3121,
+    "excluded_stable_events": 74,
+    "excluded_reviewed_events": 75,
+    "max_time_difference_s": 3.1250000000000014e-06,
+    "max_jump_difference": 4.515852780606622e-08,
+    "max_post_q_difference": 1.752030910240343e-06,
+    "post_q_presence_differences": 0,
+    "same_total_identity_counts": false,
+    "unmatched_stable_total": 7,
+    "unmatched_reviewed_total": 8
+  },
+  "final_CNS": {
+    "exact": false,
+    "max_abs": 9.410973587742344e-05,
+    "rms": 3.204840600888989e-06,
+    "changed_values": 275279,
+    "values": 359373
+  },
+  "gates": {
+    "release_bound": true,
+    "position_bound": true,
+    "yaw_bound": true,
+    "same_applied_yaw_each_tick": false,
+    "same_contacts_each_tick": true,
+    "forward_command_bound": true,
+    "same_wind_mapping_where_qpos_equal": true
+  },
+  "performance_targets_minutes_per_simulated_second": [
+    12,
+    20,
+    25
+  ]
+}

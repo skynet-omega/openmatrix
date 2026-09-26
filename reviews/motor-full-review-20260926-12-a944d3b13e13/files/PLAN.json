@@ -1,0 +1,72 @@
+{
+  "scope": "Two continuous seconds under common corrected wind and PN setup; stable versus reviewed RK3(2) persistent FP32",
+  "parent": "event_memory_rk3_20260925_11",
+  "algorithm_change": "Canonical event endpoint/left-right side; PN stream setup dependency; common wind mapping at current qpos. No biological or coupling parameter changes.",
+  "round_max_full_prototypes": 2,
+  "this_prototype": 1,
+  "short_pair": {
+    "runs": 2,
+    "ms_each": 100,
+    "wall_s_total_max": 900,
+    "wall_s_each_max": 450,
+    "order": [
+      "stable",
+      "reviewed"
+    ],
+    "minimum_advance_fraction_saved": 0.0,
+    "process_no_regression": true
+  },
+  "confirmation": {
+    "runs_max": 2,
+    "ms": 2000,
+    "only_if_short_pair_passes": true,
+    "candidate_wall_s_max": 4800,
+    "stable_wall_s_max": 8500,
+    "order": [
+      "stable",
+      "reviewed"
+    ],
+    "historical_reference_reused": false
+  },
+  "resources": {
+    "RAM_GiB_max": 24,
+    "VRAM_GiB_max": 14,
+    "disk_GiB_max": 12,
+    "GPU_other_simulations": 0,
+    "OPENBLAS_NUM_THREADS": 1
+  },
+  "comparison_limits_engineering_only": {
+    "release_max_abs": 0.001,
+    "position_max_abs_mm": 0.01,
+    "yaw_max_abs_deg": 0.1,
+    "same_applied_yaw_command_each_tick": true,
+    "same_contacts_each_tick": true,
+    "forward_command_max_abs_mm_s": 0.001
+  },
+  "comparison_scope": "Scoped functional equivalence to stable corrected execution. Events, all neural and PN field differences reported separately. No biological equivalence or improved behavior claim.",
+  "stop": "Invalid/nonfinite state, source mismatch, solver failure, functional-screen discrepancy or budget. No retuning of factors/tolerance/kernel on this exposure.",
+  "targets_process_minutes_per_simulated_second": [
+    25,
+    20,
+    12
+  ],
+  "prototype": 1,
+  "diagnostic": {
+    "ms": 20,
+    "wall_s_max": 180,
+    "profile": true
+  },
+  "physics": {
+    "trial_continuous": true,
+    "body_dt_s": 2.5e-05,
+    "wind_first_step": 1001,
+    "wind_last_step": 1020,
+    "world_torque_native": [
+      0.0,
+      0.0,
+      -0.004672697857153467
+    ],
+    "expected_nonzero_wind_substeps": 800,
+    "mapping": "current_pose_scratch_kinematics_comPos"
+  }
+}

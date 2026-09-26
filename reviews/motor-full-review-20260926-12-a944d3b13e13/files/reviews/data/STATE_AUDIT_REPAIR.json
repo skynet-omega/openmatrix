@@ -1,0 +1,10 @@
+{
+  "attempt": "state_01",
+  "status": "FAILED_IN_SUMMARIZER_NO_RESULT",
+  "error": "TypeError: numpy boolean subtract in quantile interpolation",
+  "old_script_sha256": "b0064e13c8f2ef89712e51085eb37d776153a12f7a15a5a08deb3051a52cf754",
+  "repair": "Cast bool arrays to uint8 only for descriptive quantile computation; retain original dtype, values and counts",
+  "repeat_scope": "One repeat of state inspection only, same 120 s and 6 GiB bound. Graph results unaffected; all graph input arrays were integer/float.",
+  "source_data_changed": false,
+  "criteria_changed": false
+}

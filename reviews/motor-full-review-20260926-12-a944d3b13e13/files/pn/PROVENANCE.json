@@ -1,0 +1,30 @@
+{
+  "copies": [
+    {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/resident_cyclic.py",
+      "source_sha256": "1a82bf050a571a17f3f62f75501048d0562b5a30548ee28a4cba4d2ff61e513d",
+      "copy": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "copy_sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85",
+      "changes": [
+        "Producer-stream synchronization before warmup",
+        "Kernel-source path adapted to overlay location; same frozen kernels"
+      ]
+    },
+    {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/cyclic_tree.py",
+      "source_sha256": "149820a921644e6878a08c4383ea0bbdb254d559df27b2f1a2ffaff49b96115e",
+      "copy": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "copy_sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c",
+      "changes": [
+        "Producer-stream synchronization before warmup",
+        "Kernel-source path adapted to overlay location; same frozen kernels"
+      ]
+    }
+  ],
+  "kernels": {
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/parallel_tree.cu": "ffba3a8611205ac15ee6b322b26aedb285acf673787f2a58a5e26bf5f5e7d7d7",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/cyclic_tree.cu": "d607a781ec55e17a57fd539583b6d74dc50f9339981a8082b78b7041ebb81717",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pn_abc_20260922/parallel_core.cu": "7cb9421025ec79d6c67f7b99120c52dbdd18a8f5a1b2fc9030738ab5c671b223"
+  },
+  "gpu_validation": "Not run by CUDA reviewer"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "DATASET_REVIEW_COMPLETE_CPU_ONLY",
+  "files": {
+    "DATASET.md": {
+      "bytes": 32775,
+      "sha256": "87718423ee136bc3375a24ed93c35fbf9819dd64150ff7409afb5b67e517fc6c"
+    },
+    "data/audit_dataset.py": {
+      "bytes": 8943,
+      "sha256": "ec61418b714f36fcbfe2aa2efa2bd8c0057d086aac96d2683a8f609d411caf49"
+    },
+    "data/STATE_AUDIT_REPAIR.json": {
+      "bytes": 580,
+      "sha256": "8be61710c10063724cd47babe3e448053b4833b8b12e70f592e9671a381bde29"
+    },
+    "data/PLAN.json": {
+      "bytes": 570,
+      "sha256": "677d335cbf1a5291b9f74444fbb6d84cf759e7dffd3b05fde54799fe65ae5f46"
+    },
+    "data/GRAPH_AUDIT.json": {
+      "bytes": 49326,
+      "sha256": "210832d83e72f5249ce8009df117fb8acd0be00065cf7e9ca213dd14846007e6"
+    },
+    "data/STATE_AUDIT.json": {
+      "bytes": 350098,
+      "sha256": "8968916f0b855e5c835d80f05bbee1fa2bd2383eae1e1c788ea0dfb620d60ce7"
+    }
+  },
+  "historical_edits": 0,
+  "gpu_simulations": 0,
+  "scope": "Dataset and model scope, not numerical acceptance of 2 s"
+}

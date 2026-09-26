@@ -1,0 +1,11 @@
+{
+  "scope": "Read-only dataset/code review before 2 s trial; no simulation or GPU organism load",
+  "modes": ["graph", "state"],
+  "maximum_calculations": 2,
+  "wall_limit_per_calculation_s": 120,
+  "memory_limit_per_calculation_gib": 6,
+  "read_historical_datasets_only": true,
+  "outputs": ["GRAPH_AUDIT.json", "STATE_AUDIT.json"],
+  "purpose": "Verify exact IDs, orientation, counts, static recurrence, effective weights, saved state and heterogeneous owner scope",
+  "limits": "Structural reachability and recurrence do not identify dynamics or empirical delays"
+}

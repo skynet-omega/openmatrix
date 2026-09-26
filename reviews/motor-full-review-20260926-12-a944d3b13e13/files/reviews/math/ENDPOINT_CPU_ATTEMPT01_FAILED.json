@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_FIXTURE_EXPECTATION",
+  "error": "ValueError: interior recovery/commit changed",
+  "scope": "CPU source-extraction fixture; no CUDA or neural execution",
+  "cause": "The test incorrectly required next_ns == previous_ns. The specified policy uses previous_ns as a floor; normal doubling may produce a larger legal proposal.",
+  "source_sha256": "a8394020012f52c670967f65b0a509f1bcf4b69c5908a2392ce37e5db366e6aa"
+}

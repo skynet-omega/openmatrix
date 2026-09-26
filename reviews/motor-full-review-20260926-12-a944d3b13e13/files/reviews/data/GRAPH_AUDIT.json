@@ -1,0 +1,2375 @@
+{
+  "scope": "Static canonical C and loader brain W, plus campaign40 prepared effective main CSR; specialized operators are separate.",
+  "sources": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/provenance.json": "3dec7ce2e27f8b1eb483e4305388e146a281a54ac08b168403685b427f9c9889",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/node_ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/manifest.json": "29c0f6aeae8d89d632edd87a97a2ce3178289f7bf85c692a8662fbc98034412c",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/state.npz": "13f1b78cb757b76d0a720638cfc297f919d4cc0440739c033548fd9a9e0e836e",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/weights_post_pre.npz": "93d8a74f08d26a726a7b473080d9a278ecb47fa4d61afe77e392893b1b2acdd4",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/effective_operator.json": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state/effective_operator.npz": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5"
+  },
+  "ids": {
+    "n": 166700,
+    "strictly_increasing": true,
+    "nodes_equal": true,
+    "brain_equal": true,
+    "canonical_index_equal": true,
+    "examples": [
+      {
+        "bodyId": 10065,
+        "row": 52,
+        "type": "DNb05"
+      },
+      {
+        "bodyId": 10118,
+        "row": 104,
+        "type": "DNb05"
+      },
+      {
+        "bodyId": 10176,
+        "row": 159,
+        "type": "DM1_lPN"
+      },
+      {
+        "bodyId": 10208,
+        "row": 189,
+        "type": "DM1_lPN"
+      }
+    ]
+  },
+  "anatomy": {
+    "shape": [
+      166700,
+      166700
+    ],
+    "canonical": true,
+    "nnz": 25582938,
+    "synapses": 124177617,
+    "weights": {
+      "shape": [
+        25582938
+      ],
+      "dtype": "int64",
+      "size": 25582938,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 25582938,
+      "quantiles": {
+        "min": 1.0,
+        "p01": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 4.0,
+        "p99": 46.0,
+        "max": 2591.0
+      }
+    },
+    "self_pairs": 101,
+    "self_synapses": 474,
+    "source_csr_matches": true,
+    "out_degree": {
+      "shape": [
+        166700
+      ],
+      "dtype": "int32",
+      "size": 166700,
+      "finite": true,
+      "zero": 1220,
+      "negative": 0,
+      "positive": 165480,
+      "quantiles": {
+        "min": 0.0,
+        "p01": 2.0,
+        "p25": 68.0,
+        "median": 112.0,
+        "p75": 179.0,
+        "p99": 794.0,
+        "max": 11203.0
+      }
+    },
+    "out_synapses": {
+      "shape": [
+        166700
+      ],
+      "dtype": "int64",
+      "size": 166700,
+      "finite": true,
+      "zero": 1220,
+      "negative": 0,
+      "positive": 165480,
+      "quantiles": {
+        "min": 0.0,
+        "p01": 2.0,
+        "p25": 262.0,
+        "median": 438.0,
+        "p75": 763.0,
+        "p99": 5499.030000000028,
+        "max": 140897.0
+      }
+    },
+    "in_degree": {
+      "shape": [
+        166700
+      ],
+      "dtype": "int64",
+      "size": 166700,
+      "finite": true,
+      "zero": 370,
+      "negative": 0,
+      "positive": 166330,
+      "quantiles": {
+        "min": 0.0,
+        "p01": 3.0,
+        "p25": 54.0,
+        "median": 98.0,
+        "p75": 192.0,
+        "p99": 858.0,
+        "max": 11526.0
+      }
+    },
+    "in_synapses": {
+      "shape": [
+        166700
+      ],
+      "dtype": "int64",
+      "size": 166700,
+      "finite": true,
+      "zero": 370,
+      "negative": 0,
+      "positive": 166330,
+      "quantiles": {
+        "min": 0.0,
+        "p01": 5.0,
+        "p25": 194.0,
+        "median": 346.0,
+        "p75": 677.0,
+        "p99": 6805.010000000009,
+        "max": 119935.0
+      }
+    },
+    "scc": {
+      "components": 1385,
+      "largest": 165314,
+      "largest_fraction": 0.9916856628674265,
+      "nontrivial_components": 3
+    },
+    "reciprocal_directed_edges_including_self": 7647621,
+    "reciprocal_directed_fraction": 0.2989344304395375
+  },
+  "topology_post_pre_equal": true,
+  "brain_weights": {
+    "shape": [
+      25582938
+    ],
+    "dtype": "float32",
+    "size": 25582938,
+    "finite": true,
+    "zero": 1023803,
+    "negative": 9813998,
+    "positive": 14745137,
+    "quantiles": {
+      "min": -77.72999572753906,
+      "p01": -0.8100000023841858,
+      "p25": -0.029999999329447746,
+      "median": 0.029999999329447746,
+      "p75": 0.05999999865889549,
+      "p99": 1.0199999809265137,
+      "max": 43.16999816894531
+    }
+  },
+  "nt_counts": {
+    "acetylcholine": 103720,
+    "dopamine": 392,
+    "gaba": 22069,
+    "glutamate": 29302,
+    "histamine": 7891,
+    "octopamine": 101,
+    "serotonin": 48,
+    "unclear": 2999,
+    "unknown": 178
+  },
+  "superclass_connections": [
+    {
+      "pre": "ENS",
+      "post": "ENS",
+      "pairs": 3,
+      "synapses": 3
+    },
+    {
+      "pre": "ENS",
+      "post": "cb_endocrine",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "ascending_neuron",
+      "pairs": 110502,
+      "synapses": 656576
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_efferent",
+      "pairs": 29,
+      "synapses": 105
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_endocrine",
+      "pairs": 707,
+      "synapses": 7584
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_intrinsic",
+      "pairs": 229460,
+      "synapses": 1872674
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_motor",
+      "pairs": 3299,
+      "synapses": 58610
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_sensory",
+      "pairs": 5170,
+      "synapses": 24599
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "cb_sensory_tbc",
+      "pairs": 28,
+      "synapses": 174
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "descending_neuron",
+      "pairs": 66490,
+      "synapses": 572657
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "descending_neuron_tbc",
+      "pairs": 5,
+      "synapses": 21
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "efferent_ascending",
+      "pairs": 381,
+      "synapses": 2094
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "efferent_descending",
+      "pairs": 48,
+      "synapses": 166
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "ol_intrinsic",
+      "pairs": 1502,
+      "synapses": 2534
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "sensory_ascending",
+      "pairs": 3219,
+      "synapses": 25961
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "sensory_ascending_tbc",
+      "pairs": 12,
+      "synapses": 41
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "sensory_descending",
+      "pairs": 247,
+      "synapses": 1652
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "visual_centrifugal",
+      "pairs": 7116,
+      "synapses": 62973
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "visual_projection",
+      "pairs": 3875,
+      "synapses": 24244
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "visual_projection_tbc",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_efferent",
+      "pairs": 1525,
+      "synapses": 8190
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_endocrine",
+      "pairs": 313,
+      "synapses": 1464
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_intrinsic",
+      "pairs": 294323,
+      "synapses": 1594274
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_motor",
+      "pairs": 12914,
+      "synapses": 136992
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_sensory",
+      "pairs": 17381,
+      "synapses": 81764
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_sensory_tbc",
+      "pairs": 19,
+      "synapses": 48
+    },
+    {
+      "pre": "ascending_neuron",
+      "post": "vnc_tbc",
+      "pairs": 242,
+      "synapses": 778
+    },
+    {
+      "pre": "cb_efferent",
+      "post": "ascending_neuron",
+      "pairs": 5,
+      "synapses": 6
+    },
+    {
+      "pre": "cb_efferent",
+      "post": "cb_efferent",
+      "pairs": 4,
+      "synapses": 8
+    },
+    {
+      "pre": "cb_efferent",
+      "post": "cb_endocrine",
+      "pairs": 9,
+      "synapses": 11
+    },
+    {
+      "pre": "cb_efferent",
+      "post": "cb_intrinsic",
+      "pairs": 18,
+      "synapses": 23
+    },
+    {
+      "pre": "cb_efferent",
+      "post": "descending_neuron",
+      "pairs": 18,
+      "synapses": 26
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "ascending_neuron",
+      "pairs": 58,
+      "synapses": 80
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "cb_efferent",
+      "pairs": 3,
+      "synapses": 3
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "cb_endocrine",
+      "pairs": 314,
+      "synapses": 596
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "cb_intrinsic",
+      "pairs": 733,
+      "synapses": 2037
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "cb_sensory",
+      "pairs": 6,
+      "synapses": 6
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "descending_neuron",
+      "pairs": 94,
+      "synapses": 189
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "efferent_descending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "sensory_ascending",
+      "pairs": 5,
+      "synapses": 6
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "sensory_descending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "visual_centrifugal",
+      "pairs": 3,
+      "synapses": 6
+    },
+    {
+      "pre": "cb_endocrine",
+      "post": "visual_projection",
+      "pairs": 3,
+      "synapses": 3
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "ascending_neuron",
+      "pairs": 60298,
+      "synapses": 212075
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_efferent",
+      "pairs": 42,
+      "synapses": 104
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_endocrine",
+      "pairs": 6890,
+      "synapses": 45475
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_intrinsic",
+      "pairs": 6815307,
+      "synapses": 34365451
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_motor",
+      "pairs": 12638,
+      "synapses": 197543
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_sensory",
+      "pairs": 103671,
+      "synapses": 371813
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "cb_sensory_tbc",
+      "pairs": 173,
+      "synapses": 1014
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "descending_neuron",
+      "pairs": 299360,
+      "synapses": 2732731
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "efferent_ascending",
+      "pairs": 54,
+      "synapses": 89
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "efferent_descending",
+      "pairs": 177,
+      "synapses": 861
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "ol_intrinsic",
+      "pairs": 2643,
+      "synapses": 7969
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "ol_sensory",
+      "pairs": 1,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "sensory_ascending",
+      "pairs": 1477,
+      "synapses": 5127
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "sensory_ascending_tbc",
+      "pairs": 3,
+      "synapses": 3
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "sensory_descending",
+      "pairs": 143,
+      "synapses": 556
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "visual_centrifugal",
+      "pairs": 78811,
+      "synapses": 527967
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "visual_projection",
+      "pairs": 142393,
+      "synapses": 680696
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "visual_projection_tbc",
+      "pairs": 9,
+      "synapses": 46
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "vnc_efferent",
+      "pairs": 5,
+      "synapses": 15
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "vnc_intrinsic",
+      "pairs": 103,
+      "synapses": 415
+    },
+    {
+      "pre": "cb_intrinsic",
+      "post": "vnc_motor",
+      "pairs": 8,
+      "synapses": 80
+    },
+    {
+      "pre": "cb_motor",
+      "post": "ascending_neuron",
+      "pairs": 361,
+      "synapses": 484
+    },
+    {
+      "pre": "cb_motor",
+      "post": "cb_endocrine",
+      "pairs": 7,
+      "synapses": 26
+    },
+    {
+      "pre": "cb_motor",
+      "post": "cb_intrinsic",
+      "pairs": 5912,
+      "synapses": 27932
+    },
+    {
+      "pre": "cb_motor",
+      "post": "cb_motor",
+      "pairs": 985,
+      "synapses": 6906
+    },
+    {
+      "pre": "cb_motor",
+      "post": "cb_sensory",
+      "pairs": 111,
+      "synapses": 248
+    },
+    {
+      "pre": "cb_motor",
+      "post": "cb_sensory_tbc",
+      "pairs": 8,
+      "synapses": 31
+    },
+    {
+      "pre": "cb_motor",
+      "post": "descending_neuron",
+      "pairs": 1655,
+      "synapses": 2995
+    },
+    {
+      "pre": "cb_motor",
+      "post": "efferent_ascending",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_motor",
+      "post": "efferent_descending",
+      "pairs": 8,
+      "synapses": 12
+    },
+    {
+      "pre": "cb_motor",
+      "post": "ol_intrinsic",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "cb_motor",
+      "post": "sensory_ascending",
+      "pairs": 58,
+      "synapses": 63
+    },
+    {
+      "pre": "cb_motor",
+      "post": "visual_centrifugal",
+      "pairs": 122,
+      "synapses": 195
+    },
+    {
+      "pre": "cb_motor",
+      "post": "visual_projection",
+      "pairs": 38,
+      "synapses": 59
+    },
+    {
+      "pre": "cb_motor",
+      "post": "vnc_motor",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "ascending_neuron",
+      "pairs": 14762,
+      "synapses": 77899
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_efferent",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_endocrine",
+      "pairs": 107,
+      "synapses": 1457
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_intrinsic",
+      "pairs": 250103,
+      "synapses": 1785104
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_motor",
+      "pairs": 689,
+      "synapses": 5117
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_sensory",
+      "pairs": 96092,
+      "synapses": 252504
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "cb_sensory_tbc",
+      "pairs": 40,
+      "synapses": 96
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "descending_neuron",
+      "pairs": 23338,
+      "synapses": 138543
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "efferent_ascending",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "efferent_descending",
+      "pairs": 10,
+      "synapses": 27
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "ol_intrinsic",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "sensory_ascending",
+      "pairs": 104,
+      "synapses": 189
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "sensory_descending",
+      "pairs": 89,
+      "synapses": 284
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "visual_centrifugal",
+      "pairs": 947,
+      "synapses": 2718
+    },
+    {
+      "pre": "cb_sensory",
+      "post": "visual_projection",
+      "pairs": 10,
+      "synapses": 17
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "ascending_neuron",
+      "pairs": 23,
+      "synapses": 46
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "cb_intrinsic",
+      "pairs": 369,
+      "synapses": 2794
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "cb_motor",
+      "pairs": 15,
+      "synapses": 142
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "cb_sensory",
+      "pairs": 53,
+      "synapses": 111
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "cb_sensory_tbc",
+      "pairs": 1,
+      "synapses": 2
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "descending_neuron",
+      "pairs": 95,
+      "synapses": 811
+    },
+    {
+      "pre": "cb_sensory_tbc",
+      "post": "visual_centrifugal",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "ascending_neuron",
+      "pairs": 63640,
+      "synapses": 427455
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_efferent",
+      "pairs": 26,
+      "synapses": 73
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_endocrine",
+      "pairs": 473,
+      "synapses": 2271
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_intrinsic",
+      "pairs": 177652,
+      "synapses": 864574
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_motor",
+      "pairs": 5971,
+      "synapses": 110000
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_sensory",
+      "pairs": 3326,
+      "synapses": 10495
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "cb_sensory_tbc",
+      "pairs": 34,
+      "synapses": 199
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "descending_neuron",
+      "pairs": 75273,
+      "synapses": 598721
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "descending_neuron_tbc",
+      "pairs": 3,
+      "synapses": 22
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "efferent_ascending",
+      "pairs": 568,
+      "synapses": 4769
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "efferent_descending",
+      "pairs": 41,
+      "synapses": 104
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "ol_intrinsic",
+      "pairs": 6291,
+      "synapses": 8549
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "ol_sensory",
+      "pairs": 5,
+      "synapses": 5
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "sensory_ascending",
+      "pairs": 630,
+      "synapses": 2680
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "sensory_descending",
+      "pairs": 127,
+      "synapses": 358
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "visual_centrifugal",
+      "pairs": 7346,
+      "synapses": 38769
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "visual_projection",
+      "pairs": 4489,
+      "synapses": 8439
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_efferent",
+      "pairs": 2381,
+      "synapses": 28605
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_endocrine",
+      "pairs": 396,
+      "synapses": 5621
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_intrinsic",
+      "pairs": 246077,
+      "synapses": 1718761
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_motor",
+      "pairs": 17645,
+      "synapses": 229565
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_sensory",
+      "pairs": 5188,
+      "synapses": 32059
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_sensory_tbc",
+      "pairs": 6,
+      "synapses": 7
+    },
+    {
+      "pre": "descending_neuron",
+      "post": "vnc_tbc",
+      "pairs": 140,
+      "synapses": 458
+    },
+    {
+      "pre": "descending_neuron_tbc",
+      "post": "ascending_neuron",
+      "pairs": 29,
+      "synapses": 73
+    },
+    {
+      "pre": "descending_neuron_tbc",
+      "post": "descending_neuron",
+      "pairs": 6,
+      "synapses": 8
+    },
+    {
+      "pre": "descending_neuron_tbc",
+      "post": "vnc_efferent",
+      "pairs": 3,
+      "synapses": 13
+    },
+    {
+      "pre": "descending_neuron_tbc",
+      "post": "vnc_intrinsic",
+      "pairs": 12,
+      "synapses": 31
+    },
+    {
+      "pre": "descending_neuron_tbc",
+      "post": "vnc_motor",
+      "pairs": 3,
+      "synapses": 24
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "ascending_neuron",
+      "pairs": 416,
+      "synapses": 1641
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "cb_endocrine",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "cb_intrinsic",
+      "pairs": 173,
+      "synapses": 407
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "cb_motor",
+      "pairs": 33,
+      "synapses": 1171
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "cb_sensory",
+      "pairs": 4,
+      "synapses": 4
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "descending_neuron",
+      "pairs": 221,
+      "synapses": 511
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "efferent_ascending",
+      "pairs": 8,
+      "synapses": 15
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "ol_intrinsic",
+      "pairs": 80,
+      "synapses": 127
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "sensory_ascending",
+      "pairs": 125,
+      "synapses": 167
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "sensory_descending",
+      "pairs": 3,
+      "synapses": 4
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "visual_centrifugal",
+      "pairs": 9,
+      "synapses": 11
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "visual_projection",
+      "pairs": 13,
+      "synapses": 14
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_efferent",
+      "pairs": 10,
+      "synapses": 329
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_endocrine",
+      "pairs": 10,
+      "synapses": 52
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_intrinsic",
+      "pairs": 1882,
+      "synapses": 6268
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_motor",
+      "pairs": 191,
+      "synapses": 3067
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_sensory",
+      "pairs": 58,
+      "synapses": 120
+    },
+    {
+      "pre": "efferent_ascending",
+      "post": "vnc_tbc",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "ascending_neuron",
+      "pairs": 27,
+      "synapses": 42
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "cb_endocrine",
+      "pairs": 5,
+      "synapses": 5
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "cb_intrinsic",
+      "pairs": 141,
+      "synapses": 253
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "cb_motor",
+      "pairs": 8,
+      "synapses": 11
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "cb_sensory",
+      "pairs": 4,
+      "synapses": 5
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "descending_neuron",
+      "pairs": 29,
+      "synapses": 44
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "efferent_descending",
+      "pairs": 6,
+      "synapses": 19
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "sensory_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "sensory_descending",
+      "pairs": 2,
+      "synapses": 3
+    },
+    {
+      "pre": "efferent_descending",
+      "post": "visual_centrifugal",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "ascending_neuron",
+      "pairs": 318,
+      "synapses": 459
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "cb_intrinsic",
+      "pairs": 6101,
+      "synapses": 17191
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "cb_motor",
+      "pairs": 14,
+      "synapses": 51
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "cb_sensory",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "descending_neuron",
+      "pairs": 4612,
+      "synapses": 12468
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "efferent_ascending",
+      "pairs": 25,
+      "synapses": 42
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "ol_intrinsic",
+      "pairs": 8799556,
+      "synapses": 35691182
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "ol_sensory",
+      "pairs": 24047,
+      "synapses": 182275
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "visual_centrifugal",
+      "pairs": 133570,
+      "synapses": 366826
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "visual_projection",
+      "pairs": 1898506,
+      "synapses": 7714143
+    },
+    {
+      "pre": "ol_intrinsic",
+      "post": "visual_projection_tbc",
+      "pairs": 50,
+      "synapses": 121
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "cb_intrinsic",
+      "pairs": 5,
+      "synapses": 8
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "descending_neuron",
+      "pairs": 4,
+      "synapses": 5
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "ol_intrinsic",
+      "pairs": 63851,
+      "synapses": 564685
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "ol_sensory",
+      "pairs": 3265,
+      "synapses": 49546
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "visual_centrifugal",
+      "pairs": 371,
+      "synapses": 698
+    },
+    {
+      "pre": "ol_sensory",
+      "post": "visual_projection",
+      "pairs": 7414,
+      "synapses": 36420
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "ascending_neuron",
+      "pairs": 11999,
+      "synapses": 72217
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "cb_endocrine",
+      "pairs": 75,
+      "synapses": 265
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "cb_intrinsic",
+      "pairs": 15682,
+      "synapses": 88309
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "cb_motor",
+      "pairs": 1342,
+      "synapses": 11619
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "cb_sensory",
+      "pairs": 93,
+      "synapses": 141
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "descending_neuron",
+      "pairs": 4543,
+      "synapses": 18536
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "descending_neuron_tbc",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "efferent_ascending",
+      "pairs": 119,
+      "synapses": 230
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "efferent_descending",
+      "pairs": 3,
+      "synapses": 4
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "sensory_ascending",
+      "pairs": 5807,
+      "synapses": 23350
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "sensory_ascending_tbc",
+      "pairs": 6,
+      "synapses": 16
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "sensory_descending",
+      "pairs": 17,
+      "synapses": 44
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "visual_centrifugal",
+      "pairs": 371,
+      "synapses": 1783
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "visual_projection",
+      "pairs": 1,
+      "synapses": 3
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_efferent",
+      "pairs": 91,
+      "synapses": 238
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_endocrine",
+      "pairs": 12,
+      "synapses": 47
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_intrinsic",
+      "pairs": 32210,
+      "synapses": 135399
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_motor",
+      "pairs": 3098,
+      "synapses": 18593
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_sensory",
+      "pairs": 622,
+      "synapses": 1423
+    },
+    {
+      "pre": "sensory_ascending",
+      "post": "vnc_tbc",
+      "pairs": 8,
+      "synapses": 10
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "ascending_neuron",
+      "pairs": 10,
+      "synapses": 72
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "cb_intrinsic",
+      "pairs": 23,
+      "synapses": 138
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "cb_motor",
+      "pairs": 3,
+      "synapses": 7
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "descending_neuron",
+      "pairs": 2,
+      "synapses": 7
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "sensory_ascending",
+      "pairs": 5,
+      "synapses": 13
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "vnc_intrinsic",
+      "pairs": 15,
+      "synapses": 109
+    },
+    {
+      "pre": "sensory_ascending_tbc",
+      "post": "vnc_sensory",
+      "pairs": 4,
+      "synapses": 7
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "ascending_neuron",
+      "pairs": 671,
+      "synapses": 8292
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_efferent",
+      "pairs": 1,
+      "synapses": 2
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_endocrine",
+      "pairs": 9,
+      "synapses": 25
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_intrinsic",
+      "pairs": 785,
+      "synapses": 5759
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_motor",
+      "pairs": 10,
+      "synapses": 68
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_sensory",
+      "pairs": 81,
+      "synapses": 245
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "cb_sensory_tbc",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "descending_neuron",
+      "pairs": 446,
+      "synapses": 3952
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "efferent_ascending",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "efferent_descending",
+      "pairs": 3,
+      "synapses": 16
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "sensory_ascending",
+      "pairs": 17,
+      "synapses": 46
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "sensory_descending",
+      "pairs": 20,
+      "synapses": 202
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "visual_centrifugal",
+      "pairs": 11,
+      "synapses": 121
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "visual_projection",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "vnc_efferent",
+      "pairs": 4,
+      "synapses": 70
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "vnc_endocrine",
+      "pairs": 5,
+      "synapses": 82
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "vnc_intrinsic",
+      "pairs": 1164,
+      "synapses": 6663
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "vnc_motor",
+      "pairs": 94,
+      "synapses": 743
+    },
+    {
+      "pre": "sensory_descending",
+      "post": "vnc_sensory",
+      "pairs": 78,
+      "synapses": 212
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "ascending_neuron",
+      "pairs": 933,
+      "synapses": 1736
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_efferent",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_endocrine",
+      "pairs": 2,
+      "synapses": 2
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_intrinsic",
+      "pairs": 50929,
+      "synapses": 144766
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_motor",
+      "pairs": 152,
+      "synapses": 277
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_sensory",
+      "pairs": 195,
+      "synapses": 294
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "cb_sensory_tbc",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "descending_neuron",
+      "pairs": 4833,
+      "synapses": 19535
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "efferent_ascending",
+      "pairs": 5,
+      "synapses": 7
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "ol_intrinsic",
+      "pairs": 369642,
+      "synapses": 1469897
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "ol_sensory",
+      "pairs": 93,
+      "synapses": 181
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "sensory_ascending",
+      "pairs": 109,
+      "synapses": 387
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "sensory_descending",
+      "pairs": 5,
+      "synapses": 5
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "visual_centrifugal",
+      "pairs": 11629,
+      "synapses": 63616
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "visual_projection",
+      "pairs": 97278,
+      "synapses": 439005
+    },
+    {
+      "pre": "visual_centrifugal",
+      "post": "visual_projection_tbc",
+      "pairs": 3,
+      "synapses": 5
+    },
+    {
+      "pre": "visual_projection",
+      "post": "ascending_neuron",
+      "pairs": 2242,
+      "synapses": 6017
+    },
+    {
+      "pre": "visual_projection",
+      "post": "cb_endocrine",
+      "pairs": 26,
+      "synapses": 52
+    },
+    {
+      "pre": "visual_projection",
+      "post": "cb_intrinsic",
+      "pairs": 551521,
+      "synapses": 3847546
+    },
+    {
+      "pre": "visual_projection",
+      "post": "cb_motor",
+      "pairs": 389,
+      "synapses": 6387
+    },
+    {
+      "pre": "visual_projection",
+      "post": "cb_sensory",
+      "pairs": 2,
+      "synapses": 12
+    },
+    {
+      "pre": "visual_projection",
+      "post": "descending_neuron",
+      "pairs": 28999,
+      "synapses": 291793
+    },
+    {
+      "pre": "visual_projection",
+      "post": "efferent_ascending",
+      "pairs": 3,
+      "synapses": 3
+    },
+    {
+      "pre": "visual_projection",
+      "post": "ol_intrinsic",
+      "pairs": 480660,
+      "synapses": 1321731
+    },
+    {
+      "pre": "visual_projection",
+      "post": "ol_sensory",
+      "pairs": 185,
+      "synapses": 239
+    },
+    {
+      "pre": "visual_projection",
+      "post": "visual_centrifugal",
+      "pairs": 49194,
+      "synapses": 267179
+    },
+    {
+      "pre": "visual_projection",
+      "post": "visual_projection",
+      "pairs": 551099,
+      "synapses": 1613964
+    },
+    {
+      "pre": "visual_projection",
+      "post": "visual_projection_tbc",
+      "pairs": 30,
+      "synapses": 50
+    },
+    {
+      "pre": "visual_projection_tbc",
+      "post": "ascending_neuron",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "visual_projection_tbc",
+      "post": "cb_intrinsic",
+      "pairs": 20,
+      "synapses": 43
+    },
+    {
+      "pre": "visual_projection_tbc",
+      "post": "descending_neuron",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "visual_projection_tbc",
+      "post": "ol_intrinsic",
+      "pairs": 32,
+      "synapses": 46
+    },
+    {
+      "pre": "visual_projection_tbc",
+      "post": "visual_projection",
+      "pairs": 33,
+      "synapses": 95
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "ascending_neuron",
+      "pairs": 133,
+      "synapses": 194
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "descending_neuron",
+      "pairs": 68,
+      "synapses": 183
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "efferent_ascending",
+      "pairs": 5,
+      "synapses": 68
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "sensory_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "sensory_descending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "vnc_efferent",
+      "pairs": 225,
+      "synapses": 794
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "vnc_endocrine",
+      "pairs": 15,
+      "synapses": 19
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "vnc_intrinsic",
+      "pairs": 649,
+      "synapses": 1078
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "vnc_motor",
+      "pairs": 203,
+      "synapses": 807
+    },
+    {
+      "pre": "vnc_efferent",
+      "post": "vnc_sensory",
+      "pairs": 34,
+      "synapses": 49
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "ascending_neuron",
+      "pairs": 50,
+      "synapses": 82
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "descending_neuron",
+      "pairs": 26,
+      "synapses": 31
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "efferent_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "sensory_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "vnc_efferent",
+      "pairs": 17,
+      "synapses": 23
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "vnc_endocrine",
+      "pairs": 42,
+      "synapses": 235
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "vnc_intrinsic",
+      "pairs": 118,
+      "synapses": 198
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "vnc_motor",
+      "pairs": 38,
+      "synapses": 55
+    },
+    {
+      "pre": "vnc_endocrine",
+      "post": "vnc_sensory",
+      "pairs": 4,
+      "synapses": 4
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "ascending_neuron",
+      "pairs": 274737,
+      "synapses": 1636238
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "cb_intrinsic",
+      "pairs": 19,
+      "synapses": 24
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "descending_neuron",
+      "pairs": 47789,
+      "synapses": 145735
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "descending_neuron_tbc",
+      "pairs": 5,
+      "synapses": 5
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "efferent_ascending",
+      "pairs": 1460,
+      "synapses": 7227
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "sensory_ascending",
+      "pairs": 5035,
+      "synapses": 31364
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "sensory_ascending_tbc",
+      "pairs": 4,
+      "synapses": 6
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "sensory_descending",
+      "pairs": 264,
+      "synapses": 1875
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_efferent",
+      "pairs": 10948,
+      "synapses": 129587
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_endocrine",
+      "pairs": 1667,
+      "synapses": 13059
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_intrinsic",
+      "pairs": 1831764,
+      "synapses": 11042345
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_motor",
+      "pairs": 155068,
+      "synapses": 2214610
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_sensory",
+      "pairs": 72684,
+      "synapses": 365870
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_sensory_tbc",
+      "pairs": 105,
+      "synapses": 217
+    },
+    {
+      "pre": "vnc_intrinsic",
+      "post": "vnc_tbc",
+      "pairs": 1294,
+      "synapses": 4819
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "ascending_neuron",
+      "pairs": 663,
+      "synapses": 1314
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "cb_motor",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "descending_neuron",
+      "pairs": 476,
+      "synapses": 599
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "efferent_ascending",
+      "pairs": 5,
+      "synapses": 5
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "sensory_ascending",
+      "pairs": 42,
+      "synapses": 47
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_efferent",
+      "pairs": 212,
+      "synapses": 919
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_endocrine",
+      "pairs": 33,
+      "synapses": 41
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_intrinsic",
+      "pairs": 9553,
+      "synapses": 18590
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_motor",
+      "pairs": 2424,
+      "synapses": 7892
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_sensory",
+      "pairs": 205,
+      "synapses": 460
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_sensory_tbc",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_motor",
+      "post": "vnc_tbc",
+      "pairs": 14,
+      "synapses": 34
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "ascending_neuron",
+      "pairs": 116619,
+      "synapses": 784019
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "descending_neuron",
+      "pairs": 8327,
+      "synapses": 42325
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "efferent_ascending",
+      "pairs": 65,
+      "synapses": 101
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "sensory_ascending",
+      "pairs": 703,
+      "synapses": 1673
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "sensory_ascending_tbc",
+      "pairs": 2,
+      "synapses": 3
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "sensory_descending",
+      "pairs": 80,
+      "synapses": 188
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_efferent",
+      "pairs": 810,
+      "synapses": 3538
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_endocrine",
+      "pairs": 120,
+      "synapses": 345
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_intrinsic",
+      "pairs": 357840,
+      "synapses": 1968053
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_motor",
+      "pairs": 9258,
+      "synapses": 58254
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_sensory",
+      "pairs": 142515,
+      "synapses": 439451
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_sensory_tbc",
+      "pairs": 142,
+      "synapses": 252
+    },
+    {
+      "pre": "vnc_sensory",
+      "post": "vnc_tbc",
+      "pairs": 851,
+      "synapses": 2502
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "ascending_neuron",
+      "pairs": 206,
+      "synapses": 580
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "descending_neuron",
+      "pairs": 19,
+      "synapses": 44
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "sensory_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "vnc_intrinsic",
+      "pairs": 864,
+      "synapses": 2530
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "vnc_motor",
+      "pairs": 8,
+      "synapses": 30
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "vnc_sensory",
+      "pairs": 148,
+      "synapses": 269
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "vnc_sensory_tbc",
+      "pairs": 2,
+      "synapses": 3
+    },
+    {
+      "pre": "vnc_sensory_tbc",
+      "post": "vnc_tbc",
+      "pairs": 2,
+      "synapses": 4
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "ascending_neuron",
+      "pairs": 304,
+      "synapses": 1563
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "descending_neuron",
+      "pairs": 38,
+      "synapses": 60
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "efferent_ascending",
+      "pairs": 1,
+      "synapses": 1
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "sensory_ascending",
+      "pairs": 3,
+      "synapses": 4
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_efferent",
+      "pairs": 32,
+      "synapses": 79
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_endocrine",
+      "pairs": 9,
+      "synapses": 14
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_intrinsic",
+      "pairs": 1926,
+      "synapses": 8451
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_motor",
+      "pairs": 170,
+      "synapses": 1076
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_sensory",
+      "pairs": 575,
+      "synapses": 2319
+    },
+    {
+      "pre": "vnc_tbc",
+      "post": "vnc_tbc",
+      "pairs": 13,
+      "synapses": 59
+    }
+  ],
+  "within_superclass": {
+    "pairs": 18446856,
+    "synapses": 84813440
+  },
+  "brain_vs_count_sign_rule": {
+    "changed": 1802,
+    "max_abs": 4.428123950958252,
+    "source_sign_zero_neurons": 3718,
+    "initial_zero_edges": 1023803
+  },
+  "effective_parameters": {
+    "tau": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 0.011011766269803047,
+        "p01": 0.015319297453388572,
+        "p25": 0.01865093596279621,
+        "median": 0.01999763585627079,
+        "p75": 0.02135331928730011,
+        "p99": 0.024667882788926378,
+        "max": 0.029463915154337883
+      }
+    },
+    "theta": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 0.0025151970330625772,
+        "p01": 0.9002863800525666,
+        "p25": 4.382585048675537,
+        "median": 7.480116128921509,
+        "p75": 14.668691635131836,
+        "p99": 155.89407058715835,
+        "max": 4632.31396484375
+      }
+    },
+    "gain": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 7.837841938494406e-06,
+        "p01": 0.0002394599736722222,
+        "p25": 0.002534967727416347,
+        "median": 0.004974394289928229,
+        "p75": 0.008497721355892569,
+        "p99": 0.04145360523374734,
+        "max": 13.225799028889202
+      }
+    },
+    "cuda_tau": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 0.011011766269803047,
+        "p01": 0.015319297453388572,
+        "p25": 0.01865093596279621,
+        "median": 0.01999763585627079,
+        "p75": 0.02135331928730011,
+        "p99": 0.024667882788926378,
+        "max": 0.029463915154337883
+      }
+    },
+    "cuda_theta": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 0.0025151970330625772,
+        "p01": 0.9002863800525666,
+        "p25": 4.382585048675537,
+        "median": 7.480116128921509,
+        "p75": 14.668691635131836,
+        "p99": 155.89407058715835,
+        "max": 4632.31396484375
+      }
+    },
+    "cuda_gain": {
+      "shape": [
+        166700
+      ],
+      "dtype": "float64",
+      "size": 166700,
+      "finite": true,
+      "zero": 0,
+      "negative": 0,
+      "positive": 166700,
+      "quantiles": {
+        "min": 7.837841938494406e-06,
+        "p01": 0.0002394599736722222,
+        "p25": 0.002534967727416347,
+        "median": 0.004974394289928229,
+        "p75": 0.008497721355892569,
+        "p99": 0.04145360523374734,
+        "max": 13.225799028889202
+      }
+    }
+  },
+  "effective_weights": {
+    "weights": {
+      "shape": [
+        25582938
+      ],
+      "dtype": "float64",
+      "size": 25582938,
+      "finite": true,
+      "zero": 1023803,
+      "negative": 9812146,
+      "positive": 14746989,
+      "quantiles": {
+        "min": -77.72999572753906,
+        "p01": -0.8100000023841858,
+        "p25": -0.029999999329447746,
+        "median": 0.029999999329447746,
+        "p75": 0.05999999865889549,
+        "p99": 1.0199999809265137,
+        "max": 43.16999816894531
+      }
+    },
+    "cuda_weights": {
+      "shape": [
+        25582938
+      ],
+      "dtype": "float64",
+      "size": 25582938,
+      "finite": true,
+      "zero": 1023803,
+      "negative": 9812146,
+      "positive": 14746989,
+      "quantiles": {
+        "min": -77.72999572753906,
+        "p01": -0.8100000023841858,
+        "p25": -0.029999999329447746,
+        "median": 0.029999999329447746,
+        "p75": 0.05999999865889549,
+        "p99": 1.0199999809265137,
+        "max": 43.16999816894531
+      }
+    }
+  },
+  "effective_cpu_gpu_difference": {
+    "changed": 0,
+    "max_abs": 0.0
+  },
+  "brain_effective_gpu_difference": {
+    "changed": 1852,
+    "max_abs": 2.1599998474121094
+  },
+  "effective_gpu_source_sign_disagreement_edges": 1852,
+  "effective_main_scc": {
+    "components": 4803,
+    "largest": 161897,
+    "largest_fraction": 0.9711877624475105,
+    "active_edges": 24559135
+  },
+  "budget": {
+    "wall_limit_s": 120,
+    "memory_limit_gib": 6,
+    "wall_s": 5.576369445974706,
+    "maxrss_kib": 1586632,
+    "gpu_loaded": false,
+    "historical_writes": false
+  },
+  "script_sha256": "b0064e13c8f2ef89712e51085eb37d776153a12f7a15a5a08deb3051a52cf754"
+}

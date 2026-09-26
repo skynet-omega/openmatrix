@@ -1,0 +1,30 @@
+{
+  "review_date": "2026-09-26",
+  "status": "REVIEW_CLOSED_LONG_PAIR_FAIL",
+  "scope": "Current full organism path only; no guarantee of global numerical convergence or biology",
+  "repairs": {
+    "event_endpoint": "reviews/math/ENDPOINT_GPU_CHECK.json",
+    "pn_setup": "reviews/cuda/PN_STREAM_ORDER_CPU.json",
+    "wind_mapping": "reviews/WIND_CPU_V2.json"
+  },
+  "reviewers": [
+    "reviews/math/MATH.md",
+    "reviews/CUDA.md",
+    "reviews/DATASET.md",
+    "reviews/data/RUNNER_REVIEW.md"
+  ],
+  "verifier": "reviews/cuda/VERIFIER_TESTS_CPU.json",
+  "diagnostic": "diagnostic_20ms_01/RESULT.json",
+  "sources_sha256": "0ee67395796b3a3399581a42667e5f1130d8744499124725e7f25bca5bdd5bea",
+  "sources_and_inputs_count": 346,
+  "next_gate": "No more runs in this round; preserve evidence and define numerical/discrete-output contract before a future trial",
+  "no_scientific_tolerance_change": true,
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "functional_gate": "PAIR2000.json",
+  "runtime_gate": "RUNTIME_PAIR2000.json",
+  "no_active_simulations": true,
+  "measured_process_wall_s": {
+    "stable": 6241.904438273021,
+    "reviewed": 3263.3683084650256
+  }
+}

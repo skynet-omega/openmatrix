@@ -1,0 +1,580 @@
+{
+  "status": "COMPLETE",
+  "engine": "stable",
+  "requested_ms": 2000,
+  "completed_ms": 2000,
+  "parameters_changed": false,
+  "event_owner": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15",
+  "scope": "Whole organism from campaign40 preparation; continuous corrected world wind, common PN setup repair",
+  "source_checkpoint": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state",
+  "source_trace_sha256": "d45939b72bd20ef46793664ada893796253573c225cd18515a9c9ffe2bc1b250",
+  "runner_sha256": "5e53608c66998f4a2f997c27a1ff0fddba14c456e8aca119dd382cc14730860d",
+  "restore_sha256": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+  "plan_sha256": "e15bfe7fabc5af98d52d7b67ded1ae9172b3763bb4851ce9f71075373b2ae59d",
+  "sources_sha256": "0ee67395796b3a3399581a42667e5f1130d8744499124725e7f25bca5bdd5bea",
+  "restoration": {
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "initial": {
+    "exact": true,
+    "trees": {
+      "session": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 574,
+        "array_values": 128062458,
+        "scalar_leaves": 5254391,
+        "containers": 701740
+      },
+      "prosthesis": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 5,
+        "array_values": 124,
+        "scalar_leaves": 1553,
+        "containers": 532
+      },
+      "published": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 166700,
+        "scalar_leaves": 6,
+        "containers": 3
+      },
+      "effective_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 8,
+        "array_values": 52166076,
+        "scalar_leaves": 38,
+        "containers": 28
+      },
+      "boundary": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 10,
+        "containers": 3
+      }
+    },
+    "method": "Direct recursive key/length/type/shape/dtype/value comparison; no structural hash",
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d"
+  },
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "pn_overlay": {
+    "cyclic_tree": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+    },
+    "resident_cyclic": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+    }
+  },
+  "load_setup_s": 34.61652847501682,
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "cupy": "13.6.0",
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]"
+  },
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "organism_adapter",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+        "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 32000,
+      "accepted": 204420048,
+      "rejected": 965171,
+      "build_s": 0.0021660329948645085,
+      "native_wall_s": 557.9443444919307,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        10.0,
+        40.0
+      ]
+    },
+    "CNS": {
+      "epochs": 32000,
+      "accepted": 371595,
+      "rejected": 2,
+      "build_s": 0.18148152501089498,
+      "device_bytes": 55914496,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true
+    },
+    "PN": {
+      "calls": 32000,
+      "accepted": 32000,
+      "rejected": 0,
+      "build_s": 2.325046668003779,
+      "wall_s": 420.79188169798,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 64000,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 32000,
+      "events": 155764,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "global_trials": 371597,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 16000,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 801060
+    }
+  },
+  "thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "advance_total_s": 6119.69002574656,
+  "hardware_samples": [
+    {
+      "step": 0,
+      "pid": 690551,
+      "maxrss_KiB": 228284,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 947 MiB, 40"
+    },
+    {
+      "step": 1,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 56 %, 2084 MiB, 50"
+    },
+    {
+      "step": 100,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2069 MiB, 43"
+    },
+    {
+      "step": 200,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2076 MiB, 45"
+    },
+    {
+      "step": 300,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2080 MiB, 45"
+    },
+    {
+      "step": 400,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2046 MiB, 45"
+    },
+    {
+      "step": 500,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2054 MiB, 45"
+    },
+    {
+      "step": 600,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 3 %, 2053 MiB, 45"
+    },
+    {
+      "step": 700,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 4 %, 2053 MiB, 45"
+    },
+    {
+      "step": 800,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 3 %, 2056 MiB, 45"
+    },
+    {
+      "step": 900,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 3 %, 2043 MiB, 45"
+    },
+    {
+      "step": 1000,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2113 MiB, 43"
+    },
+    {
+      "step": 1100,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2075 MiB, 45"
+    },
+    {
+      "step": 1200,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2198 MiB, 45"
+    },
+    {
+      "step": 1300,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2181 MiB, 45"
+    },
+    {
+      "step": 1400,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2100 MiB, 45"
+    },
+    {
+      "step": 1500,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2179 MiB, 43"
+    },
+    {
+      "step": 1600,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        },
+        {
+          "pid": 703005,
+          "script": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/render_neural_trajectory_video.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 2 %, 2170 MiB, 44"
+    },
+    {
+      "step": 1700,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2215 MiB, 44"
+    },
+    {
+      "step": 1800,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 1 %, 2169 MiB, 45"
+    },
+    {
+      "step": 1900,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2206 MiB, 44"
+    },
+    {
+      "step": 2000,
+      "pid": 690551,
+      "maxrss_KiB": 6875524,
+      "python_processes": [
+        {
+          "pid": 690544,
+          "script": "motor_nuevo/full_pipeline_review_20260925_12/run_sequence.py"
+        },
+        {
+          "pid": 690551,
+          "script": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py"
+        }
+      ],
+      "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 2152 MiB, 43"
+    }
+  ],
+  "wall_total_s": 6241.904438273021,
+  "resources_peak_rss_bytes": 7950229504
+}

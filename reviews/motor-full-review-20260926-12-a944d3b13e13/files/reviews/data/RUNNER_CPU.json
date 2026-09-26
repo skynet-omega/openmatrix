@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "scope": "Test actual MotorWind class methods with a pure CPU fake body.\n\nThis checks scheduling and motor memory only. No MuJoCo integration, CNS,\nCuPy, GPU allocation, or organism loading occurs. Geometry was checked by the\nparent's existing WIND_CPU_V2 fixture and is not claimed by this check.\n",
+  "wall_s": 0.15095862300950103,
+  "wall_budget_s": 30,
+  "mock_body_calls": 80000,
+  "wind_calls": 800,
+  "first_wind_call": 40001,
+  "last_wind_call": 40800,
+  "first_wind_left_s": 1.0,
+  "last_wind_left_s": 1.019975,
+  "filters_continuous": true,
+  "checkpoints": {
+    "20": {
+      "body_calls": 800,
+      "wind_substeps": 0,
+      "filtered": 0.0038376528104224466,
+      "applied": 0.08726646259971647
+    },
+    "100": {
+      "body_calls": 4000,
+      "wind_substeps": 0,
+      "filtered": 0.015867567781415064,
+      "applied": 0.08726646259971647
+    },
+    "1000": {
+      "body_calls": 40000,
+      "wind_substeps": 0,
+      "filtered": 0.04005560621111888,
+      "applied": 0.08726646259971647
+    },
+    "1001": {
+      "body_calls": 40040,
+      "wind_substeps": 40,
+      "filtered": 0.04005696143727809,
+      "applied": 0.08726646259971647
+    },
+    "1020": {
+      "body_calls": 40800,
+      "wind_substeps": 800,
+      "filtered": 0.04008146411235638,
+      "applied": 0.08726646259971647
+    },
+    "1021": {
+      "body_calls": 40840,
+      "wind_substeps": 800,
+      "filtered": 0.04008269037169513,
+      "applied": 0.08726646259971647
+    },
+    "2000": {
+      "body_calls": 80000,
+      "wind_substeps": 800,
+      "filtered": 0.04032549876278564,
+      "applied": 0.08726646259971647
+    }
+  },
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py": "9fc1b12321262187c3c5d5ad54704a6f52f5989aa8a94f0de818a60672a68d99",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/PLAN.json": "6a1df6ef2e90e567a604ae930e91ff4897133fd6df4b77e63fd95e83430b89bf",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/full_snapshot.py": "d7bf8355726d61788db6acf79c53b0311661a799d68c4a4b8b2cadc328429f5e",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/source_inventory.py": "2ba8d56efc034d8a18a8815f960a90e90adbb2ecb08c7b7f0026fc343667a236",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/wind_mapping.py": "7b8d826bfc72417dda7e7730a93bdfef7a39c509c59bbe7f81fff3a86eced02e",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/motor_wind_fixed.py": "8d9dabd8bb115e34c15ca2d494a1b388697828785d7816863a73e2eab06bfd94",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/restore_prepared.py": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/state_compare.py": "4a3b0aa040fae75be29c5dc371588c30a0aba287cf528906563b0b45939aee4c",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/install_pn.py": "b26fffe433f050872874c0f6d50c2321b305e14f6538291dae5995da591108d9",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/motor_wind.py": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01"
+  },
+  "organism_loaded": false,
+  "gpu_loaded": false,
+  "physical_dynamics_simulated": false
+}

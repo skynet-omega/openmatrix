@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-neural-continuity-stop-20260925-44](reviews/stage45-neural-continuity-stop-20260925-44-9e00ec7fd6d8/README.md)
+[motor-full-review-20260926-12](reviews/motor-full-review-20260926-12-a944d3b13e13/README.md)
 
-Sham120ms:35 original observables exactly reproduced. CPU3169.303591s exceeds frozen3000s; common/virtual not run. Public data/code can reconstruct observed equality and CPU stop; complete checkpoints are omitted here and preserved in the separately hashed local full1.16GB capsule, clean CPU verification passed. No new CNS reproduction, navigation admission or biological equivalence.
+Revisión integral C++/CUDA y pareja continua2s: FAIL de mando exacto en1/2000 pasos,47,72% menos tiempo y27,19min/s. Evidencia negativa preservada; subconjunto para revisión, alcance detallado en PUBLIC_SCOPE.md.

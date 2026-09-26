@@ -1,0 +1,50 @@
+{
+  "installed_implementations": {
+    "membrane": {
+      "module": "device_cell",
+      "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+      "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+    },
+    "CNS": {
+      "module": "organism_adapter",
+      "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+      "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+    },
+    "PN": {
+      "module": "pn_inhibitory_closure_source",
+      "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+      "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+    }
+  },
+  "pn_overlay": {
+    "cyclic_tree": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+    },
+    "resident_cyclic": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+    }
+  },
+  "native_library": {
+    "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/libgraph_control_v2.so",
+    "sha256": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+    "identity_basis": "Frozen binary; not loaded by this CPU verifier"
+  },
+  "CNS_method": "stable exponential midpoint (frozen organism_adapter/graph_core)",
+  "CNS_accepted": 18398,
+  "CNS_rejected": 0,
+  "epochs": 1600,
+  "partition_exchanges": 800,
+  "coupling_ns": 125000,
+  "predictor_restore_exact": true,
+  "event_records_including_discarded_predictors": 7812,
+  "max_q_reconstruction_difference": 8.326672684688674e-16,
+  "PN_model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+  "status": "PASS_STABLE_RUNTIME_ONLY",
+  "scope": "Existing stable100ms artifacts read on CPU; pair not yet verified.",
+  "supplement_sha256": "0cd03d9035c068766c095cf7e49c37eaf58c5c032a2710f7bb145f395fad86b8",
+  "sources_sha256": "0ee67395796b3a3399581a42667e5f1130d8744499124725e7f25bca5bdd5bea",
+  "result_sha256": "e3519a490b46299148426dee5e5fe94db1dd618c905061c377f9d1452c7f355d",
+  "events_sha256": "0503fbcdf3652de0af4c54cc95a5b24ab993fd2e82943056d4a30037ebfae2a0"
+}

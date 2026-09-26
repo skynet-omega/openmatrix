@@ -1,0 +1,59 @@
+{
+  "status": "PASS_ENDPOINT_GPU",
+  "wall_s": 1.288398232019972,
+  "cases": [
+    {
+      "case": "recorded_above",
+      "counts": [
+        3,
+        0,
+        11462
+      ],
+      "max_error": 0.00047402157171086494,
+      "next_ns": 125000,
+      "exact_free_state": 9.64140829088401e-05,
+      "free_state": 9.64140829468164e-05,
+      "free_abs_error": 3.797629528554114e-14,
+      "left_q": 0.0,
+      "right_q": 1.0
+    },
+    {
+      "case": "recorded_below",
+      "counts": [
+        3,
+        0,
+        5582
+      ],
+      "max_error": 0.00015670362956256796,
+      "next_ns": 125000,
+      "exact_free_state": 6.663264456724496e-05,
+      "free_state": 6.663264457588745e-05,
+      "free_abs_error": 8.642487225006545e-15,
+      "left_q": 0.0,
+      "right_q": 1.0
+    },
+    {
+      "case": "manufactured_accuracy_limit",
+      "counts": [
+        3,
+        0,
+        90
+      ],
+      "max_error": 9.59231073266805e-05,
+      "next_ns": 1000,
+      "exact_free_state": 0.000778212422649521,
+      "free_state": 0.0007782124226655753,
+      "free_abs_error": 1.6054323669079107e-14,
+      "left_q": 0.0,
+      "right_q": 1.0
+    }
+  ],
+  "scope": "Synthetic projected systems only; no organism integration",
+  "source_sha256": {
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/reviews/math/check_endpoint_gpu.py": "3931c9cdae3779cf4c87d1f8978543a282bdc8d6e68d8bfc576ec1273a630e4e",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/graph_runtime.py": "97cecb15ad321165ad90100c4bb81f3e7dbb19c1a7de9e153fc481f1fa33c3d1",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/resident_controller.cu": "6940d56d8cf6fa6fa26c4598dd1874598f338cc1efa185b68929399824be7125",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/libresident_controller.so": "c8c1ad62efbbd5a136ce438c6d13a4a8c2057407b33e76825291a450c81e0fd0",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6"
+  }
+}

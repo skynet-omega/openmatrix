@@ -1,0 +1,169 @@
+{
+  "status": "COUNTEREXAMPLE_CONFIRMED_CPU",
+  "gpu_executed": false,
+  "neural_simulations_executed": 0,
+  "scope": "Binary64 arithmetic and saved-calendar susceptibility, not a reconstruction of unrecorded CUDA trials",
+  "source_sha256": {
+    "motor_nuevo/event_memory_rk3_20260925_11/engine/graph_runtime.py": "76ca6c0b7626cef192fe5d82c9f914ffa7fb7b9c177b0856d830236457f7a083",
+    "motor_nuevo/event_memory_rk3_20260925_11/engine/resident_controller.cu": "515858acfe01beddf44396f5d54c93619e950e4aab81d07cde1cdf20dae4c64c",
+    "campanas/etapa3_pn629_intervention_20260923_15/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "motor_nuevo/event_memory_rk3_20260925_11/candidate_1000ms_01/EVENTS.json": "c6216ec8e8d72457607741b8b4740ebf5f3caff19c941550dbc28ba851a83f5b"
+  },
+  "saved_calendar_summary": {
+    "predictor": {
+      "adjacent_pairs": 25973,
+      "rounded_above": 157,
+      "rounded_below": 180
+    },
+    "committed": {
+      "adjacent_pairs": 51962,
+      "rounded_above": 232,
+      "rounded_below": 196
+    }
+  },
+  "first_examples": {
+    "committed_above": {
+      "block": 21,
+      "start_elapsed_ns": 1523250000,
+      "start_s": 1.1461103097022343e-05,
+      "stop_s": 2.8348089914503676e-05,
+      "h_s": 1.6886986817481334e-05,
+      "reconstructed_endpoint_s": 2.834808991450368e-05,
+      "reconstructed_left_s": 2.8348089914503676e-05,
+      "endpoint_delta_ulp": 1.0,
+      "legacy_left_excludes_event": false,
+      "legacy_right_includes_event": true,
+      "canonical_left_excludes_event": true,
+      "canonical_right_includes_event": true,
+      "hex": {
+        "start": "0x1.8092203ea0263p-17",
+        "stop": "0x1.db9a1e7c79fc3p-16",
+        "h": "0x1.1b510e5d29e92p-16",
+        "end": "0x1.db9a1e7c79fc4p-16",
+        "left": "0x1.db9a1e7c79fc3p-16"
+      }
+    },
+    "committed_below": {
+      "block": 27,
+      "start_elapsed_ns": 1523625000,
+      "start_s": 5.581565907498342e-06,
+      "stop_s": 5.825387811154045e-05,
+      "h_s": 5.2672312204042105e-05,
+      "reconstructed_endpoint_s": 5.8253878111540444e-05,
+      "reconstructed_left_s": 5.825387811154044e-05,
+      "endpoint_delta_ulp": -1.0,
+      "legacy_left_excludes_event": true,
+      "legacy_right_includes_event": false,
+      "canonical_left_excludes_event": true,
+      "canonical_right_includes_event": true,
+      "hex": {
+        "start": "0x1.7692927749d14p-18",
+        "stop": "0x1.e8ab402c6028bp-15",
+        "h": "0x1.b9d8eddd76ee8p-15",
+        "end": "0x1.e8ab402c6028ap-15",
+        "left": "0x1.e8ab402c60289p-15"
+      }
+    },
+    "predictor_below": {
+      "block": 134,
+      "start_elapsed_ns": 1530375000,
+      "start_s": 2.4016845314735326e-06,
+      "stop_s": 7.5058443241263354e-06,
+      "h_s": 5.104159792652802e-06,
+      "reconstructed_endpoint_s": 7.505844324126335e-06,
+      "reconstructed_left_s": 7.505844324126334e-06,
+      "endpoint_delta_ulp": -1.0,
+      "legacy_left_excludes_event": true,
+      "legacy_right_includes_event": false,
+      "canonical_left_excludes_event": true,
+      "canonical_right_includes_event": true,
+      "hex": {
+        "start": "0x1.4259408c80ba5p-19",
+        "stop": "0x1.f7b56c714f1fdp-18",
+        "h": "0x1.5688cc2b0ec2ap-18",
+        "end": "0x1.f7b56c714f1fcp-18",
+        "left": "0x1.f7b56c714f1fbp-18"
+      }
+    },
+    "predictor_above": {
+      "block": 334,
+      "start_elapsed_ns": 1542875000,
+      "start_s": 2.320635733599004e-05,
+      "stop_s": 5.5353734289174065e-05,
+      "h_s": 3.214737695318403e-05,
+      "reconstructed_endpoint_s": 5.535373428917407e-05,
+      "reconstructed_left_s": 5.5353734289174065e-05,
+      "endpoint_delta_ulp": 1.0,
+      "legacy_left_excludes_event": false,
+      "legacy_right_includes_event": true,
+      "canonical_left_excludes_event": true,
+      "canonical_right_includes_event": true,
+      "hex": {
+        "start": "0x1.85568bbaafdc7p-16",
+        "stop": "0x1.d0573d3ef2517p-15",
+        "h": "0x1.0dabf7619a634p-15",
+        "end": "0x1.d0573d3ef2518p-15",
+        "left": "0x1.d0573d3ef2517p-15"
+      }
+    }
+  },
+  "manufactured_false_rejection": {
+    "model": "x'=rate*(q-x), x=0 before the q:0->1 event",
+    "rate_per_s": 1.0,
+    "exact_pre_event_free_state": 0.0,
+    "rk_high_free_state": 0.0,
+    "all_final_coordinates_in_unit_interval": true,
+    "legacy_k4": 1.0,
+    "normalized_legacy_error": 21.10873352185167,
+    "canonical_k4": 0.0,
+    "normalized_canonical_error": 0.0,
+    "rejected": true,
+    "smaller_ns": 8443,
+    "minimum_ns": 100,
+    "accuracy_limit": false
+  },
+  "manufactured_accuracy_limit": {
+    "clock": {
+      "start_s": 8.953986794548705e-08,
+      "stop_s": 2.2146945245705997e-07,
+      "h_s": 1.3192958451157292e-07,
+      "reconstructed_endpoint_s": 2.2146945245706e-07,
+      "reconstructed_left_s": 2.2146945245705997e-07,
+      "endpoint_delta_ulp": 1.0,
+      "legacy_left_excludes_event": false,
+      "legacy_right_includes_event": true,
+      "canonical_left_excludes_event": true,
+      "canonical_right_includes_event": true,
+      "hex": {
+        "start": "0x1.8092203ea0263p-24",
+        "stop": "0x1.db9a1e7c79fc3p-23",
+        "h": "0x1.1b510e5d29e92p-23",
+        "end": "0x1.db9a1e7c79fc4p-23",
+        "left": "0x1.db9a1e7c79fc3p-23"
+      }
+    },
+    "model": "x'=rate*(q-x), x=0 before the q:0->1 event",
+    "rate_per_s": 1000.0,
+    "exact_pre_event_free_state": 0.0,
+    "rk_high_free_state": 0.0,
+    "all_final_coordinates_in_unit_interval": true,
+    "legacy_k4": 1000.0,
+    "normalized_legacy_error": 164.91198063946618,
+    "canonical_k4": 0.0,
+    "normalized_canonical_error": 0.0,
+    "rejected": true,
+    "smaller_ns": 65,
+    "minimum_ns": 100,
+    "accuracy_limit": true
+  },
+  "embedded_estimator_limit": {
+    "equation": "y'=-10000*y, y(0)=1, h=100 microseconds",
+    "high_exact_rational": "1/3",
+    "embedded_exact_rational": "0",
+    "true_value": 0.36787944117144233,
+    "absolute_error": 0.03454610783810902,
+    "scale": 1.0100000000000002e-05,
+    "normalized_true_error": 3420.406716644457,
+    "scope": "Inherent embedded-estimator counterexample; no claim this mode was encountered by organism11"
+  }
+}

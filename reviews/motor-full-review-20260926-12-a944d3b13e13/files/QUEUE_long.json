@@ -1,0 +1,17 @@
+{
+  "status": "STOPPED",
+  "stage": "long",
+  "completed": [
+    "stable_2000ms_01",
+    "reviewed_2000ms_01"
+  ],
+  "process_wall_s": {
+    "stable": 6243.125515963999,
+    "reviewed": 3264.570257327985
+  },
+  "active": "reviewed_2000ms_01",
+  "error": {
+    "type": "RuntimeError",
+    "message": "Child failed with exit 2: /home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/verify_2000.log"
+  }
+}

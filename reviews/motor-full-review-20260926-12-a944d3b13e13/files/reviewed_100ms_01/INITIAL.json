@@ -1,0 +1,47 @@
+{
+  "exact": true,
+  "trees": {
+    "session": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 574,
+      "array_values": 128062458,
+      "scalar_leaves": 5254391,
+      "containers": 701740
+    },
+    "prosthesis": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 5,
+      "array_values": 124,
+      "scalar_leaves": 1553,
+      "containers": 532
+    },
+    "published": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 1,
+      "array_values": 166700,
+      "scalar_leaves": 6,
+      "containers": 3
+    },
+    "effective_operator": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 8,
+      "array_values": 52166076,
+      "scalar_leaves": 38,
+      "containers": 28
+    },
+    "boundary": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 0,
+      "array_values": 0,
+      "scalar_leaves": 10,
+      "containers": 3
+    }
+  },
+  "method": "Direct recursive key/length/type/shape/dtype/value comparison; no structural hash",
+  "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d"
+}

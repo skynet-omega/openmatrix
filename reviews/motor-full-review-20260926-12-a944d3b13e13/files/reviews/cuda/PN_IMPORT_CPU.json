@@ -1,0 +1,16 @@
+{
+  "scope": "CPU import identity check; CuPy replaced with an empty module",
+  "sources": {
+    "cyclic_tree": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+    },
+    "resident_cyclic": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+    }
+  },
+  "legacy_path_insertions_preserve_overrides": true,
+  "repeated_install_rejected": true,
+  "late_install_rejected_without_partial_binding": true
+}

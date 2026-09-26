@@ -1,0 +1,47 @@
+{
+  "archive_sha256": "b80f07a40f98113847a17f2ac3e24b5cf6d3aec74e701e61675c76b7b064d8f2",
+  "archive_bytes": 296917452,
+  "parts": [
+    {
+      "path": "evidence.zip.part000",
+      "bytes": 41943040,
+      "sha256": "1fffc409c8917304287e011eb134f09d10de82d5bf502053c1d8d34db917c4ab"
+    },
+    {
+      "path": "evidence.zip.part001",
+      "bytes": 41943040,
+      "sha256": "b39dd0929786a1280d95b97f021b0f34a989c3171a8c30aa7ef06c9233243037"
+    },
+    {
+      "path": "evidence.zip.part002",
+      "bytes": 41943040,
+      "sha256": "09fa45210b9a02df3b8909f1e905cbaefc789dbd76d807a64330351a712ba74f"
+    },
+    {
+      "path": "evidence.zip.part003",
+      "bytes": 41943040,
+      "sha256": "68300c0bda07a23aef9f2edf206b147d9c9b745239f7c8e3ffde8b9fa2321758"
+    },
+    {
+      "path": "evidence.zip.part004",
+      "bytes": 41943040,
+      "sha256": "f3b7b0abcc7efb156d2ffc68686098e576a0d5ace7fed75ef54987ea58570d08"
+    },
+    {
+      "path": "evidence.zip.part005",
+      "bytes": 41943040,
+      "sha256": "c2476766f5d96040c3d093dc1c8bbf8fd0e6fcbaeced73036d1007cae0ea2fe0"
+    },
+    {
+      "path": "evidence.zip.part006",
+      "bytes": 41943040,
+      "sha256": "388559c8feaad1c3c1b49c44ce3c3b368ead13c7c41af6ab47a68fb324def151"
+    },
+    {
+      "path": "evidence.zip.part007",
+      "bytes": 3316172,
+      "sha256": "4fa6fd7e9485bb02cd8fafeb71095ad6e9b38f01b7d3df7f851821afe6ef91d6"
+    }
+  ],
+  "join": "Concatenate parts in listed order to evidence.zip; verify SHA256 before extraction."
+}

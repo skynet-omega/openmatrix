@@ -1,0 +1,1138 @@
+{
+  "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/resident_pn_20260922/resident_cyclic.py",
+  "sha256": "1a82bf050a571a17f3f62f75501048d0562b5a30548ee28a4cba4d2ff61e513d",
+  "scope": "CPU spy of actual source; explicit ordering only, not GPU reproduction",
+  "assumption": "RawModule compilation is not relied upon as a stream barrier",
+  "original": {
+    "hazards": [
+      {
+        "operation": "add",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 5,
+        "array": "base_d"
+      },
+      {
+        "operation": "add",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 7,
+        "array": "diagonal"
+      },
+      {
+        "operation": "copyto",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 6,
+        "array": "base_v"
+      },
+      {
+        "operation": "copyto",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 8,
+        "array": "rhs"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 1,
+        "array": "steps"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 2,
+        "array": "pairs"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 16,
+        "array": "msg"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 13,
+        "array": "flag"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 17,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 18,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 19,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 16,
+        "array": "msg"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 3,
+        "array": "core"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 4,
+        "array": "edges"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 12,
+        "array": "x"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 13,
+        "array": "flag"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 1,
+        "array": "steps"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 2,
+        "array": "pairs"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 0,
+        "array": "order"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 12,
+        "array": "x"
+      },
+      {
+        "operation": "add",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 5,
+        "array": "base_d"
+      },
+      {
+        "operation": "add",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 7,
+        "array": "diagonal"
+      },
+      {
+        "operation": "copyto",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 6,
+        "array": "base_v"
+      },
+      {
+        "operation": "copyto",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 8,
+        "array": "rhs"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 1,
+        "array": "steps"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 2,
+        "array": "pairs"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 16,
+        "array": "msg"
+      },
+      {
+        "operation": "messages",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 13,
+        "array": "flag"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 17,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 18,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 19,
+        "array": "gathers"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 16,
+        "array": "msg"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "gather",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 3,
+        "array": "core"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 4,
+        "array": "edges"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 12,
+        "array": "x"
+      },
+      {
+        "operation": "core_parallel",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 13,
+        "array": "flag"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 1,
+        "array": "steps"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 2,
+        "array": "pairs"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 0,
+        "array": "order"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 9,
+        "array": "d"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 10,
+        "array": "v"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 11,
+        "array": "b"
+      },
+      {
+        "operation": "back_level",
+        "producer": "caller",
+        "consumer": "tree_nonblocking",
+        "allocation_ticket": 12,
+        "array": "x"
+      }
+    ],
+    "calls": [
+      {
+        "operation": "arange",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "add",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "messages",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "gather",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "core_parallel",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "back_level",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "synchronize",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "begin_capture",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "add",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "messages",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "gather",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "core_parallel",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "back_level",
+        "stream": "tree_nonblocking"
+      }
+    ]
+  },
+  "in_memory_synchronization_control": {
+    "hazards": [],
+    "calls": [
+      {
+        "operation": "arange",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros_like",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "zeros",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "asarray",
+        "stream": "caller"
+      },
+      {
+        "operation": "synchronize",
+        "stream": "caller"
+      },
+      {
+        "operation": "add",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "messages",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "gather",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "core_parallel",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "back_level",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "synchronize",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "begin_capture",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "add",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "copyto",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "fill",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "messages",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "gather",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "core_parallel",
+        "stream": "tree_nonblocking"
+      },
+      {
+        "operation": "back_level",
+        "stream": "tree_nonblocking"
+      }
+    ]
+  },
+  "repaired_files": {
+    "resident_cyclic.py": {
+      "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85",
+      "evidence": {
+        "hazards": [],
+        "calls": [
+          {
+            "operation": "arange",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "synchronize",
+            "stream": "caller"
+          },
+          {
+            "operation": "add",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "messages",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "gather",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "core_parallel",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "back_level",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "synchronize",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "begin_capture",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "add",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "messages",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "gather",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "core_parallel",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "back_level",
+            "stream": "tree_nonblocking"
+          }
+        ]
+      }
+    },
+    "cyclic_tree.py": {
+      "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c",
+      "evidence": {
+        "hazards": [],
+        "calls": [
+          {
+            "operation": "arange",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros_like",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "zeros",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "asarray",
+            "stream": "caller"
+          },
+          {
+            "operation": "synchronize",
+            "stream": "caller"
+          },
+          {
+            "operation": "add",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "messages",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "gather",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "core_parallel",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "back_level",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "synchronize",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "begin_capture",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "add",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "copyto",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "fill",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "messages",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "gather",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "core_parallel",
+            "stream": "tree_nonblocking"
+          },
+          {
+            "operation": "back_level",
+            "stream": "tree_nonblocking"
+          }
+        ]
+      }
+    }
+  },
+  "conclusion": "Missing explicit producer-to-consumer stream dependency"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "hot_witness_steps": 40,
+  "compared_physical_steps": 40,
+  "neural_steps": 0,
+  "corrected_torque_norm": 0.004672697857153467,
+  "legacy_hot_difference": 6.924204102882331e-10,
+  "legacy_cold_norm": 0.0,
+  "all_40_wind_forces_nonzero": true,
+  "full_integration_contacts_forces_exact": true,
+  "integration_unchanged_by_mapping": true,
+  "mujoco": "3.2.7",
+  "minimal_equals_independent_full_position": true,
+  "wall_s": 0.12699994602007791,
+  "scope": "Body fixture only; does not certify an organism restart"
+}

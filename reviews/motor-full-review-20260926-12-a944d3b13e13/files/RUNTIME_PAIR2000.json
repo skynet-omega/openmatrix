@@ -1,0 +1,139 @@
+{
+  "status": "PASS_RUNTIME_CONTRACT",
+  "ms": 2000,
+  "runs": {
+    "stable": {
+      "installed_implementations": {
+        "membrane": {
+          "module": "device_cell",
+          "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+          "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+        },
+        "CNS": {
+          "module": "organism_adapter",
+          "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py",
+          "sha256": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6"
+        },
+        "PN": {
+          "module": "pn_inhibitory_closure_source",
+          "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+          "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+        }
+      },
+      "pn_overlay": {
+        "cyclic_tree": {
+          "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+          "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+        },
+        "resident_cyclic": {
+          "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+          "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+        }
+      },
+      "native_library": {
+        "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/libgraph_control_v2.so",
+        "sha256": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+        "identity_basis": "Frozen binary; not loaded by this CPU verifier"
+      },
+      "CNS_method": "stable exponential midpoint (frozen organism_adapter/graph_core)",
+      "CNS_accepted": 371595,
+      "CNS_rejected": 2,
+      "epochs": 32000,
+      "partition_exchanges": 16000,
+      "coupling_ns": 125000,
+      "predictor_restore_exact": true,
+      "event_records_including_discarded_predictors": 155764,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "PN_model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b"
+    },
+    "reviewed": {
+      "installed_implementations": {
+        "membrane": {
+          "module": "device_cell",
+          "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+          "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+        },
+        "CNS": {
+          "module": "real_model",
+          "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py",
+          "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+        },
+        "PN": {
+          "module": "pn_inhibitory_closure_source",
+          "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+          "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+        }
+      },
+      "pn_overlay": {
+        "cyclic_tree": {
+          "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+          "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+        },
+        "resident_cyclic": {
+          "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+          "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+        }
+      },
+      "native_library": {
+        "path": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/libresident_controller.so",
+        "sha256": "c8c1ad62efbbd5a136ce438c6d13a4a8c2057407b33e76825291a450c81e0fd0",
+        "identity_basis": "Frozen binary; not loaded by this CPU verifier"
+      },
+      "CNS_method": "resident_RK3(2)_CSR_PERSISTENT_FP32",
+      "CNS_accepted": 226396,
+      "CNS_rejected": 65,
+      "epochs": 32000,
+      "partition_exchanges": 16000,
+      "coupling_ns": 125000,
+      "predictor_restore_exact": true,
+      "event_records_including_discarded_predictors": 155765,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "PN_model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b"
+    }
+  },
+  "scope": "Executor identity and existing runtime contracts only; use alongside frozen verify_runs.py. No new neural, event-equivalence, timing or scientific threshold.",
+  "limitation": "Cross-checks frozen callable-source reports and event accounting, not independent attestation of every GPU instruction or neural accuracy.",
+  "provenance": {
+    "supplement_sha256": "0cd03d9035c068766c095cf7e49c37eaf58c5c032a2710f7bb145f395fad86b8",
+    "sources_sha256": "0ee67395796b3a3399581a42667e5f1130d8744499124725e7f25bca5bdd5bea",
+    "plan_sha256": "e15bfe7fabc5af98d52d7b67ded1ae9172b3763bb4851ce9f71075373b2ae59d",
+    "runtime_sources_verified": {
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_motor_nuevo_20260922/pn_execution.py": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/event_coupling.py": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/PLAN.json": "e15bfe7fabc5af98d52d7b67ded1ae9172b3763bb4851ce9f71075373b2ae59d",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/fast_fp32_coefficient.cu": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/fp32_operator.py": "af1edfcf7a5b08bbf5679e8d3437233f31014f40bf58637f3e3d422d779c5624",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/graph_runtime.py": "97cecb15ad321165ad90100c4bb81f3e7dbb19c1a7de9e153fc481f1fa33c3d1",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/libresident_controller.so": "c8c1ad62efbbd5a136ce438c6d13a4a8c2057407b33e76825291a450c81e0fd0",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/model_weight_writers.py": "fb61ca69158397f775ff985ebe22e462d50b13c5d4441e1553732f9a6dbf7360",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/persistent_fp32.cu": "b2c3c1c26c98d59c327e3a9112241d8dcd592265c64cc58677faac0caf263170",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/persistent_weights.py": "026be92ee1a885ce8006e78f074316d39a91e8c526ef6d017c3800bf0441f978",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/resident_controller.cu": "6940d56d8cf6fa6fa26c4598dd1874598f338cc1efa185b68929399824be7125",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/install_pn.py": "b26fffe433f050872874c0f6d50c2321b305e14f6538291dae5995da591108d9",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/restore_prepared.py": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/run_trial.py": "5e53608c66998f4a2f997c27a1ff0fddba14c456e8aca119dd382cc14730860d",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/source_inventory.py": "2ba8d56efc034d8a18a8815f960a90e90adbb2ecb08c7b7f0026fc343667a236",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/verify_runs.py": "ebb6a9f1c915a08f75f40d8123272f8aeb098b99b2db9d47efa5d641519231a0",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/native_hybrid_20260922/libgraph_control_v2.so": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+      "/home/daroch/AXIOMA_ASTRA/motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+      "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb",
+      "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor13_20260922/block_midpoint.py": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b"
+    }
+  },
+  "artifacts": {
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/stable_2000ms_01/RESULT.json": "84ce6fc7f8120b6a45a3de96bd4ed0fec118b10d4a7e387a6fa47980740727b3",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/stable_2000ms_01/EVENTS.json": "eb2ef3be19d003d0ef0266a2f3a6f60e1bbd738340c079751b251f2c01103f37",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/stable_2000ms_01/EXECUTED_SOURCES_SETUP.json": "59dbe4315428ed5076dd97dbb09d080bda4453957424c88e5e4f3098c9b260b7",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/stable_2000ms_01/EXECUTED_SOURCES_FINAL.json": "2556d8c5a09068db6ad97b13e61fa2123b1bdb530cfdf297bc42191ba029579f",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/reviewed_2000ms_01/RESULT.json": "a395439db56847e50876d4b459e168b4bdbec954af8e7667f5464aedf0e1444a",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/reviewed_2000ms_01/EVENTS.json": "05b37cbc9989e84b37d32e9828f2b39a6e0d31efd0da000419809a214de427c0",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/reviewed_2000ms_01/EXECUTED_SOURCES_SETUP.json": "558e89dc8cecdc73fc38139d5743a76cb6e8e28bd1e0cdf7b660da84c80f9e32",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/reviewed_2000ms_01/EXECUTED_SOURCES_FINAL.json": "fcb02096bc5b7cacc249a7e5ca9f2774c951b47c5203ebfe0a5da78d1118a6e0"
+  }
+}
