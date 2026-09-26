@@ -1,0 +1,11 @@
+{
+  "aggregate_cpu_s": 3169.303591,
+  "limit_cpu_s": 3000,
+  "common_output_directory_created": false,
+  "new_neural_processes": 0,
+  "return_code": 1,
+  "guard_reason": "CPU budget exhausted; no new neural process",
+  "scalar_tests_normal_O": 8,
+  "live_monitor_tested": false,
+  "scope": "Accounting and actual pre-launch refusal verified; polling/termination path implemented but not exercised on a new organism."
+}

@@ -1,0 +1,217 @@
+{
+  "format_version": 2,
+  "label": "stage45-neural-continuity-stop-20260925-44",
+  "description": "Sham120ms:35 original observables exactly reproduced. CPU3169.303591s exceeds frozen3000s; common/virtual not run. Public data/code can reconstruct observed equality and CPU stop; complete checkpoints are omitted here and preserved in the separately hashed local full1.16GB capsule, clean CPU verification passed. No new CNS reproduction, navigation admission or biological equivalence.",
+  "files": [
+    {
+      "path": "context/README.md",
+      "bytes": 3532,
+      "sha256": "98f33ed1e04ee1373640b8fd8611cd9ef5f4a198c098ffbaa362ace5b6b8bc90"
+    },
+    {
+      "path": "context/PROPOSAL.md",
+      "bytes": 3088,
+      "sha256": "00d010674e57f2eb70952432061071f1c4158b16f92d4f7bd818dd0f92e82dc5"
+    },
+    {
+      "path": "context/PLAN.json",
+      "bytes": 4033,
+      "sha256": "edf1d5d3cad7509cb17f3c19480eea14c83ff8f2fd79b72f665774a3277eba54"
+    },
+    {
+      "path": "context/CLOCK_ADDENDUM.md",
+      "bytes": 1488,
+      "sha256": "93a1d040bf41fb7302b719de8e3a17e0d5330270722f476291d65186b08bd0b9"
+    },
+    {
+      "path": "context/SOURCE_LOCK.json",
+      "bytes": 675,
+      "sha256": "5217a970bbd96aa5c3df03bee6be2b0834ee3a7731571f7c55bd499241236d1f"
+    },
+    {
+      "path": "context/STOP.json",
+      "bytes": 1291,
+      "sha256": "44bc0b609ced01ca155a0f3f0e6c06b7b041769484cc32d864b40bcfc8f84eed"
+    },
+    {
+      "path": "context/ENVIRONMENT.json",
+      "bytes": 422,
+      "sha256": "7760ec4219c5a449ac218d2d1567059a8ed80e033c04085b0059951f481b94a5"
+    },
+    {
+      "path": "context/DELIVERY_VERIFIED.json",
+      "bytes": 1074,
+      "sha256": "5272e968cf46628d7d90906c20d56ffc526bbeaa51a6f87596720a6bbc754307"
+    },
+    {
+      "path": "context/CAPSULE_CREATED.json",
+      "bytes": 332,
+      "sha256": "686200eca0cc6d286fae2b3954d51be86f2ce056ea692982f6d030fedffb7b2a"
+    },
+    {
+      "path": "context/GUARD_REAL_REFUSAL.json",
+      "bytes": 419,
+      "sha256": "ffefbd4c448d885a995c1075e2aa91e6236ab57ec5f68ddd931f6693fba242ee"
+    },
+    {
+      "path": "context/budget_guard.py",
+      "bytes": 3371,
+      "sha256": "419e05741b014b03ec44dc51eab730821b3b6e845fe6647ed99c03dfdafdbf82"
+    },
+    {
+      "path": "context/test_budget_guard.py",
+      "bytes": 952,
+      "sha256": "535c5c59eec8e62b964276de13735d32a582be34422d9427c3591de5ab4e75bd"
+    },
+    {
+      "path": "context/run_branch.py",
+      "bytes": 11944,
+      "sha256": "ebaac7267a42575993aecd30608b0f0501884b6ebb0700becff63d62f6fcda75"
+    },
+    {
+      "path": "context/interventions.py",
+      "bytes": 4073,
+      "sha256": "e01cff1cb66c14e8dfc7e161750edcf4aa20b4b14248d02df1d80f1e4d355d93"
+    },
+    {
+      "path": "context/verify_sham.py",
+      "bytes": 4594,
+      "sha256": "481b6c7f6c227cddb31e43ce3e67f3eec5af73a508c89468ec03c534bcd69a63"
+    },
+    {
+      "path": "context/verify_pair.py",
+      "bytes": 7866,
+      "sha256": "a6d82ef938f000f6d655f7a69dddc1916f07774a1f0c30361805d6f44867fefe"
+    },
+    {
+      "path": "context/verify_capsule.py",
+      "bytes": 3648,
+      "sha256": "893af2fd80fc669b4f7b4626912c008ffcb0fd8cd58d57879eaff017cdc794d4"
+    },
+    {
+      "path": "context/CAPSULE_README.md",
+      "bytes": 1352,
+      "sha256": "409fdf5da2b8610f1e73359165c2a3ed0b2fbabd0455ac937a3385758a2acfcc"
+    },
+    {
+      "path": "context/RNG_SOURCE_SURVEY.json",
+      "bytes": 2168,
+      "sha256": "e79c6fb6e20fae42e68fed81f16a3b566ff518cdb3d35f22e9be547545367bc1"
+    },
+    {
+      "path": "context/VERIFIER_LOCK_03.json",
+      "bytes": 540,
+      "sha256": "562ed69463dfa8b016a866d665999143fb52d76b949eeeb4c0ea2b8b916a0a6b"
+    },
+    {
+      "path": "context/CHATGPT_REQUEST_01.md",
+      "bytes": 2568,
+      "sha256": "e83d27947937342836a0dd51dda0e95cae42e9533ad7d4918ce64c16c91273ae"
+    },
+    {
+      "path": "context/CHATGPT_RESPONSE_01.md",
+      "bytes": 5413,
+      "sha256": "076408f3c1ae0543d854f70e5c5c2e81e161701250af6ad9d93db6764f7a4cbe"
+    },
+    {
+      "path": "context/CHATGPT_RECEIPT_01.json",
+      "bytes": 289,
+      "sha256": "14aad07829a48368d796a33815e7b55f4d7e24dd8168005e5facce3dfcf49d99"
+    },
+    {
+      "path": "context/CHATGPT_REQUEST_02.md",
+      "bytes": 2104,
+      "sha256": "fc29a742e1a07a48cb9a37c9b1f72cce158bcdcd0eb59d5695fbc546e058ac23"
+    },
+    {
+      "path": "context/CHATGPT_RESPONSE_02.md",
+      "bytes": 4600,
+      "sha256": "b4cd5213be532905abff21f51aa4a7019ce6b94004f4dd455d301748599ebe15"
+    },
+    {
+      "path": "context/CHATGPT_RECEIPT_02.json",
+      "bytes": 287,
+      "sha256": "496fbb1200ad7a6d6d0612d92c4c9baa8d7a0bc13acabf715f6307101f28be67"
+    },
+    {
+      "path": "context/JEV_SPEC.json",
+      "bytes": 1645,
+      "sha256": "11fd2819cbd792b471265516c060a5546225f1e2253b0dbb2846c37c73fdafff"
+    },
+    {
+      "path": "context/RESULT.json",
+      "bytes": 3262,
+      "sha256": "8a100ebada791690dd800c681c87263d5c0150ecb3a9fcffcf074b0e18fd1fc0"
+    },
+    {
+      "path": "context/RUN_CONTRACT.json",
+      "bytes": 518,
+      "sha256": "e30f206895cb7b69e4883b41d71953171aa590a2071448f4922c440b5d268d53"
+    },
+    {
+      "path": "context/RESTORATION.json",
+      "bytes": 848,
+      "sha256": "190e5bc625c1b2ac7d9e1a13013fb09df1f039e51a868d298ef11b236d3cd21e"
+    },
+    {
+      "path": "context/VERIFIED_02.json",
+      "bytes": 1440,
+      "sha256": "d0f4d11d9628b18bcbe50ac9b582ea3d950e55d95e9809dc65981c12b4b31094"
+    },
+    {
+      "path": "context/EXOGENOUS_WITNESS.json",
+      "bytes": 77763,
+      "sha256": "9af8ae4913a6d51aa2d985f69c609c046ad29d96f4fe821a83a4f586ff341fad"
+    },
+    {
+      "path": "context/INPUT_SCHEMA.json",
+      "bytes": 1598,
+      "sha256": "de5adc14783c51157e935d11ce27f3f8330ea8d9682a5168d5674c5af0a802cf"
+    },
+    {
+      "path": "jev/request.json",
+      "bytes": 1550,
+      "sha256": "cd7664d4dd7d38339c3085608754ebafc33ccccbeda1f6210bf9b2068d28f210"
+    },
+    {
+      "path": "jev/response.json",
+      "bytes": 458,
+      "sha256": "69bd74ba19246d0adda3cf81819c57e65f31297a2b6a2cc6027a7740e350fdab"
+    },
+    {
+      "path": "jev/receipt.json",
+      "bytes": 416,
+      "sha256": "5db8210420b4ede89291de07528aeaeff05d7d8a4e56bd01249574168e1d088c"
+    },
+    {
+      "path": "verify_public.py",
+      "bytes": 2362,
+      "sha256": "7ec2e6d20dddb8e04d576a960871335e01a2c7e1afeadd6718dc0673802e40f3"
+    },
+    {
+      "path": "data/sham_traces.npz",
+      "bytes": 1559145,
+      "sha256": "797c56fe16c285c30ac4118ceba4db48fc3cd004b6f6509515f7924af7f03edb"
+    },
+    {
+      "path": "data/actual_inputs.npz",
+      "bytes": 2519699,
+      "sha256": "07bbe3bdeb0ae24f288d513ca30790b1e74de0572f865926af63be6bdbbda85d"
+    },
+    {
+      "path": "data/substep_body.npz",
+      "bytes": 2083986,
+      "sha256": "69f837ef602cae5d678103739795bb663ae8115e335ea4ce66ced035384fb202"
+    },
+    {
+      "path": "data/donor_traces.npz",
+      "bytes": 26157378,
+      "sha256": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e"
+    },
+    {
+      "path": "data/prospective_tapes43.npz",
+      "bytes": 6591,
+      "sha256": "f324890894d3fc424e320e4cd2e31cada7f6fc4a1164e4df3b2bfe27999a2303"
+    }
+  ]
+}

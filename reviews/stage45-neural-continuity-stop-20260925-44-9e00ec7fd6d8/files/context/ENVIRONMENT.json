@@ -1,0 +1,17 @@
+{
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "packages": {
+    "numpy": "1.26.4",
+    "cupy-cuda12x": "13.6.0",
+    "mujoco": "3.2.7",
+    "numba": "0.60.0",
+    "scipy": "1.15.3",
+    "pandas": "2.3.1",
+    "pyarrow": "22.0.0",
+    "psutil": "7.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "GPU": "RTX4070TiSUPER16GiB",
+  "CNS_engine": "original causal_cuda40",
+  "no_new_neural_parameters": true
+}

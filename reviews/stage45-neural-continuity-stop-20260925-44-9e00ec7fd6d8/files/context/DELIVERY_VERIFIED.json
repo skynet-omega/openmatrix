@@ -1,0 +1,27 @@
+{
+  "full_archive": {
+    "zip_name": "ETAPA45_CONTINUIDAD_CPU_20260925_44_COMPLETO.zip",
+    "zip_sha256": "896205c0b8885b9e3e42f8586482586e467ec7959a9c58a81ce19f58e968cbcf",
+    "zip_bytes": 1161760038,
+    "manifest_paths": 625,
+    "unique_payloads": 383,
+    "wall_s": 44.79679136199411,
+    "source_files_read_only": true,
+    "credential_text_scan": "passed"
+  },
+  "clean_verification": {
+    "schema": "stage45_neural_sham_capsule44_verified_v1",
+    "hashed_file_count": 625,
+    "manifest_sha256": "98d6b76c64413cd8d3de9b53a060e75e6176d1c2bbd96e18c9bdbf19791b5dde",
+    "corruption_checks_rejected": [
+      "PLAN.json",
+      "sham_01/RESULT.json",
+      "sham_01/traces.npz"
+    ],
+    "full_sham_recomputation_sha256": "d0f4d11d9628b18bcbe50ac9b582ea3d950e55d95e9809dc65981c12b4b31094",
+    "classification": "BLOQUEADO",
+    "new_neural_steps": 0,
+    "scope": "Short: full member hashes. Full: complete initial-state equality plus120ms raw observable equality and resource-accounting tests. Neither mode reruns the CNS."
+  },
+  "full_GPU_CNS_rerun": false
+}

@@ -1,0 +1,7 @@
+# Aclaración de reloj previa al CNS
+
+El paso1020 consume la entrada original y deja comprometida la entrada del paso1021. Por ello los campos de entrada **pendiente** (`sensores_pendientes` y `concentracion_campo`) ya difieren al terminar1020 entre common/virtual y el sham. No son una respuesta neural de1020. Todos los campos neuronales, entrada consumida y cuerpo del prefijo1001–1020 deben ser exactos; los campos pendientes son exactos al donante sólo hasta1019. El sham conserva todos los campos durante los120ms. El primer mando sensible al nuevo estado neural no puede preceder1022: DN usada en k procede del estado terminado k−1. Las cintas terminan al consumirse1120 y la frontera vuelve al campo original para el input pendiente1121.
+
+Esta aclaración vuelve verificable el contrato de un intervalo ya indicado en PLAN.json; no cambia ventana, magnitud, presupuesto ni criterio de efecto. Se registra antes de cualquier paso neural nuevo y antes de recibir revisión externa.
+
+Después de la revisión externa y todavía antes del CNS se precisa que el segundo criterio material significa `abs(mean(delta_raw_deg_s[-50:])) >= 0.02`, no `mean(abs(delta_raw_deg_s[-50:]))` ni una media sólo positiva. El primer criterio sigue siendo la integral de valor absoluto sobre100ms≥0,001°. El sham usa exactamente la misma ruta del wrapper y las100filas originales de la cinta43. Se registran fuerza/orden aplicada en cada subpaso y drive/light reales en cada llamada del CNS.

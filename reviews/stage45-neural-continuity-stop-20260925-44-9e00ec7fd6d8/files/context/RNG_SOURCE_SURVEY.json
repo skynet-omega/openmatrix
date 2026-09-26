@@ -1,0 +1,84 @@
+{
+  "scope": "Text matches in source_identity files; not proof alone. Live actual drive/light and full existing brain RNG are witnessed separately.",
+  "sources_with_matches": [
+    {
+      "source": "passive_body.py",
+      "matches": [
+        {
+          "line": 190,
+          "text": "if self.model.nplugin or np.any(self.model.sensor_noise):"
+        },
+        {
+          "line": 191,
+          "text": "raise RuntimeError(\"Observation protocol does not support plugins or sensor noise\")"
+        }
+      ]
+    },
+    {
+      "source": "anatomical_rate_brain.py",
+      "matches": [
+        {
+          "line": 119,
+          "text": "self.rng = np.random.default_rng(self.seed)"
+        },
+        {
+          "line": 270,
+          "text": "\"rng_state\": self.rng.bit_generator.state, \"runtime\": _runtime(),"
+        },
+        {
+          "line": 311,
+          "text": "brain.rng = np.random.default_rng()"
+        },
+        {
+          "line": 312,
+          "text": "brain.rng.bit_generator.state = meta[\"rng_state\"]"
+        }
+      ]
+    },
+    {
+      "source": "anatomical_morphometry.py",
+      "matches": [
+        {
+          "line": 114,
+          "text": "\"preserved_rng_state\": deepcopy(brain.rng.bit_generator.state),"
+        }
+      ]
+    },
+    {
+      "source": "visual_transfer_world.py",
+      "matches": [
+        {
+          "line": 107,
+          "text": "rng = np.random.Generator(np.random.PCG64(self.seed))"
+        }
+      ]
+    },
+    {
+      "source": "cyborg_visual_session.py",
+      "matches": [
+        {
+          "line": 79,
+          "text": "\"neural_rng\": _digest(session.brain.rng.bit_generator.state),"
+        }
+      ]
+    },
+    {
+      "source": "retinal_phototransduction.py",
+      "matches": [
+        {
+          "line": 3,
+          "text": "This is a deterministic population approximation, not the Juusola stochastic"
+        }
+      ]
+    },
+    {
+      "source": "flybody_cns_session.py",
+      "matches": [
+        {
+          "line": 29,
+          "text": "RNG=_record_hash(s.brain.rng.bit_generator.state), plasticity=_record_hash(s.plasticity.state_dict()),"
+        }
+      ]
+    }
+  ]
+}

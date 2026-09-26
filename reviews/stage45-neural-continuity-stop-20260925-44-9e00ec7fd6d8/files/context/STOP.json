@@ -1,0 +1,36 @@
+{
+  "schema": "stage45_budget_stop44_v1",
+  "classification": "BLOQUEADO",
+  "reason": "Aggregate CPU budget exhausted by sham; runner omitted live CPU enforcement. No sensory branches may launch.",
+  "registered_cpu_s_max": 3000,
+  "measured_sham_cpu_s": 3169.303591,
+  "measured_sham_wall_s": 466.9552197599842,
+  "CPU_to_wall": 6.78716814136702,
+  "neural_processes": 1,
+  "neural_ms": 120,
+  "common_runs": 0,
+  "virtual_runs": 0,
+  "sham_classification": "SHAM_EXACT",
+  "sham_normal_O_byte_exact": true,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "environment_now": {
+    "OPENBLAS_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "NUMBA_NUM_THREADS": null
+  },
+  "current_fresh_numpy_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 14,
+      "prefix": "libopenblas",
+      "filepath": "/home/daroch/miniconda3/envs/GPU/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    }
+  ],
+  "threadpool_scope": "Fresh metadata process, not direct measurement of the completed neural process. CPU attribution is unproven; original budget is not raised."
+}

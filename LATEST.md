@@ -1,5 +1,5 @@
 # Última evidencia
 
-[motor-event-memory-20260925-11-final](reviews/motor-event-memory-20260925-11-final-09b4057990ed/README.md)
+[stage45-neural-continuity-stop-20260925-44](reviews/stage45-neural-continuity-stop-20260925-44-9e00ec7fd6d8/README.md)
 
-Aclaración editorial y revisión final del motor11. Los máximos neuronales citados en el informe son frente al estable; no cambian datos, umbrales ni veredicto. Evidencia original completa: https://github.com/skynet-omega/openmatrix/tree/2e3c06d4dacee56b0c3fa89466dde16362b48f3d/reviews/motor-event-memory-20260925-11-f7e999afbbdc
+Sham120ms:35 original observables exactly reproduced. CPU3169.303591s exceeds frozen3000s; common/virtual not run. Public data/code can reconstruct observed equality and CPU stop; complete checkpoints are omitted here and preserved in the separately hashed local full1.16GB capsule, clean CPU verification passed. No new CNS reproduction, navigation admission or biological equivalence.

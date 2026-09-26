@@ -1,0 +1,85 @@
+{
+  "schema": "stage45_neural_common_matched_contrast_44_v1",
+  "registered_UTC": "2026-09-26T01:36:03.555931+00:00",
+  "registered_before_new_neural_steps": true,
+  "exposure": "40–43 expuestos; cintas43 fijas y sin resultados neuronales. Propuesta Codex formulada antes de nueva revisión externa.",
+  "alternatives": {
+    "A": "Contraste virtual pequeño con media y movimiento emparejados; seleccionado.",
+    "B": "Intercambio bilateral completo para medir autoridad sensorial; reserva no ejecutada.",
+    "C": "Perturbación física online con giro libre para medir feedback conjunto; reserva no ejecutada."
+  },
+  "fixed_sha256": {
+    "campanas/etapa45_neural_contrast_20260925_44/PROPOSAL.md": "00d010674e57f2eb70952432061071f1c4158b16f92d4f7bd818dd0f92e82dc5",
+    "campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/final_state/MANIFEST.json": "851d0ffa165404bc930383900e0955ce57ffa51ace0455c3b3ef7f1298c91c37",
+    "campanas/etapa45_navigation_wind_20260925_40/merged_full_01/traces.npz": "5c070f9b73bc0b46f98f714c62e16bcc57dea52fca9cabe2744cd506fb63e79e",
+    "campanas/etapa45_navigation_wind_20260925_40/restore_gaussian.py": "5afd83956371578de05cbbc25b2791f27e8b35d056ca5cab8d8c2d8fc79736f6",
+    "campanas/etapa45_navigation_wind_20260925_40/motor_wind.py": "f0744c1c904c76404e889bc66ad7440781d53faa3b80edf9ce2fe46fa9133e01",
+    "campanas/etapa45_orientation_observability_20260925_43/tapes_01/TAPES.npz": "f324890894d3fc424e320e4cd2e31cada7f6fc4a1164e4df3b2bfe27999a2303",
+    "campanas/etapa45_orientation_observability_20260925_43/MATCHED_PLAN.json": "7f27a34c3eb119afd350b1c7e2635d310f0ae12164859fecb70ee0fbdc675b84"
+  },
+  "arms": [
+    "sham",
+    "common",
+    "virtual"
+  ],
+  "engine": "causal_cuda original40",
+  "steps": [
+    1001,
+    1120
+  ],
+  "shared_prefix_steps": [
+    1001,
+    1020
+  ],
+  "contrast_input_steps": [
+    1021,
+    1120
+  ],
+  "effects": {
+    "units": "Mismo organismo/estado1000ms; intervención de entrada sobre100ms, no navegación online.",
+    "windows_steps": [
+      [
+        1021,
+        1070
+      ],
+      [
+        1071,
+        1120
+      ],
+      [
+        1021,
+        1120
+      ]
+    ],
+    "layer_numeric_floor": 1e-12,
+    "sham_and_prefix_exact": true,
+    "common_match_max_abs": 1e-15,
+    "material_raw_abs_integral_deg_min": 0.001,
+    "material_raw_mean_last50_deg_s_min": 0.02,
+    "materiality_rule": "Reportar ambas condiciones; efecto material si cualquiera se cumple. Detectabilidad exige max_abs >1e-12 por eslabón y controles íntegros. No definir un signo obligatorio."
+  },
+  "budget": {
+    "neural_processes_max": 3,
+    "neural_ms_max": 360,
+    "new_candidate_prototypes_max": 0,
+    "wall_s_per_process_max": 900,
+    "wall_s_aggregate_max": 2700,
+    "cpu_s_aggregate_max": 3000,
+    "RAM_GiB_max": 18,
+    "GPU_GiB_max": 12,
+    "outputs_GiB_max": 6,
+    "cpu_preflight_wall_s_max": 60,
+    "external_ChatGPT_requests_max": 2,
+    "external_Jev_requests_max": 1
+  },
+  "budget_basis": "Continuación original40 midió3370.203s/1000ms;360ms proyectan1213.3s más construcción/snapshots.2700s deja margen medido de≈2x sin cambiar el motor. RTX4070TiSUPER16GiB; uso inicial920MiB.",
+  "gates": [
+    "Restauración inicial semánticamente exacta en los cinco árboles y RNG.",
+    "Sham120ms debe ser exactamente igual en todos los campos científicos comunes de la traza donante; si falla, detener los brazos.",
+    "Cada brazo debe tener prefijo20ms exacto; cuerpo, entrada proprioceptiva y ruido/RNG deben estar emparejados.",
+    "Cinta sensorial consumida exacta, media igual, clocks y DN anterior correctos."
+  ],
+  "stop": "Primer fallo de continuidad/contexto/numeración o presupuesto detiene inferencia. Bugs de implementación se reparan sólo con prueba mínima y nueva ronda explícita; no ampliar este presupuesto. Cerrar al verificar sham+pareja o un bloqueo concreto. Sin selección de amplitud/ventana/signo tras resultados.",
+  "stage4_admission": false,
+  "stage5_admission": false
+}

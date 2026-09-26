@@ -1,0 +1,9 @@
+{
+  "reason": "Consistency guards for recorded execution/context flags. No scientific criterion changed; both results are recomputed after this check.",
+  "sources": {
+    "verify_sham.py": "481b6c7f6c227cddb31e43ce3e67f3eec5af73a508c89468ec03c534bcd69a63",
+    "verify_pair.py": "a6d82ef938f000f6d655f7a69dddc1916f07774a1f0c30361805d6f44867fefe",
+    "budget_guard.py": "419e05741b014b03ec44dc51eab730821b3b6e845fe6647ed99c03dfdafdbf82",
+    "test_budget_guard.py": "535c5c59eec8e62b964276de13735d32a582be34422d9427c3591de5ab4e75bd"
+  }
+}
