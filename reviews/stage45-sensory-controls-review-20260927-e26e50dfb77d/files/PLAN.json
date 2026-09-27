@@ -1,0 +1,41 @@
+{
+  "schema": "sensory_representation_review_v1",
+  "date": "2026-09-27",
+  "objective": "Review post47 sensory evidence, define an interpretable next contrast and assess what is and is not established about stage4/5 feasibility.",
+  "exposure": "45/46/47 and the post47 sensory report are exposed. Own proposal recorded before a new ChatGPT reply. No blind confirmation or physiological validation claimed.",
+  "budget": {
+    "CPU_seconds_max": 600,
+    "wall_seconds_max": 1800,
+    "RAM_GiB_max": 4,
+    "new_whole_brain_runs": 0,
+    "new_body_runs": 0,
+    "GPU_seconds_max": 0,
+    "new_dataset_download_MiB_max": 8,
+    "new_ChatGPT_requests_max": 1,
+    "new_Jev_requests_max": 0
+  },
+  "own_alternatives_before_external_reply": {
+    "A": {
+      "hypothesis": "The identity and distribution of peripheral activity, rather than its total alone, change downstream recruitment.",
+      "operation": "A prospectively specified sensory boundary with common basal conditions; compare selective DM1, multiglomerular shape at matched aggregate incremental rate per antenna, and a matched control over the same populations.",
+      "legal_information": "Published receptor means, anatomical labels, antenna measurements, timing; no target-bearing or motor outcome used to choose input.",
+      "falsifier": "Composition has no material downstream effect beyond matched quantity, or the interface/unknown antenna identities prevent an interpretable comparison.",
+      "limit": "Rate scaling is an engineering intervention, not an identified chemical concentration; terminal laws must not silently differ between arms."
+    },
+    "B": {
+      "hypothesis": "The current transfer law fails an independently measured sensory/circuit response despite matched input.",
+      "operation": "Compare an identified input/output assay; change only a law contradicted by independent evidence and reserve an unused condition.",
+      "legal_information": "Independent ORN/PN or descending-neuron measurements, without fitting locomotion.",
+      "falsifier": "The current law predicts the independent response within frozen uncertainty, or a replacement fails the reserved condition."
+    },
+    "C": {
+      "hypothesis": "An actual implementation or receptor/effector interface contradiction explains the observed transfer or loss of useful command.",
+      "operation": "Inspect consumed boundary identities, units and ownership; repair only a demonstrated contradiction.",
+      "legal_information": "Recorded operands, source contracts and mechanical controls already measured.",
+      "falsifier": "Declared and consumed operations agree at the suspected boundary. No global audit or gain search follows an absence of contradiction."
+    }
+  },
+  "stop": "Deliver reproduced observations and a concrete next decision or exact prerequisite. Do not launch a new organism just because one input profile exists.",
+  "stage4_admission": false,
+  "stage5_admission": false
+}

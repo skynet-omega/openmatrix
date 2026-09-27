@@ -1,0 +1,97 @@
+{
+  "format_version": 2,
+  "label": "stage45-sensory-controls-review-20260927",
+  "description": "Reproduced review and exact nominal-rate controls: matched composition, population and per-antenna permutation; ChatGPT ASTRA_V2 review and local corrections. No neural simulation or stage admission. Portable standard-library verification: python -O VERIFY.py.",
+  "files": [
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 8139,
+      "sha256": "5653ca5983c7519f925171e391e480e30b7f3abfe33e571a5b9984554114805b"
+    },
+    {
+      "path": "CONTRASTE.md",
+      "bytes": 3792,
+      "sha256": "d17991a195273c46cefda155425010164a9373a797beaafa0a21a61a1a192c93"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 2966,
+      "sha256": "e78723b38f574a5fb9c4f5244972aff8805dfe9ef1392a3892566edcf2bac8bf"
+    },
+    {
+      "path": "PREFLIGHT.py",
+      "bytes": 5550,
+      "sha256": "2711caa54cc33c6208e255dcc1809f449c1faa825c58aa10e0831ebfdd06b569"
+    },
+    {
+      "path": "PREFLIGHT_RESULT.json",
+      "bytes": 37212,
+      "sha256": "3af9e6e8a5b5339f0c3e290283b8a2e6ccb6d1b254d199041257b1d445ed22c7"
+    },
+    {
+      "path": "INPUT_HASHES.json",
+      "bytes": 183,
+      "sha256": "008f4d01530ba2b56878c125275288993c44b2bf979a2d0a53d62d841ac6fc09"
+    },
+    {
+      "path": "PERFIL_1_HEXANOL.csv",
+      "bytes": 648,
+      "sha256": "3891d396eabefd2eb16d2019b996c041cd68694879b524c9f4832e52e6d5d428"
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 18619,
+      "sha256": "69fcfba1a6a5ae8f952e8cf50621c6d4be07807bc6f0293f6add13f2874acb2b"
+    },
+    {
+      "path": "ANATOMIA_SELECCIONADA.json",
+      "bytes": 59986,
+      "sha256": "063fa56bd1478fe30c76bd0ea5c56b5359e5fc25bb1b02e263875bfe316b6cb9"
+    },
+    {
+      "path": "PERMUTATION_CONTROL.py",
+      "bytes": 3329,
+      "sha256": "fe617c76a27ff1ffa2e50871c798f56dc85d4d08af4e1be7e02ebddf6c636388"
+    },
+    {
+      "path": "PERMUTATION_RESULT.json",
+      "bytes": 227180,
+      "sha256": "1c0f0d614e185ac5057d271fd617e9161d65bbf5fd4850feaf4aeb5b862453bb"
+    },
+    {
+      "path": "MATCHED_PROFILES.csv",
+      "bytes": 9193,
+      "sha256": "030fde29d74e7d2eb0632908d53fe47b834384984741120bd5f4a4383bb81f07"
+    },
+    {
+      "path": "VERIFY.py",
+      "bytes": 2108,
+      "sha256": "75b88ca2d32cbaf0d7b520e25951b60716101004ecba163ef0c6ea1f3b018776"
+    },
+    {
+      "path": "REPORT.py",
+      "bytes": 9191,
+      "sha256": "0505b2f634362440f024d29101a6c7fd59843d97994e3f4eabc33da0a42088ed"
+    },
+    {
+      "path": "CHATGPT_ASTRA_V2_REQUEST.md",
+      "bytes": 5209,
+      "sha256": "da7dc266c1c8b6ff1506c6fb9f6cbff132403b7403fa8605de0d5119b81a43ba"
+    },
+    {
+      "path": "CHATGPT_ASTRA_V2_RESPONSE.md",
+      "bytes": 6899,
+      "sha256": "e8c7e06d9bdf2c0ea8537205411a36f0b76d325469df86d93656cba8fecdf6bb"
+    },
+    {
+      "path": "CHATGPT_RECEIPT.json",
+      "bytes": 1467,
+      "sha256": "273bac56d4f79c1cf1e6529367d5e499a6f59f3d7343800bb4e51a20cb3f7198"
+    },
+    {
+      "path": "DELIVER.py",
+      "bytes": 5426,
+      "sha256": "cdeeb137fde89b4afd6cdadba1cf4db8513f8e560b0df894cf1cb0fc75398bd1"
+    }
+  ]
+}

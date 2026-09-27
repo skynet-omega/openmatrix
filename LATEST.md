@@ -1,5 +1,5 @@
 # Última evidencia
 
-[sensory-transfer-post47-20260927](reviews/sensory-transfer-post47-20260927-757428eb8a22/README.md)
+[stage45-sensory-controls-review-20260927](reviews/stage45-sensory-controls-review-20260927-e26e50dfb77d/README.md)
 
-Offline correspondence after47: source-specific1-hexanol receptor means and recorded45 ORN/PN observations. Reproduce with python compare.py --verify and python verify.py. No new brain simulation, no physiological calibration or stage4/5 admission. Includes selected source CSVs and portable projection, not a restartable organism.
+Reproduced review and exact nominal-rate controls: matched composition, population and per-antenna permutation; ChatGPT ASTRA_V2 review and local corrections. No neural simulation or stage admission. Portable standard-library verification: python -O VERIFY.py.
