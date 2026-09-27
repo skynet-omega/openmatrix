@@ -1,0 +1,7 @@
+# Dos candidatas de ingeniería de51
+
+A modifica únicamente la entrada legal de aire relativo hacia JO-C/E, por una prótesis aditiva fijada por el motor. El discriminador ±aire/0×olor/no separa señal de aire, olor e interacción. No aporta rumbo correcto ni torque. Es distinta del padre que no transduce aire y de50 que sólo cambia temporalidad olfativa. Fuente Suver2019; ejes y escala explícitos sin calibración.
+
+B modifica la operación genérica de integración, conservando estados y conectoma: excitación e inhibición producen conductancias normalizadas y su suma cambia la relajación. La referencia local es el propio estado y primera entrada consumida, congeladas a adopción; no hay etiqueta conductual. El control congela el shunt basal y driving forces, emparejando valor y relajación. Reversiones y sesgo no son fisiología medida. El recorte de target es parte explícita de esta variante de ingeniería acotada; se registra y no se confunde con el modelo voltaje sin recorte sugerido por ASTRA. Ambos se comparan con y sin olor; un aumento común no cuenta como efecto propio de conductancia. Antes de estas pruebas se midió la deriva de una conversión visual directa y se corrigió algebraicamente el control propuesto por ASTRA. Esas pruebas locales no validan red.
+
+Se prueban a lo sumo estas dos integraciones completas en51. TrasplantePN, JVP, lectores, proyección, regulación y cinemática conservan pruebas locales y limitaciones independientes. Parámetros/criterios en PILOT_PLAN.json se congelan por hash antes de ejecutar.

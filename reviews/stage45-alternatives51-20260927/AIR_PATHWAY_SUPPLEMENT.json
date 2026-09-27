@@ -1,0 +1,94 @@
+{
+  "observations": {
+    "0": {
+      "L": {
+        "relay_ids": [
+          11960,
+          11702,
+          523640,
+          10371
+        ],
+        "relay_delta_max_abs": [
+          0.0,
+          0.20709668820151966,
+          0.0,
+          0.0
+        ],
+        "relay_response_present": true,
+        "mean_total_JO_drive": 5169.385262495662,
+        "nonzero_JO_at51": 156
+      },
+      "R": {
+        "relay_ids": [
+          11960,
+          11702,
+          523640,
+          10371
+        ],
+        "relay_delta_max_abs": [
+          0.46702574007895487,
+          0.0,
+          0.014242124668503903,
+          0.0
+        ],
+        "relay_response_present": true,
+        "mean_total_JO_drive": 5931.538205589818,
+        "nonzero_JO_at51": 179
+      }
+    },
+    "1": {
+      "L": {
+        "relay_ids": [
+          11960,
+          11702,
+          523640,
+          10371
+        ],
+        "relay_delta_max_abs": [
+          0.0,
+          0.2071684817626155,
+          0.0,
+          0.0
+        ],
+        "relay_response_present": true,
+        "mean_total_JO_drive": 5169.385262495662,
+        "nonzero_JO_at51": 156
+      },
+      "R": {
+        "relay_ids": [
+          11960,
+          11702,
+          523640,
+          10371
+        ],
+        "relay_delta_max_abs": [
+          0.4670413078270796,
+          0.0,
+          0.01423094377193449,
+          0.0
+        ],
+        "relay_response_present": true,
+        "mean_total_JO_drive": 5931.538205589818,
+        "nonzero_JO_at51": 179
+      }
+    }
+  },
+  "within_prespecified_window": {
+    "0": {
+      "min_half_yaw_deg_s": -1.3081972630407117,
+      "max_half_yaw_deg_s": 0.5667095619112656,
+      "positive_samples": 21,
+      "negative_samples": 19,
+      "sign_changes": 1
+    },
+    "1": {
+      "min_half_yaw_deg_s": -1.3713906751573819,
+      "max_half_yaw_deg_s": 0.5730160836376805,
+      "positive_samples": 21,
+      "negative_samples": 19,
+      "sign_changes": 1
+    }
+  },
+  "scope": "Four anatomically selected AMMC/WED candidate relays fixed before run; no claim of experimentally identified APN2/APN3 function.",
+  "limitation": "Opposite world fields change both which neurons receive drive and total JO drive, because anatomical C/E left/right counts differ. Directional dependence is demonstrated for this interface; selective direction encoding at matched total input is not established. Raw paired yaw changes sign within the analysis window, so its mean is not stable directional steering."
+}

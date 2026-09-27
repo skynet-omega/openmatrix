@@ -1,0 +1,291 @@
+{
+  "PN_JVP": {
+    "sham": {
+      "delta_PN_input": [
+        -6.796869535433561e-16,
+        0.0,
+        26.183728689043377,
+        39.51714534875851,
+        0.0,
+        0.08595374937571562
+      ],
+      "finite_RHS_delta": [
+        0.0,
+        0.0,
+        0.03893377208855831,
+        0.04271842923595704,
+        0.0,
+        0.0
+      ],
+      "analytic_Jv": [
+        -0.0,
+        0.0,
+        0.038981544665081094,
+        0.04278246117131837,
+        0.0,
+        0.0
+      ],
+      "relative_error": 0.0013821970194617366,
+      "predicted_DNb05_signs_match": true,
+      "generic_equation_FP64_target_difference_from_capture": 6.429126009344088e-09
+    },
+    "profile": {
+      "delta_PN_input": [
+        6.796869535433561e-16,
+        0.0,
+        -26.183728689043377,
+        -39.51714534875851,
+        0.0,
+        -0.08595374937571562
+      ],
+      "finite_RHS_delta": [
+        0.0,
+        0.0,
+        -0.038993044920167926,
+        -0.04267356017250861,
+        0.0,
+        0.0
+      ],
+      "analytic_Jv": [
+        0.0,
+        0.0,
+        -0.03894525415913216,
+        -0.0426096071553195,
+        0.0,
+        -0.0
+      ],
+      "relative_error": 0.0013811284218017438,
+      "predicted_DNb05_signs_match": true,
+      "generic_equation_FP64_target_difference_from_capture": 4.974932665824383e-08
+    }
+  },
+  "PN_scalar_changes": [
+    {
+      "path": "/base/base/base/base/ach_charge_pC",
+      "sham": -175.61241623523244,
+      "profile": -173.4399920626784
+    },
+    {
+      "path": "/base/base/base/base/orn_charge_pC",
+      "sham": -201.64025308704137,
+      "profile": -230.19917521813812
+    },
+    {
+      "path": "/base/apl_charge_pC",
+      "sham": 17.426432669717418,
+      "profile": 17.7015657013441
+    },
+    {
+      "path": "/charges_pC/GABA",
+      "sham": 31.547519241680906,
+      "profile": 33.04234129784861
+    },
+    {
+      "path": "/charges_pC/Glu",
+      "sham": 9.862615691349255,
+      "profile": 10.254039585501449
+    }
+  ],
+  "PN_owner_arrays": 37,
+  "PN_owner_changed_arrays": 31,
+  "PN_transplant_status": "ARRAY_OWNERSHIP_SCREEN_ONLY; live load/no-op and scalar/queue ownership still required",
+  "conductance": {
+    "initial_voltage_normalized": [
+      0.1875,
+      0.1875,
+      0.5483676644555775,
+      0.5602057120901456,
+      0.1875,
+      0.1875
+    ],
+    "baseline_equilibrium_release": [
+      0.32493317876281613,
+      0.3293443669992199,
+      0.7719361827290367,
+      0.7863265218348354,
+      0.39497863795708565,
+      0.4561057813047549
+    ],
+    "initial_voltage_drift_s": [
+      15.832836808627077,
+      13.331007314081898,
+      3.669357334455898,
+      2.9856588529146864,
+      19.431176150831472,
+      30.077643154405294
+    ],
+    "probes": [
+      {
+        "fraction": 0.0,
+        "conductance_equilibrium_q": [
+          0.32493317876281613,
+          0.3293443669992199,
+          0.7719361827290367,
+          0.7863265218348354,
+          0.39497863795708565,
+          0.4561057813047549
+        ],
+        "matched_current_equilibrium_q": [
+          0.32493317876281613,
+          0.32934436699921976,
+          0.7719361827290367,
+          0.7863265218348354,
+          0.39497863795708565,
+          0.4561057813047549
+        ],
+        "time_constant_s": [
+          0.010261369541362446,
+          0.012352568685913353,
+          0.006840551252188916,
+          0.006851937825147331,
+          0.010163528828392209,
+          0.0075821396471011685
+        ],
+        "initial_RHS_match_max": 5.329070518200751e-15
+      },
+      {
+        "fraction": 0.01,
+        "conductance_equilibrium_q": [
+          0.32628051972395933,
+          0.3307009798631896,
+          0.7709550607826832,
+          0.7852501812869608,
+          0.3962597256497805,
+          0.457186228011518
+        ],
+        "matched_current_equilibrium_q": [
+          0.32775217168532755,
+          0.3322253926974601,
+          0.7712859198763922,
+          0.7855177633221664,
+          0.3984790263788829,
+          0.46012976088476987
+        ],
+        "time_constant_s": [
+          0.010215294592311094,
+          0.012295889050175327,
+          0.00679487553886884,
+          0.00680622297039907,
+          0.010106923774058288,
+          0.007533635335495866
+        ],
+        "initial_RHS_match_max": 7.105427357601002e-15
+      },
+      {
+        "fraction": 0.1,
+        "conductance_equilibrium_q": [
+          0.3378832597040764,
+          0.3423724813092659,
+          0.7626811428474283,
+          0.7761728094788514,
+          0.40717802241093737,
+          0.4663220505583824
+        ],
+        "matched_current_equilibrium_q": [
+          0.35312310798793045,
+          0.35815462398162234,
+          0.7654335542025916,
+          0.7782389367081457,
+          0.4299825221750584,
+          0.496345577104905
+        ],
+        "time_constant_s": [
+          0.009818516294272562,
+          0.011808250706142777,
+          0.006409686821962474,
+          0.006420684457961618,
+          0.009624497172879139,
+          0.007123502396212422
+        ],
+        "initial_RHS_match_max": 7.105427357601002e-15
+      }
+    ],
+    "interpretation": "Engineering transfer of inherited visual voltage/readout conventions to six generic cells; substantial basal drift is adoption, not smell effect"
+  },
+  "intrinsic": {
+    "sham": {
+      "q_final_dynamic": [
+        1.93e-322,
+        2.8e-322,
+        0.7218333016844043,
+        0.7453994807219567,
+        5.51629949490789e-109,
+        2.6e-322
+      ],
+      "q_final_static_matched_mean_bias": [
+        1.5e-323,
+        3e-323,
+        0.7218332933505575,
+        0.7453994821606922,
+        5.542274610183869e-109,
+        2.5e-323
+      ],
+      "q_final_no_bias": [
+        1.5e-323,
+        3e-323,
+        0.7218333642218816,
+        0.74539947414514,
+        5.542274610183869e-109,
+        2.5e-323
+      ],
+      "mean_bias": [
+        0.0,
+        0.0,
+        -1.6280384365204071e-07,
+        1.9845179266143242e-08,
+        6.817430822448036e-111,
+        0.0
+      ],
+      "dynamic_minus_static_max": 8.3338468348515e-09,
+      "DNg100_rescued": false
+    },
+    "profile": {
+      "q_final_dynamic": [
+        1.93e-322,
+        2.8e-322,
+        0.7221414954227677,
+        0.7466037642073873,
+        5.5162994965229955e-109,
+        2.6e-322
+      ],
+      "q_final_static_matched_mean_bias": [
+        1.5e-323,
+        3e-323,
+        0.7221414865458226,
+        0.7466037667709133,
+        5.542274611806574e-109,
+        2.5e-323
+      ],
+      "q_final_no_bias": [
+        1.5e-323,
+        3e-323,
+        0.7221415615625447,
+        0.7466037527604988,
+        5.542274611806574e-109,
+        2.5e-323
+      ],
+      "mean_bias": [
+        0.0,
+        0.0,
+        -1.7248712727896004e-07,
+        3.482818193892329e-08,
+        6.817430824444156e-111,
+        0.0
+      ],
+      "dynamic_minus_static_max": 8.876945178926121e-09,
+      "DNg100_rescued": false
+    }
+  },
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "campanas/etapa45_alternativas_20260927_51/LOCAL_CONTRACT.json": "f59752e385e0704731e0e0a2ccc5d163f16b45543d0801daeeb68f3ae37c486e",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.json": "39ee1a98c3a3ca2044d660e2859e4d8833f3f15388dda6e8f558e37934039288",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.npz": "40e1a199da264ebbc391ea9e59dbdc27aa2812c338826272b5604c141bc81aa1",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/session.json": "f1aa3571b844e1dedb6e62351b390147ffcace8594e20da364f982d0eb413f28",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/session.npz": "2be2f9843352fbbc1c75ecdf8b8d9d2e452081dd54cf0f1745b5545b34b73837",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_001ms.npz": "fc02ec16be758cbc224bbfa11ea2c08edfa45e5150c196a07d23a9e12bd00286",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_001ms.npz": "629e628ceaeaf10826db402cf6cd07ced2cb39782bd4c05d7855d00f343592f1"
+  },
+  "CPU_s": 5.062792399999999,
+  "new_CNS_ms": 0
+}

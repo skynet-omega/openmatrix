@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "identity": {
+      "consumption_checked_each_ms_in_runner": true
+    },
+    "air": {
+      "consumption_checked_each_ms_in_runner": true
+    },
+    "conductance": {
+      "observed_DNg_RHS_cells": 3232,
+      "CPU_target_rate_exact": true,
+      "q0_all_166700_exact": true,
+      "S_first_recorded_DNg_RHS_exact": true,
+      "calibration_scope": "S is set by first construction RHS; first consumed recorded RHS equality verified for DNg100; other rows share same initialization code, not separately captured.",
+      "raw_target_outside_0_1": 0.0
+    },
+    "current": {
+      "observed_DNg_RHS_cells": 3232,
+      "CPU_target_rate_exact": true,
+      "q0_all_166700_exact": true,
+      "S_first_recorded_DNg_RHS_exact": true,
+      "calibration_scope": "S is set by first construction RHS; first consumed recorded RHS equality verified for DNg100; other rows share same initialization code, not separately captured.",
+      "raw_target_outside_0_1": 0.0
+    }
+  },
+  "qualification_attempted_ms": 16,
+  "adoption_G_I_all_rows_exact": true,
+  "CPU_s": 2.2633856000000003
+}

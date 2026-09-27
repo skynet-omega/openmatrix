@@ -1,0 +1,68 @@
+{
+  "scope": "Identifiability test using documented observable schema and exact current encoder method; no raw biological replay",
+  "status": "NONIDENTIFIABLE_FOR_EXISTING_3D_FeCO_PORT",
+  "source_observables": [
+    "Three left-leg cycle phases",
+    "2D FT/TT landmarks",
+    "Treadmill velocity",
+    "HS membrane potential"
+  ],
+  "required_observables": [
+    "Six interior femur-tibia angles",
+    "Six signed angular velocities",
+    "3D hinge geometry or justified calibrated planar constraint"
+  ],
+  "hidden_depth_witness": {
+    "identical_projected_coordinates": true,
+    "identical_segment_lengths": true,
+    "interior_angles_deg": [
+      90.0,
+      144.73561031724535
+    ],
+    "encoder_disagreements": {
+      "extension_extension": {
+        "changed_ports": 4,
+        "maximum_difference": 0.30408674478530884
+      },
+      "extension_flexion": {
+        "changed_ports": 4,
+        "maximum_difference": 0.30408674478530884
+      },
+      "flexion_extension": {
+        "changed_ports": 4,
+        "maximum_difference": 0.30408674478530884
+      },
+      "flexion_flexion": {
+        "changed_ports": 4,
+        "maximum_difference": 0.30408674478530884
+      }
+    }
+  },
+  "rejected_inputs": {
+    "three_left_angles_only": "Six finite interior angles [0,pi] and angular velocities required",
+    "cycle_phase_used_as_joint_angle": "Six finite interior angles [0,pi] and angular velocities required"
+  },
+  "ports": 151,
+  "code_method_sha256": "9a4637fffd3dbf3bd101746251acf2de1eddda70ef5b34eab24fa6856e1fc4c9",
+  "source_hashes": {
+    "anatomical_proprioception.py": "d2e6cf3c1c1067979ee136bad924c93123fb5c69540078e586d22aff05a5d088",
+    "anatomical_proprioception_ports.json": "5968c03de28a09345c84e6b9359b18510acb094e88413f13b5d370197f9847bc",
+    "fujiwara_Readme.txt": "d4a73c8ecdb981dc63071b733e6a253b24cee2dda6db9b01dce4985673702b5c",
+    "fujiwara_DefineLegPhase.m": "11cde9f833b4ba8d09d38926d9cb95b4926d27bf66956dce8c72f0c3c129f59c",
+    "fujiwara_PassiveLegMotion.m": "efc838ea88c8d083473221ff87080205ba4a4d9a4a444948398d96f91bf2f1a7"
+  },
+  "limits": [
+    "Unknown right-leg motion cannot be filled with an inferred tripod phase as measured data.",
+    "Cycle phase is not an absolute joint angle.",
+    "A declared planar mechanical model would be a new engineering hypothesis, not recovered 3D data.",
+    "Fujiwara ascending-neuron AN terminology is not the antennal entryNerve=AN annotation."
+  ],
+  "CPU_s": 0.005031400000000005,
+  "process_CPU_total_s": 0.0610795,
+  "peak_RSS_bytes": 119816192,
+  "CNS_steps": 0,
+  "body_steps": 0,
+  "GPU_calls": 0,
+  "raw_data_downloaded": false,
+  "download_bytes": 0
+}

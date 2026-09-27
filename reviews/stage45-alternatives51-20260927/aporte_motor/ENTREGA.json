@@ -1,0 +1,86 @@
+{
+  "completed_UTC": "2026-09-27T19:06:20.582810+00:00",
+  "started_UTC": "2026-09-27T18:53:08+00:00",
+  "wall_limit_s": 900,
+  "elapsed_wall_s": 792.58281,
+  "measured_executable_process_CPU_s": 1.8844116999999998,
+  "measured_probe_body_CPU_s": 1.5606586999999998,
+  "peak_RSS_bytes": 743424000,
+  "CPU_scope": "Three instrumented executable processes; auxiliary read/edit/tool overhead not measured here",
+  "CNS_steps": 0,
+  "body_steps": 0,
+  "GPU_calls": 0,
+  "file_download_bytes": 0,
+  "web_literature_queries": "separate, not raw dataset download",
+  "files": {
+    "AIR_INTERFACE.json": {
+      "bytes": 1591,
+      "sha256": "cab92ce0c415c986aa869d049b20a717e918bc006af6fc266be80ad1b6f8bb01"
+    },
+    "ANATOMY.json": {
+      "bytes": 7975,
+      "sha256": "1ec2c6ce2086b3c0c6cffa74ee82543d2c21503d37c344108e7ff12abb7ad844"
+    },
+    "JO_CE_edges.csv": {
+      "bytes": 3106476,
+      "sha256": "1fa88de07cefa2b57165ec2af1aca058e1f8214324d43b3d7a9745f3f35cc0a4"
+    },
+    "JO_CE_sources.csv": {
+      "bytes": 43348,
+      "sha256": "581d607c36370cb6e603a7b37039f9304692e6e84023d31e6bca7754c161754e"
+    },
+    "JO_anatomy_arrays.npz": {
+      "bytes": 94264,
+      "sha256": "b73f57e28653f900a253b1009324e5607383a56b265ba22e74d531017e56a9d0"
+    },
+    "PROPRIOCEPTION.json": {
+      "bytes": 2656,
+      "sha256": "4faa4468d991a53871284cefe463347fe842478da53ab0afc6b9146c8bfce9ec"
+    },
+    "RESULTADOS.md": {
+      "bytes": 6916,
+      "sha256": "ee89e6a5d8578e512623a620e9b7cd2996ec7c66b7c16eba5f60ac3d66111b10"
+    },
+    "air_interface.py": {
+      "bytes": 4477,
+      "sha256": "3c12b0000c3cd9ca257637ed719ac600bbddc7622b7bbf290fa8e1c2ccaa946e"
+    },
+    "air_interface_cases.npz": {
+      "bytes": 3197,
+      "sha256": "d1aaa6294fa1360607f01408da9e32a59b9738d2d2b0352d29cd2d69a6a59703"
+    },
+    "all_direct_targets.csv": {
+      "bytes": 141067,
+      "sha256": "6a38198278adbcc9d6877fb68065f66a52aea7255d8af41efd29dd1a009c27af"
+    },
+    "anatomy_probe.py": {
+      "bytes": 6089,
+      "sha256": "de32c64a9e7d5b4e598899680ea6d5c5b1e5c953bcacbbe756328fb70132c3c3"
+    },
+    "direct_relay_candidates.csv": {
+      "bytes": 29888,
+      "sha256": "331fa137d58198788494f9c56d6b14ca506cbf009b6154b7802f8939c6b12a01"
+    },
+    "proprioception_identifiability.py": {
+      "bytes": 6139,
+      "sha256": "dd82af704f840d3dfff1fd48aa3b93779474ff586e74d5c19c988c948be951ef"
+    },
+    "proprioception_witnesses.npz": {
+      "bytes": 4692,
+      "sha256": "825b4bc6f7283f8d5c21132d8b7f0063248a9b1269362b6c3f5cd5f5679f4d2c"
+    },
+    "relay_candidate_annotations.csv": {
+      "bytes": 135360,
+      "sha256": "02f692e95ebcfc29dae4080fc23a74c038e51be3141147cb172a5514a10f1e8e"
+    },
+    "relay_to_WEDPN_edges.csv": {
+      "bytes": 157593,
+      "sha256": "775bbc614610e7fba9cb38a3d827d7445bcb58ab23120e67a379fc6f6040ea3d"
+    },
+    "test_air_interface.py": {
+      "bytes": 4050,
+      "sha256": "bbb9314c95aadc51894bd5d6cf3de28945a34e9d8e5bf502f8183340edce5943"
+    }
+  },
+  "manifest_CPU_s": 0.002883600000000002
+}

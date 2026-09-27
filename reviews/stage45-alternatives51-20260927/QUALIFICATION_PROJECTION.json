@@ -1,0 +1,17 @@
+{
+  "source_paths": [
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.npz",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.json",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/traces.npz"
+  ],
+  "source_sha256": {
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.npz": "40e1a199da264ebbc391ea9e59dbdc27aa2812c338826272b5604c141bc81aa1",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.json": "39ee1a98c3a3ca2044d660e2859e4d8833f3f15388dda6e8f558e37934039288",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/traces.npz": "e1099cf90e4c0254a307fe6e18780b4aa4ae6e430860c7c75d108f271884f7b2"
+  },
+  "extraction": "Original native q first166700 elements; first4 rows of all33 original49 trace fields, no reconstructed data",
+  "time_unix": 1790538178.1989007,
+  "release_source": "qual_identity/neural_and_inputs.npz",
+  "release_source_sha256": "5e4f6f38b7d78bf862b93b0cb0abfaf238830b1622e95f0dbbe63ee3f2300e8e",
+  "distinction": "initial_release is hybrid.release(), float64 after specialized overrides. initial_native_q is the stored internal state[:n]. They differ on specialized cells; candidate q0 is checked against the latter, recorded outputs against the former."
+}

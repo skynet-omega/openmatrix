@@ -1,0 +1,11 @@
+{
+  "schema":"local51_preregistered_discriminators_v1",
+  "scope":"Local mathematical interventions on saved operands; no full CNS claim.",
+  "PN_selection":"All annotated ALPNs in canonical male_v10, with actual outgoing transmission state; fine-PN ownership tested separately, never equated to all ALPN.",
+  "JVP":"Analytic derivative of frozen generic tanh law in the finite observed PN transmission difference; compare reciprocal nonlinear substitution, keeping receiver input from all other cells and receiver state. FP64 algebra is diagnostic, not FP32 bit parity.",
+  "JVP_falsifier":"Relative prediction error>=1 or signed DNb05 effect wrong; when finite delta=0 report derivative and non-identifiability, no division by zero.",
+  "conductance_probe":{"gL":1.0,"EL":0.25,"EE":1.0,"EI":0.0,"conductance_scale":"gain_i for both E and I (dimensionless engineering only)","equation":"dV/dt=(EL + gain*E - (1+gain*(E+I))*V)/tau; q=clip(2*V-0.375,0,1)","initialization":"V=(q+0.375)/2; preserves release initially","current_control":"Freeze conductance reversal factors at V0 and leak coefficient at total initial conductance; preserve value and E/I sensitivities at V0; test finite perturbations and equal E/I increment.","probe_changes_fraction":[0.0,0.01,0.1],"selection_rule":"No selection from rescue of DNg100; select only after algebraic validity and explicit basal drift measured."},
+  "intrinsic_probe":{"baseline_reference":"Own initial q, not a desired motion target","average_tau_s":0.1,"adaptation_tau_s":1.0,"offset_bound":0.1,"duration_s":0.05,"step_s":0.0001,"equation":"tauq*dq/dt=max(0,tanh(gain*(net+drive-theta)+h))-q; dqbar/dt=(q-qbar)/0.1; dh/dt=(qref-qbar)/1, bounded ±0.1","controls":"Same local q/net with h=0; matched constant bias equal to dynamic bias time average is retrospective explanatory control only, not a new biological fit","falsifier":"No new selective response beyond a constant bias; a zero local reference cannot independently rescue a silent cell with fixed negative margin"},
+  "CPU_s_max":180,
+  "new_CNS_ms":0
+}

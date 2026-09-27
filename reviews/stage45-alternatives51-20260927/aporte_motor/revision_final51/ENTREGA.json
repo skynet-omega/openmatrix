@@ -1,0 +1,26 @@
+{
+  "completed_UTC": "2026-09-27T20:01:20.121465+00:00",
+  "elapsed_wall_s": 421.121465,
+  "analysis_process_CPU_s_sum": 0.5535308,
+  "new_CNS_steps": 0,
+  "new_GPU_calls": 0,
+  "scope": "Not blind; read raw arrays; writes only this review directory",
+  "files": {
+    "audit.py": {
+      "bytes": 11510,
+      "sha256": "e6b83064d42f4d439d9d9bbd65ee274c3b806fd943885d39323ce8d0bc86178a"
+    },
+    "REVISION.md": {
+      "bytes": 6332,
+      "sha256": "8c9f0c86974e5975fbc3b39e765041e278cab1e53122b98a2423b8647bf86275"
+    },
+    "ENTRADAS_CORREGIDAS_NO_SIMULADAS.npz": {
+      "bytes": 28181,
+      "sha256": "acec0d92094afacbffce00c606a49a5ac78eb8ee153e0aa113bba6ef85913cd3"
+    },
+    "RESULTADO.json": {
+      "bytes": 22188,
+      "sha256": "3908eb3eaadec8015f4b19172202d32cf4422ec217fcb2334b1d4fd73352f5f0"
+    }
+  }
+}

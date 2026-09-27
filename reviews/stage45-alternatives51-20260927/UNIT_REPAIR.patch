@@ -1,0 +1,25 @@
+--- executed51/pilot_owners.py
++++ unexecuted_correction51/pilot_owners_units_fixed.py
+@@ -1,3 +1,6 @@
++"""UNIT REPAIR CANDIDATE: not used in any recorded51 CNS run; requires a new qualification.
++Original frozen pilot_owners.py remains byte-identical.
++"""
+ """Explicit external air port and normalized generic-law experimental owner."""
+ from pathlib import Path
+ import sys,types
+@@ -32,11 +35,14 @@
+    owner.current=owner.spec['baseline']+(owner.spec['delta']['profile'] if setting['odor'] and j>prefix else 0.)
+    owner.device_rates.set(np.ascontiguousarray(owner.current));owner.errors.fill(0);owner.calls.fill(0);owner.k=k
+    self.last=np.zeros(len(self.api.ids))
+-   rot=self.rotation();velocity=np.asarray(run.obj.body.data.qvel[:3]).copy()
++   rot=self.rotation();velocity=self.velocity_mm_s()
+    if j>prefix:self.last=self.api.encode(air_velocity_world_mm_s=self.field,body_velocity_world_mm_s=velocity,body_to_world=rot)
+    full=np.zeros(h.brain.n_neurons);full[self.api.rows]=self.last;self.device.set(full);self.calls.fill(0)
+    self.kinematics.append(np.r_[self.field,velocity,rot.ravel()]);cp.cuda.get_current_stream().synchronize();return owner.current.copy()
+   run.stimulus.consume=types.MethodType(consume,run.stimulus)
++ def velocity_mm_s(self):
++  # This body uses centimetres internally; all air-interface inputs are mm/s.
++  return 10.0*np.asarray(self.run.obj.body.data.qvel[:3],dtype=np.float64).copy()
+  def rotation(self):
+   mat=np.empty(9);self.mj.mju_quat2Mat(mat,np.asarray(self.run.obj.body.data.qpos[3:7]));return mat.reshape(3,3)
+  def check(self):

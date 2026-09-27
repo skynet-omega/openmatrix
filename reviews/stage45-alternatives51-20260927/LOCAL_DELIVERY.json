@@ -1,0 +1,61 @@
+{
+  "zip": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_ALTERNATIVAS_20260927_51.zip",
+  "bytes": 81455613,
+  "sha256": "81db0cb3f73e1eea75f298e6749fd6df5472e7bc832bbbcb34eff6aa1c3e2ddd",
+  "files": 277,
+  "checks": [
+    {
+      "status": "PASS",
+      "files": 277,
+      "scientific_arms": 10,
+      "neural_ms_recorded": 900,
+      "qualifications_ms": 16,
+      "pilot_metrics_exact": true,
+      "shadow_readers_exact": true,
+      "local_JVP_exact": true,
+      "scope": "Independent CPU recomputation from packaged recordings; no new CNS, no portable51 resume claim"
+    },
+    {
+      "status": "PASS",
+      "files": 277,
+      "scientific_arms": 10,
+      "neural_ms_recorded": 900,
+      "qualifications_ms": 16,
+      "pilot_metrics_exact": true,
+      "shadow_readers_exact": true,
+      "local_JVP_exact": true,
+      "scope": "Independent CPU recomputation from packaged recordings; no new CNS, no portable51 resume claim"
+    },
+    {
+      "corruptions_rejected": [
+        "stage4_pass",
+        "criterion",
+        "status",
+        "shadow_flag",
+        "neuron_identity",
+        "neural_nonfinite",
+        "odor_removed"
+      ],
+      "count": 7,
+      "originals_restored_verified": true,
+      "optimization": false
+    },
+    {
+      "corruptions_rejected": [
+        "stage4_pass",
+        "criterion",
+        "status",
+        "shadow_flag",
+        "neuron_identity",
+        "neural_nonfinite",
+        "odor_removed"
+      ],
+      "count": 7,
+      "originals_restored_verified": true,
+      "optimization": true
+    }
+  ],
+  "CPU_s": 2.1488915,
+  "wall_s": 29.04452258400852,
+  "scope": "Ten complete recorded90ms arms,16ms qualification and ten bounded alternative screens; CPU reproduction of evidence, not full CNS replay. Full checkpoints and dependencies are in separate lossless archive."
+}

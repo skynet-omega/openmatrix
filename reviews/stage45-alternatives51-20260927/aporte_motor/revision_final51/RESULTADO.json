@@ -1,0 +1,570 @@
+{
+  "status": "COMPLETE",
+  "queue_status": "COMPLETE",
+  "completed_arms": 10,
+  "missing": {},
+  "independence": "Raw NPZ computation without analyze_pilot.py or its results; not blind to design/history",
+  "window_samples_inclusive": [
+    51,
+    90
+  ],
+  "neural_quantity": "q(bodyId10118)-q(bodyId10065)",
+  "yaw_quantity": "recorded neural_yaw_unapplied_rad_s converted to degrees/s",
+  "air_formula": "(mean left-field arm minus mean right-field arm)/2, separately by odor",
+  "conductance_formula": "(G_odor1-G_odor0)-(I_odor1-I_odor0)",
+  "arms": {
+    "air0_odor0": {
+      "mean_q": -0.023357740187822752,
+      "mean_yaw_deg_s": 2.863231509413609,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 2.145202326616794e-06,
+      "JO_integrated_input_11_90_model_units_s": 1.7172625926323844e-07,
+      "JO_mean_active_neurons_window": 156.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 3.5677923194202426e-07,
+        "JO-E/L": 0.0,
+        "JO-C/R": 0.0,
+        "JO-E/R": 1.7884230946747691e-06
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 6.617444900424222e-24,
+      "velocity_units_corrected_JO_max_abs_change": 1.4660012134174533e-07,
+      "velocity_units_corrected_JO_max_total_change": 1.9343633120581194e-05,
+      "velocity_units_corrected_JO_mean_total_window": 2.1452023230343336e-05
+    },
+    "airL_odor0": {
+      "mean_q": -0.023910206128545965,
+      "mean_yaw_deg_s": 2.381531698102917,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 5169.385262495662,
+      "JO_integrated_input_11_90_model_units_s": 413.5508209227464,
+      "JO_mean_active_neurons_window": 156.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 1524.305907252406,
+        "JO-E/L": 0.0,
+        "JO-C/R": 0.0,
+        "JO-E/R": 3645.079355243255
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 7.105427357601002e-15,
+      "velocity_units_corrected_JO_max_abs_change": 5.0305210663736943e-08,
+      "velocity_units_corrected_JO_max_total_change": 6.637678779952694e-06,
+      "velocity_units_corrected_JO_mean_total_window": 5169.385269120714
+    },
+    "airR_odor0": {
+      "mean_q": -0.023334270804536754,
+      "mean_yaw_deg_s": 2.5904759490515294,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 5931.538205589818,
+      "JO_integrated_input_11_90_model_units_s": 474.5230566094603,
+      "JO_mean_active_neurons_window": 179.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 5202.5223347866395,
+        "JO-C/R": 729.0158708031752,
+        "JO-E/R": 0.0
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 7.105427357601002e-15,
+      "velocity_units_corrected_JO_max_abs_change": 5.0305203558309586e-08,
+      "velocity_units_corrected_JO_max_total_change": 4.875111699220724e-06,
+      "velocity_units_corrected_JO_mean_total_window": 5931.538200724528
+    },
+    "air0_odor1": {
+      "mean_q": -0.02346474253294572,
+      "mean_yaw_deg_s": 2.7750075142566404,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 2.145202326616794e-06,
+      "JO_integrated_input_11_90_model_units_s": 1.7172625926323844e-07,
+      "JO_mean_active_neurons_window": 156.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 3.5677923194202426e-07,
+        "JO-E/L": 0.0,
+        "JO-C/R": 0.0,
+        "JO-E/R": 1.7884230946747691e-06
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 6.617444900424222e-24,
+      "velocity_units_corrected_JO_max_abs_change": 1.4660012134174533e-07,
+      "velocity_units_corrected_JO_max_total_change": 1.9343633120581194e-05,
+      "velocity_units_corrected_JO_mean_total_window": 2.1452023230343336e-05
+    },
+    "airL_odor1": {
+      "mean_q": -0.02401525242189035,
+      "mean_yaw_deg_s": 2.279958724325569,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 5169.385262495662,
+      "JO_integrated_input_11_90_model_units_s": 413.5508209227464,
+      "JO_mean_active_neurons_window": 156.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 1524.305907252406,
+        "JO-E/L": 0.0,
+        "JO-C/R": 0.0,
+        "JO-E/R": 3645.079355243255
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 7.105427357601002e-15,
+      "velocity_units_corrected_JO_max_abs_change": 5.0305210663736943e-08,
+      "velocity_units_corrected_JO_max_total_change": 6.637678779952694e-06,
+      "velocity_units_corrected_JO_mean_total_window": 5169.385269120714
+    },
+    "airR_odor1": {
+      "mean_q": -0.023440636714545764,
+      "mean_yaw_deg_s": 2.5101391362937022,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0,
+      "max_abs_unclipped_forward_mm_s": 0.0,
+      "displacement_mm_between_samples1_90": [
+        -1.426273599225425e-09,
+        -1.933763209283068e-08,
+        6.026114746093825e-09
+      ],
+      "max_body_speed_mm_s": 2.284874385589949e-07,
+      "JO_mean_total_input_window": 5931.538205589818,
+      "JO_integrated_input_11_90_model_units_s": 474.5230566094603,
+      "JO_mean_active_neurons_window": 179.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 5202.5223347866395,
+        "JO-C/R": 729.0158708031752,
+        "JO-E/R": 0.0
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 7.105427357601002e-15,
+      "velocity_units_corrected_JO_max_abs_change": 5.0305203558309586e-08,
+      "velocity_units_corrected_JO_max_total_change": 4.875111699220724e-06,
+      "velocity_units_corrected_JO_mean_total_window": 5931.538200724528
+    },
+    "G_odor0": {
+      "mean_q": -0.024108287457278953,
+      "mean_yaw_deg_s": 2.186798665807315,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.06478913517634051,
+      "max_abs_unclipped_forward_mm_s": 0.06478913517634051,
+      "displacement_mm_between_samples1_90": [
+        0.0007662853067902375,
+        -0.0003116268772102443,
+        2.3771364831698394e-06
+      ],
+      "max_body_speed_mm_s": 0.0539121749400924,
+      "JO_mean_total_input_window": 0.2906204260128894,
+      "JO_integrated_input_11_90_model_units_s": 0.011841090987161362,
+      "JO_mean_active_neurons_window": 267.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 0.17077975032902842,
+        "JO-C/R": 0.0,
+        "JO-E/R": 0.11984067568386099
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 4.336808689942018e-19,
+      "velocity_units_corrected_JO_max_abs_change": 0.026012851799621737,
+      "velocity_units_corrected_JO_max_total_change": 6.913385390550131,
+      "velocity_units_corrected_JO_mean_total_window": 2.9056205148104235
+    },
+    "G_odor1": {
+      "mean_q": -0.02410912791395359,
+      "mean_yaw_deg_s": 2.185956783443926,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.0647977375726502,
+      "max_abs_unclipped_forward_mm_s": 0.0647977375726502,
+      "displacement_mm_between_samples1_90": [
+        0.0007663763665456957,
+        -0.0003116640290923428,
+        2.377452563012694e-06
+      ],
+      "max_body_speed_mm_s": 0.05391911028031451,
+      "JO_mean_total_input_window": 0.29065520825279567,
+      "JO_integrated_input_11_90_model_units_s": 0.011842494531227531,
+      "JO_mean_active_neurons_window": 267.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 0.17080017254799934,
+        "JO-C/R": 0.0,
+        "JO-E/R": 0.11985503570479636
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 6.505213034913027e-19,
+      "velocity_units_corrected_JO_max_abs_change": 0.02601616348500654,
+      "velocity_units_corrected_JO_max_total_change": 6.914267110854151,
+      "velocity_units_corrected_JO_mean_total_window": 2.9059681954958037
+    },
+    "I_odor0": {
+      "mean_q": -0.024173605818447016,
+      "mean_yaw_deg_s": 2.121398258980173,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.15147526908680892,
+      "max_abs_unclipped_forward_mm_s": 0.15147526908680892,
+      "displacement_mm_between_samples1_90": [
+        0.0012805656317511072,
+        -0.0005268969939577206,
+        5.640356796954293e-06
+      ],
+      "max_body_speed_mm_s": 0.11550312196544672,
+      "JO_mean_total_input_window": 0.48508808050603375,
+      "JO_integrated_input_11_90_model_units_s": 0.019612963410009183,
+      "JO_mean_active_neurons_window": 267.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 0.2840517845786377,
+        "JO-C/R": 0.0,
+        "JO-E/R": 0.20103629592739597
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 1.3010426069826053e-18,
+      "velocity_units_corrected_JO_max_abs_change": 0.05417908441647358,
+      "velocity_units_corrected_JO_max_total_change": 14.46165253038737,
+      "velocity_units_corrected_JO_mean_total_window": 4.848949862166917
+    },
+    "I_odor1": {
+      "mean_q": -0.02417450039852636,
+      "mean_yaw_deg_s": 2.1204971522044787,
+      "max_abs_applied_yaw_deg_s": 0.0,
+      "max_abs_forward_command_mm_s": 0.15149107909448944,
+      "max_abs_unclipped_forward_mm_s": 0.15149107909448944,
+      "displacement_mm_between_samples1_90": [
+        0.0012806881746003085,
+        -0.0005269474778974853,
+        5.640926796779411e-06
+      ],
+      "max_body_speed_mm_s": 0.11551468549904079,
+      "JO_mean_total_input_window": 0.4851346046193347,
+      "JO_integrated_input_11_90_model_units_s": 0.019614836605070372,
+      "JO_mean_active_neurons_window": 267.0,
+      "JO_group_mean_totals": {
+        "JO-C/L": 0.0,
+        "JO-E/L": 0.2840790226864982,
+        "JO-C/R": 0.0,
+        "JO-E/R": 0.20105558193283635
+      },
+      "position_mm_equals_10_qpos_exact": true,
+      "reconstructed_as_run_JO_max_abs_error": 1.734723475976807e-18,
+      "velocity_units_corrected_JO_max_abs_change": 0.05418445428366548,
+      "velocity_units_corrected_JO_max_total_change": 14.463082095912299,
+      "velocity_units_corrected_JO_mean_total_window": 4.84941473503965
+    }
+  },
+  "air": {
+    "0": {
+      "q": {
+        "value": -0.00028796766200460573,
+        "threshold": 1.6e-05,
+        "threshold_fraction": 17.99797887528786,
+        "passes_magnitude": true
+      },
+      "yaw_deg_s": {
+        "value": -0.10447212547430618,
+        "threshold": 0.02,
+        "threshold_fraction": 5.223606273715308,
+        "passes_magnitude": true
+      },
+      "both_magnitude_gates": true,
+      "input_total_comparison": {
+        "left": 5169.385262495662,
+        "right": 5931.538205589818,
+        "right_minus_left": 762.1529430941564,
+        "right_to_left_ratio": 1.1474358950615737,
+        "exact_equal": false
+      }
+    },
+    "1": {
+      "q": {
+        "value": -0.0002873078536722931,
+        "threshold": 1.6e-05,
+        "threshold_fraction": 17.95674085451832,
+        "passes_magnitude": true
+      },
+      "yaw_deg_s": {
+        "value": -0.11509020598406661,
+        "threshold": 0.02,
+        "threshold_fraction": 5.75451029920333,
+        "passes_magnitude": true
+      },
+      "both_magnitude_gates": true,
+      "input_total_comparison": {
+        "left": 5169.385262495662,
+        "right": 5931.538205589818,
+        "right_minus_left": 762.1529430941564,
+        "right_to_left_ratio": 1.1474358950615737,
+        "exact_equal": false
+      }
+    }
+  },
+  "air_odor_interaction": {
+    "q": {
+      "value": 6.598083323126197e-07,
+      "threshold": 1.6e-05,
+      "threshold_fraction": 0.04123802076953873,
+      "passes_magnitude": false,
+      "comparison_only_not_separate_registered_gate": true
+    },
+    "yaw_deg_s": {
+      "value": -0.01061808050976043,
+      "threshold": 0.02,
+      "threshold_fraction": 0.5309040254880215,
+      "passes_magnitude": false,
+      "comparison_only_not_separate_registered_gate": true
+    }
+  },
+  "odor_effects": {
+    "G": {
+      "q": -8.404566746375575e-07,
+      "yaw_deg_s": -0.0008418823633888906
+    },
+    "I": {
+      "q": -8.945800793434822e-07,
+      "yaw_deg_s": -0.000901106775694327
+    },
+    "air0": {
+      "q": -0.0001070023451229668,
+      "yaw_deg_s": -0.08822399515696855
+    }
+  },
+  "conductance": {
+    "q": {
+      "value": 5.4123404705924694e-08,
+      "threshold": 1.6e-05,
+      "threshold_fraction": 0.0033827127941202934,
+      "passes_magnitude": false
+    },
+    "yaw_deg_s": {
+      "value": 5.92244123054364e-05,
+      "threshold": 0.02,
+      "threshold_fraction": 0.00296122061527182,
+      "passes_magnitude": false
+    },
+    "both_magnitude_gates": false,
+    "vs_parent_odor_effect": {
+      "G": {
+        "q": 0.00010616188844832924,
+        "yaw_deg_s": 0.08738211279357966
+      },
+      "I": {
+        "q": 0.00010610776504362332,
+        "yaw_deg_s": 0.08732288838127422
+      }
+    }
+  },
+  "body_exact_equal_to_air0_odor0": {
+    "air0_odor0": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "airL_odor0": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "airR_odor0": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "air0_odor1": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "airL_odor1": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "airR_odor1": {
+      "qpos": true,
+      "qvel": true,
+      "position_mm": true,
+      "upright": true,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "G_odor0": {
+      "qpos": false,
+      "qvel": false,
+      "position_mm": false,
+      "upright": false,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "G_odor1": {
+      "qpos": false,
+      "qvel": false,
+      "position_mm": false,
+      "upright": false,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "I_odor0": {
+      "qpos": false,
+      "qvel": false,
+      "position_mm": false,
+      "upright": false,
+      "contact_active": true,
+      "sensores_usados": true
+    },
+    "I_odor1": {
+      "qpos": false,
+      "qvel": false,
+      "position_mm": false,
+      "upright": false,
+      "contact_active": true,
+      "sensores_usados": true
+    }
+  },
+  "geometric_equivalence": {
+    "air0_odor0": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "airL_odor0": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "airR_odor0": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "air0_odor1": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "airL_odor1": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "airR_odor1": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.6629367034256575e-15,
+      "world_field_constant_exact": true
+    },
+    "G_odor0": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 1.9984014443252818e-15,
+      "rotation_orthonormality_max_error": 3.9968028886505635e-15,
+      "world_field_constant_exact": true
+    },
+    "G_odor1": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.220446049250313e-15,
+      "rotation_orthonormality_max_error": 4.440892098500626e-15,
+      "world_field_constant_exact": true
+    },
+    "I_odor0": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 1.9984014443252818e-15,
+      "rotation_orthonormality_max_error": 3.9968028886505635e-15,
+      "world_field_constant_exact": true
+    },
+    "I_odor1": {
+      "native_velocity_matches_previous_qvel_exact": true,
+      "rotation_matches_previous_quaternion_max_error": 2.3314683517128287e-15,
+      "rotation_orthonormality_max_error": 4.884981308350689e-15,
+      "world_field_constant_exact": true
+    }
+  },
+  "executed_unit_source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/flybody_cns_body.py": "4592385e2b793772b3cb551e7668e5025a164bb3fc3868b3af9197e454bc772c",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/matrix_olfactory_diagnostic.py": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0"
+  },
+  "units_issue": "AirOwner passed native qvel as mm/s; trace position_mm=10*qpos. Corrected air arrays here are offline counterfactual inputs, NOT corrected CNS outcomes.",
+  "applied_motion": "Measured separately; raw yaw is not applied yaw",
+  "stage4": false,
+  "stage5": false,
+  "new_CNS_steps": 0,
+  "new_GPU_calls": 0,
+  "completed_UTC": "2026-09-27T19:59:51.686824+00:00",
+  "input_hashes": {
+    "PILOT_PLAN.json": "ea2b7c491992e3f412ff6a467e4bc7e31343d856fa07751171e8a4b0936fc93e",
+    "QUEUE_RESULT.json": "fdf85ade12b6437dcf9d5930f2619834ca58500b7b1d50435e2875cb5e4565e1",
+    "air0_odor0/neural_and_inputs.npz": "3dd288aefbe3e88cfce3db4d08a8d87c35bf395f39eb76eff82325a0acf2c7f7",
+    "air0_odor0/traces.npz": "7547b91645ab53e3d2082b57002765bb323267b5a641fdccf79a22caf0e44e10",
+    "airL_odor0/neural_and_inputs.npz": "bdfe11b1b65641274bc4b5e8f5d8b45ce59ee87c05f04cc3327f78f21a2abecc",
+    "airL_odor0/traces.npz": "8098f312590f7f23a05fc1f335c4920536b2dc006994c3e262119f9d2375a6e5",
+    "airR_odor0/neural_and_inputs.npz": "f055577fb9b52a550b661d6e3dc22086e9adcbbccc3a3a2f6f379f8d3682ee9d",
+    "airR_odor0/traces.npz": "ffbc052cbdd7367b2cb05ac195cb10ca59506539dd9345aa7c77249f4a962e24",
+    "air0_odor1/neural_and_inputs.npz": "6bc3ec19ee3c8a79c5fe77a5d35f8850016d807348487bfa0b73848a843c0d8c",
+    "air0_odor1/traces.npz": "7dbb8a813e1dea6598f568a4608d991828ee261ab3abf028a473deb4ac570b60",
+    "airL_odor1/neural_and_inputs.npz": "b475e5ed995bb680b453c6400d19504799537d2a303a795ab512e6ca49c85e83",
+    "airL_odor1/traces.npz": "10cad508162871300827daadbc40bd28d83a625c94734f37424cc3bcc1b2ef62",
+    "airR_odor1/neural_and_inputs.npz": "ea5453dfba564b1c0b42037fb83b960678d5dff48d70100a8e8cc10985791b00",
+    "airR_odor1/traces.npz": "ce63c5f45c064223c2403bfc6c4b08a86a79fb3648d6c32c1b7a683206773443",
+    "G_odor0/neural_and_inputs.npz": "a25d7807caeace2cebadeb904e6592d1a4f6de1d357bb278d711d56ad8c2e00f",
+    "G_odor0/traces.npz": "fb270496377970be3e1d6f1850f9675c7012cc3930be452288bc890f575730f2",
+    "G_odor1/neural_and_inputs.npz": "dc69162cb1d0ea50b03a397170499ac5b3e402a615e3b6bef05cd15aaa64bb44",
+    "G_odor1/traces.npz": "b0286b92dc835a724a159a882f45ae7e4888b608a3eaafeee848e814fb95540c",
+    "I_odor0/neural_and_inputs.npz": "b63391ecd216947a6f87f388c228bd193e3858e9ed3eae1ac69bc48b67f3df5d",
+    "I_odor0/traces.npz": "60ab9b59e7a1ded5ca8a768d6712922c9874319fc0b9d1c771f56d66e03bfc27",
+    "I_odor1/neural_and_inputs.npz": "789536ab4c2d83f6a34ddc5e480ee31ccc48cd1f75ad2a5fe403b95eb00bc657",
+    "I_odor1/traces.npz": "5427c86c0d0ef71dd589c2e84cfb89ef48b57e17080cea566dee9fd6f2969c83"
+  },
+  "CPU_s": 0.22749039999999998,
+  "process_CPU_total_s": 0.2837478,
+  "peak_RSS_bytes": 138940416
+}

@@ -1,0 +1,42 @@
+{
+  "DNg100": {
+    "G_odor0": {
+      "recorded_DNg_RHS_cells": 77168,
+      "fraction_raw_below0": 0.0,
+      "fraction_raw_above1": 0.0,
+      "max_underflow": 0.0,
+      "max_overflow": 0.0,
+      "final_DNg_target_equals_base": true,
+      "CPU_coefficients_exact": true
+    },
+    "G_odor1": {
+      "recorded_DNg_RHS_cells": 77568,
+      "fraction_raw_below0": 0.0,
+      "fraction_raw_above1": 0.0,
+      "max_underflow": 0.0,
+      "max_overflow": 0.0,
+      "final_DNg_target_equals_base": true,
+      "CPU_coefficients_exact": true
+    },
+    "I_odor0": {
+      "recorded_DNg_RHS_cells": 81488,
+      "fraction_raw_below0": 0.0,
+      "fraction_raw_above1": 0.0,
+      "max_underflow": 0.0,
+      "max_overflow": 0.0,
+      "final_DNg_target_equals_base": true,
+      "CPU_coefficients_exact": true
+    },
+    "I_odor1": {
+      "recorded_DNg_RHS_cells": 81288,
+      "fraction_raw_below0": 0.0,
+      "fraction_raw_above1": 0.0,
+      "max_underflow": 0.0,
+      "max_overflow": 0.0,
+      "final_DNg_target_equals_base": true,
+      "CPU_coefficients_exact": true
+    }
+  },
+  "scope": "Includes all recorded DNg RHS evaluations, including integration trials. Other rows have only min/max BASE targets; whole-brain per-evaluation clipping frequency was not recorded. Specialized overrides may supersede BASE targets.",
+  "interpretation": "Any clipping contributes to the bounded engineering dynamics; do not identify an isolated biological conductance effect."
+}

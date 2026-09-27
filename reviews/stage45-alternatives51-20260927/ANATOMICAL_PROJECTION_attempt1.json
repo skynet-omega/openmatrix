@@ -1,0 +1,74 @@
+{
+  "scope": "Structural projection using canonical MaleCNS two-hop DN\u2192vnc_intrinsic\u2192vnc_motor plus direct connections, row-normalized anatomical counts. All intermediate neurons retained; no simulation or signed physiology. MANC type correspondence available but no cross-specimen IDs silently mixed. No learned decoder.",
+  "motor_cells": 708,
+  "motor_root_side_known": 0,
+  "matrix": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "DN_ids": [
+    10442,
+    10760,
+    523769,
+    10360,
+    10118,
+    10065,
+    10888,
+    11067,
+    11074,
+    512006
+  ],
+  "max_extra_ensemble_signal_vs_DNb05": 0.0,
+  "effect_vs_sham_by_arm": {
+    "sham": 0.0,
+    "dm1": 0.0,
+    "profile": 0.0,
+    "permuted": 0.0
+  },
+  "bilateral_symmetric_anatomical_bias": 0.0,
+  "side_relabel_exact": true,
+  "classification": "STRUCTURAL_SIGNAL_ONLY; nonzero DNa01 contribution cannot establish a turning law or replace VNC",
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40"
+  },
+  "CPU_s": 0.9930979
+}

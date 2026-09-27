@@ -1,0 +1,11 @@
+{
+ "scope":"Apply all previously fixed readers to the newly recorded16DN/relay channels; shadow only, never controls organism",
+ "selection":"Five Yang pairs and published signs already fixed in08/CPU51, no re-selection",
+ "pair_positions_in_neural_array":[[4,5],[6,7],[2,3],[8,9],[10,11]],
+ "signs":[1,1,1,-1,1],
+ "baseline":"Each condition mean of first10ms before extra input/odor; retain difference from matched parent",
+ "readers":["five_pair_median","five_pair_equal_mean","DNb05_DNb06_opponent","DNa02_DNg13_actions","fixed_anatomical_soma_projection"],
+ "contrasts":"Same air L/R half differences, with and without odor; G/current odor-minus-sham. Mean51..90ms; no fitted gain or motor promotion",
+ "geometry_limit":"Anatomical projection labels MN soma side, not actual muscle action",
+ "frozen_before_reading_new_neural_arrays":true
+}

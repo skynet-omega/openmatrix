@@ -1,0 +1,141 @@
+{
+  "status": "COMPLETE",
+  "arm": "airR_odor0",
+  "qualification": false,
+  "attempted_ms": 90,
+  "committed_ms": 90,
+  "setting": {
+    "mode": "parent",
+    "air": -1,
+    "odor": false
+  },
+  "plan_sha256": "ea2b7c491992e3f412ff6a467e4bc7e31343d856fa07751171e8a4b0936fc93e",
+  "initial_exact": true,
+  "observer": {
+    "rows": [
+      36,
+      46
+    ],
+    "epochs": 1440,
+    "trials": 9835,
+    "accepted": 9832,
+    "rejected": 3,
+    "scheduler_changed": false,
+    "capacity_trials_per_epoch": 10000,
+    "recorded_fields": [
+      "state",
+      "net",
+      "positive_aux",
+      "negative_aux",
+      "drive",
+      "theta",
+      "gain",
+      "base_target",
+      "base_rate",
+      "tau",
+      "margin",
+      "final_target",
+      "final_rate",
+      "derivative",
+      "evaluation_time_s",
+      "stage_fraction"
+    ],
+    "acceptance_checked_against_counts_and_committed_state": true
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 1440,
+      "accepted": 9142047,
+      "rejected": 32729,
+      "build_s": 0.002387446991633624,
+      "native_wall_s": 23.43741673155455,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        40.0
+      ]
+    },
+    "CNS": {
+      "epochs": 1440,
+      "accepted": 9832,
+      "rejected": 3,
+      "build_s": 0.11828742799116299,
+      "device_bytes": 71324672,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 39340,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 1440,
+      "accepted": 1440,
+      "rejected": 0,
+      "build_s": 2.215583176992368,
+      "wall_s": 21.675999629485887,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 2880,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 1440,
+      "events": 6597,
+      "max_q_reconstruction_difference": 8.881784197001252e-16,
+      "global_trials": 9835,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 720,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 14980
+    }
+  },
+  "CPU_s": 239.6493954,
+  "wall_s": 209.13900336402003,
+  "peak_RSS_bytes": 7632171008
+}

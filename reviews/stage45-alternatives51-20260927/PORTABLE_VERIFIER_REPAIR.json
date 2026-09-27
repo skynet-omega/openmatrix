@@ -1,0 +1,6 @@
+{
+  "time": 1790538249.4894152,
+  "attempt1_error": "ValueError: Initial qualification native vector",
+  "cause": "Auxiliary new verifier incorrectly equated internal state and published float64 release;105269 specialized rows differ, max.30917308737823956. Simulation and original16msqualification unaffected.",
+  "repair": "Preserve separate internal source48 state for candidateq0 and qualifiedidentity release for release comparisons. Preserve33field bitexact checks. No tolerance or simulation changes."
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "pilot51_bounded_two_candidates_v1",
+  "created_unix_s": 1790536144.4291656,
+  "source_checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "duration_ms": 90,
+  "prefix_ms": 10,
+  "odor_window_ms": [
+    11,
+    90
+  ],
+  "analysis_window_ms": [
+    51,
+    90
+  ],
+  "qualifications": {
+    "identity": 4,
+    "air": 4,
+    "conductance": 4,
+    "current": 4
+  },
+  "arms": {
+    "air0_odor0": {
+      "mode": "parent",
+      "air": 0,
+      "odor": false
+    },
+    "airL_odor0": {
+      "mode": "parent",
+      "air": 1,
+      "odor": false
+    },
+    "airR_odor0": {
+      "mode": "parent",
+      "air": -1,
+      "odor": false
+    },
+    "air0_odor1": {
+      "mode": "parent",
+      "air": 0,
+      "odor": true
+    },
+    "airL_odor1": {
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    },
+    "airR_odor1": {
+      "mode": "parent",
+      "air": -1,
+      "odor": true
+    },
+    "G_odor0": {
+      "mode": "conductance",
+      "air": 0,
+      "odor": false
+    },
+    "G_odor1": {
+      "mode": "conductance",
+      "air": 0,
+      "odor": true
+    },
+    "I_odor0": {
+      "mode": "current",
+      "air": 0,
+      "odor": false
+    },
+    "I_odor1": {
+      "mode": "current",
+      "air": 0,
+      "odor": true
+    }
+  },
+  "air": {
+    "world_field": "Fixed relative to initial body axes then constant in world; ±100mm/s along initial lateral axis. Current body translation and rotation supplied every1ms; not current bearing. Zero field retains body-relative motion.",
+    "magnitude_mm_s": 100.0,
+    "parameters": "Exact peer air_interface.Parameters defaults80modelunits,100mm/s; no dose changes.",
+    "preserve": "Extra drive only on335JO-C/E; recurrence and all native parameters retained; no physical wind torque."
+  },
+  "conductance": {
+    "scope": "Normalized constrained conductance dynamics replacing the generic BASE kernel only; later specialized overrides preserved. q is normalized engineering voltage with identity output, not measured membrane voltage.",
+    "scale": "For each nonvisual row X=E+positive_drive,Y=I+theta+negative_drive; S=X0+Y0 from first consumed RHS, q0 from restored snapshot; if S<=0 retain parent. No navigation labels.",
+    "leak": "EL=2*q0-X0/S is a fixed compensating bias; may fall outside reversal interval. C=2*tau, EE=1,EI=0. Not passive physiological leak.",
+    "G": "target_raw=(EL+X/S)/(1+(X+Y)/S); rate=(1+(X+Y)/S)/(2*tau)",
+    "I_control": "target_raw=(EL+(X/S)*(1-q0)-(Y/S)*q0+q0)/2; rate=1/tau. Retains frozen basal shunt so G and I have same basal value and relaxation.",
+    "bounded_output": "Both use target=clip(target_raw,0,1), explicitly a rectified engineering variant. This differs from adviser unclipped proposal; report clipping, no physiological equivalence.",
+    "not_historical_bugfix": true,
+    "parent_control": "air0_odor0/1, with identical air interface; body-relative still-air feedback also applies to G/I."
+  },
+  "criteria": {
+    "DNb05_directional_q_min": 1.6e-05,
+    "raw_yaw_deg_s_min": 0.02,
+    "air_primary": "Half difference L-R of mean51..90ms DN(L-R), report separately odor/noodor and their interaction. Neural and raw-yaw minima both; input and relays must respond. Air-only success is anemotaxis signal only.",
+    "conductance_primary": "Difference of odor-minus-sham responses G versus current control in mean DNb05(L-R) and raw_yaw; report also each against parent. If G and I change equally, no conductance-specific support.",
+    "saturation_exclusion": "Do not promote if more than5% of nonsensory, nonvisual neurons newly reach q>=0.999 in candidate endpoint vs parent, or nonfinite values.",
+    "stage4": false,
+    "stage5": false,
+    "limits": "These short arms locate neural transfer. Full stage4 needs separate online/replay behavior and stage5 reserved physical perturbation."
+  },
+  "budgets": {
+    "neural_ms_total": 916,
+    "scientific_arms": 10,
+    "complete_prototypes": 2,
+    "CPU_s": 5000,
+    "wall_s": 4200,
+    "per_arm_CPU_s": 440,
+    "per_arm_wall_s": 400,
+    "RAM_bytes": 25769803776,
+    "VRAM_bytes": 15032385536,
+    "new_disk_bytes": 8589934592,
+    "auto_retry": false
+  },
+  "software_tests": "Qual identity4ms must match49first4exact33fields; other3qualifications4ms include2OFF+2ON and verify actual consumedair/addition, operatorCPUformulas and finiteoutputs.16ms max inclfailedattemptedms. No scientificretuning.",
+  "plan_change": "Ten90msarms replace proposednine100ms so conductance has BOTH sham and odor for G/current without exceeding916ms total."
+}

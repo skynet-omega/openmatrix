@@ -1,0 +1,28 @@
+{
+  "schema": "pilot51_scientific_state_v1",
+  "time_ns": 47576000000,
+  "read_only_witness": "398d770b38edd03d52253483b032bf62617291cf2ea0b8e77a770a7e7f932b0e",
+  "restart_tested": false,
+  "scope": "Scientific state, RNG, effective and stored weights, body, input and motor owner; resume harness not qualified.",
+  "files": {
+    "interval_owner.json": "bb39b9312a70970ca2e6769db6fe022f3d0c317f70e9cdce2ab2d298b674939d",
+    "session.npz": "ae52399b99198c4c748b715080a35f0b41dea52ddb5d56e7d382fead10b3cf8e",
+    "boundary.json": "e2bd3cd294584053532f45d439eaf27f90b931d01aadf83a3552d22e635614e4",
+    "effective_operator.npz": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5",
+    "input_owner.npz": "0e82bfc73e65d39982660940ff25593d5403228d7688e081bafb3153886ee0a0",
+    "stored_operator.npz": "cf76afa386f205e7483a4ee1d68555ff3bfec53c81d159fc156ffe65703c0c6d",
+    "published.json": "767eb70e3d2cc27ef5bb598e9e78156916a36893e6d28e4d49b9fde8a82a5103",
+    "published.npz": "42e68ae6e7110a01a956797a0698d0e3561752b9ce2996e1c85410c45d0b0e4d",
+    "session.json": "92953f5302033db532c6adfee6022538a4613e6968043f6c967715526bf8781a",
+    "interval_owner.npz": "01cdd88e49df4c558ef1e17a7158b7f116ea64a7986a2443d88ff90d03fe0cd8",
+    "motor_owner.json": "2b03d137820c49216013b073af2a11d5d39622fc20065946221ea5744a9e9d12",
+    "motor_owner.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "effective_operator.json": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff",
+    "prosthesis.json": "95cf3af31ddd85e83b741788ec8a8bad0b65641012b39582158608c5d723f9a0",
+    "stored_operator.json": "4512924d755d6f8073f358234a1fc7723faa6271d06e5c31ca84cc9d03260efd",
+    "prosthesis.npz": "e0425098ee9c8e3f6d37632ff2b36abe8e0baf1b6167639692de2db840be4ec5",
+    "input_owner.json": "82b9795d91d1b21411edd29ce597ae04c66fe714090439471c4ac0e24579f68d",
+    "pilot_owner.json": "c43323dcde0b0685ea3f39ed72d6d3d027d850d9454b29f473520d61cc664153"
+  },
+  "parent_schema": "composition48_scientific_state_v1"
+}

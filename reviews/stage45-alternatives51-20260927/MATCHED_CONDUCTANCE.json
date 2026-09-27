@@ -1,0 +1,84 @@
+{
+  "scope": "Six recorded generic DN local held-input tests, not recurrent model. Normalized engineering voltage output V=q; no mV claim.",
+  "proposal": "ASTRA51 initial-S conductance, own baseline preserved. Correct current control freezes total basal shunt=2, so both initial tau equal inherited tau.",
+  "EL": [
+    -0.45109634896711936,
+    -0.45449889117771636,
+    0.7251509324547316,
+    0.7588316236736132,
+    -0.47947997157437705,
+    -0.49523457188898967
+  ],
+  "EL_outside_reversal_interval_count": 4,
+  "baseline_derivative_max": 2.6600338554592504e-15,
+  "probes": [
+    {
+      "probe": "constant",
+      "G_final": [
+        1.93e-322,
+        2.8e-322,
+        0.721735328911155,
+        0.7454114241802913,
+        6.304715429252972e-110,
+        2.6e-322
+      ],
+      "current_final": [
+        1.93e-322,
+        2.8e-322,
+        0.721735328911155,
+        0.7454114241802913,
+        1.2050316097554991e-108,
+        2.6e-322
+      ],
+      "max_difference": 1.1419844554629694e-108,
+      "max_outside_0_1": 0.0,
+      "requires_material_clipping": false
+    },
+    {
+      "probe": "observed_PN_transplant",
+      "G_final": [
+        1.93e-322,
+        2.8e-322,
+        0.7218475630843236,
+        0.7455336394955553,
+        6.304715429252972e-110,
+        1.557006922329386e-06
+      ],
+      "current_final": [
+        1.93e-322,
+        2.8e-322,
+        0.7218476069275724,
+        0.7455336963228797,
+        1.2050316097554991e-108,
+        1.5570092635930526e-06
+      ],
+      "max_difference": 5.6827324401709234e-08,
+      "max_outside_0_1": 0.0,
+      "requires_material_clipping": false
+    },
+    {
+      "probe": "balanced_EI_10percent",
+      "G_final": [
+        0.04533029218575322,
+        0.045084813058807495,
+        0.701679709571861,
+        0.7232143384518097,
+        0.0450701609446266,
+        0.04519886342172295
+      ],
+      "current_final": [
+        0.04976592708076499,
+        0.049369524767866955,
+        0.6997436575790704,
+        0.7210715618398412,
+        0.04934686146480026,
+        0.049549069621349896
+      ],
+      "max_difference": 0.004435634895011774,
+      "max_outside_0_1": 0.0,
+      "requires_material_clipping": false
+    }
+  ],
+  "classification": "LOCAL_ALGEBRA_QUALIFIED_ONLY; EL outside [0,1] is compensating current, not passive physiological leak",
+  "CPU_s": 0.021062299999999978
+}

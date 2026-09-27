@@ -1,0 +1,227 @@
+{
+  "scope": "Readers evaluated on 100ms published endpoints divided by unchanged caps; not native FP64 q, not calcium; bilateral input so no directional success claim. Baseline500..1000ms per arm. No new CNS.",
+  "selection": "Five pairs and signs fixed in review08/Yang; means are transparent equal-weight controls, no fit.",
+  "readers": {
+    "five_pair_median": {
+      "sham": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "dm1": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "profile": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "permuted": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      }
+    },
+    "five_pair_equal_mean": {
+      "sham": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.002156047884537716
+      },
+      "dm1": {
+        "max_abs_effect_vs_sham": 0.0005789081213790334,
+        "mean_final_effect_vs_sham": 0.0005326002338328439,
+        "max_abs_own_baseline_change": 0.002156047884537716
+      },
+      "profile": {
+        "max_abs_effect_vs_sham": 0.0005090400640151954,
+        "mean_final_effect_vs_sham": -0.000446798594943043,
+        "max_abs_own_baseline_change": 0.002156047884537716
+      },
+      "permuted": {
+        "max_abs_effect_vs_sham": 0.00047813077526735054,
+        "mean_final_effect_vs_sham": -0.0004209110064683728,
+        "max_abs_own_baseline_change": 0.002156047884537716
+      }
+    },
+    "DNb05_DNb06_opponent": {
+      "sham": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.00073437065384091
+      },
+      "dm1": {
+        "max_abs_effect_vs_sham": 0.0004043358571726996,
+        "mean_final_effect_vs_sham": -3.326628266803189e-05,
+        "max_abs_own_baseline_change": 0.00073437065384091
+      },
+      "profile": {
+        "max_abs_effect_vs_sham": 0.00047118365650899996,
+        "mean_final_effect_vs_sham": -0.0004546556184729193,
+        "max_abs_own_baseline_change": 0.00073437065384091
+      },
+      "permuted": {
+        "max_abs_effect_vs_sham": 0.0005174723503424961,
+        "mean_final_effect_vs_sham": -0.0004969941041652326,
+        "max_abs_own_baseline_change": 0.00073437065384091
+      }
+    },
+    "DNa02_DNg13_actions": {
+      "sham": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "dm1": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "profile": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      },
+      "permuted": {
+        "max_abs_effect_vs_sham": 0.0,
+        "mean_final_effect_vs_sham": 0.0,
+        "max_abs_own_baseline_change": 0.0
+      }
+    }
+  },
+  "sampled_activity_max_by_type": {
+    "DNa01": 0.044960052612033535,
+    "DNa02": 0.0,
+    "DNb05": 0.7477146751739389,
+    "DNb06": 0.0,
+    "DNg13": 0.0
+  },
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/state.npz": "13f1b78cb757b76d0a720638cfc297f919d4cc0440739c033548fd9a9e0e836e",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00001_00100ms/published.npz": "cfe823ca5951a9e6e96733489dfd8fc2e9435bac9bf038233b18608e49321994",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00101_00200ms/published.npz": "05a8d3f229ab46bd099752f1847d11d98be0cf89c7407d14880e7acb17eabb74",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00201_00300ms/published.npz": "4cf53c13fb82bf7eb261486f141e8732110167f820835217437d5486da757a9d",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00301_00400ms/published.npz": "373b3fd3985f0b7049ed6523824095a358c400326c8d41ef6dafef0b5f1a9b0c",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00401_00500ms/published.npz": "f287e5d1b4e72c785879a4873bfced394abd4a2f7171f94c5bc4e035e85d472b",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00501_00600ms/published.npz": "bbb8a43a8ea69befd6caabbdf5a4d4470ba820131529b1c5e713c4a1eadac77c",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00601_00700ms/published.npz": "3b554781889e7991bf4410c9e5e8511a1d699e34fa917e947002e3c3a9f89774",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00701_00800ms/published.npz": "ad4c0215b30f4a5d9e40735388eff6d0ab07b0910e40a2d0a9f1dc38b0bf0379",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00801_00900ms/published.npz": "d5de58bbf6070963904f848a672f4beddecc15062b732a9b8cf5e6a952054b2a",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/00901_01000ms/published.npz": "797914469f169cf30cadb28ff3da706769401374ec7c07c369220ca8dc6ff555",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01001_01100ms/published.npz": "a01517d33bb9f154b2614dd1d2eb327d39ca8efb5bd54c8d32422bfa84900777",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01101_01200ms/published.npz": "95bc274dbfdd29322dab2c87f5e25102a6c6b9bff68aaa640afd9d76fb9a3465",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01201_01300ms/published.npz": "1283123cf585d772e748b7a6dde8aeb6f3e09f6aee92d621880d072279b6e60e",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01301_01400ms/published.npz": "fb34f2aad7d5755298c0c8cf9c8064e6a2e2e9de6bc7230c6dea686c1414405e",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01401_01500ms/published.npz": "97363f7885cb43e32986dd1f4a44712e9bfb063765a138f78d562feb62f25201",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01501_01600ms/published.npz": "f86e2f1311f823ad4759554b6b768d0f5da2b822241e432a7f0a1dc3d96e0f47",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01601_01700ms/published.npz": "436e943ad4f2d928b8d984ff705c401681727ddaf0fedc5bd8c0c24c1210023f",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01701_01800ms/published.npz": "d501d6baf319a5ba996ed7138caa9354e6980a331e58ff24eeca9f32d6d71301",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01801_01900ms/published.npz": "8146b193bc137e53ca3de6bfa089785552b0e38acfef8196d17ca0124dea17ad",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/01901_02000ms/published.npz": "02195215e8638f4da973a79bfaf0cc90167ad438e1db7f28933074cc40872a41",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02001_02100ms/published.npz": "164fad2f3d51a369e4ed493978f10dc46e3716de03c516b6199005d1aabf4e4f",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02101_02200ms/published.npz": "6e8c5a36404cbe39087644a88c62925ee2cf227bfd9b0e68993d69972972826a",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02201_02300ms/published.npz": "7ea876aabbf968d9f3ac461f8ce0eb54979bae93fbabf68534a5b7ef89dfb9b1",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02301_02400ms/published.npz": "333b23ed64d179109c83cc44e98f762690639216808d60d0553a70b2d11a1d06",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02401_02500ms/published.npz": "36c8b6e3592af875692bf0b367621a9556e486e5fe8d862b061e920557c70975",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02501_02600ms/published.npz": "26664e384797b3f9d480d2abbe49ecf36d1ac77a33e29a8afd6ccf1632a5acaa",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02601_02700ms/published.npz": "c1de2bf9bfa72667b0410bae27739caf4915b5e1ccea0218da848f5ff20fc58f",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02701_02800ms/published.npz": "b4630f7a39180bcce5020bbba3c98e7e3ba4bd67f87b075390d082cbd5b50738",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02801_02900ms/published.npz": "2fddcda1f7079474aefa8b111ced8df2a18ab968b06aaa56ffc39131ce605124",
+    "campanas/etapa45_composicion_20260927_48/sham/blocks/02901_03000ms/published.npz": "26e9ba43406a6522b454ea657407805f512f41b11482bddf7e3b47a69653a643",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00001_00100ms/published.npz": "cfe823ca5951a9e6e96733489dfd8fc2e9435bac9bf038233b18608e49321994",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00101_00200ms/published.npz": "05a8d3f229ab46bd099752f1847d11d98be0cf89c7407d14880e7acb17eabb74",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00201_00300ms/published.npz": "4cf53c13fb82bf7eb261486f141e8732110167f820835217437d5486da757a9d",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00301_00400ms/published.npz": "373b3fd3985f0b7049ed6523824095a358c400326c8d41ef6dafef0b5f1a9b0c",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00401_00500ms/published.npz": "f287e5d1b4e72c785879a4873bfced394abd4a2f7171f94c5bc4e035e85d472b",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00501_00600ms/published.npz": "bbb8a43a8ea69befd6caabbdf5a4d4470ba820131529b1c5e713c4a1eadac77c",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00601_00700ms/published.npz": "3b554781889e7991bf4410c9e5e8511a1d699e34fa917e947002e3c3a9f89774",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00701_00800ms/published.npz": "ad4c0215b30f4a5d9e40735388eff6d0ab07b0910e40a2d0a9f1dc38b0bf0379",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00801_00900ms/published.npz": "d5de58bbf6070963904f848a672f4beddecc15062b732a9b8cf5e6a952054b2a",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/00901_01000ms/published.npz": "797914469f169cf30cadb28ff3da706769401374ec7c07c369220ca8dc6ff555",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01001_01100ms/published.npz": "eab7e1e44846d4debba0d93a59e465eb5174cd204f3dce865a9bd06c1c2717c8",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01101_01200ms/published.npz": "9f1777ba81a10b39ba2ee163c70726f00e578daa3040e8e63b5e3be1c4e8d1f2",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01201_01300ms/published.npz": "9c6d5f0f72184bd9c46e0f4055f8ad1f2f3c65cbb5ce1a492dc88a1f526f8e4c",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01301_01400ms/published.npz": "18e2cf100171df939d890ececf07362cd8bf079274681f5b8c87812f3fb00f7d",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01401_01500ms/published.npz": "32ebddb4f9597951a51088c56d85f0e9362ef8223841e55cc2945cc42a4f4893",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01501_01600ms/published.npz": "3b65516fe1b1eab701bb43afad2b44c3692fb8ffbe5d5364d39e251418a7777f",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01601_01700ms/published.npz": "3dc1351aac4c79ffacd0bc1ba7d0ac8b5bc9a5ff0162f026468ff44f5f80c287",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01701_01800ms/published.npz": "6efb70e809a6224cb9c90ec4324eb479e3b04340c46292ce15313c5e2547cc79",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01801_01900ms/published.npz": "9c82a0960d08ea7243ca631c5a972567d36827f13ae721a4daf553857aa197a8",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/01901_02000ms/published.npz": "acfa9946b31c0401834604a3ac7d02682fc6f3804278dace079cf85e57e41344",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02001_02100ms/published.npz": "7ebc3f8eb2eab8e9ef422bdbddf65ce02a20d8a92c8a46e0a1e3cf6e64fba727",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02101_02200ms/published.npz": "60459b9b56f4eec578c4b5673b857fe03d6818074d55876fb999efc7cc433d67",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02201_02300ms/published.npz": "9042d234ce678b7412144d251bedcbbe962597cb7ca5cfa98cd0a3971d1b0c1b",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02301_02400ms/published.npz": "06ea91250c2bc3da2d4358b33e6b354c17412191539619155efa0043a932fabb",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02401_02500ms/published.npz": "3306f2ce316222735b5a0a70bea03715e7ebdbdcf89d2152af2f5deffafcb158",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02501_02600ms/published.npz": "22642e41bc81ae7be61e960881ae4604638b5800d4efa0163eb68c0ae23c998c",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02601_02700ms/published.npz": "19b04b360de841cc271de5fef717922fcd31044a02412cbb80686b17a5824180",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02701_02800ms/published.npz": "c906048f9b1aa4646af9897a9778c340defa9aeddd80afdfd2008978cdda002f",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02801_02900ms/published.npz": "f647002c7af43e048dd8f5919ca4f11dd1640069428e0db340d2dd37a5d15cc0",
+    "campanas/etapa45_composicion_20260927_48/dm1/blocks/02901_03000ms/published.npz": "ddaca649a5611d2c608de776d363eab43dd6fb58f525829a0e3f7404fb536962",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00001_00100ms/published.npz": "cfe823ca5951a9e6e96733489dfd8fc2e9435bac9bf038233b18608e49321994",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00101_00200ms/published.npz": "05a8d3f229ab46bd099752f1847d11d98be0cf89c7407d14880e7acb17eabb74",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00201_00300ms/published.npz": "4cf53c13fb82bf7eb261486f141e8732110167f820835217437d5486da757a9d",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00301_00400ms/published.npz": "373b3fd3985f0b7049ed6523824095a358c400326c8d41ef6dafef0b5f1a9b0c",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00401_00500ms/published.npz": "f287e5d1b4e72c785879a4873bfced394abd4a2f7171f94c5bc4e035e85d472b",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00501_00600ms/published.npz": "bbb8a43a8ea69befd6caabbdf5a4d4470ba820131529b1c5e713c4a1eadac77c",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00601_00700ms/published.npz": "3b554781889e7991bf4410c9e5e8511a1d699e34fa917e947002e3c3a9f89774",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00701_00800ms/published.npz": "ad4c0215b30f4a5d9e40735388eff6d0ab07b0910e40a2d0a9f1dc38b0bf0379",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00801_00900ms/published.npz": "d5de58bbf6070963904f848a672f4beddecc15062b732a9b8cf5e6a952054b2a",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/00901_01000ms/published.npz": "797914469f169cf30cadb28ff3da706769401374ec7c07c369220ca8dc6ff555",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01001_01100ms/published.npz": "0582c9fd1a69a0856d198acca3f2234bad2ef7e857f5b1dc10d4abc39347c1fc",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01101_01200ms/published.npz": "051b495c1829e4da30887c7941cd6ca546501230eb521a794371f765cc646b23",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01201_01300ms/published.npz": "3444bad665652b161ba7a88ba7e609594724987b3a13d2d4ab5f65811549f889",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01301_01400ms/published.npz": "f3628cef072ab9ea444d2a4bf23ca8798b8b21428faf500be90a73705a36e407",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01401_01500ms/published.npz": "ca2f8b08cd4818e31ded10b8c53f901119683786b24ae85cbd8ccf442b29036c",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01501_01600ms/published.npz": "d949fefadc25cb123a54cb459c3403c61552a012a4e3e82a9285cfa654cf267b",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01601_01700ms/published.npz": "7028c943cd628b4828586d8b5cb73455bd53b05652e42409b9262c9f275622af",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01701_01800ms/published.npz": "525aa36c57bb891e3d6421cc5f52461d91a4098d244e77b04abdc5f43114d0dc",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01801_01900ms/published.npz": "bea482c423e3cbd6e980f9be702098040c5748d987d90930cb062f98e3ce9bfb",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/01901_02000ms/published.npz": "4b3d888612aad4bf488da5e9def8aa60d4112bec1da3e66ccb7c42c075f91a8b",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02001_02100ms/published.npz": "b81584909289e6570503cf4ed839ca82039ad9e335daf6ffc377fcfd4d8793b1",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02101_02200ms/published.npz": "326b4589b8bca8cefb3f6ba0ba2ab36763d8ebee98aab39a15cfed5133ec6574",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02201_02300ms/published.npz": "0c2cae5c529b336c8ce7f29a699ce6189d52abf1945a6ce3330ec219cfef057a",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02301_02400ms/published.npz": "5d931ed8615290eb4b42c9f9adffb1203e31cf5461f7e5ce9ae6c04a4b5b6c4d",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02401_02500ms/published.npz": "64ed2f52435eefe25f0f55796275fdd611654e05c5bbca3eded6a6009b7b10f6",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02501_02600ms/published.npz": "7529f77eeef470687622fd35ee9f9d859cb8403fa877598cc30e6965799f2f54",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02601_02700ms/published.npz": "8575131b6c1b9333c019b0dfb8e4f26f313956a6b3d2bbbdccbc160e8520c332",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02701_02800ms/published.npz": "474a655013b3a630d5f608aa1123fc61ff9fbfdc82290da8048275bea40eb239",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02801_02900ms/published.npz": "1ff2d13923da717a442afe3996e6b70b11bde70521df71fe76e084251c4e1106",
+    "campanas/etapa45_composicion_20260927_48/profile/blocks/02901_03000ms/published.npz": "a522227a3daf704eda34ed54bd0c58e4ecb913c0e753904b32c41c38616595dc",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00001_00100ms/published.npz": "cfe823ca5951a9e6e96733489dfd8fc2e9435bac9bf038233b18608e49321994",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00101_00200ms/published.npz": "05a8d3f229ab46bd099752f1847d11d98be0cf89c7407d14880e7acb17eabb74",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00201_00300ms/published.npz": "4cf53c13fb82bf7eb261486f141e8732110167f820835217437d5486da757a9d",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00301_00400ms/published.npz": "373b3fd3985f0b7049ed6523824095a358c400326c8d41ef6dafef0b5f1a9b0c",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00401_00500ms/published.npz": "f287e5d1b4e72c785879a4873bfced394abd4a2f7171f94c5bc4e035e85d472b",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00501_00600ms/published.npz": "bbb8a43a8ea69befd6caabbdf5a4d4470ba820131529b1c5e713c4a1eadac77c",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00601_00700ms/published.npz": "3b554781889e7991bf4410c9e5e8511a1d699e34fa917e947002e3c3a9f89774",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00701_00800ms/published.npz": "ad4c0215b30f4a5d9e40735388eff6d0ab07b0910e40a2d0a9f1dc38b0bf0379",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00801_00900ms/published.npz": "d5de58bbf6070963904f848a672f4beddecc15062b732a9b8cf5e6a952054b2a",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/00901_01000ms/published.npz": "797914469f169cf30cadb28ff3da706769401374ec7c07c369220ca8dc6ff555",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01001_01100ms/published.npz": "3890dc1a991cd1aa127c5b95f745eb80ca79eab960e5597a6faf7732811a9544",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01101_01200ms/published.npz": "bb65bfce25fd873d6ba3c367469ea1876d2bc40117b84c88e5fca8d38fb04864",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01201_01300ms/published.npz": "5c2742fd2d5d00ff72c5070f51fac890ce299100908101b71af01252e368b8eb",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01301_01400ms/published.npz": "330685121ef040ff84a5aa00e86bc771f43289562ad3b7c4440e61f76aeb5fe7",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01401_01500ms/published.npz": "b7687765799cd982df130580a2bf5ba146465b166749edeae87bdf0ee59c3786",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01501_01600ms/published.npz": "e9e7e7275f9c53d30f8498602dabf5a5b0467e91497f855a6a0d3221a25891ae",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01601_01700ms/published.npz": "981dfb322ee35a7cc30e885ec79d9cc76df0992e4c98f6bdada93d638cbc4356",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01701_01800ms/published.npz": "7cf2a1d66e41868802ecbeb61c698ca657995fd061eeaed9f67d006bfee0b8b4",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01801_01900ms/published.npz": "582b184ae8c02da0ae8f80f74352ec23b3f0046e6524567eba47bced1957d8a9",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/01901_02000ms/published.npz": "90915b902df9c905b3dde3f36f44605c33589236b4beb9810499cb8fccde1b9e",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02001_02100ms/published.npz": "b4067ac587a5a7f2ae5fada4acae91504aac40ea9d79a1642d8b67578bae1679",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02101_02200ms/published.npz": "128606ef454f3a61080d7ab15d673dbbff1376b90923c3e52c5b4d5366363c9a",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02201_02300ms/published.npz": "479666e6495df71d87d74026d2e9cfeaee78fa2f5eca7488025a812331096714",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02301_02400ms/published.npz": "619ceaf2cf8b58c2eef05e7b5be9d050f57e008ee0ec2a2575f87be06fbdccc4",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02401_02500ms/published.npz": "a8d6b49db71ef7c9c631c3e353bea6d9e5bc1ee77efeea01776058b136a9dccf",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02501_02600ms/published.npz": "43695f9dbaff08ab6e2e5cb76671e0b29150316702020dbec0a013df2b537f58",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02601_02700ms/published.npz": "c5c2608b0552cc9fb0e195fe6a20027c27afd0ea0270be35933b26666c842b56",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02701_02800ms/published.npz": "0f085a5dbba3396f24a8852fb898dbf0c056b572540ec060277bcfe1ae978150",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02801_02900ms/published.npz": "005679e95c1dc9efb50d7c4eebd3c583ea723153d49ffbdbbed3d026e0461d03",
+    "campanas/etapa45_composicion_20260927_48/permuted/blocks/02901_03000ms/published.npz": "e34a56afaf5858e9d714c0763a69d557f4b6ead39cacb69a521dcab3f3eada6e"
+  },
+  "CPU_s": 0.6229898,
+  "classification": "DESCRIPTIVE_SCREEN_COMPLETE"
+}

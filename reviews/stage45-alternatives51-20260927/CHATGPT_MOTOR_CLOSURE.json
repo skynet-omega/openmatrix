@@ -1,0 +1,12 @@
+{
+  "schema": "adviser_closure51_v1",
+  "thread": "6ab8a0cd-d3fc-83e9-ad84-c2ec60e22e17",
+  "title": "ChatGPT_Motor_V2",
+  "scope": "Advice on supplied results; no independent array reproduction or verified PRO mode",
+  "messages": [
+    {
+      "id": "b7bdb96a-725b-49e1-ad95-f96ff18e04ea",
+      "text": "No veo objeción a esa decisión, con **una condición crítica** para conservar la vía de aire:\n\n1. **Aire queda como candidata, no como resultado positivo de orientación.** El bug cm/s→mm/s afecta justamente el feedback que esa hipótesis pretende evaluar, y además los dos sentidos recibieron dosis JO distintas (5169 vs 5932; 156 vs 179 receptores). La repetición corregida sólo será interpretable si el control de intensidad se define en la **señal JO realmente consumida después de corregir unidades**, no sólo en el campo impuesto o número de receptores. Que ambos sentidos produzcan yaw del mismo signo impide por ahora atribuir dirección al aire, aunque exista un contraste pareado.\n\n2. **Bajar prioridad de G como mejora selectiva está justificado.** G abre DNg100 y produce avance, pero prácticamente igual con y sin olor:\n\\[\n0.028/0.050\\ {\\rm mm/s},\\qquad\n0.00083/0.00138\\ {\\rm mm}\n\\]\nmientras el contraste olor−sham queda muy por debajo del criterio material. Eso es evidencia de un **cambio global del operating point/excitabilidad bajo esa ley de ingeniería**, no de una mejora específica de transferencia olfativa. No lo descartaría como herramienta diagnóstica de iniciación, pero sí como candidato prioritario para resolver orientación/etapa 4.\n\n3. **No inferiría todavía que el decoder está mal por el yaw.** Hasta repetir con el factor ×10 corregido y dosis JO emparejada, la relación DN→`rawyaw` está mezclada con una entrada sensorial mal escalada. Si después de esa corrección aparece una inversión sensorial clara en DN pero no en `rawyaw`, recién ahí la interfaz/lector gana evidencia causal.\n\nAsí que el cierre me parece correcto: **aire permanece condicionado a reparación + emparejamiento efectivo; G pierde prioridad como rescate olfativo selectivo, aunque conserva el hallazgo independiente de que modifica fuertemente el régimen de iniciación.**"
+    }
+  ]
+}

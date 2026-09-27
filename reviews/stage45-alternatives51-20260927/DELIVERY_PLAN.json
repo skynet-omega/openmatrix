@@ -1,0 +1,14 @@
+{
+  "schema": "alternatives51_delivery_plan_v1",
+  "scope": "Recompute completed recordings, obtain brief peer review, render report, package and verify from clean extraction. No additional simulated interaction, new candidate, parameter fitting or retry of failed scientific arms.",
+  "CPU_s_max": 900,
+  "wall_s_max": 1800,
+  "archive_bytes_max": 4294967296,
+  "compact_zip_bytes_max": 99614720,
+  "aggregate_new_disk_bytes_max": 8589934592,
+  "disk_scope": "Keep the original program8GiB ceiling for new campaign evidence and deliveries; deduplicate full-state archive, count clean extractions and downloads. Do not create a second expanded copy of all checkpoints.",
+  "new_CNS_ms": 0,
+  "verification": "Recompute ten contrasts, five shadow readers, local JVP and all16ms qualification equations/identities on CPU. Seven deliberate corruptions must fail even with updated file hashes. Verify every full-capsule payload and NPZ reconstruction. Portable51 GPU restart remains unqualified.",
+  "publication": "Explicit manifest of pertinent scientific data/source/results only to skynet-omega/openmatrix. Commit-fixed links, SHA256 and downloaded compact ZIP verification. No credentials or external unrelated files.",
+  "budget_failure": "Preserve evidence and report which delivery step is incomplete; do not exceed finite bound or rerun scientific arms."
+}

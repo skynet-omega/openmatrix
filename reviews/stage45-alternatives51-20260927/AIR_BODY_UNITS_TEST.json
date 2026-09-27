@@ -1,0 +1,36 @@
+{
+  "status": "PASS_CPU_REGRESSION",
+  "cases": [
+    {
+      "native_velocity": [
+        2.0,
+        -3.0,
+        0.5
+      ],
+      "corrected_drive_max": 0.0,
+      "old_drive_max": 19.311092208863098
+    },
+    {
+      "native_velocity": [
+        -7.0,
+        1.0,
+        0.0
+      ],
+      "corrected_drive_max": 0.0,
+      "old_drive_max": 26.98886419593026
+    },
+    {
+      "native_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corrected_drive_max": 0.0,
+      "old_drive_max": 0.0
+    }
+  ],
+  "original_preserved": true,
+  "geometric_scale_exact_all10": true,
+  "corrected_CNS_ms": 0,
+  "scope": "Tests the corrected body-velocity method used by the proposed consumer; no qualification or reproduction of corrected CNS dynamics"
+}

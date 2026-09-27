@@ -1,0 +1,53 @@
+{
+  "status": "EXECUTED_CPU_ENGINEERING_INTERFACE_NOT_ORGANISM_VALIDATION",
+  "parameters": {
+    "half_speed_mm_s": 100.0,
+    "max_drive_model_units": 80.0,
+    "projection": [
+      [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ]
+    ]
+  },
+  "family_convention": "C positive pull, E negative push; assumed mechanics projection",
+  "total_counts_by_side": {
+    "L": 203,
+    "R": 132
+  },
+  "normalization": "Same response per receptor; no rescaling for unequal anatomical populations",
+  "state": "Stateless; caller owns sampling clock and checkpoint",
+  "passed": [
+    "zero relative air gives zero extra input",
+    "co-moving air gives zero extra input",
+    "Galilean invariance",
+    "world rotation covariance",
+    "reversing lateral air exchanges C/E on L",
+    "mirror symmetry per receptor LTrue",
+    "mirror symmetry per receptor LFalse",
+    "reversing lateral air exchanges C/E on R",
+    "mirror symmetry per receptor RTrue",
+    "mirror symmetry per receptor RFalse",
+    "bounded finite outputs",
+    "declared planar proxy ignores vertical air",
+    "additive update preserves other ports and base",
+    "reflection rejected",
+    "nonfinite velocity rejected",
+    "wrong dimensions rejected",
+    "invalid parameter rejected",
+    "goal position absent from API"
+  ],
+  "tested_cases": 6,
+  "CPU_s": 0.003041099999999998,
+  "process_CPU_total_s": 0.0615464,
+  "peak_RSS_bytes": 117755904,
+  "CNS_steps": 0,
+  "GPU_calls": 0,
+  "download_bytes": 0
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "alternatives51_program_v1",
+  "created_unix_s": 1790535152.2400823,
+  "request": "Probar todas las alternativas y comparar; sin declarar etapas por señales aisladas.",
+  "antecedent": "investigacion/alternativas_post50_20260927_08/PLAN_CONTRASTADO.md",
+  "budget": {
+    "screen_CPU_s_max": 600,
+    "screen_wall_s_max": 2400,
+    "download_bytes_max": 50000000,
+    "full_prototypes_max": 2,
+    "pilot_neural_ms_max": 916,
+    "pilot_CPU_s_max": 5000,
+    "pilot_wall_s_max": 4200,
+    "RAM_bytes_max": 25769803776,
+    "VRAM_bytes_max": 15032385536,
+    "new_disk_bytes_max": 8589934592,
+    "automatic_retries": 0
+  },
+  "screen_families": [
+    "Five-pair population reader",
+    "DNb05/DNb06 opponent reader",
+    "DNa02/DNg13 action reader",
+    "Anatomical DN-to-premotor projection",
+    "Reciprocal PN-owned-state transplant",
+    "Frozen-state Jacobian/JVP with nonlinear check",
+    "Generic conductance law versus matched current law",
+    "Intrinsic local regulation versus matched static control",
+    "Antennal air sensing through identified JO pathways",
+    "Measured proprioceptive gait context versus phase controls"
+  ],
+  "execution": "Cada familia recibe prueba discriminante local o bloqueo de identificabilidad demostrado. Como máximo dos prototipos completos de organismo; selección después de las cribas sin usar navegación para ajustar parámetros. Contrato de cada piloto congelado antes de ejecutar. No equivaler prueba local a prueba del organismo.",
+  "roles": {
+    "root": "Datos, lectores, estado PN, selección, implementación y ejecución de pilotos",
+    "Motor C++/CUDA": "Criba anatómica JO y factibilidad de mapeo propioceptivo; sólo CPU, sin editar raíz ni núcleo",
+    "ChatGPT ASTRA_V2": "Falsación del diseño de conductancias y regulación con parámetros explícitos",
+    "ChatGPT_Motor_V2": "Especificación de intercambio PN y JVP que permita ejecutar sin confundir mecanismo/estado"
+  },
+  "stop": "Terminar al completar discriminadores interpretables y hasta dos pilotos, alcanzar un presupuesto o encontrar bloqueo concreto. No ampliar tope al observar fallo. Stage4/5 sólo con conducta causal online y perturbaciones reservadas."
+}

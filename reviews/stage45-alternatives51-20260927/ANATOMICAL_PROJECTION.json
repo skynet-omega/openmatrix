@@ -1,0 +1,74 @@
+{
+  "scope": "Structural projection using canonical MaleCNS two-hop DN\u2192vnc_intrinsic\u2192vnc_motor plus direct connections, row-normalized anatomical counts. Sides are soma labels, not validated muscle actions. All intermediate neurons retained; no simulation or signed physiology. MANC type correspondence available but no cross-specimen IDs silently mixed. No learned decoder.",
+  "motor_cells": 708,
+  "motor_soma_side_known": 708,
+  "matrix": [
+    [
+      0.1531737375794259,
+      0.02669406343752175
+    ],
+    [
+      0.021249513513494443,
+      0.17042279381211292
+    ],
+    [
+      0.23166638678113557,
+      0.029843427903607944
+    ],
+    [
+      0.021229847101316483,
+      0.21609506666515965
+    ],
+    [
+      0.12990421263695703,
+      0.039446151089724255
+    ],
+    [
+      0.03918430425787504,
+      0.10369792585784214
+    ],
+    [
+      0.07813668709810247,
+      0.18007293784079634
+    ],
+    [
+      0.1564620477304674,
+      0.06290412106632808
+    ],
+    [
+      0.021311713989148256,
+      0.18045707790804286
+    ],
+    [
+      0.1469394903196641,
+      0.018375177738473226
+    ]
+  ],
+  "DN_ids": [
+    10442,
+    10760,
+    523769,
+    10360,
+    10118,
+    10065,
+    10888,
+    11067,
+    11074,
+    512006
+  ],
+  "max_extra_ensemble_signal_vs_DNb05": 0.00182722063586392,
+  "effect_vs_sham_by_arm": {
+    "sham": 0.0,
+    "dm1": 0.00044699535592990106,
+    "profile": 0.000292369383313561,
+    "permuted": 0.00023917532735376584
+  },
+  "bilateral_symmetric_anatomical_bias": 0.028750802312022483,
+  "side_relabel_exact": true,
+  "classification": "STRUCTURAL_SIGNAL_ONLY; report ensemble minus DNb05 without presuming it is nonzero or a turning law",
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/counts_pre_post.npz": "dc9c650f5651e7943cb5f76786bf09bb219f3af7b4de5487baeb816ad2dabf40"
+  },
+  "CPU_s": 0.9837725
+}

@@ -1,0 +1,29 @@
+{
+  "reports": [
+    {
+      "arm": "air",
+      "status": "COMPLETE",
+      "attempted_ms": 4,
+      "committed_ms": 4,
+      "CPU_s": 51.626147100000004,
+      "wall_s": 46.17164999002125
+    },
+    {
+      "arm": "conductance",
+      "status": "COMPLETE",
+      "attempted_ms": 4,
+      "committed_ms": 4,
+      "CPU_s": 53.2369704,
+      "wall_s": 47.17824323597597
+    },
+    {
+      "arm": "current",
+      "status": "COMPLETE",
+      "attempted_ms": 4,
+      "committed_ms": 4,
+      "CPU_s": 52.653114,
+      "wall_s": 47.376603581011295
+    }
+  ],
+  "wall_s": 142.84435753896832
+}

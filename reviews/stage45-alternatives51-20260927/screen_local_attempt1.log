@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/screen_local.py", line 74, in <module>
+    if __name__=='__main__':main()
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/screen_local.py", line 33, in main
+    need(meta['sham']==meta['profile'],'Same PN ownership identities and clocks; scalar state differs?')
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/screen_local.py", line 10, in need
+    if not x:raise ValueError(m)
+ValueError: Same PN ownership identities and clocks; scalar state differs?

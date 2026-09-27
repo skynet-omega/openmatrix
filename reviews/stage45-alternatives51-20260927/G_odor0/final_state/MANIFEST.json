@@ -1,0 +1,29 @@
+{
+  "schema": "pilot51_scientific_state_v1",
+  "time_ns": 47576000000,
+  "read_only_witness": "b8d1aa220cebead38718a74872ebc67072f7f59b8ca9a38b99ecb3f94dd80fde",
+  "restart_tested": false,
+  "scope": "Scientific state, RNG, effective and stored weights, body, input and motor owner; resume harness not qualified.",
+  "files": {
+    "interval_owner.json": "bb39b9312a70970ca2e6769db6fe022f3d0c317f70e9cdce2ab2d298b674939d",
+    "session.npz": "0450a9d361a64d6f4c1028e84f1541cf7bf3acb0bac14afdf03a991469eb8fb6",
+    "boundary.json": "e2bd3cd294584053532f45d439eaf27f90b931d01aadf83a3552d22e635614e4",
+    "effective_operator.npz": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5",
+    "input_owner.npz": "0e82bfc73e65d39982660940ff25593d5403228d7688e081bafb3153886ee0a0",
+    "stored_operator.npz": "cf76afa386f205e7483a4ee1d68555ff3bfec53c81d159fc156ffe65703c0c6d",
+    "published.json": "767eb70e3d2cc27ef5bb598e9e78156916a36893e6d28e4d49b9fde8a82a5103",
+    "published.npz": "9c8abc718ea16869ca6cc5df0a7a071ea880ce46439f4028dd29ccec08889f07",
+    "session.json": "f1c3f73d4fcb5669215635e8f090f38b9eaa09fc75ccdcc3c1b5dfe43016f5b7",
+    "interval_owner.npz": "b07615ade2c4495ab44683cbdca900718ffa7ae8f3942ea15222ad21b83e918f",
+    "motor_owner.json": "3714b5b031000aa2546c46e74f34705a82ea85c77b3722a4334b4012e67b213f",
+    "motor_owner.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "effective_operator.json": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff",
+    "prosthesis.json": "a7bfdf99722537d030e07e6ab88c4b54c124b501e49f67cb48716f7f6f7dec28",
+    "stored_operator.json": "4512924d755d6f8073f358234a1fc7723faa6271d06e5c31ca84cc9d03260efd",
+    "prosthesis.npz": "e298b12a38c5810b9ba4d5a22a505741b989926c673a9d3779871f7ee0be01fa",
+    "input_owner.json": "82b9795d91d1b21411edd29ce597ae04c66fe714090439471c4ac0e24579f68d",
+    "pilot_owner.json": "296bbab75a01f7fad9c7e71ed3dc0a43cd1d5599ea3e5c3f0a24dd32e05101e0",
+    "candidate_owner.npz": "c56a0b2a1185e323f88337a9731572530611d4ad8b1bc786a9ff0362b2c3a675"
+  },
+  "parent_schema": "composition48_scientific_state_v1"
+}

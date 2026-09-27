@@ -1,0 +1,1 @@
+Exact side relabel test rejected differing BLAS reduction orders for contiguous versus reversed-stride matrices. Preserved attempt2; explicit identical ordered sums for both sides now test exact algebraic relabel without loosening tolerance. No biological parameter or criterion changed.

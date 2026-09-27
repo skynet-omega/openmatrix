@@ -1,0 +1,12 @@
+{
+  "detected_by": "Motor C++/CUDA independent final review",
+  "detected_unix_s": 1790539056.781718,
+  "frozen_original_sha256": "dde3fb3ef297eb6f946550ddab60df6fdc09958c5b9d85e42aa39f1928d9b54a",
+  "corrected_candidate_sha256": "964f6c62f65d6e4ce5dd55fa72f8482c16bbc09e2adc4ccdb7211b65f3590177",
+  "bug": "Native body qvel is cm/s but was passed as body_velocity_world_mm_s. Missing factor10 in translation; angular velocity is not rescaled.",
+  "source": "motor_nuevo/full_pipeline_review_20260925_12/verify_runs.py:133; historical matrix_olfactory_diagnostic.py:211",
+  "recorded_runs": "Preserved original implementation and all916ms. Air fields and actual consumed drive are reproducible; physical body-relative-air unit contract is violated.",
+  "corrected_new_CNS_ms": 0,
+  "status": "CORRECTION_PREPARED_GPU_QUALIFICATION_PENDING",
+  "no_output_error_bound": "A small change to input is not a proven bound on recurrent CNS output."
+}
