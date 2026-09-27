@@ -1,0 +1,25 @@
+{
+  "schema": "capture49_fixture_v1",
+  "passed": true,
+  "checks": [
+    "coefficient_exact_connected_False",
+    "coefficient_exact_connected_True",
+    "four_RHS_stages",
+    "accepted_and_rejected_trial",
+    "record_ownership",
+    "overflow_detectable",
+    "both_side_state_copy"
+  ],
+  "neural_ms": 0,
+  "body_steps": 0,
+  "cpu_s": 0.4025209999999999,
+  "wall_s": 0.6884476990089752,
+  "maxrss_KiB": 259292,
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "sources": {
+    "test_capture.py": "9041ffb37a8bf0319a3d91781726a6426080606c47402a20808e3506943853cd",
+    "coefficient_observed.cu": "5a45c5ba54a67a16bda7b956df1ea45e9f820b20d0c0df53b0bd0028346e560a",
+    "coefficient_capture.cu": "7e85a9684482a5a5a71893c007d7e56019a620b88dcabbd7528b74f7cbe8de9e",
+    "capture.cu": "aebef8f0d7dadfaaf558c008e45ba7de27b5cc983106fa36cd7d9e78a0e986fa"
+  }
+}

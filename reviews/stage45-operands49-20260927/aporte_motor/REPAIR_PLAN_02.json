@@ -1,0 +1,22 @@
+{
+  "status": "CPU_VERIFIED_AWAITING_GPU_HANDOFF",
+  "reason": "Exact recurrence replaces two incompatible cold-load clock predicates only",
+  "neural_ms_peer_max": 24,
+  "neural_ms_used": 0,
+  "preserve_saved_time": true,
+  "integration_unchanged": true,
+  "ancestor_loader_checks_changed": [
+    "GuardedTibiaBody.from_state",
+    "RHTarsalBody.from_state"
+  ],
+  "other_constructor_checks": "AST verified identical",
+  "continuous_vs_split_required": true,
+  "sources": {
+    "resume49.py": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+    "restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "qualify_worker.py": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76",
+    "clock_guard49.py": "f028a5912ee3a4545327adf64fe8f3ab18ad09d67dac251ca29d179f445f7c88",
+    "compare_endpoints.py": "494bbb0405e3031b356a9daf6adfb3a98680d414372ed2a2c08f65756d5e93ac"
+  },
+  "trace_reference": "48 initial_observation.qpos; yaw reference not reset at split"
+}

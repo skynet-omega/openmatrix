@@ -1,0 +1,54 @@
+{
+  "expected_final_time": 47.486000000126744,
+  "checks": [
+    {
+      "label": "saved_final48",
+      "rejected": false
+    },
+    {
+      "label": "plus_one_tick",
+      "rejected": true
+    },
+    {
+      "label": "minus_one_tick",
+      "rejected": true
+    },
+    {
+      "label": "plus_one_ULP",
+      "rejected": true
+    },
+    {
+      "label": "minus_one_ULP",
+      "rejected": true
+    },
+    {
+      "label": "NaN",
+      "rejected": true
+    },
+    {
+      "label": "infinity",
+      "rejected": true
+    },
+    {
+      "label": "wrong_step",
+      "rejected": true
+    },
+    {
+      "label": "wrong_dt",
+      "rejected": true
+    },
+    {
+      "label": "old_lineage_accepted",
+      "rejected": false
+    },
+    {
+      "label": "old_lineage_rejected",
+      "rejected": true
+    }
+  ],
+  "AST_checks": "Exactly one predicate per method; no other AST node changed",
+  "CPU_s": 0.019726600000000004,
+  "GPU_calls": 0,
+  "new_neural_ms": 0,
+  "new_body_steps": 0
+}

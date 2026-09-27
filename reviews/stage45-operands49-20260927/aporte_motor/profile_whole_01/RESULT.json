@@ -1,0 +1,15 @@
+{
+  "status": "FAILED",
+  "attempted_ms": 0,
+  "committed_ms": 0,
+  "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_composicion_20260927_48/profile/final_state",
+  "runner_sha256": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76",
+  "schema_harness_sha256": "2da75efa1dd8fe3aef3ad9c94add93c051b9d6be3f9dbc1a84e2eb094f077cce",
+  "restorer_sha256": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+  "equations_changed": false,
+  "error": "RuntimeError('Cleanup failed: [\\'AttributeError(\"\\\\\\'AntennalCarrier\\\\\\' object has no attribute \\\\\\'body\\\\\\'\")\\']')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py\", line 130, in build\n    run.restoration = restore(run.obj, source)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py\", line 58, in restore\n    core.body=storage.RHTarsalBody.from_state(saved['body']);core.world.bind(core.body)\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_body.py\", line 133, in from_state\n    obj = cls.from_parent(GuardedTibiaBody.from_state(state[\"parent\"]), enabled=r[\"enabled\"])\n  File \"/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_body.py\", line 114, in from_state\n    if abs(obj.data.time-obj.steps*obj.dt)>1e-10:raise ValueError('FeTi physical clock differs')\nValueError: FeTi physical clock differs\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/qualify_worker.py\", line 38, in main\n    run = build(args.source, args.out)\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py\", line 192, in build\n    run.close()\n  File \"/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py\", line 110, in close\n    raise RuntimeError('Cleanup failed: ' + repr(errors))\nRuntimeError: Cleanup failed: ['AttributeError(\"\\'AntennalCarrier\\' object has no attribute \\'body\\'\")']\n",
+  "wall_s": 27.42180934996577,
+  "CPU_s": 28.461687,
+  "peak_RSS_bytes": 6604656640
+}

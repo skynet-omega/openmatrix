@@ -1,0 +1,84 @@
+{
+  "exact": true,
+  "trees": {
+    "session": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 574,
+      "array_values": 144671574,
+      "scalar_leaves": 8186295,
+      "containers": 984116
+    },
+    "prosthesis": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 5,
+      "array_values": 124,
+      "scalar_leaves": 1553,
+      "containers": 532
+    },
+    "published": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 1,
+      "array_values": 166700,
+      "scalar_leaves": 6,
+      "containers": 3
+    },
+    "stored_operator": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 1,
+      "array_values": 25582938,
+      "scalar_leaves": 0,
+      "containers": 1
+    },
+    "effective_operator": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 8,
+      "array_values": 52166076,
+      "scalar_leaves": 38,
+      "containers": 28
+    },
+    "input_owner": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 3,
+      "array_values": 2082,
+      "scalar_leaves": 8,
+      "containers": 1
+    },
+    "interval_owner": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 3,
+      "array_values": 11,
+      "scalar_leaves": 1,
+      "containers": 1
+    },
+    "motor_owner": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 0,
+      "array_values": 0,
+      "scalar_leaves": 6,
+      "containers": 1
+    },
+    "boundary": {
+      "exact": true,
+      "different_paths": [],
+      "arrays": 0,
+      "array_values": 0,
+      "scalar_leaves": 88,
+      "containers": 10
+    }
+  },
+  "continuous_manifest": 47490000000,
+  "resumed_manifest": 47490000000,
+  "method": "Direct recursive dtype/shape/value comparison; no tolerance or ignored paths.",
+  "new_neural_ms": 0,
+  "wall_s": 14.701744915975723,
+  "CPU_s": 15.334847300000002,
+  "peak_RSS_bytes": 3832410112
+}

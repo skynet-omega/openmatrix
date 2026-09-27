@@ -1,0 +1,226 @@
+{
+  "status": "COMPLETE",
+  "attempted_ms": 2,
+  "committed_ms": 2,
+  "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/profile_whole_02/split_state",
+  "runner_sha256": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76",
+  "schema_harness_sha256": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+  "restorer_sha256": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+  "equations_changed": false,
+  "initial": {
+    "exact": true,
+    "trees": {
+      "session": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 574,
+        "array_values": 144660516,
+        "scalar_leaves": 8184343,
+        "containers": 983928
+      },
+      "prosthesis": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 5,
+        "array_values": 124,
+        "scalar_leaves": 1553,
+        "containers": 532
+      },
+      "published": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 166700,
+        "scalar_leaves": 6,
+        "containers": 3
+      },
+      "stored_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 25582938,
+        "scalar_leaves": 0,
+        "containers": 1
+      },
+      "effective_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 8,
+        "array_values": 52166076,
+        "scalar_leaves": 38,
+        "containers": 28
+      },
+      "input_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 3,
+        "array_values": 2082,
+        "scalar_leaves": 8,
+        "containers": 1
+      },
+      "interval_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 3,
+        "array_values": 11,
+        "scalar_leaves": 1,
+        "containers": 1
+      },
+      "motor_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 6,
+        "containers": 1
+      },
+      "boundary": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 88,
+        "containers": 10
+      }
+    },
+    "scope": "All serialized scientific owners before any continuation; no tolerance."
+  },
+  "appendix": {
+    "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/profile_whole_02/split_state",
+    "consumed_ms": 3002,
+    "original_duration_ms": 3200,
+    "duration_ms": 3200,
+    "odor_off_ms": 3000,
+    "policy": "original_OFF_tail",
+    "neural_state_clamped": false,
+    "navigation_experiment": false
+  },
+  "load_s": 41.277277320972644,
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 32,
+      "accepted": 202183,
+      "rejected": 604,
+      "build_s": 0.0033754940377548337,
+      "native_wall_s": 0.6816723290248774,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        40.0
+      ]
+    },
+    "CNS": {
+      "epochs": 32,
+      "accepted": 202,
+      "rejected": 0,
+      "build_s": 0.18147855397546664,
+      "device_bytes": 69990912,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 808,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 32,
+      "accepted": 32,
+      "rejected": 0,
+      "build_s": 2.575355928973295,
+      "wall_s": 0.6220276580424979,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 64,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 32,
+      "events": 124,
+      "max_q_reconstruction_difference": 3.608224830031759e-16,
+      "global_trials": 202,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 16,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 316
+    }
+  },
+  "observer": {
+    "rows": [
+      36,
+      46
+    ],
+    "epochs": 32,
+    "trials": 202,
+    "accepted": 202,
+    "rejected": 0,
+    "scheduler_changed": false,
+    "capacity_trials_per_epoch": 10000,
+    "recorded_fields": [
+      "state",
+      "net",
+      "positive_aux",
+      "negative_aux",
+      "drive",
+      "theta",
+      "gain",
+      "base_target",
+      "base_rate",
+      "tau",
+      "margin",
+      "final_target",
+      "final_rate",
+      "derivative",
+      "evaluation_time_s",
+      "stage_fraction"
+    ],
+    "acceptance_checked_against_counts_and_committed_state": true
+  },
+  "wall_s": 82.06662660697475,
+  "CPU_s": 87.6074168,
+  "peak_RSS_bytes": 7700242432
+}

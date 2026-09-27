@@ -1,0 +1,247 @@
+{
+  "schema": "capture49_run_v1",
+  "status": "COMPLETE",
+  "attempted_ms": 50,
+  "committed_ms": 50,
+  "source": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "contract_sha256": "dfbd387e8a66ad9e83f8d43e9dc228594706f9c59e6d9d64206a6bf5ebbcfa61",
+  "initial": {
+    "exact": true,
+    "trees": {
+      "session": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 574,
+        "array_values": 144649458,
+        "scalar_leaves": 8182391,
+        "containers": 983740
+      },
+      "prosthesis": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 5,
+        "array_values": 124,
+        "scalar_leaves": 1553,
+        "containers": 532
+      },
+      "published": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 166700,
+        "scalar_leaves": 6,
+        "containers": 3
+      },
+      "stored_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 1,
+        "array_values": 25582938,
+        "scalar_leaves": 0,
+        "containers": 1
+      },
+      "effective_operator": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 8,
+        "array_values": 52166076,
+        "scalar_leaves": 38,
+        "containers": 28
+      },
+      "input_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 3,
+        "array_values": 2082,
+        "scalar_leaves": 8,
+        "containers": 1
+      },
+      "interval_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 3,
+        "array_values": 11,
+        "scalar_leaves": 1,
+        "containers": 1
+      },
+      "motor_owner": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 6,
+        "containers": 1
+      },
+      "boundary": {
+        "exact": true,
+        "different_paths": [],
+        "arrays": 0,
+        "array_values": 0,
+        "scalar_leaves": 88,
+        "containers": 10
+      }
+    },
+    "scope": "All serialized scientific owners before any continuation; no tolerance."
+  },
+  "appendix": {
+    "source": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+    "consumed_ms": 3000,
+    "original_duration_ms": 3000,
+    "duration_ms": 3200,
+    "odor_off_ms": 3000,
+    "policy": "original_OFF_tail",
+    "neural_state_clamped": false,
+    "navigation_experiment": false
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 800,
+      "accepted": 5078202,
+      "rejected": 18067,
+      "build_s": 0.004339446022640914,
+      "native_wall_s": 13.482499589561485,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        36.0
+      ]
+    },
+    "CNS": {
+      "epochs": 800,
+      "accepted": 5403,
+      "rejected": 2,
+      "build_s": 0.303410797030665,
+      "device_bytes": 69990912,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 21620,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 800,
+      "accepted": 800,
+      "rejected": 0,
+      "build_s": 2.2954475529841147,
+      "wall_s": 12.15349437657278,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 1600,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 800,
+      "events": 3675,
+      "max_q_reconstruction_difference": 8.881784197001252e-16,
+      "global_trials": 5405,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 400,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 8208
+    }
+  },
+  "observer": {
+    "ids": [
+      10045,
+      10056,
+      10118,
+      10065,
+      523769,
+      10360
+    ],
+    "edges": 7227,
+    "epochs": 800,
+    "trials": 5405,
+    "accepted": 5403,
+    "rejected": 2,
+    "capacity": 256,
+    "observed_operands": [
+      "weight_consumed",
+      "transmission_consumed",
+      "cap_consumed",
+      "included"
+    ],
+    "solver_or_model_changed": false
+  },
+  "detail": [
+    {
+      "tail_ms": 1,
+      "file": "operands_001ms.npz",
+      "sha256": "fc02ec16be758cbc224bbfa11ea2c08edfa45e5150c196a07d23a9e12bd00286",
+      "bytes": 21659446
+    },
+    {
+      "tail_ms": 5,
+      "file": "operands_005ms.npz",
+      "sha256": "fbcd6abf937dbdad657755f3020b79e4873b39364211dcfbfec980a284d94ade",
+      "bytes": 19299802
+    },
+    {
+      "tail_ms": 10,
+      "file": "operands_010ms.npz",
+      "sha256": "f6c1d8af172be18ceab1e42f5d57804e8f24aade939c84c2e23666a232fd9446",
+      "bytes": 25000540
+    },
+    {
+      "tail_ms": 20,
+      "file": "operands_020ms.npz",
+      "sha256": "3aca339da094bc563a203a9e0ab95f2519deef72568442219e56303cdab1e572",
+      "bytes": 20086307
+    },
+    {
+      "tail_ms": 50,
+      "file": "operands_050ms.npz",
+      "sha256": "f2911d8d470a167760da64cf10df947a1482209065caa804daa97dc994b6714c",
+      "bytes": 21259927
+    }
+  ],
+  "wall_s": 160.6404112589662,
+  "CPU_s": 176.4515435,
+  "peak_RSS_bytes": 7735582720
+}

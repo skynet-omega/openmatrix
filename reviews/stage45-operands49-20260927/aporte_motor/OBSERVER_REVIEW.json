@@ -1,0 +1,85 @@
+{
+  "scope": "One real saved millisecond, in-memory corruption only, no model imports/GPU/integration",
+  "source_file": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/observer_parity_02/operands_001ms.npz",
+  "source_sha256": "629e628ceaeaf10826db402cf6cd07ced2cb39782bd4c05d7855d00f343592f1",
+  "verifier_sha256": "30583bcf7bdfdea6994c5dfca54d9e8c1d3f0f8d8d1a266697ae220c12d8f2f3",
+  "base_result": {
+    "files": 1,
+    "epochs": 16,
+    "trials": 130,
+    "RHS_evaluations": 520,
+    "exact_sums": 3120,
+    "margin_ranges": [
+      [
+        -1482.6231689453125,
+        -1476.69140625
+      ],
+      [
+        -1388.833740234375,
+        -1383.1708984375
+      ],
+      [
+        14061.0703125,
+        14061.181640625
+      ],
+      [
+        18985.154296875,
+        18985.16796875
+      ],
+      [
+        -987.8428344726562,
+        -984.5090942382812
+      ],
+      [
+        -216.953857421875,
+        -209.7828369140625
+      ]
+    ],
+    "stage4_pass": false,
+    "stage5_pass": false
+  },
+  "cases": [
+    {
+      "case": "altered_presynaptic_ID",
+      "rejected": false
+    },
+    {
+      "case": "predictor_mislabeled_committed",
+      "rejected": false
+    },
+    {
+      "case": "gain_changed_on_positive_DNb05_target",
+      "rejected": false
+    },
+    {
+      "case": "consumed_weight_doubled_largest_term",
+      "rejected": true,
+      "error": "ValueError('Consumed FP32 net 10360')"
+    }
+  ],
+  "positive_gain_probe": {
+    "cell_id": 10118,
+    "original_gain": 6.486901838798076e-05,
+    "margin": 14061.0703125,
+    "base_target": 0.7221519947052002
+  },
+  "CPU_s": 0.3729123,
+  "peak_RSS_bytes": 137641984,
+  "new_neural_steps": 0,
+  "new_body_steps": 0,
+  "GPU_calls": 0,
+  "review_started_UTC": "2026-09-27 13:40:16 UTC",
+  "review_completed_unix_s": 1790516684.5642376,
+  "sources_at_review_close": {
+    "operand_observer.py": "1eb6426e160d0a38d5d691227cec5ba503b9da4fd2ff5b6f98c2568cd0798283",
+    "coefficient_capture.cu": "7e85a9684482a5a5a71893c007d7e56019a620b88dcabbd7528b74f7cbe8de9e",
+    "capture.cu": "aebef8f0d7dadfaaf558c008e45ba7de27b5cc983106fa36cd7d9e78a0e986fa",
+    "verify_operands.py": "30583bcf7bdfdea6994c5dfca54d9e8c1d3f0f8d8d1a266697ae220c12d8f2f3"
+  },
+  "source_files_edited": false,
+  "artifact_files_edited": [
+    "aporte_motor/OBSERVER_REVIEW.json",
+    "aporte_motor/OBSERVER_REVIEW.md"
+  ],
+  "finding_scope": "Capture path reviewed; offline verifier arithmetic validation does not cover all anatomy/phase metadata or positive transfer law."
+}

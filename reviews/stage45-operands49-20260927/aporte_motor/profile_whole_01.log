@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py", line 130, in build
+    run.restoration = restore(run.obj, source)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py", line 58, in restore
+    core.body=storage.RHTarsalBody.from_state(saved['body']);core.world.bind(core.body)
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_body.py", line 133, in from_state
+    obj = cls.from_parent(GuardedTibiaBody.from_state(state["parent"]), enabled=r["enabled"])
+  File "/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_body.py", line 114, in from_state
+    if abs(obj.data.time-obj.steps*obj.dt)>1e-10:raise ValueError('FeTi physical clock differs')
+ValueError: FeTi physical clock differs
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/qualify_worker.py", line 38, in main
+    run = build(args.source, args.out)
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py", line 192, in build
+    run.close()
+  File "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py", line 110, in close
+    raise RuntimeError('Cleanup failed: ' + repr(errors))
+RuntimeError: Cleanup failed: ['AttributeError("\'AntennalCarrier\' object has no attribute \'body\'")']
+
+{"status": "FAILED", "attempted_ms": 0, "committed_ms": 0, "wall_s": 27.42180934996577, "CPU_s": 28.461687, "peak_RSS_bytes": 6604656640}

@@ -1,0 +1,89 @@
+{
+  "schema": "operand49_corruption_v1",
+  "original_verified": {
+    "files": 1,
+    "epochs": 16,
+    "trials": 130,
+    "RHS_evaluations": 520,
+    "exact_sums": 3120,
+    "margin_ranges": [
+      [
+        -1482.6231689453125,
+        -1476.69140625
+      ],
+      [
+        -1388.833740234375,
+        -1383.1708984375
+      ],
+      [
+        14061.0703125,
+        14061.181640625
+      ],
+      [
+        18985.154296875,
+        18985.16796875
+      ],
+      [
+        -987.8428344726562,
+        -984.5090942382812
+      ],
+      [
+        -216.953857421875,
+        -209.7828369140625
+      ]
+    ],
+    "maximum_positive_target_ULP": 1,
+    "stage4_pass": false,
+    "stage5_pass": false
+  },
+  "cases": {
+    "pre_id": {
+      "rejected": true,
+      "error": "Frozen anatomy pre_ids"
+    },
+    "committed": {
+      "rejected": true,
+      "error": "Predictor/committed ownership"
+    },
+    "gain": {
+      "rejected": true,
+      "error": "Frozen parameter sham_cuda_gain"
+    },
+    "clock": {
+      "rejected": true,
+      "error": "Absolute epoch clocks"
+    },
+    "transmission": {
+      "rejected": true,
+      "error": "Consumed FP32 net 10360"
+    },
+    "law_0": {
+      "rejected": true,
+      "error": "Negative argument did not rectify"
+    },
+    "law_1": {
+      "rejected": true,
+      "error": "Negative argument did not rectify"
+    },
+    "law_2": {
+      "rejected": true,
+      "error": "Positive tanhf beyond documented2ULP"
+    },
+    "law_3": {
+      "rejected": true,
+      "error": "Positive tanhf beyond documented2ULP"
+    },
+    "law_4": {
+      "rejected": true,
+      "error": "Negative argument did not rectify"
+    },
+    "law_5": {
+      "rejected": true,
+      "error": "Negative argument did not rectify"
+    }
+  },
+  "CPU_s": 0.6225126000000001,
+  "source_sha256": "629e628ceaeaf10826db402cf6cd07ced2cb39782bd4c05d7855d00f343592f1",
+  "verifier_sha256": "17c8b54a407b80932df0b62f1032aaffdc126531b712fcb5c54d1631a035bab9",
+  "new_neural_ms": 0
+}

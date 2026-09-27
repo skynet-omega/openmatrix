@@ -1,0 +1,46 @@
+{
+  "schema": "round49_closure_v1",
+  "main_runs": [
+    {
+      "run": "observer_parity_01",
+      "status": "FAILED",
+      "attempted_ms": 1,
+      "committed_ms": 0,
+      "wall_s": 43.34529325499898,
+      "CPU_s": 46.738389399999996
+    },
+    {
+      "run": "observer_parity_02",
+      "status": "COMPLETE",
+      "attempted_ms": 4,
+      "committed_ms": 4,
+      "wall_s": 89.85723997699097,
+      "CPU_s": 96.167694
+    },
+    {
+      "run": "sham_off_01",
+      "status": "COMPLETE",
+      "attempted_ms": 50,
+      "committed_ms": 50,
+      "wall_s": 160.6404112589662,
+      "CPU_s": 176.4515435
+    },
+    {
+      "run": "profile_off_01",
+      "status": "COMPLETE",
+      "attempted_ms": 50,
+      "committed_ms": 50,
+      "wall_s": 162.4315139920218,
+      "CPU_s": 177.5913131
+    }
+  ],
+  "peer_qualification_CPU_s": 265.88489089999996,
+  "measured_main_CPU_s": 762.8338309,
+  "committed_neural_ms": 110,
+  "attempted_neural_ms": 111,
+  "scope_CPU": "Main organism processes plus peer qualification/verification, not all interactive research/packaging commands",
+  "stage4_pass": false,
+  "stage5_pass": false,
+  "classification": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "stop": "Finite capture discrimination complete; next temporal hypothesis has a new prospective contract50"
+}

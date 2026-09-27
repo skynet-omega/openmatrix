@@ -1,0 +1,41 @@
+{
+  "schema": "capture49_contract_v1",
+  "created_unix_s": 1790516446.750223,
+  "frozen_before_acquisition": true,
+  "software_ms": 4,
+  "software_reference": "aporte_motor/profile_whole_02/final_state",
+  "software_test": "Exact scientific endpoint with48 observer vs49 observer; also consumed-net reconstruction",
+  "scientific_arms": [
+    "sham",
+    "profile"
+  ],
+  "scientific_ms_each": 50,
+  "detail_tail_ms": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "common_input_after_ms3000": "OFF original schedule",
+  "candidate_changes": [],
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/operand_observer.py": "1eb6426e160d0a38d5d691227cec5ba503b9da4fd2ff5b6f98c2568cd0798283",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/coefficient_capture.cu": "7e85a9684482a5a5a71893c007d7e56019a620b88dcabbd7528b74f7cbe8de9e",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/capture.cu": "aebef8f0d7dadfaaf558c008e45ba7de27b5cc983106fa36cd7d9e78a0e986fa",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/capture_worker.py": "124e302436e9eb24ee2820788e03e904d0fd155e03b97f36895cdc5b69849735",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/verify_operands.py": "30583bcf7bdfdea6994c5dfca54d9e8c1d3f0f8d8d1a266697ae220c12d8f2f3",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/PLAN.json": "5c7a4cbf6f67c8ab93ebb9c0da56881102469486bb118b168e74bba599d4c12d",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/clock_guard49.py": "f028a5912ee3a4545327adf64fe8f3ab18ad09d67dac251ca29d179f445f7c88"
+  },
+  "new_capture_without_feedback": true,
+  "off_tail_claim": "Common OFF input following different prior histories. Retained differences may reflect network state; no claim of learning or recurrent causal mediation.",
+  "discriminator": "Reconstruct all sampled six-row sums from same-call operands exactly; compare DNb05 bilateral difference and direct/indirect input differences during50ms OFF relaxation.",
+  "prospective_report": "Report all selected windows and both arms, fixed endpoints; no selected best time. Never promote gain, thresholds or source lesions from rankings.",
+  "admission_stage4": false,
+  "admission_stage5": false,
+  "repair": "Remove unsupported native_library argument to GraphRK23, exactly as RealCNS/observer48; no executed neural step in failed01. Preserve its source/log/contract. Scientific design unchanged.",
+  "verifier_repair": "Fourth RHS uses the left limit of canonical endpoint with fraction0, as frozen GraphRK23.trial/endpoint_clocks. Replaces incorrect textbook fraction1 assumption in offline verifier only. Existing recorded data unchanged; no model or acquisition changed."
+}

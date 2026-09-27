@@ -1,0 +1,28 @@
+{
+  "status": "BLOCKED_BY_HISTORICAL_BODY_CLOCK_GUARD",
+  "new_neural_ms_attempted": 0,
+  "new_neural_ms_committed": 0,
+  "new_body_steps": 0,
+  "GPU_released": true,
+  "split_comparison_executed": false,
+  "files": {
+    "resume49.py": "1a2661c5c359dfd862949fe3028b73166d762636a4f0193b4f27bc070a715160",
+    "CLOCK_BARRIER.json": "0c63551791ecbee58a62537910f5d028e704236a18b188d48d70bfb2a25c9b2a",
+    "QUALIFICATION_PLAN.json": "eae5fe747bad68cb8da1d3bf35785172da3c1263422b2b7ad04bcae3f8452eb2",
+    "restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "compare_endpoints.py": "494bbb0405e3031b356a9daf6adfb3a98680d414372ed2a2c08f65756d5e93ac",
+    "profile_whole_01.log": "a4243ebe969ff5c4892a5958fb697339fbfad7a4b780255d6a27a5a6b54dcec0",
+    "RESULTADO.md": "76cfb475b3e22812e7d6c7f0553d49c8a50dd8fa5a6cf247f9abf34afa40ce41",
+    "qualify_worker.py": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76",
+    "reproduce_clock.py": "3a130a5de936a55bcb1a936eaf0becde1ac4945683a3e153236aebed972d7f49",
+    "profile_whole_01/RESULT.json": "ec1e5efc4964503c26800964f6c46559154b22ccb91f10551d43a215ffb82de6",
+    "profile_whole_01/static_inputs/INTERVENCIONES.json": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257",
+    "profile_whole_01/harness_source/resume49.py": "2da75efa1dd8fe3aef3ad9c94add93c051b9d6be3f9dbc1a84e2eb094f077cce",
+    "profile_whole_01/harness_source/restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "profile_whole_01/harness_source/qualify_worker.py": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76"
+  },
+  "measured_worker_CPU_s": 28.461687,
+  "measured_clock_reproduction_CPU_s": 3.4266390999999996,
+  "all_four_clock_recurrences_exact": true,
+  "historical_files_modified": false
+}

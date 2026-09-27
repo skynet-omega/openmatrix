@@ -1,0 +1,16 @@
+{
+  "created_unix_s": 1790516709.5753284,
+  "reason": "External reviewer exposed undetected ID/context/gain corruptions",
+  "new_checks": [
+    "Anatomy/caps/weights/parameters equal independently extracted07 selection",
+    "Predictor62500ns and committed125000ns ownership against frozen midpoint protocol",
+    "Positive transfer reconstructed with FP32 argument and library documented2ULP range"
+  ],
+  "existing_net_margin_rate_derivative_tolerance": "exact; unchanged",
+  "positive_transfer_max_ULP": 2,
+  "positive_transfer_reference": "double precision tanh roundedfloat32; CUDA tanhf documented max observed2ULP, not a guaranteed error bound",
+  "source": "https://docs.nvidia.com/cuda/cuda-programming-guide/05-appendices/mathematical-functions.html",
+  "frozen_reference_sha256": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6",
+  "independent_source_sha256": "8b6e729baa875284f9e942ae626efb714798a436b1d449a0ce66d3e4c32f75b5",
+  "scope": "Offline validation only; no acquisition changes; not numerical-equivalence or stage admission tolerance"
+}
