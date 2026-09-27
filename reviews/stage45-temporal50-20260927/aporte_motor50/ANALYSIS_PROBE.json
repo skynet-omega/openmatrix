@@ -1,0 +1,44 @@
+{
+  "scope": "Synthetic record fixtures only; no partial50 data read",
+  "frozen_hashes_match": {
+    "analyze50.py": true,
+    "verify50.py": true,
+    "test_analysis50.py": true,
+    "reference/RECEIPT.json": true,
+    "ANALYSIS_PREFLIGHT.json": true
+  },
+  "window_J_and_negative_gates": true,
+  "synthetic_baseline": {
+    "target_min": 0.0,
+    "target_max": 0.0,
+    "margin_min": [
+      -1.0,
+      -1.0
+    ],
+    "margin_max": [
+      -1.0,
+      -1.0
+    ],
+    "records": 2240,
+    "scope": "All captured DNg RHS stages, predictor and committed"
+  },
+  "cases": {
+    "negative_tau": {
+      "rejected": false,
+      "reported_target_max": 0.0
+    },
+    "illegal_positive_target": {
+      "rejected": false,
+      "reported_target_max": 0.5
+    },
+    "RHS_clock_shift": {
+      "rejected": false,
+      "reported_target_max": 0.0
+    }
+  },
+  "CPU_s": 0.06780549999999996,
+  "peak_RSS_bytes": 125464576,
+  "neural_ms": 0,
+  "body_steps": 0,
+  "GPU_calls": 0
+}

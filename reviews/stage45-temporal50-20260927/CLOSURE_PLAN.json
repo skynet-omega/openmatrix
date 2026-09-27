@@ -1,0 +1,21 @@
+{
+  "created_unix_s": 1790520076.1599972,
+  "additional_neural_ms": 0,
+  "CPU_s_max": 600,
+  "wall_s_max": 900,
+  "aggregate50_CPU_s_max": 4000,
+  "aggregate50_wall_s_max": 3600,
+  "aggregate50_new_disk_GiB_max": 8,
+  "included": [
+    "whole8arm computation",
+    "all33field common prefix",
+    "DNg exact clocks, parameters and law supplement",
+    "normal/-O and corruption verification",
+    "figure",
+    "nonauthor result contrast",
+    "local full checkpoint/dependency archive with lossless NPZ segments",
+    "compact public archive and cold download verification"
+  ],
+  "stop": "Do not relaunch any neural arm; preserve failures; no prospective threshold/lag/reader change",
+  "portable_GPU_reexecution_qualified": false
+}

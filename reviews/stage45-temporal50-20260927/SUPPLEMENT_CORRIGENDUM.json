@@ -1,0 +1,19 @@
+{
+  "created_unix_s": 1790520207.4641001,
+  "error": "Frozen parameter sham_cuda_gain comparison used pre-cast64 reference instead of actual32 kernel parameter",
+  "observed_gain": [
+    5.640528252115473e-05,
+    5.770644565927796e-05
+  ],
+  "precast_reference": [
+    5.64052823774715e-05,
+    5.7706444761764594e-05
+  ],
+  "reference_cast32_exact": true,
+  "maximum_precast_difference": 8.975133665239075e-13,
+  "change": "Exact comparison against float32 reference as in49 original verifier; no tolerance change",
+  "new_neural_steps": 0,
+  "sources": {
+    "verify_dng_law50.py": "9ba4217fe0b0c1023d7ea10a8e66d677aa8109bf1317befa361e2ff2952abbc9"
+  }
+}

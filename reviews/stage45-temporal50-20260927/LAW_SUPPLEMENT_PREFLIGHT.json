@@ -1,0 +1,31 @@
+{
+  "cases": {
+    "negative_tau": {
+      "rejected": true,
+      "error": "Nonpositive tau"
+    },
+    "illegal_positive_target": {
+      "rejected": true,
+      "error": "Negative argument did not rectify"
+    },
+    "RHS_clock_shift": {
+      "rejected": true,
+      "error": "RHS clock mismatch"
+    },
+    "RHS_fraction": {
+      "rejected": true,
+      "error": "RHS stage fraction"
+    },
+    "wrong_rate": {
+      "rejected": true,
+      "error": "Rate/tau mismatch"
+    },
+    "criterion": {
+      "rejected": true,
+      "error": "Changed frozen criteria"
+    }
+  },
+  "CPU_s": 0.010775199999999985,
+  "new_neural_ms": 0,
+  "partial_neural_results_inspected": false
+}

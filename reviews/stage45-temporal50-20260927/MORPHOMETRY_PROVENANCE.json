@@ -1,0 +1,247 @@
+{
+  "source": "48/sham/final_state/session.json",
+  "source_sha256": "39ee1a98c3a3ca2044d660e2859e4d8833f3f15388dda6e8f558e37934039288",
+  "receipt": {
+    "schema": "matrix_morphometry_intervention_v1",
+    "at_time_ns": 520000000,
+    "formula": "observed s_i=size_i/median(observed_size_all_canonical); gain_i <- gain_i/s_i; theta_i <- theta_i*s_i; missing-size parameters preserved exactly",
+    "equation_source": "https://doi.org/10.1101/2025.09.12.675944",
+    "source_implementation": "https://github.com/smpuglie/Pugliese_2026/blob/0452ec8359c1ffa4833fc578482e21525c669a0d/src/utils/sim_utils.py",
+    "module_sha256": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43",
+    "manifest_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/data/anatomical_morphometry/v0.1/manifest.json",
+    "manifest_sha256": "262a1481731fff94baf51200f16b0dea0c8ee01629e3c7d01b5baf07f1a88087",
+    "dataset": {
+      "source_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/database/neuprint-inputs/Neuprint_Neurons.feather?generation=1780895325252595",
+      "object_generation": "1780895325252595",
+      "object_md5_base64": null,
+      "object_crc32c_base64": "53OdcQ==",
+      "source_bytes": 4648794426,
+      "projection": [
+        ":ID(Body-ID)",
+        "size:long"
+      ],
+      "source_record_batches": 1354,
+      "canonical_ids": 166700,
+      "matched_ids": 166700,
+      "positive_finite_sizes": 166678,
+      "zero_sizes": 0,
+      "nonfinite_sizes": 22,
+      "size_quantiles": {
+        "min": 62913.0,
+        "p01": 23018381.24,
+        "p25": 110842897.75,
+        "median": 189014792.5,
+        "p75": 368844175.5,
+        "p99": 3917008355.0100036,
+        "max": 106999248062.0
+      },
+      "elapsed_seconds": 156.27546310424805,
+      "method": "Arrow included_fields over immutable GCS object generation and HTTP Range; exact IDs only, all record batches scanned; no full-asset download or missing-size imputation.",
+      "schema": "matrix_anatomical_morphometry_v1",
+      "source_release": "male-cns:v1.0",
+      "size_field": "Neuprint size:long; segmentation volume in source voxels",
+      "ordered_ids_sha256": "6740231155a8782b6268c0fe2a3ddbd618a18b25d3315213924a5535081ad87a",
+      "sizes_sha256": "f5baf626af9092e7ab928a0239f82fb511e9321f853f5b93c3b9e1a013e39e62",
+      "normalization_median_source_voxels": 189014792.5,
+      "missing_size_policy": "preserve_original_parameters_without_size_imputation",
+      "missing_size_ids": [
+        227083,
+        263064,
+        321241,
+        357948,
+        372814,
+        409611,
+        409723,
+        416540,
+        453447,
+        176574061,
+        357708265,
+        519802170,
+        530947813,
+        597576660,
+        665470094,
+        787378605,
+        1054797409,
+        1060584352,
+        1081870239,
+        1092206068,
+        1108956440,
+        1177201997
+      ],
+      "missing_size_annotations": [
+        {
+          "bodyId": 227083,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 263064,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 321241,
+          "superclass": "cb_sensory",
+          "type": "JO-unclear"
+        },
+        {
+          "bodyId": 357948,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 372814,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 409611,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 409723,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 416540,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 453447,
+          "superclass": "cb_sensory",
+          "type": "JO-unclear"
+        },
+        {
+          "bodyId": 176574061,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 357708265,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 519802170,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 530947813,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 597576660,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 665470094,
+          "superclass": "cb_sensory_tbc",
+          "type": ""
+        },
+        {
+          "bodyId": 787378605,
+          "superclass": "ENS",
+          "type": ""
+        },
+        {
+          "bodyId": 1054797409,
+          "superclass": "vnc_sensory",
+          "type": ""
+        },
+        {
+          "bodyId": 1060584352,
+          "superclass": "vnc_intrinsic",
+          "type": ""
+        },
+        {
+          "bodyId": 1081870239,
+          "superclass": "vnc_sensory",
+          "type": ""
+        },
+        {
+          "bodyId": 1092206068,
+          "superclass": "vnc_sensory",
+          "type": ""
+        },
+        {
+          "bodyId": 1108956440,
+          "superclass": "vnc_sensory",
+          "type": ""
+        },
+        {
+          "bodyId": 1177201997,
+          "superclass": "vnc_sensory",
+          "type": ""
+        }
+      ],
+      "artifact": {
+        "filename": "canonical_morphometry.parquet",
+        "bytes": 2249434,
+        "sha256": "f9e7b6842510ff14fb25300dbb9877a3978cb9272cd69cb45becd1eb3ba88d2e"
+      },
+      "integrity": "Generation-pinned public GCS range retrieval; advertised source CRC32C retained, full source checksum not locally recomputed. Derived table hash is locally verified.",
+      "scientific_status": "SAME_RELEASE_SEGMENTATION_MORPHOMETRY_WITH_22_EXPLICIT_UNOBSERVED_VOLUMES"
+    },
+    "normalization_scope": "all observed positive volumes on ordered canonical neurons of this continuing CNS",
+    "scaled_neurons": 166678,
+    "unscaled_missing_size_neurons": 22,
+    "unscaled_missing_size_ids": [
+      227083,
+      263064,
+      321241,
+      357948,
+      372814,
+      409611,
+      409723,
+      416540,
+      453447,
+      176574061,
+      357708265,
+      519802170,
+      530947813,
+      597576660,
+      665470094,
+      787378605,
+      1054797409,
+      1060584352,
+      1081870239,
+      1092206068,
+      1108956440,
+      1177201997
+    ],
+    "preserved_missing_gain_theta_sha256": "a228a5f93614b6d5d191c2921e543a81a194b7782dac5c64e748a83765c5a96e",
+    "size_scale_min_median_max": [
+      0.00033284696487445554,
+      1.0,
+      566.0892814090199
+    ],
+    "before_gain_theta_sha256": "9f70a7a31a0c8f2e8a6951d91ea88152457be927e53ae005a481c4ee002f1562",
+    "after_gain_theta_sha256": "b7000cdb790f7c77116efdbe9d179f2f917f14a6a2c6d4a40bfd1caf4182aac5",
+    "preserved_weights_post_pre_sha256": "94eb32a6d1bbf4f2dbc9424d8490ad3ebdafd7a692ec721848f5a9f570556bd2",
+    "preserved_rates_sha256": "41c474c306716089a44cd20fca54e5da2700c607218fbddb28b4c0d56ceef785",
+    "preserved_other_parameters_sha256": "1b6c64cf5083261ac73346554930aea03dd370aa22e825b52e4d965514c84e9a",
+    "preserved_rng_state": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 277053846792486773277564805195037374341,
+        "inc": 87136372517582989555478159403783844777
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "scientific_status": "UNVALIDATED_WHOLE_CNS_VOLUME_SCALING_HYPOTHESIS",
+    "limitations": [
+      "Segmentation volume is not measured membrane surface, capacitance or input resistance.",
+      "Whole-CNS median differs from the source paper's selected-network median.",
+      "Uniform synaptic efficacy, neurotransmitter signs and external drive remain candidate hypotheses.",
+      "No target firing rate, action, reward, weight reset, feedback controller or behaviour fit is introduced."
+    ]
+  },
+  "note": "Historical transformation exists; neither absence of morphology nor calibrated electrophysiology"
+}

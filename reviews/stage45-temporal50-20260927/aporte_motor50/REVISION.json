@@ -1,0 +1,152 @@
+{
+  "scope": "Design/source/static identity review only; no partial50 neural results read",
+  "source_hashes_match": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/PROPUESTA_PREVIA.md": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/temporal_input.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/test_design.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/run_arm.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/run_queue.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py": true,
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/clock_guard49.py": true
+  },
+  "selector_checks": {
+    "p00": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "p01": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "p10": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "p11": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "m00": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "m01": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "m10": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    },
+    "m11": {
+      "selector_exact_all_140": true,
+      "marginal_ON_ms": [
+        60.0,
+        60.0
+      ],
+      "prefix_OFF": true,
+      "tail_OFF": true,
+      "after_window_rejected": true,
+      "undo_exact": true
+    }
+  },
+  "selected_ORN_count": 694,
+  "ids_by_side": {
+    "L": 323,
+    "R": 371
+  },
+  "PN_rows": [
+    189,
+    159
+  ],
+  "PN_ids": [
+    10208,
+    10176
+  ],
+  "stationary_binary_basis_J": {
+    "00": 0.0,
+    "01": 0.0,
+    "10": 0.0,
+    "11": 0.0
+  },
+  "time_varying_instantaneous_joint_counterexample_J": 0.06348259597153814,
+  "counterexample_equation": "exp(-t/60ms)*L(t)*R(t), no stimulus-history dependence; evaluator only, not proposed neuron",
+  "mock_device_stream_calls": 1120,
+  "GPU_calls": 0,
+  "new_neural_steps": 0,
+  "new_body_steps": 0,
+  "CPU_s": 0.036253900000000006,
+  "peak_RSS_bytes": 40718336,
+  "PN_anatomical_metadata": [
+    {
+      "row": 189,
+      "bodyId": 10208,
+      "type": "DM1_lPN",
+      "somaSide": "L"
+    },
+    {
+      "row": 159,
+      "bodyId": 10176,
+      "type": "DM1_lPN",
+      "somaSide": "R"
+    }
+  ],
+  "interpretation_limits": {
+    "PN": "Normalized release proxy for two identified cells; not population PN, calcium, or full specialized PN10208 output.",
+    "J": "Rejects fixed instantaneous binary joint maps; a time-varying instantaneous joint map can produce nonzero J. Not a unique memory or movement-detector identification.",
+    "legacy_labels": "Inherited cola_OFF and zero legacy world concentration are not terminal50 input. Use TEMPORAL_OWNER and saved nominal_Hz.",
+    "decoder": "Reads prior committed DN; end-of-step neural samples are one millisecond later. Preserve prospective windows.",
+    "behavior": "No yaw applied and no wind; cannot establish stages4/5."
+  },
+  "CPU_scope": "CPU_s measures the selector/mock-buffer probe only, not aggregate reading/review time."
+}

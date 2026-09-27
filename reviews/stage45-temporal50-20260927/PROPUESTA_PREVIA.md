@@ -1,0 +1,17 @@
+# Propuesta propia — ronda50, antes de ejecutar
+
+Exposición: resultados36–49 conocidos; se usa el estado finalsham48 ya expuesto. No es confirmación ciega. Santana2026 fue contrastado en PDF del laboratorio y ChatGPT_Motor_V2 revisó la lógica del factorial; no calibró nuestro organismo ni inspeccionó arrays. ASTRA_V2 descartó como prioridad el replay propioceptivo idéntico49.
+
+Limitación observada: una diferencia residualDNb05 ante perfil bilateral no demuestra señal de dirección; contraste estático46 insuficiente. Se separan tres alternativas: A/cómputo temporal bilateral hacia el lector; B/transferencia o estado/ley neuronal incorrectos, que precisa fisiología independiente; C/mando pequeño o sesgado por interfaz, que requiere separar señal neural y decoder. Se seleccionaA por disponer de una predicción temporal externa distinta y de una continuación cualificada; B/C no se declaran resueltas.
+
+Operación nueva exacta: sólo el propietario externo del estímulo selecciona, cada1ms, baseline o baseline+incremento congelado profile48 por lado anatómico. Cuatro combinaciones de una secuencia y su complemento en ambas antenas, repetidas con retardo±40ms. No modifica estadoinstantáneo, W, gain, theta, tau, filtro, lector ni feedback corporal. El organismo no recibe etiqueta de brazo, objetivo, respuesta correcta ni detector externo. Las pruebas sintéticas se quedan en el evaluador.
+
+Misma historia y estado completo por brazo; cantidades y niveles por lado iguales.10ms baselinecomún,120ms de estímulo balanceado,10msOFF. La secuencia es un ciclo de doce bloques10ms explícitos, sin búsqueda. Se usa el mismo perfil y máximo48, sin barrer amplitudes. Dos familias temporales, cero prototipos nuevos del núcleo.
+
+Discriminador: I=X00+X11−X01−X10 por lag cancela cualquier mapa bilateral aditivo incluso con memoria/no linealidad unilateral. J=(I+40−I−40)/2 en la media deTODOel ciclo120ms distingue orden; la correlación cíclica simétrica cancela también el nulo instantáneo binario. Transitorios iniciales de mecanismos con memoria pueden producirJ: no es prueba de il3LN6, detector de movimiento ni equivalencia fisiológica.
+
+Predicción que puede fallar: interacción en el parDNb05 que depende del orden y produce efecto material en su lector prefijado. DNa02 sólo observador; PN_q_legacy es la pareja medida por la infraestructura, no todaPN ni calcio. El resultado no aprueba4/5: todavía haría falta orientación online frente areplay y recuperación anteviento. No condicionar esta pregunta a iniciar avanceDNg100.
+
+Controles: identidades/estadoinicialexactos, prefijo10ms idéntico entre8brazos y frente al shamOFF49; targetsORN consumidos auditados en cadaRHS; cantidades exactas por lado desde secuencias/tabla48; nulo bilateral separable con memoria, nulo conjunto instantáneo y control sintético temporal positivo fuera del organismo. SeñalDN anterior al tanh del decoder se analiza por separado para no atribuir su no linealidad al cerebro. Si el cuerpo o propiocepción divergen, se informa y no se localiza una interacción aAL por este test.
+
+Falsador/próxima decisión: si falta interacción/orden materialDNb05, descartar esta variante como suficiente sin cambiarlag, amplitud, ventana olector. Una interacciónPN sinDNb05 dirige la investigación a transferencia. Un resultado positivo sólo justifica el posterior test funcional online/replay, no la integración de neuronas nuevas ni de patas.

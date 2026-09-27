@@ -1,0 +1,51 @@
+{
+  "schema": "temporal50_corruptions_v1",
+  "real_record_checks": true,
+  "cases": {
+    "clock": {
+      "rejected": true,
+      "error": "Clock CNS_time_ns"
+    },
+    "latency": {
+      "rejected": true,
+      "error": "Motor latency"
+    },
+    "baseline": {
+      "rejected": true,
+      "error": "Baseline recentered"
+    },
+    "decoder": {
+      "rejected": true,
+      "error": "Raw yaw decoder"
+    },
+    "input": {
+      "rejected": true,
+      "error": "Input target schedule"
+    },
+    "identity": {
+      "rejected": true,
+      "error": "ORN identities"
+    },
+    "flag": {
+      "rejected": true,
+      "error": "Instantaneous clamp flag"
+    },
+    "context": {
+      "rejected": true,
+      "error": "DNg committed flags"
+    },
+    "acceptance": {
+      "rejected": true,
+      "error": "DNg acceptance decision"
+    },
+    "margin": {
+      "rejected": true,
+      "error": "DNg net-plus-drive-minus-threshold"
+    }
+  },
+  "design_controls": true,
+  "threshold_boundaries": true,
+  "known_instantaneous_drift_J": 0.06348259597153814,
+  "CPU_s": 0.12138040000000005,
+  "new_neural_ms": 0
+}

@@ -1,0 +1,15 @@
+{
+  "created_unix_s": 1790519332.3833869,
+  "reason": "Nonauthor synthetic corruption review found missing law/tau/RHS-clock checks",
+  "partial50_effects_consulted": false,
+  "acquisition_and_primary_analysis_unchanged": true,
+  "base_analysis_protocol_sha256": "2ac3f933032dbe18616971fee435411c7a5cc5acea4fa9727ecacaa86ed95e31",
+  "positive_tanhf_comparison": "Same49 documented2ULP; not a relaxation of scientific decision or exact margin/rate/clock/parameter checks",
+  "sources": {
+    "verify_dng_law50.py": "6b38f18e99228e9fb16a13f1fb3df5881f9fca446c6ac989c4505b87b2129cf4",
+    "verify_complete50.py": "c695474e7a0b3a50002f9a263401fed81750cec83c4cec9b9d3010dc5971bbe3",
+    "test_law_supplement50.py": "5d01a37fb6bfa522b9b3a1cf8208f698994ccbcf71bffc2fc5d1ebce1f05b5cd",
+    "reference/frozen_selection49.npz": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6",
+    "LAW_SUPPLEMENT_PREFLIGHT.json": "8dd60b69d6797c8cc0fb35f4d03c05039325b978bf076bc6163260a36e668676"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "temporal50_scientific_state_v1",
+  "time_ns": 47626000000,
+  "read_only_witness": "2fb08c1d129efb8a84245fa8b8e66512b4afb58bbcc1d63e7f70eb42bce87043",
+  "restart_tested": false,
+  "scope": "Scientific state, RNG, effective and stored weights, body, input and motor owner; resume harness not qualified.",
+  "files": {
+    "interval_owner.json": "bb39b9312a70970ca2e6769db6fe022f3d0c317f70e9cdce2ab2d298b674939d",
+    "session.npz": "6bd2cd885d516b8ab9f4930e6b4f2f81c13623be2d52df150120e18bc9a8b9c2",
+    "boundary.json": "e2bd3cd294584053532f45d439eaf27f90b931d01aadf83a3552d22e635614e4",
+    "effective_operator.npz": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5",
+    "input_owner.npz": "0e82bfc73e65d39982660940ff25593d5403228d7688e081bafb3153886ee0a0",
+    "stored_operator.npz": "cf76afa386f205e7483a4ee1d68555ff3bfec53c81d159fc156ffe65703c0c6d",
+    "published.json": "89891aa2cef08ae494d281015954edbbb8811b1dd04cfcd65bbffe0eb707feb3",
+    "published.npz": "4d94110593f66949629a33e7cebd3fa5bca0d0091e35a0c3005b8c3ecfac14b6",
+    "session.json": "a827ad72de8e3b865b35f03c4495fad24c748e0f1d0273e52e098f4bf7157035",
+    "interval_owner.npz": "b137b8c7ee119396897a576506695d8b2e3c21d2422d2987e06086c2ae144273",
+    "motor_owner.json": "97aed250c2001b63b30b3d12c43dcce25b592f23f58e8a94fb5afca48b91bfad",
+    "motor_owner.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "effective_operator.json": "c8fecd9a0e5b1126017b08942c443796ece1a8ad53204a54420a0ca713da69ff",
+    "prosthesis.json": "2437b362e78eebcb109e4ade64f6072e459250c3f83b1797709d572c5597f368",
+    "stored_operator.json": "4512924d755d6f8073f358234a1fc7723faa6271d06e5c31ca84cc9d03260efd",
+    "prosthesis.npz": "cac356f7b61bc3f537c7ae03c321ed96b175bfe3db3911d7a7801a887a30af74",
+    "input_owner.json": "b86ea9cbb27b7318a149c58825252928cfee3501822920693bf0e3462295adb3",
+    "temporal_owner.json": "65cf06b6b32bf2f6441403d592bef886bf388ecc855e0577883fde3be3288813"
+  },
+  "parent_schema": "composition48_scientific_state_v1"
+}

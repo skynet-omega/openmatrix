@@ -1,0 +1,23 @@
+{
+  "scope": "Frozen consumed inputs in ten49 windows only; not a recurrent-model intervention or a bound outside these states",
+  "theorem": "If net+drive<0 and theta>=0 and gain>0 and cap>0 then rectified tanh target=0; any tau>0 changes relaxation not target. Changes elsewhere may alter inputs and are not ruled out.",
+  "max_net_plus_drive": [
+    -668.6649169921875,
+    -675.6439819335938
+  ],
+  "sources": {
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_001ms.npz": "fc02ec16be758cbc224bbfa11ea2c08edfa45e5150c196a07d23a9e12bd00286",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_005ms.npz": "fbcd6abf937dbdad657755f3020b79e4873b39364211dcfbfec980a284d94ade",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_010ms.npz": "f6c1d8af172be18ceab1e42f5d57804e8f24aade939c84c2e23666a232fd9446",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_020ms.npz": "3aca339da094bc563a203a9e0ab95f2519deef72568442219e56303cdab1e572",
+    "campanas/etapa45_operands_20260927_49/sham_off_01/operands_050ms.npz": "f2911d8d470a167760da64cf10df947a1482209065caa804daa97dc994b6714c",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_001ms.npz": "629e628ceaeaf10826db402cf6cd07ced2cb39782bd4c05d7855d00f343592f1",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_005ms.npz": "186fd483f6840092aff440665c51035e2a15e8261212515f06651186233fa7fa",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_010ms.npz": "c28c5f94bd8d4a8afb1f884d13d34bed0a7cf5ec4e971307e57b8eb970951ca9",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_020ms.npz": "685837b043bcd7d789f711f5905c449b2048299291b493ca3fd9ae5c13323adc",
+    "campanas/etapa45_operands_20260927_49/profile_off_01/operands_050ms.npz": "4b8ba0c182e66c0fb1eb502be1d1b5e6fb15663646751cbcb1d53722c806dd40"
+  },
+  "derived_sha256": "9dac83db1aa4acc4f6ac4062c4618ca3f6c428226ff05480116001eed3ed43d7",
+  "CPU_s": 0.13820949999999999,
+  "new_CNS_steps": 0
+}

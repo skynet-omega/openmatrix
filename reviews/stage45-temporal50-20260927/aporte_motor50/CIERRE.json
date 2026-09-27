@@ -1,0 +1,143 @@
+{
+  "scope": "All8 recorded arms; independent signed coefficient sum, no CNS replay",
+  "window_samples": [
+    11,
+    130
+  ],
+  "J_neural": 3.357390793846486e-07,
+  "J_yaw_deg_s": 0.00026746522970471455,
+  "thresholds": {
+    "neural": 1.6e-05,
+    "yaw_deg_s": 0.02
+  },
+  "fraction_of_threshold": {
+    "neural": 0.020983692461540537,
+    "yaw": 0.013373261485235727
+  },
+  "difference_from_author": {
+    "neural": 0.0,
+    "yaw_deg_s": -7.22078646875346e-17
+  },
+  "same_scientific_decision": true,
+  "screen_pass": false,
+  "classification": "DESCARTADO",
+  "DNg_targets": {
+    "p00": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "p01": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "p10": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "p11": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "m00": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "m01": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "m10": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "m11": {
+      "minimum": 0.0,
+      "maximum": 0.0
+    }
+  },
+  "forward_max_mm_s": {
+    "p00": 0.0,
+    "p01": 0.0,
+    "p10": 0.0,
+    "p11": 0.0,
+    "m00": 0.0,
+    "m01": 0.0,
+    "m10": 0.0,
+    "m11": 0.0
+  },
+  "body_exact": {
+    "qpos": true,
+    "qvel": true,
+    "position_mm": true,
+    "yaw_delta_deg": true,
+    "contact_active": true,
+    "contact_force_N": true,
+    "generalized_force_native": true,
+    "energy_motor_J": true
+  },
+  "proprioception_exact": true,
+  "all33_fields_common_prefix_exact": true,
+  "real_record_supplement_check": {
+    "RHS_evaluations": 122928,
+    "maximum_target_ULP": 0,
+    "law_clock_and_rate_checked": true,
+    "frozen_parameters_checked": true
+  },
+  "additional_corruption": {
+    "rejected": true,
+    "error": "Frozen parameter sham_cuda_gain",
+    "change": "p00 first RHS left DNg positive gain doubled in memory only"
+  },
+  "scientific_ms": 1120,
+  "simulation_CPU_s": 2644.8086898,
+  "simulation_wall_s": 2375.1687961569987,
+  "source_hashes": {
+    "p00": {
+      "traces.npz": "28ca3111bd3ab7ee81eb64e6f723244895ad885393b325e7d23e0efdb4ffac3b",
+      "input_and_observers.npz": "d5cffcff7bbd482dd752e3626b2f0078f3e4e4aa7802ca50c44995eb31677425",
+      "dng100_observed.npz": "f23056811b6cfb31fc74c5acbf50dcef581d0857f5f5ab38a322740566125642"
+    },
+    "p01": {
+      "traces.npz": "12b62411874abbbec5b5e5b1c1d8af394dd285882a56e7b2698926dbadf19817",
+      "input_and_observers.npz": "27dec1c5806bac0549e0307c5dffb7e9c6f768f70966b34353c27381e82038e0",
+      "dng100_observed.npz": "0414511957ae1688328f6e544b9fb234b3b1e535f82f3810f9165f680686a566"
+    },
+    "p10": {
+      "traces.npz": "b1ac31ad3c18a9c393c3dcb801787e5179580ddf8a4728a47512c668c3a964d5",
+      "input_and_observers.npz": "d84d2c16de0b507f5a8b6c1e6f56c2c07137ae7bb08db33ebb54e8f94cc11199",
+      "dng100_observed.npz": "712306abca7aa20e478a77d01fa5515201848c86b118055887e22dc30859f15a"
+    },
+    "p11": {
+      "traces.npz": "0f54f30267eb30ff5a9dd2c68826ae0132c83f06763b3a39d85528fad4938e77",
+      "input_and_observers.npz": "4b42aa1e5b56851f827f3a12e8b4a91836fcdff91e585b5d3677e18c71af7c4d",
+      "dng100_observed.npz": "11bb29d84947ea8695fa2e9f987334dcb311ce9e85039e6ffaf120536f210ca5"
+    },
+    "m00": {
+      "traces.npz": "7eef67f5f237785b99b49b34ec3b95db1c740346b537ee17130f965715f135a9",
+      "input_and_observers.npz": "ef702aacfb8213751572f4756586065067a0e810e1ff9c20c81f672c5540db26",
+      "dng100_observed.npz": "331551b2e9911d9ed4370ee223b981a416c2e8ac61023a4f2d078d7166e5705b"
+    },
+    "m01": {
+      "traces.npz": "c55ccd7d40c07063c50197879d898111a46c4fe0cf14559e132b0f87919c8261",
+      "input_and_observers.npz": "3a0bac9fb231e226beffabb423fa3ea670f007260a33972f6f581e839ceed6c1",
+      "dng100_observed.npz": "4bbcb5f114e3808e73f3d9bbe3be5f7104964de1dcd390369797845c6b30c718"
+    },
+    "m10": {
+      "traces.npz": "bd10dccc610dc20baa9e551a4c5dc0e942f18a9b51495b07747586ceb1f6e5cf",
+      "input_and_observers.npz": "646e033011da640eedfb63172b955831347c25ad484922e66b93b5c9622189eb",
+      "dng100_observed.npz": "bcf652a51105259d2188bbec00bd9d53586debacb309343ca31276d36d9cf9a3"
+    },
+    "m11": {
+      "traces.npz": "ac07a629bbb9c5fbbe98ca7d485006726b2bb6395b441950c96a21cfbb759c99",
+      "input_and_observers.npz": "0fbac95fec6d78ee35e52d8830b4b06d2704cf5ae75dd24f0809b12b0b1caa68",
+      "dng100_observed.npz": "15cbf871d16c05d3b03d921a1a7ab4c3e142037e1247d1ab5d42f4bc7b875322"
+    }
+  },
+  "CPU_s": 0.3201719,
+  "process_CPU_total_s": 0.3696009,
+  "peak_RSS_bytes": 137428992,
+  "new_neural_ms": 0,
+  "GPU_calls": 0,
+  "stage4_pass": false,
+  "stage5_pass": false
+}

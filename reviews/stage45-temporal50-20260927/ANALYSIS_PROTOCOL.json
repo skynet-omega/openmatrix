@@ -1,0 +1,19 @@
+{
+  "frozen_unix_s": 1790518739.2547224,
+  "exposure": "No50 condition effects or J consulted; source schemas and first10ms reference only",
+  "window_samples": [
+    11,
+    130
+  ],
+  "minimum_abs_neural_J": 1.6e-05,
+  "minimum_abs_yaw_J_deg_s": 0.02,
+  "sources": {
+    "analyze50.py": "1fed8b768263e39a882057807a03760107101172bfc9259a585046655b57ac77",
+    "verify50.py": "3484c5e5a5be7a3d49ef9a08dadb9d778762ed636312b564941d16c965654ee8",
+    "test_analysis50.py": "1bebf381fef1a773f157e96779f283666836eafb1786f60a2c535be9f336f391",
+    "reference/RECEIPT.json": "a63d35ba5ae0a905c3f1abc3e27bd19a4666d096d9417987059fc8e901e5331f",
+    "ANALYSIS_PREFLIGHT.json": "854c36d0736c5c2b423527d4c0375e15b464c3f7398d96a0ebaf5f2150a2cb09"
+  },
+  "counterexample": "A time-varying instantaneous joint map can produce J; no biological detector identification",
+  "same_acquisition_plan": true
+}

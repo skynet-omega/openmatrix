@@ -1,0 +1,17 @@
+# Revisión final y límite de la conclusión
+
+Los ocho brazos completos no superan ninguno de los dos mínimos materiales. Se conserva **DESCARTADO** para la variante temporal de la campaña 50; las etapas 4 y 5 permanecen abiertas.
+
+Motor C++/CUDA volvió a calcular J mediante una suma independiente de coeficientes, desde las ocho trazas y sin importar la función de contraste del autor. Obtuvo J neuronal = 3.357390793846486e-7 y J de giro no aplicado = 0.00026746522970471455 grados/s. La diferencia respecto al segundo cálculo canónico es 7.23e-17 grados/s como máximo; no cambia la decisión. Comprobó el prefijo de 33 campos, la igualdad corporal y propioceptiva, objetivo DNg100 cero y avance cero. Un parámetro positivo de ganancia alterado en memoria también fue rechazado por el suplemento. Archivos: `aporte_motor50/CIERRE.py`, `CIERRE.json` y `CIERRE.md`. No se atribuye una repetición independiente de la simulación.
+
+ChatGPT ASTRA_V2 y ChatGPT_Motor_V2 revisaron las cifras y las fuentes discutidas, sin ejecutar los arrays. Sus respuestas literales están en `ASESOR_ASTRA_CIERRE.json` y `ASESOR_MOTOR_CIERRE.json`; no se verificó el modo PRO. Ambos aceptan el negativo acotado. La cobertura de conexiones reduce la explicación «PN desconectadas de DNb05», pero no valida la transferencia ni distingue ley y estado. Ninguna votación de asesores decide la conclusión.
+
+ASTRA_V2 propone buscar series bilaterales DNb05 y velocidad sincronizadas de Yang para restringir signo, temporalidad y dependencia del estado de marcha. Son datos de calcio: no calibran directamente q. Motor_V2 propone un control de competencia del sistema posterior a BDN2/DNg100, pero falta un estado positivo cuantitativo fijado sin seleccionar movimiento. Su propuesta se refiere a iniciación y no convierte DNg100 en requisito universal de orientación. El preparado actual usa un lector motor protésico; no se afirma que la cadena CNS→VNC→MN esté integrada.
+
+Decisión del autor: no escoger entre ley y estado por este negativo ni repetir una secuencia parecida buscando PASS. La prioridad sigue siendo orientación con el cuerpo actual. Dentro de esa prioridad se conservan tres alternativas distintas: estado de la red, ley de transferencia e interfaz/lector ante una contradicción concreta. Una próxima candidata de ingeniería puede probarse como tal con operación, controles, presupuesto y falsador explícitos; no se exige una observación completa del cerebro ni se le concede equivalencia biológica. No hay una nueva candidata seleccionada por esta revisión.
+
+## Entrega y reproducibilidad
+
+El archivo completo conserva 1156 rutas, incluyendo fuentes, dependencias y estados completos; todas sus recetas de reconstrucción fueron verificadas por tamaño y SHA-256. Desde una extracción nueva del subconjunto registrado se ejecutaron análisis y pruebas de corrupción. No se volvió a ejecutar el CNS ni se calificó una restauración portátil de los estados finales 50. La cápsula pública pequeña reproduce el análisis de los ocho brazos y contiene esta revisión final; el archivo completo se tomó antes de recibir estas últimas revisiones, preservadas por separado.
+
+Motivo de cierre: ronda finita de ocho condiciones completada y contrastada, con resultado negativo bajo criterios conservados. No quedan simulaciones de esta campaña activas. Ninguna cifra permite garantizar hoy que el modelo vigente superará las etapas 4/5.

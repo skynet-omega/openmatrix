@@ -1,0 +1,81 @@
+{
+  "schema": "temporal50_factorial_v1",
+  "created_unix_s": 1790517624.368699,
+  "frozen_before_CNS": true,
+  "source_checkpoint": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "source_manifest_sha256": "63ef4762e4f78321ed0c84a57beefce39bb5f765c63d7ca7f6117a1b51cb3f52",
+  "source_exposed": true,
+  "source_history": "sham48;49known;notblind",
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/PROPUESTA_PREVIA.md": "e5f1b946b5bce546e0dbf9d19d7344e1017d1f1e16753029c1fc8887794301e9",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/temporal_input.py": "27b9648402a4c473c1dedd65b074a3cfae4babe37feb29936c871aedfcb509dd",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/test_design.py": "b7ad5848eb3772209fad651832f81468470b6a25c998ce06691cf56f1ce3f836",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/run_arm.py": "e5e2e74804bf5744ebd43419b900be8ce82825135e9904853bec1fc0bdca7ee1",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_temporal_factorial_20260927_50/run_queue.py": "1a53b68a9014d4dc07b4efd3d51a98e9a5ce584059ab718de02c745b8e7ce75d",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_operands_20260927_49/aporte_motor/clock_guard49.py": "f028a5912ee3a4545327adf64fe8f3ab18ad09d67dac251ca29d179f445f7c88"
+  },
+  "budget": {
+    "neural_ms_max": 1120,
+    "arms_max": 8,
+    "ms_each": 140,
+    "wall_s_max": 3600,
+    "CPU_s_max": 4000,
+    "RAM_GiB_max": 24,
+    "VRAM_GiB_max": 14,
+    "new_disk_GiB_max": 8,
+    "full_core_prototypes": 0,
+    "stimulus_families": 2,
+    "automatic_retries": 0
+  },
+  "budget_basis": "49OFF50ms cost176\u2013178CPU includingload/checkpoint;140ms extrapolation<350CPU/arm;8arms~2800CPU;4000includes safeguards andanalysis.",
+  "input": {
+    "lag_ms": [
+      40,
+      -40
+    ],
+    "baseline_prefix_ms": 10,
+    "stimulus_ms": 120,
+    "OFF_tail_ms": 10,
+    "profile": "unchanged694ORNprofile48",
+    "amplitudes": "baseline vs baseline+profile_increment;noadjustment",
+    "bits": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "bit_ms": 10,
+    "phase_complements": [
+      0,
+      1
+    ]
+  },
+  "primary": {
+    "neural": "DNb05_L-DNb05_R before motor decoder",
+    "statistic": "mean over samples11..130 of J(t)=(I_plus40-I_minus40)/2; I=X00+X11-X01-X10",
+    "minimum_abs_neural_J": 1.6e-05,
+    "command": "same statistic on existing unapplied raw yaw",
+    "minimum_abs_command_J_deg_s": 0.02,
+    "gate": "both thresholds; no best-window selection; notstage4",
+    "threshold_basis": "0.02deg/s materialscale44/46, prospective full120ms mean; 1.6e-5q corresponds to best-case derivative1250deg/s/q of fixeddecoder, engineering scale notphysiology",
+    "numeric_floor": 1e-12
+  },
+  "secondary": [
+    "PN_q_legacy pair",
+    "DNa02 observer",
+    "alltimetraces andowneroverlay",
+    "body andproprioceptionequality"
+  ],
+  "stop": "First run failure, aggregate budget, invalidownership/prefix orcomplete8arms. No lag/dose/reader tuning.",
+  "stages4_5_pass": false
+}
