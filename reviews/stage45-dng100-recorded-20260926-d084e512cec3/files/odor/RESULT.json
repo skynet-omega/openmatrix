@@ -1,0 +1,228 @@
+{
+  "status": "COMPLETE",
+  "arm": "odor",
+  "requested_ms": 3000,
+  "completed_ms": 3000,
+  "plan_sha256": "f026cbec4394551251db1986efbd05611f26cea3e73af7ce80199563dde9e08a",
+  "sources_sha256": "045ebca7d5289a7c14977be845099126892452287b3839eba357d29de361a3e0",
+  "plasticity_enabled": false,
+  "prior_stable_comparison": "Historical FAIL preserved; this is not a parity trial",
+  "hardware_initial": {
+    "pid": 845079,
+    "maxrss_KiB": 230532,
+    "python_processes": [
+      {
+        "pid": 835276,
+        "script": "campanas/etapa45_dng100_observado_20260926_47/launch.py"
+      },
+      {
+        "pid": 838970,
+        "script": "finish.py"
+      },
+      {
+        "pid": 840516,
+        "script": "publish_result.py"
+      },
+      {
+        "pid": 845079,
+        "script": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/run.py"
+      }
+    ],
+    "gpu_sample": "NVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 738 MiB, 41"
+  },
+  "restoration": {
+    "checkpoint_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+    "operator_identity_sha256": "44cb61fd511c4fcbae0194c3ef542a1dde0e013ef2c410f4c0178156bc096ab7",
+    "field_metadata_exact": true,
+    "neural_or_physical_steps_during_restore": 0,
+    "scope": "Constructed and validated only; exact initial state and actual continuation must be checked separately"
+  },
+  "pn_overlay": {
+    "cyclic_tree": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py",
+      "sha256": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c"
+    },
+    "resident_cyclic": {
+      "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py",
+      "sha256": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85"
+    }
+  },
+  "initial_ns": 44486000000,
+  "parameters": {
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "maximum_step_ns": 1000000,
+    "minimum_step_ns": 100,
+    "voltage_low_mv": -80.0,
+    "voltage_high_mv": 0.0,
+    "leak_mv": -60.0,
+    "release_low_mv": -65.0,
+    "release_high_mv": -25.0,
+    "excitatory_reversal_mv": 0.0,
+    "inhibitory_reversal_mv": -80.0,
+    "conductance_per_stored_weight": 0.03333333333333333,
+    "photoconductance_max": 1.0,
+    "photo_fast_tau_s": 0.005,
+    "photo_adaptation_tau_s": 0.25,
+    "photo_half": 0.2,
+    "adaptation_strength": 0.8,
+    "synaptic_tau_s": 0.005
+  },
+  "stored_weight_digest": "b37fe7baf06da5b4d1f6c3a07bdc3b86e54636a75f4721bb6afba8ef4edfaa74",
+  "factors_digest": "3b9f841d3e1e5611c245b9d6eaff0bd260a5c1c5cf9d5aba9c2f1047b29d6642",
+  "prepared_effective_operator_sha256": "70e7657ba6ffb18efa97a1c1560f0b36044490266178fa85e78d505a098285e5",
+  "MN_observation_count": 788,
+  "load_setup_s": 35.570205807016464,
+  "initial_pending_sensors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sensory_order": [
+    "L",
+    "R",
+    "reward"
+  ],
+  "motor": {
+    "trial_steps": 3000,
+    "body_calls": 120000,
+    "forward_offset_mm_s": 0.0,
+    "gain_mm_s_per_model_unit": 1.0,
+    "forward_limit_mm_s": 0.5,
+    "applied_yaw_rad_s": 0.0,
+    "wind_substeps": 0,
+    "neural_baseline_recentered": false,
+    "support_and_zero_command_braking": "Inherited contact prosthesis; not passive free body",
+    "native_muscles": "Recorded in shadow; not physical torque owner",
+    "physical_orientation_locked": false,
+    "six_leg_walking_claimed": false
+  },
+  "runtime": {
+    "profile": "causal_cuda",
+    "installed_implementations": {
+      "membrane": {
+        "module": "device_cell",
+        "source": "/home/daroch/AXIOMA_ASTRA/campanas/etapa3_pn629_intervention_20260923_15/device_cell.py",
+        "sha256": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45"
+      },
+      "CNS": {
+        "module": "real_model",
+        "source": "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py",
+        "sha256": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5"
+      },
+      "PN": {
+        "module": "pn_inhibitory_closure_source",
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_inhibitory_closure_source.py",
+        "sha256": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb"
+      }
+    },
+    "event_boundaries": true,
+    "geometry_compression": false,
+    "coupling_ns": 125000,
+    "cell": {
+      "calls": 48000,
+      "accepted": 306599623,
+      "rejected": 1442347,
+      "build_s": 0.005200679006520659,
+      "native_wall_s": 796.9704889248824,
+      "event_capacity_per_cell_per_epoch": 8,
+      "compressed": false,
+      "scheduler": "device_independent_block",
+      "count_unit": "cell_trials",
+      "device_bytes": 6155776,
+      "kernel": {
+        "max_threads_per_block": 256,
+        "shared_size_bytes": 0,
+        "const_size_bytes": 0,
+        "local_size_bytes": 0,
+        "num_regs": 250,
+        "ptx_version": 89,
+        "binary_version": 89,
+        "cache_mode_ca": 0,
+        "max_dynamic_shared_size_bytes": 49152,
+        "preferred_shared_memory_carveout": -1
+      },
+      "last_accepted_quantiles": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        40.0
+      ]
+    },
+    "CNS": {
+      "epochs": 48000,
+      "accepted": 338659,
+      "rejected": 93,
+      "build_s": 0.09065253398148343,
+      "device_bytes": 69990912,
+      "event_capacity_per_cell_per_epoch": 8,
+      "mandatory_event_boundaries": true,
+      "rhs_evaluations": 1355008,
+      "method": "resident_RK3(2)_CSR_PERSISTENT_FP32"
+    },
+    "PN": {
+      "calls": 48000,
+      "accepted": 48000,
+      "rejected": 0,
+      "build_s": 2.6469434069877025,
+      "wall_s": 605.0412379943882,
+      "model_identity": "d616a0ade2c084f5aa7c9bc905fb7b1d32c71b03ce0309145845ade9580af56b",
+      "state_owner_preserved": true,
+      "graph_statistics": {
+        "accepted": 96000,
+        "fallback": 0
+      },
+      "linear_fallbacks": 0
+    },
+    "events": {
+      "blocks": 48000,
+      "events": 232493,
+      "max_q_reconstruction_difference": 9.43689570931383e-16,
+      "global_trials": 338752,
+      "time_resolved": true
+    },
+    "partition": {
+      "steps": 24000,
+      "step_ns": 125000,
+      "predictor_restore_exact": true,
+      "pn_rejections": 0,
+      "predictor_evaluations": 508628
+    }
+  },
+  "observer": {
+    "rows": [
+      36,
+      46
+    ],
+    "epochs": 48000,
+    "trials": 338752,
+    "accepted": 338659,
+    "rejected": 93,
+    "scheduler_changed": false,
+    "capacity_trials_per_epoch": 10000,
+    "recorded_fields": [
+      "state",
+      "net",
+      "positive_aux",
+      "negative_aux",
+      "drive",
+      "theta",
+      "gain",
+      "base_target",
+      "base_rate",
+      "tau",
+      "margin",
+      "final_target",
+      "final_rate",
+      "derivative",
+      "evaluation_time_s",
+      "stage_fraction"
+    ],
+    "acceptance_checked_against_counts_and_committed_state": true
+  },
+  "parent_observations_exact": true,
+  "persisted_ms": 3000,
+  "wall_s": 4318.1846928540035,
+  "peak_rss_bytes": 6767054848
+}

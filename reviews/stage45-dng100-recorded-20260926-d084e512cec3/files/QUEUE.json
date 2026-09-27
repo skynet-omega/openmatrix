@@ -1,0 +1,99 @@
+{
+  "status": "COMPLETE",
+  "completed_arms": [
+    {
+      "arm": "sham",
+      "status": "EXIT_OK",
+      "supervisor_pid": 835276,
+      "worker_pid": 835295,
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/run.py",
+        "--arm",
+        "sham",
+        "--out",
+        "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/sham"
+      ],
+      "wall_limit_s": 6300,
+      "cpu_limit_s": 18000.0,
+      "cpu_accounting": "Linux process group utime+stime+cutime+cstime; final wait4 receipt",
+      "observed_cpu_peak_s": 5040.63,
+      "observed_group_rss_peak_bytes": 6765441024,
+      "disk_peak_bytes": 173554059,
+      "stop_reason": null,
+      "elapsed_s": 4331.867585847009,
+      "live": {
+        "cpu_s": 5040.63,
+        "rss_bytes": 5420748800,
+        "pids": [
+          835295
+        ]
+      },
+      "forced_kill": false,
+      "exit_code": 0,
+      "final_wait4_cpu_s": 5041.164103
+    },
+    {
+      "arm": "odor",
+      "status": "EXIT_OK",
+      "supervisor_pid": 835276,
+      "worker_pid": 845079,
+      "command": [
+        "/home/daroch/miniconda3/envs/GPU/bin/python",
+        "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/run.py",
+        "--arm",
+        "odor",
+        "--out",
+        "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/odor"
+      ],
+      "wall_limit_s": 6300,
+      "cpu_limit_s": 12958.835897,
+      "cpu_accounting": "Linux process group utime+stime+cutime+cstime; final wait4 receipt",
+      "observed_cpu_peak_s": 5096.63,
+      "observed_group_rss_peak_bytes": 6767054848,
+      "disk_peak_bytes": 330911491,
+      "stop_reason": null,
+      "elapsed_s": 4320.853932867991,
+      "live": {
+        "cpu_s": 5096.63,
+        "rss_bytes": 3771117568,
+        "pids": [
+          845079
+        ]
+      },
+      "forced_kill": false,
+      "exit_code": 0,
+      "final_wait4_cpu_s": 5096.934212
+    }
+  ],
+  "analysis": {
+    "status": "EXIT_OK",
+    "supervisor_pid": 835276,
+    "worker_pid": 854451,
+    "command": [
+      "/home/daroch/miniconda3/envs/GPU/bin/python",
+      "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_dng100_observado_20260926_47/analyze.py"
+    ],
+    "wall_limit_s": 300,
+    "cpu_limit_s": 300,
+    "cpu_accounting": "Linux process group utime+stime+cutime+cstime; final wait4 receipt",
+    "observed_cpu_peak_s": 18.56,
+    "observed_group_rss_peak_bytes": 78770176,
+    "disk_peak_bytes": 330935420,
+    "stop_reason": null,
+    "elapsed_s": 18.08101318500121,
+    "live": {
+      "cpu_s": 18.56,
+      "rss_bytes": 71864320,
+      "pids": [
+        854451
+      ]
+    },
+    "forced_kill": false,
+    "exit_code": 0,
+    "final_wait4_cpu_s": 19.015159999999998
+  },
+  "elapsed_s": 8670.813519406976,
+  "used_cpu_s": 10157.113475,
+  "automatic_retries": 0
+}

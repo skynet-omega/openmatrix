@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE",
+  "classification": "ZERO_FINAL_TARGET_IN_RECORDED_COMMITTED_EVOLUTION",
+  "literal_zero": true,
+  "has_negative": false,
+  "has_positive": false,
+  "generic_suppression_supported_in_recorded_evaluations": true,
+  "paired": [
+    {
+      "phase": "baseline",
+      "id": 10045,
+      "odor_minus_sham_RK_weighted_means": {
+        "net": 0.0,
+        "positive_aux": 0.0,
+        "negative_aux": 0.0,
+        "margin": 0.0,
+        "final_target": 0.0
+      },
+      "sham_margin_max": -1277.756103515625,
+      "odor_margin_max": -1277.756103515625
+    },
+    {
+      "phase": "baseline",
+      "id": 10056,
+      "odor_minus_sham_RK_weighted_means": {
+        "net": 0.0,
+        "positive_aux": 0.0,
+        "negative_aux": 0.0,
+        "margin": 0.0,
+        "final_target": 0.0
+      },
+      "sham_margin_max": -1180.013916015625,
+      "odor_margin_max": -1180.013916015625
+    },
+    {
+      "phase": "stimulus",
+      "id": 10045,
+      "odor_minus_sham_RK_weighted_means": {
+        "net": 15.435392183013391,
+        "positive_aux": 2.372590631179264,
+        "negative_aux": 13.0628012975003,
+        "margin": 15.43539218301521,
+        "final_target": 0.0
+      },
+      "sham_margin_max": -1277.89453125,
+      "odor_margin_max": -1261.291748046875
+    },
+    {
+      "phase": "stimulus",
+      "id": 10056,
+      "odor_minus_sham_RK_weighted_means": {
+        "net": 14.271078537611174,
+        "positive_aux": 0.6761612970958595,
+        "negative_aux": 13.59491603137667,
+        "margin": 14.27107788028411,
+        "final_target": 0.0
+      },
+      "sham_margin_max": -1181.6258544921875,
+      "odor_margin_max": -1166.337890625
+    }
+  ],
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "scope": "Successful retained k1-k3 evaluations in47 with observations reproducing45. RK-weighted summaries are not independent biological samples. Not a retrospective recovery of unrecorded45 operands or a physiological validation.",
+  "supersedes": "Only the target classification in frozen RESULTADOS.json; original retained.",
+  "original_summary_sha256": "7bcec72492b8d806960cdba58d6346f99c8bcf9947b742d2a083b970a2dada28",
+  "analysis_source_sha256": "047a074e8a18cdd88f06ff69b3d4a12378d7d12594f8837c3a3096a004f6c557",
+  "CPU_s": 0.0
+}

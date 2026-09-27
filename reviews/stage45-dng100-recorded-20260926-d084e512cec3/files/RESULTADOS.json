@@ -1,0 +1,680 @@
+{
+  "status": "COMPLETE",
+  "classification": "COHERENT_ZERO_TARGET_IN_RECORDED_COMMITTED_EVOLUTION",
+  "arms": {
+    "sham": {
+      "completed_ms": 3000,
+      "phases": {
+        "baseline": {
+          "duration_s": 0.9999999999999999,
+          "accepted_trials": 70353,
+          "positive_target_evaluations": [
+            0,
+            0
+          ],
+          "positive_margin_evaluations": [
+            0,
+            0
+          ],
+          "base_final_target_mismatches": 0,
+          "positive_k4_evaluations": [
+            0,
+            0
+          ],
+          "cells": [
+            {
+              "id": 10045,
+              "state": {
+                "min": 1.93e-322,
+                "max": 1.93e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1085.350341796875,
+                "max": -614.49755859375,
+                "time_weighted_mean": -852.1120831721742
+              },
+              "positive_aux": {
+                "min": 6844.12353515625,
+                "max": 6976.2998046875,
+                "time_weighted_mean": 6907.230724908179
+              },
+              "negative_aux": {
+                "min": -7952.58642578125,
+                "max": -7578.8818359375,
+                "time_weighted_mean": -7759.34280692274
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 663.258544921875,
+                "max": 663.258544921875,
+                "time_weighted_mean": 663.2585449218753
+              },
+              "gain": {
+                "min": 5.640528252115473e-05,
+                "max": 5.640528252115473e-05,
+                "time_weighted_mean": 5.6405282521154643e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347706
+              },
+              "tau": {
+                "min": 0.018692342564463615,
+                "max": 0.018692342564463615,
+                "time_weighted_mean": 0.018692342564463615
+              },
+              "margin": {
+                "min": -1748.60888671875,
+                "max": -1277.756103515625,
+                "time_weighted_mean": -1515.3706280940448
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347706
+              },
+              "derivative": {
+                "min": -1.0306e-320,
+                "max": -1.0306e-320,
+                "time_weighted_mean": 0.0
+              }
+            },
+            {
+              "id": 10056,
+              "state": {
+                "min": 2.8e-322,
+                "max": 2.8e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1065.5262451171875,
+                "max": -620.8278198242188,
+                "time_weighted_mean": -848.3748358475735
+              },
+              "positive_aux": {
+                "min": 6962.77099609375,
+                "max": 7102.52392578125,
+                "time_weighted_mean": 7030.430044213838
+              },
+              "negative_aux": {
+                "min": -8052.6103515625,
+                "max": -7711.9365234375,
+                "time_weighted_mean": -7878.804879293006
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 559.1860961914062,
+                "max": 559.1860961914062,
+                "time_weighted_mean": 559.1860961914056
+              },
+              "gain": {
+                "min": 5.770644565927796e-05,
+                "max": 5.770644565927796e-05,
+                "time_weighted_mean": 5.77064456592781e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870135
+              },
+              "tau": {
+                "min": 0.022916041314601898,
+                "max": 0.022916041314601898,
+                "time_weighted_mean": 0.0229160413146019
+              },
+              "margin": {
+                "min": -1624.71240234375,
+                "max": -1180.013916015625,
+                "time_weighted_mean": -1407.5609289788956
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870135
+              },
+              "derivative": {
+                "min": -1.2287e-320,
+                "max": -1.2287e-320,
+                "time_weighted_mean": 0.0
+              }
+            }
+          ]
+        },
+        "stimulus": {
+          "duration_s": 2.0000000000000004,
+          "accepted_trials": 140278,
+          "positive_target_evaluations": [
+            0,
+            0
+          ],
+          "positive_margin_evaluations": [
+            0,
+            0
+          ],
+          "base_final_target_mismatches": 0,
+          "positive_k4_evaluations": [
+            0,
+            0
+          ],
+          "cells": [
+            {
+              "id": 10045,
+              "state": {
+                "min": 1.93e-322,
+                "max": 1.93e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1086.8507080078125,
+                "max": -614.635986328125,
+                "time_weighted_mean": -854.2062449355775
+              },
+              "positive_aux": {
+                "min": 6848.611328125,
+                "max": 6976.2734375,
+                "time_weighted_mean": 6909.500812903184
+              },
+              "negative_aux": {
+                "min": -7951.33544921875,
+                "max": -7581.90869140625,
+                "time_weighted_mean": -7763.7070556446215
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 663.258544921875,
+                "max": 663.258544921875,
+                "time_weighted_mean": 663.2585449218753
+              },
+              "gain": {
+                "min": 5.640528252115473e-05,
+                "max": 5.640528252115473e-05,
+                "time_weighted_mean": 5.640528252115473e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.49784088134774
+              },
+              "tau": {
+                "min": 0.018692342564463615,
+                "max": 0.018692342564463615,
+                "time_weighted_mean": 0.018692342564463626
+              },
+              "margin": {
+                "min": -1750.1092529296875,
+                "max": -1277.89453125,
+                "time_weighted_mean": -1517.4647898574522
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.49784088134774
+              },
+              "derivative": {
+                "min": -1.0306e-320,
+                "max": -1.0306e-320,
+                "time_weighted_mean": 0.0
+              }
+            },
+            {
+              "id": 10056,
+              "state": {
+                "min": 2.8e-322,
+                "max": 2.8e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1067.464599609375,
+                "max": -622.4397583007812,
+                "time_weighted_mean": -850.2322052225512
+              },
+              "positive_aux": {
+                "min": 6966.9462890625,
+                "max": 7102.111328125,
+                "time_weighted_mean": 7032.882518308454
+              },
+              "negative_aux": {
+                "min": -8053.26806640625,
+                "max": -7713.9287109375,
+                "time_weighted_mean": -7883.114721968791
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 559.1860961914062,
+                "max": 559.1860961914062,
+                "time_weighted_mean": 559.1860961914051
+              },
+              "gain": {
+                "min": 5.770644565927796e-05,
+                "max": 5.770644565927796e-05,
+                "time_weighted_mean": 5.7706445659277954e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870126
+              },
+              "tau": {
+                "min": 0.022916041314601898,
+                "max": 0.022916041314601898,
+                "time_weighted_mean": 0.022916041314601867
+              },
+              "margin": {
+                "min": -1626.650634765625,
+                "max": -1181.6258544921875,
+                "time_weighted_mean": -1409.4182984341703
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870126
+              },
+              "derivative": {
+                "min": -1.2287e-320,
+                "max": -1.2287e-320,
+                "time_weighted_mean": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "odor": {
+      "completed_ms": 3000,
+      "phases": {
+        "baseline": {
+          "duration_s": 0.9999999999999999,
+          "accepted_trials": 70353,
+          "positive_target_evaluations": [
+            0,
+            0
+          ],
+          "positive_margin_evaluations": [
+            0,
+            0
+          ],
+          "base_final_target_mismatches": 0,
+          "positive_k4_evaluations": [
+            0,
+            0
+          ],
+          "cells": [
+            {
+              "id": 10045,
+              "state": {
+                "min": 1.93e-322,
+                "max": 1.93e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1085.350341796875,
+                "max": -614.49755859375,
+                "time_weighted_mean": -852.1120831721742
+              },
+              "positive_aux": {
+                "min": 6844.12353515625,
+                "max": 6976.2998046875,
+                "time_weighted_mean": 6907.230724908179
+              },
+              "negative_aux": {
+                "min": -7952.58642578125,
+                "max": -7578.8818359375,
+                "time_weighted_mean": -7759.34280692274
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 663.258544921875,
+                "max": 663.258544921875,
+                "time_weighted_mean": 663.2585449218753
+              },
+              "gain": {
+                "min": 5.640528252115473e-05,
+                "max": 5.640528252115473e-05,
+                "time_weighted_mean": 5.6405282521154643e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347706
+              },
+              "tau": {
+                "min": 0.018692342564463615,
+                "max": 0.018692342564463615,
+                "time_weighted_mean": 0.018692342564463615
+              },
+              "margin": {
+                "min": -1748.60888671875,
+                "max": -1277.756103515625,
+                "time_weighted_mean": -1515.3706280940448
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347706
+              },
+              "derivative": {
+                "min": -1.0306e-320,
+                "max": -1.0306e-320,
+                "time_weighted_mean": 0.0
+              }
+            },
+            {
+              "id": 10056,
+              "state": {
+                "min": 2.8e-322,
+                "max": 2.8e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1065.5262451171875,
+                "max": -620.8278198242188,
+                "time_weighted_mean": -848.3748358475735
+              },
+              "positive_aux": {
+                "min": 6962.77099609375,
+                "max": 7102.52392578125,
+                "time_weighted_mean": 7030.430044213838
+              },
+              "negative_aux": {
+                "min": -8052.6103515625,
+                "max": -7711.9365234375,
+                "time_weighted_mean": -7878.804879293006
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 559.1860961914062,
+                "max": 559.1860961914062,
+                "time_weighted_mean": 559.1860961914056
+              },
+              "gain": {
+                "min": 5.770644565927796e-05,
+                "max": 5.770644565927796e-05,
+                "time_weighted_mean": 5.77064456592781e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870135
+              },
+              "tau": {
+                "min": 0.022916041314601898,
+                "max": 0.022916041314601898,
+                "time_weighted_mean": 0.0229160413146019
+              },
+              "margin": {
+                "min": -1624.71240234375,
+                "max": -1180.013916015625,
+                "time_weighted_mean": -1407.5609289788956
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870135
+              },
+              "derivative": {
+                "min": -1.2287e-320,
+                "max": -1.2287e-320,
+                "time_weighted_mean": 0.0
+              }
+            }
+          ]
+        },
+        "stimulus": {
+          "duration_s": 2.0000000000000004,
+          "accepted_trials": 141160,
+          "positive_target_evaluations": [
+            0,
+            0
+          ],
+          "positive_margin_evaluations": [
+            0,
+            0
+          ],
+          "base_final_target_mismatches": 0,
+          "positive_k4_evaluations": [
+            0,
+            0
+          ],
+          "cells": [
+            {
+              "id": 10045,
+              "state": {
+                "min": 1.93e-322,
+                "max": 1.93e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1074.213623046875,
+                "max": -598.033203125,
+                "time_weighted_mean": -838.7708527525641
+              },
+              "positive_aux": {
+                "min": 6852.18359375,
+                "max": 6976.51171875,
+                "time_weighted_mean": 6911.873403534363
+              },
+              "negative_aux": {
+                "min": -7936.1962890625,
+                "max": -7567.35107421875,
+                "time_weighted_mean": -7750.644254347121
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 663.258544921875,
+                "max": 663.258544921875,
+                "time_weighted_mean": 663.2585449218755
+              },
+              "gain": {
+                "min": 5.640528252115473e-05,
+                "max": 5.640528252115473e-05,
+                "time_weighted_mean": 5.640528252115468e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347756
+              },
+              "tau": {
+                "min": 0.018692342564463615,
+                "max": 0.018692342564463615,
+                "time_weighted_mean": 0.018692342564463588
+              },
+              "margin": {
+                "min": -1737.47216796875,
+                "max": -1261.291748046875,
+                "time_weighted_mean": -1502.029397674437
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 53.497840881347656,
+                "max": 53.497840881347656,
+                "time_weighted_mean": 53.497840881347756
+              },
+              "derivative": {
+                "min": -1.0306e-320,
+                "max": -1.0306e-320,
+                "time_weighted_mean": 0.0
+              }
+            },
+            {
+              "id": 10056,
+              "state": {
+                "min": 2.8e-322,
+                "max": 2.8e-322,
+                "time_weighted_mean": 0.0
+              },
+              "net": {
+                "min": -1056.1732177734375,
+                "max": -607.15185546875,
+                "time_weighted_mean": -835.96112668494
+              },
+              "positive_aux": {
+                "min": 6968.927734375,
+                "max": 7100.32177734375,
+                "time_weighted_mean": 7033.5586796055495
+              },
+              "negative_aux": {
+                "min": -8037.55322265625,
+                "max": -7698.73974609375,
+                "time_weighted_mean": -7869.519805937414
+              },
+              "drive": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "theta": {
+                "min": 559.1860961914062,
+                "max": 559.1860961914062,
+                "time_weighted_mean": 559.1860961914055
+              },
+              "gain": {
+                "min": 5.770644565927796e-05,
+                "max": 5.770644565927796e-05,
+                "time_weighted_mean": 5.7706445659278035e-05
+              },
+              "base_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "base_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870132
+              },
+              "tau": {
+                "min": 0.022916041314601898,
+                "max": 0.022916041314601898,
+                "time_weighted_mean": 0.02291604131460189
+              },
+              "margin": {
+                "min": -1615.359375,
+                "max": -1166.337890625,
+                "time_weighted_mean": -1395.1472205538862
+              },
+              "final_target": {
+                "min": 0.0,
+                "max": 0.0,
+                "time_weighted_mean": 0.0
+              },
+              "final_rate": {
+                "min": 43.63755416870117,
+                "max": 43.63755416870117,
+                "time_weighted_mean": 43.63755416870132
+              },
+              "derivative": {
+                "min": -1.2287e-320,
+                "max": -1.2287e-320,
+                "time_weighted_mean": 0.0
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "scope": "Original model/context, retained successful steps. Does not establish physiological law or justify retuning.",
+  "wall_s": 17.427925058000255
+}

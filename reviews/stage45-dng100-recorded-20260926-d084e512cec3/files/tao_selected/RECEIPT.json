@@ -1,0 +1,164 @@
+{
+  "archive_url": "https://ndownloader.figshare.com/files/40468301",
+  "article": "10.6084/m9.figshare.22776428.v1",
+  "license": "CC BY4.0",
+  "retrieved_archive_bytes": 15067162,
+  "whole_zip_downloaded": false,
+  "whole_zip_md5_verified": false,
+  "prior_failure": "whosmat rejected HDF5/Matlab7.3 after saving validated BestFit5; resumed using h5py, no member redownload",
+  "CPU_s": 0.4974995,
+  "members": [
+    {
+      "member": {
+        "name": "Data/BestFit5.mat",
+        "compressed": 434,
+        "uncompressed": 2240,
+        "crc32": 1267961436,
+        "method": 8,
+        "flags": 0,
+        "local_offset": 35
+      },
+      "bytes": 2240,
+      "sha256": "f8d2e1ac842ce2b5462184b2671c6a588f1c57619caf1eeecf52bb53cdf7b74e",
+      "mat_variables": {
+        "GlobMinCFit": {
+          "kind": "Dataset",
+          "shape": [
+            1,
+            1
+          ]
+        },
+        "GlobMinX": {
+          "kind": "Dataset",
+          "shape": [
+            1,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "member": {
+        "name": "Data/LFP_2_25.mat",
+        "compressed": 1440374,
+        "uncompressed": 2742314,
+        "crc32": 3174359770,
+        "method": 8,
+        "flags": 0,
+        "local_offset": 697679939
+      },
+      "bytes": 2742314,
+      "sha256": "46a80a62784e78c8b8240a25cc2814cbb3f1f9fc210d9537f22ed16d187df988",
+      "mat_variables": [
+        [
+          "LFP",
+          [
+            6000,
+            6
+          ],
+          "double"
+        ],
+        [
+          "LFP_fit",
+          [
+            6000,
+            6
+          ],
+          "double"
+        ],
+        [
+          "XStimNew",
+          [
+            36000,
+            501
+          ],
+          "double"
+        ],
+        [
+          "b",
+          [
+            501,
+            30
+          ],
+          "double"
+        ],
+        [
+          "eta",
+          [
+            1,
+            30
+          ],
+          "double"
+        ],
+        [
+          "lamb",
+          [
+            1,
+            30
+          ],
+          "double"
+        ],
+        [
+          "optFitN",
+          [
+            1,
+            1
+          ],
+          "double"
+        ],
+        [
+          "rho",
+          [
+            1,
+            30
+          ],
+          "double"
+        ],
+        [
+          "stim",
+          [
+            6,
+            6000
+          ],
+          "double"
+        ]
+      ]
+    },
+    {
+      "member": {
+        "name": "Data/Training Data/Type 1/data_180115_1_2.mat",
+        "compressed": 13553468,
+        "uncompressed": 13673791,
+        "crc32": 412827189,
+        "method": 8,
+        "flags": 0,
+        "local_offset": 721420887
+      },
+      "bytes": 13673791,
+      "sha256": "701a635dc726ae026b16e2b2863c0375c3130fb3a0895a591f1fea6a728376df",
+      "mat_variables": [
+        [
+          "DataExp",
+          [
+            1,
+            1
+          ],
+          "struct"
+        ]
+      ]
+    }
+  ],
+  "schema_inspection": {
+    "raw_record": "DataExp: voltage, voltageBS, stimulus, peakAll and cluster memberships; no explicit receptor/cell-type or sampling-rate field found in this record",
+    "record_size": {
+      "voltage": 600000,
+      "current": 3000000,
+      "spike_peaks": 660,
+      "clusters": 6
+    },
+    "fitted_assets": "BestFit5 contains optimizer values; LFP_2_25 contains empirical and fitted LFP, design matrix and filters. Do not count fits as measurements.",
+    "no_fit_or_model_change": true
+  },
+  "code_commit": "8032d9d3f191c97191f5de3ad5fa2ea2e5e7e383",
+  "completed_unix_s": 1790462292.3356001
+}
