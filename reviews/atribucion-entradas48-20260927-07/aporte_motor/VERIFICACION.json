@@ -1,0 +1,728 @@
+{
+  "status": "SCHEMA_AND_MEMBERSHIP_VERIFIED",
+  "ids": [
+    10045,
+    10056,
+    10118,
+    10065,
+    523769,
+    10360
+  ],
+  "rows": [
+    36,
+    46,
+    104,
+    52,
+    131957,
+    332
+  ],
+  "caps": [
+    201.9180450439453,
+    190.84814453125,
+    194.21115112304688,
+    200.49769592285156,
+    199.53604125976562,
+    200.26658630371094
+  ],
+  "direct_APL_incoming_edges": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "states": {
+    "sham": {
+      "time_ns": 47486000000,
+      "neuron_count": 166700,
+      "photo_count": 5529,
+      "generic_transmission_slice": [
+        177758,
+        344458
+      ],
+      "hybrid_state": {
+        "shape": [
+          359373
+        ],
+        "fortran": false,
+        "dtype": "float64"
+      },
+      "membership": {
+        "receptor_manifest.post_ids": {
+          "count": 826,
+          "matched_ids": []
+        },
+        "measured_t4_manifest.post_ids": {
+          "count": 31092,
+          "matched_ids": []
+        },
+        "r8_mi4_manifest.post_ids": {
+          "count": 1026,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_rows": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_ids": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_ids": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_indices": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "regional_manifest.target_rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "regional_manifest.target_ids": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_rows": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_ids": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.post_ids": {
+          "count": 37830,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_rows": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_ids": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_rows": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_ids": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.post_rows": {
+          "count": 9866,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.target_rows": {
+          "count": 791,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_rows": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_ids": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kc_apl_dynamic_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_electrical_scales_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_axonal_manifest.rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "kc_visual_manifest.rows": {
+          "count": 206,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "ORN_terminal": {
+          "matched_ids": []
+        },
+        "visual": {
+          "matched_ids": []
+        },
+        "CXHP8_external_drive": {
+          "matched_ids": []
+        }
+      },
+      "PN_general_enabled": false,
+      "visual_output_connected": true,
+      "restart_tested": false
+    },
+    "dm1": {
+      "time_ns": 47486000000,
+      "neuron_count": 166700,
+      "photo_count": 5529,
+      "generic_transmission_slice": [
+        177758,
+        344458
+      ],
+      "hybrid_state": {
+        "shape": [
+          359373
+        ],
+        "fortran": false,
+        "dtype": "float64"
+      },
+      "membership": {
+        "receptor_manifest.post_ids": {
+          "count": 826,
+          "matched_ids": []
+        },
+        "measured_t4_manifest.post_ids": {
+          "count": 31092,
+          "matched_ids": []
+        },
+        "r8_mi4_manifest.post_ids": {
+          "count": 1026,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_rows": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_ids": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_ids": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_indices": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "regional_manifest.target_rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "regional_manifest.target_ids": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_rows": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_ids": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.post_ids": {
+          "count": 37830,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_rows": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_ids": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_rows": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_ids": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.post_rows": {
+          "count": 9866,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.target_rows": {
+          "count": 791,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_rows": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_ids": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kc_apl_dynamic_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_electrical_scales_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_axonal_manifest.rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "kc_visual_manifest.rows": {
+          "count": 206,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "ORN_terminal": {
+          "matched_ids": []
+        },
+        "visual": {
+          "matched_ids": []
+        },
+        "CXHP8_external_drive": {
+          "matched_ids": []
+        }
+      },
+      "PN_general_enabled": false,
+      "visual_output_connected": true,
+      "restart_tested": false
+    },
+    "profile": {
+      "time_ns": 47486000000,
+      "neuron_count": 166700,
+      "photo_count": 5529,
+      "generic_transmission_slice": [
+        177758,
+        344458
+      ],
+      "hybrid_state": {
+        "shape": [
+          359373
+        ],
+        "fortran": false,
+        "dtype": "float64"
+      },
+      "membership": {
+        "receptor_manifest.post_ids": {
+          "count": 826,
+          "matched_ids": []
+        },
+        "measured_t4_manifest.post_ids": {
+          "count": 31092,
+          "matched_ids": []
+        },
+        "r8_mi4_manifest.post_ids": {
+          "count": 1026,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_rows": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_ids": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_ids": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_indices": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "regional_manifest.target_rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "regional_manifest.target_ids": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_rows": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_ids": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.post_ids": {
+          "count": 37830,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_rows": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_ids": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_rows": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_ids": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.post_rows": {
+          "count": 9866,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.target_rows": {
+          "count": 791,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_rows": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_ids": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kc_apl_dynamic_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_electrical_scales_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_axonal_manifest.rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "kc_visual_manifest.rows": {
+          "count": 206,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "ORN_terminal": {
+          "matched_ids": []
+        },
+        "visual": {
+          "matched_ids": []
+        },
+        "CXHP8_external_drive": {
+          "matched_ids": []
+        }
+      },
+      "PN_general_enabled": false,
+      "visual_output_connected": true,
+      "restart_tested": false
+    },
+    "permuted": {
+      "time_ns": 47486000000,
+      "neuron_count": 166700,
+      "photo_count": 5529,
+      "generic_transmission_slice": [
+        177758,
+        344458
+      ],
+      "hybrid_state": {
+        "shape": [
+          359373
+        ],
+        "fortran": false,
+        "dtype": "float64"
+      },
+      "membership": {
+        "receptor_manifest.post_ids": {
+          "count": 826,
+          "matched_ids": []
+        },
+        "measured_t4_manifest.post_ids": {
+          "count": 31092,
+          "matched_ids": []
+        },
+        "r8_mi4_manifest.post_ids": {
+          "count": 1026,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "graded_descending_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cyborg_retinal_port_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_rows": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "pvlp_adaptation_manifest.target_ids": {
+          "count": 3,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_ids": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "orn_pn_synaptic_manifest.post_indices": {
+          "count": 145,
+          "matched_ids": []
+        },
+        "regional_manifest.target_rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "regional_manifest.target_ids": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_rows": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.target_ids": {
+          "count": 6860,
+          "matched_ids": []
+        },
+        "t4_gaba_manifest.post_ids": {
+          "count": 37830,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_rows": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "retinal_transduction_manifest.target_ids": {
+          "count": 3021,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "cvn7_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_rows": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "boundary_manifest.target_ids": {
+          "count": 1771,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_rows": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.target_ids": {
+          "count": 1375,
+          "matched_ids": []
+        },
+        "pnkc_receptor_manifest.post_rows": {
+          "count": 9866,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.target_rows": {
+          "count": 791,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_rows": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kcgamma_output_manifest.post_ids": {
+          "count": 70238,
+          "matched_ids": []
+        },
+        "kc_apl_dynamic_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_electrical_scales_manifest.rows": {
+          "count": 4064,
+          "matched_ids": []
+        },
+        "kc_axonal_manifest.rows": {
+          "count": 1557,
+          "matched_ids": []
+        },
+        "kc_visual_manifest.rows": {
+          "count": 206,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_rows": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "olfactory_endogenous_manifest.target_ids": {
+          "count": 2,
+          "matched_ids": []
+        },
+        "ORN_terminal": {
+          "matched_ids": []
+        },
+        "visual": {
+          "matched_ids": []
+        },
+        "CXHP8_external_drive": {
+          "matched_ids": []
+        }
+      },
+      "PN_general_enabled": false,
+      "visual_output_connected": true,
+      "restart_tested": false
+    }
+  },
+  "CSR_indices": {
+    "shape": [
+      25582938
+    ],
+    "fortran": false,
+    "dtype": "int32"
+  },
+  "rejected_wrong_id": true,
+  "sources_verified": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/state.npz": "13f1b78cb757b76d0a720638cfc297f919d4cc0440739c033548fd9a9e0e836e",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage234_settling_extension_20260915/settled_700ms/core_carrier/brain/weights_post_pre.npz": "93d8a74f08d26a726a7b473080d9a278ecb47fa4d61afe77e392893b1b2acdd4",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/apl_expanded_routes_20260910/routes.npz": "98a6e97d4a9190c773d8a795c51344c3f664f5a0b39b6f1268d9a121c1609aae",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/hybrid_visual_brain.py": "1961a9eed77390edbb57d4d3376733c956c8ed2026764ea5777e998ca9f4e5a4",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/src/anatomical_rate_brain.py": "44ea26594d1b9b00d78ad0fc759a7fa3b2f02af7bd367ae6ab5c6799469a4ba3",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/work/motor14_20260922/motor_runtime.py": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/config/matrix_diagnostico_olfativo_v1.json": "108ce7233a3498e3885f3f205677a6308789b6327dc5587cd26d3d38ed02f00a",
+    "/home/daroch/AXIOMA_ASTRA/motor_nuevo/full_pipeline_review_20260925_12/restore_prepared.py": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_composicion_20260927_48/checkpoint48.py": "7caa78d6ad76b2b245033117fe46e04e19ae669f87389ff3e55a8f3f13cfb17c"
+  },
+  "wall_s": 5.188125865010079,
+  "CPU_s": 4.527468900000001,
+  "peak_RSS_bytes": 302821376,
+  "new_neural_steps": 0,
+  "new_body_steps": 0,
+  "GPU_calls": 0,
+  "scope": "No W or full neural-state array loaded; no net attribution, no last-RHS reconstruction."
+}

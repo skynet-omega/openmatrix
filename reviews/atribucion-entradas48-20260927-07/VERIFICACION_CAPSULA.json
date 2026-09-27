@@ -1,0 +1,37 @@
+{
+  "recomputed": true,
+  "exact_DNg_net_matches": 8,
+  "admission_stage4": false,
+  "admission_stage5": false,
+  "deliberate_corruptions": {
+    "input_hash": {
+      "detected": true,
+      "expected_error": "Changed inputs",
+      "returncode": 1
+    },
+    "changed_context": {
+      "detected": true,
+      "expected_error": "Boundary/context changed",
+      "returncode": 1
+    },
+    "verdict_flag": {
+      "detected": true,
+      "expected_error": "Recomputed result differs",
+      "returncode": 1
+    },
+    "altered_operand_with_hash": {
+      "detected": true,
+      "expected_error": "Recomputed result differs",
+      "returncode": 1
+    },
+    "changed_budget": {
+      "detected": true,
+      "expected_error": "Budget/scope changed",
+      "returncode": 1
+    }
+  },
+  "CPU_s": 0.6565099000000001,
+  "wall_s": 3.009251873998437,
+  "optimized": false,
+  "scope": "Extracted endpoint diagnostic, not CNS replay"
+}

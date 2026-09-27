@@ -1,0 +1,23 @@
+{
+  "status": "CONFIRMADO_LOCALMENTE_PENDIENTE_AUDITORIA",
+  "scope": "Direct-row endpoint diagnostic, no causal mechanism or stage admission",
+  "created_unix_s": 1790514280.542719,
+  "plan_sha256": "de05da420dd10d95d353bf2b574e967bb561e42f2a4ecd364ac13c4930ba662d",
+  "measured_extraction_CPU_s": 10.4883822,
+  "measured_extraction_wall_s": 10.643602917029057,
+  "extraction_peak_RSS_bytes": 1233788928,
+  "last_analysis_CPU_s": 0.5142445,
+  "capsule_verification_parent_CPU_s": 0.6565099000000001,
+  "capsule_verification_wall_s": 3.009251873998437,
+  "peer_schema_verifier_CPU_s": 4.527,
+  "resource_note": "Listed measurements are instrumented programs, not total session CPU. Code inspection and utility processes were not all timed; do not present their sum as complete accounting. No new simulation or GPU run. Prior plan cap300CPU_s,3600wall_s,4GiB.",
+  "new_neural_steps": 0,
+  "new_body_steps": 0,
+  "GPU_runs": 0,
+  "codex_subagents": 0,
+  "exact_recorded_DNg_net_matches": 8,
+  "causal_mechanism_identified": false,
+  "stage4_pass": false,
+  "stage5_pass": false,
+  "stop_reason": "Complete bounded attribution and endpoint-range bound; next capture requires a separately frozen total acquisition budget."
+}

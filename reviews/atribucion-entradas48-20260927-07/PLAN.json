@@ -1,0 +1,58 @@
+{
+  "created_unix_s": 1790512884,
+  "scope": "Bounded CPU-only attribution at existing campaign48 final states. No neural/body integration or parameter selection by navigation success.",
+  "wall_s_max": 3600,
+  "CPU_s_aggregate_max": 300,
+  "CPU_s_root_max": 220,
+  "CPU_s_motor_peer_max": 60,
+  "CPU_s_packaging_reserve": 20,
+  "RAM_GiB_max": 4,
+  "new_neural_steps_max": 0,
+  "new_body_steps_max": 0,
+  "GPU_runs_max": 0,
+  "persistent_download_MiB_max": 20,
+  "codex_subagents": 0,
+  "arms": [
+    "sham",
+    "dm1",
+    "profile",
+    "permuted"
+  ],
+  "selected_states": "Existing final_state at3000ms for each arm; common initial observation only if its full operand state is available. Do not invent1000mscheckpoints.",
+  "targets": [
+    {
+      "type": "DNg100",
+      "ids": [
+        10045,
+        10056
+      ]
+    },
+    {
+      "type": "DNb05",
+      "ids": [
+        10118,
+        10065
+      ]
+    },
+    {
+      "type": "DNa02",
+      "ids": [
+        523769,
+        10360
+      ]
+    }
+  ],
+  "selection": "Target types fixed by prior plan; verify exact source IDs before computing. Rank contributions descriptively, not new motor readers.",
+  "questions": [
+    "Can effectiveW, signal actually released, caps, drive and receptor parameters be reconstructed from full savedstate without initializingCNS?",
+    "Which signed direct inputs explain the balance at that savedstate and the differences across four arms?",
+    "Do publications or specialized/filteredports differ; are held input buffers sufficient to reconstruct an actual recordedRHS?"
+  ],
+  "stop_rule": "Deliver either identified local operation with an intervention falsifier, or precise missing operand/state. No invented causal claim or automatic longer run.",
+  "advisor_requests_max": {
+    "ChatGPT_ASTRA_V2": 2,
+    "ChatGPT_Motor_V2": 2,
+    "Motor_CPP_CUDA": 2
+  },
+  "publication": "Small diagnostic capsule toauthorizedOpenMatrix; no complete48pushretry"
+}

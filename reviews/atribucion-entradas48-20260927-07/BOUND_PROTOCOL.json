@@ -1,0 +1,8 @@
+{
+  "purpose": "Bound what any independent recombination of the four observed endpoint transmission ranges can do at each fixed direct input row; never a reachable trajectory or physiological range.",
+  "exposure": "Four endpoint sums and decompositions already examined. Prospective definition of this supplementary bound, not a blind test.",
+  "operands": "For every presynaptic neuron, min/max transmission across sham/dm1/profile/permuted final3000ms; fixed equal W and caps; same target theta; drive=0 conditional for DNg100 with last recorded drive0.",
+  "operation": "Upper sum uses each positive weight times its maximum observed signal and each negative weight times its minimum; lower sum does the reverse. No neuron integration, weight editing or selection of a favourable real arm.",
+  "decision": "If upper+drive-theta remains negative, the entire componentwise box is subthreshold for this fixed readout. Otherwise the bound is inconclusive about a reachable positive target. Neither outcome selects a mechanism.",
+  "budget": "Within original300CPU_s ceiling; additionalCPU <=5s, zero CNS/body/GPU, no advisor requests."
+}
