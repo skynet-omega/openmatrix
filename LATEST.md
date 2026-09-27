@@ -1,5 +1,5 @@
 # Última evidencia
 
-[stage45-dng100-recorded-20260926](reviews/stage45-dng100-recorded-20260926-d084e512cec3/README.md)
+[sensory-transfer-post47-20260927](reviews/sensory-transfer-post47-20260927-757428eb8a22/README.md)
 
-Complete paired47: actual DNg100 coefficient records, corrected classification and analysis. Recompute with analyze.py and diagnosis.py from the extracted root. Not a whole-organism restart package; original45 hidden states were not recorded. Tao receipt describes selected independent source files, which are not redistributed here.
+Offline correspondence after47: source-specific1-hexanol receptor means and recorded45 ORN/PN observations. Reproduce with python compare.py --verify and python verify.py. No new brain simulation, no physiological calibration or stage4/5 admission. Includes selected source CSVs and portable projection, not a restartable organism.

@@ -1,0 +1,33 @@
+{
+  "schema": "jev_choice_panel_v1",
+  "state": {
+    "task": "Select discriminating analysis after failed odor-driven initiation; advice only, not scientific acceptance.",
+    "facts": [
+      "Whole-organism47 complete: two3s arms, DNg100 rectified target exactly zero; odor net input increases15.4/14.3 internal units, negative contributions become less negative.",
+      "ORN peripheral r=9+83.667*u is an engineering interpolation. u=1 anchor comes from deBruyne2001 Or42b1-hexanol1e-2 diluted in paraffin, baseline9Hz and mean increment83.667Hz, solvent not subtracted. u=.5 in45 is not an identified chemical concentration.",
+      "ORN q is effective filtered terminal activity divided by nominal cap, not observed peripheral spikes. PN10208 legacy q is not its local physiological release. General629 and dynamic466 consumers differ.",
+      "Gaudry brief3-4spikes/50ms already tested in a different LIF reference inSeptember and did not restore orientation. Xiao dataset excludesOr42b. Tao derived DataSpike is an encoder prediction, while TrainingData has real sensillum records but individual identity still unresolved.",
+      "No evidence yet that this uniformDM1 virtual stimulus should recruit DNg100 from rest; hunger hypothesis was already considered and remains conditional."
+    ]
+  },
+  "questions": {
+    "first_discriminator": {
+      "instructions": "Choose which action first reduces uncertainty without repeating failed trials or fitting desired motion. The choices are proposals, not instructions to execute.",
+      "criteria": {
+        "sensory_observation_mapping": "Recover the stimulus and measured observable correspondence, reconstruct current input and terminal/PN outputs, then contrast with an identified primary sensory trace.",
+        "intrinsic_transfer_candidate": "Immediately replace rectified rate transfer with a different intrinsic law, using the negative DNg100 result as the main selection evidence.",
+        "implementation_targeted": "First investigate a concrete discrepancy in the code or consumed interface, if one is found; avoid repeating global parity audits.",
+        "insufficient_information": "The supplied evidence does not permit ranking these actions."
+      }
+    },
+    "validation_hazard": {
+      "instructions": "Select the most direct risk of falsely claiming physiological validation in the proposed comparison.",
+      "criteria": {
+        "observation_mismatch": "Equating peripheral spikes, terminal q, fitted DataSpike, calcium and PN local release without an identified observation model.",
+        "runtime_roundoff": "Floating point roundoff is the principal unresolved risk suggested by the facts.",
+        "too_few_legs": "Lack of full muscle gait by itself invalidates all sensory-response comparisons.",
+        "unknown": "No risk can be identified from supplied facts."
+      }
+    }
+  }
+}

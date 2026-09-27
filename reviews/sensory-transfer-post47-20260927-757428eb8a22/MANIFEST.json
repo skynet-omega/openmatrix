@@ -1,0 +1,217 @@
+{
+  "format_version": 2,
+  "label": "sensory-transfer-post47-20260927",
+  "description": "Offline correspondence after47: source-specific1-hexanol receptor means and recorded45 ORN/PN observations. Reproduce with python compare.py --verify and python verify.py. No new brain simulation, no physiological calibration or stage4/5 admission. Includes selected source CSVs and portable projection, not a restartable organism.",
+  "files": [
+    {
+      "path": "RESULTADOS.md",
+      "bytes": 9763,
+      "sha256": "337b03ae38d5d876932be780252be35ea82f17f172d2fcc33294d2e6739dec1d"
+    },
+    {
+      "path": "RESULTADOS.json",
+      "bytes": 6196,
+      "sha256": "365c13c3d3cd51401220ed80d128c18c11d4c752cd689c910d4e1e33c86a17ce"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 2169,
+      "sha256": "916fecbee2d056c98d24defd0e616f63daf478ee6377fe139ef241d80cd45277"
+    },
+    {
+      "path": "EXECUTION.json",
+      "bytes": 122,
+      "sha256": "fbf3cc46e728180659936502df915c4409658f835019311330096c2af7dffac7"
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 18619,
+      "sha256": "69fcfba1a6a5ae8f952e8cf50621c6d4be07807bc6f0293f6add13f2874acb2b"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 19507,
+      "sha256": "3ad2b047848cbc884718d3945f26218dd261731d0fa32cd0edb0aa8e77c58c84"
+    },
+    {
+      "path": "OBSERVATIONS.npz",
+      "bytes": 47071308,
+      "sha256": "956c32b7857d36adfd06469de07ccdfadc24d3d730cd3077caf676f9bc84bc97"
+    },
+    {
+      "path": "COMPARACION.png",
+      "bytes": 474459,
+      "sha256": "6895c79c04f82c0bbfed39d12b5dd7f16efb45f14820f9006e21704d53a60e62"
+    },
+    {
+      "path": "PERFIL_1_HEXANOL.csv",
+      "bytes": 648,
+      "sha256": "3891d396eabefd2eb16d2019b996c041cd68694879b524c9f4832e52e6d5d428"
+    },
+    {
+      "path": "DOOR_EXTRACTION.json",
+      "bytes": 23970,
+      "sha256": "4a5cd64319d2b07d3ef7dc4dd85144cd95f71b07e5c4fb0804eaa760dce55c61"
+    },
+    {
+      "path": "door_tree.json",
+      "bytes": 43304,
+      "sha256": "b61b3da41053ea93a245f23b356bc7400e81dfc816acfc1f055e775b29aa0729"
+    },
+    {
+      "path": "compare.py",
+      "bytes": 15323,
+      "sha256": "39d980fcf84b8fbb4fb08f2f13686dc93d89f87c4ec1f4d96bb24495b182c1e5"
+    },
+    {
+      "path": "acquire_door.py",
+      "bytes": 3881,
+      "sha256": "e8da0c786133cab5382e19d6c44be5bae9b82b8e9ffcff92333909e7e12480d0"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2054,
+      "sha256": "60184479e47825862d709f646253df34e0e4d7dd9c5a7d7029dbb9b3e87a3bc7"
+    },
+    {
+      "path": "deliver.py",
+      "bytes": 6227,
+      "sha256": "32ff06b58e27eab385420946c306cced85b51717c82134a630aa3bee1d255e85"
+    },
+    {
+      "path": "SOURCE_EXCERPTS.json",
+      "bytes": 1237,
+      "sha256": "c312c52fbfb6f08676c515c9c478012f960f1281eff434469c1064ce247a08f5"
+    },
+    {
+      "path": "jev_spec.json",
+      "bytes": 2879,
+      "sha256": "5c8ca8d304568a19797a4f9edc898c69413ed3ff4b2c661ac69b88eb498318db"
+    },
+    {
+      "path": "jev_review/response.json",
+      "bytes": 558,
+      "sha256": "d30e5921cdf36bd64df08f26121c92a20b0ee191136d9bdd9e81332750ab4b54"
+    },
+    {
+      "path": "jev_review/receipt.json",
+      "bytes": 401,
+      "sha256": "225eefc65ba7cdc62301f0c0943dd3e3a33b7db4f3cdf8d7b3ec13fe9feaf03d"
+    },
+    {
+      "path": "primary_door/door_mappings.csv",
+      "bytes": 12824,
+      "sha256": "1197c492e769b1b587c907c5b750ffa2507d7e6c9fe9dfcb2ee8603871e00912"
+    },
+    {
+      "path": "primary_door/door_dataset_info.csv",
+      "bytes": 11105,
+      "sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269"
+    },
+    {
+      "path": "sources/orn_peripheral_terminal.py",
+      "bytes": 2066,
+      "sha256": "7c65535a50193acc249b173d29d80934563d47a80cd493423afd94c2a0399043"
+    },
+    {
+      "path": "sources/orn_peripheral_terminal_brain.py",
+      "bytes": 6147,
+      "sha256": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35"
+    },
+    {
+      "path": "sources/orn_pn_synaptic_brain.py",
+      "bytes": 23426,
+      "sha256": "ae815272c65a474ccc66f246b1d3eb486d1881917139d706592cce7a0c34feef"
+    },
+    {
+      "path": "sources/olfactory_synapse_candidate.py",
+      "bytes": 5975,
+      "sha256": "1f98240943ab05c78fedc51b12d5d354654f596934b6b52864b42c7845b11b3d"
+    },
+    {
+      "path": "sources/pn_cns_orn_stages.py",
+      "bytes": 1740,
+      "sha256": "bb8bad26c5073a6122c3d10277b3078e2090970914460e2dfe64b227bda5ff85"
+    },
+    {
+      "path": "sources/protocol45.py",
+      "bytes": 5170,
+      "sha256": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2"
+    },
+    {
+      "path": "primary_door/Or10a.csv",
+      "bytes": 76462,
+      "sha256": "ea82be1795979987c849579082c378fbdbb5b7de0b566e0f16a8c84f558f7fc6"
+    },
+    {
+      "path": "primary_door/Or13a.csv",
+      "bytes": 70461,
+      "sha256": "39baa6cd991918099b8ba08a82d8d2d4b812572d2f252a76ec555bda1b023885"
+    },
+    {
+      "path": "primary_door/Or22a.csv",
+      "bytes": 85291,
+      "sha256": "837aca094909c40fccd9b762931f8842a67566ca1c7d092c9ec19a183d089d78"
+    },
+    {
+      "path": "primary_door/Or42b.csv",
+      "bytes": 74497,
+      "sha256": "8fc9b063b58ad2a01451e02d9c5e8415f7492929b4c95c8ff09dd2816f3cda94"
+    },
+    {
+      "path": "primary_door/Or49b.csv",
+      "bytes": 67770,
+      "sha256": "8a9a247672a4670a295a2f85e8725bdda2be1488fc42d74e113dd282990f7690"
+    },
+    {
+      "path": "primary_door/Or59b.csv",
+      "bytes": 76321,
+      "sha256": "e163252bdbbcc0255eac940ce25464cb79c73e9da6372c3155c5748e1db77a58"
+    },
+    {
+      "path": "primary_door/Or67c.csv",
+      "bytes": 65654,
+      "sha256": "73f8c6f9f944e6c24ecb7dda2cd2c2d06a9280f358d328efaebf934020581cdb"
+    },
+    {
+      "path": "primary_door/Or7a.csv",
+      "bytes": 78519,
+      "sha256": "0ea6a3ea2a836d15c26c11b869da3638ba1cf4ed6741813f9fb01a3f14aeb793"
+    },
+    {
+      "path": "primary_door/Or82a.csv",
+      "bytes": 74131,
+      "sha256": "8554a22aa8cc1f64f3a2383d6d17af120c4994d5811a7940fc0d333c95d4ad88"
+    },
+    {
+      "path": "primary_door/Or85b.csv",
+      "bytes": 72086,
+      "sha256": "8775afa8dd85892ff306c4897278fe698de3ec7034c8a0422f6c6f25e4f39644"
+    },
+    {
+      "path": "primary_door/Or92a.csv",
+      "bytes": 69443,
+      "sha256": "3a88d122ae193160afbc2c3ce31a00a6c33e24230ab4a779cf0fa917d24179c4"
+    },
+    {
+      "path": "primary_door/Or98a.csv",
+      "bytes": 67864,
+      "sha256": "013a79957bbb5b0862333ab12cde833544bc56e7d6a23cd0e92f1206a905fd37"
+    },
+    {
+      "path": "primary_door/ab2B.csv",
+      "bytes": 69873,
+      "sha256": "38572cce5f62c83bb33e0f88a3f429ed7184f4ac4f31c28ecc25ad511857c97b"
+    },
+    {
+      "path": "primary_door/ab4B.csv",
+      "bytes": 66098,
+      "sha256": "142dd8017ab56161496bbd7f88df690e33617a2d2b238534389376c912f555a7"
+    },
+    {
+      "path": "primary_door/ab5B.csv",
+      "bytes": 63598,
+      "sha256": "ef4f071f9a7dd3a6514efbf5f5bddf24463685bae905623bf4cb86a1bee906bb"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "sensory_transfer_comparison_v1",
+  "status": "PROSPECTIVE_OFFLINE_ANALYSIS",
+  "objective": "Identify an experimentally interpretable sensory input and compare recorded ORN/PN responses without tuning for locomotion.",
+  "scope": "Existing records45, source code, historical constraints, and a small selected primary dataset. No whole-brain or body integration in this analysis.",
+  "exposure": "47 results and September historical summaries already inspected. Any reuse is retrospective. No claim of blind confirmation.",
+  "alternatives": {
+    "A": "Sensory stimulus or context is not represented by the engineering input. Discriminate using identified receptor, stimulus units, timing and measured sensory response.",
+    "B": "Neural or synaptic transfer law is incompatible with independently recorded dynamics under comparable input. Discriminate with measured input/output and a separate evaluation condition.",
+    "C": "Implementation or observation interface contradicts the declared operation. Discriminate using consumed input, output semantics and source lineage; do not treat PN legacy q as local PN release."
+  },
+  "budget": {
+    "analysis_process_wall_seconds_max": 1800,
+    "analysis_process_CPU_seconds_max": 600,
+    "RAM_GiB_max": 4,
+    "GPU_seconds_max": 0,
+    "whole_brain_runs_max": 0,
+    "new_network_data_MiB_max": 64,
+    "external_advice": "One new Jev panel; ChatGPT request already retried once after application error.",
+    "complete_candidates_max": 2
+  },
+  "observables": ["peripheral stimulus", "peripheral firing rate if identified", "ORN terminal q and filtered emission separately", "PN legacy state and actual destination-specific output separately"],
+  "decision": "Report a quantitative identifiable comparison, or the exact missing correspondence; select a modification only if the observations distinguish it. No threshold, gain, hunger or plasticity selection from successful walking.",
+  "deliverables": ["reproducible extraction and analysis", "figure and numerical results", "source and observation correspondence", "advisor responses or actual access errors", "decision and current-state update"]
+}

@@ -1,0 +1,210 @@
+{
+  "status": "REPRESENTATION_GAP_IDENTIFIED_TRANSFER_NOT_CALIBRATED",
+  "simulated_neural_ms": 0,
+  "fitted_parameters": 0,
+  "biological_independent_replicates": 0,
+  "source": {
+    "study": "de Bruyne et.al. 2001",
+    "doi": "10.1016/S0896-6273(01)00289-6",
+    "concentration_preparation": "10^-2",
+    "solvent": "paraffin oil",
+    "solvent_subtracted": false,
+    "scope": "Published curated means; no trial-level uncertainty."
+  },
+  "receptor_channels": 15,
+  "mapped_neurons": 772,
+  "current_direct_odor_population": "ORN_DM1",
+  "current_direct_odor_cells": 74,
+  "other_channels_with_measured_increment": [
+    "Or10a",
+    "Or13a",
+    "Or22a",
+    "Or49b",
+    "Or59b",
+    "Or67c",
+    "Or7a",
+    "Or82a",
+    "Or85b",
+    "Or92a",
+    "Or98a",
+    "ab2B",
+    "ab4B",
+    "ab5B"
+  ],
+  "current_input_nominal_ON_Hz": 50.8335,
+  "empirical_anchor_total_Hz": 92.667,
+  "nominal_ON_equals_empirical_concentration": false,
+  "PN_legacy_is_firing_measurement": false,
+  "PN_general_available_is_consumed": false,
+  "statistics": {
+    "rest_501_1000ms": {
+      "terminal_L": {
+        "sham": 6.834962157108316,
+        "odor": 6.834962157108316,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "terminal_R": {
+        "sham": 6.896805984684994,
+        "odor": 6.896805984684994,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "bridge_L": {
+        "sham": 1.966616801557787,
+        "odor": 1.966616801557787,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "bridge_R": {
+        "sham": 1.9759023482358522,
+        "odor": 1.9759023482358522,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "gamma_mean": {
+        "sham": 0.003644164945854935,
+        "odor": 0.003644164945854935,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "additional_mean": {
+        "sham": 0.0021090564784403943,
+        "odor": 0.0021090564784403943,
+        "difference": 0.0,
+        "odor_to_sham": 1.0
+      },
+      "legacy_PN_difference_10208_10176": [
+        0.0,
+        0.0
+      ]
+    },
+    "ON_1001_3000ms": {
+      "terminal_L": {
+        "sham": 6.83508590005346,
+        "odor": 49.722518551805145,
+        "difference": 42.88743265175169,
+        "odor_to_sham": 7.2746003896478095
+      },
+      "terminal_R": {
+        "sham": 6.897074465306888,
+        "odor": 50.72758496351154,
+        "difference": 43.83051049820465,
+        "odor_to_sham": 7.35494233369197
+      },
+      "bridge_L": {
+        "sham": 2.1791899647018074,
+        "odor": 6.34379771183043,
+        "difference": 4.164607747128622,
+        "odor_to_sham": 2.911080637570067
+      },
+      "bridge_R": {
+        "sham": 2.1883842540388967,
+        "odor": 6.394516472890713,
+        "difference": 4.206132218851816,
+        "odor_to_sham": 2.9220263585286497
+      },
+      "gamma_mean": {
+        "sham": 0.003651473932242843,
+        "odor": 0.0037610540234726385,
+        "difference": 0.0001095800912297956,
+        "odor_to_sham": 1.0300098243238691
+      },
+      "additional_mean": {
+        "sham": 0.0021131468102000488,
+        "odor": 0.002174478686790686,
+        "difference": 6.133187659063729e-05,
+        "odor_to_sham": 1.0290239543672932
+      },
+      "legacy_PN_difference_10208_10176": [
+        0.0552484369092833,
+        0.06547641946623946
+      ]
+    },
+    "late_ON_2501_3000ms": {
+      "terminal_L": {
+        "sham": 6.835106390874831,
+        "odor": 50.34814751329172,
+        "difference": 43.513041122416894,
+        "odor_to_sham": 7.366110289154932
+      },
+      "terminal_R": {
+        "sham": 6.897126113698236,
+        "odor": 51.377451458222275,
+        "difference": 44.48032534452404,
+        "odor_to_sham": 7.449110051240416
+      },
+      "bridge_L": {
+        "sham": 2.2206207023396694,
+        "odor": 5.614081926196604,
+        "difference": 3.393461223856935,
+        "odor_to_sham": 2.5281588703021405
+      },
+      "bridge_R": {
+        "sham": 2.2297766088791287,
+        "odor": 5.64677254649263,
+        "difference": 3.4169959376135015,
+        "odor_to_sham": 2.532438686461586
+      },
+      "gamma_mean": {
+        "sham": 0.003653029015419796,
+        "odor": 0.003747586376383199,
+        "difference": 9.455736096340315e-05,
+        "odor_to_sham": 1.0258846454720911
+      },
+      "additional_mean": {
+        "sham": 0.0021140118172769374,
+        "odor": 0.0021669306905832126,
+        "difference": 5.2918873306275274e-05,
+        "odor_to_sham": 1.0250324396835397
+      },
+      "legacy_PN_difference_10208_10176": [
+        0.045427572719830604,
+        0.055145266532289565
+      ]
+    },
+    "OFF_3001_4000ms": {
+      "terminal_L": {
+        "sham": 6.835123453330627,
+        "odor": 7.665354623042896,
+        "difference": 0.8302311697122695,
+        "odor_to_sham": 1.1214654241991362
+      },
+      "terminal_R": {
+        "sham": 6.89715067944993,
+        "odor": 7.7685530309142745,
+        "difference": 0.8714023514643445,
+        "odor_to_sham": 1.1263423683145983
+      },
+      "bridge_L": {
+        "sham": 2.2441070649441928,
+        "odor": 1.817565183052603,
+        "difference": -0.4265418818915898,
+        "odor_to_sham": 0.8099280161117459
+      },
+      "bridge_R": {
+        "sham": 2.2533851281646875,
+        "odor": 1.8229853459155092,
+        "difference": -0.4303997822491783,
+        "odor_to_sham": 0.8089985698096244
+      },
+      "gamma_mean": {
+        "sham": 0.0036535695649772544,
+        "odor": 0.0036442157705651947,
+        "difference": -9.353794412059711e-06,
+        "odor_to_sham": 0.9974398203604157
+      },
+      "additional_mean": {
+        "sham": 0.002114321936102593,
+        "odor": 0.002109058117165888,
+        "difference": -5.26381893670505e-06,
+        "odor_to_sham": 0.9975103985600187
+      },
+      "legacy_PN_difference_10208_10176": [
+        -0.005643658319383066,
+        -0.005528947237268651
+      ]
+    }
+  },
+  "decision": "Keep45 as a selective virtualDM1 experiment. A chemical ensemble is a distinct testable input hypothesis, not a repair proven to activateDNg100. No intrinsic law or gain selected. ORN→PN biological calibration remains open."
+}
