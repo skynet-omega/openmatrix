@@ -1,0 +1,77 @@
+# Tres alternativas propias del chat Motor C++/CUDA
+
+27-09-2026. Revisión iniciada 17:05:28 UTC, límite 15 minutos, 30 s CPU, cero CNS/GPU. Exposición declarada: conozco y revisé negativos 40/46/48/49/50 y antecedentes P9/AOTU, preparación, referencia LIF y FIR DNa02. No he leído las propuestas nuevas de Matrix ni las respuestas nuevas de ChatGPT para esta ronda. Las fuentes históricas son antecedentes, no confirmación ciega.
+
+**Propongo tres cambios separables: proporcionar aferencia mecanosensorial del aire; ensayar una integración por conductancias en células genéricas; y contrastar un lector motor de dos canales con respaldo causal específico. No los fusionaría.** Prioridad experimental M3 → M1 → M2, con los discriminadores baratos de las tres antes de seleccionar, como máximo, dos prototipos completos.
+
+## Hechos que acotan las propuestas
+
+- El motor ejecuta una ley; concordancia numérica no acredita que esa ley produzca el comportamiento buscado. En 49 se reconstruyeron las operaciones consumidas; en 50 no hubo interacción temporal material.
+- La normalización morfométrica **sí está aplicada** al preparado. La frase del constructor antiguo sobre su ausencia no describe este estado: `src/anatomical_morphometry.py:96` conserva la operación gain/scale y theta×scale. No propongo «añadir la normalización faltante».
+- Con los balances DNg congelados negativos, variar sólo una ganancia positiva, tau positiva o un umbral no negativo no activa esas filas. Los cambios de dinámica recurrente siguientes tendrían que cambiar los insumos futuros, no sólo renombrar su escala.
+- `protocol.py:11–15` reduce avance a dos DNg100 y giro a dos DNb05. `protocol.py:57` pone giro aplicado en cero en 48/50. No atribuir navegación a esos ensayos.
+- Un controlador bilateral separable puede orientar aunque J=0. El negativo 50 conserva su criterio, pero no establece una imposibilidad de toda señal direccional. El negativo lateral 46 también debe conservarse; no basta con volver a medirlo con otro nombre.
+
+## M1. Conductancias recurrentes en lugar de resta de tasas para la población genérica
+
+**Supuesto que se pone a prueba.** Que la abstracción genérica «suma excitatoria menos inhibitoria → tanh rectificada», con una relajación fija, conserva la transferencia necesaria en este preparado. No se afirma que un saldo grande en unidades internas sea un voltaje patológico.
+
+**Operación exacta.** Para las células genéricas, separar las sumas excitatoria e inhibitoria que realmente consumen la transmisión filtrada, y representar un estado de membrana con:
+
+`C·dv/dt = gL(EL−v) + gE(t)(EE−v) + gI(t)(EI−v)`.
+
+Las conductancias provienen de las mismas aristas anatómicas y transmisiones; la salida neuronal usa una conversión fija de v a q. El punto de equilibrio depende de `(gL·EL+gE·EE+gI·EI)/(gL+gE+gI)` y su velocidad de relajación de `(gL+gE+gI)/C`. Así se cuestiona el efecto de la inhibición sobre potencial y constante temporal, no se elimina una población por ser un gran inhibidor. Conservar modelos especializados y sus propietarios; sustituir una sola vez la ecuación de las filas genéricas elegibles. No trasladar el parámetro visual de conductancia a todo el cerebro como si estuviera calibrado.
+
+**Fundamento y recursos accesibles.** La distinción existe ya en el código: [visual_sparse_kernel.py](/home/daroch/AXIOMA_FLYWIRE/matrix/src/visual_sparse_kernel.py:19) usa suma de conductancias y tasa dependiente de esa suma para visión; líneas 30–37 usan resta firmada y tasa fija para otras filas. Es un antecedente de implementación, no una ley global validada. [Wilson–Laurent 2005](https://pubmed.ncbi.nlm.nih.gov/16207866/) demuestra dos mecanismos inhibidores GABA en PN; el [PDF/texto local y sus límites](/home/daroch/AXIOMA_FLYWIRE/matrix/data/pn_inhibition_primary_pdfs_20260913/README.md) están disponibles. No mide conductancias DNg100 ni permite convertir directamente amplitud de hiperpolarización en nS. Las capturas 49 y la selección de 7.227 aristas de 07 contienen insumos reales reutilizables.
+
+**Instancia de ingeniería.** Antes de mirar conducta nueva, fijar una sola conversión cuentas/tasa→conductancia y una sola plantilla de potenciales/capacitancia, identificando los valores tomados de una familia medida y los transferidos como hipótesis. Igualar respuesta incremental excitatoria en un punto de referencia fuera de la tarea; no ajustar el punto para conseguir activación DNg. No falta exigir calibración perfecta de 166.700 células para programar esta instancia, pero tampoco cabe llamarla fisiología validada de DN. La elección concreta debe quedar escrita antes del prototipo, no resolverse mediante un barrido de navegación.
+
+**Discriminador más barato y control.** Primero calcular equilibrios y constantes de tiempo con E/I guardados, frente a la ecuación original; cero pasos CNS. Si en todo el rango registrado la candidata sólo equivale a multiplicar la salida por una constante, no merece integrarse. Después un único modelo candidato y el padre, cada uno con estímulo y sham, mismo estado externo y sin modificación del lector. La adopción de un estado v es un cambio de modelo e historia latente: inicialización común explícita y control de deriva, sin declarar paridad histórica inexistente.
+
+**Falsador.** Rechazar como solución si sólo cambia el basal, provoca actividad global saturada o no mejora una diferencia sensorial descendente previamente fijada frente a su sham. Activar DNg por sí solo no aprueba el experimento. No rescatar mediante otro potencial de reversión, menor umbral o una segunda selección de filas. El positivo sólo permitiría conservar una abstracción funcional rival y pasar al contraste corporal; no probar equivalencia biológica.
+
+**Coste propuesto.** Criba algebraica ≤10 s CPU; luego hasta cuatro brazos de 100 ms, 400 ms CNS totales. La arquitectura puede reutilizar el núcleo y sus bloques; rendimiento de la ecuación nueva no medido. Reserva máxima 3.000 s CPU y 2.400 s de pared para este piloto, sin reintentos. Es una modificación sustancial pero acotada del modelo, no otro motor numérico.
+
+## M2. Lector de acciones de DNa02/DNg13, rival del único canal DNb05
+
+**Supuesto que se pone a prueba.** Que una diferencia escalar DNb05 basta para representar todas las acciones neurales que producen un giro. DNb05 tiene evidencia funcional y sigue siendo control; no se declara una neurona equivocada sólo porque falló.
+
+**Operación exacta.** Preseleccionar por evidencia causal, antes de examinar su actividad, dos pares: DNa02 y DNg13. Convertir sus cambios de actividad en dos acciones distintas: acortamiento ipsilateral de zancada y alargamiento contralateral. Sumar esas acciones en un puerto de giro con signo fijado por geometría corporal. Una única conversión de unidades y el límite mecánico se fijan fuera de la tarea; no entrenar un FIR ni seleccionar otro signo, célula o filtro según el éxito. Mantener sin cambios la salida de avance: este ensayo primero pregunta por orientación, no afirma iniciar marcha autónoma.
+
+**Fundamento y datos accesibles.** [Yang et al., Cell 2024](https://pubmed.ncbi.nlm.nih.gov/39293446/) contiene perturbaciones de DNa02/DNg13 y efectos diferentes sobre patas; [pasajes primarios accesibles](https://pmc.ncbi.nlm.nih.gov/articles/PMC12778575/) distinguen acortamiento ipsilateral y cambios contralaterales. No transferir a DNb05 esa causalidad. Los datos crudos del artículo están por solicitud, no disponibles aquí; sus figuras y código sí permiten fijar hipótesis de signo y alcance, no ajustar una curva exacta. El [MAT DNa02 local](/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage36_dna02_observation_20260915/source/180501_gfp_3G_ss730_dual_13_data_for_SH_with_lat_vel.mat) existe, pero su FIR ya falló: no se reutiliza como nueva reserva.
+
+La consulta anatómica de esta revisión confirma DNa02 L/R=523769/10360 y DNg13 L/R=11074/512006. No se seleccionaron por actividad. El código del lector existente está en [protocol.py](/home/daroch/AXIOMA_ASTRA/campanas/etapa45_composicion_20260927_48/protocol.py:11). La información legal es sólo actividad comprometida de esas células y estado mecánico; ni coordenadas de la fuente ni rumbo correcto llegan al lector.
+
+**Diferencia con antecedentes.** No es el FIR predictivo DNa02, no estimula P9/DNg100, no retira AOTU ni inventa una marcha. Cambia la correspondencia entre canales neurales con función motora y acciones del cuerpo. Es una prótesis de ingeniería basada en hipótesis de función, no una sustitución de toda la cadena VNC→músculo.
+
+**Discriminador y control.** Lectura en sombra de las células prefijadas desde los estados ya guardados, con cotas mecánicas fijadas. Los endpoints de 50 no sustituyen una traza temporal DNg13 completa; usar también las capturas disponibles de 48, declarando su muestreo. Si no ofrecen separación material, no lanzar otra vida sólo para buscarla. Si la hay, un replay físico corto de los dos lectores con el mismo estado, retirada del canal y fuente reflejada puede descartar signos y efectos mecánicos erróneos; un positivo en replay aún exige interacción neural online frente a replay sensorial en otro ensayo.
+
+**Falsador y advertencia práctica.** Descartar si el cambio sólo produce un giro común, si el control replay explica el beneficio o si el canal no transmite diferencia sensorial suficiente. Además, `generalized_force_native` fue idéntica entre los ocho brazos de 50. Corrección de una interpretación preliminar: captura `objeto.last_force`, y el propietario de contacto describe fuerzas generalizadas y reacciones del suelo en unidades nativas. No es una medición identificada de toda la salida muscular neural. Su igualdad no descarta información en otras DN ni autoriza a afirmar que las fuerzas musculares nativas son idénticas. Conservar esta distinción al evaluar M2.
+
+**Coste y alcance.** ≤10 s CPU de lectura inicial; como máximo cuatro replays corporales de 150 ms, sin CNS, si existe señal. No propongo una tercera integración en esta ronda. Está tercera en prioridad, porque DNa02 ya es casi silenciosa y falta una medición temporal DNg13 equivalente. Lo que podría permitir es orientación funcional con otra prótesis; DNg100/iniciación permanecería una pregunta distinta.
+
+## M3. Entrada de dirección del aire por mecanorreceptores antenales
+
+**Supuesto que se pone a prueba.** Que el olor bilateral por sí solo contiene los indicios relevantes para el comportamiento que pretendemos observar. El torque de la campaña 40 perturbó el cuerpo; no equivale a estimular los mecanorreceptores de las antenas con viento.
+
+**Operación exacta.** Añadir un propietario sensorial de aire relativo: `u_antena = R_cuerpo^T·(u_mundo−velocidad_cuerpo)`. Su proyección sobre cada antena produce una señal de deflexión y un objetivo receptor; entra por JO-C/E anatómicamente identificadas y conserva su dinámica y conexiones de salida. No enviar ángulo de la fuente, error de rumbo, «gira a la izquierda» ni un producto olor×viento directo al mando. El propio circuito debe combinar olor y mecanosensación. Los campos de aire y olor pertenecen al entorno, no son una política suministrada al cerebro.
+
+**Evidencia primaria y disponibilidad.** [Álvarez-Salvado et al.](https://datadryad.org/dataset/doi:10.5061/dryad.g27mq71) separa orientación contra el viento durante olor de búsqueda tras retirarlo; requiere mecanorreceptores antenales para orientación al aire. [Suver et al. 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6533146/) estudia comparación entre antenas y neuronas APN2/APN3. [Código de autores](https://github.com/nagellab/Suveretal2019) y [datos Dryad](https://datadryad.org/dataset/doi:10.5061/dryad.k06kh8f) son accesibles; el archivo crudo de Suver pesa 9,48 GB y no fue descargado ni se considera disponible localmente.
+
+**Dato local concreto:** hay 335 células de tipos JO-C/E, todas con `entryNerve=AN`; `rootSide` identifica 203 izquierdas y 132 derechas. Sus somas no tienen lado anotado: usar somaSide para el puerto las perdería. Se verificó en `data/male_v10/nodes.parquet`; no se infiere lado por orden de ID. La correspondencia entre esos subtipos y las células registradas por Suver aún debe verificarse: no activar todas como si fueran funcionalmente idénticas. El gradiente de entrada podría implementarse inicialmente como hipótesis geométrica de ingeniería, con escala fija declarada; no exige descargar 9 GB ni declarar calibración empírica inexistente.
+
+**Diferencia con 40/46/48/50.** Incorpora una modalidad aferente y un cómputo de dirección del aire. No cambia dosis olfativa, retardo del patrón 50, hambre o plasticidad; tampoco repite el predictor ORN periférico rechazado.
+
+**Discriminador barato/control.** Confirmar la selección anatómica por rootSide y sus rutas hacia relés mecanosensoriales antes de integrar; receptor inactivo cuando u=0 y lateralidad invertida al reflejar viento como pruebas del propietario. Un solo piloto con olor/viento, sólo olor, sólo viento y su equivalente con canales mecanosensoriales reflejados o replay. Misma ley y lector actuales. No implantar una compuerta externa que habilite giro cuando hay olor. Un comportamiento explicado igual por viento solo acredita anemotaxis, no seguimiento olfativo.
+
+**Falsador.** Puerto consumido y relés activados sin respuesta descendente direccional material, o mismo efecto en el control de viento sin olor. Si ocurre, no aumentar amplitud o inventar otra ruta a la DN. Un positivo permite un ensayo corporal causal, con otra geometría de fuente/aire reservada; no cierra todavía 4/5. La perturbación mecánica de etapa 5 sólo viene después.
+
+**Coste propuesto.** ≤10 s CPU para la selección y el control geométrico; máximo cuatro brazos de 100 ms, 400 ms CNS. Referencia empírica 50: 2.375 s de pared por 1.120 ms agregados, con cargas/guardado incluidos; no es una garantía para esta nueva entrada. Reserva 2.000 s CPU y 1.800 s de pared, sin barridos ni reintentos. Corresponde a un segundo prototipo de interfaz, no a otro cerebro.
+
+## Selección y regla de avance
+
+1. Hacer las tres cribas de datos/operaciones anteriores; no otro inventario general. La consulta anatómica ya terminó y M2 tiene una limitación empírica explícita.
+2. Priorizar M3 si la correspondencia anatómica mínima se sostiene. Es la novedad más directamente ligada a la tarea biológica. Conservar M1 como rival que cuestiona la ley, con una instancia de ingeniería preespecificada; no mezclarla con M3 en su primer contraste. **Máximo dos prototipos completos**, 800 ms CNS agregados, 5.000 s CPU y 4.200 s de pared como topes propuestos de la ronda. No son corridas autorizadas ni iniciadas por este documento.
+3. El positivo de una criba sólo habilita una prueba nueva de orientación online frente a replay, con efectos firmados y magnitud prefijados; después recuperación ante viento. Si ninguna supera su criba, cerrar ambas y revisar el supuesto refutado, sin ampliar el presupuesto para obtener PASS.
+
+Esta terna no promete superar las etapas. Sí cambia operaciones específicas, distingue la evidencia disponible de su extrapolación y permite descartar rápido. La contribución sólo añadió este documento y `DISCRIMINANTES_CPU.json`; las dos consultas numéricas registraron 0,334684 s CPU, sin contar de forma exacta todos los procesos de lectura. Cero pasos CNS/cuerpo/GPU, descargas masivas, entrenamiento, modificaciones del núcleo o consultas a otros asesores.

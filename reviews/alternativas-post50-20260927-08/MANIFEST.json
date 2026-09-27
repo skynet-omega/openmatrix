@@ -1,0 +1,105 @@
+{
+  "scope": "Plan and recorded endpoint projection; no whole CNS reproduction",
+  "files": {
+    "CHATGPT_ASTRA_CONTRASTE.json": {
+      "bytes": 2890,
+      "sha256": "6debfc359a9f36ffebc7afc3235d75c3f503cef10ea876ca82a1e35342990344"
+    },
+    "CHATGPT_ASTRA_TERNA.json": {
+      "bytes": 16604,
+      "sha256": "2fbfb3874b6b8d712106ea9915fb4cec1f319a39f67a69d535aa88cbf1eeebdf"
+    },
+    "CHATGPT_MOTOR_CONTRASTE.json": {
+      "bytes": 2199,
+      "sha256": "578ab44e0302b6288a7dd8132e4c183c4f2e64f150946cd2a9457f625e3b93f3"
+    },
+    "CHATGPT_MOTOR_TERNA.json": {
+      "bytes": 15957,
+      "sha256": "2f3eb7413d6b41fd67e194fadd9b04695401b2582db257b81da4059ea1cf4f58"
+    },
+    "CODEX_TERNA_INICIAL.md": {
+      "bytes": 5089,
+      "sha256": "ad359994679e8f52ec0f06cb89cfa1086c56e89428a03c9c49b3f0b444e4c89c"
+    },
+    "ENVIRONMENT.json": {
+      "bytes": 292,
+      "sha256": "d0d76bdcbf1caa7c25bdd1a83add86832af80176f4c8dc27d76e8be3139b0771"
+    },
+    "FUENTES_CONTRASTADAS.md": {
+      "bytes": 4098,
+      "sha256": "6282a46ac809543408742a2dca18403d9fc22cec9c80f6a8149fe13f915ab363"
+    },
+    "INSPECTION_OBSERVABLE_CORRECTION.json": {
+      "bytes": 599,
+      "sha256": "fa23feb12ef667e727dfd8f4cd233613597cd718126c8e339bf56b36adeb7eea"
+    },
+    "INSPECTION_REPAIR.json": {
+      "bytes": 476,
+      "sha256": "ffd020c5f9f55e83385b0b65ca5c05611e4b0af14908ba9ebd55a54fd809643c"
+    },
+    "JO_METADATA_CROSSCHECK.json": {
+      "bytes": 679,
+      "sha256": "b1682c6c88ee89580fa37edd8213e422928cf30361a42aeb97605c052b39144b"
+    },
+    "MEDIAN_READER_ENDPOINT_CHECK.json": {
+      "bytes": 1059,
+      "sha256": "683747a60d93c0b43b79bf82051ac4fcc22e172d347a9a9f92799d7d20ceaa05"
+    },
+    "PLAN.json": {
+      "bytes": 985,
+      "sha256": "a4ffbb2ec9b9812af81e28b421f136c65746a3ce6d2668c4d0ff7e180ba8638b"
+    },
+    "PLAN_CONTRASTADO.md": {
+      "bytes": 12949,
+      "sha256": "7c5186cd3c6dc376d5ef033fa51e52714df3b4176f58222b8f9154b4833c3ecc"
+    },
+    "REPRODUCIR.md": {
+      "bytes": 1249,
+      "sha256": "128bee75296e99c15ff4f936a4e154e9f60faaaeed19125bb410c6dbe12c8102"
+    },
+    "STEERING_ENDPOINTS.json": {
+      "bytes": 5769,
+      "sha256": "a7a7a68d457475b2057004d4416aa9503ff8cc94769918c8940534e510fc117e"
+    },
+    "STEERING_INSPECTION_PLAN.json": {
+      "bytes": 503,
+      "sha256": "4a9c3f584f962ddfba523ba4a409b26e13d556efebe7d193c78e6e000407e787"
+    },
+    "aporte_motor/DISCRIMINANTES_CPU.json": {
+      "bytes": 5033,
+      "sha256": "315ba628bd74ef1e406d2a9fbbe2b5f5c7a9e31e18e4443433ad98b556f083fa"
+    },
+    "aporte_motor/TERNA_PROPIA.md": {
+      "bytes": 15692,
+      "sha256": "3ac5aaac90e5ea26a1f5bf57fd4986b62b5c7f259167fd330dbf4362d4412797"
+    },
+    "fuentes/CEBALLOS_ARCHIVE_INSPECTION.json": {
+      "bytes": 1861,
+      "sha256": "80c72d3fd9129b3b74b314d127db75e68e1e418667e5abc57f4776ec621e6d11"
+    },
+    "fuentes/CEBALLOS_SOURCE.json": {
+      "bytes": 4964,
+      "sha256": "e7ecaab71007b250a03fba594e7ac198e1e463b53d962c423ec32a4715f406ed"
+    },
+    "fuentes/FUJIWARA_METADATA.json": {
+      "bytes": 3520,
+      "sha256": "599747d9a10f0b480945c38cbe7627d6cfa565f9d7a931f9e7fa16d816ee20e0"
+    },
+    "fuentes/FUJIWARA_SOURCE_RECEIPT.json": {
+      "bytes": 771,
+      "sha256": "13d5e0e2a5fca7a21abe392fa3b327ad16f3de3b3e031a32216f83dcffa3e192"
+    },
+    "inspect_steering_endpoints.py": {
+      "bytes": 3656,
+      "sha256": "81f3a3abf320d0a2ef313fd502bebda8dd75ad6361ff5f8393aca46fc592c6b2"
+    },
+    "steering_endpoints_projection.npz": {
+      "bytes": 1838,
+      "sha256": "d287d68bc4f28f753f51a8ae2d34005890a8093acc7977930b156c8953abea37"
+    },
+    "verify_projection.py": {
+      "bytes": 2909,
+      "sha256": "232730c1909a493b61844026b7c9459fd959cb76b2d282e1f955c44fb7321c4e"
+    }
+  }
+}

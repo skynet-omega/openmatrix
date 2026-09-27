@@ -1,0 +1,178 @@
+{
+  "scope": "Exploratory four endpoints, no temporal/causal inference or material pass criterion; types fixed from Yang before inspection, not selected by response.",
+  "table": [
+    {
+      "type": "DNa01",
+      "ids_LR": [
+        10442,
+        10760
+      ],
+      "q_LR": {
+        "sham": [
+          3.053196055478097e-138,
+          0.036272492876211725
+        ],
+        "dm1": [
+          3.053196055822475e-138,
+          0.03354985400551749
+        ],
+        "profile": [
+          3.0531960580405527e-138,
+          0.03748088773912925
+        ],
+        "permuted": [
+          3.053196061317858e-138,
+          0.03727271370280963
+        ]
+      },
+      "L_minus_R_delta_from_sham": {
+        "dm1": 0.0027226388706942314,
+        "profile": -0.0012083948629175237,
+        "permuted": -0.0010002208265979043
+      }
+    },
+    {
+      "type": "DNa02",
+      "ids_LR": [
+        523769,
+        10360
+      ],
+      "q_LR": {
+        "sham": [
+          4.826476382475941e-108,
+          2.6e-322
+        ],
+        "dm1": [
+          4.826476382665992e-108,
+          2.6e-322
+        ],
+        "profile": [
+          4.826476383889069e-108,
+          2.6e-322
+        ],
+        "permuted": [
+          4.826476385696314e-108,
+          2.6e-322
+        ]
+      },
+      "L_minus_R_delta_from_sham": {
+        "dm1": 1.9005123004927214e-118,
+        "profile": 1.4131284552343338e-117,
+        "permuted": 3.220373312559073e-117
+      }
+    },
+    {
+      "type": "DNb05",
+      "ids_LR": [
+        10118,
+        10065
+      ],
+      "q_LR": {
+        "sham": [
+          0.721735328911155,
+          0.7454114241802913
+        ],
+        "dm1": [
+          0.7219613300509432,
+          0.7457064854935299
+        ],
+        "profile": [
+          0.7220376952970416,
+          0.7466247249980269
+        ],
+        "permuted": [
+          0.7229896620787928,
+          0.7476655690712626
+        ]
+      },
+      "L_minus_R_delta_from_sham": {
+        "dm1": -6.906017345043036e-05,
+        "profile": -0.0009109344318489754,
+        "permuted": -0.0009998117233335213
+      }
+    },
+    {
+      "type": "DNb06",
+      "ids_LR": [
+        10888,
+        11067
+      ],
+      "q_LR": {
+        "sham": [
+          1.8e-322,
+          2.5e-322
+        ],
+        "dm1": [
+          1.8e-322,
+          2.5e-322
+        ],
+        "profile": [
+          1.8e-322,
+          2.5e-322
+        ],
+        "permuted": [
+          1.8e-322,
+          2.5e-322
+        ]
+      },
+      "L_minus_R_delta_from_sham": {
+        "dm1": 0.0,
+        "profile": 0.0,
+        "permuted": 0.0
+      }
+    },
+    {
+      "type": "DNg13",
+      "ids_LR": [
+        11074,
+        512006
+      ],
+      "q_LR": {
+        "sham": [
+          2.17e-322,
+          2.67e-322
+        ],
+        "dm1": [
+          2.17e-322,
+          2.67e-322
+        ],
+        "profile": [
+          2.17e-322,
+          2.67e-322
+        ],
+        "permuted": [
+          2.17e-322,
+          2.67e-322
+        ]
+      },
+      "L_minus_R_delta_from_sham": {
+        "dm1": 0.0,
+        "profile": 0.0,
+        "permuted": 0.0
+      }
+    }
+  ],
+  "source_hashes": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/published.json": "2527e17943724e542e01a02f0da64064f1e7cd8a2b071223fa7cb7d9f5629bde",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/published.npz": "21829d2057e0d4c9538d00ecf265201965a2c6ae2a125cf3fb90c4e5db73886b",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.json": "39ee1a98c3a3ca2044d660e2859e4d8833f3f15388dda6e8f558e37934039288",
+    "campanas/etapa45_composicion_20260927_48/sham/final_state/session.npz": "40e1a199da264ebbc391ea9e59dbdc27aa2812c338826272b5604c141bc81aa1",
+    "campanas/etapa45_composicion_20260927_48/dm1/final_state/published.json": "2527e17943724e542e01a02f0da64064f1e7cd8a2b071223fa7cb7d9f5629bde",
+    "campanas/etapa45_composicion_20260927_48/dm1/final_state/published.npz": "577a84f1a59ce04ff17ba7ba4fcabeca16b67c413c1c17532a60ec6722c82a19",
+    "campanas/etapa45_composicion_20260927_48/dm1/final_state/session.json": "6d5922bcd7632b02b470d9e28df6aec50c85e04474417831f49ad366703e3f80",
+    "campanas/etapa45_composicion_20260927_48/dm1/final_state/session.npz": "42ccdd9250266f3d8644328a55d637ab3c0108b1dfcae26075d32868cb4cd70d",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/published.json": "2527e17943724e542e01a02f0da64064f1e7cd8a2b071223fa7cb7d9f5629bde",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/published.npz": "20c31ffb8c4d9c434333bdbdd3218a68debd4c714b63801f58c17df127e29115",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/session.json": "f1aa3571b844e1dedb6e62351b390147ffcace8594e20da364f982d0eb413f28",
+    "campanas/etapa45_composicion_20260927_48/profile/final_state/session.npz": "2be2f9843352fbbc1c75ecdf8b8d9d2e452081dd54cf0f1745b5545b34b73837",
+    "campanas/etapa45_composicion_20260927_48/permuted/final_state/published.json": "2527e17943724e542e01a02f0da64064f1e7cd8a2b071223fa7cb7d9f5629bde",
+    "campanas/etapa45_composicion_20260927_48/permuted/final_state/published.npz": "f589d22e10442b730988598d669525da11efe3bc246933be069e1321e091e374",
+    "campanas/etapa45_composicion_20260927_48/permuted/final_state/session.json": "dedd1c69a8cb1a17c3f349997c1faa330d8916f129bdd623e367d10367926caa",
+    "campanas/etapa45_composicion_20260927_48/permuted/final_state/session.npz": "f2287be58e01c81368c7ce637b775d7d883766f425fd17f62d32668028baafcd"
+  },
+  "CPU_s": 9.451942800000001,
+  "new_neural_ms": 0,
+  "GPU_calls": 0,
+  "readout_changed": false
+}

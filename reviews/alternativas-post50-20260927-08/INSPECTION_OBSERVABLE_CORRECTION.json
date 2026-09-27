@@ -1,0 +1,8 @@
+{
+  "failure": "Endpoint parity rejected published float32 rates as equal to native q. No scientific output produced.",
+  "cause": "published rates = float32(release*caps); native q is the first neural block in hybrid/state for nonvisual DNs.",
+  "evidence": "Historical hybrid_visual_brain.py release and publish_rates; actual DN parity remains exact required, no tolerance changed.",
+  "prior_source_sha256": "46d08320758efddbc683e093d7f29caaea1d2097d1fb7e3906e208d1646eefdc",
+  "corrected_source_sha256": "81f3a3abf320d0a2ef313fd502bebda8dd75ad6361ff5f8393aca46fc592c6b2",
+  "new_neural_ms": 0
+}

@@ -1,0 +1,22 @@
+{
+  "created_unix_s": 1790528775.8940804,
+  "scope": "Three independently formulated proposals per existing adviser and author, followed by source checking and bounded static discriminators. No new CNS pilot.",
+  "exposure": "Author and advisers know earlier discussions and negative campaigns; no newly requested adviser proposals read before CODEX_TERNA_INICIAL.md.",
+  "budget": {
+    "wall_s_max": 1800,
+    "CPU_s_max": 180,
+    "new_neural_ms": 0,
+    "GPU_calls": 0,
+    "download_bytes_max": 50000000,
+    "new_disk_bytes_max": 150000000,
+    "complete_prototypes_max": 0,
+    "external_adviser_proposals_each": 3
+  },
+  "advisers": [
+    "ChatGPT ASTRA_V2",
+    "ChatGPT_Motor_V2",
+    "Motor C++/CUDA"
+  ],
+  "authorization": "Current user asks three grounded alternatives per adviser and own plan; existing threads only, no new Codex subagents.",
+  "stop": "Deliver contrasted alternatives and executable next discriminator; no retuning or CNS launch within this review."
+}

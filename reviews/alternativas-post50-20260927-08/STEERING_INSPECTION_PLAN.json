@@ -1,0 +1,9 @@
+{
+  "scope": "Exploratory static inspection of five steering DN pairs in all four campaign48 endpoints before observing new values",
+  "types_fixed_from_Yang": ["DNa01", "DNa02", "DNb05", "DNb06", "DNg13"],
+  "arms": ["sham", "dm1", "profile", "permuted"],
+  "CPU_s_max": 20,
+  "new_neural_ms": 0,
+  "GPU_calls": 0,
+  "interpretation_limit": "Nonzero or larger endpoint contrast alone does not justify a reader or predict orientation; no selection of sign, gain or successful cell from these values."
+}
