@@ -1,0 +1,64 @@
+{
+  "normal": {
+    "returncode": 0,
+    "stdout": "{\"CPU_s\": 0.0916358, \"verified\": true, \"windows\": 8, \"neural_steps\": 0, \"body_steps\": 0}\n",
+    "stderr": ""
+  },
+  "optimized": {
+    "returncode": 0,
+    "stdout": "{\"CPU_s\": 0.09453009999999998, \"verified\": true, \"windows\": 8, \"neural_steps\": 0, \"body_steps\": 0}\n",
+    "stderr": ""
+  },
+  "input_hash": {
+    "detected": true,
+    "expected_error": "Changed input",
+    "returncode": 1,
+    "files": {
+      "check_recorded_law.py": "80c2a84398cf8dc434c553639edb57086fed35474495a2bc99593c142868c5a5",
+      "OFFLINE_PROTOCOL.json": "3434fbfac0e04ab5bae20ed4ea249efa47aa824a27010fc05c8e565ff67c63c6",
+      "OFFLINE_SOURCES.json": "4ec89acbe6c80fc894334fcc79e804d72099c7dcebfbb2182161b007c305f796",
+      "OFFLINE_RESULT.json": "383ccf2e9c9b792bc8b5a3b1d793b57570a722e20edf780bfeddb5e29b76a107",
+      "recorded_law_inputs.npz": "d8be8f4c61a0ec8da50809e65cfa1ccae737060d4f29cc7039705f63036e6a6c"
+    }
+  },
+  "context_criterion": {
+    "detected": true,
+    "expected_error": "Contract interpretation",
+    "returncode": 1,
+    "files": {
+      "check_recorded_law.py": "80c2a84398cf8dc434c553639edb57086fed35474495a2bc99593c142868c5a5",
+      "OFFLINE_PROTOCOL.json": "1fd67052cb63b293ade75ec230c2134736a0dfdd93e8c0bdcb137b24b031e11c",
+      "OFFLINE_SOURCES.json": "4ec89acbe6c80fc894334fcc79e804d72099c7dcebfbb2182161b007c305f796",
+      "OFFLINE_RESULT.json": "383ccf2e9c9b792bc8b5a3b1d793b57570a722e20edf780bfeddb5e29b76a107",
+      "recorded_law_inputs.npz": "86da8dbbc5a158eefd8c5201fe28006d9b5d87b60c6ea6c515766c5bc6f3c9f1"
+    }
+  },
+  "verdict_flag": {
+    "detected": true,
+    "expected_error": "Result mismatch",
+    "returncode": 1,
+    "files": {
+      "check_recorded_law.py": "80c2a84398cf8dc434c553639edb57086fed35474495a2bc99593c142868c5a5",
+      "OFFLINE_PROTOCOL.json": "3434fbfac0e04ab5bae20ed4ea249efa47aa824a27010fc05c8e565ff67c63c6",
+      "OFFLINE_SOURCES.json": "4ec89acbe6c80fc894334fcc79e804d72099c7dcebfbb2182161b007c305f796",
+      "OFFLINE_RESULT.json": "68d1dd22be0d679bad2608e6426e6d70d4de8a957e7985dd9b0987bd05181d4e",
+      "recorded_law_inputs.npz": "86da8dbbc5a158eefd8c5201fe28006d9b5d87b60c6ea6c515766c5bc6f3c9f1"
+    }
+  },
+  "operand_with_updated_hash": {
+    "detected": true,
+    "expected_error": "Recorded margin identity",
+    "returncode": 1,
+    "files": {
+      "check_recorded_law.py": "80c2a84398cf8dc434c553639edb57086fed35474495a2bc99593c142868c5a5",
+      "OFFLINE_PROTOCOL.json": "3434fbfac0e04ab5bae20ed4ea249efa47aa824a27010fc05c8e565ff67c63c6",
+      "OFFLINE_SOURCES.json": "eb51611fda22d1b07dc203e7b130f1a9bf7fa96e21b85911411227c318e96288",
+      "OFFLINE_RESULT.json": "383ccf2e9c9b792bc8b5a3b1d793b57570a722e20edf780bfeddb5e29b76a107",
+      "recorded_law_inputs.npz": "d8be8f4c61a0ec8da50809e65cfa1ccae737060d4f29cc7039705f63036e6a6c"
+    }
+  },
+  "scope": "Local extracted diagnostic only; no original source tree, CNS or historical MAT data loaded",
+  "wall_s": 2.4164280730183236,
+  "neural_steps": 0,
+  "body_steps": 0
+}

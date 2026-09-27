@@ -1,0 +1,32 @@
+{
+  "status": "RESEARCH_AND_JOINT_PLAN_COMPLETE",
+  "classification": "PROMETEDOR_NO_CONFIRMADO",
+  "created_unix_s": 1790510990.2791605,
+  "closed_unix_s": 1790512287.476674,
+  "elapsed_wall_s": 1297.1975135803223,
+  "wall_budget_s": 5400,
+  "new_neural_steps": 0,
+  "new_body_steps": 0,
+  "new_organism_candidates": 0,
+  "CPU_budget_s": 600,
+  "diagnostic_calculation_CPU_s": 0.0913537,
+  "portable_verification_wall_s": 2.4164280730183236,
+  "MAT_schema_and_hash_CPU_s": 0.08282179999999995,
+  "aggregate_CPU_s": null,
+  "aggregate_CPU_note": "Search/tool process CPU was not measured as a total; do not present the selected measurements as aggregate. No training/CNS/GPU runs.",
+  "primary_sources_selected": 8,
+  "persisted_scientific_dataset_download_bytes": 0,
+  "jev_requests": 1,
+  "jev_usage": {
+    "input_tokens": 984,
+    "output_tokens": 111
+  },
+  "chatgpt_research_requests": 2,
+  "existing_motor_requests": 2,
+  "peer_wall_s": 842.628972,
+  "peer_scope": "Independent initial proposal, joint records already exposed; no Codex subagent.",
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "stop_reason": "User-requested joint research and plan completed; bounded recorded-law diagnostic executed; future mechanistic intervention not selected or launched.",
+  "delivery_scope": "Small portable diagnostic and research plan; not complete campaign48 delivery"
+}

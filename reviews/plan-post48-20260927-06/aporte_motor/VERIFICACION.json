@@ -1,0 +1,186 @@
+{
+  "scope": "Targeted research and read-only evidence inspection; not a fresh neural or physiological validation",
+  "started_utc": "2026-09-27T12:10:23+00:00",
+  "closed_utc": "2026-09-27T12:24:25.628972+00:00",
+  "elapsed_wall_s": 842.628972,
+  "wall_budget_s": 1500,
+  "verification_process_cpu_s": 0.025565300000000003,
+  "aggregate_search_cpu_s": null,
+  "aggregate_search_cpu_note": "Not instrumented; do not interpret this verification process time as all prior commands",
+  "neural_steps": 0,
+  "body_steps": 0,
+  "gpu_runs": 0,
+  "training_runs": 0,
+  "persisted_download_bytes": 0,
+  "external_advisers_consulted": 1,
+  "adviser": "ChatGPT_Motor_V2",
+  "report_sha256": "7cb6f9e5e2123d6c46985399d5ceb3de75a4a4e17763c2186bf67077c3df255d",
+  "missing_local_links": [],
+  "sources": [
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/HOJA_DE_RUTA_CAUSAL.md",
+      "exists": true,
+      "bytes": 11340,
+      "sha256": "b384a97306dc72c299fc9bb6ec1d3c6ff0e519062ff6b8320255af204afea5a2"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_composicion_20260927_48/RESULTADOS.md",
+      "exists": true,
+      "bytes": 3329,
+      "sha256": "6af0170e0880cf7ed554fc7d0d49c2a9894482c0f879b08467b3a506d9915334"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_contraste_pendiente_20260926_46/README.md",
+      "exists": true,
+      "bytes": 2630,
+      "sha256": "1a2c03654b572aeb975a444ed6020dd4d345d472b0c25f19cba504e4b087708a"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_orientation_observability_20260925_43/README.md",
+      "exists": true,
+      "bytes": 3381,
+      "sha256": "e5c32596c51ada80fc204683592865823f271430421428eabf2c99381be176e7"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/investigacion/respuesta_funcional_48_20260927_motor/README.md",
+      "exists": true,
+      "bytes": 7284,
+      "sha256": "7985dfb5b84ae69f59884efa38a86fb290daf1731b9a9175282a03b50101f578"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/laboratorio.py",
+      "exists": true,
+      "bytes": 381,
+      "sha256": "9b1a83d241ad0e3cc453e22384f0f69127e2b92724fa7ba2a645caa7315fddee"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/predictor_program_v2.json",
+      "exists": true,
+      "bytes": 23178,
+      "sha256": "f04e1d2fcfd3d52c5e18f1101ab7e1df56e187e535f45d97fb865a656a714ca5"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/evidence/dng100_fixed_input_20260913/neural_analysis.json",
+      "exists": true,
+      "bytes": 2004,
+      "sha256": "4dae071ba05e8b07b4573134bf52963dacc8c1feaeaf9d1a64a31783c9581d69"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/evidence/dng100_fixed_input_20260913/protocol.json",
+      "exists": true,
+      "bytes": 1487,
+      "sha256": "7b1e511e10208ae7925e973a53602be1161ce9fb7d3516adea098a9e99e7e01b"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/evidence/steering_physiology_20260909/steering_source/recording_manifest.json",
+      "exists": true,
+      "bytes": 465,
+      "sha256": "96b0f82652678b9be7787a4b97fd1a4b4f8a97e4e52a543ef2722a48667366de"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/reports/DNG100_RECLUTAMIENTO_SIN_APOYO_20260913.md",
+      "exists": true,
+      "bytes": 6120,
+      "sha256": "678e6f0c96f1253d883960edb7b0d44ef0d92f5af74566e9bf9f222f9b39678a"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/matrix_workbench/runtime.py",
+      "exists": true,
+      "bytes": 20252,
+      "sha256": "822a75b38a697b4990f167df60ca39b6b5b4dd4125adc0e311cd915caf1a1fc0"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/physiological_generator/README.md",
+      "exists": true,
+      "bytes": 4386,
+      "sha256": "254ff9db697f732b56742516786de08a12c52f8d3623ba58b517ac8a15f81a3a"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/physiological_generator/live_forecast.py",
+      "exists": true,
+      "bytes": 2675,
+      "sha256": "3cdc7d78094c10655bbf5dc32ed5a425035eedbeb5c1ef9ed6396ac19d9b6833"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/live_forecast_transfer_20260916/README.md",
+      "exists": true,
+      "bytes": 7186,
+      "sha256": "bddc258c1825f1244e6b35ff3373debd1d46c6e5cd9ddaa6fe95d8fea8b8a9e1"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/mechanism_predictor_followup_20260916/README.md",
+      "exists": true,
+      "bytes": 4373,
+      "sha256": "8e2ae116e8d4ffabba54b3800cf6317f9bde134d89b3758c052f9ee9c4e9bc96"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage06_lab_workflow_20260918/README.md",
+      "exists": true,
+      "bytes": 8497,
+      "sha256": "46ec0d5749c1e975eda8ae07bb0c81cea216d2ad6bd87671f332786f239893ee"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage36_dna02_observation_20260915/README.md",
+      "exists": true,
+      "bytes": 4833,
+      "sha256": "e25c00e93e3c7f866dc3526453cf86d35b396a9959696a9a467b4d7bbfe1a3d7"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage36_dna02_observation_20260915/acquisition.json",
+      "exists": true,
+      "bytes": 1201,
+      "sha256": "9f51505d90d47481c4db2e86bb04af681d9d2be5d839771857ef934c8a190dad"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage36_dna02_observation_20260915/source/180501_gfp_3G_ss730_dual_13_data_for_SH_with_lat_vel.mat",
+      "exists": true,
+      "bytes": 71381032,
+      "sha256": "a460eb313b503b039b3eeec554efd902b54119aadfd783c72210efaee2daee24"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_AOTU019_edge_counterfactual_20260916/README.md",
+      "exists": true,
+      "bytes": 5115,
+      "sha256": "2f76a4a95f94b789b31947d94530be809be8af41ac7018dce75289d1e9d9928a"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_P9_context_reference_20260916/README.md",
+      "exists": true,
+      "bytes": 3788,
+      "sha256": "7d4e7527ef74357ac5e026901f051b9fae024a3d6c65f5ad2299ea76c019dc7e"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_constant_preparation_20260918/README.md",
+      "exists": true,
+      "bytes": 8079,
+      "sha256": "e0cd7cb54d0ff7e2384ee4c7336fa9d388eb55af98a8b6509aaf82f6e62e6f9c"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_matched_sources_20260917/family_function_leads.md",
+      "exists": true,
+      "bytes": 6115,
+      "sha256": "fcc24f4124649c44e1d6026f190053fe82e241af0ca9b9323b598f3e5804812c"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_native_network_reference_20260918/README.md",
+      "exists": true,
+      "bytes": 9094,
+      "sha256": "7834c268d0e73ec7ab98ace7ffff608ce751f222a47b7ca681a18d5294440036"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_native_population_audit_20260918/README.md",
+      "exists": true,
+      "bytes": 11605,
+      "sha256": "ae79b3d5a467853022d9e20839574cfbcb6a693fef035d3ad8b55cf52076bb64"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/stage3_temporal_population_20260917/research_leads.md",
+      "exists": true,
+      "bytes": 10173,
+      "sha256": "04695923db167e098287143845365bc85ff193133cd99f369d0d040c8cc3a6d9"
+    }
+  ],
+  "advisor_response_read": true,
+  "blind": false,
+  "peer_initial_proposal_read": false
+}

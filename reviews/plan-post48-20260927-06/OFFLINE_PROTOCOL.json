@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "scope": "Diagnose final law from already recorded accepted stages; no neuronal simulation. Not causal attribution by presynaptic identity.",
+  "arms": [
+    "sham",
+    "dm1",
+    "profile",
+    "permuted"
+  ],
+  "blocks": [
+    "00901_01000ms",
+    "02901_03000ms"
+  ],
+  "fields": [
+    "state",
+    "net",
+    "positive_aux",
+    "negative_aux",
+    "drive",
+    "theta",
+    "gain",
+    "base_target",
+    "base_rate",
+    "tau",
+    "margin",
+    "final_target",
+    "final_rate",
+    "derivative"
+  ],
+  "selected_stages": [
+    0,
+    1,
+    2
+  ],
+  "ids": [
+    10045,
+    10056
+  ],
+  "CPU_seconds_max": 45,
+  "RAM_GiB_max": 1,
+  "observables": [
+    "Exact float32 margin reconstruction from recorded net/drive/theta",
+    "Identity base/final target and rate, derivative and zero rectification with positive gain",
+    "Signed positive+negative reduction residual, reported without changing tolerances or passing it as exact",
+    "Frozen-input counterfactual margin if theta is zero; no new dynamics",
+    "Mean inputs and parameters in two selected windows"
+  ],
+  "no_admission_of_stage4_or5": true
+}

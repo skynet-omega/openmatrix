@@ -1,0 +1,18 @@
+{
+  "created_unix_s": 1790510990.2791605,
+  "objective": "Evidence-based joint plan after48 using local resources, primary literature, laboratory and predictors",
+  "scope": "Research, CPU-only saved-data checks and plan; no new organism or model integration",
+  "wall_s_max": 5400,
+  "CPU_s_max": 600,
+  "RAM_GiB_max": 4,
+  "download_MiB_max": 50,
+  "selected_primary_sources_max": 12,
+  "chatgpt_review_requests_max": 2,
+  "existing_motor_chat_requests_max": 2,
+  "jev_requests_max": 1,
+  "new_neural_steps_max": 0,
+  "new_body_steps_max": 0,
+  "codex_subagents": 0,
+  "concurrency": "Existing user-owned Motor C++/CUDA and ChatGPT chats; root owns integration, no shared code edits",
+  "publication": "Small new research capsule only if complete; do not retry oversized48push or change frozen48"
+}
