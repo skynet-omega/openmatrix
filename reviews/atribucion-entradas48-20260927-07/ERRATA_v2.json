@@ -1,0 +1,63 @@
+{
+  "scope": "Mislabeled supplemental result field only; eight net matches, endpoint sums, bound and no-stage conclusions unchanged. V1ZIP and publiccommit preserved.",
+  "cause": "Numeric index13 is derivative; margin is10.",
+  "changes": [
+    {
+      "arm": "sham",
+      "id": 10045,
+      "incorrect_v1_margin": -1.0306e-320,
+      "correct_recorded_margin": -1489.572265625,
+      "recorded_derivative": -1.0306e-320
+    },
+    {
+      "arm": "sham",
+      "id": 10056,
+      "incorrect_v1_margin": -1.2287e-320,
+      "correct_recorded_margin": -1399.468017578125,
+      "recorded_derivative": -1.2287e-320
+    },
+    {
+      "arm": "dm1",
+      "id": 10045,
+      "incorrect_v1_margin": -1.0306e-320,
+      "correct_recorded_margin": -1461.0120849609375,
+      "recorded_derivative": -1.0306e-320
+    },
+    {
+      "arm": "dm1",
+      "id": 10056,
+      "incorrect_v1_margin": -1.2287e-320,
+      "correct_recorded_margin": -1368.185302734375,
+      "recorded_derivative": -1.2287e-320
+    },
+    {
+      "arm": "profile",
+      "id": 10045,
+      "incorrect_v1_margin": -1.0306e-320,
+      "correct_recorded_margin": -1482.6231689453125,
+      "recorded_derivative": -1.0306e-320
+    },
+    {
+      "arm": "profile",
+      "id": 10056,
+      "incorrect_v1_margin": -1.2287e-320,
+      "correct_recorded_margin": -1388.833740234375,
+      "recorded_derivative": -1.2287e-320
+    },
+    {
+      "arm": "permuted",
+      "id": 10045,
+      "incorrect_v1_margin": -1.0306e-320,
+      "correct_recorded_margin": -1478.1187744140625,
+      "recorded_derivative": -1.0306e-320
+    },
+    {
+      "arm": "permuted",
+      "id": 10056,
+      "incorrect_v1_margin": -1.2287e-320,
+      "correct_recorded_margin": -1384.3663330078125,
+      "recorded_derivative": -1.2287e-320
+    }
+  ],
+  "original_public_commit": "d8d519e191b646cab9659d28e934eb079b108e26"
+}

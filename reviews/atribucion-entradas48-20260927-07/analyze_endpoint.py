@@ -73,7 +73,12 @@ def calculate():
                     row['endpoint_minus_last_recorded_RHS']=net32-float(rhs[1])
                     row['last_recorded_drive']=float(rhs[4])
                     row['last_recorded_target']=float(rhs[7])
-                    row['last_recorded_margin']=float(rhs[13])
+                    names=e['last_RHS_witness'][arm]['fields']
+                    need(names[10]=='margin' and names[13]=='derivative','RHS field semantics')
+                    row['last_recorded_margin']=float(rhs[names.index('margin')])
+                    row['last_recorded_derivative']=float(rhs[names.index('derivative')])
+                    margin32=(np.float32(rhs[1])+np.float32(rhs[4]))-np.float32(rhs[5])
+                    need(float(margin32)==row['last_recorded_margin'],'Recorded margin identity')
                 rows.append(row)
                 diffs.append(dict(id=ident,total_net_change=float(t.sum()-(w0*x0)[sl].sum()),
                     signal_term=float(state_component[sl].sum()),weight_term=float(weight_component[sl].sum()),

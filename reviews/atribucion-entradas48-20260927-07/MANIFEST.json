@@ -19,8 +19,8 @@
       "bytes": 8566
     },
     "analyze_endpoint.py": {
-      "sha256": "b4b8652c908bfc8e1ff6cf7bffa07d8997f667acd716c07ba157d65f2aa2bd4d",
-      "bytes": 10862
+      "sha256": "1d6bd465d41e6a48719d3e5135aaeacfad15dfe3ea11c406182551f36fd411c4",
+      "bytes": 11316
     },
     "verify_capsule.py": {
       "sha256": "512d65bdc640e267683c90a846a514ef0fb8c4a0537dc7193edb4f5e8002a9fc",
@@ -35,8 +35,8 @@
       "bytes": 20830
     },
     "RESULTADOS.json": {
-      "sha256": "ecea3a4b0461f45c00966b4900da08c1a8c7dcf45e07176a6a1055ec899afda4",
-      "bytes": 5799558
+      "sha256": "b0bb4dee2e60568f87f73b1044e93799edb73b617e354e354fcc7073b01c6ef1",
+      "bytes": 5800007
     },
     "RESULTADOS.md": {
       "sha256": "a8fbbf843dcddb9e5ba0cf7207967346b9db1a6c51709fd03709609351a994f0",
@@ -55,8 +55,8 @@
       "bytes": 598
     },
     "CORRECCIONES.md": {
-      "sha256": "be8be825d7d3dd5f6cfa0432b406234ce737b1d25386380327e1cae898d9dc05",
-      "bytes": 2007
+      "sha256": "ffb57fcd4f21963829bdf0118f1f881dfa1d614926a5ce4b613d55bb589afd03",
+      "bytes": 2559
     },
     "ASESORES_PREVIOS.json": {
       "sha256": "a211a470c98bf1a323e97fcc45fc66942df2b88f17729056df2efe7dca419542",
@@ -145,6 +145,12 @@
     "aporte_motor/verificar_esquema.py": {
       "sha256": "b582002a5eff9bf6fa91b4dc154d1489c5a394eacbef19074037f50e99f4c796",
       "bytes": 7175
+    },
+    "ERRATA_v2.json": {
+      "sha256": "6f3abc647256fd0e70e74a92cf4cf8d975db9a51619af069f954199d22111b9c",
+      "bytes": 1860
     }
-  }
+  },
+  "correction": "v2 supplemental last_recorded_margin fixed by fieldname; primary results unchanged",
+  "release": "v2; correct supplemental last_recorded_margin index; V1 retained at parent commit"
 }
