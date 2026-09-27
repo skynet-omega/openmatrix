@@ -1,0 +1,92 @@
+{
+  "completed_UTC": "2026-09-27T21:11:28.685868+00:00",
+  "started_UTC": "2026-09-27T20:55:51+00:00",
+  "elapsed_wall_s": 867.655923,
+  "measured_process_CPU_s_sum": 1.0880885,
+  "scope_CPU": "Instrumented probes/export/verifier; excludes auxiliary reads and browser tools",
+  "peak_RSS_bytes": 159252480,
+  "bytes_new_before_this_manifest": 393131,
+  "new_CNS_steps": 0,
+  "new_GPU_calls": 0,
+  "source_roots_read_only": [
+    "/home/daroch/AXIOMA_FLYWIRE/matrix",
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51"
+  ],
+  "files": {
+    "INFORME.md": {
+      "bytes": 12959,
+      "sha256": "44e0c8cc435927bbdfb65b3e395b7803ad0e711624eccb96e82f93211f568615"
+    },
+    "TERNA_INICIAL.md": {
+      "bytes": 3536,
+      "sha256": "388f6c787645272c359c406eab0a6bde8802971ba41e6788bf20e27067e83296"
+    },
+    "endpoint_probe.py": {
+      "bytes": 2923,
+      "sha256": "81c51b573d657dfab653be7b728aa150c8c39d1bc6f1c50acc04f1f7c3a7c7bd"
+    },
+    "verify_projection.py": {
+      "bytes": 3507,
+      "sha256": "5b71da12265fbc648607280f786f06060c595b03261056e4bb754bcd77c0f44d"
+    },
+    "COBERTURA.json": {
+      "bytes": 151797,
+      "sha256": "94357f082a87cebf72bf60c6529ec9af7f104030bf7fe3ce8407efc2195ed64c"
+    },
+    "ENDPOINTS.json": {
+      "bytes": 5006,
+      "sha256": "2ffae79163a1f61e0ccc9025c15b23d164498d5539e0845e246a3bda8fa1c74c"
+    },
+    "PROYECCION.npz": {
+      "bytes": 80301,
+      "sha256": "191e5ad5a4f9fd98b81bbb0c5bd798ca968d1889f19a613b51dabd27546f0dd3"
+    },
+    "export_projection.py": {
+      "bytes": 2822,
+      "sha256": "7d2aaab64c020f986325cf5aae24b2db1c494787ca9f3cb1d7aa3e4df5baa9b9"
+    },
+    "FUENTES_LOCALES.json": {
+      "bytes": 21594,
+      "sha256": "8c621669414ae9123e2c4e2f652cca959f30139c6e4558442311d868657bceaf"
+    },
+    "NEURONAS_OBSERVADAS.csv": {
+      "bytes": 583,
+      "sha256": "40ebbc4c9cce9d5f9ea8580a7ad14c713ef29a25a3d015067904630f9da68b25"
+    },
+    "PROYECCION.json": {
+      "bytes": 2247,
+      "sha256": "de93969b6c3ec172a22860d328b39f59f78ad62e5615a035edf7651bb981f461"
+    },
+    "VERIFICACION.json": {
+      "bytes": 4925,
+      "sha256": "7bfc960c7728eb7f23c4ba2bb0170d14a2f2144db29556f5275c705cce3ea425"
+    },
+    "coverage_probe.py": {
+      "bytes": 4905,
+      "sha256": "41c5b15363f06ecee43be66e86bd0810f52e9e65ee8ceffd9336e08d990ebbf0"
+    },
+    "reproduccion_portable/verify_projection.py": {
+      "bytes": 3507,
+      "sha256": "5b71da12265fbc648607280f786f06060c595b03261056e4bb754bcd77c0f44d"
+    },
+    "reproduccion_portable/ENDPOINTS.json": {
+      "bytes": 5006,
+      "sha256": "2ffae79163a1f61e0ccc9025c15b23d164498d5539e0845e246a3bda8fa1c74c"
+    },
+    "reproduccion_portable/PROYECCION.npz": {
+      "bytes": 80301,
+      "sha256": "191e5ad5a4f9fd98b81bbb0c5bd798ca968d1889f19a613b51dabd27546f0dd3"
+    },
+    "reproduccion_portable/PROYECCION.json": {
+      "bytes": 2247,
+      "sha256": "de93969b6c3ec172a22860d328b39f59f78ad62e5615a035edf7651bb981f461"
+    },
+    "reproduccion_portable/VERIFICACION.json": {
+      "bytes": 4965,
+      "sha256": "791244e993119c61a52e5c38c152f15d88752795b1d02ec1fa84474f52fe4321"
+    }
+  },
+  "portable_reexecution": "PASS",
+  "portable_source_reads_forbidden": true,
+  "portable_process_CPU_s": 0.0653296
+}

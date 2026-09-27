@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "portable_inputs_only": true,
+  "optimization": true,
+  "recomputed": {
+    "airL_minus_air0_no_odor": {
+      "JO_CE": {
+        "neurons": 335,
+        "max_abs_delta_q": 0.801340109676711,
+        "different_exactly": 132,
+        "above_1e_9": 132,
+        "above_1e_6": 132,
+        "above_1e_4": 130
+      },
+      "all_DN": {
+        "neurons": 1314,
+        "max_abs_delta_q": 0.05631027702229845,
+        "different_exactly": 539,
+        "above_1e_9": 507,
+        "above_1e_6": 506,
+        "above_1e_4": 413
+      },
+      "DN_with_temporal_q": {
+        "neurons": 12,
+        "max_abs_delta_q": 0.0019272049759363474,
+        "different_exactly": 5,
+        "above_1e_9": 3,
+        "above_1e_6": 3,
+        "above_1e_4": 3
+      },
+      "DN_without_temporal_q": {
+        "neurons": 1302,
+        "max_abs_delta_q": 0.05631027702229845,
+        "different_exactly": 534,
+        "above_1e_9": 504,
+        "above_1e_6": 503,
+        "above_1e_4": 410
+      },
+      "AMMC_WED": {
+        "neurons": 1108,
+        "max_abs_delta_q": 0.35559305054123663,
+        "different_exactly": 543,
+        "above_1e_9": 534,
+        "above_1e_6": 534,
+        "above_1e_4": 529
+      }
+    },
+    "airR_minus_air0_no_odor": {
+      "JO_CE": {
+        "neurons": 335,
+        "max_abs_delta_q": 0.9012202375915661,
+        "different_exactly": 118,
+        "above_1e_9": 117,
+        "above_1e_6": 117,
+        "above_1e_4": 114
+      },
+      "all_DN": {
+        "neurons": 1314,
+        "max_abs_delta_q": 0.2045867016256412,
+        "different_exactly": 558,
+        "above_1e_9": 525,
+        "above_1e_6": 524,
+        "above_1e_4": 420
+      },
+      "DN_with_temporal_q": {
+        "neurons": 12,
+        "max_abs_delta_q": 0.0031503305194958697,
+        "different_exactly": 5,
+        "above_1e_9": 3,
+        "above_1e_6": 3,
+        "above_1e_4": 2
+      },
+      "DN_without_temporal_q": {
+        "neurons": 1302,
+        "max_abs_delta_q": 0.2045867016256412,
+        "different_exactly": 553,
+        "above_1e_9": 522,
+        "above_1e_6": 521,
+        "above_1e_4": 418
+      },
+      "AMMC_WED": {
+        "neurons": 1108,
+        "max_abs_delta_q": 0.6069089774397392,
+        "different_exactly": 569,
+        "above_1e_9": 556,
+        "above_1e_6": 556,
+        "above_1e_4": 550
+      }
+    },
+    "airL_minus_airR_no_odor": {
+      "JO_CE": {
+        "neurons": 335,
+        "max_abs_delta_q": 0.9012202375915661,
+        "different_exactly": 235,
+        "above_1e_9": 235,
+        "above_1e_6": 235,
+        "above_1e_4": 232
+      },
+      "all_DN": {
+        "neurons": 1314,
+        "max_abs_delta_q": 0.2045867016256412,
+        "different_exactly": 565,
+        "above_1e_9": 534,
+        "above_1e_6": 532,
+        "above_1e_4": 455
+      },
+      "DN_with_temporal_q": {
+        "neurons": 12,
+        "max_abs_delta_q": 0.005077535495432217,
+        "different_exactly": 5,
+        "above_1e_9": 3,
+        "above_1e_6": 3,
+        "above_1e_4": 3
+      },
+      "DN_without_temporal_q": {
+        "neurons": 1302,
+        "max_abs_delta_q": 0.2045867016256412,
+        "different_exactly": 560,
+        "above_1e_9": 531,
+        "above_1e_6": 529,
+        "above_1e_4": 452
+      },
+      "AMMC_WED": {
+        "neurons": 1108,
+        "max_abs_delta_q": 0.5808418561987643,
+        "different_exactly": 587,
+        "above_1e_9": 581,
+        "above_1e_6": 580,
+        "above_1e_4": 577
+      }
+    },
+    "airL_minus_airR_with_odor": {
+      "JO_CE": {
+        "neurons": 335,
+        "max_abs_delta_q": 0.9011467346639688,
+        "different_exactly": 235,
+        "above_1e_9": 235,
+        "above_1e_6": 235,
+        "above_1e_4": 232
+      },
+      "all_DN": {
+        "neurons": 1314,
+        "max_abs_delta_q": 0.2046152588766488,
+        "different_exactly": 565,
+        "above_1e_9": 534,
+        "above_1e_6": 532,
+        "above_1e_4": 456
+      },
+      "DN_with_temporal_q": {
+        "neurons": 12,
+        "max_abs_delta_q": 0.005064963971645353,
+        "different_exactly": 5,
+        "above_1e_9": 3,
+        "above_1e_6": 3,
+        "above_1e_4": 3
+      },
+      "DN_without_temporal_q": {
+        "neurons": 1302,
+        "max_abs_delta_q": 0.2046152588766488,
+        "different_exactly": 560,
+        "above_1e_9": 531,
+        "above_1e_6": 529,
+        "above_1e_4": 453
+      },
+      "AMMC_WED": {
+        "neurons": 1108,
+        "max_abs_delta_q": 0.5807061523211982,
+        "different_exactly": 587,
+        "above_1e_9": 580,
+        "above_1e_6": 580,
+        "above_1e_4": 576
+      }
+    }
+  },
+  "corruptions_detected": [
+    "nonfinite_q",
+    "duplicate_id",
+    "wrong_group",
+    "changed_count"
+  ],
+  "source_reproduction_scope": "Recompute projected raw endpoint statistics, not original CNS or biological data",
+  "CPU_s": 0.0174843,
+  "process_CPU_total_s": 0.0653296,
+  "peak_RSS_bytes": 35930112,
+  "audit_hook_blocked_original_source_roots": true
+}

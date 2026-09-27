@@ -1,0 +1,45 @@
+{
+  "schema": "endpoint51_group_projection_v1",
+  "artifact": "PROYECCION.npz",
+  "sha256": "191e5ad5a4f9fd98b81bbb0c5bd798ca968d1889f19a613b51dabd27546f0dd3",
+  "bytes": 80301,
+  "original_neurons": 166700,
+  "projected_neurons": 2757,
+  "sources": {
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/air0_odor0/neural_and_inputs.npz": {
+      "sha256": "3dd288aefbe3e88cfce3db4d08a8d87c35bf395f39eb76eff82325a0acf2c7f7",
+      "bytes": 2057597,
+      "projection": "final_q[canonical_rows]"
+    },
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airL_odor0/neural_and_inputs.npz": {
+      "sha256": "bdfe11b1b65641274bc4b5e8f5d8b45ce59ee87c05f04cc3327f78f21a2abecc",
+      "bytes": 2059628,
+      "projection": "final_q[canonical_rows]"
+    },
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airR_odor0/neural_and_inputs.npz": {
+      "sha256": "f055577fb9b52a550b661d6e3dc22086e9adcbbccc3a3a2f6f379f8d3682ee9d",
+      "bytes": 2059378,
+      "projection": "final_q[canonical_rows]"
+    },
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airL_odor1/neural_and_inputs.npz": {
+      "sha256": "b475e5ed995bb680b453c6400d19504799537d2a303a795ab512e6ca49c85e83",
+      "bytes": 2057953,
+      "projection": "final_q[canonical_rows]"
+    },
+    "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airR_odor1/neural_and_inputs.npz": {
+      "sha256": "ea5453dfba564b1c0b42037fb83b960678d5dff48d70100a8e8cc10985791b00",
+      "bytes": 2057646,
+      "projection": "final_q[canonical_rows]"
+    }
+  },
+  "annotation_sources": {
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "/home/daroch/AXIOMA_FLYWIRE/matrix/data/male_v10/node_ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f"
+  },
+  "reference_result": "ENDPOINTS.json",
+  "reference_sha256": "2ffae79163a1f61e0ccc9025c15b23d164498d5539e0845e246a3bda8fa1c74c",
+  "scope": "Only90ms endpoints and exact group membership; no CNS rerun or temporal reconstruction",
+  "CPU_s": 0.12468480000000001,
+  "process_CPU_total_s": 0.3109636,
+  "peak_RSS_bytes": 158404608
+}

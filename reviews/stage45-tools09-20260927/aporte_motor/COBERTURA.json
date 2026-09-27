@@ -1,0 +1,6174 @@
+{
+  "scope": "Schema of all ten arms, selected-q descriptive screen, original container availability",
+  "plan_sha256": "ea2b7c491992e3f412ff6a467e4bc7e31343d856fa07751171e8a4b0936fc93e",
+  "schemas": {
+    "air0_odor0": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3515,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xc8a03f3f"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011753,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xa106cf7b"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 7204,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xeaf7e3fd"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12105,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0xd4476052"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5853,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x231dc386"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 561,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0xa8f81c33"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 592,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0xf1190567"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 178290,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0xf7f34ca9"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1226,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x37481066"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 404958,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0x8ea72cb5"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 61549,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0x3ccedc8a"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 232839,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x68b7f62d"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1243,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xf03cd288"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1242,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x3323b04c"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 792,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x6392030a"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9811,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1213362,
+          "member_bytes": 10988448,
+          "header_only": true,
+          "zip_crc32": "0xd17daf9a"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2395,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x5e79fdd5"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1286,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xc40bf37a"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1283,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xdb7cfeef"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 115,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xecaa4117"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "airL_odor0": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 4207,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x31534d63"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1013547,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xbdfd9658"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 7204,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xeaf7e3fd"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 11630,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x6e99d400"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5873,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x54c0bfce"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 535,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x79689a33"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 575,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x10985a13"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 178306,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0xc40676c8"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1233,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x5e5968b3"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 404757,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0x9fd8fbdc"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 61550,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xef05f4a9"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 232847,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x8c357a37"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1316,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x9ea3529a"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1317,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x5dde0da1"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 780,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x102a6de2"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9790,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1204537,
+          "member_bytes": 10964928,
+          "header_only": true,
+          "zip_crc32": "0xabd2acde"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2395,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0xac4ce82"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1274,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x678b0f53"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1274,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xacf7fb48"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 126,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xedd8e62f"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "airR_odor0": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 4715,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x46b302b5"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1013816,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0x4921f917"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 7204,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xeaf7e3fd"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10603,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x3a30eca9"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5873,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x28b9166b"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 535,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x79689a33"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 575,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x10985a13"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 178276,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0x3dbd311b"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1233,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x73615293"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 404678,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0xecb146ac"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 61542,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0x20082d6d"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 232823,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0xd2f602f7"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1345,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xdfa576c8"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1342,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xdc72b1fb"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 794,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xb478c3a"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9835,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1205689,
+          "member_bytes": 11015328,
+          "header_only": true,
+          "zip_crc32": "0xc96938b7"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2397,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x2d32a4da"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1294,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x4abfa713"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1293,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb6541510"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 121,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xda4fa037"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "air0_odor1": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3558,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xc04c0fba"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011924,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0x8e1a5493"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5472,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xb3dcd570"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12105,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0xd4476052"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5853,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x231dc386"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 21045,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x8ef90244"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 23410,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x5b6ff30a"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 192321,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0x8a636488"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1390,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x77cc3ad2"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 411010,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0xaaad3018"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 64098,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0x9353477d"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 239806,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x7783309e"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1306,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xbda6489c"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1305,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x50a8598b"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 780,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x243f794"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9611,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1199031,
+          "member_bytes": 10764448,
+          "header_only": true,
+          "zip_crc32": "0xc374493c"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2387,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x44ebf931"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1270,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xa28dbc0b"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1270,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xce249db2"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 117,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xf943f92"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "airL_odor1": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 4216,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8ba3b2ae"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1013595,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc07a373a"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5472,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xb3dcd570"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 11630,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x6e99d400"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5873,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x54c0bfce"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 21043,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x820c8981"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 23441,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x9b6c1c87"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 192358,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0xdc2ae7f4"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1390,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x24a016f5"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 411025,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0x435d305c"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 64076,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xc3d29b57"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 239782,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x5f24a194"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1331,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xf74395b3"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1331,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x7113c06e"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 783,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2cfaecd5"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9670,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1193676,
+          "member_bytes": 10830528,
+          "header_only": true,
+          "zip_crc32": "0x135b6e9f"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2389,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0xf7a76a22"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1271,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x560355bc"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1269,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xf5d2b799"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 122,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x952345d9"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "airR_odor1": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 4716,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb1afbfd5"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1013815,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0x6ece7ef3"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5472,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xb3dcd570"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10603,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x3a30eca9"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5873,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x28b9166b"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3494,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc973d059"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 21048,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x472ec175"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 23410,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x7887eaae"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 192334,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0xd313cd40"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1382,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x27a90405"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 411023,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0xf896d650"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 64056,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xded3046a"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 239768,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x2fa057ea"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1353,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x8caa1520"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1352,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd2ce6178"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 50700,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x52bd29e2"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 69978,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x6c11eb7d"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1359,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4d7908f1"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 402,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x3575cb21"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 476,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xf610b38f"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1992,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xd645ac4e"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5303,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xb8d1f53f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 31795,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x1e7e7889"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2ab6500e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 795,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x2b5efa8d"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9696,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1197421,
+          "member_bytes": 10859648,
+          "header_only": true,
+          "zip_crc32": "0x2ed0ed44"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2391,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x54eb7ce8"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1273,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x55045081"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1277,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xc9f6a27f"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 117,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x1a2caf95"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "G_odor0": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10877,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xda4e8375"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1241234,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0x56c00966"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 7204,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xeaf7e3fd"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12295,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x96990c8e"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6905,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0xe44c5c88"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3558,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xc63c296d"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 596,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x23f03f8d"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 657,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x33409250"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 178306,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0x7f38793f"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1250,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xd11b06a7"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 405032,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0x8c1f4008"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 61503,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xbd2a5479"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 232785,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0x1fa3c27"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2674,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xba848789"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2666,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x5125e0b6"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 811,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xfd5c37f6"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 59401,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x8d6a4005"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 75207,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0xb14ccc58"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1758,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x42d96c8f"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 561,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x7984f8b3"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 547,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x9689dd10"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2273,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0x913869a8"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5981,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0x92f3c3f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 38317,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x3a24b98a"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 682,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x78dd0ed0"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 811,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xfd5c37f6"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 760,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x21bff02"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9646,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2903598,
+          "member_bytes": 10803648,
+          "header_only": true,
+          "zip_crc32": "0x11e4e652"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2388,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x9f9a0869"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1278,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xc2888fa"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1278,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x21335f25"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 119,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xf5b62bdf"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "G_odor1": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10870,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x487a2627"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1243204,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0x23efdc14"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5472,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xb3dcd570"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12296,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0xe42c9d73"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6895,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0xc2bfd2c3"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3561,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0x4bc4d2c9"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 21037,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x135437cc"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 23428,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0xc3c98033"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 192338,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0x67e47547"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1395,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x31f1db0b"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 411066,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0x925c461"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 64097,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0x66587c2d"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 239809,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0xe3abaded"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2669,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xc1b01023"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2661,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x10c9fe86"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 804,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x6d6c0291"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 59423,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0xb7a97f5d"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 75178,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0xa05f4359"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1765,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x4c69c63a"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 558,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xa470f262"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 541,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xac02b208"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2273,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xb9b265d7"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5990,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0xd6cf363f"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 38328,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x9ecac805"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 686,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0xe5c86a83"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 804,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x6d6c0291"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 761,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x9d652692"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            9696,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2917848,
+          "member_bytes": 10859648,
+          "header_only": true,
+          "zip_crc32": "0x74b468f1"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2395,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x19353fb1"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1296,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x2bcd0b5"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1294,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xe03f578c"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 119,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xa35af39a"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "I_odor0": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10876,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x9eb013ad"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1240378,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xd114d55"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 7204,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xeaf7e3fd"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12295,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x19fe536a"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6947,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x314c91d6"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3572,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0x19f4522d"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 535,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x79689a33"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 575,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0x10985a13"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 178316,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0xc030bec0"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1258,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x26d5cf1c"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 405032,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0xa756a4b3"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 61521,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xbba2e8f0"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 232830,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0xe0282f6a"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2677,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xc13c6df3"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2669,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0x3898646d"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 803,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x7d99b23a"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 59816,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x1662a536"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 75228,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x2c0f85b1"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1773,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0xb2ecef84"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 573,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x6cdb0312"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 549,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x9abc6b0c"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2298,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xa42705e5"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6025,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0x940950bf"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 38628,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x847f8412"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 687,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x359b909c"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 803,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x7d99b23a"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 764,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x36252dc5"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            10186,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2737352,
+          "member_bytes": 11408448,
+          "header_only": true,
+          "zip_crc32": "0x56bd353f"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2395,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0xdc6fc62b"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1294,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xa570842"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1294,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x4631e091"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 156,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x59455efa"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    },
+    "I_odor1": {
+      "neural_and_inputs.npz": {
+        "ids": {
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 124,
+          "member_bytes": 256,
+          "header_only": true,
+          "zip_crc32": "0xf2a7b57f"
+        },
+        "q": {
+          "shape": [
+            90,
+            16
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 10869,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x26602ddd"
+        },
+        "initial_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1011679,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xc16eadd1"
+        },
+        "final_q": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1242049,
+          "member_bytes": 1333728,
+          "header_only": true,
+          "zip_crc32": "0xe89b269f"
+        },
+        "ORN_ids": {
+          "shape": [
+            694
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2091,
+          "member_bytes": 5680,
+          "header_only": true,
+          "zip_crc32": "0x7b6db708"
+        },
+        "nominal_Hz": {
+          "shape": [
+            90,
+            694
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 5472,
+          "member_bytes": 499808,
+          "header_only": true,
+          "zip_crc32": "0xb3dcd570"
+        },
+        "JO_ids": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1176,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0x72e7f33f"
+        },
+        "JO_rows": {
+          "shape": [
+            335
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 891,
+          "member_bytes": 2808,
+          "header_only": true,
+          "zip_crc32": "0xc996540f"
+        },
+        "JO_drive": {
+          "shape": [
+            90,
+            335
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 12297,
+          "member_bytes": 241328,
+          "header_only": true,
+          "zip_crc32": "0x65f6f81a"
+        },
+        "air_kinematics": {
+          "shape": [
+            90,
+            15
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6946,
+          "member_bytes": 10928,
+          "header_only": true,
+          "zip_crc32": "0x55e829aa"
+        }
+      },
+      "traces.npz": {
+        "fase": {
+          "shape": [
+            90
+          ],
+          "dtype": "<U8",
+          "compressed_bytes": 112,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xd6f00243"
+        },
+        "paso": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 256,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x675b14b7"
+        },
+        "CNS_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "PN_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "body_time_ns": {
+          "shape": [
+            90
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 426,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x38e4f23"
+        },
+        "sensores_usados": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "sensores_pendientes": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 87,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0x639e947d"
+        },
+        "antenas_mm": {
+          "shape": [
+            90,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 3569,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0x3aad2435"
+        },
+        "concentracion_campo": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 83,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xbd0e35e1"
+        },
+        "ORN_q_L": {
+          "shape": [
+            90,
+            35
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 21040,
+          "member_bytes": 25328,
+          "header_only": true,
+          "zip_crc32": "0x741ff444"
+        },
+        "ORN_q_R": {
+          "shape": [
+            90,
+            39
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 23434,
+          "member_bytes": 28208,
+          "header_only": true,
+          "zip_crc32": "0xb2de3e08"
+        },
+        "ORN_filters": {
+          "shape": [
+            90,
+            4,
+            74
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 192348,
+          "member_bytes": 213248,
+          "header_only": true,
+          "zip_crc32": "0x88c98284"
+        },
+        "PN_q_legacy": {
+          "shape": [
+            90,
+            2
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1395,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0x1fb389ee"
+        },
+        "PN_general_transmission": {
+          "shape": [
+            90,
+            629
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 411118,
+          "member_bytes": 453008,
+          "header_only": true,
+          "zip_crc32": "0xde447cd0"
+        },
+        "PN_gamma_nS": {
+          "shape": [
+            90,
+            100
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 64042,
+          "member_bytes": 72128,
+          "header_only": true,
+          "zip_crc32": "0xec5c775a"
+        },
+        "PN_additional_nS": {
+          "shape": [
+            90,
+            366
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 239813,
+          "member_bytes": 263648,
+          "header_only": true,
+          "zip_crc32": "0xa40aef45"
+        },
+        "DN_q_actual": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2676,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xc87addac"
+        },
+        "DN_q_usada": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2671,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xbd8386c7"
+        },
+        "DN_baseline": {
+          "shape": [
+            90,
+            4
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 118,
+          "member_bytes": 3008,
+          "header_only": true,
+          "zip_crc32": "0xe1805234"
+        },
+        "command_forward_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 801,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x8833caf7"
+        },
+        "command_yaw_rate_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 76,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x579089cf"
+        },
+        "qpos": {
+          "shape": [
+            90,
+            109
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 59821,
+          "member_bytes": 78608,
+          "header_only": true,
+          "zip_crc32": "0x5dfd06cb"
+        },
+        "qvel": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 75249,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0x4459f01f"
+        },
+        "position_mm": {
+          "shape": [
+            90,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 1775,
+          "member_bytes": 2288,
+          "header_only": true,
+          "zip_crc32": "0xee6ce20f"
+        },
+        "yaw_delta_deg": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 572,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x6d51915b"
+        },
+        "upright": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 550,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x7b321733"
+        },
+        "contact_active": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 79,
+          "member_bytes": 668,
+          "header_only": true,
+          "zip_crc32": "0x4a93faf6"
+        },
+        "normal_force_N": {
+          "shape": [
+            90,
+            6
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2301,
+          "member_bytes": 4448,
+          "header_only": true,
+          "zip_crc32": "0xdd6b45dc"
+        },
+        "contact_force_N": {
+          "shape": [
+            90,
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 6032,
+          "member_bytes": 13088,
+          "header_only": true,
+          "zip_crc32": "0x673e72b8"
+        },
+        "generalized_force_native": {
+          "shape": [
+            90,
+            108
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 38630,
+          "member_bytes": 77888,
+          "header_only": true,
+          "zip_crc32": "0xf161656c"
+        },
+        "energy_motor_J": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 685,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x388df69e"
+        },
+        "forward_unclipped_mm_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 801,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x8833caf7"
+        },
+        "neural_yaw_unapplied_rad_s": {
+          "shape": [
+            90
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 760,
+          "member_bytes": 848,
+          "header_only": true,
+          "zip_crc32": "0x64129770"
+        }
+      },
+      "dng100_observed.npz": {
+        "records": {
+          "shape": [
+            10161,
+            140
+          ],
+          "dtype": "float64",
+          "compressed_bytes": 2731231,
+          "member_bytes": 11380448,
+          "header_only": true,
+          "zip_crc32": "0x813f84bf"
+        },
+        "offsets": {
+          "shape": [
+            1441
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2400,
+          "member_bytes": 11656,
+          "header_only": true,
+          "zip_crc32": "0x6db95b09"
+        },
+        "ms": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 303,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a03f28"
+        },
+        "start_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2785,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x575b4981"
+        },
+        "duration_ns": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 139,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0xb99c30b"
+        },
+        "committed": {
+          "shape": [
+            1440
+          ],
+          "dtype": "bool",
+          "compressed_bytes": 84,
+          "member_bytes": 1568,
+          "header_only": true,
+          "zip_crc32": "0xb3a19ef9"
+        },
+        "trials": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1287,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x8a3ec012"
+        },
+        "accepted": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 1289,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x4f0ac41a"
+        },
+        "rejected": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 166,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x4e74e17a"
+        },
+        "epoch": {
+          "shape": [
+            1440
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 2301,
+          "member_bytes": 11648,
+          "header_only": true,
+          "zip_crc32": "0x22f5f58"
+        },
+        "fields": {
+          "shape": [
+            16
+          ],
+          "dtype": "<U17",
+          "compressed_bytes": 239,
+          "member_bytes": 1216,
+          "header_only": true,
+          "zip_crc32": "0xda91e851"
+        },
+        "rows": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "compressed_bytes": 75,
+          "member_bytes": 136,
+          "header_only": true,
+          "zip_crc32": "0x76d885bf"
+        },
+        "ids": {
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "compressed_bytes": 75,
+          "member_bytes": 144,
+          "header_only": true,
+          "zip_crc32": "0x1ea58294"
+        }
+      }
+    }
+  },
+  "statistics": {
+    "parent_matrix_shape": [
+      540,
+      16
+    ],
+    "all_matrix_shape": [
+      900,
+      16
+    ],
+    "independent_preparations_from_plan": 1,
+    "unique_initial_q_arrays": 1,
+    "recorded_neuron_ids": [
+      10045,
+      10056,
+      10118,
+      10065,
+      10442,
+      10760,
+      523769,
+      10360,
+      10888,
+      11067,
+      11074,
+      512006,
+      11960,
+      11702,
+      523640,
+      10371
+    ],
+    "ranges_per_neuron": [
+      0.0,
+      0.0,
+      0.0034107138877980114,
+      0.005892442118486385,
+      2.866795808161402e-138,
+      0.007591432257135322,
+      4.523900154658678e-108,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4670413078270796,
+      0.2071684817626155,
+      0.014242124668503903,
+      0.0
+    ],
+    "neurons_with_range_above_1e_9": 6,
+    "descriptive_threshold_not_scientific_gate": 1e-09,
+    "raw_q_centered_singular_values": [
+      3.7641309959692486,
+      1.588973106983024,
+      0.0417228767717077,
+      0.038296022746273646,
+      0.009957295109466151,
+      0.005763050410894347,
+      1.9794685566164714e-16,
+      1.693533041780081e-18,
+      1.8964778912549478e-19,
+      4.7540813687076435e-33,
+      4.5612419563291915e-35,
+      4.027329383373619e-36,
+      1.464469651948514e-49,
+      1.1020534252512958e-51,
+      0.0,
+      0.0
+    ],
+    "raw_q_PCA_cumulative_energy": [
+      0.8485837655967626,
+      0.9997999776728367,
+      0.9999042367199662,
+      0.9999920727312634,
+      0.9999980108382569,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002
+    ],
+    "no_feature_standardization": true,
+    "interpretation": "Numerical variance of selected heterogeneous q, not biological information or neural energy",
+    "fully_independent_validation_preparations": 0
+  },
+  "resources": {
+    "suver": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/fast_force_data_20260914/doi_10_5061_dryad_k06kh8f__v20190402.zip",
+      "present": true,
+      "bytes": 9477291327,
+      "members": [
+        {
+          "name": "DATA_SETS_SuverEtAl2019.7z",
+          "size": 9477291049,
+          "stored": true,
+          "compressed_bytes": 9477291049,
+          "crc32": "0x73a2fda1"
+        }
+      ],
+      "internal_7z_not_opened": true,
+      "full_archive_not_rehashed": true
+    },
+    "receipts": [
+      {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/additional_library_arrivals_20260915/inventory.json",
+        "sha256": "695c64ea0bc47adf2b7ccf0add829d0e1ac7fd3ef5d8a84765359b6079027d21",
+        "top_keys": [
+          "schema",
+          "files",
+          "total_input_bytes",
+          "official_member_count",
+          "responses_analyzed",
+          "web_used",
+          "scope",
+          "duplicate_audit",
+          "source_receipts",
+          "sampling_boundary"
+        ]
+      },
+      {
+        "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/new_dryad_arrivals_20260915/inventory.json",
+        "sha256": "73996bbebfaa48b339cbdbbaa91ff0d4bdb142e183d25fc1aad3ed5cb3999961",
+        "top_keys": [
+          "schema",
+          "files",
+          "members",
+          "official_metadata_sources",
+          "availability",
+          "duplicate_groups",
+          "duplicate_search",
+          "safeguards",
+          "helper"
+        ]
+      }
+    ]
+  },
+  "raw_array_sources": [
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/air0_odor0/neural_and_inputs.npz",
+      "bytes": 2057597,
+      "q_sha256": "dd573a394271a95490d827db4a83c3a3517f367eb77ddec1435469a2795cfb29"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airL_odor0/neural_and_inputs.npz",
+      "bytes": 2059628,
+      "q_sha256": "d83eefc9bf710a3b30c5237176f3bb3cafbc544be955631d95aa7dbe1789d345"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airR_odor0/neural_and_inputs.npz",
+      "bytes": 2059378,
+      "q_sha256": "53204a226b379981c371d8ea514d53ae0768163dffdf84e14b4f91a8e638e8b8"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/air0_odor1/neural_and_inputs.npz",
+      "bytes": 2056079,
+      "q_sha256": "fcc9f366b31f593e5fe7951d32a84b6bcc718be83df5211cb98f33edbb8ebc2e"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airL_odor1/neural_and_inputs.npz",
+      "bytes": 2057953,
+      "q_sha256": "a7c11723062057fcf531d14412ccee8271f7aac678bc61c79cac967a07124c38"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/airR_odor1/neural_and_inputs.npz",
+      "bytes": 2057646,
+      "q_sha256": "00c545ad8497778067490964e662bc58254298d5ed9b6b301342df284d9b232e"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/G_odor0/neural_and_inputs.npz",
+      "bytes": 2295682,
+      "q_sha256": "f7bf1bac78749d1aadddcf2126425dfc52bf836f0f4e68ba46da7e3b85f6d751"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/G_odor1/neural_and_inputs.npz",
+      "bytes": 2295904,
+      "q_sha256": "b2df9ab13d8b4c37ce2d498ec060623dc3cb3f6d974b7d71ad4b23a98ce2388e"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/I_odor0/neural_and_inputs.npz",
+      "bytes": 2294867,
+      "q_sha256": "a92f572fe3c29908ca096dd4b3aab2fab5ae73d66953663254a68e8265d2f8b8"
+    },
+    {
+      "path": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_alternativas_20260927_51/I_odor1/neural_and_inputs.npz",
+      "bytes": 2294800,
+      "q_sha256": "94a0300c4db3984b0a5ae9854149ccdb3d118ffcbf9fdd29c21a09d970bdc461"
+    }
+  ],
+  "no_dictionary_or_predictor_fit": true,
+  "new_CNS_steps": 0,
+  "new_GPU_calls": 0,
+  "CPU_s": 0.1699631,
+  "process_CPU_total_s": 0.3491559,
+  "peak_RSS_bytes": 159252480
+}

@@ -1,0 +1,45 @@
+{
+  "zip": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_HERRAMIENTAS_20260927_09.zip",
+  "bytes": 468423,
+  "sha256": "56dcc90bdaede45d96adbe77670d17e283df35b4d42c45671d5067a310ee28b7",
+  "files": 40,
+  "verification": {
+    "extraction": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/recibos/ETAPA45_HERRAMIENTAS_20260927_09_LOCAL/herramientas_causales_20260927_09",
+    "checks": [
+      {
+        "verified_from_arrays": true,
+        "corruptions_rejected": [
+          "stage",
+          "criterion",
+          "metric",
+          "neuron",
+          "nonfinite",
+          "target"
+        ],
+        "dictionary_next_test_supported": false,
+        "stage4_pass": false,
+        "stage5_pass": false
+      },
+      {
+        "status": "PASS",
+        "portable_inputs_only": true,
+        "optimization": true,
+        "corruptions_detected": [
+          "nonfinite_q",
+          "duplicate_id",
+          "wrong_group",
+          "changed_count"
+        ],
+        "source_reproduction_scope": "Recompute projected raw endpoint statistics, not original CNS or biological data",
+        "CPU_s": 0.015576300000000008,
+        "process_CPU_total_s": 0.06302,
+        "peak_RSS_bytes": 35745792
+      },
+      {
+        "verified": true,
+        "CPU_s": 1.102113,
+        "RSS_MiB": 199.48828125
+      }
+    ]
+  }
+}

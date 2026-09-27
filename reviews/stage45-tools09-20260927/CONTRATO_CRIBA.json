@@ -1,0 +1,18 @@
+{
+  "scope": "Criba retrospectiva de instrumentos externos sobre seis brazos parentales ya expuestos de 51. No nueva reserva científica, ni identificación biológica, ni controlador operativo.",
+  "question": "¿Una representación por diccionario mejora el pronóstico condicional a 10 ms frente a estado original y PCA, en dos combinaciones olor/aire excluidas del ajuste?",
+  "source_campaign": "etapa45_alternativas_20260927_51",
+  "train_arms": ["air0_odor0", "air0_odor1", "airL_odor0", "airR_odor0"],
+  "test_arms": ["airL_odor1", "airR_odor1"],
+  "time": {"first_input_row": 10, "last_input_row_exclusive": 80, "forecast_rows": 10, "sampling_ms": 1},
+  "state": "Las 16 salidas q nativas ya seleccionadas en 51. Media y desviación por célula sólo de entrenamiento; suelo de escala 1e-6 para no magnificar residuos subnormales.",
+  "inputs": "JO_drive y nominal_Hz realmente registrados en la fila de partida; sólo columnas de entrada con desviación de entrenamiento >1e-9. Normalización sólo con entrenamiento. Sin identificador de brazo, ley, tiempo absoluto ni target privilegiado.",
+  "target": "Incremento q(t+10)-q(t), 16 células; reconstrucción de estado es secundaria. Cada punto pronostica desde su estado observado, no es rollout autónomo desde el estado inicial.",
+  "baselines": ["persistencia", "Ridge sobre 16 estados", "PCA cuatro componentes + Ridge"],
+  "dictionary": {"class": "sklearn.decomposition.DictionaryLearning", "n_components": 32, "alpha": 0.1, "max_iter": 40, "fit_algorithm": "cd", "transform_algorithm": "omp", "transform_n_nonzero_coefs": 4, "seeds": [11,29,47,71]},
+  "regression": {"class": "Ridge", "alpha": 0.001, "fit_intercept": true, "solver": "svd"},
+  "metrics": ["RMSE de q por condición", "RMSE del contraste bilateral DNb05 por condición", "RMSE normalizado a persistencia", "error de reconstrucción", "tiempo CPU", "número de parámetros de la representación"],
+  "promotion_to_next_instrument_test": "Las cuatro semillas deben mejorar al menos 10% el RMSE bilateral DNb05 en ambas condiciones frente al mejor entre estado original y PCA, sin empeorar RMSE q >5%. Sólo habilita una prueba causal futura; no adopción automática ni PASS de etapas.",
+  "limits": {"benchmark_CPU_s_per_process": 30, "aggregate_research_CPU_s": 120, "max_RSS_GiB": 2, "new_CNS_steps": 0, "GPU_s": 0, "hyperparameter_searches": 0},
+  "limitations": ["Una preparación, sin semillas biológicas independientes", "La conversión de velocidad de aire de 51 es incorrecta: se evalúan datos históricos sin considerarlos viento físico válido", "16 células no cubren toda la red ni sus estados internos", "Las seis condiciones y sus resultados generales ya fueron vistos; exclusión del ajuste no equivale a confirmación ciega", "Dictionary Learning clásico con coeficientes firmados no es una reproducción del SAE de Anthropic", "No ventaja declarada sobre una familia entera a partir de esta parametrización"]
+}
