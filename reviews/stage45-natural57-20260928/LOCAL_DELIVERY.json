@@ -1,0 +1,88 @@
+{
+  "path": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_SENAL_NATURAL_20260928_57.zip",
+  "bytes": 94384764,
+  "sha256": "3b9285a7b1ee7708001368f93b60e5a4d5c586e1b4e41748fd23dccf2ebb95f3",
+  "files": 211,
+  "verification": {
+    "extraction": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/recibos/ETAPA45_SENAL_NATURAL_20260928_57_LOCAL/ETAPA45_SENAL_NATURAL_20260928_57",
+    "verification": {
+      "manifest_files_checked": 210,
+      "A": {
+        "contrasts": {
+          "half_L_minus_R_DNb_q": 3.1503320887868794e-05,
+          "half_L_minus_R_yaw_deg_s": 0.030361892465915252,
+          "common_yaw_source_minus_none_deg_s": -0.41843861171796837,
+          "source_minus_none_yaw_L_R_deg_s": [
+            -0.38807671925205334,
+            -0.44880050418388384
+          ],
+          "body_error_benefit_vs_none_L_R_deg": [
+            -0.11158264835943399,
+            0.13344823494253433
+          ],
+          "neural_and_yaw_material": true,
+          "direction_compatible_half_contrast": true,
+          "both_mirror_benefits_positive": false
+        },
+        "budget": {
+          "worker_CPU_s": 2370.4537517999997,
+          "queue_wall_s": 2153.349449364003,
+          "attempted_CNS_ms": 1154,
+          "committed_CNS_ms": 1154
+        },
+        "corruptions_rejected": 17,
+        "CPU_s": 6.5891565
+      },
+      "C": {
+        "contrasts": {
+          "natural_L": {
+            "mean_margin_change": [
+              2.985525131225586,
+              5.258294105529785
+            ],
+            "maximum_absolute_margin_change": [
+              3.848876953125,
+              6.07421875
+            ],
+            "smallest_none_gap": [
+              1344.061767578125,
+              1254.6842041015625
+            ],
+            "max_change_over_smallest_none_gap": [
+              0.002863616126854289,
+              0.004841233140692598
+            ]
+          },
+          "natural_R": {
+            "mean_margin_change": [
+              3.2598657608032227,
+              5.837774276733398
+            ],
+            "maximum_absolute_margin_change": [
+              4.16748046875,
+              6.64599609375
+            ],
+            "smallest_none_gap": [
+              1344.061767578125,
+              1254.6842041015625
+            ],
+            "max_change_over_smallest_none_gap": [
+              0.0031006614199430836,
+              0.005296947289225639
+            ]
+          }
+        },
+        "CPU_s": 0.1552919,
+        "new_CNS_ms": 0
+      },
+      "new_CNS_ms": 0,
+      "parent_CPU_s": 0.09482739999999999,
+      "scope": "Reconstruction of retained arrays and CPU protocols, not a new GPU brain simulation."
+    },
+    "new_CNS_ms": 0
+  },
+  "CPU_s": 19.7211477,
+  "child_CPU_s": 11.385907,
+  "wall_s": 62.13342898298288,
+  "aggregate_new_disk_bytes": 4491564735
+}

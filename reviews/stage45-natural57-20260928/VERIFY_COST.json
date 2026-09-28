@@ -1,0 +1,92 @@
+{
+  "CPU_s": 6.8394496,
+  "peak_RSS_bytes": 1125904384,
+  "optimized": true,
+  "tests": [
+    {
+      "name": "criterion",
+      "rejected": true,
+      "reason": "thresholds"
+    },
+    {
+      "name": "stage_flag",
+      "rejected": true,
+      "reason": "scope"
+    },
+    {
+      "name": "source_label",
+      "rejected": true,
+      "reason": "source label"
+    },
+    {
+      "name": "geometry",
+      "rejected": true,
+      "reason": "antenna geometry"
+    },
+    {
+      "name": "transduction",
+      "rejected": true,
+      "reason": "ORN transduction"
+    },
+    {
+      "name": "PN_id",
+      "rejected": true,
+      "reason": "PN identity"
+    },
+    {
+      "name": "PN_RHS_count",
+      "rejected": true,
+      "reason": "witness count"
+    },
+    {
+      "name": "ORN_RHS_error",
+      "rejected": true,
+      "reason": "ORN target witness"
+    },
+    {
+      "name": "body_clock",
+      "rejected": true,
+      "reason": "exact body recurrence"
+    },
+    {
+      "name": "neural_clock",
+      "rejected": true,
+      "reason": "clock natural_L/CNS_time_ns"
+    },
+    {
+      "name": "reader",
+      "rejected": true,
+      "reason": "yaw reader/unit"
+    },
+    {
+      "name": "baseline",
+      "rejected": true,
+      "reason": "reader recentered"
+    },
+    {
+      "name": "RHS_context",
+      "rejected": true,
+      "reason": "predictor/committed contexts"
+    },
+    {
+      "name": "accepted_flag",
+      "rejected": true,
+      "reason": "binary accepted flag"
+    },
+    {
+      "name": "nonfinite",
+      "rejected": true,
+      "reason": "nonfinite natural_Lconsumed/first"
+    },
+    {
+      "name": "horizon",
+      "rejected": true,
+      "reason": "horizon scope"
+    },
+    {
+      "name": "budget",
+      "rejected": true,
+      "reason": "exposure accounting"
+    }
+  ]
+}

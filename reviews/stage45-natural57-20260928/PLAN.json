@@ -1,0 +1,78 @@
+{
+  "schema": "natural_spatial57_v1",
+  "source_checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "arms": {
+    "qual": {
+      "source": "none",
+      "duration_ms": 2
+    },
+    "natural_none": {
+      "source": "none",
+      "duration_ms": 384
+    },
+    "natural_L": {
+      "source": "L",
+      "duration_ms": 384
+    },
+    "natural_R": {
+      "source": "R",
+      "duration_ms": 384
+    }
+  },
+  "prefix_ms": 10,
+  "early_window_ms": [
+    51,
+    89
+  ],
+  "analysis_window_ms": [
+    257,
+    384
+  ],
+  "planned_CNS_ms": 1154,
+  "CNS_ms": 1200,
+  "queue_CPU_s": 6000,
+  "queue_wall_s": 5000,
+  "qualification": {
+    "CPU_s": 170,
+    "wall_s": 160
+  },
+  "per_arm": {
+    "CPU_s": 1600,
+    "wall_s": 1500
+  },
+  "RAM_bytes": 25769803776,
+  "VRAM_bytes": 15032385536,
+  "new_disk_bytes": 10737418240,
+  "preparation_CPU_s": 180,
+  "analysis_delivery_CPU_s": 300,
+  "independent_review_CPU_s": 60,
+  "changes": {
+    "neural": "none; parent law, weights, thresholds, reader and initial history preserved",
+    "sensors": "same prescribed694ORN spatial proxy54, not validated chemical transduction; genericORN/PN witness read-only",
+    "body": "same applied yaw/forward, support and rollers54; no wind",
+    "duration": "extend peripheral guard3200->3384 for scientific arms only; cold-load same3000ms state within49 horizon; verify exact body recurrence everyms; portable restart remains unqualified"
+  },
+  "criteria": {
+    "neural_half_L_minus_R_q_min": 1.6e-05,
+    "yaw_half_L_minus_R_deg_s_min": 0.02,
+    "stage4": false,
+    "stage5": false,
+    "scope": "Developmental diagnostic, one exposed preparation. No biological equivalence or stage admission.",
+    "screen": "Material DNb and applied yaw halfL-R contrasts, positive direction-compatible contrast and improvement of source angular error vs same-source none trajectory in BOTH mirrors. Does not require forward, and does not admit stage4.",
+    "signal": "Report vectors, L-R half contrast and (L+R)/2-none common component. No selected-cell subset or input-size PASS cutoff.",
+    "persistence": "For each registered frontier: early51:89 mean halfL-R vector forms within-run descriptive template; late257:384 mean amplitude/norm/cosine/projection ratio; zero-denominator explicitly null. Report L-none and R-none. Same-run template is not independent confirmation and never enters organism.",
+    "frontiers": [
+      "nominal_ORN_Hz",
+      "ORN_generic_first_RHS",
+      "ORN_q_committed",
+      "PN_generic_first_RHS",
+      "PN_generic_last_RHS",
+      "PN_q_committed",
+      "DM1_filters_committed",
+      "fine_PN_KC_gamma_and_additional"
+    ],
+    "body": "Compare absolute error, same-source benefit versus none, signed yaw, physical heading/displacement; absolute positive yaw alone is not correct orientation.",
+    "confounds": "Anatomical ORN counts and total prescribed Hz differ with side; source contrasts do not isolate pure direction from amount. CSR output is not finePN input; specialized paths also observed. AllRHS witnesses summarize first,last,min,max,count, not full continuous tape."
+  },
+  "stop": "qual2ms exact then3x384ms, all first89ms exact54. Any discrepancy/nonfinite/budget stops; no automatic retries or parameter tuning. Complete hito even if negative."
+}

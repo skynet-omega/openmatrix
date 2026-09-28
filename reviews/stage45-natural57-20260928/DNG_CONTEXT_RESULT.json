@@ -1,0 +1,137 @@
+{
+  "schema": "conditional_DNg57_recomputed_v1",
+  "ids": [
+    10045,
+    10056
+  ],
+  "window_ms": [
+    257,
+    384
+  ],
+  "arms": {
+    "natural_none": {
+      "mean_net": [
+        -775.4838256835938,
+        -783.7198114395142
+      ],
+      "mean_drive": [
+        0.0,
+        0.0
+      ],
+      "mean_theta": [
+        663.258544921875,
+        559.1860961914062
+      ],
+      "mean_margin": [
+        -1438.7423706054688,
+        -1342.9059076309204
+      ],
+      "max_margin": [
+        -1344.061767578125,
+        -1254.6842041015625
+      ],
+      "mean_target": [
+        0.0,
+        0.0
+      ]
+    },
+    "natural_L": {
+      "mean_net": [
+        -772.4983005523682,
+        -778.4615197181702
+      ],
+      "mean_drive": [
+        0.0,
+        0.0
+      ],
+      "mean_theta": [
+        663.258544921875,
+        559.1860961914062
+      ],
+      "mean_margin": [
+        -1435.7568454742432,
+        -1337.6476135253906
+      ],
+      "max_margin": [
+        -1341.2890625,
+        -1249.5679931640625
+      ],
+      "mean_target": [
+        0.0,
+        0.0
+      ]
+    },
+    "natural_R": {
+      "mean_net": [
+        -772.2239599227905,
+        -777.882031917572
+      ],
+      "mean_drive": [
+        0.0,
+        0.0
+      ],
+      "mean_theta": [
+        663.258544921875,
+        559.1860961914062
+      ],
+      "mean_margin": [
+        -1435.4825048446655,
+        -1337.068133354187
+      ],
+      "max_margin": [
+        -1340.972900390625,
+        -1248.938720703125
+      ],
+      "mean_target": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "contrasts": {
+    "natural_L": {
+      "mean_margin_change": [
+        2.985525131225586,
+        5.258294105529785
+      ],
+      "maximum_absolute_margin_change": [
+        3.848876953125,
+        6.07421875
+      ],
+      "smallest_none_gap": [
+        1344.061767578125,
+        1254.6842041015625
+      ],
+      "max_change_over_smallest_none_gap": [
+        0.002863616126854289,
+        0.004841233140692598
+      ]
+    },
+    "natural_R": {
+      "mean_margin_change": [
+        3.2598657608032227,
+        5.837774276733398
+      ],
+      "maximum_absolute_margin_change": [
+        4.16748046875,
+        6.64599609375
+      ],
+      "smallest_none_gap": [
+        1344.061767578125,
+        1254.6842041015625
+      ],
+      "max_change_over_smallest_none_gap": [
+        0.0031006614199430836,
+        0.005296947289225639
+      ]
+    }
+  },
+  "source_hashes": {
+    "natural_none": "ad554ccf6fd0e7bc6a24006659ea3e75343b655f789833ed3cdf651ba4301da6",
+    "natural_L": "438960a1495b29d4505ecb0f5f12a1ccc398c5ce70c0dfd9cd45907f9668e116",
+    "natural_R": "d222f4e8bee685f9966d844da85c5357b82f963ed2f8866b968d13a8f88fdba5"
+  },
+  "plan_sha256": "0f942648acad427e1b617a56d6e257d1b80b423ad1549404c9576d6b77e81bd6",
+  "scope": "Characterize the separate forward-initiation problem. A large observed negative gap does not justify reducing the threshold or adding that amount of drive; no causal context mechanism identified and no new stage criterion.",
+  "units": "Internal generic-neuron units, not mV, current, spikes or a calibrated physiological excitation requirement."
+}

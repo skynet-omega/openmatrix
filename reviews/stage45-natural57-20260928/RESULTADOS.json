@@ -1,0 +1,342 @@
+{
+  "schema": "natural57_recomputed_v1",
+  "means_primary_window": {
+    "natural_none": {
+      "mean_yaw_deg_s": 2.794761155160956,
+      "mean_DNb_difference_q": -0.02343694289710037,
+      "mean_forward_mm_s": 0.0,
+      "mean_DNg_target_q": 0.0,
+      "final_error_L_R_deg": [
+        19.43487992227293,
+        23.043964721685988
+      ],
+      "physical_yaw_change_deg": 1.0520078530037884,
+      "physical_displacement_xy_mm": 0.006098424623038915,
+      "ORN_total_mean_Hz": 4436.0
+    },
+    "natural_L": {
+      "mean_yaw_deg_s": 2.4066844359089026,
+      "mean_DNb_difference_q": -0.023865379455999584,
+      "mean_forward_mm_s": 0.0,
+      "mean_DNg_target_q": 0.0,
+      "final_error_L_R_deg": [
+        19.546462570632364,
+        22.934471262722287
+      ],
+      "physical_yaw_change_deg": 0.9644148744155181,
+      "physical_displacement_xy_mm": 0.005591300689128509,
+      "ORN_total_mean_Hz": 6304.813543410657
+    },
+    "natural_R": {
+      "mean_yaw_deg_s": 2.345960650977072,
+      "mean_DNb_difference_q": -0.023928386097775322,
+      "mean_forward_mm_s": 0.0,
+      "mean_DNg_target_q": 0.0,
+      "final_error_L_R_deg": [
+        19.570866945289584,
+        22.910516486743454
+      ],
+      "physical_yaw_change_deg": 0.9452585303760939,
+      "physical_displacement_xy_mm": 0.005480301164933218,
+      "ORN_total_mean_Hz": 6205.270280578599
+    }
+  },
+  "contrasts": {
+    "half_L_minus_R_DNb_q": 3.1503320887868794e-05,
+    "half_L_minus_R_yaw_deg_s": 0.030361892465915252,
+    "common_yaw_source_minus_none_deg_s": -0.41843861171796837,
+    "source_minus_none_yaw_L_R_deg_s": [
+      -0.38807671925205334,
+      -0.44880050418388384
+    ],
+    "body_error_benefit_vs_none_L_R_deg": [
+      -0.11158264835943399,
+      0.13344823494253433
+    ],
+    "neural_and_yaw_material": true,
+    "direction_compatible_half_contrast": true,
+    "both_mirror_benefits_positive": false
+  },
+  "signals": {
+    "nominal_ORN_Hz": {
+      "early": {
+        "mean_lateral_norm": 23.452897172255096,
+        "norm_mean_lateral_vector": 23.452393004419203,
+        "mean_common_norm": 95.98686047278908,
+        "mean_projection_on_early": 23.45239300441919,
+        "mean_L_minus_none_norm": 98.96755818415,
+        "mean_R_minus_none_norm": 98.65297784110099,
+        "mean_relative_lateral_norm": 0.12067019413658696
+      },
+      "late": {
+        "mean_lateral_norm": 23.45895503321688,
+        "norm_mean_lateral_vector": 23.455039922499004,
+        "mean_common_norm": 95.97998143856745,
+        "mean_projection_on_early": 23.261954211076443,
+        "mean_L_minus_none_norm": 101.81296407971942,
+        "mean_R_minus_none_norm": 95.70129870806977,
+        "mean_relative_lateral_norm": 0.12070136313259383
+      },
+      "projection_late_over_early": 0.9918797713603519,
+      "norm_late_over_early": 1.0001128634540322,
+      "cosine_early_late": 0.9917678370166689,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 8.768673482574247,
+      "integral_signed_early_projection_11_to_384": 8.735616551536936,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "ORN_generic_first_RHS": {
+      "early": {
+        "mean_lateral_norm": 0.10837587401431192,
+        "norm_mean_lateral_vector": 0.10837101879374499,
+        "mean_common_norm": 0.4432149472117209,
+        "mean_projection_on_early": 0.10837101879374497,
+        "mean_L_minus_none_norm": 0.4563902853973616,
+        "mean_R_minus_none_norm": 0.45615461980647026,
+        "mean_relative_lateral_norm": 0.11131874774317613
+      },
+      "late": {
+        "mean_lateral_norm": 0.11792124986610451,
+        "norm_mean_lateral_vector": 0.11790287783517965,
+        "mean_common_norm": 0.48236471257633345,
+        "mean_projection_on_early": 0.11692124183084204,
+        "mean_L_minus_none_norm": 0.5109005809813832,
+        "mean_R_minus_none_norm": 0.48180373331342563,
+        "mean_relative_lateral_norm": 0.12112332183518468
+      },
+      "projection_late_over_early": 1.0788976899199416,
+      "norm_late_over_early": 1.087955794339961,
+      "cosine_early_late": 0.991674198099644,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.04108765947886684,
+      "integral_signed_early_projection_11_to_384": 0.0409176792768319,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "ORN_q_committed": {
+      "early": {
+        "mean_lateral_norm": 0.11107179956576069,
+        "norm_mean_lateral_vector": 0.11106770033128356,
+        "mean_common_norm": 0.4543047508063617,
+        "mean_projection_on_early": 0.11106770033128349,
+        "mean_L_minus_none_norm": 0.4680729500779839,
+        "mean_R_minus_none_norm": 0.4672971072806845,
+        "mean_relative_lateral_norm": 0.11408787927289388
+      },
+      "late": {
+        "mean_lateral_norm": 0.11793785112220428,
+        "norm_mean_lateral_vector": 0.11791919698683279,
+        "mean_common_norm": 0.4823636709396457,
+        "mean_projection_on_early": 0.11694281777975392,
+        "mean_L_minus_none_norm": 0.5112206186881134,
+        "mean_R_minus_none_norm": 0.48147005808308685,
+        "mean_relative_lateral_norm": 0.12114037382250475
+      },
+      "projection_late_over_early": 1.0528967236284406,
+      "norm_late_over_early": 1.0616875710500275,
+      "cosine_early_late": 0.9917199299857181,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.041796206905672664,
+      "integral_signed_early_projection_11_to_384": 0.04162704871059391,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "PN_generic_first_RHS": {
+      "early": {
+        "mean_lateral_norm": 0.019886764847047163,
+        "norm_mean_lateral_vector": 0.019857549596249448,
+        "mean_common_norm": 0.3082677035311419,
+        "mean_projection_on_early": 0.019857549596249448,
+        "mean_L_minus_none_norm": 0.2981378987826618,
+        "mean_R_minus_none_norm": 0.31931627430355664,
+        "mean_relative_lateral_norm": 0.0010072203378921768
+      },
+      "late": {
+        "mean_lateral_norm": 0.024646897947148624,
+        "norm_mean_lateral_vector": 0.024590897300057337,
+        "mean_common_norm": 0.47580437668665726,
+        "mean_projection_on_early": 0.022160097657725343,
+        "mean_L_minus_none_norm": 0.47309163315270775,
+        "mean_R_minus_none_norm": 0.4797639511035736,
+        "mean_relative_lateral_norm": 0.0012483330721569643
+      },
+      "projection_late_over_early": 1.115953282670425,
+      "norm_late_over_early": 1.2383651457530234,
+      "cosine_early_late": 0.9011504292555307,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.008490731270748496,
+      "integral_signed_early_projection_11_to_384": 0.008055296771443272,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "PN_generic_last_RHS": {
+      "early": {
+        "mean_lateral_norm": 0.02018303451608216,
+        "norm_mean_lateral_vector": 0.02015459099265687,
+        "mean_common_norm": 0.3134528417746809,
+        "mean_projection_on_early": 0.020154590992656873,
+        "mean_L_minus_none_norm": 0.30318174659257313,
+        "mean_R_minus_none_norm": 0.32465531106498585,
+        "mean_relative_lateral_norm": 0.0010222260965925974
+      },
+      "late": {
+        "mean_lateral_norm": 0.024640653363117302,
+        "norm_mean_lateral_vector": 0.024584585643654743,
+        "mean_common_norm": 0.4757992367956214,
+        "mean_projection_on_early": 0.022152707297907442,
+        "mean_L_minus_none_norm": 0.47313142281593956,
+        "mean_R_minus_none_norm": 0.4797138715022047,
+        "mean_relative_lateral_norm": 0.0012480166352519847
+      },
+      "projection_late_over_early": 1.099139511487907,
+      "norm_late_over_early": 1.2198007715766546,
+      "cosine_early_late": 0.9010811741553608,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.008515113510178928,
+      "integral_signed_early_projection_11_to_384": 0.008080546650263393,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "PN_q_committed": {
+      "early": {
+        "mean_lateral_norm": 0.021649552135487107,
+        "norm_mean_lateral_vector": 0.021623749807535664,
+        "mean_common_norm": 0.339187479939996,
+        "mean_projection_on_early": 0.02162374980753566,
+        "mean_L_minus_none_norm": 0.3282166090136931,
+        "mean_R_minus_none_norm": 0.3511519605978932,
+        "mean_relative_lateral_norm": 0.0010965039014344678
+      },
+      "late": {
+        "mean_lateral_norm": 0.02461079570433536,
+        "norm_mean_lateral_vector": 0.024554300228770476,
+        "mean_common_norm": 0.4757739166553335,
+        "mean_projection_on_early": 0.022105196646996603,
+        "mean_L_minus_none_norm": 0.47333074454296414,
+        "mean_R_minus_none_norm": 0.4794638744299706,
+        "mean_relative_lateral_norm": 0.0012465035958442413
+      },
+      "projection_late_over_early": 1.022264724839406,
+      "norm_late_over_early": 1.1355246174839455,
+      "cosine_early_late": 0.9002576510445923,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.008637729037889647,
+      "integral_signed_early_projection_11_to_384": 0.008203682105381326,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "DM1_filters_committed": {
+      "early": {
+        "mean_lateral_norm": 0.03344601096379183,
+        "norm_mean_lateral_vector": 0.03333459328236101,
+        "mean_common_norm": 0.1403135121359823,
+        "mean_projection_on_early": 0.033334593282361005,
+        "mean_L_minus_none_norm": 0.14438585771871737,
+        "mean_R_minus_none_norm": 0.14410353790708288,
+        "mean_relative_lateral_norm": 0.00962840336537574
+      },
+      "late": {
+        "mean_lateral_norm": 0.11784975377510326,
+        "norm_mean_lateral_vector": 0.11783541238296776,
+        "mean_common_norm": 0.55648639345969,
+        "mean_projection_on_early": 0.10924143238603072,
+        "mean_L_minus_none_norm": 0.5764288872704162,
+        "mean_R_minus_none_norm": 0.561127527437521,
+        "mean_relative_lateral_norm": 0.03383805183803345
+      },
+      "projection_late_over_early": 3.2771191014901557,
+      "norm_late_over_early": 3.5349287565875396,
+      "cosine_early_late": 0.9270679346459416,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 0.030158802569948923,
+      "integral_signed_early_projection_11_to_384": 0.028412751880618398,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    },
+    "fine_PN_KC_gamma_and_additional": {
+      "early": {
+        "mean_lateral_norm": 3.393148081660811e-06,
+        "norm_mean_lateral_vector": 3.3926254849486736e-06,
+        "mean_common_norm": 0.00015882400364510587,
+        "mean_projection_on_early": 3.3926254849486736e-06,
+        "mean_L_minus_none_norm": 0.00016221695863101725,
+        "mean_R_minus_none_norm": 0.00015543105687021102,
+        "mean_relative_lateral_norm": 5.441624154782077e-05
+      },
+      "late": {
+        "mean_lateral_norm": 1.9340679959719963e-05,
+        "norm_mean_lateral_vector": 1.9338526012867707e-05,
+        "mean_common_norm": 0.000529006461915786,
+        "mean_projection_on_early": 1.928398123426269e-05,
+        "mean_L_minus_none_norm": 0.0005483424577672046,
+        "mean_R_minus_none_norm": 0.00050967083250349,
+        "mean_relative_lateral_norm": 0.0003102735165993533
+      },
+      "projection_late_over_early": 5.6840878310369805,
+      "norm_late_over_early": 5.700165284574662,
+      "cosine_early_late": 0.9971794759037621,
+      "late_fraction_positive_early_projection": 1.0,
+      "integral_lateral_norm_11_to_384": 4.634330806746377e-06,
+      "integral_signed_early_projection_11_to_384": 4.622367655790533e-06,
+      "scope": "Descriptive source contrast and 1ms-sampled Riemann summary, not actual integrated synaptic dose. First/last are observed CSR calls including predictor/rejected evaluations; first interval also includes8warmup calls. Within-run template, not independent biological evidence or a motor decoder."
+    }
+  },
+  "arms": {
+    "qual": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0,
+      "DNg_target_mean_endpoints_q": 0.0,
+      "DNg_margin_max": [
+        -1477.5142822265625,
+        -1387.910888671875
+      ],
+      "maximum_positive_target_ULP": 0,
+      "PN_RHS_calls": 872
+    },
+    "natural_none": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0,
+      "DNg_target_mean_endpoints_q": 0.0,
+      "DNg_margin_max": [
+        -1335.319091796875,
+        -1242.012939453125
+      ],
+      "maximum_positive_target_ULP": 0,
+      "PN_RHS_calls": 165392
+    },
+    "natural_L": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0,
+      "DNg_target_mean_endpoints_q": 0.0,
+      "DNg_margin_max": [
+        -1335.252685546875,
+        -1241.93408203125
+      ],
+      "maximum_positive_target_ULP": 0,
+      "PN_RHS_calls": 167612
+    },
+    "natural_R": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0,
+      "DNg_target_mean_endpoints_q": 0.0,
+      "DNg_margin_max": [
+        -1335.2327880859375,
+        -1241.910888671875
+      ],
+      "maximum_positive_target_ULP": 0,
+      "PN_RHS_calls": 166268
+    }
+  },
+  "budget": {
+    "worker_CPU_s": 2370.4537517999997,
+    "queue_wall_s": 2153.349449364003,
+    "attempted_CNS_ms": 1154,
+    "committed_CNS_ms": 1154
+  },
+  "qualification_exact": true,
+  "prefix54_89ms_exact": true,
+  "screen_supported": false,
+  "classification": "DESCARTADO",
+  "classification_scope": "Promotion from this fixed natural spatial diagnostic only, not impossibility of the project or absence of smaller effects.",
+  "stage4_admitted": false,
+  "stage5_admitted": false,
+  "limits": "Anatomical ORN counts and total prescribed Hz differ with side; source contrasts do not isolate pure direction from amount. CSR output is not finePN input; specialized paths also observed. AllRHS witnesses summarize first,last,min,max,count, not full continuous tape."
+}

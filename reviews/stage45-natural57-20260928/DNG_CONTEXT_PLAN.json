@@ -1,0 +1,13 @@
+{
+  "schema": "conditional_DNg57_observation_v1",
+  "question": "How much does spatial odor change the observed DNg100 input/margin compared with its retained distance below threshold?",
+  "exposure": "Written during natural_L execution, after examining only qualification and none integrity; no L/R result inspected. Same exposed preparation, descriptive secondary analysis.",
+  "source": "Final accepted RK3(2) trial of last committed epoch in each millisecond, fourth RHS at left limit of endpoint; not a new evaluation after commit.",
+  "arms": ["natural_none", "natural_L", "natural_R"],
+  "window_ms": [257, 384],
+  "observables": ["net", "drive", "theta", "margin", "final_target"],
+  "comparison": "Per DNg cell: late mean/max margin, mean net/drive/theta and mean target; source-minus-none margin at matched endpoints and its maximum absolute magnitude relative to the smallest basal below-threshold gap at those same endpoints. Ratio null if basal is not strictly below threshold.",
+  "units": "Internal generic-neuron units, not mV, current, spikes or a calibrated physiological excitation requirement.",
+  "decision_scope": "Characterize the separate forward-initiation problem. A large observed negative gap does not justify reducing the threshold or adding that amount of drive; no causal context mechanism identified and no new stage criterion.",
+  "budget": "Included in round57 analysis300sCPU, no new CNS/GPU, no model modification. One computation plus independent check if reviewer budget permits."
+}
