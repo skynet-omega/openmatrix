@@ -1,0 +1,140 @@
+{
+  "question": "Does the consumed weight sign contradict the existing explicit presynaptic-NT hypothesis on all afferents of the two fixed DNg100?",
+  "selection": "all afferents; no effect ranking",
+  "results": [
+    {
+      "target": 10045,
+      "edges": 1123,
+      "unique_afferents": 1123,
+      "operator_sign_vs_initial_hypothesis_mismatches": 0,
+      "mismatch_pre_ids": [],
+      "by_label": {
+        "acetylcholine": {
+          "edges": 602,
+          "weight_signs": [
+            1
+          ]
+        },
+        "dopamine": {
+          "edges": 9,
+          "weight_signs": [
+            0
+          ]
+        },
+        "gaba": {
+          "edges": 316,
+          "weight_signs": [
+            -1
+          ]
+        },
+        "glutamate": {
+          "edges": 141,
+          "weight_signs": [
+            -1
+          ]
+        },
+        "octopamine": {
+          "edges": 9,
+          "weight_signs": [
+            0
+          ]
+        },
+        "serotonin": {
+          "edges": 2,
+          "weight_signs": [
+            0
+          ]
+        },
+        "unclear": {
+          "edges": 44,
+          "weight_signs": [
+            0
+          ]
+        }
+      },
+      "theta_native": 663.258544921875,
+      "gain_per_native_unit": 5.64052823774715e-05,
+      "tau_s": 0.018692342564463615
+    },
+    {
+      "target": 10056,
+      "edges": 1166,
+      "unique_afferents": 1166,
+      "operator_sign_vs_initial_hypothesis_mismatches": 0,
+      "mismatch_pre_ids": [],
+      "by_label": {
+        "acetylcholine": {
+          "edges": 619,
+          "weight_signs": [
+            1
+          ]
+        },
+        "dopamine": {
+          "edges": 12,
+          "weight_signs": [
+            0
+          ]
+        },
+        "gaba": {
+          "edges": 303,
+          "weight_signs": [
+            -1
+          ]
+        },
+        "glutamate": {
+          "edges": 153,
+          "weight_signs": [
+            -1
+          ]
+        },
+        "histamine": {
+          "edges": 3,
+          "weight_signs": [
+            -1
+          ]
+        },
+        "octopamine": {
+          "edges": 12,
+          "weight_signs": [
+            0
+          ]
+        },
+        "serotonin": {
+          "edges": 2,
+          "weight_signs": [
+            0
+          ]
+        },
+        "unclear": {
+          "edges": 62,
+          "weight_signs": [
+            0
+          ]
+        }
+      },
+      "theta_native": 559.1860961914062,
+      "gain_per_native_unit": 5.7706444761764594e-05,
+      "tau_s": 0.022916041314601898
+    }
+  ],
+  "rule": {
+    "acetylcholine": 1,
+    "ach": 1,
+    "gaba": -1,
+    "glutamate": -1,
+    "glu": -1,
+    "histamine": -1,
+    "his": -1
+  },
+  "source_sha256": {
+    "data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "campanas/etapa45_operands_20260927_49/frozen_selection.npz": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6",
+    "src/anatomical_rate_brain.py": "44ea26594d1b9b00d78ad0fc759a7fa3b2f02af7bd367ae6ab5c6799469a4ba3",
+    "src/anatomical_morphometry.py": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43",
+    "src/synaptic_visual_brain.py": "c637b1828a173a0a2b175d0e92bba2538d4fc62d4e079c065b6f5afda13184cb"
+  },
+  "interpretation": "Implementation/annotation consistency only. The operator was constructed from this annotation, so agreement is not independent validation of postsynaptic receptors or physiological sign. No missing value assigned by this audit.",
+  "CPU_s": 0.06695149999999983,
+  "new_CNS_ms": 0,
+  "new_download_bytes": 0
+}

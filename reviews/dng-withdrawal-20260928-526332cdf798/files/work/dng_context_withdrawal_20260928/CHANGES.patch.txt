@@ -1,0 +1,195 @@
+--- before/src/dng_context_capacity.py
++++ src/dng_context_capacity.py
+@@ -62,8 +62,7 @@
+     return np.asarray(accepted), np.asarray(anchors), np.asarray(clocks, np.int64)
+ 
+ 
+-def group_bound(operands, mask, drive, theta, warp):
+-    """Preserve original edge positions, products and warp order for upper net."""
++def validate_operands(operands, mask):
+     o = np.asarray(operands)
+     need(o.dtype == np.float32 and o.shape[-1] == 4, 'FP32 operand schema')
+     need(mask.dtype == np.bool_ and mask.shape == (o.shape[-2],), 'group mask shape')
+@@ -72,6 +71,12 @@
+     need(np.all(cap >= 0), 'negative cap')
+     need(np.all((included == 0) | (included == 1)), 'nonbinary inclusion')
+     need(np.all((q >= 0) & (q <= 1)), 'consumed transmission outside frozen domain')
++    return w, q, cap, included
++
++
++def group_bound(operands, mask, drive, theta, warp):
++    """Preserve original edge positions, products and warp order for upper net."""
++    w, q, cap, included = validate_operands(operands, mask)
+     terms = np.where(included != 0, w * (q * cap), np.float32(0))
+     upper_q = q.copy()
+     upper_q = np.where(mask & (w > 0), np.float32(1), upper_q)
+@@ -95,6 +100,55 @@
+                 upper_margin32=upper_margin, available_increment32=upper_net.astype(float)-net)
+ 
+ 
++def withdrawal(operands, mask, sign, drive, theta, warp):
++    """Zero reception of a predefined signed subset, with all other operands fixed."""
++    w, q, cap, included = validate_operands(operands, mask)
++    need(sign in {'none', 'negative', 'positive', 'all'}, 'unknown withdrawal sign')
++    selected = np.broadcast_to(mask, q.shape).copy()
++    if sign == 'none': selected[:] = False
++    elif sign == 'negative': selected &= w < 0
++    elif sign == 'positive': selected &= w > 0
++    terms = np.where(included != 0, w*(q*cap), np.float32(0))
++    after_q = np.where(selected, np.float32(0), q)
++    after = np.where(included != 0, w*(after_q*cap), np.float32(0))
++    net, after_net = warp(terms), warp(after)
++    margin = np.float32(net+np.asarray(drive,np.float32))-np.asarray(theta,np.float32)
++    after_margin = np.float32(after_net+np.asarray(drive,np.float32))-np.asarray(theta,np.float32)
++    need(np.isfinite(after_margin).all(), 'nonfinite withdrawal')
++    if sign == 'none': need(np.array_equal(net, after_net), 'identity changed consumer')
++    if sign == 'negative': need(np.all(after_margin >= margin), 'negative withdrawal direction')
++    if sign == 'positive': need(np.all(after_margin <= margin), 'positive withdrawal direction')
++    return dict(original_net32=net, original_margin32=margin, after_net32=after_net,
++                after_margin32=after_margin, increment32=after_net.astype(float)-net,
++                removed_product_sum64=np.where(selected,terms,np.float32(0)).sum(axis=-1,dtype=np.float64))
++
++
++def withdrawal_summary(points, targets):
++    """Pair targets within the same history/evaluation, never mix maxima in time."""
++    cases = list(dict.fromkeys(p['case'] for p in points))
++    result = []
++    for case in cases:
++        by_instant = {}
++        selected = [p for p in points if p['case']==case]
++        for p in selected:
++            key=(p['history'],p['window_ms'],p['epoch'],p['trial'],p['rhs_stage'])
++            pair=by_instant.setdefault(key,{})
++            need(p['target'] not in pair, 'duplicate target at withdrawal instant')
++            pair[p['target']]=p
++        need(all(set(pair)==set(targets) for pair in by_instant.values()), 'missing paired target')
++        need(all(len({p['epoch_start_ns'] for p in pair.values()})==1 and
++                 len({p['local_time_s'] for p in pair.values()})==1 for pair in by_instant.values()), 'paired clocks differ')
++        both=sum(all(p['after_margin32']>0 for p in pair.values()) for pair in by_instant.values())
++        aligned=[pair for pair in by_instant.values() if all(p['aligned'] for p in pair.values())]
++        result.append(dict(case=case, paired_evaluations=len(by_instant), paired_aligned=len(aligned),
++                           both_positive_evaluations=both,
++                           both_positive_aligned=sum(all(p['after_margin32']>0 for p in pair.values()) for pair in aligned),
++                           targets=[dict(target=t, minimum_margin32=min(p['after_margin32'] for p in selected if p['target']==t),
++                                         maximum_margin32=max(p['after_margin32'] for p in selected if p['target']==t),
++                                         positive_evaluations=sum(p['after_margin32']>0 for p in selected if p['target']==t)) for t in targets]))
++    return result
++
++
+ def anatomy(inputs, c, selection):
+     with Path(inputs['anatomy']).open(newline='') as stream:
+         rows = list(csv.DictReader(stream))
+@@ -143,7 +197,7 @@
+     for cell in target_indices:
+         ids = selection['pre_ids'][selection['ptr'][cell]:selection['ptr'][cell+1]]
+         need(len(np.unique(ids)) == len(ids), 'duplicate presynaptic variable within row')
+-    summaries, aligned, fidelity = [], [], []
++    summaries, aligned, fidelity, withdrawals = [], [], [], []
+     static_reference = None
+     for history in c['histories']:
+         for window in c['windows_ms']:
+@@ -152,6 +206,8 @@
+             verification = verifier.verify(z)
+             verification.pop('margin_ranges')  # the six totals are old evidence, not new discoveries
+             accept, anchors, clocks = phases(z)
++            epoch_of_trial = np.repeat(np.arange(len(z['offsets'])-1), np.diff(z['offsets']))
++            anchor_set = set(anchors.tolist())
+             need(len(clocks) == 8 and np.all(z['ms'] == 3000 + window), 'window coverage')
+             o = z['operands']
+             rhs = z['records'][:, :384].reshape(len(o), 4, 6, 16)
+@@ -198,6 +254,20 @@
+                         row = dict(history=history, window_ms=window, target=target, group=group, absolute_ns=int(clock))
+                         row.update({name:float(value[point, 0]) for name, value in result.items()})
+                         aligned.append(row)
++                for name, rule in c.get('withdrawals', {}).items():
++                    need(rule['group'] in masks, 'unknown withdrawal group')
++                    result = withdrawal(sample, masks[rule['group']][a:b], rule['sign'], drive, theta, verifier.warp)
++                    need(np.array_equal(result['original_margin32'], rhs[accept,:,cell,10]), 'withdrawal baseline differs')
++                    for point, trial in enumerate(accept):
++                        epoch=int(epoch_of_trial[trial])
++                        for stage in range(4):
++                            row=dict(history=history, window_ms=window, case=name, target=target,
++                                     epoch=int(z['epoch'][epoch]), trial=int(z['records'][trial,403]),
++                                     rhs_stage=stage, epoch_start_ns=int(z['start_ns'][epoch]),
++                                     local_time_s=float(rhs[trial,stage,cell,14]),
++                                     aligned=bool(trial in anchor_set and stage==0))
++                            row.update({k:float(v[point,stage]) for k,v in result.items()})
++                            withdrawals.append(row)
+             del z, o, domain, sample
+     lookup = {(r['history'], r['target'], r['group'], r['absolute_ns']):r for r in aligned}
+     need(len(lookup) == len(aligned), 'duplicate aligned key')
+@@ -241,6 +311,11 @@
+     save_csv(out/'aligned.csv', aligned)
+     save_csv(out/'differences.csv', differences)
+     save_csv(out/'groups.csv', overall)
++    if c.get('withdrawals'):
++        assessment['withdrawals']=withdrawal_summary(withdrawals,c['targets'])
++        assessment['C1_negative_pair_eligible']=any(r['case']=='C1_negative' and r['both_positive_aligned']>0 for r in assessment['withdrawals'])
++        assessment['withdrawal_scope']='Instantaneous fixed-outside reception only. No interpolation or recurrent-trajectory claim.'
++        save_csv(out/'withdrawals.csv',withdrawals)
+     (out/'assessment.json').write_text(json.dumps(assessment, indent=2, allow_nan=False)+'\n')
+     lines = ['# Contexto directo hacia DNg100', '', c['scope'], '',
+              'Unidades: entrada nativa del modelo. Intervalos observados, no incertidumbre estadística.', '',
+@@ -251,6 +326,15 @@
+     lines += ['', 'La cota cambia sólo transmisiones del grupo, maximizando entradas positivas y silenciando negativas. Conserva resto, máscaras, capacidades, pesos, productos y orden FP32. Una cota positiva no demuestra reclutamiento realizable ni locomoción.',
+               '', 'Se verifican las diez capturas y las seis filas originales; la pregunta nueva corresponde a las dos DNg100. Comparación sham/profile: 40 instantes absolutos por grupo/destino, RHS0 del primer intento aceptado de cada época comprometida. Las envolventes incluyen todos los RHS aceptados comprometidos.',
+               '', 'Los campos de clase ausentes se informan en assessment.json y windows.csv; no se reinterpretan como una clase conocida distinta de MBON. Etapas4/5 abiertas.']
++    if withdrawals:
++        lines += ['', '## Retirada directa: resultado nuevo', '',
++                  '| Caso | DNg100 | Margen mínimo | Margen máximo | Evaluaciones positivas |',
++                  '|---|---:|---:|---:|---:|']
++        for case in assessment['withdrawals']:
++            for r in case['targets']:
++                lines.append(f"| {case['case']} | {r['target']} | {r['minimum_margin32']:.9g} | {r['maximum_margin32']:.9g} | {r['positive_evaluations']} |")
++        lines += ['', 'Las retiradas ponen a cero sólo la recepción indicada, sin saturar emisores positivos. Los cinco casos comparten captura y operador. Todos los RHS aceptados se conservan en withdrawals.csv; la admisión diagnóstica exige ambos márgenes positivos en un mismo instante alineado.',
++                  '', 'Este resultado no describe una continuación recurrente ni los huecos entre ventanas. No identifica un estímulo biológico ni justifica retirar conexiones del organismo.']
+     (out/'REPORT.md').write_text('\n'.join(lines)+'\n')
+     elapsed = time.process_time()-start
+     need(elapsed <= c['budget']['CPU_seconds'], 'analysis CPU budget exceeded')
+--- before/tests/test_dng_context_capacity.py
++++ tests/test_dng_context_capacity.py
+@@ -4,7 +4,7 @@
+ import hashlib
+ import numpy as np
+ import pytest
+-from dng_context_capacity import group_bound, phases, freeze_check, load_module
++from dng_context_capacity import group_bound, phases, freeze_check, load_module, withdrawal, withdrawal_summary
+ 
+ 
+ WARP = load_module(Path(__file__).parents[1]/'campanas/etapa45_operands_20260927_49/verify_operands.py', '_test_dng_verifier').warp
+@@ -61,3 +61,35 @@
+     c.write_text('{}');f.write_text(json.dumps({'contract_sha256':hashlib.sha256(c.read_bytes()).hexdigest()}))
+     c.write_text('{"criterion":"altered"}')
+     with pytest.raises(ValueError,match='frozen contract'):freeze_check({'contract':c,'freeze':f})
++
++
++def test_signed_withdrawals_do_not_saturate_other_emitters():
++    o=np.array([[2,.25,2,1],[-3,.5,1,1],[-1e8,.5,2,0],[4,.25,1,1]],np.float32)
++    mask=np.array([True,True,True,False])
++    original=o.copy()
++    expected={'none':-2.5,'negative':-1.,'positive':-3.5,'all':-2.}
++    for sign, margin in expected.items():
++        r=withdrawal(o,mask,sign,0,3,WARP)
++        assert r['after_margin32']==margin
++        assert r['original_margin32']==-2.5
++    assert np.array_equal(o,original)
++    # Maximum-box saturation opens this example; removing inhibition does not.
++    assert group_bound(o,mask,0,3,WARP)['upper_margin32']==2
++
++
++def test_pair_gate_cannot_join_opposite_targets_at_different_instants():
++    points=[]
++    for trial in [0,1]:
++        for target in [10045,10056]:
++            points.append(dict(case='C1_negative',history='sham',window_ms=1,epoch=1,
++                               trial=trial,rhs_stage=0,epoch_start_ns=100,local_time_s=float(trial),
++                               target=target,aligned=True,
++                               after_margin32=1. if (target==10045)==(trial==0) else -1.))
++    r=withdrawal_summary(points,[10045,10056])[0]
++    assert r['both_positive_aligned']==0 and all(t['positive_evaluations']==1 for t in r['targets'])
++    points[-1]['after_margin32']=2.
++    assert withdrawal_summary(points,[10045,10056])[0]['both_positive_aligned']==0
++    points[-2]['after_margin32']=2.
++    assert withdrawal_summary(points,[10045,10056])[0]['both_positive_aligned']==1
++    points[-1]['local_time_s']=7.
++    with pytest.raises(ValueError,match='clocks'):withdrawal_summary(points,[10045,10056])

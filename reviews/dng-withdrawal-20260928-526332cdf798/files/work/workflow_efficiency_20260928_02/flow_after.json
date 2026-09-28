@@ -1,0 +1,65 @@
+[
+  {
+    "name": "code_query",
+    "command": [
+      "./matrix",
+      "code",
+      "dng_context_capacity",
+      "--limit",
+      "3"
+    ],
+    "exit_code": 0,
+    "wall_s": 2.744114265020471,
+    "CPU_s": 0.84168,
+    "returned": 3
+  },
+  {
+    "name": "recover",
+    "command": [
+      "./matrix",
+      "context",
+      "DNg100 contexto capacidad",
+      "--brief"
+    ],
+    "exit_code": 0,
+    "wall_s": 0.9501032599946484,
+    "CPU_s": 0.864746
+  },
+  {
+    "name": "reuse",
+    "command": [
+      "./matrix",
+      "workbench",
+      "run",
+      "dng-context-capacity"
+    ],
+    "exit_code": 0,
+    "wall_s": 3.2213295300025493,
+    "CPU_s": 3.3130669999999998,
+    "steps": {
+      "capacity": {
+        "key": "85a9e65903770218072eae55d1741dd2dba16dcf7a6ca1c86d0e35baf2eff336",
+        "reused": false,
+        "status": "COMPLETE",
+        "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/85a9e65903770218072eae55d1741dd2dba16dcf7a6ca1c86d0e35baf2eff336/attempts/acb98856f3c14fa5b577b13c2b217d43"
+      }
+    },
+    "laboratory_index": {
+      "status": "indexed",
+      "record": "work/dng_context_capacity_20260928",
+      "scientific_admission": null
+    }
+  },
+  {
+    "name": "search",
+    "command": [
+      "./matrix",
+      "lab",
+      "find",
+      "DNg100"
+    ],
+    "exit_code": 0,
+    "wall_s": 0.03382724802941084,
+    "CPU_s": 0.03127000000000002
+  }
+]

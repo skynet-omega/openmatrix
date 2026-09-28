@@ -1,5 +1,5 @@
 # Última evidencia
 
-[dng-context-20260928](reviews/dng-context-20260928-dc7cce758e2a/README.md)
+[dng-withdrawal-20260928](reviews/dng-withdrawal-20260928-526332cdf798/README.md)
 
-Cotas directas y aportes de grupos anatómicos hacia DNg100 desde operandos49. Descendentes/ascendentes con capacidad algebraica y saldo observado inhibitorio; cero aristas del subconjunto MBON anotado. Revisión independiente y lectura CPU reproducible. Cero nuevo CNS; etapas4/5 abiertas.
+Cinco retiradas directas preregistradas hacia DNg100: resultado negativo; registros49 íntegros y reconstrucción CPU. Dos correcciones de concurrencia del laboratorio y sus regresiones. Etapas4/5 abiertas.

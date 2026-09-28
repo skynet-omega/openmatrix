@@ -1,0 +1,78 @@
+--- before/scripts/code_catalog.py
++++ scripts/code_catalog.py
+@@ -136,6 +136,20 @@
+     db = Path(db)
+     if not create and not db.is_file():
+         raise ValueError("Index absent; run build first: " + str(db))
++    if not create:
++        # Queries must read the last committed index while a build is writing.
++        # Reinitializing schema/meta here took a writer lock for every search.
++        con = sqlite3.connect(db.resolve().as_uri() + "?mode=ro", uri=True)
++        try:
++            con.row_factory = sqlite3.Row
++            con.execute("PRAGMA query_only=ON")
++            meta = dict(con.execute("SELECT key,value FROM meta"))
++            if meta.get("schema") != str(SCHEMA) or meta.get("root") != str(root):
++                raise ValueError("Index schema/root mismatch; choose a separate DB or rebuild a new one")
++            return con
++        except BaseException:
++            con.close()
++            raise
+     if create:
+         db.parent.mkdir(parents=True, exist_ok=True)
+     con = sqlite3.connect(db)
+--- before/src/lab_evidence.py
++++ src/lab_evidence.py
+@@ -78,20 +78,25 @@
+     p=Path(root)/'catalogo/catalogo.sqlite'
+     if write:
+         guard=lease(root)
+-        try:db=sqlite3.connect(p,timeout=30,factory=WriteConnection);db.lease=guard
+-        except Exception:guard.close();raise
+-        db.executescript('''CREATE TABLE IF NOT EXISTS lab_records(
+-            id TEXT PRIMARY KEY, category TEXT, entry TEXT, fingerprint TEXT, metadata TEXT);
+-            CREATE TABLE IF NOT EXISTS lab_files(
+-            path TEXT PRIMARY KEY, record_id TEXT, sha256 TEXT, bytes INTEGER);
+-            CREATE VIRTUAL TABLE IF NOT EXISTS lab_search USING fts5(
+-            record_id UNINDEXED,title,text,tokenize="unicode61 remove_diacritics 2");
+-            CREATE TABLE IF NOT EXISTS lab_meta(key TEXT PRIMARY KEY,value TEXT);''')
+-        db.execute('CREATE TABLE IF NOT EXISTS lab_versions(record_id TEXT,fingerprint TEXT,metadata TEXT,'
+-                   'PRIMARY KEY(record_id,fingerprint))')
+-        db.execute('CREATE TABLE IF NOT EXISTS lab_analyses(record_id TEXT,key TEXT,metadata TEXT,'
+-                   'PRIMARY KEY(record_id,key))')
+-        db.execute('INSERT OR IGNORE INTO lab_versions SELECT id,fingerprint,metadata FROM lab_records')
++        db=None
++        try:
++            db=sqlite3.connect(p,timeout=30,factory=WriteConnection);db.lease=guard
++            db.executescript('''CREATE TABLE IF NOT EXISTS lab_records(
++                id TEXT PRIMARY KEY, category TEXT, entry TEXT, fingerprint TEXT, metadata TEXT);
++                CREATE TABLE IF NOT EXISTS lab_files(
++                path TEXT PRIMARY KEY, record_id TEXT, sha256 TEXT, bytes INTEGER);
++                CREATE VIRTUAL TABLE IF NOT EXISTS lab_search USING fts5(
++                record_id UNINDEXED,title,text,tokenize="unicode61 remove_diacritics 2");
++                CREATE TABLE IF NOT EXISTS lab_meta(key TEXT PRIMARY KEY,value TEXT);''')
++            db.execute('CREATE TABLE IF NOT EXISTS lab_versions(record_id TEXT,fingerprint TEXT,metadata TEXT,'
++                       'PRIMARY KEY(record_id,fingerprint))')
++            db.execute('CREATE TABLE IF NOT EXISTS lab_analyses(record_id TEXT,key TEXT,metadata TEXT,'
++                       'PRIMARY KEY(record_id,key))')
++            db.execute('INSERT OR IGNORE INTO lab_versions SELECT id,fingerprint,metadata FROM lab_records')
++        except BaseException:
++            if db is not None:db.close()
++            else:guard.close()
++            raise
+     else:
+         db=sqlite3.connect(p.as_uri()+'?mode=ro',uri=True);db.execute('PRAGMA query_only=ON')
+     db.row_factory=sqlite3.Row
+@@ -180,9 +185,10 @@
+     finally:db.close()
+ 
+ def refresh(root=ROOT, only=None):
+-    root=Path(root).resolve();cfg=config(root);start=time.process_time();db=connect(root,True)
++    root=Path(root).resolve();cfg=config(root);start=time.process_time()
++    selected=inside(root,only) if only else None
++    db=connect(root,True)
+     changed=reused=search_updated=0;seen=set();errors=[]
+-    selected=inside(root,only) if only else None
+     try:
+         for area in cfg['roots']:
+             base=inside(root,area['path'])

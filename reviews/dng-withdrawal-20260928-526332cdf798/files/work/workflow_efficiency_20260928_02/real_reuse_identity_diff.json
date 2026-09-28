@@ -1,0 +1,43 @@
+{
+  "provenance.json": [
+    {
+      "path": "/inputs/source/bytes",
+      "before": 17645,
+      "after": 23813
+    },
+    {
+      "path": "/inputs/source/sha256",
+      "before": "2d3b4d80d676f0caa706909868b340f35d0a0648dc5cc5719f83370d8c3e46f2",
+      "after": "59be3152997dd6c895ff24a6d1cf1124829811ede9643dca2be3c23d8b0248c5"
+    },
+    {
+      "path": "/source_dependencies/src/dng_context_capacity.py",
+      "before": "2d3b4d80d676f0caa706909868b340f35d0a0648dc5cc5719f83370d8c3e46f2",
+      "after": "59be3152997dd6c895ff24a6d1cf1124829811ede9643dca2be3c23d8b0248c5"
+    }
+  ],
+  "request.json": [],
+  "assessment.json": [],
+  "tables": {
+    "groups.csv": {
+      "same": true,
+      "before_sha256": "441eea8b58ea3fdb4d1654a489dc3a7a9df74bd4ed5680c1c286fb2bc9a7bcb6",
+      "after_sha256": "441eea8b58ea3fdb4d1654a489dc3a7a9df74bd4ed5680c1c286fb2bc9a7bcb6"
+    },
+    "windows.csv": {
+      "same": true,
+      "before_sha256": "f135e845683e15f36c3631c7fb4fa25038666c6a1cba3570e36a2e14cdfdce9c",
+      "after_sha256": "f135e845683e15f36c3631c7fb4fa25038666c6a1cba3570e36a2e14cdfdce9c"
+    },
+    "aligned.csv": {
+      "same": true,
+      "before_sha256": "f0ae277dac44d936a01ede16575c77600b63c3d1b339046252bc1ec7666a2d00",
+      "after_sha256": "f0ae277dac44d936a01ede16575c77600b63c3d1b339046252bc1ec7666a2d00"
+    },
+    "differences.csv": {
+      "same": true,
+      "before_sha256": "baf1d5109fda0b0d324d20d81e5bbee3a2e7a3505881fad420fc6aaf6145fde2",
+      "after_sha256": "baf1d5109fda0b0d324d20d81e5bbee3a2e7a3505881fad420fc6aaf6145fde2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "matrix_decision_contract_v1",
+  "stage": "4",
+  "question": "¿Retirar sólo la recepción negativa descendente externa abre ambas DNg100 en un mismo instante alineado observado?",
+  "query": "DNg100 retirada recepción inhibición",
+  "scope": "Contrafactual instantáneo emparejado en registros49 expuestos; no continuación recurrente ni equivalencia fisiológica.",
+  "change": "Retirada prospectiva por clase anatómica y signo; controles identidad/positivo/grupo completo/ascendente. Sin saturar transmisiones ni cambiar pesos/umbrales.",
+  "recipe": "dng-context-withdrawal",
+  "maximum_runs": 1,
+  "maximum_seconds": 120,
+  "evidence_mode": "retrospective",
+  "sources": [
+    {
+      "path": "work/dng_context_withdrawal_20260928/PLAN.md",
+      "reason": "Propuesta propia, criterios y presupuesto previos"
+    },
+    {
+      "path": "work/dng_context_withdrawal_20260928/FROZEN.json",
+      "reason": "Contrato/selecciones congelados antes de retirar entradas"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/DECISION.md",
+      "reason": "Punto de partida expuesto y alcance limitado de las cotas"
+    }
+  ],
+  "validity": [
+    {
+      "step": "capacity",
+      "artifact": "assessment.json",
+      "field": [
+        "raw_verified"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "success": [
+    {
+      "step": "capacity",
+      "artifact": "assessment.json",
+      "field": [
+        "C1_negative_pair_eligible"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "branches": {
+    "SUPPORTED": "Elegible para estudiar reclutamiento/continuación con otro contrato; no iniciar CNS automáticamente ni promover etapa.",
+    "NEGATIVE": "No lanzar una vida que sólo repita la retirada directa C1 en la cobertura observada. Priorizar B y C2; no implica futilidad recurrente entre muestras.",
+    "INCONCLUSIVE": "Instrumento o identidades fallan: conservar fallo y corregir causa, sin alterar criterios."
+  }
+}

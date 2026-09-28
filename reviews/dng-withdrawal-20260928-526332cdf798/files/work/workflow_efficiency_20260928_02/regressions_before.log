@@ -1,0 +1,53 @@
+FFFFFF                                                                   [100%]
+=================================== FAILURES ===================================
+___ test_code_queries_work_while_another_writer_has_uncommitted_work[search] ___
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:51: in test_code_queries_work_while_another_writer_has_uncommitted_work
+    assert catalog.search(tmp_path, db, 'traceable_science')['returned']>0
+scripts/code_catalog.py:339: in search
+    con = connect(db, Path(root).resolve())
+scripts/code_catalog.py:163: in connect
+    con.execute("INSERT OR REPLACE INTO meta VALUES (?,?)", (key, value))
+E   sqlite3.OperationalError: database is locked
+___ test_code_queries_work_while_another_writer_has_uncommitted_work[stats] ____
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:53: in test_code_queries_work_while_another_writer_has_uncommitted_work
+    getattr(catalog, operation)(tmp_path, db)
+scripts/code_catalog.py:317: in stats
+    con = connect(db, Path(root).resolve())
+scripts/code_catalog.py:163: in connect
+    con.execute("INSERT OR REPLACE INTO meta VALUES (?,?)", (key, value))
+E   sqlite3.OperationalError: database is locked
+_ test_code_queries_work_while_another_writer_has_uncommitted_work[duplicates] _
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:53: in test_code_queries_work_while_another_writer_has_uncommitted_work
+    getattr(catalog, operation)(tmp_path, db)
+scripts/code_catalog.py:393: in duplicates
+    con = connect(db, Path(root).resolve())
+scripts/code_catalog.py:163: in connect
+    con.execute("INSERT OR REPLACE INTO meta VALUES (?,?)", (key, value))
+E   sqlite3.OperationalError: database is locked
+__________________ test_code_queries_do_not_rewrite_database ___________________
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:64: in test_code_queries_do_not_rewrite_database
+    assert hashlib.sha256(db.read_bytes()).hexdigest()==before
+E   AssertionError: assert '74f7b8a94fe6...3cb8ba68e98fd' == 'c9b6e29c6d0e...28ab9a5ad3177'
+E     
+E     - c9b6e29c6d0ef1e78c9f5fb136ab10b13ab4fffcac0ce725d7928ab9a5ad3177
+E     + 74f7b8a94fe61c83218853fcc07ccb35001f85b109f850d579b3cb8ba68e98fd
+_______ test_lab_schema_error_releases_lease_while_traceback_is_retained _______
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:80: in test_lab_schema_error_releases_lease_while_traceback_is_retained
+    assert available_lock(tmp_path), 'schema failure leaked the evidence writer lease'
+E   AssertionError: schema failure leaked the evidence writer lease
+E   assert False
+E    +  where False = available_lock(PosixPath('/tmp/pytest-of-daroch/pytest-24/test_lab_schema_error_releases0'))
+____________ test_lab_invalid_selection_does_not_hold_writer_lease _____________
+work/workflow_efficiency_20260928_02/test_workflow_regressions.py:88: in test_lab_invalid_selection_does_not_hold_writer_lease
+    assert available_lock(tmp_path), 'selection validation leaked the evidence writer lease'
+E   AssertionError: selection validation leaked the evidence writer lease
+E   assert False
+E    +  where False = available_lock(PosixPath('/tmp/pytest-of-daroch/pytest-24/test_lab_invalid_selection_doe0'))
+=========================== short test summary info ============================
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_code_queries_work_while_another_writer_has_uncommitted_work[search]
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_code_queries_work_while_another_writer_has_uncommitted_work[stats]
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_code_queries_work_while_another_writer_has_uncommitted_work[duplicates]
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_code_queries_do_not_rewrite_database
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_lab_schema_error_releases_lease_while_traceback_is_retained
+FAILED work/workflow_efficiency_20260928_02/test_workflow_regressions.py::test_lab_invalid_selection_does_not_hold_writer_lease
+6 failed in 0.74s

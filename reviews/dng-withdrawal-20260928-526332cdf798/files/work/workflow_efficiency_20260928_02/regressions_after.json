@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/daroch/miniconda3/envs/GPU/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "--tb=short",
+    "work/workflow_efficiency_20260928_02/test_workflow_regressions.py",
+    "tests/test_lab_evidence.py",
+    "tests/test_code_catalog.py"
+  ],
+  "exit_code": 0,
+  "wall_s": 3.592422429996077,
+  "CPU_s": 0.617508
+}

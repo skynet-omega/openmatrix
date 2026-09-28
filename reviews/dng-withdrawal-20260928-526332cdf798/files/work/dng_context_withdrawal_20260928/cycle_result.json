@@ -1,0 +1,70 @@
+{
+  "id": "3acb677795ab4f15adb1c4f44418c2e3",
+  "state": {
+    "id": "3acb677795ab4f15adb1c4f44418c2e3",
+    "status": "DECIDED",
+    "outcome": "NEGATIVE",
+    "finished": "2026-09-28T22:50:52.140179+00:00",
+    "decision_sha256": "a6ffa2cde4713435ef2cda8eb25c15cc6ea73eb536b9db3cc64a0660f755be5e",
+    "execution_sha256": "b1b0acea6bda75753684853039a0d34fae47ac8cc79d580e6b334121dd618e5b"
+  },
+  "question": "¿Retirar sólo la recepción negativa descendente externa abre ambas DNg100 en un mismo instante alineado observado?",
+  "scope": "Contrafactual instantáneo emparejado en registros49 expuestos; no continuación recurrente ni equivalencia fisiológica.",
+  "plan": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/3acb677795ab4f15adb1c4f44418c2e3/plan.json",
+  "context": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/3acb677795ab4f15adb1c4f44418c2e3/context.json",
+  "brief": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/3acb677795ab4f15adb1c4f44418c2e3/brief.json",
+  "decision": {
+    "outcome": "NEGATIVE",
+    "validity": [
+      {
+        "rule": {
+          "step": "capacity",
+          "artifact": "assessment.json",
+          "field": [
+            "raw_verified"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": true,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/54826ab8b87d528c8e27261660fd2e93fbed34363c4eecabb3a2d9c5e5585bf3/attempts/23ddd927ccec45808af1d4fb440e18e4/assessment.json"
+      }
+    ],
+    "success": [
+      {
+        "rule": {
+          "step": "capacity",
+          "artifact": "assessment.json",
+          "field": [
+            "C1_negative_pair_eligible"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": false,
+        "passed": false,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/54826ab8b87d528c8e27261660fd2e93fbed34363c4eecabb3a2d9c5e5585bf3/attempts/23ddd927ccec45808af1d4fb440e18e4/assessment.json"
+      }
+    ],
+    "measurement_status": "assessed_under_declared_rules",
+    "schema": "matrix_decision_outcome_v1",
+    "next_action": "No lanzar una vida que sólo repita la retirada directa C1 en la cobertura observada. Priorizar B y C2; no implica futilidad recurrente entre muestras.",
+    "qualified_CNS": false,
+    "stage_admission": false,
+    "generated_from": "frozen declared criteria; not an independent evaluator",
+    "id": "3acb677795ab4f15adb1c4f44418c2e3",
+    "completed": "2026-09-28T22:50:52.140179+00:00",
+    "question": "¿Retirar sólo la recepción negativa descendente externa abre ambas DNg100 en un mismo instante alineado observado?",
+    "stage": "4",
+    "scope": "Contrafactual instantáneo emparejado en registros49 expuestos; no continuación recurrente ni equivalencia fisiológica.",
+    "change": "Retirada prospectiva por clase anatómica y signo; controles identidad/positivo/grupo completo/ascendente. Sin saturar transmisiones ni cambiar pesos/umbrales.",
+    "plan_sha256": "1eb4edfcfb7916687c8482455740dbeb89609cc38b0e35e28fcaeb18823da50d",
+    "execution_sha256": "b1b0acea6bda75753684853039a0d34fae47ac8cc79d580e6b334121dd618e5b",
+    "reused_steps": [],
+    "qualification": "declared diagnostic criteria only; not automatic biological or CNS admission"
+  },
+  "cycle_reused": false
+}

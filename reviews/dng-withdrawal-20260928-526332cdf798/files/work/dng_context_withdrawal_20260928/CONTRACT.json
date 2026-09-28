@@ -1,0 +1,128 @@
+{
+  "schema": "matrix_dng_context_capacity_v1",
+  "histories": [
+    "sham_off_01",
+    "profile_off_01"
+  ],
+  "windows_ms": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "targets": [
+    10045,
+    10056
+  ],
+  "groups": {
+    "C1": {
+      "column": "superclass",
+      "values": [
+        "descending_neuron"
+      ],
+      "exclude_ids": []
+    },
+    "C2": {
+      "column": "superclass",
+      "values": [
+        "ascending_neuron",
+        "sensory_ascending"
+      ],
+      "exclude_ids": []
+    },
+    "C3": {
+      "column": "class",
+      "values": [
+        "MBON"
+      ],
+      "exclude_ids": []
+    },
+    "C1_external": {
+      "column": "superclass",
+      "values": [
+        "descending_neuron"
+      ],
+      "exclude_ids": [
+        10045,
+        10056
+      ]
+    }
+  },
+  "primary_groups": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "transmission_domain": [
+    0.0,
+    1.0
+  ],
+  "decision": "upper_consumer_margin_le_zero_excludes_direct_group_sufficiency_with_outside_frozen",
+  "bound_scope": "per-target independent box, not jointly reachable activity or physiological stimulation",
+  "alignment": "first RHS of first accepted trial in committed epoch, local start zero, absolute start_ns exact",
+  "envelope": "all four RHS of accepted trials in committed epochs; not a time average",
+  "units": "native model weighted input, not volts, current, spikes or speed",
+  "bindings": {
+    "anatomy": "dcae8adce7b928df81de3266289bf34cb3cef2c2adc52a4c67935afe2445a7f7",
+    "selection": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6",
+    "codec_source": "20c9335c78ca5b9680c3b38011f6a35592aeed4bc845da00ae98f000f783c801",
+    "verifier_source": "17c8b54a407b80932df0b62f1032aaffdc126531b712fcb5c54d1631a035bab9",
+    "consumer_source": "7e85a9684482a5a5a71893c007d7e56019a620b88dcabbd7528b74f7cbe8de9e",
+    "sham_off_01_001": "783bae730bd47183dc2cc199d3ca5f534448c4248536d093441a85b5f2871d4f",
+    "sham_off_01_005": "aefe3c444b03bcaba8b44fbc618e95ac044c803366aef1472507cb8a1208191a",
+    "sham_off_01_010": "eabc2d892896ad87a0bd787e2ba1d55dc1c8cfcf7f9912be17858c2a4c0b8ac2",
+    "sham_off_01_020": "316604972379e5f583f480b24178ef1195bdbfeb7e90a581ce6387d348b615ab",
+    "sham_off_01_050": "d31340cc3ca0b51c489754c926cc4857e366290ccb9e0d59ae60852bb85fb2b7",
+    "profile_off_01_001": "e34bb4bbcdc8285476c9ddf836a997f3977d7c0edb839b89ec6a747a241489b6",
+    "profile_off_01_005": "51d8a2b3e93445139dddd53fde2477be77bc61721e5cc646aa12e352016ccb26",
+    "profile_off_01_010": "f1d807d084ed9164b9fb9163a22679a8f482f2c5a86205c86bbbcab377d49d54",
+    "profile_off_01_020": "9b65380d8e53bec26080b9f468f76ce84eb49fd8e3986060eb00da280d765fd0",
+    "profile_off_01_050": "3ed83fa2d443dfd0167d3de3631f45d9033ef6057df46c3953102d8564e425dd",
+    "selectors": "e23deec2435d593dbede0591fc0cdb50fd7e8862c9bfb3b4fcd1c6ca24d5978d"
+  },
+  "extraction": {
+    "source": "data/male_v10/nodes.parquet",
+    "sha256": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a",
+    "columns": [
+      "node_index",
+      "bodyId",
+      "superclass",
+      "class",
+      "type",
+      "nt_consensus_nt"
+    ],
+    "rows": 166700
+  },
+  "budget": {
+    "CPU_seconds": 300,
+    "GPU_calls": 0,
+    "new_CNS_ms": 0,
+    "RAM_GiB": 4,
+    "new_bytes_max": 134217728
+  },
+  "scope": "Five predefined instantaneous reception withdrawals on the exposed49 snapshots. Whole CSR recomputed; no recurrent continuation, interpolation, biological recruitment or stage admission.",
+  "withdrawals": {
+    "identity": {
+      "group": "C1_external",
+      "sign": "none"
+    },
+    "C1_negative": {
+      "group": "C1_external",
+      "sign": "negative"
+    },
+    "C1_positive": {
+      "group": "C1_external",
+      "sign": "positive"
+    },
+    "C1_all": {
+      "group": "C1_external",
+      "sign": "all"
+    },
+    "C2_negative": {
+      "group": "C2",
+      "sign": "negative"
+    }
+  },
+  "withdrawal_gate": "C1_negative operational margin > 0 in both destinations at the same absolute aligned instant; necessary diagnostic eligibility only, not a trigger or stage admission"
+}

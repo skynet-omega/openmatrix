@@ -1,0 +1,38 @@
+{
+  "command": [
+    "./matrix",
+    "workbench",
+    "run",
+    "dng-context-capacity"
+  ],
+  "exit_code": 0,
+  "wall_s": 0.29647141200257465,
+  "CPU_s": 0.286985,
+  "response": {
+    "workflow": "dng-context-capacity",
+    "scope": "Two exposed histories from campaign49, same preparation. No navigation, wind, new seeds, learning, physiological equivalence or stages4/5 admission.",
+    "qualified_CNS": false,
+    "steps": {
+      "capacity": {
+        "key": "85a9e65903770218072eae55d1741dd2dba16dcf7a6ca1c86d0e35baf2eff336",
+        "component": "dng_context_capacity",
+        "status": "COMPLETE",
+        "reused": true,
+        "seconds": 2.6891246450250037,
+        "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/85a9e65903770218072eae55d1741dd2dba16dcf7a6ca1c86d0e35baf2eff336/attempts/acb98856f3c14fa5b577b13c2b217d43",
+        "metrics": {
+          "raw_verified": 1,
+          "new_CNS_ms": 0,
+          "all_primary_direct_groups_excluded": 0
+        },
+        "tracking_run_id": "60ce6ecab5af4068afab7bb7f7d552fb"
+      }
+    },
+    "laboratory_index": {
+      "status": "indexed",
+      "record": "work/dng_context_capacity_20260928",
+      "scientific_admission": null
+    }
+  },
+  "stderr": ""
+}

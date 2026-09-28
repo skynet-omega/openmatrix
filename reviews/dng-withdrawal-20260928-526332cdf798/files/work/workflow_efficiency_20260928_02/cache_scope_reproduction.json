@@ -1,0 +1,30 @@
+{
+  "scope": "Isolated temporary source copy and two-value CPU worker; no canonical registration altered",
+  "runs": [
+    {
+      "case": "first",
+      "key": "63a6a60d5fdbc7ffc47b940517fbd844823b5df095402ce9bb56f6e90272456c",
+      "reused": false,
+      "wall_s": 0.2975472320104018,
+      "status": "COMPLETE"
+    },
+    {
+      "case": "identical",
+      "key": "63a6a60d5fdbc7ffc47b940517fbd844823b5df095402ce9bb56f6e90272456c",
+      "reused": true,
+      "wall_s": 0.16917907499009743,
+      "status": "COMPLETE"
+    },
+    {
+      "case": "unrelated_registration",
+      "key": "f07946d560743caff44e0b2feed6a09b58ffb3b33671d20af57cf73088a8f22e",
+      "reused": false,
+      "wall_s": 0.2879752750159241,
+      "status": "COMPLETE"
+    }
+  ],
+  "attempts": 2,
+  "unrelated_change_reexecuted_same_component": true,
+  "CPU_s": 0.6693633,
+  "wall_s": 0.7654129290021956
+}
