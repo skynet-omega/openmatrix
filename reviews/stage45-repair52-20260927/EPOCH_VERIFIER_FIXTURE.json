@@ -1,0 +1,27 @@
+{
+  "status": "PASS_RECORDED_2MS",
+  "verified": {
+    "epochs": 32,
+    "trials": 216,
+    "accepted": 216,
+    "rejected": 0,
+    "committed_contexts": 16,
+    "temporal_reconstruction_exact": true
+  },
+  "corruptions": [
+    {
+      "field": "committed",
+      "reason": "Predictor/committed contexts"
+    },
+    {
+      "field": "ms",
+      "reason": "Input context order"
+    },
+    {
+      "field": "duration_ns",
+      "reason": "Epoch duration"
+    }
+  ],
+  "CPU_s": 0.12365249999999994,
+  "new_CNS_ms": 0
+}

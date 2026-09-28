@@ -1,0 +1,18 @@
+{
+  "status": "PASS_CPU_ONLY",
+  "recorded51_source_sha256": "3dd288aefbe3e88cfce3db4d08a8d87c35bf395f39eb76eff82325a0acf2c7f7",
+  "observer_source_sha256": "f3cfffeff7c9d271d284c93d73956ffee9648cbaba6ffe37f25824389e644fad",
+  "source_unchanged": true,
+  "arrays_do_not_alias": true,
+  "corruption_controls": [
+    "missing_all_owners",
+    "same_values_wrong_dtype",
+    "wrong_anatomical_row"
+  ],
+  "CNS_ms": 0,
+  "scope": "Panel copying only; live ON/OFF qualification still required",
+  "CPU_s": 0.01742479999999999,
+  "peak_RSS_bytes": 123273216,
+  "analysis_only_no_CNS": true,
+  "verifier_sha256": "e59d9e0f5939b6a8d118b2930bba72688a8aebb4654b8670070add4e75544fed"
+}

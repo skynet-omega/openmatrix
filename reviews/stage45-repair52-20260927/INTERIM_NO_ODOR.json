@@ -1,0 +1,33 @@
+{
+  "status": "INTERIM_NO_ODOR_ONLY",
+  "half_DNb05_q_mean": -0.00028796766200460676,
+  "half_yaw_deg_s_mean": -0.10447212547430607,
+  "JO_total_R_over_L_minus1": 0.14743589264985313,
+  "original_joint_material_gate": true,
+  "populations": {
+    "JO_CE": {
+      "population": 335,
+      "final": 235,
+      "ever": 235
+    },
+    "all_DN": {
+      "population": 1314,
+      "final": 532,
+      "ever": 534
+    },
+    "AMMC_WED": {
+      "population": 1108,
+      "final": 580,
+      "ever": 581
+    }
+  },
+  "max_q16_changes_vs51": {
+    "air0_odor0": 5.22084458998151e-12,
+    "airL_odor0": 0.0,
+    "airR_odor0": 0.0
+  },
+  "body_traces_equal": true,
+  "max_applied_yaw": 0.0,
+  "CPU_s": 0.19307830000000004,
+  "scope": "Fixed no-odor contrast only; remaining seven scientific conditions unavailable. No criterion change or behavioral admission."
+}

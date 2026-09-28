@@ -1,0 +1,46 @@
+{
+  "corruptions": [
+    {
+      "case": "solver_committed",
+      "reason": "Predictor/committed contexts"
+    },
+    {
+      "case": "solver_ms",
+      "reason": "Input context order"
+    },
+    {
+      "case": "solver_duration_ns",
+      "reason": "Epoch duration"
+    },
+    {
+      "case": "wide_ORN_ids",
+      "reason": "ORN identity"
+    },
+    {
+      "case": "wide_ORN_q",
+      "reason": "Nonfinite wide observation"
+    },
+    {
+      "case": "wide_q",
+      "reason": "Nonfinite wide observation"
+    },
+    {
+      "case": "both_owner_maps_empty",
+      "reason": "Missing scientific owner"
+    },
+    {
+      "case": "old_velocity_unit_bug",
+      "reason": "Initial cm/s to mm/s"
+    },
+    {
+      "case": "condition_flag",
+      "reason": "Qualification setting"
+    },
+    {
+      "case": "criterion_change",
+      "reason": "Contract changed"
+    }
+  ],
+  "CPU_s": 0.4987764,
+  "CNS_ms": 0
+}

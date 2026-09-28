@@ -1,0 +1,24 @@
+{
+  "created_unix_s": 1790562281.9854202,
+  "scientific_changes": false,
+  "new_CNS_ms": 0,
+  "original_total_CPU_s": 5000,
+  "queue_CPU_s": 2909.5678258,
+  "conservative_packing_charges_s": [
+    1000,
+    600
+  ],
+  "all_auxiliary_reserve_s": 150,
+  "publication_CPU_cap_s": 120,
+  "archive_append_CPU_cap_s": 160,
+  "accounted_upper_bound_s": 4939.5678258,
+  "storage_cap_bytes": 8589934592,
+  "sequence": [
+    "Hash-verify and remove only local compact extraction; save recomputation receipt",
+    "Publish compact, download and independently recompute from fresh extraction",
+    "Hash-verify and remove only redundant remote extraction, downloaded ZIP and transport parts",
+    "Append missing unique payloads and full manifest to existing second-attempt archive; verify all payloads and reconstruction"
+  ],
+  "archive_state": "Second packing interrupted at storage reservation, scientific originals intact; cached payloads retained",
+  "final_stop": "If append exceeds remaining original storage or160CPU seconds, retain partial and report incomplete full capsule; no further attempt"
+}

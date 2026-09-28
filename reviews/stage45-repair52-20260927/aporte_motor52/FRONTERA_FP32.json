@@ -1,0 +1,111 @@
+{
+  "scope": "CPU cast of saved additive JO_drive only; not direct per-RHS JO kernel observation. FP32 replay assumes native JO external drive remains zero as specified by this preparation.",
+  "arms": {
+    "air0_odor0": {
+      "FP64_changed_values": 12480,
+      "FP64_max_abs_change": 1.4660012134174533e-07,
+      "FP32_reconstructed_changed_values": 12480,
+      "FP32_max_abs_change": 1.466001204875056e-07,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 2.145202323034334e-05,
+      "mean_JO_sum_reconstructed_FP32_51_90": 2.14520233246418e-05,
+      "input_sha256": "748b230141bf4478b6a52e60a5687205dff06c72ea1471ed83a74d8860a96d46"
+    },
+    "airL_odor0": {
+      "FP64_changed_values": 12480,
+      "FP64_max_abs_change": 5.0305203558309586e-08,
+      "FP32_reconstructed_changed_values": 0,
+      "FP32_max_abs_change": 0.0,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 5169.385269120716,
+      "mean_JO_sum_reconstructed_FP32_51_90": 5169.38525390625,
+      "input_sha256": "16932cfb9f00f5fe91161899232e9edf6118c3b3622bf3d6d17d1b5471b21402"
+    },
+    "airR_odor0": {
+      "FP64_changed_values": 14320,
+      "FP64_max_abs_change": 5.0305203558309586e-08,
+      "FP32_reconstructed_changed_values": 0,
+      "FP32_max_abs_change": 0.0,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 5931.53820072453,
+      "mean_JO_sum_reconstructed_FP32_51_90": 5931.5382080078125,
+      "input_sha256": "4389f4872d6436428134f23608cd50fdc17a1a14d732501efabf56a05c85a5e0"
+    },
+    "air0_odor1": {
+      "FP64_changed_values": 12480,
+      "FP64_max_abs_change": 1.4660012134174533e-07,
+      "FP32_reconstructed_changed_values": 12480,
+      "FP32_max_abs_change": 1.466001204875056e-07,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 2.145202323034334e-05,
+      "mean_JO_sum_reconstructed_FP32_51_90": 2.14520233246418e-05,
+      "input_sha256": "062730336f9a25d716bcc9e78673127b17938d7c468e8228de2a3ebb905e9054"
+    },
+    "airL_odor1": {
+      "FP64_changed_values": 12480,
+      "FP64_max_abs_change": 5.0305203558309586e-08,
+      "FP32_reconstructed_changed_values": 0,
+      "FP32_max_abs_change": 0.0,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 5169.385269120716,
+      "mean_JO_sum_reconstructed_FP32_51_90": 5169.38525390625,
+      "input_sha256": "70222ed1f77b7942a23cf6e9dbc92412042e8009529a6fc598ff79f313f6dbc7"
+    },
+    "airR_odor1": {
+      "FP64_changed_values": 14320,
+      "FP64_max_abs_change": 5.0305203558309586e-08,
+      "FP32_reconstructed_changed_values": 0,
+      "FP32_max_abs_change": 0.0,
+      "max_body_velocity_component_mm_s": 2.1757772510784262e-07,
+      "mean_JO_sum_FP64_51_90": 5931.53820072453,
+      "mean_JO_sum_reconstructed_FP32_51_90": 5931.5382080078125,
+      "input_sha256": "8b82000d79a1bb475508ad5bc6a9f9acbac69697dfca1118207e7468212050df"
+    },
+    "G_odor0": {
+      "FP64_changed_values": 21360,
+      "FP64_max_abs_change": 0.02601358773024949,
+      "FP32_reconstructed_changed_values": 21360,
+      "FP32_max_abs_change": 0.026013586902990937,
+      "max_body_velocity_component_mm_s": 0.04809449456561499,
+      "mean_JO_sum_FP64_51_90": 2.905674687620177,
+      "mean_JO_sum_reconstructed_FP32_51_90": 2.9056746822228887,
+      "input_sha256": "c6cdc8c8f0a25247a35ab20414b2a6192e4af310e45a5fb5319d7f2578da18b9"
+    },
+    "G_odor1": {
+      "FP64_changed_values": 21360,
+      "FP64_max_abs_change": 0.026016899159403705,
+      "FP32_reconstructed_changed_values": 21360,
+      "FP32_max_abs_change": 0.026016899151727557,
+      "max_body_velocity_component_mm_s": 0.04810062696188912,
+      "mean_JO_sum_FP64_51_90": 2.906022354068097,
+      "mean_JO_sum_reconstructed_FP32_51_90": 2.906022365851095,
+      "input_sha256": "c0e8a4af6a524427137dc0207ca5afb8e8bfb3cfe99a0dcf85c41963b303a689"
+    },
+    "I_odor0": {
+      "FP64_changed_values": 21360,
+      "FP64_max_abs_change": 0.054180772989233336,
+      "FP32_reconstructed_changed_values": 21360,
+      "FP32_max_abs_change": 0.05418077437207103,
+      "max_body_velocity_component_mm_s": 0.10050312617840051,
+      "mean_JO_sum_FP64_51_90": 4.849050276121987,
+      "mean_JO_sum_reconstructed_FP32_51_90": 4.849050280393567,
+      "input_sha256": "702119f5d510f569a8ccef68445903722aca64a240e265530a0e4f10bebf23b7"
+    },
+    "I_odor1": {
+      "FP64_changed_values": 21360,
+      "FP64_max_abs_change": 0.05418614266066427,
+      "FP32_reconstructed_changed_values": 21360,
+      "FP32_max_abs_change": 0.05418614111840725,
+      "max_body_velocity_component_mm_s": 0.10051306287550651,
+      "mean_JO_sum_FP64_51_90": 4.8495151257965,
+      "mean_JO_sum_reconstructed_FP32_51_90": 4.849515109315689,
+      "input_sha256": "e8f4f1f0eff34e8cc7f3fb93035a4e8804c9b0872f693636043912c1b7aca87d"
+    }
+  },
+  "CPU_s": 0.022028399999999997,
+  "CNS_ms": 0,
+  "R_over_L_minus1": {
+    "0": 0.14743589743589736,
+    "1": 0.14743589743589736
+  }
+}

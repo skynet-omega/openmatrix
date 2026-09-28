@@ -1,0 +1,197 @@
+{
+  "schema": "repair52_frozen_replication_v1",
+  "created_unix_s": 1790557553.8833191,
+  "source_checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "duration_ms": 90,
+  "prefix_ms": 10,
+  "odor_window_ms": [
+    11,
+    90
+  ],
+  "analysis_window_ms": [
+    51,
+    90
+  ],
+  "qualifications": {
+    "identity": {
+      "duration_ms": 4,
+      "prefix_ms": 4,
+      "wide": true,
+      "mode": "parent",
+      "air": 0,
+      "odor": false
+    },
+    "parent_narrow": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": false,
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    },
+    "parent_wide": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": true,
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    },
+    "conductance_narrow": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": false,
+      "mode": "conductance",
+      "air": 0,
+      "odor": true
+    },
+    "conductance_wide": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": true,
+      "mode": "conductance",
+      "air": 0,
+      "odor": true
+    },
+    "current_narrow": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": false,
+      "mode": "current",
+      "air": 0,
+      "odor": true
+    },
+    "current_wide": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": true,
+      "mode": "current",
+      "air": 0,
+      "odor": true
+    }
+  },
+  "arms": {
+    "air0_odor0": {
+      "mode": "parent",
+      "air": 0,
+      "odor": false
+    },
+    "airL_odor0": {
+      "mode": "parent",
+      "air": 1,
+      "odor": false
+    },
+    "airR_odor0": {
+      "mode": "parent",
+      "air": -1,
+      "odor": false
+    },
+    "air0_odor1": {
+      "mode": "parent",
+      "air": 0,
+      "odor": true
+    },
+    "airL_odor1": {
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    },
+    "airR_odor1": {
+      "mode": "parent",
+      "air": -1,
+      "odor": true
+    },
+    "G_odor0": {
+      "mode": "conductance",
+      "air": 0,
+      "odor": false
+    },
+    "G_odor1": {
+      "mode": "conductance",
+      "air": 0,
+      "odor": true
+    },
+    "I_odor0": {
+      "mode": "current",
+      "air": 0,
+      "odor": false
+    },
+    "I_odor1": {
+      "mode": "current",
+      "air": 0,
+      "odor": true
+    }
+  },
+  "air": {
+    "world_field": "Fixed relative to initial body axes then constant in world; ±100mm/s along initial lateral axis. Current body translation and rotation supplied every1ms; not current bearing. Zero field retains body-relative motion.",
+    "magnitude_mm_s": 100.0,
+    "parameters": "Exact peer air_interface.Parameters defaults80modelunits,100mm/s; no dose changes.",
+    "preserve": "Extra drive only on335JO-C/E; recurrence and all native parameters retained; no physical wind torque.",
+    "body_velocity_units": "MuJoCo translation qvel native cm/s; multiply by10 before encode; recorded air_kinematics columns3:6 are now mm/s."
+  },
+  "conductance": {
+    "scope": "Normalized constrained conductance dynamics replacing the generic BASE kernel only; later specialized overrides preserved. q is normalized engineering voltage with identity output, not measured membrane voltage.",
+    "scale": "For each nonvisual row X=E+positive_drive,Y=I+theta+negative_drive; S=X0+Y0 from first consumed RHS, q0 from restored snapshot; if S<=0 retain parent. No navigation labels.",
+    "leak": "EL=2*q0-X0/S is a fixed compensating bias; may fall outside reversal interval. C=2*tau, EE=1,EI=0. Not passive physiological leak.",
+    "G": "target_raw=(EL+X/S)/(1+(X+Y)/S); rate=(1+(X+Y)/S)/(2*tau)",
+    "I_control": "target_raw=(EL+(X/S)*(1-q0)-(Y/S)*q0+q0)/2; rate=1/tau. Retains frozen basal shunt so G and I have same basal value and relaxation.",
+    "bounded_output": "Both use target=clip(target_raw,0,1), explicitly a rectified engineering variant. This differs from adviser unclipped proposal; report clipping, no physiological equivalence.",
+    "not_historical_bugfix": true,
+    "parent_control": "air0_odor0/1, with identical air interface; body-relative still-air feedback also applies to G/I."
+  },
+  "criteria": {
+    "DNb05_directional_q_min": 1.6e-05,
+    "raw_yaw_deg_s_min": 0.02,
+    "air_primary": "Half difference L-R of mean51..90ms DN(L-R), report separately odor/noodor and their interaction. Neural and raw-yaw minima both; input and relays must respond. Air-only success is anemotaxis signal only.",
+    "conductance_primary": "Difference of odor-minus-sham responses G versus current control in mean DNb05(L-R) and raw_yaw; report also each against parent. If G and I change equally, no conductance-specific support.",
+    "saturation_exclusion": "Do not promote if more than5% of nonsensory, nonvisual neurons newly reach q>=0.999 in candidate endpoint vs parent, or nonfinite values.",
+    "stage4": false,
+    "stage5": false,
+    "limits": "These short arms locate neural transfer. Full stage4 needs separate online/replay behavior and stage5 reserved physical perturbation."
+  },
+  "budgets": {
+    "neural_ms_total": 916,
+    "scientific_arms": 10,
+    "complete_prototypes": 2,
+    "CPU_s": 5000,
+    "wall_s": 4200,
+    "per_arm_CPU_s": 440,
+    "per_arm_wall_s": 400,
+    "RAM_bytes": 25769803776,
+    "VRAM_bytes": 15032385536,
+    "new_disk_bytes": 8589934592,
+    "auto_retry": false,
+    "per_qualification_CPU_s": 120,
+    "per_qualification_wall_s": 110,
+    "auxiliary_CPU_reserved_s": 150,
+    "wall_scope": "4200s from QUEUE_START including qualification, saving and inter-arm work; code preparation and post-run packaging reported separately."
+  },
+  "software_tests": "16ms total: identity4 against49 then three pairs of2ms, wide observation off/on; exact full scientific-owner hashes, events, legacy traces, corrected air physical units and RHS G/I algebra. Inherited DNg observer common to both. No retry.",
+  "plan_change": "Same10x90ms arms, only body velocity conversion x10 corrected. Added read-only committed q by fixed anatomy. No algorithm or decision threshold changed.",
+  "parent_plan_sha256": "ea2b7c491992e3f412ff6a467e4bc7e31343d856fa07751171e8a4b0936fc93e",
+  "observation": {
+    "population_file": "PANEL.npz",
+    "population_counts": {
+      "all_DN": 1314,
+      "JO_CE": 335,
+      "AMMC_WED": 1108
+    },
+    "union_size": 2757,
+    "interval_ms": 1,
+    "quantity": "hybrid.release output, not all internal q or voltage",
+    "sampling": "At committed boundary from the same release() result already read for legacy16. No extra solver or coefficient call.",
+    "RHS_scope": "Existing two DNg100 only; no new E/I emitter in this repair. PN ports retain separate historical units.",
+    "descriptive_threshold_q": 1e-06,
+    "latency_definition": "First committed sample above threshold, descriptive only, not statistical or physiological criterion.",
+    "rank_based_selection": false,
+    "ORN_extra": "Also record694ORN release outputs from the same already-read vector, with own identities, distinct from2757mainpanel and nominal_Hz.",
+    "group_summaries": [
+      "Signed mean across the same canonical cells, L minus R condition; no inferred homologous pairs",
+      "RMS, median absolute delta, positive/negative counts above1e-6 per group per ms",
+      "First sample above1e-6; values below1ms unresolved; descriptive no physiological significance",
+      "Sign counts and changes in fixed51..90ms window for original DNb05 and each observed cell, no neuron selection"
+    ],
+    "time_scope": "Inputs are held during the following1ms interval; q is committed output at interval end. RHS/PN ports retain their own timestamps; not one common coefficient evaluation."
+  },
+  "next_test": "Separate prospective budget only: four direction-by-odor arms with actual consumed JO quantity matched. Never infer direction solely from natural input with unequal totals."
+}

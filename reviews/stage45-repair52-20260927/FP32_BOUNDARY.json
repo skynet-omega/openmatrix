@@ -1,0 +1,107 @@
+{
+  "schema": "repair52_reconstructed_fp32_boundary_v1",
+  "arms": {
+    "air0_odor0": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 1.4660012134174533e-07,
+      "changed_FP64_values": 12480,
+      "changed_FP32_values": 12480,
+      "max_FP32_JO_delta": 1.466001204875056e-07,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 2.14520233246418e-05,
+      "final_release_all_exact_vs51": false
+    },
+    "airL_odor0": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 5.0305203558309586e-08,
+      "changed_FP64_values": 12480,
+      "changed_FP32_values": 0,
+      "max_FP32_JO_delta": 0.0,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 5169.38525390625,
+      "final_release_all_exact_vs51": true
+    },
+    "airR_odor0": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 5.0305203558309586e-08,
+      "changed_FP64_values": 14320,
+      "changed_FP32_values": 0,
+      "max_FP32_JO_delta": 0.0,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 5931.5382080078125,
+      "final_release_all_exact_vs51": true
+    },
+    "air0_odor1": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 1.4660012134174533e-07,
+      "changed_FP64_values": 12480,
+      "changed_FP32_values": 12480,
+      "max_FP32_JO_delta": 1.466001204875056e-07,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 2.14520233246418e-05,
+      "final_release_all_exact_vs51": false
+    },
+    "airL_odor1": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 5.0305203558309586e-08,
+      "changed_FP64_values": 12480,
+      "changed_FP32_values": 0,
+      "max_FP32_JO_delta": 0.0,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 5169.38525390625,
+      "final_release_all_exact_vs51": true
+    },
+    "airR_odor1": {
+      "max_body_mm_s": 2.1757772510784262e-07,
+      "max_FP64_JO_delta": 5.0305203558309586e-08,
+      "changed_FP64_values": 14320,
+      "changed_FP32_values": 0,
+      "max_FP32_JO_delta": 0.0,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 5931.5382080078125,
+      "final_release_all_exact_vs51": true
+    },
+    "G_odor0": {
+      "max_body_mm_s": 0.04809449456561499,
+      "max_FP64_JO_delta": 0.02601358773024949,
+      "changed_FP64_values": 21360,
+      "changed_FP32_values": 21360,
+      "max_FP32_JO_delta": 0.026013586902990937,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 2.9056746822228887,
+      "final_release_all_exact_vs51": false
+    },
+    "G_odor1": {
+      "max_body_mm_s": 0.04810062696188912,
+      "max_FP64_JO_delta": 0.026016899159403705,
+      "changed_FP64_values": 21360,
+      "changed_FP32_values": 21360,
+      "max_FP32_JO_delta": 0.026016899151727557,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 2.906022365851095,
+      "final_release_all_exact_vs51": false
+    },
+    "I_odor0": {
+      "max_body_mm_s": 0.10050312617840051,
+      "max_FP64_JO_delta": 0.054180772989233336,
+      "changed_FP64_values": 21360,
+      "changed_FP32_values": 21360,
+      "max_FP32_JO_delta": 0.05418077437207103,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 4.849050280393567,
+      "final_release_all_exact_vs51": false
+    },
+    "I_odor1": {
+      "max_body_mm_s": 0.10051306287550651,
+      "max_FP64_JO_delta": 0.05418614266066427,
+      "changed_FP64_values": 21360,
+      "changed_FP32_values": 21360,
+      "max_FP32_JO_delta": 0.05418614111840725,
+      "mean_JO_sum_FP32_values_accumulated_in_FP64": 4.849515109315689,
+      "final_release_all_exact_vs51": false
+    }
+  },
+  "postcast_R_over_L_minus1": {
+    "0": 0.14743589743589736,
+    "1": 0.14743589743589736
+  },
+  "L1_screen51_after_cast": {
+    "common_precast_total": 5169.385259635141,
+    "max_pair_sum_difference": 7.82012939453125e-05,
+    "max_abs_target_residual": 7.247240318974946e-05
+  },
+  "scope": "Deterministic CPU reconstruction of the added JO component after the frozen FastCSR cast; not a new live JO-RHS probe. Actual legacy native JO drive is zero in this preparation; the existing witness audits addition before cast. Future designs must recheck that owner and capture/check postcast values.",
+  "sum_definition": "Promote individual FP32 components toFP64 before summing; do not conflate FP32 reduction error with the operator input.",
+  "CPU_s": 0.11569080000000001
+}

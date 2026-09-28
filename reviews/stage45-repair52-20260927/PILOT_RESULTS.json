@@ -1,0 +1,301 @@
+{
+  "schema": "repair52_verified_metrics_v1",
+  "checks": {
+    "air0_odor0": {
+      "DNg_RHS_cells": 78488,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "airL_odor0": {
+      "DNg_RHS_cells": 78320,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "airR_odor0": {
+      "DNg_RHS_cells": 78680,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "air0_odor1": {
+      "DNg_RHS_cells": 76888,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "airL_odor1": {
+      "DNg_RHS_cells": 77360,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "airR_odor1": {
+      "DNg_RHS_cells": 77568,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "G_odor0": {
+      "DNg_RHS_cells": 77136,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "G_odor1": {
+      "DNg_RHS_cells": 77664,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "I_odor0": {
+      "DNg_RHS_cells": 81528,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    },
+    "I_odor1": {
+      "DNg_RHS_cells": 81216,
+      "DN_observer_exact": true,
+      "reader_and_latency_exact": true,
+      "finite": true,
+      "restored_exact": true,
+      "physically_applied_yaw": false
+    }
+  },
+  "arms": {
+    "air0_odor0": {
+      "mean_DNb_direction": -0.023357740187822752,
+      "mean_yaw_deg_s": 2.863231509413609,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "airL_odor0": {
+      "mean_DNb_direction": -0.023910206128545965,
+      "mean_yaw_deg_s": 2.381531698102917,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "airR_odor0": {
+      "mean_DNb_direction": -0.023334270804536754,
+      "mean_yaw_deg_s": 2.5904759490515294,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "air0_odor1": {
+      "mean_DNb_direction": -0.023464742532945736,
+      "mean_yaw_deg_s": 2.775007514256626,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "airL_odor1": {
+      "mean_DNb_direction": -0.02401525242189035,
+      "mean_yaw_deg_s": 2.279958724325569,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "airR_odor1": {
+      "mean_DNb_direction": -0.023440636714545764,
+      "mean_yaw_deg_s": 2.5101391362937022,
+      "DNg_target_max": 0.0,
+      "mean_forward": 0.0
+    },
+    "G_odor0": {
+      "mean_DNb_direction": -0.02411267560442575,
+      "mean_yaw_deg_s": 2.1823287155791298,
+      "DNg_target_max": 0.09647452926379407,
+      "mean_forward": 0.02762920106944301
+    },
+    "G_odor1": {
+      "mean_DNb_direction": -0.024113514770396038,
+      "mean_yaw_deg_s": 2.1814874218520552,
+      "DNg_target_max": 0.09648713545515669,
+      "mean_forward": 0.027632582486130663
+    },
+    "I_odor0": {
+      "mean_DNb_direction": -0.024179478230339946,
+      "mean_yaw_deg_s": 2.115359079684062,
+      "DNg_target_max": 0.3547830819744642,
+      "mean_forward": 0.050209860842913547
+    },
+    "I_odor1": {
+      "mean_DNb_direction": -0.024180371272775735,
+      "mean_yaw_deg_s": 2.114458676816719,
+      "DNg_target_max": 0.3548234149420275,
+      "mean_forward": 0.05021474567210984
+    }
+  },
+  "air": {
+    "0": {
+      "half_L_minus_R_DNb_q": -0.00028796766200460573,
+      "half_L_minus_R_yaw_deg_s": -0.10447212547430618,
+      "neural_material": true,
+      "yaw_material": true,
+      "both_material": true,
+      "upwind_signed_expectation": "Fluid +left implies upwind right (negative yaw); evaluate sign only as screen, no movement claim.",
+      "mean_yaw_changes_L_R_vs_zero": [
+        -0.48169981131069184,
+        -0.2727555603620795
+      ],
+      "bilateral_direction_sign_consistent_with_upwind": false
+    },
+    "1": {
+      "half_L_minus_R_DNb_q": -0.0002873078536722931,
+      "half_L_minus_R_yaw_deg_s": -0.11509020598406661,
+      "neural_material": true,
+      "yaw_material": true,
+      "both_material": true,
+      "upwind_signed_expectation": "Fluid +left implies upwind right (negative yaw); evaluate sign only as screen, no movement claim.",
+      "mean_yaw_changes_L_R_vs_zero": [
+        -0.49504878993105716,
+        -0.26486837796292395
+      ],
+      "bilateral_direction_sign_consistent_with_upwind": false
+    }
+  },
+  "odor_modulation_of_air_direction": {
+    "q": 6.598083323126197e-07,
+    "yaw_deg_s": -0.01061808050976043
+  },
+  "conductance": {
+    "G_odor_effect_q": -8.391659702886023e-07,
+    "I_odor_effect_q": -8.930424357893318e-07,
+    "G_minus_I_odor_effect_q": 5.3876465500729553e-08,
+    "G_odor_effect_yaw_deg_s": -0.0008412937270745324,
+    "I_odor_effect_yaw_deg_s": -0.00090040286734272,
+    "G_minus_I_odor_effect_yaw_deg_s": 5.910914026818759e-05,
+    "both_material": false,
+    "saturation_excluded": false,
+    "promising_screen": false
+  },
+  "clipping": {
+    "G_odor0": {
+      "base_rows_initialized": 61431,
+      "base_rows_raw_below0": 16692,
+      "base_rows_raw_above1": 440,
+      "max_underflow": 0.11670906021270017,
+      "max_overflow": 0.013035484846717127,
+      "scope": "Base coefficient before later specialized overrides, not count of actual clipped final neuron states.",
+      "new_saturation_all_neurons_fraction": 1.799640071985603e-05,
+      "new_saturation_eligible_fraction": 0.0,
+      "saturation_excluded": false
+    },
+    "G_odor1": {
+      "base_rows_initialized": 61431,
+      "base_rows_raw_below0": 16381,
+      "base_rows_raw_above1": 430,
+      "max_underflow": 0.11670968291388766,
+      "max_overflow": 0.013035484846717127,
+      "scope": "Base coefficient before later specialized overrides, not count of actual clipped final neuron states.",
+      "new_saturation_all_neurons_fraction": 1.799640071985603e-05,
+      "new_saturation_eligible_fraction": 0.0,
+      "saturation_excluded": false
+    },
+    "I_odor0": {
+      "base_rows_initialized": 61431,
+      "base_rows_raw_below0": 16756,
+      "base_rows_raw_above1": 23374,
+      "max_underflow": 0.7201649627396028,
+      "max_overflow": 172.8216367476356,
+      "scope": "Base coefficient before later specialized overrides, not count of actual clipped final neuron states.",
+      "new_saturation_all_neurons_fraction": 1.799640071985603e-05,
+      "new_saturation_eligible_fraction": 0.0,
+      "saturation_excluded": false
+    },
+    "I_odor1": {
+      "base_rows_initialized": 61431,
+      "base_rows_raw_below0": 16457,
+      "base_rows_raw_above1": 23366,
+      "max_underflow": 0.7201650636828083,
+      "max_overflow": 172.8216367476356,
+      "scope": "Base coefficient before later specialized overrides, not count of actual clipped final neuron states.",
+      "new_saturation_all_neurons_fraction": 1.799640071985603e-05,
+      "new_saturation_eligible_fraction": 0.0,
+      "saturation_excluded": false
+    }
+  },
+  "source_hashes": {
+    "air0_odor0": {
+      "neural_and_inputs.npz": "748b230141bf4478b6a52e60a5687205dff06c72ea1471ed83a74d8860a96d46",
+      "traces.npz": "28e4911c42ae719e8d27c09b8c59b36969df10d1094769613f1f1114da34e71e",
+      "dng100_observed.npz": "86631adb6692e9e31cbe09dab76436aa6435b8855c53a8e61bbb3d9bad408409",
+      "RESULT.json": "17b7c6593a13fbf6f14bdf4d04a01f2d7c2852da02c655d420387a02f9d2ed53"
+    },
+    "airL_odor0": {
+      "neural_and_inputs.npz": "16932cfb9f00f5fe91161899232e9edf6118c3b3622bf3d6d17d1b5471b21402",
+      "traces.npz": "8098f312590f7f23a05fc1f335c4920536b2dc006994c3e262119f9d2375a6e5",
+      "dng100_observed.npz": "08a727eda9a394b684e2b5eb011b265cdb6b6ddcb540b3af9f568b090a00380b",
+      "RESULT.json": "1c7a001199475c3a47723cb4f429c76ea018832fd1e8ae89055539fa6ae17ddc"
+    },
+    "airR_odor0": {
+      "neural_and_inputs.npz": "4389f4872d6436428134f23608cd50fdc17a1a14d732501efabf56a05c85a5e0",
+      "traces.npz": "ffbc052cbdd7367b2cb05ac195cb10ca59506539dd9345aa7c77249f4a962e24",
+      "dng100_observed.npz": "4a1c965a779b205d566b167c1a53d8a6ad61730dc304a20901015052113fb443",
+      "RESULT.json": "f34c352eeb8e630dc4a4791ceedfa4771ac05c13f3bfc1a5626e19b965e9de2c"
+    },
+    "air0_odor1": {
+      "neural_and_inputs.npz": "062730336f9a25d716bcc9e78673127b17938d7c468e8228de2a3ebb905e9054",
+      "traces.npz": "3dce1f7f051e3c854dfceadc1e010178fcb70098e10a0a6bec7f2f2a75b31bcd",
+      "dng100_observed.npz": "87171dbea667097a2bff99286987bc086c63a2b6126694dced67f3d90b5a368d",
+      "RESULT.json": "879d4ac87abadcea57c8632fdbfc9e272e634b15f49ddbd24169181bce8acf7e"
+    },
+    "airL_odor1": {
+      "neural_and_inputs.npz": "70222ed1f77b7942a23cf6e9dbc92412042e8009529a6fc598ff79f313f6dbc7",
+      "traces.npz": "10cad508162871300827daadbc40bd28d83a625c94734f37424cc3bcc1b2ef62",
+      "dng100_observed.npz": "d300ec6defb7d57b75cec0f4877f4fb9f2be76df07e568fb011e293dcdb60011",
+      "RESULT.json": "d7b348ca9cac77ed021ae63f0b3c58c66ba23d206eb81d2b27b5423fd2ad1a37"
+    },
+    "airR_odor1": {
+      "neural_and_inputs.npz": "8b82000d79a1bb475508ad5bc6a9f9acbac69697dfca1118207e7468212050df",
+      "traces.npz": "ce63c5f45c064223c2403bfc6c4b08a86a79fb3648d6c32c1b7a683206773443",
+      "dng100_observed.npz": "41a10920603c3f53873419ba5f79e774fa5cab8929a42fc0d0e2747f5b4f0d0b",
+      "RESULT.json": "a4ee6ab71c83243b80c35e709560fbb73a5b13114b681058d191246619b77eae"
+    },
+    "G_odor0": {
+      "neural_and_inputs.npz": "c6cdc8c8f0a25247a35ab20414b2a6192e4af310e45a5fb5319d7f2578da18b9",
+      "traces.npz": "b4e9fd0e868ebf7722164e34432fef38f66d7dfd652223b9004997646e9fff17",
+      "dng100_observed.npz": "de116295b4ebdd8553390e67d5aae639f99118a302c60d71e70ca51ce9feac2d",
+      "RESULT.json": "0b1dc599c980d3b51adcc9de5822330de433ae9f2d3369e6a345ac3328a554be"
+    },
+    "G_odor1": {
+      "neural_and_inputs.npz": "c0e8a4af6a524427137dc0207ca5afb8e8bfb3cfe99a0dcf85c41963b303a689",
+      "traces.npz": "9d66103ff7c5a291464e7e6d7cf3d00fbc954939a137a82baa724936b8740cca",
+      "dng100_observed.npz": "dda9e080e1a1930a5946c7e4736d4711fb89dd775475f67d5b8ed6a9256d752e",
+      "RESULT.json": "92b828f604d1b1a41221bdc17f5228e9cb9b9afc8c5f5b7371d43571d4479770"
+    },
+    "I_odor0": {
+      "neural_and_inputs.npz": "702119f5d510f569a8ccef68445903722aca64a240e265530a0e4f10bebf23b7",
+      "traces.npz": "1d9c8c8bd888b4388975656b0a922cce93e148acb9f3400283e762177b96c141",
+      "dng100_observed.npz": "366071f454c3da5c861fae54125d0a74913e5dce7ab7fa8c6e7f807de8d77343",
+      "RESULT.json": "743e85a7fe0ea89ce335f1c00254a9cce9d88dc91e3452a716373a7e72582ff3"
+    },
+    "I_odor1": {
+      "neural_and_inputs.npz": "e8f4f1f0eff34e8cc7f3fb93035a4e8804c9b0872f693636043912c1b7aca87d",
+      "traces.npz": "8399f9c66a6af20e36112aadb448a24637f617ee2d925a0c10865e40ab9c41a4",
+      "dng100_observed.npz": "f2861582681079950472e3b060441cbf5090d3c66962d7df5c4363696926f309",
+      "RESULT.json": "a4202211c4c740828ede151538ebd0af273e0f3bc99dab812547884250a6a033"
+    }
+  },
+  "stage4_pass": false,
+  "stage5_pass": false,
+  "reason": "Neural transfer screen with yaw deliberately unapplied; no online navigation/replay or reserved mechanical perturbation."
+}

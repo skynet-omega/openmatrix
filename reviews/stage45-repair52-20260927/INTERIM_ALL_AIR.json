@@ -1,0 +1,63 @@
+{
+  "status": "INTERIM_ALL6_AIR_COMPLETE",
+  "arms": {
+    "air0_odor0": {
+      "q": -0.023357740187822752,
+      "yaw": 2.863231509413609,
+      "JO": 2.145202323034334e-05,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    },
+    "airL_odor0": {
+      "q": -0.023910206128545965,
+      "yaw": 2.381531698102917,
+      "JO": 5169.385269120716,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    },
+    "airR_odor0": {
+      "q": -0.023334270804536754,
+      "yaw": 2.5904759490515294,
+      "JO": 5931.53820072453,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    },
+    "air0_odor1": {
+      "q": -0.023464742532945736,
+      "yaw": 2.775007514256626,
+      "JO": 2.145202323034334e-05,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    },
+    "airL_odor1": {
+      "q": -0.02401525242189035,
+      "yaw": 2.279958724325569,
+      "JO": 5169.385269120716,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    },
+    "airR_odor1": {
+      "q": -0.023440636714545764,
+      "yaw": 2.5101391362937022,
+      "JO": 5931.53820072453,
+      "forward": 0.0,
+      "applied_yaw": 0.0
+    }
+  },
+  "contrasts": {
+    "0": {
+      "half_DNb05_q": -0.00028796766200460573,
+      "half_raw_yaw_deg_s": -0.10447212547430618,
+      "JO_R_over_L_minus1": 0.14743589264985313,
+      "original_joint_gate": true
+    },
+    "1": {
+      "half_DNb05_q": -0.0002873078536722931,
+      "half_raw_yaw_deg_s": -0.11509020598406661,
+      "JO_R_over_L_minus1": 0.14743589264985313,
+      "original_joint_gate": true
+    }
+  },
+  "CPU_s": 0.11469269999999998,
+  "scope": "Fixed original gates. G/I pending; no navigation or applied-yaw test."
+}

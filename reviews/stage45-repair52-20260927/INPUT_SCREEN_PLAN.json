@@ -1,0 +1,11 @@
+{
+  "scope": "Bounded CPU-only check of proposed JO controls on saved51 inputs. These are recorded model-unit drives, not corrected52 trajectories or new CNS responses.",
+  "budget_CPU_s": 5,
+  "budget_RAM_bytes": 536870912,
+  "budget_new_bytes": 1048576,
+  "CNS_ms": 0,
+  "A": "Multiply each positive vector by common fixed total chosen as min of first active L/R sums. Preserve support and all within-vector ratios. Report floating reduction residual and remaining L2 disparity; no integration.",
+  "B": "Equalize L2 instead and report remaining L1 disparity. Do not claim simultaneous support matching.",
+  "C": "Reverse identities within each exact anatomical type and rootSide stratum. Verify whether this purported control changes the vector at all.",
+  "exposure": "All51 inputs already exposed;52 incomplete. No fitted neural output or search over parameters."
+}

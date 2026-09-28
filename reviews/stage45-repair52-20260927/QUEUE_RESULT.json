@@ -1,0 +1,164 @@
+{
+  "status": "COMPLETE",
+  "active": "I_odor1",
+  "arms": [
+    {
+      "arm": "identity",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 4,
+      "committed_ms": 4,
+      "CPU_s": 71.4346965,
+      "wall_s": 66.14007724402472
+    },
+    {
+      "arm": "parent_narrow",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 67.3436599,
+      "wall_s": 60.8747103640344
+    },
+    {
+      "arm": "parent_wide",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 67.7134427,
+      "wall_s": 61.150647737958934
+    },
+    {
+      "arm": "conductance_narrow",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 67.8297568,
+      "wall_s": 61.40145653201034
+    },
+    {
+      "arm": "conductance_wide",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 67.81648080000001,
+      "wall_s": 64.10303464002209
+    },
+    {
+      "arm": "current_narrow",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 68.0567622,
+      "wall_s": 61.77728879498318
+    },
+    {
+      "arm": "current_wide",
+      "qualification": true,
+      "status": "COMPLETE",
+      "attempted_ms": 2,
+      "committed_ms": 2,
+      "CPU_s": 67.4832603,
+      "wall_s": 61.394114324008115
+    },
+    {
+      "arm": "air0_odor0",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 240.8598136,
+      "wall_s": 211.54859240399674
+    },
+    {
+      "arm": "airL_odor0",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 242.9213266,
+      "wall_s": 212.74308383400785
+    },
+    {
+      "arm": "airR_odor0",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 243.6024192,
+      "wall_s": 215.52974324696697
+    },
+    {
+      "arm": "air0_odor1",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 240.7883875,
+      "wall_s": 213.5926263849833
+    },
+    {
+      "arm": "airL_odor1",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 240.76273510000001,
+      "wall_s": 216.7385311530088
+    },
+    {
+      "arm": "airR_odor1",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 242.413142,
+      "wall_s": 216.25195172597887
+    },
+    {
+      "arm": "G_odor0",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 243.6257883,
+      "wall_s": 213.75148579699453
+    },
+    {
+      "arm": "G_odor1",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 243.97594619999998,
+      "wall_s": 213.30988680402515
+    },
+    {
+      "arm": "I_odor0",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 247.0270563,
+      "wall_s": 218.94672991597326
+    },
+    {
+      "arm": "I_odor1",
+      "qualification": false,
+      "status": "COMPLETE",
+      "attempted_ms": 90,
+      "committed_ms": 90,
+      "CPU_s": 245.9131518,
+      "wall_s": 218.52738091599895
+    }
+  ],
+  "CPU_s": 2909.5678258,
+  "attempted_ms": 916,
+  "committed_ms": 916,
+  "queue_wall_s": 2601.541307606967,
+  "error": null
+}

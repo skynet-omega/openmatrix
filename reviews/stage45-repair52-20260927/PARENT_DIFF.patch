@@ -1,0 +1,127 @@
+--- 51/run_pilot.py
++++ 52/run_pilot.py
+@@ -7,27 +7,30 @@
+ H=Path(__file__).resolve().parent;R=H.parents[1];C49=H.parent/'etapa45_operands_20260927_49'
+ sys.path.insert(0,str(C49/'aporte_motor'))
+ from resume49 import build,save,sha,need,C48
+-from pilot_owners import AirOwner,installer
++from pilot52_owners import AirOwner,installer
++from observer52 import Panel,witness
+ 
+ def main():
+  ap=argparse.ArgumentParser();ap.add_argument('arm');ap.add_argument('--qualification',action='store_true');args=ap.parse_args();p=json.loads((H/'PILOT_PLAN.json').read_text())
+  if args.qualification:
+-  need(args.arm in p['qualifications'],'Known qual');out=H/('qual_'+args.arm);duration=p['qualifications'][args.arm];prefix=2 if args.arm!='identity' else 4
+-  setting=dict(mode=args.arm if args.arm in ['conductance','current'] else 'parent',air=1 if args.arm=='air' else 0,odor=args.arm!='identity')
+- else:need(args.arm in p['arms'],'Known arm');out=H/args.arm;duration=p['duration_ms'];prefix=p['prefix_ms'];setting=p['arms'][args.arm]
++  need(args.arm in p['qualifications'],'Known qualification');spec=p['qualifications'][args.arm]
++  out=H/('qual_'+args.arm);duration=spec['duration_ms'];prefix=spec['prefix_ms'];wide=spec['wide']
++  setting={k:spec[k] for k in ['mode','air','odor']}
++ else:
++  need(args.arm in p['arms'],'Known arm');out=H/args.arm;duration=p['duration_ms'];prefix=p['prefix_ms'];wide=True;setting=p['arms'][args.arm]
+  need(not out.exists(),'Immutable arm');lock=json.loads((H/'PILOT_SOURCES.json').read_text())
+  for path,digest in lock.items():need(sha(path)==digest,'Frozen source changed '+path)
+- wall=time.monotonic();cpu=time.process_time();run=air=None;rows=[];inputs=[];air_inputs=[];neural=[];status=dict(status='STARTED',arm=args.arm,qualification=args.qualification,attempted_ms=0,committed_ms=0,setting=setting,plan_sha256=sha(H/'PILOT_PLAN.json'))
++ wall=time.monotonic();cpu=time.process_time();run=air=None;rows=[];inputs=[];air_inputs=[];neural=[];panel=None;status=dict(status='STARTED',arm=args.arm,qualification=args.qualification,wide_observer=wide,attempted_ms=0,committed_ms=0,setting=setting,plan_sha256=sha(H/'PILOT_PLAN.json'))
+  def stop(*_):raise TimeoutError('Finite pilot arm budget')
+- signal.signal(signal.SIGALRM,stop);signal.signal(signal.SIGTERM,stop);signal.alarm(400);resource.setrlimit(resource.RLIMIT_CPU,(440,450))
++ signal.signal(signal.SIGALRM,stop);signal.signal(signal.SIGTERM,stop);armwall=p['budgets']['per_qualification_wall_s' if args.qualification else 'per_arm_wall_s'];armcpu=p['budgets']['per_qualification_CPU_s' if args.qualification else 'per_arm_CPU_s'];signal.alarm(armwall);resource.setrlimit(resource.RLIMIT_CPU,(armcpu,armcpu+5))
+  try:
+   run=build(R/p['source_checkpoint'],out,observer_installer=installer(setting['mode']));air=AirOwner(run,setting,prefix)
+   from source_inventory import imported,verify
+   current=imported();historic=json.loads((C48/'SOURCES.json').read_text());need(all(v==historic[k] for k,v in current.items() if k in historic),'Historical source changed');save(out/'EXECUTED_SOURCES.json',current)
+   ids=np.array([10045,10056,10118,10065,10442,10760,523769,10360,10888,11067,11074,512006,11960,11702,523640,10371],np.int64);idx=np.searchsorted(run.obj.core.brain.node_ids,ids);need(np.array_equal(run.obj.core.brain.node_ids[idx],ids),'Observe IDs')
+-  initial_q=run.obj.core.hybrid.release().copy();print(json.dumps(dict(status='RESTORED_EXACT',arm=args.arm,wall_s=time.monotonic()-wall)),flush=True)
++  panel=Panel(run.obj.core.brain.node_ids,wide,run.stimulus.spec['ids']);initial_velocity=run.obj.body.data.qvel[:3].copy();initial_qpos=run.obj.body.data.qpos.copy();initial_q=run.obj.core.hybrid.release().copy();print(json.dumps(dict(status='RESTORED_EXACT',arm=args.arm,wall_s=time.monotonic()-wall)),flush=True)
+   for j in range(1,duration+1):
+-   status['attempted_ms']+=1;save(out/'STATUS.json',status);row=run.step();air.check();rows.append(row);inputs.append(run.stimulus.current.copy());air_inputs.append(air.last.copy());neural.append(run.obj.core.hybrid.release()[idx].copy());status['committed_ms']+=1
++   status['attempted_ms']+=1;save(out/'STATUS.json',status);row=run.step();air.check();rows.append(row);inputs.append(run.stimulus.current.copy());air_inputs.append(air.last.copy());committed_release=run.obj.core.hybrid.release();neural.append(committed_release[idx].copy());panel.record(committed_release,row['CNS_time_ns']);status['committed_ms']+=1
+    need(np.array_equal(neural[-1][:4],row['DN_q_actual']),'DN native observer')
+    if args.qualification and args.arm=='identity':
+     with np.load(C49/'sham_off_01/traces.npz') as ref:need(all(np.array_equal(row[k],ref[k][j-1]) for k in ref.files),'Identity parity with49')
+@@ -35,15 +38,17 @@
+    import cupy as cp
+    free,total=cp.cuda.runtime.memGetInfo();need(total-free<p['budgets']['VRAM_bytes'],'VRAM budget')
+    if j%15==0 or j==duration:print(json.dumps(dict(status='STEP',arm=args.arm,ms=j,wall_s=time.monotonic()-wall)),flush=True)
+-  final_q=run.obj.core.hybrid.release();np.savez_compressed(out/'neural_and_inputs.npz',ids=ids,q=np.array(neural),initial_q=initial_q,final_q=final_q,ORN_ids=run.stimulus.spec['ids'],nominal_Hz=np.array(inputs),JO_ids=air.api.ids,JO_rows=air.api.rows,JO_drive=np.array(air_inputs),air_kinematics=np.array(air.kinematics))
++  final_q=run.obj.core.hybrid.release();np.savez_compressed(out/'neural_and_inputs.npz',ids=ids,q=np.array(neural),initial_q=initial_q,final_q=final_q,ORN_ids=run.stimulus.spec['ids'],nominal_Hz=np.array(inputs),JO_ids=air.api.ids,JO_rows=air.api.rows,JO_drive=np.array(air_inputs),air_kinematics=np.array(air.kinematics),initial_native_velocity=initial_velocity,initial_qpos=initial_qpos)
++  panel.flush(out/'wide_observation.npz')
++  if args.qualification:save(out/'OWNERS_FINAL.json',witness(run,air))
+   c=run.observer.candidate
+   if c is not None:
+    np.savez_compressed(out/'candidate_owner.npz',q0=c.q0.get(),S=c.scales.get(),gE0=c.ge0.get(),min_raw=c.low.get(),max_raw=c.high.get())
+   if not args.qualification:
+-   run.save(out/'final_state');d=out/'final_state';save(d/'pilot_owner.json',dict(schema='pilot51_owner_v1',setting=setting,completed_ms=duration,field_world=air.field.tolist(),origin_rotation=air.origin_rotation.tolist(),duration_ms=duration,prefix_ms=prefix,readout='unchanged forward; yaw observed unapplied'))
++   run.save(out/'final_state');d=out/'final_state';save(d/'pilot_owner.json',dict(schema='pilot52_owner_v1',setting=setting,completed_ms=duration,field_world=air.field.tolist(),origin_rotation=air.origin_rotation.tolist(),duration_ms=duration,prefix_ms=prefix,body_velocity_conversion=10.0,wide_panel_sha256=sha(H/'PANEL.npz'),readout='unchanged forward; yaw observed unapplied'))
+    if c is not None:
+     import shutil;shutil.copy2(out/'candidate_owner.npz',d/'candidate_owner.npz')
+-   m=json.loads((d/'MANIFEST.json').read_text());m['parent_schema']=m['schema'];m['schema']='pilot51_scientific_state_v1';m['files']['pilot_owner.json']=sha(d/'pilot_owner.json')
++   m=json.loads((d/'MANIFEST.json').read_text());m['parent_schema']=m['schema'];m['schema']='pilot52_scientific_state_v1';m['files']['pilot_owner.json']=sha(d/'pilot_owner.json')
+    if c is not None:m['files']['candidate_owner.npz']=sha(d/'candidate_owner.npz')
+    save(d/'MANIFEST.json',m)
+   save(out/'EVENTS.json',run.session.events.audit);status.update(status='COMPLETE',initial_exact=run.initial['exact'],observer=run.observer.report(),runtime=run.session.report());verify(current)
+--- 51/pilot_owners.py
++++ 52/pilot52_owners.py
+@@ -1,9 +1,12 @@
++"""UNIT REPAIR52: donor fix from51, qualified prospectively in this campaign.
++Original frozen pilot_owners.py remains byte-identical.
++"""
+ """Explicit external air port and normalized generic-law experimental owner."""
+ from pathlib import Path
+ import sys,types
+ import numpy as np
+ H=Path(__file__).resolve().parent
+-sys.path.insert(0,str(H/'aporte_motor'))
++sys.path.insert(0,str(H/'donors'))
+ from air_interface import AirInterface
+ 
+ def need(x,m):
+@@ -32,11 +35,14 @@
+    owner.current=owner.spec['baseline']+(owner.spec['delta']['profile'] if setting['odor'] and j>prefix else 0.)
+    owner.device_rates.set(np.ascontiguousarray(owner.current));owner.errors.fill(0);owner.calls.fill(0);owner.k=k
+    self.last=np.zeros(len(self.api.ids))
+-   rot=self.rotation();velocity=np.asarray(run.obj.body.data.qvel[:3]).copy()
++   rot=self.rotation();velocity=self.velocity_mm_s()
+    if j>prefix:self.last=self.api.encode(air_velocity_world_mm_s=self.field,body_velocity_world_mm_s=velocity,body_to_world=rot)
+    full=np.zeros(h.brain.n_neurons);full[self.api.rows]=self.last;self.device.set(full);self.calls.fill(0)
+    self.kinematics.append(np.r_[self.field,velocity,rot.ravel()]);cp.cuda.get_current_stream().synchronize();return owner.current.copy()
+   run.stimulus.consume=types.MethodType(consume,run.stimulus)
++ def velocity_mm_s(self):
++  # This body uses centimetres internally; all air-interface inputs are mm/s.
++  return 10.0*np.asarray(self.run.obj.body.data.qvel[:3],dtype=np.float64).copy()
+  def rotation(self):
+   mat=np.empty(9);self.mj.mju_quat2Mat(mat,np.asarray(self.run.obj.body.data.qpos[3:7]));return mat.reshape(3,3)
+  def check(self):
+--- 51/analyze_pilot.py
++++ 52/analyze_pilot.py
+@@ -8,9 +8,9 @@
+  if not x:raise ValueError(m)
+ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+ def compute(base):
+- sys.path.insert(0,str(Path(__file__).resolve().parent/'aporte_motor'))
++ sys.path.insert(0,str(Path(__file__).resolve().parent/'donors'))
+  from air_interface import AirInterface
+- air_api=AirInterface(base/'aporte_motor/JO_anatomy_arrays.npz')
++ air_api=AirInterface(base/'donors/JO_anatomy_arrays.npz')
+  p=json.loads((base/'PILOT_PLAN.json').read_text());fr=json.loads((base/'PILOT_FREEZE.json').read_text());need(sha(base/'PILOT_PLAN.json')==fr['plan_sha256'],'Plan changed')
+  need(p['duration_ms']==90 and p['analysis_window_ms']==[51,90] and p['criteria']['DNb05_directional_q_min']==1.6e-5 and p['criteria']['raw_yaw_deg_s_min']==.02,'Frozen decision contract')
+  data={};checks={};sources={};window=slice(50,90);ids0=None
+@@ -31,7 +31,8 @@
+   kin=a['air_kinematics'];need(kin.shape==(90,15),'Air kinematics shape')
+   field=kin[0,6:].reshape(3,3)@np.array([0.,100.*setting['air'],0.])
+   need(np.array_equal(kin[:,:3],np.broadcast_to(field,(90,3))),'World field or sign changed')
+-  need(np.array_equal(kin[1:,3:6],t['qvel'][:-1,:3]),'Air body-velocity latency')
++  need(np.array_equal(kin[1:,3:6],10*t['qvel'][:-1,:3]),'Air body-velocity latency')
++  need(np.array_equal(kin[0,3:6],10*a['initial_native_velocity']),'Initial body units')
+   expected=np.array([air_api.encode(air_velocity_world_mm_s=x[:3],body_velocity_world_mm_s=x[3:6],body_to_world=x[6:].reshape(3,3)) for x in kin[10:]])
+   need(np.array_equal(expected,a['JO_drive'][10:]),'Air encoder recomputation')
+   # Restore one-step motor latency and original reader; labels cannot supply outcome.
+@@ -66,7 +67,7 @@
+   clipping[arm]={'base_rows_initialized':int(mask.sum()),'base_rows_raw_below0':int((z['min_raw'][mask]<0).sum()),'base_rows_raw_above1':int((z['max_raw'][mask]>1).sum()),'max_underflow':float(np.maximum(-z['min_raw'][mask],0).max()),'max_overflow':float(np.maximum(z['max_raw'][mask]-1,0).max()),'scope':'Base coefficient before later specialized overrides, not count of actual clipped final neuron states.'}
+   parent='air0_odor'+arm[-1];mask_sat=data[arm]['a']['final_q']>=.999;new_sat=mask_sat & (data[parent]['a']['final_q']<.999);clipping[arm]['new_saturation_all_neurons_fraction']=float(new_sat.mean());clipping[arm]['new_saturation_eligible_fraction']=float(new_sat[eligible].mean());clipping[arm]['saturation_excluded']=bool(new_sat[eligible].mean()>.05)
+  conductance['saturation_excluded']=any(v['saturation_excluded'] for v in clipping.values());conductance['promising_screen']=conductance['both_material'] and not conductance['saturation_excluded']
+- result={'schema':'pilot51_verified_metrics_v1','checks':checks,'arms':{k:{j:v[j] for j in ['mean_DNb_direction','mean_yaw_deg_s','DNg_target_max','mean_forward']} for k,v in data.items()},'air':air,'odor_modulation_of_air_direction':{'q':air['1']['half_L_minus_R_DNb_q']-air['0']['half_L_minus_R_DNb_q'],'yaw_deg_s':air['1']['half_L_minus_R_yaw_deg_s']-air['0']['half_L_minus_R_yaw_deg_s']},'conductance':conductance,'clipping':clipping,'source_hashes':sources,'stage4_pass':False,'stage5_pass':False,'reason':'Neural transfer screen with yaw deliberately unapplied; no online navigation/replay or reserved mechanical perturbation.'}
++ result={'schema':'repair52_verified_metrics_v1','checks':checks,'arms':{k:{j:v[j] for j in ['mean_DNb_direction','mean_yaw_deg_s','DNg_target_max','mean_forward']} for k,v in data.items()},'air':air,'odor_modulation_of_air_direction':{'q':air['1']['half_L_minus_R_DNb_q']-air['0']['half_L_minus_R_DNb_q'],'yaw_deg_s':air['1']['half_L_minus_R_yaw_deg_s']-air['0']['half_L_minus_R_yaw_deg_s']},'conductance':conductance,'clipping':clipping,'source_hashes':sources,'stage4_pass':False,'stage5_pass':False,'reason':'Neural transfer screen with yaw deliberately unapplied; no online navigation/replay or reserved mechanical perturbation.'}
+  return result,data
+ 
+ def main():

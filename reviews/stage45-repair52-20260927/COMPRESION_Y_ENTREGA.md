@@ -1,0 +1,13 @@
+# Suplemento de entrega52
+
+La evidencia científica y el manifiesto compacto permanecen congelados. El paquete compacto ya fue extraído y sus números recalculados mediante dos implementaciones. Los archivos de este suplemento documentan únicamente su entrega posterior.
+
+El primer ensamblado completo alcanzó el tope prospectivo de espacio. Se verificaron sus 8047 bloques por SHA256, se conservó el hash del ZIP parcial y el registro de fallo, y se retiró únicamente esa copia de transporte redundante; todos los originales científicos se conservan. Su consumo CPU no se midió de forma independiente: se carga conservadoramente el límite de 1000 segundos que tenía el proceso, no se presenta como tiempo medido.
+
+El segundo ensamblado divide los JSON grandes cada 4096 líneas conservando todos los bytes. Deduplica segmentos idénticos por hash; las recetas NPZ no cambian. Esto comparte historias y parámetros repetidos sin borrar estados ni reducir precisión. Se mantiene el límite conjunto de 8 GiB, reservando de antemano partes de transporte, Git, descarga y extracción. Se asignaron como máximo 600 segundos CPU dentro del límite agregado original de 5000.
+
+`FULL_CAPSULE.json` sólo se genera cuando se verifican todos los bloques archivados y se reconstruyen por hash todos los archivos segmentados desde el ZIP. Acredita identidad de bytes; no acredita reanudación GPU portable. La cápsula completa se conserva localmente; OpenMatrix recibe el compacto de registros completos de esta comparación y los recibos y fuentes de ensamblado.
+
+El publicador suplementado conserva `deliver52.py` intacto y añade esta procedencia a su manifiesto explícito de publicación. Los suplementos se publican como archivos separados: no se afirma que estuvieran en el ZIP compacto ya congelado. Las direcciones finales deben tomarse de `REMOTE_DELIVERY.json` una vez descargado y recomputado el paquete desde OpenMatrix.
+
+El segundo ensamblado también alcanzó su reserva de espacio antes de cerrar el manifiesto. Se conservan sus bloques completos. `DELIVERY_CONTINUATION.json` limita una continuación de entrega, sin repetir compresión de bloques conocidos: primero publicar y verificar el compacto, retirar exclusivamente sus copias idénticas conservando recibos, y después agregar los bloques faltantes al archivo existente. No aumenta los topes originales de 5000 s CPU ni 8 GiB. El presupuesto total conservador de las componentes declaradas es 4939,568 s, incluidas reservas para auxiliares, publicación y una única continuación de hasta 160 s CPU. Sólo `FULL_CAPSULE.json` confirmará que la cápsula quedó completa; si falta, el archivo completo sigue parcial.

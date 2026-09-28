@@ -1,0 +1,29 @@
+{
+  "status": "PASS_CPU",
+  "unit_cases": [
+    [
+      2.0,
+      -3.0,
+      0.5
+    ],
+    [
+      -7.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "panel_read_only_and_nonalias": true,
+  "anatomical_counts": {
+    "JO_CE": 335,
+    "all_DN": 1314,
+    "AMMC_WED": 1108
+  },
+  "CPU_s": 0.007047399999999926,
+  "scope": "Software fixture only. Live-pair qualification remains required.",
+  "CNS_ms": 0
+}
