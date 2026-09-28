@@ -1,0 +1,142 @@
+{
+  "schema": "campaign55_recomputed_v1",
+  "A": {
+    "contrasts": {
+      "sham_from_profile": {
+        "consumed_PN_relative_L2": 0.0019511247519403696,
+        "DNb_L_minus_R_change_q": -0.0001330388794570994,
+        "yaw_change_deg_s": -0.11270709070767726,
+        "other_donor_self_minus_receiver_yaw_deg_s": -0.6175537595399536,
+        "mean_yaw_self_deg_s": 2.895909356496644,
+        "mean_yaw_cross_deg_s": 2.7832022657889666,
+        "mean_forward_self_mm_s": 0.0,
+        "mean_forward_cross_mm_s": 0.0,
+        "material": false,
+        "toward_other_donor": true,
+        "max_abs_yaw_change_full_deg_s": 0.11743203852604467,
+        "max_abs_yaw_change_at_ms": 92,
+        "PN_first_RHS_absolute_max_difference": 0.22339528799057007,
+        "DN_max_abs_difference_full_q": 0.0003913799152553965,
+        "final_body_xy_separation_mm": 6.456967703764437e-05,
+        "wide_DN_description": {
+          "population": 1314,
+          "max_abs_difference_q": 0.0031647654414519583,
+          "count_above_1e_minus6": 486,
+          "scope": "Posthoc coverage description only; not navigation-related cells or an admission criterion."
+        },
+        "neural_and_motor_thresholds_met": true
+      },
+      "profile_from_sham": {
+        "consumed_PN_relative_L2": 0.001840289100073278,
+        "DNb_L_minus_R_change_q": 0.00013551599748510418,
+        "yaw_change_deg_s": 0.13220011937327092,
+        "other_donor_self_minus_receiver_yaw_deg_s": 0.6175537595399536,
+        "mean_yaw_self_deg_s": 2.27835559695669,
+        "mean_yaw_cross_deg_s": 2.410555716329961,
+        "mean_forward_self_mm_s": 0.0,
+        "mean_forward_cross_mm_s": 0.0,
+        "material": false,
+        "toward_other_donor": true,
+        "max_abs_yaw_change_full_deg_s": 0.13782554011915207,
+        "max_abs_yaw_change_at_ms": 88,
+        "PN_first_RHS_absolute_max_difference": 0.22339528799057007,
+        "DN_max_abs_difference_full_q": 0.0003907762275333626,
+        "final_body_xy_separation_mm": 7.620643157119077e-05,
+        "wide_DN_description": {
+          "population": 1314,
+          "max_abs_difference_q": 0.0031528706348178392,
+          "count_above_1e_minus6": 487,
+          "scope": "Posthoc coverage description only; not navigation-related cells or an admission criterion."
+        },
+        "neural_and_motor_thresholds_met": true
+      }
+    },
+    "reciprocal_material_transport": false,
+    "classification": "DESCARTADO",
+    "classification_scope": "Promotion under the joint frozen screen, including1percent aggregatePN signal criterion. Does not erase an observed neural/motor effect below that input criterion.",
+    "input_small_in_any_direction": true,
+    "scope": "Only686ALPN q/commonfilter sufficient transport at3s+128ms underparent; not allPN memories, no claim absence of route, no navigation."
+  },
+  "C": {
+    "JO_relative_L2": 0.22400280848098464,
+    "online_mean_yaw_deg_s": 1.6259907253857082,
+    "replay_mean_yaw_deg_s": 2.1494205573948957,
+    "nominal52_mean_yaw_deg_s": 2.16006079454658,
+    "replay_minus_online_yaw_deg_s": 0.5234298320091875,
+    "replay_minus_online_DNb_L_minus_R_q": 0.0004950151928579498,
+    "nominal52_residual_yaw_deg_s": -0.010640237151684495,
+    "fraction_mean_yaw_gap_recovered": 0.9800770764622657,
+    "material": true,
+    "classification": "PROMETEDOR_NO_CONFIRMADO",
+    "native_JO_nonzero_RHS_elements": 0,
+    "scope": "Causal effect of declared JO replay in basal I; single exposed life, partial feedback, not navigation or sole cause."
+  },
+  "arms": {
+    "feedback_online": {
+      "DNg_target_max_all_RHS": 0.34640395605495544,
+      "mean_forward_full_mm_s": 0.02175311182892759,
+      "final_forward_mm_s": 0.14629831763141937
+    },
+    "feedback_replay": {
+      "DNg_target_max_all_RHS": 0.34512227822402397,
+      "mean_forward_full_mm_s": 0.021695399358200244,
+      "final_forward_mm_s": 0.14581754720069112
+    },
+    "qual_sham_untouched": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "qual_sham_self": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "qual_profile_untouched": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "qual_profile_self": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "pn_sham_from_sham": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "pn_profile_from_profile": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "pn_sham_from_profile": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    },
+    "pn_profile_from_sham": {
+      "DNg_target_max_all_RHS": 0.0,
+      "mean_forward_full_mm_s": 0.0,
+      "final_forward_mm_s": 0.0
+    }
+  },
+  "budget": {
+    "attempted_CNS_ms": 703,
+    "committed_CNS_ms": 702,
+    "worker_CPU_s": 2605.4113915,
+    "queue_wall_s": 2516.0891111430246
+  },
+  "repair": {
+    "original_failed_attempt_preserved": true,
+    "identity_continuations_exact": true,
+    "registered_GABA_source_jumps": 7,
+    "source_to_receptor_delay_ns": 125000,
+    "previous_occupancy_and_history_not_overwritten": true
+  },
+  "stage4_admitted": false,
+  "stage5_admitted": false,
+  "verification_limits": "Recorded nominalORN and clocks checked; everyORN RHS equality was enforced live but no rawORNcounterarchive retained. JO audit records everyactualFP32RHS mismatch counts; PN records first/last/min/max perms, not a completeRHS tape. GPUportable resume unqualified."
+}

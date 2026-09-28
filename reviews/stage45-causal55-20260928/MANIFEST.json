@@ -1,0 +1,1186 @@
+{
+  "schema": "causal55_compact_v1",
+  "files": {
+    "FEEDBACK_SOURCES.json": {
+      "bytes": 46973,
+      "sha256": "0a87452aa253117caae45e3fd18a493e4725b0d5f8d87b41612677161de249aa"
+    },
+    "pn_profile_from_profile.log": {
+      "bytes": 636,
+      "sha256": "1be8725ea018aa22b4006d081a6c93324ad302e5f046bc5c522de31363a7a9b0"
+    },
+    "run_feedback.py": {
+      "bytes": 5789,
+      "sha256": "bc736f353a935ac2adf0120a3701f04f135c393f1ce8bdaa08d108e43ac483a9"
+    },
+    "pn_sham_from_sham.log": {
+      "bytes": 598,
+      "sha256": "846ec804cf4ae0b0ab144d49c0fb3032f7728f57f6793493c5ea9613126baa99"
+    },
+    "PN_FREEZE.json": {
+      "bytes": 267,
+      "sha256": "f4c453338e2e52bec64497fc23c2a6e5f01879dc327bf90919618ea6a131e12c"
+    },
+    "REPORT_COST.json": {
+      "bytes": 34,
+      "sha256": "0b0525ef7d591bef8950d71ff73b79b91b90ce7c404cb104fd002626889c2a58"
+    },
+    "RESULTADOS.md": {
+      "bytes": 5728,
+      "sha256": "5a9fc264ca65e27ca7386e82959e4c973da15574deb62558d3828e190147fff2"
+    },
+    "pn_probe55.py": {
+      "bytes": 1822,
+      "sha256": "b41932f5632d0c8b5e119ba9618f1ad7571611f9a4f6cc7ec5ef9af851d08b3f"
+    },
+    "repeat_frozen55.py": {
+      "bytes": 2818,
+      "sha256": "1fd6f296ec96000322d3e7aebf6c635146604714a7fb476e3e3720748824bea1"
+    },
+    "check_delivery55.py": {
+      "bytes": 640,
+      "sha256": "ff6852e8aa5dd18d959b7c0bad55a5855e3e50b24cf8db2dc5d0a27067b9460e"
+    },
+    "COMPARACION.png": {
+      "bytes": 256074,
+      "sha256": "da6511f4ac52b2de8d74f4b86bc3da83deebad6527edf2a81ba1e54d6ad5ae65"
+    },
+    "delivery55.py": {
+      "bytes": 10012,
+      "sha256": "75a0c453978a9d5d27e22a9fab77506d84937aba318c947a0ffe72897615056d"
+    },
+    "FEEDBACK_PLAN.json": {
+      "bytes": 1330,
+      "sha256": "8b88217fd74fe4783caa2a9fd8742df3c6731bc4a48b1e02ce4f2b0a3b328344"
+    },
+    "FEEDBACK_RESULT.json": {
+      "bytes": 554,
+      "sha256": "c58183af40ab471d4196b248e69de8e1b2159e3be7f9afa6bfedd0381ea8781e"
+    },
+    "ChatGPT_Motor_V2.json": {
+      "bytes": 2845,
+      "sha256": "4a17e181cbb6da40db8ed1cf29523fe33a8dd61b3569543e830855d80950b54b"
+    },
+    "ENVIRONMENT.json": {
+      "bytes": 467,
+      "sha256": "d9ba9b273f13f454d7496671fc9ba362896e99d57b08163ab6db108b0c91b558"
+    },
+    "FEEDBACK_STATUS.json": {
+      "bytes": 554,
+      "sha256": "c58183af40ab471d4196b248e69de8e1b2159e3be7f9afa6bfedd0381ea8781e"
+    },
+    "REPARACION.md": {
+      "bytes": 2731,
+      "sha256": "d5d3d34030fd8ef81b79ef2b495c166c5324476b2e56c6baf6cf8f0d9436368c"
+    },
+    "pn_sham_from_profile.log": {
+      "bytes": 4215,
+      "sha256": "8ca7a31a3ded6a2e1e1743ec4927360db1d5d0abf1d36cadb605aa5c43bfe5e9"
+    },
+    "PARENT_DIFF.patch": {
+      "bytes": 38009,
+      "sha256": "ec7e5684a7f56c23d5dd4c23b4035c4b787f4f347a389bfbc15179afbfb741c7"
+    },
+    "qual_profile_self.log": {
+      "bytes": 339,
+      "sha256": "5974687e3301a549f59f0022e8dfe514adb1be57097c49202222b21b2f51ac70"
+    },
+    "PN_PLAN.json": {
+      "bytes": 2811,
+      "sha256": "5ec3541e4bd98bdf97578e47aecc5206debc621b27d9e3225c4d9d5e636e0ce9"
+    },
+    "PN_PARAMETER_CHECK.json": {
+      "bytes": 273,
+      "sha256": "8ffe0c187a66e01ec446fba5f6a9c426be448dc6160eee6788069416aea43c74"
+    },
+    "feedback_online.log": {
+      "bytes": 660,
+      "sha256": "6f3cf86a6e339f92fd9004e8ca0745faea38de896ee5a60eb54af5bf53554158"
+    },
+    "verify55.py": {
+      "bytes": 21663,
+      "sha256": "4e812416d82f00b0644afe78f699978ed7f33047c50f8a8ea3d34386d7792958"
+    },
+    "queue_pn.py": {
+      "bytes": 3237,
+      "sha256": "d3442395058b63c8a43a3b53d75f616e51f2b56f2e0dad743ba1205802ed80a8"
+    },
+    "feedback_replay.log": {
+      "bytes": 660,
+      "sha256": "f3a0b04d16a8fea29a722e9a3e2e89ee1e5bf4b4df94b28c3d68313ed6142621"
+    },
+    "qual_sham_untouched.log": {
+      "bytes": 335,
+      "sha256": "e9e22941deb23896cb827689a818ce918de502a038df5c40df26f3abc10be96d"
+    },
+    "DECISION.md": {
+      "bytes": 4170,
+      "sha256": "71369884e64f52162be270980002514b75fee20a9521cd78dd76f768ff103154"
+    },
+    "qual_sham_self.log": {
+      "bytes": 323,
+      "sha256": "1931be81f1ba194ffea4c4d12e7c4c9ec67dc42053ebb935298f6179899fb311"
+    },
+    "CHATGPT_JO_REVIEW.json": {
+      "bytes": 1278,
+      "sha256": "f2a1c36f8236948b10020c8b8bf800d3f498c910582e7ee9f860473d0868c633"
+    },
+    "run_pn.py": {
+      "bytes": 7385,
+      "sha256": "5933f9e902c91d0e62fe2f7b3aceee0cc4d6b96dbb37bf45661040647f43856f"
+    },
+    "JO_TIMING_DESCRIPTION.json": {
+      "bytes": 464,
+      "sha256": "a6438c5ac9b0e66b375841eb5faa8be640dbd4a01c34251e3c4179bc63f57f54"
+    },
+    "REPRODUCIR.md": {
+      "bytes": 2380,
+      "sha256": "e9f280a74a2f6583eb9a4615f19388410d4ff5ddc76d53b5610a11cf4a169f56"
+    },
+    "FEEDBACK_FREEZE.json": {
+      "bytes": 233,
+      "sha256": "202991bbd97f259ecdf92882ec724aaf587d522f7b3b206a3e583fc672357f6e"
+    },
+    "PN_RESULT.json": {
+      "bytes": 1593,
+      "sha256": "7e8bf8419f01e5d4f5f70320c743e48d43eb00395051144e6c0ab91fda082475"
+    },
+    "FEEDBACK_START.json": {
+      "bytes": 53,
+      "sha256": "3514db11c607295e94fe4e137a3e5f66b3dcb586d8b1a2afceea89c8e8e57c99"
+    },
+    "PN_START.json": {
+      "bytes": 53,
+      "sha256": "c869f06fb3b4d222d5e7bcfc0b83126c8c73b88f10c38258df05edf41e4a9c26"
+    },
+    "RESULTADOS.json": {
+      "bytes": 5804,
+      "sha256": "5c950f08392ff0ccb59b200a92dc2de1984d16779ffceb1ab084fb7f00b73998"
+    },
+    "PN_STATUS.json": {
+      "bytes": 1593,
+      "sha256": "7e8bf8419f01e5d4f5f70320c743e48d43eb00395051144e6c0ab91fda082475"
+    },
+    "PN_LIVE_QUALIFICATION.json": {
+      "bytes": 516,
+      "sha256": "9ce6022b7801eede8dda9d2997548246373a49ca0caa473a874728d585f1de5f"
+    },
+    "jo_replay55.py": {
+      "bytes": 3571,
+      "sha256": "06d892710ee8bf5fee94d2c83a3ba3e903c1aa7853af87701d83a7ed7cfab8de"
+    },
+    "queue_feedback.py": {
+      "bytes": 2353,
+      "sha256": "0e94e8f25775126cd6eae18e7986d7f7c18f1fea6457385e342a5571f8524fae"
+    },
+    "PLAN_INICIAL.md": {
+      "bytes": 3036,
+      "sha256": "7cae831e116b1dd0771973026a04990f0de4652bb1b5b55ad26655d5de0516f9"
+    },
+    "PN_SOURCES.json": {
+      "bytes": 47304,
+      "sha256": "ebc1773da47edcfc1870e8f138d9a0015a0155c9c74da93cfeee759c53e8ecf3"
+    },
+    "qual_profile_untouched.log": {
+      "bytes": 353,
+      "sha256": "b97777224ff7e0e303a3a856c420d96aadfaa6140bf185ba2035d60e4ae7fddb"
+    },
+    "ChatGPT_ASTRA_V2.json": {
+      "bytes": 2538,
+      "sha256": "aa1cbe2585f30b6207a04b1b4f075ddda4f9b5ba5774d01661dec26bd1bc8eea"
+    },
+    "CORRUPTION_TESTS.json": {
+      "bytes": 1560,
+      "sha256": "79ffb5b4a8ca7c360a27a1cdf5fe8c55d3871d1cd62037bc63a0f5e4538cdf08"
+    },
+    "report55.py": {
+      "bytes": 13868,
+      "sha256": "4ef6496f741c96fa046a90161aed104246cc33aadaae50cd6d89de4463821f78"
+    },
+    "B_DATOS.md": {
+      "bytes": 2924,
+      "sha256": "cc40f8a10d6ceae21515389d35c2c091573e5644624f6295ec5fb9c6855a9e35"
+    },
+    "qual_profile_self/RESULT.json": {
+      "bytes": 3758,
+      "sha256": "948592cd4cbc7beba374afd86904ab27bb1cb721b0c68d8f6cf89a85c13d20b4"
+    },
+    "qual_profile_self/EVENTS.json": {
+      "bytes": 40278,
+      "sha256": "5914e5f701df1214b31ce3a35a590777bc67f2a9f64bb59420dae0b48a812a95"
+    },
+    "qual_profile_self/traces.npz": {
+      "bytes": 35650,
+      "sha256": "6ecc41901cc5c0fcd1ea245d2d0dbfb076f80764c95802b6f029dee6ba502f90"
+    },
+    "qual_profile_self/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "qual_profile_self/APPENDIX.json": {
+      "bytes": 306,
+      "sha256": "8fd5d7520ecf420af9cfc34e845ee32e2194f0336ce7a2bb1b3c02bc7f0b9220"
+    },
+    "qual_profile_self/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "931527af8e499c89dcfeb7a2ce865211d90bea59bb6b4290793c5b9b67a594df"
+    },
+    "qual_profile_self/dng100_observed.npz": {
+      "bytes": 34527,
+      "sha256": "2fe13516ec1eed74be6e6b037c2b7153e901b7a1c9c6ae4440e19ce4528b8eab"
+    },
+    "qual_profile_self/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "qual_profile_self/wide_observation.npz": {
+      "bytes": 44922,
+      "sha256": "9e0a027fd69480b8a221d8d3241cbe61d9e685e83fc0447015f5aa1755728706"
+    },
+    "qual_profile_self/PN_consumed.npz": {
+      "bytes": 16527,
+      "sha256": "cb60365afb9e457f72956a697dc0be3273cb75f13d6d31b911cfc336cd2a6648"
+    },
+    "qual_profile_self/INTERVENTION.json": {
+      "bytes": 2917,
+      "sha256": "8010d171b5a22b3604839e747bdca03004ef29a10dbd856ae45f918328c123b2"
+    },
+    "qual_profile_self/INTERVENTION.npz": {
+      "bytes": 4314747,
+      "sha256": "9ae803110e5c18d98b44af05f1114e6c734034b5ff8e2ed6c5f847e6574e37e0"
+    },
+    "qual_profile_self/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "qual_profile_self/neural_and_inputs.npz": {
+      "bytes": 2039065,
+      "sha256": "0ad74c300419cc9f939a74ca76e7a25a0a0ea9355e0592d208d80a41a8b782a2"
+    },
+    "qual_profile_self/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "qual_profile_self/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "aporte_motor/PREPARACION_CPU.json": {
+      "bytes": 2145,
+      "sha256": "1813ce83ef4e65876efe4790d80850d20a37812a846866619a34d10ebd99df03"
+    },
+    "aporte_motor/EVENTO_PN55.json": {
+      "bytes": 2975,
+      "sha256": "f2fce6269ad266419901989ebdca2e87227d8abdcb84e0309a5f8a3932609ded"
+    },
+    "aporte_motor/pn_boundary55.py": {
+      "bytes": 5947,
+      "sha256": "95f3c939eb8bd4b7676fc502e755b74d79d8bcdf0717aa9b18245fbd986cbdc0"
+    },
+    "aporte_motor/PROPIETARIOS_PN.md": {
+      "bytes": 7571,
+      "sha256": "81997f160d3542b3a8a34af7fd1c48078b47dd51839258672745f90928fb929e"
+    },
+    "aporte_motor/REVISION_PN55.md": {
+      "bytes": 3921,
+      "sha256": "66f09f580a1b3dbd3ebb3f9d1935d8a367ad3bd18efd5bb86dbd59e7fc6642e7"
+    },
+    "aporte_motor/REVISION_PN55.json": {
+      "bytes": 9847,
+      "sha256": "3734022e048f9dc0ecdb24fdab98e8d0e8eb5147796c2359a4bd750d4943f120"
+    },
+    "aporte_motor/REVISION_JO55.json": {
+      "bytes": 6267,
+      "sha256": "fdde2b08fdfe0a6d557c401b4afc42b8a4ff230ae7130984fca5b4c0760a343c"
+    },
+    "aporte_motor/EVENTO_PN55.md": {
+      "bytes": 4340,
+      "sha256": "d81c0a5c737bf5893b13bf84b2d999ef3ac7b87056025cfe1c3c4797964c5661"
+    },
+    "aporte_motor/REVISION_OVERLAY55.md": {
+      "bytes": 3633,
+      "sha256": "3d5cbcd2a11b2a78c48475405863277611aed1a9c6ff37f5a15f2c982921f662"
+    },
+    "aporte_motor/REVISION_JO55.md": {
+      "bytes": 4721,
+      "sha256": "5568ec25688175f89d93f0062252261d2ca272ffe349f7100ac70f26a570e059"
+    },
+    "qual_sham_untouched/RESULT.json": {
+      "bytes": 3751,
+      "sha256": "01e898d485c6012fe8fa9d2223705140dd444f1d900b7dc0fa9173d156da7706"
+    },
+    "qual_sham_untouched/EVENTS.json": {
+      "bytes": 36826,
+      "sha256": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101"
+    },
+    "qual_sham_untouched/traces.npz": {
+      "bytes": 35041,
+      "sha256": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9"
+    },
+    "qual_sham_untouched/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "qual_sham_untouched/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "qual_sham_untouched/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea"
+    },
+    "qual_sham_untouched/dng100_observed.npz": {
+      "bytes": 31286,
+      "sha256": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7"
+    },
+    "qual_sham_untouched/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "qual_sham_untouched/wide_observation.npz": {
+      "bytes": 39801,
+      "sha256": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643"
+    },
+    "qual_sham_untouched/PN_consumed.npz": {
+      "bytes": 16447,
+      "sha256": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789"
+    },
+    "qual_sham_untouched/INTERVENTION.json": {
+      "bytes": 2665,
+      "sha256": "34426ea09936a9dce64a05782baa4d8fa24113e3debfed33cee2cffa74e06867"
+    },
+    "qual_sham_untouched/INTERVENTION.npz": {
+      "bytes": 4314425,
+      "sha256": "376c5199375d52f7af40c16538fb0bf15ca51f53c6ea06466d4d4f8a25c1f7bc"
+    },
+    "qual_sham_untouched/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "qual_sham_untouched/neural_and_inputs.npz": {
+      "bytes": 2038784,
+      "sha256": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835"
+    },
+    "qual_sham_untouched/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "qual_sham_untouched/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "pn_profile_from_profile/RESULT.json": {
+      "bytes": 3805,
+      "sha256": "a41bf070d137f5f37ca19541e12d892f0d92c0f4c434d65b512fa7ed432e5991"
+    },
+    "pn_profile_from_profile/EVENTS.json": {
+      "bytes": 2280381,
+      "sha256": "e9f3ce46c8f3a76ec56ee949bfee0c7dec16da46a54f79ec5da1e826c54d7932"
+    },
+    "pn_profile_from_profile/traces.npz": {
+      "bytes": 1738509,
+      "sha256": "e708cd6163a7809da2101e4e31b1d8bce7c86147824ed7c81237de658050fd74"
+    },
+    "pn_profile_from_profile/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "pn_profile_from_profile/APPENDIX.json": {
+      "bytes": 306,
+      "sha256": "8fd5d7520ecf420af9cfc34e845ee32e2194f0336ce7a2bb1b3c02bc7f0b9220"
+    },
+    "pn_profile_from_profile/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "205daaf8f21b394a004457e94a75d89d79d642b82eb110b1380cb2706c6ceb3d"
+    },
+    "pn_profile_from_profile/dng100_observed.npz": {
+      "bytes": 1753542,
+      "sha256": "677950cf9244f1489f5dbf27c75bac50da643ad16ea35649b1983004fe8c803b"
+    },
+    "pn_profile_from_profile/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "pn_profile_from_profile/wide_observation.npz": {
+      "bytes": 1796726,
+      "sha256": "f52a2f03e409665520ae9084de253865f2378d1b8299fa5af2846da53ab11356"
+    },
+    "pn_profile_from_profile/PN_consumed.npz": {
+      "bytes": 945099,
+      "sha256": "732a88d150dfc3bb7bb31cb05c4f1148011e455db15bba593631344a64067b4f"
+    },
+    "pn_profile_from_profile/INTERVENTION.json": {
+      "bytes": 2919,
+      "sha256": "db7ea65f6caec5ba6797a49961dbf0ce8a38cdf049588f38ef62cfd8e459e137"
+    },
+    "pn_profile_from_profile/INTERVENTION.npz": {
+      "bytes": 4314747,
+      "sha256": "9ae803110e5c18d98b44af05f1114e6c734034b5ff8e2ed6c5f847e6574e37e0"
+    },
+    "pn_profile_from_profile/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "pn_profile_from_profile/neural_and_inputs.npz": {
+      "bytes": 2605669,
+      "sha256": "d1def2c776508b5ec0a3a37925a06d050cf6fa5f73adc1f965ca263b50cea261"
+    },
+    "pn_profile_from_profile/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "pn_profile_from_profile/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "pn_sham_from_sham/RESULT.json": {
+      "bytes": 3788,
+      "sha256": "11c4644b41c0bfca7b49795092b2d1f643909dd31e103385721a84cf57ea5b44"
+    },
+    "pn_sham_from_sham/EVENTS.json": {
+      "bytes": 2256844,
+      "sha256": "eb1d52ed0c17e23ce3927c5b4208cfdf68c1a589977d8297a55138cfc517ab24"
+    },
+    "pn_sham_from_sham/traces.npz": {
+      "bytes": 1619625,
+      "sha256": "f8e4c31ccde61df2b233460724cb12811e53905ee74fb46928c75b3b8565a002"
+    },
+    "pn_sham_from_sham/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "pn_sham_from_sham/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "pn_sham_from_sham/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "40eeb4c7020a81c742be5726535dd9c607fb1052c3622c84a23feab84e03e7bf"
+    },
+    "pn_sham_from_sham/dng100_observed.npz": {
+      "bytes": 1748473,
+      "sha256": "2a20c5f6e8d62cf03bad4d7b80492a97fd898c75c2601580786e3ac933c98e17"
+    },
+    "pn_sham_from_sham/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "pn_sham_from_sham/wide_observation.npz": {
+      "bytes": 1135562,
+      "sha256": "ff199f27059f038916e25d4443067fb7485d0a4937199749dc12cb5c0d429d3e"
+    },
+    "pn_sham_from_sham/PN_consumed.npz": {
+      "bytes": 787106,
+      "sha256": "a57bbec9789b71c1964f0e3905c6c804b733d724b0f7c4f603bc5172d92de837"
+    },
+    "pn_sham_from_sham/INTERVENTION.json": {
+      "bytes": 2913,
+      "sha256": "a7f228f214de522dfba1ec1f999f7df44eb631ca48f958d6af4fee093c94e8e7"
+    },
+    "pn_sham_from_sham/INTERVENTION.npz": {
+      "bytes": 4314425,
+      "sha256": "376c5199375d52f7af40c16538fb0bf15ca51f53c6ea06466d4d4f8a25c1f7bc"
+    },
+    "pn_sham_from_sham/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "pn_sham_from_sham/neural_and_inputs.npz": {
+      "bytes": 2582038,
+      "sha256": "621e08d9946395c5c9bd09611ff74edfc23c8d6fcb576dc7504d966774dcafe1"
+    },
+    "pn_sham_from_sham/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "pn_sham_from_sham/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "pn_sham_from_profile/RESULT.json": {
+      "bytes": 4410,
+      "sha256": "ff4582bed6c5018a583604b97c96f22881024b68b4b5daf6a26eb75d7660c6d2"
+    },
+    "pn_sham_from_profile/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "pn_sham_from_profile/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "pn_sham_from_profile/dng100_observed.npz": {
+      "bytes": 3951,
+      "sha256": "4329dfea46210777deba7149ae623195cbd5b03211dc23387e05b8b09a344b83"
+    },
+    "pn_sham_from_profile/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "pn_sham_from_profile/INTERVENTION.json": {
+      "bytes": 2919,
+      "sha256": "ccb53c0b46375d211ce6b121416d5020d76bbb02c1203b6acb0ce830a16dd914"
+    },
+    "pn_sham_from_profile/INTERVENTION.npz": {
+      "bytes": 4314447,
+      "sha256": "56fc9e5ca9c160f544425d175051a54eca71c44915cc2877eae5f93b31a82943"
+    },
+    "pn_sham_from_profile/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "pn_sham_from_profile/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "pn_sham_from_profile/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "feedback_online/RESULT.json": {
+      "bytes": 3771,
+      "sha256": "4aef9d1459cf45ac4b46a2b476a8b2a95a76496180dc85a6da2a50ba58bed94d"
+    },
+    "feedback_online/EVENTS.json": {
+      "bytes": 1584658,
+      "sha256": "ea5d2a49e465fd2f13d0df9df3042035019666cc64c23ce1753061e7cbcaf915"
+    },
+    "feedback_online/candidate_owner.npz": {
+      "bytes": 2662834,
+      "sha256": "9e907ed9e04534d0f4779b87d7087ed82030d8210b241b1edc7b603e777f462b"
+    },
+    "feedback_online/traces.npz": {
+      "bytes": 1143679,
+      "sha256": "4b3ece308cd315bdf0d0a6df5dcf35c16b6faaeb2f5470e82ae379b6f39526ea"
+    },
+    "feedback_online/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "feedback_online/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "feedback_online/dng100_observed.npz": {
+      "bytes": 2732848,
+      "sha256": "e4a3deb6ad8d66a29d173db2fea2cca3b7fd40806a91e2a65a4f1c61a66f099f"
+    },
+    "feedback_online/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "feedback_online/EXECUTED_SOURCES.json": {
+      "bytes": 42141,
+      "sha256": "2e6775a0b7e92f62ab1e5bb74795aa2e49f3638a47d154eec524a4e9a9ab21c6"
+    },
+    "feedback_online/neural_and_inputs.npz": {
+      "bytes": 2305766,
+      "sha256": "c94c39b17b7e2b7011072d7d77c059d6f4a38f4e8c2a40e8a039b4d9f4d56851"
+    },
+    "feedback_online/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "feedback_online/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "reference/54I_none_neural.npz": {
+      "bytes": 2264577,
+      "sha256": "0a7772f24e14b71efc8b38f5ee462e66a32ce56c34149c8eec1dfb429d4c89c5"
+    },
+    "reference/PROCEDENCIA.json": {
+      "bytes": 699,
+      "sha256": "d3f4866687177a93c693f7c77ccaa4749fd3e0f15ce31a557f6db2083c124d56"
+    },
+    "reference/ANALYTIC_REFERENCES.json": {
+      "bytes": 1113,
+      "sha256": "e88336d86855f2777a76ef3933ebcdf5e065ff1b20be5172b64569e6de6c9c29"
+    },
+    "reference/54parent_none_traces.npz": {
+      "bytes": 1131952,
+      "sha256": "3f8f55d629e21428e692e054014d4c3de5f75621f2073cd6b94204df2ee9f7d9"
+    },
+    "reference/JUMP_OWNER_IDENTITIES.json": {
+      "bytes": 454,
+      "sha256": "d47b37eb94684da8cbeedac48175c089c27c1f4d8972f29ca49a9886c20ca7ea"
+    },
+    "reference/JO52_nominal.npz": {
+      "bytes": 26404,
+      "sha256": "468b15bc1b540d06c91ed3744988caeaf579d556d57be83e0341e45dbcf59268"
+    },
+    "reference/54I_none_traces.npz": {
+      "bytes": 1143679,
+      "sha256": "4b3ece308cd315bdf0d0a6df5dcf35c16b6faaeb2f5470e82ae379b6f39526ea"
+    },
+    "reference/PN_donors.npz": {
+      "bytes": 25701,
+      "sha256": "c17a763116a753ac144b2172626874ad8461377037c28710a4ab982fd704fb8c"
+    },
+    "reference/PANEL52.npz": {
+      "bytes": 29610,
+      "sha256": "f6f1d8b3690eff966917238b0e292574561bacce7eb04ea9d43d9d1561e67dd3"
+    },
+    "reference/PN_donors.json": {
+      "bytes": 2529,
+      "sha256": "1d72985b147c55611e5bce96acaa53d74caa786c163b4e57ef7152e35a0f7005"
+    },
+    "repair02/PN_FREEZE.json": {
+      "bytes": 233,
+      "sha256": "ffd44093f5a1e36a1b2ac909bda0a772d99b1d55d80e7e5f43c79794a427684f"
+    },
+    "repair02/pn_sham_from_profile.log": {
+      "bytes": 621,
+      "sha256": "0867faf7a10b7e4b37c0f81aee17e04c9553573ebba6f045ec93e9709bd39b1a"
+    },
+    "repair02/qual_profile_self.log": {
+      "bytes": 330,
+      "sha256": "48a94f98f698e0c35eb75e23bc788db82135ba54d63941386fb4b4100f95f379"
+    },
+    "repair02/PN_PLAN.json": {
+      "bytes": 3156,
+      "sha256": "ef7efdc0addfddcd77613e681ee7eb00b823041ea439c33d1d73d308dbfb96c6"
+    },
+    "repair02/queue_pn.py": {
+      "bytes": 3246,
+      "sha256": "c67814c0ba3eedc65c166fc32e9639b89e3dfba5ab70e53652a276a14e7532db"
+    },
+    "repair02/qual_sham_self.log": {
+      "bytes": 321,
+      "sha256": "28c864327fe404183d972d792900495c5bdc40d6d74feb109c60a5df0584f486"
+    },
+    "repair02/run_pn.py": {
+      "bytes": 1732,
+      "sha256": "ba5cbd63e994b69ff00aa8152de0d26532b405d3ecbf61aacb87d297f7b33d36"
+    },
+    "repair02/PN_RESULT.json": {
+      "bytes": 959,
+      "sha256": "730cc5b652b130e77c9971181d32fbb856af61e2cf4b2925165034654f98a5cc"
+    },
+    "repair02/test_jump_cpu.py": {
+      "bytes": 2969,
+      "sha256": "7312195fed01575584fbaba298b6a76c38b20d58d6fe30c23c9ced2931e58950"
+    },
+    "repair02/PN_START.json": {
+      "bytes": 53,
+      "sha256": "918bf06fcebdf0da0bbdd599bcc048ecaa67ba4a00c820d84afbe3adf7e10572"
+    },
+    "repair02/PN_STATUS.json": {
+      "bytes": 959,
+      "sha256": "730cc5b652b130e77c9971181d32fbb856af61e2cf4b2925165034654f98a5cc"
+    },
+    "repair02/JUMP_CPU_TEST.json": {
+      "bytes": 1082,
+      "sha256": "7c623417dea9e1b6e59c4f3d1af1f01ff6ad1d7f6889f93626acdbb4789c566d"
+    },
+    "repair02/PN_LIVE_QUALIFICATION.json": {
+      "bytes": 516,
+      "sha256": "9ce6022b7801eede8dda9d2997548246373a49ca0caa473a874728d585f1de5f"
+    },
+    "repair02/pn_profile_from_sham.log": {
+      "bytes": 617,
+      "sha256": "021910b762d8711e5181b93b2d0edc4f22fc0dc69b319dc833b9d533d18f4235"
+    },
+    "repair02/PN_SOURCES.json": {
+      "bytes": 50016,
+      "sha256": "99ef0bbc1fbf92fba4a7f112de89d4678cbf274fef2a697d96ed96e62b7b5e4d"
+    },
+    "repair02/jump_owner55.py": {
+      "bytes": 4576,
+      "sha256": "84771a8c0453f239c9d9fef79ab68aded3c86bc5c8ab3e5bf44b726ef4b69bf0"
+    },
+    "repair02/qual_profile_self/RESULT.json": {
+      "bytes": 3748,
+      "sha256": "a6de2dcb1fe8139e8d5a91a9639e1a57e0b79dc8bf64483000189ff5712308d3"
+    },
+    "repair02/qual_profile_self/EVENTS.json": {
+      "bytes": 40278,
+      "sha256": "5914e5f701df1214b31ce3a35a590777bc67f2a9f64bb59420dae0b48a812a95"
+    },
+    "repair02/qual_profile_self/traces.npz": {
+      "bytes": 35650,
+      "sha256": "6ecc41901cc5c0fcd1ea245d2d0dbfb076f80764c95802b6f029dee6ba502f90"
+    },
+    "repair02/qual_profile_self/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "repair02/qual_profile_self/APPENDIX.json": {
+      "bytes": 306,
+      "sha256": "8fd5d7520ecf420af9cfc34e845ee32e2194f0336ce7a2bb1b3c02bc7f0b9220"
+    },
+    "repair02/qual_profile_self/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "931527af8e499c89dcfeb7a2ce865211d90bea59bb6b4290793c5b9b67a594df"
+    },
+    "repair02/qual_profile_self/dng100_observed.npz": {
+      "bytes": 34527,
+      "sha256": "2fe13516ec1eed74be6e6b037c2b7153e901b7a1c9c6ae4440e19ce4528b8eab"
+    },
+    "repair02/qual_profile_self/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "repair02/qual_profile_self/wide_observation.npz": {
+      "bytes": 44922,
+      "sha256": "9e0a027fd69480b8a221d8d3241cbe61d9e685e83fc0447015f5aa1755728706"
+    },
+    "repair02/qual_profile_self/JUMP_EVENTS.json": {
+      "bytes": 184,
+      "sha256": "90c51c44c423d905e8421b621cd5dc1f82eada62d9069965b1e114248223d6ac"
+    },
+    "repair02/qual_profile_self/PN_consumed.npz": {
+      "bytes": 16527,
+      "sha256": "cb60365afb9e457f72956a697dc0be3273cb75f13d6d31b911cfc336cd2a6648"
+    },
+    "repair02/qual_profile_self/INTERVENTION.json": {
+      "bytes": 2917,
+      "sha256": "8010d171b5a22b3604839e747bdca03004ef29a10dbd856ae45f918328c123b2"
+    },
+    "repair02/qual_profile_self/INTERVENTION.npz": {
+      "bytes": 4314747,
+      "sha256": "9ae803110e5c18d98b44af05f1114e6c734034b5ff8e2ed6c5f847e6574e37e0"
+    },
+    "repair02/qual_profile_self/EXECUTED_SOURCES.json": {
+      "bytes": 42818,
+      "sha256": "04bb1c3aceea31554a6f09e983a85f1075c7ba72d4b028bb2a90013c680d8e2f"
+    },
+    "repair02/qual_profile_self/neural_and_inputs.npz": {
+      "bytes": 2039065,
+      "sha256": "0ad74c300419cc9f939a74ca76e7a25a0a0ea9355e0592d208d80a41a8b782a2"
+    },
+    "repair02/qual_profile_self/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "repair02/qual_profile_self/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "repair02/pn_sham_from_profile/RESULT.json": {
+      "bytes": 3789,
+      "sha256": "7b36d9cd52fa1b948bfa7cabd27a479804d1b6c14401eabe924013e001c46464"
+    },
+    "repair02/pn_sham_from_profile/EVENTS.json": {
+      "bytes": 2249248,
+      "sha256": "a6f1cf78ac9eab6693efacbe22a512251061394a400177a501d23917dfe11c29"
+    },
+    "repair02/pn_sham_from_profile/traces.npz": {
+      "bytes": 1622735,
+      "sha256": "00677397164a68867671e128c7ce5ebfc22c98b799ff7ff1e633c1974b52301f"
+    },
+    "repair02/pn_sham_from_profile/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "repair02/pn_sham_from_profile/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "repair02/pn_sham_from_profile/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "5779dace1850345ac1f46afa8b0be1213abef7a08c10ddbf0db19d6264c54ac4"
+    },
+    "repair02/pn_sham_from_profile/dng100_observed.npz": {
+      "bytes": 1752033,
+      "sha256": "34196257884ebe3833f9b4025fa2d96cf1ccbbb98aa57ed74ff750f3d2dbce41"
+    },
+    "repair02/pn_sham_from_profile/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "repair02/pn_sham_from_profile/wide_observation.npz": {
+      "bytes": 1137668,
+      "sha256": "596587e4f23af38d579557d41446d16fc8f05f60b1c74f201fc6d67105b31416"
+    },
+    "repair02/pn_sham_from_profile/JUMP_EVENTS.json": {
+      "bytes": 6811,
+      "sha256": "f5ca85de1d863da4b4a697d9f6a7253a8f3d80b0b74f300fbb2b1dd49d98d997"
+    },
+    "repair02/pn_sham_from_profile/PN_consumed.npz": {
+      "bytes": 948994,
+      "sha256": "eee2c879e45aa391aba897da6a015163e0b7b38b8c515257b7f6852642519da9"
+    },
+    "repair02/pn_sham_from_profile/INTERVENTION.json": {
+      "bytes": 2919,
+      "sha256": "ccb53c0b46375d211ce6b121416d5020d76bbb02c1203b6acb0ce830a16dd914"
+    },
+    "repair02/pn_sham_from_profile/INTERVENTION.npz": {
+      "bytes": 4314447,
+      "sha256": "56fc9e5ca9c160f544425d175051a54eca71c44915cc2877eae5f93b31a82943"
+    },
+    "repair02/pn_sham_from_profile/EXECUTED_SOURCES.json": {
+      "bytes": 42818,
+      "sha256": "04bb1c3aceea31554a6f09e983a85f1075c7ba72d4b028bb2a90013c680d8e2f"
+    },
+    "repair02/pn_sham_from_profile/neural_and_inputs.npz": {
+      "bytes": 2606598,
+      "sha256": "5912c120bcb7b2256e0a0b59ec2e986460f3473fabfc0e7ac014dc2ccfb3386e"
+    },
+    "repair02/pn_sham_from_profile/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "repair02/pn_sham_from_profile/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "repair02/reference/54I_none_neural.npz": {
+      "bytes": 2264577,
+      "sha256": "0a7772f24e14b71efc8b38f5ee462e66a32ce56c34149c8eec1dfb429d4c89c5"
+    },
+    "repair02/reference/PROCEDENCIA.json": {
+      "bytes": 699,
+      "sha256": "d3f4866687177a93c693f7c77ccaa4749fd3e0f15ce31a557f6db2083c124d56"
+    },
+    "repair02/reference/ANALYTIC_REFERENCES.json": {
+      "bytes": 918,
+      "sha256": "913e117c4aaa70cdb5627f0461d92aadc7ccda32251cf3bbf0a6e9fc8f69b012"
+    },
+    "repair02/reference/54parent_none_traces.npz": {
+      "bytes": 1131952,
+      "sha256": "3f8f55d629e21428e692e054014d4c3de5f75621f2073cd6b94204df2ee9f7d9"
+    },
+    "repair02/reference/JO52_nominal.npz": {
+      "bytes": 26404,
+      "sha256": "468b15bc1b540d06c91ed3744988caeaf579d556d57be83e0341e45dbcf59268"
+    },
+    "repair02/reference/54I_none_traces.npz": {
+      "bytes": 1143679,
+      "sha256": "4b3ece308cd315bdf0d0a6df5dcf35c16b6faaeb2f5470e82ae379b6f39526ea"
+    },
+    "repair02/reference/PN_donors.npz": {
+      "bytes": 25701,
+      "sha256": "c17a763116a753ac144b2172626874ad8461377037c28710a4ab982fd704fb8c"
+    },
+    "repair02/reference/PANEL52.npz": {
+      "bytes": 29610,
+      "sha256": "f6f1d8b3690eff966917238b0e292574561bacce7eb04ea9d43d9d1561e67dd3"
+    },
+    "repair02/reference/PN_donors.json": {
+      "bytes": 2529,
+      "sha256": "1d72985b147c55611e5bce96acaa53d74caa786c163b4e57ef7152e35a0f7005"
+    },
+    "repair02/qual_sham_self/RESULT.json": {
+      "bytes": 3747,
+      "sha256": "199747a2b25e7c221ef1a3251da663f302c0841b2d6e021f1f4ae923e1a5f7c1"
+    },
+    "repair02/qual_sham_self/EVENTS.json": {
+      "bytes": 36826,
+      "sha256": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101"
+    },
+    "repair02/qual_sham_self/traces.npz": {
+      "bytes": 35041,
+      "sha256": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9"
+    },
+    "repair02/qual_sham_self/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "repair02/qual_sham_self/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "repair02/qual_sham_self/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea"
+    },
+    "repair02/qual_sham_self/dng100_observed.npz": {
+      "bytes": 31286,
+      "sha256": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7"
+    },
+    "repair02/qual_sham_self/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "repair02/qual_sham_self/wide_observation.npz": {
+      "bytes": 39801,
+      "sha256": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643"
+    },
+    "repair02/qual_sham_self/JUMP_EVENTS.json": {
+      "bytes": 184,
+      "sha256": "90c51c44c423d905e8421b621cd5dc1f82eada62d9069965b1e114248223d6ac"
+    },
+    "repair02/qual_sham_self/PN_consumed.npz": {
+      "bytes": 16447,
+      "sha256": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789"
+    },
+    "repair02/qual_sham_self/INTERVENTION.json": {
+      "bytes": 2911,
+      "sha256": "5d4d5e3120438276d9a27bb236cda6a76991cf4bff031c9bf67ef349eb8be969"
+    },
+    "repair02/qual_sham_self/INTERVENTION.npz": {
+      "bytes": 4314425,
+      "sha256": "376c5199375d52f7af40c16538fb0bf15ca51f53c6ea06466d4d4f8a25c1f7bc"
+    },
+    "repair02/qual_sham_self/EXECUTED_SOURCES.json": {
+      "bytes": 42818,
+      "sha256": "04bb1c3aceea31554a6f09e983a85f1075c7ba72d4b028bb2a90013c680d8e2f"
+    },
+    "repair02/qual_sham_self/neural_and_inputs.npz": {
+      "bytes": 2038784,
+      "sha256": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835"
+    },
+    "repair02/qual_sham_self/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "repair02/qual_sham_self/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "repair02/pn_profile_from_sham/RESULT.json": {
+      "bytes": 3786,
+      "sha256": "f6400853ce774dfc2b03a6266df2c52d7ca84ef0e075317f121e9629688b55ae"
+    },
+    "repair02/pn_profile_from_sham/EVENTS.json": {
+      "bytes": 2283732,
+      "sha256": "11c2c13335694eb3f475542844f283b5a91bcda065b0f2941ab1420fef571fc4"
+    },
+    "repair02/pn_profile_from_sham/traces.npz": {
+      "bytes": 1738905,
+      "sha256": "a79dfccc590fbf49a3a376c8aa9cc675f3ea20f40c29b7e3e5c80b753e30ba97"
+    },
+    "repair02/pn_profile_from_sham/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "repair02/pn_profile_from_sham/APPENDIX.json": {
+      "bytes": 306,
+      "sha256": "8fd5d7520ecf420af9cfc34e845ee32e2194f0336ce7a2bb1b3c02bc7f0b9220"
+    },
+    "repair02/pn_profile_from_sham/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "985e6d2694634fa0a8b2a52f04046f1716404685261595a958efb62a8a0385e0"
+    },
+    "repair02/pn_profile_from_sham/dng100_observed.npz": {
+      "bytes": 1757847,
+      "sha256": "c707086f153ad86248328fcf57a028fe08e21aac5808a7573d025bc9a283f589"
+    },
+    "repair02/pn_profile_from_sham/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "repair02/pn_profile_from_sham/wide_observation.npz": {
+      "bytes": 1796686,
+      "sha256": "dbb3198a9fefa28b18ffddc541822b92708363be1b343b48fd93fda624f5ef5f"
+    },
+    "repair02/pn_profile_from_sham/JUMP_EVENTS.json": {
+      "bytes": 6823,
+      "sha256": "bb0eef15fcf05d6390009a503d1f28876b8ede27b69e6f6d6722a97dad6a9e0b"
+    },
+    "repair02/pn_profile_from_sham/PN_consumed.npz": {
+      "bytes": 945289,
+      "sha256": "d0b080a30920bce78502ecd2c0a3827d3643043d8463793db319d9f92eb84a3a"
+    },
+    "repair02/pn_profile_from_sham/INTERVENTION.json": {
+      "bytes": 2919,
+      "sha256": "ece142b139d8a7c6ba2f799cad22eec3da5580e795ed98fd77c14a4b32974901"
+    },
+    "repair02/pn_profile_from_sham/INTERVENTION.npz": {
+      "bytes": 4314760,
+      "sha256": "fcec0331c545e38c0740e339f4408ce33994327aa03a36e5bf18e3ddc8de7aee"
+    },
+    "repair02/pn_profile_from_sham/EXECUTED_SOURCES.json": {
+      "bytes": 42818,
+      "sha256": "04bb1c3aceea31554a6f09e983a85f1075c7ba72d4b028bb2a90013c680d8e2f"
+    },
+    "repair02/pn_profile_from_sham/neural_and_inputs.npz": {
+      "bytes": 2607505,
+      "sha256": "910ae9eddb0da7c26e9abef888d64d4f49dd7e8cd39468f45a33fe1291db987d"
+    },
+    "repair02/pn_profile_from_sham/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "repair02/pn_profile_from_sham/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "qual_sham_self/RESULT.json": {
+      "bytes": 3747,
+      "sha256": "9df5a49d17ceee6b9b71f2efe86a9cff4de4fc759de50ec79c42978e71ad4c5e"
+    },
+    "qual_sham_self/EVENTS.json": {
+      "bytes": 36826,
+      "sha256": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101"
+    },
+    "qual_sham_self/traces.npz": {
+      "bytes": 35041,
+      "sha256": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9"
+    },
+    "qual_sham_self/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "qual_sham_self/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "qual_sham_self/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea"
+    },
+    "qual_sham_self/dng100_observed.npz": {
+      "bytes": 31286,
+      "sha256": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7"
+    },
+    "qual_sham_self/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "qual_sham_self/wide_observation.npz": {
+      "bytes": 39801,
+      "sha256": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643"
+    },
+    "qual_sham_self/PN_consumed.npz": {
+      "bytes": 16447,
+      "sha256": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789"
+    },
+    "qual_sham_self/INTERVENTION.json": {
+      "bytes": 2911,
+      "sha256": "5d4d5e3120438276d9a27bb236cda6a76991cf4bff031c9bf67ef349eb8be969"
+    },
+    "qual_sham_self/INTERVENTION.npz": {
+      "bytes": 4314425,
+      "sha256": "376c5199375d52f7af40c16538fb0bf15ca51f53c6ea06466d4d4f8a25c1f7bc"
+    },
+    "qual_sham_self/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "qual_sham_self/neural_and_inputs.npz": {
+      "bytes": 2038784,
+      "sha256": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835"
+    },
+    "qual_sham_self/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "qual_sham_self/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "qual_profile_untouched/RESULT.json": {
+      "bytes": 3761,
+      "sha256": "b8ce725bb44675827603f9f8a27551b019059c66471822573c3cd1bf3a21f4be"
+    },
+    "qual_profile_untouched/EVENTS.json": {
+      "bytes": 40278,
+      "sha256": "5914e5f701df1214b31ce3a35a590777bc67f2a9f64bb59420dae0b48a812a95"
+    },
+    "qual_profile_untouched/traces.npz": {
+      "bytes": 35650,
+      "sha256": "6ecc41901cc5c0fcd1ea245d2d0dbfb076f80764c95802b6f029dee6ba502f90"
+    },
+    "qual_profile_untouched/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "qual_profile_untouched/APPENDIX.json": {
+      "bytes": 306,
+      "sha256": "8fd5d7520ecf420af9cfc34e845ee32e2194f0336ce7a2bb1b3c02bc7f0b9220"
+    },
+    "qual_profile_untouched/SCIENTIFIC_WITNESS.json": {
+      "bytes": 940,
+      "sha256": "931527af8e499c89dcfeb7a2ce865211d90bea59bb6b4290793c5b9b67a594df"
+    },
+    "qual_profile_untouched/dng100_observed.npz": {
+      "bytes": 34527,
+      "sha256": "2fe13516ec1eed74be6e6b037c2b7153e901b7a1c9c6ae4440e19ce4528b8eab"
+    },
+    "qual_profile_untouched/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "qual_profile_untouched/wide_observation.npz": {
+      "bytes": 44922,
+      "sha256": "9e0a027fd69480b8a221d8d3241cbe61d9e685e83fc0447015f5aa1755728706"
+    },
+    "qual_profile_untouched/PN_consumed.npz": {
+      "bytes": 16527,
+      "sha256": "cb60365afb9e457f72956a697dc0be3273cb75f13d6d31b911cfc336cd2a6648"
+    },
+    "qual_profile_untouched/INTERVENTION.json": {
+      "bytes": 2671,
+      "sha256": "503aba3e2d8e44cf30e200a8558c40b066e37434885504a0428f806c3c72208c"
+    },
+    "qual_profile_untouched/INTERVENTION.npz": {
+      "bytes": 4314747,
+      "sha256": "9ae803110e5c18d98b44af05f1114e6c734034b5ff8e2ed6c5f847e6574e37e0"
+    },
+    "qual_profile_untouched/EXECUTED_SOURCES.json": {
+      "bytes": 42476,
+      "sha256": "e7615dc0faee5daf6052a5b9e33648e5c0622d44d0ff098822284a4c396ce5ac"
+    },
+    "qual_profile_untouched/neural_and_inputs.npz": {
+      "bytes": 2039065,
+      "sha256": "0ad74c300419cc9f939a74ca76e7a25a0a0ea9355e0592d208d80a41a8b782a2"
+    },
+    "qual_profile_untouched/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "qual_profile_untouched/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "feedback_replay/RESULT.json": {
+      "bytes": 3774,
+      "sha256": "2118ef39b93a98c2306a13acea527a41cd61df3d1d2f2b67ec1641cb0ba0e12d"
+    },
+    "feedback_replay/EVENTS.json": {
+      "bytes": 1584592,
+      "sha256": "3d4597186678f473f89d345a4631bcbac8cdc84a824e65ef8436609816a3a20f"
+    },
+    "feedback_replay/candidate_owner.npz": {
+      "bytes": 2662901,
+      "sha256": "ad24a0e62825c16cd531fad4d34d2bb927f233944f766397ec627b3f8cbc2b98"
+    },
+    "feedback_replay/traces.npz": {
+      "bytes": 1143539,
+      "sha256": "0ca5c39908812736bce85c42959992d35de9cce9c4c34619f9d25e09f2f172be"
+    },
+    "feedback_replay/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "feedback_replay/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "feedback_replay/dng100_observed.npz": {
+      "bytes": 2743632,
+      "sha256": "6ed221057a54601e0708619b77340e09825105613d0b9584287e8d409adc5613"
+    },
+    "feedback_replay/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "feedback_replay/EXECUTED_SOURCES.json": {
+      "bytes": 42141,
+      "sha256": "2e6775a0b7e92f62ab1e5bb74795aa2e49f3638a47d154eec524a4e9a9ab21c6"
+    },
+    "feedback_replay/neural_and_inputs.npz": {
+      "bytes": 2307199,
+      "sha256": "0a20156fe619de2cd10bee26bccbdfa98f9232e71080979d60db02909fcf70cd"
+    },
+    "feedback_replay/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "feedback_replay/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "SOURCE_INDEX.json": {
+      "bytes": 153879,
+      "sha256": "0baeccea8387f65ab62b9dc346ca393c3658eb1deba0782a43103e04355cddb7"
+    },
+    "FULL_CAPSULE.json": {
+      "bytes": 357,
+      "sha256": "822b6228ee7a5b762619aac48230dd96188e2dca5d4b18045e89210ee2203f70"
+    }
+  },
+  "scope": "Portable reconstruction of six recorded scientific arms and six identity qualifications, including two after repair; complete states in local full capsule."
+}

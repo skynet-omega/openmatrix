@@ -1,0 +1,76 @@
+{
+  "tests": [
+    {
+      "name": "stage_flag",
+      "rejected": true,
+      "reason": "stage scope"
+    },
+    {
+      "name": "threshold",
+      "rejected": true,
+      "reason": "material thresholds"
+    },
+    {
+      "name": "clock",
+      "rejected": true,
+      "reason": "clock feedback_replay/CNS_time_ns"
+    },
+    {
+      "name": "JO_tape",
+      "rejected": true,
+      "reason": "JO actual postFP32"
+    },
+    {
+      "name": "JO_FP32",
+      "rejected": true,
+      "reason": "JO actual postFP32"
+    },
+    {
+      "name": "JO_RHS_flag",
+      "rejected": true,
+      "reason": "JO allRHS witness"
+    },
+    {
+      "name": "PN_outside",
+      "rejected": true,
+      "reason": "outside PN patch"
+    },
+    {
+      "name": "PN_ids",
+      "rejected": true,
+      "reason": "PN patch support"
+    },
+    {
+      "name": "motor_reader",
+      "rejected": true,
+      "reason": "yaw reader/unit"
+    },
+    {
+      "name": "RHS_context",
+      "rejected": true,
+      "reason": "scheduler flags/predicate"
+    },
+    {
+      "name": "nonfinite",
+      "rejected": true,
+      "reason": "nonfinite pn_sham_from_profile/final_q"
+    },
+    {
+      "name": "jump_retroactive",
+      "rejected": true,
+      "reason": "registered jump owner/clock/delay"
+    },
+    {
+      "name": "jump_identity",
+      "rejected": true,
+      "reason": "jump receptor identity"
+    },
+    {
+      "name": "predictor_context",
+      "rejected": true,
+      "reason": "predictor/committed contexts"
+    }
+  ],
+  "CPU_s": 3.5959600000000003,
+  "optimized": true
+}

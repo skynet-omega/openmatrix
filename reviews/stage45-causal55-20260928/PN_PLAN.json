@@ -1,0 +1,83 @@
+{
+  "schema": "campaign55_partial_PN_v1",
+  "arms": {
+    "qual_sham_untouched": {
+      "receiver": "sham",
+      "donor": "sham",
+      "apply": false,
+      "duration_ms": 2
+    },
+    "qual_sham_self": {
+      "receiver": "sham",
+      "donor": "sham",
+      "apply": true,
+      "duration_ms": 2
+    },
+    "qual_profile_untouched": {
+      "receiver": "profile",
+      "donor": "profile",
+      "apply": false,
+      "duration_ms": 2
+    },
+    "qual_profile_self": {
+      "receiver": "profile",
+      "donor": "profile",
+      "apply": true,
+      "duration_ms": 2
+    },
+    "pn_sham_from_sham": {
+      "receiver": "sham",
+      "donor": "sham",
+      "apply": true,
+      "duration_ms": 128
+    },
+    "pn_profile_from_profile": {
+      "receiver": "profile",
+      "donor": "profile",
+      "apply": true,
+      "duration_ms": 128
+    },
+    "pn_sham_from_profile": {
+      "receiver": "sham",
+      "donor": "profile",
+      "apply": true,
+      "duration_ms": 128
+    },
+    "pn_profile_from_sham": {
+      "receiver": "profile",
+      "donor": "sham",
+      "apply": true,
+      "duration_ms": 128
+    }
+  },
+  "prefix_ms": 10,
+  "analysis_window_ms": [
+    65,
+    128
+  ],
+  "CNS_ms": 520,
+  "queue_CPU_s": 3000,
+  "queue_wall_s": 2650,
+  "qualification": {
+    "CPU_s": 170,
+    "wall_s": 160
+  },
+  "per_arm": {
+    "CPU_s": 480,
+    "wall_s": 470
+  },
+  "RAM_bytes": 25769803776,
+  "VRAM_bytes": 15032385536,
+  "intervention": "Single initial reciprocal686ALPN q+commonfilter transplant from48sham/profile same3s. Keep finePN10208,PNKCreceptors,PNKCconductancefilters,ORNfilters,allincomingreceptors,DN,readerbaselines,body,effectiveweights,RNG unchanged in receiver. Then originalparentlaw currentbody/yaw,baselineORN,zeroair as54none. No clamps afterinitial operation.",
+  "no_op": "2ms untouched vs identical transplant perrecipient. Exact arrays,consumedPN,scientificowners,events; sham same54parent_none. All four qualificationarms before scientificcrossarms. Selfsham128 first89exact54.",
+  "criteria": {
+    "consumed_PN_relative_change_min": 0.01,
+    "DNb_difference_change_q_min": 1.6e-05,
+    "yaw_mean_change_deg_s_min": 0.02,
+    "window": "65..128ms inclusive fromsame3s; reportfulltrajectory and signedcrossminusself foreachreceiver. Reciprocal transport requiresbothsigns point towardotherdonorselfmean andbothmaterial; ifreceiverdonorselfmeanidentical orinputtiny,scopeuninformative.",
+    "scope": "Partial mediator sufficiency only, no necessity/generalPNnull; thresholds frompreviousscreen asdiagnostic, notstageadmission",
+    "stage4": false,
+    "stage5": false
+  },
+  "stop": "Two instruments55total698ms planned incl8msqualification; round800mscap preserves102msrepairreserve only forbugs. TotalworkerCPU4000,queuewall3600. No thirdprototype,B data decisiononly."
+}

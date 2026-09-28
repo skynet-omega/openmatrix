@@ -1,0 +1,13 @@
+#55 — representar una intervención instantánea sin reescribir el pasado
+
+Los cuatro controles cortos de identidad y ambos brazos propios128ms completaron el primer intento. El primer cruce `sham ← profile` cambió1242 de1372 coordenadas PN; antes de completar su primer ms, el receptor retardado detectó `Graded source history discontinuity`. Quedaron conservados el estado antes/después del injerto, observaciones parciales, excepción y coste. No es una refutación neuronal del trasplante.
+
+La revisión independiente de Motor identificó siete ALPN que también son fuentes de la entrada GABA de la PN fina. El receptor guarda tanto el último valor como intervalos pendientes de llegada. Cambiar sólo `last_driver` dejaría otra contradicción; cambiar el extremo del intervalo previo alteraría el pasado. Glutamato no comparte estas ALPN. El receptor afectado usa un retardo125000ns y una constante15ms.
+
+La reparación02 registra un evento inmutable de evaluador: valor izquierdo y derecho en el instante del injerto. Mantiene ocupación, reloj e intervalos previos. El segmento nuevo empieza con el valor derecho y llega al receptor en `t0 + delay`. La integración histórica de segmentos permanece igual. Los validadores sólo admiten la discontinuidad exacta registrada, para la identidad y frontera temporal concretas. Las demás discontinuidades siguen fallando. No hay una bandera consumida que pueda perderse al restaurar el predictor.
+
+La prueba CPU compara con la solución exponencial independiente: el efecto adicional aparece después del retardo; la ocupación continúa evolucionando con su historia antes de él. Se verifica repetir desde el estado previo y rechazar ocho corrupciones bajo−O. Un primer borrador de la prueba de corrupción mutaba un array compartido por dos campos; se corrigió el test para alterar sólo el campo pretendido, sin cambiar ecuación ni tolerancia. Motor comprobó por separado la semántica con el código original.
+
+Los dos controles vivos de identidad se repiten contra los registros originales. Se conservan ambos controles propios128ms y se ejecutan nuevamente sólo los dos cruces128ms. Previsión agregada:703ms intentados/702comprometidos, frente al techo original800ms. CPU y pared de reparación se restan del presupuesto PN inicial. C/JO queda intacto.
+
+Las fuentes originales no se editaron. Los ficheros `repair02/PN_PLAN.json`, `PN_FREEZE.json` y `PN_SOURCES.json` identifican la reparación. El evento queda en `JUMP_EVENTS.json` y en el checkpoint. Para cargar un estado con un salto aún pendiente, el evento y el overlay tienen que estar disponibles antes de validar la historia. No se afirma que esa reanudación GPU portable esté cualificada.

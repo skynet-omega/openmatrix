@@ -1,0 +1,28 @@
+{
+  "schema": "campaign55_feedback_JO_v1",
+  "source_checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "duration_ms": 89,
+  "prefix_ms": 10,
+  "analysis_window_ms": [
+    51,
+    89
+  ],
+  "CNS_ms": 178,
+  "queue_CPU_s": 1000,
+  "queue_wall_s": 950,
+  "per_arm_CPU_s": 480,
+  "per_arm_wall_s": 470,
+  "RAM_bytes": 25769803776,
+  "VRAM_bytes": 15032385536,
+  "intervention": "Only335declared extraJO values: live52encoder vs frozen52/I_odor0 tape beforeyawactivation. NativeJOdrive preserved. Same54I_none body/yaw/ORN baseline,source and all other sensors.",
+  "qualification": "online common traces each89ms and final166700q exact54/I_none, allRHSactualFP32JO==(native+extra).castFP32; stop before replay if no-op fails.",
+  "criteria": {
+    "JO_relative_L2_separation_min": 0.01,
+    "yaw_window_mean_change_deg_s_min": 0.02,
+    "DNb_difference_change_q_min": 1.6e-05,
+    "materiality": "Diagnostic reference thresholds frozen before55; not navigation gates. Report source tape distance and all directional/residual results; no assertion JOsolepath:52/54I DN alreadydiffers1e-9 by10ms whileJOextra0.",
+    "stage4": false,
+    "stage5": false
+  },
+  "stop": "No automaticretry, no tuning; failedattempts count toward800ms/4000CPU/3600queue roundceiling; leave622ms/3000CPU/2650queue forA atmost."
+}
