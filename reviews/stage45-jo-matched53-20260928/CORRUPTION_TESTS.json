@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "exact_result_reconstruction": true,
+  "corruptions_rejected": [
+    {
+      "case": "wrong_kernel_input",
+      "error": "Actual kernel input"
+    },
+    {
+      "case": "wrong_physical_units",
+      "error": "Body velocity latency/units"
+    },
+    {
+      "case": "changed_source_identity",
+      "error": "JO identity"
+    },
+    {
+      "case": "missing_kernel_evaluation",
+      "error": "Kernel witness incomplete"
+    },
+    {
+      "case": "changed_neural_output",
+      "error": "Reader projection"
+    },
+    {
+      "case": "applied_yaw",
+      "error": "Yaw applied unexpectedly"
+    },
+    {
+      "case": "changed_materiality",
+      "error": "Contract changed"
+    }
+  ],
+  "CPU_s": 1.1150132000000001,
+  "peak_RSS_bytes": 83988480,
+  "new_CNS_ms": 0,
+  "scope": "Recorded-data reproducibility; not a new neural simulation or portable GPU resume"
+}

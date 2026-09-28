@@ -1,0 +1,124 @@
+{
+  "schema": "jo_matched53_prospective_v1",
+  "created_unix_s": 1790570329.2705557,
+  "source_checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "duration_ms": 90,
+  "prefix_ms": 10,
+  "odor_window_ms": [
+    11,
+    90
+  ],
+  "analysis_window_ms": [
+    51,
+    90
+  ],
+  "qualifications": {
+    "identity_input_observer": {
+      "duration_ms": 2,
+      "prefix_ms": 0,
+      "wide": true,
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    }
+  },
+  "arms": {
+    "airL_odor0": {
+      "mode": "parent",
+      "air": 1,
+      "odor": false
+    },
+    "airR_odor0": {
+      "mode": "parent",
+      "air": -1,
+      "odor": false
+    },
+    "airL_odor1": {
+      "mode": "parent",
+      "air": 1,
+      "odor": true
+    },
+    "airR_odor1": {
+      "mode": "parent",
+      "air": -1,
+      "odor": true
+    }
+  },
+  "air": {
+    "world_field": "Fixed relative to initial body axes then constant in world; \u00b1100mm/s along initial lateral axis. Current body translation and rotation supplied every1ms; not current bearing. Zero field retains body-relative motion.",
+    "magnitude_mm_s": 100.0,
+    "parameters": "Same receptor defaults, then a declared external L1 matching intervention; no sensory-to-motor gate.",
+    "preserve": "Extra drive only on335JO-C/E; recurrence and all native parameters retained; no physical wind torque.",
+    "body_velocity_units": "MuJoCo translation qvel native cm/s; multiply by10 before encode; recorded air_kinematics columns3:6 are now mm/s."
+  },
+  "criteria": {
+    "DNb05_directional_q_min": 1.6e-05,
+    "raw_yaw_deg_s_min": 0.02,
+    "air_primary": "Half difference L-R of mean51..90ms DNb05(L-R) and unchanged raw yaw, separate no-odor/odor and interaction; minima inherited52. Compare to exposed52 and report input/relay changes. Material persistence refutes quantity-only explanation, not orientation certificate.",
+    "stage4": false,
+    "stage5": false,
+    "limits": "These short arms locate neural transfer. Full stage4 needs separate online/replay behavior and stage5 reserved physical perturbation.",
+    "loss_interpretation": "If contrast is lost, response is not robust to this particular amplitude transformation; not proof that total quantity is the unique cause.",
+    "descriptive_q_threshold": 1e-06
+  },
+  "budgets": {
+    "neural_ms_total": 362,
+    "scientific_arms": 4,
+    "complete_prototypes": 1,
+    "CPU_s": 2600,
+    "wall_s": 2400,
+    "per_arm_CPU_s": 450,
+    "per_arm_wall_s": 420,
+    "RAM_bytes": 25769803776,
+    "VRAM_bytes": 15032385536,
+    "new_disk_bytes": 5368709120,
+    "auto_retry": false,
+    "per_qualification_CPU_s": 120,
+    "per_qualification_wall_s": 110,
+    "auxiliary_CPU_reserved_s": 200,
+    "wall_scope": "2400s from queue launch; CPU preparation/analysis/packing uses reserved200s, no new CNS."
+  },
+  "plan_change": "Only matched positive JO sum and read-only actual FP32 drive observer. No neural equations, reader, threshold, body or odor changes.",
+  "observation": {
+    "population_file": "PANEL.npz",
+    "population_counts": {
+      "all_DN": 1314,
+      "JO_CE": 335,
+      "AMMC_WED": 1108
+    },
+    "union_size": 2757,
+    "interval_ms": 1,
+    "quantity": "hybrid.release output, not all internal q or voltage",
+    "sampling": "At committed boundary from the same release() result already read for legacy16. No extra solver or coefficient call.",
+    "RHS_scope": "Existing two DNg100 only; no new E/I emitter in this repair. PN ports retain separate historical units.",
+    "descriptive_threshold_q": 1e-06,
+    "latency_definition": "First committed sample above threshold, descriptive only, not statistical or physiological criterion.",
+    "rank_based_selection": false,
+    "ORN_extra": "Also record694ORN release outputs from the same already-read vector, with own identities, distinct from2757mainpanel and nominal_Hz.",
+    "group_summaries": [
+      "Signed mean across the same canonical cells, L minus R condition; no inferred homologous pairs",
+      "RMS, median absolute delta, positive/negative counts above1e-6 per group per ms",
+      "First sample above1e-6; values below1ms unresolved; descriptive no physiological significance",
+      "Sign counts and changes in fixed51..90ms window for original DNb05 and each observed cell, no neuron selection"
+    ],
+    "time_scope": "Inputs are held during the following1ms interval; q is committed output at interval end. RHS/PN ports retain their own timestamps; not one common coefficient evaluation."
+  },
+  "normalization": {
+    "formula": "u * Q/sum(u), then float32 components represented exactly in float64 before add; Q fixed from min of initial physical +/- fields",
+    "total_source": "48sham restored initial pose and native velocity times10; no neural outcomes",
+    "postcast_relative_tolerance_per_vector": 1e-07,
+    "postcast_pair_relative_bound": 2e-07,
+    "retain": [
+      "identities",
+      "support",
+      "proportions within FP32 rounding"
+    ],
+    "uncontrolled": [
+      "L2",
+      "support size",
+      "amplitude distribution",
+      "anatomical connectivity"
+    ]
+  },
+  "software_tests": "CPU physical transforms and corruption cases; one live2ms normalization-off comparison to frozen52 qual_parent_wide traces, events and scientific-owner hashes; no retry."
+}

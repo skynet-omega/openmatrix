@@ -1,0 +1,49 @@
+{
+  "path": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_JO_EMPAREJADO_20260928_53.zip",
+  "bytes": 39878588,
+  "sha256": "37a28b784e0b240930e9e4fb07127fd983a20e09ce7354f2bd2d484b969be608",
+  "files": 103,
+  "verification": {
+    "extraction": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/recibos/ETAPA45_JO_EMPAREJADO_20260928_53_LOCAL/ETAPA45_JO_EMPAREJADO_20260928_53",
+    "result": {
+      "status": "PASS",
+      "exact_result_reconstruction": true,
+      "corruptions_rejected": [
+        {
+          "case": "wrong_kernel_input",
+          "error": "Actual kernel input"
+        },
+        {
+          "case": "wrong_physical_units",
+          "error": "Body velocity latency/units"
+        },
+        {
+          "case": "changed_source_identity",
+          "error": "JO identity"
+        },
+        {
+          "case": "missing_kernel_evaluation",
+          "error": "Kernel witness incomplete"
+        },
+        {
+          "case": "changed_neural_output",
+          "error": "Reader projection"
+        },
+        {
+          "case": "applied_yaw",
+          "error": "Yaw applied unexpectedly"
+        },
+        {
+          "case": "changed_materiality",
+          "error": "Contract changed"
+        }
+      ],
+      "CPU_s": 1.1920397,
+      "peak_RSS_bytes": 84021248,
+      "new_CNS_ms": 0,
+      "scope": "Recorded-data reproducibility; not a new neural simulation or portable GPU resume"
+    },
+    "new_CNS_ms": 0
+  },
+  "CPU_s": 15.2290479
+}

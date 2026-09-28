@@ -1,0 +1,182 @@
+{
+  "schema": "jo_matched53_verified_v1",
+  "qualification": {
+    "status": "PASS",
+    "CNS_ms": 2,
+    "legacy_fields": {
+      "traces.npz": 33,
+      "neural_and_inputs.npz": 12,
+      "wide_observation.npz": 7,
+      "dng100_observed.npz": 13
+    },
+    "scientific_owners_and_events_exact": true,
+    "FP32_input_observed": true,
+    "scope": "New read-only probe, normalization off, versus prior52 qualification; not biological equivalence"
+  },
+  "common_total": 5169.385265793785,
+  "arms": {
+    "airL_odor0": {
+      "mean_DNb_q": -0.023910206128545965,
+      "mean_yaw_deg_s": 2.381531698102917,
+      "total_mean": 5169.38525390625,
+      "max_total_error": 1.1887535038113128e-05,
+      "active_cells_min": 156,
+      "L2_mean": 413.8820585076247,
+      "receptor_scale_min": 0.9999999991760158,
+      "receptor_scale_max": 0.9999999999073311,
+      "mean_forward_mm_s": 0.0,
+      "kernel_evaluations": 39168
+    },
+    "airR_odor0": {
+      "mean_DNb_q": -0.02342475752983111,
+      "mean_yaw_deg_s": 2.6064264684232703,
+      "total_mean": 5169.385332107544,
+      "max_total_error": 6.631375890719937e-05,
+      "active_cells_min": 179,
+      "L2_mean": 386.37800051742994,
+      "receptor_scale_min": 0.8715083820771253,
+      "receptor_scale_max": 0.8715083832524398,
+      "mean_forward_mm_s": 0.0,
+      "kernel_evaluations": 39168
+    },
+    "airL_odor1": {
+      "mean_DNb_q": -0.02401525242189035,
+      "mean_yaw_deg_s": 2.279958724325569,
+      "total_mean": 5169.38525390625,
+      "max_total_error": 1.1887535038113128e-05,
+      "active_cells_min": 156,
+      "L2_mean": 413.8820585076247,
+      "receptor_scale_min": 0.9999999991760158,
+      "receptor_scale_max": 0.9999999999073311,
+      "mean_forward_mm_s": 0.0,
+      "kernel_evaluations": 38688
+    },
+    "airR_odor1": {
+      "mean_DNb_q": -0.023530256993799598,
+      "mean_yaw_deg_s": 2.5232720925232495,
+      "total_mean": 5169.385332107544,
+      "max_total_error": 6.631375890719937e-05,
+      "active_cells_min": 179,
+      "L2_mean": 386.37800051742994,
+      "receptor_scale_min": 0.8715083820771253,
+      "receptor_scale_max": 0.8715083832524398,
+      "mean_forward_mm_s": 0.0,
+      "kernel_evaluations": 38692
+    }
+  },
+  "contrasts": {
+    "0": {
+      "half_L_minus_R_DNb_q": -0.00024272429935742745,
+      "half_L_minus_R_yaw_deg_s": -0.11244738516017672,
+      "both_material": true,
+      "max_pair_total_difference": 7.82012939453125e-05,
+      "positive_samples": 21,
+      "negative_samples": 19,
+      "groups": {
+        "JO_CE": {
+          "population": 335,
+          "ever_above_threshold": 225,
+          "endpoint_above_threshold": 225,
+          "window_RMS": 0.2225797184457645
+        },
+        "all_DN": {
+          "population": 1314,
+          "ever_above_threshold": 533,
+          "endpoint_above_threshold": 533,
+          "window_RMS": 0.012806785709725193
+        },
+        "DN_with_temporal_q": {
+          "population": 12,
+          "ever_above_threshold": 3,
+          "endpoint_above_threshold": 3,
+          "window_RMS": 0.0009373630022669117
+        },
+        "DN_without_temporal_q": {
+          "population": 1302,
+          "ever_above_threshold": 530,
+          "endpoint_above_threshold": 530,
+          "window_RMS": 0.012865353070291978
+        },
+        "AMMC_WED": {
+          "population": 1108,
+          "ever_above_threshold": 572,
+          "endpoint_above_threshold": 572,
+          "window_RMS": 0.05826772577616592
+        }
+      }
+    },
+    "1": {
+      "half_L_minus_R_DNb_q": -0.00024249771404537545,
+      "half_L_minus_R_yaw_deg_s": -0.1216566840988403,
+      "both_material": true,
+      "max_pair_total_difference": 7.82012939453125e-05,
+      "positive_samples": 21,
+      "negative_samples": 19,
+      "groups": {
+        "JO_CE": {
+          "population": 335,
+          "ever_above_threshold": 225,
+          "endpoint_above_threshold": 225,
+          "window_RMS": 0.22256286345454696
+        },
+        "all_DN": {
+          "population": 1314,
+          "ever_above_threshold": 532,
+          "endpoint_above_threshold": 531,
+          "window_RMS": 0.012806066530719785
+        },
+        "DN_with_temporal_q": {
+          "population": 12,
+          "ever_above_threshold": 3,
+          "endpoint_above_threshold": 3,
+          "window_RMS": 0.0009356345743556655
+        },
+        "DN_without_temporal_q": {
+          "population": 1302,
+          "ever_above_threshold": 529,
+          "endpoint_above_threshold": 528,
+          "window_RMS": 0.012864631726685909
+        },
+        "AMMC_WED": {
+          "population": 1108,
+          "ever_above_threshold": 572,
+          "endpoint_above_threshold": 572,
+          "window_RMS": 0.05825899960141525
+        }
+      }
+    }
+  },
+  "odor_interaction": {
+    "q": 2.2658531205200757e-07,
+    "yaw_deg_s": -0.009209298938663582
+  },
+  "source_hashes": {
+    "airL_odor0": {
+      "RESULT.json": "54284d1230d290da165193ff07c47e224aa7d5f73585b6c7099d424236aa7be8",
+      "traces.npz": "8098f312590f7f23a05fc1f335c4920536b2dc006994c3e262119f9d2375a6e5",
+      "neural_and_inputs.npz": "dc8ac39b608b7451e319189297e4dfa00a7685e3bb377a7baaa6100be7c2ee78",
+      "wide_observation.npz": "f075367568e0b6b1e51c0d4a3ef062f41a743664243a5e65b1e4eec1ab1a17d9"
+    },
+    "airR_odor0": {
+      "RESULT.json": "d544ad772ceebe653097143005eca25334677ae163c2feafa3b10889ec824949",
+      "traces.npz": "eb13cf122f2b1cdc32875fef24a147dcf1b1329a4ed4c2d6284061b7319799b6",
+      "neural_and_inputs.npz": "871132c02c3faf581a9ba4b3c1da62b11b82742ea0ff4c0f12e8cbc06f3e70cc",
+      "wide_observation.npz": "8a5c1aef5504ef5bc2997674c80718aa3a4e6bf3dab02b55ee74c689271c3b48"
+    },
+    "airL_odor1": {
+      "RESULT.json": "eeaaada7939a8b0e52aa107dc897b5021be4d253f72e0a9c4f61981e42447d91",
+      "traces.npz": "10cad508162871300827daadbc40bd28d83a625c94734f37424cc3bcc1b2ef62",
+      "neural_and_inputs.npz": "1167340bd5a01558ce449c42693deb9b7017b13832f5bbc421a5f5fb9a3e0013",
+      "wide_observation.npz": "4e31622232b7c0ebef2ef53888c0074472a71a8c6b241d123799a0fd03de67d6"
+    },
+    "airR_odor1": {
+      "RESULT.json": "21c83b4cd14fb165aa3c202de032b420c8e4b71cef8bd0bad77042c26719f819",
+      "traces.npz": "e80532f1bfaed042e50766a61565a7bd9fe5124adbd42af89522a43c3ab60af7",
+      "neural_and_inputs.npz": "e1ab90cffbeb28b483ba324dbda0cd18760fd2e90edc2ab75b317ceda8526f22",
+      "wide_observation.npz": "80667f3a628e82bd1a446fe559ae2c5e6ad98cee12eb09e2e2100f2d240d57d1"
+    }
+  },
+  "stage4_pass": false,
+  "stage5_pass": false,
+  "limits": "One exposed preparation; diagnostic external transformation; no physical yaw or perturbation; L2/support/anatomy not matched."
+}

@@ -1,0 +1,414 @@
+{
+  "schema": "jo_matched53_compact_v1",
+  "files": {
+    "ANALYSIS_FREEZE.json": {
+      "bytes": 480,
+      "sha256": "92ac6e53d41b6249145603208b39a9ff8e9f491d85859eb1edc90ba33e9eb5f2"
+    },
+    "COMPARACION.png": {
+      "bytes": 247421,
+      "sha256": "cf3e460c81b89046817e9fb4ccc8379c3b7494bca378e6704d35dd6f85b0f401"
+    },
+    "CONTINUIDAD_PREVIA.json": {
+      "bytes": 362,
+      "sha256": "87f9aa0229c355de757bfc7de7c64db59db7f8db0725cf7bb47c8e6133c16267"
+    },
+    "CORRUPTION_TESTS.json": {
+      "bytes": 889,
+      "sha256": "a67fdb376a2fdabf7ac706260f6f64fbe5aee49eb5c4381d71b37c4792a2365b"
+    },
+    "DECISION.md": {
+      "bytes": 3435,
+      "sha256": "536c50f52fe9dcd5eaa913826ed05c92d9eac24d5ecda71545310fcb68fa2245"
+    },
+    "FULL_CAPSULE.json": {
+      "bytes": 380,
+      "sha256": "234f63db7b22df90772ab669abb1cde9d01edce16605983c09c8b190448e1353"
+    },
+    "JO_anatomy_arrays.npz": {
+      "bytes": 94264,
+      "sha256": "b73f57e28653f900a253b1009324e5607383a56b265ba22e74d531017e56a9d0"
+    },
+    "PANEL.npz": {
+      "bytes": 29610,
+      "sha256": "f6f1d8b3690eff966917238b0e292574561bacce7eb04ea9d43d9d1561e67dd3"
+    },
+    "PILOT_FREEZE.json": {
+      "bytes": 323,
+      "sha256": "33e1505b4c449c2a1d97452bcd468f5beca2458b48bdcca5dff21fc2a31ee6a6"
+    },
+    "PILOT_PLAN.json": {
+      "bytes": 5317,
+      "sha256": "fd3f41d9ef575fd1bdba9c3041d419a933c9371abd81b0bea09e670f22b6ed6b"
+    },
+    "PILOT_SOURCES.json": {
+      "bytes": 48158,
+      "sha256": "5dd29ffe7dfea9eb942650d2442a105f99d85765f01bbe1ec53bb7604761d0d2"
+    },
+    "PLAN.md": {
+      "bytes": 3575,
+      "sha256": "55d77dd13aaff22eec12217e4f0917f3cf9737afc23fedcecf1abaa2435d8927"
+    },
+    "PREFLIGHT_CPU.json": {
+      "bytes": 310,
+      "sha256": "f1d52abe1451bed2999c90ced06cb87b3214d3c9ccc5182372d215bdb3b94a92"
+    },
+    "PRESENTATION_FIX.json": {
+      "bytes": 533,
+      "sha256": "6d168e7c239698af53cbcc7455e36ab244510fd558467b795fcb68022d4bf67e"
+    },
+    "QUALIFICATION.json": {
+      "bytes": 368,
+      "sha256": "bbdc65345baa0db53f66edfb14ce86a176cc933ad08cd6555e67a595ba4f52cd"
+    },
+    "QUEUE_RESULT.json": {
+      "bytes": 1266,
+      "sha256": "ce21d426138e164b62d9f305a6f32f866525e002e9d1b451eb7cbe34c744eb89"
+    },
+    "QUEUE_START.json": {
+      "bytes": 150,
+      "sha256": "94ad6d7b91830ddd4bd32f52538382760a4ac4d56b13900be2ed5f86a9ea59bd"
+    },
+    "RESULTADOS.json": {
+      "bytes": 6680,
+      "sha256": "cde30d7f133545d76a5a41b7bb7dc60ca65dbd7726f2e352936c07fbdb125733"
+    },
+    "RESULTADOS.md": {
+      "bytes": 1970,
+      "sha256": "d0eb4890ae10a0249a7eb2c931defc1be2adbeb6fb101df6188be6192d345515"
+    },
+    "SOURCE_INDEX.json": {
+      "bytes": 51835,
+      "sha256": "4a2e56bd3ce360f075fc01b8a6414d78116f115f073f3db00d5b3e561dd353e4"
+    },
+    "airL_odor0/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "airL_odor0/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "airL_odor0/EVENTS.json": {
+      "bytes": 1596891,
+      "sha256": "4ab194288212bf07b5ebcafa96538b114e41e6783f7db94c2e35b48f61dbaf4a"
+    },
+    "airL_odor0/EXECUTED_SOURCES.json": {
+      "bytes": 42117,
+      "sha256": "15e25fcbc269f415025dcd412de958003233dcc58e796399fbefc16abdaa4ef9"
+    },
+    "airL_odor0/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "airL_odor0/RESULT.json": {
+      "bytes": 3893,
+      "sha256": "54284d1230d290da165193ff07c47e224aa7d5f73585b6c7099d424236aa7be8"
+    },
+    "airL_odor0/dng100_observed.npz": {
+      "bytes": 1217149,
+      "sha256": "08a727eda9a394b684e2b5eb011b265cdb6b6ddcb540b3af9f568b090a00380b"
+    },
+    "airL_odor0/neural_and_inputs.npz": {
+      "bytes": 2076385,
+      "sha256": "dc8ac39b608b7451e319189297e4dfa00a7685e3bb377a7baaa6100be7c2ee78"
+    },
+    "airL_odor0/traces.npz": {
+      "bytes": 1055444,
+      "sha256": "8098f312590f7f23a05fc1f335c4920536b2dc006994c3e262119f9d2375a6e5"
+    },
+    "airL_odor0/wide_observation.npz": {
+      "bytes": 919741,
+      "sha256": "f075367568e0b6b1e51c0d4a3ef062f41a743664243a5e65b1e4eec1ab1a17d9"
+    },
+    "airL_odor0.log": {
+      "bytes": 666,
+      "sha256": "587b97786695930d26367e0488891cb139e7f187de411a271a0219ed736adf54"
+    },
+    "airL_odor1/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "airL_odor1/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "airL_odor1/EVENTS.json": {
+      "bytes": 1603837,
+      "sha256": "eaae684430edb3a9d8291dd69c4afb1dbe6883031e4340c29b98e281e25c84b1"
+    },
+    "airL_odor1/EXECUTED_SOURCES.json": {
+      "bytes": 42117,
+      "sha256": "15e25fcbc269f415025dcd412de958003233dcc58e796399fbefc16abdaa4ef9"
+    },
+    "airL_odor1/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "airL_odor1/RESULT.json": {
+      "bytes": 3889,
+      "sha256": "eeaaada7939a8b0e52aa107dc897b5021be4d253f72e0a9c4f61981e42447d91"
+    },
+    "airL_odor1/dng100_observed.npz": {
+      "bytes": 1206270,
+      "sha256": "d300ec6defb7d57b75cec0f4877f4fb9f2be76df07e568fb011e293dcdb60011"
+    },
+    "airL_odor1/neural_and_inputs.npz": {
+      "bytes": 2074690,
+      "sha256": "1167340bd5a01558ce449c42693deb9b7017b13832f5bbc421a5f5fb9a3e0013"
+    },
+    "airL_odor1/traces.npz": {
+      "bytes": 1128788,
+      "sha256": "10cad508162871300827daadbc40bd28d83a625c94734f37424cc3bcc1b2ef62"
+    },
+    "airL_odor1/wide_observation.npz": {
+      "bytes": 1334167,
+      "sha256": "4e31622232b7c0ebef2ef53888c0074472a71a8c6b241d123799a0fd03de67d6"
+    },
+    "airL_odor1.log": {
+      "bytes": 672,
+      "sha256": "72fa204fc41e90c91a727d826bbd9088a1fc2455e93698d282ac454c0103abf7"
+    },
+    "airR_odor0/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "airR_odor0/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "airR_odor0/EVENTS.json": {
+      "bytes": 1597878,
+      "sha256": "6e6f8a63707efa0f799935241a1be987a3420ca612309ad9101b16574f9e9157"
+    },
+    "airR_odor0/EXECUTED_SOURCES.json": {
+      "bytes": 42117,
+      "sha256": "15e25fcbc269f415025dcd412de958003233dcc58e796399fbefc16abdaa4ef9"
+    },
+    "airR_odor0/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "airR_odor0/RESULT.json": {
+      "bytes": 3895,
+      "sha256": "d544ad772ceebe653097143005eca25334677ae163c2feafa3b10889ec824949"
+    },
+    "airR_odor0/dng100_observed.npz": {
+      "bytes": 1213858,
+      "sha256": "6d61ba4a1040d2aaad47b947afb9dee137ac8712745958f700060e0df524a697"
+    },
+    "airR_odor0/neural_and_inputs.npz": {
+      "bytes": 2074909,
+      "sha256": "871132c02c3faf581a9ba4b3c1da62b11b82742ea0ff4c0f12e8cbc06f3e70cc"
+    },
+    "airR_odor0/traces.npz": {
+      "bytes": 1055521,
+      "sha256": "eb13cf122f2b1cdc32875fef24a147dcf1b1329a4ed4c2d6284061b7319799b6"
+    },
+    "airR_odor0/wide_observation.npz": {
+      "bytes": 920952,
+      "sha256": "8a5c1aef5504ef5bc2997674c80718aa3a4e6bf3dab02b55ee74c689271c3b48"
+    },
+    "airR_odor0.log": {
+      "bytes": 673,
+      "sha256": "705a83dbbb849695b979bb867fed67c86d6c8d00a2e79ddf95dffda723b8f46a"
+    },
+    "airR_odor1/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "airR_odor1/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "airR_odor1/EVENTS.json": {
+      "bytes": 1603253,
+      "sha256": "6efdb175414ae2dc8bb36c0fb72efc801e523a766529fed82b59bd5a29c41197"
+    },
+    "airR_odor1/EXECUTED_SOURCES.json": {
+      "bytes": 42117,
+      "sha256": "15e25fcbc269f415025dcd412de958003233dcc58e796399fbefc16abdaa4ef9"
+    },
+    "airR_odor1/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "airR_odor1/RESULT.json": {
+      "bytes": 3893,
+      "sha256": "21c83b4cd14fb165aa3c202de032b420c8e4b71cef8bd0bad77042c26719f819"
+    },
+    "airR_odor1/dng100_observed.npz": {
+      "bytes": 1206935,
+      "sha256": "bf8bb4b22ca03cbfca354aa053b15659e4523d7f6850b15852da6f997cf4bea3"
+    },
+    "airR_odor1/neural_and_inputs.npz": {
+      "bytes": 2073329,
+      "sha256": "e1ab90cffbeb28b483ba324dbda0cd18760fd2e90edc2ab75b317ceda8526f22"
+    },
+    "airR_odor1/traces.npz": {
+      "bytes": 1128691,
+      "sha256": "e80532f1bfaed042e50766a61565a7bd9fe5124adbd42af89522a43c3ab60af7"
+    },
+    "airR_odor1/wide_observation.npz": {
+      "bytes": 1335287,
+      "sha256": "80667f3a628e82bd1a446fe559ae2c5e6ad98cee12eb09e2e2100f2d240d57d1"
+    },
+    "airR_odor1.log": {
+      "bytes": 671,
+      "sha256": "c871cae5e4c4a5709c81dfb1733dcb50d0f5d52c44c0eb6e615cfed12bc18295"
+    },
+    "analysis.log": {
+      "bytes": 244,
+      "sha256": "c3c8e1aa2d651f74eb413450a02df4eb597c8ae363cb7b7fdeef021eb5485a85"
+    },
+    "check_delivery53.py": {
+      "bytes": 3663,
+      "sha256": "716d1bef82f562ed8c9211176d2ea84b3779ec064145cead90ad21cb564f04f9"
+    },
+    "delivery53.py": {
+      "bytes": 9163,
+      "sha256": "68e1948209c16193780f257b77e7d101aa46e437d6c2a817f3555cddbf3919e1"
+    },
+    "jo_matched.py": {
+      "bytes": 4540,
+      "sha256": "1be4929f932b81328b20f4c932df8eaba87591cc7a7e62447c0f3e6086ab0194"
+    },
+    "qual_identity_input_observer/APPENDIX.json": {
+      "bytes": 303,
+      "sha256": "e1da26e40d15cfd2705c70d0e59ed94e56ce5bcc8abcd17ebf3e45a83f4571e5"
+    },
+    "qual_identity_input_observer/CLOCK_OVERLAY.json": {
+      "bytes": 1581,
+      "sha256": "070679a44798f502bab76bc1dbd313dccdf7fa0ab2811a6d63840c38fbd39c07"
+    },
+    "qual_identity_input_observer/EVENTS.json": {
+      "bytes": 36817,
+      "sha256": "96b6ab8a99befeab731f26ca1406f4d2b105ced267bec1ee83ecbfb076f98d1e"
+    },
+    "qual_identity_input_observer/EXECUTED_SOURCES.json": {
+      "bytes": 42117,
+      "sha256": "15e25fcbc269f415025dcd412de958003233dcc58e796399fbefc16abdaa4ef9"
+    },
+    "qual_identity_input_observer/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "qual_identity_input_observer/OWNERS_FINAL.json": {
+      "bytes": 940,
+      "sha256": "a38c9211cc2b3b48c07450b383b47234fa261660ee33bfe14a722dd867c53431"
+    },
+    "qual_identity_input_observer/RESULT.json": {
+      "bytes": 3869,
+      "sha256": "ccb35060dd1225959401fae04d6d3f3fbf87d05bfdb2c088b2863ccf3c8c6411"
+    },
+    "qual_identity_input_observer/dng100_observed.npz": {
+      "bytes": 31253,
+      "sha256": "33fb9b1c873aced4ff23f72a9670e2dbd6aa993c0dda606549b6fa879271d63c"
+    },
+    "qual_identity_input_observer/neural_and_inputs.npz": {
+      "bytes": 2034902,
+      "sha256": "dd7970f7417d2eb4b24244a296d32396d960c4b42f1f3d9cb208717943090f41"
+    },
+    "qual_identity_input_observer/traces.npz": {
+      "bytes": 32927,
+      "sha256": "d277b38adb8c74887fdd1138227260ad67d540c95cd007404d78858b713aace2"
+    },
+    "qual_identity_input_observer/wide_observation.npz": {
+      "bytes": 46835,
+      "sha256": "114ce039c0a73ef1ba0008be63dead778128d9fbad37dbe059d0368a3b2e848a"
+    },
+    "qual_identity_input_observer.log": {
+      "bytes": 311,
+      "sha256": "be8480f3c7259b4d376fea6aacf120c2245134780437a5c695acb485f9d3ee0f"
+    },
+    "qualification_analysis.log": {
+      "bytes": 334,
+      "sha256": "f7f6a6df705937442cba0b823368ea9ce134442301fabb1abfb9f7617b94ddd5"
+    },
+    "queue.log": {
+      "bytes": 1791,
+      "sha256": "18433ab336db95811e2ff45bacbed8a4f69709aece8d0c36ad27c810070a08fa"
+    },
+    "reference52/airL_odor0/neural_and_inputs.npz": {
+      "bytes": 2060941,
+      "sha256": "16932cfb9f00f5fe91161899232e9edf6118c3b3622bf3d6d17d1b5471b21402"
+    },
+    "reference52/airL_odor0/traces.npz": {
+      "bytes": 1055444,
+      "sha256": "8098f312590f7f23a05fc1f335c4920536b2dc006994c3e262119f9d2375a6e5"
+    },
+    "reference52/airL_odor1/neural_and_inputs.npz": {
+      "bytes": 2059266,
+      "sha256": "70222ed1f77b7942a23cf6e9dbc92412042e8009529a6fc598ff79f313f6dbc7"
+    },
+    "reference52/airL_odor1/traces.npz": {
+      "bytes": 1128788,
+      "sha256": "10cad508162871300827daadbc40bd28d83a625c94734f37424cc3bcc1b2ef62"
+    },
+    "reference52/airR_odor0/neural_and_inputs.npz": {
+      "bytes": 2060681,
+      "sha256": "4389f4872d6436428134f23608cd50fdc17a1a14d732501efabf56a05c85a5e0"
+    },
+    "reference52/airR_odor0/traces.npz": {
+      "bytes": 1055371,
+      "sha256": "ffbc052cbdd7367b2cb05ac195cb10ca59506539dd9345aa7c77249f4a962e24"
+    },
+    "reference52/airR_odor1/neural_and_inputs.npz": {
+      "bytes": 2058949,
+      "sha256": "8b82000d79a1bb475508ad5bc6a9f9acbac69697dfca1118207e7468212050df"
+    },
+    "reference52/airR_odor1/traces.npz": {
+      "bytes": 1128749,
+      "sha256": "ce63c5f45c064223c2403bfc6c4b08a86a79fb3648d6c32c1b7a683206773443"
+    },
+    "reference52/qual_parent_wide/EVENTS.json": {
+      "bytes": 36817,
+      "sha256": "96b6ab8a99befeab731f26ca1406f4d2b105ced267bec1ee83ecbfb076f98d1e"
+    },
+    "reference52/qual_parent_wide/OWNERS_FINAL.json": {
+      "bytes": 940,
+      "sha256": "a38c9211cc2b3b48c07450b383b47234fa261660ee33bfe14a722dd867c53431"
+    },
+    "reference52/qual_parent_wide/RESULT.json": {
+      "bytes": 3862,
+      "sha256": "5d2ddeb64954cc109e7265b464b1a06689ba5a29c13aea46db178741d2e9a0f1"
+    },
+    "reference52/qual_parent_wide/dng100_observed.npz": {
+      "bytes": 31253,
+      "sha256": "33fb9b1c873aced4ff23f72a9670e2dbd6aa993c0dda606549b6fa879271d63c"
+    },
+    "reference52/qual_parent_wide/neural_and_inputs.npz": {
+      "bytes": 2033302,
+      "sha256": "e14c935d887f60d996b476b1ae4dc1168a475905bba826d9ebb7aa6d5bc8a50e"
+    },
+    "reference52/qual_parent_wide/traces.npz": {
+      "bytes": 32927,
+      "sha256": "d277b38adb8c74887fdd1138227260ad67d540c95cd007404d78858b713aace2"
+    },
+    "reference52/qual_parent_wide/wide_observation.npz": {
+      "bytes": 46835,
+      "sha256": "114ce039c0a73ef1ba0008be63dead778128d9fbad37dbe059d0368a3b2e848a"
+    },
+    "report53.py": {
+      "bytes": 5982,
+      "sha256": "c92c5be586a7efc671c2c97f3224f19b8fb724c1d33eb31b5e20673c54cfe6e8"
+    },
+    "report53_before_axis_fix.py": {
+      "bytes": 5859,
+      "sha256": "26cc2bf821e8abdf725257eb52c9187b83e1e8e6be28e1ec5b01793bd8d74120"
+    },
+    "run_pilot.py": {
+      "bytes": 6975,
+      "sha256": "f3a07caf25f10150bbb4af51fae9d55a3cb422870e57e8cc2bfaa56cd7148898"
+    },
+    "run_queue.py": {
+      "bytes": 4748,
+      "sha256": "ead081e9f3bc21a50a559b4907c052bb060e17253d6763a1e6e66e97b4320632"
+    },
+    "verify53.py": {
+      "bytes": 10675,
+      "sha256": "3d443c882825f0a27de93c563ec6c41d0e150284df5ac34b573b2f0601b59afd"
+    }
+  },
+  "scope": "All recorded diagnostic arrays and qualification references; portable analysis. Full scientific states are in the local full archive."
+}

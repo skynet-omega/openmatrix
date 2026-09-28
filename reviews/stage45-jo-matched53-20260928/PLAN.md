@@ -1,0 +1,17 @@
+# Campaña 53: configuración del aire con cantidad JO emparejada
+
+Autorización: el usuario pidió proceder con el plan después del estado de etapas4/5. Matrix Astra confirmó que no ejecutará CNS en su revisión. Esta campaña tiene un único ejecutor y preserva52. No usa nuevos subagentes.
+
+Hipótesis A: parte del contraste entre campos de aire L/R podría persistir al eliminar la diferencia de suma de entrada. Se sustituye sólo el vector externo JO por `u * Q/sum(u)`, después del receptor y antes de su conversión FP32. Q se obtiene de la menor suma de los dos campos físicos en la pose y velocidad iniciales comunes de48sham, sin consultar salidas neuronales. Permanece fijo. Ceros e identidades se conservan; las proporciones se conservan salvo redondeo. La suma de los componentes FP32, acumulada en FP64, debe diferir de Q como máximo `1e-7 * Q`; por tanto la diferencia entre condiciones queda acotada por `2e-7 * Q`. Esta tolerancia viene del error de representación FP32 de valores positivos; no se elige a partir de la respuesta neuronal. Se registrarán también L2, soporte y escalas.
+
+Si el contraste persiste sólo se descarta una explicación basada exclusivamente en la diferencia de suma. Si desaparece, el efecto previo no es robusto a esta transformación; no demuestra que la intensidad fuera la causa única ni que no exista codificación direccional. No exigir signo constante como condición universal de control.
+
+Alternativas B/C conservadas: B, transmisión/estado neuronal con observables compatibles y no-op; C, lector/efector y feedback corporal con identidad, signo y escala fijados antes. Ninguna se mezcla en esta corrida. Entre controles de entrada, igualar L2 y permutar un multiconjunto informativo plantean otras preguntas, no reemplazan A.
+
+Cuatro brazos de90ms, prefijo común10ms sin estímulo, dos campos de±100mm/s respecto de ejes corporales iniciales, con/sin el perfil ORN original. Mismo motor, parámetros, preparación48sham, plasticidad deshabilitada, lector y cuerpo. Giro registrado sin aplicarlo, como52. Ventana principal51–90ms; semidiferencias L−R en DNb05 y giro calculado; mínimos heredados1,6e-5 y0,02°/s. Registrar interacción con olor sin ajustar lector usando las1314DN observadas. Una preparación; contraste mecanístico expuesto, no confirmación biológica independiente.
+
+Se añade sólo una lectura del vector FP32 que recibe el kernel en cada evaluación. Una continuación de2ms con normalización desactivada se contrastará exactamente con la cualificación parent_wide de52, incluyendo trazas, panel, eventos y propietarios científicos comunes. Si falla se detiene antes de los brazos. No exige nuevas corridas para comprobaciones CPU ni vuelve a cualificar todo el motor.
+
+Presupuesto prospectivo:362ms CNS máximo, cuatro brazos científicos y una cualificación, cero reintentos automáticos;2600s CPU total reservando200s para preparación/análisis/empaquetado;2400s de cola;450s CPU/420s pared por brazo,120s CPU/110s pared para cualificación;24GiB RAM,14GiB VRAM,5GiB de nuevos archivos. Contabilizar por separado preparación y entrega fuera de la cola. No ampliar límites para convertir un negativo. Congelar fuentes y plan antes de ejecutar.
+
+Cierre: reconstruir entrada y métricas desde arrays, contrastar con52 sin tratar el control histórico como una nueva réplica, preservar resultados negativos y estados finales. Verificación portátil de datos ≠ reanudación GPU portable. Etapas4/5 continúan abiertas salvo pruebas conductuales posteriores explícitas.
