@@ -1,0 +1,12 @@
+{
+  "failure": "Inherited RLIMIT_CPU hard115 prevents CPU bench setting its frozen hard122 limit. No scientific data changed.",
+  "parent_CPU_s_not_measured": true,
+  "parent_CPU_upper_bound_charge_s": 115,
+  "full_single_process_verifier_wall_upper_bound_s": 25.84968852996826,
+  "full_verifier_CPU_charge_s": 26,
+  "local_check_two_children_wall_upper_bound_s": 2.888948678970337,
+  "local_verification_children_CPU_charge_s": 6,
+  "first_pack_total_CPU_charge_s": 147,
+  "source_of_bounds": "Parent process hard limit. Full single-thread verifier lies between completed ZIP modification and FULL_CAPSULE receipt timestamps. Local checker and its NumPy-only failing child lie between compact ZIP modification and final failure log timestamps; charge two full wall intervals. Parent CPU covers extraction/hashing; no child simulation ran.",
+  "new_CNS_ms": 0
+}

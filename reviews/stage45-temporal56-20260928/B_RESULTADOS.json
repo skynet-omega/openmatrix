@@ -1,0 +1,356 @@
+{
+  "schema": "temporal56_analysis_v1",
+  "plan_sha256": "0e8b4858276f0a3de24898bf4666d4ef9643978606662a6251bdca08879b26ab",
+  "numerical_check": {
+    "max_absolute_error": 3.191870101559857e-10,
+    "cases": 16,
+    "method": "DOP853 independent integration of equations"
+  },
+  "protocols": {
+    "rested_20Hz_dynamic": {
+      "baseline_model_nS": 1.33210439610104,
+      "onset_20ms_peak_excess_model_nS": 1.1080377901679663,
+      "stimulus_peak_excess_model_nS": 1.801033628586154,
+      "last_100ms_mean_excess_model_nS": 1.6466634130007136,
+      "late_over_own_peak": 0.9142879882222833,
+      "stimulus_excess_area_over_peak_s": 0.4589942083076119,
+      "post_100ms_excess_model_nS": 0.16228371126218888,
+      "initial_resources_after_4s": [
+        0.3817474408754122,
+        0.8254672443245266
+      ],
+      "final_resources": [
+        0.36755632666334703,
+        0.7391262229971014
+      ]
+    },
+    "rested_20Hz_frozen": {
+      "baseline_model_nS": 1.33210439610104,
+      "onset_20ms_peak_excess_model_nS": 1.1567505624033523,
+      "stimulus_peak_excess_model_nS": 2.4623644525309514,
+      "last_100ms_mean_excess_model_nS": 2.45944715413909,
+      "late_over_own_peak": 0.9988152450832927,
+      "stimulus_excess_area_over_peak_s": 0.44760380654897075,
+      "post_100ms_excess_model_nS": 0.43889709592693715,
+      "initial_resources_after_4s": [
+        0.3817474408754122,
+        0.8254672443245266
+      ],
+      "final_resources": [
+        0.3817474408754122,
+        0.8254672443245266
+      ]
+    },
+    "rested_50Hz_dynamic": {
+      "baseline_model_nS": 1.33210439610104,
+      "onset_20ms_peak_excess_model_nS": 3.4461934933114566,
+      "stimulus_peak_excess_model_nS": 4.931839997288512,
+      "last_100ms_mean_excess_model_nS": 4.611192592717166,
+      "late_over_own_peak": 0.9349842239919308,
+      "stimulus_excess_area_over_peak_s": 0.4680257382886922,
+      "post_100ms_excess_model_nS": 0.8149293417484722,
+      "initial_resources_after_4s": [
+        0.3817474408754122,
+        0.8254672443245266
+      ],
+      "final_resources": [
+        0.35941949591045247,
+        0.6661478894697895
+      ]
+    },
+    "rested_50Hz_frozen": {
+      "baseline_model_nS": 1.33210439610104,
+      "onset_20ms_peak_excess_model_nS": 3.8277063354148755,
+      "stimulus_peak_excess_model_nS": 8.15164963294323,
+      "last_100ms_mean_excess_model_nS": 8.141987022396695,
+      "late_over_own_peak": 0.9988146435406785,
+      "stimulus_excess_area_over_peak_s": 0.4475816757448146,
+      "post_100ms_excess_model_nS": 1.4586517507971017,
+      "initial_resources_after_4s": [
+        0.3817474408754122,
+        0.8254672443245266
+      ],
+      "final_resources": [
+        0.3817474408754122,
+        0.8254672443245266
+      ]
+    },
+    "steady_baseline_20Hz_dynamic": {
+      "baseline_model_nS": 0.8704935536784548,
+      "onset_20ms_peak_excess_model_nS": 0.9208096320771957,
+      "stimulus_peak_excess_model_nS": 1.1127577565407232,
+      "last_100ms_mean_excess_model_nS": 0.8839401787009308,
+      "late_over_own_peak": 0.7943689212725623,
+      "stimulus_excess_area_over_peak_s": 0.4405835148057153,
+      "post_100ms_excess_model_nS": -0.02246288541924013,
+      "initial_resources_after_4s": [
+        0.381728926654604,
+        0.37051834441880993
+      ],
+      "final_resources": [
+        0.3675562431304333,
+        0.3550011340163066
+      ]
+    },
+    "steady_baseline_20Hz_frozen": {
+      "baseline_model_nS": 0.8704935536784548,
+      "onset_20ms_peak_excess_model_nS": 0.9689871275755526,
+      "stimulus_peak_excess_model_nS": 1.615291902451605,
+      "last_100ms_mean_excess_model_nS": 1.613979901891875,
+      "late_over_own_peak": 0.9991877625599814,
+      "stimulus_excess_area_over_peak_s": 0.46130875634193597,
+      "post_100ms_excess_model_nS": 0.1983588061515984,
+      "initial_resources_after_4s": [
+        0.381728926654604,
+        0.37051834441880993
+      ],
+      "final_resources": [
+        0.381728926654604,
+        0.37051834441880993
+      ]
+    },
+    "steady_baseline_50Hz_dynamic": {
+      "baseline_model_nS": 0.8704935536784548,
+      "onset_20ms_peak_excess_model_nS": 2.826595258185482,
+      "stimulus_peak_excess_model_nS": 3.0249642349706267,
+      "last_100ms_mean_excess_model_nS": 2.252740764798561,
+      "late_over_own_peak": 0.7447164957374895,
+      "stimulus_excess_area_over_peak_s": 0.40872933261516275,
+      "post_100ms_excess_model_nS": 0.2155150004190498,
+      "initial_resources_after_4s": [
+        0.381728926654604,
+        0.37051834441880993
+      ],
+      "final_resources": [
+        0.35941949325864697,
+        0.3218634233322978
+      ]
+    },
+    "steady_baseline_50Hz_frozen": {
+      "baseline_model_nS": 0.8704935536784548,
+      "onset_20ms_peak_excess_model_nS": 3.2051112681345195,
+      "stimulus_peak_excess_model_nS": 5.342888600416849,
+      "last_100ms_mean_excess_model_nS": 5.338548906257744,
+      "late_over_own_peak": 0.9991877625599818,
+      "stimulus_excess_area_over_peak_s": 0.46130875634193547,
+      "post_100ms_excess_model_nS": 0.6561098972706689,
+      "initial_resources_after_4s": [
+        0.381728926654604,
+        0.37051834441880993
+      ],
+      "final_resources": [
+        0.381728926654604,
+        0.37051834441880993
+      ]
+    }
+  },
+  "recorded": {
+    "sham": {
+      "baseline": {
+        "source_proxy_Hz_min": 9.000000000000114,
+        "source_proxy_Hz_max": 9.000000000000275,
+        "source_proxy_Hz_mean": 9.000000000000181,
+        "bridge_equivalent_Hz_mean": 2.4491413568317117,
+        "instantaneous_steady_prediction_Hz_mean": 2.8790092429669114,
+        "A_fast_mean": 0.31112149904828856,
+        "A_slow_mean": 0.2229582598485387,
+        "legacy_PN_q_mean": 0.5562037598842353,
+        "fine_PN_gamma_model_nS_mean": 0.0036179512246156714,
+        "fine_PN_other_model_nS_mean": 0.002094701741725341
+      },
+      "onset": {
+        "source_proxy_Hz_min": 9.000000000000114,
+        "source_proxy_Hz_max": 9.000000000000252,
+        "source_proxy_Hz_mean": 9.000000000000176,
+        "bridge_equivalent_Hz_mean": 2.463069454435901,
+        "instantaneous_steady_prediction_Hz_mean": 2.879009242966912,
+        "A_fast_mean": 0.31339626876353466,
+        "A_slow_mean": 0.22348049674047063,
+        "legacy_PN_q_mean": 0.5561951796269333,
+        "fine_PN_gamma_model_nS_mean": 0.0036184399878166824,
+        "fine_PN_other_model_nS_mean": 0.002094943996713273
+      },
+      "late": {
+        "source_proxy_Hz_min": 9.000000000000101,
+        "source_proxy_Hz_max": 9.000000000000195,
+        "source_proxy_Hz_mean": 9.000000000000144,
+        "bridge_equivalent_Hz_mean": 2.5752991947037653,
+        "instantaneous_steady_prediction_Hz_mean": 2.879009242966908,
+        "A_fast_mean": 0.32436173606396146,
+        "A_slow_mean": 0.23737441110275206,
+        "legacy_PN_q_mean": 0.5562478624443444,
+        "fine_PN_gamma_model_nS_mean": 0.0036216528704256295,
+        "fine_PN_other_model_nS_mean": 0.0020967522714343554
+      }
+    },
+    "dm1": {
+      "baseline": {
+        "source_proxy_Hz_min": 9.000000000000114,
+        "source_proxy_Hz_max": 9.000000000000275,
+        "source_proxy_Hz_mean": 9.000000000000181,
+        "bridge_equivalent_Hz_mean": 2.4491413568317117,
+        "instantaneous_steady_prediction_Hz_mean": 2.8790092429669114,
+        "A_fast_mean": 0.31112149904828856,
+        "A_slow_mean": 0.2229582598485387,
+        "legacy_PN_q_mean": 0.5562037598842353,
+        "fine_PN_gamma_model_nS_mean": 0.0036179512246156714,
+        "fine_PN_other_model_nS_mean": 0.002094701741725341
+      },
+      "onset": {
+        "source_proxy_Hz_min": 10.690972850009846,
+        "source_proxy_Hz_max": 39.898880659028165,
+        "source_proxy_Hz_mean": 25.21279102111242,
+        "bridge_equivalent_Hz_mean": 3.937878090049382,
+        "instantaneous_steady_prediction_Hz_mean": 3.5750251548005116,
+        "A_fast_mean": 0.3050935876053622,
+        "A_slow_mean": 0.22328531252209485,
+        "legacy_PN_q_mean": 0.5566112084922874,
+        "fine_PN_gamma_model_nS_mean": 0.0036184695787329297,
+        "fine_PN_other_model_nS_mean": 0.002094961060545113
+      },
+      "late": {
+        "source_proxy_Hz_min": 50.83349999999842,
+        "source_proxy_Hz_max": 50.83349999999952,
+        "source_proxy_Hz_mean": 50.83349999999899,
+        "bridge_equivalent_Hz_mean": 5.611776041571837,
+        "instantaneous_steady_prediction_Hz_mean": 3.908226058273654,
+        "A_fast_mean": 0.07835851334330134,
+        "A_slow_mean": 0.14931128028199922,
+        "legacy_PN_q_mean": 0.5611456955464527,
+        "fine_PN_gamma_model_nS_mean": 0.0037089278387843557,
+        "fine_PN_other_model_nS_mean": 0.0021456240226945984
+      }
+    },
+    "profile": {
+      "baseline": {
+        "source_proxy_Hz_min": 9.000000000000114,
+        "source_proxy_Hz_max": 9.000000000000275,
+        "source_proxy_Hz_mean": 9.000000000000181,
+        "bridge_equivalent_Hz_mean": 2.4491413568317117,
+        "instantaneous_steady_prediction_Hz_mean": 2.8790092429669114,
+        "A_fast_mean": 0.31112149904828856,
+        "A_slow_mean": 0.2229582598485387,
+        "legacy_PN_q_mean": 0.5562037598842353,
+        "fine_PN_gamma_model_nS_mean": 0.0036179512246156714,
+        "fine_PN_other_model_nS_mean": 0.002094701741725341
+      },
+      "onset": {
+        "source_proxy_Hz_min": 9.366107476298465,
+        "source_proxy_Hz_max": 15.689824273903847,
+        "source_proxy_Hz_mean": 12.458143163145932,
+        "bridge_equivalent_Hz_mean": 2.7836091485654895,
+        "instantaneous_steady_prediction_Hz_mean": 3.149219652472243,
+        "A_fast_mean": 0.3115933682367707,
+        "A_slow_mean": 0.22343883838809417,
+        "legacy_PN_q_mean": 0.5593939216287913,
+        "fine_PN_gamma_model_nS_mean": 0.0036184464277670587,
+        "fine_PN_other_model_nS_mean": 0.002094947708948072
+      },
+      "late": {
+        "source_proxy_Hz_min": 17.799817015584125,
+        "source_proxy_Hz_max": 18.057246016477663,
+        "source_proxy_Hz_mean": 17.9215739754662,
+        "bridge_equivalent_Hz_mean": 3.6444706085787115,
+        "instantaneous_steady_prediction_Hz_mean": 3.4244867638764296,
+        "A_fast_mean": 0.1943281743058864,
+        "A_slow_mean": 0.21466514439043458,
+        "legacy_PN_q_mean": 0.5974143751153029,
+        "fine_PN_gamma_model_nS_mean": 0.00365326383028023,
+        "fine_PN_other_model_nS_mean": 0.002114530614971358
+      }
+    },
+    "permuted": {
+      "baseline": {
+        "source_proxy_Hz_min": 9.000000000000114,
+        "source_proxy_Hz_max": 9.000000000000275,
+        "source_proxy_Hz_mean": 9.000000000000181,
+        "bridge_equivalent_Hz_mean": 2.4491413568317117,
+        "instantaneous_steady_prediction_Hz_mean": 2.8790092429669114,
+        "A_fast_mean": 0.31112149904828856,
+        "A_slow_mean": 0.2229582598485387,
+        "legacy_PN_q_mean": 0.5562037598842353,
+        "fine_PN_gamma_model_nS_mean": 0.0036179512246156714,
+        "fine_PN_other_model_nS_mean": 0.002094701741725341
+      },
+      "onset": {
+        "source_proxy_Hz_min": 9.010734863631827,
+        "source_proxy_Hz_max": 20.654594867214634,
+        "source_proxy_Hz_mean": 10.908158097423549,
+        "bridge_equivalent_Hz_mean": 2.639810062518406,
+        "instantaneous_steady_prediction_Hz_mean": 3.0268911946339863,
+        "A_fast_mean": 0.31240221740091273,
+        "A_slow_mean": 0.22345750894959807,
+        "legacy_PN_q_mean": 0.5593311604677074,
+        "fine_PN_gamma_model_nS_mean": 0.0036184431865205397,
+        "fine_PN_other_model_nS_mean": 0.0020949458377108993
+      },
+      "late": {
+        "source_proxy_Hz_min": 9.231388688900902,
+        "source_proxy_Hz_max": 26.908269105619453,
+        "source_proxy_Hz_mean": 13.922294368736582,
+        "bridge_equivalent_Hz_mean": 3.162218631582454,
+        "instantaneous_steady_prediction_Hz_mean": 3.1823139315806492,
+        "A_fast_mean": 0.25213545154114364,
+        "A_slow_mean": 0.22491793741752297,
+        "legacy_PN_q_mean": 0.603903992194157,
+        "fine_PN_gamma_model_nS_mean": 0.0036391724518954377,
+        "fine_PN_other_model_nS_mean": 0.0021066450490351495
+      }
+    }
+  },
+  "steady_state_table": [
+    {
+      "source_Hz": 0.0,
+      "resources": [
+        1.0,
+        1.0
+      ],
+      "bridge_equivalent_Hz": 0.0
+    },
+    {
+      "source_Hz": 7.0,
+      "resources": [
+        0.381728926654604,
+        0.37051834441880993
+      ],
+      "bridge_equivalent_Hz": 2.637859253571075
+    },
+    {
+      "source_Hz": 9.0,
+      "resources": [
+        0.3244204229144633,
+        0.3140380109724253
+      ],
+      "bridge_equivalent_Hz": 2.879009242966893
+    },
+    {
+      "source_Hz": 20.0,
+      "resources": [
+        0.17769564290283602,
+        0.17082155945734773
+      ],
+      "bridge_equivalent_Hz": 3.4939208570779137
+    },
+    {
+      "source_Hz": 50.0,
+      "resources": [
+        0.07956082425013923,
+        0.07613157210554423
+      ],
+      "bridge_equivalent_Hz": 3.9032211657157982
+    },
+    {
+      "source_Hz": 100.0,
+      "resources": [
+        0.041428453061562676,
+        0.039572130298361985
+      ],
+      "bridge_equivalent_Hz": 4.0618421310347825
+    }
+  ],
+  "constant_rate_asymptote_equivalent_Hz": 4.233908884689995,
+  "scope": "The asymptote is a stationary finite-parameter limit; transient release can exceed it. Sublinearity alone is not a physiological defect. Endpoints are not RHS tapes.",
+  "biological_validation": false,
+  "stage4_admitted": false,
+  "stage5_admitted": false
+}

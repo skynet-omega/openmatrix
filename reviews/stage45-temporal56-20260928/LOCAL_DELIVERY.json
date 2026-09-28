@@ -1,0 +1,135 @@
+{
+  "path": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_TRANSFERENCIA_TEMPORAL_20260928_56.zip",
+  "bytes": 141845129,
+  "sha256": "2bd9abba7a72d987181063c8e17078140ba47d638c569c163444b5bfc2efd701",
+  "files": 299,
+  "verification": {
+    "extraction": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/recibos/ETAPA45_TRANSFERENCIA_TEMPORAL_20260928_56_LOCAL/ETAPA45_TRANSFERENCIA_TEMPORAL_20260928_56",
+    "verification": {
+      "manifest_files_checked": 298,
+      "A": {
+        "joint_persistence_support": true,
+        "effects": {
+          "sham": {
+            "terminal_identity_effect": {
+              "pulse": {
+                "yaw_deg_s": -0.0041357055676218835,
+                "DNb_difference_q": -4.95256575503214e-06,
+                "forward_mm_s": 0.0,
+                "DNg_target_q": 0.0
+              },
+              "hold": {
+                "yaw_deg_s": -0.36170537112766254,
+                "DNb_difference_q": -0.00041496900942967693,
+                "forward_mm_s": 0.0,
+                "DNg_target_q": 0.0
+              }
+            },
+            "duration_by_identity_interaction": {
+              "yaw_deg_s": -0.35756966556004066,
+              "DNb_difference_q": -0.0004100164436746448,
+              "forward_mm_s": 0.0,
+              "DNg_target_q": 0.0
+            },
+            "checks": {
+              "yaw_deg_s": {
+                "interaction_material": true,
+                "same_sign_or_exact_zero_branch": true,
+                "amplified": true,
+                "hold_to_pulse_ratio": 87.45916874726908
+              },
+              "DNb_difference_q": {
+                "interaction_material": true,
+                "same_sign_or_exact_zero_branch": true,
+                "amplified": true,
+                "hold_to_pulse_ratio": 83.7886925596173
+              }
+            },
+            "persistence_supported_at_this_frontier": true,
+            "held_forward_effect_material": false
+          },
+          "profile": {
+            "terminal_identity_effect": {
+              "pulse": {
+                "yaw_deg_s": -0.005053596785858261,
+                "DNb_difference_q": -5.065094131014025e-06,
+                "forward_mm_s": 0.0,
+                "DNg_target_q": 0.0
+              },
+              "hold": {
+                "yaw_deg_s": -0.40085563457748963,
+                "DNb_difference_q": -0.000411983994099481,
+                "forward_mm_s": 0.0,
+                "DNg_target_q": 0.0
+              }
+            },
+            "duration_by_identity_interaction": {
+              "yaw_deg_s": -0.39580203779163137,
+              "DNb_difference_q": -0.000406918899968467,
+              "forward_mm_s": 0.0,
+              "DNg_target_q": 0.0
+            },
+            "checks": {
+              "yaw_deg_s": {
+                "interaction_material": true,
+                "same_sign_or_exact_zero_branch": true,
+                "amplified": true,
+                "hold_to_pulse_ratio": 79.32085830417348
+              },
+              "DNb_difference_q": {
+                "interaction_material": true,
+                "same_sign_or_exact_zero_branch": true,
+                "amplified": true,
+                "hold_to_pulse_ratio": 81.33787515948936
+              }
+            },
+            "persistence_supported_at_this_frontier": true,
+            "held_forward_effect_material": false
+          }
+        },
+        "budget": {
+          "attempted_CNS_ms_measured": 1028,
+          "committed_CNS_ms_measured": 1028,
+          "CNS_ms_budget_charge": 1030,
+          "worker_CPU_s_measured_repaired": 2827.3570522000005,
+          "worker_CPU_s_budget_charge": 2997.3570522000005,
+          "queue_wall_s": 2654.7693483009934,
+          "unmeasured_original_CPU_charge_s": 170
+        },
+        "corruptions_rejected": 16,
+        "CPU_s": 5.5552836
+      },
+      "B": {
+        "CPU_s": 0.44106709999999993,
+        "asymptote_equivalent_Hz": 4.233908884689995,
+        "independent_numerical_check": {
+          "max_absolute_error": 3.191870101559857e-10,
+          "cases": 16,
+          "method": "DOP853 independent integration of equations"
+        },
+        "biological_validation": false
+      },
+      "new_CNS_ms": 0,
+      "parent_CPU_s": 0.1233041,
+      "scope": "Reconstruction of retained arrays and CPU protocols, not a new GPU brain simulation."
+    },
+    "new_CNS_ms": 0,
+    "same_untouched_clean_extraction_after_launcher_limit_repair": true
+  },
+  "CPU_s": 0.0459897,
+  "child_CPU_s": 6.310829,
+  "wall_s": 7.96621852600947,
+  "aggregate_new_disk_bytes": 9516816497,
+  "first_pack_accounting": {
+    "failure": "Inherited RLIMIT_CPU hard115 prevents CPU bench setting its frozen hard122 limit. No scientific data changed.",
+    "parent_CPU_s_not_measured": true,
+    "parent_CPU_upper_bound_charge_s": 115,
+    "full_single_process_verifier_wall_upper_bound_s": 25.84968852996826,
+    "full_verifier_CPU_charge_s": 26,
+    "local_check_two_children_wall_upper_bound_s": 2.888948678970337,
+    "local_verification_children_CPU_charge_s": 6,
+    "first_pack_total_CPU_charge_s": 147,
+    "source_of_bounds": "Parent process hard limit. Full single-thread verifier lies between completed ZIP modification and FULL_CAPSULE receipt timestamps. Local checker and its NumPy-only failing child lie between compact ZIP modification and final failure log timestamps; charge two full wall intervals. Parent CPU covers extraction/hashing; no child simulation ran.",
+    "new_CNS_ms": 0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "CPU_s": 5.711812699999999,
+  "optimized": true,
+  "tests": [
+    {
+      "name": "criterion",
+      "rejected": true,
+      "reason": "repair altered science"
+    },
+    {
+      "name": "stage_flag",
+      "rejected": true,
+      "reason": "repair altered science"
+    },
+    {
+      "name": "source_identity",
+      "rejected": true,
+      "reason": "terminal support"
+    },
+    {
+      "name": "initial_state",
+      "rejected": true,
+      "reason": "initial neural state changed"
+    },
+    {
+      "name": "writer_schedule",
+      "rejected": true,
+      "reason": "writer mode/errors pulse_sham_from_profile"
+    },
+    {
+      "name": "held_source",
+      "rejected": true,
+      "reason": "witness bounds"
+    },
+    {
+      "name": "pulse_release",
+      "rejected": true,
+      "reason": "witness bounds"
+    },
+    {
+      "name": "RHS_count",
+      "rejected": true,
+      "reason": "every RHS coverage"
+    },
+    {
+      "name": "RHS_writer_error",
+      "rejected": true,
+      "reason": "writer mode/errors pulse_sham_from_profile"
+    },
+    {
+      "name": "ORN_error",
+      "rejected": true,
+      "reason": "ORN every RHS audit"
+    },
+    {
+      "name": "motor",
+      "rejected": true,
+      "reason": "yaw reader/unit"
+    },
+    {
+      "name": "clock",
+      "rejected": true,
+      "reason": "clock pulse_sham_from_profile/CNS_time_ns"
+    },
+    {
+      "name": "RHS_context",
+      "rejected": true,
+      "reason": "predictor/committed contexts"
+    },
+    {
+      "name": "nonfinite",
+      "rejected": true,
+      "reason": "nonfinite pulse_sham_from_profile/final_q"
+    },
+    {
+      "name": "failure_budget",
+      "rejected": true,
+      "reason": "failure budget preservation"
+    },
+    {
+      "name": "accepted_flag_value",
+      "rejected": true,
+      "reason": "accepted flag must be exactly binary"
+    }
+  ]
+}

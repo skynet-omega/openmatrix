@@ -1,0 +1,9 @@
+# Reparación del lanzador de cierre
+
+El empaquetador original terminó de construir y verificar todos los contenidos de la cápsula completa y de extraer el ZIP compacto. La verificación del banco B falló antes de calcular porque heredó un límite duro de CPU de 115 s, inferior al límite de 122 s que su contrato fija para el proceso. El log original se conserva. No se cambian datos, contratos, parámetros, tolerancias ni el banco temporal congelado.
+
+`delivery56_repaired.py` conserva las funciones originales y cambia únicamente el límite del proceso de cierre (20 s blandos, 125 s duros para permitir el límite ya congelado del hijo), añade la opción de retomar la comprobación de la extracción existente y publica esta nota con el registro del fallo. Los límites son por proceso; el coste agregado se contabiliza por separado. El ZIP existente y su manifiesto se conservan bit a bit, y la extracción ya creada se verifica completa de nuevo. No se reempaqueta ni se repite CNS.
+
+El primer cierre no produjo recibo de CPU completo. Se carga conservadoramente el límite duro de 115 s del padre, más cotas por los intervalos de pared de sus verificadores hijos, obtenidos de la secuencia de archivos: 26 s para el lector monohilo de la cápsula y 6 s para los dos procesos de comprobación local. Total de ese intento: **147 s CPU de cargo**, no medición. Las cotas, timestamps y justificación están en `PACK_FAILURE_ACCOUNTING.json`. Los costes de recuperación y publicación se miden y suman en los recibos; la ronda conserva su presupuesto de cierre de 180 s CPU.
+
+El modo corto del paquete usa el lanzador independiente `check_delivery56.py`, desde una terminal con los límites normales del entorno. El defecto estaba en el límite heredado del empaquetador, no en la reproducción numérica ni en la extracción. La utilidad original se conserva en los ZIP como evidencia; la utilidad reparada queda publicada al lado, con manifiesto de publicación.

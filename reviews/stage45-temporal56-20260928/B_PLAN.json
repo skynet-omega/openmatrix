@@ -1,0 +1,23 @@
+{
+  "schema": "temporal56_cpu_v1",
+  "kind": "diagnostic_existing_mechanism_no_new_organism",
+  "conditions_hz": [20.0, 50.0],
+  "baseline_hz": 7.0,
+  "baseline_duration_s": 4.0,
+  "stimulus_duration_s": 0.5,
+  "recovery_duration_s": 1.0,
+  "dt_s": 0.001,
+  "initializations": ["rested", "steady_baseline"],
+  "comparators": ["existing_dynamic_resources", "resources_frozen_at_stimulus_onset"],
+  "primary_windows_ms": {"baseline": [901, 1000], "onset": [1001, 1020], "late": [2501, 3000]},
+  "records48": ["sham", "dm1", "profile", "permuted"],
+  "numerical_check_absolute_tolerance": 1e-8,
+  "reference_ODE_rtol": 1e-11,
+  "reference_ODE_atol": 1e-12,
+  "CPU_s": 120,
+  "wall_s": 180,
+  "RAM_bytes": 4294967296,
+  "disk_bytes": 268435456,
+  "biological_validation": false,
+  "scope": "Continuous rate equations and source-range diagnostic. A rate step is not the individual EPSC train of an electrical stimulation experiment. Frozen resources match the actual state, basal and instantaneous onset at the split; no independent gain fitting. Different future history can distinguish resource depletion from static amplitude. No nS-to-CNS-current calibration, no neuron-by-neuron tuning, no threshold/gain change, no stage admission."
+}

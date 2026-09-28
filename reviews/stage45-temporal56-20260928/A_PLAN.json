@@ -1,0 +1,99 @@
+{
+  "schema": "terminal_factorial56_v1",
+  "arms": {
+    "qual_disabled": {
+      "receiver": "sham",
+      "donor": "sham",
+      "mode": "disabled",
+      "duration_ms": 2
+    },
+    "qual_identity": {
+      "receiver": "sham",
+      "donor": "sham",
+      "mode": "identity",
+      "duration_ms": 2
+    },
+    "pulse_sham_from_sham": {
+      "receiver": "sham",
+      "donor": "sham",
+      "mode": "pulse",
+      "duration_ms": 128
+    },
+    "pulse_sham_from_profile": {
+      "receiver": "sham",
+      "donor": "profile",
+      "mode": "pulse",
+      "duration_ms": 128
+    },
+    "pulse_profile_from_sham": {
+      "receiver": "profile",
+      "donor": "sham",
+      "mode": "pulse",
+      "duration_ms": 128
+    },
+    "pulse_profile_from_profile": {
+      "receiver": "profile",
+      "donor": "profile",
+      "mode": "pulse",
+      "duration_ms": 128
+    },
+    "hold_sham_from_sham": {
+      "receiver": "sham",
+      "donor": "sham",
+      "mode": "hold",
+      "duration_ms": 128
+    },
+    "hold_sham_from_profile": {
+      "receiver": "sham",
+      "donor": "profile",
+      "mode": "hold",
+      "duration_ms": 128
+    },
+    "hold_profile_from_sham": {
+      "receiver": "profile",
+      "donor": "sham",
+      "mode": "hold",
+      "duration_ms": 128
+    },
+    "hold_profile_from_profile": {
+      "receiver": "profile",
+      "donor": "profile",
+      "mode": "hold",
+      "duration_ms": 128
+    }
+  },
+  "prefix_ms": 10,
+  "analysis_window_ms": [
+    65,
+    128
+  ],
+  "planned_CNS_ms": 1028,
+  "CNS_ms": 1200,
+  "queue_CPU_s": 5200,
+  "queue_wall_s": 4700,
+  "qualification": {
+    "CPU_s": 170,
+    "wall_s": 160
+  },
+  "per_arm": {
+    "CPU_s": 520,
+    "wall_s": 500
+  },
+  "RAM_bytes": 25769803776,
+  "VRAM_bytes": 15032385536,
+  "intervention": "Same source writer at generic CSR only. Hold/pulse fixed recorded initial FP32 release at686ALPN. No state transplant; PN fine and PN→KC specialized routes remain native. Pulse first1ms only; hold all128ms. No old55 jump-event overlay is needed because historical source state is untouched.",
+  "criteria": {
+    "DNb_difference_change_q_min": 1.6e-05,
+    "yaw_mean_change_deg_s_min": 0.02,
+    "forward_mean_change_mm_s_min": 0.001,
+    "DNg_mean_target_change_min": 0.001,
+    "persistence_amplification_min": 2.0,
+    "stage4": false,
+    "stage5": false,
+    "input_rule": "Report all input sizes. No1percent gate in this NEW diagnostic;55 remains unchanged.",
+    "persistence_rule": "Per receptor: duration×terminal identity interaction exceeds BOTH DN/yaw minima; held identity effect retains pulse sign and at least doubles its magnitude. If pulse is exactlyzero use explicit branch, not divide. Report both recipients separately; joint claim requires both.",
+    "scope": "Causal diagnostic of this partial generic-CSR frontier, no navigation or biological equivalence.",
+    "effect_definitions": "For each receptor and each observable Y: E_pulse=Y(terminal_profile,pulse)-Y(terminal_sham,pulse); E_hold=Y(terminal_profile,hold)-Y(terminal_sham,hold); interaction=E_hold-E_pulse. Both DN and yaw must independently satisfy interaction magnitude, matching nonzero sign and >=2x amplification. Exact-zero pulse branch requires material held effect without a ratio. Joint persistence support requires both receptors. Receptor interactions are descriptive, not prerequisites."
+  },
+  "stop": "Both live qualifications exact before eight scientific arms. Stop on implementation failure, incomplete observation, budget or nonfinite. Preserve failures; no parameter/tolerance changes for success."
+}
