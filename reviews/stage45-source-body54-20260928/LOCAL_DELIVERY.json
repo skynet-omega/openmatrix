@@ -1,0 +1,70 @@
+{
+  "path": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/salida/ETAPA45_FUENTE_CUERPO_20260928_54.zip",
+  "bytes": 75609710,
+  "sha256": "eddd7fecb6e19e33379a3126d71881afd552bdc8ca9f6799a5cfbb34357603bc",
+  "files": 252,
+  "verification": {
+    "extraction": "/mnt/f/Downloads/AXIOMA_INTERCAMBIO/recibos/ETAPA45_FUENTE_CUERPO_20260928_54_LOCAL/ETAPA45_FUENTE_CUERPO_20260928_54",
+    "verification": {
+      "status": "PASS",
+      "exact_result_reconstruction": true,
+      "preparatory_evidence": {
+        "status": "PASS",
+        "six52_rows_exact": true,
+        "eight_physical_rows_exact": true,
+        "four_body_identities_exact": true,
+        "new_CNS_ms": 0,
+        "new_body_steps": 0,
+        "scope": "Recomputes archived quantities; does not reintegrate CNS/body."
+      },
+      "corruptions_rejected": [
+        {
+          "case": "motor_latency",
+          "error": "neural latency"
+        },
+        {
+          "case": "yaw_units",
+          "error": "raw/applied yaw or units"
+        },
+        {
+          "case": "control_odor_contamination",
+          "error": "odor prefix"
+        },
+        {
+          "case": "source_geometry",
+          "error": "independent antenna/source geometry"
+        },
+        {
+          "case": "ORN_nominal_amount",
+          "error": "actual nominal ORN recomputation"
+        },
+        {
+          "case": "anatomical_identity",
+          "error": "ORN mapping ORN_ids"
+        },
+        {
+          "case": "source_context",
+          "error": "source label"
+        },
+        {
+          "case": "materiality",
+          "error": "materiality changed"
+        },
+        {
+          "case": "stage_in_contract",
+          "error": "stage scope"
+        },
+        {
+          "case": "published_stage_flag",
+          "error": "published quantities/verdict differ"
+        }
+      ],
+      "CPU_s": 1.1617158,
+      "peak_RSS_bytes": 126410752,
+      "new_CNS_ms": 0,
+      "scope": "Analysis of recorded data; no new organism simulation or portable GPU resume."
+    },
+    "new_CNS_ms": 0
+  },
+  "CPU_s": 59.2244547
+}

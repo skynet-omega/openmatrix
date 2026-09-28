@@ -1,0 +1,225 @@
+{
+  "schema": "source_body54_recomputed_v1",
+  "duration_ms": 89,
+  "window_ms": [
+    51,
+    89
+  ],
+  "arms": {
+    "parent_none": {
+      "mean_DNb05_L_minus_R_q": -0.023359625241543235,
+      "mean_yaw_deg_s": 2.8615114391261853,
+      "mean_forward_mm_s": 0.0,
+      "DNg_target_max_all_RHS": 0.0,
+      "physical_yaw_change_deg": 0.24137804550934328,
+      "physical_displacement_xy_mm": 0.001389351909494966,
+      "final_error_L_R_deg": [
+        20.467539656333564,
+        22.028749285622922
+      ],
+      "distance_change_L_R_mm": [
+        -0.00037805326732232025,
+        0.0006244560976560454
+      ],
+      "consumed_ORN_total_mean_Hz": 4436.0
+    },
+    "parent_L": {
+      "mean_DNb05_L_minus_R_q": -0.023401170350004337,
+      "mean_yaw_deg_s": 2.827725054376763,
+      "mean_forward_mm_s": 0.0,
+      "DNg_target_max_all_RHS": 0.0,
+      "physical_yaw_change_deg": 0.2399313917247305,
+      "physical_displacement_xy_mm": 0.0013811888737773478,
+      "final_error_L_R_deg": [
+        20.46937187942712,
+        22.026949158692435
+      ],
+      "distance_change_L_R_mm": [
+        -0.00037594167956722657,
+        0.0006206857130965915
+      ],
+      "consumed_ORN_total_mean_Hz": 6247.9224043222275
+    },
+    "parent_R": {
+      "mean_DNb05_L_minus_R_q": -0.02344602417522872,
+      "mean_yaw_deg_s": 2.7904123202630746,
+      "mean_forward_mm_s": 0.0,
+      "DNg_target_max_all_RHS": 0.0,
+      "physical_yaw_change_deg": 0.2383440483740981,
+      "physical_displacement_xy_mm": 0.0013722051817285752,
+      "final_error_L_R_deg": [
+        20.471383379733023,
+        22.024972516187468
+      ],
+      "distance_change_L_R_mm": [
+        -0.000373605156954282,
+        0.0006165480073057061
+      ],
+      "consumed_ORN_total_mean_Hz": 6262.352128050612
+    },
+    "I_none": {
+      "mean_DNb05_L_minus_R_q": -0.024643202265464424,
+      "mean_yaw_deg_s": 1.6259907253857082,
+      "mean_forward_mm_s": 0.04904696288923499,
+      "DNg_target_max_all_RHS": 0.34640395605495544,
+      "physical_yaw_change_deg": 0.19084756937546057,
+      "physical_displacement_xy_mm": 0.001639587506859879,
+      "final_error_L_R_deg": [
+        20.554762351920118,
+        21.989284674129447
+      ],
+      "distance_change_L_R_mm": [
+        -0.0015312673962388779,
+        -0.000732454637140556
+      ],
+      "consumed_ORN_total_mean_Hz": 4436.0
+    },
+    "I_L": {
+      "mean_DNb05_L_minus_R_q": -0.02464343333861019,
+      "mean_yaw_deg_s": 1.6257457928712635,
+      "mean_forward_mm_s": 0.049049617032451774,
+      "DNg_target_max_all_RHS": 0.3464257576590438,
+      "physical_yaw_change_deg": 0.19083130404598786,
+      "physical_displacement_xy_mm": 0.00163958326899486,
+      "final_error_L_R_deg": [
+        20.554784288115208,
+        21.989265553080493
+      ],
+      "distance_change_L_R_mm": [
+        -0.0015313072335916278,
+        -0.0007325623343532595
+      ],
+      "consumed_ORN_total_mean_Hz": 6246.878648839771
+    },
+    "I_R": {
+      "mean_DNb05_L_minus_R_q": -0.0246439266553722,
+      "mean_yaw_deg_s": 1.6252126411590682,
+      "mean_forward_mm_s": 0.04904967572316513,
+      "DNg_target_max_all_RHS": 0.34642659124978836,
+      "physical_yaw_change_deg": 0.1908111354545744,
+      "physical_displacement_xy_mm": 0.0016395182870887928,
+      "final_error_L_R_deg": [
+        20.554809827300115,
+        21.989240522347977
+      ],
+      "distance_change_L_R_mm": [
+        -0.001531279668450125,
+        -0.000732616223803273
+      ],
+      "consumed_ORN_total_mean_Hz": 6264.014266523601
+    }
+  },
+  "comparisons": {
+    "parent": {
+      "half_L_minus_R_DNb_q": 2.2426912612191416e-05,
+      "half_L_minus_R_yaw_deg_s": 0.01865636705684426,
+      "source_vs_none_yaw_L_R_deg_s": [
+        -0.033786384749422194,
+        -0.07109911886311071
+      ],
+      "source_vs_none_forward_L_R_mm_s": [
+        0.0,
+        0.0
+      ],
+      "body_error_benefit_vs_none_L_R_deg": [
+        -0.0018322230935545747,
+        0.0037767694354542414
+      ],
+      "neural_and_yaw_material": false,
+      "both_mirror_benefits_positive": false,
+      "longer_life_screen_supported": false
+    },
+    "I": {
+      "half_L_minus_R_DNb_q": 2.466583810048495e-07,
+      "half_L_minus_R_yaw_deg_s": 0.00026657585609768386,
+      "source_vs_none_yaw_L_R_deg_s": [
+        -0.00024493251444468456,
+        -0.0007780842266400523
+      ],
+      "source_vs_none_forward_L_R_mm_s": [
+        2.6541432167834222e-06,
+        2.7128339301421556e-06
+      ],
+      "body_error_benefit_vs_none_L_R_deg": [
+        -2.1936195089722332e-05,
+        4.41517814699921e-05
+      ],
+      "neural_and_yaw_material": false,
+      "both_mirror_benefits_positive": false,
+      "longer_life_screen_supported": false
+    }
+  },
+  "saturation": {
+    "none": {
+      "new_saturated_eligible_fraction": 0.0,
+      "excluded": false,
+      "base_rows_raw_below0": 16760,
+      "base_rows_raw_above1": 23402,
+      "scope": "raw base target before specialized overrides; final saturation evaluated separately"
+    },
+    "L": {
+      "new_saturated_eligible_fraction": 0.0,
+      "excluded": false,
+      "base_rows_raw_below0": 16510,
+      "base_rows_raw_above1": 23398,
+      "scope": "raw base target before specialized overrides; final saturation evaluated separately"
+    },
+    "R": {
+      "new_saturated_eligible_fraction": 0.0,
+      "excluded": false,
+      "base_rows_raw_below0": 16503,
+      "base_rows_raw_above1": 23398,
+      "scope": "raw base target before specialized overrides; final saturation evaluated separately"
+    }
+  },
+  "stage4_admitted": false,
+  "stage5_admitted": false,
+  "scope": "Short developmental pilot with applied neural commands; not reserved feedback or mechanical recovery test. Unequal anatomical ORN totals retained, not direction free of amount.",
+  "input_hashes": {
+    "parent_none": {
+      "traces.npz": "3f8f55d629e21428e692e054014d4c3de5f75621f2073cd6b94204df2ee9f7d9",
+      "neural_and_inputs.npz": "c84ee4eb20f91342d373396967056e37e0a5249d169311da41c6740c255543af",
+      "dng100_observed.npz": "8ecb3b01c9171c343e86876061b618859ea6b0e4d8a86b5fd9d3505054b96aa9",
+      "SPATIAL_OWNER_FINAL.json": "47894947918fc718515d7d6dc840db5ac9d922cf15d759f06224c85e7066351c"
+    },
+    "parent_L": {
+      "traces.npz": "e3e80038969f449ad33bc3d6feaa2fe83d511929ba28046c63215aabdbb51b95",
+      "neural_and_inputs.npz": "16bd75ff498812958d2035cf3819708833ffacc39f38214c10e8df57f1c24426",
+      "dng100_observed.npz": "8e7c2e8e72607cb82e61e07bb4e980b60c4895d767d1da6d817dad44ccde8c4e",
+      "SPATIAL_OWNER_FINAL.json": "032a86fefc47ab3a505559d66c7a18bb92fdc6db991177a66d3a60b5844e7ec3"
+    },
+    "parent_R": {
+      "traces.npz": "c9ff2c87a6f65585047e12cb3410cd259e9e5ee2d0814f2138389be9376b8a15",
+      "neural_and_inputs.npz": "632b622d3995d59e3a86af9513271a6bd1dce256acb888a0cb2b916851821251",
+      "dng100_observed.npz": "35f6496c4861f4dcc861909d4cfe25488ba290fd04fee279fc1acdd21a28815e",
+      "SPATIAL_OWNER_FINAL.json": "3d1627aa8073d04d91b45e4a67ecbb38b1c5fbff8165bcdca5d10d4d52ec3c27"
+    },
+    "I_none": {
+      "traces.npz": "4b3ece308cd315bdf0d0a6df5dcf35c16b6faaeb2f5470e82ae379b6f39526ea",
+      "neural_and_inputs.npz": "0a7772f24e14b71efc8b38f5ee462e66a32ce56c34149c8eec1dfb429d4c89c5",
+      "dng100_observed.npz": "e4a3deb6ad8d66a29d173db2fea2cca3b7fd40806a91e2a65a4f1c61a66f099f",
+      "SPATIAL_OWNER_FINAL.json": "47894947918fc718515d7d6dc840db5ac9d922cf15d759f06224c85e7066351c"
+    },
+    "I_L": {
+      "traces.npz": "4d86c433eb5c86b573438f02ea8f8825b610236c04278e28916a154e1092435c",
+      "neural_and_inputs.npz": "b20126bc531fa055e5122abf8bce905c5890f472fd709ea208bee7fa170319b1",
+      "dng100_observed.npz": "ab272458d62a2012e3ff605cfe79a2f877c3c92eeab4866e833dee8ab440d952",
+      "SPATIAL_OWNER_FINAL.json": "e63589203ef5b64dc8ce9718c6b33fc8a85a70d8b7494565f26153de698555f1"
+    },
+    "I_R": {
+      "traces.npz": "fafce4d57538195aa204cd8865cce52041daeed616a78571fcad2461b9b0cc30",
+      "neural_and_inputs.npz": "2e08a9412c8b4b60d3df3f25b8f57905c5bea725d86990f195d42fe3d67c390b",
+      "dng100_observed.npz": "afed69c1c3f977d8c400bdb9414a34cda5cde2e185ce2263af6aa59528c0ac24",
+      "SPATIAL_OWNER_FINAL.json": "95c99f61f6c3603f84d9bba3863e1cd683c90f2bd2dd867b110de19203961882"
+    }
+  },
+  "qualification_traces_exact": true,
+  "budget": {
+    "attempted_CNS_ms": 543,
+    "committed_CNS_ms": 542,
+    "worker_CPU_s": 1676.8505185,
+    "queue_wall_s": 1607.380756582017,
+    "initial_failed_attempt_preserved": true
+  },
+  "verification_limit": "Nominal ORN rates and body\u2192sensor geometry independently recomputed offline. Equality at every actual ORN RHS target was checked by the frozen runner; its transient counters were not stored for separate offline recomputation."
+}

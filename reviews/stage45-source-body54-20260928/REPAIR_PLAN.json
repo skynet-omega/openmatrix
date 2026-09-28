@@ -1,0 +1,11 @@
+{
+  "parent_contract_sha256": "8a3bf108f2e79c2e2d08a61f598d6ec0fbf675b58dc9e1854d3deac96101941c",
+  "previous_attempted_CNS_ms": 5,
+  "previous_CPU_s": 144.0807635,
+  "previous_queue_wall_s": 143.51384810899617,
+  "aggregate_CNS_cap_ms": 544,
+  "planned_aggregate_CNS_ms": 543,
+  "fix": "Encode dimensionless steering in device requested[1], preserving raw neural reader and original physical5deg/s conversion. No tolerance or gain changed.",
+  "equal_duration_change": "89ms each leaves total attempted exposure including failure and repeated qualifications within original544ms. Window51..89 equally, same materiality minima.",
+  "test": "investigacion/continuacion_causal_20260928_11/MOTOR_UNITS54_REPAIR.json"
+}

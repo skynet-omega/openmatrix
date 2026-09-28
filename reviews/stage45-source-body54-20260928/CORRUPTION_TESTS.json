@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "exact_result_reconstruction": true,
+  "preparatory_evidence": {
+    "status": "PASS",
+    "six52_rows_exact": true,
+    "eight_physical_rows_exact": true,
+    "four_body_identities_exact": true,
+    "new_CNS_ms": 0,
+    "new_body_steps": 0,
+    "scope": "Recomputes archived quantities; does not reintegrate CNS/body."
+  },
+  "corruptions_rejected": [
+    {
+      "case": "motor_latency",
+      "error": "neural latency"
+    },
+    {
+      "case": "yaw_units",
+      "error": "raw/applied yaw or units"
+    },
+    {
+      "case": "control_odor_contamination",
+      "error": "odor prefix"
+    },
+    {
+      "case": "source_geometry",
+      "error": "independent antenna/source geometry"
+    },
+    {
+      "case": "ORN_nominal_amount",
+      "error": "actual nominal ORN recomputation"
+    },
+    {
+      "case": "anatomical_identity",
+      "error": "ORN mapping ORN_ids"
+    },
+    {
+      "case": "source_context",
+      "error": "source label"
+    },
+    {
+      "case": "materiality",
+      "error": "materiality changed"
+    },
+    {
+      "case": "stage_in_contract",
+      "error": "stage scope"
+    },
+    {
+      "case": "published_stage_flag",
+      "error": "published quantities/verdict differ"
+    }
+  ],
+  "CPU_s": 1.0078704,
+  "peak_RSS_bytes": 123158528,
+  "new_CNS_ms": 0,
+  "scope": "Analysis of recorded data; no new organism simulation or portable GPU resume."
+}
