@@ -1,0 +1,17 @@
+{
+  "zip_bytes": 257080,
+  "sha256": "41d55d4f8c7a393235b55562b6b156d17bfb407387db5cd649bb066da5a32776",
+  "verification": {
+    "files_verified": 26,
+    "measurements_rebuilt": true,
+    "scope": "Documentary receipt integrity; no original CNS or biological dataset reproduced",
+    "CNS_ms": 0
+  },
+  "corruptions_rejected": [
+    "EVIDENCIA_LOCAL.json",
+    "HERRAMIENTAS_METADATA.json",
+    "MEDICIONES.md"
+  ],
+  "package_CPU_s": 0.0235586,
+  "scope": "integrity plus documentary calculations only; no CNS"
+}

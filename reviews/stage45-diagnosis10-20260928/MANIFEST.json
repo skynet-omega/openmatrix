@@ -1,0 +1,135 @@
+{
+  "scope": "documentary_diagnosis_only",
+  "files": [
+    {
+      "path": "CHATGPT_ASTRA.json",
+      "bytes": 14338,
+      "sha256": "402c76954518fd18025911f23c36fe73239f52a6309c888e05f83910d2ae98e3"
+    },
+    {
+      "path": "CHATGPT_ASTRA_CORRECCION.json",
+      "bytes": 1164,
+      "sha256": "92b0a7a243d66e4ed395ccdebbdb89653255186e40a2f00439da36fea45c6cd7"
+    },
+    {
+      "path": "CHATGPT_MOTOR.json",
+      "bytes": 17332,
+      "sha256": "7b293bbc55c78bd9b76ccaf6144a7cb22e0d5fb83d51947bf61e98142c14f985"
+    },
+    {
+      "path": "CHATGPT_MOTOR_CORRECCION.json",
+      "bytes": 1068,
+      "sha256": "431000db2e352d8fc624b9c08a99a796276a281878f0a03492febe85a23acc68"
+    },
+    {
+      "path": "CONTINUIDAD_PREVIA.json",
+      "bytes": 877,
+      "sha256": "ec78516750769e99a2890af9287a1f17b0df136ef0b6d771f911aa901a762887"
+    },
+    {
+      "path": "ENLACES_POST.json",
+      "bytes": 253,
+      "sha256": "be2123b389563433e02aa295f42772fb802155faa747d152c5e9aa027035dd9d"
+    },
+    {
+      "path": "EVIDENCIA_LOCAL.json",
+      "bytes": 28975,
+      "sha256": "c8a68d7f8e4ec33253e5b7214622167c1c175c66de8791a83f1a59128f54cddd"
+    },
+    {
+      "path": "HERRAMIENTAS_METADATA.json",
+      "bytes": 2061,
+      "sha256": "42e0939758c72485ce0092fbfe3f2c312096ccbe0397b44fd037c2eb4721f1e1"
+    },
+    {
+      "path": "INFORME.md",
+      "bytes": 16422,
+      "sha256": "0c56068066ea029ec65034c4be1fc4e40b9ec883f14998f5eb8a92b5740152d4"
+    },
+    {
+      "path": "LEEME_PAQUETE.md",
+      "bytes": 1250,
+      "sha256": "9609d4b35e148f6bacee539083004b9310cb258da9c6dcc39a80b987b074477c"
+    },
+    {
+      "path": "MEDICIONES.md",
+      "bytes": 1007,
+      "sha256": "28682c4add3a1f447b125da3e302d6bd8587d5792f7c6e78b1f4556c4dfe245b"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 3298,
+      "sha256": "e1fc72249a68df4cba999d552d3f8eb198751f7c24f5a52aa2d2f7c83be5acbe"
+    },
+    {
+      "path": "aporte_motor/INFORME_FINAL.md",
+      "bytes": 13070,
+      "sha256": "0d7d75d26370716be5394d8551e3780fe6944c5dec9d2488ed1045e12766cdd0"
+    },
+    {
+      "path": "aporte_motor/OPERADOR_EFECTIVO.json",
+      "bytes": 6896,
+      "sha256": "0a8708b0780f62b0bf78cc78fc2eac29e3793eca0b168db244fdd553449c0001"
+    },
+    {
+      "path": "aporte_motor/PROPUESTA_INICIAL.md",
+      "bytes": 3809,
+      "sha256": "8f45836de53d2ad299356285c29bf1fbfa003e2f06b488d9860d9313404923ab"
+    },
+    {
+      "path": "continuidad_actual/ESTADO_ACTUAL.md",
+      "bytes": 184451,
+      "sha256": "660756c8a2bdae58baefccbe7481f9c7b60c13178e49e7aaecb4c309a256bd49"
+    },
+    {
+      "path": "continuidad_actual/MAPA_VIGENTE.md",
+      "bytes": 3171,
+      "sha256": "b4a648105c2c9c0fd36ea85e548cf97a34e9604291a1d81586b568fc043018d5"
+    },
+    {
+      "path": "continuidad_actual/README.md",
+      "bytes": 1629,
+      "sha256": "74fe9c2007204be08abb618216e0ac92f523171d01f558450e5dbab5abc7682c"
+    },
+    {
+      "path": "continuidad_actual/motor_nuevo/PLAN_ABC.md",
+      "bytes": 69966,
+      "sha256": "95c562389d12f745bbb3e13a789941a912eddd29b094a45000b4f481ada381e1"
+    },
+    {
+      "path": "continuidad_previa/ESTADO_ACTUAL.md",
+      "bytes": 182550,
+      "sha256": "713a6b0a0c3ad99c3bb080807c9f5500a6103c83bf09f5a0331503e986759473"
+    },
+    {
+      "path": "continuidad_previa/README.md",
+      "bytes": 34420,
+      "sha256": "643a6eadb8f8477b17a1a0a2452f8dff340c4606057184a5298d5fccef2d9861"
+    },
+    {
+      "path": "continuidad_previa/motor_nuevo/PLAN_ABC.md",
+      "bytes": 68050,
+      "sha256": "5f96e0363ed594421ffbd56e5e446746c98781c70b7a25f476b0625b82976f84"
+    },
+    {
+      "path": "inspect_surface.py",
+      "bytes": 5809,
+      "sha256": "a84a39040110d537dbdcd340b25531da764e1e85a3b62a767023e5be4e0d3e23"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 2204,
+      "sha256": "63947801efca8315d268c097aca0e172c7e3bacfa92b115236d660ce1ad48a01"
+    },
+    {
+      "path": "rebuild_measurements.py",
+      "bytes": 1756,
+      "sha256": "d9dfd5b814b8761ecdd1695e55778cecfd4954e186f2ececc968f331a2f5b883"
+    },
+    {
+      "path": "verify_packet.py",
+      "bytes": 733,
+      "sha256": "c02d7c7037bd101ce4618f6c08e99dcc51af451b46ef95173d247ae3f5252860"
+    }
+  ]
+}
