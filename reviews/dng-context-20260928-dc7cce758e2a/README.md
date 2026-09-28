@@ -1,0 +1,57 @@
+# dng-context-20260928
+
+Cotas directas y aportes de grupos anatómicos hacia DNg100 desde operandos49. Descendentes/ascendentes con capacidad algebraica y saldo observado inhibitorio; cero aristas del subconjunto MBON anotado. Revisión independiente y lectura CPU reproducible. Cero nuevo CNS; etapas4/5 abiertas.
+
+Snapshot inmutable: `dng-context-20260928-dc7cce758e2a`. [Manifiesto](MANIFEST.json), [ZIP dividido y hashes](ARCHIVE.json).
+
+Fuentes y evidencia legibles:
+
+- [ENVIRONMENT.json](files/ENVIRONMENT.json)
+- [EXPECTED_OUTPUTS.json](files/EXPECTED_OUTPUTS.json)
+- [INPUTS.json](files/INPUTS.json)
+- [README.md](files/README.md)
+- [campanas/etapa45_operands_20260927_49/coefficient_capture.cu](files/campanas/etapa45_operands_20260927_49/coefficient_capture.cu)
+- [campanas/etapa45_operands_20260927_49/observation_codec.py](files/campanas/etapa45_operands_20260927_49/observation_codec.py)
+- [campanas/etapa45_operands_20260927_49/verify_operands.py](files/campanas/etapa45_operands_20260927_49/verify_operands.py)
+- [config/workflows/dng-context-capacity.json](files/config/workflows/dng-context-capacity.json)
+- [matrix.txt](files/matrix.txt)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/REPORT.md](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/REPORT.md)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/aligned.csv](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/aligned.csv)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/assessment.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/assessment.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/differences.csv](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/differences.csv)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/execution.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/execution.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/groups.csv](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/groups.csv)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/provenance.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/provenance.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/request.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/request.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/result.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/result.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/state.json](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/state.json)
+- [runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/windows.csv](files/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/windows.csv)
+- [src/dng_context_capacity.py](files/src/dng_context_capacity.py)
+- [src/problem_context.py](files/src/problem_context.py)
+- [tests/test_dng_context_capacity.py](files/tests/test_dng_context_capacity.py)
+- [tests/test_problem_context.py](files/tests/test_problem_context.py)
+- [work/dng_context_capacity_20260928/CATALOG_ASO.json](files/work/dng_context_capacity_20260928/CATALOG_ASO.json)
+- [work/dng_context_capacity_20260928/CATALOG_BRAUN.json](files/work/dng_context_capacity_20260928/CATALOG_BRAUN.json)
+- [work/dng_context_capacity_20260928/CHATGPT_ASTRA.json](files/work/dng_context_capacity_20260928/CHATGPT_ASTRA.json)
+- [work/dng_context_capacity_20260928/CHATGPT_MOTOR.json](files/work/dng_context_capacity_20260928/CHATGPT_MOTOR.json)
+- [work/dng_context_capacity_20260928/CHECK.json](files/work/dng_context_capacity_20260928/CHECK.json)
+- [work/dng_context_capacity_20260928/CHECK_FINAL.txt](files/work/dng_context_capacity_20260928/CHECK_FINAL.txt)
+- [work/dng_context_capacity_20260928/CONTRACT.json](files/work/dng_context_capacity_20260928/CONTRACT.json)
+- [work/dng_context_capacity_20260928/DECISION.md](files/work/dng_context_capacity_20260928/DECISION.md)
+- [work/dng_context_capacity_20260928/FROZEN.json](files/work/dng_context_capacity_20260928/FROZEN.json)
+- [work/dng_context_capacity_20260928/FUENTES.md](files/work/dng_context_capacity_20260928/FUENTES.md)
+- [work/dng_context_capacity_20260928/NAVIGATION_REFRESH.json](files/work/dng_context_capacity_20260928/NAVIGATION_REFRESH.json)
+- [work/dng_context_capacity_20260928/PLAN.md](files/work/dng_context_capacity_20260928/PLAN.md)
+- [work/dng_context_capacity_20260928/README.md](files/work/dng_context_capacity_20260928/README.md)
+- [work/dng_context_capacity_20260928/REPRODUCIR.md](files/work/dng_context_capacity_20260928/REPRODUCIR.md)
+- [work/dng_context_capacity_20260928/RESULT_PATH.json](files/work/dng_context_capacity_20260928/RESULT_PATH.json)
+- [work/dng_context_capacity_20260928/SELECTORS.json](files/work/dng_context_capacity_20260928/SELECTORS.json)
+- [work/dng_context_capacity_20260928/aporte_motor/COMPROBACIONES_DISENO.json](files/work/dng_context_capacity_20260928/aporte_motor/COMPROBACIONES_DISENO.json)
+- [work/dng_context_capacity_20260928/aporte_motor/RECONSTRUCCION_FINAL.json](files/work/dng_context_capacity_20260928/aporte_motor/RECONSTRUCCION_FINAL.json)
+- [work/dng_context_capacity_20260928/aporte_motor/REVISION_DISENO.md](files/work/dng_context_capacity_20260928/aporte_motor/REVISION_DISENO.md)
+- [work/dng_context_capacity_20260928/aporte_motor/REVISION_FINAL.md](files/work/dng_context_capacity_20260928/aporte_motor/REVISION_FINAL.md)
+- [work/dng_context_capacity_20260928/cycle_planned.json](files/work/dng_context_capacity_20260928/cycle_planned.json)
+- [work/dng_context_capacity_20260928/cycle_result.json](files/work/dng_context_capacity_20260928/cycle_result.json)
+- [work/dng_context_capacity_20260928/decision_contract.json](files/work/dng_context_capacity_20260928/decision_contract.json)
+
+Descargar las partes, concatenar por número y comprobar SHA256. El manifiesto enumera todos los archivos del ZIP. Revisar archivos no equivale a ejecutarlos.

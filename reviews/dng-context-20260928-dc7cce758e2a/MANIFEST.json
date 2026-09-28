@@ -1,0 +1,302 @@
+{
+  "format_version": 2,
+  "label": "dng-context-20260928",
+  "description": "Cotas directas y aportes de grupos anatómicos hacia DNg100 desde operandos49. Descendentes/ascendentes con capacidad algebraica y saldo observado inhibitorio; cero aristas del subconjunto MBON anotado. Revisión independiente y lectura CPU reproducible. Cero nuevo CNS; etapas4/5 abiertas.",
+  "files": [
+    {
+      "path": "ENVIRONMENT.json",
+      "bytes": 320,
+      "sha256": "5c78a5ae33de85399befd8a19f4d9944bf21e9ff21a0366c28a82c61d32f11e8"
+    },
+    {
+      "path": "EXPECTED_OUTPUTS.json",
+      "bytes": 518,
+      "sha256": "6ae51285154d3543659ec8d0777c9e97b7a8294ce80cfecd07aadd7dffd389bc"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 1758,
+      "sha256": "fd70e582c0ef82387e02c92a1e20f4ee11e20b293b7fec1efefc70c16d97f281"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1749,
+      "sha256": "80d33cf35eb7ec31eea3abf79b591032e6983f9bc2a770e32158204083437137"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/coefficient_capture.cu",
+      "bytes": 2149,
+      "sha256": "7e85a9684482a5a5a71893c007d7e56019a620b88dcabbd7528b74f7cbe8de9e"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/frozen_selection.npz",
+      "bytes": 78640,
+      "sha256": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/observation_codec.py",
+      "bytes": 2506,
+      "sha256": "20c9335c78ca5b9680c3b38011f6a35592aeed4bc845da00ae98f000f783c801"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_001ms.packed.npz",
+      "bytes": 1442361,
+      "sha256": "e34bb4bbcdc8285476c9ddf836a997f3977d7c0edb839b89ec6a747a241489b6"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_005ms.packed.npz",
+      "bytes": 1194580,
+      "sha256": "51d8a2b3e93445139dddd53fde2477be77bc61721e5cc646aa12e352016ccb26"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_010ms.packed.npz",
+      "bytes": 1285966,
+      "sha256": "f1d807d084ed9164b9fb9163a22679a8f482f2c5a86205c86bbbcab377d49d54"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_020ms.packed.npz",
+      "bytes": 1259797,
+      "sha256": "9b65380d8e53bec26080b9f468f76ce84eb49fd8e3986060eb00da280d765fd0"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_050ms.packed.npz",
+      "bytes": 1313869,
+      "sha256": "3ed83fa2d443dfd0167d3de3631f45d9033ef6057df46c3953102d8564e425dd"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_001ms.packed.npz",
+      "bytes": 1268626,
+      "sha256": "783bae730bd47183dc2cc199d3ca5f534448c4248536d093441a85b5f2871d4f"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_005ms.packed.npz",
+      "bytes": 1172177,
+      "sha256": "aefe3c444b03bcaba8b44fbc618e95ac044c803366aef1472507cb8a1208191a"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_010ms.packed.npz",
+      "bytes": 1384881,
+      "sha256": "eabc2d892896ad87a0bd787e2ba1d55dc1c8cfcf7f9912be17858c2a4c0b8ac2"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_020ms.packed.npz",
+      "bytes": 1192120,
+      "sha256": "316604972379e5f583f480b24178ef1195bdbfeb7e90a581ce6387d348b615ab"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_050ms.packed.npz",
+      "bytes": 1215988,
+      "sha256": "d31340cc3ca0b51c489754c926cc4857e366290ccb9e0d59ae60852bb85fb2b7"
+    },
+    {
+      "path": "campanas/etapa45_operands_20260927_49/verify_operands.py",
+      "bytes": 6701,
+      "sha256": "17c8b54a407b80932df0b62f1032aaffdc126531b712fcb5c54d1631a035bab9"
+    },
+    {
+      "path": "config/workflows/dng-context-capacity.json",
+      "bytes": 2275,
+      "sha256": "0df9038f3aa59b39a8825c5407bf2216c14167c0464ae6e1e44f59fe050fbe4b"
+    },
+    {
+      "path": "matrix.txt",
+      "bytes": 6581,
+      "sha256": "4891d320105733abfb7e054bb25dfe1797b1e82f4ae1a87ffcd41c1fa067bcfa"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/REPORT.md",
+      "bytes": 1631,
+      "sha256": "dd9ad85be84db11fefe7a0a4d46fbad754b719952b8ff81b70bc5ed452e344dc"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/aligned.csv",
+      "bytes": 145494,
+      "sha256": "f0ae277dac44d936a01ede16575c77600b63c3d1b339046252bc1ec7666a2d00"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/assessment.json",
+      "bytes": 10138,
+      "sha256": "84cc19b728297c50f67a8cd1b71f3160e463c5c13659b11f6d78c4583e4bdcb3"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/differences.csv",
+      "bytes": 22749,
+      "sha256": "baf1d5109fda0b0d324d20d81e5bbee3a2e7a3505881fad420fc6aaf6145fde2"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/execution.json",
+      "bytes": 62,
+      "sha256": "ac7f48f8d8b96ae2a318843759ce55b87e36bef652f460d5f018498746877770"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/groups.csv",
+      "bytes": 1352,
+      "sha256": "441eea8b58ea3fdb4d1654a489dc3a7a9df74bd4ed5680c1c286fb2bc9a7bcb6"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/provenance.json",
+      "bytes": 35374,
+      "sha256": "86289b64b9080a0f2e61e40c2856caca0d07473d45384ca0d4c6944ad4c6b270"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/request.json",
+      "bytes": 2438,
+      "sha256": "3b4c2031d1adf1007683c091cd2eecdf5a8e01dd9b8ee54eb222fe9129fcaae8"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/result.json",
+      "bytes": 10914,
+      "sha256": "5f94d9af148777ae512a878412077cacc482141a4805ce405fe2ba69ddc742a4"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/state.json",
+      "bytes": 7081,
+      "sha256": "cec7598c49eba99d9a7df3925143d0e3c3a3e7fbaa2069fdbfdfeede1ef02849"
+    },
+    {
+      "path": "runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/windows.csv",
+      "bytes": 36157,
+      "sha256": "f135e845683e15f36c3631c7fb4fa25038666c6a1cba3570e36a2e14cdfdce9c"
+    },
+    {
+      "path": "src/dng_context_capacity.py",
+      "bytes": 17645,
+      "sha256": "2d3b4d80d676f0caa706909868b340f35d0a0648dc5cc5719f83370d8c3e46f2"
+    },
+    {
+      "path": "src/problem_context.py",
+      "bytes": 40324,
+      "sha256": "d7ca9ef2e5292d4f5a01f7a0854f005ee0988a62639fd70dac23aba54c105c7d"
+    },
+    {
+      "path": "tests/test_dng_context_capacity.py",
+      "bytes": 2871,
+      "sha256": "42b502464a7fb513863996e0fdd17a252ece0be8a0e0ef57bef9423407c6e175"
+    },
+    {
+      "path": "tests/test_problem_context.py",
+      "bytes": 28532,
+      "sha256": "e77b1c93cb62c9a4a435bfb9d4562270f1200784803f02af496781f9e45d7327"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/ANATOMY.csv",
+      "bytes": 7733682,
+      "sha256": "dcae8adce7b928df81de3266289bf34cb3cef2c2adc52a4c67935afe2445a7f7"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CATALOG_ASO.json",
+      "bytes": 768,
+      "sha256": "bea65d507f5ac42a4610d4ed1584c24d9eff812ce05c6dc36e8079f779f593de"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CATALOG_BRAUN.json",
+      "bytes": 5877,
+      "sha256": "9b7a354591ab61cb451c847bb98a7a79a1151edff14e1d97948a5b1d7ff48234"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CHATGPT_ASTRA.json",
+      "bytes": 15848,
+      "sha256": "55d1260f4af9aece65e865502a825473f00c226538ed5513f5ab54fd5a8bdf0a"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CHATGPT_MOTOR.json",
+      "bytes": 15368,
+      "sha256": "face4d7a16d5d80f22b6d4dcf96ec9566d8eee65251eb41f5bb1e188ba8659c3"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CHECK.json",
+      "bytes": 901,
+      "sha256": "461736634f4dead504c708967eb16e84cfece03ed0a662d89fe4183d2aae068b"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CHECK_FINAL.txt",
+      "bytes": 901,
+      "sha256": "fdda097e8e0b76751f2c51144f910a9c3bc296dceb975680aa590a3140efa906"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/CONTRACT.json",
+      "bytes": 3459,
+      "sha256": "73ed2638a78c348ff11b62231c2dfad6274849b8d3d317f4462a02f31145a8ec"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/DECISION.md",
+      "bytes": 5505,
+      "sha256": "abd99aba9205d74f1bb36e59a86498dac881c302dec334201064e0f988e26473"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/FROZEN.json",
+      "bytes": 304,
+      "sha256": "5694803f6ba70dcad078de854f2747984acb5bedfd1428a8c9e3a90e324053d1"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/FUENTES.md",
+      "bytes": 2749,
+      "sha256": "8aa8669b807c7dcaf1deb42f0f64c7b9f2cd5cb92460f7a34b6d77b0adb447d7"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/NAVIGATION_REFRESH.json",
+      "bytes": 117,
+      "sha256": "834e430bd58b75e923a8247f7240ea0e93b8877e878579f246e807f81ae37ab1"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/PLAN.md",
+      "bytes": 3974,
+      "sha256": "233454a79e757fe6de29f7777e6d1ec3a87aaaa9d2c61ba09048e3d9483bec91"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/README.md",
+      "bytes": 1907,
+      "sha256": "6ddd84ba0b26c58066d67e3d309835a873510c1987bc58acf557e27b40ca3fdb"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/REPRODUCIR.md",
+      "bytes": 1749,
+      "sha256": "80d33cf35eb7ec31eea3abf79b591032e6983f9bc2a770e32158204083437137"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/RESULT_PATH.json",
+      "bytes": 144,
+      "sha256": "c8aa7cdf9a76bbb44df094e62cca75107ffb265b22f589ee3eea32a45087a9f0"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/SELECTORS.json",
+      "bytes": 57965,
+      "sha256": "e23deec2435d593dbede0591fc0cdb50fd7e8862c9bfb3b4fcd1c6ca24d5978d"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/aporte_motor/COMPROBACIONES_DISENO.json",
+      "bytes": 10554,
+      "sha256": "8afde23f514e5692d5683228c2c4c77309a374d1da11bb896998ddc25995e718"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/aporte_motor/RECONSTRUCCION_FINAL.json",
+      "bytes": 15497,
+      "sha256": "bf77a3f197e682859ce0c0c15e08f5c40ef016b67743cce25d64d9fafb3b0051"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/aporte_motor/REVISION_DISENO.md",
+      "bytes": 8618,
+      "sha256": "d52a6845459f9ebbe32fd77f4e97dd99bfd01ca4c4260bff87966cccc5956810"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/aporte_motor/REVISION_FINAL.md",
+      "bytes": 6611,
+      "sha256": "9e506f242a1776557ea4fb99a070e577f556e262a9ea825a5fa87e50853c9605"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/cycle_planned.json",
+      "bytes": 303,
+      "sha256": "c0fdf504bfea5c0be8d1d075ef25fd6706ea7a2a6a717cfbe6c27aa0914d865c"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/cycle_result.json",
+      "bytes": 3387,
+      "sha256": "17fe5f8f0551a8ecce9541a88199bbef9e35e1660a06c00f57edc41443463915"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/decision_contract.json",
+      "bytes": 2113,
+      "sha256": "6923132bb333979b7bd31c4ed4ca6c9e46b3cde5966f420ba6327d54fc506412"
+    }
+  ]
+}

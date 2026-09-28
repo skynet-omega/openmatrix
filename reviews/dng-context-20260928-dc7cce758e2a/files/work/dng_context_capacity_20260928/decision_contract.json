@@ -1,0 +1,57 @@
+{
+  "schema": "matrix_decision_contract_v1",
+  "stage": "4",
+  "question": "¿La capacidad directa de cada grupo anatómico predefinido es insuficiente con el resto congelado en los RHS observados de49?",
+  "query": "DNg100 contexto capacidad aportes operandos49",
+  "scope": "Cotas directas del consumidor en dos historias expuestas, no estados alcanzables ni causalidad. Etapas4/5 abiertas.",
+  "change": "Nueva agrupación anatómica prospectiva de operandos históricos individuales, sin CNS, cambios de ley ni lector.",
+  "recipe": "dng-context-capacity",
+  "maximum_runs": 1,
+  "maximum_seconds": 120,
+  "evidence_mode": "retrospective",
+  "sources": [
+    {
+      "path": "work/dng_context_capacity_20260928/PLAN.md",
+      "reason": "Alternativas, operaciones y presupuesto previos al cálculo"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/FROZEN.json",
+      "reason": "Identidad congelada del contrato y selección anatómica antes de efectos agrupados"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/aporte_motor/REVISION_DISENO.md",
+      "reason": "Revisión no autoral del dominio, fases y aritmética"
+    },
+    {
+      "path": "work/dng_context_capacity_20260928/FUENTES.md",
+      "reason": "Fuentes primarias y límites de inferencia"
+    }
+  ],
+  "validity": [
+    {
+      "step": "capacity",
+      "artifact": "assessment.json",
+      "field": [
+        "raw_verified"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "success": [
+    {
+      "step": "capacity",
+      "artifact": "assessment.json",
+      "field": [
+        "all_primary_direct_groups_excluded"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "branches": {
+    "SUPPORTED": "Excluir suficiencia directa de los grupos anotados con resto fijo en estas muestras; no recurrencia ni contexto global.",
+    "NEGATIVE": "Alguna cota directa no excluye capacidad; no demuestra reclutamiento alcanzable ni autoriza estimulación elegida por resultado.",
+    "INCONCLUSIVE": "Identidad, dominio o fase inválidos. Conservar fallo; no recortar datos ni alterar criterios."
+  }
+}

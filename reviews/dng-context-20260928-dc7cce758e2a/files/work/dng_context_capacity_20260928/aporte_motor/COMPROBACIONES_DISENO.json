@@ -1,0 +1,410 @@
+{
+  "schema": "dng_context_design_support_v1",
+  "scope": "Domain, annotation identity, mask/cap preconditions and clock support only; no grouped contributions, capacities or ranking computed",
+  "identity": {
+    "canonical_ids": 166700,
+    "pre_id_row_matches_canonical_sorted": true,
+    "all_pre_ids_present": true,
+    "group_sizes": {
+      "descending_neuron": 1314,
+      "ascending_or_sensory_ascending": 2383,
+      "MBON": 97
+    },
+    "group_intersections": {
+      "descending_neuron & ascending_or_sensory_ascending": 0,
+      "descending_neuron & MBON": 0,
+      "ascending_or_sensory_ascending & MBON": 0
+    },
+    "self_edges_DNg": {
+      "10045": 0,
+      "10056": 0
+    },
+    "annotation_missing_pre": {
+      "superclass": 0,
+      "class": 6567
+    }
+  },
+  "windows": [
+    {
+      "arm": "sham",
+      "ms": 1,
+      "packed_sha256": "783bae730bd47183dc2cc199d3ca5f534448c4248536d093441a85b5f2871d4f",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          69,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47486000000,
+        47486125000,
+        47486250000,
+        47486375000,
+        47486500000,
+        47486625000,
+        47486750000,
+        47486875000
+      ]
+    },
+    {
+      "arm": "sham",
+      "ms": 5,
+      "packed_sha256": "aefe3c444b03bcaba8b44fbc618e95ac044c803366aef1472507cb8a1208191a",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          62,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47490000000,
+        47490125000,
+        47490250000,
+        47490375000,
+        47490500000,
+        47490625000,
+        47490750000,
+        47490875000
+      ]
+    },
+    {
+      "arm": "sham",
+      "ms": 10,
+      "packed_sha256": "eabc2d892896ad87a0bd787e2ba1d55dc1c8cfcf7f9912be17858c2a4c0b8ac2",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          77,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47495000000,
+        47495125000,
+        47495250000,
+        47495375000,
+        47495500000,
+        47495625000,
+        47495750000,
+        47495875000
+      ]
+    },
+    {
+      "arm": "sham",
+      "ms": 20,
+      "packed_sha256": "316604972379e5f583f480b24178ef1195bdbfeb7e90a581ce6387d348b615ab",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          64,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47505000000,
+        47505125000,
+        47505250000,
+        47505375000,
+        47505500000,
+        47505625000,
+        47505750000,
+        47505875000
+      ]
+    },
+    {
+      "arm": "sham",
+      "ms": 50,
+      "packed_sha256": "d31340cc3ca0b51c489754c926cc4857e366290ccb9e0d59ae60852bb85fb2b7",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          71,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47535000000,
+        47535125000,
+        47535250000,
+        47535375000,
+        47535500000,
+        47535625000,
+        47535750000,
+        47535875000
+      ]
+    },
+    {
+      "arm": "profile",
+      "ms": 1,
+      "packed_sha256": "e34bb4bbcdc8285476c9ddf836a997f3977d7c0edb839b89ec6a747a241489b6",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          87,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47486000000,
+        47486125000,
+        47486250000,
+        47486375000,
+        47486500000,
+        47486625000,
+        47486750000,
+        47486875000
+      ]
+    },
+    {
+      "arm": "profile",
+      "ms": 5,
+      "packed_sha256": "51d8a2b3e93445139dddd53fde2477be77bc61721e5cc646aa12e352016ccb26",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          64,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47490000000,
+        47490125000,
+        47490250000,
+        47490375000,
+        47490500000,
+        47490625000,
+        47490750000,
+        47490875000
+      ]
+    },
+    {
+      "arm": "profile",
+      "ms": 10,
+      "packed_sha256": "f1d807d084ed9164b9fb9163a22679a8f482f2c5a86205c86bbbcab377d49d54",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          70,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47495000000,
+        47495125000,
+        47495250000,
+        47495375000,
+        47495500000,
+        47495625000,
+        47495750000,
+        47495875000
+      ]
+    },
+    {
+      "arm": "profile",
+      "ms": 20,
+      "packed_sha256": "9b65380d8e53bec26080b9f468f76ce84eb49fd8e3986060eb00da280d765fd0",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          68,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47505000000,
+        47505125000,
+        47505250000,
+        47505375000,
+        47505500000,
+        47505625000,
+        47505750000,
+        47505875000
+      ]
+    },
+    {
+      "arm": "profile",
+      "ms": 50,
+      "packed_sha256": "3ed83fa2d443dfd0167d3de3631f45d9033ef6057df46c3953102d8564e425dd",
+      "domain_accepted_committed_RHS": {
+        "shape": [
+          73,
+          4,
+          7227
+        ],
+        "min_all_sources": 0.0,
+        "max_all_sources": 1.0,
+        "all_finite_in_0_1": true
+      },
+      "group_domains": {
+        "descending_neuron": true,
+        "ascending_or_sensory_ascending": true,
+        "MBON": true
+      },
+      "static": {
+        "caps_positive": true,
+        "included_binary": true,
+        "weights_caps_masks_static": true
+      },
+      "first_accepted_local_t_zero": true,
+      "absolute_starts_ns": [
+        47535000000,
+        47535125000,
+        47535250000,
+        47535375000,
+        47535500000,
+        47535625000,
+        47535750000,
+        47535875000
+      ]
+    }
+  ],
+  "paired_absolute_starts_equal": {
+    "1": true,
+    "5": true,
+    "10": true,
+    "20": true,
+    "50": true
+  },
+  "CPU_s": 1.1874488,
+  "source_hashes": {
+    "campanas/etapa45_operands_20260927_49/observation_codec.py": "20c9335c78ca5b9680c3b38011f6a35592aeed4bc845da00ae98f000f783c801",
+    "campanas/etapa45_operands_20260927_49/verify_operands.py": "17c8b54a407b80932df0b62f1032aaffdc126531b712fcb5c54d1631a035bab9",
+    "campanas/etapa45_operands_20260927_49/frozen_selection.npz": "9414489fb9f8a238d7ac2ec9a6ee318597be6612e467227a415bd3d0625158d6",
+    "data/male_v10/nodes.parquet": "b3ed715bc6bb6a703cabc84a372ac448b9f036956ced31cdcf6f80f890d4e01a"
+  },
+  "additional_static_checks": {
+    "DNg_gain_strictly_positive": true,
+    "finite_w_times_cap_fp32": true,
+    "opposite_sign_shared_afferents_between_DNg": 0,
+    "CPU_s": 0.041068499999999994
+  },
+  "instrumented_CPU_s_including_first_static_read": 1.2684763000000001
+}

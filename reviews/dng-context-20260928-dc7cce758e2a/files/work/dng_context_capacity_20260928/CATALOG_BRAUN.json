@@ -1,0 +1,76 @@
+{
+  "query": "Braun descending",
+  "normalized_query": "Braun descending",
+  "missing_card_sources": [],
+  "checked_utc": "2026-09-28T21:09:18.821317+00:00",
+  "matched_records": 0,
+  "available_records": 0,
+  "records": [],
+  "matched_file_paths": 0,
+  "file_paths": [],
+  "matched_archive_members": 0,
+  "archive_members": [],
+  "matched_purpose_cards": 3,
+  "purpose_cards": [
+    {
+      "id": "stage3_spatial_precision_20260919",
+      "problem": "DNa02 numerical precision and descending population/body interface",
+      "status": "INCONCLUSIVE_NUMERICS",
+      "terms": "DNa02 SDIRK2 DOP853 temporal spatial Hines local peak CV descending partners superorganismo 105 112 Braun 10.1038/s41586-024-07523-9",
+      "utility": "Separate numerical failure, anatomical presence, sampled activity and direct body readout; reuse retained negative/inconclusive results.",
+      "limit": "No active channel/SIZ identification, missing-sector proof or orientation admission.",
+      "files": [
+        "matrix/work/stage3_spatial_precision_20260919/README.md",
+        "matrix/work/stage3_spatial_precision_20260919/result.json",
+        "matrix/work/stage3_spatial_precision_20260919/numerical_diagnostic.json",
+        "matrix/work/stage3_spatial_precision_20260919/verification_original.json",
+        "matrix/src/spatial_event_precision.py"
+      ],
+      "next": "SDIRK2 spatial event trial41180519c3ac4fd3acf8f80b1b2b7942 completed INCONCLUSIVE: temporal+spatial discrepancy0.057727723mV exceeds frozen0.020mV; cable peaks independently differ0.030197884mV. Spatial trace difference is only0.000043890mV. The independent point reference agrees within0.016983mV but does not change that verdict. Next prospective qualification: reuse both retained0.025ms meshes and budget one0.0125ms refined corner, same events/physics/observer and summed0.020mV criterion. Freeze a finite budget first; do not extend the completed1800s contract or rerun anatomy acquisition. Local amplitudes remain unqualified; the largest fine peak is identical in all four arms at71.025ms, not an odor-specific output or identified SIZ. DN inventory found105partners/112positive pairs,88sampled active: these sectors are present. Body reads DNa02 for turn and DNg100 for speed; a population intervention requires spatial identity and independent motor correspondence. No gain/threshold/port/radius sweep, repeated P9/global normalization, or full-CNS/body promotion from this result. Preserve paired controls/support/resume, core166700/223 and prosthesis. Stage3open;stage4notadmitted.",
+      "source": "https://mooseframework.inl.gov/docs/doxygen/moose/classLStableDirk2.html",
+      "review": "matrix/work/stage3_spatial_precision_20260919/REVIEW.json",
+      "review_response": "",
+      "current_delivery_review_status": "bounded_independent_review_and_local_reconstruction"
+    },
+    {
+      "id": "stage3_point_reference_20260919",
+      "problem": "DNa02 numerical precision and descending population/body interface",
+      "status": "VERIFIED_DIAGNOSTIC_ONLY",
+      "terms": "DNa02 SDIRK2 DOP853 temporal spatial Hines local peak CV descending partners superorganismo 105 112 Braun 10.1038/s41586-024-07523-9",
+      "utility": "Separate numerical failure, anatomical presence, sampled activity and direct body readout; reuse retained negative/inconclusive results.",
+      "limit": "No active channel/SIZ identification, missing-sector proof or orientation admission.",
+      "files": [
+        "matrix/work/stage3_point_reference_20260919/README.md",
+        "matrix/work/stage3_point_reference_20260919/comparison_complete.json",
+        "matrix/work/stage3_point_reference_20260919/results/receipt.json",
+        "matrix/work/stage3_point_reference_20260919/protocol.json"
+      ],
+      "next": "Use the current stage3 decision; this diagnostic does not identify a causal motor repair.",
+      "source": "Independent scalar DOP853 reference on retained local inputs",
+      "review": "matrix/work/stage3_spatial_precision_20260919/REVIEW.json",
+      "review_response": "",
+      "current_delivery_review_status": "bounded_independent_review_and_local_reconstruction"
+    },
+    {
+      "id": "stage3_dn_partner_inventory_20260919",
+      "problem": "DNa02 numerical precision and descending population/body interface",
+      "status": "VERIFIED_DIAGNOSTIC_ONLY",
+      "terms": "DNa02 SDIRK2 DOP853 temporal spatial Hines local peak CV descending partners superorganismo 105 112 Braun 10.1038/s41586-024-07523-9",
+      "utility": "Separate numerical failure, anatomical presence, sampled activity and direct body readout; reuse retained negative/inconclusive results.",
+      "limit": "No active channel/SIZ identification, missing-sector proof or orientation admission.",
+      "files": [
+        "matrix/work/stage3_dn_partner_inventory_20260919/README.md",
+        "matrix/work/stage3_dn_partner_inventory_20260919/results_verified/result.json",
+        "matrix/work/stage3_dn_partner_inventory_20260919/primary_evidence.json",
+        "matrix/work/stage3_dn_partner_inventory_20260919/verification.json"
+      ],
+      "next": "Use the current stage3 decision; this diagnostic does not identify a causal motor repair.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186778/",
+      "review": "matrix/work/stage3_spatial_precision_20260919/REVIEW.json",
+      "review_response": "",
+      "current_delivery_review_status": "bounded_independent_review_and_local_reconstruction"
+    }
+  ],
+  "instruction": "Reutilizar coincidencias verificadas. Fichas, nombres y directorios anidados no prueban disponibilidad del payload; revisar ruta y recibo. Ausencia de coincidencias no autoriza concluir ausencia global. No descargar un DOI completo para un miembro que ya existe.",
+  "truncation": "Each list is limited independently; increase --limit to inspect every match."
+}

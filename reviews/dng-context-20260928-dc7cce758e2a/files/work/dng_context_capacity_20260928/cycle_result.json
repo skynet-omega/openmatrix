@@ -1,0 +1,70 @@
+{
+  "id": "9604950ab76e402e971f48d31e3eea55",
+  "state": {
+    "id": "9604950ab76e402e971f48d31e3eea55",
+    "status": "DECIDED",
+    "outcome": "NEGATIVE",
+    "finished": "2026-09-28T21:20:45.548200+00:00",
+    "decision_sha256": "2a7dc8fe4ed930ec3795fe63239cf35014c1f44f702faa20a70828a75cb3da9b",
+    "execution_sha256": "dca84d3d8823983d20860b2a6848c7341382c61fc6a82ee421f72382f9f67942"
+  },
+  "question": "¿La capacidad directa de cada grupo anatómico predefinido es insuficiente con el resto congelado en los RHS observados de49?",
+  "scope": "Cotas directas del consumidor en dos historias expuestas, no estados alcanzables ni causalidad. Etapas4/5 abiertas.",
+  "plan": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/9604950ab76e402e971f48d31e3eea55/plan.json",
+  "context": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/9604950ab76e402e971f48d31e3eea55/context.json",
+  "brief": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/9604950ab76e402e971f48d31e3eea55/brief.json",
+  "decision": {
+    "outcome": "NEGATIVE",
+    "validity": [
+      {
+        "rule": {
+          "step": "capacity",
+          "artifact": "assessment.json",
+          "field": [
+            "raw_verified"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": true,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/assessment.json"
+      }
+    ],
+    "success": [
+      {
+        "rule": {
+          "step": "capacity",
+          "artifact": "assessment.json",
+          "field": [
+            "all_primary_direct_groups_excluded"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": false,
+        "passed": false,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/595415c148f54b9c9df931f8d2e967860adcf657b8801b0681e8d31845ad0656/attempts/79b4acab55874440b18f1723035804f4/assessment.json"
+      }
+    ],
+    "measurement_status": "assessed_under_declared_rules",
+    "schema": "matrix_decision_outcome_v1",
+    "next_action": "Alguna cota directa no excluye capacidad; no demuestra reclutamiento alcanzable ni autoriza estimulación elegida por resultado.",
+    "qualified_CNS": false,
+    "stage_admission": false,
+    "generated_from": "frozen declared criteria; not an independent evaluator",
+    "id": "9604950ab76e402e971f48d31e3eea55",
+    "completed": "2026-09-28T21:20:45.548200+00:00",
+    "question": "¿La capacidad directa de cada grupo anatómico predefinido es insuficiente con el resto congelado en los RHS observados de49?",
+    "stage": "4",
+    "scope": "Cotas directas del consumidor en dos historias expuestas, no estados alcanzables ni causalidad. Etapas4/5 abiertas.",
+    "change": "Nueva agrupación anatómica prospectiva de operandos históricos individuales, sin CNS, cambios de ley ni lector.",
+    "plan_sha256": "af24c8b86a752f614c1762da5c26a6e3cb24142052141835602671e8c162c24d",
+    "execution_sha256": "dca84d3d8823983d20860b2a6848c7341382c61fc6a82ee421f72382f9f67942",
+    "reused_steps": [],
+    "qualification": "declared diagnostic criteria only; not automatic biological or CNS admission"
+  },
+  "cycle_reused": false
+}

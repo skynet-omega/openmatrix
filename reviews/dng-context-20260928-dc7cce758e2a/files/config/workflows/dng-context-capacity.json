@@ -1,0 +1,35 @@
+{
+  "schema": "matrix_workflow_v1",
+  "id": "dng-context-capacity",
+  "title": "DNg100: aporte y cota directa de contextos anatómicos",
+  "scope": "Two exposed histories from campaign49, same preparation. No navigation, wind, new seeds, learning, physiological equivalence or stages4/5 admission.",
+  "steps": [
+    {
+      "id": "capacity",
+      "component": "dng_context_capacity",
+      "inputs": {
+        "anatomy": "work/dng_context_capacity_20260928/ANATOMY.csv",
+        "selection": "campanas/etapa45_operands_20260927_49/frozen_selection.npz",
+        "codec_source": "campanas/etapa45_operands_20260927_49/observation_codec.py",
+        "verifier_source": "campanas/etapa45_operands_20260927_49/verify_operands.py",
+        "consumer_source": "campanas/etapa45_operands_20260927_49/coefficient_capture.cu",
+        "sham_off_01_001": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_001ms.packed.npz",
+        "sham_off_01_005": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_005ms.packed.npz",
+        "sham_off_01_010": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_010ms.packed.npz",
+        "sham_off_01_020": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_020ms.packed.npz",
+        "sham_off_01_050": "campanas/etapa45_operands_20260927_49/sham_off_01/operands_050ms.packed.npz",
+        "profile_off_01_001": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_001ms.packed.npz",
+        "profile_off_01_005": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_005ms.packed.npz",
+        "profile_off_01_010": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_010ms.packed.npz",
+        "profile_off_01_020": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_020ms.packed.npz",
+        "profile_off_01_050": "campanas/etapa45_operands_20260927_49/profile_off_01/operands_050ms.packed.npz",
+        "selectors": "work/dng_context_capacity_20260928/SELECTORS.json",
+        "contract": "work/dng_context_capacity_20260928/CONTRACT.json",
+        "freeze": "work/dng_context_capacity_20260928/FROZEN.json",
+        "source": "src/dng_context_capacity.py"
+      },
+      "parameters": {}
+    }
+  ],
+  "evidence_record": "work/dng_context_capacity_20260928"
+}

@@ -1,0 +1,127 @@
+#!/usr/bin/env bash
+set -euo pipefail
+MATRIX_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+MATRIX_PYTHON="${MATRIX_PYTHON:-/home/daroch/miniconda3/envs/GPU/bin/python}"
+MATRIX_CALLER_DIR="$PWD"
+cd "$MATRIX_ROOT"
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONUTF8=1
+case "${1:-status}" in
+  status)
+    exec "$MATRIX_PYTHON" scripts/project_map.py status
+    ;;
+  map)
+    shift
+    MATRIX_MAP_TARGET="${1:-$MATRIX_CALLER_DIR}"
+    if [[ "$MATRIX_MAP_TARGET" != /* ]]; then MATRIX_MAP_TARGET="$MATRIX_CALLER_DIR/$MATRIX_MAP_TARGET"; fi
+    exec "$MATRIX_PYTHON" scripts/project_map.py where "$MATRIX_MAP_TARGET"
+    ;;
+  find)
+    shift
+    exec "$MATRIX_PYTHON" scripts/project_map.py find "$@"
+    ;;
+  tools)
+    shift
+    exec "$MATRIX_PYTHON" scripts/project_map.py tools "$@"
+    ;;
+  context)
+    shift
+    exec "$MATRIX_PYTHON" src/problem_context.py "$@"
+    ;;
+  doctor)
+    shift
+    exec "$MATRIX_PYTHON" scripts/project_doctor.py "$@"
+    ;;
+  code)
+    shift
+    if [[ $# -eq 0 ]]; then set -- stats; fi
+    case "${1:-stats}" in
+      build|search|stats|duplicates) exec "$MATRIX_PYTHON" scripts/code_catalog.py "$@" ;;
+      *) exec "$MATRIX_PYTHON" scripts/code_catalog.py search "$@" ;;
+    esac
+    ;;
+  workbench)
+    shift
+    exec "$MATRIX_PYTHON" scripts/workbench.py "$@"
+    ;;
+  atlas)
+    shift
+    exec "$MATRIX_PYTHON" scripts/atlas_cli.py "${@:-status}"
+    ;;
+  catalog)
+    shift
+    exec "$MATRIX_PYTHON" scripts/scientific_catalog_current.py "$@"
+    ;;
+  data)
+    shift
+    exec "$MATRIX_PYTHON" scripts/measurement_cli.py "${@:-status}"
+    ;;
+  lab)
+    shift
+    exec "$MATRIX_PYTHON" src/lab_evidence.py "${@:-status}"
+    ;;
+  refresh)
+    shift
+    if [[ $# -gt 1 ]]; then
+      echo 'Uso: ./matrix refresh [all|atlas|catalog|code]' >&2; exit 2
+    fi
+    MATRIX_REFRESH_SCOPE="${1:-all}"
+    case "$MATRIX_REFRESH_SCOPE" in
+      all|atlas|catalog|code) ;;
+      *) echo 'Uso: ./matrix refresh [all|atlas|catalog|code]' >&2; exit 2 ;;
+    esac
+    if [[ "$MATRIX_REFRESH_SCOPE" == all || "$MATRIX_REFRESH_SCOPE" == atlas ]]; then
+      if [[ -f config/brain_atlas_v1.json ]]; then
+        "$MATRIX_PYTHON" scripts/atlas_cli.py refresh
+      fi
+    fi
+    if [[ "$MATRIX_REFRESH_SCOPE" == all || "$MATRIX_REFRESH_SCOPE" == catalog ]]; then
+      "$MATRIX_PYTHON" scripts/scientific_catalog_current.py build
+    fi
+    if [[ "$MATRIX_REFRESH_SCOPE" == all || "$MATRIX_REFRESH_SCOPE" == code ]]; then
+      "$MATRIX_PYTHON" scripts/code_catalog.py build
+    fi
+    ;;
+  legacy-status)
+    exec "$MATRIX_PYTHON" -B laboratorio.py estado
+    ;;
+  check)
+    shift
+    MATRIX_CHECK_RECEIPT=()
+    if [[ $# -eq 0 ]]; then MATRIX_CHECK_RECEIPT=(-p operational_check_report); fi
+    if [[ $# -eq 0 || ( "$1" == -* && "$1" != --all ) ]]; then
+      set -- tests/test_lab_evidence.py tests/test_bilateral_recording.py tests/test_pfg_return_probe.py tests/test_active_cable_probe.py tests/test_active_point_donor.py tests/test_spatial_temporal_closure.py tests/test_spatial_event_precision.py tests/test_spatial_event_probe.py tests/test_spatial_conductance_probe.py tests/test_dependency_readiness.py tests/test_network_dependency_audit.py tests/test_native_conductance_probe.py tests/test_native_transfer_audit.py tests/test_native_bilateral_input.py tests/test_native_sensory_prefix.py tests/test_native_input_dynamics.py tests/test_measurement_store.py tests/test_native_relaxation.py tests/test_code_catalog.py tests/test_problem_context.py tests/test_operational_check_report.py tests/test_decision_cycles.py tests/test_project_doctor.py tests/test_source_dependencies.py tests/test_scientific_reuse.py tests/test_preparation_diagnostic.py \
+        tests/test_brain_atlas.py tests/test_brain_atlas_diagnostic.py tests/test_workbench_science.py tests/test_workbench_adapters.py \
+        tests/test_workbench_runtime.py tests/test_workbench_tasks.py tests/test_signal_contrast_preflight.py tests/test_pn_frontier_trial.py tests/test_pn_frontier_readback.py tests/test_dng_context_capacity.py \
+        tests/test_workbench_state_inputs.py tests/test_workbench_regions.py \
+        tests/test_workbench_morphology.py tests/test_workbench_soma_reference.py \
+        tests/test_workbench_dna02_ports.py tests/test_dna02_port_robustness.py tests/test_dna02_robustness_refinement.py \
+        tests/test_dna02_family_capture.py tests/test_dna02_family_observer.py tests/test_temporal_resolution_audit.py tests/test_heading_observation.py tests/test_matched_source_probe.py tests/test_population_direction_observer.py tests/test_temporal_population_probe.py tests/test_distributed_context_audit.py tests/test_receiver_context_audit.py tests/test_afferent_observation.py tests/test_arrival_replacement.py tests/test_lal_arrival_summary.py tests/test_brief_orn_probe.py tests/test_paired_synapse_readback.py tests/test_paired_synapse_comparison.py tests/test_pn_feedback_control.py tests/test_release_uncertainty.py tests/test_registered_motor_readback.py tests/test_differentiable_tool_registry.py \
+        tests/test_native_reader_observer.py tests/test_native_input_attribution.py tests/test_native_population_audit.py tests/test_native_normalization_probe.py tests/test_native_reference_network.py tests/test_native_preparation_experiment.py tests/test_native_preparation_readback.py tests/test_project_navigation.py "$@"
+    elif [[ "$1" == --all ]]; then
+      shift
+      set -- tests "$@"
+    fi
+    export PYTHONPATH="$MATRIX_ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+    export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+    exec "$MATRIX_PYTHON" -m pytest -q "${MATRIX_CHECK_RECEIPT[@]}" "$@"
+    ;;
+  physiology)
+    shift
+    exec "$MATRIX_PYTHON" scripts/generate_physiology.py "$@"
+    ;;
+  runtime|legacy-runtime)
+    shift
+    echo 'Referencia histórica female138639; no valida el CNS223 vigente. Para sus rutas y contratos: ./matrix doctor' >&2
+    exec "$MATRIX_PYTHON" scripts/check_runtime.py "$@"
+    ;;
+  integrated|legacy-integrated)
+    shift
+    echo 'Referencia histórica female138639; no valida el organismo CNS223 vigente. Para sus rutas y contratos: ./matrix doctor' >&2
+    exec "$MATRIX_PYTHON" scripts/check_integrated_clock.py "$@"
+    ;;
+  *)
+    echo "Uso: ./matrix [status|doctor [--save --details]|map [carpeta]|find tema|context consulta|code consulta|workbench operación|lab [find|show|close|refresh|status|cell|serve]|atlas [diagnose|status|refresh|serve]|tools [tema]|data [status|build|query SQL]|catalog operación|refresh|legacy-status|check|runtime|integrated|physiology]"
+    exit 2
+    ;;
+esac
