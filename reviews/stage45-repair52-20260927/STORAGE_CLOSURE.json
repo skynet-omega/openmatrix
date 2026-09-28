@@ -1,0 +1,13 @@
+{
+  "campaign_bytes": 6155297029,
+  "exchange_bytes": 1855262065,
+  "publication_blob_disk_upper_bound_bytes": 131635562,
+  "remaining_closure_and_root_metadata_reserve_bytes": 2097152,
+  "total_conservative_bytes": 8144291808,
+  "original_cap_bytes": 8589934592,
+  "removed_only_verified_transport_duplicates": true,
+  "scientific_originals_retained": true,
+  "full_zip_sha256": "748b5156cae27eff658181be2f94b29d2b1068a6a4419deb266a820817895872",
+  "compact_zip_sha256": "f93f3020a13045a2f766e251e32a1b44e3811f9bbdd15791c57782972738d216",
+  "scope": "Logical file bytes for new campaign/exchange evidence plus Git blob disk upper bound and final metadata reserve; does not reclassify hardlinks to reduce accounting"
+}

@@ -1,0 +1,76 @@
+{
+  "repository": "skynet-omega/openmatrix",
+  "parent": "e4853f731325761f4bccc4b3f7858980701bba28",
+  "prefix": "reviews/stage45-repair52-20260927",
+  "files": {
+    "FULL_CAPSULE.json": {
+      "bytes": 803,
+      "sha256": "f3b8d3327fb2b5f9c09fe3e5fc67f6628273bb636611bd732903f9df2c2a85c2"
+    },
+    "ARCHIVE_APPEND_PLAN.json": {
+      "bytes": 473,
+      "sha256": "cd0524f30ded121078d672f8390ef52bc5720cee066d29d25df550eeb8d54d90"
+    },
+    "ARCHIVE_APPEND_EXECUTION.json": {
+      "bytes": 108,
+      "sha256": "64e28972448c7426667d78f2018fdb545d52f1a36d2346331c5fb7ef8b3b51ce"
+    },
+    "resume_full52.py": {
+      "bytes": 3815,
+      "sha256": "b4543c79e1c2a278765add3d50282333aeb85d872e2dc172b8d947558e32133d"
+    },
+    "resume_builder52.py": {
+      "bytes": 9118,
+      "sha256": "62fa078fe69879caa32a5109098f43f634b1307c0590454cb759cc28d8c77d2b"
+    },
+    "CLEANUP_LOCAL.json": {
+      "bytes": 578,
+      "sha256": "cfc189030c28ea37d0caf43d3b8a8be510e36570809dbe604c170b50897125ba"
+    },
+    "CLEANUP_REMOTE.json": {
+      "bytes": 861,
+      "sha256": "7de3a1073d87f87237583eaee2ab9ea2421919fc6336ecf997707f641f2442f1"
+    },
+    "REMOTE_DELIVERY.json": {
+      "bytes": 9808,
+      "sha256": "70ae96640aef2c6d553bda7445285a438704350572c1dc61e5462a8929b8b6ff"
+    },
+    "PUBLICATION_EXECUTION.json": {
+      "bytes": 130,
+      "sha256": "7e38f2fc0592b4bbdee9447b528e2e302c18cc83e136919e7012d748e42a3d8f"
+    },
+    "COMPRESION_Y_ENTREGA.md": {
+      "bytes": 3387,
+      "sha256": "785a9614cbb3013c7dc08a43e76344c1dd4999034342726358d8d51319204039"
+    },
+    "CIERRE.md": {
+      "bytes": 4118,
+      "sha256": "5e5eaef53751c7b7ce55c852e34e4f71595a5fedfb10c5884ebc2bf70d43d555"
+    },
+    "STORAGE_CLOSURE.json": {
+      "bytes": 719,
+      "sha256": "141f4f32969826a69492f6f67b8b441ef41f3496b56a7a49704f132d7545cfa9"
+    },
+    "CPU_CLOSURE.json": {
+      "bytes": 605,
+      "sha256": "01475ddcf149c8f7d0a6ea98efd69bd816921d716d5f0216e5fdb8c99c24947d"
+    },
+    "FULL_EXTRACTION_CHECK.json": {
+      "bytes": 415,
+      "sha256": "9d65b0663d3dd9ac3e99b87a7691905eb535c434f23ca6ab33eaa66b7d7c0573"
+    },
+    "publish_closure52.py": {
+      "bytes": 4649,
+      "sha256": "fce1e5956c48e6047b928f0f04e46ddf425508940bb4a2c4d5939e83bb483f45"
+    },
+    "cierre/RECOMPUTE_LOCAL.json": {
+      "bytes": 6388,
+      "sha256": "a42099c271c5a6871ee9152011d479349c8f5d6c33c6b23558f31452150f6dbb"
+    },
+    "cierre/RECOMPUTE_REMOTO.json": {
+      "bytes": 6389,
+      "sha256": "a50f5b40705faccb8e54dc6ad4a87fbf880c1fd2348a842bac43d84edaa1c2b7"
+    }
+  },
+  "science_archive_unchanged": "f93f3020a13045a2f766e251e32a1b44e3811f9bbdd15791c57782972738d216"
+}
