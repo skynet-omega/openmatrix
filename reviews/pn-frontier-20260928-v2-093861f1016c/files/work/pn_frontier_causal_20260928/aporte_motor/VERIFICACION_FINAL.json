@@ -1,0 +1,548 @@
+{
+  "schema": "motor_pn_independent_final_review_v1",
+  "method": "Independent NumPy reconstruction; no project verifier or simulator imported",
+  "window_ms": [
+    51,
+    89
+  ],
+  "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+  "trial_run_sha256": "6cb42b6cf5067162430f8bb507dd6dfa5fd7bc638a864a9e09bff0c72d60fd02",
+  "readback_run_sha256": "7b67a77e23504cfd594bfc6914817b7925d50cd7e13c56caeadd2732024a2e82",
+  "checks": {
+    "frozen_contract": true,
+    "frozen_trial_source": true,
+    "frozen_recipe": true,
+    "frozen_source_bundle": true,
+    "binding_support": true,
+    "binding_reference_L": true,
+    "binding_reference_R": true,
+    "binding_tape_L": true,
+    "binding_tape_R": true,
+    "all_arm_checks": true,
+    "all_forward_zero": true,
+    "material_predicate": true,
+    "same_common_templates": true
+  },
+  "arms": {
+    "live_L": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "all_live_trace_exact": true,
+        "all_live_PN_exact": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 65.0403278,
+      "wall_s": 58.44822463300079,
+      "new_CNS_ms": 12,
+      "mean_yaw_window_deg_s": null,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.6371735984505835,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.0,
+      "maximum_native_before_vs_written_difference": 0.0,
+      "evaluations": 4992
+    },
+    "live_R": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "all_live_trace_exact": true,
+        "all_live_PN_exact": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 64.6994485,
+      "wall_s": 57.46473264996894,
+      "new_CNS_ms": 12,
+      "mean_yaw_window_deg_s": null,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.637173618161053,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.0,
+      "maximum_native_before_vs_written_difference": 0.0,
+      "evaluations": 4992
+    },
+    "self_L": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "self_qualified": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 195.9764772,
+      "wall_s": 169.93129995296476,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.828189437662867,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.8807941676042024,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.0,
+      "maximum_native_before_vs_written_difference": 0.0005343034863471985,
+      "evaluations": 38596,
+      "maximum_DNb_window_error": 7.243797106593064e-07,
+      "maximum_yaw_window_error_deg_s": 0.0006059153639101922,
+      "mean_yaw_window_bias_deg_s": 0.0004643832861044021,
+      "maximum_yaw_whole_error_deg_s": 0.0006059153639101922
+    },
+    "self_R": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "self_qualified": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 196.29375439999998,
+      "wall_s": 171.33001336100278,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.791422733707873,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.83245634555442,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.0,
+      "maximum_native_before_vs_written_difference": 0.0006197839975357056,
+      "evaluations": 38576,
+      "maximum_DNb_window_error": 1.2283512877964142e-06,
+      "maximum_yaw_window_error_deg_s": 0.0010576905855970153,
+      "mean_yaw_window_bias_deg_s": 0.00101041344479907,
+      "maximum_yaw_whole_error_deg_s": 0.0010576905855970153
+    },
+    "common_L": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 197.3257251,
+      "wall_s": 175.09341425501043,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.806684375677493,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.8524841171346775,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.00020184321929139423,
+      "maximum_native_before_vs_written_difference": 0.007763087749481201,
+      "evaluations": 38500
+    },
+    "common_R": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 197.1318438,
+      "wall_s": 174.20077685598517,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.8130445581215375,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.860690998730188,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 0.00020176305482108443,
+      "maximum_native_before_vs_written_difference": 0.007744014263153076,
+      "evaluations": 38708
+    },
+    "dose_L": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "quantity_match": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 196.6455195,
+      "wall_s": 176.3045367419836,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.8062301777124317,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.85215098504311,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 1.3372007012178732e-08,
+      "maximum_native_before_vs_written_difference": 0.007602214813232422,
+      "evaluations": 38468
+    },
+    "dose_R": {
+      "checks": {
+        "manifest_raw_paths": true,
+        "complete_bound_acquisition": true,
+        "support_unique": true,
+        "finite_trace": true,
+        "caps_valid": true,
+        "same_initial_release": true,
+        "same_caps": true,
+        "clocks": true,
+        "baseline": true,
+        "DN_identity": true,
+        "causal_phase": true,
+        "yaw_decoder_exact": true,
+        "forward_decoder_exact": true,
+        "template_exact": true,
+        "held_in_domain": true,
+        "witness_keys": true,
+        "witness_consistency": true,
+        "coverage": true,
+        "actual_consumption": true,
+        "quantity_match": true,
+        "receipt_gate": true
+      },
+      "CPU_s": 197.4453412,
+      "wall_s": 175.82166798698017,
+      "new_CNS_ms": 89,
+      "mean_yaw_window_deg_s": 2.8183102215300653,
+      "minimum_yaw_whole_deg_s": 2.589291763114093,
+      "maximum_yaw_whole_deg_s": 2.8680052338446105,
+      "maximum_forward_whole_mm_s": 0.0,
+      "native_total_relative_error_max": 3.610684592286977e-09,
+      "maximum_native_before_vs_written_difference": 0.007676899433135986,
+      "evaluations": 38728
+    }
+  },
+  "shifts_deg_s": {
+    "common": {
+      "L": -0.021505061985374052,
+      "R": 0.02162182441366456
+    },
+    "dose": {
+      "L": -0.02195925995043524,
+      "R": 0.026887487822192302
+    }
+  },
+  "half_L_minus_R_deg_s": {
+    "self": 0.018383351977496964,
+    "common": -0.003180091222022341,
+    "dose": -0.006040021908816806
+  },
+  "half_contrast_reduction_deg_s": {
+    "common": 0.021563443199519305,
+    "dose": 0.02442337388631377
+  },
+  "author_comparison": {
+    "maximum_shift_disagreement_deg_s": 0.0,
+    "same_material_result": true
+  },
+  "original_CNS_ms": 558,
+  "original_acquisition_CPU_s": 1310.5584375,
+  "original_processes": 8,
+  "review_new_CNS_ms": 0,
+  "not_revalidated": [
+    "Full restored state beyond published initial release",
+    "Unobserved RHS vectors between extrema",
+    "All specialized PN outputs",
+    "Physiological or behavioral equivalence",
+    "Statistical generalization"
+  ],
+  "CPU_s": 0.3661659,
+  "wall_s": 0.3682130730012432,
+  "review_method_correction": {
+    "reason": "Initial independent vectorized weighted sums changed FP64 reduction order in dose_R. Reconstructing the frozen dot/reduction order gives identical FP32 stimuli; no change to model, source, contract, tolerances or data. Initial two false checks referred to the reviewer arithmetic, not the trial.",
+    "arms": {
+      "dose_L": {
+        "declared_reduction_order_exact": true,
+        "alternative_reduction_mismatches": 0,
+        "alternative_reduction_max_abs": 0.0
+      },
+      "dose_R": {
+        "declared_reduction_order_exact": true,
+        "alternative_reduction_mismatches": 74,
+        "alternative_reduction_max_abs": 6.661338147750939e-16
+      }
+    }
+  },
+  "DNg_addendum": {
+    "live_L": {
+      "recorded_trials": 1246,
+      "RHS_recorded_including_predictor_and_rejects": 4984,
+      "committed_accepted_trials": 775,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1424.056396484375,
+        -1335.611083984375
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "live_R": {
+      "recorded_trials": 1246,
+      "RHS_recorded_including_predictor_and_rejects": 4984,
+      "committed_accepted_trials": 775,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1424.056396484375,
+        -1335.611083984375
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "self_L": {
+      "recorded_trials": 9647,
+      "RHS_recorded_including_predictor_and_rejects": 38588,
+      "committed_accepted_trials": 5992,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.255859375,
+        -1241.9375
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "self_R": {
+      "recorded_trials": 9642,
+      "RHS_recorded_including_predictor_and_rejects": 38568,
+      "committed_accepted_trials": 5994,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.2369384765625,
+        -1241.916015625
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "common_L": {
+      "recorded_trials": 9623,
+      "RHS_recorded_including_predictor_and_rejects": 38492,
+      "committed_accepted_trials": 5986,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.24658203125,
+        -1241.927001953125
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "common_R": {
+      "recorded_trials": 9675,
+      "RHS_recorded_including_predictor_and_rejects": 38700,
+      "committed_accepted_trials": 6008,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.246337890625,
+        -1241.926513671875
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "dose_L": {
+      "recorded_trials": 9615,
+      "RHS_recorded_including_predictor_and_rejects": 38460,
+      "committed_accepted_trials": 5980,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.245361328125,
+        -1241.92529296875
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    },
+    "dose_R": {
+      "recorded_trials": 9680,
+      "RHS_recorded_including_predictor_and_rejects": 38720,
+      "committed_accepted_trials": 6008,
+      "ids": [
+        10045,
+        10056
+      ],
+      "margin_max_all_RHS": [
+        -1335.2459716796875,
+        -1241.92626953125
+      ],
+      "margin_min_all_RHS": [
+        -1489.572265625,
+        -1399.468017578125
+      ],
+      "final_target_all_zero": true,
+      "final_target_committed_accepted_all_zero": true,
+      "state_all_zero": false,
+      "drive_all_zero": true,
+      "scope": "Envelope only; no arithmetic average or paired trial-index comparison. Adaptive calls and predictor/rejected trials are not independent time samples."
+    }
+  },
+  "additional_CPU_s": 0.2053311,
+  "instrumented_review_CPU_s_total": 0.7708122,
+  "unmetered_work": "Short file listing/reads, Python metadata inspection and prose; no simulator import, new CNS, GPU or test suite."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "arm": "live_L",
+  "new_CNS_ms": 12,
+  "attempted_CNS_ms": 12,
+  "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+  "stage_admission": null,
+  "gate_pass": true,
+  "initial_exact": true,
+  "observer": {
+    "rows": [
+      36,
+      46
+    ],
+    "epochs": 192,
+    "trials": 1246,
+    "accepted": 1246,
+    "rejected": 0,
+    "scheduler_changed": false,
+    "capacity_trials_per_epoch": 10000,
+    "recorded_fields": [
+      "state",
+      "net",
+      "positive_aux",
+      "negative_aux",
+      "drive",
+      "theta",
+      "gain",
+      "base_target",
+      "base_rate",
+      "tau",
+      "margin",
+      "final_target",
+      "final_rate",
+      "derivative",
+      "evaluation_time_s",
+      "stage_fraction"
+    ],
+    "acceptance_checked_against_counts_and_committed_state": true
+  },
+  "CPU_s": 65.0403278,
+  "wall_s": 58.44822463300079
+}

@@ -1,0 +1,19 @@
+# Ronda 56 — persistencia, transferencia y mando
+
+28-09-2026. Petición: continuar autónomamente los pendientes de 55, investigar causas y contrastar alternativas para alcanzar las etapas 4/5. Exposición previa: resultados 40–55 y discusiones de ambos ChatGPT/Motor. Esta propuesta propia precede a las nuevas respuestas de los asesores; no es una confirmación ciega.
+
+## Tres explicaciones rivales y discriminadores
+
+- **A, persistencia de la salida PN.** En 55 sólo se intercambió una vez actividad/filtro; hubo efecto sobre giro, sin avance. Una intervención terminal sostenida con señales realmente registradas pregunta si la duración y no sólo el estado inicial explica el bloqueo. Antes de construirla: definir exactamente consumidores, relojes y propiedad de cada receptor; un control por la misma vía debe reproducir el estado original. Falsador acotado: diferencia de entrada sostenida y consumida, sin respuesta material recíproca en los destinos registrados. No equivale a ausencia de todas las rutas ni a navegación.
+- **B, transferencia temporal y unidades ORN→PN.** El puente actual ya tiene depresión rápida/lenta. Puede estar operando fuera del régimen que permite identificar sus parámetros, o introducir una compresión determinada por su conversión de tasa y ganancia. Reconstruir entradas/estados reales y protocolo fisiológico; comparar cinética actual con referencia estática de primera respuesta/basal emparejados y un mecanismo rival restringido por evidencia. Falsador: una explicación no predice historia/intervalos que no se usaron para ajustarla, o sólo funciona elevando entrada total. Prioridad de preparación, sin afirmar que falta depresión.
+- **C, excitabilidad y correspondencia del mando.** La información puede llegar a descendentes mientras el balance excitatorio/inhibitorio, los umbrales o la selección DNg100→avance impiden convertirla en locomoción. Reconstruir términos y procedencia biológica de lector/identidades; separar un término realmente consumido de un escáner retrospectivo. Falsador: la explicación contradice los términos registrados o la intervención/identidad biológica pertinente. No elegir otras neuronas por producir un resultado favorable ni ajustar pesos uno a uno.
+
+Los instrumentos externos son diagnósticos del evaluador, no memoria/controlador operativo. Cuerpo actual y lectores conservados en las comparaciones; VNC acotado y patas posteriores. JO de 55 queda como control pertinente del acoplamiento corporal. No promover I por movimiento basal ni usar replay idéntico como prueba de navegación.
+
+## Presupuesto previo
+
+Preparación/reconstrucción: 300 s CPU propios + 180 s CPU Motor, 4 GiB RAM por análisis, 1 GiB de evidencia nueva, máximo dos horas de implementación/consulta activa. Fuentes primarias pertinentes: máximo 12 documentos/páginas nuevos, 50 MiB de descarga; reutilizar primero biblioteca e índices. Cero entrenamiento de comparadores aprendidos.
+
+Máximo dos instrumentos/prototipos completos esta ronda. Techo CNS previo, sólo si la preparación habilita una intervención interpretable: 1200 ms intentados contando fallos y cualificaciones, 6000 s CPU trabajadores, 5000 s de cola, 24 GiB RAM y 14 GiB VRAM; hasta ocho brazos científicos y seis cualificaciones cortas, sin elegir resultados favorables ni ampliar al fallar. Coste de referencia: 55, 703 ms intentados / 2605 s CPU / 2516 s de cola. Un contrato posterior puede reducir este techo y debe fijar métricas/controles antes de ejecutar.
+
+Cierre/verificación/archivo: 180 s CPU propios + 30 s CPU revisión Motor, 30 min de operaciones. Disco agregado nuevo, incluidos estados y entrega: 10 GiB máximo. Registrar por separado CPU medida y tiempos no instrumentados; preservar fallos y exposición. No hay simulación lanzada al crear este documento. No se promete superar las etapas; la admisión depende de orientación y recuperación bajo controles, no de actividad neural o de una intervención impuesta.

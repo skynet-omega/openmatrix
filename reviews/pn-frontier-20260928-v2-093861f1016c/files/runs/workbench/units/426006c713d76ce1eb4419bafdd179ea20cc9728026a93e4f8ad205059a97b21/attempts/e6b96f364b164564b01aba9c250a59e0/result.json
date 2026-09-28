@@ -1,0 +1,49 @@
+{
+  "metrics": {
+    "new_CNS_ms": 89,
+    "gate_pass": 1
+  },
+  "assessment": {
+    "status": "COMPLETE",
+    "arm": "dose_R",
+    "new_CNS_ms": 89,
+    "attempted_CNS_ms": 89,
+    "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+    "stage_admission": null,
+    "gate_pass": true,
+    "initial_exact": true,
+    "observer": {
+      "rows": [
+        36,
+        46
+      ],
+      "epochs": 1424,
+      "trials": 9680,
+      "accepted": 9674,
+      "rejected": 6,
+      "scheduler_changed": false,
+      "capacity_trials_per_epoch": 10000,
+      "recorded_fields": [
+        "state",
+        "net",
+        "positive_aux",
+        "negative_aux",
+        "drive",
+        "theta",
+        "gain",
+        "base_target",
+        "base_rate",
+        "tau",
+        "margin",
+        "final_target",
+        "final_rate",
+        "derivative",
+        "evaluation_time_s",
+        "stage_fraction"
+      ],
+      "acceptance_checked_against_counts_and_committed_state": true
+    },
+    "CPU_s": 197.4453412,
+    "wall_s": 175.82166798698017
+  }
+}

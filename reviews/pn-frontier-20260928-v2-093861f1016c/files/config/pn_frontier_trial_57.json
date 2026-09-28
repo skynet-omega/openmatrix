@@ -1,0 +1,81 @@
+{
+  "schema": "matrix_pn_frontier_trial_v1",
+  "checkpoint": "campanas/etapa45_composicion_20260927_48/sham/final_state",
+  "arms": {
+    "live_L": {
+      "mode": "live",
+      "side": "L",
+      "duration_ms": 12
+    },
+    "live_R": {
+      "mode": "live",
+      "side": "R",
+      "duration_ms": 12
+    },
+    "self_L": {
+      "mode": "self",
+      "side": "L",
+      "duration_ms": 89
+    },
+    "self_R": {
+      "mode": "self",
+      "side": "R",
+      "duration_ms": 89
+    },
+    "common_L": {
+      "mode": "common",
+      "side": "L",
+      "duration_ms": 89
+    },
+    "common_R": {
+      "mode": "common",
+      "side": "R",
+      "duration_ms": 89
+    },
+    "dose_L": {
+      "mode": "dose",
+      "side": "L",
+      "duration_ms": 89
+    },
+    "dose_R": {
+      "mode": "dose",
+      "side": "R",
+      "duration_ms": 89
+    }
+  },
+  "maximum_arm_ms": 89,
+  "prefix_ms": 10,
+  "window_ms": [
+    51,
+    89
+  ],
+  "per_arm_CPU_s": 300,
+  "maximum_CNS_ms": 600,
+  "planned_CNS_ms": 558,
+  "maximum_CPU_s": 2400,
+  "maximum_wall_s": 3600,
+  "RAM_bytes": 25769803776,
+  "VRAM_bytes": 15032385536,
+  "maximum_disk_bytes": 2147483648,
+  "baseline_max_DNb_error_q": 1.6e-06,
+  "baseline_max_yaw_error_deg_s": 0.002,
+  "minimum_each_shift_deg_s": 0.005,
+  "minimum_mediated_half_contrast_deg_s": 0.01,
+  "bindings": {
+    "source_bundle": "4f2789636d814eedeb4d3768cfdf908bf8e0e73ebff48aa1cb4f90982c2e9599",
+    "loader": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+    "observer": "68c7ae66864944cb7756f7780e03f4b895751640de8756f0a25222d713959874",
+    "spatial_owner": "2cfa19d7bd5cfc14379e44d876f6da9b36efa1192261807df694286da29f9059",
+    "air_owner": "325ca64a22a080ccd52ec971c2ad6079138c8995c28974e80e0b396e0d72f1e1",
+    "PN_observer": "b41932f5632d0c8b5e119ba9618f1ad7571611f9a4f6cc7ec5ef9af851d08b3f",
+    "writer_source": "c6830189fdb7100df83b178f0ed8c7a5bad90a93c5037332b524b7eefab5b789",
+    "support": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709",
+    "tape_L": "3e18c0a809a4e98b84b0cf979b57f0fb3ce0368c9a93540ffcd2b13bd136f27e",
+    "reference_L": "73fb6aaf1a3ccc0bf3d30b1f8415ae68ad94ad03507971034d30c8bcec365028",
+    "tape_R": "39abb91d42c188c9e5038ddb081d7dab4c63ff65c3749bc2969ab9c276b7837d",
+    "reference_R": "77fbda127ee350f40cb8c1e2fec86809a4c4439f2036771ed2d238d518792327"
+  },
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "fidelity": "live identity equals every retained57 trace field and PN consumption summary for12ms. Selfhold89ms must remain within10percent of prior material DN/yaw thresholds pointwise in51..89ms and preserve forward exactly. Stop all causal arms after any gate failure; no tolerance or timestep adjustment.",
+  "dose_control": "m=(pL+pR)/2. To match caps*q total of each self: remove proportional m when lower; add proportional (1-m) headroom when higher. Preserve all686 coordinates and0..1 domain, no clip. This explicit redistribution is a control, not a measured physiological stimulus."
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "matrix_decision_contract_v1",
+  "stage": "4",
+  "question": "\u00bfAporta materialmente el contraste de PN gen\u00e9rica al giro bajo un instrumento temporal cualificado y control de cantidad?",
+  "query": "PN frontera componente lateral orientaci\u00f3n",
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "change": "Retrospective explicit-array readback of the already completed frozen558ms trial. All scientific thresholds unchanged; outputs exposed; no confirmation/generalization claim.",
+  "recipe": "pn-frontier-readback",
+  "maximum_runs": 1,
+  "maximum_seconds": 90,
+  "evidence_mode": "retrospective",
+  "sources": [
+    {
+      "path": "work/pn_frontier_causal_20260928/PLAN.md",
+      "reason": "Own alternatives, budget and plateau criteria"
+    },
+    {
+      "path": "work/pn_frontier_causal_20260928/aporte_motor/REVISION.md",
+      "reason": "Independent domain rejection and generic/specialized frontier limits"
+    },
+    {
+      "path": "work/pn_frontier_causal_20260928/ASTRA_PROPUESTA.json",
+      "reason": "External convex1ms hold proposal, conceptual review only"
+    },
+    {
+      "path": "work/pn_frontier_causal_20260928/FROZEN_TRIAL.json",
+      "reason": "Pre-acquisition scientific criteria identity; readback decision is retrospective."
+    }
+  ],
+  "validity": [
+    {
+      "step": "raw",
+      "artifact": "assessment.json",
+      "field": [
+        "instrument_valid"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "success": [
+    {
+      "step": "raw",
+      "artifact": "assessment.json",
+      "field": [
+        "material_partial_effect"
+      ],
+      "op": "eq",
+      "value": true
+    }
+  ],
+  "branches": {
+    "SUPPORTED": "Retain partial model-mediated effect only. Revisit natural orientation and initiation; new preparations needed for generalization. No stage promotion.",
+    "NEGATIVE": "Preserve bounded negative after valid instrumentation. Move to a distinct transfer/context discriminator; no sweep of gains, templates or hold intervals.",
+    "INCONCLUSIVE": "Qualification failed. Stop causal arms; preserve actual consumption and failures. Do not weaken criteria or claim absence of PN mediation."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "spatial_ORN54_v1",
+  "source_side": "R",
+  "prefix_ms": 10,
+  "uniform_qualification": false,
+  "origin_k": 3000,
+  "source_mm": [
+    0.5819544389420304,
+    -0.9145116115778806
+  ],
+  "sigma_mm": 0.42502753263191306,
+  "geometry": {
+    "sources_mm": [
+      [
+        0.8941229545665057,
+        -0.12385085510042693
+      ],
+      [
+        0.5819544389420304,
+        -0.9145116115778806
+      ]
+    ],
+    "sigma_mm": 0.42502753263191306,
+    "separation_mm": 0.21251376631595653
+  },
+  "consumed_ms": 89,
+  "last_consumed_concentration": [
+    0.43684717773754145,
+    0.7243317303984917
+  ],
+  "mapping": "nominal_Hz=baseline+profile_increment*c[anatomical_side]; uncalibrated linear peripheral proxy",
+  "legacy_world_sensors_zero": true,
+  "source_bearing_not_sent_to_motor": true
+}

@@ -1,0 +1,12 @@
+{
+  "route": "matrix workbench run pn-frontier-trial",
+  "reason": "Decision-cycle schema limits sum of step deadlines to1800s; this frozen finite workflow has8max420s+90s=3450s. Do not change the common limit or scientific contract; run the same registered steps with3600s outer bound. Automatic validity/causal criteria remain in comparison step and gated inputs.",
+  "no_schema_limit_relaxed": true,
+  "previous_begin_rejected_before_CNS": true,
+  "doctor_ready": true,
+  "operational_tests": 769,
+  "recipe_frozen": "FROZEN_TRIAL.json",
+  "new_CNS_started": true,
+  "first_live_identity_qualified_ms": 12,
+  "first_receipt": "runs/workbench/units/3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54/attempts/259a11af15344b279e620bf9fb939ea3/assessment.json"
+}

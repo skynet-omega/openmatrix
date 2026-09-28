@@ -1,0 +1,32 @@
+{
+  "schema": "exact_clock_recurrence_overlay49_v1",
+  "anchor": "/home/daroch/AXIOMA_ASTRA/campanas/etapa45_navigation_wind_20260925_40/navigation_minus_filtered_wind_03/prepared_state",
+  "anchor_manifest_sha256": "af1eea807e43e01a504c0488c1be3d608727e0157ecc08cf2d1cc31d7c8ece9d",
+  "anchor_time": 44.486000000027154,
+  "anchor_steps": 1779440,
+  "dt": 2.5e-05,
+  "max_steps": 1907440,
+  "scope": "Only two loader predicates; prior lineages retain old check; no integration/time changes",
+  "overlay_path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_operands_20260927_49/aporte_motor/clock_guard49.py",
+  "overlay_sha256": "f028a5912ee3a4545327adf64fe8f3ab18ad09d67dac251ca29d179f445f7c88",
+  "methods": [
+    {
+      "class_name": "GuardedTibiaBody",
+      "method": "from_state",
+      "original_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/guarded_tibia_body.py",
+      "original_sha256": "701b22b577606d82deffceca7982204382714b5bbd15affa1bc6b3e4c61f75e7",
+      "replacement_ast_sha256": "b596211549d7714f3294560d4498881ef8101315400c8be24a890e62e024bccf",
+      "changed_predicates": 1,
+      "scientific_state_modified": false
+    },
+    {
+      "class_name": "RHTarsalBody",
+      "method": "from_state",
+      "original_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/rh_tarsal_body.py",
+      "original_sha256": "c810515dbd9a280b0160f987f7143f6ed170a9d9cdbe82970df4548a2ac0887c",
+      "replacement_ast_sha256": "0c3626dc3be3ca19dd355581cceb204434e6b1fe378113f9bee4aa3820983177",
+      "changed_predicates": 1,
+      "scientific_state_modified": false
+    }
+  ]
+}

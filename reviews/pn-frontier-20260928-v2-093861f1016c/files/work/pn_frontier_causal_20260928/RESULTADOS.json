@@ -1,0 +1,116 @@
+{
+  "schema": "matrix_pn_frontier_raw_readback_v1",
+  "raw_verified": true,
+  "instrument_valid": true,
+  "arms": {
+    "live_L": {
+      "qualified": true,
+      "CNS_ms": 12,
+      "CPU_s": 65.0403278,
+      "wall_s": 58.44822463300079
+    },
+    "live_R": {
+      "qualified": true,
+      "CNS_ms": 12,
+      "CPU_s": 64.6994485,
+      "wall_s": 57.46473264996894
+    },
+    "self_L": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 195.9764772,
+      "wall_s": 169.93129995296476,
+      "mean_yaw_deg_s": 2.828189437662867,
+      "mean_consumed_DNb_delta_q": 0.0025648190459408096,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "maximum_window_yaw_error_deg_s": 0.0006059153639104527,
+      "maximum_window_DNb_error_q": 7.243797106593064e-07,
+      "max_relative_total_caps_q_error": 0.0
+    },
+    "self_R": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 196.29375439999998,
+      "wall_s": 171.33001336100278,
+      "mean_yaw_deg_s": 2.791422733707873,
+      "mean_consumed_DNb_delta_q": 0.0025216444963025784,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "maximum_window_yaw_error_deg_s": 0.001057690585596904,
+      "maximum_window_DNb_error_q": 1.2283512877964142e-06,
+      "max_relative_total_caps_q_error": 0.0
+    },
+    "common_L": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 197.3257251,
+      "wall_s": 175.09341425501043,
+      "mean_yaw_deg_s": 2.806684375677493,
+      "mean_consumed_DNb_delta_q": 0.0025394980903157426,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "max_relative_total_caps_q_error": 0.00020184321929155318
+    },
+    "common_R": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 197.1318438,
+      "wall_s": 174.20077685598517,
+      "mean_yaw_deg_s": 2.8130445581215375,
+      "mean_consumed_DNb_delta_q": 0.0025469642337985097,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "max_relative_total_caps_q_error": 0.0002017630548210844
+    },
+    "dose_L": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 196.6455195,
+      "wall_s": 176.3045367419836,
+      "mean_yaw_deg_s": 2.8062301777124317,
+      "mean_consumed_DNb_delta_q": 0.0025389683377985616,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "max_relative_total_caps_q_error": 1.3372007012178727e-08
+    },
+    "dose_R": {
+      "qualified": true,
+      "CNS_ms": 89,
+      "CPU_s": 197.4453412,
+      "wall_s": 175.82166798698017,
+      "mean_yaw_deg_s": 2.8183102215300653,
+      "mean_consumed_DNb_delta_q": 0.002553164377851523,
+      "mean_forward_mm_s": 0.0,
+      "maximum_forward_mm_s": 0.0,
+      "max_relative_total_caps_q_error": 3.6106841120512364e-09
+    }
+  },
+  "shifts_deg_s": {
+    "common": {
+      "L": -0.021505061985374052,
+      "R": 0.02162182441366456
+    },
+    "dose": {
+      "L": -0.02195925995043524,
+      "R": 0.026887487822192302
+    }
+  },
+  "half_L_minus_R_yaw_deg_s": {
+    "self": 0.018383351977496964,
+    "common": -0.003180091222022341,
+    "dose": -0.006040021908816806
+  },
+  "mediated_half_contrast_deg_s": {
+    "common": 0.021563443199519305,
+    "dose": 0.02442337388631377
+  },
+  "material_partial_effect": true,
+  "new_CNS_ms": 0,
+  "original_CNS_ms": 558,
+  "original_CPU_s": 1310.5584375,
+  "stage4_admission": false,
+  "stage5_admission": false,
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "uncertainty": "Single exposed deterministic preparation. No sampling confidence interval or independent-organism claim."
+}

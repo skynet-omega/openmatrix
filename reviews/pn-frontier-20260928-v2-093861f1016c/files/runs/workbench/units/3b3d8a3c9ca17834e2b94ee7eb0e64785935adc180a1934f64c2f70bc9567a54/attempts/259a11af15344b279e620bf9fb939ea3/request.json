@@ -1,0 +1,22 @@
+{
+  "component": "pn_frontier_trial",
+  "inputs": {
+    "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_frontier_trial.py",
+    "contract": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/pn_frontier_trial_57.json",
+    "source_bundle": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+    "loader": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+    "observer": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/observe57.py",
+    "spatial_owner": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+    "air_owner": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+    "PN_observer": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+    "writer_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+    "support": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+    "tape_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+    "reference_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+    "tape_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+    "reference_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz"
+  },
+  "parameters": {
+    "arm": "live_L"
+  }
+}

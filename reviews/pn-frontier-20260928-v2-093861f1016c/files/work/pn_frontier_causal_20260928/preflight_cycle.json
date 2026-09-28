@@ -1,0 +1,85 @@
+{
+  "id": "1fd66cd3dc1e45a8a44a3330bf5a596a",
+  "state": {
+    "id": "1fd66cd3dc1e45a8a44a3330bf5a596a",
+    "status": "DECIDED",
+    "outcome": "NEGATIVE",
+    "finished": "2026-09-28T18:29:51.282692+00:00",
+    "decision_sha256": "1c11957936b94bdd14fd2a3578885cb8596f298f9f6a5142f4e52d58a67f3949",
+    "execution_sha256": "f5ff3ac48d0fba9c303b0b0aa5ed0af4556c71ede3bf5e013f83784441590fa2"
+  },
+  "question": "¿Permiten los registros57 una intervención PN común/lateral de replay exacto sin nueva adquisición?",
+  "scope": "Exposed57 PN generic output only. Domain/coverage qualification; no causal effect, stage admission, predicted trajectory, or physiology calibration.",
+  "plan": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/1fd66cd3dc1e45a8a44a3330bf5a596a/plan.json",
+  "context": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/1fd66cd3dc1e45a8a44a3330bf5a596a/context.json",
+  "brief": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/1fd66cd3dc1e45a8a44a3330bf5a596a/brief.json",
+  "decision": {
+    "outcome": "NEGATIVE",
+    "validity": [
+      {
+        "rule": {
+          "step": "preflight",
+          "artifact": "assessment.json",
+          "field": [
+            "input_integrity"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": true,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/0819ec7044ecdeb554659888c638ac39ceb74f26fa007a5cb47e297d27e1b880/attempts/2ca7491ee8d84ebcae3b3881e262bef3/assessment.json"
+      },
+      {
+        "rule": {
+          "step": "preflight",
+          "artifact": "assessment.json",
+          "field": [
+            "new_CNS_ms"
+          ],
+          "op": "eq",
+          "value": 0
+        },
+        "available": true,
+        "value": 0,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/0819ec7044ecdeb554659888c638ac39ceb74f26fa007a5cb47e297d27e1b880/attempts/2ca7491ee8d84ebcae3b3881e262bef3/assessment.json"
+      }
+    ],
+    "success": [
+      {
+        "rule": {
+          "step": "preflight",
+          "artifact": "assessment.json",
+          "field": [
+            "ready_for_exact_component_replay"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": false,
+        "passed": false,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/0819ec7044ecdeb554659888c638ac39ceb74f26fa007a5cb47e297d27e1b880/attempts/2ca7491ee8d84ebcae3b3881e262bef3/assessment.json"
+      }
+    ],
+    "measurement_status": "assessed_under_declared_rules",
+    "schema": "matrix_decision_outcome_v1",
+    "next_action": "Reject exact replay from these summaries. Consider one declared finite hold intervention with its own qualified reference or fresh complete acquisition; never interpolate and call it exact.",
+    "qualified_CNS": false,
+    "stage_admission": false,
+    "generated_from": "frozen declared criteria; not an independent evaluator",
+    "id": "1fd66cd3dc1e45a8a44a3330bf5a596a",
+    "completed": "2026-09-28T18:29:51.282692+00:00",
+    "question": "¿Permiten los registros57 una intervención PN común/lateral de replay exacto sin nueva adquisición?",
+    "stage": "4",
+    "scope": "Exposed57 PN generic output only. Domain/coverage qualification; no causal effect, stage admission, predicted trajectory, or physiology calibration.",
+    "change": "Compute domain violations and temporal coverage before a writer; reject summaries as a full RHS tape. No weights, thresholds or neural laws changed.",
+    "plan_sha256": "3668981b2c248e4a0ab0239f4142518f5405b4b7a13728b0a7de53b460675fc6",
+    "execution_sha256": "f5ff3ac48d0fba9c303b0b0aa5ed0af4556c71ede3bf5e013f83784441590fa2",
+    "reused_steps": [],
+    "qualification": "declared diagnostic criteria only; not automatic biological or CNS admission"
+  },
+  "cycle_reused": false
+}

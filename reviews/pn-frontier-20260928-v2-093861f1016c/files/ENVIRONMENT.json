@@ -1,0 +1,11 @@
+{
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "mode": "standalone CPU readback, no CNS imports or new neural life",
+  "code_files_from_frozen_bundle": 323,
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "portable_cli": "Enforces recorded one-thread environment before NumPy import."
+}

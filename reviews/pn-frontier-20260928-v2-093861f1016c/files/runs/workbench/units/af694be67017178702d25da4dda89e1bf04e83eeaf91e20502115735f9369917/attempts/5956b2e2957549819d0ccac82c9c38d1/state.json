@@ -1,0 +1,184 @@
+{
+  "schema": "matrix_execution_v1",
+  "key": "af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917",
+  "component": "pn_frontier_trial",
+  "status": "COMPLETE",
+  "started": "2026-09-28T18:43:51.135751+00:00",
+  "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917/attempts/5956b2e2957549819d0ccac82c9c38d1",
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "qualification": "evaluator_frontier_intervention_not_neural_policy",
+  "inputs": {
+    "source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_frontier_trial.py",
+      "bytes": 15813,
+      "sha256": "f8edd139991ea1c9e825c6a493cd90714670f51cf45dddda88982fca714ebe0e"
+    },
+    "contract": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/pn_frontier_trial_57.json",
+      "bytes": 3262,
+      "sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d"
+    },
+    "source_bundle": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+      "bytes": 62650,
+      "sha256": "4f2789636d814eedeb4d3768cfdf908bf8e0e73ebff48aa1cb4f90982c2e9599"
+    },
+    "loader": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+      "bytes": 10012,
+      "sha256": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81"
+    },
+    "observer": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/observe57.py",
+      "bytes": 1988,
+      "sha256": "68c7ae66864944cb7756f7780e03f4b895751640de8756f0a25222d713959874"
+    },
+    "spatial_owner": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+      "bytes": 5755,
+      "sha256": "2cfa19d7bd5cfc14379e44d876f6da9b36efa1192261807df694286da29f9059"
+    },
+    "air_owner": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+      "bytes": 4492,
+      "sha256": "325ca64a22a080ccd52ec971c2ad6079138c8995c28974e80e0b396e0d72f1e1"
+    },
+    "PN_observer": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+      "bytes": 1822,
+      "sha256": "b41932f5632d0c8b5e119ba9618f1ad7571611f9a4f6cc7ec5ef9af851d08b3f"
+    },
+    "writer_source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+      "bytes": 2781,
+      "sha256": "c6830189fdb7100df83b178f0ed8c7a5bad90a93c5037332b524b7eefab5b789"
+    },
+    "support": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+      "bytes": 8346,
+      "sha256": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709"
+    },
+    "tape_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+      "bytes": 2549819,
+      "sha256": "3e18c0a809a4e98b84b0cf979b57f0fb3ce0368c9a93540ffcd2b13bd136f27e"
+    },
+    "reference_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+      "bytes": 5132465,
+      "sha256": "73fb6aaf1a3ccc0bf3d30b1f8415ae68ad94ad03507971034d30c8bcec365028"
+    },
+    "tape_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+      "bytes": 2549056,
+      "sha256": "39abb91d42c188c9e5038ddb081d7dab4c63ff65c3749bc2969ab9c276b7837d"
+    },
+    "reference_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+      "bytes": 5127981,
+      "sha256": "77fbda127ee350f40cb8c1e2fec86809a4c4439f2036771ed2d238d518792327"
+    },
+    "gate_live_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54/attempts/259a11af15344b279e620bf9fb939ea3/assessment.json",
+      "bytes": 916,
+      "sha256": "5f93c87fa6a82bca7936c3414cfd71497df5e0567b9fffba5c24ed7aa000bc5c"
+    }
+  },
+  "metrics": {
+    "new_CNS_ms": 12,
+    "gate_pass": 1
+  },
+  "outputs": {
+    "EVENTS.json": {
+      "bytes": 216379,
+      "sha256": "73da3c3b915c93a80707e9b200e1b6fb159b97d04e3405cfdc8c226177a82a28"
+    },
+    "EXECUTED_SOURCES.json": {
+      "bytes": 43763,
+      "sha256": "2e9c075774eb0b8a60904c4f830e0fe57b71ebefd146f5767e4dbbef13b357ff"
+    },
+    "ORN_consumed.npz": {
+      "bytes": 26755,
+      "sha256": "648c4cd9f2a4251f4abca62712f842c22be60205d3e2dd40913a5999825c32fc"
+    },
+    "PN_before_writer.npz": {
+      "bytes": 78593,
+      "sha256": "0af79a6879ea9ab936d931eafb7a3458eef9c52cde509f24e615b7d7978e8da2"
+    },
+    "PN_consumed.npz": {
+      "bytes": 78593,
+      "sha256": "0af79a6879ea9ab936d931eafb7a3458eef9c52cde509f24e615b7d7978e8da2"
+    },
+    "REPORT.md": {
+      "bytes": 90,
+      "sha256": "b7f9a1bd771b60f33078883a7a068aaac49e8855ef0a028f463fc01d24ae247b"
+    },
+    "SPATIAL_OWNER_FINAL.json": {
+      "bytes": 807,
+      "sha256": "3eed627de700fc75cb5db1ab06e6b441c44f8e89a54d9f26552c05c52b6a0b2e"
+    },
+    "STATUS.json": {
+      "bytes": 207,
+      "sha256": "394260fd71069c4ab94f677917718e88194cdb93e9aa14e0a53b1b3c4a5c119d"
+    },
+    "assessment.json": {
+      "bytes": 916,
+      "sha256": "4832104f258acad313b3979eaf822a05eb99ecc996ca7cfda7f9ab82cffe64b4"
+    },
+    "capture/APPENDIX.json": {
+      "bytes": 312,
+      "sha256": "90405fda2c8c35a88fc5aa5fea3e20b479aa56f1fbbdbdba9355bc29f975e902"
+    },
+    "capture/CLOCK_OVERLAY.json": {
+      "bytes": 1590,
+      "sha256": "3b2c03bd760d33e01544a87e656c279cea8c50baa947a2e2afe63c8a5e80d47e"
+    },
+    "capture/INITIAL.json": {
+      "bytes": 1712,
+      "sha256": "d6ccb6bf47c468093a14fd594ed1b1ace814ff702dd136fd335ad0845cdee94b"
+    },
+    "capture/static_inputs/INTERVENCIONES.json": {
+      "bytes": 1154,
+      "sha256": "22654397281ad4c08ce374485e6cfa38cfd7cdef7045fa6448a6770fa83db257"
+    },
+    "capture/static_inputs/intervenciones_W.npz": {
+      "bytes": 34959,
+      "sha256": "6d8d339e29e5229ad0089d5512fe4e31b4d2bddf1a61a79611ed23b9e5240cfd"
+    },
+    "dng100_observed.npz": {
+      "bytes": 166770,
+      "sha256": "c9df7f5ea6e5174d9b27ebdaac4f1de3e5d4e1c87cac2fd2ee02c8fb4e31e662"
+    },
+    "neural_endpoints.npz": {
+      "bytes": 1067345,
+      "sha256": "68f1da357e6b9fe12f225aaf04d3d6335fe2ed1fa9fb4acf0f3a25880dba24e8"
+    },
+    "provenance.json": {
+      "bytes": 83631,
+      "sha256": "d33d0a9e0916712cba987cef12782c1e2fe49c30cb1813e958521885035c724b"
+    },
+    "request.json": {
+      "bytes": 1905,
+      "sha256": "78e9713fb1b7e8b8921073d24d2609ae96fc9bcbd3dcfccfe947179ad9d07d93"
+    },
+    "result.json": {
+      "bytes": 1081,
+      "sha256": "67edc0fb1afb7e1884ef82bb0939b8e445fc59d58e44ff9a7b28b2b2c3c3a4f6"
+    },
+    "stimulus.npz": {
+      "bytes": 1057212,
+      "sha256": "220bb0eea9d21e55c46e40e1ee263cb2ff0c1a378df386a5b6db01c1c6a91974"
+    },
+    "traces.npz": {
+      "bytes": 163631,
+      "sha256": "b437fcd299ca3806934f1aa643a52e5ca316f42c60da8cbd868b93bb4df7496f"
+    },
+    "wide_observation.npz": {
+      "bytes": 137284,
+      "sha256": "86880124780ec862dfaa6b0e618f1f8f96bc73e2c4234c6bca04eef8ed6c19c0"
+    }
+  },
+  "finished": "2026-09-28T18:44:55.235993+00:00",
+  "seconds": 58.82539138098946,
+  "tracking_run_id": "1860231fef8b4c4ba38ded30ce5dab4c"
+}

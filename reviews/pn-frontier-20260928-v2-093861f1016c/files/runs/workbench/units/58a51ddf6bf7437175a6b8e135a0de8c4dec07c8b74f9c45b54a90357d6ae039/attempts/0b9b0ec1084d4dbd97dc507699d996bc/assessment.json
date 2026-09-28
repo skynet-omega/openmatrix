@@ -1,0 +1,407 @@
+{
+  "schema": "matrix_pn_frontier_comparison_v1",
+  "instrument_valid": true,
+  "new_CNS_ms": 558,
+  "arms": {
+    "live_L": {
+      "status": "COMPLETE",
+      "arm": "live_L",
+      "new_CNS_ms": 12,
+      "attempted_CNS_ms": 12,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 192,
+        "trials": 1246,
+        "accepted": 1246,
+        "rejected": 0,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 65.0403278,
+      "wall_s": 58.44822463300079
+    },
+    "live_R": {
+      "status": "COMPLETE",
+      "arm": "live_R",
+      "new_CNS_ms": 12,
+      "attempted_CNS_ms": 12,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 192,
+        "trials": 1246,
+        "accepted": 1246,
+        "rejected": 0,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 64.6994485,
+      "wall_s": 57.46473264996894
+    },
+    "self_L": {
+      "status": "COMPLETE",
+      "arm": "self_L",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "baseline_fidelity": {
+        "maximum_window_DNb_consumed_error": 7.243797106593064e-07,
+        "maximum_window_yaw_error_deg_s": 0.0006059153639104527,
+        "forward_identical": true,
+        "passed": true
+      },
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9647,
+        "accepted": 9644,
+        "rejected": 3,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 195.9764772,
+      "wall_s": 169.93129995296476
+    },
+    "self_R": {
+      "status": "COMPLETE",
+      "arm": "self_R",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "baseline_fidelity": {
+        "maximum_window_DNb_consumed_error": 1.2283512877964142e-06,
+        "maximum_window_yaw_error_deg_s": 0.001057690585596904,
+        "forward_identical": true,
+        "passed": true
+      },
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9642,
+        "accepted": 9636,
+        "rejected": 6,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 196.29375439999998,
+      "wall_s": 171.33001336100278
+    },
+    "common_L": {
+      "status": "COMPLETE",
+      "arm": "common_L",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9623,
+        "accepted": 9620,
+        "rejected": 3,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 197.3257251,
+      "wall_s": 175.09341425501043
+    },
+    "common_R": {
+      "status": "COMPLETE",
+      "arm": "common_R",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9675,
+        "accepted": 9669,
+        "rejected": 6,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 197.1318438,
+      "wall_s": 174.20077685598517
+    },
+    "dose_L": {
+      "status": "COMPLETE",
+      "arm": "dose_L",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9615,
+        "accepted": 9612,
+        "rejected": 3,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 196.6455195,
+      "wall_s": 176.3045367419836
+    },
+    "dose_R": {
+      "status": "COMPLETE",
+      "arm": "dose_R",
+      "new_CNS_ms": 89,
+      "attempted_CNS_ms": 89,
+      "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+      "stage_admission": null,
+      "gate_pass": true,
+      "initial_exact": true,
+      "observer": {
+        "rows": [
+          36,
+          46
+        ],
+        "epochs": 1424,
+        "trials": 9680,
+        "accepted": 9674,
+        "rejected": 6,
+        "scheduler_changed": false,
+        "capacity_trials_per_epoch": 10000,
+        "recorded_fields": [
+          "state",
+          "net",
+          "positive_aux",
+          "negative_aux",
+          "drive",
+          "theta",
+          "gain",
+          "base_target",
+          "base_rate",
+          "tau",
+          "margin",
+          "final_target",
+          "final_rate",
+          "derivative",
+          "evaluation_time_s",
+          "stage_fraction"
+        ],
+        "acceptance_checked_against_counts_and_committed_state": true
+      },
+      "CPU_s": 197.4453412,
+      "wall_s": 175.82166798698017
+    }
+  },
+  "stage_admission": null,
+  "mediation_assessed": true,
+  "material_partial_effect": true,
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "means": {
+    "self_L": {
+      "yaw_deg_s": 2.828189437662867,
+      "forward_mm_s": 0.0
+    },
+    "self_R": {
+      "yaw_deg_s": 2.791422733707873,
+      "forward_mm_s": 0.0
+    },
+    "common_L": {
+      "yaw_deg_s": 2.806684375677493,
+      "forward_mm_s": 0.0
+    },
+    "common_R": {
+      "yaw_deg_s": 2.8130445581215375,
+      "forward_mm_s": 0.0
+    },
+    "dose_L": {
+      "yaw_deg_s": 2.8062301777124317,
+      "forward_mm_s": 0.0
+    },
+    "dose_R": {
+      "yaw_deg_s": 2.8183102215300653,
+      "forward_mm_s": 0.0
+    }
+  },
+  "shifts": {
+    "common": {
+      "L": -0.021505061985374052,
+      "R": 0.02162182441366456
+    },
+    "dose": {
+      "L": -0.02195925995043524,
+      "R": 0.026887487822192302
+    }
+  },
+  "mediated_half_contrast_deg_s": {
+    "common": 0.021563443199519305,
+    "dose": 0.02442337388631377
+  }
+}

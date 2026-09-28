@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "new_CNS_ms": 89,
+    "gate_pass": 1
+  },
+  "assessment": {
+    "status": "COMPLETE",
+    "arm": "self_R",
+    "new_CNS_ms": 89,
+    "attempted_CNS_ms": 89,
+    "contract_sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d",
+    "stage_admission": null,
+    "baseline_fidelity": {
+      "maximum_window_DNb_consumed_error": 1.2283512877964142e-06,
+      "maximum_window_yaw_error_deg_s": 0.001057690585596904,
+      "forward_identical": true,
+      "passed": true
+    },
+    "gate_pass": true,
+    "initial_exact": true,
+    "observer": {
+      "rows": [
+        36,
+        46
+      ],
+      "epochs": 1424,
+      "trials": 9642,
+      "accepted": 9636,
+      "rejected": 6,
+      "scheduler_changed": false,
+      "capacity_trials_per_epoch": 10000,
+      "recorded_fields": [
+        "state",
+        "net",
+        "positive_aux",
+        "negative_aux",
+        "drive",
+        "theta",
+        "gain",
+        "base_target",
+        "base_rate",
+        "tau",
+        "margin",
+        "final_target",
+        "final_rate",
+        "derivative",
+        "evaluation_time_s",
+        "stage_fraction"
+      ],
+      "acceptance_checked_against_counts_and_committed_state": true
+    },
+    "CPU_s": 196.29375439999998,
+    "wall_s": 171.33001336100278
+  }
+}

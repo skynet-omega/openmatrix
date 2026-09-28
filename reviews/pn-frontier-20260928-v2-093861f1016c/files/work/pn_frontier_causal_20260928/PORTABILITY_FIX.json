@@ -1,0 +1,12 @@
+{
+  "schema": "matrix_portable_readback_fix_v1",
+  "first_archive": "PN_FRONTIER_READBACK.zip",
+  "first_archive_sha256": "e7c3f241a45afb14da2d4a3950cce1f21306d4c669e14b6cc551608df36b8daa",
+  "failure": "Standalone CLI with ambient BLAS threading failed prescribed stimulus exact reconstruction; same extracted inputs with OPENBLAS_NUM_THREADS=1,OMP_NUM_THREADS=1 pass.",
+  "cause": "Acquisition/workbench recorded one-thread environment; standalone CLI had omitted that execution condition. Floating point reduction order affects exact FP32 reconstruction.",
+  "fix": "Set recorded one-thread BLAS/OMP environment before NumPy import in __main__.",
+  "original_CNS_repeated_ms": 0,
+  "scientific_tolerances_changed": false,
+  "first_fixed_environment_result": "runs/reproductions/pn_frontier_20260928_local/reproduced_fixed_threads/assessment.json",
+  "original_failed_extraction_preserved": true
+}

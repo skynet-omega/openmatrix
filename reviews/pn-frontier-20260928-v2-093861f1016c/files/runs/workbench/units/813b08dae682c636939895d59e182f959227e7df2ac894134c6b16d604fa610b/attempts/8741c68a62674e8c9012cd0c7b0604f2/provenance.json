@@ -1,0 +1,2546 @@
+{
+  "schema": "matrix_unit_v1",
+  "component": "pn_frontier_trial",
+  "contract": {
+    "version": 1,
+    "maximum_seconds": 420,
+    "device": "gpu",
+    "qualification": "evaluator_frontier_intervention_not_neural_policy"
+  },
+  "inputs": {
+    "source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_frontier_trial.py",
+      "bytes": 15813,
+      "sha256": "f8edd139991ea1c9e825c6a493cd90714670f51cf45dddda88982fca714ebe0e"
+    },
+    "contract": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/pn_frontier_trial_57.json",
+      "bytes": 3262,
+      "sha256": "1fd91e080bb003cda95e9383ae5dd2480d5d949845621903b81cbeced97a533d"
+    },
+    "source_bundle": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+      "bytes": 62650,
+      "sha256": "4f2789636d814eedeb4d3768cfdf908bf8e0e73ebff48aa1cb4f90982c2e9599"
+    },
+    "loader": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+      "bytes": 10012,
+      "sha256": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81"
+    },
+    "observer": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/observe57.py",
+      "bytes": 1988,
+      "sha256": "68c7ae66864944cb7756f7780e03f4b895751640de8756f0a25222d713959874"
+    },
+    "spatial_owner": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+      "bytes": 5755,
+      "sha256": "2cfa19d7bd5cfc14379e44d876f6da9b36efa1192261807df694286da29f9059"
+    },
+    "air_owner": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+      "bytes": 4492,
+      "sha256": "325ca64a22a080ccd52ec971c2ad6079138c8995c28974e80e0b396e0d72f1e1"
+    },
+    "PN_observer": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+      "bytes": 1822,
+      "sha256": "b41932f5632d0c8b5e119ba9618f1ad7571611f9a4f6cc7ec5ef9af851d08b3f"
+    },
+    "writer_source": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+      "bytes": 2781,
+      "sha256": "c6830189fdb7100df83b178f0ed8c7a5bad90a93c5037332b524b7eefab5b789"
+    },
+    "support": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+      "bytes": 8346,
+      "sha256": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709"
+    },
+    "tape_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+      "bytes": 2549819,
+      "sha256": "3e18c0a809a4e98b84b0cf979b57f0fb3ce0368c9a93540ffcd2b13bd136f27e"
+    },
+    "reference_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+      "bytes": 5132465,
+      "sha256": "73fb6aaf1a3ccc0bf3d30b1f8415ae68ad94ad03507971034d30c8bcec365028"
+    },
+    "tape_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+      "bytes": 2549056,
+      "sha256": "39abb91d42c188c9e5038ddb081d7dab4c63ff65c3749bc2969ab9c276b7837d"
+    },
+    "reference_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+      "bytes": 5127981,
+      "sha256": "77fbda127ee350f40cb8c1e2fec86809a4c4439f2036771ed2d238d518792327"
+    },
+    "gate_live_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54/attempts/259a11af15344b279e620bf9fb939ea3/assessment.json",
+      "bytes": 916,
+      "sha256": "5f93c87fa6a82bca7936c3414cfd71497df5e0567b9fffba5c24ed7aa000bc5c"
+    },
+    "gate_live_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917/attempts/5956b2e2957549819d0ccac82c9c38d1/assessment.json",
+      "bytes": 916,
+      "sha256": "4832104f258acad313b3979eaf822a05eb99ecc996ca7cfda7f9ab82cffe64b4"
+    },
+    "gate_self_L": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/aca5749d741907eeacc7a225a7b8ff9d9c9f7bc8f41e1c75cd27de0589721fa3/attempts/fb70572701ea41509ada9518d9c7c427/assessment.json",
+      "bytes": 1124,
+      "sha256": "d697a1d9a112ca115fde96560559f994a5921548af83645504827064a8450bf5"
+    },
+    "gate_self_R": {
+      "path": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3e48d5728c3e283ba3ac4d60f4477da8edf6a1c52aaed47b63ce6e1590742f0d/attempts/e20b60af6eaa4a038d247d209e7dc0b8/assessment.json",
+      "bytes": 1131,
+      "sha256": "495b784ac15ec72ad4374096480b6c5d12e42b43c8660c4bd32c284164ddd545"
+    }
+  },
+  "parameters": {
+    "arm": "dose_L"
+  },
+  "environment": {
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+    "executable": "/home/daroch/miniconda3/envs/GPU/bin/python3.10",
+    "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "packages": [
+      [
+        "absl-py",
+        "2.3.1"
+      ],
+      [
+        "accelerate",
+        "1.12.0"
+      ],
+      [
+        "acres",
+        "0.5.0"
+      ],
+      [
+        "addict",
+        "2.4.0"
+      ],
+      [
+        "aiofiles",
+        "24.1.0"
+      ],
+      [
+        "aiohappyeyeballs",
+        "2.6.1"
+      ],
+      [
+        "aiohttp",
+        "3.12.15"
+      ],
+      [
+        "aiosignal",
+        "1.4.0"
+      ],
+      [
+        "airspeed",
+        "0.6.1"
+      ],
+      [
+        "alembic",
+        "1.16.4"
+      ],
+      [
+        "annotated-types",
+        "0.7.0"
+      ],
+      [
+        "anyascii",
+        "0.3.3"
+      ],
+      [
+        "anyio",
+        "4.9.0"
+      ],
+      [
+        "argon2-cffi",
+        "25.1.0"
+      ],
+      [
+        "argon2-cffi-bindings",
+        "25.1.0"
+      ],
+      [
+        "array_record",
+        "0.8.1"
+      ],
+      [
+        "arrow",
+        "1.4.0"
+      ],
+      [
+        "asttokens",
+        "3.0.1"
+      ],
+      [
+        "astunparse",
+        "1.6.3"
+      ],
+      [
+        "async-lru",
+        "2.3.0"
+      ],
+      [
+        "async-timeout",
+        "5.0.1"
+      ],
+      [
+        "attrs",
+        "25.3.0"
+      ],
+      [
+        "audioread",
+        "3.0.1"
+      ],
+      [
+        "av",
+        "17.0.0"
+      ],
+      [
+        "avalanche-lib",
+        "0.6.0"
+      ],
+      [
+        "babel",
+        "2.17.0"
+      ],
+      [
+        "beautifulsoup4",
+        "4.14.3"
+      ],
+      [
+        "bitsandbytes",
+        "0.46.1"
+      ],
+      [
+        "bleach",
+        "6.4.0"
+      ],
+      [
+        "blinker",
+        "1.9.0"
+      ],
+      [
+        "blis",
+        "1.3.0"
+      ],
+      [
+        "blosc2",
+        "3.9.1"
+      ],
+      [
+        "box2d-py",
+        "2.3.5"
+      ],
+      [
+        "cachetools",
+        "5.5.2"
+      ],
+      [
+        "catalogue",
+        "2.0.10"
+      ],
+      [
+        "cattrs",
+        "25.2.0"
+      ],
+      [
+        "causal-learn",
+        "0.1.4.4"
+      ],
+      [
+        "caveclient",
+        "8.1.0"
+      ],
+      [
+        "certifi",
+        "2025.8.3"
+      ],
+      [
+        "cffi",
+        "2.0.0"
+      ],
+      [
+        "cfgv",
+        "3.5.0"
+      ],
+      [
+        "charset-normalizer",
+        "3.4.2"
+      ],
+      [
+        "chess",
+        "1.11.2"
+      ],
+      [
+        "chex",
+        "0.1.90"
+      ],
+      [
+        "ci-info",
+        "0.3.0"
+      ],
+      [
+        "clarabel",
+        "0.11.1"
+      ],
+      [
+        "click",
+        "8.2.1"
+      ],
+      [
+        "cloudpathlib",
+        "0.21.1"
+      ],
+      [
+        "cloudpickle",
+        "3.1.1"
+      ],
+      [
+        "cmeel",
+        "0.57.3"
+      ],
+      [
+        "coloredlogs",
+        "15.0.1"
+      ],
+      [
+        "comm",
+        "0.2.3"
+      ],
+      [
+        "confection",
+        "0.1.5"
+      ],
+      [
+        "configobj",
+        "5.0.9"
+      ],
+      [
+        "configparser",
+        "7.2.0"
+      ],
+      [
+        "contourpy",
+        "1.3.2"
+      ],
+      [
+        "coqpit-config",
+        "0.2.1"
+      ],
+      [
+        "coqui-tts",
+        "0.27.0"
+      ],
+      [
+        "coqui-tts-trainer",
+        "0.3.1"
+      ],
+      [
+        "craftax",
+        "1.6.1"
+      ],
+      [
+        "cryptography",
+        "46.0.5"
+      ],
+      [
+        "csvw",
+        "4.0.0"
+      ],
+      [
+        "ctranslate2",
+        "4.7.1"
+      ],
+      [
+        "cuda-bindings",
+        "12.9.4"
+      ],
+      [
+        "cuda-pathfinder",
+        "1.2.2"
+      ],
+      [
+        "cupy-cuda12x",
+        "13.6.0"
+      ],
+      [
+        "curated-tokenizers",
+        "0.0.9"
+      ],
+      [
+        "curated-transformers",
+        "0.1.1"
+      ],
+      [
+        "cvxopt",
+        "1.3.2"
+      ],
+      [
+        "cvxpy",
+        "1.7.5"
+      ],
+      [
+        "cycler",
+        "0.12.1"
+      ],
+      [
+        "cymem",
+        "2.0.11"
+      ],
+      [
+        "cython",
+        "3.1.2"
+      ],
+      [
+        "daqp",
+        "0.7.2"
+      ],
+      [
+        "databricks-sdk",
+        "0.61.0"
+      ],
+      [
+        "datasets",
+        "4.0.0"
+      ],
+      [
+        "dateparser",
+        "1.1.8"
+      ],
+      [
+        "debugpy",
+        "1.8.21"
+      ],
+      [
+        "decorator",
+        "5.2.1"
+      ],
+      [
+        "deepspeed",
+        "0.17.4"
+      ],
+      [
+        "defusedxml",
+        "0.7.1"
+      ],
+      [
+        "dill",
+        "0.3.8"
+      ],
+      [
+        "distlib",
+        "0.4.3"
+      ],
+      [
+        "distro",
+        "1.9.0"
+      ],
+      [
+        "dlinfo",
+        "2.0.0"
+      ],
+      [
+        "dm-clrs",
+        "2.0.3"
+      ],
+      [
+        "dm-env",
+        "1.6"
+      ],
+      [
+        "dm-haiku",
+        "0.0.16"
+      ],
+      [
+        "dm-tree",
+        "0.1.8"
+      ],
+      [
+        "dm_control",
+        "1.0.27"
+      ],
+      [
+        "dnspython",
+        "2.8.0"
+      ],
+      [
+        "docker",
+        "7.1.0"
+      ],
+      [
+        "docopt",
+        "0.6.2"
+      ],
+      [
+        "docstring_parser",
+        "0.17.0"
+      ],
+      [
+        "dowhy",
+        "0.14"
+      ],
+      [
+        "ecos",
+        "2.0.14"
+      ],
+      [
+        "einops",
+        "0.8.1"
+      ],
+      [
+        "emoji",
+        "2.14.1"
+      ],
+      [
+        "encodec",
+        "0.1.1"
+      ],
+      [
+        "entmax",
+        "1.3"
+      ],
+      [
+        "espeakng-loader",
+        "0.2.4"
+      ],
+      [
+        "et_xmlfile",
+        "2.0.0"
+      ],
+      [
+        "etelemetry",
+        "0.3.1"
+      ],
+      [
+        "etils",
+        "1.13.0"
+      ],
+      [
+        "evaluate",
+        "0.4.5"
+      ],
+      [
+        "exceptiongroup",
+        "1.3.0"
+      ],
+      [
+        "executing",
+        "2.2.1"
+      ],
+      [
+        "faiss-gpu",
+        "1.7.2"
+      ],
+      [
+        "farama-notifications",
+        "0.0.4"
+      ],
+      [
+        "fastapi",
+        "0.116.1"
+      ],
+      [
+        "faster-whisper",
+        "1.2.1"
+      ],
+      [
+        "fastjsonschema",
+        "2.21.2"
+      ],
+      [
+        "fastrlock",
+        "0.8.3"
+      ],
+      [
+        "filelock",
+        "3.29.4"
+      ],
+      [
+        "flask",
+        "3.1.1"
+      ],
+      [
+        "flatbuffers",
+        "25.9.23"
+      ],
+      [
+        "flax",
+        "0.10.7"
+      ],
+      [
+        "flygym",
+        "1.2.1"
+      ],
+      [
+        "fonttools",
+        "4.59.0"
+      ],
+      [
+        "fqdn",
+        "1.5.1"
+      ],
+      [
+        "frontend",
+        "0.0.3"
+      ],
+      [
+        "frozenlist",
+        "1.7.0"
+      ],
+      [
+        "fsspec",
+        "2025.12.0"
+      ],
+      [
+        "gast",
+        "0.6.0"
+      ],
+      [
+        "gdown",
+        "5.2.1"
+      ],
+      [
+        "gitdb",
+        "4.0.12"
+      ],
+      [
+        "gitpython",
+        "3.1.45"
+      ],
+      [
+        "glcontext",
+        "3.0.0"
+      ],
+      [
+        "glfw",
+        "1.12.0"
+      ],
+      [
+        "google-auth",
+        "2.48.0"
+      ],
+      [
+        "google-genai",
+        "1.66.0"
+      ],
+      [
+        "google-pasta",
+        "0.2.0"
+      ],
+      [
+        "gputil",
+        "1.4.0"
+      ],
+      [
+        "graphene",
+        "3.4.3"
+      ],
+      [
+        "graphql-core",
+        "3.2.6"
+      ],
+      [
+        "graphql-relay",
+        "3.2.0"
+      ],
+      [
+        "graphviz",
+        "0.21"
+      ],
+      [
+        "greenlet",
+        "3.2.3"
+      ],
+      [
+        "groq",
+        "0.30.0"
+      ],
+      [
+        "grpcio",
+        "1.74.0"
+      ],
+      [
+        "gruut",
+        "2.4.0"
+      ],
+      [
+        "gruut-ipa",
+        "0.13.0"
+      ],
+      [
+        "gruut_lang_de",
+        "2.0.1"
+      ],
+      [
+        "gruut_lang_en",
+        "2.0.1"
+      ],
+      [
+        "gruut_lang_es",
+        "2.0.1"
+      ],
+      [
+        "gruut_lang_fr",
+        "2.0.2"
+      ],
+      [
+        "gunicorn",
+        "23.0.0"
+      ],
+      [
+        "gym",
+        "0.26.2"
+      ],
+      [
+        "gym-notices",
+        "0.1.0"
+      ],
+      [
+        "gym3",
+        "0.3.3"
+      ],
+      [
+        "gymnasium",
+        "0.29.1"
+      ],
+      [
+        "h11",
+        "0.16.0"
+      ],
+      [
+        "h5py",
+        "3.14.0"
+      ],
+      [
+        "hanabi-learning-environment",
+        "0.0.4"
+      ],
+      [
+        "hf-xet",
+        "1.1.5"
+      ],
+      [
+        "highspy",
+        "1.12.0"
+      ],
+      [
+        "hjson",
+        "3.1.0"
+      ],
+      [
+        "httpcore",
+        "1.0.9"
+      ],
+      [
+        "httplib2",
+        "0.22.0"
+      ],
+      [
+        "httpx",
+        "0.28.1"
+      ],
+      [
+        "huggingface-hub",
+        "0.34.3"
+      ],
+      [
+        "humanfriendly",
+        "10.0"
+      ],
+      [
+        "humanize",
+        "4.16.0"
+      ],
+      [
+        "identify",
+        "2.6.19"
+      ],
+      [
+        "idna",
+        "3.10"
+      ],
+      [
+        "imageio",
+        "2.37.0"
+      ],
+      [
+        "imageio-ffmpeg",
+        "0.3.0"
+      ],
+      [
+        "immutabledict",
+        "4.2.2"
+      ],
+      [
+        "importlib_metadata",
+        "8.7.0"
+      ],
+      [
+        "importlib_resources",
+        "6.5.2"
+      ],
+      [
+        "inflect",
+        "7.5.0"
+      ],
+      [
+        "iniconfig",
+        "2.1.0"
+      ],
+      [
+        "ipykernel",
+        "7.3.0"
+      ],
+      [
+        "ipython",
+        "8.39.0"
+      ],
+      [
+        "ipywidgets",
+        "8.1.8"
+      ],
+      [
+        "isodate",
+        "0.7.2"
+      ],
+      [
+        "isoduration",
+        "20.11.0"
+      ],
+      [
+        "itsdangerous",
+        "2.2.0"
+      ],
+      [
+        "jax",
+        "0.6.2"
+      ],
+      [
+        "jaxlib",
+        "0.6.2"
+      ],
+      [
+        "jaxopt",
+        "0.8.5"
+      ],
+      [
+        "jedi",
+        "0.20.0"
+      ],
+      [
+        "jinja2",
+        "3.1.6"
+      ],
+      [
+        "jmp",
+        "0.0.4"
+      ],
+      [
+        "joblib",
+        "1.5.3"
+      ],
+      [
+        "json5",
+        "0.15.0"
+      ],
+      [
+        "jsonlines",
+        "1.2.0"
+      ],
+      [
+        "jsonpointer",
+        "3.1.1"
+      ],
+      [
+        "jsonschema",
+        "4.26.0"
+      ],
+      [
+        "jsonschema-specifications",
+        "2025.9.1"
+      ],
+      [
+        "jupyter",
+        "1.1.1"
+      ],
+      [
+        "jupyter-console",
+        "6.6.3"
+      ],
+      [
+        "jupyter-events",
+        "0.12.1"
+      ],
+      [
+        "jupyter-lsp",
+        "2.3.1"
+      ],
+      [
+        "jupyter_builder",
+        "1.0.2"
+      ],
+      [
+        "jupyter_client",
+        "8.9.1"
+      ],
+      [
+        "jupyter_core",
+        "5.9.1"
+      ],
+      [
+        "jupyter_server",
+        "2.20.0"
+      ],
+      [
+        "jupyter_server_terminals",
+        "0.5.4"
+      ],
+      [
+        "jupyterlab",
+        "4.6.1"
+      ],
+      [
+        "jupyterlab_pygments",
+        "0.3.0"
+      ],
+      [
+        "jupyterlab_server",
+        "2.28.0"
+      ],
+      [
+        "jupyterlab_widgets",
+        "3.0.16"
+      ],
+      [
+        "keras",
+        "3.12.1"
+      ],
+      [
+        "kiwisolver",
+        "1.4.8"
+      ],
+      [
+        "kokoro",
+        "0.9.4"
+      ],
+      [
+        "kokoro-onnx",
+        "0.5.0"
+      ],
+      [
+        "labmaze",
+        "1.0.6"
+      ],
+      [
+        "langcodes",
+        "3.5.0"
+      ],
+      [
+        "language-tags",
+        "1.3.1"
+      ],
+      [
+        "language_data",
+        "1.3.0"
+      ],
+      [
+        "lark",
+        "1.3.1"
+      ],
+      [
+        "lazy_loader",
+        "0.4"
+      ],
+      [
+        "libclang",
+        "18.1.1"
+      ],
+      [
+        "libneuroml",
+        "0.6.7"
+      ],
+      [
+        "librosa",
+        "0.11.0"
+      ],
+      [
+        "lightning-utilities",
+        "0.15.2"
+      ],
+      [
+        "llvmlite",
+        "0.43.0"
+      ],
+      [
+        "loguru",
+        "0.7.3"
+      ],
+      [
+        "looseversion",
+        "1.3.0"
+      ],
+      [
+        "lxml",
+        "6.0.0"
+      ],
+      [
+        "mako",
+        "1.3.10"
+      ],
+      [
+        "marisa-trie",
+        "1.2.1"
+      ],
+      [
+        "markdown",
+        "3.8.2"
+      ],
+      [
+        "markdown-it-py",
+        "3.0.0"
+      ],
+      [
+        "markupsafe",
+        "3.0.2"
+      ],
+      [
+        "matplotlib",
+        "3.10.5"
+      ],
+      [
+        "matplotlib-inline",
+        "0.2.2"
+      ],
+      [
+        "matplotlib-scalebar",
+        "0.9.0"
+      ],
+      [
+        "mazelib",
+        "0.9.16"
+      ],
+      [
+        "mdurl",
+        "0.1.2"
+      ],
+      [
+        "mediapy",
+        "1.2.7"
+      ],
+      [
+        "minigrid",
+        "3.0.0"
+      ],
+      [
+        "minihack",
+        "1.0.2"
+      ],
+      [
+        "misaki",
+        "0.9.4"
+      ],
+      [
+        "mistune",
+        "3.3.3"
+      ],
+      [
+        "ml_collections",
+        "1.1.0"
+      ],
+      [
+        "ml_dtypes",
+        "0.5.3"
+      ],
+      [
+        "mlflow",
+        "3.1.4"
+      ],
+      [
+        "mlflow-skinny",
+        "3.1.4"
+      ],
+      [
+        "modelspec",
+        "0.3.7"
+      ],
+      [
+        "moderngl",
+        "5.12.0"
+      ],
+      [
+        "momentchi2",
+        "0.1.8"
+      ],
+      [
+        "monotonic-alignment-search",
+        "0.2.0"
+      ],
+      [
+        "more-itertools",
+        "10.7.0"
+      ],
+      [
+        "mpmath",
+        "1.3.0"
+      ],
+      [
+        "msgpack",
+        "1.1.1"
+      ],
+      [
+        "mujoco",
+        "3.2.7"
+      ],
+      [
+        "multidict",
+        "6.6.3"
+      ],
+      [
+        "multiprocess",
+        "0.70.16"
+      ],
+      [
+        "murmurhash",
+        "1.0.13"
+      ],
+      [
+        "namex",
+        "0.1.0"
+      ],
+      [
+        "natsort",
+        "8.4.0"
+      ],
+      [
+        "nbclient",
+        "0.11.0"
+      ],
+      [
+        "nbconvert",
+        "7.17.1"
+      ],
+      [
+        "nbformat",
+        "5.10.4"
+      ],
+      [
+        "ndindex",
+        "1.10.0"
+      ],
+      [
+        "nest-asyncio2",
+        "1.7.2"
+      ],
+      [
+        "networkx",
+        "3.4.2"
+      ],
+      [
+        "neurogym",
+        "2.3.1"
+      ],
+      [
+        "neuromllite",
+        "0.6.1"
+      ],
+      [
+        "nibabel",
+        "5.3.2"
+      ],
+      [
+        "ninja",
+        "1.11.1.4"
+      ],
+      [
+        "nipype",
+        "1.10.0"
+      ],
+      [
+        "nle",
+        "1.2.0"
+      ],
+      [
+        "nltk",
+        "3.9.2"
+      ],
+      [
+        "nodeenv",
+        "1.10.0"
+      ],
+      [
+        "notebook",
+        "7.6.0"
+      ],
+      [
+        "notebook_shim",
+        "0.2.4"
+      ],
+      [
+        "num2words",
+        "0.5.14"
+      ],
+      [
+        "numba",
+        "0.60.0"
+      ],
+      [
+        "numexpr",
+        "2.13.1"
+      ],
+      [
+        "numpy",
+        "1.26.4"
+      ],
+      [
+        "nvidia-cublas-cu12",
+        "12.6.4.1"
+      ],
+      [
+        "nvidia-cuda-cupti-cu12",
+        "12.6.80"
+      ],
+      [
+        "nvidia-cuda-nvrtc-cu12",
+        "12.6.77"
+      ],
+      [
+        "nvidia-cuda-runtime-cu12",
+        "12.6.77"
+      ],
+      [
+        "nvidia-cudnn-cu12",
+        "9.10.2.21"
+      ],
+      [
+        "nvidia-cufft-cu12",
+        "11.3.0.4"
+      ],
+      [
+        "nvidia-cufile-cu12",
+        "1.11.1.6"
+      ],
+      [
+        "nvidia-curand-cu12",
+        "10.3.7.77"
+      ],
+      [
+        "nvidia-cusolver-cu12",
+        "11.7.1.2"
+      ],
+      [
+        "nvidia-cusparse-cu12",
+        "12.5.4.2"
+      ],
+      [
+        "nvidia-cusparselt-cu12",
+        "0.7.1"
+      ],
+      [
+        "nvidia-ml-py",
+        "12.575.51"
+      ],
+      [
+        "nvidia-nccl-cu12",
+        "2.28.9"
+      ],
+      [
+        "nvidia-nvjitlink-cu12",
+        "12.6.85"
+      ],
+      [
+        "nvidia-nvshmem-cu12",
+        "3.4.5"
+      ],
+      [
+        "nvidia-nvtx-cu12",
+        "12.6.77"
+      ],
+      [
+        "ollama",
+        "0.5.1"
+      ],
+      [
+        "onnxruntime",
+        "1.23.2"
+      ],
+      [
+        "openai-whisper",
+        "20250625"
+      ],
+      [
+        "opencv-python",
+        "4.13.0.92"
+      ],
+      [
+        "opencv-python-headless",
+        "4.12.0.88"
+      ],
+      [
+        "openpyxl",
+        "3.1.5"
+      ],
+      [
+        "opentelemetry-api",
+        "1.36.0"
+      ],
+      [
+        "opentelemetry-sdk",
+        "1.36.0"
+      ],
+      [
+        "opentelemetry-semantic-conventions",
+        "0.57b0"
+      ],
+      [
+        "opt_einsum",
+        "3.4.0"
+      ],
+      [
+        "optax",
+        "0.2.7"
+      ],
+      [
+        "optree",
+        "0.17.0"
+      ],
+      [
+        "orbax-checkpoint",
+        "0.11.39"
+      ],
+      [
+        "osfclient",
+        "0.0.5"
+      ],
+      [
+        "osqp",
+        "1.0.5"
+      ],
+      [
+        "overrides",
+        "7.7.0"
+      ],
+      [
+        "packaging",
+        "25.0"
+      ],
+      [
+        "pandas",
+        "2.3.1"
+      ],
+      [
+        "pandocfilters",
+        "1.5.1"
+      ],
+      [
+        "parso",
+        "0.8.7"
+      ],
+      [
+        "pathlib",
+        "1.0.1"
+      ],
+      [
+        "patsy",
+        "1.0.2"
+      ],
+      [
+        "peft",
+        "0.17.0"
+      ],
+      [
+        "pettingzoo",
+        "1.25.0"
+      ],
+      [
+        "pexpect",
+        "4.9.0"
+      ],
+      [
+        "phonemizer-fork",
+        "3.3.2"
+      ],
+      [
+        "pillow",
+        "12.0.0"
+      ],
+      [
+        "pip",
+        "26.1.2"
+      ],
+      [
+        "piqp",
+        "0.6.2"
+      ],
+      [
+        "platformdirs",
+        "4.3.8"
+      ],
+      [
+        "playwright",
+        "1.61.0"
+      ],
+      [
+        "pluggy",
+        "1.6.0"
+      ],
+      [
+        "pooch",
+        "1.8.2"
+      ],
+      [
+        "ppft",
+        "1.7.7"
+      ],
+      [
+        "pre_commit",
+        "4.6.0"
+      ],
+      [
+        "preshed",
+        "3.0.10"
+      ],
+      [
+        "procgen",
+        "0.10.7"
+      ],
+      [
+        "progressbar2",
+        "4.5.0"
+      ],
+      [
+        "prometheus_client",
+        "0.25.0"
+      ],
+      [
+        "promise",
+        "2.3"
+      ],
+      [
+        "prompt_toolkit",
+        "3.0.52"
+      ],
+      [
+        "propcache",
+        "0.3.2"
+      ],
+      [
+        "protobuf",
+        "6.32.0"
+      ],
+      [
+        "prov",
+        "2.1.1"
+      ],
+      [
+        "proxsuite",
+        "0.7.2"
+      ],
+      [
+        "psutil",
+        "7.0.0"
+      ],
+      [
+        "ptyprocess",
+        "0.7.0"
+      ],
+      [
+        "pure_eval",
+        "0.2.3"
+      ],
+      [
+        "puremagic",
+        "1.30"
+      ],
+      [
+        "py-cpuinfo",
+        "9.0.0"
+      ],
+      [
+        "pyamg",
+        "5.3.0"
+      ],
+      [
+        "pyarrow",
+        "22.0.0"
+      ],
+      [
+        "pyasn1",
+        "0.6.1"
+      ],
+      [
+        "pyasn1_modules",
+        "0.4.2"
+      ],
+      [
+        "pybind11",
+        "3.0.1"
+      ],
+      [
+        "pycparser",
+        "2.22"
+      ],
+      [
+        "pydantic",
+        "2.11.7"
+      ],
+      [
+        "pydantic-settings",
+        "2.14.2"
+      ],
+      [
+        "pydantic_core",
+        "2.33.2"
+      ],
+      [
+        "pydot",
+        "4.0.1"
+      ],
+      [
+        "pyee",
+        "13.0.1"
+      ],
+      [
+        "pygame",
+        "2.6.1"
+      ],
+      [
+        "pygame-ce",
+        "2.5.7"
+      ],
+      [
+        "pygments",
+        "2.19.2"
+      ],
+      [
+        "pylems",
+        "0.6.8"
+      ],
+      [
+        "pymongo",
+        "4.15.2"
+      ],
+      [
+        "pymupdf",
+        "1.26.3"
+      ],
+      [
+        "pyneuroml",
+        "1.3.21"
+      ],
+      [
+        "pyopengl",
+        "3.1.10"
+      ],
+      [
+        "pyparsing",
+        "3.2.3"
+      ],
+      [
+        "pypdf",
+        "6.5.0"
+      ],
+      [
+        "pypdf2",
+        "3.0.1"
+      ],
+      [
+        "pysbd",
+        "0.3.4"
+      ],
+      [
+        "pysocks",
+        "1.7.1"
+      ],
+      [
+        "pytest",
+        "8.4.2"
+      ],
+      [
+        "python-crfsuite",
+        "0.9.11"
+      ],
+      [
+        "python-dateutil",
+        "2.9.0.post0"
+      ],
+      [
+        "python-discovery",
+        "1.4.2"
+      ],
+      [
+        "python-dotenv",
+        "1.1.1"
+      ],
+      [
+        "python-json-logger",
+        "4.1.0"
+      ],
+      [
+        "python-multipart",
+        "0.0.20"
+      ],
+      [
+        "python-utils",
+        "3.9.1"
+      ],
+      [
+        "pytorchcv",
+        "0.0.74"
+      ],
+      [
+        "pytz",
+        "2025.2"
+      ],
+      [
+        "pyxnat",
+        "1.6.3"
+      ],
+      [
+        "pyyaml",
+        "6.0.2"
+      ],
+      [
+        "pyzmq",
+        "27.1.0"
+      ],
+      [
+        "qpalm",
+        "1.2.6"
+      ],
+      [
+        "qpax",
+        "0.0.9"
+      ],
+      [
+        "qpsolvers",
+        "4.8.2"
+      ],
+      [
+        "quadprog",
+        "0.1.13"
+      ],
+      [
+        "rdflib",
+        "7.1.4"
+      ],
+      [
+        "referencing",
+        "0.37.0"
+      ],
+      [
+        "regex",
+        "2025.7.34"
+      ],
+      [
+        "requests",
+        "2.32.4"
+      ],
+      [
+        "rfc3339-validator",
+        "0.1.4"
+      ],
+      [
+        "rfc3986",
+        "1.5.0"
+      ],
+      [
+        "rfc3986-validator",
+        "0.1.1"
+      ],
+      [
+        "rfc3987-syntax",
+        "1.1.0"
+      ],
+      [
+        "rich",
+        "14.1.0"
+      ],
+      [
+        "rpds-py",
+        "0.30.0"
+      ],
+      [
+        "rsa",
+        "4.9.1"
+      ],
+      [
+        "ruff",
+        "0.15.20"
+      ],
+      [
+        "safetensors",
+        "0.5.3"
+      ],
+      [
+        "scikit-image",
+        "0.25.2"
+      ],
+      [
+        "scikit-learn",
+        "1.7.2"
+      ],
+      [
+        "scipy",
+        "1.15.3"
+      ],
+      [
+        "scs",
+        "3.2.11"
+      ],
+      [
+        "seaborn",
+        "0.13.2"
+      ],
+      [
+        "segments",
+        "2.4.0"
+      ],
+      [
+        "send2trash",
+        "2.1.0"
+      ],
+      [
+        "sentence-transformers",
+        "5.0.0"
+      ],
+      [
+        "sentencepiece",
+        "0.2.1"
+      ],
+      [
+        "sentry-sdk",
+        "2.49.0"
+      ],
+      [
+        "setuptools",
+        "80.9.0"
+      ],
+      [
+        "shellingham",
+        "1.5.4"
+      ],
+      [
+        "shimmy",
+        "2.0.0"
+      ],
+      [
+        "simple-parsing",
+        "0.1.8"
+      ],
+      [
+        "simplejson",
+        "3.20.1"
+      ],
+      [
+        "sip_python",
+        "0.0.2"
+      ],
+      [
+        "six",
+        "1.17.0"
+      ],
+      [
+        "smart_open",
+        "7.3.0.post1"
+      ],
+      [
+        "smmap",
+        "5.0.2"
+      ],
+      [
+        "sniffio",
+        "1.3.1"
+      ],
+      [
+        "sounddevice",
+        "0.5.2"
+      ],
+      [
+        "soundfile",
+        "0.13.1"
+      ],
+      [
+        "soupsieve",
+        "2.8.1"
+      ],
+      [
+        "soxr",
+        "0.5.0.post1"
+      ],
+      [
+        "spacy",
+        "3.8.7"
+      ],
+      [
+        "spacy-curated-transformers",
+        "0.3.1"
+      ],
+      [
+        "spacy-legacy",
+        "3.0.12"
+      ],
+      [
+        "spacy-loggers",
+        "1.0.5"
+      ],
+      [
+        "sqlalchemy",
+        "2.0.42"
+      ],
+      [
+        "sqlparse",
+        "0.5.3"
+      ],
+      [
+        "srsly",
+        "2.5.1"
+      ],
+      [
+        "stack-data",
+        "0.6.3"
+      ],
+      [
+        "starlette",
+        "0.47.2"
+      ],
+      [
+        "statsmodels",
+        "0.14.6"
+      ],
+      [
+        "swig",
+        "4.4.1"
+      ],
+      [
+        "sympy",
+        "1.14.0"
+      ],
+      [
+        "tables",
+        "3.10.1"
+      ],
+      [
+        "tabulate",
+        "0.9.0"
+      ],
+      [
+        "tenacity",
+        "9.1.4"
+      ],
+      [
+        "tensorboard",
+        "2.20.0"
+      ],
+      [
+        "tensorboard-data-server",
+        "0.7.2"
+      ],
+      [
+        "tensorflow",
+        "2.20.0"
+      ],
+      [
+        "tensorflow-metadata",
+        "1.17.3"
+      ],
+      [
+        "tensorstore",
+        "0.1.78"
+      ],
+      [
+        "termcolor",
+        "3.1.0"
+      ],
+      [
+        "terminado",
+        "0.18.1"
+      ],
+      [
+        "tf_keras",
+        "2.20.1"
+      ],
+      [
+        "tfds-nightly",
+        "4.9.9.dev202510250044"
+      ],
+      [
+        "thinc",
+        "8.3.6"
+      ],
+      [
+        "threadpoolctl",
+        "3.6.0"
+      ],
+      [
+        "tifffile",
+        "2025.5.10"
+      ],
+      [
+        "tiktoken",
+        "0.9.0"
+      ],
+      [
+        "tinycss2",
+        "1.5.1"
+      ],
+      [
+        "tokenizers",
+        "0.22.1"
+      ],
+      [
+        "toml",
+        "0.10.2"
+      ],
+      [
+        "tomli",
+        "2.2.1"
+      ],
+      [
+        "tomlkit",
+        "0.15.1"
+      ],
+      [
+        "toolz",
+        "1.1.0"
+      ],
+      [
+        "torch",
+        "2.11.0.dev20251229+cu126"
+      ],
+      [
+        "torch-geometric",
+        "2.7.0"
+      ],
+      [
+        "torch_cluster",
+        "1.6.3+pt27cu126"
+      ],
+      [
+        "torch_scatter",
+        "2.1.2+pt27cu126"
+      ],
+      [
+        "torch_sparse",
+        "0.6.18+pt27cu126"
+      ],
+      [
+        "torch_spline_conv",
+        "1.2.2+pt27cu126"
+      ],
+      [
+        "torchaudio",
+        "2.10.0.dev20251229+cu126"
+      ],
+      [
+        "torchdiffeq",
+        "0.2.5"
+      ],
+      [
+        "torchmetrics",
+        "1.8.2"
+      ],
+      [
+        "torchvision",
+        "0.25.0.dev20251229+cu126"
+      ],
+      [
+        "tornado",
+        "6.5.7"
+      ],
+      [
+        "tqdm",
+        "4.67.1"
+      ],
+      [
+        "traitlets",
+        "5.15.0"
+      ],
+      [
+        "traits",
+        "7.0.2"
+      ],
+      [
+        "transformers",
+        "4.57.3"
+      ],
+      [
+        "treescope",
+        "0.1.10"
+      ],
+      [
+        "triton",
+        "3.6.0+git9844da95"
+      ],
+      [
+        "trl",
+        "0.20.0"
+      ],
+      [
+        "typeguard",
+        "4.4.4"
+      ],
+      [
+        "typer",
+        "0.16.0"
+      ],
+      [
+        "typing-inspection",
+        "0.4.1"
+      ],
+      [
+        "typing_extensions",
+        "4.15.0"
+      ],
+      [
+        "tzdata",
+        "2025.2"
+      ],
+      [
+        "tzlocal",
+        "5.3.1"
+      ],
+      [
+        "uri-template",
+        "1.3.0"
+      ],
+      [
+        "uritemplate",
+        "4.2.0"
+      ],
+      [
+        "urllib3",
+        "2.5.0"
+      ],
+      [
+        "uvicorn",
+        "0.35.0"
+      ],
+      [
+        "uvloop",
+        "0.22.1"
+      ],
+      [
+        "virtualenv",
+        "21.5.1"
+      ],
+      [
+        "vizdoom",
+        "1.3.0"
+      ],
+      [
+        "wandb",
+        "0.24.0"
+      ],
+      [
+        "wasabi",
+        "1.1.3"
+      ],
+      [
+        "wcwidth",
+        "0.7.0"
+      ],
+      [
+        "weasel",
+        "0.4.1"
+      ],
+      [
+        "webcolors",
+        "25.10.0"
+      ],
+      [
+        "webencodings",
+        "0.5.1"
+      ],
+      [
+        "websocket-client",
+        "1.9.0"
+      ],
+      [
+        "websockets",
+        "16.0"
+      ],
+      [
+        "werkzeug",
+        "3.1.3"
+      ],
+      [
+        "wheel",
+        "0.45.1"
+      ],
+      [
+        "widgetsnbextension",
+        "4.0.15"
+      ],
+      [
+        "wikipedia-api",
+        "0.9.0"
+      ],
+      [
+        "wrapt",
+        "1.17.2"
+      ],
+      [
+        "xformers",
+        "0.0.31.post1"
+      ],
+      [
+        "xlrd",
+        "2.0.2"
+      ],
+      [
+        "xxhash",
+        "3.5.0"
+      ],
+      [
+        "yarl",
+        "1.20.1"
+      ],
+      [
+        "zipp",
+        "3.23.0"
+      ]
+    ],
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1"
+    }
+  },
+  "code": {
+    "src/matrix_workbench/__init__.py": "2a3f6531105929029a09280be371a4ca106b00fc4300acd23267da836fd488dd",
+    "src/matrix_workbench/attribution.py": "af8ad09e61d9410b1223b864a215905f2e89e7bcf5d049422fcfbda6cebf5450",
+    "src/matrix_workbench/context_probe.py": "e7064ec570f6f62dbc69aff25e8adef322d4007522457bbc0c347d76e7818348",
+    "src/matrix_workbench/dna02_ports.py": "3b9b20ad5874ed70c3e6d24e15f020cefd58a970ecda4c8dbe1b5febc225e93b",
+    "src/matrix_workbench/local5.py": "cfd225fa00edf7642a0d49665f755731d3986e10899f0d25005f5e1ba8c44dc4",
+    "src/matrix_workbench/morphology.py": "049e70e2c617b6e5183967a1a16325233dafec32af843366fa40a5e7711274fc",
+    "src/matrix_workbench/pnlhn.py": "15712faddf2e5faf9f3593fcb85777fc3ca9bf483320efbdb9b02800e9cca08f",
+    "src/matrix_workbench/regions.py": "8789dc55809cbe9e7ad2537ae06e2f30736ba21843fba00cb882dc9d6d651828",
+    "src/matrix_workbench/runtime.py": "325a24682d7c9740f7f46efd2a7e55c22adfbed3da7ccd7fdacd1ad745488fc6",
+    "src/matrix_workbench/science.py": "e3a77b9e8610ac1992a1c2865a56aa229ca2cfe3fe196641f89b8a37d40714bf",
+    "src/matrix_workbench/soma_reference.py": "11c1abb1d3caeaf0dab42e8eb72afff684d2ef629780d983f73fa513c2d5a5d8",
+    "src/matrix_workbench/state_inputs.py": "fc50fd2c4f50901d7889f1864d1f6936f212a185d5af5cb33ca167b1a0b3fc38",
+    "src/matrix_workbench/tasks.py": "574016e23987fbddc068263bf56303c3d07c02645812bbbe063292be5d4552e2",
+    "src/matrix_workbench/worker.py": "67a93231acca16e1dd1a9aa3159baeed6f4e0d272a7852e8272036ebc7bccfed",
+    "src/session_io.py": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172",
+    "src/source_dependencies.py": "9a50698c6c4293d3f6197c4a0f2c2007fdef443e608ba790d01bdc51ca53f542"
+  },
+  "source_dependencies": {
+    "campanas/etapa3_motor_nuevo_20260922/event_ports.py": "e4faa68c9ca97e80708d32d3c5d990d757694ac45e2749964e34eee7e86d798f",
+    "campanas/etapa3_motor_nuevo_20260922/graph_control.cpp": "04a2ac83f0c3a4f1b095e34e61e5d7a32cd2c2b339f1b7c56f0dc1bd30db944c",
+    "campanas/etapa3_motor_nuevo_20260922/graph_core.py": "898dbf27525887da8f127ffe8114df734a8dcc8a99072f667e263ed82838a497",
+    "campanas/etapa3_motor_nuevo_20260922/libgraph_control.so": "17846872ffea27b2cc6b4f9bc40c7cc369a3594c03d90d536cd342f8459c1dd8",
+    "campanas/etapa3_motor_nuevo_20260922/organism_adapter.py": "355666d4f0510ec5d2cb86843c76c65d2035e617271aa21b1d9dba364a18ded6",
+    "campanas/etapa3_motor_nuevo_20260922/pn_execution.py": "15b5d554031feb8a0c2ad9c62162d13dbe3dcc733f3795fb6e1b0e6e49ef5cda",
+    "campanas/etapa3_pn629_intervention_20260923_15/block_runtime.hpp": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7",
+    "campanas/etapa3_pn629_intervention_20260923_15/device_cell.cu": "c7f009cb8647b7bb0e56b1a59e0f90f4d90beef4e9701dca8faf95907f2b055e",
+    "campanas/etapa3_pn629_intervention_20260923_15/device_cell.py": "00ec0aec5d9d4692690bfdd4c6477048de731d7538179bcebf3cfa7c8d745d45",
+    "campanas/etapa3_pn629_intervention_20260923_15/event_coupling.py": "63376129f040c4ae709a6137ca83ca7a8adc5aba816a6edbed728d4be6d30a6b",
+    "campanas/etapa3_pn629_intervention_20260923_15/event_ports.py": "6cf76828b988fdac3b41c0be822bc4a4bdd243fd2d6a15d0afe4e9b011c9a8d6",
+    "campanas/etapa3_pn629_intervention_20260923_15/event_waveform.py": "0ffde290df936be2f585cec26bbf9d86885ba13f18ec648c9502e0cd48aa4ea0",
+    "campanas/etapa3_pn629_intervention_20260923_15/native_cell.py": "55030a36ab2f92bd6ac4cd05ed2e7afb9247cf026e491120a69b4584b1b87e36",
+    "campanas/etapa3_pn629_intervention_20260923_15/physical_events.cu": "f0ed6544052c6e2c872b7ef97ef74b33fcbc69b29d3aaf936c6eba078342351f",
+    "campanas/etapa45_composicion_20260927_48/coefficient_observed.cu": "5a45c5ba54a67a16bda7b956df1ea45e9f820b20d0c0df53b0bd0028346e560a",
+    "campanas/etapa45_composicion_20260927_48/observe.cu": "e0b550fdb57980f6ae235825afe0c116c9b779ee47cc3ff97c82f3697ad2d3de",
+    "campanas/etapa45_composicion_20260927_48/observer.py": "d183de186894dcb7f25e3b5284584a86e68313052eeeb53a28a623c6d8ed22b3",
+    "campanas/etapa45_composicion_20260927_48/protocol.py": "1be655ba62ef9a7577b6290bb7b415072a7a8095a7b5b586a185b026ba1b1ff2",
+    "campanas/etapa45_composicion_20260927_48/sensory48.py": "b6ead4bae3b4912765a28ce4d63f8f175a2fc21af87e7260e6adcd9fe1487ad4",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/PILOT_PLAN.json": "8a3bf108f2e79c2e2d08a61f598d6ec0fbf675b58dc9e1854d3deac96101941c",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/continuation54.py": "f2fd70f1be3bf5ddaad7288cce97e3c9d9f666cc91ccf90159f859bd4038622d",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/PILOT_PLAN.json": "86ddc8e645357b9063aeee39bd57238865422f77aef7e3837821ab152d48ae04",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py": "2cfa19d7bd5cfc14379e44d876f6da9b36efa1192261807df694286da29f9059",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/run_pilot.py": "a1c5d0987c2d82e02debd9a42de1668b7c7f59295840a0fd34492bcf6d864ec8",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/run_queue.py": "6207bc30360918378cdc5bec4bfc77277745088fb7830d6819983c88369e35ef",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/run_pilot.py": "622a318e37ada433ff21478373463f5f4ad3c3fd5e650a8a6ae7436ca8a3db4f",
+    "campanas/etapa45_fuente_cuerpo_20260928_54/run_queue.py": "6207bc30360918378cdc5bec4bfc77277745088fb7830d6819983c88369e35ef",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/clock_guard49.py": "f028a5912ee3a4545327adf64fe8f3ab18ad09d67dac251ca29d179f445f7c88",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/compare_endpoints.py": "7cd7420840c4d064d006e60f98bb36555ff5eb3b1b8255e995b1859381ef684a",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/qualify_worker.py": "b97f468f0440d6f6a57fa23a7ce99bacd41be6066dce10ca9905c40435591d76",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/reproduce_clock.py": "3a130a5de936a55bcb1a936eaf0becde1ac4945683a3e153236aebed972d7f49",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/restore48.py": "8e463806ae14b5fc628984a185db3141e216201bf9f03feb2fcee8a2e221e69c",
+    "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py": "39ed75d03071f8669fbbf7d365f06303a6ce34890b894d1ccd0445ea301cbf81",
+    "campanas/etapa45_reparacion_observada_20260927_52/PANEL.npz": "f6f1d8b3690eff966917238b0e292574561bacce7eb04ea9d43d9d1561e67dd3",
+    "campanas/etapa45_reparacion_observada_20260927_52/PILOT_PLAN.json": "5ea82813df23d84789621f96a215852d1b546ae360fca044c53b4f5d2d7a71f2",
+    "campanas/etapa45_reparacion_observada_20260927_52/analyze_pilot.py": "072b3c124a5cad296c6342a433793136440db0ccb7ab50a5d37e26dbed2524bb",
+    "campanas/etapa45_reparacion_observada_20260927_52/coefficient51.cu": "f6e06c4bd5f670c0700f57a93580a010ce992e1003672939d7b40686ae1ef52e",
+    "campanas/etapa45_reparacion_observada_20260927_52/donors/JO_anatomy_arrays.npz": "b73f57e28653f900a253b1009324e5607383a56b265ba22e74d531017e56a9d0",
+    "campanas/etapa45_reparacion_observada_20260927_52/donors/air_interface.py": "3c12b0000c3cd9ca257637ed719ac600bbddc7622b7bbf290fa8e1c2ccaa946e",
+    "campanas/etapa45_reparacion_observada_20260927_52/donors/coefficient_observed_reference.cu": "5a45c5ba54a67a16bda7b956df1ea45e9f820b20d0c0df53b0bd0028346e560a",
+    "campanas/etapa45_reparacion_observada_20260927_52/identity49_reference.npz": "d362d7ae13563bb6a1997b12409376b86e6cb1b3af151af6b9e95a43389a7b85",
+    "campanas/etapa45_reparacion_observada_20260927_52/native_initial_q.npy": "65d2bb704e3ac5e8b01507a9fb9448baf1ca6df64a5125001c23b03c46b8657a",
+    "campanas/etapa45_reparacion_observada_20260927_52/observer52.py": "f3cfffeff7c9d271d284c93d73956ffee9648cbaba6ffe37f25824389e644fad",
+    "campanas/etapa45_reparacion_observada_20260927_52/parent51_projection.npz": "76c6bf43b0109f9784c4fbcf76b70c10d1922d9da5f787b16fbdaecbb94a6524",
+    "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py": "325ca64a22a080ccd52ec971c2ad6079138c8995c28974e80e0b396e0d72f1e1",
+    "campanas/etapa45_reparacion_observada_20260927_52/preflight_cpu.py": "4a21940fe5e74bd940c5af2cfe778cc29dae77e294f97635c97c4d037e712f96",
+    "campanas/etapa45_reparacion_observada_20260927_52/run_pilot.py": "5820ecbe783a9b847e6c2b8f946535b7777c91f8f41050134b617966e3fba330",
+    "campanas/etapa45_reparacion_observada_20260927_52/run_queue.py": "b1d2280016b8e4f54e09ba0232c75ea0230dff281a2bc20c27590e9fe65aa158",
+    "campanas/etapa45_reparacion_observada_20260927_52/saturation_population.npz": "bfd3c14cb2219d51b64775bfde569587049c0bb1d7725e883557625417902ec0",
+    "campanas/etapa45_reparacion_observada_20260927_52/verify_qualification52.py": "191a21ee9c822e127bad2dbc887ae4583b90390404d047ee42398ca8a77f3bab",
+    "campanas/etapa45_senal_natural_20260928_57/PLAN.json": "e67c78284b40727d31e865a904aa8d49e930dbcd6b32aa41b51dde80cbf7cb57",
+    "campanas/etapa45_senal_natural_20260928_57/PROPUESTA_PROPIA.md": "e107197cf8633c9ecab9d46c7fc3f8ca4a71f9933ba3d652ea38c8a7b97bab04",
+    "campanas/etapa45_senal_natural_20260928_57/observe57.py": "68c7ae66864944cb7756f7780e03f4b895751640de8756f0a25222d713959874",
+    "campanas/etapa45_senal_natural_20260928_57/prepare57.py": "23936c29b18edfc2d50eb2824a968242bb354c4e752fffa3e3233fbf9237fba0",
+    "campanas/etapa45_senal_natural_20260928_57/queue57.py": "99f93f2c1416e5e35803120836ca519dba2fb9008d53013addc1d834e66c6234",
+    "campanas/etapa45_senal_natural_20260928_57/reference/PROVENANCE.json": "f572a9b03d03ff77cdca78c76c5dc218262d377b4ea09ccb62240f2de387bccf",
+    "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709",
+    "campanas/etapa45_senal_natural_20260928_57/reference/anchor.npz": "75d1c62d8244f7ea5b348dce11f15eec57cf3bb2f9a5eafb89b0d9eedd47febe",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_L/SPATIAL_OWNER_FINAL.json": "032a86fefc47ab3a505559d66c7a18bb92fdc6db991177a66d3a60b5844e7ec3",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_L/dng100_observed.npz": "8e7c2e8e72607cb82e61e07bb4e980b60c4895d767d1da6d817dad44ccde8c4e",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_L/neural_and_inputs.npz": "16bd75ff498812958d2035cf3819708833ffacc39f38214c10e8df57f1c24426",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_L/traces.npz": "e3e80038969f449ad33bc3d6feaa2fe83d511929ba28046c63215aabdbb51b95",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_L/wide_observation.npz": "dbd0d85fe44ba7d6791fb23619829c6e9796bb29d7d3f80455f18a3341877174",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_R/SPATIAL_OWNER_FINAL.json": "3d1627aa8073d04d91b45e4a67ecbb38b1c5fbff8165bcdca5d10d4d52ec3c27",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_R/dng100_observed.npz": "35f6496c4861f4dcc861909d4cfe25488ba290fd04fee279fc1acdd21a28815e",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_R/neural_and_inputs.npz": "632b622d3995d59e3a86af9513271a6bd1dce256acb888a0cb2b916851821251",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_R/traces.npz": "c9ff2c87a6f65585047e12cb3410cd259e9e5ee2d0814f2138389be9376b8a15",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_R/wide_observation.npz": "984638b84edf6d65b381e29fbe053aeafdaa3cdfb6220d534c0679192b313989",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_none/SPATIAL_OWNER_FINAL.json": "47894947918fc718515d7d6dc840db5ac9d922cf15d759f06224c85e7066351c",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_none/dng100_observed.npz": "8ecb3b01c9171c343e86876061b618859ea6b0e4d8a86b5fd9d3505054b96aa9",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_none/neural_and_inputs.npz": "c84ee4eb20f91342d373396967056e37e0a5249d169311da41c6740c255543af",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_none/traces.npz": "3f8f55d629e21428e692e054014d4c3de5f75621f2073cd6b94204df2ee9f7d9",
+    "campanas/etapa45_senal_natural_20260928_57/reference/parent_none/wide_observation.npz": "4c3fab9db3505561fb785a086a6a55cbe52d4c7a960fe47ca148228896d8fc48",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/EVENTS.json": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/PN_consumed.npz": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/SCIENTIFIC_WITNESS.json": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/dng100_observed.npz": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/neural_and_inputs.npz": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/traces.npz": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9",
+    "campanas/etapa45_senal_natural_20260928_57/reference/qualification56/wide_observation.npz": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643",
+    "campanas/etapa45_senal_natural_20260928_57/run_natural57.py": "f1a3cf29c38fa64be296cbec868102306d583081a7912968dfaefa021fb0a4a9",
+    "campanas/etapa45_transferencia_causal_20260928_55/PN_PLAN.json": "5ec3541e4bd98bdf97578e47aecc5206debc621b27d9e3225c4d9d5e636e0ce9",
+    "campanas/etapa45_transferencia_causal_20260928_55/aporte_motor/pn_boundary55.py": "95f3c939eb8bd4b7676fc502e755b74d79d8bcdf0717aa9b18245fbd986cbdc0",
+    "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py": "b41932f5632d0c8b5e119ba9618f1ad7571611f9a4f6cc7ec5ef9af851d08b3f",
+    "campanas/etapa45_transferencia_causal_20260928_55/queue_pn.py": "d3442395058b63c8a43a3b53d75f616e51f2b56f2e0dad743ba1205802ed80a8",
+    "campanas/etapa45_transferencia_causal_20260928_55/reference/PN_donors.json": "1d72985b147c55611e5bce96acaa53d74caa786c163b4e57ef7152e35a0f7005",
+    "campanas/etapa45_transferencia_causal_20260928_55/reference/PN_donors.npz": "c17a763116a753ac144b2172626874ad8461377037c28710a4ab982fd704fb8c",
+    "campanas/etapa45_transferencia_causal_20260928_55/run_pn.py": "5933f9e902c91d0e62fe2f7b3aceee0cc4d6b96dbb37bf45661040647f43856f",
+    "campanas/etapa45_transferencia_temporal_20260928_56/A_DESIGN.md": "377f7102b07e5024d1fdfe72d2647977d3a186a399d38ddbcc99ec8ddfc8fec2",
+    "campanas/etapa45_transferencia_temporal_20260928_56/A_PLAN.json": "e5798140a423ff98e83095c358246fb50f3e14a4b5d3e58557af63d011d11548",
+    "campanas/etapa45_transferencia_temporal_20260928_56/PLAN_INICIAL.md": "a6e670fce86390bc36be2c218852c5d6ddc262e3fb583eebfcfd5608b530d191",
+    "campanas/etapa45_transferencia_temporal_20260928_56/REPARACION.md": "9aadffff68808f735495c66d4dcccb3c88d5c0cd31b99ba9a09b20da19c76330",
+    "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py": "c6830189fdb7100df83b178f0ed8c7a5bad90a93c5037332b524b7eefab5b789",
+    "campanas/etapa45_transferencia_temporal_20260928_56/queue56.py": "30208fabf31fc32694180980b56d184f1ddb0afa43481e458b3d9700d08f611f",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/INITIAL_PROVENANCE.json": "e9bfead7189d217df32d72c0bb5cfd5cbadaeb29281b29a63a3acbed6e19730b",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/INITIAL_STATES.npz": "7dbab300908b9b15adcb3ac76f0777a0d15adeebebf16bd6016211b2717819fd",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/REFERENCE_HASHES.json": "e4b5fac7326406402a23102f6f5016a7c3e6a95be15cf5d97a7ed3ff12b117aa",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/TEMPORAL48.npz": "d5c3dcc8cb6a748c648e2101fe454e7f3bc4bbf2ed8d8a8fc85d1e542407936a",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/TEMPORAL48_PROVENANCE.json": "b91a100ea5c153cf2a5799d382d0d922872b8ce28a8c0719c5b982b14976e645",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/TERMINALS.npz": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/TERMINALS_PROVENANCE.json": "3f834d78461a47a00230c5c074a5285b2c9281c18a67a807c8a2149a3650614e",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/EVENTS.json": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/PN_consumed.npz": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/SCIENTIFIC_WITNESS.json": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/dng100_observed.npz": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/neural_and_inputs.npz": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/traces.npz": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9",
+    "campanas/etapa45_transferencia_temporal_20260928_56/reference/qualification55/wide_observation.npz": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/A_PLAN.json": "01dcbac064a72ae4b608db1cb67b816d1ed8cfb74053a13655773336eaa84814",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/json_utf8.py": "24c252176c8393b0763e77c82620ad0318b6a1c132476370af77404bef5081be",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/queue56.py": "38b4e46ffc7cf6d81b34ccdc0b1294164dccc33ca05755b3004609c61295b9ce",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/TERMINALS.npz": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/EVENTS.json": "50b7b265a92ae69cacb2fe7a82afa186a8420ece1aecfcf7817425110302e101",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/PN_consumed.npz": "97213f500a3afd60427d5337a4bc4543137387902eb283e42a1242014f7a2789",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/SCIENTIFIC_WITNESS.json": "c457fce396caedddc0e55f0258d2adecc4b2afc84a4c5486a1f7674c448e8dea",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/dng100_observed.npz": "d2fe673a0d5acf97df914b1250d1bbc51490be13d482fe4c88d765a9b067c6c7",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/neural_and_inputs.npz": "31c3a73619bb4223b2c42a42847a97933c02fc518cf3d4b607936a7f58b67835",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/traces.npz": "991c41bf1d271dd566dcdec6c03d098c1ad21714ffd956c986b4326f3fdfe6b9",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/reference/qualification55/wide_observation.npz": "a87f93baa23909cc3c58853f4db32ae4fb9276a0824f22ad33f0ae868a92c643",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/run_hold56.py": "ffab5b1f2997556fee5247edb0b0d0d6e7a2d5ecca3b03e77f0828e33d2b63b3",
+    "campanas/etapa45_transferencia_temporal_20260928_56/repair01/test_encoding.py": "f5376de0975287148da821b4560dae3707f27cb999cc8426b50e9c53f27f6fd4",
+    "campanas/etapa45_transferencia_temporal_20260928_56/run_hold56.py": "5abfb47aa86206d5abfbd14ee6fbf9ae893da4c402a2512140e942171febb794",
+    "investigacion/continuacion_causal_20260928_11/CRIBA_FISICA_PLAN.json": "06862e90acb6897b43df9d3033e073f77fa9397e227f5784ad6c8c1d64023543",
+    "investigacion/continuacion_causal_20260928_11/MOTOR_UNITS54_REPAIR.json": "c1b5c5e27e6f1d3f7821da73cb06b5d36f0e0ea3ea971ac3a19da06ba7cdd537",
+    "investigacion/continuacion_causal_20260928_11/SENSOR_PROBE.json": "a8cd39b81a2649c1a826c4b636867146366c471b269c87f16eafb4d4ef703c1b",
+    "motor_nuevo/causal_runtime_20260922/affine_ports.cu": "b5db77e30785c51d28532cb0846ba1cb0e05a13e8d11d69d713a41de18460031",
+    "motor_nuevo/causal_runtime_20260922/block_runtime.hpp": "1495e8aad58906b3ee957f2a47a42703fd23061748b08b5a9ec4803746c033f7",
+    "motor_nuevo/causal_runtime_20260922/device_cell.cu": "46b28f6821d4288601f185dd07b82fedfed81170a916fe0f795f6f9515e6040d",
+    "motor_nuevo/causal_runtime_20260922/operator_state.py": "8f07234d9394d5d435995fe399a5c2ffb135c77c3460313f6d1d540206a06558",
+    "motor_nuevo/dynamics_12s_20260926_13/observations.py": "fa0fcaaeca142e7cbdc29c840f5cc1e4a346860570474c35ff99551ad8911761",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/fast_fp32_coefficient.cu": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/fp32_operator.py": "af1edfcf7a5b08bbf5679e8d3437233f31014f40bf58637f3e3d422d779c5624",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/graph_runtime.py": "97cecb15ad321165ad90100c4bb81f3e7dbb19c1a7de9e153fc481f1fa33c3d1",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/libresident_controller.so": "c8c1ad62efbbd5a136ce438c6d13a4a8c2057407b33e76825291a450c81e0fd0",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/model_weight_writers.py": "fb61ca69158397f775ff985ebe22e462d50b13c5d4441e1553732f9a6dbf7360",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/persistent_fp32.cu": "b2c3c1c26c98d59c327e3a9112241d8dcd592265c64cc58677faac0caf263170",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/persistent_weights.py": "026be92ee1a885ce8006e78f074316d39a91e8c526ef6d017c3800bf0441f978",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/real_model.py": "074c2ee0642849aa6a95e4848d15d5bdbcccbe11dd61183e46186884b381b2a5",
+    "motor_nuevo/full_pipeline_review_20260925_12/engine/resident_controller.cu": "6940d56d8cf6fa6fa26c4598dd1874598f338cc1efa185b68929399824be7125",
+    "motor_nuevo/full_pipeline_review_20260925_12/full_snapshot.py": "d7bf8355726d61788db6acf79c53b0311661a799d68c4a4b8b2cadc328429f5e",
+    "motor_nuevo/full_pipeline_review_20260925_12/hardware.py": "b64f3a0bbecb53349eb2374161c64e021be673f1310d5f73d0bdb32111c4fd0a",
+    "motor_nuevo/full_pipeline_review_20260925_12/motor_wind_fixed.py": "9a7b4d7458ae237b57c9537263d965a49fc81b9e3a738aabd03be11617a1f05d",
+    "motor_nuevo/full_pipeline_review_20260925_12/pn/cyclic_tree.py": "c94066cbda7b6f4d60b1e5a4214ac2997826e0fc9b801eda302ec768d4b3568c",
+    "motor_nuevo/full_pipeline_review_20260925_12/pn/install_pn.py": "b26fffe433f050872874c0f6d50c2321b305e14f6538291dae5995da591108d9",
+    "motor_nuevo/full_pipeline_review_20260925_12/pn/resident_cyclic.py": "1cdb194094c99ade4449c19dff8ae63808186e7203b9aa2adc7231db2b768b85",
+    "motor_nuevo/full_pipeline_review_20260925_12/restore_prepared.py": "1163cdeda6a1deaeaea503a7f8ecd2db8f5105e24229394ca4dfe7f0f7ad09ad",
+    "motor_nuevo/full_pipeline_review_20260925_12/run_trial.py": "5e53608c66998f4a2f997c27a1ff0fddba14c456e8aca119dd382cc14730860d",
+    "motor_nuevo/full_pipeline_review_20260925_12/source_inventory.py": "2ba8d56efc034d8a18a8815f960a90e90adbb2ecb08c7b7f0026fc343667a236",
+    "motor_nuevo/full_pipeline_review_20260925_12/state_compare.py": "4a3b0aa040fae75be29c5dc371588c30a0aba287cf528906563b0b45939aee4c",
+    "motor_nuevo/full_pipeline_review_20260925_12/wind_mapping.py": "7b8d826bfc72417dda7e7730a93bdfef7a39c509c59bbe7f81fff3a86eced02e",
+    "motor_nuevo/native_hybrid_20260922/cell_control.cpp": "df94018bf9dcddaccd55f558ba764b0b4907f2fa1f0696eb79ce632db6d9112c",
+    "motor_nuevo/native_hybrid_20260922/graph_control_v2.cpp": "5aa0935103ad2e29d7bf05683ad3e291949f04c7abcd6537f945cc90daa62642",
+    "motor_nuevo/native_hybrid_20260922/libcell_control.so": "89535285fbb1b924ce3c0a6138e4b942e890693558d4cd1437cdaeb42cfd4159",
+    "motor_nuevo/native_hybrid_20260922/libgraph_control_v2.so": "d66d038eae578ee088ec4b3585e359743612f389d11d247f9aae4b3f23603a1d",
+    "motor_nuevo/native_hybrid_20260922/physical_events.cu": "652dbf8820578a215a68f24292e49440ea1a22499b3d9abc101b4a4deb65e93c",
+    "motor_nuevo/native_hybrid_20260922/rollback_guard.py": "1ca4eef03ffd15df0eebff8ff5cfd291c7509ff09310df071fa1febc73e1b772",
+    "motor_nuevo/native_hybrid_20260922/ros_step.cu": "e48c9fdba6f7d25e269540b3a23f4e0e519e48542675d974d8e7c76952a69ab4",
+    "motor_nuevo/pipeline_review_20260922/graph_control_trace.cpp": "b2ba0b39de81d38a33d9cdb197a8abf4a4da9f5ba359022d54ecfead631f9d9d",
+    "motor_nuevo/pipeline_review_20260922/libgraph_control_trace.so": "3126382c521284503c4f5271aa84205911cc196588b468b7f94780bf4ef1b45c",
+    "motor_nuevo/pipeline_review_20260922/runtime_session.py": "0793112afaaac4afaabf6a10822092ee442aea901d83e210e5ec38b94cc71d81",
+    "motor_nuevo/pn_abc_20260922/cyclic_plan.py": "f56a117a9f9f8ec9747a78d9a3ecd76457e6095ca3fdd621aaf33d5d481fb72b",
+    "motor_nuevo/pn_abc_20260922/cyclic_tree.cu": "d607a781ec55e17a57fd539583b6d74dc50f9339981a8082b78b7041ebb81717",
+    "motor_nuevo/pn_abc_20260922/parallel_core.cu": "7cb9421025ec79d6c67f7b99120c52dbdd18a8f5a1b2fc9030738ab5c671b223",
+    "motor_nuevo/pn_abc_20260922/parallel_core_before_barrier.cu": "dcd4b50ff609580a194fe181342791742b94525d65866f2c5bf6b1c2879eeedc",
+    "motor_nuevo/pn_abc_20260922/parallel_tree.cu": "ffba3a8611205ac15ee6b322b26aedb285acf673787f2a58a5e26bf5f5e7d7d7",
+    "motor_nuevo/pn_abc_20260922/portable.py": "0b2abfabcaab1d92104f5b40ba2dd0ff3a6b1538a5f4bdde6c2dd6aadc86fb7f",
+    "motor_nuevo/resident_pn_20260922/gpu_kernels.cu": "6af10d81ea127dd2cb3a705b56ff85e64024bb2f3a7057f18192beeb6ddef568",
+    "motor_nuevo/resident_pn_20260922/graph_stage.py": "9ea3998e32d33c82b6f67e8ca391b555c6b314239197722cfc57fc5a54999811",
+    "motor_nuevo/resident_pn_20260922/graph_step.py": "f149f1b4d753eccdc978b1c79eac5e67aa0d295615ce584ff8efe1b7f52779fb",
+    "motor_nuevo/resident_pn_20260922/resident.py": "73b6dc0480ca19c3779117ad0b27ee5a2b488b21a7ea3169621a42915f8d4e2c",
+    "motor_nuevo/resident_pn_20260922/resident_cyclic.py": "1a82bf050a571a17f3f62f75501048d0562b5a30548ee28a4cba4d2ff61e513d",
+    "motor_nuevo/resident_pn_20260922/resident_step.py": "7411ed8abd3bb34f3b117b02dc20730efd44c2038376a5b210d9cd35b2656e95",
+    "src/active_tendon_bank.py": "fea1aea51a7f1814bf21c45729fabd4f23bee9e3089b89a2bcd25199825cf0ef",
+    "src/anatomical_morphometry.py": "9bd60ffa237cbc694fb4b986841c9d5bf2c80a2642eebfa071f553d69de76b43",
+    "src/anatomical_plasticity.py": "cfd67eb9322705366f2640b4af58b0136c5c3af9b3279b31646c41f3d8b069ea",
+    "src/anatomical_preparation.py": "0f18ab24b100824a92bab76fa4a0f0957ae579b58a460909de714e3b3125e039",
+    "src/anatomical_proprioception.py": "d2e6cf3c1c1067979ee136bad924c93123fb5c69540078e586d22aff05a5d088",
+    "src/anatomical_rate_brain.py": "44ea26594d1b9b00d78ad0fc759a7fa3b2f02af7bd367ae6ab5c6799469a4ba3",
+    "src/apl_region_routes.py": "249735630dc61da1369391cbd48d770872802eaf513d54519a9c96e49df66417",
+    "src/bilateral_front_body.py": "62a92c502732bc8ef0c9e494d210a49b5bf8eaa25dbda688cf131a9b69ee836c",
+    "src/bilateral_front_session.py": "bce5957d165593563373c0e520bc9c5493ebf05090d6418fe5250895a4dc5f85",
+    "src/bilateral_front_storage.py": "72cabb1c04b0dd85219febca8a2b57742422a5cb8adf6769de3cab13c51162fe",
+    "src/bounded_cervical_session.py": "43a2bd3585b417c3ba8074e1477210a8d357595c621aaf05522bbffff6569ec6",
+    "src/canonical_pathway_probe.py": "c7264471bf1395aa20612e57c16d24b153cedf330ce3eec756a8b86b228a6afc",
+    "src/cardinal_grating_world.py": "f8a7c9ffd4bec9a66f796a6049692e2f1b938b80ac087f9c028237c17e6607a9",
+    "src/cardinal_visual_session.py": "387c155c47b70a91fc2db476fb0aba78821671b4b8be6e812ce9996e84377d3d",
+    "src/coefficient_buffer_brain.py": "25717e5fbe5f4337ba4e7bec84a26bfef4ef9a42e7cef01e259aaff91b08d12e",
+    "src/coefficient_buffer_session.py": "9db0f89435cadbe87e9c47fd1640c0c1f5a612406fc1df1d99e83edaac5e9b60",
+    "src/compensated_csr.py": "ebd27c96a24a223ee6aef768e6fec3023122b71467ed2e9a703733fdda9463fe",
+    "src/contact_complete_native_body.py": "1623e0350b0985f67506e58a77dc867ce2f3406089a1423c5db294b475c7ea40",
+    "src/contractile_tibia.py": "e2c71319d27f0c7163b106015b40ed653fd979896945a92923ab989bf1da70e6",
+    "src/coxal_body.py": "d99ee05f02ebf5279b312b97e96ab9de6e83a2c24dd167009e0042bb57210a9a",
+    "src/coxal_session.py": "4c39b96cc0aa315d05ae5be3fcb1682c06f64b1b5a692990711a77e97e7208c2",
+    "src/coxal_storage.py": "fea6071883a78a289592bc096620308bb8f1a2a19fb765c9f7611ea91f7ba435",
+    "src/cvn7_conductance_brain.py": "481730f42151962d8b8f6a8305cca31be1a11b480e244b2bda4ce1bd9bd99ad6",
+    "src/cvn7_conductance_session.py": "ec0e90ad0b430aae45b37bad7da29a0ceecd9990a1a50cf638955d72eb711a71",
+    "src/cxhp8_geometry.py": "6e29093771177e1e14a989bcbd65c3acb58b741f04debe186bea20d64c9f0cec",
+    "src/cxhp8_position_brain.py": "169f72fbb8ca221d5311c676f0d0cea11be5e3cf5f2816ea1d6aaaaed31b73b2",
+    "src/cxhp8_position_field.py": "ecc2b6c29ae03315ab9d126ce891a031d68306b79784362aec8c3ee28966c230",
+    "src/cxhp8_position_session.py": "c30350352cf508d586fa507c5761339fb11380e2f6aaca49fd3d9b5f767ac8e0",
+    "src/cyborg_bidirectional_rotor.py": "ef3d75c354326a27549f921142bed4286b208fd5433b7138a37ecb59aaac3544",
+    "src/cyborg_bidirectional_session.py": "e7889a195595ac929be2f2157d01976eca7f5c2e7bdfc2d25e6a2c0d71197387",
+    "src/cyborg_bounded_servo.py": "13bfb5c367d0d33700454ff697d26fec71a7092f3f11d95b7756915923b54761",
+    "src/cyborg_centered_servo.py": "543929c3ebd0b94465ae7774c7a5f2bf034055c9a9a6e449c6b0d9ce5583147f",
+    "src/cyborg_looming_session.py": "d4c6f701b6c80e3cb2dfe8ce4b162a2fa221e28947ed0ee4ddca9cb8dd9b5fb3",
+    "src/cyborg_looming_world.py": "f800f4204fc680136dae96bc072f3695893c4b3089e60423b77510c60a0e20b5",
+    "src/cyborg_phase_world.py": "319e65a5de1b4059f239afaec55ca3358af96879af6afc717aed0bd71a3823a5",
+    "src/cyborg_retinal_port.py": "eb2bd8731305d1664da04b0e6e13d4cc3c312af729f5af59793da378157b4328",
+    "src/cyborg_retinal_session.py": "ed0926b8b1ae5d2ce8a6e3aa2fe504948ec5dabf6e3e98ddcfc684e89d0f381e",
+    "src/cyborg_rotor.py": "ed00069b94394c58d26ff72b8d08d6d04ae2264a04df749d8e6c5d6210f54faf",
+    "src/cyborg_visual_session.py": "b7c9bdab33e00015ff6382b597952bc7b17cc2d7b4d408333687f78df6dc2a6e",
+    "src/cyborg_visual_world.py": "ceda41791952f55414ad091e5007bd912484766be54ba9228e3bf2d75491ce74",
+    "src/dm1_kc_event_receiver.py": "ac6cf7b9004d92ab8b037f8591a92519cb1becf50940b5e02367f251f960d8ad",
+    "src/dm1_kc_replacement_receiver.py": "fcca28fb4184c936d620c3bda68ac619c0b773995eea04aac4b70d6a77c8bd48",
+    "src/dm1_native_passive.py": "08cb2d5a51e2a376a7d350bbe9c45776f70ce11a8f3678f0d925559aaafb3112",
+    "src/dm1_pn_membrane.py": "29edf2ee937c39d43152ecdf4ddbfe61ef36265acff9ec9d8dc8ebcc85640b1d",
+    "src/electrical_parameter_contract.py": "38236e4e2b3014fca9178fa1b539fcd9b9e42f031542f6ace630642ccd099ac5",
+    "src/electrophysiology_edge_world.py": "3a722ea23aa4532104572abf7c67fef91a1b3d48a91e9a977ae139830482052d",
+    "src/electrophysiology_visual_session.py": "8dde1366e001a174988308f935764438957bc2b33141cbb35ccaed6475691074",
+    "src/embodied_navigation.py": "d60159eb9351034f879489216896994239f795764cbd055f66ecf6aa5a5628fd",
+    "src/execution_parent_snapshot.py": "130195807a92b3e2de9490e1953096b3b7ada08d0ef5ba44070f5d39ac2579e6",
+    "src/flybody_cns_body.py": "4592385e2b793772b3cb551e7668e5025a164bb3fc3868b3af9197e454bc772c",
+    "src/flybody_cns_sensors.py": "9b927472b422c2b03d905efa02fc0aa7fcf98cca3ddb0966f54436c2922540e8",
+    "src/flybody_cns_session.py": "392c1cd4eec1ac03540e64134895d092bce862cbe55caa4248d6a76ef040117b",
+    "src/flybody_cns_storage.py": "9cc1e78ae679105b77dff27397551e109abf6198776dd1f44f7aa02865b5d5d9",
+    "src/flybody_motor_session.py": "ce1492af34704d3137d102319c3b16fc749055e9900bcd04f58de94f8eb93d64",
+    "src/flybody_torque_port.py": "d8d1610b582863c2527b9cc0bbce827a7597e8c3e921acbcbd317683893e31a6",
+    "src/gpu_coefficient_buffers.py": "114c60273a52c23f812c5f2252ed0b150439f5236c17bf88fad2a40cf23d5315",
+    "src/gpu_coefficient_layout.py": "2598415d108e5ab595351ad2f3a5a841f6212c999026981f6aa38278ca554f9f",
+    "src/gpu_graded_descending_brain.py": "987bf61abe3f146ec69d89896cb67a473d6dc8c802bd7b0e8042e45e64f8dd53",
+    "src/gpu_measured_t4_visual_brain.py": "e852f313c80e28ca86e546f8cc9d148ff7093088f63e2e8ca6c4f24fafa47cf5",
+    "src/gpu_r8_mi4_visual_brain.py": "e894d621a4864cf4e6bd013502dd7059b7e1b71d3e500e126085f5b4b922cb45",
+    "src/gpu_receptor_visual_brain.py": "5cec7891ca847eab1c6e79332964028cf8eb8a84fbfbd99396f75517feff3e5d",
+    "src/gpu_synaptic_visual_brain.py": "9736b37ab1e7abd42445ba314140a8002b681951ca43ebf191be7b8ca42b1e23",
+    "src/gpu_visual_brain.py": "fd6bc5ec09699b40f7761ee5c04e62741ec922dff0553d35e2129d8f364905dd",
+    "src/graded_descending_brain.py": "fef05b544f60eb3e153f6c773b614b30d393de103ac53647008fdd9c53441c95",
+    "src/guarded_tibia_body.py": "701b22b577606d82deffceca7982204382714b5bbd15affa1bc6b3e4c61f75e7",
+    "src/guarded_tibia_session.py": "567735bb29ea4153cbef02701e761ff645af172ef98829d6e4d67d0427fdfd4f",
+    "src/guarded_tibia_storage.py": "346bfd1ab28de9b32d926a4ae6f861d976c513a562b0ac72b126808ca8ed0292",
+    "src/hybrid_visual_brain.py": "1961a9eed77390edbb57d4d3376733c956c8ed2026764ea5777e998ca9f4e5a4",
+    "src/kc_apl_dynamic_brain.py": "b1cdd58230981fa20bd756c9f20b9920129b215ec660885b20a985222ca0b8f4",
+    "src/kc_apl_dynamic_session.py": "f0770f7889e6531fa1ba16ba085fb2b02e5ed73cd6a59a4029b5bc42f265a04d",
+    "src/kc_apl_dynamics.py": "67ef32fde061cf7c73fee09a5adb456c798a36d7c78e670f71f5d72a5d55c257",
+    "src/kc_audited_session.py": "8100cce2c5e6f6e99086571438f9203ac165be54ea38518893030f9e3642c9b5",
+    "src/kc_axonal_brain.py": "7482a86a9846c6ba8d4911790daf60bf8f3db2a75fe695c1a74ae5626c584245",
+    "src/kc_axonal_release.py": "c6e337d8f174c1494e3d3722bec8fa632df5ce6d74a5251a457a2ac7efbf33da",
+    "src/kc_axonal_session.py": "503028c437cf7bc91233fd359a92e017760434de92c8fb0bb7cb0fb45dc10741",
+    "src/kc_electrical_scales.py": "eddab745afa62f0bc9219328e1508d7ab81a8f395d1d6879ddbf7a64a86bb16f",
+    "src/kc_electrical_scales_brain.py": "395fda4d68cc3ea37b0c33a8ba1566b4ac9a3215160b803fc5ddc52e7bc6b965",
+    "src/kc_electrical_scales_session.py": "69d49e13a2340d499904c6d854601b98f01f87c8e9df7b5db37bc75023f824e3",
+    "src/kc_four_port_active.py": "c9a3e31748f1a011d2e8181940d67129dd16037829ac1881e9bfc0098a08b8f2",
+    "src/kc_projected_batch.py": "f5ae0f471afe98c40a96b9d81d559bfcb613e73cbdb0508510c13af33993b8d0",
+    "src/kc_projection_parallel.py": "c87f87b52d5d160dc99fa5ae78460f427a05ae5f6deb772aef204bc6988dad3c",
+    "src/kc_session_storage.py": "fe7d7d9bc994aebd9e491418af19ff4c330987d466ac2c02bb94d92a07490d04",
+    "src/kc_spatial_brain.py": "ef40a030fd67883de6839fa56f10593bf269a5334d67b7afca289a92667579fe",
+    "src/kc_spatial_inputs.py": "9898d0b538c68db4907218c46480607627adcc1b8368389fff8061b9f3d95bfc",
+    "src/kc_spatial_session.py": "cea3687b22f011054dd9dbbb8e899873212e94431bfb3bebdd276dce752c3a10",
+    "src/kc_visual_brain.py": "acc57a997cdbbb0d5285cb03d9f2800ce1bbb0561c506b29fb6c124ad33d2a10",
+    "src/kc_visual_ports.py": "7c0ebf3334afbe0197d05045e230b2b377635198f4a1807664ade80aba7d173f",
+    "src/kc_visual_session.py": "5d01a3b420ebc3f1c9ce3826237c246d41e379db89d07aea4fe23fcd3bee6c13",
+    "src/kcgamma_axon_candidate.py": "a738f3ec1a338e34f21ab7798e5b514f3d7b033ea1db7241584a46073da9e3e0",
+    "src/kcgamma_live_session.py": "da0dc9496a4892ea45a76e876c9772c9d19ac39dc31110a97a599e3a1bec0a2f",
+    "src/kcgamma_output_brain.py": "c6b222a5d7d36450538de288aef10d45722cd707592a4c3d8ca61b40e79999ab",
+    "src/kcgamma_output_session.py": "26fcdb45ecf610bdf24576e303b3435ea655192a5bf9a9c043dbeee4634da57b",
+    "src/kcgamma_regional_brain.py": "3eb7fae8d7254c5cfe70cfad3748a71174dc9e4c4fd4995d84e7de1084303ed4",
+    "src/kcgamma_sensory_probe.py": "2be8f8ca000ab8a653fa8b0aa6b2485e375cf8d61f1aa7ce65f77f788fe1a5e3",
+    "src/lamina_boundary_brain.py": "4594ceeab95732e910d3ebfc5274300301d7c5c6b37217ba61b265899291203b",
+    "src/lamina_boundary_session.py": "f93e04b8fee0da81394f9a3150fb579a2f5b5288ea43175b16b05d35d42bbb1e",
+    "src/matrix_olfactory_diagnostic.py": "3712f4e337b439c5e375f891c198b6db8faf0690ffb146642e9567a3d23b8ba0",
+    "src/measured_luminance_world.py": "e1d700a5a2caa6e3aa1214b2ff50d07bc108de821e5195915e0648581373ea9c",
+    "src/measured_t4_visual_brain.py": "7175e0f19d54bbfc839840692013be1e018a7ba15adb1bf98dad00a69bbefabf",
+    "src/measured_visual_session.py": "256c7e6004f5249b1f11ab59501e6d06164e5368bb2db8d7d621c59cddf12a3b",
+    "src/motor_release_port.py": "254500ea4e9398bbf962b22d7a589ede30248737a60a0d1ab63876ee2a8b94ad",
+    "src/native_motor_body.py": "e03b6da6e07f8421d1bf044e20384930ca6bd6f0affad3aafb0aa93d5f04fd12",
+    "src/native_organism_session.py": "9ad3c5bbb8b6e245b4eca0fe7c432ab30a05f0d7c6b6406d2be06d7b177631ed",
+    "src/neck_connected_domain.py": "3677d9b7d0a5c15e9d7aae5d77391a715c4833ed1dca48537fde7236807d3a0a",
+    "src/neck_distributed_conductor.py": "c5dd9d66a17bc7a00d5816d806662d499b84197ed9cce4199c5f90bbde65dd0f",
+    "src/neck_dynamic_handoff.py": "3cca0d2c250aca9aef48688a3ca453e9e761106760d620a7d5f4d692e5de55ec",
+    "src/neck_gpu_multigrid.py": "0c7975ef6a6cfac30d0a312cd708638e8ddcde3d18bb9509a2afa5e18ff19025",
+    "src/neck_gpu_transient.py": "423c1ebd33df5f06063a97405fa0a0ac0dc78cb7692f04036ab57e26d361a12a",
+    "src/neck_joint_csr.py": "ca649398ce396ac70b2a7514330e5fdf93d0203aa85da5e465e18d32abd9cade",
+    "src/neck_joint_multigrid.py": "2801d7bc6cfa0292cc33e9bf7f2fe2b03612dc6f7562a24e1eb1760575105eda",
+    "src/neck_joint_transient.py": "4825e5ab7d30dfea644a9c0251473b00dce3d94fc5ab6a476ac425280b2f8f39",
+    "src/neck_multiport.py": "863ec9d29265354cdc5a1856e420f1df4161072dea321addecb3e5d63c8fdb2c",
+    "src/neck_selected_conductor.py": "930e9dae12fad6bb1e2967fac89c50f0bec01fd856e66e654a6dced55332df5e",
+    "src/neck_surface_ports.py": "855f33198f82d73a92efa95663a2f6f39e3caaccb753bc61ced88f9f73ebd70e",
+    "src/olfactory_endogenous_brain.py": "481ce2e06964114b4925e15d46f407e2e86488fe3d7eb880b65ceb7f9fdf62e2",
+    "src/olfactory_endogenous_session.py": "c40d40998583d840959a43d550e552a506eef08f157f6eaae58ba51ace503b64",
+    "src/olfactory_synapse_candidate.py": "1f98240943ab05c78fedc51b12d5d354654f596934b6b52864b42c7845b11b3d",
+    "src/organism_session.py": "079e42d96469b7bcfcda1f0874d3343950ef4bdad424576a2917457a90b4132c",
+    "src/orn_peripheral_terminal.py": "7c65535a50193acc249b173d29d80934563d47a80cd493423afd94c2a0399043",
+    "src/orn_peripheral_terminal_brain.py": "5751dc0f028db2a0b106078c7fe6e6e2b9159bfd2fa38175163c58168f679b35",
+    "src/orn_peripheral_terminal_session.py": "5f155dfb1c0977048abe96f5dc600ea361fabddcde6d17c87ce63a02824a9613",
+    "src/passive_body.py": "d11e4bb573a18ed42c34aba7fb8356add5134c3cd54e98623de32bf70d2863a8",
+    "src/periodic_light_world.py": "7cc691e636bca9e3fbbb3f995ba54c8497dff30d83208faffd6c86c493a7abdd",
+    "src/pn_apl_graded_brain.py": "f70b94d6061898467a6adc396388b4f0166483fb095aeb78f0b31e0c12721719",
+    "src/pn_apl_graded_receptor.py": "4419a9373ed3aa877bf5f6ff735774d4349407f33a59971bdf72480088c43347",
+    "src/pn_apl_graded_session.py": "6723183f3e213ab8699b6e5027ff41100c37bff7f47b995012d091c402561585",
+    "src/pn_apl_graded_source.py": "32ce604c2d7a2c031173f6ac6b0a9f6efa629870f8cff3af0319b5f5188236e0",
+    "src/pn_calcium_coupled.py": "a5b5215c29e8dc8f3f82722bc47fb60c571c845b6c4cced4347c9f0073aa579c",
+    "src/pn_calcium_port.py": "bb15c522b92d145989704f13300ce2d3b24a9103473a26e89c68d2331d698d72",
+    "src/pn_calcium_release.py": "0eec7e5e8216cd9df5da371c34f670fa3b915eaf91b7aa1a8ccdcedd0d756cfb",
+    "src/pn_cholinergic_cns_brain.py": "1ac9b032bd73f4f5c261d68864f8718bfa71295172139c45e5c6a15c8b07e21c",
+    "src/pn_cholinergic_cns_session.py": "922ee0ead4e805b88ca762bd655074a4e8cccf81a08ce682eaed23b30ba79dbb",
+    "src/pn_cholinergic_online_source.py": "ed9762b43cf58d27ceafe1997b5349eeba3664feef595dc04c2caa91adf4933f",
+    "src/pn_cholinergic_rate_prior.py": "63557ce17ea2057ca17d17e3618f2298ff1d608adeb4410001c37fdb08a6ede8",
+    "src/pn_cns_orn_stages.py": "bb8bad26c5073a6122c3d10277b3078e2090970914460e2dfe64b227bda5ff85",
+    "src/pn_cns_ports.py": "da4385d0fffb533504ad8b83695d81bdd397b8532beacad4fa694be0fcd14f4a",
+    "src/pn_coupled_ionic.py": "0bc417c652dacdfbef604c8d69b8245d542e5c4d28ea8c520a2232d77ea7271e",
+    "src/pn_delayed_cascade_receptor.py": "dcdf24f95136521c0c9682e216cee896dd61e7433c2c1a32ceba51dc4471363b",
+    "src/pn_electrical_output_brain.py": "5ece061a2d3e5cd99421fbbdf6c598eafd165490f3ea209be8883b85557f9431",
+    "src/pn_electrical_output_port.py": "cdb8b8fb453ba6dca63a82b8297c1db50e80a32d1ca80cc7efb7c980d8a8b8c0",
+    "src/pn_electrical_output_session.py": "8a991e846baf22d6b86a40281257df3e5318ffeddc07ce7a01a21495b771d09d",
+    "src/pn_electrical_output_source.py": "727332b2a23c223fb84d0b62ade96db954f3661b283d341c4de97f854b31a4ce",
+    "src/pn_electrical_refined_session.py": "b440c145b1329c10119133c8780aab9394aff7559a10c1f795a40714e39d7959",
+    "src/pn_fine_ionic.py": "4bdeed668d9dbced0127b62cc2f08702020499876defaa0656569e70262cd573",
+    "src/pn_frontier_trial.py": "f8edd139991ea1c9e825c6a493cd90714670f51cf45dddda88982fca714ebe0e",
+    "src/pn_general_output_brain.py": "c1fa9cc8093a30373b3dc5d69483a8f994a699ea2a9b1f7b2c2fc0f32bf815d4",
+    "src/pn_general_output_port.py": "64a9f729bced999e5188decf31095732aca7acab7fe6acc56f3e209b12bbe0a5",
+    "src/pn_general_output_session.py": "d835cd532bc5ee918df7c5c1abec01000d5e1f57c43aa74e84729de01ce05573",
+    "src/pn_general_output_source.py": "a5dcd528ede65e83f7312e6b3d84dce2d5f87261e48c401f70fc2f37c42dbb9a",
+    "src/pn_graph_elimination_backend.py": "b1fbee47e7a0a3a078c2763372ec2d9b5ebd16c27cb44684abf665ddffe0d336",
+    "src/pn_graph_solver_brain.py": "eb8e9887693e1f7acb6e37026c466135315568bfb8fce14f0016dbafad5b05f8",
+    "src/pn_graph_solver_session.py": "37a9529d0f4eeaab1e8376302d88bf59d05fc8c4ed52fad4dc4e0dc72c4441ba",
+    "src/pn_inhibitory_closure_brain.py": "ada1806e37949ad64f7e386f7f868d61fd0dd54af937f41548c3f306d4782f2e",
+    "src/pn_inhibitory_closure_session.py": "7a7b7da996d887dee8702a2b8b71c80c22f3b83ab4d71d49e26af5468e0fd2b0",
+    "src/pn_inhibitory_closure_source.py": "3c500ce1e4896084fcd1aa99bfb186432f0b5124b99b4bef5ec0b63af1ed5deb",
+    "src/pn_local_conductance.py": "851e770e86ec45485227f99f2c0d0677243b65c3a379f0af72e14bdb31092a16",
+    "src/pn_mass_backend.py": "f4249d7a81c5b9587c9a8bbf71437aa681a6aa58af4271bd3c4e37e9231d406e",
+    "src/pn_mass_calcium.py": "30bcf19e191a7841abca25ad1b25479ba8ec6bab2a51806b0ef51b356acb59d1",
+    "src/pn_mass_cns_brain.py": "d462d00cbbe019ca50fa235a13a8b7a274f17f6c1a284f70b77fa0cf516e18c7",
+    "src/pn_mass_cns_session.py": "cc220326125e27e10271fbe8590d766cbd33adaa4bed8e470f3fe2517af5036e",
+    "src/pn_mass_coupled_step.py": "3b5c1edd5abd6bc587a987367b9f63f8f268ff8c9cf15442d3bb2b0389bd80be",
+    "src/pn_mass_krylov_backend.py": "774bb08f51b531722cfe566d4b16b1c62e73620d283144f1eb46ab0adcda23dc",
+    "src/pn_mass_krylov_brain.py": "722549e7b667a3bba8649c666ce24b547afbaabf684b976077ce355102cd923e",
+    "src/pn_mass_krylov_session.py": "109558c08f565df39097a161d92e180afb66564fc7d5557adc398debe939786b",
+    "src/pn_mass_runtime.py": "f6ddf6dcbe03a66a949382724fa4b93ab67e36a3d109825e4c059741e40e7938",
+    "src/pn_mass_source_bridge.py": "516f2ca9a003f2b862395875406029e2cd7ece83b3fc9af7baa4e729c423661d",
+    "src/pn_online_cns_brain.py": "45683cd60b68a2518219e55ffe5f51ab146b2fba4a67a94b02cd13e6b27d1d8e",
+    "src/pn_online_cns_session.py": "27537d196d187a94c54dcf2d206a33d52022b4dba68a540e40d446e205b86c68",
+    "src/pn_online_orn_source.py": "164501a15740ac79bb3888a9a03c1ba28d7b7a2ac1325f58ba0a80d58b008f8f",
+    "src/pn_port_session.py": "fa582f680c696e9b197485b2a84ae7493254fb43b41b992d1fe02ff5b129af23",
+    "src/pn_prepared_kc_boundary.py": "25c9ae8011f10b6b612a8cbb2e6bb2270a3bb1117b68bbf5e2a2590dc12d3b7d",
+    "src/pn_reference_runtime.py": "76975779930e09f65b828471fa75aa4cd8f9f92c28a212f49553c9e17d0a407c",
+    "src/pn_site_kc_boundary.py": "28ecef1535fa67f923ffe285d4706d7d32b1de6db938889b034b4d7e81d3a619",
+    "src/pn_spatial_orn.py": "2c861b122cd10c4d378886ba6107dd52601843298a3daf85e408fa315ae1dc0a",
+    "src/pnkc_receptor_brain.py": "7e204d94fcd0a0297042a45f824b470534e6efe2efbaf7d259e93f654af5825d",
+    "src/pnkc_receptor_session.py": "cadbc2867f51d18def4a31f8fd5cbe28f76268d4d7ae491d05577665f2a9c558",
+    "src/precision_visuomotor_session.py": "0eda3e803a6a6f971c9d66d83d814581039dafd9f262ef947db225f16e0aac31",
+    "src/projection_parallel_brain.py": "796eab6a25c705608f03b28d77fb25804caa8f9a7dd41232599150445fbbb51a",
+    "src/projection_parallel_session.py": "1aa93a6a84ba041ded44faea4a54c16dddc6651682376e01c47a55f60dd975fb",
+    "src/prosthetic_olfactory_brain.py": "8fe472a5e4c2e69ec3de87daac16be60f8c9b9526fab3b3e8262f189af6eb2c6",
+    "src/prosthetic_olfactory_session.py": "58d037ebc92817456b9913ba291d55beb1b233b4a3418cb88572a6b99684cd2f",
+    "src/pvlp_adaptation_brain.py": "a90c83240b39fdf135423ae8990d0423f99d4cbc1e2aacc4821e6fa16e1cf7a7",
+    "src/pvlp_adaptation_session.py": "0c8494b3ee2714ac65d371f51c943fb98be002e164892fba61aac18f8bac9cb4",
+    "src/pvlp_servo_session.py": "c88e91dad29886987dfa11a617538a89d8c551b6769306197f13d0dc694ad509",
+    "src/r8_mi4_pulse_session.py": "55f935958433a9688d0507d39425cf21bd310cfde32f92e09d8966d7cedce8f6",
+    "src/r8_mi4_visual_brain.py": "791430f40e1251b1672a94bafe1dd70e9c37cd2395b5c7af82741c6034525b1b",
+    "src/receptor_visual_brain.py": "2be6d50d848b990f540bc63480fa438ae5df7c7bac9f831f9e84bf8c1f06ec39",
+    "src/refined_contact_body.py": "120394fbb927310145934628438571a8b23186574195542cf4270cd96f389941",
+    "src/retinal_live_session.py": "20ff7808d0fb9aa619c17b31ab66325245609273a5826114eafa62359886f189",
+    "src/retinal_motion_session.py": "f5c52ff04f42c337d6eb41d338a8c33579f5fd0f9269c732e0deea37f184c4d8",
+    "src/retinal_phototransduction.py": "2e8489c5dcfbb8ec49b055e5863e6da1e014de968bc551ebe9ec3d44bf977ccb",
+    "src/retinal_pulse_world.py": "fa1a3051e905e7cc3eb9469f88ea2f3059370abdff07a024aaceebf1edfe0a1c",
+    "src/retinal_transduction_brain.py": "8400c52cb3e8618d92b6aebd04160fbf660f32be83c39b0f5de37e60065c4476",
+    "src/retinal_world.py": "cd83dfcafaf30c417aaf673807465c9d590538e8e9fc352029ccb02794775d63",
+    "src/rf_tarsal_body.py": "e833b39e6f9a5ff02db7d0368608c757e155e763a004c58d7875caa9a177a21b",
+    "src/rf_tarsal_identity_session.py": "cc35d7058c3ef475505d1706904522f7d0cbe5c2739b8f283b07fca55b6ca3e9",
+    "src/rf_tarsal_session.py": "44bebecd1015669bef6639421460ec352caf0f01afb4e903b29eb3297e7b30c2",
+    "src/rf_tarsal_storage.py": "82a1318c8b47aaa821dd26b9ea87ef4053198469b466687edcdefaf14a58576d",
+    "src/rh_tarsal_body.py": "c810515dbd9a280b0160f987f7143f6ed170a9d9cdbe82970df4548a2ac0887c",
+    "src/rh_tarsal_session.py": "4b7a91509774eb75ebc1be5d5915ac43af39cdaea3273b57ad464cf3637ba51f",
+    "src/rh_tarsal_storage.py": "a559cc72e9c73f113d14da1f5d6f3907cb1de747e4c13fb810563245e21ba25c",
+    "src/sensorimotor_contact_session.py": "cb677d6e75617f378286df74d933cdcf23c5893ab33114f917b51fa829376e4f",
+    "src/serial_ctr_body.py": "66ce40e77d56a561987f79323af7df7ffe99a748a4b57304ed8eebc85b7d6f31",
+    "src/serial_ctr_session.py": "d841b0494f41c4763e31b947a1e478fe6752fb5ef0bb79700a138de2aa289eca",
+    "src/serial_ctr_storage.py": "041f172b7685b25357ad9bf4110ce792113a672384105a296d3ccfaf01ee8945",
+    "src/session_io.py": "39f2e505a0acd7218a48c2bc4659a613c71cbbb0129e89208d20194b8b6b2172",
+    "src/snapshot_execution_brain.py": "4b725905fa3317d9c8604ea2134510df01b6cb9d7e6fee446be91201c91e10e9",
+    "src/snapshot_execution_session.py": "eb532c890699f89a6966bd426a36a0e09b8feacc2a15b7a7e0638dc314c5a170",
+    "src/synaptic_event_filter.py": "7a5d935dd5a222bf556c51a2bdcad38661296a75450681c140656f5954cf4064",
+    "src/synaptic_visual_brain.py": "c637b1828a173a0a2b175d0e92bba2538d4fc62d4e079c065b6f5afda13184cb",
+    "src/t4_gaba_brain.py": "08496a69ae70467a591530a8330eab21fb8664a3582e0eaab1f95d5fc6b51bb2",
+    "src/t4_gaba_live_session.py": "9574c9ff89ec5c430968fe98e3014566430d6a857acdf6c0109e4e88942085a0",
+    "src/trochanter_body.py": "7533155234e3cbe81a3bf231953a4083d22d64c69c14b1a04f6bbc30ef187b85",
+    "src/trochanter_session.py": "8938eb76c9774b78c937ad219f9dd1a5d5e8c6899147ef9d16d1f32185fc8a37",
+    "src/trochanter_storage.py": "0ea1ad489ac403abf0fe9a8e61579226bfef48f944c6ba9f0c75b225a377f056",
+    "src/visual_challenge_world.py": "b57f11c30e7b3fd59115f8dc6b32b7e062c9491151b60e08d59af26d9a17b88c",
+    "src/visual_descending_session.py": "28f24341ba0421a32d214cbbbb625e1908508db9c02d19c22da0b319c39abba3",
+    "src/visual_receptor_session.py": "b9ef955e61b0e01178c1b93e8593fa433eea59ab840900ab267cfd8a65a3f72c",
+    "src/visual_sparse_kernel.py": "0b673cfa092fbfc8002e494060679ee673d1a7fd71e19abe2c660df943be63ca",
+    "src/visual_transfer_world.py": "622198a60b9c404fa34f5bfb98256b14bfb9dbb617442957fe37fb9c12526d22",
+    "src/visual_transmission_session.py": "f1a8746020904cdcd8ab3429768d8783db7d87ad13fa231b4fa04d4ad2a4d137",
+    "src/visuomotor_session.py": "6e7cbcb9287a9bf6837b292e170ba929280e8c4ca48117bd831f78dedd8800e0",
+    "src/walking_body_checkpoint.py": "7f88575736c24c0ea2f8bffea6aa9b2f6c2d46ee9403297af91a5c1c40d87422",
+    "work/motor13_20260922/axon_gpu.py": "b761fce5eef35162b343b750233a46d0e700c1a82fe73ff736430763cc87c7d3",
+    "work/motor13_20260922/block_midpoint.py": "7bd36d2586ac5657f0c35eea457ba172fceafccca9a9d8a25314ec498608a90b",
+    "work/motor13_20260922/kc_adaptive.py": "5e0a51523ec28629f368c4e75dc1dfd3235ef5057b4e3f7a364066543e702d68",
+    "work/motor13_20260922/kc_fused_step.py": "33e9ce126131e6a6f91249c71bd5aec795bdac1c19cf46ca16f6269dee623a76",
+    "work/motor13_20260922/kc_fused_warp.py": "b68af327632e836112563f72d0f8b8605353a9c7b273f43a84da95db23e197bc",
+    "work/motor13_20260922/kc_trial_graph.py": "aa6fb0dc4d37b98e6326b78af3808f6be1e10c29eb481a7a209588c5fe5170ef",
+    "work/motor13_20260922/waveform_coupling.py": "eb41a2c74eba9d7a49dff6940ff6c58b8634fd6072dfcf62d70c7001c00ace02",
+    "work/motor14_20260922/motor_runtime.py": "7116421b6a4848e4120950e8d3384ffea5e3a8bff39c030f306b202184c48bc3",
+    "work/stage2_contact_cns_20260915/contact_runtime.py": "8d5a14b8efd3b546d7730cef8a32f00f8cb89ffd581195de9dc2f94a7eef0af9",
+    "work/stage2_prosthesis_cns_20260915/runtime.py": "c784019aab297d430d9fa4627c72087c81c03bd7762909d01ac9b7a05490835b",
+    "work/stage3_static_lateral_field_20260916/static_field.py": "21939eed9b465368666dd95809290c2280154285db83f91754de798b3241d4e6",
+    "work/stage4_antennal_contact_adapter_20260915/antennal_runtime.py": "10dc2c80bc520f18fc59779ae50b5d8fe0f53faf15808a39fe1f13b83dfbe4e7",
+    "work/stage4_antennal_contact_adapter_20260915/antennal_world.py": "d627bb7caa3f3ae24f4d6a632b25fc74e547763a9a476ffebd87da8490d40cb5"
+  },
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission."
+}

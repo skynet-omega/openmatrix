@@ -1,0 +1,322 @@
+{
+  "schema": "matrix_workflow_v1",
+  "id": "pn-frontier-trial",
+  "title": "PN: cualificaci\u00f3n temporal e intervenci\u00f3n convexa con parada expl\u00edcita",
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "steps": [
+    {
+      "id": "live_L",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz"
+      },
+      "parameters": {
+        "arm": "live_L"
+      }
+    },
+    {
+      "id": "live_R",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "live_R"
+      }
+    },
+    {
+      "id": "self_L",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "self_L"
+      }
+    },
+    {
+      "id": "self_R",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "gate_self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "self_R"
+      }
+    },
+    {
+      "id": "common_L",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "gate_self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        },
+        "gate_self_R": {
+          "step": "self_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "common_L"
+      }
+    },
+    {
+      "id": "common_R",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "gate_self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        },
+        "gate_self_R": {
+          "step": "self_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "common_R"
+      }
+    },
+    {
+      "id": "dose_L",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "gate_self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        },
+        "gate_self_R": {
+          "step": "self_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "dose_L"
+      }
+    },
+    {
+      "id": "dose_R",
+      "component": "pn_frontier_trial",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "source_bundle": "work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+        "loader": "campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+        "observer": "campanas/etapa45_senal_natural_20260928_57/observe57.py",
+        "spatial_owner": "campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+        "air_owner": "campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+        "PN_observer": "campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+        "writer_source": "campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "tape_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "reference_L": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "tape_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "reference_R": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+        "gate_live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "gate_live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "gate_self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        },
+        "gate_self_R": {
+          "step": "self_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {
+        "arm": "dose_R"
+      }
+    },
+    {
+      "id": "comparison",
+      "component": "pn_frontier_comparison",
+      "inputs": {
+        "source": "src/pn_frontier_trial.py",
+        "contract": "config/pn_frontier_trial_57.json",
+        "live_L": {
+          "step": "live_L",
+          "artifact": "assessment.json"
+        },
+        "live_R": {
+          "step": "live_R",
+          "artifact": "assessment.json"
+        },
+        "self_L": {
+          "step": "self_L",
+          "artifact": "assessment.json"
+        },
+        "self_R": {
+          "step": "self_R",
+          "artifact": "assessment.json"
+        },
+        "common_L": {
+          "step": "common_L",
+          "artifact": "assessment.json"
+        },
+        "common_R": {
+          "step": "common_R",
+          "artifact": "assessment.json"
+        },
+        "dose_L": {
+          "step": "dose_L",
+          "artifact": "assessment.json"
+        },
+        "dose_R": {
+          "step": "dose_R",
+          "artifact": "assessment.json"
+        }
+      },
+      "parameters": {}
+    }
+  ],
+  "evidence_record": "work/pn_frontier_causal_20260928"
+}

@@ -1,0 +1,130 @@
+{
+  "workflow": "pn-frontier-trial",
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "qualified_CNS": false,
+  "steps": {
+    "live_L": {
+      "key": "3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 60.793374166009016,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54/attempts/259a11af15344b279e620bf9fb939ea3",
+      "metrics": {
+        "new_CNS_ms": 12,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "ed86c559e7b84f51bf49f758d48f7ff3"
+    },
+    "live_R": {
+      "key": "af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 58.82539138098946,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917/attempts/5956b2e2957549819d0ccac82c9c38d1",
+      "metrics": {
+        "new_CNS_ms": 12,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "1860231fef8b4c4ba38ded30ce5dab4c"
+    },
+    "self_L": {
+      "key": "aca5749d741907eeacc7a225a7b8ff9d9c9f7bc8f41e1c75cd27de0589721fa3",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 171.3909512439859,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/aca5749d741907eeacc7a225a7b8ff9d9c9f7bc8f41e1c75cd27de0589721fa3/attempts/fb70572701ea41509ada9518d9c7c427",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "87437c90495143eba27e40f72467856c"
+    },
+    "self_R": {
+      "key": "3e48d5728c3e283ba3ac4d60f4477da8edf6a1c52aaed47b63ce6e1590742f0d",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 172.70893353101565,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3e48d5728c3e283ba3ac4d60f4477da8edf6a1c52aaed47b63ce6e1590742f0d/attempts/e20b60af6eaa4a038d247d209e7dc0b8",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "59b7daaae8a3486fbe0ff36222b279f6"
+    },
+    "common_L": {
+      "key": "4ce61354aa9d611613ce0d55a605487b93a78368a3d88d7adfca6f189c86d099",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 176.5263487820048,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/4ce61354aa9d611613ce0d55a605487b93a78368a3d88d7adfca6f189c86d099/attempts/c92e6289d6f54472b64eefc1d38bdd29",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "e21f570d00044b56afdd43ea93567ce6"
+    },
+    "common_R": {
+      "key": "34c8291d7ce292f06c1d3df035dc68c997d76e7790119ddfcd1d6e78c7aedb57",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 175.76304802304367,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/34c8291d7ce292f06c1d3df035dc68c997d76e7790119ddfcd1d6e78c7aedb57/attempts/3679e4e76cc5402bb48a9dbe453ab8a9",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "6d4c38b29d814bffbeca66579545db5a"
+    },
+    "dose_L": {
+      "key": "813b08dae682c636939895d59e182f959227e7df2ac894134c6b16d604fa610b",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 177.8000520610367,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/813b08dae682c636939895d59e182f959227e7df2ac894134c6b16d604fa610b/attempts/8741c68a62674e8c9012cd0c7b0604f2",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "700ba58e96fb4654825880387b7bc7d4"
+    },
+    "dose_R": {
+      "key": "426006c713d76ce1eb4419bafdd179ea20cc9728026a93e4f8ad205059a97b21",
+      "component": "pn_frontier_trial",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 177.3116973770084,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/426006c713d76ce1eb4419bafdd179ea20cc9728026a93e4f8ad205059a97b21/attempts/e6b96f364b164564b01aba9c250a59e0",
+      "metrics": {
+        "new_CNS_ms": 89,
+        "gate_pass": 1
+      },
+      "tracking_run_id": "c908ac6ca353472aa975a7db623b09bf"
+    },
+    "comparison": {
+      "key": "58a51ddf6bf7437175a6b8e135a0de8c4dec07c8b74f9c45b54a90357d6ae039",
+      "component": "pn_frontier_comparison",
+      "status": "COMPLETE",
+      "reused": false,
+      "seconds": 0.08932800497859716,
+      "output_dir": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/58a51ddf6bf7437175a6b8e135a0de8c4dec07c8b74f9c45b54a90357d6ae039/attempts/0b9b0ec1084d4dbd97dc507699d996bc",
+      "metrics": {
+        "instrument_valid": 1,
+        "new_CNS_ms": 558,
+        "material_partial_effect": 1
+      },
+      "tracking_run_id": "ad98c8fb97784c2eb1ab0461ec4e2779"
+    }
+  },
+  "laboratory_index": {
+    "status": "indexed",
+    "record": "work/pn_frontier_causal_20260928",
+    "scientific_admission": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "component": "pn_frontier_trial",
+  "inputs": {
+    "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/src/pn_frontier_trial.py",
+    "contract": "/home/daroch/AXIOMA_FLYWIRE/matrix/config/pn_frontier_trial_57.json",
+    "source_bundle": "/home/daroch/AXIOMA_FLYWIRE/matrix/work/pn_frontier_causal_20260928/SOURCE_BUNDLE.json",
+    "loader": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_operands_20260927_49/aporte_motor/resume49.py",
+    "observer": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/observe57.py",
+    "spatial_owner": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_fuente_cuerpo_20260928_54/repair02/continuation54.py",
+    "air_owner": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_reparacion_observada_20260927_52/pilot52_owners.py",
+    "PN_observer": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_causal_20260928_55/pn_probe55.py",
+    "writer_source": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_transferencia_temporal_20260928_56/hold_probe56.py",
+    "support": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+    "tape_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+    "reference_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+    "tape_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+    "reference_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz",
+    "gate_live_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3b3d8a3c9ca17834e2b94ee7eb0e64785935adc180a1934f64c2f70bc9567a54/attempts/259a11af15344b279e620bf9fb939ea3/assessment.json",
+    "gate_live_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/af694be67017178702d25da4dda89e1bf04e83eeaf91e20502115735f9369917/attempts/5956b2e2957549819d0ccac82c9c38d1/assessment.json",
+    "gate_self_L": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/aca5749d741907eeacc7a225a7b8ff9d9c9f7bc8f41e1c75cd27de0589721fa3/attempts/fb70572701ea41509ada9518d9c7c427/assessment.json",
+    "gate_self_R": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3e48d5728c3e283ba3ac4d60f4477da8edf6a1c52aaed47b63ce6e1590742f0d/attempts/e20b60af6eaa4a038d247d209e7dc0b8/assessment.json"
+  },
+  "parameters": {
+    "arm": "common_L"
+  }
+}

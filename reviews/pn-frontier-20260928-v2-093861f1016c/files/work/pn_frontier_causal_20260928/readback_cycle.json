@@ -1,0 +1,72 @@
+{
+  "id": "78bef0fef38d4b76b926e1be407f34ef",
+  "state": {
+    "id": "78bef0fef38d4b76b926e1be407f34ef",
+    "status": "DECIDED",
+    "outcome": "SUPPORTED",
+    "finished": "2026-09-28T19:07:15.825577+00:00",
+    "decision_sha256": "c7c7aeb85a7ffe295475cbc7bb798ed8f0950cd97a72c561ba33c3bfc4125e3a",
+    "execution_sha256": "9ccaa98e49364323225172334235bec6d7d1e58892bad1c6bdd38eaf7818d73e"
+  },
+  "question": "¿Aporta materialmente el contraste de PN genérica al giro bajo un instrumento temporal cualificado y control de cantidad?",
+  "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+  "plan": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/78bef0fef38d4b76b926e1be407f34ef/plan.json",
+  "context": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/78bef0fef38d4b76b926e1be407f34ef/context.json",
+  "brief": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/decisions/78bef0fef38d4b76b926e1be407f34ef/brief.json",
+  "decision": {
+    "outcome": "SUPPORTED",
+    "validity": [
+      {
+        "rule": {
+          "step": "raw",
+          "artifact": "assessment.json",
+          "field": [
+            "instrument_valid"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": true,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3fe106aa962ad678b82dd5c3b64dfd4200fc15c7878a97e4e57c026170871b69/attempts/0033cd07f12c4bf199314325bbe81d2f/assessment.json"
+      }
+    ],
+    "success": [
+      {
+        "rule": {
+          "step": "raw",
+          "artifact": "assessment.json",
+          "field": [
+            "material_partial_effect"
+          ],
+          "op": "eq",
+          "value": true
+        },
+        "available": true,
+        "value": true,
+        "passed": true,
+        "source": "/home/daroch/AXIOMA_FLYWIRE/matrix/runs/workbench/units/3fe106aa962ad678b82dd5c3b64dfd4200fc15c7878a97e4e57c026170871b69/attempts/0033cd07f12c4bf199314325bbe81d2f/assessment.json"
+      }
+    ],
+    "measurement_status": "assessed_under_declared_rules",
+    "schema": "matrix_decision_outcome_v1",
+    "next_action": "Retain partial model-mediated effect only. Revisit natural orientation and initiation; new preparations needed for generalization. No stage promotion.",
+    "qualified_CNS": false,
+    "stage_admission": false,
+    "generated_from": "frozen declared criteria; not an independent evaluator",
+    "id": "78bef0fef38d4b76b926e1be407f34ef",
+    "completed": "2026-09-28T19:07:15.825577+00:00",
+    "question": "¿Aporta materialmente el contraste de PN genérica al giro bajo un instrumento temporal cualificado y control de cantidad?",
+    "stage": "4",
+    "scope": "One exposed48/sham preparation; partial generic PN output intervention with original specialized routes live. Held first-RHS per1ms is not natural replay. Scalar caps*q control redistributes bounded headroom, not direction-pure. No navigation, generalization, physiology or stage admission.",
+    "change": "Retrospective explicit-array readback of the already completed frozen558ms trial. All scientific thresholds unchanged; outputs exposed; no confirmation/generalization claim.",
+    "plan_sha256": "33c58c6f24bd7ec07211551b22dfaf9809bf65aa849b961cc761d38ee70dabd9",
+    "execution_sha256": "9ccaa98e49364323225172334235bec6d7d1e58892bad1c6bdd38eaf7818d73e",
+    "reused_steps": [
+      "raw"
+    ],
+    "qualification": "declared diagnostic criteria only; not automatic biological or CNS admission"
+  },
+  "cycle_reused": false
+}

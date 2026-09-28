@@ -1,0 +1,28 @@
+{
+  "schema": "matrix_signal_contrast_preflight_v1",
+  "quantity": "PN_generic_CSR_release",
+  "unit": "dimensionless",
+  "phase": "first_and_last_RHS_in_committed_1ms_bin",
+  "full_RHS_tape_available": false,
+  "domain": [
+    0,
+    1
+  ],
+  "duration_ms": 384,
+  "identities": 686,
+  "start_ns": 47486000000,
+  "bindings": {
+    "support": "449f2e56c758e91a7ae6cb9577627b2ca7b2c927ac6cb48976d27d119bf14709",
+    "domain_source": "87c8ac15efa9075e6a270641359174dbee098b6d48acd68702db13c53b21d801",
+    "none": "1424438f9f362f9c0c9e67bc9b848f7b4c56691b9f5c44492d12cd73e3bf582c",
+    "none_identity": "d0f63937fe98865914f3db52b9a9786078a8af6c4c21b637f8321238d7f3df5f",
+    "none_clock": "caf8187abc5ef0ef46af98bc7f61e15ee814274bbe031c1965a75a07fe96c156",
+    "L": "3e18c0a809a4e98b84b0cf979b57f0fb3ce0368c9a93540ffcd2b13bd136f27e",
+    "L_identity": "378cccce5c1b6aa5b6797b53777fbd2c42dd52f8fbda62cc921ec4b5ee0e8788",
+    "L_clock": "73fb6aaf1a3ccc0bf3d30b1f8415ae68ad94ad03507971034d30c8bcec365028",
+    "R": "39abb91d42c188c9e5038ddb081d7dab4c63ff65c3749bc2969ab9c276b7837d",
+    "R_identity": "84b000b9688680103d9855faff9ce491a32d65e5012384100f2732e3d53e6d98",
+    "R_clock": "77fbda127ee350f40cb8c1e2fec86809a4c4439f2036771ed2d238d518792327"
+  },
+  "scope": "Exposed57 PN generic output only. Domain/coverage qualification; no causal effect, stage admission, predicted trajectory, or physiology calibration."
+}

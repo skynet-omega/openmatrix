@@ -1,0 +1,29 @@
+{
+  "schema": "matrix_workflow_v1",
+  "id": "pn-frontier-preflight",
+  "title": "PN: dominio y cobertura antes de intervenci\u00f3n com\u00fan/lateral",
+  "scope": "Exposed57 PN generic output only. Domain/coverage qualification; no causal effect, stage admission, predicted trajectory, or physiology calibration.",
+  "steps": [
+    {
+      "id": "preflight",
+      "component": "signal_contrast_preflight",
+      "inputs": {
+        "source": "src/signal_contrast_preflight.py",
+        "contract": "config/signal_contrast_preflight_57.json",
+        "support": "campanas/etapa45_senal_natural_20260928_57/reference/TERMINALS.npz",
+        "domain_source": "motor_nuevo/full_pipeline_review_20260925_12/engine/fast_fp32_coefficient.cu",
+        "none": "campanas/etapa45_senal_natural_20260928_57/natural_none/PN_consumed.npz",
+        "none_identity": "campanas/etapa45_senal_natural_20260928_57/natural_none/neural_and_inputs.npz",
+        "none_clock": "campanas/etapa45_senal_natural_20260928_57/natural_none/traces.npz",
+        "L": "campanas/etapa45_senal_natural_20260928_57/natural_L/PN_consumed.npz",
+        "L_identity": "campanas/etapa45_senal_natural_20260928_57/natural_L/neural_and_inputs.npz",
+        "L_clock": "campanas/etapa45_senal_natural_20260928_57/natural_L/traces.npz",
+        "R": "campanas/etapa45_senal_natural_20260928_57/natural_R/PN_consumed.npz",
+        "R_identity": "campanas/etapa45_senal_natural_20260928_57/natural_R/neural_and_inputs.npz",
+        "R_clock": "campanas/etapa45_senal_natural_20260928_57/natural_R/traces.npz"
+      },
+      "parameters": {}
+    }
+  ],
+  "evidence_record": "work/pn_frontier_causal_20260928"
+}
